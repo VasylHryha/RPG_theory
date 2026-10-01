@@ -1,0 +1,102 @@
+--- prior/src/lib/content.ts
++++ current/src/lib/content.ts
+@@ -22,7 +22,12 @@
+   return Date.parse(value);
+ }
+ function index<T>(values: T[], key: (value: T) => string, code = 'DUPLICATE_ID') { const result = new Map<string,T>(); for (const value of values) { const id = key(value); if (result.has(id)) fail(code, id); result.set(id,value); } return result; }
+-function referenceIdentity(url: string) { const parsed=new URL(url);return parsed.hostname==='doi.org'?`https://doi.org/${decodeURIComponent(parsed.pathname.slice(1)).toLowerCase().replace(/\/$/,'')}`:parsed.href.replace(/\/$/,''); }
++function referenceIdentity(url: string) {
++  const parsed=new URL(url);
++  // DOI identifiers have their own normalization policy. Other destinations
++  // retain the complete URL path: a PDF and a path ending in .pdf/ differ.
++  return parsed.hostname==='doi.org'?`https://doi.org/${decodeURIComponent(parsed.pathname.slice(1)).toLowerCase().replace(/\/$/,'')}`:parsed.href;
++}
+ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; references: unknown[]; aliases: unknown[]; reviews: unknown[]; evidence?: unknown[]; record: AdmissionRecord; root?: string }): Corpus {
+   const root = input.root ?? process.cwd(); const admission = qualifyCurrentSource(input.record, root);
+   const entries = index(input.entries.map(e => entrySchema.parse(e)), e => e.id);
+--- prior/tests/content/m1.test.ts
++++ current/tests/content/m1.test.ts
+@@ -47,6 +47,18 @@
+  doi.url=doi.url.replace('https://doi.org/','https://doi.org/').toUpperCase().replace('HTTPS://DOI.ORG/','https://doi.org/');
+  assert.doesNotThrow(()=>validateCorpus(j));
+ });
++test('non-DOI citation identity preserves added or removed trailing path separators',()=>{
++ for(const [id,change] of [['BIB-0023',(url:string)=>url+'/'],['BIB-0020',(url:string)=>url.replace(/\/$/,'')]] as const) {
++  const i=input(),ref=i.references.find(r=>r.id===id)!;
++  ref.url=change(ref.url);ref.identity=ref.url;
++  assert.throws(()=>validateCorpus(i),/CITATION_ALIAS_IDENTITY_MISMATCH/,id);
++ }
++ // An institutional path with and without a slash may identify distinct
++ // resources. Do not fabricate a duplicate-identity collision between them.
++ const i=input(),original=i.references.find(r=>r.id==='BIB-0023')!;
++ i.references.push({...original,id:'BIB-9999',url:original.url+'/',identity:original.url+'/'});
++ assert.doesNotThrow(()=>validateCorpus(i));
++});
+ test('missing or cyclic semantic dependency fails; related feedback does not create proof cycles',()=>{
+  const i=input();i.entries[0].dependsOn=['UT-D9999'];assert.throws(()=>validateCorpus(i),/UNKNOWN_DEPENDENCY/);
+  const j=input();j.entries.find(e=>e.id==='UT-D01')!.dependsOn=['UT-D02'];j.entries.find(e=>e.id==='UT-D02')!.dependsOn=['UT-D01'];assert.throws(()=>validateCorpus(j),/DEPENDENCY_CYCLE/);
+--- prior/research/publication/references.yaml
++++ current/research/publication/references.yaml
+@@ -183,7 +183,7 @@
+   },
+   {
+     "id": "BIB-0011",
+-    "identity": "https://science.nasa.gov/universe/overview",
++    "identity": "https://science.nasa.gov/universe/overview/",
+     "title": "- NASA, Overview — Big Bang, nucleosynthesis, recombination, first stars",
+     "url": "https://science.nasa.gov/universe/overview/",
+     "sourceRefs": [
+@@ -195,7 +195,7 @@
+   },
+   {
+     "id": "BIB-0012",
+-    "identity": "https://home.web.cern.ch/science/physics/early-universe",
++    "identity": "https://home.web.cern.ch/science/physics/early-universe/",
+     "title": "- CERN, The early universe",
+     "url": "https://home.web.cern.ch/science/physics/early-universe/",
+     "sourceRefs": [
+@@ -207,7 +207,7 @@
+   },
+   {
+     "id": "BIB-0013",
+-    "identity": "https://astrobiology.nasa.gov/news/top-ten-discoveries-from-sofia",
++    "identity": "https://astrobiology.nasa.gov/news/top-ten-discoveries-from-sofia/",
+     "title": "- NASA Astrobiology, The Universe's first type of molecule",
+     "url": "https://astrobiology.nasa.gov/news/top-ten-discoveries-from-sofia/",
+     "sourceRefs": [
+@@ -219,7 +219,7 @@
+   },
+   {
+     "id": "BIB-0014",
+-    "identity": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-were-the-first-stars-like",
++    "identity": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-were-the-first-stars-like/",
+     "title": "- NASA Webb, What were the first stars like?",
+     "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-were-the-first-stars-like/",
+     "sourceRefs": [
+@@ -352,7 +352,7 @@
+   },
+   {
+     "id": "BIB-0020",
+-    "identity": "https://home.cern/science/physics/origins-brout-englert-higgs-mechanism",
++    "identity": "https://home.cern/science/physics/origins-brout-englert-higgs-mechanism/",
+     "title": "The origins of the Brout–Englert–Higgs mechanism",
+     "url": "https://home.cern/science/physics/origins-brout-englert-higgs-mechanism/",
+     "sourceRefs": [
+@@ -370,7 +370,7 @@
+   },
+   {
+     "id": "BIB-0021",
+-    "identity": "https://home.cern/science/physics/higgs-boson/what",
++    "identity": "https://home.cern/science/physics/higgs-boson/what/",
+     "title": "What’s so special about the Higgs boson?",
+     "url": "https://home.cern/science/physics/higgs-boson/what/",
+     "sourceRefs": [
+@@ -631,7 +631,7 @@
+   },
+   {
+     "id": "BIB-0033",
+-    "identity": "https://pubmed.ncbi.nlm.nih.gov/28386026",
++    "identity": "https://pubmed.ncbi.nlm.nih.gov/28386026/",
+     "title": "Coupling between distant biofilms and emergence of nutrient time-sharing",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28386026/",
+     "sourceRefs": [

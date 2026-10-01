@@ -1,0 +1,30 @@
+---
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import RecordStatus from './RecordStatus.astro';
+import { renderEntry } from '../lib/content';
+import { activePublication } from '../lib/publication';
+import { activeConfig } from '../lib/site-config';
+import { withBase } from '../lib/urls';
+import 'katex/dist/katex.min.css';
+const { id } = Astro.props as { id: string };
+const { corpus,entries,references } = activePublication();
+const entry = entries.find(e=>e.id===id);
+if (!entry) throw new Error(`Entry not selected: ${id}`);
+const html = await renderEntry(corpus,entry,activeConfig().basePath);
+const url=(route:string)=>withBase(route,activeConfig().basePath);
+---
+<ReadingLayout title={entry.title} description={entry.description} route={entry.route}>
+  <article class="article shell"><header><p class="eyebrow">{entry.id} · Revision {entry.revision}</p><h1>{entry.title}</h1><p class="article-lede">{entry.description}</p></header>
+  <RecordStatus entry={entry} corpus={corpus} />
+  {entry.publicationState==='superseded' && <aside class="prose"><h2>Historical record · corrected</h2><p>This earlier record is retained for its correction history. Change record: {entry.correctionRef}.</p>{entry.supersededBy && <a href={url(corpus.entries.get(entry.supersededBy)!.route)}>Read replacement {entry.supersededBy}</a>}</aside>}
+  {entry.publicationState==='withdrawn' && <aside class="prose"><h2>Withdrawn record</h2><p>{entry.withdrawalReason} · Change record: {entry.correctionRef}</p></aside>}
+  <div class="prose" data-canonical-body={entry.id} set:html={html} />
+  {entry.plainLanguage && <section class="prose"><h2>In plain language · review pending</h2><p>{entry.plainLanguage}</p></section>}
+  <section class="prose"><h2>Scope and source</h2><p>{entry.scope}</p>{entry.limits && <p>{entry.limits}</p>}
+    {entry.sourceBinding && <p class="binding-receipt">Extracted from {corpus.sources.get(entry.sourceBinding.sourceKey)?.path.split('/').pop()}, lines {entry.sourceBinding.startLine}–{entry.sourceBinding.endLine}. Raw excerpt SHA-256: <code>{entry.sourceBinding.excerptSha256}</code></p>}
+    <p>{entry.sourceMapping}</p>
+    {entry.dependsOn.length>0 && <><h3>Depends on</h3><ul>{entry.dependsOn.map(id=><li><a href={url(corpus.entries.get(id)!.route)}>{id} — {corpus.entries.get(id)!.title}</a></li>)}</ul></>}
+    {entry.bibRefs.length>0 && <><h3>References reported by this source</h3><ul>{entry.bibRefs.map(id=><li><a href={url('/references/')+'#'+id}>{references.find(r=>r.id===id)!.title}</a></li>)}</ul></>}
+    {entry.id==='DOC-STATUS' && <p><a href={url('/research-status/proof-matrix/')}>Read the claim and evidence matrix</a></p>}
+  </section></article>
+</ReadingLayout>

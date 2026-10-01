@@ -1,0 +1,27 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m0-review --evidence-dir docs/evidence/m0/review
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+16:19:44 [content] Syncing content
+16:19:44 [content] Astro config changed
+16:19:44 [content] Clearing content store
+16:19:44 [content] Synced content
+16:19:44 [types] Generated 674ms
+16:19:44 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+[96mscripts/audit-output.ts[0m:[93m49[0m:[93m108[0m - [91merror[0m[90m ts(2339): [0mProperty 'attribs' does not exist on type 'AnyNode'.
+  Property 'attribs' does not exist on type 'Document'.
+
+[7m49[0m     if ($('script,iframe,object,embed,foreignObject').length || $('*').toArray().some(el => Object.keys(el.attribs ?? {}).some(key => /^on/i.test(key)))) throw new ContractError('ACTIVE_OUTPUT', file);
+[7m  [0m [91m                                                                                                           ~~~~~~~[0m
+
+Result (28 files): 
+- 1 error
+- 0 warnings
+- 0 hints
+

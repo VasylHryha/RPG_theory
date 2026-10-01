@@ -1,0 +1,31 @@
+---
+import { getEntry, render } from 'astro:content';
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import OrganizationDiagram from '../components/OrganizationDiagram.astro';
+import { activeConfig } from '../lib/site-config';
+import { withBase } from '../lib/urls';
+const entry = await getEntry('pages', 'home');
+if (!entry) throw new Error('DOC-HOME missing');
+const { Content } = await render(entry);
+const start = withBase('/start/', activeConfig().basePath);
+---
+<ReadingLayout title={entry.data.title} description={entry.data.description} route="/">
+  <section class="hero shell" aria-labelledby="research-question">
+    <div><p class="eyebrow">A question about organization</p>
+      <h1 id="research-question">How does a collection<br class="desktop-break" /> become a <em>whole?</em></h1>
+      <p class="hero-lede">Parts. Relationships. Activity.<br />And the possibilities they create together.</p>
+      <a class="button" href={start}>Start with the idea <span aria-hidden="true">→</span></a>
+      <p class="reading-note">A short introduction · No technical background needed</p>
+    </div><OrganizationDiagram />
+  </section>
+  <section class="reading-section shell"><div class="margin-label"><span>01 / The idea</span><p>From something familiar<br />to a research question.</p></div><div class="prose"><Content /></div></section>
+  <section class="pathways shell" aria-labelledby="explore-title">
+    <div class="section-heading"><p class="eyebrow">Choose your depth</p><h2 id="explore-title">Follow the question.</h2></div>
+    <div class="pathway-grid">
+      <a class="pathway" href={start}><span class="pathway-number">01</span><h3>Start simply <span aria-hidden="true">↗</span></h3><p>Move from parts and patterns to the idea of further organization.</p><span class="pathway-state">Read the introduction</span></a>
+      <div class="pathway"><span class="pathway-number">02</span><h3>Read the framework</h3><p>Precise definitions, assumptions, and the boundary between core and extension.</p><span class="pathway-state">Source available · Website section in preparation</span></div>
+      <div class="pathway"><span class="pathway-number">03</span><h3>Explore the documents</h3><p>Mathematics, evidence, open questions, and the history of the research.</p><span class="pathway-state">Source available · Website section in preparation</span></div>
+    </div>
+  </section>
+  <section class="open-question shell"><p class="eyebrow">The work ahead</p><h2>A framework to investigate.</h2><p>This preview introduces the question. The current research keeps definitions, evidence in particular systems, and open extensions distinct. A universal criterion and new predictions remain research goals.</p></section>
+</ReadingLayout>

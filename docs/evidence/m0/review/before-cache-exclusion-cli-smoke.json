@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "receipts": [
+    {
+      "command": "npm run build -- --mode preview --output dist/m0-review/preview-root",
+      "exitCode": 0,
+      "output": "\n> unity-theory@0.0.1 build\n> tsx scripts/build.ts --mode preview --output dist/m0-review/preview-root\n\n17:54:55 [content] Syncing content\n17:54:55 [content] Astro config changed\n17:54:55 [content] Clearing content store\n17:54:56 [content] Synced content\n17:54:56 [types] Generated 709ms\n17:54:56 [build] output: \"static\"\n17:54:56 [build] mode: \"static\"\n17:54:56 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m0-review/preview-root/\n17:54:56 [build] Collecting build info...\n17:54:56 [build] ✓ Completed in 738ms.\n17:54:56 [build] Building static entrypoints...\n17:54:56 [vite] ✓ built in 285ms\n17:54:56 [vite] ✓ built in 41ms\n17:54:56 [build] Rearranging server assets...\n\n generating static routes \n17:54:56   ├─ /404.html (+13ms) \n17:54:56   ├─ /fixtures/math/index.html (+46ms) \n17:54:56   ├─ /start/index.html (+7ms) \n17:54:56   ├─ /index.html (+6ms) \n17:54:56 ✓ Completed in 82ms.\n\n17:54:56 [build] ✓ Completed in 453ms.\n17:54:56 [build] 4 page(s) built in 1.19s\n17:54:56 [build] Complete!\nPrivate preview artifact: /Users/new/RiderProjects/RPG_theory/dist/m0-review/preview-root; deployEligible=false\n"
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m0-review/preview-root",
+      "exitCode": 0,
+      "output": "\n> unity-theory@0.0.1 audit:output\n> tsx scripts/audit-output.ts --dir dist/m0-review/preview-root\n\n{\"status\":\"PASS\",\"mode\":\"preview\",\"basePath\":\"/\",\"deployEligible\":false,\"files\":68,\"artifactSha256\":\"678c58d93b7b71f34dc7039378a077ec5e417b9f9b9b3b5d8a5d271eaf647139\"}\n"
+    },
+    {
+      "command": "npm run build -- --mode release --output dist/m0-review/release-root",
+      "exitCode": 1,
+      "output": "\n> unity-theory@0.0.1 build\n> tsx scripts/build.ts --mode release --output dist/m0-review/release-root\n\n/Users/new/RiderProjects/RPG_theory/src/lib/publication.ts:6\n  if (new URL(config.origin).hostname.endsWith('.invalid') || !config.repository) throw new ContractError('PUBLIC_TARGET_REQUIRED', 'A real owner-designated repository and origin are required');\n                                                                                        ^\n\nContractError: PUBLIC_TARGET_REQUIRED: A real owner-designated repository and origin are required\n    at assertBuildAllowed (/Users/new/RiderProjects/RPG_theory/src/lib/publication.ts:6:89)\n    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/build.ts:16:1)\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:643:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {\n  code: 'PUBLIC_TARGET_REQUIRED'\n}\n\nNode.js v24.18.0\n"
+    }
+  ],
+  "previewMode": "preview",
+  "qualificationMode": "qualification",
+  "sameInputs": true,
+  "releaseOutputCreated": false
+}

@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-01T16:44:13.621Z",
+  "command": "node --import tsx scripts/build.ts --mode release --output dist/m1/release-refused",
+  "expectedRefusal": "PUBLIC_TARGET_REQUIRED",
+  "exitCode": 1,
+  "noOutput": true,
+  "status": "FAIL"
+}

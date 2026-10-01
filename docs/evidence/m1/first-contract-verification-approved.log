@@ -1,0 +1,121 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m1 --evidence-dir docs/evidence/m1
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+19:02:22 [content] Syncing content
+19:02:22 [content] Synced content
+19:02:22 [types] Generated 619ms
+19:02:22 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+Result (39 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+Running npm run check:sources -- --scope history
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope history
+
+{"status":"PASS","historicalFiles":14,"noticeTranscriptions":2,"authorityNoticeOnly":true}
+
+Running npm run check:sources -- --scope current
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope current
+
+{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01","sourceBoundEntries":31,"contentReview":"pending"}
+
+Running npm run check:content
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts
+
+{"schema":"unity-content-check/1","status":"PASS","date":"2026-10-01T16:02:29.517Z","admission":{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01"},"entries":34,"affected":[],"scientificReview":"pending","acceptedReviews":0}
+
+Running npm run test:content
+
+> unity-theory@0.0.1 test:content
+> tsx --test tests/content/*.test.ts
+
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (0.673ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (1.378417ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (2.654375ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (0.91ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (1.049333ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (2.085542ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (1.355959ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (1.546334ms)
+✔ silent edition-pin reset still fails (1.55775ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (3.269208ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.576834ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.299583ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (1313.77375ms)
+✖ output audit requires routes, rejects extra private files and stale/relabelled identity (771.9815ms)
+✖ absolute same-site links/fragments are local; unsafe links and remote resources fail (618.887334ms)
+✔ artifact audit rejects false source identity and active SVG files (568.858084ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (2.887416ms)
+✔ Markdown reference links/images share safety and base handling (3.3575ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (1.437584ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (236.602625ms)
+✔ actual corpus extracts source bytes, preserves existing E mappings, and has zero accepted reviews (0.690125ms)
+✔ independent statement, bad binding range/hash, wrong record kind, duplicates and unknown sources fail (80.301291ms)
+✔ source-scoped aliases keep historical S01 local; duplicates and unresolved aliases fail (41.695084ms)
+✔ missing or cyclic semantic dependency fails; related feedback does not create proof cycles (170.739333ms)
+✔ authority notes cannot supply scientific excerpts; invalid states and real dates fail (54.92175ms)
+✔ safe directives render actual canonical explanations, extract dependencies and reject executable/unknown syntax (22.781083ms)
+✔ dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local (123.393ms)
+✔ changing a relevant source verification scope or relevant citation stales its review (79.590625ms)
+✔ shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights (277.864584ms)
+✔ one manifest excludes drafts from every production surface and rejects published draft dependencies (56.899167ms)
+✔ withdrawn history is explicitly selected as a tombstone; former body is removed (68.494417ms)
+✔ source display adapters preserve raw bindings while rendering status/math/table consumers (391.458ms)
+✔ source revision transaction refuses missing prior-byte preservation and incomplete core proof gate (224.82325ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 31
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5250.330709
+
+✖ failing tests:
+
+test at tests/content/contracts.test.ts:140:1
+✖ output audit requires routes, rejects extra private files and stale/relabelled identity (771.9815ms)
+  Error [ContractError]: BROKEN_FRAGMENT: /unity-theory/#research-question
+      at targetOf (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:46:110)
+      at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:73:18)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:141:16)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:128:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:140:103)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12) {
+    code: 'BROKEN_FRAGMENT'
+  }
+
+test at tests/content/contracts.test.ts:153:1
+✖ absolute same-site links/fragments are local; unsafe links and remote resources fail (618.887334ms)
+  Error [ContractError]: BROKEN_FRAGMENT: /unity-theory/#research-question
+      at targetOf (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:46:110)
+      at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:73:18)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:158:16)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:128:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:153:100)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12) {
+    code: 'BROKEN_FRAGMENT'
+  }

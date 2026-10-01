@@ -1,0 +1,80 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m1 --evidence-dir docs/evidence/m1
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+18:31:02 [vite] Re-optimizing dependencies because lockfile has changed
+18:31:02 [content] Syncing content
+18:31:02 [content] Content config changed
+18:31:02 [content] Clearing content store
+18:31:03 [content] Synced content
+18:31:03 [types] Generated 965ms
+18:31:03 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+[96msrc/lib/content-schema.ts[0m:[93m20[0m:[93m141[0m - [93mwarning[0m[90m ts(6385): [0m'(params?: string | { normalize?: boolean | undefined; abort?: boolean | undefined; pattern?: RegExp | undefined; hostname?: RegExp | undefined; protocol?: RegExp | undefined; error?: string | ... 1 more ... | undefined; message?: string | undefined; } | undefined): ZodString' is deprecated.
+
+[7m20[0m export const referenceSchema = z.object({ id: z.string().regex(/^BIB-[0-9]{4,}$/), identity: z.string(), title: z.string(), url: z.string().url(), sourceRefs: z.array(z.string()), supportScope: z.string(), verificationScope: z.string() }).strict();
+[7m  [0m [93m                                                                                                                                            ~~~[0m
+
+[96msrc/lib/content.ts[0m:[93m110[0m:[93m300[0m - [91merror[0m[90m ts(18047): [0m'match' is possibly 'null'.
+
+[7m110[0m   const pages = filesIn(join(folder,'pages')).filter(p=>p.endsWith('.md')).map(path=> { const raw = readFileSync(join(folder,'pages',path),'utf8'); const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(raw); if (!match) fail('INVALID_FRONTMATTER',path); return { ...parse(match[1]), body: match[2] }; });
+[7m   [0m [91m                                                                                                                                                                                                                                                                                                           ~~~~~[0m
+[96msrc/lib/content.ts[0m:[93m110[0m:[93m283[0m - [91merror[0m[90m ts(18047): [0m'match' is possibly 'null'.
+
+[7m110[0m   const pages = filesIn(join(folder,'pages')).filter(p=>p.endsWith('.md')).map(path=> { const raw = readFileSync(join(folder,'pages',path),'utf8'); const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(raw); if (!match) fail('INVALID_FRONTMATTER',path); return { ...parse(match[1]), body: match[2] }; });
+[7m   [0m [91m                                                                                                                                                                                                                                                                                          ~~~~~[0m
+[96msrc/lib/content.ts[0m:[93m93[0m:[93m202[0m - [91merror[0m[90m ts(18048): [0m'entry' is possibly 'undefined'.
+
+[7m93[0m   function visit(key: string) { const entry = corpus.entries.get(key); if (!entry) fail('UNKNOWN_DEPENDENCY',key); if (stack.has(key)) fail('DEPENDENCY_CYCLE',key); stack.add(key); for (const child of entry.dependsOn) { visit(child); result.add(child); } stack.delete(key); }
+[7m  [0m [91m                                                                                                                                                                                                         ~~~~~[0m
+[96msrc/lib/content.ts[0m:[93m69[0m:[93m69[0m - [91merror[0m[90m ts(18047): [0m'entry.sourceBinding' is possibly 'null'.
+
+[7m69[0m       entry.statement = lines.slice(entry.sourceBinding.startLine-1,entry.sourceBinding.endLine).join('');
+[7m  [0m [91m                                                                    ~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/lib/content.ts[0m:[93m69[0m:[93m37[0m - [91merror[0m[90m ts(18047): [0m'entry.sourceBinding' is possibly 'null'.
+
+[7m69[0m       entry.statement = lines.slice(entry.sourceBinding.startLine-1,entry.sourceBinding.endLine).join('');
+[7m  [0m [91m                                    ~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/lib/content.ts[0m:[93m68[0m:[93m47[0m - [91merror[0m[90m ts(18048): [0m'source' is possibly 'undefined'.
+
+[7m68[0m       const lines = readFileSync(resolve(root,source.path),'utf8').match(/[^\n]*\n|[^\n]+$/g) ?? [];
+[7m  [0m [91m                                              ~~~~~~[0m
+[96msrc/lib/content.ts[0m:[93m67[0m:[93m60[0m - [91merror[0m[90m ts(2345): [0mArgument of type '{ path: string; sourceKey?: string | undefined; sourceSha256?: string | undefined; startLine?: number | undefined; endLine?: number | undefined; excerptSha256?: string | undefined; }' is not assignable to parameter of type 'SourceBinding'.
+  Types of property 'sourceSha256' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+
+[7m67[0m       validateBinding(resolve(root,input.record.directory),{ ...entry.sourceBinding, path });
+[7m  [0m [91m                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/lib/content.ts[0m:[93m66[0m:[93m77[0m - [91merror[0m[90m ts(18047): [0m'entry.sourceBinding' is possibly 'null'.
+
+[7m66[0m       if (!input.record.files.some(f=>f.path === path) || source.sha256 !== entry.sourceBinding.sourceSha256) fail('SOURCE_BINDING_FAILURE',entry.id);
+[7m  [0m [91m                                                                            ~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/lib/content.ts[0m:[93m66[0m:[93m59[0m - [91merror[0m[90m ts(18048): [0m'source' is possibly 'undefined'.
+
+[7m66[0m       if (!input.record.files.some(f=>f.path === path) || source.sha256 !== entry.sourceBinding.sourceSha256) fail('SOURCE_BINDING_FAILURE',entry.id);
+[7m  [0m [91m                                                          ~~~~~~[0m
+[96msrc/lib/content.ts[0m:[93m65[0m:[93m20[0m - [91merror[0m[90m ts(18048): [0m'source' is possibly 'undefined'.
+
+[7m65[0m       const path = source.path.slice(input.record.directory.length+1);
+[7m  [0m [91m                   ~~~~~~[0m
+[96msrc/lib/content.ts[0m:[93m63[0m:[93m34[0m - [91merror[0m[90m ts(18047): [0m'entry.sourceBinding' is possibly 'null'.
+
+[7m63[0m       const source = sources.get(entry.sourceBinding.sourceKey);
+[7m  [0m [91m                                 ~~~~~~~~~~~~~~~~~~~[0m
+
+[96mtests/content/contracts.test.ts[0m:[93m135[0m:[93m101[0m - [93mwarning[0m[90m ts(6133): [0m'info' is declared but its value is never read.
+
+[7m135[0m test('root-only asset in subpath output reaches BASE_PATH_FAILURE', () => outputFixture((directory, info) => {
+[7m   [0m [93m                                                                                                    ~~~~[0m
+
+Result (39 files): 
+- 11 errors
+- 0 warnings
+- 2 hints
+

@@ -1,0 +1,24 @@
+[
+  {
+    "probe": "case-sensitive citation destination changed",
+    "unexpectedlyAccepted": true,
+    "scope": "isolated actual-registry copy; no URL retrieval or scientific support qualification"
+  },
+  {
+    "probe": "false home heading in actual root artifact",
+    "unexpectedlyAccepted": true
+  },
+  {
+    "probe": "false home heading in actual subpath artifact",
+    "unexpectedlyAccepted": true
+  },
+  {
+    "probe": "renamed source destination omitted",
+    "unexpectedlyAccepted": true,
+    "scope": "temporary corpus maps; actual byte-verified CLI regression added with repair"
+  },
+  {
+    "probe": "complete rename transaction",
+    "unexpectedlyRefused": "ContractError: SOURCE_REVISION_FAILURE: Exact changed/added/removed membership and prior snapshots required"
+  }
+]

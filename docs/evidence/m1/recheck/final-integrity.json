@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-01T18:35:26.085Z",
+  "status": "PASS",
+  "baselineProtectedFiles": 847,
+  "combinedProtectedFiles": 1212,
+  "unchangedProtectedFiles": 1210,
+  "protectedMismatches": [],
+  "preservedPriorEditions": [
+    {
+      "path": "research/publication/canonical-documents.yaml",
+      "priorSnapshot": "docs/evidence/m1/recheck/prior-publication/canonical-documents.yaml",
+      "priorSha256": "0683c0af8ebcc3ce3e059ced8de88036bbb6a766a4e29df28cc0aa177de0ca6f",
+      "currentSha256": "ec7e7f3684c8446951ea1930b886b6c86e05f79ea8248074acb9be846f2f066c",
+      "reason": "M1 task-owned semantic dependency correction; record revision advances, scientific source bytes unchanged."
+    },
+    {
+      "path": "research/publication/records.yaml",
+      "priorSnapshot": "docs/evidence/m1/recheck/prior-publication/records.yaml",
+      "priorSha256": "f9399fed6a9866eee1f63b4d89247000f56bdf8c611d348545c471f443324c42",
+      "currentSha256": "4b89741b9b870327f34c3b1e567c3e07949ffae87ca04668d2481581ac1deba7",
+      "reason": "M1 task-owned semantic dependency correction; record revision advances, scientific source bytes unchanged."
+    }
+  ],
+  "artifacts": [
+    {
+      "directory": "dist/m1-recheck/preview-root",
+      "files": 101,
+      "htmlPaths": 37,
+      "artifactSha256": "efc4d78da388e580f876c1729e60162edc9978a3f7202bae6b429d73d3ea15bb",
+      "unchangedAfterBrowserAndControls": true,
+      "publicationManifestSha256": "e91d14cca25871e1203f0ed1b6a3e5e0b99d10a094fb6427fabe8abdc2e3f7f6",
+      "inputsSha256": "db136e97fa8a8d32554aa164c471ddbd068f07cf450be8f0819b92a470f43683",
+      "configSha256": "c430079df00c78c80b1398634a3367aeb614ce121801b4476446b9ad290a787b",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd"
+    },
+    {
+      "directory": "dist/m1-recheck/preview-subpath",
+      "files": 101,
+      "htmlPaths": 37,
+      "artifactSha256": "986a6738963e88718dd97c612956aa66e36b07c6bf79b8edfdb41d29978ae252",
+      "unchangedAfterBrowserAndControls": true,
+      "publicationManifestSha256": "e91d14cca25871e1203f0ed1b6a3e5e0b99d10a094fb6427fabe8abdc2e3f7f6",
+      "inputsSha256": "db136e97fa8a8d32554aa164c471ddbd068f07cf450be8f0819b92a470f43683",
+      "configSha256": "1a15cff67db90e4a5fda5d78c3d4ee78375d8456c6655db0007830b11c04f5ed",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd"
+    }
+  ],
+  "productionInputs": {
+    "inputsSha256": "db136e97fa8a8d32554aa164c471ddbd068f07cf450be8f0819b92a470f43683",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "70fb3223478ea5160951f6f5def1729d84cfcbd42595d1b433c6073157c09b85"
+  },
+  "admission": {
+    "availability": "AVAILABLE_BYTES_VERIFIED",
+    "bytesVerified": true,
+    "corpusScope": "current",
+    "currentSourceQualified": false,
+    "files": 13,
+    "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "inventorySeal": "25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a",
+    "edition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01"
+  },
+  "sourceBytesChanged": false,
+  "reviewReceipts": 0,
+  "scientificExecutionReceipts": 0,
+  "engineeringChecks": {
+    "contractTests": 56,
+    "browserTests": 14
+  },
+  "humanComprehension": "NOT_TESTED",
+  "publicActions": "NOT_RUN"
+}

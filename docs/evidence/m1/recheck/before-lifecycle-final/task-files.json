@@ -1,0 +1,258 @@
+{
+  "noGitHead": true,
+  "date": "2026-10-01T18:01:21.872Z",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "f07bfeff4253fa9b83196d2899dfb31448d95d9a97997f6f3e994bc319de05a6"
+    },
+    {
+      "path": "astro.config.mjs",
+      "sha256": "24752a09678f389e928be39bde3828cdf38b518848ef656cfa7c497bb93b1ca6"
+    },
+    {
+      "path": "config/research-source.json",
+      "sha256": "92ca319307ba928f19d75b2c0c9411c08ad3b2f40e4a11b18e9a4e03c76848fc"
+    },
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "sha256": "56adc72935ded79bbd76512537cf7b548260fc56d4138ecf2b07f2561dd2ba42"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd"
+    },
+    {
+      "path": "package.json",
+      "sha256": "549b6cb977d80f65073b62ebe52e06062c547cdc5c51e180c474cd6625610605"
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "a10c702264cbb8cb4d0ef754bc6646e3fa638b5d8f1caa761d8664efc093610a"
+    },
+    {
+      "path": "research/publication/canonical-documents.yaml",
+      "sha256": "ec7e7f3684c8446951ea1930b886b6c86e05f79ea8248074acb9be846f2f066c"
+    },
+    {
+      "path": "research/publication/citation-aliases.yaml",
+      "sha256": "f2a550da76dfd7bde36f727292f0c742d47f07a2f24cf2afe58d279ef6e5d462"
+    },
+    {
+      "path": "research/publication/execution-evidence.yaml",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "research/publication/pages/home.md",
+      "sha256": "44a7e2d0f905ce23294668ceb36c6e037b47b3724b7217494b8509e61a5e4e93"
+    },
+    {
+      "path": "research/publication/pages/start.md",
+      "sha256": "64596e450f78055f7ad6b0923554199910bda2bd6490e92df2f02449e0a727ed"
+    },
+    {
+      "path": "research/publication/records.yaml",
+      "sha256": "4b89741b9b870327f34c3b1e567c3e07949ffae87ca04668d2481581ac1deba7"
+    },
+    {
+      "path": "research/publication/references.yaml",
+      "sha256": "994f387d7396dbb09ad7f32c76fd9ee220a7f66f3c671b7828df57d74e814639"
+    },
+    {
+      "path": "research/publication/release.json",
+      "sha256": "2be2e441924cdda6545090335ca471406997467639778e42aed367bfefcfcb7b"
+    },
+    {
+      "path": "research/publication/reviews.yaml",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "research/publication/source-index.yaml",
+      "sha256": "66c41872ac41ba3bb82a6467940c0a73b944ad4744d74f1aa8ea3415d8ee6863"
+    },
+    {
+      "path": "scripts/args.ts",
+      "sha256": "a70d541312e23e2b883f016af14f2cf7910c09c97722a235259957c92f246cae"
+    },
+    {
+      "path": "scripts/audit-output.ts",
+      "sha256": "47e9d44e5f0bc377d00a88866be05eb2d279cc5a2d542070d4206fc33f4cb571"
+    },
+    {
+      "path": "scripts/build.ts",
+      "sha256": "bfd458c09c36a587a747d1b5202c953d235ee7f191bf09a9f11a88c1c1eec5bc"
+    },
+    {
+      "path": "scripts/check-content.ts",
+      "sha256": "cdb351314f550b995b904d2c00d166bc6dc425c5c4a8675b26b8e7c049771d5e"
+    },
+    {
+      "path": "scripts/check-source-revision.ts",
+      "sha256": "32ea177f59b235e96bf55876130d422425620de07016d2f0ea0fa4085ab30d22"
+    },
+    {
+      "path": "scripts/check-sources.ts",
+      "sha256": "7d06e8743495110a109f36f5be4fe08365fc04e00e7f2f66730bc14522f8eb36"
+    },
+    {
+      "path": "scripts/intake_archive.py",
+      "sha256": "8243ce59030b628d96d8a3f33ef4a2231ee84acb68af00a53910d9da8388d012"
+    },
+    {
+      "path": "scripts/serve.ts",
+      "sha256": "0fa8632fcc04dfdca7b877557e45d998bb593bd1a706ed6c19aea1e169ff640c"
+    },
+    {
+      "path": "scripts/static-server.ts",
+      "sha256": "f824756c8a28f0745b9a59b973a6f8c4bc1c9a584e4ab64897b757e8f49757b2"
+    },
+    {
+      "path": "scripts/test-e2e.ts",
+      "sha256": "ace85c704e7bf89135670dc4d696c1967ccee38b876f1922dd6669bf108439ca"
+    },
+    {
+      "path": "scripts/verify.ts",
+      "sha256": "5bba91d2c4095cf0a7136758f844a03a815580846a9f30387a503a1fc79ca675"
+    },
+    {
+      "path": "src/components/CanonicalPage.astro",
+      "sha256": "e7043d9b8ce153bb54d752c6eb46199f7220cb8bd1aabc33294e4639068ad028"
+    },
+    {
+      "path": "src/components/OrganizationDiagram.astro",
+      "sha256": "79748454b1e955ba1550cdd6633a345b76fca421cad32c41421fedecdf8afe18"
+    },
+    {
+      "path": "src/components/RecordStatus.astro",
+      "sha256": "5701f3384d1bf26d16afe3b47357a5f0c146ab461ee5350fb2f9fda97d6bb2b9"
+    },
+    {
+      "path": "src/content.config.ts",
+      "sha256": "a93ff6d24126dcf5d66bd9f9979d9786580c9ad0cbdc40b4f86a601d9c832dd2"
+    },
+    {
+      "path": "src/layouts/ReadingLayout.astro",
+      "sha256": "5e20bebae7935efbf86f98a7f7d589349b7de98512a30ed034507da86b84595e"
+    },
+    {
+      "path": "src/lib/build-identity.ts",
+      "sha256": "e20f7f8431fe78a3fc7a0b8d1d4ec847c9adf1b9504f1b69ce25485f17e4a23d"
+    },
+    {
+      "path": "src/lib/content-schema.ts",
+      "sha256": "defff1d5010142494cf0342b65d2b8d3be119ef4f8b6bafd4c3eedfc54f45bc6"
+    },
+    {
+      "path": "src/lib/content.ts",
+      "sha256": "b36cc4c853db280769e183ed60bcae9b5ce3e0e126fa476f7358d9d96aa391d5"
+    },
+    {
+      "path": "src/lib/directives.ts",
+      "sha256": "a28252ed4b9c6d65b775169bd0c1ff9940310c228dd947df1c1b8b670262c446"
+    },
+    {
+      "path": "src/lib/errors.ts",
+      "sha256": "7e6e61e18bdbda6f2644ac4966288cf13e013337a6794f452da3478bca9689f1"
+    },
+    {
+      "path": "src/lib/identity.ts",
+      "sha256": "d3e8933c9dd6c2ba6514c8fdc2abe4e8c461d95c99cd879bb7d0b703881a32ab"
+    },
+    {
+      "path": "src/lib/markdown-safety.ts",
+      "sha256": "2336fcb750181fc0d417381159f56cb168786fabca647498c913e54d4c35a6b6"
+    },
+    {
+      "path": "src/lib/markdown-tree.ts",
+      "sha256": "f07333b364cec953e71dd019f645241dc17cd628d006bf0e6fce5c7a5126dc68"
+    },
+    {
+      "path": "src/lib/markdown.ts",
+      "sha256": "e1dcadebf1ddf5cbdaa0e01c7f9a068c4f2f35e06b8356e9c5314fd980a52973"
+    },
+    {
+      "path": "src/lib/presentation.ts",
+      "sha256": "3a28a91ce06ddf15bfeb8ca5ea29d2b1120ea111c829cd70d1f72d545fa229e0"
+    },
+    {
+      "path": "src/lib/publication.ts",
+      "sha256": "323010b8c4e1c5144d73f0aea64bf33ac31052501004926a66c01ee44295e1f1"
+    },
+    {
+      "path": "src/lib/site-config.ts",
+      "sha256": "f23a10a83f54da242b874f6181d59af56a971e406eb904399d64d4d65a353d8f"
+    },
+    {
+      "path": "src/lib/source-admission.ts",
+      "sha256": "fbbb61e417c2a2aed711a902feca454d5beba4437ba79b4eb2340504c659d3be"
+    },
+    {
+      "path": "src/lib/source-display.ts",
+      "sha256": "38d0ccde63954585c956fd75dcced47edaef92815de3984b2ee2b68349204bc8"
+    },
+    {
+      "path": "src/lib/source-revision.ts",
+      "sha256": "7ba029bb6e445149de9845d077e668236cd5f641b14aab372aa5e487fa09c3ba"
+    },
+    {
+      "path": "src/lib/urls.ts",
+      "sha256": "b425b79de8d142c695657afef011ba3e99cdc9f6fb63d8a672b63184ea2cd5b6"
+    },
+    {
+      "path": "src/pages/404.astro",
+      "sha256": "e4c8a4d00724b58893c853e696560e48108c204e1f7e8b4216f7ebb86464476b"
+    },
+    {
+      "path": "src/pages/[...path].astro",
+      "sha256": "efca407dab72392eb1ee7fea6eca8fc7a7233118d1fc8dae7b609500b73758a3"
+    },
+    {
+      "path": "src/pages/fixtures/math.astro",
+      "sha256": "42e6afc348f33605a126b75fe4d96d4271fc7acc270f9161d686a86071250436"
+    },
+    {
+      "path": "src/pages/index.astro",
+      "sha256": "00d32a09e8856c9f6b9e5f9026be5acb3614823aa3dd285196dcff74873e1bed"
+    },
+    {
+      "path": "src/pages/references.astro",
+      "sha256": "c32405483cd8fca333372716537a7c5e7a23b12758dbed32626228f5e183af20"
+    },
+    {
+      "path": "src/pages/start.astro",
+      "sha256": "5eb3f66a23b2d59fad395bfa3334c24cef7d13bb54e520977f607fe079515d81"
+    },
+    {
+      "path": "src/styles/global.css",
+      "sha256": "1087a314a8b016ae765b08f103c6e1e65d9d95209b0cc256c29a1f733cea1498"
+    },
+    {
+      "path": "tests/content/contracts.test.ts",
+      "sha256": "3384b36592b8e544e0242473a61c48c3bd6cef7ee03dbb112c97ff672f12b34f"
+    },
+    {
+      "path": "tests/content/m1.test.ts",
+      "sha256": "696ead90393b885e642e6370d71a70cb0c7ee53a4b3238128b5d20bde9460ed4"
+    },
+    {
+      "path": "tests/content/revision-cli.test.ts",
+      "sha256": "100990e5ebdba78eb135eaedc7b7584777a7bc5e83382ab5fd4955e765346205"
+    },
+    {
+      "path": "tests/content/test_archive.py",
+      "sha256": "008680c8efccac2d0fc63d805f394e90ab0cb4d99e06dcf84f5a7b096901a2d1"
+    },
+    {
+      "path": "tests/e2e/reading.spec.ts",
+      "sha256": "eb95b70e0b4b49879757fa013e7b0b87112db0c21a80f837f1ed5a7dbbd2156f"
+    },
+    {
+      "path": "tests/fixtures/site-subpath.json",
+      "sha256": "7199d3494ad193d9f5427ef5fdba00299d670d1901b9df1da41882d2d1edb445"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "c0f5517328c8ed8f5be7e071404b8de9ff11a10c7a92eba220a0ff5b595506ef"
+    }
+  ]
+}

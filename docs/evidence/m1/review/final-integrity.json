@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-01T19:27:20.004Z",
+  "status": "PASS",
+  "protectedBaselineFiles": 2604,
+  "unchangedProtectedFiles": 2597,
+  "preservedTaskOwnedChanges": [
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "priorSnapshot": "docs/evidence/m1/review/prior-code/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "priorSha256": "8fdd11c81c44e635e0b008c9136aa177b7148bffa94cfb4a8f0b44e164986d1b",
+      "currentSha256": "df968864fc63985886e33331db27ab28c8b850b58600e4be34b793e547bdcab3"
+    },
+    {
+      "path": "research/publication/pages/start.md",
+      "priorSnapshot": "docs/evidence/m1/review/prior-code/research/publication/pages/start.md",
+      "priorSha256": "64596e450f78055f7ad6b0923554199910bda2bd6490e92df2f02449e0a727ed",
+      "currentSha256": "deab477b546518ef82c794fdbea33e9e0b0408a684544061cfd808a030ec11cf"
+    },
+    {
+      "path": "research/publication/records.yaml",
+      "priorSnapshot": "docs/evidence/m1/review/prior-code/research/publication/records.yaml",
+      "priorSha256": "4b89741b9b870327f34c3b1e567c3e07949ffae87ca04668d2481581ac1deba7",
+      "currentSha256": "1eafabf811c0cf680cffcec464465c129c3d4d5c7fd81aea036ba56957c8a81d"
+    },
+    {
+      "path": "src/lib/content.ts",
+      "priorSnapshot": "docs/evidence/m1/review/prior-code/src/lib/content.ts",
+      "priorSha256": "e444e982af3d088d136e6c2a1af383e97d5184084a6927479f068cac94aad68b",
+      "currentSha256": "8a788612ebf97fa0b0a36f13d7f3396d3b819aa50c5af4a8b2f6fec5f6184d19"
+    },
+    {
+      "path": "src/lib/source-revision.ts",
+      "priorSnapshot": "docs/evidence/m1/review/prior-code/src/lib/source-revision.ts",
+      "priorSha256": "7ba029bb6e445149de9845d077e668236cd5f641b14aab372aa5e487fa09c3ba",
+      "currentSha256": "446424b6a10b8074fcb48f1e49a8a66bd9213832161b83097f01e6cbade0d765"
+    },
+    {
+      "path": "tests/content/m1.test.ts",
+      "priorSnapshot": "docs/evidence/m1/review/prior-code/tests/content/m1.test.ts",
+      "priorSha256": "b1a29eadeeceb33551f5a3b4e55e21eca4bc872909e22c8142d5ff0e98a6fb7e",
+      "currentSha256": "1dd98ff86b0a2757fd2c8342c5997e7b4674eeced03d7520822f72a11198ca9b"
+    },
+    {
+      "path": "tests/content/revision-cli.test.ts",
+      "priorSnapshot": "docs/evidence/m1/review/prior-code/tests/content/revision-cli.test.ts",
+      "priorSha256": "ce21b4b2098f572b4830ca4467092c3e8b929937fabbef790395dd4f3e0ca76b",
+      "currentSha256": "fffeadc309b8503e12b02a4e1190fbf02adf1b99fc40d2f9a96f89ea2f8d4b42"
+    }
+  ],
+  "artifacts": [
+    {
+      "directory": "dist/m1-recheck/preview-root",
+      "artifactSha256": "efc4d78da388e580f876c1729e60162edc9978a3f7202bae6b429d73d3ea15bb",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "e91d14cca25871e1203f0ed1b6a3e5e0b99d10a094fb6427fabe8abdc2e3f7f6",
+      "inputsSha256": "db136e97fa8a8d32554aa164c471ddbd068f07cf450be8f0819b92a470f43683",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-recheck/preview-subpath",
+      "artifactSha256": "986a6738963e88718dd97c612956aa66e36b07c6bf79b8edfdb41d29978ae252",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "e91d14cca25871e1203f0ed1b6a3e5e0b99d10a094fb6427fabe8abdc2e3f7f6",
+      "inputsSha256": "db136e97fa8a8d32554aa164c471ddbd068f07cf450be8f0819b92a470f43683",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-review/preview-root",
+      "artifactSha256": "9317f01611d5b3373faf8b3b0daea24d70435b44cd3200996e56d0c507df03ac",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "3a253439f7038686f4e49bcb2c139cc6967463084623376a958286e1021b5e8b",
+      "inputsSha256": "cfcdfebe0a3ac06726bfd0f39b5c141f3b9ddb3c1360a095ed69b2f70222bcee",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-review/preview-subpath",
+      "artifactSha256": "c1933ebad61ee2c7f721323ee5f42912ee0043af7855e2f87c58f13f03f346ba",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "3a253439f7038686f4e49bcb2c139cc6967463084623376a958286e1021b5e8b",
+      "inputsSha256": "cfcdfebe0a3ac06726bfd0f39b5c141f3b9ddb3c1360a095ed69b2f70222bcee",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    }
+  ],
+  "productionInputs": {
+    "inputsSha256": "cfcdfebe0a3ac06726bfd0f39b5c141f3b9ddb3c1360a095ed69b2f70222bcee",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "a920cf771c528ad2c9ae996371e51f11f4aa653b46baf4200f4bbd39e10b62bb"
+  },
+  "admission": {
+    "availability": "AVAILABLE_BYTES_VERIFIED",
+    "bytesVerified": true,
+    "corpusScope": "current",
+    "currentSourceQualified": false,
+    "files": 13,
+    "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "inventorySeal": "25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a",
+    "edition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "errorCode": null
+  },
+  "scientificAcceptance": false,
+  "publicAction": "NOT_RUN"
+}

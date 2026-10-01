@@ -1,0 +1,27 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m0-review --evidence-dir docs/evidence/m0/review
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+16:26:52 [content] Syncing content
+16:26:52 [content] Astro config changed
+16:26:52 [content] Clearing content store
+16:26:52 [content] Synced content
+16:26:52 [types] Generated 948ms
+16:26:52 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+[96mscripts/audit-output.ts[0m:[93m48[0m:[93m142[0m - [91merror[0m[90m ts(2339): [0mProperty 'attribs' does not exist on type 'Element | ProcessingInstruction'.
+  Property 'attribs' does not exist on type 'ProcessingInstruction'.
+
+[7m48[0m     if (/<!DOCTYPE/i.test(raw) || $('svg').length !== 1 || $('*').toArray().some(el => 'name' in el && (!tags.has(el.name) || Object.keys(el.attribs).some(key => /^(?:on|href$|xlink:href$|style$)/i.test(key))))) throw new ContractError('UNSAFE_SVG', file);
+[7m  [0m [91m                                                                                                                                             ~~~~~~~[0m
+
+Result (28 files): 
+- 1 error
+- 0 warnings
+- 0 hints
+

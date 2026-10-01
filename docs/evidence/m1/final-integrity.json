@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-01T16:51:16.684Z",
+  "status": "PASS",
+  "protectedFiles": 476,
+  "protectedMismatches": [],
+  "artifacts": [
+    {
+      "directory": "dist/m1/qualification-root",
+      "files": 101,
+      "artifactSha256": "482e96bb68153454f4beb717a4a0c3582642e166574839ecb38f8959ce430800",
+      "unchangedAfterBrowser": true,
+      "publicationManifestSha256": "1b813086fc493186525774130c8d45ffe60e1fdfcc173e3cc54d4a9ae86cbc6f",
+      "inputsSha256": "af03f4d7b1fac149fee21acc4bb6cc78574a902f2101713e54495be089f57bd5",
+      "configSha256": "c430079df00c78c80b1398634a3367aeb614ce121801b4476446b9ad290a787b",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd"
+    },
+    {
+      "directory": "dist/m1/qualification-subpath",
+      "files": 101,
+      "artifactSha256": "e4b292af2178106d7493643e79611236612fc05c51f3929aa8df640fe8322e5e",
+      "unchangedAfterBrowser": true,
+      "publicationManifestSha256": "1b813086fc493186525774130c8d45ffe60e1fdfcc173e3cc54d4a9ae86cbc6f",
+      "inputsSha256": "af03f4d7b1fac149fee21acc4bb6cc78574a902f2101713e54495be089f57bd5",
+      "configSha256": "1a15cff67db90e4a5fda5d78c3d4ee78375d8456c6655db0007830b11c04f5ed",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd"
+    }
+  ],
+  "productionInputs": {
+    "inputsSha256": "af03f4d7b1fac149fee21acc4bb6cc78574a902f2101713e54495be089f57bd5",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "560eb7fe9d99cb0d2fe67bdfdb181f17c45dfcbcc544a895899d9b1adc87cc79"
+  },
+  "sourceBytesChanged": false,
+  "currentSourceQualified": false,
+  "reviewReceipts": 0
+}

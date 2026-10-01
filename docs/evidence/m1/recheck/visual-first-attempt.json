@@ -1,0 +1,6 @@
+{
+  "status": "FAIL",
+  "command": "node --import tsx docs/evidence/m1/recheck/inspect-output.mjs",
+  "failure": "Default shared browser cache lacks chromium_headless_shell-1243; existing browser tests use the installed repository-local cache. No pages captured; no source/output bytes changed.",
+  "resolution": "Use the same repository-local Chromium executable, without installing or changing dependencies."
+}

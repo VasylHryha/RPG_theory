@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-01T20:28:15.939Z",
+  "status": "PASS",
+  "protectedBaselineFiles": 3217,
+  "unchangedProtectedFiles": 3213,
+  "preservedTaskOwnedChanges": [
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "priorSnapshot": "docs/evidence/m1/independent-review/prior-code/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "priorSha256": "ea2a0285b67229f642b7b586fca22f7e5512f9f211be0d9c7fc98169e1c5c085",
+      "currentSha256": "01fea48f52acfee7e0a5e6abd30d57c88243a2116df61ac492cb0b11068396ca"
+    },
+    {
+      "path": "research/publication/references.yaml",
+      "priorSnapshot": "docs/evidence/m1/independent-review/prior-code/research/publication/references.yaml",
+      "priorSha256": "994f387d7396dbb09ad7f32c76fd9ee220a7f66f3c671b7828df57d74e814639",
+      "currentSha256": "44cd395dd71ccac6ec264e20a8c24babbdba4a9d475c508922277a081555f0b8"
+    },
+    {
+      "path": "src/lib/content.ts",
+      "priorSnapshot": "docs/evidence/m1/independent-review/prior-code/src/lib/content.ts",
+      "priorSha256": "f7b6fb255f40a92edec185045fc2aee29d92048341dc9e080e06e8d493020ac5",
+      "currentSha256": "ba89c5e1b543fc4255fac8498549a1fe9fc9d6590c4668046a722b7e1fa824d7"
+    },
+    {
+      "path": "tests/content/m1.test.ts",
+      "priorSnapshot": "docs/evidence/m1/independent-review/prior-code/tests/content/m1.test.ts",
+      "priorSha256": "3faae7b7e5c6bbe6362f0dbe020cb2fe9a593b773b46edff8e2e61e4b0b5c8e0",
+      "currentSha256": "60d62412d33c866b336919b33ff21f4ae474c8240d56cb56c35034d6ccb8a877"
+    }
+  ],
+  "artifacts": [
+    {
+      "directory": "dist/m1-review-recheck/preview-root",
+      "artifactSha256": "b1a79e0477af5529cb8860829a5769785130027e01ec577d198db290cb32b12a",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "fa86675279231a09f5277a55503a3f6b7e14115339898ac0ba38fb35a9ee3fad",
+      "inputsSha256": "f515f26fea0f41045057ffef81c6334d669c8039f4269475aa0745074db26cfc",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-review-recheck/preview-subpath",
+      "artifactSha256": "5323ce0799d213d4bccd91c8003d247fec71f7fc52022a8985c37fb01bf87ace",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "fa86675279231a09f5277a55503a3f6b7e14115339898ac0ba38fb35a9ee3fad",
+      "inputsSha256": "f515f26fea0f41045057ffef81c6334d669c8039f4269475aa0745074db26cfc",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-independent-review/preview-root",
+      "artifactSha256": "a7895a81e23e22bd494b3c5d0b38aecf01e2da8859d461bd81b9d5603e861e24",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "1399069c687c9faa84be4db2aa6ba1f81eef2332e45fac31fc22cd7a9f6a7e69",
+      "inputsSha256": "efdc08a0743b3387a3589d64de98cab86171ee5d9a4123c9c110615e9ecea204",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-independent-review/preview-subpath",
+      "artifactSha256": "c7a2676a78d4d942acd31de6218f912572ed91a343d9fe6b361cd7d8fe942e5e",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "1399069c687c9faa84be4db2aa6ba1f81eef2332e45fac31fc22cd7a9f6a7e69",
+      "inputsSha256": "efdc08a0743b3387a3589d64de98cab86171ee5d9a4123c9c110615e9ecea204",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    }
+  ],
+  "productionInputs": {
+    "inputsSha256": "efdc08a0743b3387a3589d64de98cab86171ee5d9a4123c9c110615e9ecea204",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "95aef16a757222edc3229fa8246e3fe8d7cc4b7886305101f4e4d678ce56e3e0"
+  },
+  "admission": {
+    "availability": "AVAILABLE_BYTES_VERIFIED",
+    "bytesVerified": true,
+    "corpusScope": "current",
+    "currentSourceQualified": false,
+    "files": 13,
+    "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "inventorySeal": "25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a",
+    "edition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "errorCode": null
+  },
+  "engineeringDecision": "ACCEPTED — demonstrated private M1 slice only",
+  "scientificAcceptance": false,
+  "publicAction": "NOT_RUN"
+}

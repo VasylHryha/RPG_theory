@@ -1,0 +1,238 @@
+{
+  "noGitHead": true,
+  "date": "2026-10-01T16:51:16.679Z",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "0d9d863da03785697fe4bc29cad90f6a9a596272c5befc6fc8f8a917e6b60bbe"
+    },
+    {
+      "path": "astro.config.mjs",
+      "sha256": "24752a09678f389e928be39bde3828cdf38b518848ef656cfa7c497bb93b1ca6"
+    },
+    {
+      "path": "config/research-source.json",
+      "sha256": "92ca319307ba928f19d75b2c0c9411c08ad3b2f40e4a11b18e9a4e03c76848fc"
+    },
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "sha256": "d7e355b55c0ebf944663f3f22699fcfc04cb86f090d9a265bbde43f964c7785a"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd"
+    },
+    {
+      "path": "package.json",
+      "sha256": "102f0a069a44101a4b6b9ccaf20627bac1a2b037b6519f8d7ef7a35c4ac6d3e9"
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "c5008de29927295695c48acab273fd9ecc03c1f6b35ad061380234785f2fa7d0"
+    },
+    {
+      "path": "research/publication/canonical-documents.yaml",
+      "sha256": "0683c0af8ebcc3ce3e059ced8de88036bbb6a766a4e29df28cc0aa177de0ca6f"
+    },
+    {
+      "path": "research/publication/citation-aliases.yaml",
+      "sha256": "f2a550da76dfd7bde36f727292f0c742d47f07a2f24cf2afe58d279ef6e5d462"
+    },
+    {
+      "path": "research/publication/execution-evidence.yaml",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "research/publication/pages/home.md",
+      "sha256": "44a7e2d0f905ce23294668ceb36c6e037b47b3724b7217494b8509e61a5e4e93"
+    },
+    {
+      "path": "research/publication/pages/start.md",
+      "sha256": "64596e450f78055f7ad6b0923554199910bda2bd6490e92df2f02449e0a727ed"
+    },
+    {
+      "path": "research/publication/records.yaml",
+      "sha256": "f9399fed6a9866eee1f63b4d89247000f56bdf8c611d348545c471f443324c42"
+    },
+    {
+      "path": "research/publication/references.yaml",
+      "sha256": "994f387d7396dbb09ad7f32c76fd9ee220a7f66f3c671b7828df57d74e814639"
+    },
+    {
+      "path": "research/publication/release.json",
+      "sha256": "2be2e441924cdda6545090335ca471406997467639778e42aed367bfefcfcb7b"
+    },
+    {
+      "path": "research/publication/reviews.yaml",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "research/publication/source-index.yaml",
+      "sha256": "66c41872ac41ba3bb82a6467940c0a73b944ad4744d74f1aa8ea3415d8ee6863"
+    },
+    {
+      "path": "scripts/args.ts",
+      "sha256": "a70d541312e23e2b883f016af14f2cf7910c09c97722a235259957c92f246cae"
+    },
+    {
+      "path": "scripts/audit-output.ts",
+      "sha256": "da5c2f7c5c584f7803edfd5086b4943abdf965c0627d52ce5e0a4429c890f93a"
+    },
+    {
+      "path": "scripts/build.ts",
+      "sha256": "0c72f7d74e2bd5d89f75334438f543a5ecab779f867415d191786ab5025df51d"
+    },
+    {
+      "path": "scripts/check-content.ts",
+      "sha256": "cdb351314f550b995b904d2c00d166bc6dc425c5c4a8675b26b8e7c049771d5e"
+    },
+    {
+      "path": "scripts/check-sources.ts",
+      "sha256": "7d06e8743495110a109f36f5be4fe08365fc04e00e7f2f66730bc14522f8eb36"
+    },
+    {
+      "path": "scripts/intake_archive.py",
+      "sha256": "8243ce59030b628d96d8a3f33ef4a2231ee84acb68af00a53910d9da8388d012"
+    },
+    {
+      "path": "scripts/serve.ts",
+      "sha256": "0fa8632fcc04dfdca7b877557e45d998bb593bd1a706ed6c19aea1e169ff640c"
+    },
+    {
+      "path": "scripts/static-server.ts",
+      "sha256": "f824756c8a28f0745b9a59b973a6f8c4bc1c9a584e4ab64897b757e8f49757b2"
+    },
+    {
+      "path": "scripts/test-e2e.ts",
+      "sha256": "ace85c704e7bf89135670dc4d696c1967ccee38b876f1922dd6669bf108439ca"
+    },
+    {
+      "path": "scripts/verify.ts",
+      "sha256": "03f2d13f2796e3985e4cdc41b020143bb9d432c5995740506fdfb4b62ca14027"
+    },
+    {
+      "path": "src/components/CanonicalPage.astro",
+      "sha256": "373369f0277b53ee2d229c69a8b9f9835ad57eb2fba381a810e1451588de6531"
+    },
+    {
+      "path": "src/components/OrganizationDiagram.astro",
+      "sha256": "79748454b1e955ba1550cdd6633a345b76fca421cad32c41421fedecdf8afe18"
+    },
+    {
+      "path": "src/components/RecordStatus.astro",
+      "sha256": "4f62c68a04fa5d0ebbf612304269fb351af78684114912fca8210966629ad8dd"
+    },
+    {
+      "path": "src/content.config.ts",
+      "sha256": "a93ff6d24126dcf5d66bd9f9979d9786580c9ad0cbdc40b4f86a601d9c832dd2"
+    },
+    {
+      "path": "src/layouts/ReadingLayout.astro",
+      "sha256": "ada94ed381df7c0c6f208a6cc11ed541cb9af7b3460f0f657efaf2ece74123e9"
+    },
+    {
+      "path": "src/lib/build-identity.ts",
+      "sha256": "967acad18b3cb97b42a224e17e059f8536d8b945939ae4bf66b3b0595aae5a62"
+    },
+    {
+      "path": "src/lib/content-schema.ts",
+      "sha256": "1a50409c173aa2e5a3477a2e8fc763d28caaf1edeebe3d6da0c2854191ae9520"
+    },
+    {
+      "path": "src/lib/content.ts",
+      "sha256": "f5dba86df380600f5b07d92150b491eed20a32532f861d4ac5d743c6d1251a24"
+    },
+    {
+      "path": "src/lib/directives.ts",
+      "sha256": "06bfee7820e6224b30281869754e60b607ca64b591ba07d2e298d83a99726c50"
+    },
+    {
+      "path": "src/lib/errors.ts",
+      "sha256": "7e6e61e18bdbda6f2644ac4966288cf13e013337a6794f452da3478bca9689f1"
+    },
+    {
+      "path": "src/lib/identity.ts",
+      "sha256": "d3e8933c9dd6c2ba6514c8fdc2abe4e8c461d95c99cd879bb7d0b703881a32ab"
+    },
+    {
+      "path": "src/lib/markdown.ts",
+      "sha256": "3a08ec7a096667a460b43ff979dfe5877ecb4d9a8ec649ea9e07376404bbee5c"
+    },
+    {
+      "path": "src/lib/publication.ts",
+      "sha256": "8c10d6a648c9718864b75423235b33190e82d9f9cca73de962e32284e1d6132b"
+    },
+    {
+      "path": "src/lib/site-config.ts",
+      "sha256": "f23a10a83f54da242b874f6181d59af56a971e406eb904399d64d4d65a353d8f"
+    },
+    {
+      "path": "src/lib/source-admission.ts",
+      "sha256": "fbbb61e417c2a2aed711a902feca454d5beba4437ba79b4eb2340504c659d3be"
+    },
+    {
+      "path": "src/lib/source-revision.ts",
+      "sha256": "88d5abaaa3f9c14f597b08f3b43779fc69586f1b4ab5e86db14f25b5297aa7e7"
+    },
+    {
+      "path": "src/lib/urls.ts",
+      "sha256": "b425b79de8d142c695657afef011ba3e99cdc9f6fb63d8a672b63184ea2cd5b6"
+    },
+    {
+      "path": "src/pages/404.astro",
+      "sha256": "e4c8a4d00724b58893c853e696560e48108c204e1f7e8b4216f7ebb86464476b"
+    },
+    {
+      "path": "src/pages/[...path].astro",
+      "sha256": "f88f2e6a3021220034f69ccb71b505ec535402c17be347ce8ccccfba4d1a65f3"
+    },
+    {
+      "path": "src/pages/claims/[id].astro",
+      "sha256": "fb2a83d460c25129de254f6264d56b4cf67333143f419ba1ffe13c40447b6ff3"
+    },
+    {
+      "path": "src/pages/fixtures/math.astro",
+      "sha256": "42e6afc348f33605a126b75fe4d96d4271fc7acc270f9161d686a86071250436"
+    },
+    {
+      "path": "src/pages/index.astro",
+      "sha256": "86288b60496235ab62904a6c58fa597894e2e1b6e858f3f3a62e8e2030272831"
+    },
+    {
+      "path": "src/pages/references.astro",
+      "sha256": "e1cbce0720fbf5a4748281b850773dc589d8b1dfe48a6af1c4db945e8d41acb4"
+    },
+    {
+      "path": "src/pages/start.astro",
+      "sha256": "5eb3f66a23b2d59fad395bfa3334c24cef7d13bb54e520977f607fe079515d81"
+    },
+    {
+      "path": "src/styles/global.css",
+      "sha256": "1087a314a8b016ae765b08f103c6e1e65d9d95209b0cc256c29a1f733cea1498"
+    },
+    {
+      "path": "tests/content/contracts.test.ts",
+      "sha256": "eff018055f4fc97475bafe2db8927c96568941c8cb59ec86d6f1e6e73a72a22e"
+    },
+    {
+      "path": "tests/content/m1.test.ts",
+      "sha256": "2e1f67935ce3701a149e082f46e866e7017f42eb1c08eb20ce3b3a193bf729ab"
+    },
+    {
+      "path": "tests/content/test_archive.py",
+      "sha256": "008680c8efccac2d0fc63d805f394e90ab0cb4d99e06dcf84f5a7b096901a2d1"
+    },
+    {
+      "path": "tests/e2e/reading.spec.ts",
+      "sha256": "8f02a69af3241dd53694e48f33559c9f4dd2c2c89f5f1abf56bd6576170f5ca8"
+    },
+    {
+      "path": "tests/fixtures/site-subpath.json",
+      "sha256": "7199d3494ad193d9f5427ef5fdba00299d670d1901b9df1da41882d2d1edb445"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "c0f5517328c8ed8f5be7e071404b8de9ff11a10c7a92eba220a0ff5b595506ef"
+    }
+  ]
+}

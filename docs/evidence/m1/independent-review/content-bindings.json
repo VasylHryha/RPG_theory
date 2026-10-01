@@ -1,0 +1,903 @@
+{
+  "schema": "unity-content-check/1",
+  "status": "PASS",
+  "date": "2026-10-01T20:21:57.267Z",
+  "admission": {
+    "availability": "AVAILABLE_BYTES_VERIFIED",
+    "bytesVerified": true,
+    "corpusScope": "current",
+    "currentSourceQualified": false,
+    "files": 13,
+    "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "inventorySeal": "25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a",
+    "edition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01"
+  },
+  "entries": [
+    {
+      "entryId": "DOC-STATUS",
+      "route": "/research-status/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-STATUS",
+        "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+        "startLine": 3,
+        "endLine": 41,
+        "excerptSha256": "65365f2935370ae8ba5494c51334b1eb76ede7f6523e9db238ddce2e46ce2d68"
+      },
+      "sourceMapping": "04_status_and_blockers.md body, with an explicitly scoped literal-backslash addendum display adapter.",
+      "dependencies": [
+        "UT-C01",
+        "UT-C02",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D07",
+        "UT-D08",
+        "UT-D09",
+        "UT-E10",
+        "UT-E11",
+        "UT-E12",
+        "UT-O01",
+        "UT-O02",
+        "UT-O03",
+        "UT-O04",
+        "UT-O05",
+        "UT-O06"
+      ],
+      "bibliography": [],
+      "fingerprint": "7b689406cc1fdea076f33249f27333780a8800c2c5cc9cc0b13ef61ae3e50e9d",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "DOC-PROOF",
+      "route": "/research-status/proof-matrix/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-PROOF",
+        "sourceSha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf",
+        "startLine": 3,
+        "endLine": 23,
+        "excerptSha256": "66997726c6ea67eb4743320e7842e72fb6d2dcf2562550597bf1f81389f637c5"
+      },
+      "sourceMapping": "06_PROOF_MATRIX.md body; faithful table display.",
+      "dependencies": [
+        "UT-C01",
+        "UT-C02",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D07",
+        "UT-D08",
+        "UT-D09",
+        "UT-E10",
+        "UT-E11",
+        "UT-E12",
+        "UT-O01",
+        "UT-O02",
+        "UT-O03",
+        "UT-O04",
+        "UT-O05",
+        "UT-O06"
+      ],
+      "bibliography": [],
+      "fingerprint": "125d70e88994d60666e1421a57db3067865f7b9915b1dbb5fe77259bfd31c6f8",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "DOC-CONCEPT-GEOMETRY",
+      "route": "/concepts/geometry-and-modes/",
+      "sourceBinding": null,
+      "sourceMapping": "",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "bibliography": [],
+      "fingerprint": "51e813c17e411a6e7466ba5def2b968205d9d8ca1a2d41e7509d1824f11ef1b6",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-D01",
+      "route": "/claims/UT-D01/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 6,
+        "endLine": 14,
+        "excerptSha256": "680c99c03b1ea11424b27fef2214ae09b72646cd103d2f025b5dc5c7a38c7e34"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §1; new navigation ID, source has no UT ID.",
+      "dependencies": [],
+      "bibliography": [],
+      "fingerprint": "2b11d180b37aebf72594020ab8ea03e82dd5c2f016f11fbf8ece97c674316434",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-D02",
+      "route": "/claims/UT-D02/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 16,
+        "endLine": 24,
+        "excerptSha256": "2a796e231760733d9076357e12a40973ea228e3a38d41c432dde2cb19f008c0e"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID.",
+      "dependencies": [],
+      "bibliography": [],
+      "fingerprint": "56d6769e4c9308a1401efcd74f2fd9cb2ac71fd1121f5784a6f175272e2f6008",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-D03",
+      "route": "/claims/UT-D03/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 26,
+        "endLine": 43,
+        "excerptSha256": "f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02"
+      ],
+      "bibliography": [],
+      "fingerprint": "d1d486b56e70a743b66291b9c0d97e06e045588de21a87e6ce34c2ea42c18664",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-D04",
+      "route": "/claims/UT-D04/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 45,
+        "endLine": 55,
+        "excerptSha256": "c6f7fe3e4ae4ad799503dfd266c8bba802d2e459bfc2c332ad8eebe6270b0414"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §4; new navigation ID, source has no UT ID.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "bibliography": [],
+      "fingerprint": "3013fee568f20b443748926556511b021c068c00944a74bf4416cd5fa88a51c8",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-D05",
+      "route": "/claims/UT-D05/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 84,
+        "endLine": 96,
+        "excerptSha256": "7df4282e0cf099ff89d7eef30506f57f0e10cbf79eba8b25b1197bb0cbffa7a0"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §7; new navigation ID, source has no UT ID.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D06"
+      ],
+      "bibliography": [],
+      "fingerprint": "1101957bd74aad3449fe99d119d4ef20509b5769039c7688a96cf3bbba7c6205",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-D06",
+      "route": "/claims/UT-D06/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 57,
+        "endLine": 72,
+        "excerptSha256": "70d9e6d53a6d43c1a7410abfa801d650bd026f9da24e986c907b3151ea075286"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §5; new navigation ID, source has no UT ID.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "bibliography": [],
+      "fingerprint": "4e8b499fe9efa16706e6f3e0f85713fba5f8e4b9e26935cd0ee62c04e33ae484",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-D07",
+      "route": "/claims/UT-D07/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 74,
+        "endLine": 82,
+        "excerptSha256": "70a9c9b21a7a9301abe5268e7e4b870ddeac3c4e6b07ccbbe52a04d10de675fb"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §6; new navigation ID, source has no UT ID.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D06"
+      ],
+      "bibliography": [],
+      "fingerprint": "e5bb1d5b382b104b610d2c4c3fffbde3ff7275d766d9c378c1052daef18cf241",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-D08",
+      "route": "/claims/UT-D08/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 98,
+        "endLine": 112,
+        "excerptSha256": "e0d4d8d7cedc6d2ae92b2fe309339361c64a250f8a50ce13f7d11f28acb62791"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §8; new navigation ID, source has no UT ID.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "bibliography": [],
+      "fingerprint": "1fdd897601075ed397ae987d7e165a34e855b18facaebcd475094146c8848a09",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-D09",
+      "route": "/claims/UT-D09/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 114,
+        "endLine": 126,
+        "excerptSha256": "6a0b719f6b5236c68fc8f6c9663e9c5d69f01a9621e54d8e9ade00ee9ad639e2"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §9; new navigation ID, source has no UT ID.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "bibliography": [],
+      "fingerprint": "24aae31578c44a5b72b08f2556b3df14cf9dd1552432709c21c3ebb553c1e251",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-C01",
+      "route": "/claims/UT-C01/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 128,
+        "endLine": 136,
+        "excerptSha256": "14296615f64ff7eab2b9866fd7a8ecadec3f84151fbe652e6209667383e8b5c1"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §10",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "bibliography": [],
+      "fingerprint": "47b0f53b8c6ae4cb6624a7712f72a3fcb1178761c0b93f985381fb693e229bbd",
+      "reviewState": "pending",
+      "evidenceState": "proposed",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-C02",
+      "route": "/claims/UT-C02/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 138,
+        "endLine": 140,
+        "excerptSha256": "69de818aad3845247d950f3f58629c917dd67d3a14689d3c7ea28fc6d38a5a48"
+      },
+      "sourceMapping": "00_LOCKED_CORE.md §11",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06",
+        "UT-D07"
+      ],
+      "bibliography": [],
+      "fingerprint": "ea4c92b92d6ed831120c08678d3a86e0cc69fb38d62f256a06398357e2780ebb",
+      "reviewState": "pending",
+      "evidenceState": "proposed",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-O01",
+      "route": "/claims/UT-O01/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-STATUS",
+        "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+        "startLine": 20,
+        "endLine": 20,
+        "excerptSha256": "cf5142020c98df070cbecb259c700959e4168bc1640a75341e6f7031ba00e073"
+      },
+      "sourceMapping": "04_status_and_blockers.md open extension 1",
+      "dependencies": [
+        "UT-C01",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "bibliography": [],
+      "fingerprint": "8fd1b9c155f3edb5a86abe13895e4480609b8d06dd130e2a2f9687e0f14363d9",
+      "reviewState": "pending",
+      "evidenceState": "proposed",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-O02",
+      "route": "/claims/UT-O02/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-STATUS",
+        "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+        "startLine": 21,
+        "endLine": 21,
+        "excerptSha256": "bcd86beeb66061dbff5c80d0747df01a549c085c4ccdaf3b367d1ace21038b04"
+      },
+      "sourceMapping": "04_status_and_blockers.md open extension 2",
+      "dependencies": [
+        "UT-C01",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "bibliography": [],
+      "fingerprint": "df0c46358b6270b8ed7d1ce70b998aef92c07dbed189eaf29d66ee950611db64",
+      "reviewState": "pending",
+      "evidenceState": "proposed",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-O03",
+      "route": "/claims/UT-O03/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-STATUS",
+        "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+        "startLine": 22,
+        "endLine": 22,
+        "excerptSha256": "7a0b6a7eb30f3fe44b410336d9f40b1dcc7de3fcd27eed1705f8d5494131fc27"
+      },
+      "sourceMapping": "04_status_and_blockers.md open extension 3",
+      "dependencies": [
+        "UT-C02",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06",
+        "UT-D07"
+      ],
+      "bibliography": [],
+      "fingerprint": "26d400af60bcfe31387c0fa683d75da509ff7ed771498cf771b4aa5b40fb7b84",
+      "reviewState": "pending",
+      "evidenceState": "proposed",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-O04",
+      "route": "/claims/UT-O04/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-STATUS",
+        "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+        "startLine": 23,
+        "endLine": 23,
+        "excerptSha256": "f20abe052bd72e31bc2f0cbff35baa099c835e5d857194acef4cd708559f3df5"
+      },
+      "sourceMapping": "04_status_and_blockers.md open extension 4",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "bibliography": [],
+      "fingerprint": "6bc4406c50e08d6b7875fb893ca5d26d28013444a7ad6a8da877e5262c76de6f",
+      "reviewState": "pending",
+      "evidenceState": "proposed",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-O05",
+      "route": "/claims/UT-O05/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-STATUS",
+        "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+        "startLine": 24,
+        "endLine": 24,
+        "excerptSha256": "e905bcf8e229eb2f27164f826a89e73e0b83859e39f0b1b1801c5e1e4d822287"
+      },
+      "sourceMapping": "04_status_and_blockers.md open extension 5",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "bibliography": [],
+      "fingerprint": "643c6fbefee37cb0f24d4f7f73eda9756e00cbef5bf31d27a859470687f471ad",
+      "reviewState": "pending",
+      "evidenceState": "proposed",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-O06",
+      "route": "/claims/UT-O06/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-STATUS",
+        "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+        "startLine": 25,
+        "endLine": 25,
+        "excerptSha256": "d1ca4473a4718eb0585e36378583d42ea28366e1914dab2718998af329207d35"
+      },
+      "sourceMapping": "04_status_and_blockers.md open extension 6",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "bibliography": [],
+      "fingerprint": "361f2aa00ac833dbb625e2bb10606bd9356a326a6067ed7e074602df608f33f6",
+      "reviewState": "pending",
+      "evidenceState": "proposed",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E01",
+      "route": "/claims/UT-E01/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 17,
+        "endLine": 32,
+        "excerptSha256": "86b4deadb9e57bf6aa3e865f82648f213a0c63605c59b5a3e16fa24c18973b45"
+      },
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E01 → UT-E01; original identifier preserved.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06",
+        "UT-D07",
+        "UT-D08"
+      ],
+      "bibliography": [
+        "BIB-0022",
+        "BIB-0023"
+      ],
+      "fingerprint": "b5d372cc06aa033760b7f3db82cadb65b720285cb49a24bffbceeccc9b24a852",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E02",
+      "route": "/claims/UT-E02/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 35,
+        "endLine": 50,
+        "excerptSha256": "e435ef9c645154270f0f1ff6fa754774638d43799e66766cbbd541ddefe28787"
+      },
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E02 → UT-E02; original identifier preserved.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D06",
+        "UT-D07"
+      ],
+      "bibliography": [
+        "BIB-0024",
+        "BIB-0025"
+      ],
+      "fingerprint": "4321dd3b5b5ee9cb0d8472690e5cae2fa20a8533a56063ba4484b4473e160972",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E03",
+      "route": "/claims/UT-E03/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 53,
+        "endLine": 68,
+        "excerptSha256": "27cc196f0abfaedc926c9d30f5fa26522772bd932514eb51180d435b55083b63"
+      },
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E03 → UT-E03; original identifier preserved.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D04",
+        "UT-D06"
+      ],
+      "bibliography": [
+        "BIB-0026",
+        "BIB-0027"
+      ],
+      "fingerprint": "4ccab623b7c0b63787d9239e249c565a5837fb41e2afa24cf6651732b93fffa8",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E04",
+      "route": "/claims/UT-E04/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 71,
+        "endLine": 86,
+        "excerptSha256": "8072f00ac495c8ec7f223c22a0f0fcd3a682f774c6180125669a75cddcbd2579"
+      },
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E04 → UT-E04; original identifier preserved.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D06",
+        "UT-D07"
+      ],
+      "bibliography": [
+        "BIB-0028",
+        "BIB-0029"
+      ],
+      "fingerprint": "b0373dc42dbd5df00642a3887a5a7f1cb5a3a045666426c1f0c7b8e6e7c722f7",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E05",
+      "route": "/claims/UT-E05/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 89,
+        "endLine": 104,
+        "excerptSha256": "585cddf8a29d29a67f1e918b8879fe0b892d55cfb8a3215fea5fde9262d385de"
+      },
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E05 → UT-E05; original identifier preserved.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "bibliography": [
+        "BIB-0030",
+        "BIB-0031"
+      ],
+      "fingerprint": "b6203c32b8880add91480d3fac2e44765ba1a685ae7aa1e12fca7dc83a6556a6",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E06",
+      "route": "/claims/UT-E06/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 107,
+        "endLine": 122,
+        "excerptSha256": "6ca2316b04d8986e3d4aabf441a7187f38cf61fa4c48b9541394f10422903a7f"
+      },
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E06 → UT-E06; original identifier preserved.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "bibliography": [
+        "BIB-0032",
+        "BIB-0033"
+      ],
+      "fingerprint": "04851d42bc1a6406398c2c77f24d79bb2be4305ab76f779078f27a30b5f1fdcc",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E07",
+      "route": "/claims/UT-E07/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 125,
+        "endLine": 140,
+        "excerptSha256": "62034364856f636acee8bea0a510f292568025662b12ddd588dae8d57f6d1d72"
+      },
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E07 → UT-E07; original identifier preserved.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06",
+        "UT-D07",
+        "UT-D08",
+        "UT-D09"
+      ],
+      "bibliography": [
+        "BIB-0034",
+        "BIB-0035"
+      ],
+      "fingerprint": "8e7e09b34eeffaa4b2d1be8d62f30dbe1a4b7a6ee4c59f9d413aed94371125e4",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E08",
+      "route": "/claims/UT-E08/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 143,
+        "endLine": 158,
+        "excerptSha256": "3f84d871c3bc5caa639ad614f5ce573c4df4d067de47ecb480187c8386ed20b4"
+      },
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E08 → UT-E08; original identifier preserved.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D04",
+        "UT-D06",
+        "UT-D07"
+      ],
+      "bibliography": [
+        "BIB-0036",
+        "BIB-0037"
+      ],
+      "fingerprint": "88a44432104cacc84d1b6d724be662f2091042624d1508eb217fd36c197b0d63",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E09",
+      "route": "/claims/UT-E09/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 161,
+        "endLine": 176,
+        "excerptSha256": "e1e3b4d8ed8edd23b546b9d9a6f2c1bd2cb47675d7abc754dea1e96dfcadd2a6"
+      },
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E09 → UT-E09; original identifier preserved.",
+      "dependencies": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "bibliography": [
+        "BIB-0038",
+        "BIB-0039"
+      ],
+      "fingerprint": "8c8f23870df63382121bd2872f5880d6067226e1389b04814952b2e412d38ae7",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E10",
+      "route": "/claims/UT-E10/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-INTERACTIONS",
+        "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+        "startLine": 29,
+        "endLine": 64,
+        "excerptSha256": "2c4577d77beda1f0f1d8d79aaf19adc3503388ed0789f6c6fc422868843ded54"
+      },
+      "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md §1",
+      "dependencies": [
+        "UT-C01",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "bibliography": [
+        "BIB-0016"
+      ],
+      "fingerprint": "9e90e9dc9a54313d3f5f30a67735d2a22f4c7b197cedc8cc9d7f349198dabc3a",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E11",
+      "route": "/claims/UT-E11/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-INTERACTIONS",
+        "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+        "startLine": 68,
+        "endLine": 107,
+        "excerptSha256": "7886572017b041894892ab786b8242de463360fc9d07e0a729f42dc30075fe6d"
+      },
+      "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md §2",
+      "dependencies": [
+        "UT-C01",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "bibliography": [
+        "BIB-0017",
+        "BIB-0018",
+        "BIB-0019"
+      ],
+      "fingerprint": "3b5159d5685875b56b16178a6071a1cfd5ad243ba755215a9ce258f7d573ac47",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "UT-E12",
+      "route": "/claims/UT-E12/",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-INTERACTIONS",
+        "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+        "startLine": 111,
+        "endLine": 154,
+        "excerptSha256": "122502c3af212ebedf2fd764f7bcfabe39a9f45d7c7093441ae133f4699cabae"
+      },
+      "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md §3",
+      "dependencies": [
+        "UT-C01",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "bibliography": [
+        "BIB-0020",
+        "BIB-0021"
+      ],
+      "fingerprint": "89cced7d017764259c9548ec581ea96554dcd500762b5ef71a6cccc2d57c6f4e",
+      "reviewState": "pending",
+      "evidenceState": "project-reported",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "DOC-HOME",
+      "route": "/",
+      "sourceBinding": null,
+      "sourceMapping": "",
+      "dependencies": [
+        "DOC-STATUS",
+        "UT-C01",
+        "UT-C02",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D07",
+        "UT-D08",
+        "UT-D09",
+        "UT-E10",
+        "UT-E11",
+        "UT-E12",
+        "UT-O01",
+        "UT-O02",
+        "UT-O03",
+        "UT-O04",
+        "UT-O05",
+        "UT-O06"
+      ],
+      "bibliography": [],
+      "fingerprint": "04287f3ada5d355885a0751bac532c5f6503cc48e54b016dae2b293a41bfa40d",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    },
+    {
+      "entryId": "DOC-START",
+      "route": "/start/",
+      "sourceBinding": null,
+      "sourceMapping": "",
+      "dependencies": [
+        "DOC-STATUS",
+        "UT-C01",
+        "UT-C02",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D07",
+        "UT-D08",
+        "UT-D09",
+        "UT-E10",
+        "UT-E11",
+        "UT-E12",
+        "UT-O01",
+        "UT-O02",
+        "UT-O03",
+        "UT-O04",
+        "UT-O05",
+        "UT-O06"
+      ],
+      "bibliography": [],
+      "fingerprint": "39dc142485e361eb4c8e9a3f8205f1369157f6ad6cc729e2d053c2ebe291653a",
+      "reviewState": "pending",
+      "evidenceState": "not-applicable",
+      "publicationState": "draft"
+    }
+  ],
+  "affected": [],
+  "scientificReview": "pending",
+  "acceptedReviews": 0
+}

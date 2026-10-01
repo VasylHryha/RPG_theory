@@ -1,0 +1,72 @@
+[
+  {
+    "entryId": "UT-E01",
+    "sourceClauses": "\u00a73, \u00a75, \u00a76, \u00a77, \u00a78.",
+    "missingDeclaredDependencies": [
+      "UT-D05",
+      "UT-D07",
+      "UT-D08"
+    ]
+  },
+  {
+    "entryId": "UT-E02",
+    "sourceClauses": "\u00a73, \u00a75, \u00a76.",
+    "missingDeclaredDependencies": [
+      "UT-D07"
+    ]
+  },
+  {
+    "entryId": "UT-E03",
+    "sourceClauses": "\u00a73, \u00a74, \u00a75.",
+    "missingDeclaredDependencies": [
+      "UT-D04"
+    ]
+  },
+  {
+    "entryId": "UT-E04",
+    "sourceClauses": "\u00a73, \u00a75, \u00a76.",
+    "missingDeclaredDependencies": [
+      "UT-D07"
+    ]
+  },
+  {
+    "entryId": "UT-E05",
+    "sourceClauses": "\u00a73, \u00a75, \u00a77.",
+    "missingDeclaredDependencies": [
+      "UT-D05"
+    ]
+  },
+  {
+    "entryId": "UT-E06",
+    "sourceClauses": "\u00a75, \u00a77, \u00a78.",
+    "missingDeclaredDependencies": [
+      "UT-D05",
+      "UT-D08"
+    ]
+  },
+  {
+    "entryId": "UT-E07",
+    "sourceClauses": "\u00a75, \u00a76, \u00a77, \u00a78, \u00a79.",
+    "missingDeclaredDependencies": [
+      "UT-D05",
+      "UT-D07",
+      "UT-D08",
+      "UT-D09"
+    ]
+  },
+  {
+    "entryId": "UT-E08",
+    "sourceClauses": "\u00a73, \u00a74, \u00a75, \u00a76.",
+    "missingDeclaredDependencies": [
+      "UT-D04",
+      "UT-D07"
+    ]
+  },
+  {
+    "entryId": "UT-E09",
+    "sourceClauses": "\u00a73, \u00a75, \u00a77.",
+    "missingDeclaredDependencies": [
+      "UT-D05"
+    ]
+  }
+]

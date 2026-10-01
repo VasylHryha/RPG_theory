@@ -1,0 +1,15 @@
+/Users/new/RiderProjects/RPG_theory/src/lib/publication.ts:25
+    if (!corpus.admission.currentSourceQualified || corpus.admission.corpusScope !== 'current') throw new ContractError('CURRENT_SOURCE_NOT_QUALIFIED','Actual current binding/content qualification required');
+                                                                                                      ^
+
+ContractError: CURRENT_SOURCE_NOT_QUALIFIED: Actual current binding/content qualification required
+    at selectPublication (/Users/new/RiderProjects/RPG_theory/src/lib/publication.ts:25:103)
+    at publicationFor (/Users/new/RiderProjects/RPG_theory/src/lib/publication.ts:51:23)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/build.ts:16:21)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'CURRENT_SOURCE_NOT_QUALIFIED'
+}
+
+Node.js v24.18.0

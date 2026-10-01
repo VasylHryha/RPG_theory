@@ -1,0 +1,177 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m0-review --evidence-dir docs/evidence/m0/review
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+18:01:39 [content] Syncing content
+18:01:39 [content] Synced content
+18:01:39 [types] Generated 618ms
+18:01:39 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+Result (28 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+Running npm run check:sources -- --scope history
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope history
+
+{"status":"PASS","historicalFiles":14,"noticeTranscriptions":2,"authorityNoticeOnly":true}
+
+Running npm run check:sources -- --scope current
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope current
+
+{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01"}
+
+Running npm run test:content
+
+> unity-theory@0.0.1 test:content
+> tsx --test tests/content/*.test.ts
+
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (1.607417ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (25.830583ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (1.281084ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (0.834292ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (3.864792ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (1.8735ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (0.7055ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (1.191041ms)
+✔ silent edition-pin reset still fails (0.741583ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (9.170666ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.616875ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.448375ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (15.281042ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (30.111417ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (56.891791ms)
+✔ artifact audit rejects false source identity and active SVG files (22.175041ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (34.082ms)
+✔ Markdown reference links/images share safety and base handling (6.236125ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (4.151833ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (150.024917ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 869.665584
+
+Running npm run build -- --mode qualification --config config/site.json --output dist/m0-review/qualification-root
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode qualification --config config/site.json --output dist/m0-review/qualification-root
+
+18:01:46 [content] Syncing content
+18:01:46 [content] Synced content
+18:01:46 [types] Generated 589ms
+18:01:46 [build] output: "static"
+18:01:46 [build] mode: "static"
+18:01:46 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m0-review/qualification-root/
+18:01:46 [build] Collecting build info...
+18:01:46 [build] ✓ Completed in 608ms.
+18:01:46 [build] Building static entrypoints...
+18:01:46 [vite] ✓ built in 265ms
+18:01:46 [vite] ✓ built in 24ms
+18:01:46 [build] Rearranging server assets...
+
+ generating static routes 
+18:01:46   ├─ /404.html (+15ms) 
+18:01:46   ├─ /fixtures/math/index.html (+32ms) 
+18:01:46   ├─ /start/index.html (+6ms) 
+18:01:46   ├─ /index.html (+7ms) 
+18:01:46 ✓ Completed in 71ms.
+
+18:01:46 [build] ✓ Completed in 398ms.
+18:01:46 [build] 4 page(s) built in 1.01s
+18:01:46 [build] Complete!
+Private qualification artifact: /Users/new/RiderProjects/RPG_theory/dist/m0-review/qualification-root; deployEligible=false
+
+Running npm run audit:output -- --dir dist/m0-review/qualification-root
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/m0-review/qualification-root
+
+{"status":"PASS","mode":"qualification","basePath":"/","deployEligible":false,"files":68,"artifactSha256":"5d5c94630c75198cbb4dab0bbd069c4cab49cc61d33b936f01e0d549198b2b09"}
+
+Running npm run test:e2e -- --output dist/m0-review/qualification-root
+
+> unity-theory@0.0.1 test:e2e
+> tsx scripts/test-e2e.ts --output dist/m0-review/qualification-root
+
+
+Running 4 tests using 1 worker
+
+(node:41630) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/reading.spec.ts:7:1 › home and start read without JavaScript, navigate by keyboard and show source state (596ms)
+  ✓  2 tests/e2e/reading.spec.ts:26:1 › home, nested reading and math pass automated accessibility and 320px reflow (1.5s)
+  ✓  3 tests/e2e/reading.spec.ts:53:1 › dark-mode reading remains accessible (594ms)
+  ✓  4 tests/e2e/reading.spec.ts:60:1 › unknown routes return real 404 and nested assets use the configured base (211ms)
+
+  4 passed (3.7s)
+
+Running npm run build -- --mode qualification --config tests/fixtures/site-subpath.json --output dist/m0-review/qualification-subpath
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode qualification --config tests/fixtures/site-subpath.json --output dist/m0-review/qualification-subpath
+
+18:01:54 [content] Syncing content
+18:01:54 [content] Astro config changed
+18:01:54 [content] Clearing content store
+18:01:54 [content] Synced content
+18:01:54 [types] Generated 804ms
+18:01:54 [build] output: "static"
+18:01:54 [build] mode: "static"
+18:01:54 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m0-review/qualification-subpath/
+18:01:54 [build] Collecting build info...
+18:01:54 [build] ✓ Completed in 830ms.
+18:01:54 [build] Building static entrypoints...
+18:01:54 [vite] ✓ built in 301ms
+18:01:54 [vite] ✓ built in 139ms
+18:01:54 [build] Rearranging server assets...
+
+ generating static routes 
+18:01:54   ├─ /404.html (+10ms) 
+18:01:54   ├─ /fixtures/math/index.html (+22ms) 
+18:01:54   ├─ /start/index.html (+5ms) 
+18:01:54   ├─ /index.html (+7ms) 
+18:01:54 ✓ Completed in 54ms.
+
+18:01:54 [build] ✓ Completed in 526ms.
+18:01:54 [build] 4 page(s) built in 1.36s
+18:01:54 [build] Complete!
+Private qualification artifact: /Users/new/RiderProjects/RPG_theory/dist/m0-review/qualification-subpath; deployEligible=false
+
+Running npm run audit:output -- --dir dist/m0-review/qualification-subpath
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/m0-review/qualification-subpath
+
+{"status":"PASS","mode":"qualification","basePath":"/unity-theory/","deployEligible":false,"files":68,"artifactSha256":"d1b4dca27d0efe79aa2615248e6095f2e7860b67766abb78053306d8867fe46b"}
+
+Running npm run test:e2e -- --output dist/m0-review/qualification-subpath
+
+> unity-theory@0.0.1 test:e2e
+> tsx scripts/test-e2e.ts --output dist/m0-review/qualification-subpath
+
+
+Running 4 tests using 1 worker
+
+(node:41932) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/reading.spec.ts:7:1 › home and start read without JavaScript, navigate by keyboard and show source state (470ms)
+  ✓  2 tests/e2e/reading.spec.ts:26:1 › home, nested reading and math pass automated accessibility and 320px reflow (1.5s)
+  ✓  3 tests/e2e/reading.spec.ts:53:1 › dark-mode reading remains accessible (571ms)
+  ✓  4 tests/e2e/reading.spec.ts:60:1 › unknown routes return real 404 and nested assets use the configured base (219ms)
+
+  4 passed (3.3s)

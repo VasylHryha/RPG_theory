@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-01T16:46:28.294Z",
+  "command": "node --import tsx scripts/build.ts --mode release --output dist/m1/release-refused",
+  "expectedRefusal": "CURRENT_SOURCE_NOT_QUALIFIED",
+  "exitCode": 1,
+  "noOutput": true,
+  "status": "PASS"
+}

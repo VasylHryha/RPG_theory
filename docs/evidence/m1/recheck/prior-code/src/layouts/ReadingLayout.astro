@@ -1,0 +1,48 @@
+---
+import '../styles/global.css';
+import { activeConfig, activeMode } from '../lib/site-config';
+import { canonicalURL, withBase } from '../lib/urls';
+import { activePublication } from '../lib/publication';
+import { sourceState } from '../lib/source-admission';
+interface Props { title: string; description: string; route: string; math?: boolean }
+const { title, description, route } = Astro.props;
+const config = activeConfig();
+const url = (path: string) => withBase(path, config.basePath);
+const source = sourceState();
+const selected=activePublication();
+const navigation=[['DOC-STATUS','Research status'],['DOC-CONCEPT-GEOMETRY','Definitions'],['DOC-HOME','The question'],['DOC-START','Start simply']].flatMap(([id,label])=>{const entry=selected.entries.find(e=>e.id===id);return entry && selected.manifest.navigationIds.includes(id)?[{route:entry.route,label}]:[];});
+if(selected.manifest.routes.includes('/references/')) navigation.splice(2,0,{route:'/references/',label:'Literature'});
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="light dark" />
+    <title>{title} · Unity Theory</title>
+    <link rel="canonical" href={canonicalURL(route, config)} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL(route, config)} />
+    <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="preview-strip">Private {activeMode() === 'qualification' ? 'engineering preview' : 'preview'} <span>· Draft wording, awaiting source-bound review</span></div>
+    <header class="site-header shell">
+      <a class="brand" href={url('/')} aria-label="Unity Theory home"><span class="brand-mark" aria-hidden="true">↔</span> Unity Theory</a>
+      <nav aria-label="Main navigation">
+        {navigation.map(item=><a href={url(item.route)} aria-current={route===item.route?'page':undefined}>{item.label}</a>)}
+      </nav>
+    </header>
+    <main id="main" tabindex="-1"><slot /></main>
+    <aside class="source-note shell" aria-label="Source availability">
+      <span class="status-dot" aria-hidden="true"></span>
+      <div><strong>{source.bytesVerified ? 'Current sources available' : 'Current sources unavailable'}</strong>
+      <p>{source.bytesVerified ? `${source.files} supplied files checked against the recorded edition. Website explanations are drafts; content review is pending.` : `Source intake requires attention (${source.errorCode}). No historical document is used as a current substitute.`}</p></div>
+    </aside>
+    <footer class="site-footer shell"><p>Unity Theory <span> / Recursive Resonant Geometry</span></p><p>A working research framework · Local preview</p></footer>
+  </body>
+</html>

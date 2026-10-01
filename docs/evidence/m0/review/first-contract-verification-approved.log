@@ -1,0 +1,87 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m0-review --evidence-dir docs/evidence/m0/review
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+16:20:27 [content] Syncing content
+16:20:27 [content] Synced content
+16:20:27 [types] Generated 725ms
+16:20:27 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+Result (28 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+Running npm run check:sources -- --scope history
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope history
+
+{"status":"PASS","historicalFiles":14,"noticeTranscriptions":2,"authorityNoticeOnly":true}
+
+Running npm run check:sources -- --scope current
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope current
+
+{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01"}
+
+Running npm run test:content
+
+> unity-theory@0.0.1 test:content
+> tsx --test tests/content/*.test.ts
+
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (0.778125ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (78.32575ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (2.038958ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (1.43325ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (1.315084ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (1.910458ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (0.761417ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (1.332917ms)
+✔ silent edition-pin reset still fails (1.458166ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (1.592167ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.397209ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.329666ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (22.34925ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (19.449542ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (85.639166ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (18.941375ms)
+✖ Markdown reference links/images share safety and base handling (4.419042ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (2.3765ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (241.869084ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 18
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1037.827584
+
+✖ failing tests:
+
+test at tests/content/contracts.test.ts:172:1
+✖ Markdown reference links/images share safety and base handling (4.419042ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /&lt;script&gt;/. Input:
+  
+  '<p><code>&#x3C;script></code></p>\n' +
+    '<pre><code class="language-js">import x from "x"\n' +
+    '</code></pre>'
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:180:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '<p><code>&#x3C;script></code></p>\n<pre><code class="language-js">import x from "x"\n</code></pre>',
+    expected: /&lt;script&gt;/,
+    operator: 'match',
+    diff: 'simple'
+  }

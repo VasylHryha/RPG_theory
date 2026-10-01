@@ -1,0 +1,136 @@
+Running npm run test:content
+
+> unity-theory@0.0.1 test:content
+> tsx --test tests/content/*.test.ts
+
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (0.937167ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (39.420458ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (10.776208ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (1.203166ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (1.631042ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (3.575834ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (1.13275ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (2.1595ms)
+✔ silent edition-pin reset still fails (1.475541ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (2.328ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.478958ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.808875ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (40.2835ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (17.1995ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (29.289334ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (176.981667ms)
+✔ Markdown reference links/images share safety and base handling (20.443584ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (2.802417ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (147.756666ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1304.235833
+Running npm run build -- --mode qualification --config config/site.json --output dist/m0-review/qualification-root
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode qualification --config config/site.json --output dist/m0-review/qualification-root
+
+16:24:40 [content] Syncing content
+16:24:41 [content] Synced content
+16:24:41 [types] Generated 969ms
+16:24:41 [build] output: "static"
+16:24:41 [build] mode: "static"
+16:24:41 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m0-review/qualification-root/
+16:24:41 [build] Collecting build info...
+16:24:41 [build] ✓ Completed in 1.03s.
+16:24:41 [build] Building static entrypoints...
+16:24:41 [vite] ✓ built in 549ms
+16:24:41 [vite] ✓ built in 34ms
+16:24:41 [build] Rearranging server assets...
+
+ generating static routes 
+16:24:41   ├─ /404.html (+13ms) 
+16:24:41   ├─ /fixtures/math/index.html (+101ms) 
+16:24:41   ├─ /start/index.html (+7ms) 
+16:24:41   ├─ /index.html (+10ms) 
+16:24:41 ✓ Completed in 146ms.
+
+16:24:41 [build] ✓ Completed in 816ms.
+16:24:41 [build] 4 page(s) built in 1.85s
+16:24:41 [build] Complete!
+Private qualification artifact: /Users/new/RiderProjects/RPG_theory/dist/m0-review/qualification-root; deployEligible=false
+Running npm run audit:output -- --dir dist/m0-review/qualification-root
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/m0-review/qualification-root
+
+{"status":"PASS","mode":"qualification","basePath":"/","deployEligible":false,"files":68,"artifactSha256":"6cafe087e48ed8a44ec146a22cae1e7cd27035c06bc827639cd58e5d29661b56"}
+Running npm run test:e2e -- --output dist/m0-review/qualification-root
+
+> unity-theory@0.0.1 test:e2e
+> tsx scripts/test-e2e.ts --output dist/m0-review/qualification-root
+
+
+Running 4 tests using 1 worker
+
+(node:95100) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/reading.spec.ts:7:1 › home and start read without JavaScript, navigate by keyboard and show source state (659ms)
+  ✓  2 tests/e2e/reading.spec.ts:26:1 › home, nested reading and math pass automated accessibility and 320px reflow (1.7s)
+  ✓  3 tests/e2e/reading.spec.ts:53:1 › dark-mode reading remains accessible (702ms)
+  ✓  4 tests/e2e/reading.spec.ts:60:1 › unknown routes return real 404 and nested assets use the configured base (289ms)
+
+  4 passed (4.9s)
+Running npm run build -- --mode qualification --config tests/fixtures/site-subpath.json --output dist/m0-review/qualification-subpath
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode qualification --config tests/fixtures/site-subpath.json --output dist/m0-review/qualification-subpath
+
+16:24:53 [content] Syncing content
+16:24:53 [content] Astro config changed
+16:24:53 [content] Clearing content store
+16:24:53 [content] Synced content
+16:24:53 [types] Generated 1.20s
+16:24:53 [build] output: "static"
+16:24:53 [build] mode: "static"
+16:24:53 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m0-review/qualification-subpath/
+16:24:53 [build] Collecting build info...
+16:24:53 [build] ✓ Completed in 1.25s.
+16:24:53 [build] Building static entrypoints...
+16:24:53 [vite] ✓ built in 472ms
+16:24:53 [vite] ✓ built in 18ms
+16:24:53 [build] Rearranging server assets...
+
+ generating static routes 
+16:24:53   ├─ /404.html (+35ms) 
+16:24:53   ├─ /fixtures/math/index.html (+93ms) 
+16:24:54   ├─ /start/index.html (+6ms) 
+16:24:54   ├─ /index.html (+4ms) 
+16:24:54 ✓ Completed in 152ms.
+
+16:24:54 [build] ✓ Completed in 688ms.
+16:24:54 [build] 4 page(s) built in 1.94s
+16:24:54 [build] Complete!
+Private qualification artifact: /Users/new/RiderProjects/RPG_theory/dist/m0-review/qualification-subpath; deployEligible=false
+Running npm run audit:output -- --dir dist/m0-review/qualification-subpath
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/m0-review/qualification-subpath
+
+{"status":"PASS","mode":"qualification","basePath":"/unity-theory/","deployEligible":false,"files":68,"artifactSha256":"e8eb15e2430120047995decfa38292176a451d84726903dc23b3f192e6bc5b2b"}
+Running npm run test:e2e -- --output dist/m0-review/qualification-subpath
+
+> unity-theory@0.0.1 test:e2e
+> tsx scripts/test-e2e.ts --output dist/m0-review/qualification-subpath
+
+
+Running 4 tests using 1 worker
+
+(node:95211) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/reading.spec.ts:7:1 › home and start read without JavaScript, navigate by keyboard and show source state (538ms)
+  ✓  2 tests/e2e/reading.spec.ts:26:1 › home, nested reading and math pass automated accessibility and 320px reflow (1.6s)
+  ✓  3 tests/e2e/reading.spec.ts:53:1 › dark-mode reading remains accessible (653ms)
+  ✓  4 tests/e2e/reading.spec.ts:60:1 › unknown routes return real 404 and nested assets use the configured base (262ms)
+
+  4 passed (7.9s)

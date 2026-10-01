@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-01T18:34:14.386Z",
+  "status": "PASS",
+  "scientificAcceptance": false,
+  "cli": [
+    {
+      "command": "node --import tsx scripts/build.ts --mode qualification --output dist/m1-recheck/refused-qualification",
+      "exitCode": 1,
+      "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false
+    },
+    {
+      "command": "node --import tsx scripts/build.ts --mode release --output dist/m1-recheck/refused-release",
+      "exitCode": 1,
+      "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false
+    }
+  ],
+  "emittedOutputControls": [
+    {
+      "name": "wrong paper destination",
+      "expected": "BIBLIOGRAPHY_PARITY_FAILURE",
+      "reachedFailure": "BIBLIOGRAPHY_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "name": "fabricated review acceptance",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "name": "unbound home status",
+      "expected": "CONTENT_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "name": "incorrect navigation text",
+      "expected": "NAVIGATION_PARITY_FAILURE",
+      "reachedFailure": "NAVIGATION_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "name": "preview relabelled qualification",
+      "status": "PASS",
+      "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED"
+    }
+  ]
+}

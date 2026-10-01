@@ -1,0 +1,255 @@
+{
+  "schema": "unity-source-authority/2",
+  "plan_revision": 4,
+  "observed_on": "2026-10-01",
+  "scope": "Dated source-availability observation and justified revision policy; not verified current scientific contents",
+  "active_package": {
+    "name": "RRG_CURRENT",
+    "declared_by_project_file_id": "file_0000000047a0820ab6beb4722417cd62",
+    "availability": "MISSING_CURRENT_PACKAGE",
+    "currentSourceQualified": false,
+    "actual_manifest_sha256": null,
+    "actual_package_sha256": null,
+    "local_admitted_directory": null,
+    "target_repository_directory": "research/RRG_CURRENT",
+    "inventory_scope": "Ten main filenames reported in the note, not a verified exhaustive inventory",
+    "required_declared_main_files": [
+      {
+        "key": "R-CURRENT-CORE",
+        "filename": "00_LOCKED_CORE.md",
+        "availability": "NOT_OBTAINED",
+        "actual_sha256": null,
+        "expected_sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "key": "R-CURRENT-WORLD",
+        "filename": "01_world_explanation.md",
+        "availability": "NOT_OBTAINED",
+        "actual_sha256": null,
+        "expected_sha256": null
+      },
+      {
+        "key": "R-CURRENT-SCIENCE",
+        "filename": "02_scientific_framework.md",
+        "availability": "NOT_OBTAINED",
+        "actual_sha256": null,
+        "expected_sha256": null
+      },
+      {
+        "key": "R-CURRENT-MATH",
+        "filename": "03_mathematical_core.md",
+        "availability": "NOT_OBTAINED",
+        "actual_sha256": null,
+        "expected_sha256": null
+      },
+      {
+        "key": "R-CURRENT-STATUS",
+        "filename": "04_status_and_blockers.md",
+        "availability": "NOT_OBTAINED",
+        "actual_sha256": null,
+        "expected_sha256": null
+      },
+      {
+        "key": "R-CURRENT-CONTROL",
+        "filename": "05_CHANGE_CONTROL.md",
+        "availability": "NOT_OBTAINED",
+        "actual_sha256": null,
+        "expected_sha256": null
+      },
+      {
+        "key": "R-CURRENT-PROOF",
+        "filename": "06_PROOF_MATRIX.md",
+        "availability": "NOT_OBTAINED",
+        "actual_sha256": null,
+        "expected_sha256": null
+      },
+      {
+        "key": "R-CURRENT-INTERACTIONS",
+        "filename": "07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "availability": "NOT_OBTAINED",
+        "actual_sha256": null,
+        "expected_sha256": null
+      },
+      {
+        "key": "R-CURRENT-ADDITIONAL",
+        "filename": "08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "availability": "NOT_OBTAINED",
+        "actual_sha256": null,
+        "expected_sha256": null
+      },
+      {
+        "key": "R-CURRENT-MANIFEST",
+        "filename": "CURRENT_MANIFEST.md",
+        "availability": "NOT_OBTAINED",
+        "actual_sha256": null,
+        "expected_sha256": null
+      }
+    ],
+    "locked_core": {
+      "filename": "00_LOCKED_CORE.md",
+      "expected_sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "expected_hash_basis": "Same value reported in both shared Project notes",
+      "actual_sha256": null,
+      "verification": "NOT_PERFORMED_MISSING_BYTES",
+      "hash_raw_bytes": true,
+      "automatic_pin_update_allowed": false
+    },
+    "legacy_fallback_allowed": false,
+    "reconstruct_from_summary_allowed": false,
+    "actual_content_acceptance_allowed": false,
+    "public_release_allowed": false,
+    "baseline_pin_scope": "Prior edition recorded by earlier notes; not a permanent veto of a legitimate supplied/revised edition"
+  },
+  "notice_sources": [
+    {
+      "key": "P-CURRENT-NOTE",
+      "file_id": "file_0000000047a0820ab6beb4722417cd62",
+      "title": "GPT 6.1 overview.txt",
+      "representation": "visible_text_transcription",
+      "path": "source/project-notes/current-package-note.md",
+      "authorityNoticeOnly": true
+    },
+    {
+      "key": "P-EXTENSION-NOTE",
+      "file_id": "file_000000008550820ab37191709b2c050d",
+      "title": "GPT 6.1 overview.txt",
+      "representation": "visible_text_transcription",
+      "path": "source/project-notes/emergent-interaction-update-note.md",
+      "authorityNoticeOnly": true
+    }
+  ],
+  "historical_sources": [
+    {
+      "path": "source/history/v0.1b/01_world_explanation.md",
+      "role": "history_only",
+      "bytes": 17580,
+      "sha256": "a3c4f376d4a81bf8fc158d3c786c92e5c88b454aeead88173c4139420f4bbddb"
+    },
+    {
+      "path": "source/history/v0.1b/02_scientific_framework.md",
+      "role": "history_only",
+      "bytes": 29586,
+      "sha256": "269b6e4bd7c76e15f19f4c0ff752276ba2a1de76e0b84294516d2d3ef8c998c5"
+    },
+    {
+      "path": "source/history/v0.1b/03_mathematical_core.md",
+      "role": "history_only",
+      "bytes": 24450,
+      "sha256": "57d1aaa129d7edb780b83886b8b8ede40f7b30cf77a2d6b1f400c651ad1f92e4"
+    },
+    {
+      "path": "source/history/v0.1b/04_status_and_blockers.md",
+      "role": "history_only",
+      "bytes": 1475,
+      "sha256": "c1d0cbbc4be75b825634e02edd29ee312ab52b11228282300f642297ca4f06bd"
+    },
+    {
+      "path": "source/history/v0.1b/README.md",
+      "role": "history_only",
+      "bytes": 6303,
+      "sha256": "33712698f2416a63237820b54240827b69775db1dda039b052758f50eced5c6f"
+    },
+    {
+      "path": "source/history/v0.2-audit/01_research_audit.md",
+      "role": "history_only",
+      "bytes": 12655,
+      "sha256": "087ca0e2e10c63c16e40880c1787c47621c09f77a4e945b2864e717bcdeccc71"
+    },
+    {
+      "path": "source/history/v0.2-audit/02_mathematical_results.md",
+      "role": "history_only",
+      "bytes": 12910,
+      "sha256": "7216e5a71697206c33ac8d031cc1020679228346123105902275711771a582c8"
+    },
+    {
+      "path": "source/history/v0.2-audit/03_next_experiment.md",
+      "role": "history_only",
+      "bytes": 5965,
+      "sha256": "f3aacaca5b797dc34be4bec0ba9f596a71d0d629d158e1489279a1b7b0b4f522"
+    },
+    {
+      "path": "source/history/v0.2-audit/PROVENANCE.json",
+      "role": "history_only",
+      "bytes": 1771,
+      "sha256": "4471436b184433a2eef3e7d4e4a4b2b6fc589ba8a1a79e41e2c5d9c19d656b4e"
+    },
+    {
+      "path": "source/history/v0.2-audit/README.md",
+      "role": "history_only",
+      "bytes": 2923,
+      "sha256": "8908b6e64a543c56f0c876e7ecd484a72b6a7c652894fa37563c1cb55e9f8a35"
+    },
+    {
+      "path": "source/history/v0.2-audit/SOURCES.md",
+      "role": "history_only",
+      "bytes": 9706,
+      "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+    },
+    {
+      "path": "source/history/v0.2-audit/response_errors.csv",
+      "role": "history_only",
+      "bytes": 43556,
+      "sha256": "c5accab7db75cc6b08050fdec52e3b0fccc5ef82260cefa281872da916a000af"
+    },
+    {
+      "path": "source/history/v0.2-audit/verification_results.json",
+      "role": "history_only",
+      "bytes": 2935,
+      "sha256": "eb90644744d1690dae87a3c94931c05e45a4d895fce23a9f77264d38ecd74a63"
+    },
+    {
+      "path": "source/history/v0.2-audit/verify_response_closure.py",
+      "role": "history_only",
+      "bytes": 8673,
+      "sha256": "47ce8c4da68e0b2cd9e780459f94e8b488dd19bce3bc1cafe556721d424dfd61"
+    }
+  ],
+  "historical_rrg_archive": {
+    "declared_name": "RRG_ARCHIVE_OLD_VERSIONS.zip",
+    "availability": "NOT_OBTAINED",
+    "included_history_is_not_claimed_as_complete_archive": true
+  },
+  "engineering_work": {
+    "private_scaffold_allowed": true,
+    "fixture_contract_checks_allowed": true,
+    "fixture_results_are_current_content_acceptance": false,
+    "current_source_gate": "CURRENT_SOURCE_PACKAGE_MISSING"
+  },
+  "single_forward_plan": "UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+  "supporting_source_index": "PROJECT_SOURCE_ALIGNMENT.md",
+  "superseded_handoff": "history/UNITY_THEORY_WEBSITE_HANDOFF_R3.zip",
+  "updated_sources_recheck": {
+    "user_reports_updated_sources": true,
+    "checked_surfaces": [
+      "current Project/conversation Files search and list",
+      "Library source search",
+      "Unity Theory Library folder",
+      "recent Library metadata",
+      "local supplied artifacts"
+    ],
+    "result": "ACTUAL_CURRENT_FILES_NOT_RETURNED",
+    "source_contents_inspected": false,
+    "requires_recheck_at_execution": true,
+    "not_a_claim_of_global_absence": true,
+    "original_project_notes_read_this_pass": false,
+    "preserved_note_transcriptions_read": true
+  },
+  "source_revision_policy": {
+    "canonical_rule": "Use current sources as baseline; allow justified necessary in-scope edits; prevent silent drift",
+    "current_sources_editable": true,
+    "includes_original_and_core_documents": true,
+    "requires_concrete_need_and_before_after_meaning": true,
+    "requires_authorized_task_scope": true,
+    "requires_extra_permission_solely_for_locked_filename": false,
+    "review_only_task_modifies_scientific_sources": false,
+    "history_and_issued_artifacts_preserved": true,
+    "intake_or_build_may_silently_edit_sources": false,
+    "source_and_dependencies_updated_together": true,
+    "legitimate_revised_baseline_may_change_hash": true,
+    "unexplained_pin_reset_allowed": false,
+    "missing_sources_may_be_reconstructed": false,
+    "blanket_source_read_only_rule": false,
+    "scientific_source_files_changed_in_this_pass": false,
+    "rule_owner": "UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md §0.3 and §4.5"
+  }
+}

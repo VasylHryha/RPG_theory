@@ -1,0 +1,96 @@
+{
+  "status": "Standard linear-response identity checked numerically; NOT spontaneous hierarchy or RRG proof",
+  "parameters": {
+    "sites": 8,
+    "mass": 1,
+    "nearest_neighbor_spring": 1,
+    "ground_spring": 0.4,
+    "C": "0.08 M + 0.015 K",
+    "first_retained_indices": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "final_retained_indices": [
+      0,
+      6
+    ],
+    "omega_min": 0,
+    "omega_max": 3,
+    "main_samples": 601,
+    "random_control_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "control_samples_each": 301,
+    "internal_forcing": 0
+  },
+  "main": {
+    "max_nested_direct_operator_relative_error": 2.4914298586869998e-15,
+    "max_reduced_full_response_relative_error": 2.2604776966064163e-15,
+    "max_local_quadratic_response_error_omega_le_0_1": 0.00011802245743346401,
+    "max_local_quadratic_response_error_omega_le_0_5": 0.11084836534805269,
+    "max_local_quadratic_response_error_full_range": 3.4636163185398994,
+    "worst_local_quadratic_error_omega": 0.835
+  },
+  "random_controls": {
+    "max_nested_direct_operator_relative_error": 3.2673699013372684e-15,
+    "max_reduced_full_response_relative_error": 2.9431519848809883e-15
+  },
+  "adiabatic_feedback_example": [
+    {
+      "wave_action": 0.0,
+      "equilibrium_size": 1.0,
+      "wave_frequency": 1.0,
+      "restoring_stiffness": 1.0,
+      "mechanical_small_signal_frequency": 1.0,
+      "force_residual": 0.0
+    },
+    {
+      "wave_action": 0.1,
+      "equilibrium_size": 1.0849529035917915,
+      "wave_frequency": 0.9216989942046787,
+      "restoring_stiffness": 1.1566020115906428,
+      "mechanical_small_signal_frequency": 1.0754543279891726,
+      "force_residual": 1.1102230246251565e-16
+    },
+    {
+      "wave_action": 1.0,
+      "equilibrium_size": 1.4655712318767682,
+      "wave_frequency": 0.6823278038280193,
+      "restoring_stiffness": 1.6353443923439612,
+      "mechanical_small_signal_frequency": 1.2788058462268466,
+      "force_residual": -2.7755575615628914e-16
+    },
+    {
+      "wave_action": 5.0,
+      "equilibrium_size": 2.116343298624212,
+      "wave_frequency": 0.4725131318014794,
+      "restoring_stiffness": 2.0549737363970406,
+      "mechanical_small_signal_frequency": 1.4335179581704027,
+      "force_residual": -8.881784197001252e-16
+    }
+  ],
+  "limitations": [
+    "Network and retained coordinates were specified, not self-assembled.",
+    "The exact reduced operator is frequency dependent, generally not K_eff+s C_eff+s^2 M_eff with constants.",
+    "The quadratic comparison is the Taylor approximation at zero frequency, not a globally optimized reduced model.",
+    "Internal initial conditions and internal applied forces require extra effective source terms.",
+    "All quantities are dimensionless toy parameters, not particle or biological data."
+  ]
+}

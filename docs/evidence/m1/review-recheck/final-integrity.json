@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-01T20:06:12.050Z",
+  "status": "PASS",
+  "protectedBaselineFiles": 2911,
+  "unchangedProtectedFiles": 2901,
+  "preservedTaskOwnedChanges": [
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "priorSnapshot": "docs/evidence/m1/review-recheck/prior-code/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "priorSha256": "df968864fc63985886e33331db27ab28c8b850b58600e4be34b793e547bdcab3",
+      "currentSha256": "ea2a0285b67229f642b7b586fca22f7e5512f9f211be0d9c7fc98169e1c5c085"
+    },
+    {
+      "path": "scripts/audit-output.ts",
+      "priorSnapshot": "docs/evidence/m1/review-recheck/prior-code/scripts/audit-output.ts",
+      "priorSha256": "7f6c500cde11a5ccf98a4f1beeb2222ff6fad27e6dc77adf4c496d21f1621619",
+      "currentSha256": "0478962d6884ca5287956dec6b85d2ff1bc2239af52810854dff5bf6aed4e22a"
+    },
+    {
+      "path": "src/lib/content.ts",
+      "priorSnapshot": "docs/evidence/m1/review-recheck/prior-code/src/lib/content.ts",
+      "priorSha256": "8a788612ebf97fa0b0a36f13d7f3396d3b819aa50c5af4a8b2f6fec5f6184d19",
+      "currentSha256": "f7b6fb255f40a92edec185045fc2aee29d92048341dc9e080e06e8d493020ac5"
+    },
+    {
+      "path": "src/lib/presentation.ts",
+      "priorSnapshot": "docs/evidence/m1/review-recheck/prior-code/src/lib/presentation.ts",
+      "priorSha256": "e4041fe8ce51637d570ff44c292d51f91da5893db086132d7592ed00cb0e2148",
+      "currentSha256": "96d4a98824b982778447e80540fc0c624ee9582c06dfe2e9de52fbe0e82e8a54"
+    },
+    {
+      "path": "src/lib/source-revision.ts",
+      "priorSnapshot": "docs/evidence/m1/review-recheck/prior-code/src/lib/source-revision.ts",
+      "priorSha256": "446424b6a10b8074fcb48f1e49a8a66bd9213832161b83097f01e6cbade0d765",
+      "currentSha256": "fa452d0e59f1590f5a04c714089476dfc4b9561832dea0b9b1adb49bf8066967"
+    },
+    {
+      "path": "src/pages/index.astro",
+      "priorSnapshot": "docs/evidence/m1/review-recheck/prior-code/src/pages/index.astro",
+      "priorSha256": "5e8c68ac8153b817edc39eb0544dcabc7205c0a74153eaede8fd0d94211df8ec",
+      "currentSha256": "ff506d05546f9936e7b75cd17370e945f0784dfa2bc130de7eabe48d0c6ab7b4"
+    },
+    {
+      "path": "src/pages/start.astro",
+      "priorSnapshot": "docs/evidence/m1/review-recheck/prior-code/src/pages/start.astro",
+      "priorSha256": "2ca0ef5f322194812de0920776e394ef474f8a0ed4fa861871534096b608ecf8",
+      "currentSha256": "ab12d93e111b37a7b9a64bc6f17ff0872be0635715462a9f57d389980e0e2715"
+    },
+    {
+      "path": "tests/content/contracts.test.ts",
+      "priorSnapshot": "docs/evidence/m1/review-recheck/prior-code/tests/content/contracts.test.ts",
+      "priorSha256": "3384b36592b8e544e0242473a61c48c3bd6cef7ee03dbb112c97ff672f12b34f",
+      "currentSha256": "be2dc1908ff7b32968ffb18b7a6c90e6e2f570d07e94d27680e3e8409cffab5d"
+    },
+    {
+      "path": "tests/content/m1.test.ts",
+      "priorSnapshot": "docs/evidence/m1/review-recheck/prior-code/tests/content/m1.test.ts",
+      "priorSha256": "1dd98ff86b0a2757fd2c8342c5997e7b4674eeced03d7520822f72a11198ca9b",
+      "currentSha256": "3faae7b7e5c6bbe6362f0dbe020cb2fe9a593b773b46edff8e2e61e4b0b5c8e0"
+    },
+    {
+      "path": "tests/content/page-lifecycle.test.ts",
+      "priorSnapshot": "docs/evidence/m1/review-recheck/prior-code/tests/content/page-lifecycle.test.ts",
+      "priorSha256": "4040ebce6632487c2f0771fd93041fe40664ac6843533c604250577390a25e7c",
+      "currentSha256": "b272db92674ba1b231c2799b16ceff3ef7bc5dce70889342aa78b9e86ff8430d"
+    }
+  ],
+  "artifacts": [
+    {
+      "directory": "dist/m1-recheck/preview-root",
+      "artifactSha256": "efc4d78da388e580f876c1729e60162edc9978a3f7202bae6b429d73d3ea15bb",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "e91d14cca25871e1203f0ed1b6a3e5e0b99d10a094fb6427fabe8abdc2e3f7f6",
+      "inputsSha256": "db136e97fa8a8d32554aa164c471ddbd068f07cf450be8f0819b92a470f43683",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-recheck/preview-subpath",
+      "artifactSha256": "986a6738963e88718dd97c612956aa66e36b07c6bf79b8edfdb41d29978ae252",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "e91d14cca25871e1203f0ed1b6a3e5e0b99d10a094fb6427fabe8abdc2e3f7f6",
+      "inputsSha256": "db136e97fa8a8d32554aa164c471ddbd068f07cf450be8f0819b92a470f43683",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-review/preview-root",
+      "artifactSha256": "9317f01611d5b3373faf8b3b0daea24d70435b44cd3200996e56d0c507df03ac",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "3a253439f7038686f4e49bcb2c139cc6967463084623376a958286e1021b5e8b",
+      "inputsSha256": "cfcdfebe0a3ac06726bfd0f39b5c141f3b9ddb3c1360a095ed69b2f70222bcee",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-review/preview-subpath",
+      "artifactSha256": "c1933ebad61ee2c7f721323ee5f42912ee0043af7855e2f87c58f13f03f346ba",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "3a253439f7038686f4e49bcb2c139cc6967463084623376a958286e1021b5e8b",
+      "inputsSha256": "cfcdfebe0a3ac06726bfd0f39b5c141f3b9ddb3c1360a095ed69b2f70222bcee",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-review-recheck/preview-root",
+      "artifactSha256": "b1a79e0477af5529cb8860829a5769785130027e01ec577d198db290cb32b12a",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "fa86675279231a09f5277a55503a3f6b7e14115339898ac0ba38fb35a9ee3fad",
+      "inputsSha256": "f515f26fea0f41045057ffef81c6334d669c8039f4269475aa0745074db26cfc",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    },
+    {
+      "directory": "dist/m1-review-recheck/preview-subpath",
+      "artifactSha256": "5323ce0799d213d4bccd91c8003d247fec71f7fc52022a8985c37fb01bf87ace",
+      "files": 101,
+      "htmlPaths": 37,
+      "publicationManifestSha256": "fa86675279231a09f5277a55503a3f6b7e14115339898ac0ba38fb35a9ee3fad",
+      "inputsSha256": "f515f26fea0f41045057ffef81c6334d669c8039f4269475aa0745074db26cfc",
+      "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+      "unchangedAfterBrowserAndControls": true
+    }
+  ],
+  "productionInputs": {
+    "inputsSha256": "f515f26fea0f41045057ffef81c6334d669c8039f4269475aa0745074db26cfc",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "a920cf771c528ad2c9ae996371e51f11f4aa653b46baf4200f4bbd39e10b62bb"
+  },
+  "admission": {
+    "availability": "AVAILABLE_BYTES_VERIFIED",
+    "bytesVerified": true,
+    "corpusScope": "current",
+    "currentSourceQualified": false,
+    "files": 13,
+    "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "inventorySeal": "25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a",
+    "edition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "errorCode": null
+  },
+  "engineeringState": "REVIEW_READY",
+  "scientificAcceptance": false,
+  "publicAction": "NOT_RUN"
+}

@@ -1,0 +1,56 @@
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode preview --output dist/m0-review/preview-root
+
+17:54:55 [content] Syncing content
+17:54:55 [content] Astro config changed
+17:54:55 [content] Clearing content store
+17:54:56 [content] Synced content
+17:54:56 [types] Generated 709ms
+17:54:56 [build] output: "static"
+17:54:56 [build] mode: "static"
+17:54:56 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m0-review/preview-root/
+17:54:56 [build] Collecting build info...
+17:54:56 [build] ✓ Completed in 738ms.
+17:54:56 [build] Building static entrypoints...
+17:54:56 [vite] ✓ built in 285ms
+17:54:56 [vite] ✓ built in 41ms
+17:54:56 [build] Rearranging server assets...
+
+ generating static routes 
+17:54:56   ├─ /404.html (+13ms) 
+17:54:56   ├─ /fixtures/math/index.html (+46ms) 
+17:54:56   ├─ /start/index.html (+7ms) 
+17:54:56   ├─ /index.html (+6ms) 
+17:54:56 ✓ Completed in 82ms.
+
+17:54:56 [build] ✓ Completed in 453ms.
+17:54:56 [build] 4 page(s) built in 1.19s
+17:54:56 [build] Complete!
+Private preview artifact: /Users/new/RiderProjects/RPG_theory/dist/m0-review/preview-root; deployEligible=false
+
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/m0-review/preview-root
+
+{"status":"PASS","mode":"preview","basePath":"/","deployEligible":false,"files":68,"artifactSha256":"678c58d93b7b71f34dc7039378a077ec5e417b9f9b9b3b5d8a5d271eaf647139"}
+
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode release --output dist/m0-review/release-root
+
+/Users/new/RiderProjects/RPG_theory/src/lib/publication.ts:6
+  if (new URL(config.origin).hostname.endsWith('.invalid') || !config.repository) throw new ContractError('PUBLIC_TARGET_REQUIRED', 'A real owner-designated repository and origin are required');
+                                                                                        ^
+
+ContractError: PUBLIC_TARGET_REQUIRED: A real owner-designated repository and origin are required
+    at assertBuildAllowed (/Users/new/RiderProjects/RPG_theory/src/lib/publication.ts:6:89)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/build.ts:16:1)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'PUBLIC_TARGET_REQUIRED'
+}
+
+Node.js v24.18.0
+

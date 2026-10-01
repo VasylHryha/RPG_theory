@@ -1,0 +1,439 @@
+--- prior/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md
++++ docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md
+@@ -4,7 +4,7 @@
+ program: unity_theory_publication_site
+ revision: 4
+ updated: 2026-10-01
+-status: M1_REVIEW_READY_CURRENT_BINDINGS_IMPLEMENTED_REVIEW_PENDING
++status: M1_ENGINEERING_ACCEPTED_SCIENTIFIC_QUALIFICATION_PENDING
+ current_milestone: M1
+ execution_model: "User-selected Codex 6.1 Sol High implementer; separate fresh High reviewer"
+ repository: "Local implementation: /Users/new/RiderProjects/RPG_theory; no Git repository/remote configured"
+@@ -32,24 +32,24 @@
+ 
+ | Field | Current record |
+ |---|---|
+-| Current milestone / state | **M1 / REVIEW_READY — demonstrated private source-bound engineering**; M0 engineering ACCEPTED; scientific/independent M1 review pending |
++| Current milestone / state | **M1 / REVIEW_READY for remaining scientific qualification**; independent M1 engineering scope ACCEPTED (§0.8); whole M1 real-content acceptance withheld; M0 engineering ACCEPTED |
+ | Website repository / implementation | One-root local Astro implementation in `/Users/new/RiderProjects/RPG_theory`; original Rider files preserved; no Git/remote target yet |
+-| Last engineering acceptance | Separate M0 review, 1 October 2026; source-byte intake/static foundation only; see §0.5 |
+-| Changed here | M1 source-bound records, document/collection adapters, source/citation registry, semantic/review/revision lifecycle, shared selection and actual page/navigation/bibliography consumers; latest recheck and evidence in §0.7 |
++| Last engineering acceptance | Separate M1 review, 1 October 2026; demonstrated private source-bound engineering and bounded extraction/display fidelity; see §0.8 |
++| Changed here | Independent M1 review and connected dependency/fingerprint/prior-core-quote repairs; current evidence and limits in §0.8 |
+ | Declared active scientific authority | **RRG_CURRENT**, identified by the shared current-package note [P-CURRENT-NOTE] |
+ | Actual current package | **AVAILABLE_CURRENT_BYTES** in local execution on 1 October 2026; owner-supplied ZIP unpacked into `research/RRG_CURRENT/` |
+ | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; shared validator checks the declared pin |
+ | Available historical research | Fourteen unchanged v0.1b / v0.2-audit files, preserved as history only |
+ | Numerical reproduction | R2 receipts preserved as historical evidence; **NOT_RERUN** in this alignment |
+-| Website/browser/a11y/live evidence | Fresh M1 private root/subpath builds, 38 contracts and 12 Chromium checks PASS; bounded axe/no-JS/keyboard/reflow/visual checks PASS; assistive technology/human study/live hosting NOT_RUN |
++| Website/browser/a11y/live evidence | Fresh M1 review private previews at both bases: 59 contracts and 14 Chromium checks PASS; bounded axe/no-JS/keyboard/reflow/visual evidence; assistive technology/human study/live hosting NOT_RUN |
+ | Shared-source mutation | No scientific source bytes changed in this pass. Current-source changes are allowed when justified under §0.3; historical snapshots remain unchanged |
+ | External publication authority | No public repository creation, push, visibility change, Pages/DNS action, license grant or purchase performed |
+-| Next action | Launch a separate M1 review using §0.6 and docs/evidence/m1/implementation-receipt.md; do not begin M2 |
++| Next action | Complete remaining M1 scientific/support and exact-content qualification under §0.8 and docs/evidence/m1/review/review-receipt.md; no M2 until full M1 acceptance and relevant meanings are reviewed |
+ 
+ | Milestone | Accepted outcome | Requires | State |
+ |---|---|---|---|
+ | M0 | Static foundation, source-preserving intake, explicit missing-source behavior, private reading slice, root/subpath proof | Local tools + this handoff | ACCEPTED — demonstrated engineering only, separate review §0.5 |
+-| M1 | Current-source-bound records, document adapters, source registry and publication guards used by actual pages | M0 + qualified RRG_CURRENT for real-content acceptance | REVIEW_READY — private engineering demonstrated; independent source/content/citation review pending; currentSourceQualified false |
++| M1 | Current-source-bound records, document adapters, source registry and publication guards used by actual pages | M0 + qualified RRG_CURRENT for real-content acceptance | REVIEW_READY — independent engineering scope ACCEPTED (§0.8); full real-content acceptance withheld pending scientific/support/exact reviews; currentSourceQualified false |
+ | M2 | Faithful complete beginner journey and example pages | M1 + reviewed current meanings | NOT_STARTED |
+ | M3 | Current framework/math/status/proof/evidence documents rendered; bounded supplementary research where selected | M1–M2 + admitted current corpus | NOT_STARTED |
+ | M4 | Articles, document library, source-faithful exports and citation | M3 | NOT_STARTED |
+@@ -136,6 +136,18 @@
+ **Exact final identities.** Root `dist/m1-recheck/preview-root`: `efc4d78da388e580f876c1729e60162edc9978a3f7202bae6b429d73d3ea15bb`; subpath `dist/m1-recheck/preview-subpath`: `986a6738963e88718dd97c612956aa66e36b07c6bf79b8edfdb41d29978ae252`. Each has 101 files/37 HTML routes and is unchanged after browser/control/visual checks. Logical manifest `e91d14cca25871e1203f0ed1b6a3e5e0b99d10a094fb6427fabe8abdc2e3f7f6`; production inputs `db136e97fa8a8d32554aa164c471ddbd068f07cf450be8f0819b92a470f43683`; unchanged sole lock `d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd`. Core/manifest/current seal from §0.5 remain unchanged. Combined preservation checks cover 1212 paths: 1210 unchanged and two task-owned sidecar updates with exact prior byte snapshots. Current source bytes, ZIPs/history/notices/handoff/Rider/prior evidence/artifacts are preserved. No accepted review or scientific execution was written; currentSourceQualified remains false. No public action occurred.
+ 
+ **Remaining gates and exact next action.** Separately launch independent M1 engineering/representation review with the exact prompt in `docs/evidence/m1/recheck/recheck-receipt.md`. It must read actual source meanings, inspect final artifacts/guards and record only demonstrated accepted scope or blockers in this same R4 plan. Scientific support/paraphrase/status/alternate-version review, author/rights/privacy/identity/public-target decisions and later whole-site/hosting/assistive/human checks remain open; no self-acceptance or M2 is authorized by this recheck. §0.7 supersedes §0.6's current implementation/output and draft-bearing qualification descriptions; earlier receipts remain historical evidence with their original identities.
++
++### 0.8 Separate M1 engineering review and bounded acceptance — 1 October 2026
++
++**Decision: M1 engineering ACCEPTED for the demonstrated private source-bound slice and bounded source extraction/display fidelity. Full M1 actual-content qualification remains open; M1 stays REVIEW_READY for that scope. M0 engineering remains ACCEPTED; M2 remains NOT_STARTED.** This separately launched review read all thirteen actual current files, source/record/document/citation mappings, actual collection/loader/selection/renderer/revision CLI/route/auditor consumers and named receipts. It audited the retained final §0.7 root/subpath outputs before changing their inputs: both inventories exactly match their recorded hashes and production identities. No scientific approval follows from an engineering or source-parity decision. Detailed decision and exact handoff: `docs/evidence/m1/review/review-receipt.md`; independent source observations: `source-readout.md` in that folder.
++
++**Connected findings repaired.** E01–09 now declare every core clause explicitly named by their actual 08 excerpts; nine derivative record revisions advance. DOC-START now tracks the 07 effective-interaction evidence and current status it describes; its revision advances. Exact predecessor sidecar/code/plan bytes are preserved under `docs/evidence/m1/review/prior-code/`. Review fingerprints now include the transitive URL/schema/admission/selection/rendering implementation, styles, Astro configuration and sole dependency lock, closing changes that previously altered presentation without invalidating reviews. Unrelated bibliography locality still passes. The seven-part core revision gate now requires the quoted locked statement to occur in the byte-verified preserved prior core, and refuses whitespace-only required transaction fields. Actual temporary-edition CLI controls reach missing proof, category relabelling and fabricated quote failures; valid synthetic controls remain pending and never authorize science. No actual scientific revision or computation occurred.
++
++**Fresh checks and real artifacts.** Final `npm run verify -- --output-root dist/m1-review --evidence-dir docs/evidence/m1/review`: all eleven commands exit 0, zero Astro errors/warnings/hints, **59 contract tests and 14 Chromium tests PASS** at `/` and `/unity-theory/`. Actual source ZIP/directory parity freshly checks all thirteen raw files. Actual qualification/release CLIs both refuse `CURRENT_SOURCE_NOT_QUALIFIED`, exit 1, before output. Twelve controls mutate copies of both actual emitted artifacts and reach the intended paper-destination, accepted-label, status-projection, navigation, omitted-dependency and qualification-relabel failures. No-JS/keyboard/MathML/fonts/local table scrolling/axe/320px/dark/404/source-disclosure/literature checks are bounded evidence, not human comprehension or assistive-technology certification. Actual representative screenshots were inspected. One initial retained-artifact audit hit sandbox tsx IPC EPERM; approved local execution passed. No test assertion failed in the consolidated repair verification. Receipts: `verification.json`, `verification-approved.log`, `baseline-audit/`, `archive-parity.json`, `cli-and-output-controls.json`, `installed-packages.json`, `final-integrity.json` and `task-files.json`.
++
++**Exact current preview identities.** Root `dist/m1-review/preview-root`: `9317f01611d5b3373faf8b3b0daea24d70435b44cd3200996e56d0c507df03ac`; subpath `dist/m1-review/preview-subpath`: `c1933ebad61ee2c7f721323ee5f42912ee0043af7855e2f87c58f13f03f346ba`. Each contains 101 files/37 HTML routes. Logical manifest `3a253439f7038686f4e49bcb2c139cc6967463084623376a958286e1021b5e8b`; production inputs `cfcdfebe0a3ac06726bfd0f39b5c141f3b9ddb3c1360a095ed69b2f70222bcee`; sole lock remains `d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd`. Current and §0.7 artifacts are byte-checked unchanged after browser/mutation/visual work. Baseline covers 2604 pre-review files; 2597 remain byte-identical, seven task-owned changes have exact predecessor snapshots. The new focused test is separately identified. Raw current/archive/history/notices/handoff/Rider/editor/earlier evidence and artifacts are unchanged. No Git repository/HEAD/remote exists.
++
++**Separate gates and exact next action.** Extraction, source-relative core explanations, displayed open/extension limits and current URL/alias/metadata reconciliation are accepted only at the bounded fidelity scope independently read and demonstrated here. Claim-level external-paper support, alternate-version qualification and corpus scientific acceptance remain **PENDING**; no live metadata refresh, paper audit, experiment or numerical reproduction is claimed. Source-format and narrower candidate-model observations stay preserved for their owning work; complete 02/03 rendering is outside M1. All scientific reviews and execution registries remain empty; `currentSourceQualified: false`. `review-request-fingerprints.json` is a pending request report, never approval. First-public authorial/core/introduction approval, identity/rights/privacy and real public-target authorization are separately **PENDING / NOT_SUPPLIED**. Whole-site/search/export/release, remote CI/platform/live hosting, other engines, assistive technology and human comprehension remain in later scopes or NOT_RUN/NOT_TESTED. Complete the remaining M1 source/scientific/support review against actual material and exact identities; record only genuinely read accepted scope and qualify admission only when justified. Do not copy new digests into accepted receipts. Do not start M2 in this review, or while full M1/relevant-current-meaning gates remain open. No publish/push/remote/license/deploy/DNS action occurred. §0.8 supersedes §0.7's pending-engineering-review/current-output description; prior evidence retains its original identities and limitations.
+ 
+ ## 1. Review findings and chosen repairs
+ 
+@@ -276,7 +288,7 @@
+ b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1
+ ```
+ 
+-**Current local observation:** actual core present; raw computed value matches the edition pin above; actual manifest and full inventory verified (§0.5). Bindings and scientific-content review remain pending. The original handoff absent-file/`null` observation is superseded for this supplied input. Byte integrity is not scientific validity.
++**Current local observation:** actual core present; raw computed value matches the edition pin above; actual manifest/full inventory and bindings are verified (§§0.5–0.8). Bounded M1 extraction/display fidelity is independently accepted; scientific-content qualification remains pending. The original handoff absent-file/`null` observation is superseded for this supplied input. Byte integrity is not scientific validity.
+ 
+ Implement one admission path, used by source validation and release selection:
+ 
+@@ -1188,4 +1200,4 @@
+ | W10 | WIPO copyright protection: `https://www.wipo.int/en/web/copyright/protection` | Copyright's expression/idea distinction; not jurisdiction-specific legal advice or a royalty contract |
+ | W11 | Creative Commons BY-NC-SA 4.0: `https://creativecommons.org/licenses/by-nc-sa/4.0/` | Example of a non-commercial attribution/share-alike option and retained valid permissions; no license has been selected or granted here |
+ 
+-**End of sole forward implementation plan.** M0 engineering is accepted (§0.5); M1 is REVIEW_READY (§0.7) for a separately launched review. M2 remains NOT_STARTED. Actual current bytes and source-bound engineering are demonstrated; scientific/independent reviews and author/publication gates remain open. Source revisions follow §0.3/§4.5. No public action is authorized by engineering evidence.
++**End of sole forward implementation plan.** M0 engineering is accepted (§0.5); M1 independent engineering and bounded extraction/display fidelity are accepted (§0.8), while full actual-content qualification remains open and M1 stays REVIEW_READY for that scope. M2 remains NOT_STARTED. Scientific/support/exact-content reviews and author/rights/public-target gates remain separate and pending; currentSourceQualified remains false. Source revisions follow §0.3/§4.5. No public action is authorized by engineering evidence.
+--- prior/research/publication/pages/start.md
++++ research/publication/pages/start.md
+@@ -4,7 +4,7 @@
+   "route": "/start/",
+   "title": "Start with the idea",
+   "description": "Parts, relationships, activity—and the question of further organization.",
+-  "revision": 1,
++  "revision": 2,
+   "kind": "intro",
+   "lang": "en",
+   "audience": "general",
+@@ -14,7 +14,8 @@
+   "updatedAt": "2026-10-01",
+   "sourceRefs": [
+     "R-CURRENT-CORE",
+-    "R-CURRENT-WORLD"
++    "R-CURRENT-WORLD",
++    "R-CURRENT-INTERACTIONS"
+   ],
+   "dependsOn": [
+     "UT-D01",
+@@ -27,7 +28,11 @@
+     "UT-C01",
+     "UT-C02",
+     "UT-O04",
+-    "UT-O05"
++    "UT-O05",
++    "UT-E10",
++    "UT-E11",
++    "UT-E12",
++    "DOC-STATUS"
+   ],
+   "related": [],
+   "bibRefs": [],
+--- prior/research/publication/records.yaml
++++ research/publication/records.yaml
+@@ -680,7 +680,7 @@
+     "route": "/claims/UT-E01/",
+     "title": "Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions",
+     "description": "Source-reported external experiment or restricted result; primary-paper qualification remains pending.",
+-    "revision": 1,
++    "revision": 2,
+     "kind": "evidence",
+     "lang": "en",
+     "audience": "technical",
+@@ -693,7 +693,10 @@
+     ],
+     "dependsOn": [
+       "UT-D03",
+-      "UT-D06"
++      "UT-D05",
++      "UT-D06",
++      "UT-D07",
++      "UT-D08"
+     ],
+     "related": [],
+     "bibRefs": [
+@@ -723,7 +726,7 @@
+     "route": "/claims/UT-E02/",
+     "title": "Heteronuclear soliton molecules in optical microresonators",
+     "description": "Source-reported external experiment or restricted result; primary-paper qualification remains pending.",
+-    "revision": 1,
++    "revision": 2,
+     "kind": "evidence",
+     "lang": "en",
+     "audience": "technical",
+@@ -736,7 +739,8 @@
+     ],
+     "dependsOn": [
+       "UT-D03",
+-      "UT-D06"
++      "UT-D06",
++      "UT-D07"
+     ],
+     "related": [],
+     "bibRefs": [
+@@ -766,7 +770,7 @@
+     "route": "/claims/UT-E03/",
+     "title": "Mechanochemical feedback loop drives persistent motion of liposomes",
+     "description": "Source-reported external experiment or restricted result; primary-paper qualification remains pending.",
+-    "revision": 1,
++    "revision": 2,
+     "kind": "evidence",
+     "lang": "en",
+     "audience": "technical",
+@@ -779,6 +783,7 @@
+     ],
+     "dependsOn": [
+       "UT-D03",
++      "UT-D04",
+       "UT-D06"
+     ],
+     "related": [],
+@@ -809,7 +814,7 @@
+     "route": "/claims/UT-E04/",
+     "title": "De novo synthesized Min proteins drive oscillatory liposome deformation and regulate FtsA–FtsZ cytoskeletal patterns",
+     "description": "Source-reported external experiment or restricted result; primary-paper qualification remains pending.",
+-    "revision": 1,
++    "revision": 2,
+     "kind": "evidence",
+     "lang": "en",
+     "audience": "technical",
+@@ -822,7 +827,8 @@
+     ],
+     "dependsOn": [
+       "UT-D03",
+-      "UT-D06"
++      "UT-D06",
++      "UT-D07"
+     ],
+     "related": [],
+     "bibRefs": [
+@@ -852,7 +858,7 @@
+     "route": "/claims/UT-E05/",
+     "title": "Ion channels enable electrical communication in bacterial communities",
+     "description": "Source-reported external experiment or restricted result; primary-paper qualification remains pending.",
+-    "revision": 1,
++    "revision": 2,
+     "kind": "evidence",
+     "lang": "en",
+     "audience": "technical",
+@@ -865,6 +871,7 @@
+     ],
+     "dependsOn": [
+       "UT-D03",
++      "UT-D05",
+       "UT-D06"
+     ],
+     "related": [],
+@@ -895,7 +902,7 @@
+     "route": "/claims/UT-E06/",
+     "title": "Coupling between distant biofilms and emergence of nutrient time-sharing",
+     "description": "Source-reported external experiment or restricted result; primary-paper qualification remains pending.",
+-    "revision": 1,
++    "revision": 2,
+     "kind": "evidence",
+     "lang": "en",
+     "audience": "technical",
+@@ -908,7 +915,9 @@
+     ],
+     "dependsOn": [
+       "UT-D03",
+-      "UT-D06"
++      "UT-D05",
++      "UT-D06",
++      "UT-D08"
+     ],
+     "related": [],
+     "bibRefs": [
+@@ -938,7 +947,7 @@
+     "route": "/claims/UT-E07/",
+     "title": "Fractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns",
+     "description": "Source-reported external experiment or restricted result; primary-paper qualification remains pending.",
+-    "revision": 1,
++    "revision": 2,
+     "kind": "evidence",
+     "lang": "en",
+     "audience": "technical",
+@@ -951,7 +960,11 @@
+     ],
+     "dependsOn": [
+       "UT-D03",
+-      "UT-D06"
++      "UT-D05",
++      "UT-D06",
++      "UT-D07",
++      "UT-D08",
++      "UT-D09"
+     ],
+     "related": [],
+     "bibRefs": [
+@@ -981,7 +994,7 @@
+     "route": "/claims/UT-E08/",
+     "title": "Dicke quantum phase transition with a superfluid gas in an optical cavity",
+     "description": "Source-reported external experiment or restricted result; primary-paper qualification remains pending.",
+-    "revision": 1,
++    "revision": 2,
+     "kind": "evidence",
+     "lang": "en",
+     "audience": "technical",
+@@ -994,7 +1007,9 @@
+     ],
+     "dependsOn": [
+       "UT-D03",
+-      "UT-D06"
++      "UT-D04",
++      "UT-D06",
++      "UT-D07"
+     ],
+     "related": [],
+     "bibRefs": [
+@@ -1024,7 +1039,7 @@
+     "route": "/claims/UT-E09/",
+     "title": "Cluster synchronization and isolated desynchronization in complex networks with symmetries",
+     "description": "Source-reported external experiment or restricted result; primary-paper qualification remains pending.",
+-    "revision": 1,
++    "revision": 2,
+     "kind": "evidence",
+     "lang": "en",
+     "audience": "technical",
+@@ -1037,6 +1052,7 @@
+     ],
+     "dependsOn": [
+       "UT-D03",
++      "UT-D05",
+       "UT-D06"
+     ],
+     "related": [],
+--- prior/src/lib/content.ts
++++ src/lib/content.ts
+@@ -137,8 +137,11 @@
+     }
+     entry.dependsOn = [...new Set([...entry.dependsOn,...entry.testRefs.filter(id=>entries.has(id))])].sort();
+   }
+-  const rendererFiles=['content.ts','markdown.ts','markdown-safety.ts','markdown-tree.ts','directives.ts','source-display.ts','presentation.ts'].map(path=>'src/lib/'+path)
+-    .concat(filesIn(resolve(root,'src')).filter(path=>path.endsWith('.astro')).map(path=>'src/'+path)).sort();
++  // Bind the transitive rendering/selection policy and its pinned dependencies,
++  // not just the entry renderer. A URL, schema, CSS or KaTeX dependency change
++  // can change the reviewed presentation without changing source prose.
++  const rendererFiles=['content.ts','content-schema.ts','markdown.ts','markdown-safety.ts','markdown-tree.ts','directives.ts','source-display.ts','presentation.ts','publication.ts','source-admission.ts','site-config.ts','urls.ts','identity.ts','errors.ts'].map(path=>'src/lib/'+path)
++    .concat(filesIn(resolve(root,'src')).filter(path=>path.endsWith('.astro') || path.endsWith('.css')).map(path=>'src/'+path),['astro.config.mjs','package-lock.json']).sort();
+   const rendererSha256=sha256(stableJSON(rendererFiles.map(path=>[path,sha256(readFileSync(resolve(root,path)))])));
+   const corpus = { entries, sources, references, evidence, aliases: new Map([...aliases].map(([k,a])=>[k,a.bibliographyId])), reviews, admission, rendererSha256 };
+   const bindings=[...entries.values()].filter(e=>e.contentOrigin==='source-bound' && sources.get(e.sourceBinding!.sourceKey)?.declaredCurrent).map(e=>{ const {sourceKey,...binding}=e.sourceBinding!;return {...binding,path:sources.get(sourceKey)!.path.slice(input.record.directory.length+1)}; });
+--- prior/src/lib/source-revision.ts
++++ src/lib/source-revision.ts
+@@ -2,7 +2,7 @@
+ import { ContractError } from './errors.js';
+ import { sha256 } from './identity.js';
+ import { affectedEntries, reviewFingerprint, type Corpus } from './content.js';
+-const schema = z.object({ changeId:z.string().min(1), category:z.enum(['wording','factual-mathematical correction','evidence-status','definition-core','format','supplied-baseline']), predecessorEdition:z.string().min(1), predecessorSeal:z.string().regex(/^[a-f0-9]{64}$/), sourceChangeRef:z.string().min(1), affectedFiles:z.array(z.string()).min(1), affectedClaimIds:z.array(z.string()), problem:z.string().min(1), before:z.string().min(1), after:z.string().min(1), rationale:z.string().min(1), permissionBasis:z.string().min(1), resultEdition:z.string().min(1), resultSeal:z.string().regex(/^[a-f0-9]{64}$/), priorSnapshot:z.array(z.object({path:z.string(),raw:z.instanceof(Uint8Array),sha256:z.string()})), resultCoreRaw:z.instanceof(Uint8Array).optional(), proofGate:z.object({lockedStatement:z.string().min(1),counterexample:z.string().min(1),evidence:z.string().min(1),extensionInsufficient:z.string().min(1),minimalWording:z.string().min(1),impactAnalysis:z.string().min(1),versionDecision:z.string().min(1)}).optional() }).strict();
++const schema = z.object({ changeId:z.string().trim().min(1), category:z.enum(['wording','factual-mathematical correction','evidence-status','definition-core','format','supplied-baseline']), predecessorEdition:z.string().trim().min(1), predecessorSeal:z.string().regex(/^[a-f0-9]{64}$/), sourceChangeRef:z.string().trim().min(1), affectedFiles:z.array(z.string()).min(1), affectedClaimIds:z.array(z.string()), problem:z.string().trim().min(1), before:z.string().trim().min(1), after:z.string().trim().min(1), rationale:z.string().trim().min(1), permissionBasis:z.string().trim().min(1), resultEdition:z.string().trim().min(1), resultSeal:z.string().regex(/^[a-f0-9]{64}$/), priorSnapshot:z.array(z.object({path:z.string(),raw:z.instanceof(Uint8Array),sha256:z.string()})), resultCoreRaw:z.instanceof(Uint8Array).optional(), proofGate:z.object({lockedStatement:z.string().trim().min(1),counterexample:z.string().trim().min(1),evidence:z.string().trim().min(1),extensionInsufficient:z.string().trim().min(1),minimalWording:z.string().trim().min(1),impactAnalysis:z.string().trim().min(1),versionDecision:z.string().trim().min(1)}).optional() }).strict();
+ // Validate a proposed authoring transaction. This never writes sources/pins or accepts reviews.
+ export function validateSourceRevision(input: unknown, prior: Corpus, next: Corpus) {
+   const change=schema.parse(input);
+@@ -22,6 +22,7 @@
+   // A category label cannot bypass the actual core change-control gate. The
+   // validator does not infer scientific equivalence from an author's label.
+   if ((change.category==='definition-core' || core && !formatEquivalent) && !change.proofGate) throw new ContractError('CORE_PROOF_GATE_REQUIRED','Actual core §13/change control B require the seven-part justification; owner standing scope is the permission basis, not a fabricated new approval');
++  if (change.proofGate && (!oldCore || !Buffer.from(oldCore).toString('utf8').includes(change.proofGate.lockedStatement.trim()))) throw new ContractError('CORE_PROOF_GATE_REQUIRED','The exact locked statement must occur in the byte-verified preserved predecessor core');
+   const keys=new Set([...changed,...added].map(s=>s.key));
+   for(const entry of next.entries.values()) {
+     const old=prior.entries.get(entry.id);
+--- prior/tests/content/m1.test.ts
++++ tests/content/m1.test.ts
+@@ -96,7 +96,9 @@
+  assert.throws(()=>validateSourceRevision(change,prior,next),/CORE_PROOF_GATE_REQUIRED/);
+  for(const entry of next.entries.values()) if(entry.sourceRefs.includes('R-CURRENT-CORE')) entry.revision+=1;
+  assert.throws(()=>validateSourceRevision({...change,category:'wording'},prior,next),/CORE_PROOF_GATE_REQUIRED/);
+- const result=validateSourceRevision({...change,proofGate:{lockedStatement:'synthetic',counterexample:'synthetic',evidence:'synthetic',extensionInsufficient:'synthetic',minimalWording:'synthetic',impactAnalysis:'synthetic',versionDecision:'synthetic version proposal'}},prior,next);assert.equal(result.reviewOutcome,'pending');assert.ok(result.affected.some(e=>e.entryId==='DOC-START'));
++ const proofGate={lockedStatement:'Geometry is not limited to visible Euclidean shape.',counterexample:'synthetic',evidence:'synthetic',extensionInsufficient:'synthetic',minimalWording:'synthetic',impactAnalysis:'synthetic',versionDecision:'synthetic version proposal'};
++ assert.throws(()=>validateSourceRevision({...change,proofGate:{...proofGate,lockedStatement:'A fabricated statement absent from the preserved core.'}},prior,next),/CORE_PROOF_GATE_REQUIRED/);
++ const result=validateSourceRevision({...change,proofGate},prior,next);assert.equal(result.reviewOutcome,'pending');assert.ok(result.affected.some(e=>e.entryId==='DOC-START'));
+  const resultCoreRaw=Buffer.from(readFileSync('research/RRG_CURRENT/00_LOCKED_CORE.md','utf8').replace(/\n/g,'\r\n'));
+  next.sources.get('R-CURRENT-CORE')!.sha256=sha256(resultCoreRaw);next.admission.coreSha256=sha256(resultCoreRaw);
+  assert.equal(validateSourceRevision({...change,category:'format',resultCoreRaw},prior,next).reviewOutcome,'pending');
+--- prior/tests/content/revision-cli.test.ts
++++ tests/content/revision-cli.test.ts
+@@ -17,6 +17,7 @@
+     for(const root of [prior,next]) {
+       for(const folder of ['research','src','docs/evidence/m1/literature']) {mkdirSync(join(root,folder,'..'),{recursive:true});cpSync(folder,join(root,folder),{recursive:true});}
+       mkdirSync(join(root,'config'));cpSync('config/research-source.json',join(root,'config/research-source.json'));
++      for(const file of ['astro.config.mjs','package-lock.json']) cpSync(file,join(root,file));
+       const record=read(root,'config/research-source.json');record.corpusScope='synthetic';write(root,'config/research-source.json',record);
+     }
+     const predecessor=read(prior,'config/research-source.json'),record=read(next,'config/research-source.json');
+@@ -52,5 +53,37 @@
+     result=spawnSync(process.execPath,command,{cwd:next,encoding:'utf8'});assert.notEqual(result.status,0);assert.match(result.stderr,/SOURCE_REVISION_FAILURE/);
+     assert.notEqual(sha256(readFileSync(changePath)),receipt.changeSha256);
+     assert.equal(existsSync(join(fixture,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`)),false);
++    // Reach the core gate through the actual CLI on byte-verified temporary
++    // editions, including a category relabel and an invented prior quote.
++    const corePath=join(next,'research/RRG_CURRENT/00_LOCKED_CORE.md');
++    writeFileSync(corePath,readFileSync(corePath,'utf8')+'\nSynthetic core-change control; no actual source authoring.\n');
++    record.coreSha256=sha256(readFileSync(corePath));
++    const manifestPath=join(next,'research/RRG_CURRENT/CURRENT_MANIFEST.md');
++    writeFileSync(manifestPath,readFileSync(manifestPath,'utf8').replace(predecessor.coreSha256,record.coreSha256));
++    record.manifestSha256=sha256(readFileSync(manifestPath));
++    record.priorCoreSha256=predecessor.coreSha256;
++    record.revision={category:'wording',predecessor:predecessor.edition,problem:'synthetic CLI gate control',before:'preserved fixture bytes',after:'isolated appended annotation',rationale:'exercise explicit revision validation',permissionBasis:'isolated engineering test only',dependentReviewHashes:[sha256('not a scientific approval')]};
++    record.files=record.files.map((f:any)=>{const raw=readFileSync(join(next,record.directory,f.path));return {...f,bytes:raw.length,sha256:sha256(raw)};});
++    record.inventorySeal=sha256(stableJSON(record.files));
++    record.bindings=record.bindings.map((b:any)=>({...b,sourceSha256:record.files.find((f:any)=>f.path===b.path).sha256}));
++    write(next,'config/research-source.json',record);
++    for(const source of sources) if(source.declaredCurrent) source.sha256=record.files.find((f:any)=>`${record.directory}/${f.path}`===source.path).sha256;
++    write(next,'research/publication/source-index.yaml',sources);
++    const reviseCore=(e:any)=>{if(e.sourceRefs.includes('R-CURRENT-CORE')) e.revision+=1;if(e.sourceBinding)e.sourceBinding.sourceSha256=sources.find((s:any)=>s.key===e.sourceBinding.sourceKey).sha256;return e;};
++    for(const name of ['records','canonical-documents']) write(next,`research/publication/${name}.yaml`,read(next,`research/publication/${name}.yaml`).map(reviseCore));
++    for(const name of ['home','start']) {
++      const path=join(next,`research/publication/pages/${name}.md`),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(readFileSync(path,'utf8'))!;
++      writeFileSync(path,`---\n${JSON.stringify(reviseCore(JSON.parse(match[1])))}\n---\n${match[2]}`);
++    }
++    change.sourceChangeRef='research/RRG_CURRENT/CHANGELOG.md';change.category='wording';change.resultSeal=record.inventorySeal;
++    change.affectedFiles=[...changed,'00_LOCKED_CORE.md','CURRENT_MANIFEST.md'].map(name=>`research/RRG_CURRENT/${name}`);
++    change.priorSnapshot=change.affectedFiles.map(path=>({path,sha256:predecessor.files.find((f:any)=>`${record.directory}/${f.path}`===path).sha256}));
++    const coreInvoke=(proofGate?:unknown)=>{writeFileSync(changePath,JSON.stringify({...change,...(proofGate?{proofGate}:{})}));return spawnSync(process.execPath,command,{cwd:next,encoding:'utf8'});};
++    result=coreInvoke();assert.notEqual(result.status,0);assert.match(result.stderr,/CORE_PROOF_GATE_REQUIRED/);
++    const proofGate={lockedStatement:'A fabricated statement absent from the prior core.',counterexample:'synthetic fixture',evidence:'synthetic fixture',extensionInsufficient:'synthetic fixture',minimalWording:'synthetic fixture',impactAnalysis:'synthetic fixture',versionDecision:'synthetic fixture; no scientific decision'};
++    result=coreInvoke(proofGate);assert.notEqual(result.status,0);assert.match(result.stderr,/CORE_PROOF_GATE_REQUIRED/);
++    result=coreInvoke({...proofGate,lockedStatement:'Geometry is not limited to visible Euclidean shape.'});assert.equal(result.status,0,result.stdout+result.stderr);
++    assert.equal(read(fixture,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`).reviewOutcome,'pending');
++    assert.deepEqual(read(next,'research/publication/reviews.yaml'),[]);
+   } finally {rmSync(fixture,{recursive:true,force:true});}
+ });
+--- /dev/null
++++ tests/content/m1-review.test.ts
+@@ -0,0 +1,56 @@
++import { test } from 'node:test';
++import assert from 'node:assert/strict';
++import { cpSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
++import { join } from 'node:path';
++import { tmpdir } from 'node:os';
++import { loadCanonicalCorpus, dependencyClosure, affectedEntries, reviewFingerprint } from '../../src/lib/content.js';
++
++test('each additional-evidence mapping declares every core clause named by its actual excerpt', () => {
++  const corpus = loadCanonicalCorpus();
++  const clauses: Record<string, string> = { '3':'UT-D03', '4':'UT-D04', '5':'UT-D06', '6':'UT-D07', '7':'UT-D05', '8':'UT-D08', '9':'UT-D09' };
++  for (let number = 1; number <= 9; number++) {
++    const entry = corpus.entries.get(`UT-E${String(number).padStart(2,'0')}`)!;
++    const source = /\*\*Existing clauses:\*\* ([^\n]+)/.exec(entry.statement!)![1];
++    for (const match of source.matchAll(/§(\d+)/g)) {
++      const dependency = clauses[match[1]];
++      assert.ok(dependency && entry.dependsOn.includes(dependency), `${entry.id}: core §${match[1]}`);
++      assert.ok(affectedEntries(corpus,dependency).includes(entry.id));
++      const before = reviewFingerprint(corpus,entry.id);
++      const definition = corpus.entries.get(dependency)!;
++      const scope = definition.scope;
++      definition.scope += ' Isolated changed support scope.';
++      assert.notEqual(reviewFingerprint(corpus,entry.id),before);
++      definition.scope = scope;
++    }
++  }
++});
++
++test('the actual start explanation tracks emergent evidence, its support metadata and current status', () => {
++  const corpus = loadCanonicalCorpus();
++  for (const dependency of ['UT-E10','UT-E11','UT-E12','DOC-STATUS']) assert.ok(dependencyClosure(corpus,'DOC-START').includes(dependency));
++  assert.ok(affectedEntries(corpus,'R-CURRENT-INTERACTIONS').includes('DOC-START'));
++  assert.ok(affectedEntries(corpus,'BIB-0016').includes('DOC-START'));
++  const before = reviewFingerprint(corpus,'DOC-START');
++  corpus.references.get('BIB-0016')!.supportScope += ' Isolated changed citation support.';
++  assert.notEqual(reviewFingerprint(corpus,'DOC-START'),before);
++  assert.equal(corpus.reviews.length,0);
++});
++
++test('review fingerprints track real URL, selection, style and pinned rendering dependency inputs', () => {
++  const root = mkdtempSync(join(tmpdir(),'unity-render-review-'));
++  try {
++    for (const folder of ['src','research','config','docs/evidence/m1/literature']) {
++      mkdirSync(join(root,folder,'..'),{recursive:true});
++      cpSync(folder,join(root,folder),{recursive:true});
++    }
++    for (const file of ['astro.config.mjs','package-lock.json']) cpSync(file,join(root,file));
++    const original = reviewFingerprint(loadCanonicalCorpus(root),'UT-D01');
++    for (const path of ['src/lib/urls.ts','src/lib/publication.ts','src/styles/global.css','package-lock.json']) {
++      const file = join(root,path), raw = readFileSync(file);
++      writeFileSync(file,Buffer.concat([raw,Buffer.from('\n')]));
++      assert.notEqual(reviewFingerprint(loadCanonicalCorpus(root),'UT-D01'),original,path);
++      writeFileSync(file,raw);
++    }
++    assert.equal(reviewFingerprint(loadCanonicalCorpus(root),'UT-D01'),original);
++  } finally { rmSync(root,{recursive:true,force:true}); }
++});

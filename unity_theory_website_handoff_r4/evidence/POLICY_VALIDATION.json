@@ -1,0 +1,146 @@
+{
+  "scope": "R4 handoff structure, policy consistency, source preservation and packaging only",
+  "observed_on": "2026-10-01",
+  "status": "PASS",
+  "passed": 26,
+  "total": 26,
+  "checks": [
+    {
+      "name": "one_forward_plan_revision",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "current_sources_and_core_editable",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "need_scope_and_meaning_required",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "no_second_permission_for_filename_alone",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "history_immutable_not_current",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "review_only_and_build_not_implicit_edits",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "source_and_consumers_coherent_update",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "legitimate_new_baseline_allowed",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "unexplained_change_not_auto_admitted",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "no_fabricated_scientific_source",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "dated_visibility_not_permanent_missing_gate",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "no_source_edit_claimed_this_pass",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "all_eight_milestones_retained",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "batched_verification_and_parallel_work_retained",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "same_artifact_and_publication_permissions_retained",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "fourteen_research_sources_preserved",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "predecessor_zip_integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "all_source_snapshots_match_r3_bytes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "r2_history_retained_inside_r3",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "balanced_code_fences:UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "balanced_code_fences:START_HERE.md",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "balanced_code_fences:PROJECT_SOURCE_ALIGNMENT.md",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "balanced_code_fences:BUNDLE_INFO.md",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "operative_document_file_links_resolve",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "manifest_exact_membership",
+      "status": "PASS",
+      "details": {
+        "actual": 24,
+        "listed": 24
+      }
+    },
+    {
+      "name": "manifest_hashes_and_sizes",
+      "status": "PASS",
+      "details": []
+    }
+  ],
+  "scientific_source_edits": false,
+  "actual_current_sources_inspected": false,
+  "website_and_numerical_checks": "NOT_RUN",
+  "manifest_check_stage": "Consolidated document/source verification before inserting this receipt; final hashes and ZIP verified separately"
+}

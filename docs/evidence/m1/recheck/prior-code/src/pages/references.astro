@@ -1,0 +1,15 @@
+---
+import { withBase } from '../lib/urls';
+import { activeConfig } from '../lib/site-config';
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { activePublication } from '../lib/publication';
+const { references,entries } = activePublication();
+const primaryReferences=references.filter(r=>!r.primaryId);
+---
+<ReadingLayout title="Literature and sources" description="References transcribed from the selected current source records, with their review limits." route="/references/">
+  <article class="article shell"><header><p class="eyebrow">Source registry · Private draft</p><h1>Literature and sources</h1><p class="article-lede">These identities are transcribed from the current sources. A listed reference is not a scientific approval.</p></header>
+    <div class="prose"><ol>{primaryReferences.map(ref=><li id={ref.id}><h2>{ref.title}</h2><p>{ref.authors?.join(', ')}{ref.publication && ` · ${ref.publication}`}{ref.year && ` (${ref.year})`}</p><p><a href={ref.url}>{ref.doi ? `DOI: ${ref.doi}` : 'Read the institutional source'}</a></p>
+      {references.filter(r=>r.primaryId===ref.id).map(alt=><p id={alt.id}><a href={alt.url}>{alt.linkRole ?? 'Alternate source'}</a></p>)}
+      <p>{ref.supportScope}</p><p>{ref.verificationScope}</p><p>Used by: {entries.filter(e=>e.bibRefs.includes(ref.id)).map((entry,i)=><>{i>0?', ':''}<a href={withBase(entry.route,activeConfig().basePath)}>{entry.id}</a></>)}</p></li>)}</ol></div>
+  </article>
+</ReadingLayout>

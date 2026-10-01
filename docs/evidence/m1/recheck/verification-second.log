@@ -1,0 +1,26 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m1-recheck --evidence-dir docs/evidence/m1/recheck
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+20:25:16 [content] Syncing content
+20:25:16 [content] Astro config changed
+20:25:16 [content] Clearing content store
+20:25:16 [content] Synced content
+20:25:16 [types] Generated 582ms
+20:25:16 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+[96msrc/lib/directives.ts[0m:[93m69[0m:[93m17[0m - [91merror[0m[90m ts(7023): [0m'exportDirectiveMarkdown' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.
+
+[7m69[0m export function exportDirectiveMarkdown(text: string, corpus: DirectiveOwner) {
+[7m  [0m [91m                ~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Result (44 files): 
+- 1 error
+- 0 warnings
+- 0 hints
+

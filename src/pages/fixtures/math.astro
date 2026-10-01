@@ -1,0 +1,28 @@
+---
+import 'katex/dist/katex.min.css';
+import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import { renderMarkdown } from '../../lib/markdown';
+import { activeConfig, activeMode } from '../../lib/site-config';
+if (activeMode() === 'release') throw new Error('PRIVATE_FIXTURE_IN_RELEASE');
+const html = await renderMarkdown(String.raw`## A synthetic rendering fixture
+
+This equation tests mathematical typesetting. It is unrelated to the scientific corpus.
+
+$$
+f(x) = x^2 + 1
+$$
+
+Here $x$ is a real-number input and $f(x)$ is its squared value plus one.
+
+## A wide equation
+
+The following synthetic expression tests local horizontal scrolling.
+
+$$
+a_1+a_2+a_3+a_4+a_5+a_6+a_7+a_8+a_9+a_{10}+a_{11}+a_{12}=\sum_{i=1}^{12}a_i
+$$
+`, activeConfig().basePath);
+---
+<ReadingLayout title="Private math fixture" description="Synthetic engineering fixture, not research evidence." route="/fixtures/math/">
+  <article class="article shell"><p class="eyebrow">Private / Synthetic fixture</p><h1>Math rendering fixture</h1><div class="prose math-fixture" set:html={html} /></article>
+</ReadingLayout>

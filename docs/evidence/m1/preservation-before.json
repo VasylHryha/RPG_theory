@@ -1,0 +1,2382 @@
+[
+  {
+    "path": ".idea/.idea.RPG_theory/.idea/.gitignore",
+    "bytes": 331,
+    "sha256": "35c04882ee5a697a6d031d5ae7b35edca6ed506f560cc10cb2f44ee002ba3e3d"
+  },
+  {
+    "path": ".idea/.idea.RPG_theory/.idea/workspace.xml",
+    "bytes": 126,
+    "sha256": "6f247450f5c45112d64bd9a12d4a519208758e7bc15a140057d37801f0a95eaf"
+  },
+  {
+    "path": "RPG_theory.sln",
+    "bytes": 228,
+    "sha256": "ab87e2d87b45300f5f2e577a810ab028e5d270f7af9becf29946f8f02ac451e3"
+  },
+  {
+    "path": "RRG_CURRENT.zip",
+    "bytes": 46907,
+    "sha256": "be312671a1c4cf9fccb757ebec27467f7266952be75707ec84182fa10febaeb0"
+  },
+  {
+    "path": "UNITY_THEORY_WEBSITE_HANDOFF_R4.zip",
+    "bytes": 442325,
+    "sha256": "29a30969e2540d307f2be8c1fc597a9abbc01e279076dfe8da0db0abfda109ff"
+  },
+  {
+    "path": "dist/m0-review/preview-root/404.html",
+    "bytes": 1983,
+    "sha256": "08ba6ef35e5d43284e689af81359224e1b1836313c417486944db63f958c3ce9"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_AMS-Regular.BQhdFMY1.woff2",
+    "bytes": 28076,
+    "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_AMS-Regular.DMm9YOAa.woff",
+    "bytes": 33516,
+    "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_AMS-Regular.DRggAlZN.ttf",
+    "bytes": 63632,
+    "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
+    "bytes": 12368,
+    "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
+    "bytes": 7716,
+    "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
+    "bytes": 6912,
+    "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
+    "bytes": 7656,
+    "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+    "bytes": 6908,
+    "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
+    "bytes": 12344,
+    "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
+    "bytes": 19584,
+    "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Fraktur-Bold.BsDP51OF.woff",
+    "bytes": 13296,
+    "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
+    "bytes": 11348,
+    "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Fraktur-Regular.CB_wures.ttf",
+    "bytes": 19572,
+    "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
+    "bytes": 11316,
+    "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
+    "bytes": 13208,
+    "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-Bold.Cx986IdX.woff2",
+    "bytes": 25324,
+    "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-Bold.Jm3AIy58.woff",
+    "bytes": 29912,
+    "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-Bold.waoOVXN0.ttf",
+    "bytes": 51336,
+    "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
+    "bytes": 16780,
+    "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
+    "bytes": 32968,
+    "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-BoldItalic.SpSLRI95.woff",
+    "bytes": 19412,
+    "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-Italic.3WenGoN9.ttf",
+    "bytes": 33580,
+    "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-Italic.BMLOBm91.woff",
+    "bytes": 19676,
+    "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-Italic.NWA7e6Wa.woff2",
+    "bytes": 16988,
+    "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+    "bytes": 26272,
+    "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-Regular.Dr94JaBh.woff",
+    "bytes": 30772,
+    "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Main-Regular.ypZvNtVU.ttf",
+    "bytes": 53580,
+    "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
+    "bytes": 31196,
+    "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+    "bytes": 16400,
+    "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
+    "bytes": 18668,
+    "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Math-Italic.DA0__PXp.woff",
+    "bytes": 18748,
+    "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Math-Italic.flOr_0UB.ttf",
+    "bytes": 31308,
+    "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+    "bytes": 16440,
+    "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
+    "bytes": 24504,
+    "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
+    "bytes": 12216,
+    "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
+    "bytes": 14408,
+    "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
+    "bytes": 12028,
+    "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_SansSerif-Italic.DN2j7dab.woff",
+    "bytes": 14112,
+    "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
+    "bytes": 22364,
+    "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
+    "bytes": 19436,
+    "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
+    "bytes": 12316,
+    "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
+    "bytes": 10344,
+    "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Script-Regular.C5JkGWo-.ttf",
+    "bytes": 16648,
+    "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Script-Regular.D3wIWfF6.woff2",
+    "bytes": 9644,
+    "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Script-Regular.D5yQViql.woff",
+    "bytes": 10588,
+    "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size1-Regular.C195tn64.woff",
+    "bytes": 6496,
+    "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size1-Regular.Dbsnue_I.ttf",
+    "bytes": 12228,
+    "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+    "bytes": 5468,
+    "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size2-Regular.B7gKUWhC.ttf",
+    "bytes": 11508,
+    "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+    "bytes": 5208,
+    "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size2-Regular.oD1tc_U0.woff",
+    "bytes": 6188,
+    "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size3-Regular.CTq5MqoE.woff",
+    "bytes": 4420,
+    "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size3-Regular.DgpXs0kz.ttf",
+    "bytes": 7588,
+    "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size4-Regular.BF-4gkZK.woff",
+    "bytes": 5980,
+    "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size4-Regular.DWFBv043.ttf",
+    "bytes": 10364,
+    "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
+    "bytes": 4928,
+    "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
+    "bytes": 16028,
+    "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
+    "bytes": 13568,
+    "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
+    "bytes": 27556,
+    "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/ReadingLayout.2lK2bolG.css",
+    "bytes": 6161,
+    "sha256": "818d97f0b89284f5061d2ee1069cce1df10cb0098aa578d74893a3dba6fa3696"
+  },
+  {
+    "path": "dist/m0-review/preview-root/_astro/math.Dq1yEHa9.css",
+    "bytes": 29832,
+    "sha256": "f8f3d499fdaf3b6540cd6194b9a11d0d06470ce76e66be48523a0b1b94574ecd"
+  },
+  {
+    "path": "dist/m0-review/preview-root/build-info.json",
+    "bytes": 1335,
+    "sha256": "8e964f17ecee633c16b3e6ddea6a92f6b09c81f58f5d555e48105c429fcc7b3c"
+  },
+  {
+    "path": "dist/m0-review/preview-root/favicon.svg",
+    "bytes": 268,
+    "sha256": "050aeeb91037ffab4a1437735c7a913efefb357369c7bd5b7c2705ef00a10964"
+  },
+  {
+    "path": "dist/m0-review/preview-root/fixtures/math/index.html",
+    "bytes": 17428,
+    "sha256": "11a7d17ae08720b591959502b69f88e0828d73cab41c4a44c97a2fb734445046"
+  },
+  {
+    "path": "dist/m0-review/preview-root/index.html",
+    "bytes": 6820,
+    "sha256": "822aa3a7fb03ed8b5334e879dfe18c4e3bdec09008d0747dff9ab07350d0af7b"
+  },
+  {
+    "path": "dist/m0-review/preview-root/robots.txt",
+    "bytes": 26,
+    "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+  },
+  {
+    "path": "dist/m0-review/preview-root/start/index.html",
+    "bytes": 5356,
+    "sha256": "24da5a1636f6f8ec77c8f82fc1d55932d8c117589a0128de38d89844ce8df75b"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/404.html",
+    "bytes": 1995,
+    "sha256": "98f18e6cdbd812ef524564092295649b8b40a2915e7c428635df6d8006d5932c"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_AMS-Regular.BQhdFMY1.woff2",
+    "bytes": 28076,
+    "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_AMS-Regular.DMm9YOAa.woff",
+    "bytes": 33516,
+    "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_AMS-Regular.DRggAlZN.ttf",
+    "bytes": 63632,
+    "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
+    "bytes": 12368,
+    "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
+    "bytes": 7716,
+    "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
+    "bytes": 6912,
+    "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
+    "bytes": 7656,
+    "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+    "bytes": 6908,
+    "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
+    "bytes": 12344,
+    "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
+    "bytes": 19584,
+    "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Fraktur-Bold.BsDP51OF.woff",
+    "bytes": 13296,
+    "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
+    "bytes": 11348,
+    "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Fraktur-Regular.CB_wures.ttf",
+    "bytes": 19572,
+    "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
+    "bytes": 11316,
+    "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
+    "bytes": 13208,
+    "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-Bold.Cx986IdX.woff2",
+    "bytes": 25324,
+    "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-Bold.Jm3AIy58.woff",
+    "bytes": 29912,
+    "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-Bold.waoOVXN0.ttf",
+    "bytes": 51336,
+    "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
+    "bytes": 16780,
+    "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
+    "bytes": 32968,
+    "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-BoldItalic.SpSLRI95.woff",
+    "bytes": 19412,
+    "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-Italic.3WenGoN9.ttf",
+    "bytes": 33580,
+    "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-Italic.BMLOBm91.woff",
+    "bytes": 19676,
+    "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-Italic.NWA7e6Wa.woff2",
+    "bytes": 16988,
+    "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+    "bytes": 26272,
+    "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-Regular.Dr94JaBh.woff",
+    "bytes": 30772,
+    "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Main-Regular.ypZvNtVU.ttf",
+    "bytes": 53580,
+    "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
+    "bytes": 31196,
+    "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+    "bytes": 16400,
+    "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
+    "bytes": 18668,
+    "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Math-Italic.DA0__PXp.woff",
+    "bytes": 18748,
+    "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Math-Italic.flOr_0UB.ttf",
+    "bytes": 31308,
+    "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+    "bytes": 16440,
+    "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
+    "bytes": 24504,
+    "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
+    "bytes": 12216,
+    "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
+    "bytes": 14408,
+    "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
+    "bytes": 12028,
+    "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_SansSerif-Italic.DN2j7dab.woff",
+    "bytes": 14112,
+    "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
+    "bytes": 22364,
+    "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
+    "bytes": 19436,
+    "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
+    "bytes": 12316,
+    "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
+    "bytes": 10344,
+    "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Script-Regular.C5JkGWo-.ttf",
+    "bytes": 16648,
+    "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Script-Regular.D3wIWfF6.woff2",
+    "bytes": 9644,
+    "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Script-Regular.D5yQViql.woff",
+    "bytes": 10588,
+    "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size1-Regular.C195tn64.woff",
+    "bytes": 6496,
+    "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size1-Regular.Dbsnue_I.ttf",
+    "bytes": 12228,
+    "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+    "bytes": 5468,
+    "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size2-Regular.B7gKUWhC.ttf",
+    "bytes": 11508,
+    "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+    "bytes": 5208,
+    "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size2-Regular.oD1tc_U0.woff",
+    "bytes": 6188,
+    "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size3-Regular.CTq5MqoE.woff",
+    "bytes": 4420,
+    "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size3-Regular.DgpXs0kz.ttf",
+    "bytes": 7588,
+    "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size4-Regular.BF-4gkZK.woff",
+    "bytes": 5980,
+    "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size4-Regular.DWFBv043.ttf",
+    "bytes": 10364,
+    "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
+    "bytes": 4928,
+    "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
+    "bytes": 16028,
+    "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
+    "bytes": 13568,
+    "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
+    "bytes": 27556,
+    "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/ReadingLayout.2lK2bolG.css",
+    "bytes": 6161,
+    "sha256": "818d97f0b89284f5061d2ee1069cce1df10cb0098aa578d74893a3dba6fa3696"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/_astro/math.Dq1yEHa9.css",
+    "bytes": 29832,
+    "sha256": "f8f3d499fdaf3b6540cd6194b9a11d0d06470ce76e66be48523a0b1b94574ecd"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/build-info.json",
+    "bytes": 1341,
+    "sha256": "af187acf663d9d8fe5b37d2e6cd0aae9d563479e547db7b817fb47c8760ef422"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/favicon.svg",
+    "bytes": 268,
+    "sha256": "050aeeb91037ffab4a1437735c7a913efefb357369c7bd5b7c2705ef00a10964"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/fixtures/math/index.html",
+    "bytes": 17440,
+    "sha256": "fb82c99afcb1377ba973b853858fa08d932ebe1e41f433282aee28e70ce6f928"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/index.html",
+    "bytes": 6832,
+    "sha256": "59303dc7afd947e9834d9c4213d4bcb01d8f7b0734a78d701c5a7e964a667002"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/robots.txt",
+    "bytes": 26,
+    "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+  },
+  {
+    "path": "dist/m0-review/qualification-root/start/index.html",
+    "bytes": 5368,
+    "sha256": "17641067a8c89f61cd80d09fd457933dd7d24e5e8400ae4287beacbaf35d4dff"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/404.html",
+    "bytes": 2112,
+    "sha256": "2610daa7b46c92b3d6f98dc55cc0a1154bfabf35446c568e3e6222dedcb7a383"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_AMS-Regular.BQhdFMY1.woff2",
+    "bytes": 28076,
+    "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_AMS-Regular.DMm9YOAa.woff",
+    "bytes": 33516,
+    "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_AMS-Regular.DRggAlZN.ttf",
+    "bytes": 63632,
+    "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
+    "bytes": 12368,
+    "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
+    "bytes": 7716,
+    "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
+    "bytes": 6912,
+    "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
+    "bytes": 7656,
+    "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+    "bytes": 6908,
+    "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
+    "bytes": 12344,
+    "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
+    "bytes": 19584,
+    "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Fraktur-Bold.BsDP51OF.woff",
+    "bytes": 13296,
+    "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
+    "bytes": 11348,
+    "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Fraktur-Regular.CB_wures.ttf",
+    "bytes": 19572,
+    "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
+    "bytes": 11316,
+    "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
+    "bytes": 13208,
+    "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-Bold.Cx986IdX.woff2",
+    "bytes": 25324,
+    "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-Bold.Jm3AIy58.woff",
+    "bytes": 29912,
+    "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-Bold.waoOVXN0.ttf",
+    "bytes": 51336,
+    "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
+    "bytes": 16780,
+    "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
+    "bytes": 32968,
+    "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-BoldItalic.SpSLRI95.woff",
+    "bytes": 19412,
+    "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-Italic.3WenGoN9.ttf",
+    "bytes": 33580,
+    "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-Italic.BMLOBm91.woff",
+    "bytes": 19676,
+    "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-Italic.NWA7e6Wa.woff2",
+    "bytes": 16988,
+    "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+    "bytes": 26272,
+    "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-Regular.Dr94JaBh.woff",
+    "bytes": 30772,
+    "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Main-Regular.ypZvNtVU.ttf",
+    "bytes": 53580,
+    "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
+    "bytes": 31196,
+    "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+    "bytes": 16400,
+    "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
+    "bytes": 18668,
+    "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Math-Italic.DA0__PXp.woff",
+    "bytes": 18748,
+    "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Math-Italic.flOr_0UB.ttf",
+    "bytes": 31308,
+    "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+    "bytes": 16440,
+    "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
+    "bytes": 24504,
+    "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
+    "bytes": 12216,
+    "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
+    "bytes": 14408,
+    "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
+    "bytes": 12028,
+    "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_SansSerif-Italic.DN2j7dab.woff",
+    "bytes": 14112,
+    "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
+    "bytes": 22364,
+    "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
+    "bytes": 19436,
+    "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
+    "bytes": 12316,
+    "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
+    "bytes": 10344,
+    "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Script-Regular.C5JkGWo-.ttf",
+    "bytes": 16648,
+    "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Script-Regular.D3wIWfF6.woff2",
+    "bytes": 9644,
+    "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Script-Regular.D5yQViql.woff",
+    "bytes": 10588,
+    "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size1-Regular.C195tn64.woff",
+    "bytes": 6496,
+    "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size1-Regular.Dbsnue_I.ttf",
+    "bytes": 12228,
+    "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+    "bytes": 5468,
+    "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size2-Regular.B7gKUWhC.ttf",
+    "bytes": 11508,
+    "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+    "bytes": 5208,
+    "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size2-Regular.oD1tc_U0.woff",
+    "bytes": 6188,
+    "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size3-Regular.CTq5MqoE.woff",
+    "bytes": 4420,
+    "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size3-Regular.DgpXs0kz.ttf",
+    "bytes": 7588,
+    "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size4-Regular.BF-4gkZK.woff",
+    "bytes": 5980,
+    "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size4-Regular.DWFBv043.ttf",
+    "bytes": 10364,
+    "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
+    "bytes": 4928,
+    "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
+    "bytes": 16028,
+    "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
+    "bytes": 13568,
+    "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
+    "bytes": 27556,
+    "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/ReadingLayout.2lK2bolG.css",
+    "bytes": 6161,
+    "sha256": "818d97f0b89284f5061d2ee1069cce1df10cb0098aa578d74893a3dba6fa3696"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/_astro/math.DFUhDARf.css",
+    "bytes": 30599,
+    "sha256": "0e3c37cbca9f32c2c12417a884d6502e9ce9a21df34ef020e679485ff6975811"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/build-info.json",
+    "bytes": 1354,
+    "sha256": "78394129dcd9d961018a3e66e79368f41f33a22fb4156bec419858273d33f741"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/favicon.svg",
+    "bytes": 268,
+    "sha256": "050aeeb91037ffab4a1437735c7a913efefb357369c7bd5b7c2705ef00a10964"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/fixtures/math/index.html",
+    "bytes": 17544,
+    "sha256": "71459fe9c515fae097b921a7f31bea66cad0ca4f3bfe75ab45237726c7caa0ce"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/index.html",
+    "bytes": 6949,
+    "sha256": "b9b75935219319020e5d43efc289b20ced2cb72b24b204b99ea447ed4981f15f"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/robots.txt",
+    "bytes": 26,
+    "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+  },
+  {
+    "path": "dist/m0-review/qualification-subpath/start/index.html",
+    "bytes": 5472,
+    "sha256": "5bbb655f4f59eebd019be35e5923d888b52eaf35b58484576f3cd5ad4d337c7e"
+  },
+  {
+    "path": "dist/qualification-root/404.html",
+    "bytes": 1995,
+    "sha256": "98f18e6cdbd812ef524564092295649b8b40a2915e7c428635df6d8006d5932c"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_AMS-Regular.BQhdFMY1.woff2",
+    "bytes": 28076,
+    "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_AMS-Regular.DMm9YOAa.woff",
+    "bytes": 33516,
+    "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_AMS-Regular.DRggAlZN.ttf",
+    "bytes": 63632,
+    "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
+    "bytes": 12368,
+    "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
+    "bytes": 7716,
+    "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
+    "bytes": 6912,
+    "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
+    "bytes": 7656,
+    "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+    "bytes": 6908,
+    "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
+    "bytes": 12344,
+    "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
+    "bytes": 19584,
+    "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Fraktur-Bold.BsDP51OF.woff",
+    "bytes": 13296,
+    "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
+    "bytes": 11348,
+    "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Fraktur-Regular.CB_wures.ttf",
+    "bytes": 19572,
+    "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
+    "bytes": 11316,
+    "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
+    "bytes": 13208,
+    "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-Bold.Cx986IdX.woff2",
+    "bytes": 25324,
+    "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-Bold.Jm3AIy58.woff",
+    "bytes": 29912,
+    "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-Bold.waoOVXN0.ttf",
+    "bytes": 51336,
+    "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
+    "bytes": 16780,
+    "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
+    "bytes": 32968,
+    "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-BoldItalic.SpSLRI95.woff",
+    "bytes": 19412,
+    "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-Italic.3WenGoN9.ttf",
+    "bytes": 33580,
+    "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-Italic.BMLOBm91.woff",
+    "bytes": 19676,
+    "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-Italic.NWA7e6Wa.woff2",
+    "bytes": 16988,
+    "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+    "bytes": 26272,
+    "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-Regular.Dr94JaBh.woff",
+    "bytes": 30772,
+    "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Main-Regular.ypZvNtVU.ttf",
+    "bytes": 53580,
+    "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
+    "bytes": 31196,
+    "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+    "bytes": 16400,
+    "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
+    "bytes": 18668,
+    "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Math-Italic.DA0__PXp.woff",
+    "bytes": 18748,
+    "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Math-Italic.flOr_0UB.ttf",
+    "bytes": 31308,
+    "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+    "bytes": 16440,
+    "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
+    "bytes": 24504,
+    "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
+    "bytes": 12216,
+    "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
+    "bytes": 14408,
+    "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
+    "bytes": 12028,
+    "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_SansSerif-Italic.DN2j7dab.woff",
+    "bytes": 14112,
+    "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
+    "bytes": 22364,
+    "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
+    "bytes": 19436,
+    "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
+    "bytes": 12316,
+    "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
+    "bytes": 10344,
+    "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Script-Regular.C5JkGWo-.ttf",
+    "bytes": 16648,
+    "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Script-Regular.D3wIWfF6.woff2",
+    "bytes": 9644,
+    "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Script-Regular.D5yQViql.woff",
+    "bytes": 10588,
+    "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size1-Regular.C195tn64.woff",
+    "bytes": 6496,
+    "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size1-Regular.Dbsnue_I.ttf",
+    "bytes": 12228,
+    "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+    "bytes": 5468,
+    "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size2-Regular.B7gKUWhC.ttf",
+    "bytes": 11508,
+    "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+    "bytes": 5208,
+    "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size2-Regular.oD1tc_U0.woff",
+    "bytes": 6188,
+    "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size3-Regular.CTq5MqoE.woff",
+    "bytes": 4420,
+    "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size3-Regular.DgpXs0kz.ttf",
+    "bytes": 7588,
+    "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size4-Regular.BF-4gkZK.woff",
+    "bytes": 5980,
+    "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size4-Regular.DWFBv043.ttf",
+    "bytes": 10364,
+    "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
+    "bytes": 4928,
+    "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
+    "bytes": 16028,
+    "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
+    "bytes": 13568,
+    "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+  },
+  {
+    "path": "dist/qualification-root/_astro/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
+    "bytes": 27556,
+    "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+  },
+  {
+    "path": "dist/qualification-root/_astro/ReadingLayout.2lK2bolG.css",
+    "bytes": 6161,
+    "sha256": "818d97f0b89284f5061d2ee1069cce1df10cb0098aa578d74893a3dba6fa3696"
+  },
+  {
+    "path": "dist/qualification-root/_astro/math.Dq1yEHa9.css",
+    "bytes": 29832,
+    "sha256": "f8f3d499fdaf3b6540cd6194b9a11d0d06470ce76e66be48523a0b1b94574ecd"
+  },
+  {
+    "path": "dist/qualification-root/build-info.json",
+    "bytes": 1255,
+    "sha256": "e46c86f5ba94259beba3b58b10bfb99298049c2aa24a3c25a40bd8ed2761b490"
+  },
+  {
+    "path": "dist/qualification-root/favicon.svg",
+    "bytes": 268,
+    "sha256": "050aeeb91037ffab4a1437735c7a913efefb357369c7bd5b7c2705ef00a10964"
+  },
+  {
+    "path": "dist/qualification-root/fixtures/math/index.html",
+    "bytes": 17440,
+    "sha256": "fb82c99afcb1377ba973b853858fa08d932ebe1e41f433282aee28e70ce6f928"
+  },
+  {
+    "path": "dist/qualification-root/index.html",
+    "bytes": 6832,
+    "sha256": "59303dc7afd947e9834d9c4213d4bcb01d8f7b0734a78d701c5a7e964a667002"
+  },
+  {
+    "path": "dist/qualification-root/robots.txt",
+    "bytes": 26,
+    "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+  },
+  {
+    "path": "dist/qualification-root/start/index.html",
+    "bytes": 5368,
+    "sha256": "17641067a8c89f61cd80d09fd457933dd7d24e5e8400ae4287beacbaf35d4dff"
+  },
+  {
+    "path": "dist/qualification-subpath/404.html",
+    "bytes": 2112,
+    "sha256": "2610daa7b46c92b3d6f98dc55cc0a1154bfabf35446c568e3e6222dedcb7a383"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_AMS-Regular.BQhdFMY1.woff2",
+    "bytes": 28076,
+    "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_AMS-Regular.DMm9YOAa.woff",
+    "bytes": 33516,
+    "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_AMS-Regular.DRggAlZN.ttf",
+    "bytes": 63632,
+    "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
+    "bytes": 12368,
+    "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
+    "bytes": 7716,
+    "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
+    "bytes": 6912,
+    "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
+    "bytes": 7656,
+    "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+    "bytes": 6908,
+    "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
+    "bytes": 12344,
+    "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
+    "bytes": 19584,
+    "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Fraktur-Bold.BsDP51OF.woff",
+    "bytes": 13296,
+    "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
+    "bytes": 11348,
+    "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Fraktur-Regular.CB_wures.ttf",
+    "bytes": 19572,
+    "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
+    "bytes": 11316,
+    "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
+    "bytes": 13208,
+    "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-Bold.Cx986IdX.woff2",
+    "bytes": 25324,
+    "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-Bold.Jm3AIy58.woff",
+    "bytes": 29912,
+    "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-Bold.waoOVXN0.ttf",
+    "bytes": 51336,
+    "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
+    "bytes": 16780,
+    "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
+    "bytes": 32968,
+    "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-BoldItalic.SpSLRI95.woff",
+    "bytes": 19412,
+    "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-Italic.3WenGoN9.ttf",
+    "bytes": 33580,
+    "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-Italic.BMLOBm91.woff",
+    "bytes": 19676,
+    "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-Italic.NWA7e6Wa.woff2",
+    "bytes": 16988,
+    "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+    "bytes": 26272,
+    "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-Regular.Dr94JaBh.woff",
+    "bytes": 30772,
+    "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Main-Regular.ypZvNtVU.ttf",
+    "bytes": 53580,
+    "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
+    "bytes": 31196,
+    "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+    "bytes": 16400,
+    "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
+    "bytes": 18668,
+    "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Math-Italic.DA0__PXp.woff",
+    "bytes": 18748,
+    "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Math-Italic.flOr_0UB.ttf",
+    "bytes": 31308,
+    "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+    "bytes": 16440,
+    "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
+    "bytes": 24504,
+    "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
+    "bytes": 12216,
+    "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
+    "bytes": 14408,
+    "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
+    "bytes": 12028,
+    "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_SansSerif-Italic.DN2j7dab.woff",
+    "bytes": 14112,
+    "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
+    "bytes": 22364,
+    "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
+    "bytes": 19436,
+    "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
+    "bytes": 12316,
+    "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
+    "bytes": 10344,
+    "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Script-Regular.C5JkGWo-.ttf",
+    "bytes": 16648,
+    "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Script-Regular.D3wIWfF6.woff2",
+    "bytes": 9644,
+    "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Script-Regular.D5yQViql.woff",
+    "bytes": 10588,
+    "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size1-Regular.C195tn64.woff",
+    "bytes": 6496,
+    "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size1-Regular.Dbsnue_I.ttf",
+    "bytes": 12228,
+    "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+    "bytes": 5468,
+    "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size2-Regular.B7gKUWhC.ttf",
+    "bytes": 11508,
+    "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+    "bytes": 5208,
+    "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size2-Regular.oD1tc_U0.woff",
+    "bytes": 6188,
+    "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size3-Regular.CTq5MqoE.woff",
+    "bytes": 4420,
+    "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size3-Regular.DgpXs0kz.ttf",
+    "bytes": 7588,
+    "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size4-Regular.BF-4gkZK.woff",
+    "bytes": 5980,
+    "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size4-Regular.DWFBv043.ttf",
+    "bytes": 10364,
+    "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
+    "bytes": 4928,
+    "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
+    "bytes": 16028,
+    "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
+    "bytes": 13568,
+    "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
+    "bytes": 27556,
+    "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/ReadingLayout.2lK2bolG.css",
+    "bytes": 6161,
+    "sha256": "818d97f0b89284f5061d2ee1069cce1df10cb0098aa578d74893a3dba6fa3696"
+  },
+  {
+    "path": "dist/qualification-subpath/_astro/math.DFUhDARf.css",
+    "bytes": 30599,
+    "sha256": "0e3c37cbca9f32c2c12417a884d6502e9ce9a21df34ef020e679485ff6975811"
+  },
+  {
+    "path": "dist/qualification-subpath/build-info.json",
+    "bytes": 1268,
+    "sha256": "59faedbe6c103988f5f5adb9fb6a33fe935cbbe3e1d874907e34c50bdef9a9a7"
+  },
+  {
+    "path": "dist/qualification-subpath/favicon.svg",
+    "bytes": 268,
+    "sha256": "050aeeb91037ffab4a1437735c7a913efefb357369c7bd5b7c2705ef00a10964"
+  },
+  {
+    "path": "dist/qualification-subpath/fixtures/math/index.html",
+    "bytes": 17544,
+    "sha256": "71459fe9c515fae097b921a7f31bea66cad0ca4f3bfe75ab45237726c7caa0ce"
+  },
+  {
+    "path": "dist/qualification-subpath/index.html",
+    "bytes": 6949,
+    "sha256": "b9b75935219319020e5d43efc289b20ced2cb72b24b204b99ea447ed4981f15f"
+  },
+  {
+    "path": "dist/qualification-subpath/robots.txt",
+    "bytes": 26,
+    "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+  },
+  {
+    "path": "dist/qualification-subpath/start/index.html",
+    "bytes": 5472,
+    "sha256": "5bbb655f4f59eebd019be35e5923d888b52eaf35b58484576f3cd5ad4d337c7e"
+  },
+  {
+    "path": "docs/evidence/m0/final-integrity.json",
+    "bytes": 631,
+    "sha256": "bd9c43f3e5d2f556de7cf2a8385e68e8d0ef6441ed45a7a7cd0775ee9c60b94f"
+  },
+  {
+    "path": "docs/evidence/m0/implementation-receipt.md",
+    "bytes": 4630,
+    "sha256": "67e90ba506976bb46db4a110b53e9976f3bb148add539886cd55a66789676095"
+  },
+  {
+    "path": "docs/evidence/m0/review/baseline.json",
+    "bytes": 17546,
+    "sha256": "45b8d09a9b0a8032c93d48494cd911e9e9b0a8e28153b95360476482f0d8c8b2"
+  },
+  {
+    "path": "docs/evidence/m0/review/before-cache-exclusion-cli-smoke.json",
+    "bytes": 3053,
+    "sha256": "786c4a8e2e135e67373397705a38f51d3584e26ce53d69af91b451684534c79c"
+  },
+  {
+    "path": "docs/evidence/m0/review/before-cache-exclusion-cli-smoke.log",
+    "bytes": 2398,
+    "sha256": "1ef356fadd1c1fb781131054598177796cdcb3b87f2f6bbff71c23957d47e8e4"
+  },
+  {
+    "path": "docs/evidence/m0/review/before-cache-exclusion-final-integrity.json",
+    "bytes": 13807,
+    "sha256": "493067e258bc0e4b885f96685ef58397accd4b0923e8a3a8599835c29057afb4"
+  },
+  {
+    "path": "docs/evidence/m0/review/before-cache-exclusion-root-artifact.json",
+    "bytes": 11987,
+    "sha256": "7029c283d7c7196bd4c01f6cfd653935afa2e6698aa97604c4a329199483a109"
+  },
+  {
+    "path": "docs/evidence/m0/review/before-cache-exclusion-root-browser.json",
+    "bytes": 6087,
+    "sha256": "a5814bdd684440aa2cb4a821ee69a8413564962bcdf05a37ad4a9d73644c3472"
+  },
+  {
+    "path": "docs/evidence/m0/review/before-cache-exclusion-subpath-artifact.json",
+    "bytes": 12000,
+    "sha256": "6cdc2eaa8ce17962c4a5596fffe13ab8698007318249855edc1f44d2346bcce5"
+  },
+  {
+    "path": "docs/evidence/m0/review/before-cache-exclusion-subpath-browser.json",
+    "bytes": 6083,
+    "sha256": "eefc02445df81bbfc8a29963177e5d697a046aabf65de70dc86604fbb20dfdc8"
+  },
+  {
+    "path": "docs/evidence/m0/review/before-cache-exclusion-verification-approved.log",
+    "bytes": 8208,
+    "sha256": "464ada7bc978b5323e157448469d47f72ac4ebd3ba08e1609f4e0c2356adc139"
+  },
+  {
+    "path": "docs/evidence/m0/review/before-cache-exclusion-verification.json",
+    "bytes": 1373,
+    "sha256": "2c9f25a99d9bb2c13f7d79b58f4322956cfc2618ca88f875d84a1c9b60f32925"
+  },
+  {
+    "path": "docs/evidence/m0/review/cli-smoke.json",
+    "bytes": 3053,
+    "sha256": "93bdb33a77780b643c76f9e569fce4fb799535c7fb8bf168f013e192bf1513b5"
+  },
+  {
+    "path": "docs/evidence/m0/review/cli-smoke.log",
+    "bytes": 2398,
+    "sha256": "dae3df6e676a35dfab5871ed0ba933a4b8654aa3dd2c8c5d41f516d7da9806b1"
+  },
+  {
+    "path": "docs/evidence/m0/review/cli-smoke.mjs",
+    "bytes": 1605,
+    "sha256": "dadb98b87622d10d30e7270f9fdd6d1fd0f8b250d084657c16391ea57a12ccb1"
+  },
+  {
+    "path": "docs/evidence/m0/review/final-integrity.json",
+    "bytes": 13885,
+    "sha256": "9a73566c1170b04e7d964449884b13a84d349b5d29237326c82f680697b1cf26"
+  },
+  {
+    "path": "docs/evidence/m0/review/first-check-verification-approved.log",
+    "bytes": 1074,
+    "sha256": "62d7745098642645145b1a4395bf566fc79970fbb734d04bb6b4a7e5afcab554"
+  },
+  {
+    "path": "docs/evidence/m0/review/first-check-verification.json",
+    "bytes": 961,
+    "sha256": "0367d9a4e6fd69e26828c37b51607dadc5e54698f075925d0e3f308e6e7aad9f"
+  },
+  {
+    "path": "docs/evidence/m0/review/first-contract-verification-approved.log",
+    "bytes": 3947,
+    "sha256": "265c520a94b6a10a363421ba00c02bfe32d010d68a1820747a53412b38376b46"
+  },
+  {
+    "path": "docs/evidence/m0/review/first-contract-verification.json",
+    "bytes": 1099,
+    "sha256": "e68baaf16d3dfdc05026339d2604fc31fc3de0edfe9e09a5762ac35f54f88402"
+  },
+  {
+    "path": "docs/evidence/m0/review/first-output-root-artifact.json",
+    "bytes": 11987,
+    "sha256": "958edb5eb01215406e88786074bd73b6dec9834364bd6818eff0bc5cf9e42016"
+  },
+  {
+    "path": "docs/evidence/m0/review/first-output-root-browser.json",
+    "bytes": 6077,
+    "sha256": "500c921669a3f4f1b97b608251f386debab1fbdc4ee0c1bf92323f1ede252cc9"
+  },
+  {
+    "path": "docs/evidence/m0/review/first-output-subpath-artifact.json",
+    "bytes": 12000,
+    "sha256": "0d5a498402d21592fede11102d55b598a03a713903be6cad4511a769bdbe10db"
+  },
+  {
+    "path": "docs/evidence/m0/review/first-output-subpath-browser.json",
+    "bytes": 6092,
+    "sha256": "2a132cea8307924888da25f74cf898cb065dda216fa426b9601c0e724586da1d"
+  },
+  {
+    "path": "docs/evidence/m0/review/first-output-verification-final.log",
+    "bytes": 6957,
+    "sha256": "6087ce6daad711414a550197ac2f01b9dfb120987d660c457c37a4bd7f1902c5"
+  },
+  {
+    "path": "docs/evidence/m0/review/first-output-verification.json",
+    "bytes": 1871,
+    "sha256": "47e15c94b4ab311093b357892c66d3eb3e1e7c8253ab993c89d0aefa5bb66abe"
+  },
+  {
+    "path": "docs/evidence/m0/review/installed-packages.json",
+    "bytes": 2870,
+    "sha256": "5930af6762b27512f1e6f162d2189b08c1e78e3909446c4ce1c8be1d9c29888e"
+  },
+  {
+    "path": "docs/evidence/m0/review/preview/root-artifact.json",
+    "bytes": 11981,
+    "sha256": "70e03ac67b635a55a81c1ba50591d9517f6535f26b538f9155cdaba3c563f4b5"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/.github/workflows/site.yml",
+    "bytes": 511,
+    "sha256": "712ef1c328ef162b8c7a9c10eec5b66af484afccb57c1dce0a5673faba754910"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/config/research-source.json",
+    "bytes": 4351,
+    "sha256": "b8322a283506548736f0fe0f42df1ba0cf1e1ee0234a1c24d577eba19a7f6366"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/playwright.config.ts",
+    "bytes": 564,
+    "sha256": "a6421cf613fdd9c80bbf823075de0b8cc7407d9608692f7f31f57d4463606d22"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/scripts/audit-output.ts",
+    "bytes": 3792,
+    "sha256": "3762ce49b5f241c9a392e8d31465024c8ff6844fee5e1f0adb7ebdbf68850960"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/scripts/build.ts",
+    "bytes": 2197,
+    "sha256": "03099347a653ee5d7822cc5cef2f3f4f951aca2db4c1c0bbb08641137387d81e"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/scripts/verify.ts",
+    "bytes": 2132,
+    "sha256": "7aaee506d75b45349e492fc7bd6aa6a1c5159fe6882697b5636cb92efc3c8560"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/src/lib/markdown.ts",
+    "bytes": 2685,
+    "sha256": "7d33ec214231eee4b5d200ce51370370257c03b5e40ff098d73477c8ee87818c"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/src/lib/source-admission.ts",
+    "bytes": 7248,
+    "sha256": "7db6be5ac36164ea41f47451dd317160246e65af8e9e49c9e91cf9308de91049"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/src/lib/urls.ts",
+    "bytes": 1587,
+    "sha256": "85f0097a3835c25ad7d334843d884ceea70c181fa8afea606fad4c7c1932fb74"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/src/pages/index.astro",
+    "bytes": 2762,
+    "sha256": "e44dd4a807988a68efabf62a2b6be6c1fb81defb63fd7af13d7b3789c8d89186"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/tests/content/contracts.test.ts",
+    "bytes": 9103,
+    "sha256": "1bd80fb59ac27557e45eccdc98e0f392f30d9d4ce393ca8cadac470c8b87ba23"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/tests/e2e/reading.spec.ts",
+    "bytes": 3855,
+    "sha256": "c3a3580f69687b618a23db18027775b5e7ba1202c1eb871e415ef68823240147"
+  },
+  {
+    "path": "docs/evidence/m0/review/prior-code/tsconfig.json",
+    "bytes": 160,
+    "sha256": "6b806b2e085286dbb82f1095fcd827e365cba34785b1b96b03b9e3b75c98cbc8"
+  },
+  {
+    "path": "docs/evidence/m0/review/resume-verification.mjs",
+    "bytes": 1614,
+    "sha256": "9cc84227e2642042b3a7bb8de9bcfcf82f6d3c500907dbb8bd00d85102760686"
+  },
+  {
+    "path": "docs/evidence/m0/review/review-receipt.md",
+    "bytes": 11075,
+    "sha256": "498ae35d8e9a8e9921469445db52377004e3550926b9d28be84ff8c1fd27d7aa"
+  },
+  {
+    "path": "docs/evidence/m0/review/root-artifact.json",
+    "bytes": 11987,
+    "sha256": "fbc6cd9d00c48d8bb5bc0770c5c06aab8e5437144818b95e2ba0d5b051118223"
+  },
+  {
+    "path": "docs/evidence/m0/review/root-browser.json",
+    "bytes": 6077,
+    "sha256": "f09437b96c9be9d59df48a33cc2ce4a1288db884e92a35106be3ae35df812726"
+  },
+  {
+    "path": "docs/evidence/m0/review/root-home-dark.png",
+    "bytes": 314773,
+    "sha256": "61605732846a473c3a7917895cb97c9a2e377e6f795dd1a2dcc691449ac71181"
+  },
+  {
+    "path": "docs/evidence/m0/review/root-home-desktop.png",
+    "bytes": 325165,
+    "sha256": "dcf5d75f21481094d684fe8cb86f303fe7adbc976723aca1149648a1c3ba64a5"
+  },
+  {
+    "path": "docs/evidence/m0/review/root-home-mobile.png",
+    "bytes": 286449,
+    "sha256": "d3bdcc4611883f64098bd4de35a599bf499199656fed7c9ac8f68c00389f61df"
+  },
+  {
+    "path": "docs/evidence/m0/review/root-math-mobile.png",
+    "bytes": 80831,
+    "sha256": "211c8364235b9709b6f239d2217fefa4c4a75fd3eacb1dfb5de79bc8b0dcffb2"
+  },
+  {
+    "path": "docs/evidence/m0/review/subpath-artifact.json",
+    "bytes": 12000,
+    "sha256": "dd5f99eeb9bd1b97f3e49e65d62124f03ac3edbdc1c4432d79b198b5e1eb3b1f"
+  },
+  {
+    "path": "docs/evidence/m0/review/subpath-browser.json",
+    "bytes": 6083,
+    "sha256": "c2e3ec84e68466eb8f2915203ab15ad773c6de789a7b86c91fcef53e3e78b025"
+  },
+  {
+    "path": "docs/evidence/m0/review/subpath-home-dark.png",
+    "bytes": 314773,
+    "sha256": "61605732846a473c3a7917895cb97c9a2e377e6f795dd1a2dcc691449ac71181"
+  },
+  {
+    "path": "docs/evidence/m0/review/subpath-home-desktop.png",
+    "bytes": 325166,
+    "sha256": "b149e9671bbe44a257865ab7a05e6f22d8c396b27f05ad5071818c088a959db9"
+  },
+  {
+    "path": "docs/evidence/m0/review/subpath-home-mobile.png",
+    "bytes": 286449,
+    "sha256": "d3bdcc4611883f64098bd4de35a599bf499199656fed7c9ac8f68c00389f61df"
+  },
+  {
+    "path": "docs/evidence/m0/review/subpath-math-mobile.png",
+    "bytes": 80831,
+    "sha256": "211c8364235b9709b6f239d2217fefa4c4a75fd3eacb1dfb5de79bc8b0dcffb2"
+  },
+  {
+    "path": "docs/evidence/m0/review/svg-check-verification-approved.log",
+    "bytes": 1200,
+    "sha256": "f17e6f0820ab9e613bdc4227191988b307672fcda0dce1522650270d1eb799ca"
+  },
+  {
+    "path": "docs/evidence/m0/review/svg-check-verification.json",
+    "bytes": 961,
+    "sha256": "5700442aef3f29b104ae27282f1241c06966308715d4b89db466d24c837a8511"
+  },
+  {
+    "path": "docs/evidence/m0/review/task-files.json",
+    "bytes": 9349,
+    "sha256": "3c49c1955b09a47a0262ed8398460d6f0c37e51a80a4612b0ddf34d26fd2cd3f"
+  },
+  {
+    "path": "docs/evidence/m0/review/verification-approved.log",
+    "bytes": 8205,
+    "sha256": "6e809bf075f21cb275d20e229ad6c7b618208e66a865476b2977e7b571232841"
+  },
+  {
+    "path": "docs/evidence/m0/review/verification-final.log",
+    "bytes": 6957,
+    "sha256": "6087ce6daad711414a550197ac2f01b9dfb120987d660c457c37a4bd7f1902c5"
+  },
+  {
+    "path": "docs/evidence/m0/review/verification.json",
+    "bytes": 1373,
+    "sha256": "11c8abdc3db1834854ac2b481df6f966535c238dea66879348d19d61b51bbab7"
+  },
+  {
+    "path": "docs/evidence/m0/review/verification.log",
+    "bytes": 986,
+    "sha256": "999514163b8774a8df7e99aff046c5bba3cd0faa52df2559857845b71573f95c"
+  },
+  {
+    "path": "docs/evidence/m0/root-artifact.json",
+    "bytes": 11987,
+    "sha256": "93be3125661ee70052c50fe69c432779a6d0569d0bf487df4da5d0a5ce76bca7"
+  },
+  {
+    "path": "docs/evidence/m0/root-browser.json",
+    "bytes": 6070,
+    "sha256": "74987aa9ee6564520f920cef72865cedb8f0005a0e0d59882a521806d0d53fcc"
+  },
+  {
+    "path": "docs/evidence/m0/root-home-dark.png",
+    "bytes": 314773,
+    "sha256": "61605732846a473c3a7917895cb97c9a2e377e6f795dd1a2dcc691449ac71181"
+  },
+  {
+    "path": "docs/evidence/m0/root-home-desktop.png",
+    "bytes": 325166,
+    "sha256": "b149e9671bbe44a257865ab7a05e6f22d8c396b27f05ad5071818c088a959db9"
+  },
+  {
+    "path": "docs/evidence/m0/root-home-mobile.png",
+    "bytes": 286449,
+    "sha256": "d3bdcc4611883f64098bd4de35a599bf499199656fed7c9ac8f68c00389f61df"
+  },
+  {
+    "path": "docs/evidence/m0/root-math-mobile.png",
+    "bytes": 79875,
+    "sha256": "cb353c3674cd725a14189a9970d1a7850f310d08151a62bb9819bdd8aafebe3e"
+  },
+  {
+    "path": "docs/evidence/m0/source-intake.md",
+    "bytes": 2906,
+    "sha256": "103c32e38ca268d7f8c3989bdb38057adeb7c81b7e138fe85697e141dd3bf2a8"
+  },
+  {
+    "path": "docs/evidence/m0/subpath-artifact.json",
+    "bytes": 12000,
+    "sha256": "c2880401babc585027741690e8c706e24de14e4c772cf96b93a23ae2b32ea4e1"
+  },
+  {
+    "path": "docs/evidence/m0/subpath-browser.json",
+    "bytes": 6076,
+    "sha256": "f2414ca4f611af8e3852e1fb6063a4e50cb2b5d564fc414e72710675a33f9218"
+  },
+  {
+    "path": "docs/evidence/m0/subpath-home-dark.png",
+    "bytes": 314773,
+    "sha256": "61605732846a473c3a7917895cb97c9a2e377e6f795dd1a2dcc691449ac71181"
+  },
+  {
+    "path": "docs/evidence/m0/subpath-home-desktop.png",
+    "bytes": 325166,
+    "sha256": "b149e9671bbe44a257865ab7a05e6f22d8c396b27f05ad5071818c088a959db9"
+  },
+  {
+    "path": "docs/evidence/m0/subpath-home-mobile.png",
+    "bytes": 286449,
+    "sha256": "d3bdcc4611883f64098bd4de35a599bf499199656fed7c9ac8f68c00389f61df"
+  },
+  {
+    "path": "docs/evidence/m0/subpath-math-mobile.png",
+    "bytes": 79875,
+    "sha256": "cb353c3674cd725a14189a9970d1a7850f310d08151a62bb9819bdd8aafebe3e"
+  },
+  {
+    "path": "docs/evidence/m0/task-files.json",
+    "bytes": 7377,
+    "sha256": "3a2afd4b0d1ff5efc42386b604b7c8589b2b3d0f49638028d37493563007ea1c"
+  },
+  {
+    "path": "docs/evidence/m0/verification.json",
+    "bytes": 1313,
+    "sha256": "4be56f6eb31326344abf6ebf8a8dbad3205b6ec6e13cb4fbaa8da8a248d8af8c"
+  },
+  {
+    "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+    "bytes": 5871,
+    "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+  },
+  {
+    "path": "research/RRG_CURRENT/01_world_explanation.md",
+    "bytes": 17752,
+    "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+  },
+  {
+    "path": "research/RRG_CURRENT/02_scientific_framework.md",
+    "bytes": 33050,
+    "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+  },
+  {
+    "path": "research/RRG_CURRENT/03_mathematical_core.md",
+    "bytes": 25463,
+    "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+  },
+  {
+    "path": "research/RRG_CURRENT/04_status_and_blockers.md",
+    "bytes": 2478,
+    "sha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2"
+  },
+  {
+    "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+    "bytes": 2971,
+    "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+  },
+  {
+    "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+    "bytes": 3041,
+    "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+  },
+  {
+    "path": "research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md",
+    "bytes": 5687,
+    "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+  },
+  {
+    "path": "research/RRG_CURRENT/07_UPDATE_MANIFEST.json",
+    "bytes": 431,
+    "sha256": "d04f02fee43a9a9f7ffb7620da97d631d1b2524a274821a173c9355cb1d98572"
+  },
+  {
+    "path": "research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+    "bytes": 10397,
+    "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+  },
+  {
+    "path": "research/RRG_CURRENT/CHANGELOG.md",
+    "bytes": 1681,
+    "sha256": "d63ef2d9124154e7994949a68f1c55ed6024ddfd1cd3048e18dad3a5d6b278a7"
+  },
+  {
+    "path": "research/RRG_CURRENT/CURRENT_MANIFEST.md",
+    "bytes": 1187,
+    "sha256": "c96a7387d0c24911ff671babb61c4b34255e8f50de17e3ce5f26516e554682b7"
+  },
+  {
+    "path": "research/RRG_CURRENT/README.md",
+    "bytes": 2635,
+    "sha256": "482d657a615b13fc0a6f3dfe90157413f58f4542f08b8ee0c6095465f88c8f80"
+  },
+  {
+    "path": "research/history/v0.1b/01_world_explanation.md",
+    "bytes": 17580,
+    "sha256": "a3c4f376d4a81bf8fc158d3c786c92e5c88b454aeead88173c4139420f4bbddb"
+  },
+  {
+    "path": "research/history/v0.1b/02_scientific_framework.md",
+    "bytes": 29586,
+    "sha256": "269b6e4bd7c76e15f19f4c0ff752276ba2a1de76e0b84294516d2d3ef8c998c5"
+  },
+  {
+    "path": "research/history/v0.1b/03_mathematical_core.md",
+    "bytes": 24450,
+    "sha256": "57d1aaa129d7edb780b83886b8b8ede40f7b30cf77a2d6b1f400c651ad1f92e4"
+  },
+  {
+    "path": "research/history/v0.1b/04_status_and_blockers.md",
+    "bytes": 1475,
+    "sha256": "c1d0cbbc4be75b825634e02edd29ee312ab52b11228282300f642297ca4f06bd"
+  },
+  {
+    "path": "research/history/v0.1b/README.md",
+    "bytes": 6303,
+    "sha256": "33712698f2416a63237820b54240827b69775db1dda039b052758f50eced5c6f"
+  },
+  {
+    "path": "research/history/v0.2-audit/01_research_audit.md",
+    "bytes": 12655,
+    "sha256": "087ca0e2e10c63c16e40880c1787c47621c09f77a4e945b2864e717bcdeccc71"
+  },
+  {
+    "path": "research/history/v0.2-audit/02_mathematical_results.md",
+    "bytes": 12910,
+    "sha256": "7216e5a71697206c33ac8d031cc1020679228346123105902275711771a582c8"
+  },
+  {
+    "path": "research/history/v0.2-audit/03_next_experiment.md",
+    "bytes": 5965,
+    "sha256": "f3aacaca5b797dc34be4bec0ba9f596a71d0d629d158e1489279a1b7b0b4f522"
+  },
+  {
+    "path": "research/history/v0.2-audit/PROVENANCE.json",
+    "bytes": 1771,
+    "sha256": "4471436b184433a2eef3e7d4e4a4b2b6fc589ba8a1a79e41e2c5d9c19d656b4e"
+  },
+  {
+    "path": "research/history/v0.2-audit/README.md",
+    "bytes": 2923,
+    "sha256": "8908b6e64a543c56f0c876e7ecd484a72b6a7c652894fa37563c1cb55e9f8a35"
+  },
+  {
+    "path": "research/history/v0.2-audit/SOURCES.md",
+    "bytes": 9706,
+    "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+  },
+  {
+    "path": "research/history/v0.2-audit/response_errors.csv",
+    "bytes": 43556,
+    "sha256": "c5accab7db75cc6b08050fdec52e3b0fccc5ef82260cefa281872da916a000af"
+  },
+  {
+    "path": "research/history/v0.2-audit/verification_results.json",
+    "bytes": 2935,
+    "sha256": "eb90644744d1690dae87a3c94931c05e45a4d895fce23a9f77264d38ecd74a63"
+  },
+  {
+    "path": "research/history/v0.2-audit/verify_response_closure.py",
+    "bytes": 8673,
+    "sha256": "47ce8c4da68e0b2cd9e780459f94e8b488dd19bce3bc1cafe556721d424dfd61"
+  },
+  {
+    "path": "research/project-notes/current-package-note.md",
+    "bytes": 1846,
+    "sha256": "464840fb9b34624e9eeb46bd9a9015af78935f2b0566e30f9ebbd609f7af6156"
+  },
+  {
+    "path": "research/project-notes/emergent-interaction-update-note.md",
+    "bytes": 2233,
+    "sha256": "c065f2af2f9b62c1c37ad34732bcddbf8f89635dee72907f066366d640efc447"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/BUNDLE_INFO.md",
+    "bytes": 2375,
+    "sha256": "817da963bbac9400aa344137a83bc2822b5f68ff560ca961a7c57f728c545e9b"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/HANDOFF_MANIFEST.json",
+    "bytes": 4366,
+    "sha256": "dc47cb75f8c8e4809f185c15c4779ba0eaafc06d670c4fc6aec72d8c7e725ea9"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/PROJECT_SOURCE_ALIGNMENT.md",
+    "bytes": 9222,
+    "sha256": "f9d57e712bfa593943de6c1ccecafb7cd9c32e6b096d8097d227b0cf95d9399c"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/SOURCE_AUTHORITY.json",
+    "bytes": 9307,
+    "sha256": "08c0d5d56876f0ed1aab19b32503154a4c71c4d031b82a4d09aade7260cff1c2"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/START_HERE.md",
+    "bytes": 3194,
+    "sha256": "17ec8e41ff58cd8bf2510707bc85b3103b16c558db21bb34fb485b9bb2bcb7d7"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+    "bytes": 136588,
+    "sha256": "8605b41136c838fdbb1e5ff532a693cb9860b67de46327658b532473e642a85e"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/evidence/POLICY_VALIDATION.json",
+    "bytes": 3437,
+    "sha256": "9ee193e94d0fd30dcb5e22f785cf0bc9847f494b3177d3d3a035c90a73b9382e"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/evidence/policy_checks.py",
+    "bytes": 6562,
+    "sha256": "a5b0435b77d9b62634a0edbfd936b38de1b52079125c8160f9e60244dea4a85d"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/history/UNITY_THEORY_WEBSITE_HANDOFF_R3.zip",
+    "bytes": 299465,
+    "sha256": "702d85547a6d7123058b1cd1e6eceab227255ea72f50ab5530af849a48c7f6b1"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.1b/01_world_explanation.md",
+    "bytes": 17580,
+    "sha256": "a3c4f376d4a81bf8fc158d3c786c92e5c88b454aeead88173c4139420f4bbddb"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.1b/02_scientific_framework.md",
+    "bytes": 29586,
+    "sha256": "269b6e4bd7c76e15f19f4c0ff752276ba2a1de76e0b84294516d2d3ef8c998c5"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.1b/03_mathematical_core.md",
+    "bytes": 24450,
+    "sha256": "57d1aaa129d7edb780b83886b8b8ede40f7b30cf77a2d6b1f400c651ad1f92e4"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.1b/04_status_and_blockers.md",
+    "bytes": 1475,
+    "sha256": "c1d0cbbc4be75b825634e02edd29ee312ab52b11228282300f642297ca4f06bd"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.1b/README.md",
+    "bytes": 6303,
+    "sha256": "33712698f2416a63237820b54240827b69775db1dda039b052758f50eced5c6f"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.2-audit/01_research_audit.md",
+    "bytes": 12655,
+    "sha256": "087ca0e2e10c63c16e40880c1787c47621c09f77a4e945b2864e717bcdeccc71"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.2-audit/02_mathematical_results.md",
+    "bytes": 12910,
+    "sha256": "7216e5a71697206c33ac8d031cc1020679228346123105902275711771a582c8"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.2-audit/03_next_experiment.md",
+    "bytes": 5965,
+    "sha256": "f3aacaca5b797dc34be4bec0ba9f596a71d0d629d158e1489279a1b7b0b4f522"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.2-audit/PROVENANCE.json",
+    "bytes": 1771,
+    "sha256": "4471436b184433a2eef3e7d4e4a4b2b6fc589ba8a1a79e41e2c5d9c19d656b4e"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.2-audit/README.md",
+    "bytes": 2923,
+    "sha256": "8908b6e64a543c56f0c876e7ecd484a72b6a7c652894fa37563c1cb55e9f8a35"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.2-audit/SOURCES.md",
+    "bytes": 9706,
+    "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.2-audit/response_errors.csv",
+    "bytes": 43556,
+    "sha256": "c5accab7db75cc6b08050fdec52e3b0fccc5ef82260cefa281872da916a000af"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.2-audit/verification_results.json",
+    "bytes": 2935,
+    "sha256": "eb90644744d1690dae87a3c94931c05e45a4d895fce23a9f77264d38ecd74a63"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/history/v0.2-audit/verify_response_closure.py",
+    "bytes": 8673,
+    "sha256": "47ce8c4da68e0b2cd9e780459f94e8b488dd19bce3bc1cafe556721d424dfd61"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/project-notes/current-package-note.md",
+    "bytes": 1846,
+    "sha256": "464840fb9b34624e9eeb46bd9a9015af78935f2b0566e30f9ebbd609f7af6156"
+  },
+  {
+    "path": "unity_theory_website_handoff_r4/source/project-notes/emergent-interaction-update-note.md",
+    "bytes": 2233,
+    "sha256": "c065f2af2f9b62c1c37ad34732bcddbf8f89635dee72907f066366d640efc447"
+  }
+]

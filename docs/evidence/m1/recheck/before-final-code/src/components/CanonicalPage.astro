@@ -1,0 +1,21 @@
+---
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import RecordStatus from './RecordStatus.astro';
+import { renderEntry } from '../lib/content';
+import { activePublication } from '../lib/publication';
+import { activeConfig } from '../lib/site-config';
+import { renderRecordDetails } from '../lib/presentation';
+import 'katex/dist/katex.min.css';
+const { id } = Astro.props as { id: string };
+const { corpus,entries } = activePublication();
+const entry = entries.find(e=>e.id===id);
+if (!entry) throw new Error(`Entry not selected: ${id}`);
+const html = await renderEntry(corpus,entry,activeConfig().basePath);
+const details=renderRecordDetails(corpus,entry,activeConfig().basePath);
+---
+<ReadingLayout title={entry.title} description={entry.description} route={entry.route}>
+  <article class="article shell"><header><p class="eyebrow">{entry.id} · Revision {entry.revision}</p><h1>{entry.title}</h1><p class="article-lede">{entry.description}</p></header>
+  <RecordStatus entry={entry} corpus={corpus} />
+  <div class="prose" data-canonical-body={entry.id} set:html={html} />
+  <div data-record-details={entry.id} set:html={details} /></article>
+</ReadingLayout>

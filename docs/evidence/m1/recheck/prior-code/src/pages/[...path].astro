@@ -1,0 +1,8 @@
+---
+import CanonicalPage from '../components/CanonicalPage.astro';
+import { activePublication } from '../lib/publication';
+export function getStaticPaths() {
+  return activePublication().entries.filter(e=>e.id.startsWith('DOC-') && !['DOC-HOME','DOC-START'].includes(e.id)).map(e=>({params:{path:e.route.slice(1,-1)},props:{id:e.id}}));
+}
+---
+<CanonicalPage id={Astro.props.id} />

@@ -1,0 +1,303 @@
+--- prior/src/lib/content.ts
++++ current/src/lib/content.ts
+@@ -118,7 +118,7 @@
+         const alias=aliases.get(`${entry.sourceBinding.sourceKey}:${url}`);
+         if(!alias) fail('UNRESOLVED_CITATION_ALIAS',`${entry.id}: ${url}`);
+         const reference=references.get(alias.bibliographyId)!;
+-        if(reference.url.replace(/\/$/,'').toLowerCase()!==url.replace(/\/$/,'').toLowerCase()) fail('CITATION_ALIAS_IDENTITY_MISMATCH',url);
++        if(referenceIdentity(reference.url)!==referenceIdentity(url)) fail('CITATION_ALIAS_IDENTITY_MISMATCH',url);
+         entry.bibRefs.push(alias.bibliographyId);
+       }
+     }
+--- prior/src/lib/presentation.ts
++++ current/src/lib/presentation.ts
+@@ -11,6 +11,15 @@
+ const evidence: Record<string,string> = { 'not-applicable':'No empirical status assigned','external-supported':'External support within the stated scope','project-reported':'Source-reported evidence; independent qualification pending','project-reproduced':'Reproduced restricted calculation',proposed:'Unproved extension or open research',contested:'Contested evidence' };
+ export function reviewLabel(corpus: Corpus,id: string) {
+   return {accepted:'Accepted for this exact content',pending:'Pending',stale:'Stale — rereview required',rejected:'Rejected — revision required'}[reviewState(corpus,id)];
++}
++export function renderEditorialState(corpus: Corpus,entry: Entry) {
++  const publication=entry.publicationState==='draft'?'Draft · private preview':entry.publicationState;
++  return `Publication: ${escapeHTML(publication)}. Content review: ${escapeHTML(reviewLabel(corpus,entry.id))}.`;
++}
++export function renderHomeHeading(title: string) {
++  const words=title.trim().split(/\s+/);
++  if(words.length<=4) return escapeHTML(title);
++  return `${words.slice(0,4).map(escapeHTML).join(' ')}<br class="desktop-break" /> ${words.slice(4,-1).map(escapeHTML).join(' ')} <em>${escapeHTML(words.at(-1)!)}</em>`;
+ }
+ export function renderStatus(corpus: Corpus,entry: Entry) {
+   const pairs=[['Scientific role',roles[entry.kind] ?? 'Research document'],['Evidence',evidence[entry.evidenceState]],['Content review',reviewLabel(corpus,entry.id)],['Publication',entry.publicationState==='draft'?'Draft · private preview':entry.publicationState]];
+--- prior/src/lib/source-revision.ts
++++ current/src/lib/source-revision.ts
+@@ -9,26 +9,32 @@
+   if (change.predecessorEdition !== prior.admission.edition || change.predecessorSeal !== prior.admission.inventorySeal || change.resultEdition !== next.admission.edition || change.resultSeal !== next.admission.inventorySeal || change.priorSnapshot.some(file=>sha256(file.raw)!==file.sha256)) throw new ContractError('SOURCE_REVISION_FAILURE','Edition/snapshot identity mismatch');
+   const oldSources=[...prior.sources.values()].filter(s=>s.declaredCurrent);
+   const newSources=[...next.sources.values()].filter(s=>s.declaredCurrent);
+-  const changed=oldSources.filter(s=>s.sha256!==next.sources.get(s.key)?.sha256 || s.path!==next.sources.get(s.key)?.path);
+-  const added=newSources.filter(s=>!prior.sources.get(s.key)?.declaredCurrent);
+-  const paths=[...new Set(changed.map(s=>s.path).concat(added.map(s=>s.path)))].sort();
++  const newCurrent=new Map(newSources.map(s=>[s.key,s]));
++  const oldCurrent=new Map(oldSources.map(s=>[s.key,s]));
++  const changed=oldSources.filter(s=>s.sha256!==newCurrent.get(s.key)?.sha256 || s.path!==newCurrent.get(s.key)?.path);
++  const added=newSources.filter(s=>!oldCurrent.has(s.key));
++  const paths=[...new Set(changed.flatMap(s=>[s.path,...(newCurrent.has(s.key)?[newCurrent.get(s.key)!.path]:[])]).concat(added.map(s=>s.path)))].sort();
+   if (new Set(change.affectedFiles).size!==change.affectedFiles.length || paths.join('\n')!==[...change.affectedFiles].sort().join('\n') || !paths.length || changed.some(s=>!change.priorSnapshot.some(p=>p.path===s.path && p.sha256===s.sha256))) throw new ContractError('SOURCE_REVISION_FAILURE','Exact changed/added/removed membership and prior snapshots required');
+   if(change.priorSnapshot.length!==changed.length || new Set(change.priorSnapshot.map(s=>s.path)).size!==changed.length) throw new ContractError('SOURCE_REVISION_FAILURE','Snapshot membership must match changed predecessor files exactly');
+-  if(change.predecessorSeal===change.resultSeal || change.predecessorEdition===change.resultEdition) throw new ContractError('SOURCE_REVISION_FAILURE','Changed source bytes require a new coherent edition and seal');
+-  const core=changed.find(s=>s.sha256===prior.admission.coreSha256);
+-  const oldCore=core && change.priorSnapshot.find(s=>s.path===core.path)?.raw;
+-  const newCore=core && next.sources.get(core.key);
++  if(change.predecessorSeal===change.resultSeal || change.predecessorEdition===change.resultEdition) throw new ContractError('SOURCE_REVISION_FAILURE','Changed source inventory requires a new coherent edition and seal');
++  const priorCore=oldSources.find(s=>s.sha256===prior.admission.coreSha256);
++  const newCore=newSources.find(s=>s.sha256===next.admission.coreSha256);
++  const coreChanged=priorCore?.sha256!==newCore?.sha256;
++  const oldCore=priorCore && change.priorSnapshot.find(s=>s.path===priorCore.path)?.raw;
+   const formatEquivalent=change.category==='format' && oldCore && change.resultCoreRaw && newCore && sha256(change.resultCoreRaw)===newCore.sha256 && Buffer.from(oldCore).toString('utf8').replace(/\r\n/g,'\n')===Buffer.from(change.resultCoreRaw).toString('utf8').replace(/\r\n/g,'\n');
+   // A category label cannot bypass the actual core change-control gate. The
+   // validator does not infer scientific equivalence from an author's label.
+-  if ((change.category==='definition-core' || core && !formatEquivalent) && !change.proofGate) throw new ContractError('CORE_PROOF_GATE_REQUIRED','Actual core §13/change control B require the seven-part justification; owner standing scope is the permission basis, not a fabricated new approval');
++  if ((change.category==='definition-core' || coreChanged && !formatEquivalent) && !change.proofGate) throw new ContractError('CORE_PROOF_GATE_REQUIRED','Actual core §13/change control B require the seven-part justification; owner standing scope is the permission basis, not a fabricated new approval');
+   if (change.proofGate && (!oldCore || !Buffer.from(oldCore).toString('utf8').includes(change.proofGate.lockedStatement.trim()))) throw new ContractError('CORE_PROOF_GATE_REQUIRED','The exact locked statement must occur in the byte-verified preserved predecessor core');
+   const keys=new Set([...changed,...added].map(s=>s.key));
+   for(const entry of next.entries.values()) {
+     const old=prior.entries.get(entry.id);
+     if(old && entry.sourceRefs.some(key=>keys.has(key)) && entry.revision<=old.revision) throw new ContractError('SOURCE_REVISION_FAILURE',`Source-bound derivative revision must advance: ${entry.id}`);
+   }
+-  const seeds=change.affectedClaimIds.concat([...keys].filter(key=>next.sources.has(key)).flatMap(key=>affectedEntries(next,key)));
++  // Include retained dependants from both graphs: a removed dependency edge
++  // must not erase its predecessor impact from the rereview report.
++  const priorAffected=changed.flatMap(source=>affectedEntries(prior,source.key));
++  const seeds=change.affectedClaimIds.concat(priorAffected.filter(id=>next.entries.has(id)),[...keys].filter(key=>next.sources.has(key)).flatMap(key=>affectedEntries(next,key)));
+   for(const entry of prior.entries.values()) if(entry.sourceRefs.some(k=>keys.has(k))) for(const id of affectedEntries(prior,entry.id)) if(!next.entries.has(id)) throw new ContractError('SOURCE_REVISION_FAILURE',`Removed dependant needs explicit retained correction history: ${id}`);
+   const affected=[...new Set(seeds.flatMap(id=>affectedEntries(next,id)))].sort();
+   return {changeId:change.changeId,sourceChangeRef:change.sourceChangeRef,affected:affected.map(id=>({entryId:id,requiredFingerprint:reviewFingerprint(next,id)})),reviewOutcome:'pending' as const};
+--- prior/src/pages/index.astro
++++ current/src/pages/index.astro
+@@ -2,7 +2,7 @@
+ import CanonicalPage from '../components/CanonicalPage.astro';
+ import { publicationEntry, isHistorical } from '../lib/publication';
+ import { renderEntry } from '../lib/content';
+-import { renderHomeStatus } from '../lib/presentation';
++import { renderHomeStatus, renderHomeHeading, renderEditorialState } from '../lib/presentation';
+ import ReadingLayout from '../layouts/ReadingLayout.astro';
+ import 'katex/dist/katex.min.css';
+ import OrganizationDiagram from '../components/OrganizationDiagram.astro';
+@@ -20,10 +20,11 @@
+ {historical ? <CanonicalPage id={entry.id} /> : <ReadingLayout title={entry.title} description={entry.description} route="/">
+   <section class="hero shell" aria-labelledby="research-question">
+     <div><p class="eyebrow">A question about organization</p>
+-      <h1 id="research-question">How does a collection<br class="desktop-break" /> become a <em>whole?</em></h1>
++      <h1 id="research-question" set:html={renderHomeHeading(entry.title)} />
+       <p class="hero-lede">Parts. Relationships. Activity.<br />And the possibilities they create together.</p>
+       <a class="button" href={start}>Start with the idea <span aria-hidden="true">→</span></a>
+       <p class="reading-note">A short introduction · No technical background needed</p>
++      <p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} />
+     </div><OrganizationDiagram />
+   </section>
+   <section class="reading-section shell"><div class="margin-label"><span>01 / The idea</span><p>From something familiar<br />to a research question.</p></div><div class="prose"><div data-canonical-body={entry.id} set:html={html} /></div></section>
+--- prior/src/pages/start.astro
++++ current/src/pages/start.astro
+@@ -3,10 +3,11 @@
+ import { publicationEntry, isHistorical } from '../lib/publication';
+ import { renderEntry } from '../lib/content';
+ import { activeConfig } from '../lib/site-config';
++import { renderEditorialState } from '../lib/presentation';
+ import ReadingLayout from '../layouts/ReadingLayout.astro';
+ const { corpus, entry } = publicationEntry('DOC-START');
+ const html = await renderEntry(corpus,entry,activeConfig().basePath);
+ ---
+ {isHistorical(entry) ? <CanonicalPage id={entry.id} /> : <ReadingLayout title={entry.title} description={entry.description} route="/start/">
+-  <article class="article shell"><header><p class="eyebrow">The introduction / Draft</p><h1>{entry.title}</h1><p class="article-lede">How parts, relationships and activity enter the question of organization.</p></header><div class="prose"><div data-canonical-body={entry.id} set:html={html} /></div></article>
++  <article class="article shell"><header><p class="eyebrow">The introduction</p><h1>{entry.title}</h1><p class="article-lede">How parts, relationships and activity enter the question of organization.</p><p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} /></header><div class="prose"><div data-canonical-body={entry.id} set:html={html} /></div></article>
+ </ReadingLayout>}
+--- prior/scripts/audit-output.ts
++++ current/scripts/audit-output.ts
+@@ -1,5 +1,5 @@
+ import { publicationFor, isHistorical } from '../src/lib/publication.js';
+-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus } from '../src/lib/presentation.js';
++import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState } from '../src/lib/presentation.js';
+ import { renderEntrySync } from '../src/lib/content.js';
+ import { readFileSync, existsSync, statSync, mkdirSync, writeFileSync } from 'node:fs';
+ import { resolve, join } from 'node:path';
+@@ -77,8 +77,12 @@
+       const actual=$('[data-canonical-body]').filter((_i,el)=>$(el).attr('data-canonical-body')===entry.id);
+       if (actual.length!==1 || normalizedHTML(actual.html() ?? '')!==normalizedHTML(expected)) throw new ContractError('CONTENT_PARITY_FAILURE',entry.id);
+       if($('head > title').text()!==`${entry.title} · Unity Theory` || $('meta[name="description"]').attr('content')!==entry.description) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
++      if($('h1').length!==1 || $('h1').text().replace(/\s+/g,' ').trim()!==entry.title.replace(/\s+/g,' ').trim()) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
++      if(['DOC-HOME','DOC-START'].includes(entry.id) && !isHistorical(entry)) {
++        const state=$('[data-editorial-state]').filter((_i,el)=>$(el).attr('data-editorial-state')===entry.id);
++        if(state.length!==1 || normalizedHTML(state.html() ?? '')!==normalizedHTML(renderEditorialState(selected.corpus,entry))) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${entry.id}: editorial state`);
++      }
+       if(!['DOC-HOME','DOC-START'].includes(entry.id) || isHistorical(entry)) {
+-        if($('h1').text()!==entry.title) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
+         for(const [attribute,expectedHTML] of [['data-record-status',renderStatus(selected.corpus,entry)],['data-record-details',renderRecordDetails(selected.corpus,entry,info.config.basePath)]]) {
+           const region=$(`[${attribute}]`).filter((_i,el)=>$(el).attr(attribute)===entry.id);
+           if(region.length!==1 || normalizedHTML(region.html() ?? '')!==normalizedHTML(expectedHTML)) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${entry.id}: ${attribute}`);
+--- prior/tests/content/contracts.test.ts
++++ current/tests/content/contracts.test.ts
+@@ -13,7 +13,7 @@
+ import { loadSiteConfig } from '../../src/lib/site-config.js';
+ import { renderMarkdown } from '../../src/lib/markdown.js';
+ import { auditOutput } from '../../scripts/audit-output.js';
+-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus } from '../../src/lib/presentation.js';
++import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState } from '../../src/lib/presentation.js';
+ const privateRoutes=activePublication().manifest.routes;
+ import { buildInputs, syntheticRoutes } from '../../src/lib/build-identity.js';
+ 
+@@ -123,6 +123,7 @@
+       const entry=selected.entries.find(e=>e.route===route);
+       let body=entry ? `<div data-canonical-body="${entry.id}">${renderEntrySync(selected.corpus,entry,info.config.basePath)}</div>` : '';
+       if(entry && !['DOC-HOME','DOC-START'].includes(entry.id)) body+=`<div data-record-status="${entry.id}">${renderStatus(selected.corpus,entry)}</div><div data-record-details="${entry.id}">${renderRecordDetails(selected.corpus,entry,info.config.basePath)}</div>`;
++      if(entry && ['DOC-HOME','DOC-START'].includes(entry.id)) body+=`<p data-editorial-state="${entry.id}">${renderEditorialState(selected.corpus,entry)}</p>`;
+       if(entry?.id==='DOC-HOME') body+=`<div data-source-projection="DOC-STATUS">${renderHomeStatus(selected.corpus,selected.entries.find(e=>e.id==='DOC-STATUS')!,info.config.basePath)}</div>`;
+       if(route==='/references/') body=`<div data-bibliography>${renderReferences(selected.references,selected.entries,info.config.basePath)}</div>`;
+       mkdirSync(join(directory, file, '..'), { recursive: true });
+@@ -229,6 +230,9 @@
+     ['references/index.html','Scientific support review remains pending.','Scientific support accepted.','BIBLIOGRAPHY_PARITY_FAILURE'],
+     ['claims/UT-E01/index.html','<dd>Pending</dd>','<dd>Accepted</dd>','CONTENT_METADATA_PARITY_FAILURE'],
+     ['index.html','Whether the four known fundamental interactions','All four fundamental interactions have been proved','CONTENT_PARITY_FAILURE'],
++    ['index.html','How does a collection become a whole?</h1>','All interactions proved.</h1>','CONTENT_METADATA_PARITY_FAILURE'],
++    ['start/index.html','Publication: Draft · private preview.','Publication: published.','CONTENT_METADATA_PARITY_FAILURE'],
++    ['start/index.html','Content review: Pending.','Content review: Accepted.','CONTENT_METADATA_PARITY_FAILURE'],
+     ['index.html','Research status</a>','All science accepted</a>','NAVIGATION_PARITY_FAILURE'],
+   ]) {
+     const path=join(directory,file),original=readFileSync(path,'utf8');assert.ok(original.includes(from),from);
+--- prior/tests/content/m1.test.ts
++++ current/tests/content/m1.test.ts
+@@ -39,6 +39,14 @@
+  const i=input();i.aliases.push({...i.aliases[0],bibliographyId:'BIB-9999'});assert.throws(()=>validateCorpus(i),/CITATION_ALIAS_COLLISION/);
+  const j=input();j.aliases[0].bibliographyId='BIB-9999';assert.throws(()=>validateCorpus(j),/UNKNOWN_REFERENCE/);
+ });
++test('source URL aliases preserve case-sensitive paths while DOI identity remains case insensitive',()=>{
++ const i=input();const ref=i.references.find(r=>r.id==='BIB-0023')!;
++ ref.url=ref.url.replace('PAJ296.pdf','paj296.pdf');ref.identity=ref.url;
++ assert.throws(()=>validateCorpus(i),/CITATION_ALIAS_IDENTITY_MISMATCH/);
++ const j=input();const doi=j.references.find(r=>r.url.startsWith('https://doi.org/'))!;
++ doi.url=doi.url.replace('https://doi.org/','https://doi.org/').toUpperCase().replace('HTTPS://DOI.ORG/','https://doi.org/');
++ assert.doesNotThrow(()=>validateCorpus(j));
++});
+ test('missing or cyclic semantic dependency fails; related feedback does not create proof cycles',()=>{
+  const i=input();i.entries[0].dependsOn=['UT-D9999'];assert.throws(()=>validateCorpus(i),/UNKNOWN_DEPENDENCY/);
+  const j=input();j.entries.find(e=>e.id==='UT-D01')!.dependsOn=['UT-D02'];j.entries.find(e=>e.id==='UT-D02')!.dependsOn=['UT-D01'];assert.throws(()=>validateCorpus(j),/DEPENDENCY_CYCLE/);
+@@ -89,7 +97,7 @@
+  const selected=activePublication();assert.match(renderEntrySync(corpus,corpus.entries.get('DOC-STATUS')!),/Evidence update: emergent interaction channels/);assert.match(renderEntrySync(corpus,corpus.entries.get('DOC-STATUS')!),/<math/);assert.match(renderEntrySync(corpus,corpus.entries.get('DOC-PROOF')!),/<table/);assert.equal(selected.manifest.entries.length,34);
+ });
+ test('source revision transaction refuses missing prior-byte preservation and incomplete core proof gate',()=>{
+- const prior=clone(),next=clone();next.admission.inventorySeal='1'.repeat(64);next.admission.edition='synthetic changed edition';next.sources.get('R-CURRENT-CORE')!.sha256='2'.repeat(64);
++ const prior=clone(),next=clone();next.admission.inventorySeal='1'.repeat(64);next.admission.edition='synthetic changed edition';next.sources.get('R-CURRENT-CORE')!.sha256='2'.repeat(64);next.admission.coreSha256='2'.repeat(64);
+  const change={changeId:'synthetic-change',category:'definition-core',predecessorEdition:prior.admission.edition,predecessorSeal:prior.admission.inventorySeal,resultEdition:next.admission.edition,resultSeal:next.admission.inventorySeal,sourceChangeRef:'synthetic source change record',affectedFiles:['research/RRG_CURRENT/00_LOCKED_CORE.md'],affectedClaimIds:['UT-D01'],problem:'synthetic control',before:'old synthetic meaning',after:'new synthetic meaning',rationale:'isolated test',permissionBasis:'test-only transaction',priorSnapshot:[]};
+  assert.throws(()=>validateSourceRevision(change,prior,next),/SOURCE_REVISION_FAILURE/);
+  change.priorSnapshot=[{path:'research/RRG_CURRENT/00_LOCKED_CORE.md',raw:readFileSync('research/RRG_CURRENT/00_LOCKED_CORE.md'),sha256:prior.sources.get('R-CURRENT-CORE')!.sha256}] as never[];
+@@ -230,3 +238,14 @@
+  i.entries.push(proposal);const c=validateCorpus(i);assert.match(renderRecordDetails(c,c.entries.get(proposal.id)!),/not adopted into the current theory/);
+  const j=input();j.entries.push({...proposal,supersedes:'UT-D01'});assert.throws(()=>validateCorpus(j),/PROPOSAL_ADOPTION_REQUIRED/);
+ });
++
++ test('revision impact retains predecessor dependants when the next graph removes an edge',()=>{
++ const prior=clone(),next=clone(),key='R-CURRENT-STATUS',source=prior.sources.get(key)!;
++ next.admission.inventorySeal='1'.repeat(64);next.admission.edition='synthetic changed edition';next.sources.get(key)!.sha256='2'.repeat(64);
++ // The old home depends on DOC-STATUS. Removing that edge must not suppress
++ // its rereview from a source revision's impact report.
++ next.entries.get('DOC-HOME')!.dependsOn=[];next.entries.get('DOC-HOME')!.sourceRefs=['R-CURRENT-CORE'];
++ for(const e of next.entries.values()) if(e.sourceRefs.includes(key)) e.revision++;
++ const result=validateSourceRevision({changeId:'synthetic-edge-removal',category:'evidence-status',predecessorEdition:prior.admission.edition,predecessorSeal:prior.admission.inventorySeal,resultEdition:next.admission.edition,resultSeal:next.admission.inventorySeal,sourceChangeRef:'isolated test',affectedFiles:[source.path],affectedClaimIds:[],problem:'isolated graph transition',before:'dependent retained',after:'edge removed',rationale:'exercise predecessor impact',permissionBasis:'synthetic only',priorSnapshot:[{path:source.path,raw:readFileSync(source.path),sha256:source.sha256}]},prior,next);
++ assert.ok(result.affected.some(e=>e.entryId==='DOC-HOME'));assert.equal(result.reviewOutcome,'pending');
++ });
+--- prior/tests/content/page-lifecycle.test.ts
++++ current/tests/content/page-lifecycle.test.ts
+@@ -15,13 +15,28 @@
+   for(const file of ['package.json','package-lock.json','astro.config.mjs','tsconfig.json','.node-version','.npmrc']) cpSync(file,join(root,file));
+   symlinkSync(resolve('node_modules'),join(root,'node_modules'),'dir');
+   const intakePath=join(root,'config/research-source.json'),intake=JSON.parse(readFileSync(intakePath,'utf8'));intake.corpusScope='synthetic';writeFileSync(intakePath,JSON.stringify(intake));
++  // First exercise the live nonhistorical branch using a published preview
++  // fixture. Preview labels reflect metadata without claiming qualification.
++  for(const id of ['home','start']) {
++   const path=join(root,`research/publication/pages/${id}.md`),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(readFileSync(path,'utf8'))!;
++   const entry=JSON.parse(match[1]);Object.assign(entry,{publicationState:'published',publishedAt:'2026-10-01',title:`Synthetic ${id} heading & exact <metadata>`});
++   writeFileSync(path,`---\n${JSON.stringify(entry)}\n---\n${match[2]}`);
++  }
++  const invoke=(script:string,args:string[])=>spawnSync(process.execPath,['--import',resolve('node_modules/tsx/dist/loader.mjs'),resolve(script),...args],{cwd:root,encoding:'utf8',env:{...process.env,ASTRO_TELEMETRY_DISABLED:'1',UNITY_EVIDENCE_DIR:join(root,'evidence')}});
++  let result=invoke('scripts/build.ts',['--mode','preview','--output','dist/published-control']);assert.equal(result.status,0,result.stdout+result.stderr);
++  result=invoke('scripts/audit-output.ts',['--dir','dist/published-control']);assert.equal(result.status,0,result.stdout+result.stderr);
++  for(const [file,id,name] of [['index.html','DOC-HOME','home'],['start/index.html','DOC-START','start']]) {
++   const $=load(readFileSync(join(root,'dist/published-control',file),'utf8'));
++   assert.equal($('h1').text().replace(/\s+/g,' ').trim(),`Synthetic ${name} heading & exact <metadata>`);
++   assert.equal($(`[data-editorial-state="${id}"]`).text(),'Publication: published. Content review: Pending.');
++  }
++  const publishedInfo=JSON.parse(readFileSync(join(root,'dist/published-control/build-info.json'),'utf8'));assert.equal(publishedInfo.currentSourceQualified,false);assert.equal(publishedInfo.deployEligible,false);
+   for(const id of ['home','start']) {
+    const path=join(root,`research/publication/pages/${id}.md`),raw=readFileSync(path,'utf8'),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(raw)!;
+    const entry=JSON.parse(match[1]);Object.assign(entry,{publicationState:'withdrawn',publishedAt:'2026-10-01',correctionRef:'SYNTHETIC-LIFECYCLE-CONTROL',withdrawalReason:'Synthetic engineering control; no actual scientific withdrawal occurred.',title:'OLD_TITLE_SENTINEL',description:'OLD_DESCRIPTION_SENTINEL'});
+    writeFileSync(path,`---\n${JSON.stringify(entry)}\n---\nOLD_BODY_SENTINEL\n`);
+   }
+-  const invoke=(script:string,args:string[])=>spawnSync(process.execPath,['--import',resolve('node_modules/tsx/dist/loader.mjs'),resolve(script),...args],{cwd:root,encoding:'utf8',env:{...process.env,ASTRO_TELEMETRY_DISABLED:'1',UNITY_EVIDENCE_DIR:join(root,'evidence')}});
+-  let result=invoke('scripts/build.ts',['--mode','preview','--output','dist/control']);assert.equal(result.status,0,result.stdout+result.stderr);
++  result=invoke('scripts/build.ts',['--mode','preview','--output','dist/control']);assert.equal(result.status,0,result.stdout+result.stderr);
+   result=invoke('scripts/audit-output.ts',['--dir','dist/control']);assert.equal(result.status,0,result.stdout+result.stderr);
+   const info=JSON.parse(readFileSync(join(root,'dist/control/build-info.json'),'utf8'));assert.equal(info.sourceIntake.corpusScope,'synthetic');assert.equal(info.currentSourceQualified,false);assert.equal(info.deployEligible,false);
+   for(const [file,id] of [['index.html','DOC-HOME'],['start/index.html','DOC-START']]) {
+--- prior/tests/content/revision-inventory-cli.test.ts
++++ current/tests/content/revision-inventory-cli.test.ts
+@@ -0,0 +1,62 @@
++import {test} from 'node:test';
++import assert from 'node:assert/strict';
++import {cpSync,mkdirSync,mkdtempSync,readFileSync,writeFileSync,renameSync,rmSync,existsSync} from 'node:fs';
++import {join,resolve} from 'node:path';
++import {tmpdir} from 'node:os';
++import {spawnSync} from 'node:child_process';
++import {sha256,stableJSON} from '../../src/lib/identity.js';
++
++for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`real revision CLI accounts for both rename paths without inventing a core-byte change: ${member}`,()=>{
++ const temp=mkdtempSync(join(tmpdir(),'unity-revision-rename-'));
++ const prior=join(temp,'prior'),next=join(temp,'next');
++ const read=(root:string,path:string)=>JSON.parse(readFileSync(join(root,path),'utf8'));
++ const write=(root:string,path:string,value:unknown)=>writeFileSync(join(root,path),JSON.stringify(value,null,2)+'\n');
++ try {
++  for(const root of [prior,next]) {
++   for(const folder of ['research','src','config','docs/evidence/m1/literature']) {mkdirSync(join(root,folder,'..'),{recursive:true});cpSync(folder,join(root,folder),{recursive:true});}
++   for(const file of ['astro.config.mjs','package-lock.json']) cpSync(file,join(root,file));
++   const record=read(root,'config/research-source.json');record.corpusScope='synthetic';write(root,'config/research-source.json',record);
++  }
++  const old=read(prior,'config/research-source.json'),record=read(next,'config/research-source.json');
++  const destination='renamed-'+member,changeId='SYNTHETIC-RENAME-CONTROL';
++  renameSync(join(next,record.directory,member),join(next,record.directory,destination));
++  const manifest=join(next,record.directory,record.manifestPath);
++  writeFileSync(manifest,readFileSync(manifest,'utf8').replaceAll(member,destination));
++  const changelog=join(next,record.directory,'CHANGELOG.md');writeFileSync(changelog,readFileSync(changelog,'utf8')+`\n${changeId}: synthetic path-rename test only.\n`);
++  record.edition='Synthetic rename control';
++  if(record.corePath===member) record.corePath=destination;
++  record.manifestMembers=record.manifestMembers.map((p:string)=>p===member?destination:p);
++  record.inspection.inspectedFiles=record.inspection.inspectedFiles.map((p:string)=>p===member?destination:p);
++  record.files=record.files.map((f:any)=>{const path=f.path===member?destination:f.path,raw=readFileSync(join(next,record.directory,path));return {...f,path,bytes:raw.length,sha256:sha256(raw)};}).sort((a:any,b:any)=>a.path.localeCompare(b.path));
++  record.manifestSha256=sha256(readFileSync(manifest));record.inventorySeal=sha256(stableJSON(record.files));
++  record.bindings=record.bindings.map((b:any)=>({...b,path:b.path===member?destination:b.path}));
++  write(next,'config/research-source.json',record);
++  const sources=read(next,'research/publication/source-index.yaml');
++  const changedKeys:string[]=[];
++  for(const source of sources) if(source.declaredCurrent) {
++   const name=source.path.slice(record.directory.length+1),path=name===member?destination:name;
++   const file=record.files.find((f:any)=>f.path===path)!;
++   if(path!==name || source.sha256!==file.sha256) changedKeys.push(source.key);
++   source.path=`${record.directory}/${path}`;source.sha256=file.sha256;source.edition=record.edition;
++  }
++  write(next,'research/publication/source-index.yaml',sources);
++  const revise=(e:any)=>{e.researchEdition=record.edition;if(e.sourceRefs.some((k:string)=>changedKeys.includes(k))) e.revision++;return e;};
++  for(const name of ['records','canonical-documents']) write(next,`research/publication/${name}.yaml`,read(next,`research/publication/${name}.yaml`).map(revise));
++  for(const name of ['home','start']) {
++   const path=join(next,`research/publication/pages/${name}.md`),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(readFileSync(path,'utf8'))!;
++   writeFileSync(path,`---\n${JSON.stringify(revise(JSON.parse(match[1])))}\n---\n${match[2]}`);
++  }
++  const predecessorFiles=[member,'CURRENT_MANIFEST.md','CHANGELOG.md'];
++  const change={changeId,category:'format',predecessorEdition:old.edition,predecessorSeal:old.inventorySeal,resultEdition:record.edition,resultSeal:record.inventorySeal,sourceChangeRef:`${record.directory}/CHANGELOG.md`,affectedFiles:[...predecessorFiles,destination].map(p=>`${record.directory}/${p}`),affectedClaimIds:[],problem:'isolated rename accounting',before:member,after:destination,rationale:'exercise current source inventory transitions',permissionBasis:'synthetic engineering test only',priorSnapshot:predecessorFiles.map(path=>({path:`${record.directory}/${path}`,sha256:old.files.find((f:any)=>f.path===path)!.sha256}))};
++  const changePath=join(temp,'change.json');
++  const invoke=(value:unknown)=>{writeFileSync(changePath,JSON.stringify(value));return spawnSync(process.execPath,['--import',resolve('node_modules/tsx/dist/loader.mjs'),resolve('scripts/check-source-revision.ts'),'--prior-root',prior,'--change',changePath,'--evidence-dir',join(temp,'evidence')],{cwd:next,encoding:'utf8'});};
++  let result=invoke(change);assert.equal(result.status,0,result.stdout+result.stderr);
++  const receipt=read(temp,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`);assert.equal(receipt.reviewOutcome,'pending');assert.ok(receipt.affected.some((e:any)=>e.entryId==='DOC-HOME'));assert.deepEqual(read(next,'research/publication/reviews.yaml'),[]);
++  // Neither old-only nor new-only accounting can hide a path transition.
++  for(const omit of [member,destination]) {
++   result=invoke({...change,affectedFiles:change.affectedFiles.filter(p=>p!==`${record.directory}/${omit}`)});
++   assert.notEqual(result.status,0);assert.match(result.stderr,/SOURCE_REVISION_FAILURE/);
++   assert.equal(existsSync(join(temp,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`)),false);
++  }
++ } finally {rmSync(temp,{recursive:true,force:true});}
++});

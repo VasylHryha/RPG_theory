@@ -1,0 +1,14 @@
+---
+import type { Entry } from '../lib/content-schema';
+import type { Corpus } from '../lib/content';
+import { reviewState } from '../lib/content';
+const { entry, corpus } = Astro.props as { entry: Entry; corpus: Corpus };
+const names: Record<string,string> = { definition:'Definition',assumption:'Assumption',conjecture:'Conjecture',evidence:'Evidence',derivation:'Restricted result',prediction:'Prediction',falsification:'Failure test','open-problem':'Open question' };
+const evidenceNames: Record<string,string> = { 'not-applicable':'No empirical status assigned','external-supported':'External support within the stated scope','project-reported':'Source-reported evidence; independent qualification pending','project-reproduced':'Reproduced restricted calculation',proposed:'Unproved extension or open research',contested:'Contested evidence' };
+---
+<dl class="record-status">
+  <div><dt>Scientific role</dt><dd>{names[entry.kind] ?? 'Research document'}</dd></div>
+  <div><dt>Evidence</dt><dd>{evidenceNames[entry.evidenceState]}</dd></div>
+  <div><dt>Content review</dt><dd>{reviewState(corpus,entry.id) === 'accepted' ? 'Accepted for this exact content' : reviewState(corpus,entry.id) === 'stale' ? 'Stale — rereview required' : 'Pending'}</dd></div>
+  <div><dt>Publication</dt><dd>{entry.publicationState === 'draft' ? 'Draft · private preview' : entry.publicationState}</dd></div>
+</dl>
