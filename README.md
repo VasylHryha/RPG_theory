@@ -91,13 +91,23 @@ record. It reports affected fingerprints with review pending and grants no appro
 Website fidelity reviews use `research/publication/website-reviews.yaml` and
 `src/lib/website-review.ts`. Each independent decision links a hashed JSON receipt
 under `docs/evidence/`, records its actual source reads, complete entry, dependencies,
-rendered bodies at both bases, and comparisons of terminology, meaning, assumptions,
+rendered canonical bodies, plain language and applicable home status projection at
+both bases, and comparisons of terminology, meaning, assumptions,
 hypotheses, evidence descriptions, open questions, attribution and mappings.
 `check:content` reports requests only; it never writes approval.
 
 `qualifyCurrentSource()` verifies intake bytes and always leaves content qualification
-false. `loadCanonicalCorpus()` derives website qualification from the complete current
-entry inventory and exact accepted website decisions. The legacy intake `contentReview`
-field and preserved nineteen-entry `reviews.yaml` scientific registry cannot grant it.
+false. `loadCanonicalCorpus()` reports complete current-entry M1 fidelity coverage.
+Publication independently derives qualification for its selected entries and their
+dependency closure, validating actual hashed receipts rather than trusting that report.
+Unrelated drafts do not block a reviewed publication. M1 still requires reviewing
+the 34 reached representations before acceptance. The legacy intake `contentReview`
+field cannot grant it. The preserved nineteen-entry `reviews.yaml` scientific registry
+is excluded from active website loading and production input identity.
 Scientific findings and paper readouts remain in their existing evidence directories
 for owner review after website completion. No scientific source is revised in this lane.
+
+Fidelity decisions use a strict schema, including stale snapshots. Their dates
+must cover the reviewed material and dependency updates. Requests return detached
+entry snapshots; comparison text, exact inputs and receipt-byte seals are mandatory.
+Unknown IDs and unsafe/symlink evidence paths fail with typed diagnostics.

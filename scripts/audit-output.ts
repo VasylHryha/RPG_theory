@@ -29,8 +29,8 @@ export function auditOutput(directory: string) {
   if (info.schema !== 'unity-build-info/1' || !['preview', 'qualification'].includes(buildMode(info.mode)) || info.deployEligible !== false || info.corpusScope !== (info.mode==='preview'?'private-editorial-preview':'reviewed-current-qualification') || stableJSON(info.syntheticRoutes) !== stableJSON(syntheticRoutes)) throw new ContractError('INVALID_ARTIFACT_IDENTITY', 'Expected the selected private reading corpus');
   if (info.configSha256 !== sha256(stableJSON(info.config)) || Object.entries(buildInputs()).some(([key, value]) => info[key] !== value)) throw new ContractError('STALE_BUILD_INPUTS', 'Source/config/dependency/renderer identities no longer match');
   const selected=publicationFor(info.mode,info.config);
-  if (stableJSON(info.sourceIntake) !== stableJSON(selected.corpus.admission)) throw new ContractError('STALE_SOURCE_IDENTITY', 'Artifact source identity differs from actual admission');
-  if(info.currentSourceQualified!==selected.corpus.admission.currentSourceQualified || stableJSON(info.routes)!==stableJSON(selected.manifest.routes)) throw new ContractError('INVALID_ARTIFACT_IDENTITY','Selection/admission mismatch');
+  if (stableJSON(info.sourceIntake) !== stableJSON(selected.admission)) throw new ContractError('STALE_SOURCE_IDENTITY', 'Artifact source identity differs from actual admission');
+  if(info.currentSourceQualified!==selected.admission.currentSourceQualified || stableJSON(info.routes)!==stableJSON(selected.manifest.routes)) throw new ContractError('INVALID_ARTIFACT_IDENTITY','Selection/admission mismatch');
   if (stableJSON(info.publicationManifest) !== stableJSON(selected.manifest) || info.publicationManifestSha256 !== selected.manifestSha256) throw new ContractError('PUBLICATION_MANIFEST_MISMATCH','Artifact differs from production selection');
   const routeFiles=info.routes.map((r:string)=>r.endsWith('/') ? (r==='/'?'index.html':r.slice(1)+'index.html') : r.slice(1));
   for (const file of [...routeFiles, 'favicon.svg', 'robots.txt', 'build-info.json']) {

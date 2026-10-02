@@ -9,7 +9,7 @@ const { title, description, route } = Astro.props;
 const config = activeConfig();
 const url = (path: string) => withBase(path, config.basePath);
 const selected=activePublication();
-const source = {...selected.corpus.admission,errorCode:null};
+const source = {...selected.admission,errorCode:null};
 ---
 <!doctype html>
 <html lang="en">

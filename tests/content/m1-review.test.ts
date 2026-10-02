@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import { cpSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
-import { loadCanonicalCorpus, dependencyClosure, affectedEntries, reviewFingerprint, reviewState as historicalReviewState } from '../../src/lib/content.js';
+import { loadCanonicalCorpus, dependencyClosure, affectedEntries, reviewFingerprint } from '../../src/lib/content.js';
+
+import { websiteReviewState } from '../../src/lib/website-review.js';
 
 test('each additional-evidence mapping declares every core clause named by its actual excerpt', () => {
   const corpus = loadCanonicalCorpus();
@@ -33,7 +35,7 @@ test('the actual start explanation tracks emergent evidence, its support metadat
   const before = reviewFingerprint(corpus,'DOC-START');
   corpus.references.get('BIB-0016')!.supportScope += ' Isolated changed citation support.';
   assert.notEqual(reviewFingerprint(corpus,'DOC-START'),before);
-  assert.equal(historicalReviewState(corpus,'DOC-START'),'pending');
+  assert.equal(websiteReviewState(corpus,'DOC-START'),'pending');
 });
 
 test('background-extension changes invalidate the actual E12 interpretation and its consumers', () => {
@@ -45,10 +47,10 @@ test('background-extension changes invalidate the actual E12 interpretation and 
   corpus.entries.get('UT-C02')!.scope+=' Isolated changed background-extension meaning.';
   for(const id of consumers) assert.notEqual(reviewFingerprint(corpus,id),before.get(id),id);
   assert.equal(reviewFingerprint(corpus,'UT-E10'),unrelated);
-  assert.equal(historicalReviewState(corpus,'UT-C02'),'stale');
-  assert.equal(historicalReviewState(corpus,'UT-E12'),'pending');
+  assert.equal(websiteReviewState(corpus,'UT-C02'),'pending');
+  assert.equal(websiteReviewState(corpus,'UT-E12'),'pending');
   // Pending consumers change identity; they do not acquire stale approvals.
-  for(const id of consumers) assert.equal(historicalReviewState(corpus,id),'pending',id);
+  for(const id of consumers) assert.equal(websiteReviewState(corpus,id),'pending',id);
 });
 
 test('review fingerprints track real URL, selection, style and pinned rendering dependency inputs', () => {

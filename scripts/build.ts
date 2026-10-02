@@ -12,7 +12,7 @@ const mode = buildMode(options.mode);
 const configPath = resolve(options.config ?? 'config/site.json');
 const config = loadSiteConfig(configPath);
 const publication = publicationFor(mode,config);
-const source = publication.corpus.admission;
+const source = publication.admission;
 assertBuildAllowed(mode, config, source);
 const output = resolve(options.output ?? `dist/${mode}-${config.basePath === '/' ? 'root' : 'subpath'}`);
 if (!output.startsWith(resolve('dist') + '/') || output === resolve('dist')) throw new Error('Output must be an isolated child directory under dist/');

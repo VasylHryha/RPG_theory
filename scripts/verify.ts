@@ -2,12 +2,14 @@ import { spawnSync } from 'node:child_process';
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { args } from './args.js';
 import { buildMode, loadSiteConfig } from '../src/lib/site-config.js';
-import { loadCanonicalCorpus } from '../src/lib/content.js';
-import { assertBuildAllowed } from '../src/lib/publication.js';
+import { assertBuildAllowed, publicationFor } from '../src/lib/publication.js';
 
 const options = args(['mode', 'config', 'output-root', 'evidence-dir']);
 const mode = buildMode(options.mode ?? 'preview');
-if (mode === 'release') assertBuildAllowed(mode, loadSiteConfig(options.config), loadCanonicalCorpus().admission);
+if (mode === 'release') {
+  const config=loadSiteConfig(options.config);
+  assertBuildAllowed(mode,config,publicationFor(mode,config).admission);
+}
 const configurations = options.config ? [options.config] : ['config/site.json', 'tests/fixtures/site-subpath.json'];
 const commands = [
   ['run', 'check'],

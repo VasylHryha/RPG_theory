@@ -12,7 +12,7 @@ export function assertBuildAllowed(mode: BuildMode, config: SiteConfig, source: 
 }
 
 import { readFileSync } from 'node:fs';
-import { websiteReviewState as reviewState } from './website-review.js';
+import { websiteReviewState as reviewState, qualifyWebsiteCorpus } from './website-review.js';
 import { loadCanonicalCorpus, reviewFingerprint, dependencyClosure, validDate, type Corpus } from './content.js';
 import { sha256, stableJSON } from './identity.js';
 import type { Entry } from './content-schema.js';
@@ -32,8 +32,9 @@ export function selectPublication(corpus: Corpus, config: SiteConfig, release: R
     if(!['superseded','withdrawn'].includes(corpus.entries.get(id)!.publicationState)) throw new ContractError('INVALID_RELEASE',`${id} is not historical`);
   }
   const intended = [...corpus.entries.values()].filter(e => mode === 'preview' || e.publicationState === 'published' || (['superseded','withdrawn'].includes(e.publicationState) && release.historicalIds.includes(e.id)));
+  const admission={...corpus.admission,currentSourceQualified:qualifyWebsiteCorpus(corpus,mode==='preview'?undefined:intended.map(e=>e.id))};
   if (mode !== 'preview') {
-    if (!corpus.admission.currentSourceQualified || corpus.admission.corpusScope !== 'current') throw new ContractError('CURRENT_SOURCE_NOT_QUALIFIED','Actual current byte integrity and website source-fidelity review required');
+    if (!admission.bytesVerified || admission.corpusScope !== 'current' || !intended.length) throw new ContractError('CURRENT_SOURCE_NOT_QUALIFIED','Actual current byte integrity and website source-fidelity review required');
     if (!intended.length) throw new ContractError('EMPTY_PUBLICATION','No reviewed current release entries');
     for (const entry of intended) {
       if (!entry.publishedAt || validDate(entry.publishedAt) > validDate(release.releaseAt) || validDate(entry.updatedAt)>validDate(release.releaseAt)) throw new ContractError('FUTURE_PUBLICATION',entry.id);
@@ -45,6 +46,7 @@ export function selectPublication(corpus: Corpus, config: SiteConfig, release: R
       if (!entry.rightsRef || !release.rights?.some(r=>r.id===entry.rightsRef && r.outcome==='approved' && r.entryIds.includes(entry.id) && r.evidenceRef)) throw new ContractError('RIGHTS_PROVENANCE_REQUIRED',entry.id);
       if(entry.supersededBy && !intended.some(e=>e.id===entry.supersededBy)) throw new ContractError('UNPUBLISHABLE_CORRECTION',entry.id);
     }
+    if(!admission.currentSourceQualified) throw new ContractError('CURRENT_SOURCE_NOT_QUALIFIED','Reviewed selection must include actual source-bound research');
     if(mode==='release') {
       if (new URL(config.origin).hostname.endsWith('.invalid') || !config.repository) throw new ContractError('PUBLIC_TARGET_REQUIRED','Real target required');
       if (!config.publicAuthorization) throw new ContractError('PUBLIC_AUTHORIZATION_REQUIRED','No publication authorization');
@@ -58,7 +60,7 @@ export function selectPublication(corpus: Corpus, config: SiteConfig, release: R
     entries:entries.map(e=>({ id:e.id,route:e.route,publicationState:e.publicationState,digest:sha256(stableJSON(e)),reviewState:reviewState(corpus,e.id),fingerprint:reviewFingerprint(corpus,e.id) })),
     routes:entries.map(e=>e.route).concat(['/references/','/404.html'],mode==='release'?[]:['/fixtures/math/']),
     navigationIds:discovery.map(e=>e.id), searchIds:discovery.map(e=>e.id), sitemapIds:discovery.map(e=>e.id), feedIds:discovery.filter(e=>e.kind==='article').map(e=>e.id), exportIds:[] as string[], referenceIds };
-  return { entries, references:referenceIds.map(id=>corpus.references.get(id)!), manifest, manifestSha256:sha256(stableJSON(manifest)) };
+  return { admission, entries, references:referenceIds.map(id=>corpus.references.get(id)!), manifest, manifestSha256:sha256(stableJSON(manifest)) };
 }
 export function publicationFor(mode: BuildMode, config: SiteConfig) {
   const corpus = loadCanonicalCorpus();

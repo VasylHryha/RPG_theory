@@ -2,7 +2,7 @@
 
 Use `docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md` Revision 4 as the
 only forward plan and milestone tracker. Read its current execution receipt
-before working, especially §§0.15–0.16. Finish a coherent implementation batch, then run affected checks.
+before working, especially §§0.15–0.17. Finish a coherent implementation batch, then run affected checks.
 Stop implementation at REVIEW_READY; a separately launched review session accepts
 the demonstrated milestone. Do not self-accept or start the next milestone.
 

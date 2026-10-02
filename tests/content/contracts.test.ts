@@ -136,7 +136,7 @@ function outputFixture(run: (directory: string, info: ReturnType<typeof outputIn
 }
 function outputInfo() {
   const config = { ...loadSiteConfig(), basePath: '/unity-theory/' };
-  return { schema: 'unity-build-info/1', mode: 'preview', deployEligible: false, corpusScope: 'private-editorial-preview', currentSourceQualified: false, sourceIntake: publicationFor('preview',config).corpus.admission, config, configSha256: sha256(stableJSON(config)), routes: privateRoutes, syntheticRoutes, publicationManifest:publicationFor('preview',config).manifest, publicationManifestSha256:publicationFor('preview',config).manifestSha256, ...buildInputs() };
+  return { schema: 'unity-build-info/1', mode: 'preview', deployEligible: false, corpusScope: 'private-editorial-preview', currentSourceQualified: false, sourceIntake: publicationFor('preview',config).admission, config, configSha256: sha256(stableJSON(config)), routes: privateRoutes, syntheticRoutes, publicationManifest:publicationFor('preview',config).manifest, publicationManifestSha256:publicationFor('preview',config).manifestSha256, ...buildInputs() };
 }
 test('root-only asset in subpath output reaches BASE_PATH_FAILURE', () => outputFixture((directory) => {
     const path=join(directory,'index.html');
