@@ -1,0 +1,621 @@
+{
+  "status": "PASS",
+  "baselineHead": "2d668a5b6c589b6a0bff16d128d4d1068b4b731a",
+  "productionInputs": {
+    "inputsSha256": "305a3f4403b68ab02f37f50cc2b90f3478b5d780c429170accee3881d7e18550",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "5de4f1c786035e5da80865cc8298bf747c187a87f807669f81c67ee578bacdb9"
+  },
+  "predecessorProductionInputs": {
+    "inputsSha256": "2c9d3a94a5d93f672a281df97399039bc924ca63705dfeb18506a16331048405",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "5de4f1c786035e5da80865cc8298bf747c187a87f807669f81c67ee578bacdb9"
+  },
+  "renderer": "1b1886e3c8ab5105bf9c0667c02105cf5c47721aba15b095cb5ef914d2019805",
+  "representationPolicy": "unchanged",
+  "representations": [
+    {
+      "id": "DOC-STATUS",
+      "fingerprint": "a75e8a538ccbdc9c2b806278156ec2c66bef6bbe1f8e08466ba6dafe22cd015d",
+      "receiptSha256": "d7a918bab1b118ffd2e39987b36132681193689ad2a732095e97b9137d6eaebc",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "DOC-PROOF",
+      "fingerprint": "f041a9ba5c98cb2d0a9b66c7d9f378b5233602098f4d33cd29b80af79bf1b523",
+      "receiptSha256": "75aba12a7c50cc85af367bff3f6de719f57b72006209af8e86f09aeca378dba2",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "DOC-CONCEPT-GEOMETRY",
+      "fingerprint": "923ed8d86780b2c14fc9d44a42bc74f6e2c895c3adaaba08131a05588055b4ff",
+      "receiptSha256": "a5ad704a97a68e499c16ddac879e09083ccd7ba234ed463d5bd665f8629c3558",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-D01",
+      "fingerprint": "a1dc930fa3871a9ab3dd4ffb515d8a5438f69de60a9755937056abc63136e616",
+      "receiptSha256": "4d2363f999798d2161783da0c7e15e1c50d317c4703a53192e0afcd7ab83f46e",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-D02",
+      "fingerprint": "3d64ab03dbce441c5ef06e80a709b271458b735ce198effad2aee014eeaa80b8",
+      "receiptSha256": "e3ff6e54a14e2fe3cc72fecbfa7d832be11376e006a3c8414b77a43d438901af",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-D03",
+      "fingerprint": "62e78b1e8c81997459381130b1cdbb870c50326033dfdd99ac0d59082ecab000",
+      "receiptSha256": "38be4cf2c1e49b438a80c6bd8f96cded70661c74274f80264b590daf64f4ea22",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-D04",
+      "fingerprint": "13d6e8b6ed5df9406ebb2f6477758ba3f252dde632e17eb187ce9e2632512287",
+      "receiptSha256": "a5b4bfd5e6e4559b64684bbab7252081e48b1a99f9f379e98b450bd662e4e199",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-D05",
+      "fingerprint": "b03f713c559676e08c3b35ed0432173f815bdcb5303b88aeb670c9c409653720",
+      "receiptSha256": "ff091b0c099625f829d947c86b14c6db442304b69c650d972693502a307fe16b",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-D06",
+      "fingerprint": "36bafb7527fbc2a4814cc2aba06d8e1264260b9df7b06e4e5ce338df2e032fb9",
+      "receiptSha256": "e6dfcbd7a66b3d568b375472de2279f6c9139e043f60e6e6dde8ebf4805acc5c",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-D07",
+      "fingerprint": "f542650fb53c323d312f5dceef42d34a4807cafbb91b566f1341ba93b1006202",
+      "receiptSha256": "b8b32bd1d259fb4dc6dfe10f9829226450b9609a34963f0b2ca46227c27351f9",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-D08",
+      "fingerprint": "884218454d60101a9900f0b99d3debe36c8b5de04cd40ac26ddf42323c4d4189",
+      "receiptSha256": "c11b687bc0033332fece67a6007a65bebe49af5efaf98b005fc9d579fb61fb02",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-D09",
+      "fingerprint": "53855d25aba258e47ffc2ae0e1508b93a3011389e316aea2db9ef25059840512",
+      "receiptSha256": "d0e23d0554dfa655e8933f275f04ff0b003b9cb44040c2bae6e7d9894661b4f4",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-C01",
+      "fingerprint": "b937950dd88f73452a058b3c20efea22575840cbf77c6de0032677fb05bba2d4",
+      "receiptSha256": "1df4307ba7696b851f48b88e2b9fcd328d9d1de4913b675ffd66c77facb5170b",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-C02",
+      "fingerprint": "94bf6514abd2664d4f7bf532756541160afe94269111594c9405d63c19b7e25b",
+      "receiptSha256": "d7800dd65d6935194d26ba26639050dfa6f120a61fff9dc1a8c24f6993e3bffa",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-O01",
+      "fingerprint": "d40e43c82573a525e6dcdc80aa98ea111e30906d4d9af3522cd7aa93fa324bc6",
+      "receiptSha256": "6317db23009b8484110df66448bc0a8e8016618fd0a2bf71dcd9b64b81bfd30a",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-O02",
+      "fingerprint": "57a807cba4bdbb7f8ad8a1d35da67494e8a6e3033b5f34eaaa41f9ee694d7967",
+      "receiptSha256": "15832811895b5621ad587aea09be0ea3a617ce20f1ac1e6a368249627d4e8aa6",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-O03",
+      "fingerprint": "5539002049ba0c724d78b37e7fe185510396881e8942542b53829f5561772b2c",
+      "receiptSha256": "f0e4e2e87cc6ba6ed474c2588fe40738b3859bf739c49fbb806f16962e65d42f",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-O04",
+      "fingerprint": "2593e208f42adc404ee159b4ac92f74686620fa159921b7d557b9224e83e7001",
+      "receiptSha256": "1c72fe8e641569454d0fc9405ae5d4df077d4d775128450c4f331b20f55d6d58",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-O05",
+      "fingerprint": "b7cc19fd5b76e7fec8308a946532fdf281b6851517e5cdac87b72bbf7bd492a4",
+      "receiptSha256": "b1b2aae19287c1a8f6400fa0f42cecfab081771f71945c9f1bcff5ca33c73bb0",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-O06",
+      "fingerprint": "c02b2d4d523ebaf05cde250a0f8ea663e33b0ca30fde45542a93b6f6883a7e0e",
+      "receiptSha256": "b602d8eb534ebe8e0afa83dea0f747cdb024d3f2e3f1e4c68732e5d9801d7dd8",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E01",
+      "fingerprint": "f1e4fcc95100d1edba6ae6a2bb3b2ff0b0818d8fc98e39c5f0cee81b5fd33762",
+      "receiptSha256": "fd176dfe189c97795032539ba7f65c21ec9b193d3b5adc6c3194e04bc7e1d07b",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E02",
+      "fingerprint": "b4daa30df8b3727485f39bb41eb56de700ec36246a971248cca997a7322709bc",
+      "receiptSha256": "79f4a3d2bf74f118bb6aed9f612efb7a4ebbf99cb5bd63d2703c65ced22be45a",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E03",
+      "fingerprint": "f4f22d385cc7cb44bc5d65a7c3906ded4ed2e7f518796f27745518f21a208ed7",
+      "receiptSha256": "d91631a0821709021ed84f868ecce0092ebc4ac4f4e562f262f5e7c07ed79a7c",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E04",
+      "fingerprint": "e32b9bceccf6a75dac10969944a5cf037060c90de72c7b5578008a1af5565bb5",
+      "receiptSha256": "280f2b6654b1966fe1862bd1a45ca93e7a83f8f051179e5dfdf6f9ecee23598f",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E05",
+      "fingerprint": "ce1efbd1caff1796d90edda33848fff15d9de6a4d2bc1a6aa7633463976c974f",
+      "receiptSha256": "c38eada2762f6b8304f835cbecf14977618a82f4d94f7e58b48f06c4f5125ec7",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E06",
+      "fingerprint": "6db45392f0e68a7058277e18e83a5592828c2d57fa9e5e1b053c3118c06219a7",
+      "receiptSha256": "b4f6bd955b34f32c4f40c0d8f3da9b7aa78a55af548a0438539f70aed880710f",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E07",
+      "fingerprint": "c8d59e2d0c86d75d848ebaab7ea269b74f153746adf33645c83d30f2e52a8f25",
+      "receiptSha256": "d8b20ca2ab71410b5406c72ee19b208b62972028fb0da621ae7e5c31b5342a00",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E08",
+      "fingerprint": "076b5ae75d0281bac3ff88c2743a616046cd6df6100a0c2e3e3a154aac540aa5",
+      "receiptSha256": "3c01f5c8b22829a9e5f6b168d3abdc156e18aaec319f59968a90b3f6a1791be0",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E09",
+      "fingerprint": "beffb5732d426ed23b46e64288d8f897a0f61836f91fca079e7450d78e3d8102",
+      "receiptSha256": "9a93e6a8793fc66292da86e0c1f58617ff8b771cbea67b2c29827281826e6330",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E10",
+      "fingerprint": "4b8fe8ef0716de34bccc21a205ce8d5f8c8101d38f4bc52db71ab506eef5659b",
+      "receiptSha256": "9c1791dd042ed67f96deef2815acace8b5701eef586dbde2734edae9172b6a0e",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E11",
+      "fingerprint": "136cc19f697c9930c3b6e994d82e7d79f3ac02f38bb792e394d92bab1b3dcba7",
+      "receiptSha256": "e6c1a98965c89a6ef70f368a5ce6a16a306338cb7aa122629ca0f8e7f42f04e8",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "UT-E12",
+      "fingerprint": "afc1071d188e84cc63ff986b6628fb4e46548a2a40303dcd18824d35afe1c98c",
+      "receiptSha256": "c954d7f3ed91c105a0f376cc21686a81202cc719b63c6ef2201edb4692fad4a6",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "DOC-HOME",
+      "fingerprint": "836e8f7d30644fd00bde35dd7b70f1cbffe57f8cc0b2a4cebcb1f0d83bc2a482",
+      "receiptSha256": "32d96c04ad15e9351686e4e3346a4cfd6e4a81e093508b06b71bf7536dc48efa",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    },
+    {
+      "id": "DOC-START",
+      "fingerprint": "61f69aa8ee0aa6b30c85c315d3eb2c2721ff67998e08945f6534e226661097d8",
+      "receiptSha256": "6aa9acbc63d16b56d222ad7fedd12f552bb1632d61270d288ff552ca8a182bbb",
+      "detachedInputs": "unchanged",
+      "state": "accepted"
+    }
+  ],
+  "reviewStates": {
+    "accepted": 34,
+    "pending": 0,
+    "stale": 0,
+    "rejected": 0
+  },
+  "currentSourceQualified": true,
+  "contracts": 82,
+  "newGroupedControls": {
+    "groups": 2,
+    "negative": 17,
+    "positive": 7
+  },
+  "commands": 11,
+  "chromium": 14,
+  "artifacts": [
+    {
+      "directory": "dist/m1-audit-normalization-recheck/preview-root",
+      "artifactSha256": "8260bd3f812c6e74bd67d6b176af6da667b39a5b976a2af6d8269b78b6cdfd15",
+      "files": 101,
+      "html": 37,
+      "chromium": 7,
+      "nonBuildInfoBytes": "all 100 unchanged"
+    },
+    {
+      "directory": "dist/m1-audit-normalization-recheck/preview-subpath",
+      "artifactSha256": "a9dd28ce1b0636ddb7ed955b6a117f882e2add0d3c9ac07cf7962399bb6667bd",
+      "files": 101,
+      "html": 37,
+      "chromium": 7,
+      "nonBuildInfoBytes": "all 100 unchanged"
+    }
+  ],
+  "retained": [
+    {
+      "directory": "dist/m1-qf1011-separate-review/preview-root",
+      "artifactSha256": "36dbc3a970a68bffbc1d9aa08d11641b764c672db6d574ce2b41185439dd7446",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-qf1011-separate-review/preview-subpath",
+      "artifactSha256": "908edc05d9bbb17b9e93a2b3f597ad441d369ca16d942848da807d69be9d0aae",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-separate-requalification-review/preview-root",
+      "artifactSha256": "39eb4a392a31fb410cb48756fe251e2f2cb0bfa754fa5d27748c4bf4d155d65d",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-separate-requalification-review/preview-subpath",
+      "artifactSha256": "7714a70108d4cdb7e7027d419c5a2968d6e7d263f595e1ff0e63137414cb91ee",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-quality-recheck/preview-root",
+      "artifactSha256": "dddf250be6a24eb43825726a98750b3260ee7b994f5cf622cee9f73a61ad32bd",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-quality-recheck/preview-subpath",
+      "artifactSha256": "7bde8aa7ea8e8bb36756ab874c4968bc4d8f96bf4ceecf0ec4fc4f6219aef0e5",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-acceptance/preview-root",
+      "artifactSha256": "9259b076f4798ef09c1d4964d84e3bef7e5234c071630ffe552b6166469725e9",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-acceptance/preview-subpath",
+      "artifactSha256": "cae77e07d3dca3bf87f463638e86e67c1e96f9caae5faab35ae3377e2e5513af",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck-final/preview-root",
+      "artifactSha256": "03e842021cb7a6d464f7786d530e6e279d91cd7f05e64cdc6d0ea36419f42a04",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck-final/preview-subpath",
+      "artifactSha256": "f411fc7021582a051f421cc395168e33e320af70ca97a433b9bacce121d159bc",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-remaining-review-quality/preview-root",
+      "artifactSha256": "18f3748b4c823656776ca1bea9dad385309680def93a9d7afad355439ab229de",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-remaining-review-quality/preview-subpath",
+      "artifactSha256": "b8169d960c1ca638ecde209385b13f77c1c58b31f10e04d8c2dbc94517bf5773",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity/preview-root",
+      "artifactSha256": "2cc7334b0764e63db6ed02a5030a61306a963aaff3f76669a0c026cb53022f6c",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity/preview-subpath",
+      "artifactSha256": "57b74bbe8afc4b77e194f684fa18dafee493e37b2bfd6e70be2b5392d142c9e9",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck/preview-root",
+      "artifactSha256": "1ce9b036059827037257efd846b709ade54d84152fc1173bd26da5b552f12cf4",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck/preview-subpath",
+      "artifactSha256": "2eb900ba567351ffed14a573ea1b06a5b2474479f36a5a9c1e53001f7421ffcf",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-acceptance-quality-recheck/preview-root",
+      "artifactSha256": "e4923b7306289c7069b0f2fdb3568fa36074d406aa7aca1c90fab2b1ef34ea7c",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-acceptance-quality-recheck/preview-subpath",
+      "artifactSha256": "95b2fafd155204837b72b12349f68f422609108e354c8943352b61f927e71703",
+      "unchanged": true
+    }
+  ],
+  "probes": [
+    {
+      "base": "/",
+      "name": "false-social-description",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "CONTENT_METADATA_PARITY_FAILURE"
+    },
+    {
+      "base": "/",
+      "name": "false-visible-description",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "CONTENT_METADATA_PARITY_FAILURE"
+    },
+    {
+      "base": "/",
+      "name": "remote-srcset",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/",
+      "name": "remote-media",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/",
+      "name": "remote-style-import",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_CSS"
+    },
+    {
+      "base": "/",
+      "name": "remote-inline-style",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/",
+      "name": "unsafe-refresh",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "ACTIVE_OUTPUT"
+    },
+    {
+      "base": "/",
+      "name": "inline-svg-filter",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/",
+      "name": "inline-svg-cursor",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/",
+      "name": "inline-svg-fill",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/",
+      "name": "standalone-svg-filter",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/",
+      "name": "svg-stylesheet-pi",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_SVG"
+    },
+    {
+      "base": "/",
+      "name": "forged-font-comments",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/",
+      "name": "quoted-url-comments",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "BROKEN_OUTPUT_LINK"
+    },
+    {
+      "base": "/",
+      "name": "escaped-quote-url",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "BROKEN_OUTPUT_LINK"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "false-social-description",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "CONTENT_METADATA_PARITY_FAILURE"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "false-visible-description",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "CONTENT_METADATA_PARITY_FAILURE"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "remote-srcset",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "remote-media",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "remote-style-import",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_CSS"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "remote-inline-style",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "unsafe-refresh",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "ACTIVE_OUTPUT"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "inline-svg-filter",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "inline-svg-cursor",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "inline-svg-fill",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "standalone-svg-filter",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "svg-stylesheet-pi",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_SVG"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "forged-font-comments",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "quoted-url-comments",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "BROKEN_OUTPUT_LINK"
+    },
+    {
+      "base": "/unity-theory/",
+      "name": "escaped-quote-url",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "BROKEN_OUTPUT_LINK"
+    }
+  ],
+  "refusals": [
+    {
+      "mode": "qualification",
+      "exitCode": 1,
+      "reason": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "publishedSelection": "empty",
+      "outputCreated": false
+    },
+    {
+      "mode": "release",
+      "exitCode": 1,
+      "reason": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "publishedSelection": "empty",
+      "outputCreated": false
+    }
+  ],
+  "newFidelityDecisions": "NONE",
+  "repairs": "QF-13 CSS token semantics and QF-14 SVG processing instructions: REVIEW_READY, unaccepted",
+  "predecessorRepair": "QF-12 still unaccepted",
+  "m1": "REVIEW_READY",
+  "m2": "NOT_STARTED",
+  "historicalScientificAccounting": {
+    "accepted": 19,
+    "pending": 15
+  },
+  "scientificAdjudication": "DEFERRED",
+  "publicActions": "NOT_RUN",
+  "grade": "NOT_ASSIGNED"
+}

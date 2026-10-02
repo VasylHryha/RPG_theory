@@ -12,7 +12,6 @@ import { sha256, stableJSON } from '../src/lib/identity.js';
 import { ContractError } from '../src/lib/errors.js';
 import { buildInputs, syntheticRoutes } from '../src/lib/build-identity.js';
 import { buildMode } from '../src/lib/site-config.js';
-import { cssResourceURLs } from './css-resources.js';
 
 function normalizedHTML(html: string) {
   const $=load(html,null,false);
@@ -63,16 +62,24 @@ export function auditOutput(directory: string) {
     return target;
   }
   function auditCSS(raw: string, from: string) {
-    // Token boundaries and string bytes must survive normalization: stripping
-    // comments from a quoted URL can turn forged data into a trusted font.
-    for(const value of cssResourceURLs(raw,from)) {
+    // The private static slice emits ordinary declarations, local font URLs and
+    // KaTeX inline dimensions. Normalize CSS spelling before inspecting loads;
+    // unsupported loading forms fail closed instead of evading a url() regex.
+    const css=raw.replace(/\/\*[\s\S]*?\*\//g,'').replace(/\\\r?\n/g,'')
+      .replace(/\\(?:([\da-f]{1,6})(?:\r\n|[\t\n\f\r ])?|([^\r\n\f]))/gi,(_all,hex,character)=>hex?String.fromCodePoint(Math.min(parseInt(hex,16),0x10ffff)):character);
+    if(/@import\b|(?:-webkit-)?image-set\s*\(|\bimage\s*\(|\bexpression\s*\(|\/\*|\\/i.test(css)) throw new ContractError('UNSAFE_OUTPUT_CSS',from);
+    const urls=/\burl\s*\(\s*(?:"([^"]*)"|'([^']*)'|([^\s)'"\\]*))\s*\)/gi;
+    const consumed=css.replace(urls,(_all,double,single,bare)=>{
+      const value=double??single??bare;
       // Astro embeds small KaTeX fonts. Admit only exact installed dependency
       // bytes, never arbitrary data URLs or active SVG/HTML payloads.
       if(value.startsWith('data:')) {
         const font=value.match(/^data:font\/woff2;base64,([A-Za-z0-9+/]+={0,2})$/);
         if(!font || !packagedFonts.has(font[1])) throw new ContractError('UNSAFE_OUTPUT_URL',value);
       } else targetOf(value,from,true);
-    }
+      return '';
+    });
+    if(/\burl\s*\(/i.test(consumed)) throw new ContractError('UNSAFE_OUTPUT_CSS',from);
   }
   const fontRoot=join(dirname(createRequire(import.meta.url).resolve('katex/package.json')),'dist/fonts');
   const packagedFonts=new Set(filesIn(fontRoot).filter(path=>path.endsWith('.woff2')).map(path=>readFileSync(join(fontRoot,path)).toString('base64')));
@@ -89,7 +96,7 @@ export function auditOutput(directory: string) {
     const raw = readFileSync(join(root, file), 'utf8');
     const $ = load(raw, { xmlMode: true });
     const tags = new Set(['svg', 'g', 'path', 'circle', 'ellipse', 'rect', 'line', 'polyline', 'polygon', 'title', 'desc']);
-    if (/<!DOCTYPE|<\?(?!xml\s)/i.test(raw) || $('svg').length !== 1 || $('*').toArray().some(el => 'attribs' in el && (!tags.has(el.name) || Object.keys(el.attribs).some(key => /^(?:on|href$|xlink:href$|style$|xml:base$)/i.test(key))))) throw new ContractError('UNSAFE_SVG', file);
+    if (/<!DOCTYPE/i.test(raw) || $('svg').length !== 1 || $('*').toArray().some(el => 'attribs' in el && (!tags.has(el.name) || Object.keys(el.attribs).some(key => /^(?:on|href$|xlink:href$|style$|xml:base$)/i.test(key))))) throw new ContractError('UNSAFE_SVG', file);
     auditSVGStyles($,withBase('/'+file,info.config.basePath));
   }
   for (const file of files.filter(f => f.endsWith('.html'))) {

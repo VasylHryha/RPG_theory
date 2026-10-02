@@ -1,0 +1,36 @@
+{
+  "directory": "dist/m1-qf1011-separate-review/preview-root",
+  "results": [
+    {
+      "name": "svg-stylesheet-pi",
+      "file": "favicon.svg",
+      "untouchedCopy": "PASS",
+      "outcome": "ADMITTED"
+    },
+    {
+      "name": "forged-font-comments",
+      "file": "_astro/control.css",
+      "untouchedCopy": "PASS",
+      "outcome": "ADMITTED"
+    },
+    {
+      "name": "quoted-url-comments",
+      "file": "_astro/control.css",
+      "untouchedCopy": "PASS",
+      "outcome": "ADMITTED"
+    },
+    {
+      "name": "escaped-quote-url",
+      "file": "_astro/control.css",
+      "untouchedCopy": "PASS",
+      "outcome": "ADMITTED"
+    },
+    {
+      "name": "inert-css-string",
+      "file": "_astro/control.css",
+      "untouchedCopy": "PASS",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    }
+  ]
+}
