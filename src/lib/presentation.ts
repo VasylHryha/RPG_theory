@@ -1,5 +1,6 @@
 import type { Entry, Reference } from './content-schema.js';
-import { reviewState, type Corpus } from './content.js';
+import { type Corpus } from './content.js';
+import { websiteReviewState as reviewState } from './website-review.js';
 import { renderMarkdownSync } from './markdown.js';
 import { withBase } from './urls.js';
 import { sourceDisplay } from './source-display.js';
@@ -8,13 +9,13 @@ import { ContractError } from './errors.js';
 
 export function escapeHTML(value: string) { return value.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!)); }
 const roles: Record<string,string> = { definition:'Definition',assumption:'Assumption',conjecture:'Conjecture',evidence:'Evidence',derivation:'Restricted result',prediction:'Prediction',falsification:'Failure test','open-problem':'Open question' };
-const evidence: Record<string,string> = { 'not-applicable':'No empirical status assigned','external-supported':'External support within the stated scope','project-reported':'Source-reported evidence; independent qualification pending','project-reproduced':'Reproduced restricted calculation',proposed:'Unproved extension or open research',contested:'Contested evidence' };
+const evidence: Record<string,string> = { 'not-applicable':'No empirical status assigned','external-supported':'External support within the stated scope','project-reported':'Evidence reported by the supplied documents','project-reproduced':'Reproduced restricted calculation',proposed:'Unproved extension or open research',contested:'Contested evidence' };
 export function reviewLabel(corpus: Corpus,id: string) {
-  return {accepted:'Accepted for this exact content',pending:'Pending',stale:'Stale — rereview required',rejected:'Rejected — revision required'}[reviewState(corpus,id)];
+  return {accepted:'Faithful to the supplied documents',pending:'Pending',stale:'Stale — rereview required',rejected:'Rejected — revision required'}[reviewState(corpus,id)];
 }
 export function renderEditorialState(corpus: Corpus,entry: Entry) {
   const publication=entry.publicationState==='draft'?'Draft · private preview':entry.publicationState;
-  return `Publication: ${escapeHTML(publication)}. Content review: ${escapeHTML(reviewLabel(corpus,entry.id))}.`;
+  return `Publication: ${escapeHTML(publication)}. Source fidelity: ${escapeHTML(reviewLabel(corpus,entry.id))}.`;
 }
 export function renderHomeHeading(title: string) {
   const words=title.trim().split(/\s+/);
@@ -22,7 +23,7 @@ export function renderHomeHeading(title: string) {
   return `${words.slice(0,4).map(escapeHTML).join(' ')}<br class="desktop-break" /> ${words.slice(4,-1).map(escapeHTML).join(' ')} <em>${escapeHTML(words.at(-1)!)}</em>`;
 }
 export function renderStatus(corpus: Corpus,entry: Entry) {
-  const pairs=[['Scientific role',roles[entry.kind] ?? 'Research document'],['Evidence',evidence[entry.evidenceState]],['Content review',reviewLabel(corpus,entry.id)],['Publication',entry.publicationState==='draft'?'Draft · private preview':entry.publicationState]];
+  const pairs=[['Scientific role',roles[entry.kind] ?? 'Research document'],['Evidence',evidence[entry.evidenceState]],['Source fidelity',reviewLabel(corpus,entry.id)],['Publication',entry.publicationState==='draft'?'Draft · private preview':entry.publicationState]];
   return `<dl class="record-status">${pairs.map(([label,value])=>`<div><dt>${label}</dt><dd>${escapeHTML(value)}</dd></div>`).join('')}</dl>`;
 }
 function link(route: string,label: string,base: string) { return `<a href="${escapeHTML(withBase(route,base))}">${escapeHTML(label)}</a>`; }
@@ -31,7 +32,7 @@ export function renderRecordDetails(corpus: Corpus,entry: Entry,base='/') {
   let html='';
   if(entry.contentOrigin==='proposed') html+=`<aside class="prose"><h2>Proposal · not adopted into the current theory</h2><p>${escapeHTML(entry.proposalProvenance ?? '')}</p></aside>`;
   if(entry.publicationState==='superseded') html+=`<aside class="prose"><h2>Historical record · corrected</h2><p>Change record: ${escapeHTML(entry.correctionRef ?? '')}</p>${link(corpus.entries.get(entry.supersededBy!)!.route,`Read replacement ${entry.supersededBy}`,base)}</aside>`;
-  if(entry.plainLanguage) html+=`<section class="prose"><h2>In plain language</h2><p class="reading-note">Content review: ${escapeHTML(reviewLabel(corpus,entry.id))}</p>${renderMarkdownSync(entry.plainLanguage,base,corpus)}</section>`;
+  if(entry.plainLanguage) html+=`<section class="prose"><h2>In plain language</h2><p class="reading-note">Source fidelity: ${escapeHTML(reviewLabel(corpus,entry.id))}</p>${renderMarkdownSync(entry.plainLanguage,base,corpus)}</section>`;
   html+=`<section class="prose"><h2>Scope and sources</h2><p>${escapeHTML(entry.scope)}</p>`;
   if(entry.limits && entry.limits!==entry.scope) html+=`<p>${escapeHTML(entry.limits)}</p>`;
   if(entry.sourceMapping) html+=`<p>${escapeHTML(entry.sourceMapping)}</p>`;

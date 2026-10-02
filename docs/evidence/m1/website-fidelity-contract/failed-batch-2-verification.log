@@ -1,0 +1,144 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m1-website-fidelity --evidence-dir docs/evidence/m1/website-fidelity-contract
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+11:27:34 [vite] Re-optimizing dependencies because vite config has changed
+11:27:35 [content] Syncing content
+11:27:35 [content] Synced content
+11:27:35 [types] Generated 1.23s
+11:27:35 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+Result (49 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+Running npm run check:sources -- --scope history
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope history
+
+{"status":"PASS","historicalFiles":14,"noticeTranscriptions":2,"authorityNoticeOnly":true}
+
+Running npm run check:sources -- --scope current
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope current
+
+{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"qualificationBasis":"website-source-fidelity/1","files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01","sourceBoundEntries":31,"websiteFidelity":"pending","scientificCertification":"out-of-scope"}
+
+Running npm run check:content
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts
+
+{"schema":"unity-content-check/1","status":"PASS","date":"2026-10-02T08:27:43.832Z","admission":{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"qualificationBasis":"website-source-fidelity/1","files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01"},"entries":34,"affected":[],"reviewPurpose":"website-source-fidelity/1","scientificCertification":"out-of-scope","acceptedReviews":0,"historicalScientificReviews":19}
+
+Running npm run test:content
+
+> unity-theory@0.0.1 test:content
+> tsx --test tests/content/*.test.ts
+
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (0.752458ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (1.883084ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (1.143417ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (1.690709ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (1.643459ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (1.592958ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (0.981ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (2.823334ms)
+✔ silent edition-pin reset still fails (1.672875ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (1.821333ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.241291ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.269958ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (2128.963625ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (2471.878625ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (4029.713792ms)
+✔ artifact audit rejects false source identity and active SVG files (1763.980083ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (3.661834ms)
+✔ Markdown reference links/images share safety and base handling (2.479625ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (1.667917ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (156.837ms)
+✔ output audit rejects changed source-bound display, manifest substitutions and draft sentinels (1480.836ms)
+✔ output audit binds bibliography text, destinations, support limits, status, projection and navigation (3382.969125ms)
+✔ output audit rejects multiply encoded local traversal (709.549959ms)
+✔ document metadata comparison scopes the title to the head, preserving accessible SVG titles (667.0045ms)
+✔ each additional-evidence mapping declares every core clause named by its actual excerpt (465.52675ms)
+✔ the actual start explanation tracks emergent evidence, its support metadata and current status (341.515416ms)
+✔ background-extension changes invalidate the actual E12 interpretation and its consumers (249.154792ms)
+✔ review fingerprints track real URL, selection, style and pinned rendering dependency inputs (1246.991333ms)
+✔ historical representation decisions do not populate website fidelity or qualify the source (1.041542ms)
+✔ independent statement, bad binding range/hash, wrong record kind, duplicates and unknown sources fail (152.723458ms)
+✔ source-scoped aliases keep historical S01 local; duplicates and unresolved aliases fail (48.991917ms)
+✔ source URL aliases preserve case-sensitive paths while DOI identity remains case insensitive (195.639833ms)
+✔ non-DOI citation identity preserves added or removed trailing path separators (262.356584ms)
+✔ missing or cyclic semantic dependency fails; related feedback does not create proof cycles (281.079041ms)
+✔ authority notes cannot supply scientific excerpts; invalid states and real dates fail (75.33925ms)
+✔ safe directives render actual canonical explanations, extract dependencies and reject executable/unknown syntax (4.2575ms)
+✔ dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local (135.488083ms)
+✔ changing a relevant source verification scope or relevant citation stales its review (208.916375ms)
+✔ shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights (515.668209ms)
+✔ one manifest excludes drafts from every production surface and rejects published draft dependencies (135.279917ms)
+✔ withdrawn history is explicitly selected as a tombstone; former body is removed (128.752959ms)
+✔ source display adapters preserve raw bindings while rendering status/math/table consumers (232.538292ms)
+✔ source revision transaction refuses missing prior-byte preservation and incomplete core proof gate (326.858ms)
+✔ actual supplied 07 and 08 cannot disappear behind a matching core (15.534417ms)
+✔ a missing or mismatched actual local citation alias fails the source adapter (45.127708ms)
+✔ project reproduction cannot be asserted with an invented execution receipt (15.628958ms)
+✔ Markdown directive export uses ordinary links and leaves code examples untouched (1.68225ms)
+✔ statement directives are order-independent; nested references and cycles reach the shared graph (244.745458ms)
+✔ scientific identities cannot bypass proposal provenance or masquerade as documents (36.707792ms)
+✔ retained historical excerpts remain historical; supersession is reciprocal and draft history stays out of discovery (302.113917ms)
+✔ review rejection is distinct from pending; alternate citation review binds its primary metadata (54.609042ms)
+✔ source, bibliography, execution and renderer identity changes report or stale their actual dependants (40.324084ms)
+✔ actual status, proof and home summaries depend on their core definitions and emergent evidence (332.478125ms)
+✔ withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions (92.9205ms)
+✔ bibliographic verification cannot retain a checked label after metadata substitution (108.131708ms)
+✔ release rejects future updates and reviews independently of the publication date (160.660334ms)
+✔ qualification uses reviewed production selection; a preview cannot be relabelled qualification (102.95075ms)
+✔ Markdown export validates safety, expands nested references and leaves math samples intact (77.134625ms)
+✔ directives cannot create nested anchors in link labels or Markdown exports (0.835791ms)
+✔ proposals display non-adoption and cannot supersede source-authoritative records (103.562041ms)
+✔ revision impact retains predecessor dependants when the next graph removes an edge (248.995333ms)
+✔ real home/start emit withdrawal tombstones through the shared consumer and output auditor (14364.168667ms)
+✔ real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals (8068.688375ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 04_status_and_blockers.md (5199.594ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md (4142.4545ms)
+✔ intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate (449.018292ms)
+✖ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (362.087792ms)
+✔ bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision (340.136584ms)
+✔ complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it (259.757083ms)
+ℹ tests 69
+ℹ suites 0
+ℹ pass 68
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18761.938834
+
+✖ failing tests:
+
+test at tests/content/website-fidelity.test.ts:24:1
+✖ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (362.087792ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/website-fidelity.test.ts:38:117)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /WEBSITE_REVIEW_EVIDENCE_REQUIRED/,
+    operator: 'throws',
+    diff: 'simple'
+  }

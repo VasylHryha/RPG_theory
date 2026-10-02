@@ -30,11 +30,11 @@ npm run serve -- --output dist/preview-root --port 4321
 ```
 
 Build modes are `preview`, `qualification`, and `release`. Preview may expose drafts
-privately. Qualification requires the same reviewed scientific selection as release,
+privately. Qualification requires the same source-fidelity-reviewed selection as release,
 but may use a reserved fixture origin and remains **non-deployable**. The actual
-current corpus has pending reviews and refuses qualification/release. The full
+current corpus has pending website fidelity reviews and refuses qualification/release. The full
 public release pipeline is still unavailable. `npm run verify` runs private preview
-engineering checks at both base paths; it grants no scientific acceptance.
+engineering checks at both base paths; it grants no content acceptance or scientific certification.
 
 The owner-supplied `RRG_CURRENT.zip` is preserved at the root. Its sole operative
 extracted copy is `research/RRG_CURRENT/`. The intake record includes raw file
@@ -75,7 +75,7 @@ record and preserving prior bytes rather than silently resetting pins.
 
 M1 mode correction: `npm run verify` exercises the private **preview** slice at both
 base paths. `qualification` now requires a qualified actual current corpus, exact
-accepted reviews, published dependency closure, dates and scoped rights; it cannot
+accepted website fidelity reviews, published dependency closure, dates and scoped rights; it cannot
 expose drafts through a renamed preview. The current pending corpus refuses that
 mode. All local artifacts remain non-deployable. Read the latest execution record
 in the sole Revision 4 plan before continuing.
@@ -87,3 +87,17 @@ then run `npm run check:source-revision -- --prior-root <preserved-edition-root>
 the change-control fields and priorSnapshot path/hash pairs; the checker reads those
 raw predecessor bytes and verifies the change ID in the current source-owned change
 record. It reports affected fingerprints with review pending and grants no approval.
+
+Website fidelity reviews use `research/publication/website-reviews.yaml` and
+`src/lib/website-review.ts`. Each independent decision links a hashed JSON receipt
+under `docs/evidence/`, records its actual source reads, complete entry, dependencies,
+rendered bodies at both bases, and comparisons of terminology, meaning, assumptions,
+hypotheses, evidence descriptions, open questions, attribution and mappings.
+`check:content` reports requests only; it never writes approval.
+
+`qualifyCurrentSource()` verifies intake bytes and always leaves content qualification
+false. `loadCanonicalCorpus()` derives website qualification from the complete current
+entry inventory and exact accepted website decisions. The legacy intake `contentReview`
+field and preserved nineteen-entry `reviews.yaml` scientific registry cannot grant it.
+Scientific findings and paper readouts remain in their existing evidence directories
+for owner review after website completion. No scientific source is revised in this lane.

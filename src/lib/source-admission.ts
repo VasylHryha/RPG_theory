@@ -23,6 +23,7 @@ export interface AdmissionRecord {
   revision: null | { category: string; predecessor: string; problem: string; before: string; after: string; rationale: string; permissionBasis: string; dependentReviewHashes: string[] };
   inspection: { outcome: 'accepted' | 'pending'; inspectedFiles: string[]; evidenceRef: string };
   bindings: SourceBinding[];
+  /** Legacy scientific intake metadata, preserved for provenance; never grants website qualification. */
   contentReview: 'pending' | 'accepted';
 }
 
@@ -110,7 +111,9 @@ export function qualifyCurrentSource(record: AdmissionRecord | null, root = proc
     availability: 'AVAILABLE_BYTES_VERIFIED' as const,
     bytesVerified: true,
     corpusScope: record.corpusScope,
-    currentSourceQualified: record.corpusScope === 'current' && record.contentReview === 'accepted' && record.bindings.length > 0,
+    // Intake verifies bytes only. Website qualification is derived by the corpus owner.
+    currentSourceQualified: false,
+    qualificationBasis: 'website-source-fidelity/1' as const,
     files: record.files.length,
     coreSha256: actualCore,
     inventorySeal: record.inventorySeal,

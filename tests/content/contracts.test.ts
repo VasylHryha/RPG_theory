@@ -6,7 +6,7 @@ import { mkdtempSync, mkdirSync, writeFileSync, rmSync, readFileSync } from 'nod
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { qualifyCurrentSource, validateBinding, verifyIdentities, sourceState, type AdmissionRecord } from '../../src/lib/source-admission.js';
+import { qualifyCurrentSource, validateBinding, verifyIdentities, type AdmissionRecord } from '../../src/lib/source-admission.js';
 import { sha256, stableJSON } from '../../src/lib/identity.js';
 import { assertUniqueRoutes, withBase } from '../../src/lib/urls.js';
 import { assertBuildAllowed } from '../../src/lib/publication.js';
@@ -136,7 +136,7 @@ function outputFixture(run: (directory: string, info: ReturnType<typeof outputIn
 }
 function outputInfo() {
   const config = { ...loadSiteConfig(), basePath: '/unity-theory/' };
-  return { schema: 'unity-build-info/1', mode: 'preview', deployEligible: false, corpusScope: 'private-editorial-preview', currentSourceQualified: false, sourceIntake: sourceState(), config, configSha256: sha256(stableJSON(config)), routes: privateRoutes, syntheticRoutes, publicationManifest:publicationFor('preview',config).manifest, publicationManifestSha256:publicationFor('preview',config).manifestSha256, ...buildInputs() };
+  return { schema: 'unity-build-info/1', mode: 'preview', deployEligible: false, corpusScope: 'private-editorial-preview', currentSourceQualified: false, sourceIntake: publicationFor('preview',config).corpus.admission, config, configSha256: sha256(stableJSON(config)), routes: privateRoutes, syntheticRoutes, publicationManifest:publicationFor('preview',config).manifest, publicationManifestSha256:publicationFor('preview',config).manifestSha256, ...buildInputs() };
 }
 test('root-only asset in subpath output reaches BASE_PATH_FAILURE', () => outputFixture((directory) => {
     const path=join(directory,'index.html');
@@ -227,12 +227,12 @@ test('output audit binds bibliography text, destinations, support limits, status
   for(const [file,from,to,code] of [
     ['references/index.html','https://doi.org/10.1038/s41467-019-13746-6','https://example.org/wrong-paper','BIBLIOGRAPHY_PARITY_FAILURE'],
     ['references/index.html','Formation of optical supramolecular structures','Fabricated paper title','BIBLIOGRAPHY_PARITY_FAILURE'],
-    ['references/index.html','Scientific support review remains pending.','Scientific support accepted.','BIBLIOGRAPHY_PARITY_FAILURE'],
+    ['references/index.html','Supplementary reference reported by the supplied documents.','Scientific support accepted.','BIBLIOGRAPHY_PARITY_FAILURE'],
     ['claims/UT-E01/index.html','<dd>Pending</dd>','<dd>Accepted</dd>','CONTENT_METADATA_PARITY_FAILURE'],
     ['index.html','Whether the four known fundamental interactions','All four fundamental interactions have been proved','CONTENT_PARITY_FAILURE'],
     ['index.html','How does a collection become a whole?</h1>','All interactions proved.</h1>','CONTENT_METADATA_PARITY_FAILURE'],
     ['start/index.html','Publication: Draft · private preview.','Publication: published.','CONTENT_METADATA_PARITY_FAILURE'],
-    ['start/index.html','Content review: Pending.','Content review: Accepted.','CONTENT_METADATA_PARITY_FAILURE'],
+    ['start/index.html','Source fidelity: Pending.','Source fidelity: Accepted.','CONTENT_METADATA_PARITY_FAILURE'],
     ['index.html','Research status</a>','All science accepted</a>','NAVIGATION_PARITY_FAILURE'],
   ]) {
     const path=join(directory,file),original=readFileSync(path,'utf8');assert.ok(original.includes(from),from);

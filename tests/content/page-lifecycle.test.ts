@@ -28,7 +28,7 @@ test('real home/start emit withdrawal tombstones through the shared consumer and
   for(const [file,id,name] of [['index.html','DOC-HOME','home'],['start/index.html','DOC-START','start']]) {
    const $=load(readFileSync(join(root,'dist/published-control',file),'utf8'));
    assert.equal($('h1').text().replace(/\s+/g,' ').trim(),`Synthetic ${name} heading & exact <metadata>`);
-   assert.equal($(`[data-editorial-state="${id}"]`).text(),'Publication: published. Content review: Pending.');
+   assert.equal($(`[data-editorial-state="${id}"]`).text(),'Publication: published. Source fidelity: Pending.');
   }
   const publishedInfo=JSON.parse(readFileSync(join(root,'dist/published-control/build-info.json'),'utf8'));assert.equal(publishedInfo.currentSourceQualified,false);assert.equal(publishedInfo.deployEligible,false);
   for(const id of ['home','start']) {

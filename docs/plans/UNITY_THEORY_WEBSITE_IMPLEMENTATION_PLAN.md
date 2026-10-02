@@ -10,7 +10,7 @@ execution_model: "User-selected Codex 6.1 Sol High implementer; separate fresh H
 repository: "Local Git implementation: /Users/new/RiderProjects/RPG_theory; main branch; no remote configured"
 replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
 planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
-source_baseline: "Actual owner-supplied RRG_CURRENT installed locally on 2026-10-01; current scientific content qualification remains pending"
+source_baseline: "Actual owner-supplied RRG_CURRENT installed locally on 2026-10-01; website source-fidelity qualification remains pending"
 publication: "Local implementation first; named and authorized public repository / Pages release later"
 ---
 
@@ -32,24 +32,24 @@ This is the sole execution plan for the website, research-document publication, 
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | **M1 / REVIEW_READY**; predecessor private engineering/fidelity ACCEPTED (§0.10); 19 bounded representations ACCEPTED (§0.14: prior 18 plus unchanged E05); 15 exact reviews and full scientific qualification pending; new ENG-03/test/evidence changes REVIEW_READY; M0 engineering ACCEPTED |
+| Current milestone / state | **M1 / REVIEW_READY**; predecessor engineering/fidelity and unchanged ENG-03 engineering ACCEPTED (§0.16); new website fidelity contract REVIEW_READY; website decisions 0/34, currentSourceQualified=false; historical scientific registry remains 19 accepted / 15 pending; M0 engineering ACCEPTED |
 | Website repository / implementation | One-root local Astro implementation in `/Users/new/RiderProjects/RPG_theory`; local Git on main initialized by owner request (§0.11); original Rider files preserved; no remote/public target |
-| Last engineering acceptance | Separate independent remaining M1 review, 2 October 2026, §0.13: unchanged ENG-01/02 and RR-02/03 engineering/evidence repairs accepted within their demonstrated scope; predecessor private engineering/fidelity §0.10 remains accepted |
-| Changed here | Owner scope clarification and prior-session audit (§0.15): build the website faithfully from the original downloaded documents; related papers are supplementary. Preserve prior review work and correct its forward handoff; local commit explicitly requested; no scientific source edits |
+| Last engineering acceptance | §0.16 independently accepts unchanged ENG-03 metadata/regression/output and registry/evidence integrity only. Earlier §§0.10/0.13 acceptances retain their demonstrated scope. New contract repairs are unaccepted |
+| Changed here | §0.16 explicitly reconciles active instructions, website review contracts, production callers, tests and plan with §0.15. No scientific authoring or new scientific approval |
 | Declared active scientific authority | **RRG_CURRENT**, identified by the shared current-package note [P-CURRENT-NOTE] |
 | Actual current package | **AVAILABLE_CURRENT_BYTES** in local execution on 1 October 2026; owner-supplied ZIP unpacked into `research/RRG_CURRENT/` |
 | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; shared validator checks the declared pin |
 | Available historical research | Fourteen unchanged v0.1b / v0.2-audit files, preserved as history only |
 | Numerical reproduction | R2 receipts preserved as historical evidence; **NOT_RERUN** in this alignment |
-| Website/browser/a11y/live evidence | §0.14 changes inputs, so §0.13 artifacts/results remain historical at their exact identities. Fresh reached verification/both-base previews and controls use docs/evidence/m1/remaining-scientific-review/quality-recheck/ and dist/m1-remaining-review-quality/; actual status belongs to their machine receipts; assistive technology/human study/live hosting NOT_RUN |
+| Website/browser/a11y/live evidence | Fresh §0.16 checks: docs/evidence/m1/website-fidelity-contract/ and dist/m1-website-fidelity/. Prior artifacts remain historical and intact; assistive technology/human study/live hosting NOT_RUN |
 | Shared-source mutation | No scientific source bytes changed in this pass. Current-source changes are allowed when justified under §0.3; historical snapshots remain unchanged |
 | External publication authority | No public repository creation, push, visibility change, Pages/DNS action, license grant or purchase performed |
-| Next action | Follow §0.15: finish M1 website engineering/source-to-display fidelity review using the original documents as authority, then complete the planned website milestones. Keep scientific findings aside for separate owner-directed review after the website is complete. Reconcile existing qualification/review wording with this scope without fabricating scientific approval. New repairs require separate engineering acceptance before M2 |
+| Next action | Separate review of §0.16 website fidelity contract repairs and all 34 actual representations against supplied documents. Record only independently read website decisions. Accept required M1 scope before M2; defer scientific findings until after website completion |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
 | M0 | Static foundation, source-preserving intake, explicit missing-source behavior, private reading slice, root/subpath proof | Local tools + this handoff | ACCEPTED — demonstrated engineering only, separate review §0.5 |
-| M1 | Current-source-bound records, document adapters, source registry and publication guards used by actual pages | M0 + qualified RRG_CURRENT for real-content acceptance | REVIEW_READY — predecessor engineering/fidelity ACCEPTED (§0.10); unchanged prior repairs ACCEPTED (§0.13); 19 bounded representations ACCEPTED (§0.14); 11 evidence + 4 document exact reviews pending; new ENG-03/test/evidence batch awaits separate acceptance; full qualification pending; currentSourceQualified false |
+| M1 | Current-source-bound records, document adapters, source registry and publication guards used by actual pages | M0 + byte-admitted RRG_CURRENT and exact website source-fidelity review | REVIEW_READY — predecessor engineering/fidelity and unchanged ENG-03 engineering ACCEPTED; new fidelity contract requires separate engineering acceptance and 34 website reviews; historical 19/15 scientific registry deferred; currentSourceQualified=false |
 | M2 | Faithful complete beginner journey and example pages | M1 + reviewed current meanings | NOT_STARTED |
 | M3 | Current framework/math/status/proof/evidence documents rendered; bounded supplementary research where selected | M1–M2 + admitted current corpus | NOT_STARTED |
 | M4 | Articles, document library, source-faithful exports and citation | M3 | NOT_STARTED |
@@ -241,6 +241,16 @@ This is repository bookkeeping only. M0 engineering remains ACCEPTED; §0.10's b
 
 **Local Git authorization.** The owner explicitly requested a commit of the completed work. Record the review batch, this clarification and preserved evidence in a local commit on main. This does not accept pending engineering changes or authorize a remote, push, public repository, license grant, deployment or DNS operation. Further details: `docs/evidence/local-git/m1-review-commit/scope-audit.md`.
 
+### 0.16 Independent ENG-03 review and website fidelity contract reconciliation — 2 October 2026
+
+**Decision:** unchanged ENG-03 engineering is ACCEPTED only for neutral HOME/START metadata, all-five background fingerprint invalidation/E10 locality, emitted status parity and registry/evidence integrity. This separately launched session inspected clean HEAD `8377cd396592dfbe030790e0634b87e385cba067` on main, no remote; verified the previous sealed files and original ZIP parity; compared pre/post metadata and unchanged bodies; audited both retained artifacts at their recorded exact hashes. No new scientific decision, paper support review or whole-M1 acceptance. Detailed independent evidence: `docs/evidence/m1/website-fidelity-contract/eng03-independent-review.json`.
+
+**New coherent implementation batch: REVIEW_READY, unaccepted.** Reconcile §0.15 across AGENTS, active plan contracts/prompts, corpus/selection/build/audit/check callers, metadata display and tests. Original RRG_CURRENT owns science. Intake now verifies bytes without granting content qualification. The corpus derives `currentSourceQualified` from the complete current inventory and separate hashed, exact website fidelity decisions validated by one shared owner. The new website registry is empty; all 34 reached representations await independent website review. Preserve nineteen accepted/fifteen pending historical scientific decisions unchanged; changing renderer/metadata leaves their old fingerprints historical, without refreshing them. No request fingerprint is copied into any approval. Reader-facing evidence is attributed to the supplied documents; science-review workflow text is removed from bibliography and nine evidence-record descriptions plus the status sidecar, with affected sidecar revisions/dates advanced. Scientific statements, explanations, source bindings and dependencies remain unchanged. Source integrity, citations, dependencies, safe rendering, dates, rights and public authorization remain enforced. Qualification and release still refuse this actual pending corpus.
+
+**Verification: PASS.** All eleven reached `npm run verify` commands exit 0; zero Astro errors/warnings/hints; 69 contract tests and 14 Chromium checks pass at both bases. Shared negative controls cover intake-flag refusal, historical approval isolation, receipt byte tampering, missing fidelity comparisons/source reads/rendered identities/dependencies, duplicate decisions, changed-input staleness, bounded dependency independence, synthetic qualification refusal, existing source/URL/rendering/rights/public authorization guards and emitted-output mutations. Fresh real qualification/release CLI each refuses `CURRENT_SOURCE_NOT_QUALIFIED`, exit 1, no output. All five background consumers change identity while E10 remains unchanged. Final audits seal 101 files/37 HTML per artifact, unchanged after browser checks: root `2cc7334b0764e63db6ed02a5030a61306a963aaff3f76669a0c026cb53022f6c`, subpath `57b74bbe8afc4b77e194f684fa18dafee493e37b2bfd6e70be2b5392d142c9e9`; production inputs `6518e3ea2a8aab6f40562a3aca4c59aeac1b65195beb53b6ac6663f943b06c2b`. Machine evidence: `docs/evidence/m1/website-fidelity-contract/verification.json`, `final-checks.json` and `final-integrity.json`. Inspected fresh root mobile home and definition screenshots for the new labels; no visual acceptance or human comprehension study claimed. Initial sandbox IPC failure and two failing tamper-test fixture attempts are preserved separately; final suite follows the coherent fixture/metadata repair batch. Earlier scientific evidence and retained artifact hashes remain unchanged. No scientific source, ZIP, historical source, handoff, Rider file or lockfile changed. No scientific adjudication/reproduction, public target, remote, push, publishing, deployment, DNS or license grant.
+
+**Next handoff:** independently review this new contract batch against §0.15 and the real owner/caller/output path. Read all actual reached entries and relevant original source passages; record only evidenced website fidelity decisions in the new registry after independent comparison. Verify exact attribution/status, source mappings, equations, safe rendering and dependency invalidation. Do not resume scientific qualification or resolve SF findings. Any new repairs stop REVIEW_READY for another separate acceptance. Accept required M1 engineering/fidelity scope before M2; M2 stays NOT_STARTED in this session. Authorial/rights/privacy/identity/public-target gates remain separate. Local task-owned commit is authorized after checks.
+
 ## 1. Review findings and chosen repairs
 
 **R4 scope:** clarify the user's permission for necessary, justified source/core changes and recheck source visibility. R3 already mentioned a legitimate revised core, but its repeated “preserve bytes” and read-only presentation wording did not clearly distinguish the editable current source from immutable historical snapshots. R4 selects that distinction explicitly, supplies a revision path, and carries it through intake, records, milestones and both agent prompts. No scientific text is revised here and no fresh scientific literature audit is claimed.
@@ -295,7 +305,7 @@ The broad geometry–dynamics/recursive-organization question stays visible. The
 | Mathematical or factual error | Identify the error and support; correct the authoritative current source when revision is in scope, with explicit before/after meaning and affected dependencies. Review-only findings stay findings |
 | Old audit's alternative descriptor/objective | Historical proposal unless the actual current sources or an explicit owner decision adopt it; no automatic priority merely because it says v0.2 |
 | Website explanation | Must map back to current source meanings and be reviewed; clear wording is not permission to narrow or enlarge the theory |
-| Missing current input or unresolved conflict | Block affected scientific acceptance/publication; keep private drafts and independent code work moving without inventing current text |
+| Missing current input or unresolved source-to-display conflict | Block affected website fidelity/publication; keep private drafts and independent code work moving without inventing current text |
 
 The owner controls intended definitions, scope and publication; evidence controls whether a claimed result is demonstrated. Neither a newer filename nor owner preference proves a scientific proposition. Preserving the baseline means preventing silent reinterpretation while permitting justified, recorded revisions—not freezing its bytes forever or treating every conjecture as established fact.
 
@@ -305,9 +315,7 @@ Read actual `05_CHANGE_CONTROL.md` before mapping it into tooling. The owner's l
 
 As inherited explanatory intent, retain geometry as arrangement/relations/constraints and the temporal side as more than one Hertz value; bind the precise current wording only after reading the locked core. Retain the distinction between lower-level activity and a higher-level description. Keep environmental feedback and possible further organization in the explanation.
 
-The historical audit supplies the following editorial safeguards to check against the current documents, not a replacement core: self-consistency alone does not prove stability; stability is not always asymptotic return; conservative bounded motion and dissipative attraction differ; some modes describe relaxation rather than periodic oscillation; an action is not automatically potential energy; eliminating variables can introduce memory and effective forcing; coarse-graining is not physical creation of an object; scale flow is not physical time; familiar interactions are not four exclusive size bands. The supplied examples do not derive all forces, biology, cognition or an AI advantage. [R-AUDIT, R-MATH]
-
-A stationary point may be unstable. A stable bound structure need not consume external power continuously; a maintained open system may require ongoing flows. New *effective* modes are not independent microscopic degrees of freedom created from nothing. Use model-specific claims and conditions, not universal slogans.
+The original documents own the definitions, assumptions and status. Attribute their definitions as RRG definitions and their evidence descriptions as source-reported evidence. Preserve the distinction between core definitions, non-normative examples, candidate models and open extensions. Do not import historical audit safeguards or SF-01–06 proposals as corrections to those documents. Scientific adjudication is deferred; fidelity does not turn a source claim into an independently certified fact.
 
 ### 2.4 Introduction and example design
 
@@ -372,7 +380,7 @@ Not required: finishing the theory, finding a novel physical law, a full systema
 
 The source declaration says there is also an `RRG_ARCHIVE_OLD_VERSIONS.zip`. That archive was not available here. The fourteen retained files are the older material actually present in R2, not a claimed copy of that entire archive. An unchanged source README still has historical authority only, regardless of its own old word “current.”
 
-### 3.1a Current-source admission — required before actual scientific acceptance
+### 3.1a Current-source admission — byte integrity and website fidelity
 
 The shared notes record this expected locked-core SHA-256:
 
@@ -380,7 +388,7 @@ The shared notes record this expected locked-core SHA-256:
 b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1
 ```
 
-**Current local observation:** actual core present; raw computed value matches the edition pin above; actual manifest/full inventory and bindings are verified (§§0.5–0.8). Bounded M1 extraction/display fidelity is independently accepted; §0.12 accepts 17 definition/open-status representations plus the minimal concept (18 total), preserved in §0.13, while full scientific-content qualification remains pending. The original handoff absent-file/`null` observation is superseded for this supplied input. Byte integrity is not scientific validity.
+**Current local observation:** actual core present; raw computed value matches the edition pin above; actual manifest/full inventory and bindings are verified (§§0.5–0.8). Bounded M1 extraction/display fidelity is independently accepted; §0.12 accepts 17 definition/open-status representations plus the minimal concept (18 total), preserved in §0.13, while independent scientific adjudication is deferred under §0.15 and website fidelity decisions remain pending. The original handoff absent-file/`null` observation is superseded for this supplied input. Byte integrity is not scientific validity.
 
 Implement one admission path, used by source validation and release selection:
 
@@ -390,8 +398,8 @@ Implement one admission path, used by source validation and release selection:
 4. Select the intended source edition from the actual owner-designated input and its manifest/change record, then compute SHA-256 over the **raw bytes** of `00_LOCKED_CORE.md`. The previously recorded pin belongs to its previous edition. An unexplained mismatch within the selected edition is `LOCKED_CORE_MISMATCH`; an explicitly supplied replacement baseline or justified in-scope revision follows §4.5 and gets a new recorded pin after inspection. A baseline selector never treats hash difference alone as permission. Configure `.gitattributes` with `research/RRG_CURRENT/** -text` to prevent unintended checkout normalization; this is not an authoring prohibition.
 5. Reconcile the actual package as a coherent edition. A matching core alone does not prove that the other files belong together. Record the full admitted file list, raw sizes/hashes, source reference, actual manifest hash and change-control record. Extra files require classification and privacy/rights review, not automatic public exposure.
 6. Install exactly one operative source copy under `research/RRG_CURRENT/`. Import and rendering preserve the selected edition's bytes; these operations never edit sources implicitly. Keep website metadata in sidecars by default. Necessary source corrections or format changes are explicit authoring revisions under §4.5, not hidden display overrides. Record the inspected edition, predecessor/change reference and exact file set in `config/research-source.json`; no fabricated admission data.
-7. Validate source-bound display records against those admitted bytes. A source change invalidates relevant extraction/review fingerprints. Re-run affected scientific checks only when selected inputs change; do not interpret successful old computations as admission of a new package.
-8. Release selection requires `currentSourceQualified: true` backed by actual file/manifest/binding checks on this checkout. Absence yields `CURRENT_SOURCE_PACKAGE_MISSING`; incomplete or incoherent membership yields `CURRENT_MANIFEST_INCOMPLETE`; stale/missing extracts yield `SOURCE_BINDING_FAILURE`.
+7. Validate source-bound display records against those admitted bytes. A source change invalidates relevant extraction/review fingerprints. Re-run affected binding, dependency, rendering and website fidelity checks when selected inputs change. Scientific adjudication and reproduction are outside this website lane.
+8. Release selection requires `currentSourceQualified: true` derived by `loadCanonicalCorpus()` from actual byte/manifest/binding validation and exact accepted website fidelity reviews for every current entry. Intake alone returns false; its legacy `contentReview` flag and historical scientific registry cannot qualify website content. Absence yields `CURRENT_SOURCE_PACKAGE_MISSING`; incomplete or incoherent membership yields `CURRENT_MANIFEST_INCOMPLETE`; stale/missing extracts yield `SOURCE_BINDING_FAILURE`.
 
 The expected pin is an edition-specific integrity guard, not cryptographic proof of authorship, scientific truth or permanent immutability. Actual access, the owner's task and recorded revision basis remain the trust boundary. A supplied replacement or justified authorized working revision is staged, reconciled and installed as one coherent source/content batch; never mix files opportunistically from different releases. Refresh dated availability from actual inputs, not from the prior handoff's missing flag.
 
@@ -620,6 +628,7 @@ Implement these shared operations in `source-admission.ts`, `publication.ts` and
 | `dependencyClosure(entryId)` | Direct references extracted from content plus declared dependencies | Deterministic sorted transitive dependency set; reject missing IDs and proof-dependency cycles |
 | `semanticDigest(entry)` | Canonical data + LF-normalized body | SHA-256 excluding only review/procedural fields; no mutable timestamp shortcut |
 | `reviewFingerprint(entry)` | Own digest + dependency digests + relevant evidence/source hashes + rendering-policy revision | Exact digest of what was reviewed; no inclusion of its own receipt |
+| `qualifyWebsiteCorpus(corpus)` | Byte-admitted actual corpus and exact website decisions for all current entries | Derived website content qualification; no scientific certification, synthetic acceptance or approval flag shortcut |
 | `selectPublication(corpus, config, reviews)` | Valid corpus, fixed release identity/time, review evidence | Explicit published manifest or typed failure; no silently skipped stale published page |
 | `render/export(manifest)` | Same selected entries | HTML, bibliography, feeds, search inputs, downloads; never reread an alternate content tree |
 
@@ -629,7 +638,7 @@ A source-bound entry includes its actual source-file hash, excerpt hash and mapp
 
 Hash the relevant individual bibliography/source records, not the whole YAML file, so an unrelated new reference does not make every page stale. Include changes to a referenced source's verification scope, evidence and identity.
 
-A review receipt records `entryId`, fingerprint, reviewer kind (`agent` or `human`), review date, outcome and evidence reference. Scripts print the new required fingerprints and affected entries; **they do not auto-approve them**. Only the review task may record an accepted review after reading the actual affected material. A different model session is still an agent, not a fabricated human reviewer.
+An active website review in `research/publication/website-reviews.yaml` records purpose `website-source-fidelity/1`, `entryId`, fingerprint, reviewer kind (`agent` or `human`), review date, outcome and a JSON evidence path/raw SHA-256. The shared `website-review.ts` validator reads that receipt; it requires schema `unity-website-fidelity-decision/1`, matching decision fields, `scientificCertification:false`, a rationale, exact `websiteReviewInputs()` (complete own entry, relevant actual source identities, dependency digests and rendered-body hashes at both bases), and explicit comparisons of terminology, meaning, assumptions, hypotheses, evidence descriptions, open questions, attribution and source mappings. Current receipt input mismatch fails; changed genuine reviewed inputs become stale. Bounded fidelity does not require scientific acceptance of linked assertions; dependencies still track changes. The preserved `reviews.yaml` scientific registry grants no active website approval. Scripts print the new required fingerprints and affected entries; **they do not auto-approve them**. Only the review task may record an accepted review after reading the actual affected material. A different model session is still an agent, not a fabricated human reviewer.
 
 When a definition or result changes, reverse dependencies identify all affected published documents. Their old fingerprints become stale. Production build fails until those entries have been reread and reviewed against the changed meaning, or explicitly changed to a non-published state with the appropriate correction history. Do not simply copy a new digest into every receipt.
 
@@ -787,11 +796,11 @@ source/evidence or owner-directed meaning change under actual source change cont
 
 An article proposing new science first creates/updates an explicitly proposed record with provenance and limits; adoption into the current theory follows source change control reconciled with §0.3/§4.5. It does not become the only place the new definition exists. A source withdrawal changes the source/evidence record and makes affected public claims stale; it does not merely remove a footer link.
 
-A presentation-only change still requires its relevant rendering checks, but not a false new scientific result or unrelated experiment rerun. A scientific source/parameter/script change reruns the affected research checks and invalidates their old evidence. Do not rerun all historical numerical examples for every CSS change.
+A presentation-only change still requires its relevant rendering checks, but not a false new scientific result or unrelated experiment rerun. Scientific source/parameter/script changes are outside this website lane. A later separately authorized research revision owns its affected research checks and evidence invalidation. Do not rerun all historical numerical examples for every CSS change.
 
 ### 6.2 Typed failure behaviour
 
-Distinguish `CURRENT_SOURCE_PACKAGE_MISSING`, `LOCKED_CORE_MISMATCH`, `CURRENT_MANIFEST_INCOMPLETE`, `SOURCE_BINDING_FAILURE`, `CONTENT_SCHEMA_FAILURE`, `REFERENCE_FAILURE`, `DEPENDENCY_FAILURE`, `STALE_REVIEW`, `SCIENTIFIC_REVIEW_BLOCKER`, `RIGHTS_OR_PRIVACY_BLOCKER`, `LINK_FAILURE`, `MATH_RENDER_FAILURE`, `BUILD_FAILURE`, `ACCESSIBILITY_FAILURE`, `ARTIFACT_MISMATCH`, and `DEPLOY_INFRASTRUCTURE_FAILURE`.
+Distinguish `CURRENT_SOURCE_PACKAGE_MISSING`, `LOCKED_CORE_MISMATCH`, `CURRENT_MANIFEST_INCOMPLETE`, `SOURCE_BINDING_FAILURE`, `CONTENT_SCHEMA_FAILURE`, `REFERENCE_FAILURE`, `DEPENDENCY_FAILURE`, `STALE_REVIEW`, `WEBSITE_REVIEW_EVIDENCE_REQUIRED`, `RIGHTS_OR_PRIVACY_BLOCKER`, `LINK_FAILURE`, `MATH_RENDER_FAILURE`, `BUILD_FAILURE`, `ACCESSIBILITY_FAILURE`, `ARTIFACT_MISMATCH`, and `DEPLOY_INFRASTRUCTURE_FAILURE`.
 
 The three modes are `preview`, `qualification` and `release` (M0). Qualification uses the same reviewed selection, renderer and output checks as release, but can use a reserved fixture origin and explicit test identity; its artifact records `deployEligible: false`. Preview may expose drafts privately and cannot become a qualified or release artifact by renaming a file. Release additionally requires the real target and public authorization/identity/rights gates. No hidden bypass weakens semantic checks in qualification. A fixture corpus can test the mechanics, but its evidence states `corpusScope: synthetic` and `currentSourceQualified: false`; it cannot count as real-corpus qualification or be published as the current theory.
 
@@ -908,7 +917,7 @@ All listed checks are implementation obligations; §0 records the actually reach
 
 **Negative controls.** Same core plus mismatched/incomplete sibling edition; historical README offered as the core; altered source pin silently accepted; source-bound statement locally overridden; duplicate local S01 meanings; missing current 07/08; missing/stale review; draft sentinel; raw executable markup. Non-dependent changes do not invalidate unrelated reviews.
 
-**Done when.** Actual current-source-bound pages work and source/publication guards have real receipts. If current files remain unavailable, record fixture engineering progress and keep this milestone's real-content gate open; do not claim acceptance from mocks.
+**Done when.** Actual current-source-bound pages work, source/publication guards have real receipts, and all current representations have independently evidenced website fidelity decisions. Separate engineering acceptance is required for new contract repairs; source-review acceptance cannot be inferred from tests. If current files remain unavailable, record fixture engineering progress and keep this milestone's real-content gate open; do not claim acceptance from mocks.
 
 **Review focus.** One editable current source of scientific meaning; valid justified revision path and historical preservation; correct change-control mapping; truthful availability; no fabricated current source or duplicate definition owner.
 
@@ -916,7 +925,7 @@ All listed checks are implementation obligations; §0 records the actually reach
 
 **Why / result.** The primary product goal becomes usable: the reader encounters the idea, examples and uncertainty before equations or specialist machinery.
 
-**Requires.** M1 accepted and the relevant core records reconciled. New scientific theories or unpublished results are not prerequisites.
+**Requires.** M1 engineering accepted, including the website fidelity contract, and current representations independently reviewed against original documents. Scientific finding resolution is not a prerequisite. New scientific theories or unpublished results are not prerequisites.
 
 **Implement in order.**
 
@@ -931,7 +940,7 @@ All listed checks are implementation obligations; §0 records the actually reach
 
 **Content tests.** A reader can locate the proposed central question, tell an example from proof, find what remains open, and reach a source without technical prerequisites. Check the environmental-enabling example and the deeper effective-interaction question remain present without a claim that four forces are successive proven levels. Word count/jargon scans are diagnostics. Agent review records EDITORIAL_CHECKED; human understanding is NOT_TESTED unless real participants were involved.
 
-**Negative controls.** Reject a page claiming “self-consistency proves stability,” a string example implying geometry alone fixes tension/material constants, a wave labelled as proof of a persistent higher unit, and a page presenting oxygenation as a guaranteed purpose-driven ladder. Wording scans flag candidates for review; reviewers judge context rather than deleting any quotation of a mistake.
+**Negative controls.** Reject a page falsely attributing an independently established universal stability theorem to the supplied RRG self-consistency definition, a string example implying geometry alone fixes tension/material constants, a wave labelled as proof of a persistent higher unit, and a page presenting oxygenation as a guaranteed purpose-driven ladder. Wording scans flag candidates for review; reviewers judge context rather than deleting any quotation of a mistake.
 
 **Done when.** The complete introductory path is editorially and technically qualified; every example's role is clear; known limits do not overwhelm the explanation. No claim of proven usability or human approval is made without its evidence. Author approval remains a first-publication gate, not a reason to stop engineering.
 
@@ -948,7 +957,7 @@ All listed checks are implementation obligations; §0 records the actually reach
 1. Render current `02_scientific_framework.md` at the framework route and current `03_mathematical_core.md` at the math route through sidecars. Add navigation, plain-language callouts and source-bound context without copying the scientific body into an independent editable page.
 2. Render/link the current core and change-control documents in the library. Excerpts/downloads preserve the selected edition as labelled. Rendering itself cannot rewrite it; justified source/core revisions use §4.5 and then update every affected rendering/binding.
 3. Build evidence/status/open-problem views from actual 04/06/07/08. Preserve claim IDs, their evidence scope and status. Show the new effective-interaction question as a proposed relation, not a proof that all four forces form a ladder. Read both evidence files; do not fill unknown 08 content with familiar examples.
-4. Trace material factual claims to the actual cited primary sources before scientific-content acceptance. Preserve reported versus independently reproduced versus external evidence and identify abstract-only or unavailable checks. The current proof matrix is the mapping source, not automatic truth certification.
+4. Trace material statements to the original current documents and preserve their reported evidence, assumptions and status. Attribute source-reported Checked assertions to those documents; supplementary papers do not impose an independent scientific-support review prerequisite. The proof matrix supplies mappings and reported status, not website certification.
 5. Map historical proposals/corrections to current positions only where adopted or explicitly under review. Do not force older descriptors/objectives into current text. Necessary in-scope corrections may update the current source under §4.5 with rationale and dependent updates; an unsupported or out-of-scope change remains a labelled proposal.
 6. **Conditional historical supplement:** only when the actual current sources retain it or the owner explicitly selects it, include the old cavity/response-reduction calculations as a separate historical/model-specific page. Preserve original script/output bytes. Add a wrapper to check all four finite exact-error maxima < `1e-10`, original seeds/sample metadata and cavity residuals < `1e-12`; run affected work in a new evidence directory. Never execute this script during normal builds or present it as proof of the latest current package.
 7. Historical next-experiment proposals are linked as history or explicitly selected proposals, not mandated as the theory's current objective. The current mathematical programme determines the current research page.
@@ -989,7 +998,7 @@ All listed checks are implementation obligations; §0 records the actually reach
 
 ### M5 — Contribution, rights and owner-controlled publication
 
-**Why / result.** External contributions and deployment cannot bypass scientific review, expose private material or accidentally grant a royalty/license policy the owner never selected.
+**Why / result.** External contributions and deployment cannot bypass source-fidelity review, expose private material or accidentally grant a royalty/license policy the owner never selected.
 
 **Requires.** M4 accepted. Local engineering may proceed without remote credentials; actual platform configuration records the named permission blocker where absent.
 
@@ -1072,7 +1081,7 @@ These are **planned commands and test families**, not commands already present i
 | `npm run check` | TypeScript/Astro/config checks against installed versions; malformed site configuration | M0 onward |
 | `npm run check:content -- --changed <entry-id>` | Actual bindings/rendering, required fingerprints and affected dependant report; no auto-approval | M1 onward |
 | `npm run test:content` | Production schema/parser/graph/publication library; bad IDs, unknown references, stale reviews, invalid states and unsafe paths | M1 onward |
-| `npm run check:sources -- --scope <history-or-current>` | Exact historical hashes or actual current raw-core/manifest/binding admission; scoped missing-source failures remain visible | M0 mechanics; current scope required before M1 actual-content acceptance |
+| `npm run check:sources -- --scope <history-or-current>` | Exact historical hashes or actual current raw-core/manifest/binding admission; scoped missing-source failures remain visible | M0 mechanics; current scope required before M1 website fidelity acceptance |
 | `npm run check:research` | Selected scientific calculation checks; historical response wrapper only when intentionally included | M3 if supplement selected; affected subsequent changes |
 | `npm run build -- --mode qualification --config <fixture>` | Canonical-to-static flow including exports, Pagefind when installed, and build-info; clean separate output per config | Each affected milestone |
 | `npm run audit:output -- --dir <output>` | Same manifest vs every emitted file, links/fragments, draft sentinels, source maps, archive contents and content parity | M1 minimum; full M4–M6 |
@@ -1112,9 +1121,9 @@ A negative control must fail for the intended reason. A syntax error that preven
 
 ### 9.3 Acceptance has separate scopes
 
-**Engineering acceptance:** the implementation reaches the named real producer, consumer and output path, passes relevant negative controls, and has no known blocker within its acceptance scope. High fixes material in-scope findings, tests the connected repair batch, and only then accepts that scope.
+**Engineering acceptance:** the implementation reaches the named real producer, consumer and output path, passes relevant negative controls, and has no known blocker within its acceptance scope. A separate review accepts only unchanged scope independently verified. Material new repairs are completed and tested as a connected batch, then stop REVIEW_READY for later separate acceptance.
 
-**Scientific-content acceptance:** the representation of each claim matches its source, status, assumptions and scope. A website reviewer may verify a supplied calculation or citation; this does not become external scientific peer review. A reproducible restricted calculation does not imply the common-rule conjecture is true.
+**Website source-fidelity acceptance:** each representation preserves the original documents’ terminology, meaning, assumptions, hypotheses, evidence descriptions and open questions, with accurate attribution/status and source mappings. Review source-to-display behavior and explanations, not independent scientific truth. Preserve the scientific findings/readouts/access ledgers for owner review after website completion. Do not require resolving SF-01–06, independently reading supporting papers, reproducing experiments, or rewriting source science to accept faithful website content. Bibliographic identity, source integrity, dependencies and safe rendering remain required.
 
 **Authorial/publication approval:** the owner confirms the first public introduction/core meaning, credit/contact, target and rights/privacy policy. Later material changes follow the recorded governance policy. Agent review never invents this approval. The plan does not require the owner to manage every implementation subtask.
 
@@ -1180,6 +1189,9 @@ Do not reconstruct missing current files or use a summary as their contents.
 Recheck files actually available now; clear an old missing status only after
 real admission. An old pin does not veto a justified selected new edition.
 
+Read §§0.15–0.16 first. Preserve original scientific content in this website lane.
+Keep SF findings/paper readouts/access ledgers aside until website completion.
+Website reviews check original-source fidelity and attribution, not truth.
 Keep scientific record type, evidence, review and publication state distinct.
 All public routes and exports use the same content owner/publication manifest.
 Implement real consumers and remove the obsolete path in the owning milestone.
@@ -1216,12 +1228,16 @@ updated dependencies. Accept justified authorized source/core revisions; reject
 silent drift, unexplained pin resets and blanket bans on needed source changes.
 A new supplied baseline must be inspected, not rejected for its old hash alone.
 
-Fix material in-scope problems yourself. Complete the connected repair batch,
-then run affected verification. Preserve unrelated work and valid receipts.
+Review website fidelity against original downloaded documents; related papers
+are supplementary. Do not adjudicate SF-01–06 or import reviewer corrections.
+Record website decisions only after actual source/entry/rendered comparison.
+Fix material in-scope problems as a coherent batch, then run affected verification.
+New repairs stop REVIEW_READY for a later separate acceptance; accept only
+unchanged scope independently demonstrated in this review session. Preserve unrelated work and valid receipts.
 Do not add a compatibility layer, second tracker, test-only validator or bypass
 merely to produce a green status.
 
-Separate engineering acceptance, scientific scope, authorial/publication approval,
+Separate engineering acceptance, website source fidelity, authorial/publication approval,
 rights/privacy decisions, accessibility and human comprehension evidence. Do not
 invent missing tests, a human reviewer, configured platform protection or live
 publication. Do not claim the supplied model calculations prove the full theory.
@@ -1292,4 +1308,4 @@ The following external-source decisions are **retained from R2**, whose record s
 | W10 | WIPO copyright protection: `https://www.wipo.int/en/web/copyright/protection` | Copyright's expression/idea distinction; not jurisdiction-specific legal advice or a royalty contract |
 | W11 | Creative Commons BY-NC-SA 4.0: `https://creativecommons.org/licenses/by-nc-sa/4.0/` | Example of a non-commercial attribution/share-alike option and retained valid permissions; no license has been selected or granted here |
 
-**End of sole forward implementation plan.** Current owner scope and next handoff are governed by §0.15: build the website faithfully from the original supplied documents, with related papers supplementary; independent proof/disproof and scientific finding resolution are outside this task. M0 engineering remains accepted (§0.5). M1 predecessor engineering/fidelity is ACCEPTED (§0.10); nineteen bounded representations are ACCEPTED (§0.14: prior eighteen plus unchanged E05). Prior dependency/concept and evidence-seal/workload repairs retain their scoped §0.13 acceptance; new ENG-03/test/evidence/registry changes are REVIEW_READY for separate acceptance. The historical fifteen pending exact reviews/full scientific qualification are not silently approved by the scope clarification; existing runtime guards require explicit source-fidelity contract reconciliation. M1 remains REVIEW_READY and currentSourceQualified remains false. Authorial, rights/privacy/identity and public-target gates remain separate and pending/not supplied. M2 remains NOT_STARTED in this audit/commit pass. Source authoring requires a separately scoped task under §0.3/§4.5. No public action is authorized by these receipts.
+**End of sole forward implementation plan.** Current execution and next handoff are §§0.15–0.16. M1 remains REVIEW_READY; M2 NOT_STARTED. New website contract repairs require separate acceptance. Scientific findings remain deferred, original sources unchanged, and public authorization absent.

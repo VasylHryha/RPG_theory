@@ -4,7 +4,7 @@ import type { BuildMode, SiteConfig } from './site-config.js';
 export function assertBuildAllowed(mode: BuildMode, config: SiteConfig, source: { currentSourceQualified: boolean; corpusScope: string }) {
   if (mode !== 'release') return;
   if (new URL(config.origin).hostname.endsWith('.invalid') || !config.repository) throw new ContractError('PUBLIC_TARGET_REQUIRED', 'A real owner-designated repository and origin are required');
-  if (!source.currentSourceQualified || source.corpusScope !== 'current') throw new ContractError('CURRENT_SOURCE_NOT_QUALIFIED', 'M1 content bindings and actual-current review are required');
+  if (!source.currentSourceQualified || source.corpusScope !== 'current') throw new ContractError('CURRENT_SOURCE_NOT_QUALIFIED', 'M1 bindings and exact website source-fidelity reviews are required');
   if (!config.publicAuthorization) throw new ContractError('PUBLIC_AUTHORIZATION_REQUIRED', 'Publication has not been authorized');
   // The M1 selector validates content, but M5–M7 still own complete identity,
   // rights, all-surface qualification and the authorized release artifact pipeline.
@@ -12,7 +12,8 @@ export function assertBuildAllowed(mode: BuildMode, config: SiteConfig, source: 
 }
 
 import { readFileSync } from 'node:fs';
-import { loadCanonicalCorpus, reviewState, reviewFingerprint, dependencyClosure, validDate, type Corpus } from './content.js';
+import { websiteReviewState as reviewState } from './website-review.js';
+import { loadCanonicalCorpus, reviewFingerprint, dependencyClosure, validDate, type Corpus } from './content.js';
 import { sha256, stableJSON } from './identity.js';
 import type { Entry } from './content-schema.js';
 import { z } from 'astro/zod';
@@ -32,11 +33,11 @@ export function selectPublication(corpus: Corpus, config: SiteConfig, release: R
   }
   const intended = [...corpus.entries.values()].filter(e => mode === 'preview' || e.publicationState === 'published' || (['superseded','withdrawn'].includes(e.publicationState) && release.historicalIds.includes(e.id)));
   if (mode !== 'preview') {
-    if (!corpus.admission.currentSourceQualified || corpus.admission.corpusScope !== 'current') throw new ContractError('CURRENT_SOURCE_NOT_QUALIFIED','Actual current binding/content qualification required');
+    if (!corpus.admission.currentSourceQualified || corpus.admission.corpusScope !== 'current') throw new ContractError('CURRENT_SOURCE_NOT_QUALIFIED','Actual current byte integrity and website source-fidelity review required');
     if (!intended.length) throw new ContractError('EMPTY_PUBLICATION','No reviewed current release entries');
     for (const entry of intended) {
       if (!entry.publishedAt || validDate(entry.publishedAt) > validDate(release.releaseAt) || validDate(entry.updatedAt)>validDate(release.releaseAt)) throw new ContractError('FUTURE_PUBLICATION',entry.id);
-      if(corpus.reviews.some(r=>r.entryId===entry.id && validDate(r.reviewedAt)>validDate(release.releaseAt))) throw new ContractError('FUTURE_REVIEW',entry.id);
+      if(corpus.websiteReviews.some(r=>r.entryId===entry.id && validDate(r.reviewedAt)>validDate(release.releaseAt))) throw new ContractError('FUTURE_REVIEW',entry.id);
       if (reviewState(corpus,entry.id) !== 'accepted') throw new ContractError('REVIEW_REQUIRED',`${entry.id}: ${reviewState(corpus,entry.id)}; required ${reviewFingerprint(corpus,entry.id)}`);
       if (entry.publicationState !== 'withdrawn') for (const id of dependencyClosure(corpus,entry.id)) {
         if (corpus.entries.get(id)?.publicationState !== 'published' || !intended.some(e=>e.id===id)) throw new ContractError('UNPUBLISHABLE_DEPENDENCY',`${entry.id} → ${id}`);

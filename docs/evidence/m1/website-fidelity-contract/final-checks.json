@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "productionInputs": {
+    "inputsSha256": "6518e3ea2a8aab6f40562a3aca4c59aeac1b65195beb53b6ac6663f943b06c2b",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "f17d6d0f79e5957aa776748cb93fb73ea203616ca355e8859da901a4096aef59"
+  },
+  "contracts": 69,
+  "chromium": 14,
+  "commands": 11,
+  "sourceBytes": {
+    "availability": "AVAILABLE_BYTES_VERIFIED",
+    "bytesVerified": true,
+    "corpusScope": "current",
+    "currentSourceQualified": false,
+    "qualificationBasis": "website-source-fidelity/1",
+    "files": 13,
+    "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "inventorySeal": "25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a",
+    "edition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01"
+  },
+  "qualificationReleaseRefusals": [
+    {
+      "mode": "qualification",
+      "exitCode": 1,
+      "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false
+    },
+    {
+      "mode": "release",
+      "exitCode": 1,
+      "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false
+    }
+  ],
+  "background": [
+    {
+      "id": "UT-E12",
+      "before": "94815d267ca1247a64003ec1daf3ce44fda12a5564aa7ea336ddaa40d0ecccdf",
+      "after": "94370cedcbe6e8ed372c84c4a643e4d8ef4c53650459e98f2ab9a978a0794b41",
+      "websiteReviewState": "pending"
+    },
+    {
+      "id": "DOC-HOME",
+      "before": "af4ad55e89d8d61bdf9a2e48973a9f9d1557dfac6f5800abf052ebb69dbabb8a",
+      "after": "7771d8e722531f7d8072111a48efd912ca661c224be4f95a674a2405ffe4fa24",
+      "websiteReviewState": "pending"
+    },
+    {
+      "id": "DOC-START",
+      "before": "ab66d3950164ecf0029d378e07d79f30e4bf16163aaa05823ddbebcada8416fa",
+      "after": "1b67cf1fc6fd1ec1aba36b41742eb513e3b21a6f2721918d37f7f9739abbc9aa",
+      "websiteReviewState": "pending"
+    },
+    {
+      "id": "DOC-STATUS",
+      "before": "fa686e36f393ef1a9d3def1b10b7392dc33a7a92b14a1000c7d5fbc1f2d0dc97",
+      "after": "45f02e82b2ddbbcad1fd9babdab0749c27d807fce97f3054235be63d08aac033",
+      "websiteReviewState": "pending"
+    },
+    {
+      "id": "DOC-PROOF",
+      "before": "875a33250085666ebe5f1a54d46a008277a122c75dfffb5ea482b45d3852c40d",
+      "after": "cc19ab283706024f5b3ef88387dc1210a4e8e750e68216949db424ad60d0f6f4",
+      "websiteReviewState": "pending"
+    }
+  ],
+  "unrelatedE10": "unchanged",
+  "artifacts": [
+    {
+      "base": "root",
+      "directory": "dist/m1-website-fidelity/preview-root",
+      "artifactSha256": "2cc7334b0764e63db6ed02a5030a61306a963aaff3f76669a0c026cb53022f6c",
+      "files": 101,
+      "htmlFiles": 37,
+      "chromium": 7
+    },
+    {
+      "base": "subpath",
+      "directory": "dist/m1-website-fidelity/preview-subpath",
+      "artifactSha256": "57b74bbe8afc4b77e194f684fa18dafee493e37b2bfd6e70be2b5392d142c9e9",
+      "files": 101,
+      "htmlFiles": 37,
+      "chromium": 7
+    }
+  ],
+  "retainedArtifacts": [
+    {
+      "directory": "dist/m1-remaining-review-quality/preview-root",
+      "artifactSha256": "18f3748b4c823656776ca1bea9dad385309680def93a9d7afad355439ab229de",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-remaining-review-quality/preview-subpath",
+      "artifactSha256": "b8169d960c1ca638ecde209385b13f77c1c58b31f10e04d8c2dbc94517bf5773",
+      "unchanged": true
+    }
+  ],
+  "websiteDecisions": 0,
+  "historicalScientificDecisions": 19,
+  "scientificAdjudication": "NOT_RUN",
+  "newBatch": "REVIEW_READY",
+  "m2": "NOT_STARTED",
+  "publicActions": "NOT_RUN"
+}

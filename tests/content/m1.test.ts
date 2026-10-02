@@ -1,13 +1,14 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { loadCanonicalCorpus, validateCorpus, dependencyClosure, reviewFingerprint, reviewState, affectedEntries, semanticDigest, renderEntrySync, validDate } from '../../src/lib/content.js';
+import { loadCanonicalCorpus, validateCorpus, dependencyClosure, reviewFingerprint, affectedEntries, semanticDigest, renderEntrySync, validDate } from '../../src/lib/content.js';
 import { selectPublication, activePublication } from '../../src/lib/publication.js';
 import { loadSiteConfig } from '../../src/lib/site-config.js';
 import { sha256 } from '../../src/lib/identity.js';
 import { readAdmission } from '../../src/lib/source-admission.js';
 import { validateSourceRevision } from '../../src/lib/source-revision.js';
 import { renderMarkdown } from '../../src/lib/markdown.js';
+import { websiteReviewState as reviewState } from '../../src/lib/website-review.js';
 const corpus=loadCanonicalCorpus();
 function input() { return { entries:[...corpus.entries.values()].map(e=>({...structuredClone(e),statement:e.contentOrigin==='source-bound'?null:e.statement})), sources:structuredClone([...corpus.sources.values()]), references:structuredClone([...corpus.references.values()]), aliases:JSON.parse(readFileSync('research/publication/citation-aliases.yaml','utf8')), reviews:[], record:readAdmission()! }; }
 function clone() { return validateCorpus(input()); }
@@ -16,17 +17,17 @@ function syntheticAcceptedFixture() {
   const e=c.entries.get('UT-D01')!; e.publicationState='published';e.publishedAt='2026-10-01';e.updatedAt='2026-10-01';e.rightsRef='TEST-RIGHTS';
   // Only an isolated test object simulates qualification, never a file/receipt or a production artifact.
   c.admission.currentSourceQualified=true;
-  c.reviews=[{entryId:e.id,fingerprint:reviewFingerprint(c,e.id),reviewerKind:'agent',reviewedAt:'2026-10-01',outcome:'accepted',evidenceRef:'isolated synthetic test receipt, not scientific evidence'}];
+  c.websiteReviews=[{entryId:e.id,fingerprint:reviewFingerprint(c,e.id),purpose:'website-source-fidelity/1',evidenceSha256:'0'.repeat(64),reviewerKind:'agent',reviewedAt:'2026-10-01',outcome:'accepted',evidenceRef:'isolated synthetic test receipt, not scientific evidence'}];
   return c;
 }
 const release={releaseId:'synthetic-test-only',releaseAt:'2026-10-01T12:00:00.000Z',historicalIds:[],rights:[{id:'TEST-RIGHTS',outcome:'approved' as const,entryIds:['UT-D01'],evidenceRef:'synthetic scoped rights control'}]};
 const config={...loadSiteConfig(),origin:'https://example.org',repository:{owner:'synthetic',name:'test'},publicAuthorization:true};
-test('actual bounded representation reviews do not qualify the source or unreviewed support',()=>{
- assert.equal(corpus.entries.size,34);assert.equal(corpus.admission.currentSourceQualified,false);
- assert.equal(reviewState(corpus,'UT-D01'),'accepted');
- assert.equal(reviewState(corpus,'DOC-CONCEPT-GEOMETRY'),'accepted');
- assert.equal(reviewState(corpus,'UT-C01'),'accepted');
- assert.equal(reviewState(corpus,'UT-E05'),'accepted');
+test('historical representation decisions do not populate website fidelity or qualify the source',()=>{
+ assert.equal(corpus.reviews.filter(r=>r.outcome==='accepted').length,19);assert.equal(corpus.websiteReviews.length,0);assert.equal(corpus.entries.size,34);assert.equal(corpus.admission.currentSourceQualified,false);
+ assert.equal(reviewState(corpus,'UT-D01'),'pending');
+ assert.equal(reviewState(corpus,'DOC-CONCEPT-GEOMETRY'),'pending');
+ assert.equal(reviewState(corpus,'UT-C01'),'pending');
+ assert.equal(reviewState(corpus,'UT-E05'),'pending');
  assert.equal(corpus.entries.get('UT-E05')!.evidenceState,'project-reported');
  assert.equal(corpus.entries.get('UT-C01')!.evidenceState,'proposed');
  for(const id of ['UT-E01','UT-E11','UT-E12','DOC-START','DOC-PROOF']) assert.equal(reviewState(corpus,id),'pending');
@@ -91,7 +92,7 @@ test('safe directives render actual canonical explanations, extract dependencies
 });
 test('dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local',()=>{
  const c=clone();const id='DOC-START';const old=reviewFingerprint(c,id);
- c.reviews=[{entryId:id,fingerprint:old,reviewerKind:'agent',reviewedAt:'2026-10-01',outcome:'accepted',evidenceRef:'synthetic lifecycle test only'}];assert.equal(reviewState(c,id),'accepted');
+ c.websiteReviews=[{entryId:id,fingerprint:old,purpose:'website-source-fidelity/1',evidenceSha256:'0'.repeat(64),reviewerKind:'agent',reviewedAt:'2026-10-01',outcome:'accepted',evidenceRef:'synthetic lifecycle test only'}];assert.equal(reviewState(c,id),'accepted');
  c.references.set('BIB-9999',{...c.references.get('BIB-0001')!,id:'BIB-9999',identity:'synthetic unrelated identity'});assert.equal(reviewState(c,id),'accepted');
  c.entries.get('UT-D01')!.plainLanguage+=' Synthetic changed explanation.';assert.equal(reviewState(c,id),'stale');assert.ok(affectedEntries(c,'UT-D01').includes(id));
  const e=c.entries.get('UT-D01')!;assert.equal(semanticDigest({...e,body:'line\r\nline'}),semanticDigest({...e,body:'line\nline'}));
@@ -103,7 +104,7 @@ test('changing a relevant source verification scope or relevant citation stales 
 test('shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights',()=>{
  assert.throws(()=>selectPublication(corpus,config,release),/CURRENT_SOURCE_NOT_QUALIFIED/);
  const c=syntheticAcceptedFixture();assert.deepEqual(selectPublication(c,config,release).manifest.navigationIds,['UT-D01']);assert.equal(selectPublication(c,config,release).manifest.deployEligible,false);
- c.reviews=[];assert.throws(()=>selectPublication(c,config,release),/REVIEW_REQUIRED/);
+ c.websiteReviews=[];assert.throws(()=>selectPublication(c,config,release),/REVIEW_REQUIRED/);
  const stale=syntheticAcceptedFixture();stale.entries.get('UT-D01')!.scope+=' Changed';assert.throws(()=>selectPublication(stale,config,release),/REVIEW_REQUIRED/);
  const future=syntheticAcceptedFixture();future.entries.get('UT-D01')!.publishedAt='2026-10-02';assert.throws(()=>selectPublication(future,config,release),/FUTURE_PUBLICATION/);
  assert.throws(()=>selectPublication(syntheticAcceptedFixture(),config,{...release,rights:[]}),/RIGHTS_PROVENANCE_REQUIRED/);
@@ -112,10 +113,10 @@ test('shared release selector refuses actual pending corpus, missing/stale revie
 test('one manifest excludes drafts from every production surface and rejects published draft dependencies',()=>{
  const c=syntheticAcceptedFixture();const draft=structuredClone(c.entries.get('UT-D01')!);draft.id='UT-D99';draft.route='/claims/UT-D99/';draft.publicationState='draft';draft.body='DRAFT_SENTINEL_NOT_FOR_OUTPUT';c.entries.set(draft.id,draft);
  const selected=selectPublication(c,config,release);assert.equal(selected.manifest.routes.includes(draft.route),false);for(const ids of [selected.manifest.navigationIds,selected.manifest.searchIds,selected.manifest.sitemapIds,selected.manifest.exportIds]) assert.equal(ids.includes(draft.id),false);
- c.entries.get('UT-D01')!.dependsOn=['UT-D99'];c.reviews[0].fingerprint=reviewFingerprint(c,'UT-D01');assert.throws(()=>selectPublication(c,config,release),/UNPUBLISHABLE_DEPENDENCY/);
+ c.entries.get('UT-D01')!.dependsOn=['UT-D99'];c.websiteReviews[0].fingerprint=reviewFingerprint(c,'UT-D01');assert.throws(()=>selectPublication(c,config,release),/UNPUBLISHABLE_DEPENDENCY/);
 });
 test('withdrawn history is explicitly selected as a tombstone; former body is removed',()=>{
- const c=syntheticAcceptedFixture();const e=c.entries.get('UT-D01')!;e.publicationState='withdrawn';e.correctionRef='synthetic correction';e.withdrawalReason='Synthetic withdrawn reason';e.statement='OLD_BODY_SENTINEL';c.reviews[0].fingerprint=reviewFingerprint(c,e.id);
+ const c=syntheticAcceptedFixture();const e=c.entries.get('UT-D01')!;e.publicationState='withdrawn';e.correctionRef='synthetic correction';e.withdrawalReason='Synthetic withdrawn reason';e.statement='OLD_BODY_SENTINEL';c.websiteReviews[0].fingerprint=reviewFingerprint(c,e.id);
  const result=selectPublication(c,config,{...release,historicalIds:[e.id]});assert.equal(result.entries[0].statement,null);assert.deepEqual(result.manifest.navigationIds,[]);assert.doesNotMatch(renderEntrySync(c,result.entries[0]),/OLD_BODY_SENTINEL/);
 });
 test('source display adapters preserve raw bindings while rendering status/math/table consumers',()=>{
@@ -193,7 +194,7 @@ test('retained historical excerpts remain historical; supersession is reciprocal
 
 test('review rejection is distinct from pending; alternate citation review binds its primary metadata',()=>{
  const c=clone(),e=c.entries.get('UT-D01')!;
- c.reviews=[{entryId:e.id,fingerprint:reviewFingerprint(c,e.id),reviewerKind:'agent',reviewedAt:'2026-10-01',outcome:'rejected',evidenceRef:'isolated synthetic rejection'}];assert.equal(reviewState(c,e.id),'rejected');assert.match(renderStatus(c,e),/Rejected/);
+ c.websiteReviews=[{entryId:e.id,fingerprint:reviewFingerprint(c,e.id),purpose:'website-source-fidelity/1',evidenceSha256:'0'.repeat(64),reviewerKind:'agent',reviewedAt:'2026-10-01',outcome:'rejected',evidenceRef:'isolated synthetic rejection'}];assert.equal(reviewState(c,e.id),'rejected');assert.match(renderStatus(c,e),/Rejected/);
  e.bibRefs=['BIB-0023'];const prior=reviewFingerprint(c,e.id);c.references.get('BIB-0022')!.supportScope+=' Synthetic changed scope';assert.notEqual(reviewFingerprint(c,e.id),prior);
 });
 
@@ -218,7 +219,7 @@ test('actual status, proof and home summaries depend on their core definitions a
 test('withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions',()=>{
  const c=syntheticAcceptedFixture(),e=c.entries.get('UT-D01')!;
  for(const key of ['title','description','scope','limits','plainLanguage','sourceMapping','body','statement'] as const) e[key]='OLD_METADATA_SENTINEL';
- e.publicationState='withdrawn';e.withdrawalReason='Synthetic reason';e.correctionRef='Synthetic correction';c.reviews[0].fingerprint=reviewFingerprint(c,e.id);
+ e.publicationState='withdrawn';e.withdrawalReason='Synthetic reason';e.correctionRef='Synthetic correction';c.websiteReviews[0].fingerprint=reviewFingerprint(c,e.id);
  const selected=selectPublication(c,config,{...release,historicalIds:[e.id]});const tombstone=selected.entries[0];
  assert.doesNotMatch(JSON.stringify(tombstone)+renderEntrySync(c,tombstone)+renderRecordDetails(c,tombstone),/OLD_METADATA_SENTINEL/);assert.deepEqual(selected.manifest.referenceIds,[]);
  assert.throws(()=>exportDirectiveMarkdown('::claim{id="UT-D01" view="statement"}',c),/WITHDRAWN_EXCERPT/);
@@ -233,14 +234,14 @@ test('bibliographic verification cannot retain a checked label after metadata su
 
 test('release rejects future updates and reviews independently of the publication date',()=>{
  const c=syntheticAcceptedFixture();c.entries.get('UT-D01')!.updatedAt='2026-10-02';assert.throws(()=>selectPublication(c,config,release),/FUTURE_PUBLICATION/);
- const d=syntheticAcceptedFixture();d.reviews[0].reviewedAt='2026-10-02';assert.throws(()=>selectPublication(d,config,release),/FUTURE_REVIEW/);
+ const d=syntheticAcceptedFixture();d.websiteReviews[0].reviewedAt='2026-10-02';assert.throws(()=>selectPublication(d,config,release),/FUTURE_REVIEW/);
 });
 
 test('qualification uses reviewed production selection; a preview cannot be relabelled qualification',()=>{
  assert.equal(selectPublication(corpus,loadSiteConfig(),release,'preview').entries.length,34);
  assert.throws(()=>selectPublication(corpus,loadSiteConfig(),release,'qualification'),/CURRENT_SOURCE_NOT_QUALIFIED/);
  const c=syntheticAcceptedFixture();assert.deepEqual(selectPublication(c,loadSiteConfig(),release,'qualification').manifest.navigationIds,['UT-D01']);
- c.reviews=[];assert.throws(()=>selectPublication(c,loadSiteConfig(),release,'qualification'),/REVIEW_REQUIRED/);
+ c.websiteReviews=[];assert.throws(()=>selectPublication(c,loadSiteConfig(),release,'qualification'),/REVIEW_REQUIRED/);
 });
 
 test('Markdown export validates safety, expands nested references and leaves math samples intact',()=>{

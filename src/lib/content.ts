@@ -13,8 +13,10 @@ import { safeMarkdown, renderMarkdown, renderMarkdownSync } from './markdown.js'
 import { expandDirectives } from './directives.js';
 import { load } from 'cheerio';
 
+import { websiteReviewSchema, validateWebsiteReviews, qualifyWebsiteCorpus, type WebsiteReview } from './website-review.js';
+
 export const renderingPolicy = 'unity-safe-markdown/4;recursive-directives/2;rrg-tex-delimiters/1;scoped-literal-addendum/1;proof-table-row/1';
-export interface Corpus { entries: Map<string, Entry>; sources: Map<string, Source>; references: Map<string, Reference>; aliases: Map<string, string>; reviews: Review[]; evidence: Map<string,ExecutionEvidence>; rendererSha256: string; admission: ReturnType<typeof qualifyCurrentSource> }
+export interface Corpus { entries: Map<string, Entry>; sources: Map<string, Source>; references: Map<string, Reference>; aliases: Map<string, string>; reviews: Review[]; websiteReviews: WebsiteReview[]; evidence: Map<string,ExecutionEvidence>; rendererSha256: string; admission: ReturnType<typeof qualifyCurrentSource> }
 function fail(code: string, message: string): never { throw new ContractError(code, message); }
 export function readYAML(path: string): unknown { return parse(readFileSync(path, 'utf8'), { uniqueKeys: true }); }
 export function validDate(value: string) {
@@ -28,7 +30,7 @@ function referenceIdentity(url: string) {
   // retain the complete URL path: a PDF and a path ending in .pdf/ differ.
   return parsed.hostname==='doi.org'?`https://doi.org/${decodeURIComponent(parsed.pathname.slice(1)).toLowerCase().replace(/\/$/,'')}`:parsed.href;
 }
-export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; references: unknown[]; aliases: unknown[]; reviews: unknown[]; evidence?: unknown[]; record: AdmissionRecord; root?: string }): Corpus {
+export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; references: unknown[]; aliases: unknown[]; reviews: unknown[]; websiteReviews?: unknown[]; evidence?: unknown[]; record: AdmissionRecord; root?: string }): Corpus {
   const root = input.root ?? process.cwd(); const admission = qualifyCurrentSource(input.record, root);
   const entries = index(input.entries.map(e => entrySchema.parse(e)), e => e.id);
   const sources = index(input.sources.map(s => sourceSchema.parse(s)), s => s.key);
@@ -145,10 +147,10 @@ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; 
   // Bind the transitive rendering/selection policy and its pinned dependencies,
   // not just the entry renderer. A URL, schema, CSS or KaTeX dependency change
   // can change the reviewed presentation without changing source prose.
-  const rendererFiles=['content.ts','content-schema.ts','markdown.ts','markdown-safety.ts','markdown-tree.ts','directives.ts','source-display.ts','presentation.ts','publication.ts','source-admission.ts','site-config.ts','urls.ts','identity.ts','errors.ts'].map(path=>'src/lib/'+path)
+  const rendererFiles=['content.ts','website-review.ts','content-schema.ts','markdown.ts','markdown-safety.ts','markdown-tree.ts','directives.ts','source-display.ts','presentation.ts','publication.ts','source-admission.ts','site-config.ts','urls.ts','identity.ts','errors.ts'].map(path=>'src/lib/'+path)
     .concat(filesIn(resolve(root,'src')).filter(path=>path.endsWith('.astro') || path.endsWith('.css')).map(path=>'src/'+path),['astro.config.mjs','package-lock.json']).sort();
   const rendererSha256=sha256(stableJSON(rendererFiles.map(path=>[path,sha256(readFileSync(resolve(root,path)))])));
-  const corpus = { entries, sources, references, evidence, aliases: new Map([...aliases].map(([k,a])=>[k,a.bibliographyId])), reviews, admission, rendererSha256 };
+  const corpus = { entries, sources, references, evidence, aliases: new Map([...aliases].map(([k,a])=>[k,a.bibliographyId])), reviews, websiteReviews:(input.websiteReviews ?? []).map(r=>websiteReviewSchema.parse(r)), admission, rendererSha256 };
   const bindings=[...entries.values()].filter(e=>e.contentOrigin==='source-bound' && sources.get(e.sourceBinding!.sourceKey)?.declaredCurrent).map(e=>{ const {sourceKey,...binding}=e.sourceBinding!;return {...binding,path:sources.get(sourceKey)!.path.slice(input.record.directory.length+1)}; });
   if(stableJSON(bindings.map(b=>stableJSON(b)).sort())!==stableJSON(input.record.bindings.map(b=>stableJSON(b)).sort())) fail('SOURCE_BINDING_FAILURE','Corpus extraction membership differs from admitted bindings');
   for (const entry of entries.values()) {
@@ -159,6 +161,8 @@ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; 
     while(current?.supersededBy) { if(seen.has(current.id)) fail('CORRECTION_CYCLE',entry.id);seen.add(current.id);current=entries.get(current.supersededBy); }
   }
   for (const review of reviews) { if (!entries.has(review.entryId) || !review.evidenceRef.trim()) fail('INVALID_REVIEW',review.entryId); validDate(review.reviewedAt); }
+  validateWebsiteReviews(corpus,root);
+  corpus.admission.currentSourceQualified=qualifyWebsiteCorpus(corpus);
   return corpus;
 }
 export function dependencyClosure(corpus: Corpus, id: string): string[] {
@@ -175,6 +179,7 @@ export function reviewFingerprint(corpus: Corpus, id: string) {
   const sourceKeys = [...new Set(relevant.flatMap(e=>e.sourceRefs.concat(e.testRefs.filter(key=>corpus.sources.has(key)))).concat(bibKeys.flatMap(key=>corpus.references.get(key)!.sourceRefs)))].sort();
   return sha256(stableJSON({ own: semanticDigest(entry), dependencies: relevant.slice(1).map(e=>[e.id,semanticDigest(e)]), sources: sourceKeys.map(key=>corpus.sources.get(key)), references: bibKeys.map(key=>corpus.references.get(key)), evidence: [...new Set(relevant.flatMap(e=>e.evidenceRefs.concat(e.testRefs.filter(key=>corpus.evidence.has(key)))))].sort().map(key=>corpus.evidence.get(key)), aliases: [...corpus.aliases].filter(([key,value])=>sourceKeys.includes(key.slice(0,key.lastIndexOf(':'))) && bibKeys.includes(value)).sort(), renderingPolicy, rendererSha256:corpus.rendererSha256 }));
 }
+// Historical scientific registry only; production uses websiteReviewState.
 export function reviewState(corpus: Corpus, id: string) { const receipt = corpus.reviews.find(r=>r.entryId===id); return !receipt ? 'pending' : receipt.fingerprint !== reviewFingerprint(corpus,id) ? 'stale' : receipt.outcome; }
 export function affectedEntries(corpus: Corpus,id: string) {
   if(!corpus.entries.has(id) && !corpus.sources.has(id) && !corpus.references.has(id) && !corpus.evidence.has(id)) fail('UNKNOWN_DEPENDENCY',id);
@@ -191,7 +196,7 @@ export function loadCanonicalCorpus(root = process.cwd()): Corpus {
   const documents = readYAML(join(folder,'canonical-documents.yaml')) as unknown[];
   const records = readYAML(join(folder,'records.yaml')) as unknown[];
   const pages = filesIn(join(folder,'pages')).filter(p=>p.endsWith('.md')).map(path=> { const raw = readFileSync(join(folder,'pages',path),'utf8'); const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(raw); if (!match) fail('INVALID_FRONTMATTER',path); return { ...parse(match[1]), body: match[2] }; });
-  return validateCorpus({ entries: [...documents,...records,...pages], sources: readYAML(join(folder,'source-index.yaml')) as unknown[], references: readYAML(join(folder,'references.yaml')) as unknown[], aliases: readYAML(join(folder,'citation-aliases.yaml')) as unknown[], reviews: readYAML(join(folder,'reviews.yaml')) as unknown[], evidence: readYAML(join(folder,'execution-evidence.yaml')) as unknown[], record, root });
+  return validateCorpus({ entries: [...documents,...records,...pages], sources: readYAML(join(folder,'source-index.yaml')) as unknown[], references: readYAML(join(folder,'references.yaml')) as unknown[], aliases: readYAML(join(folder,'citation-aliases.yaml')) as unknown[], reviews: readYAML(join(folder,'reviews.yaml')) as unknown[], websiteReviews: readYAML(join(folder,'website-reviews.yaml')) as unknown[], evidence: readYAML(join(folder,'execution-evidence.yaml')) as unknown[], record, root });
 }
 export async function renderEntry(corpus: Corpus,entry: Entry,base='/') { return renderMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,base,corpus); }
 

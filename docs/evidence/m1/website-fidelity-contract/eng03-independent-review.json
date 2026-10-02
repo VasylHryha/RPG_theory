@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "baselineHEAD": "8377cd396592dfbe030790e0634b87e385cba067",
+  "acceptedScope": "Unchanged ENG-03 neutral metadata, all-five dependency regression, emitted review/status parity, and registry/evidence integrity only",
+  "scientificDecision": "NOT_REVIEWED; prior E05 decision preserved without support adjudication",
+  "consumers": [
+    "UT-E12",
+    "DOC-HOME",
+    "DOC-START",
+    "DOC-STATUS",
+    "DOC-PROOF"
+  ],
+  "unrelatedE10": "unchanged",
+  "artifacts": [
+    {
+      "base": "root",
+      "artifactSha256": "18f3748b4c823656776ca1bea9dad385309680def93a9d7afad355439ab229de",
+      "files": 101
+    },
+    {
+      "base": "subpath",
+      "artifactSha256": "b8169d960c1ca638ecde209385b13f77c1c58b31f10e04d8c2dbc94517bf5773",
+      "files": 101
+    }
+  ],
+  "newRepairsAccepted": false
+}
