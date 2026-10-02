@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "seals": [
+    {
+      "directory": "website-fidelity-contract",
+      "sealedIdentities": 71,
+      "exactEdition": "b023b17",
+      "status": "PASS"
+    },
+    {
+      "directory": "website-fidelity-recheck",
+      "sealedIdentities": 63,
+      "exactEdition": "92eb618",
+      "status": "PASS"
+    },
+    {
+      "directory": "website-fidelity-acceptance",
+      "sealedIdentities": 103,
+      "exactEdition": "2c85e17",
+      "status": "PASS"
+    },
+    {
+      "directory": "website-fidelity-quality-recheck",
+      "sealedIdentities": 56,
+      "exactEdition": "bbb6b19",
+      "status": "PASS"
+    }
+  ],
+  "qualityRecheckProtectedFiles": 1316,
+  "suppliedZipParityFiles": 13,
+  "historicalScientificRegistry": "unchanged; deferred",
+  "previousDecisions": "hashed issued bytes preserved",
+  "remoteCount": 0
+}

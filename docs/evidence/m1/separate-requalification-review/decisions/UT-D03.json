@@ -1,0 +1,99 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D03",
+  "fingerprint": "62e78b1e8c81997459381130b1cdbb870c50326033dfdd99ac0d59082ecab000",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Core §3 (26–43): R=(G,M) and G↔M retain mutual support/constraint, maintenance, transformation and destruction. Neither aspect becomes universally first in the excerpt or explanation. This separate review read the original passages and actual representations, verified exact unchanged inputs against the preserved predecessor and reviewed the changed policy. Both bases are captured in docs/evidence/m1/separate-requalification-review/independent-read-snapshots.json. Previous receipt docs/evidence/m1/website-fidelity-acceptance/decisions/UT-D03.json is preserved; its former fingerprint is not used as approval of this policy.",
+  "inputs": {
+    "fingerprint": "62e78b1e8c81997459381130b1cdbb870c50326033dfdd99ac0d59082ecab000",
+    "ownRead": {
+      "id": "UT-D03",
+      "route": "/claims/UT-D03/",
+      "title": "Resonant geometry",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 2,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 26,
+        "endLine": 43,
+        "excerptSha256": "f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1"
+      },
+      "statement": "## 3. Resonant geometry \\(R\\)\n\nThe basic RRG object is:\n\n\\[\n\\boxed{R=(G,M)}.\n\\]\n\nGeometry and mode structure are inseparable aspects of one organized system:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\n- Geometry constrains/supports which modes can exist.\n- The active mode structure supports, maintains, transforms, or destroys the geometry.\n\nNeither side is defined as universally \"first\".\n",
+      "plainLanguage": "RRG considers organization and mode structure together. Each constrains or changes the other.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+        "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+        "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Core §3 (26–43): R=(G,M) and G↔M retain mutual support/constraint, maintenance, transformation and destruction. Neither aspect becomes universally first in the excerpt or explanation. Original terminology and new navigation IDs remain distinct.",
+    "meaning": "Core §3 (26–43): R=(G,M) and G↔M retain mutual support/constraint, maintenance, transformation and destruction. Neither aspect becomes universally first in the excerpt or explanation. The exact excerpt, derivative body, plain-language display and applicable HOME projection were compared at / and /unity-theory/.",
+    "assumptions": "Core definitions, optional extensions and illustrative conditions remain separate. Core §3 (26–43): R=(G,M) and G↔M retain mutual support/constraint, maintenance, transformation and destruction. Neither aspect becomes universally first in the excerpt or explanation.",
+    "hypotheses": "The page introduces no newly established universal result. Core §3 (26–43): R=(G,M) and G↔M retain mutual support/constraint, maintenance, transformation and destruction. Neither aspect becomes universally first in the excerpt or explanation.",
+    "evidenceDescriptions": "Actual evidenceState=not-applicable. The role/status is faithful to the original source and does not certify scientific truth. Core §3 (26–43): R=(G,M) and G↔M retain mutual support/constraint, maintenance, transformation and destruction. Neither aspect becomes universally first in the excerpt or explanation.",
+    "openQuestions": "Core §3 (26–43): R=(G,M) and G↔M retain mutual support/constraint, maintenance, transformation and destruction. Neither aspect becomes universally first in the excerpt or explanation. The relevant open extensions remain unresolved, including the six status questions and Interaction §5 limits wherever reached. This decision accepts website fidelity only.",
+    "attribution": "The emitted source-bound page displays the source filename, edition, excerpt line range and excerpt SHA-256 in extraction details, plus its mapping and dependency links. ",
+    "sourceMappings": "Compared research/RRG_CURRENT/00_LOCKED_CORE.md:26–43 with the detached ownRead, all source/dependency identities and actual emitted surfaces. Every bound excerpt matches raw source bytes and its extraction hash; source TeX annotations and both rendered surfaces match. Core §3 (26–43): R=(G,M) and G↔M retain mutual support/constraint, maintenance, transformation and destruction. Neither aspect becomes universally first in the excerpt or explanation."
+  }
+}

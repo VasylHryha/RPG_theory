@@ -1,0 +1,118 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-C01",
+  "fingerprint": "b937950dd88f73452a058b3c20efea22575840cbf77c6de0032677fb05bba2d4",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Core §10 (128–136): one-to-one force/frequency/scale identity is not locked as fact. Four-interaction unification remains an extension to prove. Conjecture/proposed labels and the missing-universal-derivation limit accurately separate this from definitions. This separate review read the original passages and actual representations, verified exact unchanged inputs against the preserved predecessor and reviewed the changed policy. Both bases are captured in docs/evidence/m1/separate-requalification-review/independent-read-snapshots.json. Previous receipt docs/evidence/m1/website-fidelity-acceptance/decisions/UT-C01.json is preserved; its former fingerprint is not used as approval of this policy.",
+  "inputs": {
+    "fingerprint": "b937950dd88f73452a058b3c20efea22575840cbf77c6de0032677fb05bba2d4",
+    "ownRead": {
+      "id": "UT-C01",
+      "route": "/claims/UT-C01/",
+      "title": "Fundamental interaction extension",
+      "description": "An open downstream extension, distinct from the minimal locked definitions.",
+      "revision": 2,
+      "kind": "conjecture",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-PROOF"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 128,
+        "endLine": 136,
+        "excerptSha256": "14296615f64ff7eab2b9866fd7a8ecadec3f84151fbe652e6209667383e8b5c1"
+      },
+      "statement": "## 10. Interaction / force status\n\nThe following is **NOT locked as established fact**:\n\n> known forces are identical to resonant frequencies or correspond one-to-one with scales.\n\nThe locked core only says that interactions occur within and between resonant geometries and can participate in forming higher-level geometries.\n\nThe stronger claim that gravity, electromagnetism, weak, and strong interactions are scale-dependent manifestations of deeper resonant geometry is an **RRG extension to be proven**, not a definition.\n",
+      "plainLanguage": "",
+      "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+      "evidenceState": "proposed",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §10",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "No universal derivation or force unification is supplied.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-PROOF",
+        "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+        "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Core §10 (128–136): one-to-one force/frequency/scale identity is not locked as fact. Four-interaction unification remains an extension to prove. Conjecture/proposed labels and the missing-universal-derivation limit accurately separate this from definitions. Original terminology and new navigation IDs remain distinct.",
+    "meaning": "Core §10 (128–136): one-to-one force/frequency/scale identity is not locked as fact. Four-interaction unification remains an extension to prove. Conjecture/proposed labels and the missing-universal-derivation limit accurately separate this from definitions. The exact excerpt, derivative body, plain-language display and applicable HOME projection were compared at / and /unity-theory/.",
+    "assumptions": "Core definitions, optional extensions and illustrative conditions remain separate. Core §10 (128–136): one-to-one force/frequency/scale identity is not locked as fact. Four-interaction unification remains an extension to prove. Conjecture/proposed labels and the missing-universal-derivation limit accurately separate this from definitions.",
+    "hypotheses": "Proposed/open labels remain explicit. Core §10 (128–136): one-to-one force/frequency/scale identity is not locked as fact. Four-interaction unification remains an extension to prove. Conjecture/proposed labels and the missing-universal-derivation limit accurately separate this from definitions.",
+    "evidenceDescriptions": "Actual evidenceState=proposed. The role/status is faithful to the original source and does not certify scientific truth. Core §10 (128–136): one-to-one force/frequency/scale identity is not locked as fact. Four-interaction unification remains an extension to prove. Conjecture/proposed labels and the missing-universal-derivation limit accurately separate this from definitions.",
+    "openQuestions": "Core §10 (128–136): one-to-one force/frequency/scale identity is not locked as fact. Four-interaction unification remains an extension to prove. Conjecture/proposed labels and the missing-universal-derivation limit accurately separate this from definitions. The relevant open extensions remain unresolved, including the six status questions and Interaction §5 limits wherever reached. This decision accepts website fidelity only.",
+    "attribution": "The emitted source-bound page displays the source filename, edition, excerpt line range and excerpt SHA-256 in extraction details, plus its mapping and dependency links. ",
+    "sourceMappings": "Compared research/RRG_CURRENT/00_LOCKED_CORE.md:128–136 with the detached ownRead, all source/dependency identities and actual emitted surfaces. Every bound excerpt matches raw source bytes and its extraction hash; source TeX annotations and both rendered surfaces match. Core §10 (128–136): one-to-one force/frequency/scale identity is not locked as fact. Four-interaction unification remains an extension to prove. Conjecture/proposed labels and the missing-universal-derivation limit accurately separate this from definitions."
+  }
+}

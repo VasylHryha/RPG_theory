@@ -1,0 +1,449 @@
+{
+  "status": "PASS",
+  "baselineHead": "bbb6b19130501452447b02fcda1278e42b27c668",
+  "branch": "main",
+  "remoteCount": 0,
+  "protectedFiles": 1371,
+  "protectedScientificFiles": 13,
+  "protectedPriorEvidenceFiles": 1234,
+  "originalZipParityFiles": 13,
+  "previousRegistry": "exact prior snapshot preserved",
+  "earlierIssuedDecisionsAndEvidence": "byte-identical",
+  "earlierPlanReceipts": "byte-identical",
+  "productionAndTestFiles": "byte-identical",
+  "soleLockfile": "byte-identical",
+  "scientificSources": "byte-identical",
+  "historicalScientificRegistry": "unchanged; deferred",
+  "reviewStates": {
+    "accepted": 34,
+    "pending": 0,
+    "stale": 0,
+    "rejected": 0
+  },
+  "currentSourceQualified": true,
+  "engineeringAcceptance": {
+    "WF06": "ACCEPTED for unchanged reviewed test batch",
+    "QF07": "ACCEPTED for unchanged reviewed snapshot/path validator and controls",
+    "QF08": "ACCEPTED for unchanged reviewed invalidation/withdrawal controls",
+    "QF09": "ACCEPTED evidence correction; new decisions use accurate attribution"
+  },
+  "newProductionOrTestRepairs": "NONE",
+  "m1": "ACCEPTED for demonstrated private engineering and website fidelity",
+  "m2": "NOT_STARTED",
+  "publicActions": "NOT_RUN",
+  "taskFiles": [
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "bytes": 236299,
+      "sha256": "fc0fb1984ed3ef541975581b09f1765555345cd65d711576bacabcc07d527c7e"
+    },
+    {
+      "path": "research/publication/website-reviews.yaml",
+      "bytes": 14845,
+      "sha256": "0b722c6003c2df24f6e0ee490e5d681b0bd1abde32e92068c836bbf1a5563fe6"
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/baseline.json",
+      "bytes": 270727,
+      "sha256": "d53784c9947970bf9cc347498ed333924c4281b5ad4b98df2c075507b5d95185"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/browser-traces/root/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/browser-traces/subpath/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/content-bindings.json",
+      "bytes": 199937,
+      "sha256": "6103361ed6ad9b69efb946d87f396b492b2011a8715450fbabd64da95959b9b6"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/DOC-CONCEPT-GEOMETRY.json",
+      "bytes": 7203,
+      "sha256": "a5ad704a97a68e499c16ddac879e09083ccd7ba234ed463d5bd665f8629c3558"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/DOC-HOME.json",
+      "bytes": 12821,
+      "sha256": "32d96c04ad15e9351686e4e3346a4cfd6e4a81e093508b06b71bf7536dc48efa"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/DOC-PROOF.json",
+      "bytes": 14046,
+      "sha256": "75aba12a7c50cc85af367bff3f6de719f57b72006209af8e86f09aeca378dba2"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/DOC-START.json",
+      "bytes": 15463,
+      "sha256": "6aa9acbc63d16b56d222ad7fedd12f552bb1632d61270d288ff552ca8a182bbb"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/DOC-STATUS.json",
+      "bytes": 14043,
+      "sha256": "d7a918bab1b118ffd2e39987b36132681193689ad2a732095e97b9137d6eaebc"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-C01.json",
+      "bytes": 8037,
+      "sha256": "1df4307ba7696b851f48b88e2b9fcd328d9d1de4913b675ffd66c77facb5170b"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-C02.json",
+      "bytes": 7711,
+      "sha256": "d7800dd65d6935194d26ba26639050dfa6f120a61fff9dc1a8c24f6993e3bffa"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-D01.json",
+      "bytes": 6864,
+      "sha256": "4d2363f999798d2161783da0c7e15e1c50d317c4703a53192e0afcd7ab83f46e"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-D02.json",
+      "bytes": 6934,
+      "sha256": "e3ff6e54a14e2fe3cc72fecbfa7d832be11376e006a3c8414b77a43d438901af"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-D03.json",
+      "bytes": 6746,
+      "sha256": "38be4cf2c1e49b438a80c6bd8f96cded70661c74274f80264b590daf64f4ea22"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-D04.json",
+      "bytes": 7445,
+      "sha256": "a5b4bfd5e6e4559b64684bbab7252081e48b1a99f9f379e98b450bd662e4e199"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-D05.json",
+      "bytes": 7481,
+      "sha256": "ff091b0c099625f829d947c86b14c6db442304b69c650d972693502a307fe16b"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-D06.json",
+      "bytes": 7349,
+      "sha256": "e6dfcbd7a66b3d568b375472de2279f6c9139e043f60e6e6dde8ebf4805acc5c"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-D07.json",
+      "bytes": 7625,
+      "sha256": "b8b32bd1d259fb4dc6dfe10f9829226450b9609a34963f0b2ca46227c27351f9"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-D08.json",
+      "bytes": 7302,
+      "sha256": "c11b687bc0033332fece67a6007a65bebe49af5efaf98b005fc9d579fb61fb02"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-D09.json",
+      "bytes": 7695,
+      "sha256": "d0e23d0554dfa655e8933f275f04ff0b003b9cb44040c2bae6e7d9894661b4f4"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E01.json",
+      "bytes": 9536,
+      "sha256": "fd176dfe189c97795032539ba7f65c21ec9b193d3b5adc6c3194e04bc7e1d07b"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E02.json",
+      "bytes": 8507,
+      "sha256": "79f4a3d2bf74f118bb6aed9f612efb7a4ebbf99cb5bd63d2703c65ced22be45a"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E03.json",
+      "bytes": 8792,
+      "sha256": "d91631a0821709021ed84f868ecce0092ebc4ac4f4e562f262f5e7c07ed79a7c"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E04.json",
+      "bytes": 9054,
+      "sha256": "280f2b6654b1966fe1862bd1a45ca93e7a83f8f051179e5dfdf6f9ecee23598f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E05.json",
+      "bytes": 9342,
+      "sha256": "c38eada2762f6b8304f835cbecf14977618a82f4d94f7e58b48f06c4f5125ec7"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E06.json",
+      "bytes": 8911,
+      "sha256": "b4f6bd955b34f32c4f40c0d8f3da9b7aa78a55af548a0438539f70aed880710f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E07.json",
+      "bytes": 9401,
+      "sha256": "d8b20ca2ab71410b5406c72ee19b208b62972028fb0da621ae7e5c31b5342a00"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E08.json",
+      "bytes": 9111,
+      "sha256": "3c01f5c8b22829a9e5f6b168d3abdc156e18aaec319f59968a90b3f6a1791be0"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E09.json",
+      "bytes": 8838,
+      "sha256": "9a93e6a8793fc66292da86e0c1f58617ff8b771cbea67b2c29827281826e6330"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E10.json",
+      "bytes": 9673,
+      "sha256": "9c1791dd042ed67f96deef2815acace8b5701eef586dbde2734edae9172b6a0e"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E11.json",
+      "bytes": 10156,
+      "sha256": "e6c1a98965c89a6ef70f368a5ce6a16a306338cb7aa122629ca0f8e7f42f04e8"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-E12.json",
+      "bytes": 10217,
+      "sha256": "c954d7f3ed91c105a0f376cc21686a81202cc719b63c6ef2201edb4692fad4a6"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-O01.json",
+      "bytes": 7420,
+      "sha256": "6317db23009b8484110df66448bc0a8e8016618fd0a2bf71dcd9b64b81bfd30a"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-O02.json",
+      "bytes": 6786,
+      "sha256": "15832811895b5621ad587aea09be0ea3a617ce20f1ac1e6a368249627d4e8aa6"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-O03.json",
+      "bytes": 7287,
+      "sha256": "f0e4e2e87cc6ba6ed474c2588fe40738b3859bf739c49fbb806f16962e65d42f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-O04.json",
+      "bytes": 6665,
+      "sha256": "1c72fe8e641569454d0fc9405ae5d4df077d4d775128450c4f331b20f55d6d58"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-O05.json",
+      "bytes": 6439,
+      "sha256": "b1b2aae19287c1a8f6400fa0f42cecfab081771f71945c9f1bcff5ca33c73bb0"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/decisions/UT-O06.json",
+      "bytes": 6561,
+      "sha256": "b602d8eb534ebe8e0afa83dea0f747cdb024d3f2e3f1e4c68732e5d9801d7dd8"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/final-check.ts",
+      "bytes": 6933,
+      "sha256": "dd423e26738979146b2e0ac05c4f7dfa8bc0927ead33baac6a5f50bd1df94163"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/final-checks.json",
+      "bytes": 21598,
+      "sha256": "54a60e6a23fcc1603ebe0c2cf1dd9e7460616ad69f02bcd9eb86fb1617a2bc43"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/independent-engineering.json",
+      "bytes": 11366,
+      "sha256": "2ca99977681a2d6730abb7bd56cb6237a86c69a1140fdf46d361ace786711d24"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/independent-preservation.json",
+      "bytes": 842,
+      "sha256": "3217e907fe5983d4ec6c5c8894ab489f73ba80f359a10e496832a674249bef12"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/independent-read-snapshots.json",
+      "bytes": 341437,
+      "sha256": "c0484dc5f11470d39eab01bfd7458b517f8fbe8cc8e45305b1572f16d9600776"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/inspect.ts",
+      "bytes": 7435,
+      "sha256": "241ee0a3414a5e2b5ba4530f4f08357dea2375387271d2b8ceeb86c9ad18f181"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/preservation.py",
+      "bytes": 3322,
+      "sha256": "c712b9dccb8b9cf8e213ad6e8a362a24587869938c49f92099afc92c27ad5d7a"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/prior/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "bytes": 229671,
+      "sha256": "60b9720fcfba89ab0ff41caebd462ae222840277b548ca810614e5ed676404b8"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/prior/research/publication/website-reviews.yaml",
+      "bytes": 14709,
+      "sha256": "4b615ac1dbe3c200373e20a197d8807ce51350258dfdc18b16ceb8e690011501"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/qualification-refusal.log",
+      "bytes": 1036,
+      "sha256": "8c31ca4bbad93382ffbd337d8c2e0b10a79a1402220472858ae295f12344e11b"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/record-decisions.ts",
+      "bytes": 14329,
+      "sha256": "2e1a74ca48699e3e305bd022f869d7c9fbe79318ce6e6f86a124757ef9bb91d4"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/release-refusal.log",
+      "bytes": 1036,
+      "sha256": "8c31ca4bbad93382ffbd337d8c2e0b10a79a1402220472858ae295f12344e11b"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/representations-read.txt",
+      "bytes": 122681,
+      "sha256": "b32523e3fd9b369cec996af35197a43c0bd9c07064d57f56b3cca96e0b107cdc"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/review-receipt.md",
+      "bytes": 14594,
+      "sha256": "3a595c5ff54e1e3dd9f9c7960352d82699b7bd6f2d77e4a4a9fb8c6adf883f9e"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-artifact.json",
+      "bytes": 17264,
+      "sha256": "1b1fd8e57379fd9a25712537b5f3a6c89dfb97e38288e608d772aa0dc5daa08e"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-browser.json",
+      "bytes": 9362,
+      "sha256": "0980503f0fb956cff59703433754b6ae63d6bf8049cc4021231d92e05d24395d"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-claim-definition.png",
+      "bytes": 149754,
+      "sha256": "cca3db90c59cd7850e268df1d5b9e64f725d9158f813d323309942768122538e"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-evidence-source-details.png",
+      "bytes": 341636,
+      "sha256": "d96819aa263ea620c75ad231cf6e5051e442ab94e61cde0dcaaeb1436241405d"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-home-dark.png",
+      "bytes": 397552,
+      "sha256": "78175be5fb6240f356429e94ac786b766cd0879bc46e32837a07b01577a4e18c"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-home-desktop.png",
+      "bytes": 135192,
+      "sha256": "be37274e9ea02ce97a48ed798ef2655b6f062a8d4f5b6463ba3c6501704e4757"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-home-mobile.png",
+      "bytes": 368179,
+      "sha256": "b14e9a0239a8a4c11ba19b9f1ac0f15c37564a11e3f76fa57325434ee010ef7c"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-literature-desktop.png",
+      "bytes": 1286142,
+      "sha256": "13bad56b34b60f5d1694a7df3fd53df88d00e0c7fcc111c7ea678fbbd9ba83a7"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-literature-mobile.png",
+      "bytes": 1315172,
+      "sha256": "1137a30f7089854b6651e4906296d5515c5aa64931d6323c39f50b6a8ce7302f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-math-mobile.png",
+      "bytes": 82725,
+      "sha256": "66a2fc8ea94be5d0bc44df90fe75df59466511027fd5123c97fcc16b41f03d0f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-proof-matrix-mobile.png",
+      "bytes": 349929,
+      "sha256": "a27b76e41cd8f7e0d96f5812530976d1d1b3b7bd6f458b1c91cbc7246ed0206f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/root-research-status.png",
+      "bytes": 561492,
+      "sha256": "35bbe971d9a98285d96f33eda94202149044ecada0d7371cc4adfca73731aa8f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/seal.py",
+      "bytes": 3907,
+      "sha256": "61d8f49afa004b84ee133f1fac61e1e080254d472c69d1b243d7c539ff559eb0"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-artifact.json",
+      "bytes": 17277,
+      "sha256": "a44df90956904d58f0ef8f1fd33fcf0c43a40228e70a8a6cdc9be094d2c9ef5a"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-browser.json",
+      "bytes": 9378,
+      "sha256": "af80ad176eb5e40430baffdfd5bef2526c2de36ec00871dac915b41b0c7cbdee"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-claim-definition.png",
+      "bytes": 149754,
+      "sha256": "cca3db90c59cd7850e268df1d5b9e64f725d9158f813d323309942768122538e"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-evidence-source-details.png",
+      "bytes": 341636,
+      "sha256": "d96819aa263ea620c75ad231cf6e5051e442ab94e61cde0dcaaeb1436241405d"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-home-dark.png",
+      "bytes": 397552,
+      "sha256": "78175be5fb6240f356429e94ac786b766cd0879bc46e32837a07b01577a4e18c"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-home-desktop.png",
+      "bytes": 135192,
+      "sha256": "be37274e9ea02ce97a48ed798ef2655b6f062a8d4f5b6463ba3c6501704e4757"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-home-mobile.png",
+      "bytes": 368179,
+      "sha256": "b14e9a0239a8a4c11ba19b9f1ac0f15c37564a11e3f76fa57325434ee010ef7c"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-literature-desktop.png",
+      "bytes": 1286142,
+      "sha256": "13bad56b34b60f5d1694a7df3fd53df88d00e0c7fcc111c7ea678fbbd9ba83a7"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-literature-mobile.png",
+      "bytes": 1315172,
+      "sha256": "1137a30f7089854b6651e4906296d5515c5aa64931d6323c39f50b6a8ce7302f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-math-mobile.png",
+      "bytes": 82725,
+      "sha256": "66a2fc8ea94be5d0bc44df90fe75df59466511027fd5123c97fcc16b41f03d0f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-proof-matrix-mobile.png",
+      "bytes": 349929,
+      "sha256": "a27b76e41cd8f7e0d96f5812530976d1d1b3b7bd6f458b1c91cbc7246ed0206f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/subpath-research-status.png",
+      "bytes": 561492,
+      "sha256": "35bbe971d9a98285d96f33eda94202149044ecada0d7371cc4adfca73731aa8f"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/verification-subpath.log",
+      "bytes": 4575,
+      "sha256": "4f6f7fc456fd90db8e5057050b065e20536df49e49182d397fc86f5152037da9"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/verification-tests-builds.log",
+      "bytes": 13290,
+      "sha256": "036a3c9f1f944d9506824758a59288591db9b32d8ddbcf486eac5327a95fea22"
+    },
+    {
+      "path": "docs/evidence/m1/separate-requalification-review/verification.json",
+      "bytes": 1544,
+      "sha256": "129a2cb4bdd24825daa6088261604530e8aeeb387f86a07a00c095830c760df2"
+    }
+  ],
+  "sealSelfExcluded": true
+}

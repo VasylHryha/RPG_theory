@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D02",
+  "fingerprint": "3d64ab03dbce441c5ef06e80a709b271458b735ce198effad2aee014eeaa80b8",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Core §2 (16–24): full temporal organization includes frequency, phase, amplitude, propagation, coupling, times and response. The displayed summary preserves breadth beyond one hertz value, and the full list and scalar-frequency limitation remain visible. This separate review read the original passages and actual representations, verified exact unchanged inputs against the preserved predecessor and reviewed the changed policy. Both bases are captured in docs/evidence/m1/separate-requalification-review/independent-read-snapshots.json. Previous receipt docs/evidence/m1/website-fidelity-acceptance/decisions/UT-D02.json is preserved; its former fingerprint is not used as approval of this policy.",
+  "inputs": {
+    "fingerprint": "3d64ab03dbce441c5ef06e80a709b271458b735ce198effad2aee014eeaa80b8",
+    "ownRead": {
+      "id": "UT-D02",
+      "route": "/claims/UT-D02/",
+      "title": "Mode structure",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 1,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 16,
+        "endLine": 24,
+        "excerptSha256": "2a796e231760733d9076357e12a40973ea228e3a38d41c432dde2cb19f008c0e"
+      },
+      "statement": "## 2. Frequency / mode structure \\(M\\)\n\nIn RRG, **frequency** is shorthand for the system's full temporal mode organization, not one scalar value in hertz:\n\n\\[\nM=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}.\n\\]\n\nA scalar frequency alone is never assumed to uniquely determine a geometry.\n",
+      "plainLanguage": "Mode structure includes rhythms, phases, coupling, response and characteristic times, rather than one number in hertz.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+        "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+        "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Core §2 (16–24): full temporal organization includes frequency, phase, amplitude, propagation, coupling, times and response. The displayed summary preserves breadth beyond one hertz value, and the full list and scalar-frequency limitation remain visible. Original terminology and new navigation IDs remain distinct.",
+    "meaning": "Core §2 (16–24): full temporal organization includes frequency, phase, amplitude, propagation, coupling, times and response. The displayed summary preserves breadth beyond one hertz value, and the full list and scalar-frequency limitation remain visible. The exact excerpt, derivative body, plain-language display and applicable HOME projection were compared at / and /unity-theory/.",
+    "assumptions": "Core definitions, optional extensions and illustrative conditions remain separate. Core §2 (16–24): full temporal organization includes frequency, phase, amplitude, propagation, coupling, times and response. The displayed summary preserves breadth beyond one hertz value, and the full list and scalar-frequency limitation remain visible.",
+    "hypotheses": "The page introduces no newly established universal result. Core §2 (16–24): full temporal organization includes frequency, phase, amplitude, propagation, coupling, times and response. The displayed summary preserves breadth beyond one hertz value, and the full list and scalar-frequency limitation remain visible.",
+    "evidenceDescriptions": "Actual evidenceState=not-applicable. The role/status is faithful to the original source and does not certify scientific truth. Core §2 (16–24): full temporal organization includes frequency, phase, amplitude, propagation, coupling, times and response. The displayed summary preserves breadth beyond one hertz value, and the full list and scalar-frequency limitation remain visible.",
+    "openQuestions": "Core §2 (16–24): full temporal organization includes frequency, phase, amplitude, propagation, coupling, times and response. The displayed summary preserves breadth beyond one hertz value, and the full list and scalar-frequency limitation remain visible. The relevant open extensions remain unresolved, including the six status questions and Interaction §5 limits wherever reached. This decision accepts website fidelity only.",
+    "attribution": "The emitted source-bound page displays the source filename, edition, excerpt line range and excerpt SHA-256 in extraction details, plus its mapping and dependency links. ",
+    "sourceMappings": "Compared research/RRG_CURRENT/00_LOCKED_CORE.md:16–24 with the detached ownRead, all source/dependency identities and actual emitted surfaces. Every bound excerpt matches raw source bytes and its extraction hash; source TeX annotations and both rendered surfaces match. Core §2 (16–24): full temporal organization includes frequency, phase, amplitude, propagation, coupling, times and response. The displayed summary preserves breadth beyond one hertz value, and the full list and scalar-frequency limitation remain visible."
+  }
+}

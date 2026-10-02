@@ -1,0 +1,102 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D04",
+  "fingerprint": "13d6e8b6ed5df9406ebb2f6477758ba3f252dde632e17eb187ce9e2632512287",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Core §4 (45–55): self-consistent closure defines stability during its interval. The explanation preserves non-permanence; lifetime, perturbation recovery, Lyapunov stability, decay and metastability remain system tests rather than new definitions. This separate review read the original passages and actual representations, verified exact unchanged inputs against the preserved predecessor and reviewed the changed policy. Both bases are captured in docs/evidence/m1/separate-requalification-review/independent-read-snapshots.json. Previous receipt docs/evidence/m1/website-fidelity-acceptance/decisions/UT-D04.json is preserved; its former fingerprint is not used as approval of this policy.",
+  "inputs": {
+    "fingerprint": "13d6e8b6ed5df9406ebb2f6477758ba3f252dde632e17eb187ce9e2632512287",
+    "ownRead": {
+      "id": "UT-D04",
+      "route": "/claims/UT-D04/",
+      "title": "Stability",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 2,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 45,
+        "endLine": 55,
+        "excerptSha256": "c6f7fe3e4ae4ad799503dfd266c8bba802d2e459bfc2c332ad8eebe6270b0414"
+      },
+      "statement": "## 4. Stability\n\n**Locked definition:** a geometry is stable in RRG while its geometry and mode structure form a self-consistent closed organization:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\nStability is **not permanence**. A state may satisfy the closure for a very short or very long interval.\n\nLifetime, perturbation recovery, Lyapunov stability, decay width, or metastability are **measurements/tests of a particular system**, not replacements for this core definition.\n",
+      "plainLanguage": "RRG calls the geometry–mode organization stable while it is self-consistent. This does not require permanence.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §4; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+        "plainLanguageSha256": "7e7e296baa2a4e7ead74a81bd4ea7dfb2b31fabac23ce19e16ffd881efb6833e",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+        "plainLanguageSha256": "7e7e296baa2a4e7ead74a81bd4ea7dfb2b31fabac23ce19e16ffd881efb6833e",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Core §4 (45–55): self-consistent closure defines stability during its interval. The explanation preserves non-permanence; lifetime, perturbation recovery, Lyapunov stability, decay and metastability remain system tests rather than new definitions. Original terminology and new navigation IDs remain distinct.",
+    "meaning": "Core §4 (45–55): self-consistent closure defines stability during its interval. The explanation preserves non-permanence; lifetime, perturbation recovery, Lyapunov stability, decay and metastability remain system tests rather than new definitions. The exact excerpt, derivative body, plain-language display and applicable HOME projection were compared at / and /unity-theory/.",
+    "assumptions": "Core definitions, optional extensions and illustrative conditions remain separate. Core §4 (45–55): self-consistent closure defines stability during its interval. The explanation preserves non-permanence; lifetime, perturbation recovery, Lyapunov stability, decay and metastability remain system tests rather than new definitions.",
+    "hypotheses": "The page introduces no newly established universal result. Core §4 (45–55): self-consistent closure defines stability during its interval. The explanation preserves non-permanence; lifetime, perturbation recovery, Lyapunov stability, decay and metastability remain system tests rather than new definitions.",
+    "evidenceDescriptions": "Actual evidenceState=not-applicable. The role/status is faithful to the original source and does not certify scientific truth. Core §4 (45–55): self-consistent closure defines stability during its interval. The explanation preserves non-permanence; lifetime, perturbation recovery, Lyapunov stability, decay and metastability remain system tests rather than new definitions.",
+    "openQuestions": "Core §4 (45–55): self-consistent closure defines stability during its interval. The explanation preserves non-permanence; lifetime, perturbation recovery, Lyapunov stability, decay and metastability remain system tests rather than new definitions. The relevant open extensions remain unresolved, including the six status questions and Interaction §5 limits wherever reached. This decision accepts website fidelity only.",
+    "attribution": "The emitted source-bound page displays the source filename, edition, excerpt line range and excerpt SHA-256 in extraction details, plus its mapping and dependency links. ",
+    "sourceMappings": "Compared research/RRG_CURRENT/00_LOCKED_CORE.md:45–55 with the detached ownRead, all source/dependency identities and actual emitted surfaces. Every bound excerpt matches raw source bytes and its extraction hash; source TeX annotations and both rendered surfaces match. Core §4 (45–55): self-consistent closure defines stability during its interval. The explanation preserves non-permanence; lifetime, perturbation recovery, Lyapunov stability, decay and metastability remain system tests rather than new definitions."
+  }
+}

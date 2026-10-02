@@ -1,0 +1,112 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D08",
+  "fingerprint": "884218454d60101a9900f0b99d3debe36c8b5de04cd40ac26ddf42323c4d4189",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Core §8 (98–112): recursion is structural formation of successive effective organizations. The summary preserves changing mechanisms and the full excerpt retains the geometry–mode relation at every level. This separate review read the original passages and actual representations, verified exact unchanged inputs against the preserved predecessor and reviewed the changed policy. Both bases are captured in docs/evidence/m1/separate-requalification-review/independent-read-snapshots.json. Previous receipt docs/evidence/m1/website-fidelity-acceptance/decisions/UT-D08.json is preserved; its former fingerprint is not used as approval of this policy.",
+  "inputs": {
+    "fingerprint": "884218454d60101a9900f0b99d3debe36c8b5de04cd40ac26ddf42323c4d4189",
+    "ownRead": {
+      "id": "UT-D08",
+      "route": "/claims/UT-D08/",
+      "title": "Recursion",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 2,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 98,
+        "endLine": 112,
+        "excerptSha256": "e0d4d8d7cedc6d2ae92b2fe309339361c64a250f8a50ce13f7d11f28acb62791"
+      },
+      "statement": "## 8. Recursion\n\nThe core recursive claim is structural:\n\n\\[\n\\boxed{\\{R_n^i\\}\\rightarrow R_{n+1}\\rightarrow R_{n+2}\\rightarrow\\cdots}.\n\\]\n\nAt every level the locked relation remains:\n\n\\[\n\\boxed{R_n=(G_n,M_n),\\qquad G_n\\leftrightarrow M_n}.\n\\]\n\nThe mechanisms implementing the relation may change with scale.\n",
+      "plainLanguage": "Organized units may take part in further organization. This structural claim does not require an identical microscopic equation.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §8; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "5a7ad5b619436603525e7f1e74fc2343bc03f90fad34189f26eae92447acb2df",
+        "plainLanguageSha256": "843e13e4db95ca3fdad9486ffcab38295286df94b62d5af85a9f08749d3c5494",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "5a7ad5b619436603525e7f1e74fc2343bc03f90fad34189f26eae92447acb2df",
+        "plainLanguageSha256": "843e13e4db95ca3fdad9486ffcab38295286df94b62d5af85a9f08749d3c5494",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Core §8 (98–112): recursion is structural formation of successive effective organizations. The summary preserves changing mechanisms and the full excerpt retains the geometry–mode relation at every level. Original terminology and new navigation IDs remain distinct.",
+    "meaning": "Core §8 (98–112): recursion is structural formation of successive effective organizations. The summary preserves changing mechanisms and the full excerpt retains the geometry–mode relation at every level. The exact excerpt, derivative body, plain-language display and applicable HOME projection were compared at / and /unity-theory/.",
+    "assumptions": "Core definitions, optional extensions and illustrative conditions remain separate. Core §8 (98–112): recursion is structural formation of successive effective organizations. The summary preserves changing mechanisms and the full excerpt retains the geometry–mode relation at every level.",
+    "hypotheses": "The page introduces no newly established universal result. Core §8 (98–112): recursion is structural formation of successive effective organizations. The summary preserves changing mechanisms and the full excerpt retains the geometry–mode relation at every level.",
+    "evidenceDescriptions": "Actual evidenceState=not-applicable. The role/status is faithful to the original source and does not certify scientific truth. Core §8 (98–112): recursion is structural formation of successive effective organizations. The summary preserves changing mechanisms and the full excerpt retains the geometry–mode relation at every level.",
+    "openQuestions": "Core §8 (98–112): recursion is structural formation of successive effective organizations. The summary preserves changing mechanisms and the full excerpt retains the geometry–mode relation at every level. The relevant open extensions remain unresolved, including the six status questions and Interaction §5 limits wherever reached. This decision accepts website fidelity only.",
+    "attribution": "The emitted source-bound page displays the source filename, edition, excerpt line range and excerpt SHA-256 in extraction details, plus its mapping and dependency links. ",
+    "sourceMappings": "Compared research/RRG_CURRENT/00_LOCKED_CORE.md:98–112 with the detached ownRead, all source/dependency identities and actual emitted surfaces. Every bound excerpt matches raw source bytes and its extraction hash; source TeX annotations and both rendered surfaces match. Core §8 (98–112): recursion is structural formation of successive effective organizations. The summary preserves changing mechanisms and the full excerpt retains the geometry–mode relation at every level."
+  }
+}

@@ -1,0 +1,2145 @@
+DOC-STATUS
+{
+  "id": "DOC-STATUS",
+  "route": "/research-status/",
+  "title": "Current research status",
+  "description": "Research status reported by the supplied documents, with explicit extension boundaries.",
+  "revision": 3,
+  "kind": "research-status",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-CONTROL",
+    "R-CURRENT-CORE",
+    "R-CURRENT-INTERACTIONS",
+    "R-CURRENT-PROOF",
+    "R-CURRENT-STATUS"
+  ],
+  "dependsOn": [
+    "UT-C01",
+    "UT-C02",
+    "UT-D01",
+    "UT-D02",
+    "UT-D03",
+    "UT-D04",
+    "UT-D05",
+    "UT-D06",
+    "UT-D07",
+    "UT-D08",
+    "UT-D09",
+    "UT-E10",
+    "UT-E11",
+    "UT-E12",
+    "UT-O01",
+    "UT-O02",
+    "UT-O03",
+    "UT-O04",
+    "UT-O05",
+    "UT-O06"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-STATUS",
+    "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+    "startLine": 3,
+    "endLine": 41,
+    "excerptSha256": "65365f2935370ae8ba5494c51334b1eb76ede7f6523e9db238ddce2e46ce2d68"
+  },
+  "statement": "## Authoritative core\n\nSee **00_LOCKED_CORE.md**. No research example or mathematical model may redefine those terms without passing **05_CHANGE_CONTROL.md**.\n\n## Conceptually locked\n\n1. \\(R=(G,M)\\): resonant geometry is geometry + full temporal mode structure.\n2. \\(G\\leftrightarrow M\\): geometry supports/constrains mode structure; mode structure supports/maintains/transforms geometry.\n3. Stability is that self-consistent closure for however long it exists; it is not permanence.\n4. Higher structures may contain identical or different lower structures.\n5. Lower-level dynamics remain active inside higher levels.\n6. Different arrangements/compositions can create different higher resonant geometries.\n7. Each scale may use different microscopic mechanisms and equations.\n8. Replication is one possible mechanism, not a universal mandatory step.\n\n## Open extensions to prove — not definitions\n\n1. Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.\n2. Whether gravity is an emergent higher-scale geometric/mode regime.\n3. Whether cosmological background evolution selects which resonant geometries are accessible.\n4. Whether one cross-domain mathematical invariant or promotion criterion exists.\n5. Whether RRG yields a novel prediction beyond existing frameworks.\n6. Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.\n\n## Research discipline\n\nNew evidence must be used in this order:\n\n\\[\n\\boxed{\\text{test locked core}\\rightarrow\\text{support / extension / contradiction candidate}}\n\\]\n\nNever:\n\n\\[\n\\boxed{\\text{new example}\\rightarrow\\text{silent new definition}}\n\\]\n\nA core change requires the complete proof gate in **05_CHANGE_CONTROL.md**.\\n\\n## Evidence update: emergent interaction channels\\n\\nAdditional physics evidence supports the mechanism that a lower-level organized medium can generate a higher-level effective interaction:\\n\\n- phonons mediating effective electron attraction in superconductivity;\\n- spin-ice geometry producing emergent magnetic charges with Coulomb-like interactions;\\n- the Higgs-field background changing the observable electroweak interaction regime.\\n\\nThis strengthens the downstream extension:\\n\\n\\\\[\\nR_n\\\\rightarrow\\\\mathcal I_{n+1}^{\\\\rm eff}\\\\rightarrow R_{n+1}.\\n\\\\]\\n\\nIt does **not** close the claim that the four fundamental forces themselves are all deeper RRG manifestations.\\n\n",
+  "plainLanguage": "",
+  "scope": "Research status reported by the supplied documents, with explicit extension boundaries.",
+  "evidenceState": "not-applicable",
+  "body": "## Evidence source links\n\nThe status addendum refers to the scoped evidence records :claim[UT-E10], :claim[UT-E11] and :claim[UT-E12], each with literature links.\n",
+  "sourceMapping": "04_status_and_blockers.md body, with an explicitly scoped literal-backslash addendum display adapter.",
+  "adapter": "rrg-escaped-addendum/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: Authoritative core
+See 00_LOCKED_CORE.md. No research example or mathematical model may redefine those terms without passing 05_CHANGE_CONTROL.md.
+Conceptually locked
+
+R=(G,M)R=(G,M)R=(G,M): resonant geometry is geometry + full temporal mode structure.
+G↔MG\leftrightarrow MG↔M: geometry supports/constrains mode structure; mode structure supports/maintains/transforms geometry.
+Stability is that self-consistent closure for however long it exists; it is not permanence.
+Higher structures may contain identical or different lower structures.
+Lower-level dynamics remain active inside higher levels.
+Different arrangements/compositions can create different higher resonant geometries.
+Each scale may use different microscopic mechanisms and equations.
+Replication is one possible mechanism, not a universal mandatory step.
+
+Open extensions to prove — not definitions
+
+Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.
+Whether gravity is an emergent higher-scale geometric/mode regime.
+Whether cosmological background evolution selects which resonant geometries are accessible.
+Whether one cross-domain mathematical invariant or promotion criterion exists.
+Whether RRG yields a novel prediction beyond existing frameworks.
+Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.
+
+Research discipline
+New evidence must be used in this order:
+test locked core→support / extension / contradiction candidate\boxed{\text{test locked core}\rightarrow\text{support / extension / contradiction candidate}}test locked core→support / extension / contradiction candidate​
+Never:
+new example→silent new definition\boxed{\text{new example}\rightarrow\text{silent new definition}}new example→silent new definition​
+A core change requires the complete proof gate in 05_CHANGE_CONTROL.md.
+Evidence update: emergent interaction channels
+Additional physics evidence supports the mechanism that a lower-level organized medium can generate a higher-level effective interaction:
+
+phonons mediating effective electron attraction in superconductivity;
+spin-ice geometry producing emergent magnetic charges with Coulomb-like interactions;
+the Higgs-field background changing the observable electroweak interaction regime.
+
+This strengthens the downstream extension:
+Rn→In+1eff→Rn+1.R_n\rightarrow\mathcal I_{n+1}^{\rm eff}\rightarrow R_{n+1}.Rn​→In+1eff​→Rn+1​.
+It does not close the claim that the four fundamental forces themselves are all deeper RRG manifestations.
+Evidence source links
+The status addendum refers to the scoped evidence records UT-E10, UT-E11 and UT-E12, each with literature links.
+PLAIN: 
+DETAILS: Scope and sourcesResearch status reported by the supplied documents, with explicit extension boundaries.04_status_and_blockers.md body, with an explicitly scoped literal-backslash addendum display adapter.Source extraction detailsExtracted from 04_status_and_blockers.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 3–41.Raw excerpt SHA-256: 65365f2935370ae8ba5494c51334b1eb76ede7f6523e9db238ddce2e46ce2d68Depends onUT-C01 — Fundamental interaction extensionUT-C02 — Background and possibility-space extensionUT-D01 — GeometryUT-D02 — Mode structureUT-D03 — Resonant geometryUT-D04 — StabilityUT-D05 — ScaleUT-D06 — Higher-level formationUT-D07 — VariationUT-D08 — RecursionUT-D09 — Replication and recurrenceUT-E10 — Phonon-mediated effective attractionUT-E11 — Emergent spin-ice charges and interactionsUT-E12 — Background state and interaction regimeUT-O01 — Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.UT-O02 — Whether gravity is an emergent higher-scale geometric/mode regime.UT-O03 — Whether cosmological background evolution selects which resonant geometries are accessible.UT-O04 — Whether one cross-domain mathematical invariant or promotion criterion exists.UT-O05 — Whether RRG yields a novel prediction beyond existing frameworks.UT-O06 — Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.Read the claim and evidence matrix
+
+DOC-PROOF
+{
+  "id": "DOC-PROOF",
+  "route": "/research-status/proof-matrix/",
+  "title": "Claim and evidence matrix",
+  "description": "Reported status and failure meanings; the document title does not certify proof.",
+  "revision": 2,
+  "kind": "research-status",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CONTROL",
+    "R-CURRENT-CORE",
+    "R-CURRENT-INTERACTIONS",
+    "R-CURRENT-PROOF",
+    "R-CURRENT-STATUS"
+  ],
+  "dependsOn": [
+    "UT-C01",
+    "UT-C02",
+    "UT-D01",
+    "UT-D02",
+    "UT-D03",
+    "UT-D04",
+    "UT-D05",
+    "UT-D06",
+    "UT-D07",
+    "UT-D08",
+    "UT-D09",
+    "UT-E10",
+    "UT-E11",
+    "UT-E12",
+    "UT-O01",
+    "UT-O02",
+    "UT-O03",
+    "UT-O04",
+    "UT-O05",
+    "UT-O06"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-PROOF",
+    "sourceSha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf",
+    "startLine": 3,
+    "endLine": 23,
+    "excerptSha256": "66997726c6ea67eb4743320e7842e72fb6d2dcf2562550597bf1f81389f637c5"
+  },
+  "statement": "This file tells us what must be proved **without changing the locked core**.\n\n| Claim | Status | What would count as evidence | What would count against it | Core impact |\n|---|---|---|---|---|\n| Geometry constrains supported modes | supported in many known systems | spectral/normal-mode calculations and experiments | a claimed application where geometry has no definable mode relation | none unless it contradicts locked definition |\n| Modes can maintain/transform geometry | supported in many systems | backreaction, coupled-mode, optomechanical, self-organization examples | failure in a specific implementation | none |\n| Heterogeneous lower structures can form a higher resonant geometry | core claim / common in known systems | molecules, cells, composite systems, network modes | genuine contradiction must pass change-control proof gate | possible core impact only after proof gate |\n| Lower-level modes remain active inside higher structures | core claim | multiscale measurements/reductions | evidence that higher formation literally eliminates lower state variables in a claimed case | proof gate required |\n| Different scales may use different mechanisms | locked | established effective theories already allow this | no issue | none |\n| Same equation family reappears at each scale | optional strong extension | RG fixed points/universality/form-invariant reductions | different effective equations across scales | rejects extension only |\n| Four forces are deeper resonant-geometry manifestations | open extension | derivation of known interactions/charges/ranges/symmetries from a deeper model | incompatibility with observed force structure | extension rejected; core unchanged |\n| Gravity is emergent resonant geometry | open extension | recover equivalence principle, Lorentz/diffeomorphism structure, GR limits | experimental/theoretical no-go under model assumptions | extension rejected; core unchanged |\n| Cosmic background selects accessible geometries | open extension | derive/fit known phase transitions and structure windows | model fails while standard physics succeeds | extension rejected/refined |\n| Cross-domain RRG invariant exists | open extension | same measurable criterion predicts organization in ≥2 unrelated domains | criterion becomes domain-specific or post-hoc | extension weakened |\n| RRG improves AI | open application | controlled benchmark gains at equal resources | no gain / worse scaling | application rejected; core unchanged |\n\n| Lower-level organization can generate an effective higher-level interaction channel | supported in known physical systems | phonon-mediated attraction, emergent spin-ice charges/interactions, collective mediated interactions | a claimed system where the proposed emergent interaction cannot be derived or measured | supports extension; core unchanged |\n\n## Rule\n\nA failed extension is **not** permission to redefine the core. It is simply a failed extension unless a complete core contradiction passes `05_CHANGE_CONTROL.md`.\n",
+  "plainLanguage": "",
+  "scope": "Reported status and failure meanings; the document title does not certify proof.",
+  "evidenceState": "not-applicable",
+  "body": "",
+  "sourceMapping": "06_PROOF_MATRIX.md body; faithful table display.",
+  "adapter": "rrg-proof-table/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: This file tells us what must be proved without changing the locked core.
+
+
+
+Claim
+Status
+What would count as evidence
+What would count against it
+Core impact
+
+
+
+
+Geometry constrains supported modes
+supported in many known systems
+spectral/normal-mode calculations and experiments
+a claimed application where geometry has no definable mode relation
+none unless it contradicts locked definition
+
+
+Modes can maintain/transform geometry
+supported in many systems
+backreaction, coupled-mode, optomechanical, self-organization examples
+failure in a specific implementation
+none
+
+
+Heterogeneous lower structures can form a higher resonant geometry
+core claim / common in known systems
+molecules, cells, composite systems, network modes
+genuine contradiction must pass change-control proof gate
+possible core impact only after proof gate
+
+
+Lower-level modes remain active inside higher structures
+core claim
+multiscale measurements/reductions
+evidence that higher formation literally eliminates lower state variables in a claimed case
+proof gate required
+
+
+Different scales may use different mechanisms
+locked
+established effective theories already allow this
+no issue
+none
+
+
+Same equation family reappears at each scale
+optional strong extension
+RG fixed points/universality/form-invariant reductions
+different effective equations across scales
+rejects extension only
+
+
+Four forces are deeper resonant-geometry manifestations
+open extension
+derivation of known interactions/charges/ranges/symmetries from a deeper model
+incompatibility with observed force structure
+extension rejected; core unchanged
+
+
+Gravity is emergent resonant geometry
+open extension
+recover equivalence principle, Lorentz/diffeomorphism structure, GR limits
+experimental/theoretical no-go under model assumptions
+extension rejected; core unchanged
+
+
+Cosmic background selects accessible geometries
+open extension
+derive/fit known phase transitions and structure windows
+model fails while standard physics succeeds
+extension rejected/refined
+
+
+Cross-domain RRG invariant exists
+open extension
+same measurable criterion predicts organization in ≥2 unrelated domains
+criterion becomes domain-specific or post-hoc
+extension weakened
+
+
+RRG improves AI
+open application
+controlled benchmark gains at equal resources
+no gain / worse scaling
+application rejected; core unchanged
+
+
+Lower-level organization can generate an effective higher-level interaction channel
+supported in known physical systems
+phonon-mediated attraction, emergent spin-ice charges/interactions, collective mediated interactions
+a claimed system where the proposed emergent interaction cannot be derived or measured
+supports extension; core unchanged
+
+
+
+Rule
+A failed extension is not permission to redefine the core. It is simply a failed extension unless a complete core contradiction passes 05_CHANGE_CONTROL.md.
+PLAIN: 
+DETAILS: Scope and sourcesReported status and failure meanings; the document title does not certify proof.06_PROOF_MATRIX.md body; faithful table display.Source extraction detailsExtracted from 06_PROOF_MATRIX.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 3–23.Raw excerpt SHA-256: 66997726c6ea67eb4743320e7842e72fb6d2dcf2562550597bf1f81389f637c5Depends onUT-C01 — Fundamental interaction extensionUT-C02 — Background and possibility-space extensionUT-D01 — GeometryUT-D02 — Mode structureUT-D03 — Resonant geometryUT-D04 — StabilityUT-D05 — ScaleUT-D06 — Higher-level formationUT-D07 — VariationUT-D08 — RecursionUT-D09 — Replication and recurrenceUT-E10 — Phonon-mediated effective attractionUT-E11 — Emergent spin-ice charges and interactionsUT-E12 — Background state and interaction regimeUT-O01 — Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.UT-O02 — Whether gravity is an emergent higher-scale geometric/mode regime.UT-O03 — Whether cosmological background evolution selects which resonant geometries are accessible.UT-O04 — Whether one cross-domain mathematical invariant or promotion criterion exists.UT-O05 — Whether RRG yields a novel prediction beyond existing frameworks.UT-O06 — Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.
+
+DOC-CONCEPT-GEOMETRY
+{
+  "id": "DOC-CONCEPT-GEOMETRY",
+  "route": "/concepts/geometry-and-modes/",
+  "title": "Geometry and mode structure",
+  "description": "A minimal M1 concept consumer of the current geometry, mode and reciprocal-organization definitions.",
+  "revision": 2,
+  "kind": "concept",
+  "lang": "en",
+  "audience": "general",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-CORE"
+  ],
+  "dependsOn": [
+    "UT-D01",
+    "UT-D02",
+    "UT-D03"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "authored",
+  "sourceBinding": null,
+  "statement": null,
+  "plainLanguage": "",
+  "scope": "A minimal M1 concept consumer of the current geometry, mode and reciprocal-organization definitions.",
+  "evidenceState": "not-applicable",
+  "body": "## Geometry\n\n::claim{id=\"UT-D01\" view=\"plainLanguage\"}\n\n## Mode structure\n\n::claim{id=\"UT-D02\" view=\"plainLanguage\"}\n\n## Together\n\n::claim{id=\"UT-D03\" view=\"plainLanguage\"}\n",
+  "sourceMapping": "",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: Geometry
+Organization at a chosen scale includes components, relationships, boundaries and constraints.
+UT-D01
+Mode structure
+Mode structure includes rhythms, phases, coupling, response and characteristic times, rather than one number in hertz.
+UT-D02
+Together
+RRG considers organization and mode structure together. Each constrains or changes the other.
+UT-D03
+PLAIN: 
+DETAILS: Scope and sourcesA minimal M1 concept consumer of the current geometry, mode and reciprocal-organization definitions.Depends onUT-D01 — GeometryUT-D02 — Mode structureUT-D03 — Resonant geometry
+
+UT-D01
+{
+  "id": "UT-D01",
+  "route": "/claims/UT-D01/",
+  "title": "Geometry",
+  "description": "A locked RRG meaning; a definition is not an experimental finding.",
+  "revision": 1,
+  "kind": "definition",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE"
+  ],
+  "dependsOn": [],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 6,
+    "endLine": 14,
+    "excerptSha256": "680c99c03b1ea11424b27fef2214ae09b72646cd103d2f025b5dc5c7a38c7e34"
+  },
+  "statement": "## 1. Geometry \\(G\\)\n\nIn RRG, **geometry** means the organization of a system at a chosen scale:\n\n\\[\nG=\\{\\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\\}.\n\\]\n\nGeometry is not limited to visible Euclidean shape.\n",
+  "plainLanguage": "Organization at a chosen scale includes components, relationships, boundaries and constraints.",
+  "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+  "evidenceState": "not-applicable",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §1; new navigation ID, source has no UT ID.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 1. Geometry GGG
+In RRG, geometry means the organization of a system at a chosen scale:
+G={components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}.G=\{\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\}.G={components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}.
+Geometry is not limited to visible Euclidean shape.
+PLAIN: Organization at a chosen scale includes components, relationships, boundaries and constraints.
+DETAILS: In plain languageSource fidelity: Stale — rereview requiredOrganization at a chosen scale includes components, relationships, boundaries and constraints.Scope and sourcesA locked RRG meaning; a definition is not an experimental finding.00_LOCKED_CORE.md §1; new navigation ID, source has no UT ID.Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 6–14.Raw excerpt SHA-256: 680c99c03b1ea11424b27fef2214ae09b72646cd103d2f025b5dc5c7a38c7e34
+
+UT-D02
+{
+  "id": "UT-D02",
+  "route": "/claims/UT-D02/",
+  "title": "Mode structure",
+  "description": "A locked RRG meaning; a definition is not an experimental finding.",
+  "revision": 1,
+  "kind": "definition",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE"
+  ],
+  "dependsOn": [],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 16,
+    "endLine": 24,
+    "excerptSha256": "2a796e231760733d9076357e12a40973ea228e3a38d41c432dde2cb19f008c0e"
+  },
+  "statement": "## 2. Frequency / mode structure \\(M\\)\n\nIn RRG, **frequency** is shorthand for the system's full temporal mode organization, not one scalar value in hertz:\n\n\\[\nM=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}.\n\\]\n\nA scalar frequency alone is never assumed to uniquely determine a geometry.\n",
+  "plainLanguage": "Mode structure includes rhythms, phases, coupling, response and characteristic times, rather than one number in hertz.",
+  "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+  "evidenceState": "not-applicable",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 2. Frequency / mode structure MMM
+In RRG, frequency is shorthand for the system's full temporal mode organization, not one scalar value in hertz:
+M={ω,ϕ,A,ψ,propagation, coupling, characteristic timescales, response}.M=\{\omega,\phi,A,\psi,\text{propagation, coupling, characteristic timescales, response}\}.M={ω,ϕ,A,ψ,propagation, coupling, characteristic timescales, response}.
+A scalar frequency alone is never assumed to uniquely determine a geometry.
+PLAIN: Mode structure includes rhythms, phases, coupling, response and characteristic times, rather than one number in hertz.
+DETAILS: In plain languageSource fidelity: Stale — rereview requiredMode structure includes rhythms, phases, coupling, response and characteristic times, rather than one number in hertz.Scope and sourcesA locked RRG meaning; a definition is not an experimental finding.00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID.Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 16–24.Raw excerpt SHA-256: 2a796e231760733d9076357e12a40973ea228e3a38d41c432dde2cb19f008c0e
+
+UT-D03
+{
+  "id": "UT-D03",
+  "route": "/claims/UT-D03/",
+  "title": "Resonant geometry",
+  "description": "A locked RRG meaning; a definition is not an experimental finding.",
+  "revision": 2,
+  "kind": "definition",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE"
+  ],
+  "dependsOn": [
+    "UT-D01",
+    "UT-D02"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 26,
+    "endLine": 43,
+    "excerptSha256": "f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1"
+  },
+  "statement": "## 3. Resonant geometry \\(R\\)\n\nThe basic RRG object is:\n\n\\[\n\\boxed{R=(G,M)}.\n\\]\n\nGeometry and mode structure are inseparable aspects of one organized system:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\n- Geometry constrains/supports which modes can exist.\n- The active mode structure supports, maintains, transforms, or destroys the geometry.\n\nNeither side is defined as universally \"first\".\n",
+  "plainLanguage": "RRG considers organization and mode structure together. Each constrains or changes the other.",
+  "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+  "evidenceState": "not-applicable",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 3. Resonant geometry RRR
+The basic RRG object is:
+R=(G,M).\boxed{R=(G,M)}.R=(G,M)​.
+Geometry and mode structure are inseparable aspects of one organized system:
+G↔M.\boxed{G\leftrightarrow M}.G↔M​.
+
+Geometry constrains/supports which modes can exist.
+The active mode structure supports, maintains, transforms, or destroys the geometry.
+
+Neither side is defined as universally "first".
+PLAIN: RRG considers organization and mode structure together. Each constrains or changes the other.
+DETAILS: In plain languageSource fidelity: Stale — rereview requiredRRG considers organization and mode structure together. Each constrains or changes the other.Scope and sourcesA locked RRG meaning; a definition is not an experimental finding.00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID.Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 26–43.Raw excerpt SHA-256: f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1Depends onUT-D01 — GeometryUT-D02 — Mode structure
+
+UT-D04
+{
+  "id": "UT-D04",
+  "route": "/claims/UT-D04/",
+  "title": "Stability",
+  "description": "A locked RRG meaning; a definition is not an experimental finding.",
+  "revision": 2,
+  "kind": "definition",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE"
+  ],
+  "dependsOn": [
+    "UT-D03"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 45,
+    "endLine": 55,
+    "excerptSha256": "c6f7fe3e4ae4ad799503dfd266c8bba802d2e459bfc2c332ad8eebe6270b0414"
+  },
+  "statement": "## 4. Stability\n\n**Locked definition:** a geometry is stable in RRG while its geometry and mode structure form a self-consistent closed organization:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\nStability is **not permanence**. A state may satisfy the closure for a very short or very long interval.\n\nLifetime, perturbation recovery, Lyapunov stability, decay width, or metastability are **measurements/tests of a particular system**, not replacements for this core definition.\n",
+  "plainLanguage": "RRG calls the geometry–mode organization stable while it is self-consistent. This does not require permanence.",
+  "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+  "evidenceState": "not-applicable",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §4; new navigation ID, source has no UT ID.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 4. Stability
+Locked definition: a geometry is stable in RRG while its geometry and mode structure form a self-consistent closed organization:
+G↔M.\boxed{G\leftrightarrow M}.G↔M​.
+Stability is not permanence. A state may satisfy the closure for a very short or very long interval.
+Lifetime, perturbation recovery, Lyapunov stability, decay width, or metastability are measurements/tests of a particular system, not replacements for this core definition.
+PLAIN: RRG calls the geometry–mode organization stable while it is self-consistent. This does not require permanence.
+DETAILS: In plain languageSource fidelity: Stale — rereview requiredRRG calls the geometry–mode organization stable while it is self-consistent. This does not require permanence.Scope and sourcesA locked RRG meaning; a definition is not an experimental finding.00_LOCKED_CORE.md §4; new navigation ID, source has no UT ID.Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 45–55.Raw excerpt SHA-256: c6f7fe3e4ae4ad799503dfd266c8bba802d2e459bfc2c332ad8eebe6270b0414Depends onUT-D03 — Resonant geometry
+
+UT-D05
+{
+  "id": "UT-D05",
+  "route": "/claims/UT-D05/",
+  "title": "Scale",
+  "description": "A locked RRG meaning; a definition is not an experimental finding.",
+  "revision": 2,
+  "kind": "definition",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D06"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 84,
+    "endLine": 96,
+    "excerptSha256": "7df4282e0cf099ff89d7eef30506f57f0e10cbf79eba8b25b1197bb0cbffa7a0"
+  },
+  "statement": "## 7. Scale\n\nA **scale** is a level at which a collective resonant geometry can function as an effective unit in further interactions.\n\nDifferent scales may have different:\n\n- characteristic sizes,\n- characteristic times/frequencies,\n- dominant interactions,\n- effective mechanisms,\n- compositions and geometries.\n\nRRG does **not** require the same microscopic mechanism or identical equation at every scale.\n",
+  "plainLanguage": "A collective organization can function as an effective unit in further interactions. Mechanisms may differ across scales.",
+  "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+  "evidenceState": "not-applicable",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §7; new navigation ID, source has no UT ID.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 7. Scale
+A scale is a level at which a collective resonant geometry can function as an effective unit in further interactions.
+Different scales may have different:
+
+characteristic sizes,
+characteristic times/frequencies,
+dominant interactions,
+effective mechanisms,
+compositions and geometries.
+
+RRG does not require the same microscopic mechanism or identical equation at every scale.
+PLAIN: A collective organization can function as an effective unit in further interactions. Mechanisms may differ across scales.
+DETAILS: In plain languageSource fidelity: Stale — rereview requiredA collective organization can function as an effective unit in further interactions. Mechanisms may differ across scales.Scope and sourcesA locked RRG meaning; a definition is not an experimental finding.00_LOCKED_CORE.md §7; new navigation ID, source has no UT ID.Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 84–96.Raw excerpt SHA-256: 7df4282e0cf099ff89d7eef30506f57f0e10cbf79eba8b25b1197bb0cbffa7a0Depends onUT-D03 — Resonant geometryUT-D06 — Higher-level formation
+
+UT-D06
+{
+  "id": "UT-D06",
+  "route": "/claims/UT-D06/",
+  "title": "Higher-level formation",
+  "description": "A locked RRG meaning; a definition is not an experimental finding.",
+  "revision": 2,
+  "kind": "definition",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE"
+  ],
+  "dependsOn": [
+    "UT-D03"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 57,
+    "endLine": 72,
+    "excerptSha256": "70d9e6d53a6d43c1a7410abfa801d650bd026f9da24e986c907b3151ea075286"
+  },
+  "statement": "## 5. Higher-level formation\n\nA higher-level resonant geometry may be formed from any compatible collection of lower-level resonant geometries:\n\n\\[\n\\boxed{\\{R_n^1,R_n^2,\\ldots,R_n^m\\}\\rightarrow R_{n+1}}.\n\\]\n\nThe lower-level members:\n\n- do not need to be identical;\n- do not need to duplicate first;\n- can have different roles and internal modes;\n- remain internally active after the higher-level structure forms.\n\nThe higher level introduces new collective constraints and a new collective mode structure while containing the lower levels.\n",
+  "plainLanguage": "Compatible lower-level systems may form a higher-level organization while retaining internal activity. Their components may differ.",
+  "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+  "evidenceState": "not-applicable",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §5; new navigation ID, source has no UT ID.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 5. Higher-level formation
+A higher-level resonant geometry may be formed from any compatible collection of lower-level resonant geometries:
+{Rn1,Rn2,…,Rnm}→Rn+1.\boxed{\{R_n^1,R_n^2,\ldots,R_n^m\}\rightarrow R_{n+1}}.{Rn1​,Rn2​,…,Rnm​}→Rn+1​​.
+The lower-level members:
+
+do not need to be identical;
+do not need to duplicate first;
+can have different roles and internal modes;
+remain internally active after the higher-level structure forms.
+
+The higher level introduces new collective constraints and a new collective mode structure while containing the lower levels.
+PLAIN: Compatible lower-level systems may form a higher-level organization while retaining internal activity. Their components may differ.
+DETAILS: In plain languageSource fidelity: Stale — rereview requiredCompatible lower-level systems may form a higher-level organization while retaining internal activity. Their components may differ.Scope and sourcesA locked RRG meaning; a definition is not an experimental finding.00_LOCKED_CORE.md §5; new navigation ID, source has no UT ID.Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 57–72.Raw excerpt SHA-256: 70d9e6d53a6d43c1a7410abfa801d650bd026f9da24e986c907b3151ea075286Depends onUT-D03 — Resonant geometry
+
+UT-D07
+{
+  "id": "UT-D07",
+  "route": "/claims/UT-D07/",
+  "title": "Variation",
+  "description": "A locked RRG meaning; a definition is not an experimental finding.",
+  "revision": 2,
+  "kind": "definition",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE"
+  ],
+  "dependsOn": [
+    "UT-D06"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 74,
+    "endLine": 82,
+    "excerptSha256": "70a9c9b21a7a9301abe5268e7e4b870ddeac3c4e6b07ccbbe52a04d10de675fb"
+  },
+  "statement": "## 6. Variation\n\nDifferent counts, arrangements, compositions, orientations, connections, phases, and environments may create different higher-level resonant geometries from the same lower-level building blocks.\n\n\\[\n\\boxed{\\text{same or related lower units}+\\text{different organization}\\rightarrow\\text{different }R_{n+1}}.\n\\]\n\nVariation is therefore fully compatible with the core and requires no new principle.\n",
+  "plainLanguage": "Related building blocks can participate in different organizations under different arrangements and conditions.",
+  "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+  "evidenceState": "not-applicable",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §6; new navigation ID, source has no UT ID.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 6. Variation
+Different counts, arrangements, compositions, orientations, connections, phases, and environments may create different higher-level resonant geometries from the same lower-level building blocks.
+same or related lower units+different organization→different Rn+1.\boxed{\text{same or related lower units}+\text{different organization}\rightarrow\text{different }R_{n+1}}.same or related lower units+different organization→different Rn+1​​.
+Variation is therefore fully compatible with the core and requires no new principle.
+PLAIN: Related building blocks can participate in different organizations under different arrangements and conditions.
+DETAILS: In plain languageSource fidelity: Stale — rereview requiredRelated building blocks can participate in different organizations under different arrangements and conditions.Scope and sourcesA locked RRG meaning; a definition is not an experimental finding.00_LOCKED_CORE.md §6; new navigation ID, source has no UT ID.Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 74–82.Raw excerpt SHA-256: 70a9c9b21a7a9301abe5268e7e4b870ddeac3c4e6b07ccbbe52a04d10de675fbDepends onUT-D06 — Higher-level formation
+
+UT-D08
+{
+  "id": "UT-D08",
+  "route": "/claims/UT-D08/",
+  "title": "Recursion",
+  "description": "A locked RRG meaning; a definition is not an experimental finding.",
+  "revision": 2,
+  "kind": "definition",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D05",
+    "UT-D06"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 98,
+    "endLine": 112,
+    "excerptSha256": "e0d4d8d7cedc6d2ae92b2fe309339361c64a250f8a50ce13f7d11f28acb62791"
+  },
+  "statement": "## 8. Recursion\n\nThe core recursive claim is structural:\n\n\\[\n\\boxed{\\{R_n^i\\}\\rightarrow R_{n+1}\\rightarrow R_{n+2}\\rightarrow\\cdots}.\n\\]\n\nAt every level the locked relation remains:\n\n\\[\n\\boxed{R_n=(G_n,M_n),\\qquad G_n\\leftrightarrow M_n}.\n\\]\n\nThe mechanisms implementing the relation may change with scale.\n",
+  "plainLanguage": "Organized units may take part in further organization. This structural claim does not require an identical microscopic equation.",
+  "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+  "evidenceState": "not-applicable",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §8; new navigation ID, source has no UT ID.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 8. Recursion
+The core recursive claim is structural:
+{Rni}→Rn+1→Rn+2→⋯.\boxed{\{R_n^i\}\rightarrow R_{n+1}\rightarrow R_{n+2}\rightarrow\cdots}.{Rni​}→Rn+1​→Rn+2​→⋯​.
+At every level the locked relation remains:
+Rn=(Gn,Mn),Gn↔Mn.\boxed{R_n=(G_n,M_n),\qquad G_n\leftrightarrow M_n}.Rn​=(Gn​,Mn​),Gn​↔Mn​​.
+The mechanisms implementing the relation may change with scale.
+PLAIN: Organized units may take part in further organization. This structural claim does not require an identical microscopic equation.
+DETAILS: In plain languageSource fidelity: Stale — rereview requiredOrganized units may take part in further organization. This structural claim does not require an identical microscopic equation.Scope and sourcesA locked RRG meaning; a definition is not an experimental finding.00_LOCKED_CORE.md §8; new navigation ID, source has no UT ID.Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 98–112.Raw excerpt SHA-256: e0d4d8d7cedc6d2ae92b2fe309339361c64a250f8a50ce13f7d11f28acb62791Depends onUT-D03 — Resonant geometryUT-D05 — ScaleUT-D06 — Higher-level formation
+
+UT-D09
+{
+  "id": "UT-D09",
+  "route": "/claims/UT-D09/",
+  "title": "Replication and recurrence",
+  "description": "A locked RRG meaning; a definition is not an experimental finding.",
+  "revision": 2,
+  "kind": "definition",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE"
+  ],
+  "dependsOn": [
+    "UT-D06",
+    "UT-D08"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 114,
+    "endLine": 126,
+    "excerptSha256": "6a0b719f6b5236c68fc8f6c9663e9c5d69f01a9621e54d8e9ade00ee9ad639e2"
+  },
+  "statement": "## 9. Replication / recurrence\n\nReplication, duplication, autocatalysis, reproduction, aggregation, differentiation, self-assembly, and symmetry breaking are **possible mechanisms of higher-level formation or propagation**, not mandatory steps in the core recursion.\n\nRRG never requires:\n\n\\[\nA\\rightarrow A+A\\rightarrow B\n\\]\n\nat every level.\n\nBiological replication is therefore an example, not the definition of recursion.\n",
+  "plainLanguage": "Replication is one possible way to form or propagate organization; it is not required at every level.",
+  "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+  "evidenceState": "not-applicable",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §9; new navigation ID, source has no UT ID.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 9. Replication / recurrence
+Replication, duplication, autocatalysis, reproduction, aggregation, differentiation, self-assembly, and symmetry breaking are possible mechanisms of higher-level formation or propagation, not mandatory steps in the core recursion.
+RRG never requires:
+A→A+A→BA\rightarrow A+A\rightarrow BA→A+A→B
+at every level.
+Biological replication is therefore an example, not the definition of recursion.
+PLAIN: Replication is one possible way to form or propagate organization; it is not required at every level.
+DETAILS: In plain languageSource fidelity: Stale — rereview requiredReplication is one possible way to form or propagate organization; it is not required at every level.Scope and sourcesA locked RRG meaning; a definition is not an experimental finding.00_LOCKED_CORE.md §9; new navigation ID, source has no UT ID.Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 114–126.Raw excerpt SHA-256: 6a0b719f6b5236c68fc8f6c9663e9c5d69f01a9621e54d8e9ade00ee9ad639e2Depends onUT-D06 — Higher-level formationUT-D08 — Recursion
+
+UT-C01
+{
+  "id": "UT-C01",
+  "route": "/claims/UT-C01/",
+  "title": "Fundamental interaction extension",
+  "description": "An open downstream extension, distinct from the minimal locked definitions.",
+  "revision": 2,
+  "kind": "conjecture",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE",
+    "R-CURRENT-PROOF"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D05",
+    "UT-D06"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 128,
+    "endLine": 136,
+    "excerptSha256": "14296615f64ff7eab2b9866fd7a8ecadec3f84151fbe652e6209667383e8b5c1"
+  },
+  "statement": "## 10. Interaction / force status\n\nThe following is **NOT locked as established fact**:\n\n> known forces are identical to resonant frequencies or correspond one-to-one with scales.\n\nThe locked core only says that interactions occur within and between resonant geometries and can participate in forming higher-level geometries.\n\nThe stronger claim that gravity, electromagnetism, weak, and strong interactions are scale-dependent manifestations of deeper resonant geometry is an **RRG extension to be proven**, not a definition.\n",
+  "plainLanguage": "",
+  "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+  "evidenceState": "proposed",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §10",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "No universal derivation or force unification is supplied.",
+  "rightsRef": null
+}
+DISPLAY: 10. Interaction / force status
+The following is NOT locked as established fact:
+
+known forces are identical to resonant frequencies or correspond one-to-one with scales.
+
+The locked core only says that interactions occur within and between resonant geometries and can participate in forming higher-level geometries.
+The stronger claim that gravity, electromagnetism, weak, and strong interactions are scale-dependent manifestations of deeper resonant geometry is an RRG extension to be proven, not a definition.
+PLAIN: 
+DETAILS: Scope and sourcesAn open downstream extension, distinct from the minimal locked definitions.No universal derivation or force unification is supplied.00_LOCKED_CORE.md §10Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 128–136.Raw excerpt SHA-256: 14296615f64ff7eab2b9866fd7a8ecadec3f84151fbe652e6209667383e8b5c1Depends onUT-D03 — Resonant geometryUT-D05 — ScaleUT-D06 — Higher-level formation
+
+UT-C02
+{
+  "id": "UT-C02",
+  "route": "/claims/UT-C02/",
+  "title": "Background and possibility-space extension",
+  "description": "An open downstream extension, distinct from the minimal locked definitions.",
+  "revision": 2,
+  "kind": "conjecture",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-CORE",
+    "R-CURRENT-PROOF"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D05",
+    "UT-D07"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-CORE",
+    "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "startLine": 138,
+    "endLine": 140,
+    "excerptSha256": "69de818aad3845247d950f3f58629c917dd67d3a14689d3c7ea28fc6d38a5a48"
+  },
+  "statement": "## 11. Background / possibility-space status\n\nThe idea that global cosmological/environmental conditions change which resonant geometries are accessible is an **extension compatible with the core**, not part of the minimal definition.\n",
+  "plainLanguage": "",
+  "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+  "evidenceState": "proposed",
+  "body": "",
+  "sourceMapping": "00_LOCKED_CORE.md §11",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "No universal derivation or force unification is supplied.",
+  "rightsRef": null
+}
+DISPLAY: 11. Background / possibility-space status
+The idea that global cosmological/environmental conditions change which resonant geometries are accessible is an extension compatible with the core, not part of the minimal definition.
+PLAIN: 
+DETAILS: Scope and sourcesAn open downstream extension, distinct from the minimal locked definitions.No universal derivation or force unification is supplied.00_LOCKED_CORE.md §11Source extraction detailsExtracted from 00_LOCKED_CORE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 138–140.Raw excerpt SHA-256: 69de818aad3845247d950f3f58629c917dd67d3a14689d3c7ea28fc6d38a5a48Depends onUT-D03 — Resonant geometryUT-D05 — ScaleUT-D07 — Variation
+
+UT-O01
+{
+  "id": "UT-O01",
+  "route": "/claims/UT-O01/",
+  "title": "Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.",
+  "description": "An unresolved question listed by the current status source.",
+  "revision": 1,
+  "kind": "open-problem",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-STATUS",
+    "R-CURRENT-PROOF"
+  ],
+  "dependsOn": [
+    "UT-C01"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-STATUS",
+    "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+    "startLine": 20,
+    "endLine": 20,
+    "excerptSha256": "cf5142020c98df070cbecb259c700959e4168bc1640a75341e6f7031ba00e073"
+  },
+  "statement": "1. Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.\n",
+  "plainLanguage": "",
+  "scope": "An unresolved question listed by the current status source.",
+  "evidenceState": "proposed",
+  "body": "",
+  "sourceMapping": "04_status_and_blockers.md open extension 1",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 
+Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.
+
+PLAIN: 
+DETAILS: Scope and sourcesAn unresolved question listed by the current status source.04_status_and_blockers.md open extension 1Source extraction detailsExtracted from 04_status_and_blockers.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 20–20.Raw excerpt SHA-256: cf5142020c98df070cbecb259c700959e4168bc1640a75341e6f7031ba00e073Depends onUT-C01 — Fundamental interaction extension
+
+UT-O02
+{
+  "id": "UT-O02",
+  "route": "/claims/UT-O02/",
+  "title": "Whether gravity is an emergent higher-scale geometric/mode regime.",
+  "description": "An unresolved question listed by the current status source.",
+  "revision": 1,
+  "kind": "open-problem",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-STATUS",
+    "R-CURRENT-PROOF"
+  ],
+  "dependsOn": [
+    "UT-C01"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-STATUS",
+    "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+    "startLine": 21,
+    "endLine": 21,
+    "excerptSha256": "bcd86beeb66061dbff5c80d0747df01a549c085c4ccdaf3b367d1ace21038b04"
+  },
+  "statement": "2. Whether gravity is an emergent higher-scale geometric/mode regime.\n",
+  "plainLanguage": "",
+  "scope": "An unresolved question listed by the current status source.",
+  "evidenceState": "proposed",
+  "body": "",
+  "sourceMapping": "04_status_and_blockers.md open extension 2",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 
+Whether gravity is an emergent higher-scale geometric/mode regime.
+
+PLAIN: 
+DETAILS: Scope and sourcesAn unresolved question listed by the current status source.04_status_and_blockers.md open extension 2Source extraction detailsExtracted from 04_status_and_blockers.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 21–21.Raw excerpt SHA-256: bcd86beeb66061dbff5c80d0747df01a549c085c4ccdaf3b367d1ace21038b04Depends onUT-C01 — Fundamental interaction extension
+
+UT-O03
+{
+  "id": "UT-O03",
+  "route": "/claims/UT-O03/",
+  "title": "Whether cosmological background evolution selects which resonant geometries are accessible.",
+  "description": "An unresolved question listed by the current status source.",
+  "revision": 1,
+  "kind": "open-problem",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-STATUS",
+    "R-CURRENT-PROOF"
+  ],
+  "dependsOn": [
+    "UT-C02"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-STATUS",
+    "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+    "startLine": 22,
+    "endLine": 22,
+    "excerptSha256": "7a0b6a7eb30f3fe44b410336d9f40b1dcc7de3fcd27eed1705f8d5494131fc27"
+  },
+  "statement": "3. Whether cosmological background evolution selects which resonant geometries are accessible.\n",
+  "plainLanguage": "",
+  "scope": "An unresolved question listed by the current status source.",
+  "evidenceState": "proposed",
+  "body": "",
+  "sourceMapping": "04_status_and_blockers.md open extension 3",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 
+Whether cosmological background evolution selects which resonant geometries are accessible.
+
+PLAIN: 
+DETAILS: Scope and sourcesAn unresolved question listed by the current status source.04_status_and_blockers.md open extension 3Source extraction detailsExtracted from 04_status_and_blockers.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 22–22.Raw excerpt SHA-256: 7a0b6a7eb30f3fe44b410336d9f40b1dcc7de3fcd27eed1705f8d5494131fc27Depends onUT-C02 — Background and possibility-space extension
+
+UT-O04
+{
+  "id": "UT-O04",
+  "route": "/claims/UT-O04/",
+  "title": "Whether one cross-domain mathematical invariant or promotion criterion exists.",
+  "description": "An unresolved question listed by the current status source.",
+  "revision": 1,
+  "kind": "open-problem",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-STATUS",
+    "R-CURRENT-PROOF"
+  ],
+  "dependsOn": [
+    "UT-D03"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-STATUS",
+    "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+    "startLine": 23,
+    "endLine": 23,
+    "excerptSha256": "f20abe052bd72e31bc2f0cbff35baa099c835e5d857194acef4cd708559f3df5"
+  },
+  "statement": "4. Whether one cross-domain mathematical invariant or promotion criterion exists.\n",
+  "plainLanguage": "",
+  "scope": "An unresolved question listed by the current status source.",
+  "evidenceState": "proposed",
+  "body": "",
+  "sourceMapping": "04_status_and_blockers.md open extension 4",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 
+Whether one cross-domain mathematical invariant or promotion criterion exists.
+
+PLAIN: 
+DETAILS: Scope and sourcesAn unresolved question listed by the current status source.04_status_and_blockers.md open extension 4Source extraction detailsExtracted from 04_status_and_blockers.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 23–23.Raw excerpt SHA-256: f20abe052bd72e31bc2f0cbff35baa099c835e5d857194acef4cd708559f3df5Depends onUT-D03 — Resonant geometry
+
+UT-O05
+{
+  "id": "UT-O05",
+  "route": "/claims/UT-O05/",
+  "title": "Whether RRG yields a novel prediction beyond existing frameworks.",
+  "description": "An unresolved question listed by the current status source.",
+  "revision": 1,
+  "kind": "open-problem",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-STATUS",
+    "R-CURRENT-PROOF"
+  ],
+  "dependsOn": [
+    "UT-D03"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-STATUS",
+    "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+    "startLine": 24,
+    "endLine": 24,
+    "excerptSha256": "e905bcf8e229eb2f27164f826a89e73e0b83859e39f0b1b1801c5e1e4d822287"
+  },
+  "statement": "5. Whether RRG yields a novel prediction beyond existing frameworks.\n",
+  "plainLanguage": "",
+  "scope": "An unresolved question listed by the current status source.",
+  "evidenceState": "proposed",
+  "body": "",
+  "sourceMapping": "04_status_and_blockers.md open extension 5",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 
+Whether RRG yields a novel prediction beyond existing frameworks.
+
+PLAIN: 
+DETAILS: Scope and sourcesAn unresolved question listed by the current status source.04_status_and_blockers.md open extension 5Source extraction detailsExtracted from 04_status_and_blockers.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 24–24.Raw excerpt SHA-256: e905bcf8e229eb2f27164f826a89e73e0b83859e39f0b1b1801c5e1e4d822287Depends onUT-D03 — Resonant geometry
+
+UT-O06
+{
+  "id": "UT-O06",
+  "route": "/claims/UT-O06/",
+  "title": "Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.",
+  "description": "An unresolved question listed by the current status source.",
+  "revision": 1,
+  "kind": "open-problem",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-STATUS",
+    "R-CURRENT-PROOF"
+  ],
+  "dependsOn": [
+    "UT-D03"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-STATUS",
+    "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+    "startLine": 25,
+    "endLine": 25,
+    "excerptSha256": "d1ca4473a4718eb0585e36378583d42ea28366e1914dab2718998af329207d35"
+  },
+  "statement": "6. Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.\n",
+  "plainLanguage": "",
+  "scope": "An unresolved question listed by the current status source.",
+  "evidenceState": "proposed",
+  "body": "",
+  "sourceMapping": "04_status_and_blockers.md open extension 6",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: 
+Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.
+
+PLAIN: 
+DETAILS: Scope and sourcesAn unresolved question listed by the current status source.04_status_and_blockers.md open extension 6Source extraction detailsExtracted from 04_status_and_blockers.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 25–25.Raw excerpt SHA-256: d1ca4473a4718eb0585e36378583d42ea28366e1914dab2718998af329207d35Depends onUT-D03 — Resonant geometry
+
+UT-E01
+{
+  "id": "UT-E01",
+  "route": "/claims/UT-E01/",
+  "title": "Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions",
+  "description": "An experiment or restricted result reported by the supplied evidence documents.",
+  "revision": 3,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-ADDITIONAL"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D05",
+    "UT-D06",
+    "UT-D07",
+    "UT-D08"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0022",
+    "BIB-0023"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-ADDITIONAL",
+    "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+    "startLine": 17,
+    "endLine": 32,
+    "excerptSha256": "86b4deadb9e57bf6aa3e865f82648f213a0c63605c59b5a3e16fa24c18973b45"
+  },
+  "statement": "### E01 — He et al. (2019)\n\n**Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions**  \nNature Communications 10, 5756. DOI: [10.1038/s41467-019-13746-6](https://doi.org/10.1038/s41467-019-13746-6)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment with theoretical modelling.  \n**Existing clauses:** §3, §5, §6, §7, §8.\n\nMixed assemblies contain single pulses, pairs and triplets; internal pair dynamics coexist with larger-scale optical–acoustic organization.\n\n**Scope:** Designed, pumped fibre-laser system; optical molecules are bound pulses, not chemical molecules.\n\n**Checked:** Full primary paper and supplementary text; Figure 3 inspected as a rendered page.  \n**Location:** Main paper: Results, Elementary diversity; Figures 1 and 3; Supplementary Note 8.  \n**Inspected source:** https://photonics.umbc.edu/wp-content/uploads/sites/688/2022/02/PAJ296.pdf\n",
+  "plainLanguage": "",
+  "scope": "Designed, pumped fibre-laser system; optical molecules are bound pulses, not chemical molecules.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E01 → UT-E01; original identifier preserved.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Designed, pumped fibre-laser system; optical molecules are bound pulses, not chemical molecules.",
+  "rightsRef": null
+}
+DISPLAY: E01 — He et al. (2019)
+Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions
+Nature Communications 10, 5756. DOI: 10.1038/s41467-019-13746-6
+Classification: supports core / domain-specific realization.
+Evidence: Experiment with theoretical modelling.
+Existing clauses: §3, §5, §6, §7, §8.
+Mixed assemblies contain single pulses, pairs and triplets; internal pair dynamics coexist with larger-scale optical–acoustic organization.
+Scope: Designed, pumped fibre-laser system; optical molecules are bound pulses, not chemical molecules.
+Checked: Full primary paper and supplementary text; Figure 3 inspected as a rendered page.
+Location: Main paper: Results, Elementary diversity; Figures 1 and 3; Supplementary Note 8.
+Inspected source: https://photonics.umbc.edu/wp-content/uploads/sites/688/2022/02/PAJ296.pdf
+PLAIN: 
+DETAILS: Scope and sourcesDesigned, pumped fibre-laser system; optical molecules are bound pulses, not chemical molecules.08_ADDITIONAL_PRIMARY_EVIDENCE.md E01 → UT-E01; original identifier preserved.Source extraction detailsExtracted from 08_ADDITIONAL_PRIMARY_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 17–32.Raw excerpt SHA-256: 86b4deadb9e57bf6aa3e865f82648f213a0c63605c59b5a3e16fa24c18973b45Depends onUT-D03 — Resonant geometryUT-D05 — ScaleUT-D06 — Higher-level formationUT-D07 — VariationUT-D08 — RecursionReferences reported by this sourceFormation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions
+
+UT-E02
+{
+  "id": "UT-E02",
+  "route": "/claims/UT-E02/",
+  "title": "Heteronuclear soliton molecules in optical microresonators",
+  "description": "An experiment or restricted result reported by the supplied evidence documents.",
+  "revision": 3,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-ADDITIONAL"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D06",
+    "UT-D07"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0024",
+    "BIB-0025"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-ADDITIONAL",
+    "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+    "startLine": 35,
+    "endLine": 50,
+    "excerptSha256": "e435ef9c645154270f0f1ff6fa754774638d43799e66766cbbd541ddefe28787"
+  },
+  "statement": "### E02 — Weng et al. (2020)\n\n**Heteronuclear soliton molecules in optical microresonators**  \nNature Communications. DOI: [10.1038/s41467-020-15720-z](https://doi.org/10.1038/s41467-020-15720-z)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment with theoretical modelling.  \n**Existing clauses:** §3, §5, §6.\n\nPulses with distinct carrier frequencies and amplitudes bind while their relative phase continues evolving.\n\n**Scope:** Driven Kerr microresonator; distinguish carrier frequency from collective repetition rate.\n\n**Checked:** Full primary author manuscript, cross-checked against publisher record.  \n**Location:** Introduction; Figures 1–4; electro-optic measurements and coupled Lugiato–Lefever modelling.  \n**Inspected source:** https://arxiv.org/html/1901.04026v5\n",
+  "plainLanguage": "",
+  "scope": "Driven Kerr microresonator; distinguish carrier frequency from collective repetition rate.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E02 → UT-E02; original identifier preserved.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Driven Kerr microresonator; distinguish carrier frequency from collective repetition rate.",
+  "rightsRef": null
+}
+DISPLAY: E02 — Weng et al. (2020)
+Heteronuclear soliton molecules in optical microresonators
+Nature Communications. DOI: 10.1038/s41467-020-15720-z
+Classification: supports core / domain-specific realization.
+Evidence: Experiment with theoretical modelling.
+Existing clauses: §3, §5, §6.
+Pulses with distinct carrier frequencies and amplitudes bind while their relative phase continues evolving.
+Scope: Driven Kerr microresonator; distinguish carrier frequency from collective repetition rate.
+Checked: Full primary author manuscript, cross-checked against publisher record.
+Location: Introduction; Figures 1–4; electro-optic measurements and coupled Lugiato–Lefever modelling.
+Inspected source: https://arxiv.org/html/1901.04026v5
+PLAIN: 
+DETAILS: Scope and sourcesDriven Kerr microresonator; distinguish carrier frequency from collective repetition rate.08_ADDITIONAL_PRIMARY_EVIDENCE.md E02 → UT-E02; original identifier preserved.Source extraction detailsExtracted from 08_ADDITIONAL_PRIMARY_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 35–50.Raw excerpt SHA-256: e435ef9c645154270f0f1ff6fa754774638d43799e66766cbbd541ddefe28787Depends onUT-D03 — Resonant geometryUT-D06 — Higher-level formationUT-D07 — VariationReferences reported by this sourceHeteronuclear soliton molecules in optical microresonators
+
+UT-E03
+{
+  "id": "UT-E03",
+  "route": "/claims/UT-E03/",
+  "title": "Mechanochemical feedback loop drives persistent motion of liposomes",
+  "description": "An experiment or restricted result reported by the supplied evidence documents.",
+  "revision": 3,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-ADDITIONAL"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D04",
+    "UT-D06"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0026",
+    "BIB-0027"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-ADDITIONAL",
+    "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+    "startLine": 53,
+    "endLine": 68,
+    "excerptSha256": "27cc196f0abfaedc926c9d30f5fa26522772bd932514eb51180d435b55083b63"
+  },
+  "statement": "### E03 — Fu et al. (2023)\n\n**Mechanochemical feedback loop drives persistent motion of liposomes**  \nNature Physics 19, 1211–1218. DOI: [10.1038/s41567-023-02058-8](https://doi.org/10.1038/s41567-023-02058-8)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment plus reduced mechanochemical model.  \n**Existing clauses:** §3, §4, §5.\n\nProtein distributions deform vesicles; deformation and motion reorganize the proteins, sustaining a reciprocal loop.\n\n**Scope:** Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.\n\n**Checked:** Full primary article, methods and figure descriptions.  \n**Location:** Figures 1–4; Extended Data Figures 6–8; Results on geometry-sensitive protein redistribution.  \n**Inspected source:** https://www.nature.com/articles/s41567-023-02058-8\n",
+  "plainLanguage": "",
+  "scope": "Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E03 → UT-E03; original identifier preserved.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.",
+  "rightsRef": null
+}
+DISPLAY: E03 — Fu et al. (2023)
+Mechanochemical feedback loop drives persistent motion of liposomes
+Nature Physics 19, 1211–1218. DOI: 10.1038/s41567-023-02058-8
+Classification: supports core / domain-specific realization.
+Evidence: Experiment plus reduced mechanochemical model.
+Existing clauses: §3, §4, §5.
+Protein distributions deform vesicles; deformation and motion reorganize the proteins, sustaining a reciprocal loop.
+Scope: Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.
+Checked: Full primary article, methods and figure descriptions.
+Location: Figures 1–4; Extended Data Figures 6–8; Results on geometry-sensitive protein redistribution.
+Inspected source: https://www.nature.com/articles/s41567-023-02058-8
+PLAIN: 
+DETAILS: Scope and sourcesReconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.08_ADDITIONAL_PRIMARY_EVIDENCE.md E03 → UT-E03; original identifier preserved.Source extraction detailsExtracted from 08_ADDITIONAL_PRIMARY_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 53–68.Raw excerpt SHA-256: 27cc196f0abfaedc926c9d30f5fa26522772bd932514eb51180d435b55083b63Depends onUT-D03 — Resonant geometryUT-D04 — StabilityUT-D06 — Higher-level formationReferences reported by this sourceMechanochemical feedback loop drives persistent motion of liposomes
+
+UT-E04
+{
+  "id": "UT-E04",
+  "route": "/claims/UT-E04/",
+  "title": "De novo synthesized Min proteins drive oscillatory liposome deformation and regulate FtsA–FtsZ cytoskeletal patterns",
+  "description": "An experiment or restricted result reported by the supplied evidence documents.",
+  "revision": 3,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-ADDITIONAL"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D06",
+    "UT-D07"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0028",
+    "BIB-0029"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-ADDITIONAL",
+    "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+    "startLine": 71,
+    "endLine": 86,
+    "excerptSha256": "8072f00ac495c8ec7f223c22a0f0fcd3a682f774c6180125669a75cddcbd2579"
+  },
+  "statement": "### E04 — Godino et al. (2019)\n\n**De novo synthesized Min proteins drive oscillatory liposome deformation and regulate FtsA–FtsZ cytoskeletal patterns**  \nNature Communications 10, 4969. DOI: [10.1038/s41467-019-12932-w](https://doi.org/10.1038/s41467-019-12932-w)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment.  \n**Existing clauses:** §3, §5, §6.\n\nProteins synthesized from DNA templates develop collective dynamics accompanied by liposome deformation and cytoskeletal reorganization.\n\n**Scope:** Synthetic cellular compartment; not the creation of a complete self-reproducing organism.\n\n**Checked:** Full primary article and figure descriptions.  \n**Location:** Abstract and Results on cell-free Min expression, membrane deformation and FtsA–FtsZ organization.  \n**Inspected source:** https://www.nature.com/articles/s41467-019-12932-w\n",
+  "plainLanguage": "",
+  "scope": "Synthetic cellular compartment; not the creation of a complete self-reproducing organism.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E04 → UT-E04; original identifier preserved.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Synthetic cellular compartment; not the creation of a complete self-reproducing organism.",
+  "rightsRef": null
+}
+DISPLAY: E04 — Godino et al. (2019)
+De novo synthesized Min proteins drive oscillatory liposome deformation and regulate FtsA–FtsZ cytoskeletal patterns
+Nature Communications 10, 4969. DOI: 10.1038/s41467-019-12932-w
+Classification: supports core / domain-specific realization.
+Evidence: Experiment.
+Existing clauses: §3, §5, §6.
+Proteins synthesized from DNA templates develop collective dynamics accompanied by liposome deformation and cytoskeletal reorganization.
+Scope: Synthetic cellular compartment; not the creation of a complete self-reproducing organism.
+Checked: Full primary article and figure descriptions.
+Location: Abstract and Results on cell-free Min expression, membrane deformation and FtsA–FtsZ organization.
+Inspected source: https://www.nature.com/articles/s41467-019-12932-w
+PLAIN: 
+DETAILS: Scope and sourcesSynthetic cellular compartment; not the creation of a complete self-reproducing organism.08_ADDITIONAL_PRIMARY_EVIDENCE.md E04 → UT-E04; original identifier preserved.Source extraction detailsExtracted from 08_ADDITIONAL_PRIMARY_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 71–86.Raw excerpt SHA-256: 8072f00ac495c8ec7f223c22a0f0fcd3a682f774c6180125669a75cddcbd2579Depends onUT-D03 — Resonant geometryUT-D06 — Higher-level formationUT-D07 — VariationReferences reported by this sourceDe novo synthesized Min proteins drive oscillatory liposome deformation and regulate FtsA-FtsZ cytoskeletal patterns
+
+UT-E05
+{
+  "id": "UT-E05",
+  "route": "/claims/UT-E05/",
+  "title": "Ion channels enable electrical communication in bacterial communities",
+  "description": "An experiment or restricted result reported by the supplied evidence documents.",
+  "revision": 3,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-ADDITIONAL"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D05",
+    "UT-D06"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0030",
+    "BIB-0031"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-ADDITIONAL",
+    "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+    "startLine": 89,
+    "endLine": 104,
+    "excerptSha256": "585cddf8a29d29a67f1e918b8879fe0b892d55cfb8a3215fea5fde9262d385de"
+  },
+  "statement": "### E05 — Prindle et al. (2015)\n\n**Ion channels enable electrical communication in bacterial communities**  \nNature 527, 59–63. DOI: [10.1038/nature15709](https://doi.org/10.1038/nature15709)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment with interventions.  \n**Existing clauses:** §3, §5, §7.\n\nPotassium-mediated signals coordinate biofilm metabolic activity; potassium clamping suppresses the measured membrane-potential oscillations.\n\n**Scope:** Bacillus subtilis biofilms under the reported growth conditions.\n\n**Checked:** Primary publisher text and extended-data figure descriptions.  \n**Location:** Electrical signalling mechanism; Extended Data Figure 3, potassium-clamp intervention.  \n**Inspected source:** https://www.nature.com/articles/nature15709\n",
+  "plainLanguage": "",
+  "scope": "Bacillus subtilis biofilms under the reported growth conditions.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E05 → UT-E05; original identifier preserved.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Bacillus subtilis biofilms under the reported growth conditions.",
+  "rightsRef": null
+}
+DISPLAY: E05 — Prindle et al. (2015)
+Ion channels enable electrical communication in bacterial communities
+Nature 527, 59–63. DOI: 10.1038/nature15709
+Classification: supports core / domain-specific realization.
+Evidence: Experiment with interventions.
+Existing clauses: §3, §5, §7.
+Potassium-mediated signals coordinate biofilm metabolic activity; potassium clamping suppresses the measured membrane-potential oscillations.
+Scope: Bacillus subtilis biofilms under the reported growth conditions.
+Checked: Primary publisher text and extended-data figure descriptions.
+Location: Electrical signalling mechanism; Extended Data Figure 3, potassium-clamp intervention.
+Inspected source: https://www.nature.com/articles/nature15709
+PLAIN: 
+DETAILS: Scope and sourcesBacillus subtilis biofilms under the reported growth conditions.08_ADDITIONAL_PRIMARY_EVIDENCE.md E05 → UT-E05; original identifier preserved.Source extraction detailsExtracted from 08_ADDITIONAL_PRIMARY_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 89–104.Raw excerpt SHA-256: 585cddf8a29d29a67f1e918b8879fe0b892d55cfb8a3215fea5fde9262d385deDepends onUT-D03 — Resonant geometryUT-D05 — ScaleUT-D06 — Higher-level formationReferences reported by this sourceIon channels enable electrical communication in bacterial communities
+
+UT-E06
+{
+  "id": "UT-E06",
+  "route": "/claims/UT-E06/",
+  "title": "Coupling between distant biofilms and emergence of nutrient time-sharing",
+  "description": "An experiment or restricted result reported by the supplied evidence documents.",
+  "revision": 3,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-ADDITIONAL"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D05",
+    "UT-D06",
+    "UT-D08"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0032",
+    "BIB-0033"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-ADDITIONAL",
+    "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+    "startLine": 107,
+    "endLine": 122,
+    "excerptSha256": "6ca2316b04d8986e3d4aabf441a7187f38cf61fa4c48b9541394f10422903a7f"
+  },
+  "statement": "### E06 — Liu et al. (2017)\n\n**Coupling between distant biofilms and emergence of nutrient time-sharing**  \nScience 356, 638–642. DOI: [10.1126/science.aah4204](https://doi.org/10.1126/science.aah4204)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment testing a coupled-oscillator prediction.  \n**Existing clauses:** §5, §7, §8.\n\nTwo biofilms coordinate oscillations; nutrient conditions induce predicted in-phase or antiphase relationships.\n\n**Scope:** A coupled community pair, not physical fusion into one organism.\n\n**Checked:** Primary abstract and detailed figure captions reproduced in PubMed; full manuscript was not accessible.  \n**Location:** Abstract; Figures 1–3, especially phase diagrams and experimental validations in Figure 2.  \n**Inspected source:** https://pubmed.ncbi.nlm.nih.gov/28386026/\n",
+  "plainLanguage": "",
+  "scope": "A coupled community pair, not physical fusion into one organism.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E06 → UT-E06; original identifier preserved.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "A coupled community pair, not physical fusion into one organism.",
+  "rightsRef": null
+}
+DISPLAY: E06 — Liu et al. (2017)
+Coupling between distant biofilms and emergence of nutrient time-sharing
+Science 356, 638–642. DOI: 10.1126/science.aah4204
+Classification: supports core / domain-specific realization.
+Evidence: Experiment testing a coupled-oscillator prediction.
+Existing clauses: §5, §7, §8.
+Two biofilms coordinate oscillations; nutrient conditions induce predicted in-phase or antiphase relationships.
+Scope: A coupled community pair, not physical fusion into one organism.
+Checked: Primary abstract and detailed figure captions reproduced in PubMed; full manuscript was not accessible.
+Location: Abstract; Figures 1–3, especially phase diagrams and experimental validations in Figure 2.
+Inspected source: https://pubmed.ncbi.nlm.nih.gov/28386026/
+PLAIN: 
+DETAILS: Scope and sourcesA coupled community pair, not physical fusion into one organism.08_ADDITIONAL_PRIMARY_EVIDENCE.md E06 → UT-E06; original identifier preserved.Source extraction detailsExtracted from 08_ADDITIONAL_PRIMARY_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 107–122.Raw excerpt SHA-256: 6ca2316b04d8986e3d4aabf441a7187f38cf61fa4c48b9541394f10422903a7fDepends onUT-D03 — Resonant geometryUT-D05 — ScaleUT-D06 — Higher-level formationUT-D08 — RecursionReferences reported by this sourceCoupling between distant biofilms and emergence of nutrient time-sharing
+
+UT-E07
+{
+  "id": "UT-E07",
+  "route": "/claims/UT-E07/",
+  "title": "Fractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns",
+  "description": "An experiment or restricted result reported by the supplied evidence documents.",
+  "revision": 3,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-ADDITIONAL"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D05",
+    "UT-D06",
+    "UT-D07",
+    "UT-D08",
+    "UT-D09"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0034",
+    "BIB-0035"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-ADDITIONAL",
+    "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+    "startLine": 125,
+    "endLine": 140,
+    "excerptSha256": "62034364856f636acee8bea0a510f292568025662b12ddd588dae8d57f6d1d72"
+  },
+  "statement": "### E07 — Tikhomirov, Petersen and Qian (2017)\n\n**Fractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns**  \nNature 552, 67–71. DOI: [10.1038/nature24655](https://doi.org/10.1038/nature24655)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Engineered molecular self-assembly experiment.  \n**Existing clauses:** §5, §6, §7, §8, §9.\n\nDesigned DNA tiles assemble through successive stages into larger arrays used in further assembly.\n\n**Scope:** Direct structural-recursion evidence; not a measurement of a full multiscale temporal spectrum.\n\n**Checked:** Primary abstract and accessible publisher figure descriptions; subscription full text not inspected.  \n**Location:** Abstract and hierarchical assembly scheme.  \n**Inspected source:** https://www.nature.com/articles/nature24655\n",
+  "plainLanguage": "",
+  "scope": "Direct structural-recursion evidence; not a measurement of a full multiscale temporal spectrum.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E07 → UT-E07; original identifier preserved.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Direct structural-recursion evidence; not a measurement of a full multiscale temporal spectrum.",
+  "rightsRef": null
+}
+DISPLAY: E07 — Tikhomirov, Petersen and Qian (2017)
+Fractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns
+Nature 552, 67–71. DOI: 10.1038/nature24655
+Classification: supports core / domain-specific realization.
+Evidence: Engineered molecular self-assembly experiment.
+Existing clauses: §5, §6, §7, §8, §9.
+Designed DNA tiles assemble through successive stages into larger arrays used in further assembly.
+Scope: Direct structural-recursion evidence; not a measurement of a full multiscale temporal spectrum.
+Checked: Primary abstract and accessible publisher figure descriptions; subscription full text not inspected.
+Location: Abstract and hierarchical assembly scheme.
+Inspected source: https://www.nature.com/articles/nature24655
+PLAIN: 
+DETAILS: Scope and sourcesDirect structural-recursion evidence; not a measurement of a full multiscale temporal spectrum.08_ADDITIONAL_PRIMARY_EVIDENCE.md E07 → UT-E07; original identifier preserved.Source extraction detailsExtracted from 08_ADDITIONAL_PRIMARY_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 125–140.Raw excerpt SHA-256: 62034364856f636acee8bea0a510f292568025662b12ddd588dae8d57f6d1d72Depends onUT-D03 — Resonant geometryUT-D05 — ScaleUT-D06 — Higher-level formationUT-D07 — VariationUT-D08 — RecursionUT-D09 — Replication and recurrenceReferences reported by this sourceFractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns
+
+UT-E08
+{
+  "id": "UT-E08",
+  "route": "/claims/UT-E08/",
+  "title": "Dicke quantum phase transition with a superfluid gas in an optical cavity",
+  "description": "An experiment or restricted result reported by the supplied evidence documents.",
+  "revision": 3,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-ADDITIONAL"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D04",
+    "UT-D06",
+    "UT-D07"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0036",
+    "BIB-0037"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-ADDITIONAL",
+    "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+    "startLine": 143,
+    "endLine": 158,
+    "excerptSha256": "3f84d871c3bc5caa639ad614f5ce573c4df4d067de47ecb480187c8386ed20b4"
+  },
+  "statement": "### E08 — Baumann et al. (2010)\n\n**Dicke quantum phase transition with a superfluid gas in an optical cavity**  \nNature 464, 1301–1306. DOI: [10.1038/nature09009](https://doi.org/10.1038/nature09009)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Quantum-gas experiment with quantitative threshold comparison.  \n**Existing clauses:** §3, §4, §5, §6.\n\nAtomic density organization and the cavity field reinforce one another; measured phase boundaries agree with the specified mean-field model.\n\n**Scope:** Pumped atom–cavity system; its threshold equation is domain-specific.\n\n**Checked:** Full primary author manuscript; publisher record and figure descriptions cross-checked.  \n**Location:** Self-organization mechanism; Figure 5 and Methods equations 6–9.  \n**Inspected source:** https://arxiv.org/html/0912.3261v1\n",
+  "plainLanguage": "",
+  "scope": "Pumped atom–cavity system; its threshold equation is domain-specific.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E08 → UT-E08; original identifier preserved.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Pumped atom–cavity system; its threshold equation is domain-specific.",
+  "rightsRef": null
+}
+DISPLAY: E08 — Baumann et al. (2010)
+Dicke quantum phase transition with a superfluid gas in an optical cavity
+Nature 464, 1301–1306. DOI: 10.1038/nature09009
+Classification: supports core / domain-specific realization.
+Evidence: Quantum-gas experiment with quantitative threshold comparison.
+Existing clauses: §3, §4, §5, §6.
+Atomic density organization and the cavity field reinforce one another; measured phase boundaries agree with the specified mean-field model.
+Scope: Pumped atom–cavity system; its threshold equation is domain-specific.
+Checked: Full primary author manuscript; publisher record and figure descriptions cross-checked.
+Location: Self-organization mechanism; Figure 5 and Methods equations 6–9.
+Inspected source: https://arxiv.org/html/0912.3261v1
+PLAIN: 
+DETAILS: Scope and sourcesPumped atom–cavity system; its threshold equation is domain-specific.08_ADDITIONAL_PRIMARY_EVIDENCE.md E08 → UT-E08; original identifier preserved.Source extraction detailsExtracted from 08_ADDITIONAL_PRIMARY_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 143–158.Raw excerpt SHA-256: 3f84d871c3bc5caa639ad614f5ce573c4df4d067de47ecb480187c8386ed20b4Depends onUT-D03 — Resonant geometryUT-D04 — StabilityUT-D06 — Higher-level formationUT-D07 — VariationReferences reported by this sourceDicke quantum phase transition with a superfluid gas in an optical cavity
+
+UT-E09
+{
+  "id": "UT-E09",
+  "route": "/claims/UT-E09/",
+  "title": "Cluster synchronization and isolated desynchronization in complex networks with symmetries",
+  "description": "An experiment or restricted result reported by the supplied evidence documents.",
+  "revision": 3,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-ADDITIONAL"
+  ],
+  "dependsOn": [
+    "UT-D03",
+    "UT-D05",
+    "UT-D06"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0038",
+    "BIB-0039"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-ADDITIONAL",
+    "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+    "startLine": 161,
+    "endLine": 176,
+    "excerptSha256": "e1e3b4d8ed8edd23b546b9d9a6f2c1bd2cb47675d7abc754dea1e96dfcadd2a6"
+  },
+  "statement": "### E09 — Pecora et al. (2014)\n\n**Cluster synchronization and isolated desynchronization in complex networks with symmetries**  \nNature Communications 5, 4079. DOI: [10.1038/ncomms5079](https://doi.org/10.1038/ncomms5079)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Mathematical derivation plus electro-optic experiment.  \n**Existing clauses:** §3, §5, §7.\n\nNetwork symmetries predict collective clusters and their dynamical changes; experiments test those predictions.\n\n**Scope:** Specified oscillator/network assumptions; they are not added as requirements of RRG.\n\n**Checked:** Full primary author manuscript; publisher metadata cross-checked. Manuscript title differs slightly.  \n**Location:** Equations 1–2; group-orbit construction; Figure 3 and block-decomposed variational equations.  \n**Inspected source:** https://arxiv.org/html/1309.6605v1\n",
+  "plainLanguage": "",
+  "scope": "Specified oscillator/network assumptions; they are not added as requirements of RRG.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E09 → UT-E09; original identifier preserved.",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Specified oscillator/network assumptions; they are not added as requirements of RRG.",
+  "rightsRef": null
+}
+DISPLAY: E09 — Pecora et al. (2014)
+Cluster synchronization and isolated desynchronization in complex networks with symmetries
+Nature Communications 5, 4079. DOI: 10.1038/ncomms5079
+Classification: supports core / domain-specific realization.
+Evidence: Mathematical derivation plus electro-optic experiment.
+Existing clauses: §3, §5, §7.
+Network symmetries predict collective clusters and their dynamical changes; experiments test those predictions.
+Scope: Specified oscillator/network assumptions; they are not added as requirements of RRG.
+Checked: Full primary author manuscript; publisher metadata cross-checked. Manuscript title differs slightly.
+Location: Equations 1–2; group-orbit construction; Figure 3 and block-decomposed variational equations.
+Inspected source: https://arxiv.org/html/1309.6605v1
+PLAIN: 
+DETAILS: Scope and sourcesSpecified oscillator/network assumptions; they are not added as requirements of RRG.08_ADDITIONAL_PRIMARY_EVIDENCE.md E09 → UT-E09; original identifier preserved.Source extraction detailsExtracted from 08_ADDITIONAL_PRIMARY_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 161–176.Raw excerpt SHA-256: e1e3b4d8ed8edd23b546b9d9a6f2c1bd2cb47675d7abc754dea1e96dfcadd2a6Depends onUT-D03 — Resonant geometryUT-D05 — ScaleUT-D06 — Higher-level formationReferences reported by this sourceCluster synchronization and isolated desynchronization in complex networks with symmetries
+
+UT-E10
+{
+  "id": "UT-E10",
+  "route": "/claims/UT-E10/",
+  "title": "Phonon-mediated effective attraction",
+  "description": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+  "revision": 1,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-INTERACTIONS"
+  ],
+  "dependsOn": [
+    "UT-C01",
+    "UT-D03"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0016"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-INTERACTIONS",
+    "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+    "startLine": 29,
+    "endLine": 64,
+    "excerptSha256": "2c4577d77beda1f0f1d8d79aaf19adc3503388ed0789f6c6fc422868843ded54"
+  },
+  "statement": "## 1. Phonon-mediated effective attraction in superconductivity\n\nIn conventional superconductivity, electrons couple to lattice vibrations (phonons).\n\nAt the microscopic level, electrons and ions interact electromagnetically. The organized crystal lattice, however, possesses collective vibrational modes. Electron–phonon coupling can generate an **effective electron–electron attraction** in the appropriate regime, allowing Cooper pairing and superconducting order.\n\n\\[\n\\boxed{\n\\text{crystal geometry}\n\\rightarrow\n\\text{phonon modes}\n\\rightarrow\n\\text{effective electron interaction}\n\\rightarrow\n\\text{Cooper pairing / superconducting order}\n}\n\\]\n\nThe effective attraction does not replace electromagnetism as a fundamental interaction. It is a higher-level interaction generated through collective lattice dynamics.\n\n### RRG relevance\n\nThis directly supports the extension:\n\n\\[\nG_n \\leftrightarrow M_n\n\\rightarrow\n\\mathcal I^{\\rm eff}_{n+1}\n\\rightarrow\nG_{n+1}.\n\\]\n\n### Evidence\n\nX. H. Zheng & D. G. Walmsley, *Physical Review B* 71, 134512 (2005).  \nDOI: https://doi.org/10.1103/PhysRevB.71.134512\n",
+  "plainLanguage": "",
+  "scope": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md §1",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+  "rightsRef": null
+}
+DISPLAY: 1. Phonon-mediated effective attraction in superconductivity
+In conventional superconductivity, electrons couple to lattice vibrations (phonons).
+At the microscopic level, electrons and ions interact electromagnetically. The organized crystal lattice, however, possesses collective vibrational modes. Electron–phonon coupling can generate an effective electron–electron attraction in the appropriate regime, allowing Cooper pairing and superconducting order.
+crystal geometry→phonon modes→effective electron interaction→Cooper pairing / superconducting order\boxed{
+\text{crystal geometry}
+\rightarrow
+\text{phonon modes}
+\rightarrow
+\text{effective electron interaction}
+\rightarrow
+\text{Cooper pairing / superconducting order}
+}crystal geometry→phonon modes→effective electron interaction→Cooper pairing / superconducting order​
+The effective attraction does not replace electromagnetism as a fundamental interaction. It is a higher-level interaction generated through collective lattice dynamics.
+RRG relevance
+This directly supports the extension:
+Gn↔Mn→In+1eff→Gn+1.G_n \leftrightarrow M_n
+\rightarrow
+\mathcal I^{\rm eff}_{n+1}
+\rightarrow
+G_{n+1}.Gn​↔Mn​→In+1eff​→Gn+1​.
+Evidence
+X. H. Zheng & D. G. Walmsley, Physical Review B 71, 134512 (2005).
+DOI: https://doi.org/10.1103/PhysRevB.71.134512
+PLAIN: 
+DETAILS: Scope and sourcesSource-reported mechanism in a specified physical system; it does not derive all four fundamental forces.07_EMERGENT_INTERACTION_EVIDENCE.md §1Source extraction detailsExtracted from 07_EMERGENT_INTERACTION_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 29–64.Raw excerpt SHA-256: 2c4577d77beda1f0f1d8d79aaf19adc3503388ed0789f6c6fc422868843ded54Depends onUT-C01 — Fundamental interaction extensionUT-D03 — Resonant geometryReferences reported by this sourceCoulomb repulsion and T_c in BCS theory of superconductivity
+
+UT-E11
+{
+  "id": "UT-E11",
+  "route": "/claims/UT-E11/",
+  "title": "Emergent spin-ice charges and interactions",
+  "description": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+  "revision": 1,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-INTERACTIONS"
+  ],
+  "dependsOn": [
+    "UT-C01",
+    "UT-D03"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0017",
+    "BIB-0018",
+    "BIB-0019"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-INTERACTIONS",
+    "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+    "startLine": 68,
+    "endLine": 107,
+    "excerptSha256": "7886572017b041894892ab786b8242de463360fc9d07e0a729f42dc30075fe6d"
+  },
+  "statement": "## 2. Emergent magnetic charges and Coulomb-like interactions in spin ice\n\nSpin-ice materials contain microscopic magnetic moments constrained by lattice geometry and frustration.\n\nCollective correlations in this many-body geometry permit excitations that behave as **emergent magnetic monopoles** rather than elementary magnetic charges.\n\nCastelnovo, Moessner & Sondhi predicted these quasiparticles as emergent manifestations of the correlated spin-ice system.\n\nBramwell and collaborators later experimentally measured effective magnetic charges and currents in Dy\\(_2\\)Ti\\(_2\\)O\\(_7\\), showing that these emergent charges interact through a Coulomb potential.\n\n\\[\n\\boxed{\n\\text{microscopic spins}\n+\n\\text{collective geometric constraints}\n\\rightarrow\n\\text{emergent quasiparticles}\n+\n\\text{Coulomb-like effective interaction}\n}\n\\]\n\n### RRG relevance\n\nThis demonstrates that a collective geometry can generate:\n\n- new effective particle-like degrees of freedom;\n- a higher-level interaction law;\n- behavior that is not apparent from treating each microscopic spin independently.\n\n### Evidence\n\nCastelnovo, Moessner & Sondhi, *Nature* 451, 42–45 (2008).  \nDOI: https://doi.org/10.1038/nature06433\n\nBramwell et al., *Nature* 461, 956–959 (2009).  \nDOI: https://doi.org/10.1038/nature08500\n\nMengotti et al., *Nature Physics* 7, 68–74 (2011).  \nDOI: https://doi.org/10.1038/nphys1794\n",
+  "plainLanguage": "",
+  "scope": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md §2",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+  "rightsRef": null
+}
+DISPLAY: 2. Emergent magnetic charges and Coulomb-like interactions in spin ice
+Spin-ice materials contain microscopic magnetic moments constrained by lattice geometry and frustration.
+Collective correlations in this many-body geometry permit excitations that behave as emergent magnetic monopoles rather than elementary magnetic charges.
+Castelnovo, Moessner & Sondhi predicted these quasiparticles as emergent manifestations of the correlated spin-ice system.
+Bramwell and collaborators later experimentally measured effective magnetic charges and currents in Dy2_22​Ti2_22​O7_77​, showing that these emergent charges interact through a Coulomb potential.
+microscopic spins+collective geometric constraints→emergent quasiparticles+Coulomb-like effective interaction\boxed{
+\text{microscopic spins}
++
+\text{collective geometric constraints}
+\rightarrow
+\text{emergent quasiparticles}
++
+\text{Coulomb-like effective interaction}
+}microscopic spins+collective geometric constraints→emergent quasiparticles+Coulomb-like effective interaction​
+RRG relevance
+This demonstrates that a collective geometry can generate:
+
+new effective particle-like degrees of freedom;
+a higher-level interaction law;
+behavior that is not apparent from treating each microscopic spin independently.
+
+Evidence
+Castelnovo, Moessner & Sondhi, Nature 451, 42–45 (2008).
+DOI: https://doi.org/10.1038/nature06433
+Bramwell et al., Nature 461, 956–959 (2009).
+DOI: https://doi.org/10.1038/nature08500
+Mengotti et al., Nature Physics 7, 68–74 (2011).
+DOI: https://doi.org/10.1038/nphys1794
+PLAIN: 
+DETAILS: Scope and sourcesSource-reported mechanism in a specified physical system; it does not derive all four fundamental forces.07_EMERGENT_INTERACTION_EVIDENCE.md §2Source extraction detailsExtracted from 07_EMERGENT_INTERACTION_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 68–107.Raw excerpt SHA-256: 7886572017b041894892ab786b8242de463360fc9d07e0a729f42dc30075fe6dDepends onUT-C01 — Fundamental interaction extensionUT-D03 — Resonant geometryReferences reported by this sourceMagnetic monopoles in spin iceMeasurement of the charge and current of magnetic monopoles in spin iceReal-space observation of emergent magnetic monopoles and associated Dirac strings in artificial kagome spin ice
+
+UT-E12
+{
+  "id": "UT-E12",
+  "route": "/claims/UT-E12/",
+  "title": "Background state and interaction regime",
+  "description": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+  "revision": 2,
+  "kind": "evidence",
+  "lang": "en",
+  "audience": "technical",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-01",
+  "sourceRefs": [
+    "R-CURRENT-INTERACTIONS"
+  ],
+  "dependsOn": [
+    "UT-C01",
+    "UT-C02",
+    "UT-D03"
+  ],
+  "related": [],
+  "bibRefs": [
+    "BIB-0020",
+    "BIB-0021"
+  ],
+  "contentOrigin": "source-bound",
+  "sourceBinding": {
+    "sourceKey": "R-CURRENT-INTERACTIONS",
+    "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+    "startLine": 111,
+    "endLine": 154,
+    "excerptSha256": "122502c3af212ebedf2fd764f7bcfabe39a9f45d7c7093441ae133f4699cabae"
+  },
+  "statement": "## 3. Background-field state changes the observable interaction regime\n\nElectromagnetic and weak interactions are described within electroweak theory.\n\nAs the early Universe cooled, the Higgs field settled into a non-zero vacuum configuration. The \\(W\\) and \\(Z\\) bosons acquired mass while the photon remained massless.\n\nThat changes low-energy interaction behavior:\n\n- massive \\(W/Z\\) carriers imply a very short-range weak interaction;\n- the massless photon supports long-range electromagnetism.\n\n\\[\n\\boxed{\n\\text{background field state}\n\\rightarrow\n\\text{particle spectrum}\n\\rightarrow\n\\text{effective interaction ranges / behavior}\n}\n\\]\n\n### RRG relevance\n\nThis supports the weaker extension:\n\n\\[\n\\boxed{\n\\text{background state}\n\\rightarrow\n\\text{mode / particle spectrum}\n\\rightarrow\n\\text{interaction regime}\n}\n\\]\n\nIt does **not** establish that electroweak physics is itself generated by RRG recursion.\n\n### Evidence\n\nCERN, “The origins of the Brout–Englert–Higgs mechanism”:  \nhttps://home.cern/science/physics/origins-brout-englert-higgs-mechanism/\n\nCERN, “What’s so special about the Higgs boson?”:  \nhttps://home.cern/science/physics/higgs-boson/what/\n",
+  "plainLanguage": "",
+  "scope": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+  "evidenceState": "project-reported",
+  "body": "",
+  "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md §3",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+  "rightsRef": null
+}
+DISPLAY: 3. Background-field state changes the observable interaction regime
+Electromagnetic and weak interactions are described within electroweak theory.
+As the early Universe cooled, the Higgs field settled into a non-zero vacuum configuration. The WWW and ZZZ bosons acquired mass while the photon remained massless.
+That changes low-energy interaction behavior:
+
+massive W/ZW/ZW/Z carriers imply a very short-range weak interaction;
+the massless photon supports long-range electromagnetism.
+
+background field state→particle spectrum→effective interaction ranges / behavior\boxed{
+\text{background field state}
+\rightarrow
+\text{particle spectrum}
+\rightarrow
+\text{effective interaction ranges / behavior}
+}background field state→particle spectrum→effective interaction ranges / behavior​
+RRG relevance
+This supports the weaker extension:
+background state→mode / particle spectrum→interaction regime\boxed{
+\text{background state}
+\rightarrow
+\text{mode / particle spectrum}
+\rightarrow
+\text{interaction regime}
+}background state→mode / particle spectrum→interaction regime​
+It does not establish that electroweak physics is itself generated by RRG recursion.
+Evidence
+CERN, “The origins of the Brout–Englert–Higgs mechanism”:
+https://home.cern/science/physics/origins-brout-englert-higgs-mechanism/
+CERN, “What’s so special about the Higgs boson?”:
+https://home.cern/science/physics/higgs-boson/what/
+PLAIN: 
+DETAILS: Scope and sourcesSource-reported mechanism in a specified physical system; it does not derive all four fundamental forces.07_EMERGENT_INTERACTION_EVIDENCE.md §3Source extraction detailsExtracted from 07_EMERGENT_INTERACTION_EVIDENCE.md; edition RRG v0.2 locked + evidence updates; promoted 2026-10-01, lines 111–154.Raw excerpt SHA-256: 122502c3af212ebedf2fd764f7bcfabe39a9f45d7c7093441ae133f4699cabaeDepends onUT-C01 — Fundamental interaction extensionUT-C02 — Background and possibility-space extensionUT-D03 — Resonant geometryReferences reported by this sourceThe origins of the Brout–Englert–Higgs mechanismWhat’s so special about the Higgs boson?
+
+DOC-HOME
+{
+  "id": "DOC-HOME",
+  "route": "/",
+  "title": "How does a collection become a whole?",
+  "description": "An introduction to Unity Theory and Recursive Resonant Geometry.",
+  "revision": 2,
+  "kind": "intro",
+  "lang": "en",
+  "audience": "general",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-CORE",
+    "R-CURRENT-WORLD"
+  ],
+  "dependsOn": [
+    "DOC-STATUS",
+    "UT-C01",
+    "UT-C02",
+    "UT-D01",
+    "UT-D02",
+    "UT-D03",
+    "UT-D05",
+    "UT-D06",
+    "UT-D08",
+    "UT-D09",
+    "UT-O04",
+    "UT-O05"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "authored",
+  "sourceBinding": null,
+  "statement": null,
+  "plainLanguage": "",
+  "scope": "Preliminary introduction bound to current source records; examples introduce the research question.",
+  "evidenceState": "not-applicable",
+  "body": "A wave is a pattern in moving water. A molecule has connected atoms. A living cell exchanges material while maintaining an organization.\n\nUnity Theory asks how **arrangement and activity work together**—and how an organized whole can become part of something further.\n\n## Begin with a wave\n\nLook at a ripple crossing water. The pattern travels, while the water moves locally. The parts and the collective pattern give us two ways to describe what is happening.\n\nThis is a warm-up for the question, not evidence that every wave becomes a persistent building block.\n\n## Arrangement shapes activity. Activity changes arrangement.\n\nThe research framework calls these two aspects **geometry** and **mode structure**. Geometry includes relationships, connections, boundaries and constraints. Mode structure includes patterns of change, coupling, response and characteristic times—not just a single frequency.\n\nAn organized whole may then act as a component of another system, while activity continues inside its parts.\n\n## Source-bound meanings\n\nRead :claim[UT-D01], :claim[UT-D02] and :claim[UT-D03]. Current open work is listed in the [research status](/research-status/).\n",
+  "sourceMapping": "",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: A wave is a pattern in moving water. A molecule has connected atoms. A living cell exchanges material while maintaining an organization.
+Unity Theory asks how arrangement and activity work together—and how an organized whole can become part of something further.
+Begin with a wave
+Look at a ripple crossing water. The pattern travels, while the water moves locally. The parts and the collective pattern give us two ways to describe what is happening.
+This is a warm-up for the question, not evidence that every wave becomes a persistent building block.
+Arrangement shapes activity. Activity changes arrangement.
+The research framework calls these two aspects geometry and mode structure. Geometry includes relationships, connections, boundaries and constraints. Mode structure includes patterns of change, coupling, response and characteristic times—not just a single frequency.
+An organized whole may then act as a component of another system, while activity continues inside its parts.
+Source-bound meanings
+Read UT-D01, UT-D02 and UT-D03. Current open work is listed in the research status.
+PLAIN: 
+DETAILS: 
+
+DOC-START
+{
+  "id": "DOC-START",
+  "route": "/start/",
+  "title": "Start with the idea",
+  "description": "Parts, relationships, activity—and the question of further organization.",
+  "revision": 3,
+  "kind": "intro",
+  "lang": "en",
+  "audience": "general",
+  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "publicationState": "draft",
+  "publishedAt": null,
+  "updatedAt": "2026-10-02",
+  "sourceRefs": [
+    "R-CURRENT-CORE",
+    "R-CURRENT-WORLD",
+    "R-CURRENT-INTERACTIONS"
+  ],
+  "dependsOn": [
+    "DOC-STATUS",
+    "UT-C01",
+    "UT-C02",
+    "UT-D01",
+    "UT-D02",
+    "UT-D03",
+    "UT-D05",
+    "UT-D06",
+    "UT-D08",
+    "UT-D09",
+    "UT-E10",
+    "UT-E11",
+    "UT-E12",
+    "UT-O04",
+    "UT-O05"
+  ],
+  "related": [],
+  "bibRefs": [],
+  "contentOrigin": "authored",
+  "sourceBinding": null,
+  "statement": null,
+  "plainLanguage": "",
+  "scope": "Preliminary introduction bound to current source records; examples introduce the research question.",
+  "evidenceState": "not-applicable",
+  "body": "## Start with parts and relationships\n\nThink of a stretched string. Its length, material, tension and fixed ends constrain how it can move. Change those conditions and the possible motions change too. Shape alone does not explain the result: material properties and physical interactions matter.\n\nRecursive Resonant Geometry, or **RRG**, uses “geometry” for a system's organization at a chosen scale. That includes its components, connections, relationships, boundaries and constraints. It means more than a visible outline.\n\n## Add what happens over time\n\nThe second aspect is **mode structure**: the organized ways a system can change, respond or move. This includes characteristic times, phases, coupling and collective activity. A single number in hertz does not describe all of it.\n\nRRG treats organization and mode structure as two aspects of one system. Organization constrains activity; activity can support, maintain, transform or destroy organization. Neither is universally first.\n\nThis is the framework's proposed way of describing a system. Whether a particular model makes useful predictions requires separate tests.\n\n## A whole can become a part\n\nA molecule can participate in a larger arrangement. A cell can participate in a tissue. In the RRG framework, compatible lower-level systems may form a higher-level organization while retaining their internal activity. The components can differ and play different roles.\n\n“Recursive” describes that possibility of organized wholes participating in further organization. It does not mean every system must copy itself, or that every scale must obey the same microscopic equation.\n\n## Existing organization can change the possibilities\n\nThe question also concerns the environment: an existing organization may change the conditions under which further organization becomes possible. This is an extension to investigate, rather than a guarantee that complexity must increase.\n\nThe current research also asks when lower-level organization generates or enables an **effective interaction**—an interaction useful in a higher-level description—that could help another organized state persist. The evidence documents discuss specific physical systems. Those examples do not derive all four fundamental forces from RRG.\n\n## What the examples do—and what remains open\n\nThese examples introduce relationships the project investigates. Different systems have different mechanisms and conditions; an analogy does not demonstrate a universal law.\n\nThe current sources distinguish core definitions from extensions, candidate mathematical models and evidence in particular systems. Open work includes a useful cross-domain criterion and novel predictions beyond existing frameworks. The technical website sections will make those distinctions visible alongside their sources.\n\n[Return to the research question](/#research-question).\n\n## Source-bound meanings\n\nRead :claim[UT-D01], :claim[UT-D02] and :claim[UT-D03]. Current open work is listed in the [research status](/research-status/).\n",
+  "sourceMapping": "",
+  "adapter": "markdown/1",
+  "assumptions": [],
+  "testRefs": [],
+  "evidenceRefs": [],
+  "limits": "",
+  "rightsRef": null
+}
+DISPLAY: Start with parts and relationships
+Think of a stretched string. Its length, material, tension and fixed ends constrain how it can move. Change those conditions and the possible motions change too. Shape alone does not explain the result: material properties and physical interactions matter.
+Recursive Resonant Geometry, or RRG, uses “geometry” for a system's organization at a chosen scale. That includes its components, connections, relationships, boundaries and constraints. It means more than a visible outline.
+Add what happens over time
+The second aspect is mode structure: the organized ways a system can change, respond or move. This includes characteristic times, phases, coupling and collective activity. A single number in hertz does not describe all of it.
+RRG treats organization and mode structure as two aspects of one system. Organization constrains activity; activity can support, maintain, transform or destroy organization. Neither is universally first.
+This is the framework's proposed way of describing a system. Whether a particular model makes useful predictions requires separate tests.
+A whole can become a part
+A molecule can participate in a larger arrangement. A cell can participate in a tissue. In the RRG framework, compatible lower-level systems may form a higher-level organization while retaining their internal activity. The components can differ and play different roles.
+“Recursive” describes that possibility of organized wholes participating in further organization. It does not mean every system must copy itself, or that every scale must obey the same microscopic equation.
+Existing organization can change the possibilities
+The question also concerns the environment: an existing organization may change the conditions under which further organization becomes possible. This is an extension to investigate, rather than a guarantee that complexity must increase.
+The current research also asks when lower-level organization generates or enables an effective interaction—an interaction useful in a higher-level description—that could help another organized state persist. The evidence documents discuss specific physical systems. Those examples do not derive all four fundamental forces from RRG.
+What the examples do—and what remains open
+These examples introduce relationships the project investigates. Different systems have different mechanisms and conditions; an analogy does not demonstrate a universal law.
+The current sources distinguish core definitions from extensions, candidate mathematical models and evidence in particular systems. Open work includes a useful cross-domain criterion and novel predictions beyond existing frameworks. The technical website sections will make those distinctions visible alongside their sources.
+Return to the research question.
+Source-bound meanings
+Read UT-D01, UT-D02 and UT-D03. Current open work is listed in the research status.
+PLAIN: 
+DETAILS: 

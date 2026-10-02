@@ -1,0 +1,134 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E11",
+  "fingerprint": "136cc19f697c9930c3b6e994d82e7d79f3ac02f38bb792e394d92bab1b3dcba7",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Interaction §2 (68–107): emergent spin-ice quasiparticles, reported effective-charge/current measurements and Coulomb-like interactions remain attributed to the named sources. The page does not claim discovery of elementary magnetic charges; all source TeX annotations match. This separate review read the original passages and actual representations, verified exact unchanged inputs against the preserved predecessor and reviewed the changed policy. Both bases are captured in docs/evidence/m1/separate-requalification-review/independent-read-snapshots.json. Previous receipt docs/evidence/m1/website-fidelity-acceptance/decisions/UT-E11.json is preserved; its former fingerprint is not used as approval of this policy.",
+  "inputs": {
+    "fingerprint": "136cc19f697c9930c3b6e994d82e7d79f3ac02f38bb792e394d92bab1b3dcba7",
+    "ownRead": {
+      "id": "UT-E11",
+      "route": "/claims/UT-E11/",
+      "title": "Emergent spin-ice charges and interactions",
+      "description": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+      "revision": 1,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-INTERACTIONS"
+      ],
+      "dependsOn": [
+        "UT-C01",
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0017",
+        "BIB-0018",
+        "BIB-0019"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-INTERACTIONS",
+        "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+        "startLine": 68,
+        "endLine": 107,
+        "excerptSha256": "7886572017b041894892ab786b8242de463360fc9d07e0a729f42dc30075fe6d"
+      },
+      "statement": "## 2. Emergent magnetic charges and Coulomb-like interactions in spin ice\n\nSpin-ice materials contain microscopic magnetic moments constrained by lattice geometry and frustration.\n\nCollective correlations in this many-body geometry permit excitations that behave as **emergent magnetic monopoles** rather than elementary magnetic charges.\n\nCastelnovo, Moessner & Sondhi predicted these quasiparticles as emergent manifestations of the correlated spin-ice system.\n\nBramwell and collaborators later experimentally measured effective magnetic charges and currents in Dy\\(_2\\)Ti\\(_2\\)O\\(_7\\), showing that these emergent charges interact through a Coulomb potential.\n\n\\[\n\\boxed{\n\\text{microscopic spins}\n+\n\\text{collective geometric constraints}\n\\rightarrow\n\\text{emergent quasiparticles}\n+\n\\text{Coulomb-like effective interaction}\n}\n\\]\n\n### RRG relevance\n\nThis demonstrates that a collective geometry can generate:\n\n- new effective particle-like degrees of freedom;\n- a higher-level interaction law;\n- behavior that is not apparent from treating each microscopic spin independently.\n\n### Evidence\n\nCastelnovo, Moessner & Sondhi, *Nature* 451, 42–45 (2008).  \nDOI: https://doi.org/10.1038/nature06433\n\nBramwell et al., *Nature* 461, 956–959 (2009).  \nDOI: https://doi.org/10.1038/nature08500\n\nMengotti et al., *Nature Physics* 7, 68–74 (2011).  \nDOI: https://doi.org/10.1038/nphys1794\n",
+      "plainLanguage": "",
+      "scope": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md §2",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-INTERACTIONS",
+        "path": "research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      },
+      {
+        "sourceKey": "R-CURRENT-PROOF",
+        "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+        "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "2c3e184046457d675a2687ab8fcfa931926f1669d25655992e412c6854f2b465",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "2c3e184046457d675a2687ab8fcfa931926f1669d25655992e412c6854f2b465",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Interaction §2 (68–107): emergent spin-ice quasiparticles, reported effective-charge/current measurements and Coulomb-like interactions remain attributed to the named sources. The page does not claim discovery of elementary magnetic charges; all source TeX annotations match. Original terminology and new navigation IDs remain distinct.",
+    "meaning": "Interaction §2 (68–107): emergent spin-ice quasiparticles, reported effective-charge/current measurements and Coulomb-like interactions remain attributed to the named sources. The page does not claim discovery of elementary magnetic charges; all source TeX annotations match. The exact excerpt, derivative body, plain-language display and applicable HOME projection were compared at / and /unity-theory/.",
+    "assumptions": "Conditions of the cited realization remain scoped to that system, not imposed on the core. Interaction §2 (68–107): emergent spin-ice quasiparticles, reported effective-charge/current measurements and Coulomb-like interactions remain attributed to the named sources. The page does not claim discovery of elementary magnetic charges; all source TeX annotations match.",
+    "hypotheses": "The page introduces no newly established universal result. Interaction §2 (68–107): emergent spin-ice quasiparticles, reported effective-charge/current measurements and Coulomb-like interactions remain attributed to the named sources. The page does not claim discovery of elementary magnetic charges; all source TeX annotations match.",
+    "evidenceDescriptions": "Actual evidenceState=project-reported. The displayed label is Evidence reported by the supplied documents; the original reports and limitations remain attributed. No primary paper was adjudicated. Interaction §2 (68–107): emergent spin-ice quasiparticles, reported effective-charge/current measurements and Coulomb-like interactions remain attributed to the named sources. The page does not claim discovery of elementary magnetic charges; all source TeX annotations match.",
+    "openQuestions": "Interaction §2 (68–107): emergent spin-ice quasiparticles, reported effective-charge/current measurements and Coulomb-like interactions remain attributed to the named sources. The page does not claim discovery of elementary magnetic charges; all source TeX annotations match. The relevant open extensions remain unresolved, including the six status questions and Interaction §5 limits wherever reached. This decision accepts website fidelity only.",
+    "attribution": "The emitted source-bound page displays the source filename, edition, excerpt line range and excerpt SHA-256 in extraction details, plus its mapping and dependency links. Named authors, source links and source-reported checked/location/access descriptions remain literal. The literature page labels these supplementary references rather than independent RRG approval.",
+    "sourceMappings": "Compared research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md:68–107 with the detached ownRead, all source/dependency identities and actual emitted surfaces. Every bound excerpt matches raw source bytes and its extraction hash; source TeX annotations and both rendered surfaces match. Interaction §2 (68–107): emergent spin-ice quasiparticles, reported effective-charge/current measurements and Coulomb-like interactions remain attributed to the named sources. The page does not claim discovery of elementary magnetic charges; all source TeX annotations match."
+  }
+}

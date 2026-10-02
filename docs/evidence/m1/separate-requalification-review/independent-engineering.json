@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "productionInputs": {
+    "inputsSha256": "298d22913fdd10e8cef84d985c218a575e1b71dffcc5333b766278d1f33a1f60",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "67198f50cb3ea4c93e56b36222b04d23654fa922d7f00db82c03acf4ce442268"
+  },
+  "renderer": "1b1886e3c8ab5105bf9c0667c02105cf5c47721aba15b095cb5ef914d2019805",
+  "oldRenderer": "b8191599e523daabd0338399e7d81196b18d035d853957f8e7715400beaf3ec1",
+  "sourceInventory": "25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a",
+  "representations": 34,
+  "artifacts": [
+    {
+      "directory": "dist/m1-website-fidelity-quality-recheck/preview-root",
+      "artifactSha256": "dddf250be6a24eb43825726a98750b3260ee7b994f5cf622cee9f73a61ad32bd",
+      "files": 101,
+      "html": 37,
+      "chromium": 7
+    },
+    {
+      "directory": "dist/m1-website-fidelity-quality-recheck/preview-subpath",
+      "artifactSha256": "7bde8aa7ea8e8bb36756ab874c4968bc4d8f96bf4ceecf0ec4fc4f6219aef0e5",
+      "files": 101,
+      "html": 37,
+      "chromium": 7
+    }
+  ],
+  "retained": [
+    {
+      "directory": "dist/m1-website-fidelity-acceptance/preview-root",
+      "artifactSha256": "9259b076f4798ef09c1d4964d84e3bef7e5234c071630ffe552b6166469725e9",
+      "unchanged": true,
+      "independentlyRehashed": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-acceptance/preview-subpath",
+      "artifactSha256": "cae77e07d3dca3bf87f463638e86e67c1e96f9caae5faab35ae3377e2e5513af",
+      "unchanged": true,
+      "independentlyRehashed": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck-final/preview-root",
+      "artifactSha256": "03e842021cb7a6d464f7786d530e6e279d91cd7f05e64cdc6d0ea36419f42a04",
+      "unchanged": true,
+      "independentlyRehashed": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck-final/preview-subpath",
+      "artifactSha256": "f411fc7021582a051f421cc395168e33e320af70ca97a433b9bacce121d159bc",
+      "unchanged": true,
+      "independentlyRehashed": true
+    },
+    {
+      "directory": "dist/m1-remaining-review-quality/preview-root",
+      "artifactSha256": "18f3748b4c823656776ca1bea9dad385309680def93a9d7afad355439ab229de",
+      "unchanged": true,
+      "independentlyRehashed": true
+    },
+    {
+      "directory": "dist/m1-remaining-review-quality/preview-subpath",
+      "artifactSha256": "b8169d960c1ca638ecde209385b13f77c1c58b31f10e04d8c2dbc94517bf5773",
+      "unchanged": true,
+      "independentlyRehashed": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity/preview-root",
+      "artifactSha256": "2cc7334b0764e63db6ed02a5030a61306a963aaff3f76669a0c026cb53022f6c",
+      "unchanged": true,
+      "independentlyRehashed": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity/preview-subpath",
+      "artifactSha256": "57b74bbe8afc4b77e194f684fa18dafee493e37b2bfd6e70be2b5392d142c9e9",
+      "unchanged": true,
+      "independentlyRehashed": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck/preview-root",
+      "artifactSha256": "1ce9b036059827037257efd846b709ade54d84152fc1173bd26da5b552f12cf4",
+      "unchanged": true,
+      "independentlyRehashed": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck/preview-subpath",
+      "artifactSha256": "2eb900ba567351ffed14a573ea1b06a5b2474479f36a5a9c1e53001f7421ffcf",
+      "unchanged": true,
+      "independentlyRehashed": true
+    }
+  ],
+  "contracts": {
+    "distinctCases": 76,
+    "rerunAffected": [
+      "historical representation decisions do not populate website fidelity or qualify the source",
+      "independent statement, bad binding range/hash, wrong record kind, duplicates and unknown sources fail",
+      "source-scoped aliases keep historical S01 local; duplicates and unresolved aliases fail",
+      "source URL aliases preserve case-sensitive paths while DOI identity remains case insensitive",
+      "non-DOI citation identity preserves added or removed trailing path separators",
+      "missing or cyclic semantic dependency fails; related feedback does not create proof cycles",
+      "authority notes cannot supply scientific excerpts; invalid states and real dates fail",
+      "safe directives render actual canonical explanations, extract dependencies and reject executable/unknown syntax",
+      "dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local",
+      "changing a relevant source verification scope or relevant citation stales its review",
+      "shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights",
+      "one manifest excludes drafts from every production surface and rejects published draft dependencies",
+      "withdrawn history is explicitly selected as a tombstone; former body is removed",
+      "source display adapters preserve raw bindings while rendering status/math/table consumers",
+      "source revision transaction refuses missing prior-byte preservation and incomplete core proof gate",
+      "actual supplied 07 and 08 cannot disappear behind a matching core",
+      "a missing or mismatched actual local citation alias fails the source adapter",
+      "project reproduction cannot be asserted with an invented execution receipt",
+      "Markdown directive export uses ordinary links and leaves code examples untouched",
+      "statement directives are order-independent; nested references and cycles reach the shared graph",
+      "scientific identities cannot bypass proposal provenance or masquerade as documents",
+      "retained historical excerpts remain historical; supersession is reciprocal and draft history stays out of discovery",
+      "review rejection is distinct from pending; alternate citation review binds its primary metadata",
+      "source, bibliography, execution and renderer identity changes report or stale their actual dependants",
+      "actual status, proof and home summaries depend on their core definitions and emergent evidence",
+      "withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions",
+      "bibliographic verification cannot retain a checked label after metadata substitution",
+      "release rejects future updates and reviews independently of the publication date",
+      "qualification uses reviewed production selection; a preview cannot be relabelled qualification",
+      "Markdown export validates safety, expands nested references and leaves math samples intact",
+      "directives cannot create nested anchors in link labels or Markdown exports",
+      "proposals display non-adoption and cannot supersede source-authoritative records",
+      "revision impact retains predecessor dependants when the next graph removes an edge"
+    ],
+    "reusedUnchanged": [
+      "missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING",
+      "one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE",
+      "unrecorded core change reaches LOCKED_CORE_MISMATCH",
+      "missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE",
+      "mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE",
+      "wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE",
+      "history offered as current reaches LEGACY_SOURCE_REJECTED",
+      "complete justified revised synthetic edition passes without historical-pin veto",
+      "silent edition-pin reset still fails",
+      "recorded membership omissions, duplicates and unknown manifest formats fail against actual text",
+      "root, subpath, file endpoints and path collisions use the same URL owner",
+      "release with fixture host or unqualified scientific corpus fails closed",
+      "root-only asset in subpath output reaches BASE_PATH_FAILURE",
+      "output audit requires routes, rejects extra private files and stale/relabelled identity",
+      "absolute same-site links/fragments are local; unsafe links and remote resources fail",
+      "artifact audit rejects false source identity and active SVG files",
+      "Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations",
+      "Markdown reference links/images share safety and base handling",
+      "math macros cannot leak between documents and trusted HTML commands emit no active link",
+      "safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots",
+      "output audit rejects changed source-bound display, manifest substitutions and draft sentinels",
+      "output audit binds bibliography text, destinations, support limits, status, projection and navigation",
+      "output audit rejects multiply encoded local traversal",
+      "document metadata comparison scopes the title to the head, preserving accessible SVG titles",
+      "each additional-evidence mapping declares every core clause named by its actual excerpt",
+      "the actual start explanation tracks emergent evidence, its support metadata and current status",
+      "background-extension changes invalidate the actual E12 interpretation and its consumers",
+      "review fingerprints track real URL, selection, style and pinned rendering dependency inputs",
+      "real home/start emit withdrawal tombstones through the shared consumer and output auditor",
+      "real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals",
+      "real revision CLI accounts for both rename paths without inventing a core-byte change: 04_status_and_blockers.md",
+      "real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md",
+      "intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate",
+      "hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute",
+      "bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision",
+      "complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it",
+      "null, primitive and incomplete stale evidence fail with the intended typed diagnostic",
+      "review dates cannot predate the reviewed material, including dependency updates",
+      "receipt paths reject traversal, symlink files and symlink ancestors",
+      "review inputs independently capture rendered plain language and the actual home projection without aliasing",
+      "stale decisions retain internally coherent dates, source excerpts, dependencies and projection reads",
+      "receipt paths reject control characters even when a matching regular file exists",
+      "a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes"
+    ],
+    "allPassing": true,
+    "finalMonolithicVerifyClaimed": false
+  },
+  "chromium": 14,
+  "inputComparison": "Exact prior ownRead, source reads, dependencies and both-base rendered hashes. Policy-only change independently reproduced.",
+  "currentStates": {
+    "accepted": 0,
+    "pending": 0,
+    "stale": 34,
+    "rejected": 0
+  },
+  "currentSourceQualified": false,
+  "snapshotsSha256": "c0484dc5f11470d39eab01bfd7458b517f8fbe8cc8e45305b1572f16d9600776"
+}

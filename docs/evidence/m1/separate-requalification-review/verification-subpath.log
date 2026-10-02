@@ -1,0 +1,87 @@
+14:08:10 [content] Syncing content
+14:08:10 [content] Astro config changed
+14:08:10 [content] Clearing content store
+14:08:10 [content] Synced content
+14:08:10 [types] Generated 699ms
+14:08:10 [build] output: "static"
+14:08:10 [build] mode: "static"
+14:08:10 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m1-separate-requalification-review/preview-subpath/
+14:08:10 [build] Collecting build info...
+14:08:10 [build] ✓ Completed in 706ms.
+14:08:10 [build] Building static entrypoints...
+14:08:10 [vite] ✓ built in 116ms
+14:08:10 [vite] ✓ built in 9ms
+14:08:10 [build] Rearranging server assets...
+
+ generating static routes 
+14:08:11   ├─ /404.html (+9ms) 
+14:08:11   ├─ /fixtures/math/index.html (+6ms) 
+14:08:11   ├─ /references/index.html (+2ms) 
+14:08:11   ├─ /start/index.html (+5ms) 
+14:08:11   ├─ /index.html (+8ms) 
+14:08:11   ├─ /research-status/index.html (+6ms) 
+14:08:11   ├─ /research-status/proof-matrix/index.html (+4ms) 
+14:08:11   ├─ /concepts/geometry-and-modes/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-D01/index.html (+3ms) 
+14:08:11   ├─ /claims/UT-D02/index.html (+3ms) 
+14:08:11   ├─ /claims/UT-D03/index.html (+3ms) 
+14:08:11   ├─ /claims/UT-D04/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-D05/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-D06/index.html (+3ms) 
+14:08:11   ├─ /claims/UT-D07/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-D08/index.html (+3ms) 
+14:08:11   ├─ /claims/UT-D09/index.html (+3ms) 
+14:08:11   ├─ /claims/UT-C01/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-C02/index.html (+1ms) 
+14:08:11   ├─ /claims/UT-O01/index.html (+1ms) 
+14:08:11   ├─ /claims/UT-O02/index.html (+1ms) 
+14:08:11   ├─ /claims/UT-O03/index.html (+1ms) 
+14:08:11   ├─ /claims/UT-O04/index.html (+1ms) 
+14:08:11   ├─ /claims/UT-O05/index.html (+1ms) 
+14:08:11   ├─ /claims/UT-O06/index.html (+1ms) 
+14:08:11   ├─ /claims/UT-E01/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-E02/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-E03/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-E04/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-E05/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-E06/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-E07/index.html (+3ms) 
+14:08:11   ├─ /claims/UT-E08/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-E09/index.html (+2ms) 
+14:08:11   ├─ /claims/UT-E10/index.html (+4ms) 
+14:08:11   ├─ /claims/UT-E11/index.html (+4ms) 
+14:08:11   ├─ /claims/UT-E12/index.html (+3ms) 
+14:08:11 ✓ Completed in 536ms.
+
+14:08:11 [build] ✓ Completed in 684ms.
+14:08:11 [build] 37 page(s) built in 1.39s
+14:08:11 [build] Complete!
+Private preview artifact: /Users/new/RiderProjects/RPG_theory/dist/m1-separate-requalification-review/preview-subpath; deployEligible=false
+
+Running npm run audit:output -- --dir dist/m1-separate-requalification-review/preview-subpath
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/m1-separate-requalification-review/preview-subpath
+
+{"status":"PASS","mode":"preview","basePath":"/unity-theory/","deployEligible":false,"files":101,"artifactSha256":"7714a70108d4cdb7e7027d419c5a2968d6e7d263f595e1ff0e63137414cb91ee"}
+
+Running npm run test:e2e -- --output dist/m1-separate-requalification-review/preview-subpath
+
+> unity-theory@0.0.1 test:e2e
+> tsx scripts/test-e2e.ts --output dist/m1-separate-requalification-review/preview-subpath
+
+
+Running 7 tests using 1 worker
+
+(node:82773) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/reading.spec.ts:15:1 › home and start read without JavaScript, navigate by keyboard and show source state (338ms)
+  ✓  2 tests/e2e/reading.spec.ts:38:1 › home, nested reading and math pass automated accessibility and 320px reflow (1.3s)
+  ✓  3 tests/e2e/reading.spec.ts:65:1 › dark-mode reading remains accessible (542ms)
+  ✓  4 tests/e2e/reading.spec.ts:72:1 › unknown routes return real 404 and nested assets use the configured base (174ms)
+  ✓  5 tests/e2e/reading.spec.ts:87:1 › M1 consumers retain source roles and reported evidence independently of website fidelity (670ms)
+  ✓  6 tests/e2e/reading.spec.ts:124:1 › M1 claims, concepts, status, matrix and bibliography pass axe and 320px reflow (2.2s)
+  ✓  7 tests/e2e/reading.spec.ts:138:1 › literature has source-backed DOI identities and usable source extraction details without JS (791ms)
+
+  7 passed (6.6s)
+
