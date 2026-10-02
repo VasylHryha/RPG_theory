@@ -11,9 +11,6 @@ import { renderHomeStatus } from './presentation.js';
 
 const digest=z.string().regex(/^[a-f0-9]{64}$/);
 const prose=z.string().refine(value=>value.trim().length>0);
-function safeRelativePath(path: string) {
-  return !path.startsWith('/') && !/^[a-z]:/i.test(path) && !/[\\\u0000-\u001f\u007f]/.test(path) && !path.split('/').some(p=>!p || p==='.' || p==='..');
-}
 export const websiteReviewSchema=z.object({
   purpose:z.literal('website-source-fidelity/1'), entryId:prose, fingerprint:digest,
   reviewerKind:z.enum(['agent','human']), reviewedAt:z.string(), outcome:z.enum(['accepted','pending','rejected']),
@@ -33,21 +30,9 @@ const decisionSchema=z.object({
   entryId:prose,fingerprint:digest,reviewerKind:z.enum(['agent','human']),reviewedAt:z.string(),outcome:z.enum(['accepted','pending','rejected']),
   scientificCertification:z.literal(false),rationale:prose,inputs:inputSchema,checks:checksSchema.partial()
 }).strict().superRefine((decision,ctx)=>{
-  const {ownRead,dependencies,sourceReads,renderedBodies}=decision.inputs;
-  const invalid=(message:string)=>ctx.addIssue({code:'custom',message});
   if(decision.inputs.ownRead.id!==decision.entryId || decision.inputs.fingerprint!==decision.fingerprint) ctx.addIssue({code:'custom',message:'Receipt identities differ'});
   if(decision.outcome==='accepted' && !checksSchema.safeParse(decision.checks).success) ctx.addIssue({code:'custom',message:'Every fidelity comparison is required'});
   for(const values of [decision.inputs.dependencies.map(d=>d.entryId),decision.inputs.sourceReads.map(s=>s.sourceKey),decision.inputs.renderedBodies.map(r=>r.base)]) if(new Set(values).size!==values.length) ctx.addIssue({code:'custom',message:'Duplicate reviewed inputs'});
-  // A stale receipt must still describe a coherent prior read. Do not compare
-  // its old bindings or closure with live material, which may legitimately differ.
-  if(ownRead.dependsOn.some(id=>!dependencies.some(d=>d.entryId===id)) || dependencies.some(d=>d.entryId===ownRead.id)) invalid('Snapshot dependency coverage differs');
-  if(ownRead.sourceRefs.some(key=>!sourceReads.some(s=>s.sourceKey===key)) || sourceReads.some(s=>!safeRelativePath(s.path))) invalid('Snapshot source coverage or paths differ');
-  if(ownRead.contentOrigin==='source-bound') {
-    const binding=ownRead.sourceBinding,source=sourceReads.find(s=>s.sourceKey===binding?.sourceKey);
-    if(!binding || ownRead.statement===null || binding.endLine<binding.startLine || (ownRead.statement.match(/[^\n]*\n|[^\n]+$/g)??[]).length!==binding.endLine-binding.startLine+1 || !ownRead.sourceRefs.includes(binding.sourceKey) || source?.sha256!==binding.sourceSha256 || sha256(ownRead.statement)!==binding.excerptSha256) invalid('Snapshot excerpt or source identity differs');
-  } else if(ownRead.sourceBinding!==null) invalid('Non-source-bound snapshot has an extraction binding');
-  const homeProjection=ownRead.id==='DOC-HOME' && !['superseded','withdrawn'].includes(ownRead.publicationState);
-  if(renderedBodies.some(r=>homeProjection ? r.sourceProjectionSha256===null : r.sourceProjectionSha256!==null)) invalid('Snapshot projection coverage differs');
 });
 
 // Requests describe actual material and rendered prose, excluding review badges to avoid self-reference.
@@ -78,7 +63,7 @@ export function validateWebsiteReviews(corpus: Corpus, root=corpus.root, entryId
     if(!entryIds.includes(review.entryId)) continue;
     validDate(review.reviewedAt);
     const path=review.evidenceRef;
-    if(!path.startsWith('docs/evidence/') || !safeRelativePath(path) || !path.endsWith('.json')) throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',path);
+    if(!path.startsWith('docs/evidence/') || path.includes('\\') || path.split('/').some(p=>!p || p==='.' || p==='..') || !path.endsWith('.json')) throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',path);
     let decision:z.infer<typeof decisionSchema>;
     try {
       for(let index=1;index<=path.split('/').length;index++) if(lstatSync(resolve(root,...path.split('/').slice(0,index))).isSymbolicLink()) throw new Error('Symlink receipt path');
@@ -87,9 +72,7 @@ export function validateWebsiteReviews(corpus: Corpus, root=corpus.root, entryId
       decision=decisionSchema.parse(JSON.parse(raw.toString()));
     } catch { throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',path); }
     for(const key of ['purpose','entryId','fingerprint','outcome','reviewerKind','reviewedAt'] as const) if(decision[key]!==review[key]) throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',review.entryId);
-    const own=decision.inputs.ownRead,updatedAt=validDate(own.updatedAt),materialAt=validDate(decision.inputs.materialUpdatedAt);
-    if((own.publishedAt!==null && validDate(own.publishedAt)>updatedAt) || (own.publicationState!=='draft' && own.publishedAt===null) || materialAt<updatedAt) throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',review.entryId);
-    if(materialAt>validDate(review.reviewedAt)) throw new ContractError('REVIEW_PREDATES_MATERIAL',review.entryId);
+    if(validDate(decision.inputs.materialUpdatedAt)>validDate(review.reviewedAt) || validDate(decision.inputs.ownRead.updatedAt)>validDate(review.reviewedAt)) throw new ContractError('REVIEW_PREDATES_MATERIAL',review.entryId);
     // Validate stale receipts structurally too; a changed genuine snapshot remains stale.
     if(review.fingerprint===reviewFingerprint(corpus,review.entryId) && stableJSON(decision.inputs)!==stableJSON(websiteReviewInputs(corpus,review.entryId))) throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',review.entryId);
   }

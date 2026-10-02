@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "date": "2026-10-02T10:42:35.246Z",
+  "mode": "preview",
+  "productionInputs": {
+    "inputsSha256": "298d22913fdd10e8cef84d985c218a575e1b71dffcc5333b766278d1f33a1f60",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "67198f50cb3ea4c93e56b36222b04d23654fa922d7f00db82c03acf4ce442268"
+  },
+  "reusedCommands": [
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:sources -- --scope history",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:sources -- --scope current",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:content",
+      "exitCode": 0
+    }
+  ],
+  "reuseReason": "Only tests/content/m1.test.ts withdrawal fixtures changed after the first batch; production, registry and every other test file stayed unchanged. Its whole file is rerun. Other fresh passing cases and four commands are retained.",
+  "firstBatchTests": {
+    "total": 76,
+    "passed": 74,
+    "failed": 2
+  },
+  "freshCommands": [
+    {
+      "command": "/Users/new/.local/node/bin/node --import tsx --test tests/content/m1.test.ts",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config config/site.json --output dist/m1-website-fidelity-quality-recheck/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m1-website-fidelity-quality-recheck/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/m1-website-fidelity-quality-recheck/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m1-website-fidelity-quality-recheck/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m1-website-fidelity-quality-recheck/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/m1-website-fidelity-quality-recheck/preview-subpath",
+      "exitCode": 0
+    }
+  ],
+  "notRun": [],
+  "scientificCertification": false,
+  "newRepairs": "REVIEW_READY",
+  "m2": "NOT_STARTED",
+  "publicActions": "NOT_RUN"
+}

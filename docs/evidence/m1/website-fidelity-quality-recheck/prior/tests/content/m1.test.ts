@@ -116,7 +116,7 @@ test('one manifest excludes drafts from every production surface and rejects pub
  c.entries.get('UT-D01')!.dependsOn=['UT-D99'];installSyntheticReview(c,'UT-D01','accepted','2026-10-01');assert.throws(()=>selectPublication(c,config,release),/UNPUBLISHABLE_DEPENDENCY/);
 });
 test('withdrawn history is explicitly selected as a tombstone; former body is removed',()=>{
- const c=syntheticAcceptedFixture();const e=c.entries.get('UT-D01')!;e.publicationState='withdrawn';e.correctionRef='synthetic correction';e.withdrawalReason='Synthetic withdrawn reason';e.body='OLD_BODY_SENTINEL';installSyntheticReview(c,e.id,'accepted','2026-10-01');
+ const c=syntheticAcceptedFixture();const e=c.entries.get('UT-D01')!;e.publicationState='withdrawn';e.correctionRef='synthetic correction';e.withdrawalReason='Synthetic withdrawn reason';e.statement='OLD_BODY_SENTINEL';installSyntheticReview(c,e.id,'accepted','2026-10-01');
  const result=selectPublication(c,config,{...release,historicalIds:[e.id]});assert.equal(result.entries[0].statement,null);assert.deepEqual(result.manifest.navigationIds,[]);assert.doesNotMatch(renderEntrySync(c,result.entries[0]),/OLD_BODY_SENTINEL/);
 });
 test('source display adapters preserve raw bindings while rendering status/math/table consumers',()=>{
@@ -218,10 +218,10 @@ test('actual status, proof and home summaries depend on their core definitions a
 
 test('withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions',()=>{
  const c=syntheticAcceptedFixture(),e=c.entries.get('UT-D01')!;
- for(const key of ['title','description','scope','limits','plainLanguage','sourceMapping','body'] as const) e[key]='OLD_METADATA_SENTINEL';
+ for(const key of ['title','description','scope','limits','plainLanguage','sourceMapping','body','statement'] as const) e[key]='OLD_METADATA_SENTINEL';
  e.publicationState='withdrawn';e.withdrawalReason='Synthetic reason';e.correctionRef='Synthetic correction';installSyntheticReview(c,e.id,'accepted','2026-10-01');
  const selected=selectPublication(c,config,{...release,historicalIds:[e.id]});const tombstone=selected.entries[0];
- assert.doesNotMatch(JSON.stringify(tombstone)+renderEntrySync(c,tombstone)+renderRecordDetails(c,tombstone),/OLD_METADATA_SENTINEL|Geometry is not limited to visible Euclidean shape/);assert.deepEqual(selected.manifest.referenceIds,[]);
+ assert.doesNotMatch(JSON.stringify(tombstone)+renderEntrySync(c,tombstone)+renderRecordDetails(c,tombstone),/OLD_METADATA_SENTINEL/);assert.deepEqual(selected.manifest.referenceIds,[]);
  assert.throws(()=>exportDirectiveMarkdown('::claim{id="UT-D01" view="statement"}',c),/WITHDRAWN_EXCERPT/);
 });
 

@@ -1,0 +1,29 @@
+{
+  "scope": "Isolated production-validator diagnostics; no project approval or source mutation",
+  "results": [
+    {
+      "name": "invalid snapshot publication date",
+      "result": "ACCEPTED_AS_STALE"
+    },
+    {
+      "name": "material date before own update",
+      "result": "ACCEPTED_AS_STALE"
+    },
+    {
+      "name": "missing own sources",
+      "result": "ACCEPTED_AS_STALE"
+    },
+    {
+      "name": "missing own dependencies",
+      "result": "ACCEPTED_AS_STALE"
+    },
+    {
+      "name": "invented bound excerpt",
+      "result": "ACCEPTED_AS_STALE"
+    },
+    {
+      "name": "missing HOME projection",
+      "result": "ACCEPTED_AS_STALE"
+    }
+  ]
+}

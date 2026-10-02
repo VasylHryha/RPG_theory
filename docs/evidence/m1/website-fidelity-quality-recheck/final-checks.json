@@ -1,0 +1,352 @@
+{
+  "status": "PASS",
+  "productionInputs": {
+    "inputsSha256": "298d22913fdd10e8cef84d985c218a575e1b71dffcc5333b766278d1f33a1f60",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "67198f50cb3ea4c93e56b36222b04d23654fa922d7f00db82c03acf4ce442268"
+  },
+  "contracts": {
+    "distinctCases": 76,
+    "freshAffectedFile": 33,
+    "reusedUnchangedCases": 43,
+    "allPassing": true
+  },
+  "chromium": 14,
+  "reviewStates": {
+    "accepted": 0,
+    "pending": 0,
+    "stale": 34,
+    "rejected": 0
+  },
+  "currentSourceQualified": false,
+  "identityComparisons": [
+    {
+      "entryId": "DOC-STATUS",
+      "oldFingerprint": "2c622ca6a039a2dbe37443349d94d86da8be76c34696addcc81f535c502cffd9",
+      "currentFingerprint": "a75e8a538ccbdc9c2b806278156ec2c66bef6bbe1f8e08466ba6dafe22cd015d",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "DOC-PROOF",
+      "oldFingerprint": "4c1c46796687ae8dc506d8d217c8b0ea3a3586f774fccfe7d1b6b7d26998dfe6",
+      "currentFingerprint": "f041a9ba5c98cb2d0a9b66c7d9f378b5233602098f4d33cd29b80af79bf1b523",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "DOC-CONCEPT-GEOMETRY",
+      "oldFingerprint": "7f2093e50dd410d896c8f4872f920c9ccc559d96bb011e2754a17bf2448b3f03",
+      "currentFingerprint": "923ed8d86780b2c14fc9d44a42bc74f6e2c895c3adaaba08131a05588055b4ff",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-D01",
+      "oldFingerprint": "9d5887a6ad223cab0348cc511b80cea571386b6822c936a27b3ee223c237c247",
+      "currentFingerprint": "a1dc930fa3871a9ab3dd4ffb515d8a5438f69de60a9755937056abc63136e616",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-D02",
+      "oldFingerprint": "962877b0745fea1f802f2c5d34505201b5d8e583d57fda2bbac8a199822ede49",
+      "currentFingerprint": "3d64ab03dbce441c5ef06e80a709b271458b735ce198effad2aee014eeaa80b8",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-D03",
+      "oldFingerprint": "992b0182535f567405c9f1999289233597d25a2f6cd9a26b1225a80c037cfba8",
+      "currentFingerprint": "62e78b1e8c81997459381130b1cdbb870c50326033dfdd99ac0d59082ecab000",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-D04",
+      "oldFingerprint": "9b8fbdcf5a7265b8afe154f9704c7dce55aa8391d331a0ccdbf0362fc8ef24e5",
+      "currentFingerprint": "13d6e8b6ed5df9406ebb2f6477758ba3f252dde632e17eb187ce9e2632512287",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-D05",
+      "oldFingerprint": "f0a5896b2f83849ccba8ec3d15c6c1cf59d920dd9f57e7bb36abab3ab7502fb4",
+      "currentFingerprint": "b03f713c559676e08c3b35ed0432173f815bdcb5303b88aeb670c9c409653720",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-D06",
+      "oldFingerprint": "4f9c96ba9383912e0266bf28ef4449f1e53560e3a0082041de2fbec849d034f4",
+      "currentFingerprint": "36bafb7527fbc2a4814cc2aba06d8e1264260b9df7b06e4e5ce338df2e032fb9",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-D07",
+      "oldFingerprint": "2b98d4120ace0cd4a825276270a87211fac0f15882d74413307526e211a7ab89",
+      "currentFingerprint": "f542650fb53c323d312f5dceef42d34a4807cafbb91b566f1341ba93b1006202",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-D08",
+      "oldFingerprint": "96b50a356e60dafb7270c88bbf7751ea8aa13192573ec4e77e1d9a84c721974d",
+      "currentFingerprint": "884218454d60101a9900f0b99d3debe36c8b5de04cd40ac26ddf42323c4d4189",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-D09",
+      "oldFingerprint": "2b0668f98fae279a82b1c231096cff9ed9df9b823ab33eda3c7ab016b24c0c39",
+      "currentFingerprint": "53855d25aba258e47ffc2ae0e1508b93a3011389e316aea2db9ef25059840512",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-C01",
+      "oldFingerprint": "33dbef903c894b20f958df40b11c2190144a0eb12f20eb86adb611357979219b",
+      "currentFingerprint": "b937950dd88f73452a058b3c20efea22575840cbf77c6de0032677fb05bba2d4",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-C02",
+      "oldFingerprint": "e5ba4144a30b633873cb9fa83e721cb8683d0ef80a479def4a49507b6503801f",
+      "currentFingerprint": "94bf6514abd2664d4f7bf532756541160afe94269111594c9405d63c19b7e25b",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-O01",
+      "oldFingerprint": "102fc09113e35337aa872397fe5e0a1265dbfcd6822da9326d2962a2c1184002",
+      "currentFingerprint": "d40e43c82573a525e6dcdc80aa98ea111e30906d4d9af3522cd7aa93fa324bc6",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-O02",
+      "oldFingerprint": "2ebccf0de98df0f8794ebfc221be617b61d307c9aaef8a32e387e0983b2711ad",
+      "currentFingerprint": "57a807cba4bdbb7f8ad8a1d35da67494e8a6e3033b5f34eaaa41f9ee694d7967",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-O03",
+      "oldFingerprint": "8f1a46ad80ca400cb5cbae149628bb3f716179aecfa2682bb6dc7d3a07efed77",
+      "currentFingerprint": "5539002049ba0c724d78b37e7fe185510396881e8942542b53829f5561772b2c",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-O04",
+      "oldFingerprint": "a322054c05b329c04f7b0003e3a36a9bcb6458fe99d78a1a1be4f76c1d0ec433",
+      "currentFingerprint": "2593e208f42adc404ee159b4ac92f74686620fa159921b7d557b9224e83e7001",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-O05",
+      "oldFingerprint": "faceea8ed9a91fbbfe3e3bca8c36173ee2a04160396be1a739fb92071fa0ac7f",
+      "currentFingerprint": "b7cc19fd5b76e7fec8308a946532fdf281b6851517e5cdac87b72bbf7bd492a4",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-O06",
+      "oldFingerprint": "445d60628aa5a77f272e1183dcfcfaa8ea83ccf808f846906d08e78481c85102",
+      "currentFingerprint": "c02b2d4d523ebaf05cde250a0f8ea663e33b0ca30fde45542a93b6f6883a7e0e",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E01",
+      "oldFingerprint": "045f60f7329b63058b16f60d95d080780ffef277b81f3db8c5b8b7e8d5629713",
+      "currentFingerprint": "f1e4fcc95100d1edba6ae6a2bb3b2ff0b0818d8fc98e39c5f0cee81b5fd33762",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E02",
+      "oldFingerprint": "825d8f0179aacc3369fefdffc297b7d91546b0f6fa3616d72d5ac3caeed61b2e",
+      "currentFingerprint": "b4daa30df8b3727485f39bb41eb56de700ec36246a971248cca997a7322709bc",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E03",
+      "oldFingerprint": "8df08b9e642122027ad29d812328cb603021b1751d5bc0457c726772ea7c9200",
+      "currentFingerprint": "f4f22d385cc7cb44bc5d65a7c3906ded4ed2e7f518796f27745518f21a208ed7",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E04",
+      "oldFingerprint": "0ccb1b44a92d8bca6d1b688dfb9fedcf78f8ac030f733b64446c0276e56e48d2",
+      "currentFingerprint": "e32b9bceccf6a75dac10969944a5cf037060c90de72c7b5578008a1af5565bb5",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E05",
+      "oldFingerprint": "0c11e4081f720c4fa71b89f1478cfb774947c4355ba618bd88b498845e08c53f",
+      "currentFingerprint": "ce1efbd1caff1796d90edda33848fff15d9de6a4d2bc1a6aa7633463976c974f",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E06",
+      "oldFingerprint": "e517dd8c3930b1ec618495e7be52d902d6d708b3a44bfe04796058a64405bf5c",
+      "currentFingerprint": "6db45392f0e68a7058277e18e83a5592828c2d57fa9e5e1b053c3118c06219a7",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E07",
+      "oldFingerprint": "a2c3e4ad417faf1b5ed4c35c5b2daa81f8562daca737d4f358119b3dd71d0022",
+      "currentFingerprint": "c8d59e2d0c86d75d848ebaab7ea269b74f153746adf33645c83d30f2e52a8f25",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E08",
+      "oldFingerprint": "dfa11d68a9fe3b0ed5106f89d5ee66ca6403ff759a090b615cf3eda29c9de8df",
+      "currentFingerprint": "076b5ae75d0281bac3ff88c2743a616046cd6df6100a0c2e3e3a154aac540aa5",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E09",
+      "oldFingerprint": "788c5aad29c7a528b65e312fb748cb329133ded44ae1f0c513bc684327281c3e",
+      "currentFingerprint": "beffb5732d426ed23b46e64288d8f897a0f61836f91fca079e7450d78e3d8102",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E10",
+      "oldFingerprint": "5a897e68d29971e748a35f62f4cdd9253f18cacdb5dc48dd88a97ba578875d45",
+      "currentFingerprint": "4b8fe8ef0716de34bccc21a205ce8d5f8c8101d38f4bc52db71ab506eef5659b",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E11",
+      "oldFingerprint": "8083d70567297dc5890a8be351b44b48fb5fa4433d9102551201e8c627013985",
+      "currentFingerprint": "136cc19f697c9930c3b6e994d82e7d79f3ac02f38bb792e394d92bab1b3dcba7",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "UT-E12",
+      "oldFingerprint": "d288a8788c384a5939df398d4eefba3ed2eece20b3a76781680dac0050f9095b",
+      "currentFingerprint": "afc1071d188e84cc63ff986b6628fb4e46548a2a40303dcd18824d35afe1c98c",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "DOC-HOME",
+      "oldFingerprint": "3148790b822621f450c7e07cd27e445181553b9a8dbb9266840cfbf6e4d06ffa",
+      "currentFingerprint": "836e8f7d30644fd00bde35dd7b70f1cbffe57f8cc0b2a4cebcb1f0d83bc2a482",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    },
+    {
+      "entryId": "DOC-START",
+      "oldFingerprint": "730b10bf4b1a6befef405e741980164c34ad463155ad748f7cd74b0ab8a783a9",
+      "currentFingerprint": "61f69aa8ee0aa6b30c85c315d3eb2c2721ff67998e08945f6534e226661097d8",
+      "ownReadSourcesDependenciesRenderedSurfaces": "unchanged",
+      "currentState": "stale"
+    }
+  ],
+  "artifacts": [
+    {
+      "base": "/",
+      "directory": "dist/m1-website-fidelity-quality-recheck/preview-root",
+      "artifactSha256": "dddf250be6a24eb43825726a98750b3260ee7b994f5cf622cee9f73a61ad32bd",
+      "files": 101,
+      "html": 37,
+      "chromium": 7
+    },
+    {
+      "base": "/unity-theory/",
+      "directory": "dist/m1-website-fidelity-quality-recheck/preview-subpath",
+      "artifactSha256": "7bde8aa7ea8e8bb36756ab874c4968bc4d8f96bf4ceecf0ec4fc4f6219aef0e5",
+      "files": 101,
+      "html": 37,
+      "chromium": 7
+    }
+  ],
+  "retained": [
+    {
+      "directory": "dist/m1-website-fidelity-acceptance/preview-root",
+      "artifactSha256": "9259b076f4798ef09c1d4964d84e3bef7e5234c071630ffe552b6166469725e9",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-acceptance/preview-subpath",
+      "artifactSha256": "cae77e07d3dca3bf87f463638e86e67c1e96f9caae5faab35ae3377e2e5513af",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck-final/preview-root",
+      "artifactSha256": "03e842021cb7a6d464f7786d530e6e279d91cd7f05e64cdc6d0ea36419f42a04",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck-final/preview-subpath",
+      "artifactSha256": "f411fc7021582a051f421cc395168e33e320af70ca97a433b9bacce121d159bc",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-remaining-review-quality/preview-root",
+      "artifactSha256": "18f3748b4c823656776ca1bea9dad385309680def93a9d7afad355439ab229de",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-remaining-review-quality/preview-subpath",
+      "artifactSha256": "b8169d960c1ca638ecde209385b13f77c1c58b31f10e04d8c2dbc94517bf5773",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity/preview-root",
+      "artifactSha256": "2cc7334b0764e63db6ed02a5030a61306a963aaff3f76669a0c026cb53022f6c",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity/preview-subpath",
+      "artifactSha256": "57b74bbe8afc4b77e194f684fa18dafee493e37b2bfd6e70be2b5392d142c9e9",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck/preview-root",
+      "artifactSha256": "1ce9b036059827037257efd846b709ade54d84152fc1173bd26da5b552f12cf4",
+      "unchanged": true
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck/preview-subpath",
+      "artifactSha256": "2eb900ba567351ffed14a573ea1b06a5b2474479f36a5a9c1e53001f7421ffcf",
+      "unchanged": true
+    }
+  ],
+  "refusals": [
+    {
+      "mode": "qualification",
+      "exitCode": 1,
+      "reason": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false
+    },
+    {
+      "mode": "release",
+      "exitCode": 1,
+      "reason": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false
+    }
+  ],
+  "newRepairs": "REVIEW_READY",
+  "contentDecisionRefresh": "NOT_PERFORMED",
+  "scientificSources": "unchanged",
+  "scientificAdjudication": "DEFERRED",
+  "m2": "NOT_STARTED",
+  "publicActions": "NOT_RUN"
+}

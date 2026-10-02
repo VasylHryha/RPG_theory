@@ -109,51 +109,6 @@ test('review inputs independently capture rendered plain language and the actual
  const original=c.entries.get('DOC-HOME')!.body;inputs.ownRead.body+=' Changed snapshot.';assert.equal(c.entries.get('DOC-HOME')!.body,original);
  assert.throws(()=>websiteReviewState(c,'DOC-UNKNOWN'),/UNKNOWN_DEPENDENCY/);
 });
-test('stale decisions retain internally coherent dates, source excerpts, dependencies and projection reads',()=>{
- const root=mkdtempSync(join(tmpdir(),'unity-fidelity-stale-coherence-'));
- try {
-  for(const [id,mutate] of [
-   ['UT-D01',(d:any)=>{d.inputs.ownRead.publishedAt='not-a-date';}],
-   ['UT-D01',(d:any)=>{d.inputs.ownRead.publishedAt='2026-10-03';}],
-   ['UT-D01',(d:any)=>{d.inputs.ownRead.publicationState='published';}],
-   ['DOC-HOME',(d:any)=>{d.inputs.materialUpdatedAt='2026-10-01';}],
-   ['UT-D01',(d:any)=>{d.inputs.sourceReads=[];}],
-   ['DOC-HOME',(d:any)=>{d.inputs.dependencies=[];}],
-   ['UT-D01',(d:any)=>{d.inputs.dependencies.push({entryId:'UT-D01',semanticDigest:'0'.repeat(64)});}],
-   ['UT-D01',(d:any)=>{d.inputs.ownRead.statement='Invented prior excerpt.';}],
-   ['UT-D01',(d:any)=>{d.inputs.ownRead.sourceBinding.endLine=1;}],
-   ['UT-D01',(d:any)=>{d.inputs.ownRead.sourceBinding.endLine+=1;}],
-   ['UT-D01',(d:any)=>{d.inputs.ownRead.contentOrigin='authored';}],
-   ['UT-D01',(d:any)=>{d.inputs.sourceReads[0].sha256='0'.repeat(64);}],
-   ['UT-D01',(d:any)=>{d.inputs.sourceReads[0].path='../external.md';}],
-   ['DOC-HOME',(d:any)=>{d.inputs.renderedBodies.forEach((s:any)=>s.sourceProjectionSha256=null);}],
-   ['UT-D01',(d:any)=>{d.inputs.renderedBodies[0].sourceProjectionSha256='0'.repeat(64);}]
-  ] as [string,(d:any)=>void][]) {
-   const c=loadCanonicalCorpus();c.root=root;const fixture=control(c,root,id);
-   c.entries.get(id)!.scope+=' Changed live material.';
-   c.websiteReviews=[fixture.save()];assert.doesNotThrow(()=>validateWebsiteReviews(c));
-   assert.equal(websiteReviewState(c,id),'stale');
-   mutate(fixture.decision);c.websiteReviews=[fixture.save()];
-   assert.throws(()=>validateWebsiteReviews(c),/WEBSITE_REVIEW_EVIDENCE_REQUIRED|INVALID_DATE/);
-  }
-  const changedSource=loadCanonicalCorpus();changedSource.root=root;
-  const oldRead=control(changedSource,root);changedSource.websiteReviews=[oldRead.save()];
-  changedSource.sources.get('R-CURRENT-CORE')!.sha256='1'.repeat(64);
-  assert.doesNotThrow(()=>validateWebsiteReviews(changedSource));
-  assert.equal(websiteReviewState(changedSource,'UT-D01'),'stale');
- } finally {rmSync(root,{recursive:true,force:true});}
-});
-test('receipt paths reject control characters even when a matching regular file exists',()=>{
- const root=mkdtempSync(join(tmpdir(),'unity-fidelity-path-controls-'));
- try {
-  const c=loadCanonicalCorpus();c.root=root;const fixture=control(c,root),review=fixture.save();
-  for(const character of ['\n','\t','\u007f']) {
-   const evidenceRef=`docs/evidence/${character}control.json`;
-   writeFileSync(join(root,evidenceRef),readFileSync(join(root,review.evidenceRef)));
-   c.websiteReviews=[{...review,evidenceRef}];assert.throws(()=>validateWebsiteReviews(c),/WEBSITE_REVIEW_EVIDENCE_REQUIRED/);
-  }
- } finally {rmSync(root,{recursive:true,force:true});}
-});
 test('a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes',()=>{
  const root=mkdtempSync(join(tmpdir(),'unity-fidelity-loader-'));
  try {

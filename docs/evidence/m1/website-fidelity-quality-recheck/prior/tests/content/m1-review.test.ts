@@ -6,7 +6,6 @@ import { tmpdir } from 'node:os';
 import { loadCanonicalCorpus, dependencyClosure, affectedEntries, reviewFingerprint } from '../../src/lib/content.js';
 
 import { websiteReviewState } from '../../src/lib/website-review.js';
-import { installSyntheticReview } from './fidelity-fixture.js';
 
 test('each additional-evidence mapping declares every core clause named by its actual excerpt', () => {
   const corpus = loadCanonicalCorpus();
@@ -33,8 +32,6 @@ test('the actual start explanation tracks emergent evidence, its support metadat
   for (const dependency of ['UT-E10','UT-E11','UT-E12','DOC-STATUS']) assert.ok(dependencyClosure(corpus,'DOC-START').includes(dependency));
   assert.ok(affectedEntries(corpus,'R-CURRENT-INTERACTIONS').includes('DOC-START'));
   assert.ok(affectedEntries(corpus,'BIB-0016').includes('DOC-START'));
-  installSyntheticReview(corpus,'DOC-START');
-  assert.equal(websiteReviewState(corpus,'DOC-START'),'accepted');
   const before = reviewFingerprint(corpus,'DOC-START');
   corpus.references.get('BIB-0016')!.supportScope += ' Isolated changed citation support.';
   assert.notEqual(reviewFingerprint(corpus,'DOC-START'),before);
@@ -45,10 +42,6 @@ test('background-extension changes invalidate the actual E12 interpretation and 
   const corpus=loadCanonicalCorpus();
   assert.ok(corpus.entries.get('UT-E12')!.dependsOn.includes('UT-C02'));
   const consumers=['UT-E12','DOC-HOME','DOC-START','DOC-STATUS','DOC-PROOF'];
-  for(const id of ['UT-C02',...consumers]) {
-    installSyntheticReview(corpus,id);
-    assert.equal(websiteReviewState(corpus,id),'accepted',id);
-  }
   for(const id of consumers) assert.ok(affectedEntries(corpus,'UT-C02').includes(id),id);
   const before=new Map(consumers.map(id=>[id,reviewFingerprint(corpus,id)])),unrelated=reviewFingerprint(corpus,'UT-E10');
   corpus.entries.get('UT-C02')!.scope+=' Isolated changed background-extension meaning.';
@@ -56,7 +49,7 @@ test('background-extension changes invalidate the actual E12 interpretation and 
   assert.equal(reviewFingerprint(corpus,'UT-E10'),unrelated);
   assert.equal(websiteReviewState(corpus,'UT-C02'),'stale');
   assert.equal(websiteReviewState(corpus,'UT-E12'),'stale');
-  // Isolated hashed controls prove accepted→stale even when real decisions are stale.
+  // Actual accepted consumers become stale; unrelated E10 keeps its identity.
   for(const id of consumers) assert.equal(websiteReviewState(corpus,id),'stale',id);
 });
 
