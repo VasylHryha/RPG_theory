@@ -16,6 +16,7 @@ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`rea
   for(const root of [prior,next]) {
    for(const folder of ['research','src','config','docs/evidence/m1/literature']) {mkdirSync(join(root,folder,'..'),{recursive:true});cpSync(folder,join(root,folder),{recursive:true});}
    for(const file of ['astro.config.mjs','package-lock.json']) cpSync(file,join(root,file));
+   write(root,'research/publication/website-reviews.yaml',[]);
    const record=read(root,'config/research-source.json');record.corpusScope='synthetic';write(root,'config/research-source.json',record);
   }
   const old=read(prior,'config/research-source.json'),record=read(next,'config/research-source.json');

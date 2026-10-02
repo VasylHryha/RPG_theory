@@ -12,6 +12,7 @@ test('real home/start emit withdrawal tombstones through the shared consumer and
   for(const folder of ['src','scripts','research','public','config','.github','docs/evidence/m1/literature']) {
    mkdirSync(join(root,folder,'..'),{recursive:true});cpSync(folder,join(root,folder),{recursive:true});
   }
+  writeFileSync(join(root,'research/publication/website-reviews.yaml'),'[]');
   for(const file of ['package.json','package-lock.json','astro.config.mjs','tsconfig.json','.node-version','.npmrc']) cpSync(file,join(root,file));
   symlinkSync(resolve('node_modules'),join(root,'node_modules'),'dir');
   const intakePath=join(root,'config/research-source.json'),intake=JSON.parse(readFileSync(intakePath,'utf8'));intake.corpusScope='synthetic';writeFileSync(intakePath,JSON.stringify(intake));

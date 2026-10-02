@@ -1,0 +1,115 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D09",
+  "fingerprint": "2b0668f98fae279a82b1c231096cff9ed9df9b823ab33eda3c7ab016b24c0c39",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Core §9, lines 114–126: replication and other propagation/formation mechanisms are possible, without a mandatory A→A+A→B step. The summary preserves that distinction.",
+  "inputs": {
+    "fingerprint": "2b0668f98fae279a82b1c231096cff9ed9df9b823ab33eda3c7ab016b24c0c39",
+    "ownRead": {
+      "id": "UT-D09",
+      "route": "/claims/UT-D09/",
+      "title": "Replication and recurrence",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 2,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 114,
+        "endLine": 126,
+        "excerptSha256": "6a0b719f6b5236c68fc8f6c9663e9c5d69f01a9621e54d8e9ade00ee9ad639e2"
+      },
+      "statement": "## 9. Replication / recurrence\n\nReplication, duplication, autocatalysis, reproduction, aggregation, differentiation, self-assembly, and symmetry breaking are **possible mechanisms of higher-level formation or propagation**, not mandatory steps in the core recursion.\n\nRRG never requires:\n\n\\[\nA\\rightarrow A+A\\rightarrow B\n\\]\n\nat every level.\n\nBiological replication is therefore an example, not the definition of recursion.\n",
+      "plainLanguage": "Replication is one possible way to form or propagate organization; it is not required at every level.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §9; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+        "plainLanguageSha256": "714e8089403fe8d565914e8fa98f6afd5a55c94affe8a74a6ce3b06cff247df0",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+        "plainLanguageSha256": "714e8089403fe8d565914e8fa98f6afd5a55c94affe8a74a6ce3b06cff247df0",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Core §9, lines 114–126: replication and other propagation/formation mechanisms are possible, without a mandatory A→A+A→B step. The summary preserves that distinction.",
+    "meaning": "Core §9, lines 114–126: replication and other propagation/formation mechanisms are possible, without a mandatory A→A+A→B step. The summary preserves that distinction. Complete bound excerpt/body and plain-language surfaces compared at / and /unity-theory/.",
+    "assumptions": "Core meanings and optional downstream conditions stay distinct at research/RRG_CURRENT/00_LOCKED_CORE.md:114–126; Core §9, lines 114–126: replication and other propagation/formation mechanisms are possible, without a mandatory A→A+A→B step. The summary preserves that distinction.",
+    "hypotheses": "No new hypothesis is promoted to an independently established result. Core §9, lines 114–126: replication and other propagation/formation mechanisms are possible, without a mandatory A→A+A→B step. The summary preserves that distinction.",
+    "evidenceDescriptions": "not-applicable: role/status is consistent with the original passages; Core §9, lines 114–126: replication and other propagation/formation mechanisms are possible, without a mandatory A→A+A→B step. The summary preserves that distinction. No scientific certification is assigned.",
+    "openQuestions": "Core §9, lines 114–126: replication and other propagation/formation mechanisms are possible, without a mandatory A→A+A→B step. The summary preserves that distinction. Original status lines 18–25 and Interaction §5 keep universal criterion, novelty, gravity/four-force unification and other extension questions unresolved wherever relevant; this bounded representation does not declare closure of those questions.",
+    "attribution": "00_LOCKED_CORE.md §9; new navigation ID, source has no UT ID. Source paths/edition/excerpt lines and new navigation-ID mapping are displayed. Evidence excerpts retain named authors and original links; bibliography is supplementary, with recorded metadata/access limits rather than an independent RRG endorsement.",
+    "sourceMappings": "Compared research/RRG_CURRENT/00_LOCKED_CORE.md:114–126 with the detached ownRead, dependency/source identities and actual emitted surfaces in independent-read-snapshots.json. Raw excerpt equality and source TeX annotation equality passed for source-bound records at both bases. Core §9, lines 114–126: replication and other propagation/formation mechanisms are possible, without a mandatory A→A+A→B step. The summary preserves that distinction."
+  }
+}

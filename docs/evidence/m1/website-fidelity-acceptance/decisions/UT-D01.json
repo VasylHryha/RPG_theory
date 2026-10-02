@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D01",
+  "fingerprint": "9d5887a6ad223cab0348cc511b80cea571386b6822c936a27b3ee223c237c247",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Core §1, lines 6–14: organization at a chosen scale includes components, arrangement, relations, connectivity and constraints; the shorter explanation retains the broader-than-visible-shape meaning.",
+  "inputs": {
+    "fingerprint": "9d5887a6ad223cab0348cc511b80cea571386b6822c936a27b3ee223c237c247",
+    "ownRead": {
+      "id": "UT-D01",
+      "route": "/claims/UT-D01/",
+      "title": "Geometry",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 1,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 6,
+        "endLine": 14,
+        "excerptSha256": "680c99c03b1ea11424b27fef2214ae09b72646cd103d2f025b5dc5c7a38c7e34"
+      },
+      "statement": "## 1. Geometry \\(G\\)\n\nIn RRG, **geometry** means the organization of a system at a chosen scale:\n\n\\[\nG=\\{\\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\\}.\n\\]\n\nGeometry is not limited to visible Euclidean shape.\n",
+      "plainLanguage": "Organization at a chosen scale includes components, relationships, boundaries and constraints.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §1; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+        "plainLanguageSha256": "bb7608084334c757a665fdad6dcc4316f14185b431e133921c43c56e36ead979",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+        "plainLanguageSha256": "bb7608084334c757a665fdad6dcc4316f14185b431e133921c43c56e36ead979",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Core §1, lines 6–14: organization at a chosen scale includes components, arrangement, relations, connectivity and constraints; the shorter explanation retains the broader-than-visible-shape meaning.",
+    "meaning": "Core §1, lines 6–14: organization at a chosen scale includes components, arrangement, relations, connectivity and constraints; the shorter explanation retains the broader-than-visible-shape meaning. Complete bound excerpt/body and plain-language surfaces compared at / and /unity-theory/.",
+    "assumptions": "Core meanings and optional downstream conditions stay distinct at research/RRG_CURRENT/00_LOCKED_CORE.md:6–14; Core §1, lines 6–14: organization at a chosen scale includes components, arrangement, relations, connectivity and constraints; the shorter explanation retains the broader-than-visible-shape meaning.",
+    "hypotheses": "No new hypothesis is promoted to an independently established result. Core §1, lines 6–14: organization at a chosen scale includes components, arrangement, relations, connectivity and constraints; the shorter explanation retains the broader-than-visible-shape meaning.",
+    "evidenceDescriptions": "not-applicable: role/status is consistent with the original passages; Core §1, lines 6–14: organization at a chosen scale includes components, arrangement, relations, connectivity and constraints; the shorter explanation retains the broader-than-visible-shape meaning. No scientific certification is assigned.",
+    "openQuestions": "Core §1, lines 6–14: organization at a chosen scale includes components, arrangement, relations, connectivity and constraints; the shorter explanation retains the broader-than-visible-shape meaning. Original status lines 18–25 and Interaction §5 keep universal criterion, novelty, gravity/four-force unification and other extension questions unresolved wherever relevant; this bounded representation does not declare closure of those questions.",
+    "attribution": "00_LOCKED_CORE.md §1; new navigation ID, source has no UT ID. Source paths/edition/excerpt lines and new navigation-ID mapping are displayed. Evidence excerpts retain named authors and original links; bibliography is supplementary, with recorded metadata/access limits rather than an independent RRG endorsement.",
+    "sourceMappings": "Compared research/RRG_CURRENT/00_LOCKED_CORE.md:6–14 with the detached ownRead, dependency/source identities and actual emitted surfaces in independent-read-snapshots.json. Raw excerpt equality and source TeX annotation equality passed for source-bound records at both bases. Core §1, lines 6–14: organization at a chosen scale includes components, arrangement, relations, connectivity and constraints; the shorter explanation retains the broader-than-visible-shape meaning."
+  }
+}

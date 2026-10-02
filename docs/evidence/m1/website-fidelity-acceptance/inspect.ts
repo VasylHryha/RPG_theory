@@ -1,0 +1,42 @@
+import assert from 'node:assert/strict';
+import { readFileSync, writeFileSync } from 'node:fs';
+import { load } from 'cheerio';
+import { auditOutput } from '../../../../scripts/audit-output.js';
+import { loadCanonicalCorpus, sourceDisplay, renderEntrySync, reviewFingerprint } from '../../../../src/lib/content.js';
+import { websiteReviewInputs } from '../../../../src/lib/website-review.js';
+import { renderMarkdownSync } from '../../../../src/lib/markdown.js';
+import { parseMarkdown } from '../../../../src/lib/markdown-tree.js';
+import { buildInputs } from '../../../../src/lib/build-identity.js';
+import { sha256 } from '../../../../src/lib/identity.js';
+const folder='docs/evidence/m1/website-fidelity-acceptance';
+const c=loadCanonicalCorpus();
+assert.equal(c.entries.size,34); assert.equal(c.websiteReviews.length,0);
+const prior=JSON.parse(readFileSync('docs/evidence/m1/website-fidelity-recheck/final-checks.json','utf8'));
+assert.deepEqual(buildInputs(),prior.productionInputs);
+const artifacts=prior.artifacts.map((a:any)=>{ const actual=auditOutput(a.directory); assert.equal(actual.artifactSha256,a.artifactSha256); return {directory:a.directory,sha256:actual.artifactSha256,files:actual.files.length}; });
+const representations=[...c.entries.values()].map(e=>{
+ const inputs=websiteReviewInputs(c,e.id);
+ // Recompute from freshly loaded material, never import request fingerprints or prior decisions.
+ assert.equal(inputs.fingerprint,reviewFingerprint(c,e.id));
+ const source=e.sourceBinding?c.sources.get(e.sourceBinding.sourceKey)!:null;
+ const passage=source?readFileSync(source.path,'utf8').match(/[^\n]*\n|[^\n]+$/g)!.slice(e.sourceBinding!.startLine-1,e.sourceBinding!.endLine).join(''):null;
+ if(passage!==null) assert.equal(passage,e.statement);
+ const surfaces=inputs.renderedBodies.map(surface=>{
+  const artifact=prior.artifacts.find((a:any)=>a.base===(surface.base==='/'?'root':'subpath'))!;
+  const file=artifact.directory+(e.route==='/'?'/index.html':e.route+'index.html');
+  const $=load(readFileSync(file,'utf8'));
+  const body=$(`[data-canonical-body="${e.id}"]`);
+  const expected=load(renderEntrySync(c,e,surface.base),null,false);
+  assert.equal(body.text().replace(/\s+/g,' ').trim(),expected.text().replace(/\s+/g,' ').trim());
+  const tex:string[]=[];const walk=(n:any)=>{if(['math','inlineMath'].includes(n.type))tex.push(n.value.trim());n.children?.forEach(walk);};
+  walk(parseMarkdown(sourceDisplay(passage??'',e.adapter)));
+  if(passage!==null) assert.deepEqual(body.find('annotation[encoding="application/x-tex"]').toArray().map(n=>$(n).text().trim()),tex);
+  const plain=load(renderMarkdownSync(e.plainLanguage,surface.base,c),null,false).text();
+  if(plain) assert.ok($(`[data-record-details="${e.id}"]`).text().includes(plain));
+  return {base:surface.base,file,bodyText:body.text(),plainText:plain,equations:tex,projectionText:e.id==='DOC-HOME'?$('[data-source-projection="DOC-STATUS"]').text():null};
+ });
+ return {id:e.id,sourcePassage:passage,inputs,surfaces};
+});
+writeFileSync(`${folder}/independent-read-snapshots.json`,JSON.stringify({schema:'unity-independent-website-reads/1',representations},null,2)+'\n');
+writeFileSync(`${folder}/independent-engineering.json`,JSON.stringify({status:'PASS',baselineHead:'92eb618ab502f4c25a4e8b19e41a4c4957c66b62',productionInputs:buildInputs(),artifacts,representations:34,priorContractTests:74,priorChromiumChecks:14,reuse:'Unchanged production inputs and sealed artifacts; tests are engineering controls only.',sourceInventory:c.admission.inventorySeal,renderer:c.rendererSha256,readSnapshotSha256:sha256(readFileSync(`${folder}/independent-read-snapshots.json`))},null,2)+'\n');
+console.log(JSON.stringify({status:'PASS',artifacts,readSnapshots:34}));

@@ -22,17 +22,18 @@ function syntheticAcceptedFixture() {
 const release={releaseId:'synthetic-test-only',releaseAt:'2026-10-01T12:00:00.000Z',historicalIds:[],rights:[{id:'TEST-RIGHTS',outcome:'approved' as const,entryIds:['UT-D01'],evidenceRef:'synthetic scoped rights control'}]};
 const config={...loadSiteConfig(),origin:'https://example.org',repository:{owner:'synthetic',name:'test'},publicAuthorization:true};
 test('historical representation decisions do not populate website fidelity or qualify the source',()=>{
- assert.equal(JSON.parse(readFileSync('research/publication/reviews.yaml','utf8')).length,19);assert.equal(corpus.websiteReviews.length,0);assert.equal(corpus.entries.size,34);assert.equal(corpus.admission.currentSourceQualified,false);
- assert.equal(reviewState(corpus,'UT-D01'),'pending');
- assert.equal(reviewState(corpus,'DOC-CONCEPT-GEOMETRY'),'pending');
- assert.equal(reviewState(corpus,'UT-C01'),'pending');
- assert.equal(reviewState(corpus,'UT-E05'),'pending');
+ const historicalOnly=clone();
+ assert.equal(JSON.parse(readFileSync('research/publication/reviews.yaml','utf8')).length,19);assert.equal(historicalOnly.websiteReviews.length,0);assert.equal(corpus.entries.size,34);assert.equal(historicalOnly.admission.currentSourceQualified,false);
+ assert.equal(reviewState(historicalOnly,'UT-D01'),'pending');
+ assert.equal(reviewState(historicalOnly,'DOC-CONCEPT-GEOMETRY'),'pending');
+ assert.equal(reviewState(historicalOnly,'UT-C01'),'pending');
+ assert.equal(reviewState(historicalOnly,'UT-E05'),'pending');
  assert.equal(corpus.entries.get('UT-E05')!.evidenceState,'project-reported');
  assert.equal(corpus.entries.get('UT-C01')!.evidenceState,'proposed');
- for(const id of ['UT-E01','UT-E11','UT-E12','DOC-START','DOC-PROOF']) assert.equal(reviewState(corpus,id),'pending');
+ for(const id of ['UT-E01','UT-E11','UT-E12','DOC-START','DOC-PROOF']) assert.equal(reviewState(historicalOnly,id),'pending');
  for(const id of ['DOC-HOME','DOC-START']) {
    assert.doesNotMatch(corpus.entries.get(id)!.scope,/review pending|await.*review/i);
-   assert.equal(reviewState(corpus,id),'pending');
+   assert.equal(reviewState(historicalOnly,id),'pending');
    assert.equal(corpus.entries.get(id)!.publicationState,'draft');
  }
  assert.equal(corpus.entries.get('UT-D01')!.publicationState,'draft');

@@ -1,0 +1,58 @@
+import hashlib
+import json
+import subprocess
+from pathlib import Path
+
+root = Path.cwd()
+folder = root / 'docs/evidence/m1/website-fidelity-acceptance'
+baseline = json.loads((folder / 'baseline.json').read_text())
+task = [
+    'docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md',
+    'research/publication/website-reviews.yaml',
+    'tests/content/contracts.test.ts', 'tests/content/m1.test.ts',
+    'tests/content/m1-review.test.ts', 'tests/content/page-lifecycle.test.ts',
+    'tests/content/revision-cli.test.ts', 'tests/content/revision-inventory-cli.test.ts',
+    'tests/content/website-fidelity.test.ts', 'tests/e2e/reading.spec.ts',
+]
+
+
+def record(path):
+    raw = (root / path).read_bytes()
+    return dict(path=path, bytes=len(raw), sha256=hashlib.sha256(raw).hexdigest())
+
+
+assert subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip() == baseline['head']
+assert subprocess.check_output(['git', 'branch', '--show-current'], text=True).strip() == 'main'
+assert subprocess.check_output(['git', 'remote'], text=True).strip() == ''
+protected = [entry for entry in baseline['files'] if entry['path'] not in task]
+for entry in protected:
+    assert record(entry['path']) == entry, entry['path']
+old = (folder / 'prior/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md').read_text()
+new = (root / 'docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md').read_text()
+assert old[old.index('### 0.4 '):old.index('## 1. ')] == new[new.index('### 0.4 '):new.index('### 0.18 ')]
+for entry in baseline['files']:
+    if entry['path'] in task:
+        assert record('docs/evidence/m1/website-fidelity-acceptance/prior/' + entry['path'])['sha256'] == entry['sha256']
+changes = set(filter(None, subprocess.check_output(['git', 'diff', '--name-only', '-z']).decode().split('\0')))
+assert changes == set(task), changes
+untracked = list(filter(None, subprocess.check_output(['git', 'ls-files', '--others', '--exclude-standard', '-z']).decode().split('\0')))
+assert all(path.startswith('docs/evidence/m1/website-fidelity-acceptance/') for path in untracked)
+evidence = sorted(str(path.relative_to(root)) for path in folder.rglob('*')
+                  if path.is_file() and path.name != 'final-integrity.json')
+checks = json.loads((folder / 'final-checks.json').read_text())
+assert checks['status'] == 'PASS' and checks['reviewStates'] == dict(accepted=34, pending=0, stale=0, rejected=0)
+result = dict(
+    status='PASS', baselineHead=baseline['head'], branch='main', remoteCount=0,
+    protectedFiles=len(protected),
+    protectedSourceFiles=sum(entry['path'].startswith('research/RRG_CURRENT/') for entry in protected),
+    protectedPriorEvidenceFiles=sum(entry['path'].startswith('docs/evidence/') for entry in protected),
+    previousIssuedPlanReceipts='byte-identical',
+    scientificSources='unchanged', historicalScientificRegistry='unchanged',
+    fidelityAccepted=34, currentSourceQualified=True,
+    unchangedProductionEngineering='ACCEPTED', newTestRepairAcceptance='NOT_GRANTED',
+    m1='REVIEW_READY', m2='NOT_STARTED', publicActions='NOT_RUN',
+    taskFiles=[record(path) for path in sorted(task)],
+    evidenceFiles=[record(path) for path in evidence], sealSelfExcluded=True,
+)
+(folder / 'final-integrity.json').write_text(json.dumps(result, indent=2) + '\n')
+print(json.dumps({key: value for key, value in result.items() if key not in ['taskFiles', 'evidenceFiles']}))

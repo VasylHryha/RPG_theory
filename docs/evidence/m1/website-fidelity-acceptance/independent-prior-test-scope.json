@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:sources -- --scope history",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:sources -- --scope current",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:content",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:content",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config config/site.json --output dist/m1-website-fidelity-recheck-final/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m1-website-fidelity-recheck-final/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/m1-website-fidelity-recheck-final/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m1-website-fidelity-recheck-final/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m1-website-fidelity-recheck-final/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/m1-website-fidelity-recheck-final/preview-subpath",
+      "exitCode": 0
+    }
+  ],
+  "contractCases": 74,
+  "browsers": [
+    {
+      "path": "docs/evidence/m1/website-fidelity-recheck/root-browser.json",
+      "sha256": "d8982623a09bbfb00ce74c1b16f47d06dd84b83c562c9e5fe032aaadbfbf7bbf",
+      "stats": {
+        "startTime": "2026-10-02T09:20:07.394Z",
+        "duration": 8001.640999999999,
+        "expected": 7,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "path": "docs/evidence/m1/website-fidelity-recheck/subpath-browser.json",
+      "sha256": "27cc4eb5040094d3a12bbebba396e6bd6f839e783696501a7be6f9f6cf2dc11a",
+      "stats": {
+        "startTime": "2026-10-02T09:20:23.970Z",
+        "duration": 14954.223,
+        "expected": 7,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    }
+  ],
+  "scope": "Real loader/receipt/selection/build/audit, source/dependency/safety/rights/public controls; seven bounded Chromium checks per base. No synthetic test establishes content acceptance or release. All actual content decisions come from separate original-document comparisons.",
+  "limitations": [
+    "No human comprehension or assistive-technology testing",
+    "Browser coverage samples reached surfaces rather than every page",
+    "No CI, deployment or scientific reproduction"
+  ]
+}

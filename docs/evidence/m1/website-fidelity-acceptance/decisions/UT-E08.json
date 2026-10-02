@@ -1,0 +1,125 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E08",
+  "fingerprint": "dfa11d68a9fe3b0ed5106f89d5ee66ca6403ff759a090b615cf3eda29c9de8df",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Additional E08, lines 143–158: density organization and cavity field reinforce each other, with reported phase-boundary comparison. Pumped-system/domain-specific-threshold limitations remain unchanged.",
+  "inputs": {
+    "fingerprint": "dfa11d68a9fe3b0ed5106f89d5ee66ca6403ff759a090b615cf3eda29c9de8df",
+    "ownRead": {
+      "id": "UT-E08",
+      "route": "/claims/UT-E08/",
+      "title": "Dicke quantum phase transition with a superfluid gas in an optical cavity",
+      "description": "An experiment or restricted result reported by the supplied evidence documents.",
+      "revision": 3,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-02",
+      "sourceRefs": [
+        "R-CURRENT-ADDITIONAL"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D04",
+        "UT-D06",
+        "UT-D07"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0036",
+        "BIB-0037"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 143,
+        "endLine": 158,
+        "excerptSha256": "3f84d871c3bc5caa639ad614f5ce573c4df4d067de47ecb480187c8386ed20b4"
+      },
+      "statement": "### E08 — Baumann et al. (2010)\n\n**Dicke quantum phase transition with a superfluid gas in an optical cavity**  \nNature 464, 1301–1306. DOI: [10.1038/nature09009](https://doi.org/10.1038/nature09009)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Quantum-gas experiment with quantitative threshold comparison.  \n**Existing clauses:** §3, §4, §5, §6.\n\nAtomic density organization and the cavity field reinforce one another; measured phase boundaries agree with the specified mean-field model.\n\n**Scope:** Pumped atom–cavity system; its threshold equation is domain-specific.\n\n**Checked:** Full primary author manuscript; publisher record and figure descriptions cross-checked.  \n**Location:** Self-organization mechanism; Figure 5 and Methods equations 6–9.  \n**Inspected source:** https://arxiv.org/html/0912.3261v1\n",
+      "plainLanguage": "",
+      "scope": "Pumped atom–cavity system; its threshold equation is domain-specific.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E08 → UT-E08; original identifier preserved.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "Pumped atom–cavity system; its threshold equation is domain-specific.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-02",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "path": "research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "2a7b933fac8c35c6422b7248fe37783535b4bc44dd5c71727c7c38a312486b6b",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "2a7b933fac8c35c6422b7248fe37783535b4bc44dd5c71727c7c38a312486b6b",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Additional E08, lines 143–158: density organization and cavity field reinforce each other, with reported phase-boundary comparison. Pumped-system/domain-specific-threshold limitations remain unchanged.",
+    "meaning": "Additional E08, lines 143–158: density organization and cavity field reinforce each other, with reported phase-boundary comparison. Pumped-system/domain-specific-threshold limitations remain unchanged. Complete bound excerpt/body and plain-language surfaces compared at / and /unity-theory/.",
+    "assumptions": "Reported system conditions and limitations remain literal at research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md:143–158; Pumped atom–cavity system; its threshold equation is domain-specific. No condition is promoted to a core definition.",
+    "hypotheses": "No new hypothesis is promoted to an independently established result. Additional E08, lines 143–158: density organization and cavity field reinforce each other, with reported phase-boundary comparison. Pumped-system/domain-specific-threshold limitations remain unchanged.",
+    "evidenceDescriptions": "Evidence status is project-reported, displayed as reported by the supplied documents; classification, evidence type, author/source access descriptions and scope at research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md:143–158 are preserved. No paper was adjudicated here.",
+    "openQuestions": "Additional E08, lines 143–158: density organization and cavity field reinforce each other, with reported phase-boundary comparison. Pumped-system/domain-specific-threshold limitations remain unchanged. Original status lines 18–25 and Interaction §5 keep universal criterion, novelty, gravity/four-force unification and other extension questions unresolved wherever relevant; this bounded representation does not declare closure of those questions.",
+    "attribution": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E08 → UT-E08; original identifier preserved. Source paths/edition/excerpt lines and new navigation-ID mapping are displayed. Evidence excerpts retain named authors and original links; bibliography is supplementary, with recorded metadata/access limits rather than an independent RRG endorsement.",
+    "sourceMappings": "Compared research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md:143–158 with the detached ownRead, dependency/source identities and actual emitted surfaces in independent-read-snapshots.json. Raw excerpt equality and source TeX annotation equality passed for source-bound records at both bases. Additional E08, lines 143–158: density organization and cavity field reinforce each other, with reported phase-boundary comparison. Pumped-system/domain-specific-threshold limitations remain unchanged."
+  }
+}

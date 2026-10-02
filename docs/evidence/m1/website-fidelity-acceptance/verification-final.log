@@ -1,0 +1,210 @@
+Running /Users/new/.local/node/bin/node --import tsx --test tests/content/contracts.test.ts
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (0.72ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (1.727917ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (1.155333ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (1.033375ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (0.946917ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (1.088625ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (0.653916ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (1.600792ms)
+✔ silent edition-pin reset still fails (0.8275ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (1.220084ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.181291ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.242167ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (1418.501459ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (2100.926625ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (3845.304541ms)
+✔ artifact audit rejects false source identity and active SVG files (2427.638083ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (3.697ms)
+✔ Markdown reference links/images share safety and base handling (4.361292ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (1.982708ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (72.3025ms)
+✔ output audit rejects changed source-bound display, manifest substitutions and draft sentinels (1969.844917ms)
+✔ output audit binds bibliography text, destinations, support limits, status, projection and navigation (6259.165ms)
+✔ output audit rejects multiply encoded local traversal (1476.426334ms)
+✔ document metadata comparison scopes the title to the head, preserving accessible SVG titles (1558.822292ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 22233.042875
+Running npm run build -- --mode preview --config config/site.json --output dist/m1-website-fidelity-acceptance/preview-root
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode preview --config config/site.json --output dist/m1-website-fidelity-acceptance/preview-root
+
+13:10:07 [vite] Re-optimizing dependencies because vite config has changed
+13:10:07 [content] Syncing content
+13:10:08 [content] Synced content
+13:10:08 [types] Generated 803ms
+13:10:08 [build] output: "static"
+13:10:08 [build] mode: "static"
+13:10:08 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m1-website-fidelity-acceptance/preview-root/
+13:10:08 [build] Collecting build info...
+13:10:08 [build] ✓ Completed in 811ms.
+13:10:08 [build] Building static entrypoints...
+13:10:08 [vite] ✓ built in 137ms
+13:10:08 [vite] ✓ built in 11ms
+13:10:08 [build] Rearranging server assets...
+
+ generating static routes 
+13:10:08   ├─ /404.html (+9ms) 
+13:10:08   ├─ /fixtures/math/index.html (+6ms) 
+13:10:08   ├─ /references/index.html (+2ms) 
+13:10:08   ├─ /start/index.html (+5ms) 
+13:10:08   ├─ /index.html (+8ms) 
+13:10:08   ├─ /research-status/index.html (+7ms) 
+13:10:08   ├─ /research-status/proof-matrix/index.html (+4ms) 
+13:10:08   ├─ /concepts/geometry-and-modes/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-D01/index.html (+3ms) 
+13:10:08   ├─ /claims/UT-D02/index.html (+3ms) 
+13:10:08   ├─ /claims/UT-D03/index.html (+3ms) 
+13:10:08   ├─ /claims/UT-D04/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-D05/index.html (+3ms) 
+13:10:08   ├─ /claims/UT-D06/index.html (+3ms) 
+13:10:08   ├─ /claims/UT-D07/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-D08/index.html (+3ms) 
+13:10:08   ├─ /claims/UT-D09/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-C01/index.html (+1ms) 
+13:10:08   ├─ /claims/UT-C02/index.html (+1ms) 
+13:10:08   ├─ /claims/UT-O01/index.html (+1ms) 
+13:10:08   ├─ /claims/UT-O02/index.html (+1ms) 
+13:10:08   ├─ /claims/UT-O03/index.html (+1ms) 
+13:10:08   ├─ /claims/UT-O04/index.html (+1ms) 
+13:10:08   ├─ /claims/UT-O05/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-O06/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-E01/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-E02/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-E03/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-E04/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-E05/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-E06/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-E07/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-E08/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-E09/index.html (+2ms) 
+13:10:08   ├─ /claims/UT-E10/index.html (+4ms) 
+13:10:08   ├─ /claims/UT-E11/index.html (+4ms) 
+13:10:08   ├─ /claims/UT-E12/index.html (+4ms) 
+13:10:08 ✓ Completed in 573ms.
+
+13:10:08 [build] ✓ Completed in 742ms.
+13:10:08 [build] 37 page(s) built in 1.55s
+13:10:08 [build] Complete!
+Private preview artifact: /Users/new/RiderProjects/RPG_theory/dist/m1-website-fidelity-acceptance/preview-root; deployEligible=false
+Running npm run audit:output -- --dir dist/m1-website-fidelity-acceptance/preview-root
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/m1-website-fidelity-acceptance/preview-root
+
+{"status":"PASS","mode":"preview","basePath":"/","deployEligible":false,"files":101,"artifactSha256":"9259b076f4798ef09c1d4964d84e3bef7e5234c071630ffe552b6166469725e9"}
+Running npm run test:e2e -- --output dist/m1-website-fidelity-acceptance/preview-root
+
+> unity-theory@0.0.1 test:e2e
+> tsx scripts/test-e2e.ts --output dist/m1-website-fidelity-acceptance/preview-root
+
+
+Running 7 tests using 1 worker
+
+(node:16235) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/reading.spec.ts:15:1 › home and start read without JavaScript, navigate by keyboard and show source state (513ms)
+  ✓  2 tests/e2e/reading.spec.ts:38:1 › home, nested reading and math pass automated accessibility and 320px reflow (1.4s)
+  ✓  3 tests/e2e/reading.spec.ts:65:1 › dark-mode reading remains accessible (583ms)
+  ✓  4 tests/e2e/reading.spec.ts:72:1 › unknown routes return real 404 and nested assets use the configured base (196ms)
+  ✓  5 tests/e2e/reading.spec.ts:87:1 › M1 consumers retain source roles and reported evidence independently of website fidelity (827ms)
+  ✓  6 tests/e2e/reading.spec.ts:124:1 › M1 claims, concepts, status, matrix and bibliography pass axe and 320px reflow (2.5s)
+  ✓  7 tests/e2e/reading.spec.ts:138:1 › literature has source-backed DOI identities and usable source extraction details without JS (896ms)
+
+  7 passed (7.7s)
+Running npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m1-website-fidelity-acceptance/preview-subpath
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode preview --config tests/fixtures/site-subpath.json --output dist/m1-website-fidelity-acceptance/preview-subpath
+
+13:10:20 [content] Syncing content
+13:10:20 [content] Astro config changed
+13:10:20 [content] Clearing content store
+13:10:21 [content] Synced content
+13:10:21 [types] Generated 803ms
+13:10:21 [build] output: "static"
+13:10:21 [build] mode: "static"
+13:10:21 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m1-website-fidelity-acceptance/preview-subpath/
+13:10:21 [build] Collecting build info...
+13:10:21 [build] ✓ Completed in 812ms.
+13:10:21 [build] Building static entrypoints...
+13:10:21 [vite] ✓ built in 131ms
+13:10:21 [vite] ✓ built in 10ms
+13:10:21 [build] Rearranging server assets...
+
+ generating static routes 
+13:10:21   ├─ /404.html (+12ms) 
+13:10:21   ├─ /fixtures/math/index.html (+21ms) 
+13:10:21   ├─ /references/index.html (+3ms) 
+13:10:21   ├─ /start/index.html (+6ms) 
+13:10:21   ├─ /index.html (+11ms) 
+13:10:21   ├─ /research-status/index.html (+8ms) 
+13:10:21   ├─ /research-status/proof-matrix/index.html (+16ms) 
+13:10:21   ├─ /concepts/geometry-and-modes/index.html (+9ms) 
+13:10:21   ├─ /claims/UT-D01/index.html (+15ms) 
+13:10:21   ├─ /claims/UT-D02/index.html (+6ms) 
+13:10:21   ├─ /claims/UT-D03/index.html (+4ms) 
+13:10:21   ├─ /claims/UT-D04/index.html (+4ms) 
+13:10:21   ├─ /claims/UT-D05/index.html (+3ms) 
+13:10:21   ├─ /claims/UT-D06/index.html (+8ms) 
+13:10:21   ├─ /claims/UT-D07/index.html (+8ms) 
+13:10:21   ├─ /claims/UT-D08/index.html (+4ms) 
+13:10:21   ├─ /claims/UT-D09/index.html (+2ms) 
+13:10:21   ├─ /claims/UT-C01/index.html (+1ms) 
+13:10:21   ├─ /claims/UT-C02/index.html (+1ms) 
+13:10:21   ├─ /claims/UT-O01/index.html (+1ms) 
+13:10:21   ├─ /claims/UT-O02/index.html (+2ms) 
+13:10:21   ├─ /claims/UT-O03/index.html (+7ms) 
+13:10:21   ├─ /claims/UT-O04/index.html (+1ms) 
+13:10:21   ├─ /claims/UT-O05/index.html (+1ms) 
+13:10:21   ├─ /claims/UT-O06/index.html (+1ms) 
+13:10:21   ├─ /claims/UT-E01/index.html (+4ms) 
+13:10:21   ├─ /claims/UT-E02/index.html (+4ms) 
+13:10:21   ├─ /claims/UT-E03/index.html (+2ms) 
+13:10:21   ├─ /claims/UT-E04/index.html (+4ms) 
+13:10:21   ├─ /claims/UT-E05/index.html (+2ms) 
+13:10:21   ├─ /claims/UT-E06/index.html (+2ms) 
+13:10:22   ├─ /claims/UT-E07/index.html (+3ms) 
+13:10:22   ├─ /claims/UT-E08/index.html (+4ms) 
+13:10:22   ├─ /claims/UT-E09/index.html (+2ms) 
+13:10:22   ├─ /claims/UT-E10/index.html (+4ms) 
+13:10:22   ├─ /claims/UT-E11/index.html (+3ms) 
+13:10:22   ├─ /claims/UT-E12/index.html (+5ms) 
+13:10:22 ✓ Completed in 667ms.
+
+13:10:22 [build] ✓ Completed in 832ms.
+13:10:22 [build] 37 page(s) built in 1.65s
+13:10:22 [build] Complete!
+Private preview artifact: /Users/new/RiderProjects/RPG_theory/dist/m1-website-fidelity-acceptance/preview-subpath; deployEligible=false
+Running npm run audit:output -- --dir dist/m1-website-fidelity-acceptance/preview-subpath
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/m1-website-fidelity-acceptance/preview-subpath
+
+{"status":"PASS","mode":"preview","basePath":"/unity-theory/","deployEligible":false,"files":101,"artifactSha256":"cae77e07d3dca3bf87f463638e86e67c1e96f9caae5faab35ae3377e2e5513af"}
+Running npm run test:e2e -- --output dist/m1-website-fidelity-acceptance/preview-subpath
+
+> unity-theory@0.0.1 test:e2e
+> tsx scripts/test-e2e.ts --output dist/m1-website-fidelity-acceptance/preview-subpath
+
+
+Running 7 tests using 1 worker
+
+(node:16690) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/reading.spec.ts:15:1 › home and start read without JavaScript, navigate by keyboard and show source state (390ms)
+  ✓  2 tests/e2e/reading.spec.ts:38:1 › home, nested reading and math pass automated accessibility and 320px reflow (1.3s)
+  ✓  3 tests/e2e/reading.spec.ts:65:1 › dark-mode reading remains accessible (565ms)
+  ✓  4 tests/e2e/reading.spec.ts:72:1 › unknown routes return real 404 and nested assets use the configured base (192ms)
+  ✓  5 tests/e2e/reading.spec.ts:87:1 › M1 consumers retain source roles and reported evidence independently of website fidelity (674ms)
+  ✓  6 tests/e2e/reading.spec.ts:124:1 › M1 claims, concepts, status, matrix and bibliography pass axe and 320px reflow (2.4s)
+  ✓  7 tests/e2e/reading.spec.ts:138:1 › literature has source-backed DOI identities and usable source extraction details without JS (868ms)
+
+  7 passed (7.0s)

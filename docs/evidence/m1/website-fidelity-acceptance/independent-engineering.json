@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "baselineHead": "92eb618ab502f4c25a4e8b19e41a4c4957c66b62",
+  "productionInputs": {
+    "inputsSha256": "9780e0502f92a900d1debff7ee6fc0d66a282cd7d3dc8dbdd62c70851e40095d",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "e9ee480daca8a5ba0830953d0678630c4dbff574e35fd75fd113ade671a5b7a8"
+  },
+  "artifacts": [
+    {
+      "directory": "dist/m1-website-fidelity-recheck-final/preview-root",
+      "sha256": "03e842021cb7a6d464f7786d530e6e279d91cd7f05e64cdc6d0ea36419f42a04",
+      "files": 101
+    },
+    {
+      "directory": "dist/m1-website-fidelity-recheck-final/preview-subpath",
+      "sha256": "f411fc7021582a051f421cc395168e33e320af70ca97a433b9bacce121d159bc",
+      "files": 101
+    }
+  ],
+  "representations": 34,
+  "priorContractTests": 74,
+  "priorChromiumChecks": 14,
+  "reuse": "Unchanged production inputs and sealed artifacts; tests are engineering controls only.",
+  "sourceInventory": "25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a",
+  "renderer": "b8191599e523daabd0338399e7d81196b18d035d853957f8e7715400beaf3ec1",
+  "readSnapshotSha256": "7647303367e6c423cec75a954436f83cc75e49d184f08d693f86c1c641928f7c"
+}

@@ -1,0 +1,113 @@
+{
+  "status": "FAIL",
+  "date": "2026-10-02T10:09:07.542Z",
+  "mode": "preview",
+  "productionInputs": {
+    "inputsSha256": "8501ef6b7d87ca9e65049f1d2124fabb316e242ec72b07b840a776485dd1e563",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "67198f50cb3ea4c93e56b36222b04d23654fa922d7f00db82c03acf4ce442268"
+  },
+  "reusedCommands": [
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:sources -- --scope history",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:sources -- --scope current",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:content",
+      "exitCode": 0
+    }
+  ],
+  "reuseReason": "Only tests/content/contracts.test.ts output-fixture identity changed after the first batch. Production, registry, other 66 passing tests and source/config inputs are unchanged; those fresh successes are retained.",
+  "firstBatchTests": {
+    "total": 74,
+    "passed": 66,
+    "failed": 8
+  },
+  "freshCommands": [
+    {
+      "command": "/Users/new/.local/node/bin/node --import tsx --test tests/content/contracts.test.ts",
+      "exitCode": 1
+    }
+  ],
+  "notRun": [
+    [
+      "npm",
+      [
+        "run",
+        "build",
+        "--",
+        "--mode",
+        "preview",
+        "--config",
+        "config/site.json",
+        "--output",
+        "dist/m1-website-fidelity-acceptance/preview-root"
+      ]
+    ],
+    [
+      "npm",
+      [
+        "run",
+        "audit:output",
+        "--",
+        "--dir",
+        "dist/m1-website-fidelity-acceptance/preview-root"
+      ]
+    ],
+    [
+      "npm",
+      [
+        "run",
+        "test:e2e",
+        "--",
+        "--output",
+        "dist/m1-website-fidelity-acceptance/preview-root"
+      ]
+    ],
+    [
+      "npm",
+      [
+        "run",
+        "build",
+        "--",
+        "--mode",
+        "preview",
+        "--config",
+        "tests/fixtures/site-subpath.json",
+        "--output",
+        "dist/m1-website-fidelity-acceptance/preview-subpath"
+      ]
+    ],
+    [
+      "npm",
+      [
+        "run",
+        "audit:output",
+        "--",
+        "--dir",
+        "dist/m1-website-fidelity-acceptance/preview-subpath"
+      ]
+    ],
+    [
+      "npm",
+      [
+        "run",
+        "test:e2e",
+        "--",
+        "--output",
+        "dist/m1-website-fidelity-acceptance/preview-subpath"
+      ]
+    ]
+  ],
+  "scientificCertification": false,
+  "m2": "NOT_STARTED",
+  "publicActions": "NOT_RUN"
+}

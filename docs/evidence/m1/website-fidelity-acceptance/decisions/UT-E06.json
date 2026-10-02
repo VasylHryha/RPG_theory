@@ -1,0 +1,125 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E06",
+  "fingerprint": "e517dd8c3930b1ec618495e7be52d902d6d708b3a44bfe04796058a64405bf5c",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Additional E06, lines 107–122: two communities coordinate phase according to nutrient conditions. The coupled-pair limit excludes physical fusion; source-reported abstract/caption access depth is preserved.",
+  "inputs": {
+    "fingerprint": "e517dd8c3930b1ec618495e7be52d902d6d708b3a44bfe04796058a64405bf5c",
+    "ownRead": {
+      "id": "UT-E06",
+      "route": "/claims/UT-E06/",
+      "title": "Coupling between distant biofilms and emergence of nutrient time-sharing",
+      "description": "An experiment or restricted result reported by the supplied evidence documents.",
+      "revision": 3,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-02",
+      "sourceRefs": [
+        "R-CURRENT-ADDITIONAL"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0032",
+        "BIB-0033"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 107,
+        "endLine": 122,
+        "excerptSha256": "6ca2316b04d8986e3d4aabf441a7187f38cf61fa4c48b9541394f10422903a7f"
+      },
+      "statement": "### E06 — Liu et al. (2017)\n\n**Coupling between distant biofilms and emergence of nutrient time-sharing**  \nScience 356, 638–642. DOI: [10.1126/science.aah4204](https://doi.org/10.1126/science.aah4204)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment testing a coupled-oscillator prediction.  \n**Existing clauses:** §5, §7, §8.\n\nTwo biofilms coordinate oscillations; nutrient conditions induce predicted in-phase or antiphase relationships.\n\n**Scope:** A coupled community pair, not physical fusion into one organism.\n\n**Checked:** Primary abstract and detailed figure captions reproduced in PubMed; full manuscript was not accessible.  \n**Location:** Abstract; Figures 1–3, especially phase diagrams and experimental validations in Figure 2.  \n**Inspected source:** https://pubmed.ncbi.nlm.nih.gov/28386026/\n",
+      "plainLanguage": "",
+      "scope": "A coupled community pair, not physical fusion into one organism.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E06 → UT-E06; original identifier preserved.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "A coupled community pair, not physical fusion into one organism.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-02",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "path": "research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "cb807ec7229bf9ebf0cf44ea2df6bbfbccd1a9f887defee2cd86e63c444d8efd",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "cb807ec7229bf9ebf0cf44ea2df6bbfbccd1a9f887defee2cd86e63c444d8efd",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Additional E06, lines 107–122: two communities coordinate phase according to nutrient conditions. The coupled-pair limit excludes physical fusion; source-reported abstract/caption access depth is preserved.",
+    "meaning": "Additional E06, lines 107–122: two communities coordinate phase according to nutrient conditions. The coupled-pair limit excludes physical fusion; source-reported abstract/caption access depth is preserved. Complete bound excerpt/body and plain-language surfaces compared at / and /unity-theory/.",
+    "assumptions": "Reported system conditions and limitations remain literal at research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md:107–122; A coupled community pair, not physical fusion into one organism. No condition is promoted to a core definition.",
+    "hypotheses": "No new hypothesis is promoted to an independently established result. Additional E06, lines 107–122: two communities coordinate phase according to nutrient conditions. The coupled-pair limit excludes physical fusion; source-reported abstract/caption access depth is preserved.",
+    "evidenceDescriptions": "Evidence status is project-reported, displayed as reported by the supplied documents; classification, evidence type, author/source access descriptions and scope at research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md:107–122 are preserved. No paper was adjudicated here.",
+    "openQuestions": "Additional E06, lines 107–122: two communities coordinate phase according to nutrient conditions. The coupled-pair limit excludes physical fusion; source-reported abstract/caption access depth is preserved. Original status lines 18–25 and Interaction §5 keep universal criterion, novelty, gravity/four-force unification and other extension questions unresolved wherever relevant; this bounded representation does not declare closure of those questions.",
+    "attribution": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E06 → UT-E06; original identifier preserved. Source paths/edition/excerpt lines and new navigation-ID mapping are displayed. Evidence excerpts retain named authors and original links; bibliography is supplementary, with recorded metadata/access limits rather than an independent RRG endorsement.",
+    "sourceMappings": "Compared research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md:107–122 with the detached ownRead, dependency/source identities and actual emitted surfaces in independent-read-snapshots.json. Raw excerpt equality and source TeX annotation equality passed for source-bound records at both bases. Additional E06, lines 107–122: two communities coordinate phase according to nutrient conditions. The coupled-pair limit excludes physical fusion; source-reported abstract/caption access depth is preserved."
+  }
+}

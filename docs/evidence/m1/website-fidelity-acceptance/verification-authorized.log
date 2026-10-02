@@ -1,0 +1,345 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m1-website-fidelity-acceptance --evidence-dir docs/evidence/m1/website-fidelity-acceptance
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+13:01:51 [content] Syncing content
+13:01:51 [content] Astro config changed
+13:01:51 [content] Clearing content store
+13:01:51 [content] Synced content
+13:01:51 [types] Generated 1.01s
+13:01:51 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+Result (50 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+Running npm run check:sources -- --scope history
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope history
+
+{"status":"PASS","historicalFiles":14,"noticeTranscriptions":2,"authorityNoticeOnly":true}
+
+Running npm run check:sources -- --scope current
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope current
+
+{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":true,"qualificationBasis":"website-source-fidelity/1","files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01","sourceBoundEntries":31,"websiteFidelity":"accepted","scientificCertification":"out-of-scope"}
+
+Running npm run check:content
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts
+
+{"schema":"unity-content-check/1","status":"PASS","date":"2026-10-02T10:01:57.722Z","admission":{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":true,"qualificationBasis":"website-source-fidelity/1","files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01"},"entries":34,"affected":[],"reviewPurpose":"website-source-fidelity/1","scientificCertification":"out-of-scope","acceptedReviews":34,"reviewStates":{"accepted":34,"pending":0,"stale":0,"rejected":0}}
+
+Running npm run test:content
+
+> unity-theory@0.0.1 test:content
+> tsx --test tests/content/*.test.ts
+
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (0.715084ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (1.341791ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (1.143458ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (0.933375ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (1.027333ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (1.270917ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (1.244792ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (1.263667ms)
+✔ silent edition-pin reset still fails (0.80325ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (1.904084ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.208916ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.257459ms)
+✖ root-only asset in subpath output reaches BASE_PATH_FAILURE (4231.01075ms)
+✖ output audit requires routes, rejects extra private files and stale/relabelled identity (2806.934959ms)
+✖ absolute same-site links/fragments are local; unsafe links and remote resources fail (2106.746208ms)
+✖ artifact audit rejects false source identity and active SVG files (2388.272542ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (2.649875ms)
+✔ Markdown reference links/images share safety and base handling (2.637291ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (1.420125ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (133.202875ms)
+✖ output audit rejects changed source-bound display, manifest substitutions and draft sentinels (1881.960208ms)
+✖ output audit binds bibliography text, destinations, support limits, status, projection and navigation (2002.804042ms)
+✖ output audit rejects multiply encoded local traversal (2163.779458ms)
+✖ document metadata comparison scopes the title to the head, preserving accessible SVG titles (2073.748709ms)
+✔ each additional-evidence mapping declares every core clause named by its actual excerpt (1028.458083ms)
+✔ the actual start explanation tracks emergent evidence, its support metadata and current status (730.982125ms)
+✔ background-extension changes invalidate the actual E12 interpretation and its consumers (662.615792ms)
+✔ review fingerprints track real URL, selection, style and pinned rendering dependency inputs (846.203041ms)
+✔ historical representation decisions do not populate website fidelity or qualify the source (104.957084ms)
+✔ independent statement, bad binding range/hash, wrong record kind, duplicates and unknown sources fail (122.745167ms)
+✔ source-scoped aliases keep historical S01 local; duplicates and unresolved aliases fail (8.042292ms)
+✔ source URL aliases preserve case-sensitive paths while DOI identity remains case insensitive (94.075292ms)
+✔ non-DOI citation identity preserves added or removed trailing path separators (97.205792ms)
+✔ missing or cyclic semantic dependency fails; related feedback does not create proof cycles (125.192ms)
+✔ authority notes cannot supply scientific excerpts; invalid states and real dates fail (116.377584ms)
+✔ safe directives render actual canonical explanations, extract dependencies and reject executable/unknown syntax (1.993709ms)
+✔ dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local (163.045875ms)
+✔ changing a relevant source verification scope or relevant citation stales its review (163.795334ms)
+✔ shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights (434.436667ms)
+✔ one manifest excludes drafts from every production surface and rejects published draft dependencies (77.546417ms)
+✔ withdrawn history is explicitly selected as a tombstone; former body is removed (55.993375ms)
+✔ source display adapters preserve raw bindings while rendering status/math/table consumers (916.148666ms)
+✔ source revision transaction refuses missing prior-byte preservation and incomplete core proof gate (162.984208ms)
+✔ actual supplied 07 and 08 cannot disappear behind a matching core (4.256791ms)
+✔ a missing or mismatched actual local citation alias fails the source adapter (30.094541ms)
+✔ project reproduction cannot be asserted with an invented execution receipt (9.963792ms)
+✔ Markdown directive export uses ordinary links and leaves code examples untouched (4.839333ms)
+✔ statement directives are order-independent; nested references and cycles reach the shared graph (183.05625ms)
+✔ scientific identities cannot bypass proposal provenance or masquerade as documents (36.541ms)
+✔ retained historical excerpts remain historical; supersession is reciprocal and draft history stays out of discovery (149.887792ms)
+✔ review rejection is distinct from pending; alternate citation review binds its primary metadata (64.153875ms)
+✔ source, bibliography, execution and renderer identity changes report or stale their actual dependants (130.218958ms)
+✔ actual status, proof and home summaries depend on their core definitions and emergent evidence (230.846959ms)
+✔ withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions (94.422958ms)
+✔ bibliographic verification cannot retain a checked label after metadata substitution (34.647292ms)
+✔ release rejects future updates and reviews independently of the publication date (181.513833ms)
+✔ qualification uses reviewed production selection; a preview cannot be relabelled qualification (284.264541ms)
+✔ Markdown export validates safety, expands nested references and leaves math samples intact (44.057125ms)
+✔ directives cannot create nested anchors in link labels or Markdown exports (0.742ms)
+✔ proposals display non-adoption and cannot supersede source-authoritative records (57.944208ms)
+✔ revision impact retains predecessor dependants when the next graph removes an edge (186.184542ms)
+✔ real home/start emit withdrawal tombstones through the shared consumer and output auditor (9655.412792ms)
+✔ real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals (5737.877584ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 04_status_and_blockers.md (3485.587083ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md (3087.994958ms)
+✔ intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate (905.89525ms)
+✔ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (619.850083ms)
+✔ bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision (748.471916ms)
+✔ complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it (537.481292ms)
+✔ null, primitive and incomplete stale evidence fail with the intended typed diagnostic (672.90525ms)
+✔ review dates cannot predate the reviewed material, including dependency updates (461.938542ms)
+✔ receipt paths reject traversal, symlink files and symlink ancestors (653.193666ms)
+✔ review inputs independently capture rendered plain language and the actual home projection without aliasing (473.147334ms)
+✔ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (2691.875333ms)
+ℹ tests 74
+ℹ suites 0
+ℹ pass 66
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21947.133542
+
+✖ failing tests:
+
+test at tests/content/contracts.test.ts:141:1
+✖ root-only asset in subpath output reaches BASE_PATH_FAILURE (4231.01075ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /BASE_PATH_FAILURE/. Input:
+  
+  'ContractError: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch'
+  
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:144:12)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:141:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ContractError: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch
+        at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:33:151)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:144:25)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:144:12)
+        at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+        at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:141:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1325:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:911:18),
+    expected: /BASE_PATH_FAILURE/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/content/contracts.test.ts:146:1
+✖ output audit requires routes, rejects extra private files and stale/relabelled identity (2806.934959ms)
+  Error [ContractError]: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch
+      at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:33:151)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:147:16)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:146:103)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    code: 'INVALID_ARTIFACT_IDENTITY'
+  }
+
+test at tests/content/contracts.test.ts:159:1
+✖ absolute same-site links/fragments are local; unsafe links and remote resources fail (2106.746208ms)
+  Error [ContractError]: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch
+      at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:33:151)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:164:16)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:159:100)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    code: 'INVALID_ARTIFACT_IDENTITY'
+  }
+
+test at tests/content/contracts.test.ts:176:1
+✖ artifact audit rejects false source identity and active SVG files (2388.272542ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /UNSAFE_SVG/. Input:
+  
+  'ContractError: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch'
+  
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:182:12)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:176:81)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ContractError: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch
+        at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:33:151)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:182:25)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:182:12)
+        at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+        at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:176:81)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1325:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:911:18),
+    expected: /UNSAFE_SVG/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/content/contracts.test.ts:217:1
+✖ output audit rejects changed source-bound display, manifest substitutions and draft sentinels (1881.960208ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /CONTENT_PARITY_FAILURE/. Input:
+  
+  'ContractError: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch'
+  
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:220:9)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:217:106)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ContractError: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch
+        at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:33:151)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:220:20)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:220:9)
+        at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+        at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:217:106)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1325:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:911:18),
+    expected: /CONTENT_PARITY_FAILURE/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/content/contracts.test.ts:226:1
+✖ output audit binds bibliography text, destinations, support limits, status, projection and navigation (2002.804042ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /BIBLIOGRAPHY_PARITY_FAILURE/. Input:
+  
+  'ContractError: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch'
+  
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:239:58)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:226:114)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ContractError: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch
+        at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:33:151)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:239:69)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:239:58)
+        at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+        at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:226:114)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1325:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:911:18),
+    expected: /BIBLIOGRAPHY_PARITY_FAILURE/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/content/contracts.test.ts:245:1
+✖ output audit rejects multiply encoded local traversal (2163.779458ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /UNSAFE_ROUTE/. Input:
+  
+  'ContractError: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch'
+  
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:247:10)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:245:66)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ContractError: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch
+        at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:33:151)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:247:21)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:247:10)
+        at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+        at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:245:66)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1325:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:911:18),
+    expected: /UNSAFE_ROUTE/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/content/contracts.test.ts:250:1
+✖ document metadata comparison scopes the title to the head, preserving accessible SVG titles (2073.748709ms)
+  Error [ContractError]: INVALID_ARTIFACT_IDENTITY: Selection/admission mismatch
+      at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:33:151)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:252:15)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:250:104)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    code: 'INVALID_ARTIFACT_IDENTITY'
+  }

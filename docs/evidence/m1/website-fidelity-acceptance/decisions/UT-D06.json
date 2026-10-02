@@ -1,0 +1,102 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D06",
+  "fingerprint": "4f9c96ba9383912e0266bf28ef4449f1e53560e3a0082041de2fbec849d034f4",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-02",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Core §5, lines 57–72: compatible heterogeneous members remain internally active inside a new collective organization. No identical-member or prior-duplication condition is introduced.",
+  "inputs": {
+    "fingerprint": "4f9c96ba9383912e0266bf28ef4449f1e53560e3a0082041de2fbec849d034f4",
+    "ownRead": {
+      "id": "UT-D06",
+      "route": "/claims/UT-D06/",
+      "title": "Higher-level formation",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 2,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 57,
+        "endLine": 72,
+        "excerptSha256": "70d9e6d53a6d43c1a7410abfa801d650bd026f9da24e986c907b3151ea075286"
+      },
+      "statement": "## 5. Higher-level formation\n\nA higher-level resonant geometry may be formed from any compatible collection of lower-level resonant geometries:\n\n\\[\n\\boxed{\\{R_n^1,R_n^2,\\ldots,R_n^m\\}\\rightarrow R_{n+1}}.\n\\]\n\nThe lower-level members:\n\n- do not need to be identical;\n- do not need to duplicate first;\n- can have different roles and internal modes;\n- remain internally active after the higher-level structure forms.\n\nThe higher level introduces new collective constraints and a new collective mode structure while containing the lower levels.\n",
+      "plainLanguage": "Compatible lower-level systems may form a higher-level organization while retaining internal activity. Their components may differ.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §5; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+        "plainLanguageSha256": "1d53ce6a0cf1c5ebc6e0fe7c1564a5002bd190ddc0f6de11846968b875fcff80",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+        "plainLanguageSha256": "1d53ce6a0cf1c5ebc6e0fe7c1564a5002bd190ddc0f6de11846968b875fcff80",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Core §5, lines 57–72: compatible heterogeneous members remain internally active inside a new collective organization. No identical-member or prior-duplication condition is introduced.",
+    "meaning": "Core §5, lines 57–72: compatible heterogeneous members remain internally active inside a new collective organization. No identical-member or prior-duplication condition is introduced. Complete bound excerpt/body and plain-language surfaces compared at / and /unity-theory/.",
+    "assumptions": "Core meanings and optional downstream conditions stay distinct at research/RRG_CURRENT/00_LOCKED_CORE.md:57–72; Core §5, lines 57–72: compatible heterogeneous members remain internally active inside a new collective organization. No identical-member or prior-duplication condition is introduced.",
+    "hypotheses": "No new hypothesis is promoted to an independently established result. Core §5, lines 57–72: compatible heterogeneous members remain internally active inside a new collective organization. No identical-member or prior-duplication condition is introduced.",
+    "evidenceDescriptions": "not-applicable: role/status is consistent with the original passages; Core §5, lines 57–72: compatible heterogeneous members remain internally active inside a new collective organization. No identical-member or prior-duplication condition is introduced. No scientific certification is assigned.",
+    "openQuestions": "Core §5, lines 57–72: compatible heterogeneous members remain internally active inside a new collective organization. No identical-member or prior-duplication condition is introduced. Original status lines 18–25 and Interaction §5 keep universal criterion, novelty, gravity/four-force unification and other extension questions unresolved wherever relevant; this bounded representation does not declare closure of those questions.",
+    "attribution": "00_LOCKED_CORE.md §5; new navigation ID, source has no UT ID. Source paths/edition/excerpt lines and new navigation-ID mapping are displayed. Evidence excerpts retain named authors and original links; bibliography is supplementary, with recorded metadata/access limits rather than an independent RRG endorsement.",
+    "sourceMappings": "Compared research/RRG_CURRENT/00_LOCKED_CORE.md:57–72 with the detached ownRead, dependency/source identities and actual emitted surfaces in independent-read-snapshots.json. Raw excerpt equality and source TeX annotation equality passed for source-bound records at both bases. Core §5, lines 57–72: compatible heterogeneous members remain internally active inside a new collective organization. No identical-member or prior-duplication condition is introduced."
+  }
+}

@@ -35,7 +35,7 @@ test('the actual start explanation tracks emergent evidence, its support metadat
   const before = reviewFingerprint(corpus,'DOC-START');
   corpus.references.get('BIB-0016')!.supportScope += ' Isolated changed citation support.';
   assert.notEqual(reviewFingerprint(corpus,'DOC-START'),before);
-  assert.equal(websiteReviewState(corpus,'DOC-START'),'pending');
+  assert.equal(websiteReviewState(corpus,'DOC-START'),'stale');
 });
 
 test('background-extension changes invalidate the actual E12 interpretation and its consumers', () => {
@@ -47,10 +47,10 @@ test('background-extension changes invalidate the actual E12 interpretation and 
   corpus.entries.get('UT-C02')!.scope+=' Isolated changed background-extension meaning.';
   for(const id of consumers) assert.notEqual(reviewFingerprint(corpus,id),before.get(id),id);
   assert.equal(reviewFingerprint(corpus,'UT-E10'),unrelated);
-  assert.equal(websiteReviewState(corpus,'UT-C02'),'pending');
-  assert.equal(websiteReviewState(corpus,'UT-E12'),'pending');
-  // Pending consumers change identity; they do not acquire stale approvals.
-  for(const id of consumers) assert.equal(websiteReviewState(corpus,id),'pending',id);
+  assert.equal(websiteReviewState(corpus,'UT-C02'),'stale');
+  assert.equal(websiteReviewState(corpus,'UT-E12'),'stale');
+  // Actual accepted consumers become stale; unrelated E10 keeps its identity.
+  for(const id of consumers) assert.equal(websiteReviewState(corpus,id),'stale',id);
 });
 
 test('review fingerprints track real URL, selection, style and pinned rendering dependency inputs', () => {
@@ -61,6 +61,7 @@ test('review fingerprints track real URL, selection, style and pinned rendering 
       cpSync(folder,join(root,folder),{recursive:true});
     }
     for (const file of ['astro.config.mjs','package-lock.json']) cpSync(file,join(root,file));
+    writeFileSync(join(root,'research/publication/website-reviews.yaml'),'[]');
     const original = reviewFingerprint(loadCanonicalCorpus(root),'UT-D01');
     for (const path of ['src/lib/urls.ts','src/lib/publication.ts','src/styles/global.css','package-lock.json']) {
       const file = join(root,path), raw = readFileSync(file);

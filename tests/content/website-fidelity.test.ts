@@ -18,7 +18,7 @@ test('intake contentReview accepted cannot qualify actual or synthetic bytes; hi
  const record=readAdmission()!;record.contentReview='accepted';
  assert.equal(qualifyCurrentSource(record).currentSourceQualified,false);
  record.corpusScope='synthetic';assert.equal(qualifyCurrentSource(record).currentSourceQualified,false);
- const c=loadCanonicalCorpus();assert.equal(JSON.parse(readFileSync('research/publication/reviews.yaml','utf8')).length,19);assert.equal(c.websiteReviews.length,0);assert.equal(qualifyWebsiteCorpus(c),false);
+ const c=loadCanonicalCorpus();c.websiteReviews=[];assert.equal(JSON.parse(readFileSync('research/publication/reviews.yaml','utf8')).length,19);assert.equal(c.websiteReviews.length,0);assert.equal(qualifyWebsiteCorpus(c),false);
  for(const id of c.entries.keys())assert.equal(websiteReviewState(c,id),'pending');
 });
 test('hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute',()=>{
@@ -114,6 +114,7 @@ test('a real loader roundtrip validates hashed decisions and qualifies only the 
  try {
   for(const folder of ['src','research','config','scripts','public','.github','docs/evidence/m1/literature']) {mkdirSync(join(root,folder,'..'),{recursive:true});cpSync(folder,join(root,folder),{recursive:true});}
   for(const file of ['astro.config.mjs','package-lock.json','package.json','tsconfig.json','.node-version','.npmrc'])cpSync(file,join(root,file));
+  writeFileSync(join(root,'research/publication/website-reviews.yaml'),'[]');
   const file=join(root,'research/publication/records.yaml'),records=JSON.parse(readFileSync(file,'utf8')),entry=records.find((e:any)=>e.id==='UT-D01');
   Object.assign(entry,{publicationState:'published',publishedAt:'2026-10-02',updatedAt:'2026-10-02',rightsRef:'SYNTHETIC-RIGHTS'});writeFileSync(file,JSON.stringify(records));
   const c=loadCanonicalCorpus(root),fixture=control(c,root),review=fixture.save();writeFileSync(join(root,'research/publication/website-reviews.yaml'),JSON.stringify([review]));
@@ -136,7 +137,7 @@ test('a real loader roundtrip validates hashed decisions and qualifies only the 
   const intake=JSON.parse(readFileSync(join(root,'config/research-source.json'),'utf8'));intake.corpusScope='synthetic';writeFileSync(join(root,'config/research-source.json'),JSON.stringify(intake));
   assert.throws(()=>selectPublication(loadCanonicalCorpus(root),loadSiteConfig(),release,'qualification'),/CURRENT_SOURCE_NOT_QUALIFIED/);
   // No flag can replace decisions, even after a caller mutates a previously loaded object.
-  const unreviewed=loadCanonicalCorpus();unreviewed.admission.currentSourceQualified=true;
+  const unreviewed=loadCanonicalCorpus();unreviewed.websiteReviews=[];unreviewed.admission.currentSourceQualified=true;
   assert.throws(()=>selectPublication(unreviewed,loadSiteConfig(),release,'qualification'),/CURRENT_SOURCE_NOT_QUALIFIED/);
   loaded.websiteReviews[0].evidenceSha256='0'.repeat(64);assert.throws(()=>selectPublication(loaded,loadSiteConfig(),release,'qualification'),/WEBSITE_REVIEW_EVIDENCE_REQUIRED/);
  } finally {rmSync(root,{recursive:true,force:true});}

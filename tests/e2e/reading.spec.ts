@@ -1,5 +1,13 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+const artifact=JSON.parse(readFileSync(join(process.env.UNITY_TEST_OUTPUT!, 'build-info.json'),'utf8'));
+function fidelity(id:string) {
+  const state=artifact.publicationManifest.entries.find((e:{id:string})=>e.id===id)?.reviewState;
+  if(!['accepted','pending','stale','rejected'].includes(state)) throw new Error(`Missing artifact review state: ${id}`);
+  return {accepted:'Faithful to the supplied documents',pending:'Pending',stale:'Stale — rereview required',rejected:'Rejected — revision required'}[state as 'accepted'|'pending'|'stale'|'rejected'];
+}
 const base = process.env.UNITY_TEST_BASE ?? '/';
 const suffix = base === '/' ? 'root' : 'subpath';
 const evidence = process.env.UNITY_EVIDENCE_DIR ?? 'docs/evidence/m1';
@@ -10,7 +18,7 @@ test('home and start read without JavaScript, navigate by keyboard and show sour
   await page.goto(process.env.UNITY_TEST_ORIGIN + base);
   await expect(page.locator('h1')).toContainText('become a whole?');
   await expect(page.getByText('Current sources available', { exact: true })).toBeVisible();
-  await expect(page.locator('[data-editorial-state="DOC-HOME"]')).toContainText('Source fidelity: Pending.');
+  await expect(page.locator('[data-editorial-state="DOC-HOME"]')).toContainText(`Source fidelity: ${fidelity('DOC-HOME')}.`);
   await expect(page.locator('[data-editorial-state="DOC-HOME"]')).toContainText('Draft · private preview');
   await page.keyboard.press('Tab');
   await expect(page.getByRole('link', { name: 'Skip to content' })).toBeFocused();
@@ -20,7 +28,7 @@ test('home and start read without JavaScript, navigate by keyboard and show sour
   await page.getByRole('link', { name: 'Start with the idea', exact: false }).click();
   await expect(page).toHaveURL(new RegExp(base + 'start/'));
   await expect(page.locator('h1')).toHaveText('Start with the idea');
-  await expect(page.locator('[data-editorial-state="DOC-START"]')).toContainText('Source fidelity: Pending.');
+  await expect(page.locator('[data-editorial-state="DOC-START"]')).toContainText(`Source fidelity: ${fidelity('DOC-START')}.`);
   await expect(page.locator('[data-editorial-state="DOC-START"]')).toContainText('Draft · private preview');
   await page.getByRole('link', { name: 'Return to the research question' }).click();
   await expect(page.locator('#research-question')).toBeVisible();
@@ -71,7 +79,7 @@ test('unknown routes return real 404 and nested assets use the configured base',
   if (base !== '/') expect((await request.get('/favicon.svg')).status()).toBe(404);
   const info = await (await request.get(base + 'build-info.json')).json();
   expect(info.deployEligible).toBe(false);
-  expect(info.currentSourceQualified).toBe(false);
+  expect(info.currentSourceQualified).toBe(artifact.currentSourceQualified);
   expect(info.config.basePath).toBe(base);
 });
 
@@ -82,17 +90,17 @@ test('M1 consumers retain source roles and reported evidence independently of we
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'claims/UT-D01/');
   await expect(page.locator('[data-canonical-body]')).toContainText('Geometry is not limited to visible Euclidean shape');
   await expect(page.locator('.record-status')).toContainText('Definition');
-  await expect(page.locator('.record-status')).toContainText('Pending');
+  await expect(page.locator('.record-status')).toContainText(fidelity('UT-D01'));
   await expect(page.locator('.record-status')).toContainText('Draft');
   expect(await page.locator('math').count()).toBeGreaterThan(0);
   await page.screenshot({path:`${evidence}/${suffix}-claim-definition.png`,fullPage:true});
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'claims/UT-E01/');
   await expect(page.locator('.record-status')).toContainText('Evidence reported by the supplied documents');
-  await expect(page.locator('.record-status')).toContainText('Pending');
+  await expect(page.locator('.record-status')).toContainText(fidelity('UT-E01'));
   await expect(page.locator('[data-canonical-body]')).toContainText('Designed, pumped fibre-laser system');
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'claims/UT-E05/');
   await expect(page.locator('.record-status')).toContainText('Evidence reported by the supplied documents');
-  await expect(page.locator('.record-status')).toContainText('Pending');
+  await expect(page.locator('.record-status')).toContainText(fidelity('UT-E05'));
   await expect(page.locator('.record-status')).toContainText('Draft');
   await expect(page.locator('[data-canonical-body]')).toContainText('potassium clamping suppresses');
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'claims/UT-E01/');
@@ -100,7 +108,7 @@ test('M1 consumers retain source roles and reported evidence independently of we
   await expect(page.locator('h1')).toHaveText('Literature and sources');
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/geometry-and-modes/');
   await expect(page.locator('[data-canonical-body]')).toContainText('Organization at a chosen scale');
-  await expect(page.locator('.record-status')).toContainText('Pending');
+  await expect(page.locator('.record-status')).toContainText(fidelity('DOC-CONCEPT-GEOMETRY'));
   await expect(page.locator('.record-status')).toContainText('Draft');
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'research-status/');
   await expect(page.locator('[data-canonical-body]')).toContainText('Open extensions to prove');

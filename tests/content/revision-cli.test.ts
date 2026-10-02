@@ -19,6 +19,7 @@ test('real revision CLI validates preserved editions and reports pending dependa
       for(const folder of ['research','src','docs/evidence/m1/literature']) {mkdirSync(join(root,folder,'..'),{recursive:true});cpSync(folder,join(root,folder),{recursive:true});}
       mkdirSync(join(root,'config'));cpSync('config/research-source.json',join(root,'config/research-source.json'));
       for(const file of ['astro.config.mjs','package-lock.json']) cpSync(file,join(root,file));
+      write(root,'research/publication/website-reviews.yaml',[]);
       const record=read(root,'config/research-source.json');record.corpusScope='synthetic';write(root,'config/research-source.json',record);
     }
     const predecessor=read(prior,'config/research-source.json'),record=read(next,'config/research-source.json');

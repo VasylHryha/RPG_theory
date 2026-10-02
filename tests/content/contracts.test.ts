@@ -13,7 +13,7 @@ import { assertBuildAllowed } from '../../src/lib/publication.js';
 import { loadSiteConfig } from '../../src/lib/site-config.js';
 import { renderMarkdown } from '../../src/lib/markdown.js';
 import { auditOutput } from '../../scripts/audit-output.js';
-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState } from '../../src/lib/presentation.js';
+import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, reviewLabel } from '../../src/lib/presentation.js';
 const privateRoutes=activePublication().manifest.routes;
 import { buildInputs, syntheticRoutes } from '../../src/lib/build-identity.js';
 
@@ -136,7 +136,8 @@ function outputFixture(run: (directory: string, info: ReturnType<typeof outputIn
 }
 function outputInfo() {
   const config = { ...loadSiteConfig(), basePath: '/unity-theory/' };
-  return { schema: 'unity-build-info/1', mode: 'preview', deployEligible: false, corpusScope: 'private-editorial-preview', currentSourceQualified: false, sourceIntake: publicationFor('preview',config).admission, config, configSha256: sha256(stableJSON(config)), routes: privateRoutes, syntheticRoutes, publicationManifest:publicationFor('preview',config).manifest, publicationManifestSha256:publicationFor('preview',config).manifestSha256, ...buildInputs() };
+  const selected=publicationFor('preview',config);
+  return { schema: 'unity-build-info/1', mode: 'preview', deployEligible: false, corpusScope: 'private-editorial-preview', currentSourceQualified: selected.admission.currentSourceQualified, sourceIntake: selected.admission, config, configSha256: sha256(stableJSON(config)), routes: privateRoutes, syntheticRoutes, publicationManifest:selected.manifest, publicationManifestSha256:selected.manifestSha256, ...buildInputs() };
 }
 test('root-only asset in subpath output reaches BASE_PATH_FAILURE', () => outputFixture((directory) => {
     const path=join(directory,'index.html');
@@ -228,11 +229,11 @@ test('output audit binds bibliography text, destinations, support limits, status
     ['references/index.html','https://doi.org/10.1038/s41467-019-13746-6','https://example.org/wrong-paper','BIBLIOGRAPHY_PARITY_FAILURE'],
     ['references/index.html','Formation of optical supramolecular structures','Fabricated paper title','BIBLIOGRAPHY_PARITY_FAILURE'],
     ['references/index.html','Supplementary reference reported by the supplied documents.','Scientific support accepted.','BIBLIOGRAPHY_PARITY_FAILURE'],
-    ['claims/UT-E01/index.html','<dd>Pending</dd>','<dd>Accepted</dd>','CONTENT_METADATA_PARITY_FAILURE'],
+    ['claims/UT-E01/index.html',`<dd>${reviewLabel(activePublication().corpus,'UT-E01')}</dd>`,'<dd>Fabricated review label</dd>','CONTENT_METADATA_PARITY_FAILURE'],
     ['index.html','Whether the four known fundamental interactions','All four fundamental interactions have been proved','CONTENT_PARITY_FAILURE'],
     ['index.html','How does a collection become a whole?</h1>','All interactions proved.</h1>','CONTENT_METADATA_PARITY_FAILURE'],
     ['start/index.html','Publication: Draft · private preview.','Publication: published.','CONTENT_METADATA_PARITY_FAILURE'],
-    ['start/index.html','Source fidelity: Pending.','Source fidelity: Accepted.','CONTENT_METADATA_PARITY_FAILURE'],
+    ['start/index.html',`Source fidelity: ${reviewLabel(activePublication().corpus,'DOC-START')}.`,'Source fidelity: Fabricated review label.','CONTENT_METADATA_PARITY_FAILURE'],
     ['index.html','Research status</a>','All science accepted</a>','NAVIGATION_PARITY_FAILURE'],
   ]) {
     const path=join(directory,file),original=readFileSync(path,'utf8');assert.ok(original.includes(from),from);

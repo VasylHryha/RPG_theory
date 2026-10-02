@@ -1,0 +1,55 @@
+Running /Users/new/.local/node/bin/node --import tsx --test tests/content/contracts.test.ts
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (0.814333ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (1.528291ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (1.069333ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (0.83825ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (1.134792ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (1.520334ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (0.706958ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (1.11425ms)
+✔ silent edition-pin reset still fails (0.798417ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (1.27775ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.183667ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.330417ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (1464.902875ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (2011.718292ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (3478.90425ms)
+✔ artifact audit rejects false source identity and active SVG files (2206.024458ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (3.091542ms)
+✔ Markdown reference links/images share safety and base handling (2.907041ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (1.825792ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (88.992ms)
+✔ output audit rejects changed source-bound display, manifest substitutions and draft sentinels (1968.5995ms)
+✖ output audit binds bibliography text, destinations, support limits, status, projection and navigation (2192.096167ms)
+✔ output audit rejects multiply encoded local traversal (1194.682584ms)
+✔ document metadata comparison scopes the title to the head, preserving accessible SVG titles (1287.125958ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 23
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17182.53
+
+✖ failing tests:
+
+test at tests/content/contracts.test.ts:3:1860
+✖ output audit binds bibliography text, destinations, support limits, status, projection and navigation (2192.096167ms)
+  AssertionError [ERR_ASSERTION]: <dd>Pending</dd>
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:239:79)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:134:5)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:227:114)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
