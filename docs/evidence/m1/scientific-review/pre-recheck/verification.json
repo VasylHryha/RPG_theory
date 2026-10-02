@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-01T21:08:17.171Z",
+  "mode": "preview",
+  "status": "PASS",
+  "productionInputs": {
+    "inputsSha256": "4a685473c2579a6c0e761d325d402aff12c2394652ab5d0832268d734b6e90eb",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "e739304a88047dc83550dc0fb1a776b470d31644598caa8f5f845de57130a168"
+  },
+  "receipts": [
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:content",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config config/site.json --output dist/m1-scientific-review/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m1-scientific-review/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/m1-scientific-review/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m1-scientific-review/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m1-scientific-review/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/m1-scientific-review/preview-subpath",
+      "exitCode": 0
+    }
+  ],
+  "notRun": [],
+  "reused": {
+    "receipts": [
+      {
+        "command": "npm run check:sources -- --scope history",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run check:sources -- --scope current",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run check:content",
+        "exitCode": 0
+      }
+    ],
+    "from": "docs/evidence/m1/scientific-review/verification-first-batch.json",
+    "sha256": "bc4ceeb9e9c8baa7602b94cc722e5af81bb34d956b18337d8468c778c0033964",
+    "basis": "Only tests/content/revision-cli.test.ts changed after the first batch; no source, content, registry, config, rendering or validator input changed. Astro/test checks rerun because tests changed."
+  },
+  "scientificContentAccepted": false,
+  "boundedRepresentationAcceptances": 17,
+  "currentSourceQualified": false,
+  "humanComprehension": "NOT_TESTED",
+  "publicDeployment": "NOT_RUN"
+}

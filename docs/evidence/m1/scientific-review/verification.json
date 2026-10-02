@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-02T05:31:24.022Z",
+  "mode": "preview",
+  "status": "PASS",
+  "productionInputs": {
+    "inputsSha256": "e8f3867b14300c21743a72f8d04b35b1e77ff22b7fc77db01206b005e73f7dff",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "a64a64ace44b3b90511e7112bb95530fc04e52c8126767099cd63c1519238282"
+  },
+  "receipts": [
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:content",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:content",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config config/site.json --output dist/m1-scientific-review-quality/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m1-scientific-review-quality/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/m1-scientific-review-quality/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m1-scientific-review-quality/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m1-scientific-review-quality/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/m1-scientific-review-quality/preview-subpath",
+      "exitCode": 0
+    }
+  ],
+  "notRun": [],
+  "reused": {
+    "receipts": [
+      {
+        "command": "npm run check:sources -- --scope history",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run check:sources -- --scope current",
+        "exitCode": 0
+      }
+    ],
+    "from": "docs/evidence/m1/scientific-review/pre-recheck/verification.json",
+    "sha256": "53a5d05f0e64bbfca9feb3248089aa2d6525ddfca7c4a723555919d91f45e816",
+    "basis": "The quality batch changes concept metadata/review registry and affected tests; both raw source checks retain identical source/config/validator inputs. Fresh Astro/content/contracts and both artifact/browser groups run."
+  },
+  "scientificContentAccepted": false,
+  "boundedRepresentationAcceptances": 18,
+  "currentSourceQualified": false,
+  "humanComprehension": "NOT_TESTED",
+  "publicDeployment": "NOT_RUN"
+}

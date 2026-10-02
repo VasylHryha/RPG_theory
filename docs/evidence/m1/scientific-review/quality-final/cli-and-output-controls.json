@@ -1,0 +1,377 @@
+{
+  "date": "2026-10-02T05:39:07.210Z",
+  "status": "PASS",
+  "fullScientificAcceptance": false,
+  "boundedRepresentationAcceptances": 18,
+  "cli": [
+    {
+      "command": "node --import tsx scripts/build.ts --mode qualification --output dist/m1-scientific-review-quality-final/refused-qualification",
+      "exitCode": 1,
+      "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false
+    },
+    {
+      "command": "node --import tsx scripts/build.ts --mode release --output dist/m1-scientific-review-quality-final/refused-release",
+      "exitCode": 1,
+      "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false
+    }
+  ],
+  "emittedOutputControls": [
+    {
+      "base": "root",
+      "name": "wrong paper destination",
+      "expected": "BIBLIOGRAPHY_PARITY_FAILURE",
+      "reachedFailure": "BIBLIOGRAPHY_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "concealed accepted definition",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "omitted background-extension dependency",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "concealed accepted minimal concept",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "stale concept review description",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "fabricated accepted review",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "false home completion",
+      "expected": "CONTENT_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "incorrect navigation",
+      "expected": "NAVIGATION_PARITY_FAILURE",
+      "reachedFailure": "NAVIGATION_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "omitted evidence dependency",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "index.html: false heading",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "index.html: false publication state",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "index.html: false exact-content approval",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "index.html: omitted editorial state",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "start/index.html: false heading",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "start/index.html: false publication state",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "start/index.html: false exact-content approval",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "start/index.html: omitted editorial state",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "root",
+      "name": "preview relabelled qualification",
+      "expected": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "wrong paper destination",
+      "expected": "BIBLIOGRAPHY_PARITY_FAILURE",
+      "reachedFailure": "BIBLIOGRAPHY_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "concealed accepted definition",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "omitted background-extension dependency",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "concealed accepted minimal concept",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "stale concept review description",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "fabricated accepted review",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "false home completion",
+      "expected": "CONTENT_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "incorrect navigation",
+      "expected": "NAVIGATION_PARITY_FAILURE",
+      "reachedFailure": "NAVIGATION_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "omitted evidence dependency",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "index.html: false heading",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "index.html: false publication state",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "index.html: false exact-content approval",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "index.html: omitted editorial state",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "start/index.html: false heading",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "start/index.html: false publication state",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "start/index.html: false exact-content approval",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "start/index.html: omitted editorial state",
+      "expected": "CONTENT_METADATA_PARITY_FAILURE",
+      "reachedFailure": "CONTENT_METADATA_PARITY_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "base": "subpath",
+      "name": "preview relabelled qualification",
+      "expected": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "status": "PASS"
+    }
+  ],
+  "affected": [
+    {
+      "changedIdentity": "DOC-CONCEPT-GEOMETRY",
+      "entries": [
+        "DOC-CONCEPT-GEOMETRY"
+      ]
+    },
+    {
+      "changedIdentity": "UT-C02",
+      "entries": [
+        "DOC-HOME",
+        "DOC-PROOF",
+        "DOC-START",
+        "DOC-STATUS",
+        "UT-C02",
+        "UT-E12",
+        "UT-O03"
+      ]
+    },
+    {
+      "changedIdentity": "R-CURRENT-INTERACTIONS",
+      "entries": [
+        "DOC-HOME",
+        "DOC-PROOF",
+        "DOC-START",
+        "DOC-STATUS",
+        "UT-E10",
+        "UT-E11",
+        "UT-E12"
+      ]
+    },
+    {
+      "changedIdentity": "BIB-0016",
+      "entries": [
+        "DOC-HOME",
+        "DOC-PROOF",
+        "DOC-START",
+        "DOC-STATUS",
+        "UT-E10"
+      ]
+    },
+    {
+      "changedIdentity": "BIB-0022",
+      "entries": [
+        "UT-E01"
+      ]
+    },
+    {
+      "changedIdentity": "UT-D04",
+      "entries": [
+        "DOC-HOME",
+        "DOC-PROOF",
+        "DOC-START",
+        "DOC-STATUS",
+        "UT-D04",
+        "UT-E03",
+        "UT-E08"
+      ]
+    },
+    {
+      "changedIdentity": "UT-D07",
+      "entries": [
+        "DOC-HOME",
+        "DOC-PROOF",
+        "DOC-START",
+        "DOC-STATUS",
+        "UT-C02",
+        "UT-D07",
+        "UT-E01",
+        "UT-E02",
+        "UT-E04",
+        "UT-E07",
+        "UT-E08",
+        "UT-E12",
+        "UT-O03"
+      ]
+    },
+    {
+      "changedIdentity": "UT-D08",
+      "entries": [
+        "DOC-HOME",
+        "DOC-PROOF",
+        "DOC-START",
+        "DOC-STATUS",
+        "UT-D08",
+        "UT-D09",
+        "UT-E01",
+        "UT-E06",
+        "UT-E07"
+      ]
+    },
+    {
+      "changedIdentity": "UT-D09",
+      "entries": [
+        "DOC-HOME",
+        "DOC-PROOF",
+        "DOC-START",
+        "DOC-STATUS",
+        "UT-D09",
+        "UT-E07"
+      ]
+    }
+  ]
+}

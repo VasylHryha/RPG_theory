@@ -1,0 +1,2209 @@
+{
+  "method": "Explicit independently read decisions and reasons precede fingerprint recording; no requests imported.",
+  "readoutSha256": "2b521da41082635dd83326c529313e937a33c66d158ae1f9e87e4fe958a7851e",
+  "accessLedgerSha256": "70cfc1318f8115c9944e659cece7b2b3edd3e03dbe638ac6c5b8385e2f1b63be",
+  "rendererSha256": "365afc697cf5e3af54d68dcb3f712c0d6d67e43fb978ab1fdf000357e0a8dfb6",
+  "decisions": [
+    {
+      "entryId": "DOC-STATUS",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Open-question excerpts accepted separately; broad scientific-support summary still pending.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-STATUS",
+          "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+          "startLine": 3,
+          "endLine": 41,
+          "excerptSha256": "65365f2935370ae8ba5494c51334b1eb76ede7f6523e9db238ddce2e46ce2d68"
+        },
+        "statement": "## Authoritative core\n\nSee **00_LOCKED_CORE.md**. No research example or mathematical model may redefine those terms without passing **05_CHANGE_CONTROL.md**.\n\n## Conceptually locked\n\n1. \\(R=(G,M)\\): resonant geometry is geometry + full temporal mode structure.\n2. \\(G\\leftrightarrow M\\): geometry supports/constrains mode structure; mode structure supports/maintains/transforms geometry.\n3. Stability is that self-consistent closure for however long it exists; it is not permanence.\n4. Higher structures may contain identical or different lower structures.\n5. Lower-level dynamics remain active inside higher levels.\n6. Different arrangements/compositions can create different higher resonant geometries.\n7. Each scale may use different microscopic mechanisms and equations.\n8. Replication is one possible mechanism, not a universal mandatory step.\n\n## Open extensions to prove — not definitions\n\n1. Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.\n2. Whether gravity is an emergent higher-scale geometric/mode regime.\n3. Whether cosmological background evolution selects which resonant geometries are accessible.\n4. Whether one cross-domain mathematical invariant or promotion criterion exists.\n5. Whether RRG yields a novel prediction beyond existing frameworks.\n6. Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.\n\n## Research discipline\n\nNew evidence must be used in this order:\n\n\\[\n\\boxed{\\text{test locked core}\\rightarrow\\text{support / extension / contradiction candidate}}\n\\]\n\nNever:\n\n\\[\n\\boxed{\\text{new example}\\rightarrow\\text{silent new definition}}\n\\]\n\nA core change requires the complete proof gate in **05_CHANGE_CONTROL.md**.\\n\\n## Evidence update: emergent interaction channels\\n\\nAdditional physics evidence supports the mechanism that a lower-level organized medium can generate a higher-level effective interaction:\\n\\n- phonons mediating effective electron attraction in superconductivity;\\n- spin-ice geometry producing emergent magnetic charges with Coulomb-like interactions;\\n- the Higgs-field background changing the observable electroweak interaction regime.\\n\\nThis strengthens the downstream extension:\\n\\n\\\\[\\nR_n\\\\rightarrow\\\\mathcal I_{n+1}^{\\\\rm eff}\\\\rightarrow R_{n+1}.\\n\\\\]\\n\\nIt does **not** close the claim that the four fundamental forces themselves are all deeper RRG manifestations.\\n\n",
+        "plainLanguage": "",
+        "scope": "Current source status with pending review and explicit extension boundaries.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "## Evidence source links\n\nThe status addendum refers to the scoped evidence records :claim[UT-E10], :claim[UT-E11] and :claim[UT-E12], each with literature links.\n",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-C01",
+          "UT-C02",
+          "UT-D01",
+          "UT-D02",
+          "UT-D03",
+          "UT-D04",
+          "UT-D05",
+          "UT-D06",
+          "UT-D07",
+          "UT-D08",
+          "UT-D09",
+          "UT-E10",
+          "UT-E11",
+          "UT-E12",
+          "UT-O01",
+          "UT-O02",
+          "UT-O03",
+          "UT-O04",
+          "UT-O05",
+          "UT-O06"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "aea08ceaeb44363eaea3fa6ee2e03a7be55945604ee11410fd567b444322c1f7",
+      "dependencies": [
+        {
+          "id": "UT-C01",
+          "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+        },
+        {
+          "id": "UT-C02",
+          "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+        },
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D04",
+          "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        },
+        {
+          "id": "UT-D08",
+          "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+        },
+        {
+          "id": "UT-D09",
+          "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+        },
+        {
+          "id": "UT-E10",
+          "semanticDigest": "bf6c7fe5c04cc0deb41a17ec382c833d1f02f792cb724c12c44f51865fb94ce4"
+        },
+        {
+          "id": "UT-E11",
+          "semanticDigest": "3f79a043989d7fc132b42e2752c79ba9b981a5b57f23b4f974ce0bd47d3b0618"
+        },
+        {
+          "id": "UT-E12",
+          "semanticDigest": "8ff4fc8f803df64283181f379facdb5416c0da2ea6227b3dc9ddf8e8ee8a2af9"
+        },
+        {
+          "id": "UT-O01",
+          "semanticDigest": "143d62f3c851611a94a1c589edf8b35dae2db98648b945f3eff6d68f5e239afa"
+        },
+        {
+          "id": "UT-O02",
+          "semanticDigest": "3227556784446bbaa965fbdf137f6fea105b4da56e09da8bfa2ca894db731281"
+        },
+        {
+          "id": "UT-O03",
+          "semanticDigest": "3b13d9ce648b24b74cc347f5c38f2baba31188ebff21092299f1dd7ffc92dd1a"
+        },
+        {
+          "id": "UT-O04",
+          "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950"
+        },
+        {
+          "id": "UT-O05",
+          "semanticDigest": "cfee06326b8537fbaf7f2f5c63ec2e23bf7a6829d2ce11e5937ae9ebf05de9ab"
+        },
+        {
+          "id": "UT-O06",
+          "semanticDigest": "5f804ae9cd490d3b6d391d8ac95fbebebb0be57e94b0801792631d5f42443fa6"
+        }
+      ],
+      "renderedBodySha256": "0ebed2ff1b7b6f193c150cb7a07aad804b267127b90a31de12db1568eac655bf",
+      "independentlyComputedFingerprint": "2c31eac690222d9459f74aed63541ed08cbd1e23572c9961c104a68066eb400a",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "DOC-PROOF",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Source matrix is classification/mapping, not automatic scientific certification; restricted support findings remain.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-PROOF",
+          "sourceSha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf",
+          "startLine": 3,
+          "endLine": 23,
+          "excerptSha256": "66997726c6ea67eb4743320e7842e72fb6d2dcf2562550597bf1f81389f637c5"
+        },
+        "statement": "This file tells us what must be proved **without changing the locked core**.\n\n| Claim | Status | What would count as evidence | What would count against it | Core impact |\n|---|---|---|---|---|\n| Geometry constrains supported modes | supported in many known systems | spectral/normal-mode calculations and experiments | a claimed application where geometry has no definable mode relation | none unless it contradicts locked definition |\n| Modes can maintain/transform geometry | supported in many systems | backreaction, coupled-mode, optomechanical, self-organization examples | failure in a specific implementation | none |\n| Heterogeneous lower structures can form a higher resonant geometry | core claim / common in known systems | molecules, cells, composite systems, network modes | genuine contradiction must pass change-control proof gate | possible core impact only after proof gate |\n| Lower-level modes remain active inside higher structures | core claim | multiscale measurements/reductions | evidence that higher formation literally eliminates lower state variables in a claimed case | proof gate required |\n| Different scales may use different mechanisms | locked | established effective theories already allow this | no issue | none |\n| Same equation family reappears at each scale | optional strong extension | RG fixed points/universality/form-invariant reductions | different effective equations across scales | rejects extension only |\n| Four forces are deeper resonant-geometry manifestations | open extension | derivation of known interactions/charges/ranges/symmetries from a deeper model | incompatibility with observed force structure | extension rejected; core unchanged |\n| Gravity is emergent resonant geometry | open extension | recover equivalence principle, Lorentz/diffeomorphism structure, GR limits | experimental/theoretical no-go under model assumptions | extension rejected; core unchanged |\n| Cosmic background selects accessible geometries | open extension | derive/fit known phase transitions and structure windows | model fails while standard physics succeeds | extension rejected/refined |\n| Cross-domain RRG invariant exists | open extension | same measurable criterion predicts organization in ≥2 unrelated domains | criterion becomes domain-specific or post-hoc | extension weakened |\n| RRG improves AI | open application | controlled benchmark gains at equal resources | no gain / worse scaling | application rejected; core unchanged |\n\n| Lower-level organization can generate an effective higher-level interaction channel | supported in known physical systems | phonon-mediated attraction, emergent spin-ice charges/interactions, collective mediated interactions | a claimed system where the proposed emergent interaction cannot be derived or measured | supports extension; core unchanged |\n\n## Rule\n\nA failed extension is **not** permission to redefine the core. It is simply a failed extension unless a complete core contradiction passes `05_CHANGE_CONTROL.md`.\n",
+        "plainLanguage": "",
+        "scope": "Reported status and failure meanings; the document title does not certify proof.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-C01",
+          "UT-C02",
+          "UT-D01",
+          "UT-D02",
+          "UT-D03",
+          "UT-D04",
+          "UT-D05",
+          "UT-D06",
+          "UT-D07",
+          "UT-D08",
+          "UT-D09",
+          "UT-E10",
+          "UT-E11",
+          "UT-E12",
+          "UT-O01",
+          "UT-O02",
+          "UT-O03",
+          "UT-O04",
+          "UT-O05",
+          "UT-O06"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "fb22d049247764c3dfa7f633343998a57a384e56fe845428af01c216ea5809ef",
+      "dependencies": [
+        {
+          "id": "UT-C01",
+          "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+        },
+        {
+          "id": "UT-C02",
+          "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+        },
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D04",
+          "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        },
+        {
+          "id": "UT-D08",
+          "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+        },
+        {
+          "id": "UT-D09",
+          "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+        },
+        {
+          "id": "UT-E10",
+          "semanticDigest": "bf6c7fe5c04cc0deb41a17ec382c833d1f02f792cb724c12c44f51865fb94ce4"
+        },
+        {
+          "id": "UT-E11",
+          "semanticDigest": "3f79a043989d7fc132b42e2752c79ba9b981a5b57f23b4f974ce0bd47d3b0618"
+        },
+        {
+          "id": "UT-E12",
+          "semanticDigest": "8ff4fc8f803df64283181f379facdb5416c0da2ea6227b3dc9ddf8e8ee8a2af9"
+        },
+        {
+          "id": "UT-O01",
+          "semanticDigest": "143d62f3c851611a94a1c589edf8b35dae2db98648b945f3eff6d68f5e239afa"
+        },
+        {
+          "id": "UT-O02",
+          "semanticDigest": "3227556784446bbaa965fbdf137f6fea105b4da56e09da8bfa2ca894db731281"
+        },
+        {
+          "id": "UT-O03",
+          "semanticDigest": "3b13d9ce648b24b74cc347f5c38f2baba31188ebff21092299f1dd7ffc92dd1a"
+        },
+        {
+          "id": "UT-O04",
+          "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950"
+        },
+        {
+          "id": "UT-O05",
+          "semanticDigest": "cfee06326b8537fbaf7f2f5c63ec2e23bf7a6829d2ce11e5937ae9ebf05de9ab"
+        },
+        {
+          "id": "UT-O06",
+          "semanticDigest": "5f804ae9cd490d3b6d391d8ac95fbebebb0be57e94b0801792631d5f42443fa6"
+        }
+      ],
+      "renderedBodySha256": "5fd1dcc650f5c4b1662951f9fcea5f8fecef0f9603d5bcf56de2333260d79de1",
+      "independentlyComputedFingerprint": "348b8a2f1a5f59fe61d653f9689c4cb6ecac343b9434fc638d2f04f2f7d8ebf0",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "DOC-CONCEPT-GEOMETRY",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-02",
+      "rationale": "The complete minimal consumer contains only three headings and the exact independently accepted D01/D02/D03 explanations. Its neutral description/scope and draft/non-empirical metadata now agree with that content. Accept its exact explanatory representation, not a scientific theorem or public authorization.",
+      "acceptedScope": "Exact minimal concept explanation of the three accepted definitions; no universal claim, authorial approval or publication permission.",
+      "ownRead": {
+        "sourceBinding": null,
+        "statement": null,
+        "plainLanguage": "",
+        "description": "A minimal M1 concept consumer of the current geometry, mode and reciprocal-organization definitions.",
+        "scope": "A minimal M1 concept consumer of the current geometry, mode and reciprocal-organization definitions.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "## Geometry\n\n::claim{id=\"UT-D01\" view=\"plainLanguage\"}\n\n## Mode structure\n\n::claim{id=\"UT-D02\" view=\"plainLanguage\"}\n\n## Together\n\n::claim{id=\"UT-D03\" view=\"plainLanguage\"}\n",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D01",
+          "UT-D02",
+          "UT-D03"
+        ],
+        "bibRefs": [],
+        "updatedAt": "2026-10-02"
+      },
+      "semanticDigest": "6e8ceda29334c1c070b001d39b9d6ea98f0c1bd4e8a60039aec425216a3b92ba",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        }
+      ],
+      "renderedBodySha256": "b4ab3cc1f825180324a5acbef95a931148e9e2d4a0d94337f6e8d18ade152472",
+      "independentlyComputedFingerprint": "e8ad96f7788db3c2c83d5600ecccd010e633c37579df7c5049aba42758ac8062",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-D01",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Chosen-scale organization and its explanation preserve relations, boundaries and constraints beyond visible shape; terminology only.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 6,
+          "endLine": 14,
+          "excerptSha256": "680c99c03b1ea11424b27fef2214ae09b72646cd103d2f025b5dc5c7a38c7e34"
+        },
+        "statement": "## 1. Geometry \\(G\\)\n\nIn RRG, **geometry** means the organization of a system at a chosen scale:\n\n\\[\nG=\\{\\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\\}.\n\\]\n\nGeometry is not limited to visible Euclidean shape.\n",
+        "plainLanguage": "Organization at a chosen scale includes components, relationships, boundaries and constraints.",
+        "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [],
+        "bibRefs": []
+      },
+      "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534",
+      "dependencies": [],
+      "renderedBodySha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+      "independentlyComputedFingerprint": "2b11d180b37aebf72594020ab8ea03e82dd5c2f016f11fbf8ece97c674316434",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-D02",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Full mode structure and explanation preserve phase, amplitude, coupling, response and timescales; a single hertz value is not a unique geometry.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 16,
+          "endLine": 24,
+          "excerptSha256": "2a796e231760733d9076357e12a40973ea228e3a38d41c432dde2cb19f008c0e"
+        },
+        "statement": "## 2. Frequency / mode structure \\(M\\)\n\nIn RRG, **frequency** is shorthand for the system's full temporal mode organization, not one scalar value in hertz:\n\n\\[\nM=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}.\n\\]\n\nA scalar frequency alone is never assumed to uniquely determine a geometry.\n",
+        "plainLanguage": "Mode structure includes rhythms, phases, coupling, response and characteristic times, rather than one number in hertz.",
+        "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [],
+        "bibRefs": []
+      },
+      "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235",
+      "dependencies": [],
+      "renderedBodySha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+      "independentlyComputedFingerprint": "56d6769e4c9308a1401efcd74f2fd9cb2ac71fd1121f5784a6f175272e2f6008",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-D03",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Pair and reciprocal relation preserve neither-side-universally-first; source structural interpretation, not a cross-domain theorem.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 26,
+          "endLine": 43,
+          "excerptSha256": "f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1"
+        },
+        "statement": "## 3. Resonant geometry \\(R\\)\n\nThe basic RRG object is:\n\n\\[\n\\boxed{R=(G,M)}.\n\\]\n\nGeometry and mode structure are inseparable aspects of one organized system:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\n- Geometry constrains/supports which modes can exist.\n- The active mode structure supports, maintains, transforms, or destroys the geometry.\n\nNeither side is defined as universally \"first\".\n",
+        "plainLanguage": "RRG considers organization and mode structure together. Each constrains or changes the other.",
+        "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D01",
+          "UT-D02"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        }
+      ],
+      "renderedBodySha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+      "independentlyComputedFingerprint": "d1d486b56e70a743b66291b9c0d97e06e045588de21a87e6ce34c2ea42c18664",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-D04",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Chosen closure definition and explanation distinguish permanence and system-specific stability tests; no Lyapunov equivalence.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 45,
+          "endLine": 55,
+          "excerptSha256": "c6f7fe3e4ae4ad799503dfd266c8bba802d2e459bfc2c332ad8eebe6270b0414"
+        },
+        "statement": "## 4. Stability\n\n**Locked definition:** a geometry is stable in RRG while its geometry and mode structure form a self-consistent closed organization:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\nStability is **not permanence**. A state may satisfy the closure for a very short or very long interval.\n\nLifetime, perturbation recovery, Lyapunov stability, decay width, or metastability are **measurements/tests of a particular system**, not replacements for this core definition.\n",
+        "plainLanguage": "RRG calls the geometry–mode organization stable while it is self-consistent. This does not require permanence.",
+        "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        }
+      ],
+      "renderedBodySha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+      "independentlyComputedFingerprint": "3013fee568f20b443748926556511b021c068c00944a74bf4416cd5fa88a51c8",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-D05",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Effective-unit scale and explanation preserve differing mechanisms/equations; no universal size or timescale rule.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 84,
+          "endLine": 96,
+          "excerptSha256": "7df4282e0cf099ff89d7eef30506f57f0e10cbf79eba8b25b1197bb0cbffa7a0"
+        },
+        "statement": "## 7. Scale\n\nA **scale** is a level at which a collective resonant geometry can function as an effective unit in further interactions.\n\nDifferent scales may have different:\n\n- characteristic sizes,\n- characteristic times/frequencies,\n- dominant interactions,\n- effective mechanisms,\n- compositions and geometries.\n\nRRG does **not** require the same microscopic mechanism or identical equation at every scale.\n",
+        "plainLanguage": "A collective organization can function as an effective unit in further interactions. Mechanisms may differ across scales.",
+        "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D06"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "04ca8a61e328226812a0005821bfce03799e14179256786a58688a92e3cb2cdc",
+      "independentlyComputedFingerprint": "1101957bd74aad3449fe99d119d4ef20509b5769039c7688a96cf3bbba7c6205",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-D06",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Conditional higher-level formation and explanation preserve heterogeneous compatible members and retained internal activity; no prior-duplication requirement.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 57,
+          "endLine": 72,
+          "excerptSha256": "70d9e6d53a6d43c1a7410abfa801d650bd026f9da24e986c907b3151ea075286"
+        },
+        "statement": "## 5. Higher-level formation\n\nA higher-level resonant geometry may be formed from any compatible collection of lower-level resonant geometries:\n\n\\[\n\\boxed{\\{R_n^1,R_n^2,\\ldots,R_n^m\\}\\rightarrow R_{n+1}}.\n\\]\n\nThe lower-level members:\n\n- do not need to be identical;\n- do not need to duplicate first;\n- can have different roles and internal modes;\n- remain internally active after the higher-level structure forms.\n\nThe higher level introduces new collective constraints and a new collective mode structure while containing the lower levels.\n",
+        "plainLanguage": "Compatible lower-level systems may form a higher-level organization while retaining internal activity. Their components may differ.",
+        "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        }
+      ],
+      "renderedBodySha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+      "independentlyComputedFingerprint": "4e8b499fe9efa16706e6f3e0f85713fba5f8e4b9e26935cd0ee62c04e33ae484",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-D07",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Variation and explanation preserve differing organization and conditions without adding a physical selection law.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 74,
+          "endLine": 82,
+          "excerptSha256": "70a9c9b21a7a9301abe5268e7e4b870ddeac3c4e6b07ccbbe52a04d10de675fb"
+        },
+        "statement": "## 6. Variation\n\nDifferent counts, arrangements, compositions, orientations, connections, phases, and environments may create different higher-level resonant geometries from the same lower-level building blocks.\n\n\\[\n\\boxed{\\text{same or related lower units}+\\text{different organization}\\rightarrow\\text{different }R_{n+1}}.\n\\]\n\nVariation is therefore fully compatible with the core and requires no new principle.\n",
+        "plainLanguage": "Related building blocks can participate in different organizations under different arrangements and conditions.",
+        "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D06"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+      "independentlyComputedFingerprint": "e5bb1d5b382b104b610d2c4c3fffbde3ff7275d766d9c378c1052daef18cf241",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-D08",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Structural recursion and explanation preserve changing mechanisms; not universal empirical validation.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 98,
+          "endLine": 112,
+          "excerptSha256": "e0d4d8d7cedc6d2ae92b2fe309339361c64a250f8a50ce13f7d11f28acb62791"
+        },
+        "statement": "## 8. Recursion\n\nThe core recursive claim is structural:\n\n\\[\n\\boxed{\\{R_n^i\\}\\rightarrow R_{n+1}\\rightarrow R_{n+2}\\rightarrow\\cdots}.\n\\]\n\nAt every level the locked relation remains:\n\n\\[\n\\boxed{R_n=(G_n,M_n),\\qquad G_n\\leftrightarrow M_n}.\n\\]\n\nThe mechanisms implementing the relation may change with scale.\n",
+        "plainLanguage": "Organized units may take part in further organization. This structural claim does not require an identical microscopic equation.",
+        "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D05",
+          "UT-D06"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "5a7ad5b619436603525e7f1e74fc2343bc03f90fad34189f26eae92447acb2df",
+      "independentlyComputedFingerprint": "1fdd897601075ed397ae987d7e165a34e855b18facaebcd475094146c8848a09",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-D09",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Replication and explanation preserve an optional mechanism rather than a mandatory step at every level.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 114,
+          "endLine": 126,
+          "excerptSha256": "6a0b719f6b5236c68fc8f6c9663e9c5d69f01a9621e54d8e9ade00ee9ad639e2"
+        },
+        "statement": "## 9. Replication / recurrence\n\nReplication, duplication, autocatalysis, reproduction, aggregation, differentiation, self-assembly, and symmetry breaking are **possible mechanisms of higher-level formation or propagation**, not mandatory steps in the core recursion.\n\nRRG never requires:\n\n\\[\nA\\rightarrow A+A\\rightarrow B\n\\]\n\nat every level.\n\nBiological replication is therefore an example, not the definition of recursion.\n",
+        "plainLanguage": "Replication is one possible way to form or propagate organization; it is not required at every level.",
+        "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D06",
+          "UT-D08"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D08",
+          "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+        }
+      ],
+      "renderedBodySha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+      "independentlyComputedFingerprint": "24aae31578c44a5b72b08f2556b3df14cf9dd1552432709c21c3ebb553c1e251",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-C01",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Force-identification extension is explicitly unproved; proposed state and no-unification limit are faithful, not approval of its truth.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 128,
+          "endLine": 136,
+          "excerptSha256": "14296615f64ff7eab2b9866fd7a8ecadec3f84151fbe652e6209667383e8b5c1"
+        },
+        "statement": "## 10. Interaction / force status\n\nThe following is **NOT locked as established fact**:\n\n> known forces are identical to resonant frequencies or correspond one-to-one with scales.\n\nThe locked core only says that interactions occur within and between resonant geometries and can participate in forming higher-level geometries.\n\nThe stronger claim that gravity, electromagnetism, weak, and strong interactions are scale-dependent manifestations of deeper resonant geometry is an **RRG extension to be proven**, not a definition.\n",
+        "plainLanguage": "",
+        "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+        "limits": "No universal derivation or force unification is supplied.",
+        "evidenceState": "proposed",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D05",
+          "UT-D06"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+      "independentlyComputedFingerprint": "47b0f53b8c6ae4cb6624a7712f72a3fcb1178761c0b93f985381fb693e229bbd",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-C02",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Background accessibility is a compatible open extension outside minimal definitions; proposed status is faithful, not approval of its truth.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-CORE",
+          "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+          "startLine": 138,
+          "endLine": 140,
+          "excerptSha256": "69de818aad3845247d950f3f58629c917dd67d3a14689d3c7ea28fc6d38a5a48"
+        },
+        "statement": "## 11. Background / possibility-space status\n\nThe idea that global cosmological/environmental conditions change which resonant geometries are accessible is an **extension compatible with the core**, not part of the minimal definition.\n",
+        "plainLanguage": "",
+        "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+        "limits": "No universal derivation or force unification is supplied.",
+        "evidenceState": "proposed",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D05",
+          "UT-D07"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        }
+      ],
+      "renderedBodySha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+      "independentlyComputedFingerprint": "ea4c92b92d6ed831120c08678d3a86e0cc69fb38d62f256a06398357e2780ebb",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-O01",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Four-force identification is faithfully an unresolved question; restricted mechanisms do not settle it.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-STATUS",
+          "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+          "startLine": 20,
+          "endLine": 20,
+          "excerptSha256": "cf5142020c98df070cbecb259c700959e4168bc1640a75341e6f7031ba00e073"
+        },
+        "statement": "1. Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.\n",
+        "plainLanguage": "",
+        "scope": "An unresolved question listed by the current status source.",
+        "limits": "",
+        "evidenceState": "proposed",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-C01"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "143d62f3c851611a94a1c589edf8b35dae2db98648b945f3eff6d68f5e239afa",
+      "dependencies": [
+        {
+          "id": "UT-C01",
+          "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+        },
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "37ae5dd123235cffbf5fb199f829826a0f3313d2608e37185a747ac1225d9eeb",
+      "independentlyComputedFingerprint": "8fd1b9c155f3edb5a86abe13895e4480609b8d06dd130e2a2f9687e0f14363d9",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-O02",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Emergent gravity is faithfully an unresolved question; no derivation or experimental validation supplied.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-STATUS",
+          "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+          "startLine": 21,
+          "endLine": 21,
+          "excerptSha256": "bcd86beeb66061dbff5c80d0747df01a549c085c4ccdaf3b367d1ace21038b04"
+        },
+        "statement": "2. Whether gravity is an emergent higher-scale geometric/mode regime.\n",
+        "plainLanguage": "",
+        "scope": "An unresolved question listed by the current status source.",
+        "limits": "",
+        "evidenceState": "proposed",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-C01"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "3227556784446bbaa965fbdf137f6fea105b4da56e09da8bfa2ca894db731281",
+      "dependencies": [
+        {
+          "id": "UT-C01",
+          "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+        },
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "6cc03c142b03c3e4c15d980e51a23afb25e8859f9f86ebf73a78156153fdf693",
+      "independentlyComputedFingerprint": "df0c46358b6270b8ed7d1ce70b998aef92c07dbed189eaf29d66ee950611db64",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-O03",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Background selection is faithfully an unresolved RRG question; a known model does not yield a general criterion.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-STATUS",
+          "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+          "startLine": 22,
+          "endLine": 22,
+          "excerptSha256": "7a0b6a7eb30f3fe44b410336d9f40b1dcc7de3fcd27eed1705f8d5494131fc27"
+        },
+        "statement": "3. Whether cosmological background evolution selects which resonant geometries are accessible.\n",
+        "plainLanguage": "",
+        "scope": "An unresolved question listed by the current status source.",
+        "limits": "",
+        "evidenceState": "proposed",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-C02"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "3b13d9ce648b24b74cc347f5c38f2baba31188ebff21092299f1dd7ffc92dd1a",
+      "dependencies": [
+        {
+          "id": "UT-C02",
+          "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+        },
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        }
+      ],
+      "renderedBodySha256": "474a84e5f57f0e5c1891ed7c7deff3de3ca4e1de7003bbd822307a1ec0d4c26a",
+      "independentlyComputedFingerprint": "26d400af60bcfe31387c0fa683d75da509ff7ed771498cf771b4aa5b40fb7b84",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-O04",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Common invariant/promotion criterion is faithfully unresolved; none silently supplied by the derivative.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-STATUS",
+          "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+          "startLine": 23,
+          "endLine": 23,
+          "excerptSha256": "f20abe052bd72e31bc2f0cbff35baa099c835e5d857194acef4cd708559f3df5"
+        },
+        "statement": "4. Whether one cross-domain mathematical invariant or promotion criterion exists.\n",
+        "plainLanguage": "",
+        "scope": "An unresolved question listed by the current status source.",
+        "limits": "",
+        "evidenceState": "proposed",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        }
+      ],
+      "renderedBodySha256": "dd6ea335bea3617ce0cd7b9a7cb88dcc78b22d577d05bdb1d47a1a03bf1a87dd",
+      "independentlyComputedFingerprint": "6bc4406c50e08d6b7875fb893ca5d26d28013444a7ad6a8da877e5262c76de6f",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-O05",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Novel predictive power is faithfully unresolved; taxonomy/interpretation is not a discriminating prediction.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-STATUS",
+          "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+          "startLine": 24,
+          "endLine": 24,
+          "excerptSha256": "e905bcf8e229eb2f27164f826a89e73e0b83859e39f0b1b1801c5e1e4d822287"
+        },
+        "statement": "5. Whether RRG yields a novel prediction beyond existing frameworks.\n",
+        "plainLanguage": "",
+        "scope": "An unresolved question listed by the current status source.",
+        "limits": "",
+        "evidenceState": "proposed",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "cfee06326b8537fbaf7f2f5c63ec2e23bf7a6829d2ce11e5937ae9ebf05de9ab",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        }
+      ],
+      "renderedBodySha256": "8edf5ffa816587de4dfa557433299472a3148b8c077d0f57905f79ac83b1e078",
+      "independentlyComputedFingerprint": "643c6fbefee37cb0f24d4f7f73eda9756e00cbef5bf31d27a859470687f471ad",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-O06",
+      "outcome": "accepted",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "AI advantage is faithfully an untested question; no benchmark or superiority supplied.",
+      "acceptedScope": "Exact definition/open-status representation only; no universality, scientific truth of extensions, authorial or public rights approval.",
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-STATUS",
+          "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+          "startLine": 25,
+          "endLine": 25,
+          "excerptSha256": "d1ca4473a4718eb0585e36378583d42ea28366e1914dab2718998af329207d35"
+        },
+        "statement": "6. Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.\n",
+        "plainLanguage": "",
+        "scope": "An unresolved question listed by the current status source.",
+        "limits": "",
+        "evidenceState": "proposed",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "5f804ae9cd490d3b6d391d8ac95fbebebb0be57e94b0801792631d5f42443fa6",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        }
+      ],
+      "renderedBodySha256": "7ddfa58d366259afb91f331dc836940708039a6f547d180925d2db4bf7a9d636",
+      "independentlyComputedFingerprint": "361f2aa00ac833dbb625e2bb10606bd9356a326a6067ed7e074602df608f33f6",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E01",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Partial 47-page paper/supplement read supports restricted mechanism, not the complete bound inspection/support assertions.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-ADDITIONAL",
+          "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+          "startLine": 17,
+          "endLine": 32,
+          "excerptSha256": "86b4deadb9e57bf6aa3e865f82648f213a0c63605c59b5a3e16fa24c18973b45"
+        },
+        "statement": "### E01 — He et al. (2019)\n\n**Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions**  \nNature Communications 10, 5756. DOI: [10.1038/s41467-019-13746-6](https://doi.org/10.1038/s41467-019-13746-6)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment with theoretical modelling.  \n**Existing clauses:** §3, §5, §6, §7, §8.\n\nMixed assemblies contain single pulses, pairs and triplets; internal pair dynamics coexist with larger-scale optical–acoustic organization.\n\n**Scope:** Designed, pumped fibre-laser system; optical molecules are bound pulses, not chemical molecules.\n\n**Checked:** Full primary paper and supplementary text; Figure 3 inspected as a rendered page.  \n**Location:** Main paper: Results, Elementary diversity; Figures 1 and 3; Supplementary Note 8.  \n**Inspected source:** https://photonics.umbc.edu/wp-content/uploads/sites/688/2022/02/PAJ296.pdf\n",
+        "plainLanguage": "",
+        "scope": "Designed, pumped fibre-laser system; optical molecules are bound pulses, not chemical molecules.",
+        "limits": "Designed, pumped fibre-laser system; optical molecules are bound pulses, not chemical molecules.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D05",
+          "UT-D06",
+          "UT-D07",
+          "UT-D08"
+        ],
+        "bibRefs": [
+          "BIB-0022",
+          "BIB-0023"
+        ]
+      },
+      "semanticDigest": "17df60dd5d48730d4e461e39081522e4a9076868165e5792caf882e8d91ebf6f",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        },
+        {
+          "id": "UT-D08",
+          "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+        }
+      ],
+      "renderedBodySha256": "1146c6db55fadcf2b8306e00a97b91ecabc67faddaf5747d2df80c9197913672",
+      "independentlyComputedFingerprint": "b5d372cc06aa033760b7f3db82cadb65b720285cb49a24bffbceeccc9b24a852",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E02",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Selected manuscript/final-paper result supported; full bound inspection/supplement/version qualification incomplete.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-ADDITIONAL",
+          "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+          "startLine": 35,
+          "endLine": 50,
+          "excerptSha256": "e435ef9c645154270f0f1ff6fa754774638d43799e66766cbbd541ddefe28787"
+        },
+        "statement": "### E02 — Weng et al. (2020)\n\n**Heteronuclear soliton molecules in optical microresonators**  \nNature Communications. DOI: [10.1038/s41467-020-15720-z](https://doi.org/10.1038/s41467-020-15720-z)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment with theoretical modelling.  \n**Existing clauses:** §3, §5, §6.\n\nPulses with distinct carrier frequencies and amplitudes bind while their relative phase continues evolving.\n\n**Scope:** Driven Kerr microresonator; distinguish carrier frequency from collective repetition rate.\n\n**Checked:** Full primary author manuscript, cross-checked against publisher record.  \n**Location:** Introduction; Figures 1–4; electro-optic measurements and coupled Lugiato–Lefever modelling.  \n**Inspected source:** https://arxiv.org/html/1901.04026v5\n",
+        "plainLanguage": "",
+        "scope": "Driven Kerr microresonator; distinguish carrier frequency from collective repetition rate.",
+        "limits": "Driven Kerr microresonator; distinguish carrier frequency from collective repetition rate.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D06",
+          "UT-D07"
+        ],
+        "bibRefs": [
+          "BIB-0024",
+          "BIB-0025"
+        ]
+      },
+      "semanticDigest": "9b14e9345394aeb82b319967a26c86c6200aafd3133fc3f6ffbfcd0c1ea75a30",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        }
+      ],
+      "renderedBodySha256": "c3a64c0d698b6832de3b4d25deb3ead6958d03e0c6633319923524370784e164",
+      "independentlyComputedFingerprint": "4321dd3b5b5ee9cb0d8472690e5cae2fa20a8533a56063ba4484b4473e160972",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E03",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Specified feedback supported; phenomenological motion and selected methods/supplement limits remain.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-ADDITIONAL",
+          "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+          "startLine": 53,
+          "endLine": 68,
+          "excerptSha256": "27cc196f0abfaedc926c9d30f5fa26522772bd932514eb51180d435b55083b63"
+        },
+        "statement": "### E03 — Fu et al. (2023)\n\n**Mechanochemical feedback loop drives persistent motion of liposomes**  \nNature Physics 19, 1211–1218. DOI: [10.1038/s41567-023-02058-8](https://doi.org/10.1038/s41567-023-02058-8)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment plus reduced mechanochemical model.  \n**Existing clauses:** §3, §4, §5.\n\nProtein distributions deform vesicles; deformation and motion reorganize the proteins, sustaining a reciprocal loop.\n\n**Scope:** Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.\n\n**Checked:** Full primary article, methods and figure descriptions.  \n**Location:** Figures 1–4; Extended Data Figures 6–8; Results on geometry-sensitive protein redistribution.  \n**Inspected source:** https://www.nature.com/articles/s41567-023-02058-8\n",
+        "plainLanguage": "",
+        "scope": "Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.",
+        "limits": "Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D04",
+          "UT-D06"
+        ],
+        "bibRefs": [
+          "BIB-0026",
+          "BIB-0027"
+        ]
+      },
+      "semanticDigest": "3932ed486da6e293bf1bb3e2ba6a19de4bebe27b7b899d363f1c9df872cf7891",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D04",
+          "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "74a6bd1c7157dc64b3af98f9da1203e7fa09fbeb4d8b85f9fab0ff60fcf61878",
+      "independentlyComputedFingerprint": "4ccab623b7c0b63787d9239e249c565a5837fb41e2afa24cf6651732b93fffa8",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E04",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Separate liposome and supported-bilayer assays need exact scope; no complete supplemental/data audit.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-ADDITIONAL",
+          "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+          "startLine": 71,
+          "endLine": 86,
+          "excerptSha256": "8072f00ac495c8ec7f223c22a0f0fcd3a682f774c6180125669a75cddcbd2579"
+        },
+        "statement": "### E04 — Godino et al. (2019)\n\n**De novo synthesized Min proteins drive oscillatory liposome deformation and regulate FtsA–FtsZ cytoskeletal patterns**  \nNature Communications 10, 4969. DOI: [10.1038/s41467-019-12932-w](https://doi.org/10.1038/s41467-019-12932-w)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment.  \n**Existing clauses:** §3, §5, §6.\n\nProteins synthesized from DNA templates develop collective dynamics accompanied by liposome deformation and cytoskeletal reorganization.\n\n**Scope:** Synthetic cellular compartment; not the creation of a complete self-reproducing organism.\n\n**Checked:** Full primary article and figure descriptions.  \n**Location:** Abstract and Results on cell-free Min expression, membrane deformation and FtsA–FtsZ organization.  \n**Inspected source:** https://www.nature.com/articles/s41467-019-12932-w\n",
+        "plainLanguage": "",
+        "scope": "Synthetic cellular compartment; not the creation of a complete self-reproducing organism.",
+        "limits": "Synthetic cellular compartment; not the creation of a complete self-reproducing organism.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D06",
+          "UT-D07"
+        ],
+        "bibRefs": [
+          "BIB-0028",
+          "BIB-0029"
+        ]
+      },
+      "semanticDigest": "6300a8de0af616f3b44fb259a3552783467739834f0e14e3220fe322fdb6b319",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        }
+      ],
+      "renderedBodySha256": "9185a7db56b56261d4e778e6b74f7c5e95b80cd937db2ef41ad397ce815debb6",
+      "independentlyComputedFingerprint": "b0373dc42dbd5df00642a3887a5a7f1cb5a3a045666426c1f0c7b8e6e7c722f7",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E05",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Indexed primary extracts/captions only; complete paper/data support and supplied inspection declarations not qualified.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-ADDITIONAL",
+          "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+          "startLine": 89,
+          "endLine": 104,
+          "excerptSha256": "585cddf8a29d29a67f1e918b8879fe0b892d55cfb8a3215fea5fde9262d385de"
+        },
+        "statement": "### E05 — Prindle et al. (2015)\n\n**Ion channels enable electrical communication in bacterial communities**  \nNature 527, 59–63. DOI: [10.1038/nature15709](https://doi.org/10.1038/nature15709)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment with interventions.  \n**Existing clauses:** §3, §5, §7.\n\nPotassium-mediated signals coordinate biofilm metabolic activity; potassium clamping suppresses the measured membrane-potential oscillations.\n\n**Scope:** Bacillus subtilis biofilms under the reported growth conditions.\n\n**Checked:** Primary publisher text and extended-data figure descriptions.  \n**Location:** Electrical signalling mechanism; Extended Data Figure 3, potassium-clamp intervention.  \n**Inspected source:** https://www.nature.com/articles/nature15709\n",
+        "plainLanguage": "",
+        "scope": "Bacillus subtilis biofilms under the reported growth conditions.",
+        "limits": "Bacillus subtilis biofilms under the reported growth conditions.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D05",
+          "UT-D06"
+        ],
+        "bibRefs": [
+          "BIB-0030",
+          "BIB-0031"
+        ]
+      },
+      "semanticDigest": "c5fef7025539f1d3ae967ca2ec9c4840b2914a9f5f7aba0df77efc6f3191ca43",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "baaf4d91452ed768aac53afa805387505218d53a9bec47df524745418e93105c",
+      "independentlyComputedFingerprint": "b6203c32b8880add91480d3fac2e44765ba1a685ae7aa1e12fca7dc83a6556a6",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E06",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Author main manuscript read supports conditional coupling; supplements/data and all excerpt assertions not qualified.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-ADDITIONAL",
+          "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+          "startLine": 107,
+          "endLine": 122,
+          "excerptSha256": "6ca2316b04d8986e3d4aabf441a7187f38cf61fa4c48b9541394f10422903a7f"
+        },
+        "statement": "### E06 — Liu et al. (2017)\n\n**Coupling between distant biofilms and emergence of nutrient time-sharing**  \nScience 356, 638–642. DOI: [10.1126/science.aah4204](https://doi.org/10.1126/science.aah4204)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment testing a coupled-oscillator prediction.  \n**Existing clauses:** §5, §7, §8.\n\nTwo biofilms coordinate oscillations; nutrient conditions induce predicted in-phase or antiphase relationships.\n\n**Scope:** A coupled community pair, not physical fusion into one organism.\n\n**Checked:** Primary abstract and detailed figure captions reproduced in PubMed; full manuscript was not accessible.  \n**Location:** Abstract; Figures 1–3, especially phase diagrams and experimental validations in Figure 2.  \n**Inspected source:** https://pubmed.ncbi.nlm.nih.gov/28386026/\n",
+        "plainLanguage": "",
+        "scope": "A coupled community pair, not physical fusion into one organism.",
+        "limits": "A coupled community pair, not physical fusion into one organism.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D05",
+          "UT-D06",
+          "UT-D08"
+        ],
+        "bibRefs": [
+          "BIB-0032",
+          "BIB-0033"
+        ]
+      },
+      "semanticDigest": "108ce3eb24470b7f0ed3caaa7660dbd5ee341aec65f2956c776f6cfbf6df0e15",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D08",
+          "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+        }
+      ],
+      "renderedBodySha256": "cb807ec7229bf9ebf0cf44ea2df6bbfbccd1a9f887defee2cd86e63c444d8efd",
+      "independentlyComputedFingerprint": "04851d42bc1a6406398c2c77f24d79bb2be4305ab76f779078f27a30b5f1fdcc",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E07",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Abstract only; main paper unavailable and temporal-spectrum inference unsupported by that read.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-ADDITIONAL",
+          "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+          "startLine": 125,
+          "endLine": 140,
+          "excerptSha256": "62034364856f636acee8bea0a510f292568025662b12ddd588dae8d57f6d1d72"
+        },
+        "statement": "### E07 — Tikhomirov, Petersen and Qian (2017)\n\n**Fractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns**  \nNature 552, 67–71. DOI: [10.1038/nature24655](https://doi.org/10.1038/nature24655)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Engineered molecular self-assembly experiment.  \n**Existing clauses:** §5, §6, §7, §8, §9.\n\nDesigned DNA tiles assemble through successive stages into larger arrays used in further assembly.\n\n**Scope:** Direct structural-recursion evidence; not a measurement of a full multiscale temporal spectrum.\n\n**Checked:** Primary abstract and accessible publisher figure descriptions; subscription full text not inspected.  \n**Location:** Abstract and hierarchical assembly scheme.  \n**Inspected source:** https://www.nature.com/articles/nature24655\n",
+        "plainLanguage": "",
+        "scope": "Direct structural-recursion evidence; not a measurement of a full multiscale temporal spectrum.",
+        "limits": "Direct structural-recursion evidence; not a measurement of a full multiscale temporal spectrum.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D05",
+          "UT-D06",
+          "UT-D07",
+          "UT-D08",
+          "UT-D09"
+        ],
+        "bibRefs": [
+          "BIB-0034",
+          "BIB-0035"
+        ]
+      },
+      "semanticDigest": "820cbfc64681b7cdcaddfcc7c44a2acc1f2da42a6907eee70efc74cc324d9026",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        },
+        {
+          "id": "UT-D08",
+          "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+        },
+        {
+          "id": "UT-D09",
+          "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+        }
+      ],
+      "renderedBodySha256": "0e7a4972a14c0570d32ce554ddd7c010e3393973218483de20c3bf8af88126ce",
+      "independentlyComputedFingerprint": "8e7e09b34eeffaa4b2d1be8d62f30dbe1a4b7a6ee4c59f9d413aed94371125e4",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E08",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Selected v1/v3 model passages read; whole final-version/methods/supplement qualification incomplete.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-ADDITIONAL",
+          "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+          "startLine": 143,
+          "endLine": 158,
+          "excerptSha256": "3f84d871c3bc5caa639ad614f5ce573c4df4d067de47ecb480187c8386ed20b4"
+        },
+        "statement": "### E08 — Baumann et al. (2010)\n\n**Dicke quantum phase transition with a superfluid gas in an optical cavity**  \nNature 464, 1301–1306. DOI: [10.1038/nature09009](https://doi.org/10.1038/nature09009)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Quantum-gas experiment with quantitative threshold comparison.  \n**Existing clauses:** §3, §4, §5, §6.\n\nAtomic density organization and the cavity field reinforce one another; measured phase boundaries agree with the specified mean-field model.\n\n**Scope:** Pumped atom–cavity system; its threshold equation is domain-specific.\n\n**Checked:** Full primary author manuscript; publisher record and figure descriptions cross-checked.  \n**Location:** Self-organization mechanism; Figure 5 and Methods equations 6–9.  \n**Inspected source:** https://arxiv.org/html/0912.3261v1\n",
+        "plainLanguage": "",
+        "scope": "Pumped atom–cavity system; its threshold equation is domain-specific.",
+        "limits": "Pumped atom–cavity system; its threshold equation is domain-specific.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D04",
+          "UT-D06",
+          "UT-D07"
+        ],
+        "bibRefs": [
+          "BIB-0036",
+          "BIB-0037"
+        ]
+      },
+      "semanticDigest": "688da22986ae1340b7b482391702160e69ab59eb6d5910e7cb03f6fa27f307f6",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D04",
+          "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        }
+      ],
+      "renderedBodySha256": "2a7b933fac8c35c6422b7248fe37783535b4bc44dd5c71727c7c38a312486b6b",
+      "independentlyComputedFingerprint": "88a44432104cacc84d1b6d724be662f2091042624d1508eb217fd36c197b0d63",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E09",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Specified fixed-graph synchronization supported; not adaptive graph feedback or complete final-paper equivalence.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-ADDITIONAL",
+          "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+          "startLine": 161,
+          "endLine": 176,
+          "excerptSha256": "e1e3b4d8ed8edd23b546b9d9a6f2c1bd2cb47675d7abc754dea1e96dfcadd2a6"
+        },
+        "statement": "### E09 — Pecora et al. (2014)\n\n**Cluster synchronization and isolated desynchronization in complex networks with symmetries**  \nNature Communications 5, 4079. DOI: [10.1038/ncomms5079](https://doi.org/10.1038/ncomms5079)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Mathematical derivation plus electro-optic experiment.  \n**Existing clauses:** §3, §5, §7.\n\nNetwork symmetries predict collective clusters and their dynamical changes; experiments test those predictions.\n\n**Scope:** Specified oscillator/network assumptions; they are not added as requirements of RRG.\n\n**Checked:** Full primary author manuscript; publisher metadata cross-checked. Manuscript title differs slightly.  \n**Location:** Equations 1–2; group-orbit construction; Figure 3 and block-decomposed variational equations.  \n**Inspected source:** https://arxiv.org/html/1309.6605v1\n",
+        "plainLanguage": "",
+        "scope": "Specified oscillator/network assumptions; they are not added as requirements of RRG.",
+        "limits": "Specified oscillator/network assumptions; they are not added as requirements of RRG.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-D03",
+          "UT-D05",
+          "UT-D06"
+        ],
+        "bibRefs": [
+          "BIB-0038",
+          "BIB-0039"
+        ]
+      },
+      "semanticDigest": "bbfcf66777ff6e185c3fcf39ba9b1f22ab155a5adcf25a2710cd1f82b4b86bbb",
+      "dependencies": [
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "2d7898b6a2fc5050305d2a42c104080ec0d220af954683d7d6de0bb0ed507736",
+      "independentlyComputedFingerprint": "8c8f23870df63382121bd2872f5880d6067226e1389b04814952b2e412d38ae7",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E10",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Cited paper abstract only; exact complete pairing/mechanism assertions not independently qualified.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-INTERACTIONS",
+          "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+          "startLine": 29,
+          "endLine": 64,
+          "excerptSha256": "2c4577d77beda1f0f1d8d79aaf19adc3503388ed0789f6c6fc422868843ded54"
+        },
+        "statement": "## 1. Phonon-mediated effective attraction in superconductivity\n\nIn conventional superconductivity, electrons couple to lattice vibrations (phonons).\n\nAt the microscopic level, electrons and ions interact electromagnetically. The organized crystal lattice, however, possesses collective vibrational modes. Electron–phonon coupling can generate an **effective electron–electron attraction** in the appropriate regime, allowing Cooper pairing and superconducting order.\n\n\\[\n\\boxed{\n\\text{crystal geometry}\n\\rightarrow\n\\text{phonon modes}\n\\rightarrow\n\\text{effective electron interaction}\n\\rightarrow\n\\text{Cooper pairing / superconducting order}\n}\n\\]\n\nThe effective attraction does not replace electromagnetism as a fundamental interaction. It is a higher-level interaction generated through collective lattice dynamics.\n\n### RRG relevance\n\nThis directly supports the extension:\n\n\\[\nG_n \\leftrightarrow M_n\n\\rightarrow\n\\mathcal I^{\\rm eff}_{n+1}\n\\rightarrow\nG_{n+1}.\n\\]\n\n### Evidence\n\nX. H. Zheng & D. G. Walmsley, *Physical Review B* 71, 134512 (2005).  \nDOI: https://doi.org/10.1103/PhysRevB.71.134512\n",
+        "plainLanguage": "",
+        "scope": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+        "limits": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-C01",
+          "UT-D03"
+        ],
+        "bibRefs": [
+          "BIB-0016"
+        ]
+      },
+      "semanticDigest": "bf6c7fe5c04cc0deb41a17ec382c833d1f02f792cb724c12c44f51865fb94ce4",
+      "dependencies": [
+        {
+          "id": "UT-C01",
+          "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+        },
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "ced5221d53102047488a1664f60e7f5a61a1437a28e04fc4970d2e46165db85b",
+      "independentlyComputedFingerprint": "9e90e9dc9a54313d3f5f30a67735d2a22f4c7b197cedc8cc9d7f349198dabc3a",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E11",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Specified effective model supported; measurement interpretation disputed and experimental papers abstract-only.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-INTERACTIONS",
+          "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+          "startLine": 68,
+          "endLine": 107,
+          "excerptSha256": "7886572017b041894892ab786b8242de463360fc9d07e0a729f42dc30075fe6d"
+        },
+        "statement": "## 2. Emergent magnetic charges and Coulomb-like interactions in spin ice\n\nSpin-ice materials contain microscopic magnetic moments constrained by lattice geometry and frustration.\n\nCollective correlations in this many-body geometry permit excitations that behave as **emergent magnetic monopoles** rather than elementary magnetic charges.\n\nCastelnovo, Moessner & Sondhi predicted these quasiparticles as emergent manifestations of the correlated spin-ice system.\n\nBramwell and collaborators later experimentally measured effective magnetic charges and currents in Dy\\(_2\\)Ti\\(_2\\)O\\(_7\\), showing that these emergent charges interact through a Coulomb potential.\n\n\\[\n\\boxed{\n\\text{microscopic spins}\n+\n\\text{collective geometric constraints}\n\\rightarrow\n\\text{emergent quasiparticles}\n+\n\\text{Coulomb-like effective interaction}\n}\n\\]\n\n### RRG relevance\n\nThis demonstrates that a collective geometry can generate:\n\n- new effective particle-like degrees of freedom;\n- a higher-level interaction law;\n- behavior that is not apparent from treating each microscopic spin independently.\n\n### Evidence\n\nCastelnovo, Moessner & Sondhi, *Nature* 451, 42–45 (2008).  \nDOI: https://doi.org/10.1038/nature06433\n\nBramwell et al., *Nature* 461, 956–959 (2009).  \nDOI: https://doi.org/10.1038/nature08500\n\nMengotti et al., *Nature Physics* 7, 68–74 (2011).  \nDOI: https://doi.org/10.1038/nphys1794\n",
+        "plainLanguage": "",
+        "scope": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+        "limits": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-C01",
+          "UT-D03"
+        ],
+        "bibRefs": [
+          "BIB-0017",
+          "BIB-0018",
+          "BIB-0019"
+        ]
+      },
+      "semanticDigest": "3f79a043989d7fc132b42e2752c79ba9b981a5b57f23b4f974ce0bd47d3b0618",
+      "dependencies": [
+        {
+          "id": "UT-C01",
+          "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+        },
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        }
+      ],
+      "renderedBodySha256": "2c3e184046457d675a2687ab8fcfa931926f1669d25655992e412c6854f2b465",
+      "independentlyComputedFingerprint": "3b5159d5685875b56b16178a6071a1cfd5ad243ba755215a9ce258f7d573ac47",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "UT-E12",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Institutional explainers and primary model do not qualify complete electroweak cooling history or all recursion interpretation.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": {
+          "sourceKey": "R-CURRENT-INTERACTIONS",
+          "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+          "startLine": 111,
+          "endLine": 154,
+          "excerptSha256": "122502c3af212ebedf2fd764f7bcfabe39a9f45d7c7093441ae133f4699cabae"
+        },
+        "statement": "## 3. Background-field state changes the observable interaction regime\n\nElectromagnetic and weak interactions are described within electroweak theory.\n\nAs the early Universe cooled, the Higgs field settled into a non-zero vacuum configuration. The \\(W\\) and \\(Z\\) bosons acquired mass while the photon remained massless.\n\nThat changes low-energy interaction behavior:\n\n- massive \\(W/Z\\) carriers imply a very short-range weak interaction;\n- the massless photon supports long-range electromagnetism.\n\n\\[\n\\boxed{\n\\text{background field state}\n\\rightarrow\n\\text{particle spectrum}\n\\rightarrow\n\\text{effective interaction ranges / behavior}\n}\n\\]\n\n### RRG relevance\n\nThis supports the weaker extension:\n\n\\[\n\\boxed{\n\\text{background state}\n\\rightarrow\n\\text{mode / particle spectrum}\n\\rightarrow\n\\text{interaction regime}\n}\n\\]\n\nIt does **not** establish that electroweak physics is itself generated by RRG recursion.\n\n### Evidence\n\nCERN, “The origins of the Brout–Englert–Higgs mechanism”:  \nhttps://home.cern/science/physics/origins-brout-englert-higgs-mechanism/\n\nCERN, “What’s so special about the Higgs boson?”:  \nhttps://home.cern/science/physics/higgs-boson/what/\n",
+        "plainLanguage": "",
+        "scope": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+        "limits": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+        "evidenceState": "project-reported",
+        "publicationState": "draft",
+        "body": "",
+        "assumptions": [],
+        "dependsOn": [
+          "UT-C01",
+          "UT-C02",
+          "UT-D03"
+        ],
+        "bibRefs": [
+          "BIB-0020",
+          "BIB-0021"
+        ]
+      },
+      "semanticDigest": "8ff4fc8f803df64283181f379facdb5416c0da2ea6227b3dc9ddf8e8ee8a2af9",
+      "dependencies": [
+        {
+          "id": "UT-C01",
+          "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+        },
+        {
+          "id": "UT-C02",
+          "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+        },
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        }
+      ],
+      "renderedBodySha256": "0ae46cf4fba3317bac223068873027a3abc94b527be1cd9ff0bc720a496869b2",
+      "independentlyComputedFingerprint": "811036a0a07f67930d9565d657adc4b746a7aea726f636c6be975deac42eb728",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "DOC-HOME",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Aggregate derivative/status explanation remains pending full exact-content qualification; no authorial/publication approval.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": null,
+        "statement": null,
+        "plainLanguage": "",
+        "scope": "Derivative M0 introduction bound to current source records; review pending.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "A wave is a pattern in moving water. A molecule has connected atoms. A living cell exchanges material while maintaining an organization.\n\nUnity Theory asks how **arrangement and activity work together**—and how an organized whole can become part of something further.\n\n## Begin with a wave\n\nLook at a ripple crossing water. The pattern travels, while the water moves locally. The parts and the collective pattern give us two ways to describe what is happening.\n\nThis is a warm-up for the question, not evidence that every wave becomes a persistent building block.\n\n## Arrangement shapes activity. Activity changes arrangement.\n\nThe research framework calls these two aspects **geometry** and **mode structure**. Geometry includes relationships, connections, boundaries and constraints. Mode structure includes patterns of change, coupling, response and characteristic times—not just a single frequency.\n\nAn organized whole may then act as a component of another system, while activity continues inside its parts.\n\n## Source-bound meanings\n\nRead :claim[UT-D01], :claim[UT-D02] and :claim[UT-D03]. Current open work is listed in the [research status](/research-status/).\n",
+        "assumptions": [],
+        "dependsOn": [
+          "DOC-STATUS",
+          "UT-C01",
+          "UT-C02",
+          "UT-D01",
+          "UT-D02",
+          "UT-D03",
+          "UT-D05",
+          "UT-D06",
+          "UT-D08",
+          "UT-D09",
+          "UT-O04",
+          "UT-O05"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "72b71ff07cbb4ed9da5335a10656df9a17eae884b5c1543270a70fa16feab945",
+      "dependencies": [
+        {
+          "id": "DOC-STATUS",
+          "semanticDigest": "aea08ceaeb44363eaea3fa6ee2e03a7be55945604ee11410fd567b444322c1f7"
+        },
+        {
+          "id": "UT-C01",
+          "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+        },
+        {
+          "id": "UT-C02",
+          "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+        },
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D04",
+          "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        },
+        {
+          "id": "UT-D08",
+          "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+        },
+        {
+          "id": "UT-D09",
+          "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+        },
+        {
+          "id": "UT-E10",
+          "semanticDigest": "bf6c7fe5c04cc0deb41a17ec382c833d1f02f792cb724c12c44f51865fb94ce4"
+        },
+        {
+          "id": "UT-E11",
+          "semanticDigest": "3f79a043989d7fc132b42e2752c79ba9b981a5b57f23b4f974ce0bd47d3b0618"
+        },
+        {
+          "id": "UT-E12",
+          "semanticDigest": "8ff4fc8f803df64283181f379facdb5416c0da2ea6227b3dc9ddf8e8ee8a2af9"
+        },
+        {
+          "id": "UT-O01",
+          "semanticDigest": "143d62f3c851611a94a1c589edf8b35dae2db98648b945f3eff6d68f5e239afa"
+        },
+        {
+          "id": "UT-O02",
+          "semanticDigest": "3227556784446bbaa965fbdf137f6fea105b4da56e09da8bfa2ca894db731281"
+        },
+        {
+          "id": "UT-O03",
+          "semanticDigest": "3b13d9ce648b24b74cc347f5c38f2baba31188ebff21092299f1dd7ffc92dd1a"
+        },
+        {
+          "id": "UT-O04",
+          "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950"
+        },
+        {
+          "id": "UT-O05",
+          "semanticDigest": "cfee06326b8537fbaf7f2f5c63ec2e23bf7a6829d2ce11e5937ae9ebf05de9ab"
+        },
+        {
+          "id": "UT-O06",
+          "semanticDigest": "5f804ae9cd490d3b6d391d8ac95fbebebb0be57e94b0801792631d5f42443fa6"
+        }
+      ],
+      "renderedBodySha256": "f7ddda42ddd09ad2630e515126e926075932cb04b8c91a24d58aac73cc087cd5",
+      "independentlyComputedFingerprint": "6db8dea0bb8ed96576f120a6aa84de2e1d2e4448d551ba03190ab45f91e2795b",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    },
+    {
+      "entryId": "DOC-START",
+      "outcome": "pending",
+      "reviewerKind": "agent",
+      "reviewedAt": "2026-10-01",
+      "rationale": "Aggregate narrative crosses evidence and extension findings; restricted definition reviews do not qualify it.",
+      "acceptedScope": null,
+      "ownRead": {
+        "sourceBinding": null,
+        "statement": null,
+        "plainLanguage": "",
+        "scope": "Derivative M0 introduction bound to current source records; review pending.",
+        "limits": "",
+        "evidenceState": "not-applicable",
+        "publicationState": "draft",
+        "body": "## Start with parts and relationships\n\nThink of a stretched string. Its length, material, tension and fixed ends constrain how it can move. Change those conditions and the possible motions change too. Shape alone does not explain the result: material properties and physical interactions matter.\n\nRecursive Resonant Geometry, or **RRG**, uses “geometry” for a system's organization at a chosen scale. That includes its components, connections, relationships, boundaries and constraints. It means more than a visible outline.\n\n## Add what happens over time\n\nThe second aspect is **mode structure**: the organized ways a system can change, respond or move. This includes characteristic times, phases, coupling and collective activity. A single number in hertz does not describe all of it.\n\nRRG treats organization and mode structure as two aspects of one system. Organization constrains activity; activity can support, maintain, transform or destroy organization. Neither is universally first.\n\nThis is the framework's proposed way of describing a system. Whether a particular model makes useful predictions requires separate tests.\n\n## A whole can become a part\n\nA molecule can participate in a larger arrangement. A cell can participate in a tissue. In the RRG framework, compatible lower-level systems may form a higher-level organization while retaining their internal activity. The components can differ and play different roles.\n\n“Recursive” describes that possibility of organized wholes participating in further organization. It does not mean every system must copy itself, or that every scale must obey the same microscopic equation.\n\n## Existing organization can change the possibilities\n\nThe question also concerns the environment: an existing organization may change the conditions under which further organization becomes possible. This is an extension to investigate, rather than a guarantee that complexity must increase.\n\nThe current research also asks when lower-level organization generates or enables an **effective interaction**—an interaction useful in a higher-level description—that could help another organized state persist. The evidence documents discuss specific physical systems. Those examples do not derive all four fundamental forces from RRG.\n\n## What the examples do—and what remains open\n\nThese examples introduce relationships the project investigates. Different systems have different mechanisms and conditions; an analogy does not demonstrate a universal law.\n\nThe current sources distinguish core definitions from extensions, candidate mathematical models and evidence in particular systems. Open work includes a useful cross-domain criterion and novel predictions beyond existing frameworks. The technical website sections will make those distinctions visible alongside their sources.\n\n[Return to the research question](/#research-question).\n\n## Source-bound meanings\n\nRead :claim[UT-D01], :claim[UT-D02] and :claim[UT-D03]. Current open work is listed in the [research status](/research-status/).\n",
+        "assumptions": [],
+        "dependsOn": [
+          "DOC-STATUS",
+          "UT-C01",
+          "UT-C02",
+          "UT-D01",
+          "UT-D02",
+          "UT-D03",
+          "UT-D05",
+          "UT-D06",
+          "UT-D08",
+          "UT-D09",
+          "UT-E10",
+          "UT-E11",
+          "UT-E12",
+          "UT-O04",
+          "UT-O05"
+        ],
+        "bibRefs": []
+      },
+      "semanticDigest": "d27fd9e1162cc8781eb06127a2d3e62bf3065a37b89fdfbfdd58eafb837ad954",
+      "dependencies": [
+        {
+          "id": "DOC-STATUS",
+          "semanticDigest": "aea08ceaeb44363eaea3fa6ee2e03a7be55945604ee11410fd567b444322c1f7"
+        },
+        {
+          "id": "UT-C01",
+          "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+        },
+        {
+          "id": "UT-C02",
+          "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+        },
+        {
+          "id": "UT-D01",
+          "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+        },
+        {
+          "id": "UT-D02",
+          "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+        },
+        {
+          "id": "UT-D03",
+          "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+        },
+        {
+          "id": "UT-D04",
+          "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+        },
+        {
+          "id": "UT-D05",
+          "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+        },
+        {
+          "id": "UT-D06",
+          "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+        },
+        {
+          "id": "UT-D07",
+          "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+        },
+        {
+          "id": "UT-D08",
+          "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+        },
+        {
+          "id": "UT-D09",
+          "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+        },
+        {
+          "id": "UT-E10",
+          "semanticDigest": "bf6c7fe5c04cc0deb41a17ec382c833d1f02f792cb724c12c44f51865fb94ce4"
+        },
+        {
+          "id": "UT-E11",
+          "semanticDigest": "3f79a043989d7fc132b42e2752c79ba9b981a5b57f23b4f974ce0bd47d3b0618"
+        },
+        {
+          "id": "UT-E12",
+          "semanticDigest": "8ff4fc8f803df64283181f379facdb5416c0da2ea6227b3dc9ddf8e8ee8a2af9"
+        },
+        {
+          "id": "UT-O01",
+          "semanticDigest": "143d62f3c851611a94a1c589edf8b35dae2db98648b945f3eff6d68f5e239afa"
+        },
+        {
+          "id": "UT-O02",
+          "semanticDigest": "3227556784446bbaa965fbdf137f6fea105b4da56e09da8bfa2ca894db731281"
+        },
+        {
+          "id": "UT-O03",
+          "semanticDigest": "3b13d9ce648b24b74cc347f5c38f2baba31188ebff21092299f1dd7ffc92dd1a"
+        },
+        {
+          "id": "UT-O04",
+          "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950"
+        },
+        {
+          "id": "UT-O05",
+          "semanticDigest": "cfee06326b8537fbaf7f2f5c63ec2e23bf7a6829d2ce11e5937ae9ebf05de9ab"
+        },
+        {
+          "id": "UT-O06",
+          "semanticDigest": "5f804ae9cd490d3b6d391d8ac95fbebebb0be57e94b0801792631d5f42443fa6"
+        }
+      ],
+      "renderedBodySha256": "821bb1b7f2419d4220a3fac87d2f82f46b31f274f028f2aa99583c70bd3cb55f",
+      "independentlyComputedFingerprint": "ac4328f798022fa5b8447da52eea619ec5cd6d31e5d33f6299784fc0b4e693e9",
+      "evidenceRef": "docs/evidence/m1/scientific-review/source-readout.md"
+    }
+  ],
+  "followup": "Requested quality recheck: one explicit minimal concept acceptance after neutral status-metadata repair. Initial decision report preserved in pre-recheck. Seventeen existing approval fingerprints and meanings unchanged.",
+  "dateReconciliation": "Initial source reads began 1 October; concept metadata revision and final exact review completed 2 October UTC. Only the concept dates were reconciled; first 17 reviews unchanged. No body/explanation changed."
+}

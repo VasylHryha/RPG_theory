@@ -1,0 +1,281 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m1-scientific-review --evidence-dir docs/evidence/m1/scientific-review
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+00:04:11 [content] Syncing content
+00:04:11 [content] Astro config changed
+00:04:11 [content] Clearing content store
+00:04:11 [content] Synced content
+00:04:11 [types] Generated 492ms
+00:04:11 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+Result (47 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+Running npm run check:sources -- --scope history
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope history
+
+{"status":"PASS","historicalFiles":14,"noticeTranscriptions":2,"authorityNoticeOnly":true}
+
+Running npm run check:sources -- --scope current
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope current
+
+{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01","sourceBoundEntries":31,"contentReview":"pending"}
+
+Running npm run check:content
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts
+
+{"schema":"unity-content-check/1","status":"PASS","date":"2026-10-01T21:04:16.422Z","admission":{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01"},"entries":34,"affected":[],"scientificReview":"pending","acceptedReviews":17}
+
+Running npm run test:content
+
+> unity-theory@0.0.1 test:content
+> tsx --test tests/content/*.test.ts
+
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (10.328375ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (1.545834ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (1.904041ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (1.472333ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (1.458ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (1.55475ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (0.959917ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (1.419375ms)
+✔ silent edition-pin reset still fails (0.828916ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (2.067209ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (1.1865ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.619625ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (992.273334ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (1149.610417ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (1824.651375ms)
+✔ artifact audit rejects false source identity and active SVG files (532.181ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (4.036708ms)
+✔ Markdown reference links/images share safety and base handling (5.693ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (3.758417ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (116.685542ms)
+✔ output audit rejects changed source-bound display, manifest substitutions and draft sentinels (455.048625ms)
+✔ output audit binds bibliography text, destinations, support limits, status, projection and navigation (2008.938167ms)
+✔ output audit rejects multiply encoded local traversal (525.279292ms)
+✔ document metadata comparison scopes the title to the head, preserving accessible SVG titles (492.044875ms)
+✔ each additional-evidence mapping declares every core clause named by its actual excerpt (328.923792ms)
+✔ the actual start explanation tracks emergent evidence, its support metadata and current status (124.723083ms)
+✔ background-extension changes invalidate the actual E12 interpretation and its consumers (143.241458ms)
+✔ review fingerprints track real URL, selection, style and pinned rendering dependency inputs (704.49675ms)
+✔ actual bounded representation reviews do not qualify the source or unreviewed support (2.642959ms)
+✔ independent statement, bad binding range/hash, wrong record kind, duplicates and unknown sources fail (112.48775ms)
+✔ source-scoped aliases keep historical S01 local; duplicates and unresolved aliases fail (16.238708ms)
+✔ source URL aliases preserve case-sensitive paths while DOI identity remains case insensitive (96.403459ms)
+✔ non-DOI citation identity preserves added or removed trailing path separators (115.358583ms)
+✔ missing or cyclic semantic dependency fails; related feedback does not create proof cycles (242.633084ms)
+✔ authority notes cannot supply scientific excerpts; invalid states and real dates fail (43.809ms)
+✔ safe directives render actual canonical explanations, extract dependencies and reject executable/unknown syntax (4.922959ms)
+✔ dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local (63.76375ms)
+✔ changing a relevant source verification scope or relevant citation stales its review (145.147791ms)
+✔ shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights (381.367625ms)
+✔ one manifest excludes drafts from every production surface and rejects published draft dependencies (75.871625ms)
+✔ withdrawn history is explicitly selected as a tombstone; former body is removed (49.317333ms)
+✔ source display adapters preserve raw bindings while rendering status/math/table consumers (121.29475ms)
+✔ source revision transaction refuses missing prior-byte preservation and incomplete core proof gate (160.942917ms)
+✔ actual supplied 07 and 08 cannot disappear behind a matching core (5.184958ms)
+✔ a missing or mismatched actual local citation alias fails the source adapter (30.174292ms)
+✔ project reproduction cannot be asserted with an invented execution receipt (9.102083ms)
+✔ Markdown directive export uses ordinary links and leaves code examples untouched (1.547833ms)
+✔ statement directives are order-independent; nested references and cycles reach the shared graph (206.107375ms)
+✔ scientific identities cannot bypass proposal provenance or masquerade as documents (24.040125ms)
+✔ retained historical excerpts remain historical; supersession is reciprocal and draft history stays out of discovery (101.020125ms)
+✔ review rejection is distinct from pending; alternate citation review binds its primary metadata (46.793541ms)
+✔ source, bibliography, execution and renderer identity changes report or stale their actual dependants (75.059958ms)
+✔ actual status, proof and home summaries depend on their core definitions and emergent evidence (159.280833ms)
+✔ withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions (47.530875ms)
+✔ bibliographic verification cannot retain a checked label after metadata substitution (51.249542ms)
+✔ release rejects future updates and reviews independently of the publication date (80.094875ms)
+✔ qualification uses reviewed production selection; a preview cannot be relabelled qualification (71.847833ms)
+✔ Markdown export validates safety, expands nested references and leaves math samples intact (128.700667ms)
+✔ directives cannot create nested anchors in link labels or Markdown exports (0.760042ms)
+✔ proposals display non-adoption and cannot supersede source-authoritative records (80.202292ms)
+✔ revision impact retains predecessor dependants when the next graph removes an edge (115.527125ms)
+✔ real home/start emit withdrawal tombstones through the shared consumer and output auditor (8454.507ms)
+✖ real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals (1233.49825ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 04_status_and_blockers.md (3099.925583ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md (2362.591584ms)
+ℹ tests 65
+ℹ suites 0
+ℹ pass 64
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9173.405458
+
+✖ failing tests:
+
+test at tests/content/revision-cli.test.ts:9:1
+✖ real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals (1233.49825ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + [
+  +   {
+  +     entryId: 'UT-D01',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D01',
+  +     fingerprint: '2b11d180b37aebf72594020ab8ea03e82dd5c2f016f11fbf8ece97c674316434',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-D02',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D02',
+  +     fingerprint: '56d6769e4c9308a1401efcd74f2fd9cb2ac71fd1121f5784a6f175272e2f6008',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-D03',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D03',
+  +     fingerprint: 'd1d486b56e70a743b66291b9c0d97e06e045588de21a87e6ce34c2ea42c18664',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-D04',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D04',
+  +     fingerprint: '3013fee568f20b443748926556511b021c068c00944a74bf4416cd5fa88a51c8',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-D05',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D05',
+  +     fingerprint: '1101957bd74aad3449fe99d119d4ef20509b5769039c7688a96cf3bbba7c6205',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-D06',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D06',
+  +     fingerprint: '4e8b499fe9efa16706e6f3e0f85713fba5f8e4b9e26935cd0ee62c04e33ae484',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-D07',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D07',
+  +     fingerprint: 'e5bb1d5b382b104b610d2c4c3fffbde3ff7275d766d9c378c1052daef18cf241',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-D08',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D08',
+  +     fingerprint: '1fdd897601075ed397ae987d7e165a34e855b18facaebcd475094146c8848a09',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-D09',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D09',
+  +     fingerprint: '24aae31578c44a5b72b08f2556b3df14cf9dd1552432709c21c3ebb553c1e251',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-C01',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-C01',
+  +     fingerprint: '47b0f53b8c6ae4cb6624a7712f72a3fcb1178761c0b93f985381fb693e229bbd',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-C02',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-C02',
+  +     fingerprint: 'ea4c92b92d6ed831120c08678d3a86e0cc69fb38d62f256a06398357e2780ebb',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-O01',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O01',
+  +     fingerprint: '8fd1b9c155f3edb5a86abe13895e4480609b8d06dd130e2a2f9687e0f14363d9',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-O02',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O02',
+  +     fingerprint: 'df0c46358b6270b8ed7d1ce70b998aef92c07dbed189eaf29d66ee950611db64',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-O03',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O03',
+  +     fingerprint: '26d400af60bcfe31387c0fa683d75da509ff7ed771498cf771b4aa5b40fb7b84',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-O04',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O04',
+  +     fingerprint: '6bc4406c50e08d6b7875fb893ca5d26d28013444a7ad6a8da877e5262c76de6f',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-O05',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O05',
+  +     fingerprint: '643c6fbefee37cb0f24d4f7f73eda9756e00cbef5bf31d27a859470687f471ad',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   },
+  +   {
+  +     entryId: 'UT-O06',
+  +     evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O06',
+  +     fingerprint: '361f2aa00ac833dbb625e2bb10606bd9356a326a6067ed7e074602df608f33f6',
+  +     outcome: 'accepted',
+  +     reviewedAt: '2026-10-01',
+  +     reviewerKind: 'agent'
+  +   }
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/revision-cli.test.ts:51:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ { entryId: 'UT-D01', fingerprint: '2b11d180b37aebf72594020ab8ea03e82dd5c2f016f11fbf8ece97c674316434', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D01' }, { entryId: 'UT-D02', fingerprint: '56d6769e4c9308a1401efcd74f2fd9cb2ac71fd1121f5784a6f175272e2f6008', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D02' }, { entryId: 'UT-D03', fingerprint: 'd1d486b56e70a743b66291b9c0d97e06e045588de21a87e6ce34c2ea42c18664', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D03' }, { entryId: 'UT-D04', fingerprint: '3013fee568f20b443748926556511b021c068c00944a74bf4416cd5fa88a51c8', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D04' }, { entryId: 'UT-D05', fingerprint: '1101957bd74aad3449fe99d119d4ef20509b5769039c7688a96cf3bbba7c6205', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D05' }, { entryId: 'UT-D06', fingerprint: '4e8b499fe9efa16706e6f3e0f85713fba5f8e4b9e26935cd0ee62c04e33ae484', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D06' }, { entryId: 'UT-D07', fingerprint: 'e5bb1d5b382b104b610d2c4c3fffbde3ff7275d766d9c378c1052daef18cf241', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D07' }, { entryId: 'UT-D08', fingerprint: '1fdd897601075ed397ae987d7e165a34e855b18facaebcd475094146c8848a09', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D08' }, { entryId: 'UT-D09', fingerprint: '24aae31578c44a5b72b08f2556b3df14cf9dd1552432709c21c3ebb553c1e251', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-D09' }, { entryId: 'UT-C01', fingerprint: '47b0f53b8c6ae4cb6624a7712f72a3fcb1178761c0b93f985381fb693e229bbd', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-C01' }, { entryId: 'UT-C02', fingerprint: 'ea4c92b92d6ed831120c08678d3a86e0cc69fb38d62f256a06398357e2780ebb', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-C02' }, { entryId: 'UT-O01', fingerprint: '8fd1b9c155f3edb5a86abe13895e4480609b8d06dd130e2a2f9687e0f14363d9', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O01' }, { entryId: 'UT-O02', fingerprint: 'df0c46358b6270b8ed7d1ce70b998aef92c07dbed189eaf29d66ee950611db64', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O02' }, { entryId: 'UT-O03', fingerprint: '26d400af60bcfe31387c0fa683d75da509ff7ed771498cf771b4aa5b40fb7b84', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O03' }, { entryId: 'UT-O04', fingerprint: '6bc4406c50e08d6b7875fb893ca5d26d28013444a7ad6a8da877e5262c76de6f', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O04' }, { entryId: 'UT-O05', fingerprint: '643c6fbefee37cb0f24d4f7f73eda9756e00cbef5bf31d27a859470687f471ad', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O05' }, { entryId: 'UT-O06', fingerprint: '361f2aa00ac833dbb625e2bb10606bd9356a326a6067ed7e074602df608f33f6', reviewerKind: 'agent', reviewedAt: '2026-10-01', outcome: 'accepted', evidenceRef: 'docs/evidence/m1/scientific-review/review-decisions.json#UT-O06' } ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

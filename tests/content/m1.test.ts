@@ -21,8 +21,21 @@ function syntheticAcceptedFixture() {
 }
 const release={releaseId:'synthetic-test-only',releaseAt:'2026-10-01T12:00:00.000Z',historicalIds:[],rights:[{id:'TEST-RIGHTS',outcome:'approved' as const,entryIds:['UT-D01'],evidenceRef:'synthetic scoped rights control'}]};
 const config={...loadSiteConfig(),origin:'https://example.org',repository:{owner:'synthetic',name:'test'},publicAuthorization:true};
-test('actual corpus extracts source bytes, preserves existing E mappings, and has zero accepted reviews',()=>{
- assert.equal(corpus.entries.size,34);assert.equal(corpus.admission.currentSourceQualified,false);assert.equal(corpus.reviews.length,0);
+test('actual bounded representation reviews do not qualify the source or unreviewed support',()=>{
+ assert.equal(corpus.entries.size,34);assert.equal(corpus.admission.currentSourceQualified,false);
+ assert.equal(reviewState(corpus,'UT-D01'),'accepted');
+ assert.equal(reviewState(corpus,'DOC-CONCEPT-GEOMETRY'),'accepted');
+ assert.equal(reviewState(corpus,'UT-C01'),'accepted');
+ assert.equal(reviewState(corpus,'UT-E05'),'accepted');
+ assert.equal(corpus.entries.get('UT-E05')!.evidenceState,'project-reported');
+ assert.equal(corpus.entries.get('UT-C01')!.evidenceState,'proposed');
+ for(const id of ['UT-E01','UT-E11','UT-E12','DOC-START','DOC-PROOF']) assert.equal(reviewState(corpus,id),'pending');
+ for(const id of ['DOC-HOME','DOC-START']) {
+   assert.doesNotMatch(corpus.entries.get(id)!.scope,/review pending|await.*review/i);
+   assert.equal(reviewState(corpus,id),'pending');
+   assert.equal(corpus.entries.get(id)!.publicationState,'draft');
+ }
+ assert.equal(corpus.entries.get('UT-D01')!.publicationState,'draft');
  assert.match(corpus.entries.get('UT-D01')!.statement!,/Geometry is not limited to visible Euclidean shape/);
  assert.match(corpus.entries.get('UT-E01')!.sourceMapping,/E01 → UT-E01/);
  assert.equal(corpus.sources.get('P-CURRENT-NOTE')!.authorityNoticeOnly,true);

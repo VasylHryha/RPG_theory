@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-02T06:02:12.322Z",
+  "status": "PASS",
+  "head": "06b7c17b15a264a812e3a0e2e50d45d1effd3d10",
+  "branch": "main",
+  "remotes": [],
+  "stagedPaths": [],
+  "protectedTrackedFiles": 914,
+  "unchangedProtectedTrackedFiles": 905,
+  "preservedTaskOwnedChanges": [
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "priorSnapshot": "docs/evidence/m1/scientific-review/prior-code/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "priorSha256": "0b5ff97881e927088267c3b75ffcad59b4c77b059c11b19d10810da69d6c9028",
+      "currentSha256": "b7e603b28568dea0346896c443679f91f0302b61e7695a3887150a81677acf82"
+    },
+    {
+      "path": "research/publication/canonical-documents.yaml",
+      "priorSnapshot": "docs/evidence/m1/scientific-review/prior-code/research/publication/canonical-documents.yaml",
+      "priorSha256": "ec7e7f3684c8446951ea1930b886b6c86e05f79ea8248074acb9be846f2f066c",
+      "currentSha256": "c8b0e839d1cc7eb206fe74bc35aa765a4c772291eb68c8f8c622a8e8482298f0"
+    },
+    {
+      "path": "research/publication/records.yaml",
+      "priorSnapshot": "docs/evidence/m1/scientific-review/prior-code/research/publication/records.yaml",
+      "priorSha256": "1eafabf811c0cf680cffcec464465c129c3d4d5c7fd81aea036ba56957c8a81d",
+      "currentSha256": "1bb98011c43c48bf89a441813507d3b3ab4b6b004244bed067d0c7a5e206ab7f"
+    },
+    {
+      "path": "research/publication/reviews.yaml",
+      "priorSnapshot": "docs/evidence/m1/scientific-review/prior-code/research/publication/reviews.yaml",
+      "priorSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "currentSha256": "22b5de1fe7ef3718bd061de3633ec8aceef222b1fea0b0b1e3a7ec775cd6df40"
+    },
+    {
+      "path": "tests/content/m1-review.test.ts",
+      "priorSnapshot": "docs/evidence/m1/scientific-review/prior-code/tests/content/m1-review.test.ts",
+      "priorSha256": "8f26112174e244bc7780ac31450a09136fba1fbac832d1a3c4b56c6cd2948e6d",
+      "currentSha256": "11904221986bc6d4dd53f6c47c4b42021eaa36dd10f8332e88b7aea4d2f80d95"
+    },
+    {
+      "path": "tests/content/m1.test.ts",
+      "priorSnapshot": "docs/evidence/m1/scientific-review/prior-code/tests/content/m1.test.ts",
+      "priorSha256": "60d62412d33c866b336919b33ff21f4ae474c8240d56cb56c35034d6ccb8a877",
+      "currentSha256": "1374e82894868ecf53927942f9d192a614907cd60b1ee41a5495d29fc4108788"
+    },
+    {
+      "path": "tests/content/revision-cli.test.ts",
+      "priorSnapshot": "docs/evidence/m1/scientific-review/prior-code/tests/content/revision-cli.test.ts",
+      "priorSha256": "fffeadc309b8503e12b02a4e1190fbf02adf1b99fc40d2f9a96f89ea2f8d4b42",
+      "currentSha256": "24278c8b2cd802605b6bb26a74e22389918043d63025f1ba64a7e5e65ded886e"
+    },
+    {
+      "path": "tests/content/revision-inventory-cli.test.ts",
+      "priorSnapshot": "docs/evidence/m1/scientific-review/prior-code/tests/content/revision-inventory-cli.test.ts",
+      "priorSha256": "5c87b462fae663e38606922907502db6965cc7c17c6cc59ca499d0a087ed842a",
+      "currentSha256": "2ddf20adc63121a745d262dd9bca5f130cfec449fa2dd612f10bd67bbed4b95c"
+    },
+    {
+      "path": "tests/e2e/reading.spec.ts",
+      "priorSnapshot": "docs/evidence/m1/scientific-review/prior-code/tests/e2e/reading.spec.ts",
+      "priorSha256": "eb95b70e0b4b49879757fa013e7b0b87112db0c21a80f837f1ed5a7dbbd2156f",
+      "currentSha256": "3884fd9100b8458e5707962a13823e092487880f82d65c153e6d3b924f9b5542"
+    }
+  ],
+  "unchangedRetainedArtifactFiles": 2562,
+  "retainedArchiveParity": {
+    "reportSha256": "7bbe6d2861e00293cc822501949789e616575beb34571a5c17a66aecd3a06ba6",
+    "archiveSha256": "be312671a1c4cf9fccb757ebec27467f7266952be75707ec84182fa10febaeb0",
+    "sourceFiles": 13,
+    "identitiesUnchanged": true
+  },
+  "retainedReviewPreviews": [
+    {
+      "directory": "dist/m1-scientific-review/preview-root",
+      "artifactSha256": "f33985b99e0f10727b989051f7456e634f3b781b4f2d89de8545290c0790a337",
+      "unchangedFiles": 101
+    },
+    {
+      "directory": "dist/m1-scientific-review/preview-subpath",
+      "artifactSha256": "dcc710ebc2491a1a48044045d3ba8e16972b5ed77c67f0ce5ff28e2476883f5a",
+      "unchangedFiles": 101
+    },
+    {
+      "directory": "dist/m1-scientific-review-quality/preview-root",
+      "artifactSha256": "08806b23b52db8c2266b82692981a70dceda6419abcd351649c1685cedcf3548",
+      "unchangedFiles": 101
+    },
+    {
+      "directory": "dist/m1-scientific-review-quality/preview-subpath",
+      "artifactSha256": "85cb3e5512725e07b561ada372affd7ce4e3e8c075ad05ec54d9b77eb5a68157",
+      "unchangedFiles": 101
+    }
+  ],
+  "artifacts": [
+    {
+      "directory": "dist/m1-scientific-review-quality-final/preview-root",
+      "artifactSha256": "3bf4ab510974e842b17df18bbcfd3c710f2d3bde951e66ff40d206f78cd24b8d",
+      "files": 101,
+      "htmlFiles": 37,
+      "publicationManifestSha256": "6f74fc35984782e2dfb8c64ac8d3d002dd00e03869dffd5ac90f2e3f12574773",
+      "unchangedAfterBrowserControlsAndInspection": true
+    },
+    {
+      "directory": "dist/m1-scientific-review-quality-final/preview-subpath",
+      "artifactSha256": "f505b78900f57ae61fa7dbccef2fa08fd815b55cb5bfdf90b3d8f32c496b7c0e",
+      "files": 101,
+      "htmlFiles": 37,
+      "publicationManifestSha256": "6f74fc35984782e2dfb8c64ac8d3d002dd00e03869dffd5ac90f2e3f12574773",
+      "unchangedAfterBrowserControlsAndInspection": true
+    }
+  ],
+  "productionInputs": {
+    "inputsSha256": "56130ea90c4da8fa0d96efc966a6fa8c4ae085b745e3d4220bdbfc376d36264e",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "072f05125769c9ac30189cc07ee8017875965a0e0c1c644a27107961042f6a68"
+  },
+  "admission": {
+    "availability": "AVAILABLE_BYTES_VERIFIED",
+    "bytesVerified": true,
+    "corpusScope": "current",
+    "currentSourceQualified": false,
+    "files": 13,
+    "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "inventorySeal": "25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a",
+    "edition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01"
+  },
+  "reviewDecisionIdentitiesVerified": 34,
+  "acceptedRepresentationIds": [
+    "DOC-CONCEPT-GEOMETRY",
+    "UT-D01",
+    "UT-D02",
+    "UT-D03",
+    "UT-D04",
+    "UT-D05",
+    "UT-D06",
+    "UT-D07",
+    "UT-D08",
+    "UT-D09",
+    "UT-C01",
+    "UT-C02",
+    "UT-O01",
+    "UT-O02",
+    "UT-O03",
+    "UT-O04",
+    "UT-O05",
+    "UT-O06"
+  ],
+  "pendingExactReviewIds": [
+    "DOC-STATUS",
+    "DOC-PROOF",
+    "UT-E01",
+    "UT-E02",
+    "UT-E03",
+    "UT-E04",
+    "UT-E05",
+    "UT-E06",
+    "UT-E07",
+    "UT-E08",
+    "UT-E09",
+    "UT-E10",
+    "UT-E11",
+    "UT-E12",
+    "DOC-HOME",
+    "DOC-START"
+  ],
+  "secondRecheck": {
+    "verificationSha256": "3cabee5edc5cfe2012a61262579632e6f189889b0614d34da28d5707577dc6df",
+    "freshEvidenceControls": 11,
+    "freshCurrentSourceCheck": "PASS",
+    "retainedWorkloadSha256": "6a5c6bff34f38bcb1af84c1da9114a07dcd50da2cb7b138d475157c34b6b8771",
+    "workloadFiles": 84,
+    "reviewDecisionsSha256": "b16314e77e3e7fb6292508e23afdd40bf4666e24a8058836691fbaa986a9c8d7",
+    "evidenceValidatorSha256": "479159634aacdc556bb26574a0ffd7b6e98c97a49605d362913ec8fbe49cbcc9",
+    "recheckRunnerSha256": "c4d34a8bf07628082eface538bf1e2eaf145fd637b678ee5b2eb9d1c36ba3342",
+    "priorSnapshotsVerified": true
+  },
+  "scientificSourcesChanged": false,
+  "scientificExecutions": 0,
+  "engineeringRepair": "REVIEW_READY for separate review",
+  "authorial": "NOT_SUPPLIED",
+  "rights": "NOT_SUPPLIED; no license grant",
+  "privacy": "PENDING",
+  "identity": "PENDING",
+  "publicTarget": "NOT_SUPPLIED; no remote",
+  "m1": "REVIEW_READY",
+  "m2": "NOT_STARTED",
+  "publicAction": "NOT_RUN",
+  "buildCommitField": "Not present in this reached private build-info schema; HEAD and uncommitted production inputs are recorded separately."
+}

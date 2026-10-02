@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-02T06:33:00.925054+00:00",
+  "status": "PASS",
+  "head": "06b7c17b15a264a812e3a0e2e50d45d1effd3d10",
+  "branch": "main",
+  "remotes": [],
+  "stagedPaths": [],
+  "finalStatus": "M docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md\n M research/publication/canonical-documents.yaml\n M research/publication/records.yaml\n M research/publication/reviews.yaml\n M tests/content/m1-review.test.ts\n M tests/content/m1.test.ts\n M tests/content/revision-cli.test.ts\n M tests/content/revision-inventory-cli.test.ts\n M tests/e2e/reading.spec.ts\n?? docs/evidence/m1/remaining-scientific-review/\n?? docs/evidence/m1/scientific-review/",
+  "baselineSha256": "21a0d6d9b948de698833f49bd2c734cf05ed50f4db984b52c9c607177dfaaa74",
+  "protectedBaselineFiles": 4223,
+  "unchangedBaselineFiles": 4222,
+  "changedBaselineFiles": [
+    "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md"
+  ],
+  "priorPlanRawPreserved": true,
+  "existingPublicationTestsAndScientificReviewUnchanged": true,
+  "archiveAndAll13CurrentMembersRawParity": "PASS",
+  "scientificSourceEdits": 0,
+  "reviewRegistryEdits": 0,
+  "productionInputs": {
+    "inputsSha256": "56130ea90c4da8fa0d96efc966a6fa8c4ae085b745e3d4220bdbfc376d36264e",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "072f05125769c9ac30189cc07ee8017875965a0e0c1c644a27107961042f6a68"
+  },
+  "acceptedRepresentationIds": [
+    "DOC-CONCEPT-GEOMETRY",
+    "UT-D01",
+    "UT-D02",
+    "UT-D03",
+    "UT-D04",
+    "UT-D05",
+    "UT-D06",
+    "UT-D07",
+    "UT-D08",
+    "UT-D09",
+    "UT-C01",
+    "UT-C02",
+    "UT-O01",
+    "UT-O02",
+    "UT-O03",
+    "UT-O04",
+    "UT-O05",
+    "UT-O06"
+  ],
+  "pendingExactReviewIds": [
+    "DOC-STATUS",
+    "DOC-PROOF",
+    "UT-E01",
+    "UT-E02",
+    "UT-E03",
+    "UT-E04",
+    "UT-E05",
+    "UT-E06",
+    "UT-E07",
+    "UT-E08",
+    "UT-E09",
+    "UT-E10",
+    "UT-E11",
+    "UT-E12",
+    "DOC-HOME",
+    "DOC-START"
+  ],
+  "currentSourceQualified": false,
+  "admissionContentReview": "pending",
+  "scientificExecutionRecords": 0,
+  "m1": "REVIEW_READY",
+  "m2": "NOT_STARTED",
+  "newProductionRepairs": 0,
+  "newExactApprovals": 0,
+  "freshVerification": "verification.json; its retained/fresh results are explicitly distinguished",
+  "publicAction": "NOT_RUN",
+  "taskFiles": [
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/access-ledger.json",
+      "bytes": 12303,
+      "sha256": "61f9856afb198b125f44e9c1cfc1a560f8160c80f6bb7a40ee766f5979864bab"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/archive-parity.json",
+      "bytes": 3823,
+      "sha256": "28fc5323e3770207d72d57987c2ea74d44c487f344af75861fdf30717eaabf70"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/baseline.json",
+      "bytes": 858910,
+      "sha256": "21a0d6d9b948de698833f49bd2c734cf05ed50f4db984b52c9c607177dfaaa74"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/check-review.ts",
+      "bytes": 12491,
+      "sha256": "35268a3b4b91091b9a8ff3eea86be1bee1a643c3e769d4654c6119d8f5664a91"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/entry-identities.json",
+      "bytes": 162227,
+      "sha256": "af143ef0ffbee5b1b3b0cd9fa7bf1844465e20a7f83b9667e2cb8c89b3dd70cd"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/prior-plan.md",
+      "bytes": 185375,
+      "sha256": "b7e603b28568dea0346896c443679f91f0302b61e7695a3887150a81677acf82"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/review-receipt.md",
+      "bytes": 11162,
+      "sha256": "d0e34174a5e0cf13cb70b6e584aeae4dfa61c652c854f11a0d0400cb6e7a7215"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/seal-integrity.py",
+      "bytes": 4168,
+      "sha256": "4d8b84d73179932e7fea091458e33b4ac349a357b1257bc00656f98876438d7d"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/source-current.log",
+      "bytes": 412,
+      "sha256": "19e55508cfacae1f0dbcb3a8b575b02d5fcbadcf7b399349b27eb032d7d6e9cb"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/source-history.log",
+      "bytes": 91,
+      "sha256": "143e207b98db59c4cd6beac3c274c90840d7806be4ba9b88b3cce0f3e232594c"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/source-readout.md",
+      "bytes": 20083,
+      "sha256": "e64f3ffea0469e08072106185e3e3318a02bdc45059f1a87efecc79d305da1e9"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/verification.json",
+      "bytes": 4553,
+      "sha256": "34de67b2217979fa3ab821e18f1e7910f25b2cf72a3a6ee46f0e5da5a38cfd39"
+    },
+    {
+      "path": "docs/evidence/m1/remaining-scientific-review/verification.log",
+      "bytes": 192,
+      "sha256": "d10d82baba71a54854b4b1080afeb4fce825a40e82d0f4bed4b3fd0a7c804b80"
+    },
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "bytes": 191873,
+      "sha256": "bf0cad28284f49dc3cb2801f489516d4eba7f50e12dde2652319193f1e348598"
+    }
+  ],
+  "sealExclusions": [
+    "final-integrity.json (self)",
+    "final-integrity.log (output)"
+  ]
+}

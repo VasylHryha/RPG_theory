@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "productionInputs": {
+    "inputsSha256": "efdc08a0743b3387a3589d64de98cab86171ee5d9a4123c9c110615e9ecea204",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "95aef16a757222edc3229fa8246e3fe8d7cc4b7886305101f4e4d678ce56e3e0"
+  },
+  "artifacts": [
+    {
+      "directory": "dist/m1-independent-review/preview-root",
+      "artifactSha256": "a7895a81e23e22bd494b3c5d0b38aecf01e2da8859d461bd81b9d5603e861e24",
+      "files": 101,
+      "status": "PASS"
+    },
+    {
+      "directory": "dist/m1-independent-review/preview-subpath",
+      "artifactSha256": "c7a2676a78d4d942acd31de6218f912572ed91a343d9fe6b361cd7d8fe942e5e",
+      "files": 101,
+      "status": "PASS"
+    }
+  ],
+  "pendingRequestIdentitiesVerified": 34,
+  "approvalsCreated": 0,
+  "reuseScope": "Unchanged predecessor engineering/display evidence only; no scientific support inferred."
+}

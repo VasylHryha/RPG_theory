@@ -9,6 +9,7 @@ import { sha256,stableJSON } from '../../src/lib/identity.js';
 test('real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals',()=>{
   const fixture=mkdtempSync(join(tmpdir(),'unity-authoring-control-'));
   const prior=join(fixture,'prior'),next=join(fixture,'next');
+  const originalReviews=readFileSync('research/publication/reviews.yaml');
   const read=(root:string,path:string)=>JSON.parse(readFileSync(join(root,path),'utf8'));
   const write=(root:string,path:string,value:unknown)=>writeFileSync(join(root,path),JSON.stringify(value,null,2)+'\n');
   try {
@@ -48,7 +49,7 @@ test('real revision CLI validates preserved editions and reports pending dependa
     const command=[ '--import',resolve('node_modules/tsx/dist/loader.mjs'),resolve('scripts/check-source-revision.ts'),'--prior-root',prior,'--change',changePath,'--evidence-dir',join(fixture,'evidence') ];
     let result=spawnSync(process.execPath,command,{cwd:next,encoding:'utf8'});assert.equal(result.status,0,result.stdout+result.stderr);
     const receipt=read(fixture,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`);assert.equal(receipt.reviewOutcome,'pending');assert.ok(receipt.affected.some((e:{entryId:string})=>e.entryId==='DOC-HOME'));
-    assert.deepEqual(read(next,'research/publication/reviews.yaml'),[]);
+    assert.deepEqual(readFileSync(join(next,'research/publication/reviews.yaml')),originalReviews);
     change.sourceChangeRef='research/RRG_CURRENT/README.md';writeFileSync(changePath,JSON.stringify(change));
     result=spawnSync(process.execPath,command,{cwd:next,encoding:'utf8'});assert.notEqual(result.status,0);assert.match(result.stderr,/SOURCE_REVISION_FAILURE/);
     assert.notEqual(sha256(readFileSync(changePath)),receipt.changeSha256);
@@ -84,6 +85,6 @@ test('real revision CLI validates preserved editions and reports pending dependa
     result=coreInvoke(proofGate);assert.notEqual(result.status,0);assert.match(result.stderr,/CORE_PROOF_GATE_REQUIRED/);
     result=coreInvoke({...proofGate,lockedStatement:'Geometry is not limited to visible Euclidean shape.'});assert.equal(result.status,0,result.stdout+result.stderr);
     assert.equal(read(fixture,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`).reviewOutcome,'pending');
-    assert.deepEqual(read(next,'research/publication/reviews.yaml'),[]);
+    assert.deepEqual(readFileSync(join(next,'research/publication/reviews.yaml')),originalReviews);
   } finally {rmSync(fixture,{recursive:true,force:true});}
 });

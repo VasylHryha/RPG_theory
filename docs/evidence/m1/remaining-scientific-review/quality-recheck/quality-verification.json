@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-02T07:17:41.836Z",
+  "status": "PASS",
+  "productionInputs": {
+    "inputsSha256": "17b9312b02bd3f04477ba84b5177375962a7b59d9311983b3dcbfaca9f450c4a",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "e2f8b2c7c3985879893eb899446103fb60f5a2f00877756c4e659d6e0103f25a"
+  },
+  "freshCommands": 11,
+  "contracts": 65,
+  "chromium": 14,
+  "outputControls": 38,
+  "qualificationReleaseRefusals": 2,
+  "freshEvidenceControls": [
+    {
+      "name": "missing actual own-read scope",
+      "status": "PASS",
+      "diagnostic": "Stale or incomplete own-read"
+    },
+    {
+      "name": "altered actual statement",
+      "status": "PASS",
+      "diagnostic": "Stale or incomplete own-read"
+    },
+    {
+      "name": "wrong readout link",
+      "status": "PASS",
+      "diagnostic": "Expected values to be strictly equal:"
+    },
+    {
+      "name": "stale body digest",
+      "status": "PASS",
+      "diagnostic": "Stale rendering"
+    },
+    {
+      "name": "omitted actual dependency",
+      "status": "PASS",
+      "diagnostic": "Stale dependencies"
+    },
+    {
+      "name": "copied wrong identity",
+      "status": "PASS",
+      "diagnostic": "Stale fingerprint"
+    }
+  ],
+  "backgroundMutation": [
+    {
+      "id": "UT-E12",
+      "before": "811036a0a07f67930d9565d657adc4b746a7aea726f636c6be975deac42eb728",
+      "after": "137531f1ea8de2672958d3cf1724e06bcfbb092edfe286fbd5122eb426bd82fd",
+      "state": "pending",
+      "result": "changed identity, no accepted approval to stale"
+    },
+    {
+      "id": "DOC-HOME",
+      "before": "139deb712380b521ec7c2e01d0b6180784aff6b88f8e6c3f4de44b7ba8b47dcf",
+      "after": "c5be871e0dd40f647828b5920ce5a1d42b5b818a2c78a613f4084ac3f89e2215",
+      "state": "pending",
+      "result": "changed identity, no accepted approval to stale"
+    },
+    {
+      "id": "DOC-START",
+      "before": "621cced5d090e30e18a3a25ea87f304a4c51f6b54f14df3b4907a1dd63e7cf73",
+      "after": "906e3b3635ebc7ffea6be91c27b555a6e267e9f2c7694aded242aa07c19a3921",
+      "state": "pending",
+      "result": "changed identity, no accepted approval to stale"
+    },
+    {
+      "id": "DOC-STATUS",
+      "before": "2c31eac690222d9459f74aed63541ed08cbd1e23572c9961c104a68066eb400a",
+      "after": "754008cacc121d07be14ce79024891a78ba53ab56dbe38474e278a458420b2be",
+      "state": "pending",
+      "result": "changed identity, no accepted approval to stale"
+    },
+    {
+      "id": "DOC-PROOF",
+      "before": "348b8a2f1a5f59fe61d653f9689c4cb6ecac343b9434fc638d2f04f2f7d8ebf0",
+      "after": "ca2caeb97c1ac79940c3b4b3e82aeef028367db953594da1038a5c40f55c40d5",
+      "state": "pending",
+      "result": "changed identity, no accepted approval to stale"
+    }
+  ],
+  "unrelatedE10": "unchanged",
+  "prior18Approvals": "unchanged objects and current identities",
+  "newBoundedAcceptance": "UT-E05",
+  "newRepairs": "ENG-03 neutral intro metadata and changed tests/evidence: REVIEW_READY for separate acceptance",
+  "changedEntryMetadata": [
+    "DOC-HOME",
+    "DOC-START"
+  ],
+  "scientificBodiesAndRawSources": "unchanged",
+  "scientificQualification": false,
+  "scientificExecutions": 0,
+  "acceptedRepresentationIds": [
+    "DOC-CONCEPT-GEOMETRY",
+    "UT-D01",
+    "UT-D02",
+    "UT-D03",
+    "UT-D04",
+    "UT-D05",
+    "UT-D06",
+    "UT-D07",
+    "UT-D08",
+    "UT-D09",
+    "UT-C01",
+    "UT-C02",
+    "UT-O01",
+    "UT-O02",
+    "UT-O03",
+    "UT-O04",
+    "UT-O05",
+    "UT-O06",
+    "UT-E05"
+  ],
+  "pendingExactReviewIds": [
+    "DOC-STATUS",
+    "DOC-PROOF",
+    "UT-E01",
+    "UT-E02",
+    "UT-E03",
+    "UT-E04",
+    "UT-E06",
+    "UT-E07",
+    "UT-E08",
+    "UT-E09",
+    "UT-E10",
+    "UT-E11",
+    "UT-E12",
+    "DOC-HOME",
+    "DOC-START"
+  ],
+  "artifacts": [
+    {
+      "base": "root",
+      "directory": "dist/m1-remaining-review-quality/preview-root",
+      "artifactSha256": "18f3748b4c823656776ca1bea9dad385309680def93a9d7afad355439ab229de",
+      "files": 101,
+      "htmlFiles": 37,
+      "browser": 7,
+      "browserReportSha256": "b51c4aca8d6e7d2081c8714951772b91d6e2f884b8ab75537df477fb76998a6e"
+    },
+    {
+      "base": "subpath",
+      "directory": "dist/m1-remaining-review-quality/preview-subpath",
+      "artifactSha256": "b8169d960c1ca638ecde209385b13f77c1c58b31f10e04d8c2dbc94517bf5773",
+      "files": 101,
+      "htmlFiles": 37,
+      "browser": 7,
+      "browserReportSha256": "171661e0259f0ae01291461063c06f962dbb707165f009c1910b8f056ce719f9"
+    }
+  ],
+  "m1": "REVIEW_READY",
+  "m2": "NOT_STARTED",
+  "publicAction": "NOT_RUN"
+}

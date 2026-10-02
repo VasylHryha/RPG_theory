@@ -1,0 +1,75 @@
+# M1 scientific/support review receipt — 1–2 October 2026
+
+**Completed review, bounded acceptance, unresolved scientific blockers. M1 remains REVIEW_READY. M2 remains NOT_STARTED.** This separately requested review accepts the faithful exact representations of UT-D01–09, UT-C01–02 and UT-O01–06: nine definitions, two explicitly open extensions and six unresolved questions. The follow-up additionally accepts the exact minimal DOC-CONCEPT-GEOMETRY consumer after truthful metadata repair, for 18 bounded representations. The decision does not establish the extensions, universal recursion, novelty, force unification or AI advantages. All entries remain drafts. **Twelve evidence records and four document consumers remain pending exact review; `currentSourceQualified` remains false.** The admission scientific content review remains pending and the execution registry remains empty.
+
+Initial local state was clean main, HEAD `06b7c17b15a264a812e3a0e2e50d45d1effd3d10`, no remotes. The requested independent-review and local-Git receipts were read and reconciled. Before mutation, actual production audits verified both retained §0.10 previews, their recorded input/lock/content identities and all 34 pending request fingerprints (`retained-identity-check.json`). That report creates no approvals. The initial snapshot, existing source/hash receipts and earlier no-Git observations retain their historical meaning.
+
+## Scientific decisions and support limits
+
+The reviewer read the actual thirteen-file current edition, 34 entries/31 raw bindings, nine derivative explanations, status/scope/assumption/dependency fields and citation mappings. Individual acceptance reasons and their exact own-read statements/explanations/semantic/dependency/rendered identities are recorded in `review-decisions.json`; human-readable reasoning and SF-01–06 are in `source-readout.md`. Explicit reviewer choices precede independently calculated fingerprints. No required request fingerprints are copied into approvals; matching unchanged fingerprints alone is not a decision.
+
+`access-ledger.json` distinguishes own retrieved reads, the supplied sources' historical inspections and retained metadata. It identifies full-text access with selected reading sections, abstract-only reads, indexed primary extracts, institutional explainers, metadata-only records and failed/unavailable bodies. Paper/version comparisons are bounded, not a blanket assertion of all-supplement or all-version equivalence. Crossref metadata proves recorded bibliographic identity only. Historical S01–S16 remain scoped to their historical source; no historical proposal or reproduction is promoted.
+
+Restricted domain mechanisms have independent support at the recorded depth, but the complete bound evidence assertions remain unqualified. Material findings requiring resolution are:
+
+1. SF-01: 01/02's chronology must distinguish early neutral helium from later hydrogen recombination before asserting HeH⁺ formation; modern nebular detection is not a direct primordial measurement.
+2. SF-02: candidate equations need saturation, model selection, nonzero-phase, vector-field reduction, action/potential and nonlinear-stability conditions. The second recheck explicitly credits the supplied inertial alternative, mass matrix and nonlinear interaction term; it does not claim those are absent. These direct analytic observations are not new executed calculations or core-definition contradictions.
+3. SF-03: the gravity example lacks a source citation; the quality recheck found a plausible paper and compared selected v1/v2 passages, with unresolved attribution/version scope.
+4. SF-04: spin-ice muon interpretation has published criticism and a response; abstract reads do not adjudicate it. Artificial kagome and pyrochlore studies are distinct systems.
+5. SF-05: not every cited example independently demonstrates the full four-arrow recursive mechanism; separate Min assays and programmed fixed-graph synchronization require exact scope.
+6. SF-06: activity-first rhetoric and aggregate support summaries cannot silently override the reciprocal core or become completed universal/novelty proofs.
+
+No scientific wording, status, evidence classification, source edition, binding, core pin or scientific source bytes were revised. These remain findings under the review-only instruction. Any selected scientific correction requires a scoped §0.3/§4.5 authoring transaction, preserved predecessor and coordinated authoritative sources/dependants.
+
+## Engineering repair and reached checks
+
+ENG-01: UT-E12's actual background interpretation now depends on UT-C02. Its derivative revision advances 1→2; the force-status dependency is retained. This closes affected-report/fingerprint invalidation for the stated meaning. A new regression check proves that changed background meaning reaches E12, start/status/proof consumers and stales its review identity while unrelated E10 remains unaffected. Existing test assumptions were migrated so the read-only revision CLI preserves existing review bytes rather than assuming the registry is empty. Exact prior task-owned bytes are under `prior-code/` and in initial Git history. ENG-02 removes stale concept description/scope language, advances its derivative revision and records its complete restricted explanation review. The original 17 approval fingerprints are unchanged. Browser/contract checks now explicitly distinguish the accepted minimal concept from still-pending aggregate documents. This changed engineering batch is **REVIEW_READY for separate review**, not whole-milestone acceptance.
+
+Affected verification is **PASS**: zero Astro errors/warnings/hints, **65 contract tests**, **14 Chromium checks** across `/` and `/unity-theory/`, and **36 reached emitted-output controls**. New controls reject concealing accepted definition/concept reviews, stale concept metadata and omitting E12's background dependency; other controls reject fabricated acceptance, wrong citations/status/navigation and qualification relabelling. Both actual qualification/release CLI calls refuse `CURRENT_SOURCE_NOT_QUALIFIED`, exit 1, without creating output.
+
+The original `npm run verify` sandbox attempt stopped before checks at tsx IPC EPERM (`verification-attempt.log`). Approved execution passed four checks, then failed the remaining stale empty-review test; all six build/audit/browser commands in that attempt were NOT_RUN (`verification-first-batch.json`, `verification-approved.log`). After the test-only repair, `resume-verification.ts` ran fresh Astro/content tests and both build/audit/browser groups. The two source checks and content-binding check from the first batch are reused because their identities did not change; the final receipt explicitly distinguishes **eight fresh commands plus three reused checks**, with none omitted (`verification.json`, `verification-resumed.log`). This is not a claim that the initial full command exited successfully.
+
+One additional control-script attempt expected a shorter accepted-label string than the actual output. It failed before the first output mutation; its log and script are retained. The corrected control targets the actual emitted label. Already reached unchanged CLI refusals are reused with their logs, while all 32 output mutations then reached their intended failures (`cli-and-output-controls.json`, `output-controls.log`). No production assertion failed in that final mutation batch. The quality batch runs a separate fresh check/content/contracts/build/audit/browser phase, retaining only the two unchanged raw source checks (nine fresh commands plus two reused checks). Its final dated artifacts live under `dist/m1-scientific-review-quality-final/`, with final raw receipts under `quality-final/`; the earlier review artifacts remain unchanged. The quality controls run against the changed artifacts and freshly reach both actual CLI refusals; final logs are `verification-quality.log` and `output-controls-final.log`, with final command/control JSON in `quality-final/`. Earlier quality and initial review previews are retained. None of these fixtures proves science.
+
+Visual inspection of both-base definition screenshots confirms an accepted exact-content label alongside Definition, no empirical status and Draft. The inspected root evidence/source-details screenshot remains pending source-reported evidence with bibliography/binding/dependency disclosures; the subpath mobile home remains a draft with pending aggregate review and open questions. Browser tests also reach no-JS navigation, keyboard, MathML, local scrolling, axe, narrow reflow, dark presentation and 404. These do not establish human comprehension or assistive-technology certification. Captures and logs stay under evidence, never public output.
+
+## Exact private artifacts and independent gates
+
+| Identity | Value |
+|---|---|
+| Root preview | `dist/m1-scientific-review-quality-final/preview-root` — `3bf4ab510974e842b17df18bbcfd3c710f2d3bde951e66ff40d206f78cd24b8d` |
+| Subpath preview | `dist/m1-scientific-review-quality-final/preview-subpath` — `f505b78900f57ae61fa7dbccef2fa08fd815b55cb5bfdf90b3d8f32c496b7c0e` |
+| Logical publication manifest | `6f74fc35984782e2dfb8c64ac8d3d002dd00e03869dffd5ac90f2e3f12574773` |
+| Production inputs | `56130ea90c4da8fa0d96efc966a6fa8c4ae085b745e3d4220bdbfc376d36264e` |
+| Publication content | `072f05125769c9ac30189cc07ee8017875965a0e0c1c644a27107961042f6a68` |
+| Sole unchanged dependency lock | `d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd` |
+| Raw current core | `b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1` |
+
+Each preview has 101 files and 37 HTML routes, is private/non-deployable and retains the reserved origin/repository-null/public-authorization-false configuration. This reached private build-info schema has no Git commit field: initial HEAD is captured separately, and the previews bind the current uncommitted inputs by their input hash. They are not asserted to be artifacts of the initial clean commit. No commit was created. `final-integrity.json` seals prior-file/old-artifact preservation, raw ZIP parity, current artifact inventories and current review/qualification/gate state after testing and controls.
+
+| Gate | Exact state |
+|---|---|
+| M0 engineering | ACCEPTED, prior independent scope |
+| M1 predecessor engineering/extraction | ACCEPTED under §0.10, exact preserved predecessor identities |
+| New E12 dependency and concept metadata repairs | Checks PASS; REVIEW_READY for separate review |
+| Scientific definition/open-status representation | 18 named exact representations ACCEPTED (17 definition/open-status entries plus minimal concept) |
+| Scientific primary support / exact evidence and document qualification | Restricted findings only; 12 evidence + 4 documents PENDING; SF-01–06 and access/version limits unresolved |
+| Complete current-source qualification | PENDING; false, no admission promotion |
+| First-public authorial core/introduction/credit | NOT_SUPPLIED / PENDING |
+| Rights/license | No grant or public authorization; NOT_SUPPLIED / PENDING |
+| Privacy publication decision | NOT_SUPPLIED / PENDING; no public intake disclosure assumed |
+| Identity publication decision | NOT_SUPPLIED / PENDING; no public author identity inferred |
+| Public repository/host/DNS target | No remote or authorized target; NOT_SUPPLIED |
+| M2–M7 | NOT_STARTED |
+
+## Requested quality recheck
+
+The follow-up quality recheck is completed and recorded in `quality-recheck.md`. It corrected SF-03's access/identification disposition after additional primary-version reads, clarified absent build-commit metadata and separated privacy/identity gates. Prior review-phase reports and seal are preserved under `pre-recheck/`. Scientific sources and the original 17 review fingerprints are unchanged. ENG-02 changes concept metadata and records one justified additional acceptance; fresh affected checks use new artifacts, while earlier tested previews remain unchanged. Unchanged raw-source checks are reused after verifying their identities. This does not self-accept the engineering batch or manufacture a numerical scientific-quality score.
+
+**Second requested recheck:** `recheck-2/review-receipt.md` records RR-01–03. SF-02 now credits mathematical conditions already supplied. The evidence seal requires a complete unique decision set, exact own-read fields and matching approval dates/links. Retained suite evidence is reconciled against actual test/config/source/dependency workloads and raw logs. The earlier quality-phase current-scope source-command reuse claim was too broad because that command also loads changed corpus inputs: its byte-integrity subset remains valid, and this pass runs that actual command freshly (`recheck-2/current-source.log`). History-only source checks remain identity-valid. No individual decision, approval fingerprint or website input/output changes. Prior reports/seal are preserved under `recheck-2/prior/`; fresh evidence-control results are in `recheck-2/verification.json`.
+
+## Next-session handoff
+
+Work in `/Users/new/RiderProjects/RPG_theory`; read AGENTS.md and the sole Revision 4 plan's current §0.12 receipt, §§0.10–0.11, §3.1a, §4.5, M1 §8 and §9. Inspect current HEAD/status and preserve unrelated work. Read this receipt, `source-readout.md`, `access-ledger.json`, `review-decisions.json`, `quality-recheck.md`, `recheck-2/review-receipt.md`, `recheck-2/verification.json`, `quality-final/verification.json`, `quality-final/cli-and-output-controls.json`, `quality-final/review-state-fingerprints.json` and `final-integrity.json`. The earlier verification/control receipts retain their historical stages and the second recheck's current-scope reuse correction. Initial HEAD remains `06b7c17`; the reviewed batch is uncommitted.
+
+Independently review ENG-01/02 and the changed registry/test migration. Resolve only remaining M1 scientific/support/exact-content gates: SF-01–06, full-paper/supplement/version limits and 16 pending entries. This review-only receipt does not silently authorize a scientific rewrite. If the next task selects a necessary scientific revision, use §0.3/§4.5: preserve the exact prior edition, explain correction/support and permission basis, update actual sources/manifest/status/proof and dependent bindings/explanations together, then run affected checks once and obtain separate review. Keep accepted unchanged representations settled unless affected. Never approve by copying request digests or turn a successful fixture/build into corpus qualification. Keep currentSourceQualified false until the complete contract is independently satisfied. Update this same plan with actual scope and blockers. Keep authorial, rights/privacy/identity and public-target gates separate. Do not start M2, publish, push, configure a remote, grant a license, deploy or change DNS.

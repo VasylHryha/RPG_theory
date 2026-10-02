@@ -9,6 +9,7 @@ import {sha256,stableJSON} from '../../src/lib/identity.js';
 for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`real revision CLI accounts for both rename paths without inventing a core-byte change: ${member}`,()=>{
  const temp=mkdtempSync(join(tmpdir(),'unity-revision-rename-'));
  const prior=join(temp,'prior'),next=join(temp,'next');
+ const originalReviews=readFileSync('research/publication/reviews.yaml');
  const read=(root:string,path:string)=>JSON.parse(readFileSync(join(root,path),'utf8'));
  const write=(root:string,path:string,value:unknown)=>writeFileSync(join(root,path),JSON.stringify(value,null,2)+'\n');
  try {
@@ -51,7 +52,7 @@ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`rea
   const changePath=join(temp,'change.json');
   const invoke=(value:unknown)=>{writeFileSync(changePath,JSON.stringify(value));return spawnSync(process.execPath,['--import',resolve('node_modules/tsx/dist/loader.mjs'),resolve('scripts/check-source-revision.ts'),'--prior-root',prior,'--change',changePath,'--evidence-dir',join(temp,'evidence')],{cwd:next,encoding:'utf8'});};
   let result=invoke(change);assert.equal(result.status,0,result.stdout+result.stderr);
-  const receipt=read(temp,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`);assert.equal(receipt.reviewOutcome,'pending');assert.ok(receipt.affected.some((e:any)=>e.entryId==='DOC-HOME'));assert.deepEqual(read(next,'research/publication/reviews.yaml'),[]);
+  const receipt=read(temp,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`);assert.equal(receipt.reviewOutcome,'pending');assert.ok(receipt.affected.some((e:any)=>e.entryId==='DOC-HOME'));assert.deepEqual(readFileSync(join(next,'research/publication/reviews.yaml')),originalReviews);
   // Neither old-only nor new-only accounting can hide a path transition.
   for(const omit of [member,destination]) {
    result=invoke({...change,affectedFiles:change.affectedFiles.filter(p=>p!==`${record.directory}/${omit}`)});

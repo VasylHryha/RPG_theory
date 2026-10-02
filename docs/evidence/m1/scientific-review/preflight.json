@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "head": "06b7c17b15a264a812e3a0e2e50d45d1effd3d10",
+  "remotes": "",
+  "trackedFiles": 914,
+  "retainedArtifactFiles": 2562,
+  "archiveParityFiles": 13,
+  "requestedReceipts": {
+    "docs/evidence/m1/independent-review/verification.json": {
+      "sha256": "898bd32be4d0e9e9c3621430cebee6e102974ae45df7b9ce1adfeb036317f04e",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": "npm run check",
+          "exitCode": 0
+        },
+        {
+          "command": "npm run check:sources -- --scope history",
+          "exitCode": 0
+        },
+        {
+          "command": "npm run check:sources -- --scope current",
+          "exitCode": 0
+        },
+        {
+          "command": "npm run check:content",
+          "exitCode": 0
+        },
+        {
+          "command": "npm run test:content",
+          "exitCode": 0
+        },
+        {
+          "command": "npm run build -- --mode preview --config config/site.json --output dist/m1-independent-review/preview-root",
+          "exitCode": 0
+        },
+        {
+          "command": "npm run audit:output -- --dir dist/m1-independent-review/preview-root",
+          "exitCode": 0
+        },
+        {
+          "command": "npm run test:e2e -- --output dist/m1-independent-review/preview-root",
+          "exitCode": 0
+        },
+        {
+          "command": "npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m1-independent-review/preview-subpath",
+          "exitCode": 0
+        },
+        {
+          "command": "npm run audit:output -- --dir dist/m1-independent-review/preview-subpath",
+          "exitCode": 0
+        },
+        {
+          "command": "npm run test:e2e -- --output dist/m1-independent-review/preview-subpath",
+          "exitCode": 0
+        }
+      ],
+      "cli": null,
+      "outputControls": 0,
+      "requests": 0
+    },
+    "docs/evidence/m1/independent-review/cli-and-output-controls.json": {
+      "sha256": "2dcbd8fd2388e64614014344ca61687a70aa8ff37904ea82028a681280c05570",
+      "status": "PASS",
+      "commands": null,
+      "cli": [
+        {
+          "command": "node --import tsx scripts/build.ts --mode qualification --output dist/m1-independent-review/refused-qualification",
+          "exitCode": 1,
+          "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED",
+          "outputCreated": false
+        },
+        {
+          "command": "node --import tsx scripts/build.ts --mode release --output dist/m1-independent-review/refused-release",
+          "exitCode": 1,
+          "reachedFailure": "CURRENT_SOURCE_NOT_QUALIFIED",
+          "outputCreated": false
+        }
+      ],
+      "outputControls": 28,
+      "requests": 0
+    },
+    "docs/evidence/m1/independent-review/final-integrity.json": {
+      "sha256": "f5472b55bcb1b5ef3e7a0261cdc257ba93fa7916b63c6b0388d7c3c5c3508801",
+      "status": "PASS",
+      "commands": null,
+      "cli": null,
+      "outputControls": 0,
+      "requests": 0
+    },
+    "docs/evidence/m1/independent-review/review-request-fingerprints.json": {
+      "sha256": "d7b81071bc15bf56840415e8c2616503df8ba8627f88c43583f44596b3e46086",
+      "status": null,
+      "commands": null,
+      "cli": null,
+      "outputControls": 0,
+      "requests": 34
+    }
+  },
+  "localGitReceiptSha256": "61c328df9c565d7ee5725cf19e81e6fefa4de14e59d1519d9a8e76ca7a834960"
+}

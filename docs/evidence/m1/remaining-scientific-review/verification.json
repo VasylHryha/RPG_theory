@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-02T06:30:43.303Z",
+  "status": "PASS",
+  "engineeringDecision": "ACCEPTED: unchanged ENG-01/02, review-registry/test migration, RR-02 evidence seal and RR-03 workload correction only",
+  "newProductionRepairs": 0,
+  "productionInputs": {
+    "inputsSha256": "56130ea90c4da8fa0d96efc966a6fa8c4ae085b745e3d4220bdbfc376d36264e",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "072f05125769c9ac30189cc07ee8017875965a0e0c1c644a27107961042f6a68"
+  },
+  "toolchain": {
+    "node": "v24.18.0",
+    "packages": {
+      "astro": "7.3.5",
+      "tsx": "4.23.15",
+      "typescript": "6.0.3",
+      "@playwright/test": "1.63.0",
+      "@axe-core/playwright": "4.13.0"
+    }
+  },
+  "retainedWorkloadFiles": 84,
+  "retainedResults": {
+    "contracts": 65,
+    "chromium": 14,
+    "outputControls": 36,
+    "evidenceControls": 11,
+    "basis": "Fresh complete workload/input and raw-log reconciliation; current-scope source reuse correction retained"
+  },
+  "freshSourceCommands": [
+    {
+      "command": "node --import tsx scripts/check-sources.ts --scope current",
+      "exitCode": 0,
+      "logSha256": "19e55508cfacae1f0dbcb3a8b575b02d5fcbadcf7b399349b27eb032d7d6e9cb"
+    },
+    {
+      "command": "node --import tsx scripts/check-sources.ts --scope history",
+      "exitCode": 0,
+      "logSha256": "143e207b98db59c4cd6beac3c274c90840d7806be4ba9b88b3cce0f3e232594c"
+    }
+  ],
+  "freshArtifactAudits": [
+    {
+      "base": "root",
+      "directory": "dist/m1-scientific-review-quality-final/preview-root",
+      "artifactSha256": "3bf4ab510974e842b17df18bbcfd3c710f2d3bde951e66ff40d206f78cd24b8d",
+      "files": 101,
+      "audit": "PASS"
+    },
+    {
+      "base": "subpath",
+      "directory": "dist/m1-scientific-review-quality-final/preview-subpath",
+      "artifactSha256": "f505b78900f57ae61fa7dbccef2fa08fd815b55cb5bfdf90b3d8f32c496b7c0e",
+      "files": 101,
+      "audit": "PASS"
+    }
+  ],
+  "freshEvidenceControls": [
+    {
+      "name": "missing evidence decision",
+      "status": "PASS",
+      "diagnostic": "Incomplete review decision inventory"
+    },
+    {
+      "name": "duplicate accepted decision",
+      "status": "PASS",
+      "diagnostic": "Duplicate review decision"
+    },
+    {
+      "name": "stale actual own-read scope",
+      "status": "PASS",
+      "diagnostic": "Stale own-read field: UT-E12.scope"
+    },
+    {
+      "name": "wrong concept review date",
+      "status": "PASS",
+      "diagnostic": "Decision/registry review date mismatch"
+    },
+    {
+      "name": "fabricated pending approval",
+      "status": "PASS",
+      "diagnostic": "Decision/registry state mismatch"
+    },
+    {
+      "name": "wrong actual registry link",
+      "status": "PASS",
+      "diagnostic": "Wrong decision evidence reference"
+    }
+  ],
+  "freshOutputControls": [
+    {
+      "base": "root",
+      "file": "claims/UT-E12/index.html",
+      "status": "PASS",
+      "diagnostic": "CONTENT_METADATA_PARITY_FAILURE"
+    },
+    {
+      "base": "root",
+      "file": "concepts/geometry-and-modes/index.html",
+      "status": "PASS",
+      "diagnostic": "CONTENT_METADATA_PARITY_FAILURE"
+    },
+    {
+      "base": "subpath",
+      "file": "claims/UT-E12/index.html",
+      "status": "PASS",
+      "diagnostic": "CONTENT_METADATA_PARITY_FAILURE"
+    },
+    {
+      "base": "subpath",
+      "file": "concepts/geometry-and-modes/index.html",
+      "status": "PASS",
+      "diagnostic": "CONTENT_METADATA_PARITY_FAILURE"
+    }
+  ],
+  "backgroundMutation": "PASS; E12 and four consumers invalidate; E10 locality preserved",
+  "protectedBaselineFiles": 4223,
+  "unchangedBaselineFiles": 4222,
+  "changedBaselineFiles": [
+    "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md"
+  ],
+  "acceptedRepresentationIds": [
+    "DOC-CONCEPT-GEOMETRY",
+    "UT-D01",
+    "UT-D02",
+    "UT-D03",
+    "UT-D04",
+    "UT-D05",
+    "UT-D06",
+    "UT-D07",
+    "UT-D08",
+    "UT-D09",
+    "UT-C01",
+    "UT-C02",
+    "UT-O01",
+    "UT-O02",
+    "UT-O03",
+    "UT-O04",
+    "UT-O05",
+    "UT-O06"
+  ],
+  "pendingExactReviewIds": [
+    "DOC-STATUS",
+    "DOC-PROOF",
+    "UT-E01",
+    "UT-E02",
+    "UT-E03",
+    "UT-E04",
+    "UT-E05",
+    "UT-E06",
+    "UT-E07",
+    "UT-E08",
+    "UT-E09",
+    "UT-E10",
+    "UT-E11",
+    "UT-E12",
+    "DOC-HOME",
+    "DOC-START"
+  ],
+  "scientificQualification": false,
+  "scientificExecutions": 0,
+  "scientificSourceEdits": 0,
+  "reviewRegistryUnchanged": true,
+  "m1": "REVIEW_READY",
+  "m2": "NOT_STARTED",
+  "publicAction": "NOT_RUN"
+}

@@ -1,0 +1,376 @@
+diff --git a/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md b/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md
+index d02aca7..344c1a0 100644
+--- a/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md
++++ b/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md
+@@ -3,7 +3,7 @@ title: "Unity Theory / RRG — Public Research Website"
+ doc_type: implementation_plan
+ program: unity_theory_publication_site
+ revision: 4
+-updated: 2026-10-01
++updated: 2026-10-02
+ status: M1_REVIEW_READY
+ current_milestone: M1
+ execution_model: "User-selected Codex 6.1 Sol High implementer; separate fresh High reviewer"
+@@ -32,24 +32,24 @@ This is the sole execution plan for the website, research-document publication,
+ 
+ | Field | Current record |
+ |---|---|
+-| Current milestone / state | **M1 / REVIEW_READY** for remaining scientific/support qualification; latest demonstrated private engineering and bounded source fidelity ACCEPTED (§0.10); M0 engineering ACCEPTED |
++| Current milestone / state | **M1 / REVIEW_READY**; predecessor private engineering/fidelity ACCEPTED (§0.10); 17 exact definition/open-status representations ACCEPTED (§0.12); 17 exact reviews and full scientific qualification pending; M0 engineering ACCEPTED |
+ | Website repository / implementation | One-root local Astro implementation in `/Users/new/RiderProjects/RPG_theory`; local Git on main initialized by owner request (§0.11); original Rider files preserved; no remote/public target |
+ | Last engineering acceptance | Separate independent M1 review, 1 October 2026, §0.10; exact current private engineering slice and bounded independently read source fidelity |
+-| Changed here | Independent M1 review: reconciled §0.9 artifacts/evidence, fixed non-DOI trailing-path identity and coordinated seven bibliography identities; §0.10 |
++| Changed here | Remaining M1 scientific/support review (§0.12): actual sources and primary/alternate paper reads, precise access limits, 17 bounded representation decisions, scientific findings retained without source edits; UT-E12 background-extension dependency repaired |
+ | Declared active scientific authority | **RRG_CURRENT**, identified by the shared current-package note [P-CURRENT-NOTE] |
+ | Actual current package | **AVAILABLE_CURRENT_BYTES** in local execution on 1 October 2026; owner-supplied ZIP unpacked into `research/RRG_CURRENT/` |
+ | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; shared validator checks the declared pin |
+ | Available historical research | Fourteen unchanged v0.1b / v0.2-audit files, preserved as history only |
+ | Numerical reproduction | R2 receipts preserved as historical evidence; **NOT_RERUN** in this alignment |
+-| Website/browser/a11y/live evidence | Fresh independent M1 private previews at both bases: 64 contracts, 14 Chromium checks and 28 output mutation controls PASS; bounded axe/no-JS/keyboard/reflow/visual evidence; assistive technology/human study/live hosting NOT_RUN |
++| Website/browser/a11y/live evidence | §0.10 predecessor identities freshly verified before changes; affected repair/partial-review checks and new both-base previews recorded in docs/evidence/m1/scientific-review/verification.json and review-receipt.md; assistive technology/human study/live hosting NOT_RUN |
+ | Shared-source mutation | No scientific source bytes changed in this pass. Current-source changes are allowed when justified under §0.3; historical snapshots remain unchanged |
+ | External publication authority | No public repository creation, push, visibility change, Pages/DNS action, license grant or purchase performed |
+-| Next action | Complete remaining M1 scientific/support/exact-content review using §0.10 and docs/evidence/m1/independent-review/review-receipt.md; no M2 |
++| Next action | Resolve SF-01–06 and pending exact reviews/access limits under §0.12 and docs/evidence/m1/scientific-review/review-receipt.md; any scientific authoring is a separately scoped §0.3/§4.5 revision; independently review changed engineering batch; no M2 |
+ 
+ | Milestone | Accepted outcome | Requires | State |
+ |---|---|---|---|
+ | M0 | Static foundation, source-preserving intake, explicit missing-source behavior, private reading slice, root/subpath proof | Local tools + this handoff | ACCEPTED — demonstrated engineering only, separate review §0.5 |
+-| M1 | Current-source-bound records, document adapters, source registry and publication guards used by actual pages | M0 + qualified RRG_CURRENT for real-content acceptance | REVIEW_READY — current private engineering and bounded extraction/display fidelity ACCEPTED (§0.10); full scientific/support/exact reviews pending; currentSourceQualified false |
++| M1 | Current-source-bound records, document adapters, source registry and publication guards used by actual pages | M0 + qualified RRG_CURRENT for real-content acceptance | REVIEW_READY — predecessor engineering/fidelity ACCEPTED (§0.10); 17 bounded definition/open-status representations ACCEPTED (§0.12); 12 evidence + 5 document exact reviews pending; repair awaits independent review; currentSourceQualified false |
+ | M2 | Faithful complete beginner journey and example pages | M1 + reviewed current meanings | NOT_STARTED |
+ | M3 | Current framework/math/status/proof/evidence documents rendered; bounded supplementary research where selected | M1–M2 + admitted current corpus | NOT_STARTED |
+ | M4 | Articles, document library, source-faithful exports and citation | M3 | NOT_STARTED |
+@@ -179,6 +179,20 @@ The owner explicitly requested local Git initialization and a commit of the comp
+ 
+ This is repository bookkeeping only. M0 engineering remains ACCEPTED; §0.10's bounded M1 engineering/fidelity acceptance and exact preview identities remain valid; full M1 scientific/support qualification remains PENDING/REVIEW_READY and M2 stays NOT_STARTED. The pre-bookkeeping plan is preserved under `docs/evidence/local-git/prior-code/`. Staged blobs are checked against raw working bytes, previous protected source/evidence/artifact identities and whitespace diagnostics before the commit. Production inputs are unchanged, so the unchanged 64-contract/14-Chromium/28-output-control results are retained without rerunning the suite. Scientific reviews/execution registries remain empty, currentSourceQualified remains false, and authorial/rights/privacy/identity/public-target gates stay separate and pending.
+ 
++### 0.12 Remaining M1 scientific/support review and bounded decisions — 1–2 October 2026
++
++**Decision: ACCEPTED only for the exact current definition/open-status representations independently read here: UT-D01–09, UT-C01–02 and UT-O01–06 (17 entries). Full M1 scientific/support/exact-content qualification remains PENDING; M1 stays REVIEW_READY and M2 stays NOT_STARTED.** A review acceptance on an open conjecture means its representation as open is faithful, not that it is true. All entries remain drafts. No universal RRG theorem, force identification, novel prediction, AI advantage, authorial approval or public permission follows. The five document consumers and twelve evidence records remain pending exact reviews. Details and reasons: `docs/evidence/m1/scientific-review/source-readout.md`, `review-decisions.json`, `access-ledger.json` and `review-receipt.md`.
++
++**Actual reads and provenance.** Read all thirteen actual RRG_CURRENT files, 34 loaded entries/31 bindings, nine short derivative explanations, assumptions/status/limits/dependencies, 59 bibliography records and 81 source-scoped aliases. Reviewed relevant primary papers and named alternates at their actual access depth. Selected full-text reads include optical/Min/biofilm models and experiments, author manuscripts and Higgs's original specified model; other checks are abstract-only, indexed primary extracts, institutional explainers, metadata-only or unavailable as individually recorded. Full-text access is not a claim to have read every supplement or every version. The supplied source's Checked fields and earlier inspection claims remain source-reported; retained Crossref evidence proves recorded metadata only. Historical S01–S16 aliases remain local and no historical proposal is promoted. No scientific computation or experiment was reproduced.
++
++**Remaining scientific findings.** SF-01 identifies neutral helium preceding HeH⁺ formation, inconsistent with 01/02's grouped later-neutral-atoms history; a modern nebular observation is not a direct primordial measurement. SF-02 records unstated saturation, inertial/mass, zero-phase, vector-field coarse-graining, action/potential and nonlinear-stabilization conditions in candidate equations, not a contradiction of the selected core definitions. SF-03 is an unnamed/unidentifiable 2026 FRG tensor-composite support claim in 03 §33. SF-04 records published criticism and response concerning spin-ice muon interpretation, and distinct artificial-kagome versus pyrochlore systems; abstract reads do not adjudicate the dispute. SF-05 limits the full four-arrow mechanism diagram, separate Min assays and fixed-graph synchronization interpretation. SF-06 keeps world-explanation rhetoric and broad aggregate summaries from becoming universal priority, novelty or completed proof. Scientific sources remain unchanged: this was a review-only task, so any correction requires its scoped §0.3/§4.5 authoring transaction and coordinated dependants.
++
++**Coherent engineering repair and review recording.** UT-E12 now depends on UT-C02, because its actual 07 §3 excerpt interprets the background extension. Its derivative revision advances 1→2; prior bytes are preserved. New regression checks reach changed-background invalidation/affected consumers and unrelated E10 locality. Tests that assumed an empty real review registry now verify preservation of existing review bytes and pending unreviewed content. Decisions have individual own-read rationales, actual semantic/source/dependency/rendered identities and independently computed fingerprints; no pending request fingerprints were copied into approvals. This repair batch remains REVIEW_READY for a separate engineering review; §0.10 acceptance belongs to its exact unchanged predecessor inputs. `currentSourceQualified` remains false and admission contentReview remains pending; the scientific execution registry stays empty.
++
++**Verification and preservation.** Before mutation, production audits matched both §0.10 previews and all 34 pending request identities. Prior engineering results are reused only for that verified predecessor. A first affected suite hit sandbox IPC EPERM; approved execution reached a stale empty-review test assumption, with subsequent build/browser commands NOT_RUN. The corrected test preserves byte-for-byte reviews through the actual revision CLI. The resumed affected phase records fresh checks and expressly identity-preserved source/content checks from that same attempt, without repeating unchanged checks. Final exact artifacts, reached commands/controls, failure history and protected-file checks are in this section's evidence folder; none is copied into public output. Scientific sources, supplied ZIPs, history, handoff, Rider, sole lock, earlier receipts/artifacts and unrelated work are preserved. HEAD remains the initial local commit `06b7c17b15a264a812e3a0e2e50d45d1effd3d10`; no commit or remote operation is requested here. Earlier no-Git receipts are historical, and §0.11 did not alter scientific authority.
++
++**Separate gates and next handoff.** Scientific representation is accepted only for the 17 listed decisions; restricted primary support is recorded as findings while 17 exact-entry reviews and corpus qualification remain pending. Authorial first-public core/introduction/credit approval, rights/privacy/identity and actual public-target authorization are independently NOT_SUPPLIED/PENDING. No release, public repository, push, remote, license grant, deployment or DNS action occurred. Next work reads this same R4 receipt and the scientific-review evidence, independently reviews the changed engineering batch, resolves the six findings and access/version limits, and records only newly justified exact acceptances. A scientific revision task must preserve the prior edition and update actual sources, manifests/status/proof, bindings and dependants coherently; no corrected website-only science. Complete qualification requires the whole §3.1a/§4.5 contract, not a count of approvals or a successful build. Do not start M2 in this lane. §0.12 supersedes §§0.10–0.11 only as the current scientific-review/repair/handoff state; earlier decisions and artifacts retain their exact identities and limits.
++
+ ## 1. Review findings and chosen repairs
+ 
+ **R4 scope:** clarify the user's permission for necessary, justified source/core changes and recheck source visibility. R3 already mentioned a legitimate revised core, but its repeated “preserve bytes” and read-only presentation wording did not clearly distinguish the editable current source from immutable historical snapshots. R4 selects that distinction explicitly, supplies a revision path, and carries it through intake, records, milestones and both agent prompts. No scientific text is revised here and no fresh scientific literature audit is claimed.
+@@ -318,7 +332,7 @@ The shared notes record this expected locked-core SHA-256:
+ b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1
+ ```
+ 
+-**Current local observation:** actual core present; raw computed value matches the edition pin above; actual manifest/full inventory and bindings are verified (§§0.5–0.8). Bounded M1 extraction/display fidelity is independently accepted; scientific-content qualification remains pending. The original handoff absent-file/`null` observation is superseded for this supplied input. Byte integrity is not scientific validity.
++**Current local observation:** actual core present; raw computed value matches the edition pin above; actual manifest/full inventory and bindings are verified (§§0.5–0.8). Bounded M1 extraction/display fidelity is independently accepted; §0.12 additionally accepts 17 definition/open-status representations while full scientific-content qualification remains pending. The original handoff absent-file/`null` observation is superseded for this supplied input. Byte integrity is not scientific validity.
+ 
+ Implement one admission path, used by source validation and release selection:
+ 
+@@ -1230,4 +1244,4 @@ The following external-source decisions are **retained from R2**, whose record s
+ | W10 | WIPO copyright protection: `https://www.wipo.int/en/web/copyright/protection` | Copyright's expression/idea distinction; not jurisdiction-specific legal advice or a royalty contract |
+ | W11 | Creative Commons BY-NC-SA 4.0: `https://creativecommons.org/licenses/by-nc-sa/4.0/` | Example of a non-commercial attribution/share-alike option and retained valid permissions; no license has been selected or granted here |
+ 
+-**End of sole forward implementation plan.** M0 engineering remains accepted (§0.5). M1 current private engineering and bounded independently read extraction/display fidelity are ACCEPTED (§0.10); M1 remains REVIEW_READY for full actual-content scientific/support qualification. Authorial, rights/privacy/identity and public-target gates remain separate and pending; currentSourceQualified remains false. M2 remains NOT_STARTED. Source revisions follow §0.3/§4.5. No public action is authorized by engineering evidence.
++**End of sole forward implementation plan.** M0 engineering remains accepted (§0.5). M1 predecessor engineering/fidelity is ACCEPTED (§0.10); 17 exact definition/open-status representations are ACCEPTED (§0.12). The dependency repair awaits separate review, 17 exact reviews and full scientific qualification remain pending, and M1 remains REVIEW_READY. Authorial, rights/privacy/identity and public-target gates remain separate and pending; currentSourceQualified remains false. M2 remains NOT_STARTED. Source revisions follow §0.3/§4.5. No public action is authorized by these receipts.
+diff --git a/research/publication/records.yaml b/research/publication/records.yaml
+index 565c8cd..d4d9543 100644
+--- a/research/publication/records.yaml
++++ b/research/publication/records.yaml
+@@ -1169,7 +1169,7 @@
+     "route": "/claims/UT-E12/",
+     "title": "Background state and interaction regime",
+     "description": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+-    "revision": 1,
++    "revision": 2,
+     "kind": "evidence",
+     "lang": "en",
+     "audience": "technical",
+@@ -1182,7 +1182,8 @@
+     ],
+     "dependsOn": [
+       "UT-D03",
+-      "UT-C01"
++      "UT-C01",
++      "UT-C02"
+     ],
+     "related": [],
+     "bibRefs": [
+diff --git a/research/publication/reviews.yaml b/research/publication/reviews.yaml
+index fe51488..6e78476 100644
+--- a/research/publication/reviews.yaml
++++ b/research/publication/reviews.yaml
+@@ -1 +1,138 @@
+-[]
++[
++  {
++    "entryId": "UT-D01",
++    "fingerprint": "2b11d180b37aebf72594020ab8ea03e82dd5c2f016f11fbf8ece97c674316434",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-D01"
++  },
++  {
++    "entryId": "UT-D02",
++    "fingerprint": "56d6769e4c9308a1401efcd74f2fd9cb2ac71fd1121f5784a6f175272e2f6008",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-D02"
++  },
++  {
++    "entryId": "UT-D03",
++    "fingerprint": "d1d486b56e70a743b66291b9c0d97e06e045588de21a87e6ce34c2ea42c18664",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-D03"
++  },
++  {
++    "entryId": "UT-D04",
++    "fingerprint": "3013fee568f20b443748926556511b021c068c00944a74bf4416cd5fa88a51c8",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-D04"
++  },
++  {
++    "entryId": "UT-D05",
++    "fingerprint": "1101957bd74aad3449fe99d119d4ef20509b5769039c7688a96cf3bbba7c6205",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-D05"
++  },
++  {
++    "entryId": "UT-D06",
++    "fingerprint": "4e8b499fe9efa16706e6f3e0f85713fba5f8e4b9e26935cd0ee62c04e33ae484",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-D06"
++  },
++  {
++    "entryId": "UT-D07",
++    "fingerprint": "e5bb1d5b382b104b610d2c4c3fffbde3ff7275d766d9c378c1052daef18cf241",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-D07"
++  },
++  {
++    "entryId": "UT-D08",
++    "fingerprint": "1fdd897601075ed397ae987d7e165a34e855b18facaebcd475094146c8848a09",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-D08"
++  },
++  {
++    "entryId": "UT-D09",
++    "fingerprint": "24aae31578c44a5b72b08f2556b3df14cf9dd1552432709c21c3ebb553c1e251",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-D09"
++  },
++  {
++    "entryId": "UT-C01",
++    "fingerprint": "47b0f53b8c6ae4cb6624a7712f72a3fcb1178761c0b93f985381fb693e229bbd",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-C01"
++  },
++  {
++    "entryId": "UT-C02",
++    "fingerprint": "ea4c92b92d6ed831120c08678d3a86e0cc69fb38d62f256a06398357e2780ebb",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-C02"
++  },
++  {
++    "entryId": "UT-O01",
++    "fingerprint": "8fd1b9c155f3edb5a86abe13895e4480609b8d06dd130e2a2f9687e0f14363d9",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-O01"
++  },
++  {
++    "entryId": "UT-O02",
++    "fingerprint": "df0c46358b6270b8ed7d1ce70b998aef92c07dbed189eaf29d66ee950611db64",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-O02"
++  },
++  {
++    "entryId": "UT-O03",
++    "fingerprint": "26d400af60bcfe31387c0fa683d75da509ff7ed771498cf771b4aa5b40fb7b84",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-O03"
++  },
++  {
++    "entryId": "UT-O04",
++    "fingerprint": "6bc4406c50e08d6b7875fb893ca5d26d28013444a7ad6a8da877e5262c76de6f",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-O04"
++  },
++  {
++    "entryId": "UT-O05",
++    "fingerprint": "643c6fbefee37cb0f24d4f7f73eda9756e00cbef5bf31d27a859470687f471ad",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-O05"
++  },
++  {
++    "entryId": "UT-O06",
++    "fingerprint": "361f2aa00ac833dbb625e2bb10606bd9356a326a6067ed7e074602df608f33f6",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-01",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m1/scientific-review/review-decisions.json#UT-O06"
++  }
++]
+diff --git a/tests/content/m1-review.test.ts b/tests/content/m1-review.test.ts
+index 4e9ee18..20c24a1 100644
+--- a/tests/content/m1-review.test.ts
++++ b/tests/content/m1-review.test.ts
+@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
+ import { cpSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
+ import { join } from 'node:path';
+ import { tmpdir } from 'node:os';
+-import { loadCanonicalCorpus, dependencyClosure, affectedEntries, reviewFingerprint } from '../../src/lib/content.js';
++import { loadCanonicalCorpus, dependencyClosure, affectedEntries, reviewFingerprint, reviewState } from '../../src/lib/content.js';
+ 
+ test('each additional-evidence mapping declares every core clause named by its actual excerpt', () => {
+   const corpus = loadCanonicalCorpus();
+@@ -33,7 +33,19 @@ test('the actual start explanation tracks emergent evidence, its support metadat
+   const before = reviewFingerprint(corpus,'DOC-START');
+   corpus.references.get('BIB-0016')!.supportScope += ' Isolated changed citation support.';
+   assert.notEqual(reviewFingerprint(corpus,'DOC-START'),before);
+-  assert.equal(corpus.reviews.length,0);
++  assert.equal(reviewState(corpus,'DOC-START'),'pending');
++});
++
++test('background-extension changes invalidate the actual E12 interpretation and its consumers', () => {
++  const corpus=loadCanonicalCorpus();
++  assert.ok(corpus.entries.get('UT-E12')!.dependsOn.includes('UT-C02'));
++  for(const id of ['UT-E12','DOC-START','DOC-STATUS','DOC-PROOF']) assert.ok(affectedEntries(corpus,'UT-C02').includes(id),id);
++  const before=reviewFingerprint(corpus,'UT-E12'),unrelated=reviewFingerprint(corpus,'UT-E10');
++  corpus.entries.get('UT-C02')!.scope+=' Isolated changed background-extension meaning.';
++  assert.notEqual(reviewFingerprint(corpus,'UT-E12'),before);
++  assert.equal(reviewFingerprint(corpus,'UT-E10'),unrelated);
++  assert.equal(reviewState(corpus,'UT-C02'),'stale');
++  assert.equal(reviewState(corpus,'UT-E12'),'pending');
+ });
+ 
+ test('review fingerprints track real URL, selection, style and pinned rendering dependency inputs', () => {
+diff --git a/tests/content/m1.test.ts b/tests/content/m1.test.ts
+index 3cb1d9d..a0f2f70 100644
+--- a/tests/content/m1.test.ts
++++ b/tests/content/m1.test.ts
+@@ -21,8 +21,13 @@ function syntheticAcceptedFixture() {
+ }
+ const release={releaseId:'synthetic-test-only',releaseAt:'2026-10-01T12:00:00.000Z',historicalIds:[],rights:[{id:'TEST-RIGHTS',outcome:'approved' as const,entryIds:['UT-D01'],evidenceRef:'synthetic scoped rights control'}]};
+ const config={...loadSiteConfig(),origin:'https://example.org',repository:{owner:'synthetic',name:'test'},publicAuthorization:true};
+-test('actual corpus extracts source bytes, preserves existing E mappings, and has zero accepted reviews',()=>{
+- assert.equal(corpus.entries.size,34);assert.equal(corpus.admission.currentSourceQualified,false);assert.equal(corpus.reviews.length,0);
++test('actual bounded representation reviews do not qualify the source or unreviewed support',()=>{
++ assert.equal(corpus.entries.size,34);assert.equal(corpus.admission.currentSourceQualified,false);
++ assert.equal(reviewState(corpus,'UT-D01'),'accepted');
++ assert.equal(reviewState(corpus,'UT-C01'),'accepted');
++ assert.equal(corpus.entries.get('UT-C01')!.evidenceState,'proposed');
++ for(const id of ['UT-E01','UT-E11','UT-E12','DOC-START','DOC-PROOF']) assert.equal(reviewState(corpus,id),'pending');
++ assert.equal(corpus.entries.get('UT-D01')!.publicationState,'draft');
+  assert.match(corpus.entries.get('UT-D01')!.statement!,/Geometry is not limited to visible Euclidean shape/);
+  assert.match(corpus.entries.get('UT-E01')!.sourceMapping,/E01 → UT-E01/);
+  assert.equal(corpus.sources.get('P-CURRENT-NOTE')!.authorityNoticeOnly,true);
+diff --git a/tests/content/revision-cli.test.ts b/tests/content/revision-cli.test.ts
+index a04dcda..0df0420 100644
+--- a/tests/content/revision-cli.test.ts
++++ b/tests/content/revision-cli.test.ts
+@@ -9,6 +9,7 @@ import { sha256,stableJSON } from '../../src/lib/identity.js';
+ test('real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals',()=>{
+   const fixture=mkdtempSync(join(tmpdir(),'unity-authoring-control-'));
+   const prior=join(fixture,'prior'),next=join(fixture,'next');
++  const originalReviews=readFileSync('research/publication/reviews.yaml');
+   const read=(root:string,path:string)=>JSON.parse(readFileSync(join(root,path),'utf8'));
+   const write=(root:string,path:string,value:unknown)=>writeFileSync(join(root,path),JSON.stringify(value,null,2)+'\n');
+   try {
+@@ -48,7 +49,7 @@ test('real revision CLI validates preserved editions and reports pending dependa
+     const command=[ '--import',resolve('node_modules/tsx/dist/loader.mjs'),resolve('scripts/check-source-revision.ts'),'--prior-root',prior,'--change',changePath,'--evidence-dir',join(fixture,'evidence') ];
+     let result=spawnSync(process.execPath,command,{cwd:next,encoding:'utf8'});assert.equal(result.status,0,result.stdout+result.stderr);
+     const receipt=read(fixture,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`);assert.equal(receipt.reviewOutcome,'pending');assert.ok(receipt.affected.some((e:{entryId:string})=>e.entryId==='DOC-HOME'));
+-    assert.deepEqual(read(next,'research/publication/reviews.yaml'),[]);
++    assert.deepEqual(readFileSync(join(next,'research/publication/reviews.yaml')),originalReviews);
+     change.sourceChangeRef='research/RRG_CURRENT/README.md';writeFileSync(changePath,JSON.stringify(change));
+     result=spawnSync(process.execPath,command,{cwd:next,encoding:'utf8'});assert.notEqual(result.status,0);assert.match(result.stderr,/SOURCE_REVISION_FAILURE/);
+     assert.notEqual(sha256(readFileSync(changePath)),receipt.changeSha256);
+@@ -84,6 +85,6 @@ test('real revision CLI validates preserved editions and reports pending dependa
+     result=coreInvoke(proofGate);assert.notEqual(result.status,0);assert.match(result.stderr,/CORE_PROOF_GATE_REQUIRED/);
+     result=coreInvoke({...proofGate,lockedStatement:'Geometry is not limited to visible Euclidean shape.'});assert.equal(result.status,0,result.stdout+result.stderr);
+     assert.equal(read(fixture,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`).reviewOutcome,'pending');
+-    assert.deepEqual(read(next,'research/publication/reviews.yaml'),[]);
++    assert.deepEqual(readFileSync(join(next,'research/publication/reviews.yaml')),originalReviews);
+   } finally {rmSync(fixture,{recursive:true,force:true});}
+ });
+diff --git a/tests/content/revision-inventory-cli.test.ts b/tests/content/revision-inventory-cli.test.ts
+index 4110188..aefa224 100644
+--- a/tests/content/revision-inventory-cli.test.ts
++++ b/tests/content/revision-inventory-cli.test.ts
+@@ -9,6 +9,7 @@ import {sha256,stableJSON} from '../../src/lib/identity.js';
+ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`real revision CLI accounts for both rename paths without inventing a core-byte change: ${member}`,()=>{
+  const temp=mkdtempSync(join(tmpdir(),'unity-revision-rename-'));
+  const prior=join(temp,'prior'),next=join(temp,'next');
++ const originalReviews=readFileSync('research/publication/reviews.yaml');
+  const read=(root:string,path:string)=>JSON.parse(readFileSync(join(root,path),'utf8'));
+  const write=(root:string,path:string,value:unknown)=>writeFileSync(join(root,path),JSON.stringify(value,null,2)+'\n');
+  try {
+@@ -51,7 +52,7 @@ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`rea
+   const changePath=join(temp,'change.json');
+   const invoke=(value:unknown)=>{writeFileSync(changePath,JSON.stringify(value));return spawnSync(process.execPath,['--import',resolve('node_modules/tsx/dist/loader.mjs'),resolve('scripts/check-source-revision.ts'),'--prior-root',prior,'--change',changePath,'--evidence-dir',join(temp,'evidence')],{cwd:next,encoding:'utf8'});};
+   let result=invoke(change);assert.equal(result.status,0,result.stdout+result.stderr);
+-  const receipt=read(temp,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`);assert.equal(receipt.reviewOutcome,'pending');assert.ok(receipt.affected.some((e:any)=>e.entryId==='DOC-HOME'));assert.deepEqual(read(next,'research/publication/reviews.yaml'),[]);
++  const receipt=read(temp,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`);assert.equal(receipt.reviewOutcome,'pending');assert.ok(receipt.affected.some((e:any)=>e.entryId==='DOC-HOME'));assert.deepEqual(readFileSync(join(next,'research/publication/reviews.yaml')),originalReviews);
+   // Neither old-only nor new-only accounting can hide a path transition.
+   for(const omit of [member,destination]) {
+    result=invoke({...change,affectedFiles:change.affectedFiles.filter(p=>p!==`${record.directory}/${omit}`)});
+diff --git a/tests/e2e/reading.spec.ts b/tests/e2e/reading.spec.ts
+index 47a1b4c..511bb84 100644
+--- a/tests/e2e/reading.spec.ts
++++ b/tests/e2e/reading.spec.ts
+@@ -72,18 +72,19 @@ test('unknown routes return real 404 and nested assets use the configured base',
+ });
+ 
+ 
+-test('M1 source-bound consumers retain status distinctions, source text, citations and pending review without JS', async ({ browser }) => {
++test('M1 consumers distinguish accepted definitions from pending support without JS', async ({ browser }) => {
+   const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:1280,height:900}});
+   const page=await context.newPage();
+   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'claims/UT-D01/');
+   await expect(page.locator('[data-canonical-body]')).toContainText('Geometry is not limited to visible Euclidean shape');
+   await expect(page.locator('.record-status')).toContainText('Definition');
+-  await expect(page.locator('.record-status')).toContainText('Pending');
++  await expect(page.locator('.record-status')).toContainText('Accepted');
+   await expect(page.locator('.record-status')).toContainText('Draft');
+   expect(await page.locator('math').count()).toBeGreaterThan(0);
+   await page.screenshot({path:`${evidence}/${suffix}-claim-definition.png`,fullPage:true});
+   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'claims/UT-E01/');
+   await expect(page.locator('.record-status')).toContainText('Source-reported evidence');
++  await expect(page.locator('.record-status')).toContainText('Pending');
+   await expect(page.locator('[data-canonical-body]')).toContainText('Designed, pumped fibre-laser system');
+   await page.locator('a[href*="references/#BIB-"]').first().click();
+   await expect(page.locator('h1')).toHaveText('Literature and sources');

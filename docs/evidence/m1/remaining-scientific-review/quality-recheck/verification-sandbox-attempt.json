@@ -1,0 +1,23 @@
+{
+  "status": "FAIL",
+  "stage": "outer tsx IPC before verify wrapper",
+  "failure": "EPERM: listen on local tsx IPC socket",
+  "reachedWrapperCommands": 0,
+  "notRun": [
+    "npm run check",
+    "npm run check:sources -- --scope history",
+    "npm run check:sources -- --scope current",
+    "npm run check:content",
+    "npm run test:content",
+    "npm run build -- --mode preview --config config/site.json --output dist/m1-remaining-review-quality/preview-root",
+    "npm run audit:output -- --dir dist/m1-remaining-review-quality/preview-root",
+    "npm run test:e2e -- --output dist/m1-remaining-review-quality/preview-root",
+    "npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m1-remaining-review-quality/preview-subpath",
+    "npm run audit:output -- --dir dist/m1-remaining-review-quality/preview-subpath",
+    "npm run test:e2e -- --output dist/m1-remaining-review-quality/preview-subpath"
+  ],
+  "log": "docs/evidence/m1/remaining-scientific-review/quality-recheck/verification-sandbox-attempt.log",
+  "logSha256": "94c06920667476167a573281e91b76ab14bd3804bcc4339b1a79d0163b05aaa7",
+  "supersededBy": "verification.json; authorized complete retry, original failure retained",
+  "scientificQualification": false
+}
