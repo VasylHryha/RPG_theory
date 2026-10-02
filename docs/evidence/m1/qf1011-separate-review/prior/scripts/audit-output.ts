@@ -83,21 +83,12 @@ export function auditOutput(directory: string) {
   }
   const fontRoot=join(dirname(createRequire(import.meta.url).resolve('katex/package.json')),'dist/fonts');
   const packagedFonts=new Set(filesIn(fontRoot).filter(path=>path.endsWith('.woff2')).map(path=>readFileSync(join(fontRoot,path)).toString('base64')));
-  const svgURLAttributes=['fill','stroke','filter','clip-path','mask','cursor','marker','marker-start','marker-mid','marker-end'];
-  function auditSVGStyles($: ReturnType<typeof load>, from: string) {
-    // SVG presentation attributes carry CSS URLs too, without a style attribute.
-    // Use the same normalized resource checks for inline and standalone SVG.
-    for(const el of $('*').toArray()) for(const attribute of svgURLAttributes) {
-      const value=$(el).attr(attribute);if(value!==undefined)auditCSS(value,from);
-    }
-  }
   for(const file of files) if(readFileSync(join(root,file)).includes(Buffer.from('DRAFT_SENTINEL_NOT_FOR_OUTPUT'))) throw new ContractError('DRAFT_LEAK',file);
   for (const file of files.filter(f => f.endsWith('.svg'))) {
     const raw = readFileSync(join(root, file), 'utf8');
     const $ = load(raw, { xmlMode: true });
     const tags = new Set(['svg', 'g', 'path', 'circle', 'ellipse', 'rect', 'line', 'polyline', 'polygon', 'title', 'desc']);
-    if (/<!DOCTYPE/i.test(raw) || $('svg').length !== 1 || $('*').toArray().some(el => 'attribs' in el && (!tags.has(el.name) || Object.keys(el.attribs).some(key => /^(?:on|href$|xlink:href$|style$|xml:base$)/i.test(key))))) throw new ContractError('UNSAFE_SVG', file);
-    auditSVGStyles($,withBase('/'+file,info.config.basePath));
+    if (/<!DOCTYPE/i.test(raw) || $('svg').length !== 1 || $('*').toArray().some(el => 'attribs' in el && (!tags.has(el.name) || Object.keys(el.attribs).some(key => /^(?:on|href$|xlink:href$|style$)/i.test(key))))) throw new ContractError('UNSAFE_SVG', file);
   }
   for (const file of files.filter(f => f.endsWith('.html'))) {
     const route = file === 'index.html' ? '/' : '/' + file.replace(/index\.html$/, '');
@@ -141,8 +132,7 @@ export function auditOutput(directory: string) {
       if(meta.length!==1 || meta.attr('content')!==value) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${file}: ${property}`);
     }
     if ($('.katex-error').length) throw new Error(`KaTeX error: ${file}`);
-    if ($('script,iframe,object,embed,foreignObject,base,style,noscript,animate,animateMotion,animateTransform,set').length || $('meta[http-equiv]').toArray().some(el=>$(el).attr('http-equiv')?.toLowerCase()==='refresh') || $('*').toArray().some(el => 'attribs' in el && Object.keys(el.attribs).some(key => /^(?:on|srcdoc$|ping$|autoplay$|xml:base$)/i.test(key)))) throw new ContractError('ACTIVE_OUTPUT', file);
-    auditSVGStyles($,from);
+    if ($('script,iframe,object,embed,foreignObject,base,style,noscript,animate,animateMotion,animateTransform,set').length || $('meta[http-equiv]').toArray().some(el=>$(el).attr('http-equiv')?.toLowerCase()==='refresh') || $('*').toArray().some(el => 'attribs' in el && Object.keys(el.attribs).some(key => /^(?:on|srcdoc$|ping$|autoplay$)/i.test(key)))) throw new ContractError('ACTIVE_OUTPUT', file);
     for (const el of $('*').toArray()) {
       for(const attribute of ['href','src','xlink:href','poster','background','action','formaction']) {
         const value=$(el).attr(attribute);

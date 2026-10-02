@@ -1,0 +1,420 @@
+{
+  "status": "PASS",
+  "baselineHead": "c819c10bc3142896e9ff658700a91507cf094467",
+  "branch": "main",
+  "remoteCount": 0,
+  "protectedTrackedFiles": 1504,
+  "protectedPriorEvidenceFiles": 1368,
+  "originalZipParityFiles": 13,
+  "priorTaskSnapshots": "exact",
+  "historicalPlanReceipts": "0.4-0.21 byte-identical",
+  "websiteRegistryAndIssuedReceipts": "unchanged",
+  "historicalScientificRegistry": "unchanged; isolated; deferred",
+  "soleLockfile": "unchanged",
+  "renderedNonBuildInfoFiles": "100 per base byte-identical",
+  "newRepair": "QF-12 REVIEW_READY; unaccepted",
+  "acceptedScope": "unchanged QF-10 and specifically demonstrated predecessor QF-11 controls",
+  "reviewStates": {
+    "accepted": 34,
+    "pending": 0,
+    "stale": 0,
+    "rejected": 0
+  },
+  "currentSourceQualified": true,
+  "newFidelityDecisions": "NONE",
+  "m2": "NOT_STARTED",
+  "publicActions": "NOT_RUN",
+  "productionInputs": {
+    "inputsSha256": "2c9d3a94a5d93f672a281df97399039bc924ca63705dfeb18506a16331048405",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "5de4f1c786035e5da80865cc8298bf747c187a87f807669f81c67ee578bacdb9"
+  },
+  "installedPinnedDependencies": 19,
+  "installedKatexWoff2Files": [
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_AMS-Regular.woff2",
+      "bytes": 28076,
+      "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Caligraphic-Bold.woff2",
+      "bytes": 6912,
+      "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Caligraphic-Regular.woff2",
+      "bytes": 6908,
+      "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Fraktur-Bold.woff2",
+      "bytes": 11348,
+      "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Fraktur-Regular.woff2",
+      "bytes": 11316,
+      "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Main-Bold.woff2",
+      "bytes": 25324,
+      "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Main-BoldItalic.woff2",
+      "bytes": 16780,
+      "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Main-Italic.woff2",
+      "bytes": 16988,
+      "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Main-Regular.woff2",
+      "bytes": 26272,
+      "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Math-BoldItalic.woff2",
+      "bytes": 16400,
+      "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Math-Italic.woff2",
+      "bytes": 16440,
+      "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_SansSerif-Bold.woff2",
+      "bytes": 12216,
+      "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_SansSerif-Italic.woff2",
+      "bytes": 12028,
+      "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_SansSerif-Regular.woff2",
+      "bytes": 10344,
+      "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Script-Regular.woff2",
+      "bytes": 9644,
+      "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Size1-Regular.woff2",
+      "bytes": 5468,
+      "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Size2-Regular.woff2",
+      "bytes": 5208,
+      "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Size3-Regular.woff2",
+      "bytes": 3624,
+      "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Size4-Regular.woff2",
+      "bytes": 4928,
+      "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+    },
+    {
+      "path": "node_modules/katex/dist/fonts/KaTeX_Typewriter-Regular.woff2",
+      "bytes": 13568,
+      "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+    }
+  ],
+  "taskFiles": [
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "bytes": 246569,
+      "sha256": "a14e46fa3117ccb86c6b3d6b3f7ed22779e43b9d0fcfbc56432be1d6d932abfc"
+    },
+    {
+      "path": "scripts/audit-output.ts",
+      "bytes": 14585,
+      "sha256": "3201392e611abeb98c43bf3928c676b992b13d1e05f364286b30a0eda0a0e5a0"
+    },
+    {
+      "path": "tests/content/contracts.test.ts",
+      "bytes": 29528,
+      "sha256": "2cb8f335763dced20efdba6c731873621d658e7311405c9c9bab19baeb125db9"
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/baseline.json",
+      "bytes": 301990,
+      "sha256": "4d63a710876ac2b8d41d1030d975646126bd5c27fd039ff17c3728d43819f31a"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/browser-loading-probes.json",
+      "bytes": 649,
+      "sha256": "53438b67614c64c5e6d1cdff4824b0120d03db3bf0d3e8632a99a143a9d367a9"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/browser-traces/root/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/browser-traces/subpath/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/content-bindings.json",
+      "bytes": 199937,
+      "sha256": "5ae86402ff9b8117169ec4dd195ff1e89aff37c49255a0c61dc8af054f5a8fc7"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/final-check-first-attempt.log",
+      "bytes": 1013,
+      "sha256": "6ecae9eecfb3a70e5f381c1a62fb8aa45fe1b205e6caa7ff9fe33592944b493d"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/final-check.log",
+      "bytes": 840,
+      "sha256": "3b853353182a74ee4e63852d2b9b29207e82e6f1b56858aa9e8ff1bc502283ff"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/final-check.ts",
+      "bytes": 7871,
+      "sha256": "bc7475fb1c28377cf7bb3d55f9a9ddbd8dd6b47865fc679a8593cc6e078f4ce6"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/final-checks.json",
+      "bytes": 19128,
+      "sha256": "1db6ce3e20adb5d81a41907fc4666717c2bc6d471bb8fd3311db8eb6fbd783fb"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/independent-engineering.json",
+      "bytes": 14621,
+      "sha256": "56919b1613b8b8bd39de970ccc2317c34837984de47fa4578cac1c411881e2f8"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/inspect.ts",
+      "bytes": 6054,
+      "sha256": "f182f92cef02b6bce2a3e13e989c8237a43a3f6bacb27ff8b76ba37dfdac3096"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/installed-dependencies.json",
+      "bytes": 3174,
+      "sha256": "4ca53cdf7a0368ff45ba4864e41f21279509261081ef60ae7a16a57110154709"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/loading-probe-authorized.log",
+      "bytes": 351,
+      "sha256": "28357fadfcecbf09239a7b076d56f7a0600986106d921f7a2b48ab773f908859"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/loading-probe-missing-browser.log",
+      "bytes": 446,
+      "sha256": "1601a6f8ed6c039b99f9291c6dee9cc2a4ffcbac85a21ff8bca26c0f5e875404"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/loading-probe.log",
+      "bytes": 597,
+      "sha256": "2504e0305069ffe048b31e8899880a7622cc1ff3ff49f5235589b937c67f4ca2"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/loading-probe.ts",
+      "bytes": 2010,
+      "sha256": "d719b0eef329c207d8f0a509184d8a2144217226b5616b122858b26023b00dca"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/preservation.py",
+      "bytes": 3673,
+      "sha256": "21c539e883bdc5a3ea23c5d48709d19a09b25a0ea496d231e06d3dc9e1ad773d"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/prior/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "bytes": 240205,
+      "sha256": "e2deaa8c9597b321e3739edca8e4044a18a2ac1c4fd66fa3427ce4d663c5c8ab"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/prior/final-check-first-attempt.ts",
+      "bytes": 7872,
+      "sha256": "c416eb2fced8a8ca9caf7921007234dfbc7cdccd6ecfcd3c70d965ec5b7683cd"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/prior/scripts/audit-output.ts",
+      "bytes": 13939,
+      "sha256": "2769f5aa5571c9fde47318c04cf9cf4afeb864e9fea500a1b133a1488f11fe63"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/prior/tests/content/contracts.test.ts",
+      "bytes": 27266,
+      "sha256": "1955088cd9f13b9e14b14055fb3d2ffde13932fb36ccc23c71ee69c020cf35e9"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/qualification-refusal.log",
+      "bytes": 1036,
+      "sha256": "8c31ca4bbad93382ffbd337d8c2e0b10a79a1402220472858ae295f12344e11b"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/record.py",
+      "bytes": 21416,
+      "sha256": "15158abaf9b29bd2f8be3df71f833411a36c8de03445a9271b9c8b3bd776b5ba"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/release-refusal.log",
+      "bytes": 1036,
+      "sha256": "8c31ca4bbad93382ffbd337d8c2e0b10a79a1402220472858ae295f12344e11b"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/review-receipt.md",
+      "bytes": 11387,
+      "sha256": "5fabff97b1f918f306e48dc2b1e57bdf62a2eaeac61a37dcc4bab6d67cc24420"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-artifact.json",
+      "bytes": 17264,
+      "sha256": "ddfddf5fe2322086015403a860dc514c95a45d6815dbb67439c2731f8fbf9f22"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-browser.json",
+      "bytes": 9344,
+      "sha256": "32d0755644c4b4a10a3c19b07ea46d74c887fec4d8cf7fa27c576cb7c0e7253e"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-claim-definition.png",
+      "bytes": 149754,
+      "sha256": "cca3db90c59cd7850e268df1d5b9e64f725d9158f813d323309942768122538e"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-evidence-source-details.png",
+      "bytes": 341636,
+      "sha256": "d96819aa263ea620c75ad231cf6e5051e442ab94e61cde0dcaaeb1436241405d"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-home-dark.png",
+      "bytes": 397552,
+      "sha256": "78175be5fb6240f356429e94ac786b766cd0879bc46e32837a07b01577a4e18c"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-home-desktop.png",
+      "bytes": 135192,
+      "sha256": "be37274e9ea02ce97a48ed798ef2655b6f062a8d4f5b6463ba3c6501704e4757"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-home-mobile.png",
+      "bytes": 368179,
+      "sha256": "b14e9a0239a8a4c11ba19b9f1ac0f15c37564a11e3f76fa57325434ee010ef7c"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-literature-desktop.png",
+      "bytes": 1286142,
+      "sha256": "13bad56b34b60f5d1694a7df3fd53df88d00e0c7fcc111c7ea678fbbd9ba83a7"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-literature-mobile.png",
+      "bytes": 1315172,
+      "sha256": "1137a30f7089854b6651e4906296d5515c5aa64931d6323c39f50b6a8ce7302f"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-math-mobile.png",
+      "bytes": 82725,
+      "sha256": "66a2fc8ea94be5d0bc44df90fe75df59466511027fd5123c97fcc16b41f03d0f"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-proof-matrix-mobile.png",
+      "bytes": 349929,
+      "sha256": "a27b76e41cd8f7e0d96f5812530976d1d1b3b7bd6f458b1c91cbc7246ed0206f"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/root-research-status.png",
+      "bytes": 561492,
+      "sha256": "35bbe971d9a98285d96f33eda94202149044ecada0d7371cc4adfca73731aa8f"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/seal.py",
+      "bytes": 4543,
+      "sha256": "007675c956f946d9b9280cc1f915b7c3f3ea4fefbdb815eb315913ae5e0f9b79"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-artifact.json",
+      "bytes": 17277,
+      "sha256": "1b5274d95b0b25ca73dd6d535d367a6b45f6f976139c8605ca8ccd035fed47af"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-browser.json",
+      "bytes": 9360,
+      "sha256": "323a0f477254e0333c23e2084b86d42158cb5dc73e8087edf42b05381d224998"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-claim-definition.png",
+      "bytes": 149754,
+      "sha256": "cca3db90c59cd7850e268df1d5b9e64f725d9158f813d323309942768122538e"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-evidence-source-details.png",
+      "bytes": 341636,
+      "sha256": "d96819aa263ea620c75ad231cf6e5051e442ab94e61cde0dcaaeb1436241405d"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-home-dark.png",
+      "bytes": 397552,
+      "sha256": "78175be5fb6240f356429e94ac786b766cd0879bc46e32837a07b01577a4e18c"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-home-desktop.png",
+      "bytes": 135192,
+      "sha256": "be37274e9ea02ce97a48ed798ef2655b6f062a8d4f5b6463ba3c6501704e4757"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-home-mobile.png",
+      "bytes": 368179,
+      "sha256": "b14e9a0239a8a4c11ba19b9f1ac0f15c37564a11e3f76fa57325434ee010ef7c"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-literature-desktop.png",
+      "bytes": 1286142,
+      "sha256": "13bad56b34b60f5d1694a7df3fd53df88d00e0c7fcc111c7ea678fbbd9ba83a7"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-literature-mobile.png",
+      "bytes": 1315172,
+      "sha256": "1137a30f7089854b6651e4906296d5515c5aa64931d6323c39f50b6a8ce7302f"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-math-mobile.png",
+      "bytes": 82725,
+      "sha256": "66a2fc8ea94be5d0bc44df90fe75df59466511027fd5123c97fcc16b41f03d0f"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-proof-matrix-mobile.png",
+      "bytes": 349929,
+      "sha256": "a27b76e41cd8f7e0d96f5812530976d1d1b3b7bd6f458b1c91cbc7246ed0206f"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/subpath-research-status.png",
+      "bytes": 561492,
+      "sha256": "35bbe971d9a98285d96f33eda94202149044ecada0d7371cc4adfca73731aa8f"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/verification-sandbox.log",
+      "bytes": 1018,
+      "sha256": "ff46fc19fda13b4bcfb35841516e045f0f5b7ad0e71ca41b5f44be1d55339a17"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/verification.json",
+      "bytes": 1490,
+      "sha256": "753b6ec8ada3e94392adc1dca8c50cc92d117c9d77717a6f5174a0579912aa03"
+    },
+    {
+      "path": "docs/evidence/m1/qf1011-separate-review/verification.log",
+      "bytes": 20536,
+      "sha256": "a39d622b0fa11ae04389ca0e78bb2f3330bbd13c3401695d1aacec4fc435964c"
+    }
+  ],
+  "sealSelfExcluded": true
+}

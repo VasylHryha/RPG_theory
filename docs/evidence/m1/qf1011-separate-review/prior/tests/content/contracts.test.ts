@@ -322,26 +322,3 @@ test('output audit inspects normalized CSS loading syntax in files and inline st
     writeFileSync(path,original.replace('</body>',markup+'</body>'));assert.throws(()=>auditOutput(directory),/UNSAFE_OUTPUT_URL|ACTIVE_OUTPUT/);
   }
 }));
-
-test('output audit checks SVG presentation URLs and refuses XML rebasing in inline and standalone SVG',()=>outputFixture(directory=>{
-  assert.equal(auditOutput(directory).status,'PASS');
-  const htmlPath=join(directory,'index.html'),svgPath=join(directory,'favicon.svg');
-  const originalHTML=readFileSync(htmlPath,'utf8'),originalSVG=readFileSync(svgPath,'utf8');
-  const inline=(markup:string)=>writeFileSync(htmlPath,originalHTML.replace('</body>',markup+'</body>'));
-  for(const attribute of ['fill','stroke','filter','clip-path','mask','cursor','marker','marker-start','marker-mid','marker-end']) {
-    const svg=`<svg xmlns="http://www.w3.org/2000/svg"><rect width="30" height="30" ${attribute}="url(https://remote.invalid/resource.svg)"/></svg>`;
-    inline(svg);assert.throws(()=>auditOutput(directory),/UNSAFE_OUTPUT_URL/);writeFileSync(htmlPath,originalHTML);
-    writeFileSync(svgPath,svg);assert.throws(()=>auditOutput(directory),/UNSAFE_OUTPUT_URL/);writeFileSync(svgPath,originalSVG);
-  }
-  for(const value of ['u\\72l(https://remote.invalid/paint.svg)','url(data:image/svg+xml,evil)','url(data:font/woff2;base64,d09GMg==)']) {
-    const svg=`<svg xmlns="http://www.w3.org/2000/svg"><rect fill="${value}"/></svg>`;
-    inline(svg);assert.throws(()=>auditOutput(directory),/UNSAFE_OUTPUT_URL/);writeFileSync(htmlPath,originalHTML);
-    writeFileSync(svgPath,svg);assert.throws(()=>auditOutput(directory),/UNSAFE_OUTPUT_URL/);writeFileSync(svgPath,originalSVG);
-  }
-  const rebased='<svg xmlns="http://www.w3.org/2000/svg" xml:base="https://remote.invalid/"><rect fill="url(favicon.svg)"/></svg>';
-  inline(rebased);assert.throws(()=>auditOutput(directory),/ACTIVE_OUTPUT/);writeFileSync(htmlPath,originalHTML);
-  writeFileSync(svgPath,rebased);assert.throws(()=>auditOutput(directory),/UNSAFE_SVG/);writeFileSync(svgPath,originalSVG);
-  const local='<svg><defs><linearGradient id="local-paint"><stop stop-color="green"/></linearGradient></defs><rect width="30" height="30" fill="url(#local-paint)" cursor="url(/unity-theory/favicon.svg), auto"/></svg>';
-  inline(local);assert.equal(auditOutput(directory).status,'PASS');
-  inline(local.replace('url(#local-paint)','u\\72l(#local-paint)'));assert.equal(auditOutput(directory).status,'PASS');
-}));

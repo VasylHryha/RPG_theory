@@ -1,0 +1,25 @@
+{
+  "browser": "153.0.8010.12",
+  "externalNetwork": "all remote.invalid requests intercepted and fulfilled locally; no external host contacted",
+  "results": [
+    {
+      "name": "inline-svg-filter",
+      "admittedByAuditor": "ADMITTED",
+      "interceptedAttemptedRequests": []
+    },
+    {
+      "name": "inline-svg-cursor",
+      "admittedByAuditor": "ADMITTED",
+      "interceptedAttemptedRequests": [
+        "https://remote.invalid/cursor.png"
+      ]
+    },
+    {
+      "name": "inline-svg-fill",
+      "admittedByAuditor": "ADMITTED",
+      "interceptedAttemptedRequests": [
+        "https://remote.invalid/paint.svg"
+      ]
+    }
+  ]
+}
