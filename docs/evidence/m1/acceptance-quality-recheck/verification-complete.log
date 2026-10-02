@@ -1,0 +1,173 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m1-acceptance-quality-recheck --evidence-dir docs/evidence/m1/acceptance-quality-recheck
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+14:45:59 [vite] Re-optimizing dependencies because vite config has changed
+14:46:00 [content] Syncing content
+14:46:00 [content] Synced content
+14:46:00 [types] Generated 1.38s
+14:46:00 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+Result (50 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+Running npm run check:sources -- --scope history
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope history
+
+{"status":"PASS","historicalFiles":14,"noticeTranscriptions":2,"authorityNoticeOnly":true}
+
+Running npm run check:sources -- --scope current
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope current
+
+{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":true,"qualificationBasis":"website-source-fidelity/1","files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01","sourceBoundEntries":31,"websiteFidelity":"accepted","scientificCertification":"out-of-scope"}
+
+Running npm run check:content
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts
+
+{"schema":"unity-content-check/1","status":"PASS","date":"2026-10-02T11:46:08.262Z","admission":{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":true,"qualificationBasis":"website-source-fidelity/1","files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01"},"entries":34,"affected":[],"reviewPurpose":"website-source-fidelity/1","scientificCertification":"out-of-scope","acceptedReviews":34,"reviewStates":{"accepted":34,"pending":0,"stale":0,"rejected":0}}
+
+Running npm run test:content
+
+> unity-theory@0.0.1 test:content
+> tsx --test tests/content/*.test.ts
+
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (2.555959ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (4.917291ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (1.33175ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (0.980333ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (0.998ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (4.836875ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (0.901208ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (1.933917ms)
+✔ silent edition-pin reset still fails (1.279791ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (2.475709ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.641875ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.491083ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (4410.464708ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (3986.254708ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (5495.645292ms)
+✔ artifact audit rejects false source identity and active SVG files (3338.575375ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (3.257625ms)
+✔ Markdown reference links/images share safety and base handling (2.505709ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (1.453542ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (111.735ms)
+✔ output audit rejects changed source-bound display, manifest substitutions and draft sentinels (2457.337458ms)
+✔ output audit binds bibliography text, destinations, support limits, status, projection and navigation (10249.534333ms)
+✔ output audit rejects multiply encoded local traversal (1736.692541ms)
+✔ document metadata comparison scopes the title to the head, preserving accessible SVG titles (1846.333792ms)
+✔ output audit rejects changed or duplicate social metadata, visible descriptions and private indexing controls (6516.916875ms)
+✔ output audit keeps all responsive, media, SVG and form loads local and refuses rebasing or redirects (9934.045791ms)
+✔ output audit inspects normalized CSS loading syntax in files and inline styles without bypassing data URLs (9387.307083ms)
+✔ each additional-evidence mapping declares every core clause named by its actual excerpt (1849.547375ms)
+✔ the actual start explanation tracks emergent evidence, its support metadata and current status (1002.88275ms)
+✔ background-extension changes invalidate the actual E12 interpretation and its consumers (1173.588208ms)
+✔ review fingerprints track real URL, selection, style and pinned rendering dependency inputs (1145.385042ms)
+✔ historical representation decisions do not populate website fidelity or qualify the source (99.618833ms)
+✔ independent statement, bad binding range/hash, wrong record kind, duplicates and unknown sources fail (194.267667ms)
+✔ source-scoped aliases keep historical S01 local; duplicates and unresolved aliases fail (58.40525ms)
+✔ source URL aliases preserve case-sensitive paths while DOI identity remains case insensitive (146.846167ms)
+✔ non-DOI citation identity preserves added or removed trailing path separators (203.163583ms)
+✔ missing or cyclic semantic dependency fails; related feedback does not create proof cycles (167.571208ms)
+✔ authority notes cannot supply scientific excerpts; invalid states and real dates fail (136.968708ms)
+✔ safe directives render actual canonical explanations, extract dependencies and reject executable/unknown syntax (2.106958ms)
+✔ dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local (154.885458ms)
+✔ changing a relevant source verification scope or relevant citation stales its review (193.703333ms)
+✔ shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights (695.693917ms)
+✔ one manifest excludes drafts from every production surface and rejects published draft dependencies (114.875708ms)
+✔ withdrawn history is explicitly selected as a tombstone; former body is removed (85.864916ms)
+✔ source display adapters preserve raw bindings while rendering status/math/table consumers (1271.49ms)
+✔ source revision transaction refuses missing prior-byte preservation and incomplete core proof gate (225.590083ms)
+✔ actual supplied 07 and 08 cannot disappear behind a matching core (9.313875ms)
+✔ a missing or mismatched actual local citation alias fails the source adapter (22.437917ms)
+✔ project reproduction cannot be asserted with an invented execution receipt (24.406292ms)
+✔ Markdown directive export uses ordinary links and leaves code examples untouched (1.979292ms)
+✔ statement directives are order-independent; nested references and cycles reach the shared graph (242.884375ms)
+✔ scientific identities cannot bypass proposal provenance or masquerade as documents (31.488333ms)
+✔ retained historical excerpts remain historical; supersession is reciprocal and draft history stays out of discovery (259.765791ms)
+✔ review rejection is distinct from pending; alternate citation review binds its primary metadata (45.0035ms)
+✔ source, bibliography, execution and renderer identity changes report or stale their actual dependants (105.3595ms)
+✔ actual status, proof and home summaries depend on their core definitions and emergent evidence (313.252209ms)
+✔ withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions (133.576ms)
+✔ bibliographic verification cannot retain a checked label after metadata substitution (47.177166ms)
+✔ release rejects future updates and reviews independently of the publication date (236.072292ms)
+✔ qualification uses reviewed production selection; a preview cannot be relabelled qualification (367.738209ms)
+✔ Markdown export validates safety, expands nested references and leaves math samples intact (169.373792ms)
+✔ directives cannot create nested anchors in link labels or Markdown exports (0.808167ms)
+✔ proposals display non-adoption and cannot supersede source-authoritative records (89.947834ms)
+✔ revision impact retains predecessor dependants when the next graph removes an edge (210.6045ms)
+✖ real home/start emit withdrawal tombstones through the shared consumer and output auditor (9511.732541ms)
+✔ real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals (9286.517708ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 04_status_and_blockers.md (6248.056375ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md (4095.782375ms)
+✔ intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate (1954.119209ms)
+✔ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (1039.202792ms)
+✔ bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision (1043.420625ms)
+✔ complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it (952.491375ms)
+✔ null, primitive and incomplete stale evidence fail with the intended typed diagnostic (815.480084ms)
+✔ review dates cannot predate the reviewed material, including dependency updates (835.126375ms)
+✔ receipt paths reject traversal, symlink files and symlink ancestors (686.087125ms)
+✔ review inputs independently capture rendered plain language and the actual home projection without aliasing (764.703458ms)
+✔ stale decisions retain internally coherent dates, source excerpts, dependencies and projection reads (6384.298792ms)
+✔ receipt paths reject control characters even when a matching regular file exists (354.39ms)
+✔ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (2668.824375ms)
+ℹ tests 79
+ℹ suites 0
+ℹ pass 78
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 63616.119
+
+✖ failing tests:
+
+test at tests/content/page-lifecycle.test.ts:9:1
+✖ real home/start emit withdrawal tombstones through the shared consumer and output auditor (9511.732541ms)
+  AssertionError [ERR_ASSERTION]: /Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:47
+        if (resource || url.protocol !== 'https:' || url.username || url.password) throw new ContractError('UNSAFE_OUTPUT_URL', href);
+                                                                                         ^
+  
+  ContractError: UNSAFE_OUTPUT_URL: data:font/woff2;base64,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
+      at targetOf (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:47:88)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:71:65)
+      at String.replace (<anonymous>)
+      at auditCSS (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:71:24)
+      at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:142:5)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:151:19)
+      at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+      at async node:internal/modules/esm/loader:643:26
+      at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+    code: 'UNSAFE_OUTPUT_URL'
+  }
+  
+  Node.js v24.18.0
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/page-lifecycle.test.ts:28:86)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

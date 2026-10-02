@@ -2,8 +2,7 @@ import { publicationFor, isHistorical } from '../src/lib/publication.js';
 import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState } from '../src/lib/presentation.js';
 import { renderEntrySync } from '../src/lib/content.js';
 import { readFileSync, existsSync, statSync, mkdirSync, writeFileSync } from 'node:fs';
-import { resolve, join, dirname } from 'node:path';
-import { createRequire } from 'node:module';
+import { resolve, join } from 'node:path';
 import { load } from 'cheerio';
 import { args } from './args.js';
 import { filesIn } from '../src/lib/source-admission.js';
@@ -61,28 +60,6 @@ export function auditOutput(directory: string) {
     }
     return target;
   }
-  function auditCSS(raw: string, from: string) {
-    // The private static slice emits ordinary declarations, local font URLs and
-    // KaTeX inline dimensions. Normalize CSS spelling before inspecting loads;
-    // unsupported loading forms fail closed instead of evading a url() regex.
-    const css=raw.replace(/\/\*[\s\S]*?\*\//g,'').replace(/\\\r?\n/g,'')
-      .replace(/\\(?:([\da-f]{1,6})(?:\r\n|[\t\n\f\r ])?|([^\r\n\f]))/gi,(_all,hex,character)=>hex?String.fromCodePoint(Math.min(parseInt(hex,16),0x10ffff)):character);
-    if(/@import\b|(?:-webkit-)?image-set\s*\(|\bimage\s*\(|\bexpression\s*\(|\/\*|\\/i.test(css)) throw new ContractError('UNSAFE_OUTPUT_CSS',from);
-    const urls=/\burl\s*\(\s*(?:"([^"]*)"|'([^']*)'|([^\s)'"\\]*))\s*\)/gi;
-    const consumed=css.replace(urls,(_all,double,single,bare)=>{
-      const value=double??single??bare;
-      // Astro embeds small KaTeX fonts. Admit only exact installed dependency
-      // bytes, never arbitrary data URLs or active SVG/HTML payloads.
-      if(value.startsWith('data:')) {
-        const font=value.match(/^data:font\/woff2;base64,([A-Za-z0-9+/]+={0,2})$/);
-        if(!font || !packagedFonts.has(font[1])) throw new ContractError('UNSAFE_OUTPUT_URL',value);
-      } else targetOf(value,from,true);
-      return '';
-    });
-    if(/\burl\s*\(/i.test(consumed)) throw new ContractError('UNSAFE_OUTPUT_CSS',from);
-  }
-  const fontRoot=join(dirname(createRequire(import.meta.url).resolve('katex/package.json')),'dist/fonts');
-  const packagedFonts=new Set(filesIn(fontRoot).filter(path=>path.endsWith('.woff2')).map(path=>readFileSync(join(fontRoot,path)).toString('base64')));
   for(const file of files) if(readFileSync(join(root,file)).includes(Buffer.from('DRAFT_SENTINEL_NOT_FOR_OUTPUT'))) throw new ContractError('DRAFT_LEAK',file);
   for (const file of files.filter(f => f.endsWith('.svg'))) {
     const raw = readFileSync(join(root, file), 'utf8');
@@ -99,15 +76,13 @@ export function auditOutput(directory: string) {
       const expected=load(renderEntrySync(selected.corpus,entry,info.config.basePath),null,false).html();
       const actual=$('[data-canonical-body]').filter((_i,el)=>$(el).attr('data-canonical-body')===entry.id);
       if (actual.length!==1 || normalizedHTML(actual.html() ?? '')!==normalizedHTML(expected)) throw new ContractError('CONTENT_PARITY_FAILURE',entry.id);
-      if($('head > title').length!==1 || $('head > title').text()!==`${entry.title} · Unity Theory` || $('head > meta[name="description"]').length!==1 || $('head > meta[name="description"]').attr('content')!==entry.description) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
+      if($('head > title').text()!==`${entry.title} · Unity Theory` || $('meta[name="description"]').attr('content')!==entry.description) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
       if($('h1').length!==1 || $('h1').text().replace(/\s+/g,' ').trim()!==entry.title.replace(/\s+/g,' ').trim()) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
       if(['DOC-HOME','DOC-START'].includes(entry.id) && !isHistorical(entry)) {
         const state=$('[data-editorial-state]').filter((_i,el)=>$(el).attr('data-editorial-state')===entry.id);
         if(state.length!==1 || normalizedHTML(state.html() ?? '')!==normalizedHTML(renderEditorialState(selected.corpus,entry))) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${entry.id}: editorial state`);
       }
       if(!['DOC-HOME','DOC-START'].includes(entry.id) || isHistorical(entry)) {
-        const lede=$('.article-lede');
-        if(lede.length!==1 || lede.text().replace(/\s+/g,' ').trim()!==entry.description.replace(/\s+/g,' ').trim()) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${entry.id}: visible description`);
         for(const [attribute,expectedHTML] of [['data-record-status',renderStatus(selected.corpus,entry)],['data-record-details',renderRecordDetails(selected.corpus,entry,info.config.basePath)]]) {
           const region=$(`[${attribute}]`).filter((_i,el)=>$(el).attr(attribute)===entry.id);
           if(region.length!==1 || normalizedHTML(region.html() ?? '')!==normalizedHTML(expectedHTML)) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${entry.id}: ${attribute}`);
@@ -122,36 +97,20 @@ export function auditOutput(directory: string) {
       if($('[data-bibliography]').length!==1 || normalizedHTML($('[data-bibliography]').html() ?? '')!==normalizedHTML(renderReferences(selected.references,selected.entries,info.config.basePath))) throw new ContractError('BIBLIOGRAPHY_PARITY_FAILURE','Literature text/destinations/scope/users');
     }
     if($('[data-publication-navigation]').length!==1 || normalizedHTML($('[data-publication-navigation]').html() ?? '')!==normalizedHTML(renderNavigation(selected,route,info.config.basePath))) throw new ContractError('NAVIGATION_PARITY_FAILURE',route);
-    const robots=$('head > meta[name="robots"]');
-    if ($('h1').length !== 1 || robots.length!==1 || !robots.attr('content')?.toLowerCase().split(/[\s,]+/).includes('noindex')) throw new ContractError('INVALID_PRIVATE_PAGE',file);
-    const canonical=$('head > link[rel="canonical"]');
-    if (canonical.length!==1 || canonical.attr('href') !== info.config.origin + from) throw new ContractError('CANONICAL_PARITY_FAILURE',file);
-    const socialTitle=entry?.title??$('head > title').text().replace(/ · Unity Theory$/,'');
-    for(const [property,value] of [['og:title',socialTitle],['og:description',$('head > meta[name="description"]').attr('content')],['og:url',info.config.origin+from]]) {
-      const meta=$(`head > meta[property="${property}"]`);
-      if(meta.length!==1 || meta.attr('content')!==value) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${file}: ${property}`);
-    }
+    if ($('h1').length !== 1 || !$('meta[name="robots"]').attr('content')?.includes('noindex')) throw new Error(`Invalid private page structure: ${file}`);
+    if ($('link[rel="canonical"]').attr('href') !== info.config.origin + from) throw new Error(`Canonical mismatch: ${file}`);
     if ($('.katex-error').length) throw new Error(`KaTeX error: ${file}`);
-    if ($('script,iframe,object,embed,foreignObject,base,style,noscript,animate,animateMotion,animateTransform,set').length || $('meta[http-equiv]').toArray().some(el=>$(el).attr('http-equiv')?.toLowerCase()==='refresh') || $('*').toArray().some(el => 'attribs' in el && Object.keys(el.attribs).some(key => /^(?:on|srcdoc$|ping$|autoplay$)/i.test(key)))) throw new ContractError('ACTIVE_OUTPUT', file);
-    for (const el of $('*').toArray()) {
-      for(const attribute of ['href','src','xlink:href','poster','background','action','formaction']) {
-        const value=$(el).attr(attribute);
-        if(value)targetOf(value,from,!($(el).is('a') && attribute==='href'));
-      }
-      for(const attribute of ['srcset','imagesrcset']) {
-        const value=$(el).attr(attribute);
-        if(value===undefined)continue;
-        for(const candidate of value.split(',')) {
-          const fields=candidate.trim().split(/\s+/);
-          if(!fields[0] || fields.length>2 || fields[1] && (!/^(?:[1-9]\d*w|\d+(?:\.\d+)?x)$/.test(fields[1]) || parseFloat(fields[1])<=0)) throw new ContractError('UNSAFE_OUTPUT_URL',value);
-          targetOf(fields[0],from,true);
-        }
-      }
-      const style=$(el).attr('style');if(style!==undefined)auditCSS(style,from);
+    if ($('script,iframe,object,embed,foreignObject').length || $('*').toArray().some(el => 'attribs' in el && Object.keys(el.attribs).some(key => /^on/i.test(key)))) throw new ContractError('ACTIVE_OUTPUT', file);
+    for (const el of $('a[href],link[href],img[src],script[src]').toArray()) {
+      const value = $(el).attr('href') ?? $(el).attr('src');
+      if (value) targetOf(value, from, el.tagName !== 'a');
     }
   }
   for (const file of files.filter(f => f.endsWith('.css'))) {
-    auditCSS(readFileSync(join(root,file),'utf8'),withBase('/'+file,info.config.basePath));
+    const css = readFileSync(join(root, file), 'utf8');
+    for (const match of css.matchAll(/url\((?:["']?)([^)'"\s]+)(?:["']?)\)/g)) {
+      if (!match[1].startsWith('data:')) targetOf(match[1], withBase('/' + file, info.config.basePath), true);
+    }
   }
   const inventory = files.map(path => { const raw = readFileSync(join(root, path)); return { path, bytes: raw.length, sha256: sha256(raw) }; });
   return { status: 'PASS', mode: info.mode, basePath: info.config.basePath, deployEligible: false, files: inventory, artifactSha256: sha256(stableJSON(inventory)) };

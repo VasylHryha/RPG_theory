@@ -1,0 +1,40 @@
+{
+  "purpose": "Isolated reached production output-audit probes; no real artifact or source changed",
+  "results": [
+    {
+      "name": "false-social-description",
+      "outcome": "ADMITTED",
+      "artifactSha256": "fa55c7d614f93170140934303945cfb3ed235c7920358ab2cfab784f32038b35"
+    },
+    {
+      "name": "false-visible-description",
+      "outcome": "ADMITTED",
+      "artifactSha256": "9e9c50db3c9ea450518f9b81f25cd95cd75c864c54421c7b7fd643cc2bcac06e"
+    },
+    {
+      "name": "remote-srcset",
+      "outcome": "ADMITTED",
+      "artifactSha256": "865cc792f02a8df2f463ab9c3d6b8380404d1d7294efa812b1d46fd7f6ccbfc1"
+    },
+    {
+      "name": "remote-media",
+      "outcome": "ADMITTED",
+      "artifactSha256": "784e5e87cc43a3e9db8b278e2bb691767675eca39d74ef838998e9b2ea3dd763"
+    },
+    {
+      "name": "remote-style-import",
+      "outcome": "ADMITTED",
+      "artifactSha256": "9561bf0e44bf5783f3fe5a574fab3be1ed142aac976ad950df482c63db97c71f"
+    },
+    {
+      "name": "remote-inline-style",
+      "outcome": "ADMITTED",
+      "artifactSha256": "0f0511a2a9b6080743857400e97c1c1e427f23e68c7385a9e36c98fd512e7500"
+    },
+    {
+      "name": "unsafe-refresh",
+      "outcome": "ADMITTED",
+      "artifactSha256": "9f6b2d3a9c0e7a0b9c8a3ec6181bd8b36a1c12abd03252b83b32e5d92b3d3456"
+    }
+  ]
+}

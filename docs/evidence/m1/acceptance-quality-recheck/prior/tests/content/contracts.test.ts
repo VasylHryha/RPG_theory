@@ -13,7 +13,7 @@ import { assertBuildAllowed } from '../../src/lib/publication.js';
 import { loadSiteConfig } from '../../src/lib/site-config.js';
 import { renderMarkdown } from '../../src/lib/markdown.js';
 import { auditOutput } from '../../scripts/audit-output.js';
-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
+import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, reviewLabel } from '../../src/lib/presentation.js';
 const privateRoutes=activePublication().manifest.routes;
 import { buildInputs, syntheticRoutes } from '../../src/lib/build-identity.js';
 
@@ -123,13 +123,11 @@ function outputFixture(run: (directory: string, info: ReturnType<typeof outputIn
       const entry=selected.entries.find(e=>e.route===route);
       let body=entry ? `<div data-canonical-body="${entry.id}">${renderEntrySync(selected.corpus,entry,info.config.basePath)}</div>` : '';
       if(entry && !['DOC-HOME','DOC-START'].includes(entry.id)) body+=`<div data-record-status="${entry.id}">${renderStatus(selected.corpus,entry)}</div><div data-record-details="${entry.id}">${renderRecordDetails(selected.corpus,entry,info.config.basePath)}</div>`;
-      if(entry && !['DOC-HOME','DOC-START'].includes(entry.id)) body+=`<p class="article-lede">${escapeHTML(entry.description)}</p>`;
       if(entry && ['DOC-HOME','DOC-START'].includes(entry.id)) body+=`<p data-editorial-state="${entry.id}">${renderEditorialState(selected.corpus,entry)}</p>`;
       if(entry?.id==='DOC-HOME') body+=`<div data-source-projection="DOC-STATUS">${renderHomeStatus(selected.corpus,selected.entries.find(e=>e.id==='DOC-STATUS')!,info.config.basePath)}</div>`;
       if(route==='/references/') body=`<div data-bibliography>${renderReferences(selected.references,selected.entries,info.config.basePath)}</div>`;
       mkdirSync(join(directory, file, '..'), { recursive: true });
-      const title=escapeHTML(entry ? entry.title+' · Unity Theory' : 'Isolated output fixture'),socialTitle=escapeHTML(entry?.title??'Isolated output fixture'),description=escapeHTML(entry?.description??''),url=info.config.origin+withBase(route,info.config.basePath);
-      writeFileSync(join(directory, file), `<html><head><title>${title}</title><meta name="description" content="${description}"><meta property="og:title" content="${socialTitle}"><meta property="og:description" content="${description}"><meta property="og:url" content="${url}"><meta name="robots" content="noindex"><link rel="canonical" href="${url}"></head><body><nav data-publication-navigation>${renderNavigation(selected,route,info.config.basePath)}</nav><h1 id="research-question">${escapeHTML(entry?.title ?? 'Isolated output fixture')}</h1>${body}</body></html>`);
+      writeFileSync(join(directory, file), `<html><head><title>${entry ? entry.title+' · Unity Theory' : 'Isolated output fixture'}</title><meta name="description" content="${entry?.description ?? ''}"><meta name="robots" content="noindex"><link rel="canonical" href="${info.config.origin}${withBase(route, info.config.basePath)}"></head><body><nav data-publication-navigation>${renderNavigation(selected,route,info.config.basePath)}</nav><h1 id="research-question">${entry?.title ?? 'Isolated output fixture'}</h1>${body}</body></html>`);
     }
     writeFileSync(join(directory, 'favicon.svg'), '<svg xmlns="http://www.w3.org/2000/svg"/>');
     writeFileSync(join(directory, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
@@ -253,72 +251,4 @@ test('output audit rejects multiply encoded local traversal',()=>outputFixture(d
 test('document metadata comparison scopes the title to the head, preserving accessible SVG titles',()=>outputFixture(directory=>{
  const path=join(directory,'index.html');writeFileSync(path,readFileSync(path,'utf8').replace('</body>','<svg role="img"><title>Illustration title</title><path d="M0 0"/></svg></body>'));
  assert.equal(auditOutput(directory).status,'PASS');
-}));
-
-test('output audit rejects changed or duplicate social metadata, visible descriptions and private indexing controls',()=>outputFixture(directory=>{
-  for(const [file,mutate,code] of [
-    ['index.html',(s:string)=>s.replace(/(<meta property="og:title" content=")[^"]*/,'$1Fabricated title'),'CONTENT_METADATA_PARITY_FAILURE'],
-    ['index.html',(s:string)=>s.replace(/(<meta property="og:description" content=")[^"]*/,'$1All forces proved'),'CONTENT_METADATA_PARITY_FAILURE'],
-    ['index.html',(s:string)=>s.replace(/(<meta property="og:url" content=")[^"]*/,'$1https://wrong.invalid/'),'CONTENT_METADATA_PARITY_FAILURE'],
-    ['index.html',(s:string)=>s.replace('</head>','<meta property="og:description" content="Extra claim"></head>'),'CONTENT_METADATA_PARITY_FAILURE'],
-    ['claims/UT-E01/index.html',(s:string)=>s.replace(/(<p class="article-lede">)[\s\S]*?(<\/p>)/,'$1Independent universal proof$2'),'CONTENT_METADATA_PARITY_FAILURE'],
-    ['claims/UT-E01/index.html',(s:string)=>s.replace('</body>','<p class="article-lede">Extra claim</p></body>'),'CONTENT_METADATA_PARITY_FAILURE'],
-    ['index.html',(s:string)=>s.replace('content="noindex"','content="notnoindex"'),'INVALID_PRIVATE_PAGE'],
-    ['index.html',(s:string)=>s.replace('</head>','<meta name="robots" content="index"></head>'),'INVALID_PRIVATE_PAGE'],
-    ['index.html',(s:string)=>s.replace('</head>','<link rel="canonical" href="https://wrong.invalid/"></head>'),'CANONICAL_PARITY_FAILURE']
-  ] as [string,(s:string)=>string,string][]) {
-    const path=join(directory,file),original=readFileSync(path,'utf8'),changed=mutate(original);
-    assert.notEqual(changed,original);writeFileSync(path,changed);
-    assert.throws(()=>auditOutput(directory),new RegExp(code));writeFileSync(path,original);
-  }
-}));
-
-test('output audit keeps all responsive, media, SVG and form loads local and refuses rebasing or redirects',()=>outputFixture(directory=>{
-  const path=join(directory,'index.html'),original=readFileSync(path,'utf8');
-  const insert=(markup:string)=>writeFileSync(path,original.replace('</body>',markup+'</body>'));
-  insert('<img src="/unity-theory/favicon.svg" srcset="/unity-theory/favicon.svg 1x, /unity-theory/favicon.svg 2x" alt="Local">');
-  assert.equal(auditOutput(directory).status,'PASS');
-  for(const [markup,code] of [
-    ['<img src="/unity-theory/favicon.svg" srcset="https://remote.invalid/tracker.png 2x" alt="Remote">','UNSAFE_OUTPUT_URL'],
-    ['<link rel="preload" imagesrcset="https://remote.invalid/tracker.png 320w">','UNSAFE_OUTPUT_URL'],
-    ['<video src="https://remote.invalid/tracker.mp4"></video>','UNSAFE_OUTPUT_URL'],
-    ['<video poster="https://remote.invalid/tracker.png"></video>','UNSAFE_OUTPUT_URL'],
-    ['<picture><source srcset="https://remote.invalid/tracker.png 1x"></picture>','UNSAFE_OUTPUT_URL'],
-    ['<svg><image href="https://remote.invalid/tracker.svg"/></svg>','UNSAFE_OUTPUT_URL'],
-    ['<svg><use xlink:href="https://remote.invalid/tracker.svg#x"/></svg>','UNSAFE_OUTPUT_URL'],
-    ['<form action="https://remote.invalid/submit"></form>','UNSAFE_OUTPUT_URL'],
-    ['<a href="https://example.org" ping="https://remote.invalid/tracker">Source</a>','ACTIVE_OUTPUT'],
-    ['<base href="https://remote.invalid/">','ACTIVE_OUTPUT'],
-    ['<meta http-equiv="refresh" content="0;url=https://remote.invalid/">','ACTIVE_OUTPUT'],
-    ['<noscript><img src="https://remote.invalid/tracker.png"></noscript>','ACTIVE_OUTPUT'],
-    ['<svg><set attributeName="href" to="https://remote.invalid/tracker.svg"/></svg>','ACTIVE_OUTPUT'],
-    ['<video autoplay></video>','ACTIVE_OUTPUT']
-  ]) {insert(markup);assert.throws(()=>auditOutput(directory),new RegExp(code));}
-}));
-
-test('output audit inspects normalized CSS loading syntax in files and inline styles without bypassing data URLs',()=>outputFixture(directory=>{
-  mkdirSync(join(directory,'_astro'));const cssPath=join(directory,'_astro/control.css');
-  writeFileSync(cssPath,'p{background:URL( "../favicon.svg" )}');assert.equal(auditOutput(directory).status,'PASS');
-  writeFileSync(cssPath,'p{background:u\\72 l(../favicon.svg)}');assert.equal(auditOutput(directory).status,'PASS');
-  const packagedFont=readFileSync('node_modules/katex/dist/fonts/KaTeX_SansSerif-Regular.woff2').toString('base64');
-  writeFileSync(cssPath,`@font-face{font-family:Local;src:url(data:font/woff2;base64,${packagedFont})}`);assert.equal(auditOutput(directory).status,'PASS');
-  for(const [css,code] of [
-    ['@import "https://remote.invalid/tracker.css";','UNSAFE_OUTPUT_CSS'],
-    ['@im\\70ort "https://remote.invalid/tracker.css";','UNSAFE_OUTPUT_CSS'],
-    ['@im/**/port "https://remote.invalid/tracker.css";','UNSAFE_OUTPUT_CSS'],
-    ['p{background:URL( "https://remote.invalid/tracker.png" )}','UNSAFE_OUTPUT_URL'],
-    ['p{background:u\\72l(https://remote.invalid/tracker.png)}','UNSAFE_OUTPUT_URL'],
-    ['p{background:url(data:image/svg+xml,evil)}','UNSAFE_OUTPUT_URL'],
-    ['p{background:url(data:text/html;base64,ZXZpbA==)}','UNSAFE_OUTPUT_URL'],
-    ['@font-face{src:url(data:font/woff2;base64,d09GMg==)}','UNSAFE_OUTPUT_URL'],
-    ['p{background:image-set("https://remote.invalid/tracker.png" 1x)}','UNSAFE_OUTPUT_CSS'],
-    ['p{background:-webkit-image-set("https://remote.invalid/tracker.png" 1x)}','UNSAFE_OUTPUT_CSS'],
-    ['p{background:url("unterminated)}','UNSAFE_OUTPUT_CSS']
-  ]) {writeFileSync(cssPath,css);assert.throws(()=>auditOutput(directory),new RegExp(code));}
-  writeFileSync(cssPath,'p{color:green}');
-  const path=join(directory,'index.html'),original=readFileSync(path,'utf8');
-  writeFileSync(path,original.replace('</body>','<span style="height:0.2em;top:-0.1em">Local dimensions</span></body>'));assert.equal(auditOutput(directory).status,'PASS');
-  for(const markup of ['<span style="background:url(https://remote.invalid/tracker.png)">Remote</span>','<span style="background:u\\72l(https://remote.invalid/tracker.png)">Remote</span>','<style>@import "https://remote.invalid/tracker.css";</style>']) {
-    writeFileSync(path,original.replace('</body>',markup+'</body>'));assert.throws(()=>auditOutput(directory),/UNSAFE_OUTPUT_URL|ACTIVE_OUTPUT/);
-  }
 }));

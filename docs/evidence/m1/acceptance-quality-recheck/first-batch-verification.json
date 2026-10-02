@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-02T11:27:26.176Z",
+  "mode": "preview",
+  "status": "FAIL",
+  "receipts": [
+    {
+      "command": "npm run check",
+      "exitCode": 1
+    }
+  ],
+  "notRun": [
+    "npm run check:sources -- --scope history",
+    "npm run check:sources -- --scope current",
+    "npm run check:content",
+    "npm run test:content",
+    "npm run build -- --mode preview --config config/site.json --output dist/m1-acceptance-quality-recheck/preview-root",
+    "npm run audit:output -- --dir dist/m1-acceptance-quality-recheck/preview-root",
+    "npm run test:e2e -- --output dist/m1-acceptance-quality-recheck/preview-root",
+    "npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m1-acceptance-quality-recheck/preview-subpath",
+    "npm run audit:output -- --dir dist/m1-acceptance-quality-recheck/preview-subpath",
+    "npm run test:e2e -- --output dist/m1-acceptance-quality-recheck/preview-subpath"
+  ],
+  "scientificContentAccepted": false,
+  "humanComprehension": "NOT_TESTED",
+  "publicDeployment": "NOT_RUN"
+}

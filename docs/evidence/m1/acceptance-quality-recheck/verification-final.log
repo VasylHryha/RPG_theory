@@ -1,0 +1,168 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m1-acceptance-quality-recheck --evidence-dir docs/evidence/m1/acceptance-quality-recheck
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+14:36:01 [content] Syncing content
+14:36:01 [content] Synced content
+14:36:01 [types] Generated 801ms
+14:36:01 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+Result (50 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+Running npm run check:sources -- --scope history
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope history
+
+{"status":"PASS","historicalFiles":14,"noticeTranscriptions":2,"authorityNoticeOnly":true}
+
+Running npm run check:sources -- --scope current
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope current
+
+{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":true,"qualificationBasis":"website-source-fidelity/1","files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01","sourceBoundEntries":31,"websiteFidelity":"accepted","scientificCertification":"out-of-scope"}
+
+Running npm run check:content
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts
+
+{"schema":"unity-content-check/1","status":"PASS","date":"2026-10-02T11:36:07.010Z","admission":{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":true,"qualificationBasis":"website-source-fidelity/1","files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01"},"entries":34,"affected":[],"reviewPurpose":"website-source-fidelity/1","scientificCertification":"out-of-scope","acceptedReviews":34,"reviewStates":{"accepted":34,"pending":0,"stale":0,"rejected":0}}
+
+Running npm run test:content
+
+> unity-theory@0.0.1 test:content
+> tsx --test tests/content/*.test.ts
+
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (1.721375ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (1.453917ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (7.178916ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (1.593708ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (1.384375ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (1.334958ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (1.085667ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (1.702ms)
+✔ silent edition-pin reset still fails (1.415083ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (1.870042ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.260542ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (0.30475ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (2278.2855ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (2464.311417ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (3908.106333ms)
+✔ artifact audit rejects false source identity and active SVG files (2203.63475ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (2.457416ms)
+✔ Markdown reference links/images share safety and base handling (2.353958ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (1.224584ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (69.693ms)
+✔ output audit rejects changed source-bound display, manifest substitutions and draft sentinels (1818.027875ms)
+✔ output audit binds bibliography text, destinations, support limits, status, projection and navigation (6125.332167ms)
+✔ output audit rejects multiply encoded local traversal (1324.7555ms)
+✔ document metadata comparison scopes the title to the head, preserving accessible SVG titles (1207.653583ms)
+✔ output audit rejects changed or duplicate social metadata, visible descriptions and private indexing controls (4830.2365ms)
+✔ output audit keeps all responsive, media, SVG and form loads local and refuses rebasing or redirects (7749.078666ms)
+✔ output audit inspects normalized CSS loading syntax in files and inline styles without bypassing data URLs (7866.347583ms)
+✔ each additional-evidence mapping declares every core clause named by its actual excerpt (926.656333ms)
+✔ the actual start explanation tracks emergent evidence, its support metadata and current status (612.896875ms)
+✔ background-extension changes invalidate the actual E12 interpretation and its consumers (583.378708ms)
+✔ review fingerprints track real URL, selection, style and pinned rendering dependency inputs (583.458708ms)
+✔ historical representation decisions do not populate website fidelity or qualify the source (47.820958ms)
+✔ independent statement, bad binding range/hash, wrong record kind, duplicates and unknown sources fail (65.844667ms)
+✔ source-scoped aliases keep historical S01 local; duplicates and unresolved aliases fail (36.959375ms)
+✔ source URL aliases preserve case-sensitive paths while DOI identity remains case insensitive (104.385291ms)
+✔ non-DOI citation identity preserves added or removed trailing path separators (92.78475ms)
+✔ missing or cyclic semantic dependency fails; related feedback does not create proof cycles (114.118458ms)
+✔ authority notes cannot supply scientific excerpts; invalid states and real dates fail (69.335167ms)
+✔ safe directives render actual canonical explanations, extract dependencies and reject executable/unknown syntax (2.284833ms)
+✔ dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local (85.094458ms)
+✔ changing a relevant source verification scope or relevant citation stales its review (185.06375ms)
+✔ shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights (366.404666ms)
+✔ one manifest excludes drafts from every production surface and rejects published draft dependencies (82.7775ms)
+✔ withdrawn history is explicitly selected as a tombstone; former body is removed (91.04925ms)
+✔ source display adapters preserve raw bindings while rendering status/math/table consumers (740.4595ms)
+✔ source revision transaction refuses missing prior-byte preservation and incomplete core proof gate (144.378041ms)
+✔ actual supplied 07 and 08 cannot disappear behind a matching core (5.520333ms)
+✔ a missing or mismatched actual local citation alias fails the source adapter (19.689916ms)
+✔ project reproduction cannot be asserted with an invented execution receipt (10.082542ms)
+✔ Markdown directive export uses ordinary links and leaves code examples untouched (1.655375ms)
+✔ statement directives are order-independent; nested references and cycles reach the shared graph (144.234208ms)
+✔ scientific identities cannot bypass proposal provenance or masquerade as documents (18.463584ms)
+✔ retained historical excerpts remain historical; supersession is reciprocal and draft history stays out of discovery (120.068334ms)
+✔ review rejection is distinct from pending; alternate citation review binds its primary metadata (50.554ms)
+✔ source, bibliography, execution and renderer identity changes report or stale their actual dependants (37.388958ms)
+✔ actual status, proof and home summaries depend on their core definitions and emergent evidence (177.301ms)
+✔ withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions (58.22475ms)
+✔ bibliographic verification cannot retain a checked label after metadata substitution (34.132417ms)
+✔ release rejects future updates and reviews independently of the publication date (119.332375ms)
+✔ qualification uses reviewed production selection; a preview cannot be relabelled qualification (263.521709ms)
+✔ Markdown export validates safety, expands nested references and leaves math samples intact (41.654959ms)
+✔ directives cannot create nested anchors in link labels or Markdown exports (0.753959ms)
+✔ proposals display non-adoption and cannot supersede source-authoritative records (64.837334ms)
+✔ revision impact retains predecessor dependants when the next graph removes an edge (73.58925ms)
+✖ real home/start emit withdrawal tombstones through the shared consumer and output auditor (4748.934875ms)
+✔ real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals (4793.479166ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 04_status_and_blockers.md (3084.589375ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md (2392.382167ms)
+✔ intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate (884.185416ms)
+✔ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (550.826417ms)
+✔ bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision (586.7335ms)
+✔ complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it (487.035ms)
+✔ null, primitive and incomplete stale evidence fail with the intended typed diagnostic (471.081083ms)
+✔ review dates cannot predate the reviewed material, including dependency updates (381.043ms)
+✔ receipt paths reject traversal, symlink files and symlink ancestors (382.018458ms)
+✔ review inputs independently capture rendered plain language and the actual home projection without aliasing (400.895417ms)
+✔ stale decisions retain internally coherent dates, source excerpts, dependencies and projection reads (4280.107167ms)
+✔ receipt paths reject control characters even when a matching regular file exists (270.00425ms)
+✔ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (1999.451542ms)
+ℹ tests 79
+ℹ suites 0
+ℹ pass 78
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 43672.482
+
+✖ failing tests:
+
+test at tests/content/page-lifecycle.test.ts:9:1
+✖ real home/start emit withdrawal tombstones through the shared consumer and output auditor (4748.934875ms)
+  AssertionError [ERR_ASSERTION]: /Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:119
+        if(meta.length!==1 || meta.attr('content')!==value) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${file}: ${property}`);
+                                                                  ^
+  
+  ContractError: CONTENT_METADATA_PARITY_FAILURE: 404.html: og:title
+      at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:119:65)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:150:19)
+      at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+      at async node:internal/modules/esm/loader:643:26
+      at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+    code: 'CONTENT_METADATA_PARITY_FAILURE'
+  }
+  
+  Node.js v24.18.0
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/page-lifecycle.test.ts:28:86)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,309 @@
+{
+  "status": "PASS",
+  "baselineHead": "34c66efb177d331b3093f167d869fd42819d6591",
+  "branch": "main",
+  "remoteCount": 0,
+  "protectedFiles": 1451,
+  "protectedScientificFiles": 13,
+  "protectedPriorEvidenceFiles": 1315,
+  "originalZipParityFiles": 13,
+  "previousTaskFiles": "exact prior snapshots preserved",
+  "earlierIssuedDecisionsAndEvidence": "byte-identical",
+  "earlierPlanReceipts": "byte-identical",
+  "scientificSources": "byte-identical",
+  "historicalScientificRegistry": "unchanged; deferred",
+  "websiteRegistryAndReceipts": "byte-identical",
+  "soleLockfile": "byte-identical",
+  "reviewStates": {
+    "accepted": 34,
+    "pending": 0,
+    "stale": 0,
+    "rejected": 0
+  },
+  "currentSourceQualified": true,
+  "newProductionAndTestRepairs": "QF-10/11 REVIEW_READY; unaccepted",
+  "m1": "REVIEW_READY for new audit repair; demonstrated predecessor acceptance preserved",
+  "m2": "NOT_STARTED",
+  "publicActions": "NOT_RUN",
+  "numericalQualityGrade": "NOT_ASSIGNED",
+  "taskFiles": [
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "bytes": 240205,
+      "sha256": "e2deaa8c9597b321e3739edca8e4044a18a2ac1c4fd66fa3427ce4d663c5c8ab"
+    },
+    {
+      "path": "scripts/audit-output.ts",
+      "bytes": 13939,
+      "sha256": "2769f5aa5571c9fde47318c04cf9cf4afeb864e9fea500a1b133a1488f11fe63"
+    },
+    {
+      "path": "tests/content/contracts.test.ts",
+      "bytes": 27266,
+      "sha256": "1955088cd9f13b9e14b14055fb3d2ffde13932fb36ccc23c71ee69c020cf35e9"
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/baseline.json",
+      "bytes": 287607,
+      "sha256": "451f1667a15bafae77e15bcbec4a188a36d6bc550d5da146bfd467f5b7beaa23"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/baseline.py",
+      "bytes": 1296,
+      "sha256": "48895fdcf959fc77e5177e26b7a24fe13a9c9431cafd506334c7a4b06f447833"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/browser-traces/root/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/browser-traces/subpath/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/content-bindings.json",
+      "bytes": 199937,
+      "sha256": "d7d453fd67ee23de53535af2638c289b32024f9f1b321448421c95f3470dfce7"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/final-check.ts",
+      "bytes": 5963,
+      "sha256": "d069a49979a996b35927c51eb9c33dea42e410b7509a3bdc393ae067d5b6e040"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/final-checks.json",
+      "bytes": 16129,
+      "sha256": "8cef3a9ce41ac7b88a9916941026a62fe9ace031312414b44fc5efef735682f8"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/first-batch-verification.json",
+      "bytes": 1056,
+      "sha256": "1a00ea356b35f0317f6b047b328a34813fe6b6325a90a648a8239c926e3e7691"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/post-repair-probes.json",
+      "bytes": 923,
+      "sha256": "cd3d08bcd08aa745b1c8e54e537454bd4696075628baf2e1486625dd03d903a3"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/pre-repair-probes.json",
+      "bytes": 1305,
+      "sha256": "555438618f7e5f2b30c65b1daa2cd1432c8129be30a796ed2ed868d7aa238c35"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/prior/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "bytes": 236299,
+      "sha256": "fc0fb1984ed3ef541975581b09f1765555345cd65d711576bacabcc07d527c7e"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/prior/scripts/audit-output.ts",
+      "bytes": 10598,
+      "sha256": "26c7dd9260e50d969d79b0451ae0bce85e1990855bc6fdc5f93b9519c95c2a48"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/prior/tests/content/contracts.test.ts",
+      "bytes": 20669,
+      "sha256": "2ad326140844875a26aca93481bb16d0bd1433a2bd293ac86cb78721a71c9d1f"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/probe.ts",
+      "bytes": 2686,
+      "sha256": "6e005ea8932321734629899a92c39cc5737b214ff5456874abcbe9d530dec3bd"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/qualification-refusal.log",
+      "bytes": 1036,
+      "sha256": "8c31ca4bbad93382ffbd337d8c2e0b10a79a1402220472858ae295f12344e11b"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/recheck-receipt.md",
+      "bytes": 9121,
+      "sha256": "a0b9f4dc8f9b6f6832c676db4ca37f0c02dc9cf23bee1bbcc3a500df5610dc31"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/record.py",
+      "bytes": 16595,
+      "sha256": "d6eb20bf70c30198f684c1b492748341802e1bc61e68d6887a6cc7a979cc2d64"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/release-refusal.log",
+      "bytes": 1036,
+      "sha256": "8c31ca4bbad93382ffbd337d8c2e0b10a79a1402220472858ae295f12344e11b"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-artifact.json",
+      "bytes": 17264,
+      "sha256": "c04d460dcd5ab840ff5ea5b3c0b4d050b967c103d41a22902b647a300a3eae38"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-browser.json",
+      "bytes": 9353,
+      "sha256": "ff8b91cc57b350cc46f5e417a5d3ccc9709399c4aa787dea315a73a58e233d2d"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-claim-definition.png",
+      "bytes": 149754,
+      "sha256": "cca3db90c59cd7850e268df1d5b9e64f725d9158f813d323309942768122538e"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-evidence-source-details.png",
+      "bytes": 341636,
+      "sha256": "d96819aa263ea620c75ad231cf6e5051e442ab94e61cde0dcaaeb1436241405d"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-home-dark.png",
+      "bytes": 397552,
+      "sha256": "78175be5fb6240f356429e94ac786b766cd0879bc46e32837a07b01577a4e18c"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-home-desktop.png",
+      "bytes": 135192,
+      "sha256": "be37274e9ea02ce97a48ed798ef2655b6f062a8d4f5b6463ba3c6501704e4757"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-home-mobile.png",
+      "bytes": 368179,
+      "sha256": "b14e9a0239a8a4c11ba19b9f1ac0f15c37564a11e3f76fa57325434ee010ef7c"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-literature-desktop.png",
+      "bytes": 1286142,
+      "sha256": "13bad56b34b60f5d1694a7df3fd53df88d00e0c7fcc111c7ea678fbbd9ba83a7"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-literature-mobile.png",
+      "bytes": 1315172,
+      "sha256": "1137a30f7089854b6651e4906296d5515c5aa64931d6323c39f50b6a8ce7302f"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-math-mobile.png",
+      "bytes": 82725,
+      "sha256": "66a2fc8ea94be5d0bc44df90fe75df59466511027fd5123c97fcc16b41f03d0f"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-proof-matrix-mobile.png",
+      "bytes": 349929,
+      "sha256": "a27b76e41cd8f7e0d96f5812530976d1d1b3b7bd6f458b1c91cbc7246ed0206f"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/root-research-status.png",
+      "bytes": 561492,
+      "sha256": "35bbe971d9a98285d96f33eda94202149044ecada0d7371cc4adfca73731aa8f"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/seal.py",
+      "bytes": 4101,
+      "sha256": "370972dd2b3fd198f413b15785371ff4769bc2f65f055d44bb08f68e33bb735b"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/second-batch-content-bindings.json",
+      "bytes": 199937,
+      "sha256": "fc81425227e92201f49dbcb449c74d2977714b59c04c72423e806d1716b92819"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/second-batch-verification.json",
+      "bytes": 1240,
+      "sha256": "673301e59edb40065fe16eb20ded05dfe28d8b12dd727b0f541c12b9bf5daab1"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-artifact.json",
+      "bytes": 17277,
+      "sha256": "52533ffc8bef5466b9b385d526113ca89a9fbd9dc4d9a0f5f3623dd01de46407"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-browser.json",
+      "bytes": 9358,
+      "sha256": "5a5a2067979e508f602ff597d1b7ac59811fc8b6d8a1cc56af42818efe9c4728"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-claim-definition.png",
+      "bytes": 149754,
+      "sha256": "cca3db90c59cd7850e268df1d5b9e64f725d9158f813d323309942768122538e"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-evidence-source-details.png",
+      "bytes": 341636,
+      "sha256": "d96819aa263ea620c75ad231cf6e5051e442ab94e61cde0dcaaeb1436241405d"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-home-dark.png",
+      "bytes": 397552,
+      "sha256": "78175be5fb6240f356429e94ac786b766cd0879bc46e32837a07b01577a4e18c"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-home-desktop.png",
+      "bytes": 135192,
+      "sha256": "be37274e9ea02ce97a48ed798ef2655b6f062a8d4f5b6463ba3c6501704e4757"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-home-mobile.png",
+      "bytes": 368179,
+      "sha256": "b14e9a0239a8a4c11ba19b9f1ac0f15c37564a11e3f76fa57325434ee010ef7c"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-literature-desktop.png",
+      "bytes": 1286142,
+      "sha256": "13bad56b34b60f5d1694a7df3fd53df88d00e0c7fcc111c7ea678fbbd9ba83a7"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-literature-mobile.png",
+      "bytes": 1315172,
+      "sha256": "1137a30f7089854b6651e4906296d5515c5aa64931d6323c39f50b6a8ce7302f"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-math-mobile.png",
+      "bytes": 82725,
+      "sha256": "66a2fc8ea94be5d0bc44df90fe75df59466511027fd5123c97fcc16b41f03d0f"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-proof-matrix-mobile.png",
+      "bytes": 349929,
+      "sha256": "a27b76e41cd8f7e0d96f5812530976d1d1b3b7bd6f458b1c91cbc7246ed0206f"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/subpath-research-status.png",
+      "bytes": 561492,
+      "sha256": "35bbe971d9a98285d96f33eda94202149044ecada0d7371cc4adfca73731aa8f"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/third-batch-verification.json",
+      "bytes": 1240,
+      "sha256": "ab7a278f8f2cb31d130d7340e7df6548a6a59ec73d9def5dce9f9ea3acee8886"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/verification-authorized.log",
+      "bytes": 930,
+      "sha256": "27b9c2aeaa806e84e8dc9cad53c1bee1b7c9f839474e26bb978c6e7596409087"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/verification-complete-final.log",
+      "bytes": 20495,
+      "sha256": "483b209bd7c334db58a05940eb216114762cd422583675b02e2fba8556158475"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/verification-complete.log",
+      "bytes": 17531,
+      "sha256": "32e4424e51f98325393cb8f03c344e4d2b4c3497183c2d3fa67f0abd3636c6c8"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/verification-final.log",
+      "bytes": 12304,
+      "sha256": "209ebe1821f25d87ac05945e6ff59106f8104aacd8ec1966c636eceb0bb66828"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/verification.json",
+      "bytes": 1514,
+      "sha256": "6470384a14c676c1277235f06293f92d36824e12afac60e4c5c8d038d1ab2663"
+    },
+    {
+      "path": "docs/evidence/m1/acceptance-quality-recheck/verification.log",
+      "bytes": 1026,
+      "sha256": "34fa63c88be3b7ea77f462d028ba42696d7937b3ea33961eae07be493e67fb38"
+    }
+  ],
+  "sealSelfExcluded": true
+}

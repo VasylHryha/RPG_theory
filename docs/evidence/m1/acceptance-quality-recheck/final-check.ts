@@ -1,0 +1,54 @@
+import assert from 'node:assert/strict';
+import {readFileSync,writeFileSync,existsSync} from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import {loadCanonicalCorpus,reviewFingerprint} from '../../../../src/lib/content.js';
+import {websiteReviewInputs,websiteReviewState} from '../../../../src/lib/website-review.js';
+import {auditOutput} from '../../../../scripts/audit-output.js';
+import {buildInputs} from '../../../../src/lib/build-identity.js';
+import {filesIn} from '../../../../src/lib/source-admission.js';
+import {stableJSON,sha256} from '../../../../src/lib/identity.js';
+const folder='docs/evidence/m1/acceptance-quality-recheck';
+const previous='docs/evidence/m1/separate-requalification-review';
+const json=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
+const c=loadCanonicalCorpus(),reads=json(`${previous}/independent-read-snapshots.json`);
+assert.equal(c.entries.size,34);assert.equal(c.admission.currentSourceQualified,true);
+const identityComparisons=[...c.entries.values()].map(e=>{
+ const old=reads.representations.find((r:any)=>r.id===e.id);
+ assert.equal(stableJSON(websiteReviewInputs(c,e.id)),stableJSON(old.inputs));
+ assert.equal(websiteReviewState(c,e.id),'accepted');
+ const review=c.websiteReviews.find(r=>r.entryId===e.id)!;assert.equal(review.fingerprint,reviewFingerprint(c,e.id));
+ assert.equal(sha256(readFileSync(review.evidenceRef)),review.evidenceSha256);
+ return {entryId:e.id,fingerprint:review.fingerprint,readSourcesDependenciesRenderedSurfaces:'unchanged',issuedDecision:'unchanged',currentState:'accepted'};
+});
+assert.equal(c.rendererSha256,json(`${previous}/final-checks.json`).renderer);
+const report=json(`${folder}/content-bindings.json`);assert.deepEqual(report.reviewStates,{accepted:34,pending:0,stale:0,rejected:0});
+const verification=json(`${folder}/verification.json`);assert.equal(verification.status,'PASS');assert.equal(verification.receipts.length,11);assert.ok(verification.receipts.every((r:any)=>r.exitCode===0));assert.deepEqual(verification.notRun,[]);
+const log=readFileSync(`${folder}/verification-complete-final.log`,'utf8').replace(/\x1b\[[0-9;]*m/g,'');
+const cases=[...log.matchAll(/^✔ (.+?) \([\d.]+ms\)$/gm)].map(m=>m[1]);assert.equal(cases.length,79);assert.equal(new Set(cases).size,79);assert.match(log,/ℹ fail 0/);
+const artifacts=['root','subpath'].map(base=>{
+ const directory=`dist/m1-acceptance-quality-recheck/preview-${base}`,audit=auditOutput(directory);
+ assert.equal(stableJSON(audit),stableJSON(json(`${folder}/${base}-artifact.json`)));
+ const old=json(`${previous}/${base}-artifact.json`);
+ assert.equal(stableJSON(audit.files.filter(f=>f.path!=='build-info.json')),stableJSON(old.files.filter((f:any)=>f.path!=='build-info.json')));
+ const browser=json(`${folder}/${base}-browser.json`);assert.equal(browser.stats.expected,7);for(const key of ['unexpected','skipped','flaky'])assert.equal(browser.stats[key],0);
+ const info=json(`${directory}/build-info.json`);assert.equal(info.deployEligible,false);assert.equal(info.currentSourceQualified,true);
+ return {directory,base:info.config.basePath,artifactSha256:audit.artifactSha256,files:audit.files.length,html:audit.files.filter(f=>f.path.endsWith('.html')).length,chromium:7,all100NonBuildInfoFiles:'byte-identical to accepted predecessor'};
+});
+const priorChecks=json(`${previous}/final-checks.json`);
+const retained=[...priorChecks.artifacts,...priorChecks.retained].map((a:any)=>{
+ const inventory=filesIn(a.directory).map(path=>{const raw=readFileSync(`${a.directory}/${path}`);return {path,bytes:raw.length,sha256:sha256(raw)};});
+ assert.equal(sha256(stableJSON(inventory)),a.artifactSha256);return {directory:a.directory,artifactSha256:a.artifactSha256,unchanged:true};
+});
+const before=json(`${folder}/pre-repair-probes.json`),after=json(`${folder}/post-repair-probes.json`);
+assert.equal(before.results.length,7);assert.ok(before.results.every((r:any)=>r.outcome==='ADMITTED'));
+const expected=['CONTENT_METADATA_PARITY_FAILURE','CONTENT_METADATA_PARITY_FAILURE','UNSAFE_OUTPUT_URL','UNSAFE_OUTPUT_URL','UNSAFE_OUTPUT_CSS','UNSAFE_OUTPUT_URL','ACTIVE_OUTPUT'];
+assert.equal(after.results.length,7);after.results.forEach((r:any,i:number)=>{assert.equal(r.name,before.results[i].name);assert.equal(r.outcome,'REFUSED');assert.equal(r.code,expected[i]);});
+const refusals=['qualification','release'].map(mode=>{
+ const output=`dist/m1-acceptance-quality-recheck/refused-${mode}`;assert.equal(existsSync(output),false);
+ const result=spawnSync(process.execPath,['--import','tsx','scripts/build.ts','--mode',mode,'--output',output],{encoding:'utf8'});
+ writeFileSync(`${folder}/${mode}-refusal.log`,result.stdout+result.stderr);assert.equal(result.status,1);assert.match(result.stderr,/CURRENT_SOURCE_NOT_QUALIFIED/);assert.equal(existsSync(output),false);
+ return {mode,exitCode:1,reason:'CURRENT_SOURCE_NOT_QUALIFIED',publishedSelection:'empty',outputCreated:false};
+});
+const result={status:'PASS',baselineHead:'34c66efb177d331b3093f167d869fd42819d6591',productionInputs:buildInputs(),renderer:c.rendererSha256,contracts:79,newGroupedRegressionCases:3,newNegativeSubcontrols:37,newPositiveSubcontrols:5,chromium:14,commands:11,artifacts,retained,identityComparisons,reviewStates:report.reviewStates,currentSourceQualified:true,probes:{before:before.results,after:after.results},refusals,scientificSources:'unchanged',historicalScientificAccounting:{accepted:19,pending:15},newRepairs:'REVIEW_READY; unaccepted',newFidelityDecisions:'NONE',m1:'REVIEW_READY for new auditor repair; demonstrated prior scope preserved',m2:'NOT_STARTED',publicActions:'NOT_RUN',numericalQualityGrade:'NOT_ASSIGNED'};
+writeFileSync(`${folder}/final-checks.json`,JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify({status:result.status,productionInputs:result.productionInputs,artifacts,contracts:79,chromium:14,retained:retained.length,reviewStates:result.reviewStates,newRepairs:result.newRepairs}));

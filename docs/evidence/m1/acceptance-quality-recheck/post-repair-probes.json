@@ -1,0 +1,40 @@
+{
+  "purpose": "Isolated reached production output-audit probes; no real artifact or source changed",
+  "results": [
+    {
+      "name": "false-social-description",
+      "outcome": "REFUSED",
+      "code": "CONTENT_METADATA_PARITY_FAILURE"
+    },
+    {
+      "name": "false-visible-description",
+      "outcome": "REFUSED",
+      "code": "CONTENT_METADATA_PARITY_FAILURE"
+    },
+    {
+      "name": "remote-srcset",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "name": "remote-media",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "name": "remote-style-import",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_CSS"
+    },
+    {
+      "name": "remote-inline-style",
+      "outcome": "REFUSED",
+      "code": "UNSAFE_OUTPUT_URL"
+    },
+    {
+      "name": "unsafe-refresh",
+      "outcome": "REFUSED",
+      "code": "ACTIVE_OUTPUT"
+    }
+  ]
+}
