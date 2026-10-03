@@ -1,0 +1,2004 @@
+{
+  "status": "EDITORIAL_CHECKED",
+  "purpose": "Website authoring and original-document fidelity; no scientific adjudication or acceptance",
+  "humanComprehension": "NOT_TESTED",
+  "authorApproval": "PENDING",
+  "independentFidelityApproval": "PENDING",
+  "documents": [
+    {
+      "entryId": "DOC-CONCEPT-GEOMETRY",
+      "words": 144,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "5a8cadd92bc6687999a8468d22e7fccebf1d9f5df3f6aa53b17c5e64764f52ab",
+        "ownRead": {
+          "id": "DOC-CONCEPT-GEOMETRY",
+          "route": "/concepts/geometry-and-modes/",
+          "title": "Geometry and mode structure",
+          "description": "Relationships, constraints and organized activity, before the formal RRG meanings.",
+          "revision": 3,
+          "kind": "concept",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD"
+          ],
+          "dependsOn": [
+            "UT-D01",
+            "UT-D02",
+            "UT-D03"
+          ],
+          "related": [],
+          "bibRefs": [],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "Beginner concept explanation mapped to original core §§1–3 and world §§1–2.",
+          "evidenceState": "not-applicable",
+          "body": "## In ordinary words\n\nGeometry describes how parts are arranged and related. Mode structure describes how they change and respond together. In RRG, both belong to the description of one organized system.\n\n## Try the string example\n\nA string's length and fixed ends constrain possible motion. Its tension and mass per unit length also matter. Arrangement and constraints do not magically provide the physical law. Read the [string illustration](/examples/string/).\n\nMode structure includes patterns, relative timing, responses and characteristic times. It is wider than a periodic vibration or one number in hertz. Activity can maintain an arrangement, transform it or destroy it.\n\n## The source meanings\n\n::claim{id=\"UT-D01\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D02\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D03\" view=\"plainLanguage\"}\n\nThe basic source object is $R=(G,M)$: $G$ denotes organization and $M$ its temporal mode structure. This is the framework's definition, not an extra independently established physical law.\n\nContinue with [stability](/concepts/stability/) or [all concepts](/concepts/).\n",
+          "sourceMapping": "Core §§1–3; world §§1–2. Material and force conditions remain necessary for the string illustration.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "026e67efb1aed254ed43d960e3505ebdf5909eb76a85f5497645b0cb577b8bdd",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "c137385cc01a9d53420586f8bc98aa576b7ce5a57c818caf3568df3ef3c25205",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-CONCEPT-INTERACTIONS",
+      "words": 298,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "89623c9200e9036069f57a0a3e76261a67c5db23967163edfe0186a3ac8fef4a",
+        "ownRead": {
+          "id": "DOC-CONCEPT-INTERACTIONS",
+          "route": "/concepts/effective-interactions/",
+          "title": "When organization changes interactions",
+          "description": "The source-reported cases and the conditional question about further organization.",
+          "revision": 1,
+          "kind": "concept",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-SCIENCE",
+            "R-CURRENT-INTERACTIONS",
+            "R-CURRENT-ADDITIONAL"
+          ],
+          "dependsOn": [
+            "DOC-PROOF",
+            "DOC-STATUS",
+            "UT-C01",
+            "UT-C02",
+            "UT-D01",
+            "UT-D02",
+            "UT-D03",
+            "UT-D05",
+            "UT-E10",
+            "UT-E11",
+            "UT-E12"
+          ],
+          "related": [],
+          "bibRefs": [],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "Deeper explanation of source-reported interaction evidence and the conditional higher-organization extension.",
+          "evidenceState": "not-applicable",
+          "body": "## In ordinary words\n\nAn effective interaction is part of a description of a collective system. Existing organization can make a coupling channel useful, accessible or important. RRG asks when such a channel could help another organization persist.\n\n## Three distinct source-reported cases\n\nThe supplied interaction addendum describes these cases:\n\n- **Crystal vibrations:** in the stated conventional-superconductivity regime, collective lattice vibrations can mediate effective electron attraction, allowing pairing and superconducting order. See :claim[UT-E10].\n- **Spin ice:** collective magnetic constraints support particle-like excitations and Coulomb-like effective interactions. See :claim[UT-E11].\n- **A changed background:** the Higgs-field state changes the particle spectrum and the low-energy electroweak interaction regime. See :claim[UT-E12].\n\nThese are the source's evidence descriptions. They concern different systems and conditions, rather than three instances already proving an identical universal mechanism. The additional-evidence register likewise describes domain-specific realizations, with each paper's access and scope limits retained.\n\n## The proposed relation\n\nThe source's stronger extension is:\n\n$$R_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}.$$\n\nHere $n$ labels a descriptive level; $R_n$ is its organized system, $G_n$ its geometry and $M_n$ its full temporal mode structure. $\\mathcal I^{\\rm eff}_{n+1}$ denotes an effective interaction channel generated, activated or made dominant through that organization. $R_{n+1}$ is a candidate further organized system. The arrows express the proposed relationship, not a derived quantitative law.\n\nThe crystal example motivates the link to another organized state. The changed-background example illustrates a different link: a background altering an interaction regime. The broader question is under which conditions a channel actually enables or stabilizes a higher organization.\n\n## What remains open\n\nThe sources do not derive gravity or identify the four fundamental interactions with four successive RRG levels. Universal derivation, useful cross-domain criteria and novel predictions remain open. The original [research status](/research-status/) and [proof matrix](/research-status/proof-matrix/) retain those distinctions.\n\n[Return to the introduction](/start/) · [All concepts](/concepts/)\n",
+          "sourceMapping": "Core §§10–11; interaction addendum §§1–5; framework §§19–24 and escaped emergent-interaction addendum; proof matrix and additional register conventions.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "DOC-PROOF",
+            "semanticDigest": "fb22d049247764c3dfa7f633343998a57a384e56fe845428af01c216ea5809ef"
+          },
+          {
+            "entryId": "DOC-STATUS",
+            "semanticDigest": "86fad31a9e5cb5bffec60a6dd1f499baba2fe4ca9a126dfb0251d4ca6156bb96"
+          },
+          {
+            "entryId": "UT-C01",
+            "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+          },
+          {
+            "entryId": "UT-C02",
+            "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+          },
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D04",
+            "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+          },
+          {
+            "entryId": "UT-D05",
+            "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+          },
+          {
+            "entryId": "UT-D06",
+            "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+          },
+          {
+            "entryId": "UT-D07",
+            "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+          },
+          {
+            "entryId": "UT-D08",
+            "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+          },
+          {
+            "entryId": "UT-D09",
+            "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+          },
+          {
+            "entryId": "UT-E10",
+            "semanticDigest": "bf6c7fe5c04cc0deb41a17ec382c833d1f02f792cb724c12c44f51865fb94ce4"
+          },
+          {
+            "entryId": "UT-E11",
+            "semanticDigest": "3f79a043989d7fc132b42e2752c79ba9b981a5b57f23b4f974ce0bd47d3b0618"
+          },
+          {
+            "entryId": "UT-E12",
+            "semanticDigest": "8ff4fc8f803df64283181f379facdb5416c0da2ea6227b3dc9ddf8e8ee8a2af9"
+          },
+          {
+            "entryId": "UT-O01",
+            "semanticDigest": "143d62f3c851611a94a1c589edf8b35dae2db98648b945f3eff6d68f5e239afa"
+          },
+          {
+            "entryId": "UT-O02",
+            "semanticDigest": "3227556784446bbaa965fbdf137f6fea105b4da56e09da8bfa2ca894db731281"
+          },
+          {
+            "entryId": "UT-O03",
+            "semanticDigest": "3b13d9ce648b24b74cc347f5c38f2baba31188ebff21092299f1dd7ffc92dd1a"
+          },
+          {
+            "entryId": "UT-O04",
+            "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950"
+          },
+          {
+            "entryId": "UT-O05",
+            "semanticDigest": "cfee06326b8537fbaf7f2f5c63ec2e23bf7a6829d2ce11e5937ae9ebf05de9ab"
+          },
+          {
+            "entryId": "UT-O06",
+            "semanticDigest": "5f804ae9cd490d3b6d391d8ac95fbebebb0be57e94b0801792631d5f42443fa6"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-ADDITIONAL",
+            "path": "research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+            "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+          },
+          {
+            "sourceKey": "R-CURRENT-CONTROL",
+            "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+            "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+          },
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-INTERACTIONS",
+            "path": "research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md",
+            "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+          },
+          {
+            "sourceKey": "R-CURRENT-PROOF",
+            "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+            "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-STATUS",
+            "path": "research/RRG_CURRENT/04_status_and_blockers.md",
+            "sha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "5c54976b881f63664527a7e12a629584b518b475447f02549d20f1e8d91b22c3",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "0cd8962cbd96399fe804d617aaef8caff644bff6b61e5fe9ca1aca75a7f837d9",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-CONCEPT-RECURSION",
+      "words": 223,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "a320d94d385af6dc59d340a4c6b9cba3bf72d4598c114b86b666e08db78d8c1b",
+        "ownRead": {
+          "id": "DOC-CONCEPT-RECURSION",
+          "route": "/concepts/recursion/",
+          "title": "Recursion and scale",
+          "description": "A whole can become a useful part while its components stay active.",
+          "revision": 1,
+          "kind": "concept",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD",
+            "R-CURRENT-SCIENCE"
+          ],
+          "dependsOn": [
+            "UT-C02",
+            "UT-D05",
+            "UT-D06",
+            "UT-D08",
+            "UT-D09",
+            "UT-O04"
+          ],
+          "related": [],
+          "bibRefs": [],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+          "evidenceState": "not-applicable",
+          "body": "## In ordinary words\n\nAn organized whole can participate in another organization. Its internal activity continues even when the next description treats it as one useful unit. RRG calls this structural recursion.\n\n## A concrete example\n\nThe [molecule example](/examples/molecule/) begins with atoms and their connections. A molecule can enter a larger chemical arrangement. A [cell](/examples/cell/) can participate in a tissue while exchanges and reactions continue inside it. These systems have different mechanisms; the shared description does not require identical equations at every scale.\n\n**Scale** means a level at which a collective organization can function as an effective unit in further interactions. It involves characteristic times, dominant interactions and useful descriptions, as well as size. It is not a claim that all levels are equally spaced or every larger process is slower.\n\n## The source definitions\n\n::claim{id=\"UT-D05\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D06\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D08\" view=\"plainLanguage\"}\n\nThe proposed cycle is compatible parts → collective organization → a useful unit → further combinations. Its environment can also change which combinations are accessible. The cycle illustration represents a research proposal, not a measurement or guaranteed history.\n\n## Copying is one possible mechanism\n\n::claim{id=\"UT-D09\" view=\"plainLanguage\"}\n\nReplication, aggregation and self-assembly can participate in formation or propagation. Duplication is optional in the locked core. The stronger questions of a predictive cross-domain criterion and spontaneous promotion remain open.\n\n[Explore effective interactions](/concepts/effective-interactions/) · [All concepts](/concepts/)\n",
+          "sourceMapping": "Core §§5–9, 11; world §§4, 8–9, 14 and background addendum; framework §§3, 15–16, 22–23.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "UT-C02",
+            "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+          },
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D05",
+            "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+          },
+          {
+            "entryId": "UT-D06",
+            "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+          },
+          {
+            "entryId": "UT-D07",
+            "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+          },
+          {
+            "entryId": "UT-D08",
+            "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+          },
+          {
+            "entryId": "UT-D09",
+            "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+          },
+          {
+            "entryId": "UT-O04",
+            "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-PROOF",
+            "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+            "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-STATUS",
+            "path": "research/RRG_CURRENT/04_status_and_blockers.md",
+            "sha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "33ec81d2d8454f3cd1693e4fc3c90bf79050cd9e40f4e576eabc14f92a090a5c",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "1fc42ccb8d1272855f18ec6b9d0fbd518c00ce078bbbf57b04f233fb6ba12b07",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-CONCEPT-STABILITY",
+      "words": 216,
+      "wordingCandidates": [
+        {
+          "rule": "stability-theorem",
+          "excerpt": "ng. A self-consistency definition is not an independently established universal stability theorem.\n\n## The source definition\n\n::claim{id=\"UT-D04\" view=\"statement\"}\n\nHe",
+          "requiresContextReview": true
+        }
+      ],
+      "inputs": {
+        "fingerprint": "f1775f2a2e0cd5505709353ea2714c8bd4ee2d47df7962d4a8687f9c0c160cce",
+        "ownRead": {
+          "id": "DOC-CONCEPT-STABILITY",
+          "route": "/concepts/stability/",
+          "title": "Stability: what persists?",
+          "description": "The RRG definition and the measurements used to test particular systems.",
+          "revision": 1,
+          "kind": "concept",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-SCIENCE"
+          ],
+          "dependsOn": [
+            "UT-D03",
+            "UT-D04"
+          ],
+          "related": [],
+          "bibRefs": [],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+          "evidenceState": "not-applicable",
+          "body": "## In ordinary words\n\nAn organization can persist while activity continues inside it. In the supplied core, stability means that geometry and mode structure form a self-consistent closed organization during the interval in question. Persistence may be short or long.\n\n## Compare the questions\n\nA molecule can be considered over a particular lifetime; a living cell needs ongoing exchanges. To test a specified model, we may measure how long a state lasts, how it responds to a perturbation or whether nearby states approach it.\n\n**Bounded persistence** asks whether the chosen organization remains within stated limits over an interval. **Recovery** asks whether it returns after a disturbance. **Attraction** asks whether nearby states tend toward it. These describe different tests; observing one is not automatically a result about the others.\n\nThe framework allows different mathematical tests for different systems. They do not replace its locked meaning. A self-consistency definition is not an independently established universal stability theorem.\n\n## The source definition\n\n::claim{id=\"UT-D04\" view=\"statement\"}\n\nHere $G$ denotes organization and $M$ the full temporal mode structure. Their reciprocal relation is the RRG definition being used. A particular application still needs its conditions, equations and evidence; the definition alone does not give a numerical threshold.\n\n## Continue the question\n\nCompare the [cell example](/examples/cell/) with [recursion and scale](/concepts/recursion/). Return to [all concepts](/concepts/).\n",
+          "sourceMapping": "Core §4 and framework §§2.4, 3 proposition 2, 13. The persistence/recovery/attraction comparison explains distinct measurements without redefining source stability.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D04",
+            "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "01dc34fee23953cc47ca4eac2452d920fe8f0ab56b2897b285172e6ff9ec95ce",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "233aa4b09d862ad48bef24380acf9d92af7fabd0e77ffd43a08f8c4cab14b0eb",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-CONCEPTS",
+      "words": 100,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "c0d15d1a26b978d2752a6f911756ddafa1343a015cf9bf4d0299ac122034f169",
+        "ownRead": {
+          "id": "DOC-CONCEPTS",
+          "route": "/concepts/",
+          "title": "The concepts, in ordinary words",
+          "description": "From organization and activity to the source definitions.",
+          "revision": 1,
+          "kind": "concept",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD"
+          ],
+          "dependsOn": [
+            "DOC-CONCEPT-GEOMETRY",
+            "DOC-CONCEPT-INTERACTIONS",
+            "DOC-CONCEPT-RECURSION",
+            "DOC-CONCEPT-STABILITY"
+          ],
+          "related": [],
+          "bibRefs": [],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+          "evidenceState": "not-applicable",
+          "body": "## Begin with arrangement and activity\n\n[Geometry and modes](/concepts/geometry-and-modes/) explains relationships, constraints and organized change before introducing the symbols.\n\n## Ask what it means to persist\n\n[Stability](/concepts/stability/) separates the RRG closure definition from lifetime, recovery and attraction measurements.\n\n## Follow a whole into further organization\n\n[Recursion and scale](/concepts/recursion/) explains internally active parts, different roles and why replication is optional.\n\n## Connect organization to interactions\n\n[Effective interactions](/concepts/effective-interactions/) follows the supplied evidence cases and the stronger open research question.\n\nThe original [core definition records](/claims/UT-D01/) remain the authority for meanings. For a continuous reading path, [start with the idea](/start/) or [choose an example](/examples/).\n",
+          "sourceMapping": "Editorial index of the four mapped concept explanations.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "DOC-CONCEPT-GEOMETRY",
+            "semanticDigest": "d9af315315087e7d95bdd374b4fdb245a301cbc91a7ce9dc31956428c82c0960"
+          },
+          {
+            "entryId": "DOC-CONCEPT-INTERACTIONS",
+            "semanticDigest": "8a433b6de6cebce0ce28642e2b799fb0bf930b0d3821e5c09ccf66ba19b2f97e"
+          },
+          {
+            "entryId": "DOC-CONCEPT-RECURSION",
+            "semanticDigest": "d74f3ad7d3550dc75674a30126b46750df1b5efca884e471833eef8c8a6a8ff6"
+          },
+          {
+            "entryId": "DOC-CONCEPT-STABILITY",
+            "semanticDigest": "0334f3caabd1012e9de4a981a6b3cc32619fcd6545ab556d4c7fb58868050657"
+          },
+          {
+            "entryId": "DOC-PROOF",
+            "semanticDigest": "fb22d049247764c3dfa7f633343998a57a384e56fe845428af01c216ea5809ef"
+          },
+          {
+            "entryId": "DOC-STATUS",
+            "semanticDigest": "86fad31a9e5cb5bffec60a6dd1f499baba2fe4ca9a126dfb0251d4ca6156bb96"
+          },
+          {
+            "entryId": "UT-C01",
+            "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+          },
+          {
+            "entryId": "UT-C02",
+            "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+          },
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D04",
+            "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+          },
+          {
+            "entryId": "UT-D05",
+            "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+          },
+          {
+            "entryId": "UT-D06",
+            "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+          },
+          {
+            "entryId": "UT-D07",
+            "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+          },
+          {
+            "entryId": "UT-D08",
+            "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+          },
+          {
+            "entryId": "UT-D09",
+            "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+          },
+          {
+            "entryId": "UT-E10",
+            "semanticDigest": "bf6c7fe5c04cc0deb41a17ec382c833d1f02f792cb724c12c44f51865fb94ce4"
+          },
+          {
+            "entryId": "UT-E11",
+            "semanticDigest": "3f79a043989d7fc132b42e2752c79ba9b981a5b57f23b4f974ce0bd47d3b0618"
+          },
+          {
+            "entryId": "UT-E12",
+            "semanticDigest": "8ff4fc8f803df64283181f379facdb5416c0da2ea6227b3dc9ddf8e8ee8a2af9"
+          },
+          {
+            "entryId": "UT-O01",
+            "semanticDigest": "143d62f3c851611a94a1c589edf8b35dae2db98648b945f3eff6d68f5e239afa"
+          },
+          {
+            "entryId": "UT-O02",
+            "semanticDigest": "3227556784446bbaa965fbdf137f6fea105b4da56e09da8bfa2ca894db731281"
+          },
+          {
+            "entryId": "UT-O03",
+            "semanticDigest": "3b13d9ce648b24b74cc347f5c38f2baba31188ebff21092299f1dd7ffc92dd1a"
+          },
+          {
+            "entryId": "UT-O04",
+            "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950"
+          },
+          {
+            "entryId": "UT-O05",
+            "semanticDigest": "cfee06326b8537fbaf7f2f5c63ec2e23bf7a6829d2ce11e5937ae9ebf05de9ab"
+          },
+          {
+            "entryId": "UT-O06",
+            "semanticDigest": "5f804ae9cd490d3b6d391d8ac95fbebebb0be57e94b0801792631d5f42443fa6"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-ADDITIONAL",
+            "path": "research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+            "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+          },
+          {
+            "sourceKey": "R-CURRENT-CONTROL",
+            "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+            "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+          },
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-INTERACTIONS",
+            "path": "research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md",
+            "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+          },
+          {
+            "sourceKey": "R-CURRENT-PROOF",
+            "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+            "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-STATUS",
+            "path": "research/RRG_CURRENT/04_status_and_blockers.md",
+            "sha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "1158180d34f2ab700f5fbbafda549491cdeeeaee914fd8acf741175413a4d43c",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "2ee1fabf01d75cad646a00038c57fcc1acdf5297bb48eeb3280756c39353f657",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-EXAMPLE-CELL",
+      "words": 196,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "46df8cc2a5053ff603d8387ca89a5f0ecdef3bea195dc54b90002022e00da121",
+        "ownRead": {
+          "id": "DOC-EXAMPLE-CELL",
+          "route": "/examples/cell/",
+          "title": "Cell: organization through exchange",
+          "description": "Maintaining an organization while its components remain active.",
+          "revision": 1,
+          "kind": "example",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD",
+            "R-CURRENT-SCIENCE"
+          ],
+          "dependsOn": [
+            "UT-D04",
+            "UT-D05",
+            "UT-D06",
+            "UT-D08",
+            "UT-D09"
+          ],
+          "related": [],
+          "bibRefs": [
+            "BIB-0063"
+          ],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+          "evidenceState": "not-applicable",
+          "body": "## What to notice\n\nA cell exchanges substances with its surroundings. Its membrane regulates passage, while reactions and transport help preserve conditions within it. Some transport follows concentration differences; other transport requires energy. This introductory membrane distinction is explained by [OpenStax's membrane transport explanation](/references/#BIB-0063).\n\n## What this illustrates\n\nThe source describes life as maintained organization, rather than a fixed inventory of atoms. Internal processes continue as materials enter, leave and are replaced. RRG treats the organization and coordinated activity as aspects of the same living system.\n\nThe source framework explicitly retains energy conservation and thermodynamic constraints. Active maintenance needs resources and energy flow; describing an organization does not supply them.\n\n## Maintenance, copying and reproduction\n\nKeeping one cell organized, templating a molecular structure and reproducing a biological cell are different processes. The core allows replication as a possible mechanism, rather than requiring duplication before every higher-level formation. The [recursion concept](/concepts/recursion/) keeps that distinction visible.\n\nA cell may also participate in a larger organization while its internal activity remains. This illustrates the whole-as-part question; the historical route from prebiotic chemistry to the first life remains unresolved in the supplied framework.\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+          "sourceMapping": "World §§8–10; framework §8 and §13; core §§4–9. OpenStax supplements membrane transport; no origin-of-life or complete artificial-cell claim.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D04",
+            "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+          },
+          {
+            "entryId": "UT-D05",
+            "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+          },
+          {
+            "entryId": "UT-D06",
+            "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+          },
+          {
+            "entryId": "UT-D08",
+            "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+          },
+          {
+            "entryId": "UT-D09",
+            "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "f445239c950392fd43a51817a2e40217f57c8b662eaccfcbe0fb69fda8f869c5",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "7b95ae3e7a0a237a5a10c1ed72c56e5e295c40c3771f11e39518c026698ab400",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-EXAMPLE-LIFE",
+      "words": 218,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "b1e954684f46bb66af061a7f0182b223445ab1dd0243158b8465b6d20734490c",
+        "ownRead": {
+          "id": "DOC-EXAMPLE-LIFE",
+          "route": "/examples/life-environment/",
+          "title": "Life changes its environment",
+          "description": "An organization can alter conditions for other organisms and reactions.",
+          "revision": 1,
+          "kind": "example",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD",
+            "R-CURRENT-SCIENCE"
+          ],
+          "dependsOn": [
+            "UT-C02",
+            "UT-D01",
+            "UT-D02"
+          ],
+          "related": [],
+          "bibRefs": [
+            "BIB-0062",
+            "BIB-0064"
+          ],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+          "evidenceState": "not-applicable",
+          "body": "## What to notice\n\nOxygen-producing photosynthesis converts light energy into chemical energy and releases oxygen. Plants, algae and cyanobacteria participate in this process; [OpenStax's photosynthesis overview](/references/#BIB-0062) explains the basic biology. Earth's atmosphere has not always had its present oxygen composition. NASA's report on early oxygen evidence is supplementary historical context: [NASA's oxygen-history report](/references/#BIB-0064).\n\n## What this illustrates\n\nLiving systems do more than occupy their surroundings. Their activity can change chemical conditions, making some processes more accessible and others less so. Oxygen can support organisms using it in respiration, while changing the conditions faced by organisms adapted to low-oxygen settings.\n\nThe original world explanation describes specialized biological environments and a wider landscape of reachable organizations. This page uses photosynthesis as an added beginner illustration of that environmental question; it is not presented as a named example from the locked core.\n\n## Conditions, rather than a guaranteed ladder\n\nOxygen production does not by itself guarantee atmospheric accumulation or inevitable greater complexity. Chemical consumption, resources, exchanges and history matter. There is no purpose-driven guarantee of a next level, and this page does not infer a single cause for the emergence of complex life.\n\nThe broad environmental interpretation is an [open extension](/claims/UT-C02/). A [cell](/examples/cell/) lets us examine maintained organization and exchange at a smaller scale.\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+          "sourceMapping": "Added beginner photosynthesis illustration mapped to world §10 and background addendum, framework §§8, 13, 21 and core §11. Factual background is supplementary; oxygenation is not certified as a universal RRG ladder.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "UT-C02",
+            "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+          },
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D05",
+            "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+          },
+          {
+            "entryId": "UT-D06",
+            "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+          },
+          {
+            "entryId": "UT-D07",
+            "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-PROOF",
+            "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+            "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "1433ad797d4d9b01d87fc4ae4ed04c78108ef360c8fbee7769d27683c552a312",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "5d302ab140216cd9113711fef7910e7a6f5a69198b65f707eefbbc4812e515d2",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-EXAMPLE-MOLECULE",
+      "words": 184,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "c272d7971aedf6121ab23bc8d7b4cb8332ca3be777555a4926fc0903ea79e445",
+        "ownRead": {
+          "id": "DOC-EXAMPLE-MOLECULE",
+          "route": "/examples/molecule/",
+          "title": "Molecule: the whole constrains its parts",
+          "description": "Connections and collective behaviour, beyond an inventory of atoms.",
+          "revision": 1,
+          "kind": "example",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD",
+            "R-CURRENT-SCIENCE"
+          ],
+          "dependsOn": [
+            "UT-D01",
+            "UT-D02",
+            "UT-D05",
+            "UT-D06",
+            "UT-D08"
+          ],
+          "related": [],
+          "bibRefs": [
+            "BIB-0065"
+          ],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+          "evidenceState": "not-applicable",
+          "body": "## What to notice\n\nKnowing which atoms are present does not tell us everything about a molecule. Connections and spatial arrangement matter. Bond distances and angles are constrained; the whole has collective motions. The supplied world explanation describes electron-state reorganization, vibrations and rotations in this example. Basic relationships between bonding, arrangement and properties are explained by [OpenStax's molecular-structure explanation](/references/#BIB-0065).\n\n## What this illustrates\n\nThe source uses a molecule to explain a two-way relation: parts participate in a whole, while the whole constrains its parts. The atoms retain internal structure. A molecule can then participate in a larger arrangement, so the level of description changes without the lower-level activity disappearing.\n\nThis is a quantum chemical system. Atoms are not classical miniature solar systems, and molecular behaviour is not inferred from visible shape alone. Its interactions and physical conditions must be specified.\n\n## From whole to useful unit\n\nThe [recursion concept](/concepts/recursion/) explains how RRG treats a persistent collective system as a potential component of further organization. The mechanisms can change between levels; one microscopic equation is not required everywhere.\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+          "sourceMapping": "World §§5–6; framework §6; core §§5–8. OpenStax supplies supplementary molecular-structure background.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D05",
+            "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+          },
+          {
+            "entryId": "UT-D06",
+            "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+          },
+          {
+            "entryId": "UT-D08",
+            "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "a675212f36690b38bb9dd0d4fed9f7d10492faf0809bb96a61960ae2371f93e9",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "c9cd2dacddbbc11106a8d6c0167d0d4064bf3aa0c5142696cfc8659d55403fdb",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-EXAMPLE-STAR",
+      "words": 179,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "1e8232bfd8ce062b9007fcc044ce6439e9b89af73cee4bdca1a4d36d3d250c76",
+        "ownRead": {
+          "id": "DOC-EXAMPLE-STAR",
+          "route": "/examples/star/",
+          "title": "Star: new reaction conditions",
+          "description": "Existing organization can open possibilities for later transformations.",
+          "revision": 1,
+          "kind": "example",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD",
+            "R-CURRENT-SCIENCE"
+          ],
+          "dependsOn": [
+            "UT-C01",
+            "UT-C02",
+            "UT-D05"
+          ],
+          "related": [],
+          "bibRefs": [
+            "BIB-0014"
+          ],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+          "evidenceState": "not-applicable",
+          "body": "## What to notice\n\nThe source world explanation follows gas becoming a gravitationally organized star. Its internal temperature and pressure allow nuclear reactions to produce new nuclei. Stellar evolution and the dispersal of many heavier elements expand the material available for later chemistry. NASA's first-star explanation provides supplementary background: [NASA's first-stars explanation](/references/#BIB-0014).\n\n## What this illustrates\n\nThe important connection is existing organization → changed conditions → further physical possibilities. The original documents use the star to illustrate their wider question about which structures become accessible in an environment.\n\nA star physically evolves. Treating it as one object in a larger description is a different act: it changes what we track, rather than creating a new star by naming a level. Both ideas matter, and they should not be conflated.\n\n## Where the interpretation stops\n\nThis example does not derive gravity from a universal resonance law or make every possible next structure inevitable. The broader [background-selection extension](/claims/UT-C02/) and force-unification question remain open in the original sources.\n\n[Life changing its environment](/examples/life-environment/) explores another way an existing organization changes conditions. [All examples](/examples/)\n",
+          "sourceMapping": "World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "UT-C01",
+            "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+          },
+          {
+            "entryId": "UT-C02",
+            "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+          },
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D05",
+            "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+          },
+          {
+            "entryId": "UT-D06",
+            "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+          },
+          {
+            "entryId": "UT-D07",
+            "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-PROOF",
+            "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+            "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "e4aafc0237a82aac9319b68ce803f6293f02e0aeda0a25ae79626d35b8ca6e2a",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "e1335e4b94dd01ab6b937af8cb23613473bc0bcda1f918e4cf8ff470ec01e714",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-EXAMPLE-STRING",
+      "words": 209,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "b1376b29df5759607c29066c9a8cf03f30a1301d1f2779e7ff7eed5e0950b586",
+        "ownRead": {
+          "id": "DOC-EXAMPLE-STRING",
+          "route": "/examples/string/",
+          "title": "String: boundaries shape motion",
+          "description": "An illustration of constrained motion, with material properties kept in view.",
+          "revision": 1,
+          "kind": "example",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD",
+            "R-CURRENT-SCIENCE"
+          ],
+          "dependsOn": [
+            "UT-D01",
+            "UT-D02",
+            "UT-D03"
+          ],
+          "related": [],
+          "bibRefs": [
+            "BIB-0061"
+          ],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+          "evidenceState": "not-applicable",
+          "body": "## What to notice\n\nA stretched string fixed at both ends can support particular standing-wave patterns. In the ideal model, the ends stay at rest while other regions move. The simplest pattern has one arch; another has two arches and a stationary point between them. The diagram shows possible shapes at one instant, not a measured amplitude.\n\nLength and end conditions constrain the patterns. Tension and mass per unit length set the wave speed. Geometry alone does not fix those material and force conditions. The elementary standing-wave model is described by [the OpenStax string model](/references/#BIB-0061).\n\n## What this illustrates\n\nThe original world explanation uses the guitar string to introduce how organization constrains modes, and how a mode has a spatial expression. It then asks whether persistent physical structures can be understood through a geometry–mode loop.\n\nThe string illustration does not itself demonstrate that motion maintains its fixed supports or a self-maintaining boundary. That stronger question requires a system and model in which the feedback is actually specified.\n\n## Connect to the definition\n\nIn the [geometry and modes concept](/concepts/geometry-and-modes/), the physical constraints are described before the formal RRG definitions. A [molecule](/examples/molecule/) illustrates how a collective organization can add restrictions while lower-level structure remains.\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+          "sourceMapping": "World explanation §2; core §§1–3. OpenStax supplements the ideal fixed-end string model and its physical parameters.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "84e28c0b6f415df74db855e31a094cfda68ba0405ce1b55726c08ec4037c5f90",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "f69331d110b75eaa5d1a4d17d124b66b7af55dce792af0f2cebd8d0e678dddcd",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-EXAMPLE-WATER",
+      "words": 146,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "c70859ff4940b0ad40d5e885cadc47c96de22612969778230bcb3e16a8d0a359",
+        "ownRead": {
+          "id": "DOC-EXAMPLE-WATER",
+          "route": "/examples/water/",
+          "title": "Water: follow a pattern",
+          "description": "A warm-up about local motion and a collective pattern.",
+          "revision": 1,
+          "kind": "example",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD",
+            "R-CURRENT-SCIENCE"
+          ],
+          "dependsOn": [
+            "UT-D01",
+            "UT-D02",
+            "UT-D04"
+          ],
+          "related": [],
+          "bibRefs": [
+            "BIB-0060"
+          ],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+          "evidenceState": "not-applicable",
+          "body": "## What to notice\n\nA wave crest can travel across water as the water moves locally. Following the crest and following a small region of water give different descriptions. Ordinary waves transfer energy through their medium; [NOAA's wave explanation](/references/#BIB-0060) explains this background physics.\n\n## What this illustrates\n\nThe visible pattern belongs to the collective behaviour. This gives us a first way to ask about parts, relationships and activity together, before trying to identify a persistent object.\n\nA passing ripple is a warm-up, not proof that a persistent higher-level unit has formed. The next example, a [string with fixed ends](/examples/string/), makes the role of constraints clearer.\n\n## Ask the next question\n\nWhich physical conditions support the pattern? How long does it last? Those questions matter when we move from noticing a collective pattern to investigating the source's [meaning of stability](/concepts/stability/).\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+          "sourceMapping": "Supplementary NOAA surface-wave explanation. RRG core §§1–4 supplies the questions, not a claim that every wave is a stable new unit.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D04",
+            "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "3473a91eee1b0b1d44e27574527f676f42503c0fbf46c9a575bae209fa561d75",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "8c600e57915ee470dc99eee775d0a683404456e5e18e8ad4bfe7d4beb5ea845e",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-EXAMPLES",
+      "words": 165,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "f5beacf5c885a266d409f242ecfda8f21181de0f2bfcf4062497af5ce486517a",
+        "ownRead": {
+          "id": "DOC-EXAMPLES",
+          "route": "/examples/",
+          "title": "Six ways into the question",
+          "description": "Patterns, constraints, reusable wholes and changing conditions.",
+          "revision": 1,
+          "kind": "example",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD"
+          ],
+          "dependsOn": [
+            "DOC-EXAMPLE-CELL",
+            "DOC-EXAMPLE-LIFE",
+            "DOC-EXAMPLE-MOLECULE",
+            "DOC-EXAMPLE-STAR",
+            "DOC-EXAMPLE-STRING",
+            "DOC-EXAMPLE-WATER"
+          ],
+          "related": [],
+          "bibRefs": [],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+          "evidenceState": "not-applicable",
+          "body": "Each example has one job. Begin with something familiar, then ask what the parts are doing, what constrains them, and what the collective description adds. The examples illustrate different aspects of RRG; they are not six demonstrations of one universal mechanism.\n\n## Patterns and constraints\n\n- [Water: follow a pattern](/examples/water/) — distinguish the moving pattern from its material parts.\n- [String: boundaries shape motion](/examples/string/) — see how arrangement and physical conditions constrain supported modes.\n- [Molecule: the whole constrains its parts](/examples/molecule/) — explore collective behaviour and retained internal structure.\n\n## Organization changes the possibilities\n\n- [Star: new reaction conditions](/examples/star/) — distinguish physical evolution from changing the level of description.\n- [Life and environment: conditions for other life](/examples/life-environment/) — follow biological effects without a guaranteed ladder of complexity.\n- [Cell: organization through exchange](/examples/cell/) — separate ongoing maintenance, copying and reproduction.\n\n## Connect the examples\n\nThe [concepts](/concepts/) explain geometry, mode structure, stability, recursion and the conditional effective-interaction question. For a continuous reading path, [start with the idea](/start/).\n",
+          "sourceMapping": "Editorial index of six separately mapped illustrations; no additional scientific claim.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "DOC-EXAMPLE-CELL",
+            "semanticDigest": "63f11e801770787a3d3e86dccdb82eb6c38297fab5ddbed5ad1af99058601c87"
+          },
+          {
+            "entryId": "DOC-EXAMPLE-LIFE",
+            "semanticDigest": "cbd6d344026abe094bd4529309e1704b570e3e1fa842d409f9ab03b026a3f6b1"
+          },
+          {
+            "entryId": "DOC-EXAMPLE-MOLECULE",
+            "semanticDigest": "cc67caeb35d39d1f1c532d9a46d1ce12c3a6ae9ea250163153e965beeba16c98"
+          },
+          {
+            "entryId": "DOC-EXAMPLE-STAR",
+            "semanticDigest": "c7bd7760d9cb4dd502becb527a341fab14faab65595d083337b4377ac3b38da7"
+          },
+          {
+            "entryId": "DOC-EXAMPLE-STRING",
+            "semanticDigest": "fcbd5439c00cd65cdb5fb03990e8801a75c41b27b61a934f88644a099ad40182"
+          },
+          {
+            "entryId": "DOC-EXAMPLE-WATER",
+            "semanticDigest": "bb01d45a34a9d6721f011a6fbf633df5d321efbe61b0ca7a9473fb53bcf0999d"
+          },
+          {
+            "entryId": "UT-C01",
+            "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+          },
+          {
+            "entryId": "UT-C02",
+            "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+          },
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D04",
+            "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+          },
+          {
+            "entryId": "UT-D05",
+            "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+          },
+          {
+            "entryId": "UT-D06",
+            "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+          },
+          {
+            "entryId": "UT-D07",
+            "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+          },
+          {
+            "entryId": "UT-D08",
+            "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+          },
+          {
+            "entryId": "UT-D09",
+            "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-PROOF",
+            "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+            "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "7eb6e365e2bfda16c3b25b75c4983c1ed387eda80a3e816fbfae50c73b0bda74",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "82713ccf63d605cd35e2f3fe0093669ff028e4c16c83d4691c5fb213234c0243",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-HOME",
+      "words": 206,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "260ebe063745aed869a1e1429b9590a55c05e61c9b9435f8a2944e63733663e5",
+        "ownRead": {
+          "id": "DOC-HOME",
+          "route": "/",
+          "title": "How do parts become a whole?",
+          "description": "Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible.",
+          "revision": 3,
+          "kind": "intro",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD",
+            "R-CURRENT-SCIENCE",
+            "R-CURRENT-INTERACTIONS"
+          ],
+          "dependsOn": [
+            "DOC-EXAMPLE-WATER",
+            "DOC-STATUS",
+            "UT-C01",
+            "UT-C02",
+            "UT-D01",
+            "UT-D02",
+            "UT-D03",
+            "UT-D05",
+            "UT-D06",
+            "UT-D08",
+            "UT-E10",
+            "UT-E11",
+            "UT-E12",
+            "UT-O04",
+            "UT-O05"
+          ],
+          "related": [],
+          "bibRefs": [
+            "BIB-0060"
+          ],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "Compact introduction to the source research question, with one familiar warm-up and links to deeper examples.",
+          "evidenceState": "not-applicable",
+          "body": "## Begin with a wave\n\nWatch a ripple cross water. A crest moves across the surface as the water moves locally. The visible pattern and the material carrying it give us two ways to describe one event. [Explore the wave](/examples/water/); the background physics is explained by [NOAA's wave explanation](/references/#BIB-0060).\n\n## Arrangement and activity belong together\n\nA string's fixed ends constrain its motion. A molecule's connections constrain its collective behaviour. A cell keeps its organization through ongoing exchanges with its surroundings.\n\nRecursive Resonant Geometry, or **RRG**, asks how relationships and activity support one another. Its **geometry** means components, connections, boundaries and constraints. Its **mode structure** means the organized ways those parts change and respond over time.\n\n## A whole can become a part\n\nIn the RRG proposal, compatible active parts may form a persistent whole. That whole can participate in another organization while activity continues inside it. Existing structures can also change the conditions for what happens next: a star makes new reaction conditions; living systems change their chemical surroundings.\n\nThe wave introduces a distinction, rather than proving this entire cycle. The examples have different physical mechanisms. The research question is whether a useful, predictive organizing principle connects them.\n\n[Read the full introduction](/start/) or [explore the concepts](/concepts/).\n",
+          "sourceMapping": "Core §§1–3, 5, 7–11; world explanation §§2, 4, 6–7, 10 and background addendum. The water warm-up is supplementary NOAA physics, not a new RRG claim.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "DOC-EXAMPLE-WATER",
+            "semanticDigest": "bb01d45a34a9d6721f011a6fbf633df5d321efbe61b0ca7a9473fb53bcf0999d"
+          },
+          {
+            "entryId": "DOC-STATUS",
+            "semanticDigest": "86fad31a9e5cb5bffec60a6dd1f499baba2fe4ca9a126dfb0251d4ca6156bb96"
+          },
+          {
+            "entryId": "UT-C01",
+            "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+          },
+          {
+            "entryId": "UT-C02",
+            "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+          },
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D04",
+            "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+          },
+          {
+            "entryId": "UT-D05",
+            "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+          },
+          {
+            "entryId": "UT-D06",
+            "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+          },
+          {
+            "entryId": "UT-D07",
+            "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+          },
+          {
+            "entryId": "UT-D08",
+            "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+          },
+          {
+            "entryId": "UT-D09",
+            "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+          },
+          {
+            "entryId": "UT-E10",
+            "semanticDigest": "bf6c7fe5c04cc0deb41a17ec382c833d1f02f792cb724c12c44f51865fb94ce4"
+          },
+          {
+            "entryId": "UT-E11",
+            "semanticDigest": "3f79a043989d7fc132b42e2752c79ba9b981a5b57f23b4f974ce0bd47d3b0618"
+          },
+          {
+            "entryId": "UT-E12",
+            "semanticDigest": "8ff4fc8f803df64283181f379facdb5416c0da2ea6227b3dc9ddf8e8ee8a2af9"
+          },
+          {
+            "entryId": "UT-O01",
+            "semanticDigest": "143d62f3c851611a94a1c589edf8b35dae2db98648b945f3eff6d68f5e239afa"
+          },
+          {
+            "entryId": "UT-O02",
+            "semanticDigest": "3227556784446bbaa965fbdf137f6fea105b4da56e09da8bfa2ca894db731281"
+          },
+          {
+            "entryId": "UT-O03",
+            "semanticDigest": "3b13d9ce648b24b74cc347f5c38f2baba31188ebff21092299f1dd7ffc92dd1a"
+          },
+          {
+            "entryId": "UT-O04",
+            "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950"
+          },
+          {
+            "entryId": "UT-O05",
+            "semanticDigest": "cfee06326b8537fbaf7f2f5c63ec2e23bf7a6829d2ce11e5937ae9ebf05de9ab"
+          },
+          {
+            "entryId": "UT-O06",
+            "semanticDigest": "5f804ae9cd490d3b6d391d8ac95fbebebb0be57e94b0801792631d5f42443fa6"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-CONTROL",
+            "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+            "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+          },
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-INTERACTIONS",
+            "path": "research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md",
+            "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+          },
+          {
+            "sourceKey": "R-CURRENT-PROOF",
+            "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+            "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-STATUS",
+            "path": "research/RRG_CURRENT/04_status_and_blockers.md",
+            "sha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "7d3ecb1a3d441ac50c0b89d78aed5363692b0d65427f5fbab681efc4fc2c0868",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": "db80aad25b65683890ab2ad0a4a959db0e14ffdd5ce3c207d23f2ebb3d2ed112"
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "0d9f79e1b5085edd438eb797d381894f1e04e0609ad38a48d793803e01cbbf20",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": "db80aad25b65683890ab2ad0a4a959db0e14ffdd5ce3c207d23f2ebb3d2ed112"
+          }
+        ]
+      }
+    },
+    {
+      "entryId": "DOC-START",
+      "words": 762,
+      "wordingCandidates": [],
+      "inputs": {
+        "fingerprint": "89a06c4110dfb6476eec13c8d857371e1f9f98b1dba801ebe9f9f86020645bad",
+        "ownRead": {
+          "id": "DOC-START",
+          "route": "/start/",
+          "title": "Start with the idea",
+          "description": "From a familiar pattern to the question of persistent and further organization.",
+          "revision": 4,
+          "kind": "intro",
+          "lang": "en",
+          "audience": "general",
+          "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+          "publicationState": "draft",
+          "publishedAt": null,
+          "updatedAt": "2026-10-03",
+          "sourceRefs": [
+            "R-CURRENT-CORE",
+            "R-CURRENT-WORLD",
+            "R-CURRENT-SCIENCE",
+            "R-CURRENT-INTERACTIONS",
+            "R-CURRENT-ADDITIONAL"
+          ],
+          "dependsOn": [
+            "DOC-CONCEPT-INTERACTIONS",
+            "DOC-EXAMPLE-CELL",
+            "DOC-EXAMPLE-LIFE",
+            "DOC-EXAMPLE-MOLECULE",
+            "DOC-EXAMPLE-STAR",
+            "DOC-EXAMPLE-STRING",
+            "DOC-STATUS",
+            "UT-C01",
+            "UT-C02",
+            "UT-D01",
+            "UT-D02",
+            "UT-D03",
+            "UT-D04",
+            "UT-D05",
+            "UT-D06",
+            "UT-D08",
+            "UT-D09",
+            "UT-E10",
+            "UT-E11",
+            "UT-E12",
+            "UT-O04",
+            "UT-O05"
+          ],
+          "related": [],
+          "bibRefs": [],
+          "contentOrigin": "authored",
+          "sourceBinding": null,
+          "statement": null,
+          "plainLanguage": "",
+          "scope": "Complete beginner introduction to the source framework; illustrations and stronger open extensions remain distinct.",
+          "evidenceState": "not-applicable",
+          "body": "## A pattern and its parts\n\nImagine a ripple crossing a quiet patch of water. You can follow its crest with your eyes, even though the water moves locally as the disturbance passes. The pattern and the parts carrying it are different descriptions of the same event. This familiar observation is a useful place to begin, without requiring equations. The [water example](/examples/water/) explains the distinction and links to its physics source.\n\nUnity Theory asks a broader question: **how do arrangement and activity support an organized whole, and how can that whole make further organization possible?** Its working framework is called Recursive Resonant Geometry, or RRG. The examples help us understand the question. Establishing a general principle that makes useful predictions is the research still to do.\n\n## Arrangement changes what can happen\n\nConsider a [stretched string](/examples/string/). Its length and fixed ends restrict the motions it can support. Its tension and mass per unit length matter too: changing a material or physical condition changes the result. The shape of the string alone does not supply its physical law.\n\nRRG calls a system's organization **geometry**. Here that word includes parts, connections, ordering, boundaries and constraints, beyond a visible outline. Two systems with similar ingredients can behave differently because their parts relate differently. A [molecule](/examples/molecule/) gives another example: its bonds and arrangement constrain how the group can respond while the atoms retain internal structure.\n\n## Activity changes the organization\n\nThe other aspect is **mode structure**: the organized ways a system moves, changes or responds over time. A repeating vibration is one example, but coordinated responses, relative timing and processes operating at different speeds also matter. One frequency number cannot describe every organized system.\n\nA string shows how arrangement constrains motion. Living systems make the reverse direction easier to see: chemical activity and exchanges with the surroundings help maintain their organization. RRG considers these aspects together. Activity can also transform or destroy an arrangement. The proposal does not make either side universally first.\n\n## A whole can become a part\n\nA [cell](/examples/cell/) contains many interacting components. Its organization can remain recognizable while material enters, leaves and is replaced. That same cell can participate in a larger organization. The lower-level activity continues inside the higher-level description.\n\nRRG uses **scale** for a level at which an organized whole can function as a useful unit in further interactions. Scale involves the relationships and processes that matter to the description, as well as size. Mechanisms and characteristic times can change between levels.\n\n**Recursive organization** means that a whole can participate as a part in further organization. It does not require identical components or compulsory copying at every step. Biological reproduction is one particular mechanism; it is not the definition of the general pattern. The [recursion concept](/concepts/recursion/) follows this distinction back to the source definitions.\n\n## Existing structures change the conditions\n\nA [star](/examples/star/) creates temperature and pressure conditions in which nuclear reactions can make new nuclei. The original world explanation uses this to illustrate how an existing organization can expand the possibilities for later chemistry.\n\n[Life changing its environment](/examples/life-environment/) brings the idea closer to home. Oxygen-producing organisms alter their surroundings, changing conditions for other organisms and reactions. Those consequences depend on resources, chemical processes and history. There is no purpose-driven guarantee that every change creates a more complex next stage.\n\nThe source framework treats the broader question of environmental possibilities as an extension compatible with its core. A useful explanation must keep that status visible alongside the positive idea.\n\n## Which interactions become possible?\n\nAn **effective interaction** is an interaction used in a description of a collective system. The supplied evidence documents describe crystal vibrations mediating electron attraction, collective magnetic excitations in spin ice, and a background field changing an interaction regime. These are distinct physical cases, with different conditions.\n\nRRG asks when lower-level organization can enable such an interaction, and when that interaction can help another organization persist. The [deeper interaction concept](/concepts/effective-interactions/) explains the source's examples and proposed relation. They do not establish that the four fundamental forces are four successive RRG levels.\n\n## What remains to be tested\n\nThe original documents separate their core definitions, illustrative examples, particular reported evidence and stronger open extensions. The common organizing principle needs useful mathematical criteria and predictions beyond descriptions of results already known. Specific experiments can test specific models; an analogy cannot do that work on its own.\n\nYou can [choose an example](/examples/), [read the concepts](/concepts/) or see the original [current research status](/research-status/). No technical background is needed to find the question, the uncertainty or a source.\n\n[Return to the research question](/#research-question).\n",
+          "sourceMapping": "Core §§1–11; world §§2–10 and background addendum; framework §§1–3, 7–8, 11, 15, 21–24; proof matrix; interaction addendum §§1–5; additional-evidence introduction and scope conventions.",
+          "adapter": "markdown/1",
+          "assumptions": [],
+          "testRefs": [],
+          "evidenceRefs": [],
+          "limits": "",
+          "rightsRef": null
+        },
+        "materialUpdatedAt": "2026-10-03",
+        "dependencies": [
+          {
+            "entryId": "DOC-CONCEPT-INTERACTIONS",
+            "semanticDigest": "8a433b6de6cebce0ce28642e2b799fb0bf930b0d3821e5c09ccf66ba19b2f97e"
+          },
+          {
+            "entryId": "DOC-EXAMPLE-CELL",
+            "semanticDigest": "63f11e801770787a3d3e86dccdb82eb6c38297fab5ddbed5ad1af99058601c87"
+          },
+          {
+            "entryId": "DOC-EXAMPLE-LIFE",
+            "semanticDigest": "cbd6d344026abe094bd4529309e1704b570e3e1fa842d409f9ab03b026a3f6b1"
+          },
+          {
+            "entryId": "DOC-EXAMPLE-MOLECULE",
+            "semanticDigest": "cc67caeb35d39d1f1c532d9a46d1ce12c3a6ae9ea250163153e965beeba16c98"
+          },
+          {
+            "entryId": "DOC-EXAMPLE-STAR",
+            "semanticDigest": "c7bd7760d9cb4dd502becb527a341fab14faab65595d083337b4377ac3b38da7"
+          },
+          {
+            "entryId": "DOC-EXAMPLE-STRING",
+            "semanticDigest": "fcbd5439c00cd65cdb5fb03990e8801a75c41b27b61a934f88644a099ad40182"
+          },
+          {
+            "entryId": "DOC-PROOF",
+            "semanticDigest": "fb22d049247764c3dfa7f633343998a57a384e56fe845428af01c216ea5809ef"
+          },
+          {
+            "entryId": "DOC-STATUS",
+            "semanticDigest": "86fad31a9e5cb5bffec60a6dd1f499baba2fe4ca9a126dfb0251d4ca6156bb96"
+          },
+          {
+            "entryId": "UT-C01",
+            "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+          },
+          {
+            "entryId": "UT-C02",
+            "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+          },
+          {
+            "entryId": "UT-D01",
+            "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+          },
+          {
+            "entryId": "UT-D02",
+            "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+          },
+          {
+            "entryId": "UT-D03",
+            "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+          },
+          {
+            "entryId": "UT-D04",
+            "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+          },
+          {
+            "entryId": "UT-D05",
+            "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+          },
+          {
+            "entryId": "UT-D06",
+            "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+          },
+          {
+            "entryId": "UT-D07",
+            "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+          },
+          {
+            "entryId": "UT-D08",
+            "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+          },
+          {
+            "entryId": "UT-D09",
+            "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+          },
+          {
+            "entryId": "UT-E10",
+            "semanticDigest": "bf6c7fe5c04cc0deb41a17ec382c833d1f02f792cb724c12c44f51865fb94ce4"
+          },
+          {
+            "entryId": "UT-E11",
+            "semanticDigest": "3f79a043989d7fc132b42e2752c79ba9b981a5b57f23b4f974ce0bd47d3b0618"
+          },
+          {
+            "entryId": "UT-E12",
+            "semanticDigest": "8ff4fc8f803df64283181f379facdb5416c0da2ea6227b3dc9ddf8e8ee8a2af9"
+          },
+          {
+            "entryId": "UT-O01",
+            "semanticDigest": "143d62f3c851611a94a1c589edf8b35dae2db98648b945f3eff6d68f5e239afa"
+          },
+          {
+            "entryId": "UT-O02",
+            "semanticDigest": "3227556784446bbaa965fbdf137f6fea105b4da56e09da8bfa2ca894db731281"
+          },
+          {
+            "entryId": "UT-O03",
+            "semanticDigest": "3b13d9ce648b24b74cc347f5c38f2baba31188ebff21092299f1dd7ffc92dd1a"
+          },
+          {
+            "entryId": "UT-O04",
+            "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950"
+          },
+          {
+            "entryId": "UT-O05",
+            "semanticDigest": "cfee06326b8537fbaf7f2f5c63ec2e23bf7a6829d2ce11e5937ae9ebf05de9ab"
+          },
+          {
+            "entryId": "UT-O06",
+            "semanticDigest": "5f804ae9cd490d3b6d391d8ac95fbebebb0be57e94b0801792631d5f42443fa6"
+          }
+        ],
+        "sourceReads": [
+          {
+            "sourceKey": "R-CURRENT-ADDITIONAL",
+            "path": "research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+            "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+          },
+          {
+            "sourceKey": "R-CURRENT-CONTROL",
+            "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+            "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+          },
+          {
+            "sourceKey": "R-CURRENT-CORE",
+            "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+            "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+          },
+          {
+            "sourceKey": "R-CURRENT-INTERACTIONS",
+            "path": "research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md",
+            "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+          },
+          {
+            "sourceKey": "R-CURRENT-PROOF",
+            "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+            "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+          },
+          {
+            "sourceKey": "R-CURRENT-SCIENCE",
+            "path": "research/RRG_CURRENT/02_scientific_framework.md",
+            "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+          },
+          {
+            "sourceKey": "R-CURRENT-STATUS",
+            "path": "research/RRG_CURRENT/04_status_and_blockers.md",
+            "sha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2"
+          },
+          {
+            "sourceKey": "R-CURRENT-WORLD",
+            "path": "research/RRG_CURRENT/01_world_explanation.md",
+            "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+          }
+        ],
+        "renderedBodies": [
+          {
+            "base": "/",
+            "sha256": "a508db6799580c4ec5bec5389a115ccf2de7ec42fb5714d688af302410d7c1ea",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          },
+          {
+            "base": "/unity-theory/",
+            "sha256": "3ac52495524daf56974afe14ab5b8e970231626c7877eb8f459ccc96f74b7f55",
+            "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sourceProjectionSha256": null
+          }
+        ]
+      }
+    }
+  ]
+}

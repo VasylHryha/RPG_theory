@@ -1,0 +1,1211 @@
+[
+  {
+    "id": "UT-D01",
+    "route": "/claims/UT-D01/",
+    "title": "Geometry",
+    "description": "A locked RRG meaning; a definition is not an experimental finding.",
+    "revision": 1,
+    "kind": "definition",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE"
+    ],
+    "dependsOn": [],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 6,
+      "endLine": 14,
+      "excerptSha256": "680c99c03b1ea11424b27fef2214ae09b72646cd103d2f025b5dc5c7a38c7e34"
+    },
+    "statement": null,
+    "plainLanguage": "Organization at a chosen scale includes components, relationships, boundaries and constraints.",
+    "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+    "evidenceState": "not-applicable",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §1; new navigation ID, source has no UT ID.",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-D02",
+    "route": "/claims/UT-D02/",
+    "title": "Mode structure",
+    "description": "A locked RRG meaning; a definition is not an experimental finding.",
+    "revision": 1,
+    "kind": "definition",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE"
+    ],
+    "dependsOn": [],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 16,
+      "endLine": 24,
+      "excerptSha256": "2a796e231760733d9076357e12a40973ea228e3a38d41c432dde2cb19f008c0e"
+    },
+    "statement": null,
+    "plainLanguage": "Mode structure includes rhythms, phases, coupling, response and characteristic times, rather than one number in hertz.",
+    "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+    "evidenceState": "not-applicable",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID.",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-D03",
+    "route": "/claims/UT-D03/",
+    "title": "Resonant geometry",
+    "description": "A locked RRG meaning; a definition is not an experimental finding.",
+    "revision": 2,
+    "kind": "definition",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE"
+    ],
+    "dependsOn": [
+      "UT-D01",
+      "UT-D02"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 26,
+      "endLine": 43,
+      "excerptSha256": "f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1"
+    },
+    "statement": null,
+    "plainLanguage": "RRG considers organization and mode structure together. Each constrains or changes the other.",
+    "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+    "evidenceState": "not-applicable",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID.",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-D04",
+    "route": "/claims/UT-D04/",
+    "title": "Stability",
+    "description": "A locked RRG meaning; a definition is not an experimental finding.",
+    "revision": 2,
+    "kind": "definition",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE"
+    ],
+    "dependsOn": [
+      "UT-D03"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 45,
+      "endLine": 55,
+      "excerptSha256": "c6f7fe3e4ae4ad799503dfd266c8bba802d2e459bfc2c332ad8eebe6270b0414"
+    },
+    "statement": null,
+    "plainLanguage": "RRG calls the geometry–mode organization stable while it is self-consistent. This does not require permanence.",
+    "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+    "evidenceState": "not-applicable",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §4; new navigation ID, source has no UT ID.",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-D05",
+    "route": "/claims/UT-D05/",
+    "title": "Scale",
+    "description": "A locked RRG meaning; a definition is not an experimental finding.",
+    "revision": 2,
+    "kind": "definition",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D06"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 84,
+      "endLine": 96,
+      "excerptSha256": "7df4282e0cf099ff89d7eef30506f57f0e10cbf79eba8b25b1197bb0cbffa7a0"
+    },
+    "statement": null,
+    "plainLanguage": "A collective organization can function as an effective unit in further interactions. Mechanisms may differ across scales.",
+    "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+    "evidenceState": "not-applicable",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §7; new navigation ID, source has no UT ID.",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-D06",
+    "route": "/claims/UT-D06/",
+    "title": "Higher-level formation",
+    "description": "A locked RRG meaning; a definition is not an experimental finding.",
+    "revision": 2,
+    "kind": "definition",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE"
+    ],
+    "dependsOn": [
+      "UT-D03"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 57,
+      "endLine": 72,
+      "excerptSha256": "70d9e6d53a6d43c1a7410abfa801d650bd026f9da24e986c907b3151ea075286"
+    },
+    "statement": null,
+    "plainLanguage": "Compatible lower-level systems may form a higher-level organization while retaining internal activity. Their components may differ.",
+    "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+    "evidenceState": "not-applicable",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §5; new navigation ID, source has no UT ID.",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-D07",
+    "route": "/claims/UT-D07/",
+    "title": "Variation",
+    "description": "A locked RRG meaning; a definition is not an experimental finding.",
+    "revision": 2,
+    "kind": "definition",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE"
+    ],
+    "dependsOn": [
+      "UT-D06"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 74,
+      "endLine": 82,
+      "excerptSha256": "70a9c9b21a7a9301abe5268e7e4b870ddeac3c4e6b07ccbbe52a04d10de675fb"
+    },
+    "statement": null,
+    "plainLanguage": "Related building blocks can participate in different organizations under different arrangements and conditions.",
+    "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+    "evidenceState": "not-applicable",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §6; new navigation ID, source has no UT ID.",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-D08",
+    "route": "/claims/UT-D08/",
+    "title": "Recursion",
+    "description": "A locked RRG meaning; a definition is not an experimental finding.",
+    "revision": 2,
+    "kind": "definition",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D05",
+      "UT-D06"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 98,
+      "endLine": 112,
+      "excerptSha256": "e0d4d8d7cedc6d2ae92b2fe309339361c64a250f8a50ce13f7d11f28acb62791"
+    },
+    "statement": null,
+    "plainLanguage": "Organized units may take part in further organization. This structural claim does not require an identical microscopic equation.",
+    "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+    "evidenceState": "not-applicable",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §8; new navigation ID, source has no UT ID.",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-D09",
+    "route": "/claims/UT-D09/",
+    "title": "Replication and recurrence",
+    "description": "A locked RRG meaning; a definition is not an experimental finding.",
+    "revision": 2,
+    "kind": "definition",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE"
+    ],
+    "dependsOn": [
+      "UT-D06",
+      "UT-D08"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 114,
+      "endLine": 126,
+      "excerptSha256": "6a0b719f6b5236c68fc8f6c9663e9c5d69f01a9621e54d8e9ade00ee9ad639e2"
+    },
+    "statement": null,
+    "plainLanguage": "Replication is one possible way to form or propagate organization; it is not required at every level.",
+    "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+    "evidenceState": "not-applicable",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §9; new navigation ID, source has no UT ID.",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-C01",
+    "route": "/claims/UT-C01/",
+    "title": "Fundamental interaction extension",
+    "description": "An open downstream extension, distinct from the minimal locked definitions.",
+    "revision": 2,
+    "kind": "conjecture",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE",
+      "R-CURRENT-PROOF"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D05",
+      "UT-D06"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 128,
+      "endLine": 136,
+      "excerptSha256": "14296615f64ff7eab2b9866fd7a8ecadec3f84151fbe652e6209667383e8b5c1"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+    "evidenceState": "proposed",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §10",
+    "adapter": "markdown/1",
+    "limits": "No universal derivation or force unification is supplied.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-C02",
+    "route": "/claims/UT-C02/",
+    "title": "Background and possibility-space extension",
+    "description": "An open downstream extension, distinct from the minimal locked definitions.",
+    "revision": 2,
+    "kind": "conjecture",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-CORE",
+      "R-CURRENT-PROOF"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D05",
+      "UT-D07"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-CORE",
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "startLine": 138,
+      "endLine": 140,
+      "excerptSha256": "69de818aad3845247d950f3f58629c917dd67d3a14689d3c7ea28fc6d38a5a48"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+    "evidenceState": "proposed",
+    "body": "",
+    "sourceMapping": "00_LOCKED_CORE.md §11",
+    "adapter": "markdown/1",
+    "limits": "No universal derivation or force unification is supplied.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-O01",
+    "route": "/claims/UT-O01/",
+    "title": "Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.",
+    "description": "An unresolved question listed by the current status source.",
+    "revision": 1,
+    "kind": "open-problem",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-STATUS",
+      "R-CURRENT-PROOF"
+    ],
+    "dependsOn": [
+      "UT-C01"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-STATUS",
+      "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+      "startLine": 20,
+      "endLine": 20,
+      "excerptSha256": "cf5142020c98df070cbecb259c700959e4168bc1640a75341e6f7031ba00e073"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "An unresolved question listed by the current status source.",
+    "evidenceState": "proposed",
+    "body": "",
+    "sourceMapping": "04_status_and_blockers.md open extension 1",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-O02",
+    "route": "/claims/UT-O02/",
+    "title": "Whether gravity is an emergent higher-scale geometric/mode regime.",
+    "description": "An unresolved question listed by the current status source.",
+    "revision": 1,
+    "kind": "open-problem",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-STATUS",
+      "R-CURRENT-PROOF"
+    ],
+    "dependsOn": [
+      "UT-C01"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-STATUS",
+      "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+      "startLine": 21,
+      "endLine": 21,
+      "excerptSha256": "bcd86beeb66061dbff5c80d0747df01a549c085c4ccdaf3b367d1ace21038b04"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "An unresolved question listed by the current status source.",
+    "evidenceState": "proposed",
+    "body": "",
+    "sourceMapping": "04_status_and_blockers.md open extension 2",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-O03",
+    "route": "/claims/UT-O03/",
+    "title": "Whether cosmological background evolution selects which resonant geometries are accessible.",
+    "description": "An unresolved question listed by the current status source.",
+    "revision": 1,
+    "kind": "open-problem",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-STATUS",
+      "R-CURRENT-PROOF"
+    ],
+    "dependsOn": [
+      "UT-C02"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-STATUS",
+      "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+      "startLine": 22,
+      "endLine": 22,
+      "excerptSha256": "7a0b6a7eb30f3fe44b410336d9f40b1dcc7de3fcd27eed1705f8d5494131fc27"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "An unresolved question listed by the current status source.",
+    "evidenceState": "proposed",
+    "body": "",
+    "sourceMapping": "04_status_and_blockers.md open extension 3",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-O04",
+    "route": "/claims/UT-O04/",
+    "title": "Whether one cross-domain mathematical invariant or promotion criterion exists.",
+    "description": "An unresolved question listed by the current status source.",
+    "revision": 1,
+    "kind": "open-problem",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-STATUS",
+      "R-CURRENT-PROOF"
+    ],
+    "dependsOn": [
+      "UT-D03"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-STATUS",
+      "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+      "startLine": 23,
+      "endLine": 23,
+      "excerptSha256": "f20abe052bd72e31bc2f0cbff35baa099c835e5d857194acef4cd708559f3df5"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "An unresolved question listed by the current status source.",
+    "evidenceState": "proposed",
+    "body": "",
+    "sourceMapping": "04_status_and_blockers.md open extension 4",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-O05",
+    "route": "/claims/UT-O05/",
+    "title": "Whether RRG yields a novel prediction beyond existing frameworks.",
+    "description": "An unresolved question listed by the current status source.",
+    "revision": 1,
+    "kind": "open-problem",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-STATUS",
+      "R-CURRENT-PROOF"
+    ],
+    "dependsOn": [
+      "UT-D03"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-STATUS",
+      "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+      "startLine": 24,
+      "endLine": 24,
+      "excerptSha256": "e905bcf8e229eb2f27164f826a89e73e0b83859e39f0b1b1801c5e1e4d822287"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "An unresolved question listed by the current status source.",
+    "evidenceState": "proposed",
+    "body": "",
+    "sourceMapping": "04_status_and_blockers.md open extension 5",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-O06",
+    "route": "/claims/UT-O06/",
+    "title": "Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.",
+    "description": "An unresolved question listed by the current status source.",
+    "revision": 1,
+    "kind": "open-problem",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-STATUS",
+      "R-CURRENT-PROOF"
+    ],
+    "dependsOn": [
+      "UT-D03"
+    ],
+    "related": [],
+    "bibRefs": [],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-STATUS",
+      "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
+      "startLine": 25,
+      "endLine": 25,
+      "excerptSha256": "d1ca4473a4718eb0585e36378583d42ea28366e1914dab2718998af329207d35"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "An unresolved question listed by the current status source.",
+    "evidenceState": "proposed",
+    "body": "",
+    "sourceMapping": "04_status_and_blockers.md open extension 6",
+    "adapter": "markdown/1",
+    "limits": "",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E01",
+    "route": "/claims/UT-E01/",
+    "title": "Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions",
+    "description": "An experiment or restricted result reported by the supplied evidence documents.",
+    "revision": 3,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "sourceRefs": [
+      "R-CURRENT-ADDITIONAL"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D05",
+      "UT-D06",
+      "UT-D07",
+      "UT-D08"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0022",
+      "BIB-0023"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-ADDITIONAL",
+      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+      "startLine": 17,
+      "endLine": 32,
+      "excerptSha256": "86b4deadb9e57bf6aa3e865f82648f213a0c63605c59b5a3e16fa24c18973b45"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Designed, pumped fibre-laser system; optical molecules are bound pulses, not chemical molecules.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E01 → UT-E01; original identifier preserved.",
+    "adapter": "markdown/1",
+    "limits": "Designed, pumped fibre-laser system; optical molecules are bound pulses, not chemical molecules.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E02",
+    "route": "/claims/UT-E02/",
+    "title": "Heteronuclear soliton molecules in optical microresonators",
+    "description": "An experiment or restricted result reported by the supplied evidence documents.",
+    "revision": 3,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "sourceRefs": [
+      "R-CURRENT-ADDITIONAL"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D06",
+      "UT-D07"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0024",
+      "BIB-0025"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-ADDITIONAL",
+      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+      "startLine": 35,
+      "endLine": 50,
+      "excerptSha256": "e435ef9c645154270f0f1ff6fa754774638d43799e66766cbbd541ddefe28787"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Driven Kerr microresonator; distinguish carrier frequency from collective repetition rate.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E02 → UT-E02; original identifier preserved.",
+    "adapter": "markdown/1",
+    "limits": "Driven Kerr microresonator; distinguish carrier frequency from collective repetition rate.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E03",
+    "route": "/claims/UT-E03/",
+    "title": "Mechanochemical feedback loop drives persistent motion of liposomes",
+    "description": "An experiment or restricted result reported by the supplied evidence documents.",
+    "revision": 3,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "sourceRefs": [
+      "R-CURRENT-ADDITIONAL"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D04",
+      "UT-D06"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0026",
+      "BIB-0027"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-ADDITIONAL",
+      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+      "startLine": 53,
+      "endLine": 68,
+      "excerptSha256": "27cc196f0abfaedc926c9d30f5fa26522772bd932514eb51180d435b55083b63"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E03 → UT-E03; original identifier preserved.",
+    "adapter": "markdown/1",
+    "limits": "Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E04",
+    "route": "/claims/UT-E04/",
+    "title": "De novo synthesized Min proteins drive oscillatory liposome deformation and regulate FtsA–FtsZ cytoskeletal patterns",
+    "description": "An experiment or restricted result reported by the supplied evidence documents.",
+    "revision": 3,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "sourceRefs": [
+      "R-CURRENT-ADDITIONAL"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D06",
+      "UT-D07"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0028",
+      "BIB-0029"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-ADDITIONAL",
+      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+      "startLine": 71,
+      "endLine": 86,
+      "excerptSha256": "8072f00ac495c8ec7f223c22a0f0fcd3a682f774c6180125669a75cddcbd2579"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Synthetic cellular compartment; not the creation of a complete self-reproducing organism.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E04 → UT-E04; original identifier preserved.",
+    "adapter": "markdown/1",
+    "limits": "Synthetic cellular compartment; not the creation of a complete self-reproducing organism.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E05",
+    "route": "/claims/UT-E05/",
+    "title": "Ion channels enable electrical communication in bacterial communities",
+    "description": "An experiment or restricted result reported by the supplied evidence documents.",
+    "revision": 3,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "sourceRefs": [
+      "R-CURRENT-ADDITIONAL"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D05",
+      "UT-D06"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0030",
+      "BIB-0031"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-ADDITIONAL",
+      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+      "startLine": 89,
+      "endLine": 104,
+      "excerptSha256": "585cddf8a29d29a67f1e918b8879fe0b892d55cfb8a3215fea5fde9262d385de"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Bacillus subtilis biofilms under the reported growth conditions.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E05 → UT-E05; original identifier preserved.",
+    "adapter": "markdown/1",
+    "limits": "Bacillus subtilis biofilms under the reported growth conditions.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E06",
+    "route": "/claims/UT-E06/",
+    "title": "Coupling between distant biofilms and emergence of nutrient time-sharing",
+    "description": "An experiment or restricted result reported by the supplied evidence documents.",
+    "revision": 3,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "sourceRefs": [
+      "R-CURRENT-ADDITIONAL"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D05",
+      "UT-D06",
+      "UT-D08"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0032",
+      "BIB-0033"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-ADDITIONAL",
+      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+      "startLine": 107,
+      "endLine": 122,
+      "excerptSha256": "6ca2316b04d8986e3d4aabf441a7187f38cf61fa4c48b9541394f10422903a7f"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "A coupled community pair, not physical fusion into one organism.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E06 → UT-E06; original identifier preserved.",
+    "adapter": "markdown/1",
+    "limits": "A coupled community pair, not physical fusion into one organism.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E07",
+    "route": "/claims/UT-E07/",
+    "title": "Fractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns",
+    "description": "An experiment or restricted result reported by the supplied evidence documents.",
+    "revision": 3,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "sourceRefs": [
+      "R-CURRENT-ADDITIONAL"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D05",
+      "UT-D06",
+      "UT-D07",
+      "UT-D08",
+      "UT-D09"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0034",
+      "BIB-0035"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-ADDITIONAL",
+      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+      "startLine": 125,
+      "endLine": 140,
+      "excerptSha256": "62034364856f636acee8bea0a510f292568025662b12ddd588dae8d57f6d1d72"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Direct structural-recursion evidence; not a measurement of a full multiscale temporal spectrum.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E07 → UT-E07; original identifier preserved.",
+    "adapter": "markdown/1",
+    "limits": "Direct structural-recursion evidence; not a measurement of a full multiscale temporal spectrum.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E08",
+    "route": "/claims/UT-E08/",
+    "title": "Dicke quantum phase transition with a superfluid gas in an optical cavity",
+    "description": "An experiment or restricted result reported by the supplied evidence documents.",
+    "revision": 3,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "sourceRefs": [
+      "R-CURRENT-ADDITIONAL"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D04",
+      "UT-D06",
+      "UT-D07"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0036",
+      "BIB-0037"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-ADDITIONAL",
+      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+      "startLine": 143,
+      "endLine": 158,
+      "excerptSha256": "3f84d871c3bc5caa639ad614f5ce573c4df4d067de47ecb480187c8386ed20b4"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Pumped atom–cavity system; its threshold equation is domain-specific.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E08 → UT-E08; original identifier preserved.",
+    "adapter": "markdown/1",
+    "limits": "Pumped atom–cavity system; its threshold equation is domain-specific.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E09",
+    "route": "/claims/UT-E09/",
+    "title": "Cluster synchronization and isolated desynchronization in complex networks with symmetries",
+    "description": "An experiment or restricted result reported by the supplied evidence documents.",
+    "revision": 3,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-02",
+    "sourceRefs": [
+      "R-CURRENT-ADDITIONAL"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-D05",
+      "UT-D06"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0038",
+      "BIB-0039"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-ADDITIONAL",
+      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+      "startLine": 161,
+      "endLine": 176,
+      "excerptSha256": "e1e3b4d8ed8edd23b546b9d9a6f2c1bd2cb47675d7abc754dea1e96dfcadd2a6"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Specified oscillator/network assumptions; they are not added as requirements of RRG.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E09 → UT-E09; original identifier preserved.",
+    "adapter": "markdown/1",
+    "limits": "Specified oscillator/network assumptions; they are not added as requirements of RRG.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E10",
+    "route": "/claims/UT-E10/",
+    "title": "Phonon-mediated effective attraction",
+    "description": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+    "revision": 1,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-INTERACTIONS"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-C01"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0016"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-INTERACTIONS",
+      "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+      "startLine": 29,
+      "endLine": 64,
+      "excerptSha256": "2c4577d77beda1f0f1d8d79aaf19adc3503388ed0789f6c6fc422868843ded54"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md §1",
+    "adapter": "markdown/1",
+    "limits": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E11",
+    "route": "/claims/UT-E11/",
+    "title": "Emergent spin-ice charges and interactions",
+    "description": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+    "revision": 1,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-INTERACTIONS"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-C01"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0017",
+      "BIB-0018",
+      "BIB-0019"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-INTERACTIONS",
+      "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+      "startLine": 68,
+      "endLine": 107,
+      "excerptSha256": "7886572017b041894892ab786b8242de463360fc9d07e0a729f42dc30075fe6d"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md §2",
+    "adapter": "markdown/1",
+    "limits": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+    "rightsRef": null
+  },
+  {
+    "id": "UT-E12",
+    "route": "/claims/UT-E12/",
+    "title": "Background state and interaction regime",
+    "description": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+    "revision": 2,
+    "kind": "evidence",
+    "lang": "en",
+    "audience": "technical",
+    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+    "publicationState": "draft",
+    "publishedAt": null,
+    "updatedAt": "2026-10-01",
+    "sourceRefs": [
+      "R-CURRENT-INTERACTIONS"
+    ],
+    "dependsOn": [
+      "UT-D03",
+      "UT-C01",
+      "UT-C02"
+    ],
+    "related": [],
+    "bibRefs": [
+      "BIB-0020",
+      "BIB-0021"
+    ],
+    "contentOrigin": "source-bound",
+    "sourceBinding": {
+      "sourceKey": "R-CURRENT-INTERACTIONS",
+      "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+      "startLine": 111,
+      "endLine": 154,
+      "excerptSha256": "122502c3af212ebedf2fd764f7bcfabe39a9f45d7c7093441ae133f4699cabae"
+    },
+    "statement": null,
+    "plainLanguage": "",
+    "scope": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+    "evidenceState": "project-reported",
+    "body": "",
+    "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md §3",
+    "adapter": "markdown/1",
+    "limits": "Source-reported mechanism in a specified physical system; it does not derive all four fundamental forces.",
+    "rightsRef": null
+  }
+]

@@ -23,7 +23,7 @@ const release={releaseId:'synthetic-test-only',releaseAt:'2026-10-01T12:00:00.00
 const config={...loadSiteConfig(),origin:'https://example.org',repository:{owner:'synthetic',name:'test'},publicAuthorization:true};
 test('historical representation decisions do not populate website fidelity or qualify the source',()=>{
  const historicalOnly=clone();
- assert.equal(JSON.parse(readFileSync('research/publication/reviews.yaml','utf8')).length,19);assert.equal(historicalOnly.websiteReviews.length,0);assert.equal(corpus.entries.size,34);assert.equal(historicalOnly.admission.currentSourceQualified,false);
+ assert.equal(JSON.parse(readFileSync('research/publication/reviews.yaml','utf8')).length,19);assert.equal(historicalOnly.websiteReviews.length,0);assert.equal([...corpus.entries.keys()].filter(id=>id.startsWith('UT-')).length,29);assert.ok(corpus.entries.has('DOC-EXAMPLES'));assert.equal(historicalOnly.admission.currentSourceQualified,false);
  assert.equal(reviewState(historicalOnly,'UT-D01'),'pending');
  assert.equal(reviewState(historicalOnly,'DOC-CONCEPT-GEOMETRY'),'pending');
  assert.equal(reviewState(historicalOnly,'UT-C01'),'pending');
@@ -120,7 +120,7 @@ test('withdrawn history is explicitly selected as a tombstone; former body is re
  const result=selectPublication(c,config,{...release,historicalIds:[e.id]});assert.equal(result.entries[0].statement,null);assert.deepEqual(result.manifest.navigationIds,[]);assert.doesNotMatch(renderEntrySync(c,result.entries[0]),/OLD_BODY_SENTINEL/);
 });
 test('source display adapters preserve raw bindings while rendering status/math/table consumers',()=>{
- const selected=activePublication();assert.match(renderEntrySync(corpus,corpus.entries.get('DOC-STATUS')!),/Evidence update: emergent interaction channels/);assert.match(renderEntrySync(corpus,corpus.entries.get('DOC-STATUS')!),/<math/);assert.match(renderEntrySync(corpus,corpus.entries.get('DOC-PROOF')!),/<table/);assert.equal(selected.manifest.entries.length,34);
+ const selected=activePublication();assert.match(renderEntrySync(corpus,corpus.entries.get('DOC-STATUS')!),/Evidence update: emergent interaction channels/);assert.match(renderEntrySync(corpus,corpus.entries.get('DOC-STATUS')!),/<math/);assert.match(renderEntrySync(corpus,corpus.entries.get('DOC-PROOF')!),/<table/);assert.equal(selected.manifest.entries.length,corpus.entries.size);
 });
 test('source revision transaction refuses missing prior-byte preservation and incomplete core proof gate',()=>{
  const prior=clone(),next=clone();next.admission.inventorySeal='1'.repeat(64);next.admission.edition='synthetic changed edition';next.sources.get('R-CURRENT-CORE')!.sha256='2'.repeat(64);next.admission.coreSha256='2'.repeat(64);
@@ -238,7 +238,7 @@ test('release rejects future updates and reviews independently of the publicatio
 });
 
 test('qualification uses reviewed production selection; a preview cannot be relabelled qualification',()=>{
- assert.equal(selectPublication(corpus,loadSiteConfig(),release,'preview').entries.length,34);
+ assert.equal(selectPublication(corpus,loadSiteConfig(),release,'preview').entries.length,corpus.entries.size);
  assert.throws(()=>selectPublication(corpus,loadSiteConfig(),release,'qualification'),/CURRENT_SOURCE_NOT_QUALIFIED/);
  const c=syntheticAcceptedFixture();assert.deepEqual(selectPublication(c,loadSiteConfig(),release,'qualification').manifest.navigationIds,['UT-D01']);
  c.websiteReviews=[];assert.throws(()=>selectPublication(c,loadSiteConfig(),release,'qualification'),/REVIEW_REQUIRED/);

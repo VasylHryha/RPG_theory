@@ -2,9 +2,9 @@
 import ReadingLayout from '../layouts/ReadingLayout.astro';
 import RecordStatus from './RecordStatus.astro';
 import { renderEntry } from '../lib/content';
-import { activePublication } from '../lib/publication';
+import { activePublication, isHistorical } from '../lib/publication';
 import { activeConfig } from '../lib/site-config';
-import { renderRecordDetails } from '../lib/presentation';
+import { renderRecordDetails, renderBeginnerDiagram } from '../lib/presentation';
 import 'katex/dist/katex.min.css';
 const { id } = Astro.props as { id: string };
 const { corpus,entries } = activePublication();
@@ -17,5 +17,6 @@ const details=renderRecordDetails(corpus,entry,activeConfig().basePath);
   <article class="article shell"><header><p class="eyebrow">{entry.id} · Revision {entry.revision}</p><h1>{entry.title}</h1><p class="article-lede">{entry.description}</p></header>
   <RecordStatus entry={entry} corpus={corpus} />
   <div class="prose" data-canonical-body={entry.id} set:html={html} />
+  <Fragment set:html={isHistorical(entry) ? '' : renderBeginnerDiagram(entry.id)} />
   <div data-record-details={entry.id} set:html={details} /></article>
 </ReadingLayout>

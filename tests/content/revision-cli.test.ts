@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { existsSync, cpSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
+import { existsSync, readdirSync,cpSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { tmpdir } from 'node:os';
 import { spawnSync } from 'node:child_process';
@@ -40,8 +40,8 @@ test('real revision CLI validates preserved editions and reports pending dependa
     write(next,'research/publication/source-index.yaml',sources);
     const revise=(e:any)=>{e.researchEdition=record.edition;if(e.sourceRefs.some((key:string)=>changedKeys.includes(key))) e.revision+=1;if(e.sourceBinding)e.sourceBinding.sourceSha256=sources.find((s:any)=>s.key===e.sourceBinding.sourceKey).sha256;return e;};
     for(const name of ['records','canonical-documents']) write(next,`research/publication/${name}.yaml`,read(next,`research/publication/${name}.yaml`).map(revise));
-    for(const name of ['home','start']) {
-      const path=join(next,`research/publication/pages/${name}.md`),raw=readFileSync(path,'utf8');
+    for(const name of readdirSync(join(next,'research/publication/pages')).filter(name=>name.endsWith('.md'))) {
+      const path=join(next,`research/publication/pages/${name}`),raw=readFileSync(path,'utf8');
       const match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(raw)!;
       writeFileSync(path,`---\n${JSON.stringify(revise(JSON.parse(match[1])),null,2)}\n---\n${match[2]}`);
     }
@@ -73,8 +73,8 @@ test('real revision CLI validates preserved editions and reports pending dependa
     write(next,'research/publication/source-index.yaml',sources);
     const reviseCore=(e:any)=>{if(e.sourceRefs.includes('R-CURRENT-CORE')) e.revision+=1;if(e.sourceBinding)e.sourceBinding.sourceSha256=sources.find((s:any)=>s.key===e.sourceBinding.sourceKey).sha256;return e;};
     for(const name of ['records','canonical-documents']) write(next,`research/publication/${name}.yaml`,read(next,`research/publication/${name}.yaml`).map(reviseCore));
-    for(const name of ['home','start']) {
-      const path=join(next,`research/publication/pages/${name}.md`),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(readFileSync(path,'utf8'))!;
+    for(const name of readdirSync(join(next,'research/publication/pages')).filter(name=>name.endsWith('.md'))) {
+      const path=join(next,`research/publication/pages/${name}`),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(readFileSync(path,'utf8'))!;
       writeFileSync(path,`---\n${JSON.stringify(reviseCore(JSON.parse(match[1])))}\n---\n${match[2]}`);
     }
     change.sourceChangeRef='research/RRG_CURRENT/CHANGELOG.md';change.category='wording';change.resultSeal=record.inventorySeal;

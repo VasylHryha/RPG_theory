@@ -1,0 +1,7 @@
+---
+import type { Entry } from '../lib/content-schema';
+import type { Corpus } from '../lib/content';
+import { renderStatus } from '../lib/presentation';
+const { entry, corpus } = Astro.props as { entry: Entry; corpus: Corpus };
+---
+<div data-record-status={entry.id} set:html={renderStatus(corpus,entry)} />

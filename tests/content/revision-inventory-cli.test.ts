@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {cpSync,mkdirSync,mkdtempSync,readFileSync,writeFileSync,renameSync,rmSync,existsSync} from 'node:fs';
+import {readdirSync,cpSync,mkdirSync,mkdtempSync,readFileSync,writeFileSync,renameSync,rmSync,existsSync} from 'node:fs';
 import {join,resolve} from 'node:path';
 import {tmpdir} from 'node:os';
 import {spawnSync} from 'node:child_process';
@@ -44,8 +44,8 @@ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`rea
   write(next,'research/publication/source-index.yaml',sources);
   const revise=(e:any)=>{e.researchEdition=record.edition;if(e.sourceRefs.some((k:string)=>changedKeys.includes(k))) e.revision++;return e;};
   for(const name of ['records','canonical-documents']) write(next,`research/publication/${name}.yaml`,read(next,`research/publication/${name}.yaml`).map(revise));
-  for(const name of ['home','start']) {
-   const path=join(next,`research/publication/pages/${name}.md`),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(readFileSync(path,'utf8'))!;
+  for(const name of readdirSync(join(next,'research/publication/pages')).filter(name=>name.endsWith('.md'))) {
+   const path=join(next,`research/publication/pages/${name}`),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(readFileSync(path,'utf8'))!;
    writeFileSync(path,`---\n${JSON.stringify(revise(JSON.parse(match[1])))}\n---\n${match[2]}`);
   }
   const predecessorFiles=[member,'CURRENT_MANIFEST.md','CHANGELOG.md'];

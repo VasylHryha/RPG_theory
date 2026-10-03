@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "baselineHead": "36bfae1f89f65c8a53a94eb3d74f93b899799ff9",
+  "productionInputs": {
+    "inputsSha256": "be7c440f82ff1f59faa9f14b92aa343a154b9417ccb7bf2ee55a9e3991929029",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "4b7688297de5bacb2363f9dbd01fbd2dba1c304157f5c60ee7e1cce502c05a39"
+  },
+  "commands": 11,
+  "contracts": 86,
+  "artifacts": [
+    {
+      "directory": "dist/m2-introduction/preview-root",
+      "artifactSha256": "472fb98162d233d4bc46e9ffd70fffadd95070ed6c7678f2e45f65badf64ecc2",
+      "files": 112,
+      "html": 48,
+      "postBrowserAudit": "PASS",
+      "browser": {
+        "startTime": "2026-10-03T14:22:49.230Z",
+        "duration": 19994.896,
+        "expected": 9,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "buildInputs": "be7c440f82ff1f59faa9f14b92aa343a154b9417ccb7bf2ee55a9e3991929029",
+      "sourceQualified": false,
+      "deployEligible": false
+    },
+    {
+      "directory": "dist/m2-introduction/preview-subpath",
+      "artifactSha256": "f1e6b9a02a427d7e9a973adafb249d1ee4ec33b32979608c6a36a8dc2dcdcb1a",
+      "files": 112,
+      "html": 48,
+      "postBrowserAudit": "PASS",
+      "browser": {
+        "startTime": "2026-10-03T14:23:13.244Z",
+        "duration": 19864.993,
+        "expected": 9,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "buildInputs": "be7c440f82ff1f59faa9f14b92aa343a154b9417ccb7bf2ee55a9e3991929029",
+      "sourceQualified": false,
+      "deployEligible": false
+    }
+  ],
+  "retained": [
+    {
+      "path": "dist/m1-qf1214-separate-review/preview-root",
+      "artifactSha256": "f3daa36d15b41778cf4c2943d863ab60f3f4fda25c2c89b619a616adc5830628",
+      "files": 101,
+      "unchanged": true
+    },
+    {
+      "path": "dist/m1-qf1214-separate-review/preview-subpath",
+      "artifactSha256": "f632a2c3fb5fd2891a6c42d0f9ae80505b08508b09fe820cabe67001d12c691b",
+      "files": 101,
+      "unchanged": true
+    }
+  ],
+  "websiteReviewStates": {
+    "accepted": 0,
+    "pending": 11,
+    "stale": 34,
+    "rejected": 0
+  },
+  "sourceQualified": false,
+  "publicationGuards": [
+    {
+      "mode": "qualification",
+      "exit": 1,
+      "code": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false
+    },
+    {
+      "mode": "release",
+      "exit": 1,
+      "code": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false
+    }
+  ],
+  "m2": "REVIEW_READY",
+  "m3": "NOT_STARTED",
+  "scientificAdjudication": "OUT_OF_SCOPE",
+  "humanComprehension": "NOT_TESTED",
+  "publicActions": "NOT_RUN"
+}

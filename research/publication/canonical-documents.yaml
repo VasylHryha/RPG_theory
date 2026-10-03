@@ -127,17 +127,18 @@
     "id": "DOC-CONCEPT-GEOMETRY",
     "route": "/concepts/geometry-and-modes/",
     "title": "Geometry and mode structure",
-    "description": "A minimal M1 concept consumer of the current geometry, mode and reciprocal-organization definitions.",
-    "revision": 2,
+    "description": "Relationships, constraints and organized activity, before the formal RRG meanings.",
+    "revision": 3,
     "kind": "concept",
     "lang": "en",
     "audience": "general",
     "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
     "publicationState": "draft",
     "publishedAt": null,
-    "updatedAt": "2026-10-02",
+    "updatedAt": "2026-10-03",
     "sourceRefs": [
-      "R-CURRENT-CORE"
+      "R-CURRENT-CORE",
+      "R-CURRENT-WORLD"
     ],
     "dependsOn": [
       "UT-D01",
@@ -150,10 +151,10 @@
     "sourceBinding": null,
     "statement": null,
     "plainLanguage": "",
-    "scope": "A minimal M1 concept consumer of the current geometry, mode and reciprocal-organization definitions.",
+    "scope": "Beginner concept explanation mapped to original core \u00a7\u00a71\u20133 and world \u00a7\u00a71\u20132.",
     "evidenceState": "not-applicable",
-    "body": "## Geometry\n\n::claim{id=\"UT-D01\" view=\"plainLanguage\"}\n\n## Mode structure\n\n::claim{id=\"UT-D02\" view=\"plainLanguage\"}\n\n## Together\n\n::claim{id=\"UT-D03\" view=\"plainLanguage\"}\n",
-    "sourceMapping": "",
+    "body": "## In ordinary words\n\nGeometry describes how parts are arranged and related. Mode structure describes how they change and respond together. In RRG, both belong to the description of one organized system.\n\n## Try the string example\n\nA string's length and fixed ends constrain possible motion. Its tension and mass per unit length also matter. Arrangement and constraints do not magically provide the physical law. Read the [string illustration](/examples/string/).\n\nMode structure includes patterns, relative timing, responses and characteristic times. It is wider than a periodic vibration or one number in hertz. Activity can maintain an arrangement, transform it or destroy it.\n\n## The source meanings\n\n::claim{id=\"UT-D01\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D02\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D03\" view=\"plainLanguage\"}\n\nThe basic source object is $R=(G,M)$: $G$ denotes organization and $M$ its temporal mode structure. This is the framework's definition, not an extra independently established physical law.\n\nContinue with [stability](/concepts/stability/) or [all concepts](/concepts/).\n",
+    "sourceMapping": "Core \u00a7\u00a71\u20133; world \u00a7\u00a71\u20132. Material and force conditions remain necessary for the string illustration.",
     "adapter": "markdown/1",
     "limits": "",
     "rightsRef": null

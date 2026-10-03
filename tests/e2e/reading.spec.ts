@@ -8,6 +8,7 @@ function fidelity(id:string) {
   if(!['accepted','pending','stale','rejected'].includes(state)) throw new Error(`Missing artifact review state: ${id}`);
   return {accepted:'Faithful to the supplied documents',pending:'Pending',stale:'Stale — rereview required',rejected:'Rejected — revision required'}[state as 'accepted'|'pending'|'stale'|'rejected'];
 }
+const referenceRecords=JSON.parse(readFileSync('research/publication/references.yaml','utf8'));
 const base = process.env.UNITY_TEST_BASE ?? '/';
 const suffix = base === '/' ? 'root' : 'subpath';
 const evidence = process.env.UNITY_EVIDENCE_DIR ?? 'docs/evidence/m1';
@@ -138,7 +139,7 @@ test('M1 claims, concepts, status, matrix and bibliography pass axe and 320px re
 test('literature has source-backed DOI identities and usable source extraction details without JS',async({browser})=>{
   const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:800}}),page=await context.newPage();
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'references/');
-  await expect(page.locator('[data-bibliography] > ol > li')).toHaveCount(15);
+  await expect(page.locator('[data-bibliography] > ol > li')).toHaveCount(referenceRecords.filter((r:{id:string;primaryId?:string})=>artifact.publicationManifest.referenceIds.includes(r.id) && !r.primaryId).length);
   await expect(page.locator('[data-bibliography] a[href^="https://doi.org/"]')).toHaveCount(13);
   const paper=page.locator('#BIB-0022');await expect(paper.getByRole('heading')).toHaveText('Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions');
   await expect(paper.getByRole('link',{name:'DOI: 10.1038/s41467-019-13746-6'})).toHaveAttribute('href','https://doi.org/10.1038/s41467-019-13746-6');

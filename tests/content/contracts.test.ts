@@ -13,7 +13,7 @@ import { assertBuildAllowed } from '../../src/lib/publication.js';
 import { loadSiteConfig } from '../../src/lib/site-config.js';
 import { renderMarkdown } from '../../src/lib/markdown.js';
 import { auditOutput } from '../../scripts/audit-output.js';
-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
+import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
 const privateRoutes=activePublication().manifest.routes;
 import { buildInputs, syntheticRoutes } from '../../src/lib/build-identity.js';
 
@@ -126,6 +126,7 @@ function outputFixture(run: (directory: string, info: ReturnType<typeof outputIn
       if(entry && !['DOC-HOME','DOC-START'].includes(entry.id)) body+=`<p class="article-lede">${escapeHTML(entry.description)}</p>`;
       if(entry && ['DOC-HOME','DOC-START'].includes(entry.id)) body+=`<p data-editorial-state="${entry.id}">${renderEditorialState(selected.corpus,entry)}</p>`;
       if(entry?.id==='DOC-HOME') body+=`<div data-source-projection="DOC-STATUS">${renderHomeStatus(selected.corpus,selected.entries.find(e=>e.id==='DOC-STATUS')!,info.config.basePath)}</div>`;
+      if(entry)body+=renderBeginnerDiagram(entry.id);
       if(route==='/references/') body=`<div data-bibliography>${renderReferences(selected.references,selected.entries,info.config.basePath)}</div>`;
       mkdirSync(join(directory, file, '..'), { recursive: true });
       const title=escapeHTML(entry ? entry.title+' · Unity Theory' : 'Isolated output fixture'),socialTitle=escapeHTML(entry?.title??'Isolated output fixture'),description=escapeHTML(entry?.description??''),url=info.config.origin+withBase(route,info.config.basePath);
@@ -233,7 +234,7 @@ test('output audit binds bibliography text, destinations, support limits, status
     ['references/index.html','Supplementary reference reported by the supplied documents.','Scientific support accepted.','BIBLIOGRAPHY_PARITY_FAILURE'],
     ['claims/UT-E01/index.html',`<dd>${reviewLabel(activePublication().corpus,'UT-E01')}</dd>`,'<dd>Fabricated review label</dd>','CONTENT_METADATA_PARITY_FAILURE'],
     ['index.html','Whether the four known fundamental interactions','All four fundamental interactions have been proved','CONTENT_PARITY_FAILURE'],
-    ['index.html','How does a collection become a whole?</h1>','All interactions proved.</h1>','CONTENT_METADATA_PARITY_FAILURE'],
+    ['index.html',`${escapeHTML(activePublication().entries.find(e=>e.id==='DOC-HOME')!.title)}</h1>`,'All interactions proved.</h1>','CONTENT_METADATA_PARITY_FAILURE'],
     ['start/index.html','Publication: Draft · private preview.','Publication: published.','CONTENT_METADATA_PARITY_FAILURE'],
     ['start/index.html',`Source fidelity: ${reviewLabel(activePublication().corpus,'DOC-START')}.`,'Source fidelity: Fabricated review label.','CONTENT_METADATA_PARITY_FAILURE'],
     ['index.html','Research status</a>','All science accepted</a>','NAVIGATION_PARITY_FAILURE'],
@@ -391,4 +392,14 @@ test('standalone SVG refuses stylesheet and unknown processing instructions whil
     '<?other href="https://remote.invalid/unknown"?>'
   ]) {writeFileSync(path,prefix+svg);assert.throws(()=>auditOutput(directory),/UNSAFE_SVG/);}
   writeFileSync(path,'<?xml version="1.0" encoding="UTF-8"?>'+svg);assert.equal(auditOutput(directory).status,'PASS');
+}));
+
+test('output audit rejects missing, altered or duplicate beginner schematics at their own control',()=>outputFixture(directory=>{
+  assert.equal(auditOutput(directory).status,'PASS');
+  const path=join(directory,'index.html'),raw=readFileSync(path,'utf8');
+  for(const changed of [
+    raw.replace(/<figure class="beginner-diagram"[\s\S]*?<\/figure>/,''),
+    raw.replace('Compatible active parts','All forces proven'),
+    raw.replace('</body>',renderBeginnerDiagram('DOC-HOME')+'</body>'),
+  ]) {assert.notEqual(changed,raw);writeFileSync(path,changed);assert.throws(()=>auditOutput(directory),/DIAGRAM_PARITY_FAILURE/);}
 }));

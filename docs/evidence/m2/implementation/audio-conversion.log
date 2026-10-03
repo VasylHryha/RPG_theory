@@ -1,0 +1,22 @@
+The format 'aac' is unknown or an unparseable PCM format specifier
+Invalid format string: aac
+Syntax of format strings is: [-][BE|LE]{F|I|UI}{bitdepth}[@sample_rate_hz][/format_flags][#frames_per_packet][,channelsDI]
+
+    Audio File Convert
+    Version: 2.0
+    Copyright 2003-2013, Apple Inc. All Rights Reserved.
+    Specify -h (-help) for command options
+
+Usage:
+afconvert [option...] input_file [output_file]
+    Options may appear before or after the direct arguments. If output_file
+    is not specified, a name is generated programmatically and the file
+    is written into the same directory as input_file.
+afconvert input_file [-o output_file [option...]]...
+    Output file options apply to the previous output_file. Other options
+    may appear anywhere.
+Help options:
+    { -hf | --help-formats }
+        print a list of supported file/data formats
+    { -h | --help }
+        print help

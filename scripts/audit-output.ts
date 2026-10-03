@@ -1,5 +1,5 @@
 import { publicationFor, isHistorical } from '../src/lib/publication.js';
-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState } from '../src/lib/presentation.js';
+import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram } from '../src/lib/presentation.js';
 import { renderEntrySync } from '../src/lib/content.js';
 import { readFileSync, existsSync, statSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve, join, dirname } from 'node:path';
@@ -120,6 +120,9 @@ export function auditOutput(directory: string) {
         if(projection.length!==1 || !entry.dependsOn.includes(status.id) || normalizedHTML(projection.html() ?? '')!==normalizedHTML(renderHomeStatus(selected.corpus,status,info.config.basePath))) throw new ContractError('CONTENT_PARITY_FAILURE','DOC-HOME status projection');
       }
     }
+    const expectedDiagram=entry && !isHistorical(entry)?renderBeginnerDiagram(entry.id):'';
+    const diagrams=$('[data-beginner-diagram]');
+    if(expectedDiagram ? diagrams.length!==1 || normalizedHTML(diagrams.toArray().map(el=>$.html(el)).join(''))!==normalizedHTML(expectedDiagram) : diagrams.length!==0) throw new ContractError('DIAGRAM_PARITY_FAILURE',file);
     if(route==='/references/') {
       if($('[data-bibliography]').length!==1 || normalizedHTML($('[data-bibliography]').html() ?? '')!==normalizedHTML(renderReferences(selected.references,selected.entries,info.config.basePath))) throw new ContractError('BIBLIOGRAPHY_PARITY_FAILURE','Literature text/destinations/scope/users');
     }

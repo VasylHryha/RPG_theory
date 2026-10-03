@@ -197,3 +197,17 @@ export function loadCanonicalCorpus(root = process.cwd()): Corpus {
 export async function renderEntry(corpus: Corpus,entry: Entry,base='/') { return renderMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,base,corpus); }
 
 export function renderEntrySync(corpus: Corpus,entry: Entry,base='/') { return renderMarkdownSync(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,base,corpus); }
+
+// Context-sensitive editorial diagnostics: flag candidates, never manufacture
+// semantic approval or reject a legitimate quotation/negation automatically.
+export function beginnerWordingCandidates(entry: Entry) {
+  if(entry.audience!=='general' || !['intro','concept','example'].includes(entry.kind))return [];
+  const patterns:[string,RegExp][]=[
+    ['stability-theorem',/universal.{0,50}stability.{0,30}theorem/gi],
+    ['geometry-only-string',/geometry alone.{0,20}(?:fixes|determines).{0,35}(?:tension|mass|material)/gi],
+    ['wave-as-proof',/wave.{0,25}(?:proves|proof).{0,35}(?:persistent|higher.level)/gi],
+    ['oxygen-inevitability',/oxygen.{0,30}(?:guarantees|inevitably).{0,40}(?:complex|higher)/gi]
+  ];
+  const text=entry.body+'\n'+entry.plainLanguage;
+  return patterns.flatMap(([rule,pattern])=>[...text.matchAll(pattern)].map(match=>({rule,excerpt:text.slice(Math.max(0,match.index!-70),match.index!+match[0].length+70),requiresContextReview:true})));
+}

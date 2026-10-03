@@ -1,0 +1,40 @@
+---
+import CanonicalPage from '../components/CanonicalPage.astro';
+import { publicationEntry, isHistorical } from '../lib/publication';
+import { renderEntry } from '../lib/content';
+import { renderHomeStatus, renderHomeHeading, renderEditorialState } from '../lib/presentation';
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import 'katex/dist/katex.min.css';
+import OrganizationDiagram from '../components/OrganizationDiagram.astro';
+import { activeConfig } from '../lib/site-config';
+import { withBase } from '../lib/urls';
+import { sourceState } from '../lib/source-admission';
+const { corpus, entry } = publicationEntry('DOC-HOME');
+const historical=isHistorical(entry);
+const html = historical?'':await renderEntry(corpus,entry,activeConfig().basePath);
+const status = historical?undefined:publicationEntry('DOC-STATUS').entry;
+const statusHTML = status?renderHomeStatus(corpus,status,activeConfig().basePath):'';
+const start = withBase('/start/', activeConfig().basePath);
+const sourceLabel = sourceState().bytesVerified ? 'Source available' : 'Source unavailable';
+---
+{historical ? <CanonicalPage id={entry.id} /> : <ReadingLayout title={entry.title} description={entry.description} route="/">
+  <section class="hero shell" aria-labelledby="research-question">
+    <div><p class="eyebrow">A question about organization</p>
+      <h1 id="research-question" set:html={renderHomeHeading(entry.title)} />
+      <p class="hero-lede">Parts. Relationships. Activity.<br />And the possibilities they create together.</p>
+      <a class="button" href={start}>Start with the idea <span aria-hidden="true">→</span></a>
+      <p class="reading-note">A short introduction · No technical background needed</p>
+      <p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} />
+    </div><OrganizationDiagram />
+  </section>
+  <section class="reading-section shell"><div class="margin-label"><span>01 / The idea</span><p>From something familiar<br />to a research question.</p></div><div class="prose"><div data-canonical-body={entry.id} set:html={html} /></div></section>
+  <section class="pathways shell" aria-labelledby="explore-title">
+    <div class="section-heading"><p class="eyebrow">Choose your depth</p><h2 id="explore-title">Follow the question.</h2></div>
+    <div class="pathway-grid">
+      <a class="pathway" href={start}><span class="pathway-number">01</span><h3>Start simply <span aria-hidden="true">↗</span></h3><p>Move from parts and patterns to the idea of further organization.</p><span class="pathway-state">Read the introduction</span></a>
+      <div class="pathway"><span class="pathway-number">02</span><h3>Read the framework</h3><p>Precise definitions, assumptions, and the boundary between core and extension.</p><span class="pathway-state">{sourceLabel} · Website section in preparation</span></div>
+      <div class="pathway"><span class="pathway-number">03</span><h3>Explore the documents</h3><p>Mathematics, evidence, open questions, and the history of the research.</p><span class="pathway-state">{sourceLabel} · Website section in preparation</span></div>
+    </div>
+  </section>
+  <section class="open-question shell"><p class="eyebrow">The work ahead</p><h2>A framework to investigate.</h2><div class="prose" data-source-projection={status!.id} set:html={statusHTML} /><p><a href={withBase(status!.route,activeConfig().basePath)}>Read current research status and review limits</a></p></section>
+</ReadingLayout>}

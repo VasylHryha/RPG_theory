@@ -23,6 +23,7 @@ export function renderHomeHeading(title: string) {
   return `${words.slice(0,4).map(escapeHTML).join(' ')}<br class="desktop-break" /> ${words.slice(4,-1).map(escapeHTML).join(' ')} <em>${escapeHTML(words.at(-1)!)}</em>`;
 }
 export function renderStatus(corpus: Corpus,entry: Entry) {
+  if(entry.audience==='general' && ['concept','example'].includes(entry.kind)) return `<p class="record-status record-status-compact reading-note">${entry.kind==='example'?'Illustrative example':'Concept explanation'} · ${escapeHTML(renderEditorialState(corpus,entry))}</p>`;
   const pairs=[['Scientific role',roles[entry.kind] ?? 'Research document'],['Evidence',evidence[entry.evidenceState]],['Source fidelity',reviewLabel(corpus,entry.id)],['Publication',entry.publicationState==='draft'?'Draft · private preview':entry.publicationState]];
   return `<dl class="record-status">${pairs.map(([label,value])=>`<div><dt>${label}</dt><dd>${escapeHTML(value)}</dd></div>`).join('')}</dl>`;
 }
@@ -42,7 +43,7 @@ export function renderRecordDetails(corpus: Corpus,entry: Entry,base='/') {
   }
   if(entry.dependsOn.length) html+=`<h3>Depends on</h3><ul>${entry.dependsOn.map(id=>`<li>${link(corpus.entries.get(id)!.route,`${id} — ${corpus.entries.get(id)!.title}`,base)}</li>`).join('')}</ul>`;
   const refs=[...new Set(entry.bibRefs.map(id=>corpus.references.get(id)!.primaryId ?? id))];
-  if(refs.length) html+=`<h3>References reported by this source</h3><ul>${refs.map(id=>`<li><a href="${withBase('/references/',base)}#${id}">${escapeHTML(corpus.references.get(id)!.title)}</a></li>`).join('')}</ul>`;
+  if(refs.length) html+=`<h3>${entry.contentOrigin==='source-bound'?'References reported by this source':'References and further reading'}</h3><ul>${refs.map(id=>`<li><a href="${withBase('/references/',base)}#${id}">${escapeHTML(corpus.references.get(id)!.title)}</a></li>`).join('')}</ul>`;
   if(entry.id==='DOC-STATUS') html+=`<p>${link(corpus.entries.get('DOC-PROOF')!.route,'Read the claim and evidence matrix',base)}</p>`;
   return html+'</section>';
 }
@@ -64,9 +65,45 @@ export function renderHomeStatus(corpus: Corpus,entry: Entry,base='/') {
   return renderMarkdownSync(text.slice(heading.position.start.offset,next.position.start.offset),base,corpus);
 }
 export function renderNavigation(selection: { entries: Entry[]; manifest: {navigationIds:string[];routes:string[]} },route:string,base='/') {
-  const navigation=[['DOC-STATUS','Research status'],['DOC-CONCEPT-GEOMETRY','Definitions'],['DOC-HOME','The question'],['DOC-START','Start simply']].flatMap(([id,label])=>{
+  const navigation=[['DOC-START','Start'],['DOC-EXAMPLES','Examples'],['DOC-CONCEPTS','Concepts'],['DOC-STATUS','Research status']].flatMap(([id,label])=>{
     const entry=selection.entries.find(e=>e.id===id);return entry && selection.manifest.navigationIds.includes(id)?[{route:entry.route,label}]:[];
   });
-  if(selection.manifest.routes.includes('/references/')) navigation.splice(2,0,{route:'/references/',label:'Literature'});
+  if(selection.manifest.routes.includes('/references/')) navigation.push({route:'/references/',label:'Sources'});
   return navigation.map(item=>`<a href="${escapeHTML(withBase(item.route,base))}"${route===item.route?' aria-current="page"':''}>${item.label}</a>`).join('');
+}
+
+// Authored schematics are shared by the page and output auditor. Their bytes are
+// part of the rendering-policy fingerprint; no external images or scripts load.
+export function renderBeginnerDiagram(id: string) {
+  const type = ['DOC-HOME','DOC-START','DOC-CONCEPT-RECURSION'].includes(id) ? 'organization'
+    : id==='DOC-EXAMPLE-STRING' ? 'string' : id==='DOC-CONCEPT-INTERACTIONS' ? 'interaction' : null;
+  if(!type)return '';
+  const prefix=`diagram-${id}`,title=`${prefix}-title`,description=`${prefix}-description`;
+  let heading='',equivalent='',shapes='',caption='';
+  if(type==='organization') {
+    heading='Parts, a whole, and further organization';
+    equivalent='Compatible active parts can couple into a collective organization. A persistent whole may become a useful unit in further combinations. The surroundings constrain the process, and existing organization may change those surroundings. This is the RRG research proposal, not a guaranteed sequence.';
+    shapes=`<rect class="diagram-environment" x="14" y="14" width="332" height="342" rx="22"/><text x="180" y="42">Surroundings &amp; conditions</text>
+      <g class="diagram-node"><rect x="57" y="64" width="246" height="56" rx="8"/><text x="180" y="89">Compatible active parts</text><text class="diagram-subtitle" x="180" y="109">different parts can play different roles</text></g>
+      <path class="diagram-link" d="M180 120 V147"/><path class="diagram-arrowhead" d="m175 142 5 6 5-6"/>
+      <g class="diagram-node"><rect x="57" y="151" width="246" height="68" rx="8"/><text x="180" y="178">Collective organization</text><text class="diagram-subtitle" x="180" y="200">arrangement ↔ activity</text></g>
+      <path class="diagram-link" d="M180 219 V245"/><path class="diagram-arrowhead" d="m175 240 5 6 5-6"/>
+      <g class="diagram-node"><rect x="57" y="249" width="246" height="60" rx="8"/><text x="180" y="276">A useful unit</text><text class="diagram-subtitle" x="180" y="297">in further combinations</text></g>
+      <path class="diagram-feedback" d="M303 277 C333 277 333 84 303 84"/><path class="diagram-arrowhead" d="m309 79-6 5 6 5"/><text class="diagram-subtitle" x="180" y="337">organization can change conditions</text>`;
+    caption='A proposed cycle: active parts → collective organization → a useful unit for further combinations. Conditions affect formation; existing organization may change conditions. Illustration, not a measurement.';
+  } else if(type==='string') {
+    heading='Two supported modes with fixed ends';
+    equivalent='Both string ends are fixed. One illustrated mode has one arch between the ends. Another has two arches and an additional stationary point at the centre. The endpoints are stationary in both patterns. Tension and mass per unit length matter as well as length and boundaries.';
+    shapes=`<text x="180" y="35">Fixed ends, different patterns</text><text class="diagram-subtitle" x="180" y="53">One arch</text><path class="string-baseline" d="M35 125 H325"/><path class="string-mode" d="M35 125 C110 40 250 40 325 125"/><circle class="string-node" cx="35" cy="125" r="5"/><circle class="string-node" cx="325" cy="125" r="5"/>
+      <text class="diagram-subtitle" x="180" y="165">Two arches</text><path class="string-baseline" d="M35 220 H325"/><path class="string-mode" d="M35 220 C80 160 135 160 180 220 S280 280 325 220"/><circle class="string-node" cx="35" cy="220" r="5"/><circle class="string-node" cx="180" cy="220" r="5"/><circle class="string-node" cx="325" cy="220" r="5"/><text class="diagram-subtitle" x="180" y="303">dots indicate stationary points</text>`;
+    caption='Two possible shapes of an ideal fixed-end string, drawn at one instant. Tension and mass per unit length determine its wave speed. Illustration, not measured amplitudes.';
+  } else {
+    heading='The conditional effective-interaction question';
+    equivalent='In the RRG extension, a lower-level organization may enable an effective interaction channel. Under suitable conditions, that channel may help a further organization persist. The source describes distinct physical cases; a universal quantitative law is still open.';
+    shapes=`<text x="180" y="35">Conditional RRG extension</text><g class="diagram-node"><rect x="28" y="60" width="304" height="57" rx="8"/><text x="180" y="94">Existing organization</text></g><path class="diagram-link" d="M180 117 V149"/><path class="diagram-arrowhead" d="m175 143 5 6 5-6"/>
+      <g class="diagram-node"><rect x="28" y="153" width="304" height="57" rx="8"/><text x="180" y="187">Effective interaction channel</text></g><path class="diagram-link" d="M180 210 V242"/><path class="diagram-arrowhead" d="m175 236 5 6 5-6"/>
+      <g class="diagram-node"><rect x="28" y="246" width="304" height="57" rx="8"/><text x="180" y="280">Possible further organization</text></g><text class="diagram-subtitle" x="180" y="337">when the system's conditions support it</text>`;
+    caption='A source-bound illustration of the open extension. The reported crystal, spin-ice and background-field cases have different mechanisms and conditions; the arrows are not a derived universal law.';
+  }
+  return `<figure class="beginner-diagram" data-beginner-diagram="${id}"><svg viewBox="0 0 360 370" role="img" aria-labelledby="${title} ${description}"><title id="${title}">${heading}</title><desc id="${description}">${equivalent}</desc>${shapes}</svg><figcaption>${caption}</figcaption></figure>`;
 }

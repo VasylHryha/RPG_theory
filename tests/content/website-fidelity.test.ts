@@ -9,7 +9,7 @@ import { websiteReviewInputs, websiteReviewState, validateWebsiteReviews, qualif
 import { sha256 } from '../../src/lib/identity.js';
 
 function control(c:ReturnType<typeof loadCanonicalCorpus>,root:string,id='UT-D01') {
- const decision={schema:'unity-website-fidelity-decision/1',purpose:'website-source-fidelity/1' as const,entryId:id,fingerprint:reviewFingerprint(c,id),reviewerKind:'agent' as const,reviewedAt:'2026-10-02',outcome:'accepted' as const,scientificCertification:false,rationale:'Synthetic mechanics control only; no real acceptance.',inputs:structuredClone(websiteReviewInputs(c,id)),checks:Object.fromEntries(fidelityChecks.map(key=>[key,'Synthetic comparison only']))};
+ const decision={schema:'unity-website-fidelity-decision/1',purpose:'website-source-fidelity/1' as const,entryId:id,fingerprint:reviewFingerprint(c,id),reviewerKind:'agent' as const,reviewedAt:websiteReviewInputs(c,id).materialUpdatedAt,outcome:'accepted' as const,scientificCertification:false,rationale:'Synthetic mechanics control only; no real acceptance.',inputs:structuredClone(websiteReviewInputs(c,id)),checks:Object.fromEntries(fidelityChecks.map(key=>[key,'Synthetic comparison only']))};
  const evidenceRef='docs/evidence/control.json';mkdirSync(join(root,'docs/evidence'),{recursive:true});
  const save=()=>{const raw=JSON.stringify(decision);writeFileSync(join(root,evidenceRef),raw);return {purpose:decision.purpose,entryId:id,fingerprint:decision.fingerprint,reviewerKind:decision.reviewerKind,reviewedAt:decision.reviewedAt,outcome:decision.outcome,evidenceRef,evidenceSha256:sha256(raw)};};
  return {decision,save};
@@ -86,7 +86,7 @@ test('review dates cannot predate the reviewed material, including dependency up
  try {
   const c=loadCanonicalCorpus();c.root=root;const fixture=control(c,root,'DOC-HOME');fixture.decision.reviewedAt='2026-10-01';c.websiteReviews=[fixture.save()];
   assert.throws(()=>validateWebsiteReviews(c),/REVIEW_PREDATES_MATERIAL/);
-  fixture.decision.reviewedAt='2026-10-02';c.websiteReviews=[fixture.save()];assert.doesNotThrow(()=>validateWebsiteReviews(c));
+  fixture.decision.reviewedAt=fixture.decision.inputs.materialUpdatedAt;c.websiteReviews=[fixture.save()];assert.doesNotThrow(()=>validateWebsiteReviews(c));
  } finally {rmSync(root,{recursive:true,force:true});}
 });
 test('receipt paths reject traversal, symlink files and symlink ancestors',()=>{
@@ -173,11 +173,11 @@ test('a real loader roundtrip validates hashed decisions and qualifies only the 
   const invoke=()=>spawnSync(process.execPath,['--import',resolve('node_modules/tsx/dist/loader.mjs'),resolve('scripts/check-content.ts'),'--evidence-dir','docs/evidence/cli-control'],{cwd:root,encoding:'utf8'});
   let cli=invoke();assert.equal(cli.status,0,cli.stdout+cli.stderr);
   let report=JSON.parse(readFileSync(join(root,'docs/evidence/cli-control/content-bindings.json'),'utf8'));
-  assert.equal(report.acceptedReviews,1);assert.deepEqual(report.reviewStates,{accepted:1,pending:33,stale:0,rejected:0});
+  assert.equal(report.acceptedReviews,1);assert.deepEqual(report.reviewStates,{accepted:1,pending:loaded.entries.size-1,stale:0,rejected:0});
   entry.description+=' Synthetic changed display metadata.';writeFileSync(file,JSON.stringify(records));
   cli=invoke();assert.equal(cli.status,0,cli.stdout+cli.stderr);
   report=JSON.parse(readFileSync(join(root,'docs/evidence/cli-control/content-bindings.json'),'utf8'));
-  assert.equal(report.acceptedReviews,0);assert.deepEqual(report.reviewStates,{accepted:0,pending:33,stale:1,rejected:0});
+  assert.equal(report.acceptedReviews,0);assert.deepEqual(report.reviewStates,{accepted:0,pending:loaded.entries.size-1,stale:1,rejected:0});
 
   const intake=JSON.parse(readFileSync(join(root,'config/research-source.json'),'utf8'));intake.corpusScope='synthetic';writeFileSync(join(root,'config/research-source.json'),JSON.stringify(intake));
   assert.throws(()=>selectPublication(loadCanonicalCorpus(root),loadSiteConfig(),release,'qualification'),/CURRENT_SOURCE_NOT_QUALIFIED/);
