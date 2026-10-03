@@ -1,0 +1,702 @@
+[
+  {
+    "base": "/",
+    "name": "inline-fill",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "standalone-fill",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "inline-stroke",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "standalone-stroke",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "inline-filter",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "standalone-filter",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "inline-clip-path",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "standalone-clip-path",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "inline-mask",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "standalone-mask",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "inline-cursor",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "standalone-cursor",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "inline-marker",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "standalone-marker",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "inline-marker-start",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "standalone-marker-start",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "inline-marker-mid",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "standalone-marker-mid",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "inline-marker-end",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "standalone-marker-end",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "inline-xml-base",
+    "untouchedCopy": "PASS",
+    "expected": "ACTIVE_OUTPUT",
+    "outcome": "ACTIVE_OUTPUT"
+  },
+  {
+    "base": "/",
+    "name": "standalone-xml-base",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_SVG",
+    "outcome": "UNSAFE_SVG"
+  },
+  {
+    "base": "/",
+    "name": "stylesheet-pi-remote",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_SVG",
+    "outcome": "UNSAFE_SVG"
+  },
+  {
+    "base": "/",
+    "name": "stylesheet-pi-local",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_SVG",
+    "outcome": "UNSAFE_SVG"
+  },
+  {
+    "base": "/",
+    "name": "unknown-pi",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_SVG",
+    "outcome": "UNSAFE_SVG"
+  },
+  {
+    "base": "/",
+    "name": "quoted-comment-font",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "unquoted-comment-font",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "quoted-comment-path",
+    "untouchedCopy": "PASS",
+    "expected": "BROKEN_OUTPUT_LINK",
+    "outcome": "BROKEN_OUTPUT_LINK"
+  },
+  {
+    "base": "/",
+    "name": "unquoted-comment-path",
+    "untouchedCopy": "PASS",
+    "expected": "BROKEN_OUTPUT_LINK",
+    "outcome": "BROKEN_OUTPUT_LINK"
+  },
+  {
+    "base": "/",
+    "name": "escaped-quote-path",
+    "untouchedCopy": "PASS",
+    "expected": "BROKEN_OUTPUT_LINK",
+    "outcome": "BROKEN_OUTPUT_LINK"
+  },
+  {
+    "base": "/",
+    "name": "escaped-protocol",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "escaped-inline-protocol",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "nested-fallback-load",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/",
+    "name": "escaped-import",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/",
+    "name": "string-image-set",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/",
+    "name": "font-src-function",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/",
+    "name": "unknown-function",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/",
+    "name": "encoding-directive",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/",
+    "name": "unterminated-comment",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/",
+    "name": "unclosed-delimiter",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/",
+    "name": "inert-string",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/",
+    "name": "escaped-local-function",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/",
+    "name": "local-url-comment-trivia",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/",
+    "name": "local-url-line-continuation",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/",
+    "name": "quoted-installed-font",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/",
+    "name": "escaped-installed-font",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/",
+    "name": "static-gradient",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/",
+    "name": "inline-fragment-and-cursor",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/",
+    "name": "standalone-fragment",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/",
+    "name": "xml-declaration",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-fill",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-fill",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-stroke",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-stroke",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-filter",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-filter",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-clip-path",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-clip-path",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-mask",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-mask",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-cursor",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-cursor",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-marker",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-marker",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-marker-start",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-marker-start",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-marker-mid",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-marker-mid",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-marker-end",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-marker-end",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-xml-base",
+    "untouchedCopy": "PASS",
+    "expected": "ACTIVE_OUTPUT",
+    "outcome": "ACTIVE_OUTPUT"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-xml-base",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_SVG",
+    "outcome": "UNSAFE_SVG"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "stylesheet-pi-remote",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_SVG",
+    "outcome": "UNSAFE_SVG"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "stylesheet-pi-local",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_SVG",
+    "outcome": "UNSAFE_SVG"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "unknown-pi",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_SVG",
+    "outcome": "UNSAFE_SVG"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "quoted-comment-font",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "unquoted-comment-font",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "quoted-comment-path",
+    "untouchedCopy": "PASS",
+    "expected": "BROKEN_OUTPUT_LINK",
+    "outcome": "BROKEN_OUTPUT_LINK"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "unquoted-comment-path",
+    "untouchedCopy": "PASS",
+    "expected": "BROKEN_OUTPUT_LINK",
+    "outcome": "BROKEN_OUTPUT_LINK"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "escaped-quote-path",
+    "untouchedCopy": "PASS",
+    "expected": "BROKEN_OUTPUT_LINK",
+    "outcome": "BROKEN_OUTPUT_LINK"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "escaped-protocol",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "escaped-inline-protocol",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "nested-fallback-load",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_URL",
+    "outcome": "UNSAFE_OUTPUT_URL"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "escaped-import",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "string-image-set",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "font-src-function",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "unknown-function",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "encoding-directive",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "unterminated-comment",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "unclosed-delimiter",
+    "untouchedCopy": "PASS",
+    "expected": "UNSAFE_OUTPUT_CSS",
+    "outcome": "UNSAFE_OUTPUT_CSS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inert-string",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "escaped-local-function",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "local-url-comment-trivia",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "local-url-line-continuation",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "quoted-installed-font",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "escaped-installed-font",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "static-gradient",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "inline-fragment-and-cursor",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "standalone-fragment",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  },
+  {
+    "base": "/unity-theory/",
+    "name": "xml-declaration",
+    "untouchedCopy": "PASS",
+    "expected": "PASS",
+    "outcome": "PASS"
+  }
+]

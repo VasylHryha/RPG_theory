@@ -1,0 +1,62 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.hover: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('#review-target')[22m
+[2m    - locator resolved to <rect width="90" height="90" id="review-target" fill="url(https://remote.invalid/fill.svg#paint)"></rect>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <svg width="90" height="90">…</svg> intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <svg width="90" height="90">…</svg> intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    54 × waiting for element to be visible and stable[22m
+[2m       - element is visible and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <svg width="90" height="90">…</svg> intercepts pointer events[22m
+[2m     - retrying hover action[22m
+[2m       - waiting 500ms[22m
+
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/docs/evidence/m1/qf1214-separate-review/browser-probe.ts:33:64) {
+  log: [
+    "  - waiting for locator('#review-target')",
+    '    - locator resolved to <rect width="90" height="90" id="review-target" fill="url(https://remote.invalid/fill.svg#paint)"></rect>',
+    '  - attempting hover action',
+    '    2 × waiting for element to be visible and stable',
+    '      - element is visible and stable',
+    '      - scrolling into view if needed',
+    '      - done scrolling',
+    '      - <svg width="90" height="90">…</svg> intercepts pointer events',
+    '    - retrying hover action',
+    '    - waiting 20ms',
+    '    2 × waiting for element to be visible and stable',
+    '      - element is visible and stable',
+    '      - scrolling into view if needed',
+    '      - done scrolling',
+    '      - <svg width="90" height="90">…</svg> intercepts pointer events',
+    '    - retrying hover action',
+    '      - waiting 100ms',
+    '    54 × waiting for element to be visible and stable',
+    '       - element is visible and stable',
+    '       - scrolling into view if needed',
+    '       - done scrolling',
+    '       - <svg width="90" height="90">…</svg> intercepts pointer events',
+    '     - retrying hover action',
+    '       - waiting 500ms'
+  ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.18.0
