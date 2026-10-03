@@ -4,8 +4,9 @@ import { activeConfig, activeMode } from '../lib/site-config';
 import { canonicalURL, withBase } from '../lib/urls';
 import { renderNavigation } from '../lib/presentation';
 import { activePublication } from '../lib/publication';
+import mathStylesheet from 'katex/dist/katex.min.css?url';
 interface Props { title: string; description: string; route: string; math?: boolean }
-const { title, description, route } = Astro.props;
+const { title, description, route, math = false } = Astro.props;
 const config = activeConfig();
 const url = (path: string) => withBase(path, config.basePath);
 const selected=activePublication();
@@ -25,6 +26,7 @@ const source = {...selected.admission,errorCode:null};
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL(route, config)} />
     <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+    {math && <link rel="stylesheet" href={mathStylesheet} data-math-stylesheet />}
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>

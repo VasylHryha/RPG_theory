@@ -34,8 +34,10 @@ export function renderRecordDetails(corpus: Corpus,entry: Entry,base='/') {
   if(entry.contentOrigin==='proposed') html+=`<aside class="prose"><h2>Proposal · not adopted into the current theory</h2><p>${escapeHTML(entry.proposalProvenance ?? '')}</p></aside>`;
   if(entry.publicationState==='superseded') html+=`<aside class="prose"><h2>Historical record · corrected</h2><p>Change record: ${escapeHTML(entry.correctionRef ?? '')}</p>${link(corpus.entries.get(entry.supersededBy!)!.route,`Read replacement ${entry.supersededBy}`,base)}</aside>`;
   if(entry.plainLanguage) html+=`<section class="prose"><h2>In plain language</h2><p class="reading-note">Source fidelity: ${escapeHTML(reviewLabel(corpus,entry.id))}</p>${renderMarkdownSync(entry.plainLanguage,base,corpus)}</section>`;
-  html+=`<section class="prose"><h2>Scope and sources</h2><p>${escapeHTML(entry.scope)}</p>`;
-  if(entry.limits && entry.limits!==entry.scope) html+=`<p>${escapeHTML(entry.limits)}</p>`;
+  const context=html;
+  const compact=entry.audience==='general' && ['concept','example'].includes(entry.kind);
+  html=`<section class="prose"><h2>Scope and sources</h2><p>${escapeHTML(entry.scope)}</p>`;
+  if(!compact && entry.limits && entry.limits!==entry.scope) html+=`<p>${escapeHTML(entry.limits)}</p>`;
   if(entry.sourceMapping) html+=`<p>${escapeHTML(entry.sourceMapping)}</p>`;
   if(entry.sourceBinding) {
     const b=entry.sourceBinding;const source=corpus.sources.get(b.sourceKey)!;
@@ -45,7 +47,12 @@ export function renderRecordDetails(corpus: Corpus,entry: Entry,base='/') {
   const refs=[...new Set(entry.bibRefs.map(id=>corpus.references.get(id)!.primaryId ?? id))];
   if(refs.length) html+=`<h3>${entry.contentOrigin==='source-bound'?'References reported by this source':'References and further reading'}</h3><ul>${refs.map(id=>`<li><a href="${withBase('/references/',base)}#${id}">${escapeHTML(corpus.references.get(id)!.title)}</a></li>`).join('')}</ul>`;
   if(entry.id==='DOC-STATUS') html+=`<p>${link(corpus.entries.get('DOC-PROOF')!.route,'Read the claim and evidence matrix',base)}</p>`;
-  return html+'</section>';
+  html+='</section>';
+  if(compact) {
+    const limit=entry.limits && entry.limits!==entry.scope?`<p class="reading-note">${escapeHTML(entry.limits)}</p>`:'';
+    return `${context}${limit}<details class="source-details"><summary>Sources and related definitions</summary>${html}</details>`;
+  }
+  return context+html;
 }
 export function renderReferences(references: Reference[],entries: Entry[],base='/') {
   return `<ol>${references.filter(r=>!r.primaryId).map(ref=>{

@@ -1,7 +1,10 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {loadCanonicalCorpus,dependencyClosure,reviewFingerprint,beginnerWordingCandidates} from '../../src/lib/content.js';
+import {loadCanonicalCorpus,dependencyClosure,reviewFingerprint,beginnerWordingCandidates,renderEntrySync} from '../../src/lib/content.js';
+import {load} from 'cheerio';
+import {installSyntheticReview} from './fidelity-fixture.js';
+import {renderRecordDetails} from '../../src/lib/presentation.js';
 import {selectPublication} from '../../src/lib/publication.js';
 import {loadSiteConfig} from '../../src/lib/site-config.js';
 import {websiteReviewState} from '../../src/lib/website-review.js';
@@ -27,14 +30,36 @@ test('M2 misleading editorial candidates are surfaced and cannot become a qualif
     ['DOC-EXAMPLE-LIFE','Oxygen guarantees greater complexity through a purpose-driven ladder.','oxygen-inevitability'],
   ]) {
     const c=loadCanonicalCorpus(),entry=c.entries.get(id)!;
-    entry.body=body;entry.publicationState='published';entry.publishedAt='2026-10-03';entry.rightsRef='SYNTHETIC';
+    const selected=[id,...dependencyClosure(c,id)];
+    for(const key of selected){const item=c.entries.get(key)!;Object.assign(item,{publicationState:'published',publishedAt:'2026-10-03',updatedAt:'2026-10-03',rightsRef:'SYNTHETIC'});}
+    for(const key of selected)installSyntheticReview(c,key);
+    const release={releaseId:'synthetic-negative-only',releaseAt:'2026-10-03',historicalIds:[],rights:[{id:'SYNTHETIC',outcome:'approved' as const,entryIds:selected,evidenceRef:'test-only rights'}]};
+    assert.equal(selectPublication(c,loadSiteConfig(),release,'qualification').admission.currentSourceQualified,true);
+    assert.equal(websiteReviewState(c,id),'accepted');
+    entry.body=body;
     assert.ok(beginnerWordingCandidates(entry).some(item=>item.rule===rule));
-    assert.equal(websiteReviewState(c,id),'pending');
-    assert.throws(()=>selectPublication(c,loadSiteConfig(),{releaseId:'synthetic-negative-only',releaseAt:'2026-10-03',historicalIds:[],rights:[{id:'SYNTHETIC',outcome:'approved',entryIds:[id],evidenceRef:'test-only rights'}]},'qualification'),/REVIEW_REQUIRED/);
+    assert.equal(websiteReviewState(c,id),'stale');
+    assert.throws(()=>selectPublication(c,loadSiteConfig(),release,'qualification'),/REVIEW_REQUIRED/);
   }
   // Legitimate counterexamples are flagged for contextual reading, not silently removed.
   const legitimate=corpus.entries.get('DOC-CONCEPT-STABILITY')!;
   assert.ok(beginnerWordingCandidates(legitimate).every(item=>item.requiresContextReview));
+});
+test('the real interaction relation is a display equation with an accessible local scrolling region',()=>{
+  const $=load(renderEntrySync(corpus,corpus.entries.get('DOC-CONCEPT-INTERACTIONS')!));
+  assert.equal($('.katex-display').length,1);assert.equal($('.katex-display').attr('tabindex'),'0');
+  assert.match($('.katex-display').attr('aria-label')!,/scroll horizontally/);
+  assert.match($('annotation').text(),/R_n=\(G_n,M_n\)/);
+});
+test('optional beginner source details preserve visible proposal, correction, explanation and limits',()=>{
+  for(const state of ['draft','superseded'] as const) {
+    const entry={...corpus.entries.get('DOC-CONCEPT-STABILITY')!,publicationState:state,contentOrigin:'proposed' as const,proposalProvenance:'UNADOPTED_PROVENANCE',plainLanguage:'VISIBLE_EXPLANATION',limits:'VISIBLE_LIMIT',correctionRef:'SYNTHETIC_CORRECTION',supersededBy:'DOC-CONCEPT-RECURSION'};
+    const $=load(renderRecordDetails(corpus,entry)),fold=$('details.source-details');
+    assert.equal(fold.length,1);assert.equal(fold.attr('open'),undefined);
+    for(const text of ['UNADOPTED_PROVENANCE','VISIBLE_EXPLANATION','VISIBLE_LIMIT',...(state==='superseded'?['Historical record','SYNTHETIC_CORRECTION']:[])]) {
+      assert.ok($.text().includes(text),text);assert.ok(!fold.text().includes(text),text);
+    }
+  }
 });
 test('M2 preserves predecessor approvals as stale rather than refreshing changed rendering policy',()=>{
   const registry=JSON.parse(readFileSync('research/publication/website-reviews.yaml','utf8'));

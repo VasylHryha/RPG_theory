@@ -4,7 +4,7 @@
   "route": "/concepts/effective-interactions/",
   "title": "When organization changes interactions",
   "description": "The source-reported cases and the conditional question about further organization.",
-  "revision": 1,
+  "revision": 2,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
@@ -63,7 +63,9 @@ These are the source's evidence descriptions. They concern different systems and
 
 The source's stronger extension is:
 
-$$R_n=(G_n,M_n)\;\rightarrow\;\mathcal I^{\rm eff}_{n+1}\;\rightarrow\;R_{n+1}.$$
+$$
+R_n=(G_n,M_n)\;\rightarrow\;\mathcal I^{\rm eff}_{n+1}\;\rightarrow\;R_{n+1}.
+$$
 
 Here $n$ labels a descriptive level; $R_n$ is its organized system, $G_n$ its geometry and $M_n$ its full temporal mode structure. $\mathcal I^{\rm eff}_{n+1}$ denotes an effective interaction channel generated, activated or made dominant through that organization. $R_{n+1}$ is a candidate further organized system. The arrows express the proposed relationship, not a derived quantitative law.
 

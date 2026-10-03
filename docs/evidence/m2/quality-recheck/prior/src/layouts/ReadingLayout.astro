@@ -1,0 +1,44 @@
+---
+import '../styles/global.css';
+import { activeConfig, activeMode } from '../lib/site-config';
+import { canonicalURL, withBase } from '../lib/urls';
+import { renderNavigation } from '../lib/presentation';
+import { activePublication } from '../lib/publication';
+interface Props { title: string; description: string; route: string; math?: boolean }
+const { title, description, route } = Astro.props;
+const config = activeConfig();
+const url = (path: string) => withBase(path, config.basePath);
+const selected=activePublication();
+const source = {...selected.admission,errorCode:null};
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="light dark" />
+    <title>{title} · Unity Theory</title>
+    <link rel="canonical" href={canonicalURL(route, config)} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL(route, config)} />
+    <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="preview-strip">Private {activeMode() === 'qualification' ? 'qualification' : 'preview'} <span>· {activeMode()==='qualification'?'Reviewed selection; deployment disabled':'Draft website explanations'}</span></div>
+    <header class="site-header shell">
+      <a class="brand" href={url('/')} aria-label="Unity Theory home"><span class="brand-mark" aria-hidden="true">↔</span> Unity Theory</a>
+      <nav aria-label="Main navigation" data-publication-navigation set:html={renderNavigation(selected,route,config.basePath)} />
+    </header>
+    <main id="main" tabindex="-1"><slot /></main>
+    <aside class="source-note shell" aria-label="Source availability">
+      <span class="status-dot" aria-hidden="true"></span>
+      <div><strong>{source.bytesVerified ? 'Current sources available' : 'Current sources unavailable'}</strong>
+      <p>{source.bytesVerified ? `${source.files} supplied files checked against the recorded edition. ${source.currentSourceQualified ? 'Website explanations reviewed against the supplied documents.' : 'Website explanations are drafts.'}` : `Source intake requires attention (${source.errorCode}). No historical document is used as a current substitute.`}</p></div>
+    </aside>
+    <footer class="site-footer shell"><p>Unity Theory <span> / Recursive Resonant Geometry</span></p><p>A working research framework · Local preview</p></footer>
+  </body>
+</html>

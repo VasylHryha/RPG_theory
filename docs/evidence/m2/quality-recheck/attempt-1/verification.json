@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-03T15:32:28.853Z",
+  "mode": "preview",
+  "status": "PASS",
+  "receipts": [
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:sources -- --scope history",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:sources -- --scope current",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:content",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:content",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config config/site.json --output dist/m2-quality-recheck/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m2-quality-recheck/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/m2-quality-recheck/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m2-quality-recheck/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m2-quality-recheck/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/m2-quality-recheck/preview-subpath",
+      "exitCode": 0
+    }
+  ],
+  "notRun": [],
+  "scientificContentAccepted": false,
+  "humanComprehension": "NOT_TESTED",
+  "publicDeployment": "NOT_RUN"
+}

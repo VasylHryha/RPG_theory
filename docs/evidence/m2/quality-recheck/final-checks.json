@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "baselineHead": "3bf3eae1ed65cfffe5f436355ecc948a2fc5fd98",
+  "productionInputs": {
+    "inputsSha256": "79e577bfa7e07fa76866ebccb6b6c9f8dd7176e2a81ba0e38e24dc7dcfe2e8ce",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "f94c1201b44e40a334700717add2507a767f3e96682decf4d246c153748207a5"
+  },
+  "contracts": 89,
+  "commands": 11,
+  "chromium": 24,
+  "artifacts": [
+    {
+      "directory": "dist/m2-quality-recheck/preview-root",
+      "artifactSha256": "9a2080a8081d1a623e5596281e4f150f9adac344500eba1dc7822e06d74a365f",
+      "files": 112,
+      "html": 48,
+      "postBrowserAudit": "PASS",
+      "browser": {
+        "startTime": "2026-10-03T15:37:40.844Z",
+        "duration": 23414.495000000003,
+        "expected": 12,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "coldAssets": [
+        {
+          "route": "/",
+          "gzipBytes": 6056,
+          "requests": 2
+        },
+        {
+          "route": "/start/",
+          "gzipBytes": 6778,
+          "requests": 2
+        },
+        {
+          "route": "/examples/string/",
+          "gzipBytes": 5230,
+          "requests": 2
+        },
+        {
+          "route": "/concepts/effective-interactions/",
+          "gzipBytes": 64396,
+          "requests": 6
+        }
+      ]
+    },
+    {
+      "directory": "dist/m2-quality-recheck/preview-subpath",
+      "artifactSha256": "fae8c7673ec161549d343308a2468d98b274a469cc9814cfb3ca57abd5c2ed75",
+      "files": 112,
+      "html": 48,
+      "postBrowserAudit": "PASS",
+      "browser": {
+        "startTime": "2026-10-03T15:38:08.509Z",
+        "duration": 23406.463,
+        "expected": 12,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "coldAssets": [
+        {
+          "route": "/unity-theory/",
+          "gzipBytes": 6068,
+          "requests": 2
+        },
+        {
+          "route": "/unity-theory/start/",
+          "gzipBytes": 6790,
+          "requests": 2
+        },
+        {
+          "route": "/unity-theory/examples/string/",
+          "gzipBytes": 5239,
+          "requests": 2
+        },
+        {
+          "route": "/unity-theory/concepts/effective-interactions/",
+          "gzipBytes": 64438,
+          "requests": 6
+        }
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "base": "root",
+      "control": "missing",
+      "outcome": "INTENDED_REFUSAL"
+    },
+    {
+      "base": "root",
+      "control": "unmarked",
+      "outcome": "INTENDED_REFUSAL"
+    },
+    {
+      "base": "root",
+      "control": "duplicate",
+      "outcome": "INTENDED_REFUSAL"
+    },
+    {
+      "base": "root",
+      "control": "unmarked math CSS on nonmath home",
+      "outcome": "INTENDED_REFUSAL"
+    },
+    {
+      "base": "subpath",
+      "control": "missing",
+      "outcome": "INTENDED_REFUSAL"
+    },
+    {
+      "base": "subpath",
+      "control": "unmarked",
+      "outcome": "INTENDED_REFUSAL"
+    },
+    {
+      "base": "subpath",
+      "control": "duplicate",
+      "outcome": "INTENDED_REFUSAL"
+    },
+    {
+      "base": "subpath",
+      "control": "unmarked math CSS on nonmath home",
+      "outcome": "INTENDED_REFUSAL"
+    }
+  ],
+  "observations": [
+    {
+      "route": "/",
+      "waveTop": 879.609375,
+      "diagramTop": 2384.84375,
+      "mathStyles": 0,
+      "readingNoteFont": "14.4px"
+    },
+    {
+      "route": "/examples/string/",
+      "diagramTop": 620.09375,
+      "articleHeight": 2505.453125,
+      "sourceDetailsHeight": 61.375
+    },
+    {
+      "route": "/concepts/effective-interactions/",
+      "equation": {
+        "width": 335,
+        "scrollWidth": 367,
+        "role": "region",
+        "label": "Mathematical expression; scroll horizontally if needed"
+      }
+    }
+  ],
+  "websiteReviewStates": {
+    "accepted": 0,
+    "pending": 11,
+    "stale": 34,
+    "rejected": 0
+  },
+  "predecessorArtifacts": "Both exact inventories unchanged",
+  "m2": "REVIEW_READY",
+  "m3": "NOT_STARTED",
+  "scientificAdjudication": "OUT_OF_SCOPE",
+  "humanComprehension": "NOT_TESTED",
+  "independentAcceptance": "PENDING",
+  "publicActions": "NOT_RUN"
+}

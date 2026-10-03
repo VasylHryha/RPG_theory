@@ -13,6 +13,7 @@ import { ContractError } from '../src/lib/errors.js';
 import { buildInputs, syntheticRoutes } from '../src/lib/build-identity.js';
 import { buildMode } from '../src/lib/site-config.js';
 import { cssResourceURLs } from './css-resources.js';
+import { requiresMathStyles } from '../src/lib/markdown.js';
 
 function normalizedHTML(html: string) {
   const $=load(html,null,false);
@@ -97,8 +98,14 @@ export function auditOutput(directory: string) {
     const from = withBase(route, info.config.basePath);
     const $ = load(readFileSync(join(root, file), 'utf8'));
     const entry=selected.entries.find(e=>e.route===route);
+    const expectedContent=entry?renderEntrySync(selected.corpus,entry,info.config.basePath):'';
+    const expectedDetails=entry?renderRecordDetails(selected.corpus,entry,info.config.basePath):'';
+    const expectedMath=entry?requiresMathStyles(expectedContent+expectedDetails):$('math').length>0;
+    const mathURL=/\/_astro\/katex(?:\.min)?\.[\w-]+\.css$/;
+    const mathStyles=$('[data-math-stylesheet], link[rel="stylesheet"]').filter((_i,el)=>$(el).attr('data-math-stylesheet')!==undefined || mathURL.test($(el).attr('href')??''));
+    if(mathStyles.length!==(expectedMath?1:0) || expectedMath && (!mathStyles.is('head > link[rel="stylesheet"]') || mathStyles.attr('data-math-stylesheet')===undefined || !mathURL.test(mathStyles.attr('href')??''))) throw new ContractError('MATH_STYLESHEET_PARITY_FAILURE',file);
     if (entry) {
-      const expected=load(renderEntrySync(selected.corpus,entry,info.config.basePath),null,false).html();
+      const expected=load(expectedContent,null,false).html();
       const actual=$('[data-canonical-body]').filter((_i,el)=>$(el).attr('data-canonical-body')===entry.id);
       if (actual.length!==1 || normalizedHTML(actual.html() ?? '')!==normalizedHTML(expected)) throw new ContractError('CONTENT_PARITY_FAILURE',entry.id);
       if($('head > title').length!==1 || $('head > title').text()!==`${entry.title} · Unity Theory` || $('head > meta[name="description"]').length!==1 || $('head > meta[name="description"]').attr('content')!==entry.description) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
@@ -110,7 +117,7 @@ export function auditOutput(directory: string) {
       if(!['DOC-HOME','DOC-START'].includes(entry.id) || isHistorical(entry)) {
         const lede=$('.article-lede');
         if(lede.length!==1 || lede.text().replace(/\s+/g,' ').trim()!==entry.description.replace(/\s+/g,' ').trim()) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${entry.id}: visible description`);
-        for(const [attribute,expectedHTML] of [['data-record-status',renderStatus(selected.corpus,entry)],['data-record-details',renderRecordDetails(selected.corpus,entry,info.config.basePath)]]) {
+        for(const [attribute,expectedHTML] of [['data-record-status',renderStatus(selected.corpus,entry)],['data-record-details',expectedDetails]]) {
           const region=$(`[${attribute}]`).filter((_i,el)=>$(el).attr(attribute)===entry.id);
           if(region.length!==1 || normalizedHTML(region.html() ?? '')!==normalizedHTML(expectedHTML)) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${entry.id}: ${attribute}`);
         }

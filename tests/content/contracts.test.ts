@@ -12,6 +12,7 @@ import { assertUniqueRoutes, withBase } from '../../src/lib/urls.js';
 import { assertBuildAllowed } from '../../src/lib/publication.js';
 import { loadSiteConfig } from '../../src/lib/site-config.js';
 import { renderMarkdown } from '../../src/lib/markdown.js';
+import { requiresMathStyles } from '../../src/lib/markdown.js';
 import { auditOutput } from '../../scripts/audit-output.js';
 import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
 const privateRoutes=activePublication().manifest.routes;
@@ -118,6 +119,8 @@ function outputFixture(run: (directory: string, info: ReturnType<typeof outputIn
     const info = outputInfo();
     writeFileSync(join(directory, 'build-info.json'), JSON.stringify(info));
     const selected=activePublication();
+    mkdirSync(join(directory,'_astro'),{recursive:true});
+    writeFileSync(join(directory,'_astro/katex.fixture.css'),'.katex{font-family:KaTeX_Main}');
     for (const route of privateRoutes) {
       const file=route.endsWith('/') ? (route==='/'?'index.html':route.slice(1)+'index.html') : route.slice(1);
       const entry=selected.entries.find(e=>e.route===route);
@@ -130,7 +133,8 @@ function outputFixture(run: (directory: string, info: ReturnType<typeof outputIn
       if(route==='/references/') body=`<div data-bibliography>${renderReferences(selected.references,selected.entries,info.config.basePath)}</div>`;
       mkdirSync(join(directory, file, '..'), { recursive: true });
       const title=escapeHTML(entry ? entry.title+' · Unity Theory' : 'Isolated output fixture'),socialTitle=escapeHTML(entry?.title??'Isolated output fixture'),description=escapeHTML(entry?.description??''),url=info.config.origin+withBase(route,info.config.basePath);
-      writeFileSync(join(directory, file), `<html><head><title>${title}</title><meta name="description" content="${description}"><meta property="og:title" content="${socialTitle}"><meta property="og:description" content="${description}"><meta property="og:url" content="${url}"><meta name="robots" content="noindex"><link rel="canonical" href="${url}"></head><body><nav data-publication-navigation>${renderNavigation(selected,route,info.config.basePath)}</nav><h1 id="research-question">${escapeHTML(entry?.title ?? 'Isolated output fixture')}</h1>${body}</body></html>`);
+      const mathStyle=requiresMathStyles(body)?`<link rel="stylesheet" href="${withBase('/_astro/katex.fixture.css',info.config.basePath)}" data-math-stylesheet>`:'';
+      writeFileSync(join(directory, file), `<html><head><title>${title}</title><meta name="description" content="${description}"><meta property="og:title" content="${socialTitle}"><meta property="og:description" content="${description}"><meta property="og:url" content="${url}"><meta name="robots" content="noindex"><link rel="canonical" href="${url}">${mathStyle}</head><body><nav data-publication-navigation>${renderNavigation(selected,route,info.config.basePath)}</nav><h1 id="research-question">${escapeHTML(entry?.title ?? 'Isolated output fixture')}</h1>${body}</body></html>`);
     }
     writeFileSync(join(directory, 'favicon.svg'), '<svg xmlns="http://www.w3.org/2000/svg"/>');
     writeFileSync(join(directory, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
@@ -242,7 +246,7 @@ test('output audit binds bibliography text, destinations, support limits, status
     const path=join(directory,file),original=readFileSync(path,'utf8');assert.ok(original.includes(from),from);
     writeFileSync(path,original.replace(from,to));assert.throws(()=>auditOutput(directory),new RegExp(code));writeFileSync(path,original);
   }
-  mkdirSync(join(directory,'_astro'));writeFileSync(join(directory,'_astro/fixture.css'),'/* DRAFT_SENTINEL_NOT_FOR_OUTPUT */');
+  mkdirSync(join(directory,'_astro'),{recursive:true});writeFileSync(join(directory,'_astro/fixture.css'),'/* DRAFT_SENTINEL_NOT_FOR_OUTPUT */');
   assert.throws(()=>auditOutput(directory),/DRAFT_LEAK/);
 }));
 
@@ -298,7 +302,7 @@ test('output audit keeps all responsive, media, SVG and form loads local and ref
 }));
 
 test('output audit inspects normalized CSS loading syntax in files and inline styles without bypassing data URLs',()=>outputFixture(directory=>{
-  mkdirSync(join(directory,'_astro'));const cssPath=join(directory,'_astro/control.css');
+  mkdirSync(join(directory,'_astro'),{recursive:true});const cssPath=join(directory,'_astro/control.css');
   writeFileSync(cssPath,'p{background:URL( "../favicon.svg" )}');assert.equal(auditOutput(directory).status,'PASS');
   writeFileSync(cssPath,'p{background:u\\72 l(../favicon.svg)}');assert.equal(auditOutput(directory).status,'PASS');
   const packagedFont=readFileSync('node_modules/katex/dist/fonts/KaTeX_SansSerif-Regular.woff2').toString('base64');
@@ -349,7 +353,7 @@ test('output audit checks SVG presentation URLs and refuses XML rebasing in inli
 
 test('output audit preserves CSS string and URL semantics and refuses unsupported resource syntax',()=>outputFixture(directory=>{
   assert.equal(auditOutput(directory).status,'PASS');
-  mkdirSync(join(directory,'_astro'));const path=join(directory,'_astro/control.css');
+  mkdirSync(join(directory,'_astro'),{recursive:true});const path=join(directory,'_astro/control.css');
   const font=readFileSync('node_modules/katex/dist/fonts/KaTeX_SansSerif-Regular.woff2').toString('base64');
   const forged=font.slice(0,20)+'/*forged*/'+font.slice(20);
   for(const [css,code] of [
@@ -402,4 +406,19 @@ test('output audit rejects missing, altered or duplicate beginner schematics at 
     raw.replace('Compatible active parts','All forces proven'),
     raw.replace('</body>',renderBeginnerDiagram('DOC-HOME')+'</body>'),
   ]) {assert.notEqual(changed,raw);writeFileSync(path,changed);assert.throws(()=>auditOutput(directory),/DIAGRAM_PARITY_FAILURE/);}
+}));
+
+test('output audit refuses missing, duplicate, misplaced or unrelated math styles and unnecessary beginner math loads',()=>outputFixture(directory=>{
+  assert.equal(auditOutput(directory).status,'PASS');
+  const path=join(directory,'concepts/effective-interactions/index.html'),original=readFileSync(path,'utf8');
+  const style=original.match(/<link[^>]*data-math-stylesheet[^>]*>/)![0];
+  for(const changed of [original.replace(style,''),original.replace('data-math-stylesheet',''),original.replace(style,style+style),original.replace(style,style+style.replace('data-math-stylesheet','')),original.replace('katex.fixture.css','fixture.css'),original.replace(style,'').replace('</body>',style+'</body>')]) {
+    writeFileSync(path,changed);assert.throws(()=>auditOutput(directory),/MATH_STYLESHEET_PARITY_FAILURE/);
+  }
+  writeFileSync(path,original);
+  const home=join(directory,'index.html'),homeOriginal=readFileSync(home,'utf8');
+  for(const unnecessary of [style,style.replace('data-math-stylesheet','')]) {
+    writeFileSync(home,homeOriginal.replace('</head>',unnecessary+'</head>'));
+    assert.throws(()=>auditOutput(directory),/MATH_STYLESHEET_PARITY_FAILURE/);
+  }
 }));

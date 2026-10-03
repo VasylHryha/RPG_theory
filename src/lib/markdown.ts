@@ -11,6 +11,12 @@ import { ContractError } from './errors.js';
 import { safeMarkdown } from './markdown-safety.js';
 export { safeMarkdown } from './markdown-safety.js';
 
+// Decide from rendered markup, including reused definitions and optional details.
+// Metadata saying a page is a concept is insufficient to predict its assets.
+export function requiresMathStyles(html: string) {
+  return /class="[^"]*\bkatex(?:\s|")/.test(html);
+}
+
 interface Node { type: string; url?: string; identifier?: string; children?: Node[]; tagName?: string; properties?: Record<string, unknown> }
 function visit(node: Node, action: (node: Node) => void) { action(node); node.children?.forEach(child => visit(child, action)); }
 

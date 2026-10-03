@@ -1,0 +1,13 @@
+---
+import CanonicalPage from '../components/CanonicalPage.astro';
+import { publicationEntry, isHistorical } from '../lib/publication';
+import { renderEntry } from '../lib/content';
+import { activeConfig } from '../lib/site-config';
+import { renderEditorialState, renderBeginnerDiagram } from '../lib/presentation';
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+const { corpus, entry } = publicationEntry('DOC-START');
+const html = await renderEntry(corpus,entry,activeConfig().basePath);
+---
+{isHistorical(entry) ? <CanonicalPage id={entry.id} /> : <ReadingLayout title={entry.title} description={entry.description} route="/start/">
+  <article class="article shell"><header><p class="eyebrow">The introduction</p><h1>{entry.title}</h1><p class="article-lede">{entry.description}</p><p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} /><p class="reading-note">Public introduction: author approval pending.</p></header><div class="prose"><div data-canonical-body={entry.id} set:html={html} /></div><Fragment set:html={renderBeginnerDiagram(entry.id)} /></article>
+</ReadingLayout>}
