@@ -694,3 +694,4 @@ This helps explain why cosmic history can move through different regimes without
 The same idea appears locally. A star changes pressure, temperature, density, radiation, and composition around and inside itself. Those conditions make new nuclear configurations possible. Later, planets create new chemical environments. Living systems create still more specialized internal environments.
 
 So complexity can advance because **existing geometry changes the landscape of possible next geometries**.
+
