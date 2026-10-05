@@ -22,13 +22,13 @@ The original owner-supplied `RRG_CURRENT.zip` remains preserved as provenance. I
 
 The repository is public, but **the website is not yet publicly qualified or deployed**.
 
-The v0.2.1 website migration is implemented locally and **REVIEW_READY**. Current documents have readable HTML pages; source links open the corresponding readings and sections. Original files and explanatory exports are labelled separately. The current catalogue contains 22 evidence cases and eight open questions; predecessor records keep their identities and explicit historical status. Source/display fidelity decisions remain pending or stale.
+The v0.2.1 website migration and package-authority/Pages target implementation have **bounded separate High acceptance** (R4 §0.47). Current documents have readable HTML pages; source links open the corresponding readings and sections. Original files and explanatory exports are labelled separately. The current catalogue contains 22 evidence cases and eight open questions; predecessor records keep their identities and explicit historical status. All 75 current private source/display fidelity decisions are accepted; 21 archived decisions remain stale. The launch selection is empty and publication remains disabled.
 
 Do not interpret an old successful preview/build receipt as qualification of the promoted source set. See the sole forward plan:
 
 [docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md)
 
-Next is bounded separate High acceptance of the package-authority and GitHub Pages target changes in §0.45, then public M6 qualification with an approved launch selection. Earlier migration/R2 acceptance remains preserved. Current implementation evidence is in [the Pages rebind receipt](docs/evidence/github-pages-rebind/implementation/receipt.md).
+Next is the approved launch/public decision packet and remaining M6 human/AT/provenance/platform/CI qualification. Earlier migration/R2 acceptance remains preserved. Current evidence is in [the bounded Pages acceptance receipt](docs/evidence/github-pages-rebind/acceptance/receipt.md).
 
 ## Local development
 

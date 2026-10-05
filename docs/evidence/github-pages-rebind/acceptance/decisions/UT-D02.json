@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D02",
+  "fingerprint": "9b2704b4f094c30060bbb23b191097425eb247f8d8bfffafc4ca337add4a9b91",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T18:08:55.123Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Reused the genuine accepted source/display comparison in docs/evidence/source-link-r2/acceptance/decisions/UT-D02.json, SHA-256 1b1c4e5dc48c375809603d9cffcc472a9b1907a54e32b06ab121fb5c87996639, after exact equality of ownRead, sourceReads, dependency semantic digests and rendered body/plain-language/home-projection hashes at both regression bases. All 75 actual bodies and explanatory exports also match current rendering at root, legacy subpath and /RPG_theory/; exact raw downloads and ZIP members match. The supporting errata and backlinks/downloads were separately inspected against the source authority notice and raw errata: supporting provenance, not scientific claim authority. See docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json and material-comparison.md. Retained semantic finding: Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D02.json. Retained semantic finding: Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry.",
+  "inputs": {
+    "fingerprint": "9b2704b4f094c30060bbb23b191097425eb247f8d8bfffafc4ca337add4a9b91",
+    "ownRead": {
+      "id": "UT-D02",
+      "route": "/claims/UT-D02/",
+      "title": "Mode structure",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 2,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 16,
+        "endLine": 24,
+        "excerptSha256": "2a796e231760733d9076357e12a40973ea228e3a38d41c432dde2cb19f008c0e"
+      },
+      "statement": "## 2. Frequency / mode structure \\(M\\)\n\nIn RRG, **frequency** is shorthand for the system's full temporal mode organization, not one scalar value in hertz:\n\n\\[\nM=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}.\n\\]\n\nA scalar frequency alone is never assumed to uniquely determine a geometry.\n",
+      "plainLanguage": "Mode structure includes rhythms, phases, coupling, response and characteristic times, rather than one number in hertz.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+        "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+        "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: A locked RRG meaning; a definition is not an experimental finding. No new experimental inputs, causal stages or equation-family requirement was introduced. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "hypotheses": "Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Scientific role definition, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "evidenceDescriptions": "Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "openQuestions": "Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. 00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID. No personal identity, rights, author-public-wording or release authorization is inferred. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D02.json. Retained semantic finding: Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval."
+  }
+}

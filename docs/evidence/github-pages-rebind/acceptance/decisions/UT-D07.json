@@ -1,0 +1,106 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D07",
+  "fingerprint": "d2cba0142701ac1c07d8f5cb507f4c5745c14a00d15b463b8d2f1b80764eca8d",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T18:08:55.123Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Reused the genuine accepted source/display comparison in docs/evidence/source-link-r2/acceptance/decisions/UT-D07.json, SHA-256 bd28566b5824817da6894d4261e5bf947f923acc0cea8582e4c1fffa437bcc27, after exact equality of ownRead, sourceReads, dependency semantic digests and rendered body/plain-language/home-projection hashes at both regression bases. All 75 actual bodies and explanatory exports also match current rendering at root, legacy subpath and /RPG_theory/; exact raw downloads and ZIP members match. The supporting errata and backlinks/downloads were separately inspected against the source authority notice and raw errata: supporting provenance, not scientific claim authority. See docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json and material-comparison.md. Retained semantic finding: Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D07.json. Retained semantic finding: Compared core §6 variation set and formula. Counts, arrangements, compositions, orientations, connections, phases and environments may yield different wholes from related lower units without adding a new principle.",
+  "inputs": {
+    "fingerprint": "d2cba0142701ac1c07d8f5cb507f4c5745c14a00d15b463b8d2f1b80764eca8d",
+    "ownRead": {
+      "id": "UT-D07",
+      "route": "/claims/UT-D07/",
+      "title": "Variation",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 3,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D06"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 74,
+        "endLine": 82,
+        "excerptSha256": "70a9c9b21a7a9301abe5268e7e4b870ddeac3c4e6b07ccbbe52a04d10de675fb"
+      },
+      "statement": "## 6. Variation\n\nDifferent counts, arrangements, compositions, orientations, connections, phases, and environments may create different higher-level resonant geometries from the same lower-level building blocks.\n\n\\[\n\\boxed{\\text{same or related lower units}+\\text{different organization}\\rightarrow\\text{different }R_{n+1}}.\n\\]\n\nVariation is therefore fully compatible with the core and requires no new principle.\n",
+      "plainLanguage": "Related building blocks can participate in different organizations under different arrangements and conditions.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §6; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "622d51b22ae01652baccf4ef808fe1596f66824a6562f2b5bc09939735f941a4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ba24845b313aacf063d30c124d5fa4aef773cba1e32c5f1a54b1812906960b4b"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+        "plainLanguageSha256": "5d3eec48abad1726f1fb8bb0668ea574a70cd8dc5de02df96c663b51351b76cf",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+        "plainLanguageSha256": "5d3eec48abad1726f1fb8bb0668ea574a70cd8dc5de02df96c663b51351b76cf",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §6 variation set and formula. Counts, arrangements, compositions, orientations, connections, phases and environments may yield different wholes from related lower units without adding a new principle. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §6 variation set and formula. Counts, arrangements, compositions, orientations, connections, phases and environments may yield different wholes from related lower units without adding a new principle. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: A locked RRG meaning; a definition is not an experimental finding. No new experimental inputs, causal stages or equation-family requirement was introduced. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "hypotheses": "Compared core §6 variation set and formula. Counts, arrangements, compositions, orientations, connections, phases and environments may yield different wholes from related lower units without adding a new principle. Scientific role definition, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "evidenceDescriptions": "Compared core §6 variation set and formula. Counts, arrangements, compositions, orientations, connections, phases and environments may yield different wholes from related lower units without adding a new principle. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "openQuestions": "Compared core §6 variation set and formula. Counts, arrangements, compositions, orientations, connections, phases and environments may yield different wholes from related lower units without adding a new principle. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. 00_LOCKED_CORE.md §6; new navigation ID, source has no UT ID. No personal identity, rights, author-public-wording or release authorization is inferred. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D07.json. Retained semantic finding: Compared core §6 variation set and formula. Counts, arrangements, compositions, orientations, connections, phases and environments may yield different wholes from related lower units without adding a new principle. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval."
+  }
+}

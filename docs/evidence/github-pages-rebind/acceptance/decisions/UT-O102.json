@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O102",
+  "fingerprint": "8d03495b033892016d77e3ce44d9d91c66ed529a60c178e379e2d6c5212a55aa",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T18:08:55.123Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Reused the genuine accepted source/display comparison in docs/evidence/source-link-r2/acceptance/decisions/UT-O102.json, SHA-256 616b48ec8ab5e87d2b597b399ffbc416a346b94f15b552b31b3383ace0f4f3dd, after exact equality of ownRead, sourceReads, dependency semantic digests and rendered body/plain-language/home-projection hashes at both regression bases. All 75 actual bodies and explanatory exports also match current rendering at root, legacy subpath and /RPG_theory/; exact raw downloads and ZIP members match. The supporting errata and backlinks/downloads were separately inspected against the source authority notice and raw errata: supporting provenance, not scientific claim authority. See docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json and material-comparison.md. Retained semantic finding: Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/source-reconciliation/acceptance/decisions/UT-O102.json. Retained semantic finding: Compared UT-O102, Same principle across levels, to the exact O2 source claim. The complete statement remains open and source-bound, with no new result or required proof gate.",
+  "inputs": {
+    "fingerprint": "8d03495b033892016d77e3ce44d9d91c66ed529a60c178e379e2d6c5212a55aa",
+    "ownRead": {
+      "id": "UT-O102",
+      "route": "/claims/UT-O102/",
+      "title": "Same principle across levels",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 1,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e",
+        "startLine": 39,
+        "endLine": 39,
+        "excerptSha256": "885f365a2b7179690bc5b20a348edf5e27aa4151c5dfecb0a75dfdc061044451"
+      },
+      "statement": "**O2 — Same principle across levels.** The author proposes the repeated geometry–mode/background relation. Approximate invariance of an equation family is a stronger optional formalization; identical microscopic mechanisms across chemistry, matter and life are stronger still. These should not be silently conflated.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "",
+      "sourceMapping": "v0.2.1 open claim O2; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "84616943eca6e9b6f74ea5107d5dc25f0b9b814b573d966278fd3bf282dbefe3",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "84616943eca6e9b6f74ea5107d5dc25f0b9b814b573d966278fd3bf282dbefe3",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Open-claim terminology and ambition match the supplied O1-O8 registry. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "meaning": "Compared UT-O102, Same principle across levels, to the exact O2 source claim. The complete statement remains open and source-bound, with no new result or required proof gate. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "assumptions": "No extra enabling assumption or demonstrated mechanism is appended to this open claim. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "hypotheses": "Kind remains open-problem; evidenceState remains proposed. The source does not establish the ambition. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "evidenceDescriptions": "Source-reported evidence and check coverage remain distinct from website-run experiments, independent science certification and external-paper review. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "openQuestions": "**O2 — Same principle across levels.** The author proposes the repeated geometry–mode/background relation. Approximate invariance of an equation family is a stronger optional formalization; identical microscopic mechanisms across chemistry, matter and life are stronger still. These should not be silently conflated.\n Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "attribution": "The selected v0.2.1 source and supporting/historical role are explicit; no author identity, public-wording approval, rights or peer review is inferred. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/source-reconciliation/acceptance/decisions/UT-O102.json. Retained semantic finding: Compared UT-O102, Same principle across levels, to the exact O2 source claim. The complete statement remains open and source-bound, with no new result or required proof gate. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval."
+  }
+}

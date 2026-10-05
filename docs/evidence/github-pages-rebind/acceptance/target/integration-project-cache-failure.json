@@ -1,0 +1,24 @@
+{
+  "schema": "unity-m6-integration/1",
+  "base": "/RPG_theory/",
+  "scope": "private engineering; no approvals",
+  "browserSmoke": [],
+  "performance": [],
+  "assistiveTechnology": "NOT_TESTED: no actual screen-reader session",
+  "humanComprehension": "NOT_TESTED",
+  "fieldCoreWebVitals": "NOT_MEASURED",
+  "stress": {
+    "status": "PASS",
+    "documents": 100,
+    "records": 100,
+    "syntheticReferences": 100,
+    "indexedReadings": 200,
+    "elapsedMs": 4692,
+    "maxRSSKiB": 492272,
+    "runner": "local; CI NOT_RUN",
+    "checks": "shared corpus validation → render 200 bodies incl 10000-word/20-equation/wide-table/long-title controls → native Pagefind build",
+    "fixtureOnly": true
+  },
+  "status": "FAIL",
+  "error": "Error: browserType.launch: Executable doesn't exist at /Users/new/RiderProjects/RPG_theory/node_modules/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+}

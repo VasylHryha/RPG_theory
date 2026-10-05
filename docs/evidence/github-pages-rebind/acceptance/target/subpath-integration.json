@@ -1,0 +1,136 @@
+{
+  "schema": "unity-m6-integration/1",
+  "base": "/RPG_theory/",
+  "scope": "private engineering; no approvals",
+  "browserSmoke": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "status": "PASS",
+      "actual": "navigation/math/pending search",
+      "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "status": "PASS",
+      "actual": "navigation/math/pending search",
+      "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "status": "PASS",
+      "actual": "navigation/math/pending search",
+      "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+    }
+  ],
+  "performance": [
+    {
+      "route": "/RPG_theory/",
+      "status": "PASS",
+      "ownedColdGzipEquivalentBytes": 7146,
+      "initialJSGzipBytes": 0,
+      "assets": [
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/",
+          "gzipBytes": 3879,
+          "resource": "document"
+        },
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/_astro/ReadingLayout.B_EPQKDX.css",
+          "gzipBytes": 3267,
+          "resource": "stylesheet"
+        }
+      ],
+      "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression"
+    },
+    {
+      "route": "/RPG_theory/math/",
+      "status": "PASS",
+      "ownedColdGzipEquivalentBytes": 151622,
+      "initialJSGzipBytes": 0,
+      "assets": [
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/math/",
+          "gzipBytes": 38190,
+          "resource": "document"
+        },
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/_astro/katex.min.CPddC6Rw.css",
+          "gzipBytes": 7969,
+          "resource": "stylesheet"
+        },
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/_astro/ReadingLayout.B_EPQKDX.css",
+          "gzipBytes": 3267,
+          "resource": "stylesheet"
+        },
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+          "gzipBytes": 16468,
+          "resource": "font"
+        },
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+          "gzipBytes": 26300,
+          "resource": "font"
+        },
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/_astro/KaTeX_Main-Bold.Cx986IdX.woff2",
+          "gzipBytes": 25352,
+          "resource": "font"
+        },
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/_astro/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+          "gzipBytes": 5231,
+          "resource": "font"
+        },
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/_astro/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+          "gzipBytes": 5491,
+          "resource": "font"
+        },
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/_astro/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+          "gzipBytes": 6931,
+          "resource": "font"
+        },
+        {
+          "url": "http://127.0.0.1:63989/RPG_theory/_astro/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+          "gzipBytes": 16423,
+          "resource": "font"
+        }
+      ],
+      "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression"
+    }
+  ],
+  "assistiveTechnology": "NOT_TESTED: no actual screen-reader session",
+  "humanComprehension": "NOT_TESTED",
+  "fieldCoreWebVitals": "NOT_MEASURED",
+  "stress": {
+    "status": "PASS",
+    "documents": 100,
+    "records": 100,
+    "syntheticReferences": 100,
+    "indexedReadings": 200,
+    "elapsedMs": 10290,
+    "maxRSSKiB": 470096,
+    "runner": "local; CI NOT_RUN",
+    "checks": "shared corpus validation → render 200 bodies incl 10000-word/20-equation/wide-table/long-title controls → native Pagefind build",
+    "fixtureOnly": true
+  },
+  "lighthouse": "Root home/math diagnostic only; no duplicate subpath run",
+  "actualIndex": {
+    "publishedReadings": 0,
+    "reviewStates": {
+      "accepted": 75,
+      "pending": 0,
+      "stale": 21,
+      "rejected": 0
+    },
+    "qualified": true,
+    "deployEligible": false
+  },
+  "status": "PASS"
+}

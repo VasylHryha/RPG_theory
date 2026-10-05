@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D01",
+  "fingerprint": "12570de43ffa5f433bb2e6e62fd33f3332667deab4080ecaa48dcec85c094352",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T18:08:55.123Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Reused the genuine accepted source/display comparison in docs/evidence/source-link-r2/acceptance/decisions/UT-D01.json, SHA-256 fadedd8b189b79f4a7ca12f9de13259bea01bd4218aa8fceeff57ee2c8b58367, after exact equality of ownRead, sourceReads, dependency semantic digests and rendered body/plain-language/home-projection hashes at both regression bases. All 75 actual bodies and explanatory exports also match current rendering at root, legacy subpath and /RPG_theory/; exact raw downloads and ZIP members match. The supporting errata and backlinks/downloads were separately inspected against the source authority notice and raw errata: supporting provenance, not scientific claim authority. See docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json and material-comparison.md. Retained semantic finding: Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D01.json. Retained semantic finding: Compared core §1 raw slice, the exact G set and plain-language rendering. Geometry retains components, arrangement, relations, connectivity, order, orientation, boundaries and constraints at a chosen scale, beyond visible shape.",
+  "inputs": {
+    "fingerprint": "12570de43ffa5f433bb2e6e62fd33f3332667deab4080ecaa48dcec85c094352",
+    "ownRead": {
+      "id": "UT-D01",
+      "route": "/claims/UT-D01/",
+      "title": "Geometry",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 2,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 6,
+        "endLine": 14,
+        "excerptSha256": "680c99c03b1ea11424b27fef2214ae09b72646cd103d2f025b5dc5c7a38c7e34"
+      },
+      "statement": "## 1. Geometry \\(G\\)\n\nIn RRG, **geometry** means the organization of a system at a chosen scale:\n\n\\[\nG=\\{\\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\\}.\n\\]\n\nGeometry is not limited to visible Euclidean shape.\n",
+      "plainLanguage": "Organization at a chosen scale includes components, relationships, boundaries and constraints.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §1; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+        "plainLanguageSha256": "bb7608084334c757a665fdad6dcc4316f14185b431e133921c43c56e36ead979",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+        "plainLanguageSha256": "bb7608084334c757a665fdad6dcc4316f14185b431e133921c43c56e36ead979",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §1 raw slice, the exact G set and plain-language rendering. Geometry retains components, arrangement, relations, connectivity, order, orientation, boundaries and constraints at a chosen scale, beyond visible shape. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §1 raw slice, the exact G set and plain-language rendering. Geometry retains components, arrangement, relations, connectivity, order, orientation, boundaries and constraints at a chosen scale, beyond visible shape. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: A locked RRG meaning; a definition is not an experimental finding. No new experimental inputs, causal stages or equation-family requirement was introduced. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "hypotheses": "Compared core §1 raw slice, the exact G set and plain-language rendering. Geometry retains components, arrangement, relations, connectivity, order, orientation, boundaries and constraints at a chosen scale, beyond visible shape. Scientific role definition, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "evidenceDescriptions": "Compared core §1 raw slice, the exact G set and plain-language rendering. Geometry retains components, arrangement, relations, connectivity, order, orientation, boundaries and constraints at a chosen scale, beyond visible shape. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "openQuestions": "Compared core §1 raw slice, the exact G set and plain-language rendering. Geometry retains components, arrangement, relations, connectivity, order, orientation, boundaries and constraints at a chosen scale, beyond visible shape. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. 00_LOCKED_CORE.md §1; new navigation ID, source has no UT ID. No personal identity, rights, author-public-wording or release authorization is inferred. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D01.json. Retained semantic finding: Compared core §1 raw slice, the exact G set and plain-language rendering. Geometry retains components, arrangement, relations, connectivity, order, orientation, boundaries and constraints at a chosen scale, beyond visible shape. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval."
+  }
+}

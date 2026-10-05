@@ -1,0 +1,276 @@
+{
+  "schema": "unity-bounded-review-verification/1",
+  "decision": "ACCEPTED_BOUNDED_HIGH_PRIVATE",
+  "baselineHead": "450b74047727228b8d1990a5d7529108e38808e3",
+  "productionRepair": false,
+  "reviewStates": {
+    "accepted": 75,
+    "pending": 0,
+    "stale": 21,
+    "rejected": 0
+  },
+  "currentSourceQualified": true,
+  "launchEntries": 0,
+  "deployEligible": false,
+  "fullVerify": {
+    "status": "NOT_COMPLETED",
+    "priorReceipt": "docs/evidence/github-pages-rebind/implementation/verify/verification.json",
+    "sha256": "5bb1e368f003fa7a43e02c1c3edd15b49619bb3acf79c3e049011f114e4749ae",
+    "freshRun": "NOT_RUN"
+  },
+  "freshChecks": {
+    "affectedContentTests": 4,
+    "history": "PASS",
+    "contentFidelityCatalogue": "PASS",
+    "publicationScreen": "PASS",
+    "buildsAndAudits": [
+      {
+        "dir": "dist/github-pages-accepted/preview-root",
+        "base": "/",
+        "artifactSha256": "f399ed0a4e14b00fd038aa008dfc981dc5939f7fa3185c41b93d397dd85aaae6",
+        "files": 269,
+        "html": 104,
+        "bodies": 75,
+        "exports": 75,
+        "originalDownloads": 18,
+        "zipMembers": 102,
+        "bibliography": 81
+      },
+      {
+        "dir": "dist/github-pages-accepted/preview-subpath",
+        "base": "/unity-theory/",
+        "artifactSha256": "c4dc93cf4988bf191b54b79d9eb5dbbc06fe1ed991cf8cc096a8cbf063a345fa",
+        "files": 269,
+        "html": 104,
+        "bodies": 75,
+        "exports": 75,
+        "originalDownloads": 18,
+        "zipMembers": 102,
+        "bibliography": 81
+      },
+      {
+        "dir": "dist/github-pages-accepted/preview-target",
+        "base": "/RPG_theory/",
+        "artifactSha256": "abfcb32a64a2d596b314bf47e557e8dbe01575e84d330fa26e4085b228cacfe1",
+        "files": 269,
+        "html": 104,
+        "bodies": 75,
+        "exports": 75,
+        "originalDownloads": 18,
+        "zipMembers": 102,
+        "bibliography": 81
+      }
+    ],
+    "supportBrowser": {
+      "scope": "private actual-target supporting errata/backlink/download journey",
+      "base": "/RPG_theory/",
+      "engine": "Chromium",
+      "version": "153.0.8010.12",
+      "javascript": false,
+      "downloadSha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f",
+      "status": "PASS"
+    },
+    "actualTargetIntegration": {
+      "engines": [
+        {
+          "engine": "chromium",
+          "version": "153.0.8010.12",
+          "status": "PASS",
+          "actual": "navigation/math/pending search",
+          "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+        },
+        {
+          "engine": "firefox",
+          "version": "155.0",
+          "status": "PASS",
+          "actual": "navigation/math/pending search",
+          "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+        },
+        {
+          "engine": "webkit",
+          "version": "26.6",
+          "status": "PASS",
+          "actual": "navigation/math/pending search",
+          "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+        }
+      ],
+      "stress": {
+        "status": "PASS",
+        "documents": 100,
+        "records": 100,
+        "syntheticReferences": 100,
+        "indexedReadings": 200,
+        "elapsedMs": 10290,
+        "maxRSSKiB": 470096,
+        "runner": "local; CI NOT_RUN",
+        "checks": "shared corpus validation → render 200 bodies incl 10000-word/20-equation/wide-table/long-title controls → native Pagefind build",
+        "fixtureOnly": true
+      },
+      "performance": [
+        {
+          "route": "/RPG_theory/",
+          "status": "PASS",
+          "ownedColdGzipEquivalentBytes": 7146,
+          "initialJSGzipBytes": 0,
+          "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression"
+        },
+        {
+          "route": "/RPG_theory/math/",
+          "status": "PASS",
+          "ownedColdGzipEquivalentBytes": 151622,
+          "initialJSGzipBytes": 0,
+          "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression"
+        }
+      ]
+    }
+  },
+  "reusedUnchangedMechanics": [
+    {
+      "path": "package-lock.json",
+      "sha256": "bed1c6ee69510c10ef2c541f561d26536fd5415e4df351a8d4f8c1d8e1e36cb0"
+    },
+    {
+      "path": ".node-version",
+      "sha256": "55075b5ec4e8b31936cbbc282b8829116d1fd48f2f2f1856dee592a6650700ce"
+    },
+    {
+      "path": "package.json",
+      "sha256": "a3291445bbf0794210e469d268fc2efac20b1f6b28a6873a3c2299ca68ac5c2b"
+    },
+    {
+      "path": "scripts/check-m6-integration.ts",
+      "sha256": "d7287e9105a4a075aa4fa2514c3d57e46d7b5956fa245f4e76f1db354343169d"
+    },
+    {
+      "path": "scripts/index-search.ts",
+      "sha256": "920a9453d923224e9810d3649abe1a5f39223900de9127b77480f8223498e626"
+    },
+    {
+      "path": "src/lib/search.ts",
+      "sha256": "851b7b8a68d5f490555e2346076a538fe3c4833d2c72e79f0b5bea90b2e1dd5d"
+    },
+    {
+      "path": "src/layouts/ReadingLayout.astro",
+      "sha256": "92593da5bc44060da9258e239c7a368717cf7f05dc64de3ebaec42b2a4de1eef"
+    },
+    {
+      "path": "src/lib/markdown.ts",
+      "sha256": "65783bca9ccad5891edad15408a2ca61a25ece28cf4799b2423a6049462868c4"
+    },
+    {
+      "path": "src/styles/global.css",
+      "sha256": "de1adbe37c5ef06d2cabbdc1584970115d560b02283b263894af08669ef72e65"
+    }
+  ],
+  "preservedSourceHistoryLockIdentities": 54,
+  "archivedDecisionsUnchanged": 21,
+  "publication": {
+    "flagsDisabled": true,
+    "qualificationRefusal": "CURRENT_SOURCE_NOT_QUALIFIED: empty intended published selection",
+    "qualificationOutputCreated": false,
+    "deploymentGates": [
+      "MANUAL_MAIN_DEPLOYMENT_REQUIRED",
+      "PUBLIC_TARGET_NOT_AUTHORIZED",
+      "PUBLIC_CREDIT_DECISION_REQUIRED",
+      "PERMANENT_URL_REQUIRED",
+      "RIGHTS_DECISION_REQUIRED",
+      "SCOPED_RIGHTS_REVIEW_REQUIRED",
+      "PUBLIC_CONTENT_APPROVAL_REQUIRED",
+      "PUBLIC_REPOSITORY_PRIVACY_REVIEW_REQUIRED",
+      "M6_RELEASE_QUALIFICATION_REQUIRED",
+      "DEPLOYMENT_DISABLED"
+    ],
+    "remoteCI": "NOT_RUN",
+    "remoteWrites": false
+  },
+  "evidence": [
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/affected-tests.log",
+      "sha256": "aff62e6e3c77445bdeff2bed63975521842bc662844b6719bf08c7867d203885"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/history.log",
+      "sha256": "143e207b98db59c4cd6beac3c274c90840d7806be4ba9b88b3cce0f3e232594c"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/content.log",
+      "sha256": "19cae13081368d2541281eb896a2043a14eeee7415039cde1e14b350eb4454d7"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/publication.log",
+      "sha256": "728c73f5fa89889fbbcca5d9afd906348fe754c5fd1643970b7d7fcbbae52780"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/qualification-refusal.log",
+      "sha256": "f69e6d1ab09e5e325532a83c2afcd1ef844c3a24625d79a3bd54551304ba8c98"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/decisions.log",
+      "sha256": "fa7d34b9455eb1a9792781cb921bd59da7b3aa16b83ee1f86fb2cf462f132853"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json",
+      "sha256": "9ca0f90d8189f22905f5c86f6cc553aedb547dfa5bb65dd5945c995eec1262af"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/final-corpus.json",
+      "sha256": "d18c06bb808850621ecfcd2c40044f3dc9bf9174d76cac6cd113e19fdd43ba5c"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/decision-summary.json",
+      "sha256": "9be80db711d78b9f9fea3b3136e821ea39a403f13abfb1cde76fae4ea62022cd"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/root/root-artifact.json",
+      "sha256": "40368a459b47e04d9299ee0cf3883fd4bbf17213ef016780f77bb13a7bb847cf"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/subpath/subpath-artifact.json",
+      "sha256": "ad5278146edc3a863d58b6356fdddd3d0d6b802d596b0fb2e1957c21a59bea3f"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/target/subpath-artifact.json",
+      "sha256": "d40654a72979e76def3cfc317f3f80dd510116067359bd0aa69878c55cb52711"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/target/subpath-integration.json",
+      "sha256": "e558a389f7efdf06c75f651edfec185f1723ac88368f40d0f9b7cd3d47503c30"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/target/support-browser.json",
+      "sha256": "e0692914fd133a328842cc97411205caa745ac47971dc752ff2a2f2e89b03985"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/target-integration.log",
+      "sha256": "2504e0305069ffe048b31e8899880a7622cc1ff3ff49f5235589b937c67f4ca2"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/target-integration-authorized.log",
+      "sha256": "37f65c97cca16fc0b314b7ed5ac80f50297312741cfc8e73b0308bf4050926c0"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/target-integration-system-cache.log",
+      "sha256": "514a6e49515605d3d0d1f138083a70f7ad25298f4e05cb8d72c0c17990600cbb"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/acceptance/target/integration-project-cache-failure.json",
+      "sha256": "71c19ca82fd77f1e0972527d25be5384f6b7e9252afd423353bc93041760e05f"
+    }
+  ],
+  "scopeLimits": [
+    "No complete public M6/M7 qualification",
+    "Synthetic controls are engineering only",
+    "Screen-reader/MathML and human listening/comprehension NOT_TESTED",
+    "Original audited-package parity UNVERIFIED",
+    "Prior Lighthouse and accessibility/correction evidence are dated reuse",
+    "No science/author/identity/rights/privacy/release approval",
+    "No commit/push/deployment/DNS/license"
+  ],
+  "stagedDiff": "",
+  "changedTracked": [
+    "README.md",
+    "START_HERE.md",
+    "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+    "research/publication/website-reviews.yaml"
+  ]
+}

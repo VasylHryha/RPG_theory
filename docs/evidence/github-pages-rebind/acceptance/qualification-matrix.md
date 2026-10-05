@@ -1,0 +1,22 @@
+# Available M6 gates after bounded High acceptance
+
+Complete public M6 is **INCOMPLETE**. Target authorization and private fidelity are available; an empty launch selection does not qualify a public corpus. The sole milestone tracker is R4 §0.47.
+
+| Gate | Actual result | Remaining input/action |
+|---|---|---|
+| Package/authority/revision path | ACCEPTED: 24 exact members, nine support roles; supporting document/download path and revision controls | No source repair required; preserve current seal/core |
+| Current private source/display fidelity | 75 accepted current; 21 preserved archived stale. Equality verified against genuine predecessor comparisons; shared validator PASS | Choose the launch set; publication-state/date/rights changes require affected review inputs to be compared again |
+| Three-base output/download/metadata | Renewed builds/shared audits PASS, 269 files/104 HTML each; actual-target source/body/export/ZIP parity | Actual published-corpus metadata/feed/search qualification awaits approved selection/credit/rights |
+| Actual-target private browser/search | Chromium/Firefox/WebKit PASS; no-JS errata/support/download PASS; synthetic five-topic/fallback/base/search controls PASS | Genuine public search/snippets and hosted behavior cannot be checked against zero published readings |
+| Private stress/cold budgets | Fresh isolated 100-doc/100-record/100-reference stress PASS; target home/math cold equivalents PASS, zero initial JS | Existing dated root Lighthouse retained. No field CWV or hosted wire-transfer claim |
+| Accessibility/corrections | Existing exact unchanged layout/CSS/renderer/toolchain evidence retained; prior four-width AA/keyboard/reflow/print/correction observations preserved | Actual screen-reader/MathML session remains NOT_TESTED; no WCAG certification |
+| Human/editorial publication | Agent website fidelity accepted; unchanged earlier semantic findings retained | Author launch IDs/public wording and current listening/non-specialist comprehension not supplied/performed |
+| Credit/rights/privacy/content | Existing shared publication screen PASS, publicReady=false. Repository file selection empty; all approval/scoped-rights fields pending | Approved public credit/permanent URL, separate code/research/data rights, exact repository/file/history/privacy/content/release decisions; no inferred identity or license |
+| Original audited-package provenance | Selected repository bytes admitted; missing original audited archive availability disclosed | Complete original-package parity remains UNVERIFIED; no invented Library/archive provenance |
+| Pages access/platform/capture | Owner target supplied: `https://vasylhryha.github.io/RPG_theory/`; existing manual workflow accepted | Dated implementation API evidence says Pages/environment unconfigured and variable absent; no fresh remote-state claim. Configure after gates pass, record supported protections and approved private seal/receipt/artifact capture |
+| Consolidated verification/CI | Prior full verify NOT_COMPLETED/nonzero; focused checks and unchanged evidence reused | Do not label full verify PASS. Select/finalize an exact release commit and complete required qualification/CI; no push/CI dispatch performed here |
+| M7 public release/live/recovery | NOT_STARTED; publication disabled, deployEligible=false; qualification refuses empty launch set/no output | Only after all gates pass: existing verify → prepare → deploy manual main publish, retain same-run seal/artifact identity and verify live served bytes. DNS/custom domain deferred |
+
+Next concrete action: supply/record the owner launch-and-publication decision packet (entry IDs and wording; public credit; scoped rights and repository/privacy/content/release scope). The packet must be genuine authority, not this checklist. Remaining human/AT/provenance/capture/CI inputs remain separate gates. Contact/ORCID is optional unless selected; target authorization alone does not approve public credit or set a permanent citation URL.
+
+Evidence: `decision-summary.json`, `comparison-corpus.json`, `final-corpus.json`, `verification.json`, `publication-readiness.json`, `target/subpath-integration.json`, `target/support-browser.json`, three audit inventories and logs. Failed attempts are preserved separately. §§0.41/0.44 remain preserved within their earlier scope; no science adjudication or accepted-foundation reopening.

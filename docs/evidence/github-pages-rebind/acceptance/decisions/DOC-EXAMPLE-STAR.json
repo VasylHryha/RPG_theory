@@ -1,0 +1,137 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-STAR",
+  "fingerprint": "70f583110c3334bd2524652842a235ce75e0fb5f1974f7ace4596f3d52a31275",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T18:08:55.123Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Reused the genuine accepted source/display comparison in docs/evidence/source-link-r2/acceptance/decisions/DOC-EXAMPLE-STAR.json, SHA-256 e5d77d06badc75008d93ba6127ef478800bbb529d9e0a9d51613432cf3a9e75b, after exact equality of ownRead, sourceReads, dependency semantic digests and rendered body/plain-language/home-projection hashes at both regression bases. All 75 actual bodies and explanatory exports also match current rendering at root, legacy subpath and /RPG_theory/; exact raw downloads and ZIP members match. The supporting errata and backlinks/downloads were separately inspected against the source authority notice and raw errata: supporting provenance, not scientific claim authority. See docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json and material-comparison.md. Retained semantic finding: Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/DOC-EXAMPLE-STAR.json. Retained semantic finding: Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary.",
+  "inputs": {
+    "fingerprint": "70f583110c3334bd2524652842a235ce75e0fb5f1974f7ace4596f3d52a31275",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-STAR",
+      "route": "/examples/star/",
+      "title": "Star: new reaction conditions",
+      "description": "Existing organization can open possibilities for later transformations.",
+      "revision": 2,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-C01",
+        "UT-C02",
+        "UT-D05"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0014"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What to notice\n\nThe source world explanation follows gas becoming a gravitationally organized star. Its internal temperature and pressure allow nuclear reactions to produce new nuclei. Stellar evolution and the dispersal of many heavier elements expand the material available for later chemistry. NASA's first-star explanation provides supplementary background: [NASA's first-stars explanation](/references/#BIB-0014).\n\n## What this illustrates\n\nThe important connection is existing organization → changed conditions → further physical possibilities. The original documents use the star to illustrate their wider question about which structures become accessible in an environment.\n\nA star physically evolves. Treating it as one object in a larger description is a different act: it changes what we track, rather than creating a new star by naming a level. Both ideas matter, and they should not be conflated.\n\n## Where the interpretation stops\n\nThis example does not derive gravity from a universal resonance law or make every possible next structure inevitable. The broader [background-selection extension](/claims/UT-C02/) and force-unification question remain open in the original sources.\n\n[Life changing its environment](/examples/life-environment/) explores another way an existing organization changes conditions. [All examples](/examples/)\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "cc43afaa476536dc62e441dd19017fc8b993b796c2c54b350fe3f973c0a56a33"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "508f72a1c032925d89f0579aa7e4ccf8d6d26d95cc58af1c547c9477ce4e494f"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "622d51b22ae01652baccf4ef808fe1596f66824a6562f2b5bc09939735f941a4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "e63119326f25862de27d3cf265a6af8b71e6a587a8357c2a61f6d18cdda3d1e7"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ba24845b313aacf063d30c124d5fa4aef773cba1e32c5f1a54b1812906960b4b"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "7e15e280cd724c78444744ec618d0142aaf577b2865aae76bb26b2be36921358"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e4aafc0237a82aac9319b68ce803f6293f02e0aeda0a25ae79626d35b8ca6e2a",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e1335e4b94dd01ab6b937af8cb23613473bc0bcda1f918e4cf8ff470ec01e714",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: An illustrative beginner explanation mapped to the original supplied RRG documents. No new experimental inputs, causal stages or equation-family requirement was introduced. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "hypotheses": "Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Scientific role example, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "evidenceDescriptions": "Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "openQuestions": "Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity. No personal identity, rights, author-public-wording or release authorization is inferred. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/DOC-EXAMPLE-STAR.json. Retained semantic finding: Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval."
+  }
+}

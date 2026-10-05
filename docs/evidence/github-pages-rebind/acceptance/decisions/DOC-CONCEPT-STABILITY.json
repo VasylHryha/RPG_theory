@@ -1,0 +1,107 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-STABILITY",
+  "fingerprint": "b024cbb493755b2cd9f37bfee6a0afb2ac2509777405ffb431ba647c68ff5b2d",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T18:08:55.123Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Reused the genuine accepted source/display comparison in docs/evidence/source-link-r2/acceptance/decisions/DOC-CONCEPT-STABILITY.json, SHA-256 1322950d0f864436b84243ab1e23b16ea147c7b413b14d07f85a3aa9ab138030, after exact equality of ownRead, sourceReads, dependency semantic digests and rendered body/plain-language/home-projection hashes at both regression bases. All 75 actual bodies and explanatory exports also match current rendering at root, legacy subpath and /RPG_theory/; exact raw downloads and ZIP members match. The supporting errata and backlinks/downloads were separately inspected against the source authority notice and raw errata: supporting provenance, not scientific claim authority. See docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json and material-comparison.md. Retained semantic finding: Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/DOC-CONCEPT-STABILITY.json. Retained semantic finding: Compared core §4 and framework §§2.4/13 with the full body and UT-D04 statement expansion. Bounded persistence, recovery and attraction are different tests; self-consistency is not a universal theorem or a numerical threshold. Cell exchange and model conditions remain necessary.",
+  "inputs": {
+    "fingerprint": "b024cbb493755b2cd9f37bfee6a0afb2ac2509777405ffb431ba647c68ff5b2d",
+    "ownRead": {
+      "id": "DOC-CONCEPT-STABILITY",
+      "route": "/concepts/stability/",
+      "title": "Stability: what persists?",
+      "description": "The RRG definition and the measurements used to test particular systems.",
+      "revision": 2,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D04"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## In ordinary words\n\nAn organization can persist while activity continues inside it. In the supplied core, stability means that geometry and mode structure form a self-consistent closed organization during the interval in question. Persistence may be short or long.\n\n## Compare the questions\n\nA molecule can be considered over a particular lifetime; a living cell needs ongoing exchanges. To test a specified model, we may measure how long a state lasts, how it responds to a perturbation or whether nearby states approach it.\n\n**Bounded persistence** asks whether the chosen organization remains within stated limits over an interval. **Recovery** asks whether it returns after a disturbance. **Attraction** asks whether nearby states tend toward it. These describe different tests; observing one is not automatically a result about the others.\n\nThe framework allows different mathematical tests for different systems. They do not replace its locked meaning. A self-consistency definition is not an independently established universal stability theorem.\n\n## The source definition\n\n::claim{id=\"UT-D04\" view=\"statement\"}\n\nHere $G$ denotes organization and $M$ the full temporal mode structure. Their reciprocal relation is the RRG definition being used. A particular application still needs its conditions, equations and evidence; the definition alone does not give a numerical threshold.\n\n## Continue the question\n\nCompare the [cell example](/examples/cell/) with [recursion and scale](/concepts/recursion/). Return to [all concepts](/concepts/).\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §4 and framework §§2.4, 3 proposition 2, 13. The persistence/recovery/attraction comparison explains distinct measurements without redefining source stability.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "622d51b22ae01652baccf4ef808fe1596f66824a6562f2b5bc09939735f941a4"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "f2dfe9b807107e6fb0604d4c0c8d7ff9284c9425aeda2181a3e810e5f1bcaf09"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "01dc34fee23953cc47ca4eac2452d920fe8f0ab56b2897b285172e6ff9ec95ce",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "233aa4b09d862ad48bef24380acf9d92af7fabd0e77ffd43a08f8c4cab14b0eb",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §4 and framework §§2.4/13 with the full body and UT-D04 statement expansion. Bounded persistence, recovery and attraction are different tests; self-consistency is not a universal theorem or a numerical threshold. Cell exchange and model conditions remain necessary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §4 and framework §§2.4/13 with the full body and UT-D04 statement expansion. Bounded persistence, recovery and attraction are different tests; self-consistency is not a universal theorem or a numerical threshold. Cell exchange and model conditions remain necessary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: An illustrative beginner explanation mapped to the original supplied RRG documents. No new experimental inputs, causal stages or equation-family requirement was introduced. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "hypotheses": "Compared core §4 and framework §§2.4/13 with the full body and UT-D04 statement expansion. Bounded persistence, recovery and attraction are different tests; self-consistency is not a universal theorem or a numerical threshold. Cell exchange and model conditions remain necessary. Scientific role concept, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "evidenceDescriptions": "Compared core §4 and framework §§2.4/13 with the full body and UT-D04 statement expansion. Bounded persistence, recovery and attraction are different tests; self-consistency is not a universal theorem or a numerical threshold. Cell exchange and model conditions remain necessary. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "openQuestions": "Compared core §4 and framework §§2.4/13 with the full body and UT-D04 statement expansion. Bounded persistence, recovery and attraction are different tests; self-consistency is not a universal theorem or a numerical threshold. Cell exchange and model conditions remain necessary. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §4 and framework §§2.4, 3 proposition 2, 13. The persistence/recovery/attraction comparison explains distinct measurements without redefining source stability. No personal identity, rights, author-public-wording or release authorization is inferred. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/DOC-CONCEPT-STABILITY.json. Retained semantic finding: Compared core §4 and framework §§2.4/13 with the full body and UT-D04 statement expansion. Bounded persistence, recovery and attraction are different tests; self-consistency is not a universal theorem or a numerical threshold. Cell exchange and model conditions remain necessary. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Renewal: verified equality and actual three-base output/download comparisons in docs/evidence/github-pages-rebind/acceptance/comparison-corpus.json; source-role/target comparison in material-comparison.md. No new science, author, rights, privacy, human or release approval."
+  }
+}
