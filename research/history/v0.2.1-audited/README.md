@@ -1,9 +1,7 @@
 # Recursive Resonant Geometry
 ## A source-first hypothesis, with an inspectable evidence map
 
-**Publication companion v0.2.1 · audited 2 October 2026 · promoted to repository CURRENT 5 October 2026**
-
-> **Repository authority note.** The owner has explicitly replaced the prior active publication/research companion with this audited v0.2.1 set. The project-wide minimal `00_LOCKED_CORE.md`, current repository 01–03 foundation documents, and `05_CHANGE_CONTROL.md` are carried forward unchanged; see `SOURCE_AUTHORITY.md` and `CURRENT_MANIFEST.md`.
+**Publication companion v0.2.1 · audited 2 October 2026**
 
 RRG asks whether the same organizing process can repeat across scales: fluctuations produce temporary arrangements; some arrangements support activity that helps them persist; those persistent structures change their surroundings; the resulting environment offers conditions for further organization.
 
@@ -50,9 +48,9 @@ One further distinction is essential: **structures physically changing their env
 
 The files in `foundations/` are byte-preserved snapshots of 01–03. They preserve the terminology and prior development; they have **not** received a complete fresh source audit. Some contain older proof-first priorities, stronger mathematical assertions and a known formatting issue. [Foundation errata](foundations/ERRATA.md) records the compatibility corrections. They are not the current public evidence catalogue.
 
-The former 04–06 text companions, old README and earlier numerical bundles remain preserved in the owner’s audited GPT Library release; the predecessor GitHub current set is separately preserved under `research/history/repository-current-2026-10-01/`. They are not duplicated inside the active `RRG_CURRENT` tree and do not define current publication guidance. The current README and audited 04–08 state this release’s publication scope. Where an earlier mathematical implementation is more restrictive than the conceptual proposal, treat it as an optional stronger branch rather than silently redefining the theory.
+The former 04–06, old README and earlier numerical bundles are preserved in `archive/`. They document history, not current publication guidance. The current README and audited 04–08 state this release’s scope. Where an earlier mathematical implementation is more restrictive than the conceptual proposal, treat it as an optional stronger branch rather than silently redefining the theory.
 
-This audited package originated as a conversation/Library artifact and was **explicitly promoted by the owner to replace the prior active repository companion on 5 October 2026**. The predecessor repository source set is preserved under `research/history/repository-current-2026-10-01/`. This source promotion does not by itself qualify the website, grant a licence, or authorize a Pages deployment.
+This package is a **new conversation artifact**. It does not establish that a website, shared Drive document, Project attachment or persistent Library copy has been replaced. No publication action or change to external sharing was performed.
 
 ## What was checked
 

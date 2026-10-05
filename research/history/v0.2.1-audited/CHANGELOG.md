@@ -1,16 +1,5 @@
 # Changelog
 
-## Repository promotion — 2026-10-05
-
-**Owner decision:** replace the prior active repository publication/research companion with the audited RRG v0.2.1 set from 2 October 2026.
-
-**Promoted:** current 04–08 companions, README, source register and audit/check material. The minimal `00_LOCKED_CORE.md`, repository 01–03 foundation documents and `05_CHANGE_CONTROL.md` are carried forward unchanged.
-
-**Archived:** the complete predecessor `RRG_CURRENT` set is preserved under `research/history/repository-current-2026-10-01/`; the exact audited v0.2.1 README/CHANGELOG before repository-specific promotion notes are preserved under `research/history/v0.2.1-audited/`.
-
-**Qualification state:** existing website source bindings/reviews that refer to superseded 04/06/07/08 documents are stale by construction. Public qualification remains blocked until mappings are rebuilt and reviewed against this edition.
-
-
 ## v0.2.1 — 2026-10-02: publication/evidence audit
 
 **Preserved:** \(R=(G,M)\), full mode definition, source-direction recursion, environment feedback, persistence, competition/coexistence, repeated effective levels, life analogy, expansion conjecture, effective-law engineering, speculative “magic,” and AI possibility.
