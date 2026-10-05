@@ -1,10 +1,38 @@
-# Unity Theory
+# Unity Theory / Recursive Resonant Geometry
 
-Private static Astro website for the Recursive Resonant Geometry research project.
-The authoritative implementation status and next action live in
-[the R4 plan](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md).
+Public repository for the Unity Theory / Recursive Resonant Geometry (RRG) research publication website and its versioned source documents.
 
-Use Node **24.18.0** and npm **11.16.0**. Dependencies are locked at the project root.
+## Current scientific source
+
+**Repository CURRENT:** RRG v0.2.1 repository current  
+**Audited companion:** 2 October 2026  
+**Promoted to this repository:** 5 October 2026
+
+The owner explicitly selected the audited v0.2.1 documents to replace the prior active publication/research companion.
+
+- `research/RRG_CURRENT/00_LOCKED_CORE.md` remains the minimal normative core and is unchanged.
+- Repository `01_world_explanation.md`, `02_scientific_framework.md`, `03_mathematical_core.md`, and `05_CHANGE_CONTROL.md` are carried forward unchanged.
+- Audited v0.2.1 `04_recursive_background_generation.md`, `05_mathematical_source_model.md`, `06_evidence_catalog.md`, `07_audit_report.md`, `08_claim_coverage.md`, and `sources.json` are now current.
+- The complete predecessor repository-current set is preserved under `research/history/repository-current-2026-10-01/`.
+- `research/RRG_CURRENT/SOURCE_AUTHORITY.md` and `CURRENT_MANIFEST.md` define the current authority boundary.
+
+The original owner-supplied `RRG_CURRENT.zip` remains preserved as provenance. It is no longer the complete description of the promoted current source tree.
+
+## Website status
+
+The repository is public, but **the website is not yet publicly qualified or deployed**.
+
+The source replacement intentionally invalidated website source keys, source-bound records, citation mappings and fidelity fingerprints that referenced the superseded 04/06/07/08 documents. They must be rebound to v0.2.1 before M6/public qualification.
+
+Do not interpret an old successful preview/build receipt as qualification of the promoted source set. See the sole forward plan:
+
+[docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md)
+
+Current next action is the remaining §0.39 rebind: update publication source keys/records/citations, resolve evidence-ID namespace collisions, rebuild affected pages/downloads, then perform one fresh bounded fidelity/M6 qualification pass.
+
+## Local development
+
+Use Node **24.18.0** and npm **11.16.0**.
 
 ```sh
 npm ci
@@ -12,102 +40,30 @@ npx playwright install chromium
 npm run dev
 ```
 
-The local development site is at `http://127.0.0.1:4321/`. Home and `/start/`
-are draft reading pages. `/fixtures/math/` is a synthetic, non-public rendering
-fixture; it makes no scientific claim.
+The local site is normally served at `http://127.0.0.1:4321/`.
 
 ```sh
+npm run check
+npm run check:sources
+npm run check:content -- --changed <entry-id>
 npm run verify
 ```
 
-This runs source identities, intake/URL/Markdown negative controls, root and
-`/unity-theory/` static builds, output audits and production-output browser tests.
-Detailed M1 receipts and screenshots go to `docs/evidence/m1/`; prior M0 evidence is preserved.
+During the v0.2.1 rebind, source/content verification is expected to expose stale predecessor mappings until they are migrated. Do not silence those failures by restoring old files as current or manufacturing accepted review decisions.
 
-```sh
-npm run build -- --mode preview
-npm run serve -- --output dist/preview-root --port 4321
-```
+## Source and publication layout
 
-Build modes are `preview`, `qualification`, and `release`. Preview may expose drafts
-privately. Qualification requires the same source-fidelity-reviewed selection as release,
-but may use a reserved fixture origin and remains **non-deployable**. The actual
-current corpus has pending website fidelity reviews and refuses qualification/release. The full
-public release pipeline is still unavailable. `npm run verify` runs private preview
-engineering checks at both base paths; it grants no content acceptance or scientific certification.
+- `research/RRG_CURRENT/` — selected current scientific/publication source set.
+- `research/history/` — predecessor and historical source snapshots.
+- `research/publication/` — website records, derivative explanations, references and fidelity decisions.
+- `docs/evidence/` — implementation/review/source-transition receipts; never a public website asset.
+- `config/research-source.json` — byte identity/intake record for the selected current edition.
+- `RIGHTS.md` and `research/publication/metadata.json` — rights/identity state.
 
-The owner-supplied `RRG_CURRENT.zip` is preserved at the root. Its sole operative
-extracted copy is `research/RRG_CURRENT/`. The intake record includes raw file
-hashes and the inspected manifest; historical documents are separate under
-`research/history/`. Website prose is authored in `research/publication/`.
-Source bytes are never rewritten by extraction, rendering or builds.
+Current source admission verifies bytes only. It does not certify the theory or grant website publication approval.
 
-For a new ZIP, inspect and stage without replacing the current edition:
+## Publication boundary
 
-```sh
-python3 scripts/intake_archive.py /path/to/RRG_CURRENT.zip /tmp/rrg-new-edition
-```
+Public repository visibility is not the same as a qualified research release.
 
-Then inspect the actual manifest and change control, record the chosen edition,
-classify every file, preserve the previous edition, and update the intake seal
-with affected bindings/reviews. Extraction alone never approves an edition.
-
-The supplied handoff remains under `unity_theory_website_handoff_r4/` as an
-unchanged provenance snapshot. Execute only the installed plan in `docs/plans/`.
-Existing Rider solution and editor files are preserved. No remote repository,
-public publication or license grant has been configured.
-
-M1 record pages live at `/claims/UT-…/`, with minimal concept and source-bound
-status/matrix consumers. `/references/` lists the selected literature with DOI
-and alternate-source links, support scopes and bibliographic verification limits.
-All remain private drafts. The single corpus loader serves collection adapters,
-CLI validators and page/route selection; no review is automatically accepted.
-
-```sh
-npm run check:content -- --changed UT-D01 --evidence-dir docs/evidence/m1
-```
-
-This prints/stores affected entries and required fingerprints without writing
-reviews. Source/document/citation sidecars are valid YAML (JSON subset); authored
-page frontmatter uses the same shared schema. Source governance stays in the
-actual current source, with proposed revision transactions linking its change
-record and preserving prior bytes rather than silently resetting pins.
-
-M1 mode correction: `npm run verify` exercises the private **preview** slice at both
-base paths. `qualification` now requires a qualified actual current corpus, exact
-accepted website fidelity reviews, published dependency closure, dates and scoped rights; it cannot
-expose drafts through a renamed preview. The current pending corpus refuses that
-mode. All local artifacts remain non-deployable. Read the latest execution record
-in the sole Revision 4 plan before continuing.
-
-For an authorized scientific authoring transaction, preserve the complete predecessor
-edition outside the active source tree, update sources/admission/sidecars together,
-then run `npm run check:source-revision -- --prior-root <preserved-edition-root>
---change <transaction.json> --evidence-dir <evidence-directory>`. Its JSON describes
-the change-control fields and priorSnapshot path/hash pairs; the checker reads those
-raw predecessor bytes and verifies the change ID in the current source-owned change
-record. It reports affected fingerprints with review pending and grants no approval.
-
-Website fidelity reviews use `research/publication/website-reviews.yaml` and
-`src/lib/website-review.ts`. Each independent decision links a hashed JSON receipt
-under `docs/evidence/`, records its actual source reads, complete entry, dependencies,
-rendered canonical bodies, plain language and applicable home status projection at
-both bases, and comparisons of terminology, meaning, assumptions,
-hypotheses, evidence descriptions, open questions, attribution and mappings.
-`check:content` reports requests only; it never writes approval.
-
-`qualifyCurrentSource()` verifies intake bytes and always leaves content qualification
-false. `loadCanonicalCorpus()` reports complete current-entry M1 fidelity coverage.
-Publication independently derives qualification for its selected entries and their
-dependency closure, validating actual hashed receipts rather than trusting that report.
-Unrelated drafts do not block a reviewed publication. M1 still requires reviewing
-the 34 reached representations before acceptance. The legacy intake `contentReview`
-field cannot grant it. The preserved nineteen-entry `reviews.yaml` scientific registry
-is excluded from active website loading and production input identity.
-Scientific findings and paper readouts remain in their existing evidence directories
-for owner review after website completion. No scientific source is revised in this lane.
-
-Fidelity decisions use a strict schema, including stale snapshots. Their dates
-must cover the reviewed material and dependency updates. Requests return detached
-entry snapshots; comparison text, exact inputs and receipt-byte seals are mandatory.
-Unknown IDs and unsafe/symlink evidence paths fail with typed diagnostics.
+Pages deployment remains blocked until the selected v0.2.1 content is rebound/reviewed and the remaining identity, attribution, scoped-rights, privacy/public-content, target and accessibility gates are closed. No project-wide licence is selected merely because the repository is public.
