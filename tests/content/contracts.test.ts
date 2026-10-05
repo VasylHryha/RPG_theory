@@ -1,8 +1,7 @@
-import { activePublication, publicationFor } from '../../src/lib/publication.js';
-import { renderEntrySync } from '../../src/lib/content.js';
+import { activePublication } from '../../src/lib/publication.js';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, mkdirSync, writeFileSync, rmSync, readFileSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, rmSync, readFileSync, cpSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { spawnSync } from 'node:child_process';
@@ -12,11 +11,8 @@ import { assertUniqueRoutes, withBase } from '../../src/lib/urls.js';
 import { assertBuildAllowed } from '../../src/lib/publication.js';
 import { loadSiteConfig } from '../../src/lib/site-config.js';
 import { renderMarkdown } from '../../src/lib/markdown.js';
-import { requiresMathStyles } from '../../src/lib/markdown.js';
 import { auditOutput } from '../../scripts/audit-output.js';
-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
-const privateRoutes=activePublication().manifest.routes;
-import { buildInputs, syntheticRoutes } from '../../src/lib/build-identity.js';
+import { reviewLabel, renderBeginnerDiagram } from '../../src/lib/presentation.js';
 
 function fixture(run: (directory: string, record: AdmissionRecord) => void) {
   const directory = mkdtempSync(join(tmpdir(), 'unity-intake-'));
@@ -111,40 +107,24 @@ test('release with fixture host or unqualified scientific corpus fails closed', 
   assert.throws(() => assertBuildAllowed('release', real, { currentSourceQualified: false, corpusScope: 'current' }), /CURRENT_SOURCE_NOT_QUALIFIED/);
   assert.throws(() => assertBuildAllowed('release', real, { currentSourceQualified: true, corpusScope: 'synthetic' }), /CURRENT_SOURCE_NOT_QUALIFIED/);
   assert.throws(() => assertBuildAllowed('release', real, { currentSourceQualified: true, corpusScope: 'current' }), /PUBLIC_AUTHORIZATION_REQUIRED/);
-  assert.throws(() => assertBuildAllowed('release', { ...real, publicAuthorization: true }, { currentSourceQualified: true, corpusScope: 'current' }), /RELEASE_PIPELINE_NOT_IMPLEMENTED/);
+  assert.throws(() => assertBuildAllowed('release', { ...real, publicAuthorization: true }, { currentSourceQualified: true, corpusScope: 'current' }), /MANUAL_MAIN_DEPLOYMENT_REQUIRED/);
 });
-function outputFixture(run: (directory: string, info: ReturnType<typeof outputInfo>) => void) {
-  const directory = mkdtempSync(join(tmpdir(), 'unity-output-'));
-  try {
-    const info = outputInfo();
-    writeFileSync(join(directory, 'build-info.json'), JSON.stringify(info));
-    const selected=activePublication();
-    mkdirSync(join(directory,'_astro'),{recursive:true});
-    writeFileSync(join(directory,'_astro/katex.fixture.css'),'.katex{font-family:KaTeX_Main}');
-    for (const route of privateRoutes) {
-      const file=route.endsWith('/') ? (route==='/'?'index.html':route.slice(1)+'index.html') : route.slice(1);
-      const entry=selected.entries.find(e=>e.route===route);
-      let body=entry ? `<div data-canonical-body="${entry.id}">${renderEntrySync(selected.corpus,entry,info.config.basePath)}</div>` : '';
-      if(entry && !['DOC-HOME','DOC-START'].includes(entry.id)) body+=`<div data-record-status="${entry.id}">${renderStatus(selected.corpus,entry)}</div><div data-record-details="${entry.id}">${renderRecordDetails(selected.corpus,entry,info.config.basePath)}</div>`;
-      if(entry && !['DOC-HOME','DOC-START'].includes(entry.id)) body+=`<p class="article-lede">${escapeHTML(entry.description)}</p>`;
-      if(entry && ['DOC-HOME','DOC-START'].includes(entry.id)) body+=`<p data-editorial-state="${entry.id}">${renderEditorialState(selected.corpus,entry)}</p>`;
-      if(entry?.id==='DOC-HOME') body+=`<div data-source-projection="DOC-STATUS">${renderHomeStatus(selected.corpus,selected.entries.find(e=>e.id==='DOC-STATUS')!,info.config.basePath)}</div>`;
-      if(entry)body+=renderBeginnerDiagram(entry.id);
-      if(route==='/references/') body=`<div data-bibliography>${renderReferences(selected.references,selected.entries,info.config.basePath)}</div>`;
-      mkdirSync(join(directory, file, '..'), { recursive: true });
-      const title=escapeHTML(entry ? entry.title+' · Unity Theory' : 'Isolated output fixture'),socialTitle=escapeHTML(entry?.title??'Isolated output fixture'),description=escapeHTML(entry?.description??''),url=info.config.origin+withBase(route,info.config.basePath);
-      const mathStyle=requiresMathStyles(body)?`<link rel="stylesheet" href="${withBase('/_astro/katex.fixture.css',info.config.basePath)}" data-math-stylesheet>`:'';
-      writeFileSync(join(directory, file), `<html><head><title>${title}</title><meta name="description" content="${description}"><meta property="og:title" content="${socialTitle}"><meta property="og:description" content="${description}"><meta property="og:url" content="${url}"><meta name="robots" content="noindex"><link rel="canonical" href="${url}">${mathStyle}</head><body><nav data-publication-navigation>${renderNavigation(selected,route,info.config.basePath)}</nav><h1 id="research-question">${escapeHTML(entry?.title ?? 'Isolated output fixture')}</h1>${body}</body></html>`);
-    }
-    writeFileSync(join(directory, 'favicon.svg'), '<svg xmlns="http://www.w3.org/2000/svg"/>');
-    writeFileSync(join(directory, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
-    run(directory, info);
-  } finally { rmSync(directory, { recursive: true, force: true }); }
-}
+const contractOutput=process.env.UNITY_CONTRACT_OUTPUT ?? 'dist/m6-contract/preview-subpath';
+let productionFixtureReady=false;
 function outputInfo() {
-  const config = { ...loadSiteConfig(), basePath: '/unity-theory/' };
-  const selected=publicationFor('preview',config);
-  return { schema: 'unity-build-info/1', mode: 'preview', deployEligible: false, corpusScope: 'private-editorial-preview', currentSourceQualified: selected.admission.currentSourceQualified, sourceIntake: selected.admission, config, configSha256: sha256(stableJSON(config)), routes: privateRoutes, syntheticRoutes, publicationManifest:selected.manifest, publicationManifestSha256:selected.manifestSha256, ...buildInputs() };
+  if(!productionFixtureReady) {
+    if(!process.env.UNITY_CONTRACT_OUTPUT) {
+      const result=spawnSync(process.execPath,['--import','tsx','scripts/build.ts','--mode','preview','--config','tests/fixtures/site-subpath.json','--output',contractOutput],{encoding:'utf8'});
+      if(result.status!==0)throw new Error(result.stdout+result.stderr);
+    }
+    productionFixtureReady=true;
+  }
+  return JSON.parse(readFileSync(join(contractOutput,'build-info.json'),'utf8'));
+}
+function outputFixture(run: (directory: string, info: ReturnType<typeof outputInfo>) => void) {
+  const info=outputInfo(),directory=mkdtempSync(join(tmpdir(),'unity-output-'));
+  try {cpSync(contractOutput,directory,{recursive:true});run(directory,info);}
+  finally {rmSync(directory,{recursive:true,force:true});}
 }
 test('root-only asset in subpath output reaches BASE_PATH_FAILURE', () => outputFixture((directory) => {
     const path=join(directory,'index.html');
@@ -238,10 +218,10 @@ test('output audit binds bibliography text, destinations, support limits, status
     ['references/index.html','Supplementary reference reported by the supplied documents.','Scientific support accepted.','BIBLIOGRAPHY_PARITY_FAILURE'],
     ['claims/UT-E01/index.html',`<dd>${reviewLabel(activePublication().corpus,'UT-E01')}</dd>`,'<dd>Fabricated review label</dd>','CONTENT_METADATA_PARITY_FAILURE'],
     ['index.html','Whether the four known fundamental interactions','All four fundamental interactions have been proved','CONTENT_PARITY_FAILURE'],
-    ['index.html',`${escapeHTML(activePublication().entries.find(e=>e.id==='DOC-HOME')!.title)}</h1>`,'All interactions proved.</h1>','CONTENT_METADATA_PARITY_FAILURE'],
+    ['index.html','How do parts become<br class="desktop-break" /> a <em>whole?</em>','All interactions proved.','CONTENT_METADATA_PARITY_FAILURE'],
     ['start/index.html','Publication: Draft · private preview.','Publication: published.','CONTENT_METADATA_PARITY_FAILURE'],
     ['start/index.html',`Source fidelity: ${reviewLabel(activePublication().corpus,'DOC-START')}.`,'Source fidelity: Fabricated review label.','CONTENT_METADATA_PARITY_FAILURE'],
-    ['index.html','Research status</a>','All science accepted</a>','NAVIGATION_PARITY_FAILURE'],
+    ['index.html','Research</a>','All science accepted</a>','NAVIGATION_PARITY_FAILURE'],
   ]) {
     const path=join(directory,file),original=readFileSync(path,'utf8');assert.ok(original.includes(from),from);
     writeFileSync(path,original.replace(from,to));assert.throws(()=>auditOutput(directory),new RegExp(code));writeFileSync(path,original);
@@ -268,7 +248,7 @@ test('output audit rejects changed or duplicate social metadata, visible descrip
     ['index.html',(s:string)=>s.replace('</head>','<meta property="og:description" content="Extra claim"></head>'),'CONTENT_METADATA_PARITY_FAILURE'],
     ['claims/UT-E01/index.html',(s:string)=>s.replace(/(<p class="article-lede">)[\s\S]*?(<\/p>)/,'$1Independent universal proof$2'),'CONTENT_METADATA_PARITY_FAILURE'],
     ['claims/UT-E01/index.html',(s:string)=>s.replace('</body>','<p class="article-lede">Extra claim</p></body>'),'CONTENT_METADATA_PARITY_FAILURE'],
-    ['index.html',(s:string)=>s.replace('content="noindex"','content="notnoindex"'),'INVALID_PRIVATE_PAGE'],
+    ['index.html',(s:string)=>s.replace('content="noindex, nofollow"','content="notnoindex"'),'INVALID_PRIVATE_PAGE'],
     ['index.html',(s:string)=>s.replace('</head>','<meta name="robots" content="index"></head>'),'INVALID_PRIVATE_PAGE'],
     ['index.html',(s:string)=>s.replace('</head>','<link rel="canonical" href="https://wrong.invalid/"></head>'),'CANONICAL_PARITY_FAILURE']
   ] as [string,(s:string)=>string,string][]) {
@@ -412,7 +392,7 @@ test('output audit refuses missing, duplicate, misplaced or unrelated math style
   assert.equal(auditOutput(directory).status,'PASS');
   const path=join(directory,'concepts/effective-interactions/index.html'),original=readFileSync(path,'utf8');
   const style=original.match(/<link[^>]*data-math-stylesheet[^>]*>/)![0];
-  for(const changed of [original.replace(style,''),original.replace('data-math-stylesheet',''),original.replace(style,style+style),original.replace(style,style+style.replace('data-math-stylesheet','')),original.replace('katex.fixture.css','fixture.css'),original.replace(style,'').replace('</body>',style+'</body>')]) {
+  for(const changed of [original.replace(style,''),original.replace('data-math-stylesheet',''),original.replace(style,style+style),original.replace(style,style+style.replace('data-math-stylesheet','')),original.replace(/katex.min.[\w-]+.css/,'fixture.css'),original.replace(style,'').replace('</body>',style+'</body>')]) {
     writeFileSync(path,changed);assert.throws(()=>auditOutput(directory),/MATH_STYLESHEET_PARITY_FAILURE/);
   }
   writeFileSync(path,original);

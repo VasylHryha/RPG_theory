@@ -1,0 +1,102 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D04",
+  "fingerprint": "60e553601b277d1e0ce1ac03f55990a9bfd8a57ccf0e3aff93d08f6a9474c906",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Separate bounded High M3 original/sidecar/renderer/output comparison: 00 §4 self-consistent closure during an interval remains the definition; lifetime and perturbation tests do not redefine it. Same-session matching-renderer CSS repair: canonical source/body/callouts unchanged; force-box width repaired from 2px to 122.64px and actual §39 desktop/mobile output compared. Prior issued decisions remain preserved. Website fidelity only; private draft and scientific/release gates remain distinct.",
+  "inputs": {
+    "fingerprint": "60e553601b277d1e0ce1ac03f55990a9bfd8a57ccf0e3aff93d08f6a9474c906",
+    "ownRead": {
+      "id": "UT-D04",
+      "route": "/claims/UT-D04/",
+      "title": "Stability",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 2,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 45,
+        "endLine": 55,
+        "excerptSha256": "c6f7fe3e4ae4ad799503dfd266c8bba802d2e459bfc2c332ad8eebe6270b0414"
+      },
+      "statement": "## 4. Stability\n\n**Locked definition:** a geometry is stable in RRG while its geometry and mode structure form a self-consistent closed organization:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\nStability is **not permanence**. A state may satisfy the closure for a very short or very long interval.\n\nLifetime, perturbation recovery, Lyapunov stability, decay width, or metastability are **measurements/tests of a particular system**, not replacements for this core definition.\n",
+      "plainLanguage": "RRG calls the geometry–mode organization stable while it is self-consistent. This does not require permanence.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §4; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+        "plainLanguageSha256": "7e7e296baa2a4e7ead74a81bd4ea7dfb2b31fabac23ce19e16ffd881efb6833e",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+        "plainLanguageSha256": "7e7e296baa2a4e7ead74a81bd4ea7dfb2b31fabac23ce19e16ffd881efb6833e",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared original source wording, sidecar and both rendered bodies: 00 §4 self-consistent closure during an interval remains the definition; lifetime and perturbation tests do not redefine it.",
+    "meaning": "00 §4 self-consistent closure during an interval remains the definition; lifetime and perturbation tests do not redefine it. Both saved canonical bodies and record details match the live renderer; technical guides match actual source context and heading anchors (evidence-reuse.json).",
+    "assumptions": "Original conditions and model-specific limitations remain in the source body and applicable context. No additional website assumption is imposed. Definitions and optional stronger implementations remain distinct.",
+    "hypotheses": "00 §4 self-consistent closure during an interval remains the definition; lifetime and perturbation tests do not redefine it. Proposed/open extensions retain their source-reported classification; no experiment, universal law or scientific truth is certified.",
+    "evidenceDescriptions": "Displayed evidence state is not-applicable. Reported source assertions remain attributed, not website-reproduced. 08 E06/E07 access restrictions remain in original excerpts and context where applicable. Historical cavity/response work NOT_SELECTED / NOT_RUN.",
+    "openQuestions": "00 §4 self-consistent closure during an interval remains the definition; lifetime and perturbation tests do not redefine it. The original 04 six-question register, 06 failure/core-impact columns, 07 open boundary and 02/03 test programme remain separate from locked definitions.",
+    "attribution": "Compared source authors/URLs and bibliography links in original extracts and rendered details. No independent paper result is assigned to this website. Supplied Checked/Location/Inspected source statements describe source authors' reported access.",
+    "sourceMappings": "R-CURRENT-CORE lines 45–55; full original and excerpt hashes checked by shared loader. 00_LOCKED_CORE.md §4; new navigation ID, source has no UT ID. Dependencies and source-local citation aliases validated by shared loader; original S01 identities are source-namespaced. Both base-path bodies compared with actual saved output."
+  }
+}

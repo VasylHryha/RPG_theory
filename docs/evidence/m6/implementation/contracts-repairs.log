@@ -1,0 +1,85 @@
+✖ output audit binds bibliography text, destinations, support limits, status, projection and navigation (31395.190708ms)
+✔ output audit rejects changed or duplicate social metadata, visible descriptions and private indexing controls (20005.760583ms)
+✔ output audit refuses missing, duplicate, misplaced or unrelated math styles and unnecessary beginner math loads (17806.426ms)
+✔ M4 approved selection filters draft/history/withdrawn downloads and emits dated article RSS at both bases (540.272667ms)
+✔ M4 citation remains inactive for actual missing decisions; prepared CFF uses only supplied approved metadata (1634.899709ms)
+✔ M6 correction transaction invalidates dependants, requires explicit synthetic rereview and excludes the replaced route (1136.622667ms)
+✖ real home/start emit withdrawal tombstones through the shared consumer and output auditor (6940.984375ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 04_status_and_blockers.md (5029.958708ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md (3543.3565ms)
+✔ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (6895.143167ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 8
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 70535.6505
+
+✖ failing tests:
+
+test at tests/content/contracts.test.ts:3:1860
+✖ output audit binds bibliography text, destinations, support limits, status, projection and navigation (31395.190708ms)
+  AssertionError [ERR_ASSERTION]: Research status</a>
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:226:79)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:126:58)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:214:114)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/content/page-lifecycle.test.ts:1:410
+✖ real home/start emit withdrawal tombstones through the shared consumer and output auditor (6940.984375ms)
+  AssertionError [ERR_ASSERTION]: 09:17:13 [vite] Re-optimizing dependencies because vite config has changed
+  09:17:14 [content] Syncing content
+  09:17:14 [content] Astro config changed
+  09:17:14 [content] Clearing content store
+  09:17:15 [content] Synced content
+  09:17:15 [types] Generated 1.43s
+  09:17:15 [build] output: "static"
+  09:17:15 [build] mode: "static"
+  09:17:15 [build] directory: /private/var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/unity-page-lifecycle-ixf0I9/dist/published-control/
+  09:17:15 [build] Collecting build info...
+  09:17:15 [build] ✓ Completed in 1.45s.
+  09:17:15 [build] Building static entrypoints...
+  09:17:15 [vite] ✓ built in 239ms
+  09:17:15 [vite] ✓ built in 16ms
+  09:17:15 [build] Rearranging server assets...
+  
+   generating static routes 
+  fatal: not a git repository (or any of the parent directories): .git
+  fatal: not a git repository (or any of the parent directories): .git
+  UNSAFE_MARKDOWN: Raw HTML is not permitted
+    Location:
+      /Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:160:27
+    Stack trace:
+      at file:///private/var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/unity-page-lifecycle-ixf0I9/dist/published-control/.prerender/chunks/presentation_BTIY_Jv7.mjs:400:36
+      at file:///private/var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/unity-page-lifecycle-ixf0I9/dist/published-control/.prerender/chunks/presentation_BTIY_Jv7.mjs:379:36
+      at visit$1 (file:///private/var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/unity-page-lifecycle-ixf0I9/dist/published-control/.prerender/chunks/presentation_BTIY_Jv7.mjs:379:17)
+      at Array.forEach (<anonymous>)
+      at file:///private/var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/unity-page-lifecycle-ixf0I9/dist/published-control/.prerender/chunks/presentation_BTIY_Jv7.mjs:399:3
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/page-lifecycle.test.ts:27:105)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

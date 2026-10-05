@@ -1,0 +1,137 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-STAR",
+  "fingerprint": "696ffc005885f069eb94e47deba9846b8e9ac15a16bb97d0c5735bbfe3aba610",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Independent bounded M2 source/display review: Organization creating temperature/pressure and further chemical possibilities follows the original stellar illustration and cosmic addendum. Existing unchanged rendered-layout and read-aloud evidence reused after exact input/artifact comparison. This accepts website fidelity only; the entry remains a private draft.",
+  "inputs": {
+    "fingerprint": "696ffc005885f069eb94e47deba9846b8e9ac15a16bb97d0c5735bbfe3aba610",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-STAR",
+      "route": "/examples/star/",
+      "title": "Star: new reaction conditions",
+      "description": "Existing organization can open possibilities for later transformations.",
+      "revision": 1,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-03",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD",
+        "R-CURRENT-SCIENCE"
+      ],
+      "dependsOn": [
+        "UT-C01",
+        "UT-C02",
+        "UT-D05"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0014"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What to notice\n\nThe source world explanation follows gas becoming a gravitationally organized star. Its internal temperature and pressure allow nuclear reactions to produce new nuclei. Stellar evolution and the dispersal of many heavier elements expand the material available for later chemistry. NASA's first-star explanation provides supplementary background: [NASA's first-stars explanation](/references/#BIB-0014).\n\n## What this illustrates\n\nThe important connection is existing organization → changed conditions → further physical possibilities. The original documents use the star to illustrate their wider question about which structures become accessible in an environment.\n\nA star physically evolves. Treating it as one object in a larger description is a different act: it changes what we track, rather than creating a new star by naming a level. Both ideas matter, and they should not be conflated.\n\n## Where the interpretation stops\n\nThis example does not derive gravity from a universal resonance law or make every possible next structure inevitable. The broader [background-selection extension](/claims/UT-C02/) and force-unification question remain open in the original sources.\n\n[Life changing its environment](/examples/life-environment/) explores another way an existing organization changes conditions. [All examples](/examples/)\n",
+      "sourceMapping": "World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-03",
+    "dependencies": [
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-PROOF",
+        "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+        "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e4aafc0237a82aac9319b68ce803f6293f02e0aeda0a25ae79626d35b8ca6e2a",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e1335e4b94dd01ab6b937af8cb23613473bc0bcda1f918e4cf8ff470ec01e714",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Reaction conditions and a change of descriptive scale remain distinct, consistent with world 7 and framework 7.",
+    "meaning": "Organization creating temperature/pressure and further chemical possibilities follows the original stellar illustration and cosmic addendum.",
+    "assumptions": "Physical evolution is separated from treating a star as one object at another level; later structures are not guaranteed.",
+    "hypotheses": "Background selection and fundamental-force unification remain open extensions through the visible text and UT-C02 link.",
+    "evidenceDescriptions": "The stellar illustration is source-reported; NASA BIB-0014 is supplementary first-star background, not proof that RRG derives gravity.",
+    "openQuestions": "Background selection and fundamental-force unification remain open extensions through the visible text and UT-C02 link.",
+    "attribution": "Compared with the original supplied RRG_CURRENT documents and the rendered canonical callouts. The stellar illustration is source-reported; NASA BIB-0014 is supplementary first-star background, not proof that RRG derives gravity. This decision is agent review, not author approval or independent scientific certification.",
+    "sourceMappings": "Checked the declared mapping: World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity. Source identities and canonical dependency meanings are recorded in inputs; originals remain unchanged."
+  }
+}

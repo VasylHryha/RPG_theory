@@ -3,7 +3,7 @@ import { existsSync, readFileSync, statSync } from 'node:fs';
 import { resolve, join, extname } from 'node:path';
 import { normalizeBase, safePath } from '../src/lib/urls.js';
 
-const types: Record<string, string> = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.json': 'application/json', '.txt': 'text/plain', '.woff': 'font/woff', '.woff2': 'font/woff2', '.ttf': 'font/ttf' };
+const types: Record<string, string> = { '.wasm':'application/wasm', '.pagefind':'application/octet-stream', '.pf_fragment':'application/octet-stream', '.pf_index':'application/octet-stream', '.zip':'application/zip', '.md':'text/markdown; charset=utf-8', '.xml':'application/rss+xml; charset=utf-8', '.cff':'text/plain; charset=utf-8', '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.json': 'application/json', '.txt': 'text/plain', '.woff': 'font/woff', '.woff2': 'font/woff2', '.ttf': 'font/ttf' };
 export async function serveOutput(output: string, port = 0) {
   const root = resolve(output);
   const info = JSON.parse(readFileSync(join(root, 'build-info.json'), 'utf8'));

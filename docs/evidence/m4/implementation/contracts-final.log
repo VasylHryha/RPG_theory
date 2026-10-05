@@ -1,0 +1,47 @@
+✔ historical representation decisions do not populate website fidelity or qualify the source (339.100542ms)
+✔ independent statement, bad binding range/hash, wrong record kind, duplicates and unknown sources fail (87.901667ms)
+✔ source-scoped aliases keep historical S01 local; duplicates and unresolved aliases fail (22.406084ms)
+✔ source URL aliases preserve case-sensitive paths while DOI identity remains case insensitive (318.836208ms)
+✔ non-DOI citation identity preserves added or removed trailing path separators (307.857833ms)
+✔ missing or cyclic semantic dependency fails; related feedback does not create proof cycles (608.088709ms)
+✔ authority notes cannot supply scientific excerpts; invalid states and real dates fail (61.794667ms)
+✔ safe directives render actual canonical explanations, extract dependencies and reject executable/unknown syntax (11.448042ms)
+✔ dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local (291.434875ms)
+✔ changing a relevant source verification scope or relevant citation stales its review (627.450083ms)
+✔ shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights (1407.975584ms)
+✔ one manifest excludes drafts from every production surface and rejects published draft dependencies (300.337875ms)
+✔ withdrawn history is explicitly selected as a tombstone; former body is removed (200.047084ms)
+✔ source display adapters preserve raw bindings while rendering status/math/table consumers (498.348666ms)
+✔ source revision transaction refuses missing prior-byte preservation and incomplete core proof gate (568.701167ms)
+✔ actual supplied 07 and 08 cannot disappear behind a matching core (4.362375ms)
+✔ a missing or mismatched actual local citation alias fails the source adapter (43.870541ms)
+✔ project reproduction cannot be asserted with an invented execution receipt (13.578292ms)
+✔ Markdown directive export uses ordinary links and leaves code examples untouched (2.457709ms)
+✔ statement directives are order-independent; nested references and cycles reach the shared graph (408.9085ms)
+✔ scientific identities cannot bypass proposal provenance or masquerade as documents (41.465209ms)
+✔ retained historical excerpts remain historical; supersession is reciprocal and draft history stays out of discovery (610.480792ms)
+✔ review rejection is distinct from pending; alternate citation review binds its primary metadata (268.272584ms)
+✔ source, bibliography, execution and renderer identity changes report or stale their actual dependants (270.239333ms)
+✔ actual status, proof and home summaries depend on their core definitions and emergent evidence (651.812875ms)
+✔ withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions (207.172542ms)
+✔ bibliographic verification cannot retain a checked label after metadata substitution (41.450709ms)
+✔ release rejects future updates and reviews independently of the publication date (427.325083ms)
+✔ qualification uses reviewed production selection; a preview cannot be relabelled qualification (289.604583ms)
+✔ Markdown export validates safety, expands nested references and leaves math samples intact (183.895833ms)
+✔ directives cannot create nested anchors in link labels or Markdown exports (0.849333ms)
+✔ proposals display non-adoption and cannot supersede source-authoritative records (164.466667ms)
+✔ revision impact retains predecessor dependants when the next graph removes an edge (398.343375ms)
+✔ M4 explanatory exports mirror canonical parsed statements, retain adapters and have usable destinations at both bases (5450.697833ms)
+✔ M4 ZIP manifests preserve original bytes and exclude administrative evidence/history; tampered members fail (2477.220833ms)
+✔ M4 approved selection filters draft/history/withdrawn downloads and emits dated article RSS at both bases (323.736125ms)
+✔ M4 duplicate article routes and stale source numbers refuse; document source rename does not rename its route (602.508667ms)
+✔ M4 citation remains inactive for actual missing decisions; prepared CFF uses only supplied approved metadata (1046.607125ms)
+✔ M4 print CSS admits page layout and literal citation targets while refusing resource-bearing attr forms (0.508125ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11246.878833

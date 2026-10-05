@@ -1,0 +1,23 @@
+{
+  "status": "UNEXPECTED_CHANGES",
+  "baselinePaths": 2171,
+  "changedOwnedPaths": [
+    "research/publication/pages/technical-documents.md",
+    "research/publication/release.json",
+    "scripts/audit-output.ts",
+    "scripts/build.ts",
+    "scripts/css-resources.ts",
+    "scripts/static-server.ts",
+    "src/components/CanonicalPage.astro",
+    "src/lib/content.ts",
+    "src/lib/presentation.ts",
+    "src/lib/publication.ts",
+    "src/pages/references.astro",
+    "src/styles/global.css",
+    "tests/content/fidelity-fixture.ts"
+  ],
+  "unexpectedChanges": [
+    ".idea/.idea.RPG_theory/.idea/workspace.xml"
+  ],
+  "riderRuntime": "current bytes checked, never written by task"
+}

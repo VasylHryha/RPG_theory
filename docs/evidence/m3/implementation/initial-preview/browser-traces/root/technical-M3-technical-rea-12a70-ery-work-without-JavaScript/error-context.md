@@ -1,0 +1,2296 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: technical.spec.ts >> M3 technical reading and source discovery work without JavaScript
+- Location: tests/e2e/technical.spec.ts:7:1
+
+# Error details
+
+```
+Error: expect(locator).toBeInViewport() failed
+
+Locator: locator('#11-the-four-interactions-current-rrg-position')
+Expected: in viewport
+Error: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#11-the-four-interactions-current-rrg-position' is not a valid selector.
+    at query (<anonymous>:5720:41)
+    at <anonymous>:5730:7
+    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)
+    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)
+    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)
+    at <anonymous>:5545:29
+    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)
+    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)
+    at Object.query (<anonymous>:5752:44)
+    at <anonymous>:5710:21
+
+Call log:
+  - Expect "toBeInViewport" locator('#11-the-four-interactions-current-rrg-position') with timeout 5000ms
+  - waiting for locator('#11-the-four-interactions-current-rrg-position')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f1e3]: Private preview · Draft website explanations
+  - banner [ref=f1e4]:
+    - link "Unity Theory home" [ref=f1e5] [cursor=pointer]:
+      - /url: /
+      - generic [aria-hidden] [ref=f1e6]: ↔
+      - text: Unity Theory
+    - navigation "Main navigation" [ref=f1e7]:
+      - link "Start" [ref=f1e8] [cursor=pointer]:
+        - /url: /start/
+      - link "Framework" [ref=f1e9] [cursor=pointer]:
+        - /url: /framework/
+      - link "Research" [ref=f1e10] [cursor=pointer]:
+        - /url: /research-status/
+      - link "Documents" [ref=f1e11] [cursor=pointer]:
+        - /url: /documents/
+      - link "Sources" [ref=f1e12] [cursor=pointer]:
+        - /url: /references/
+  - main [ref=f1e13]:
+    - article [ref=f1e14]:
+      - generic [ref=f1e15]:
+        - paragraph [ref=f1e16]: DOC-FRAMEWORK · Revision 1
+        - heading "The scientific framework" [level=1] [ref=f1e17]
+        - paragraph [ref=f1e18]: "The current non-normative RRG framework: propositions, reported evidence and unresolved extensions."
+      - generic [ref=f1e20]:
+        - generic [ref=f1e21]:
+          - term [ref=f1e22]: Scientific role
+          - definition [ref=f1e23]: Research document
+        - generic [ref=f1e24]:
+          - term [ref=f1e25]: Evidence
+          - definition [ref=f1e26]: No empirical status assigned
+        - generic [ref=f1e27]:
+          - term [ref=f1e28]: Source fidelity
+          - definition [ref=f1e29]: Pending
+        - generic [ref=f1e30]:
+          - term [ref=f1e31]: Publication
+          - definition [ref=f1e32]: Draft · private preview
+      - generic [ref=f1e33]:
+        - navigation "Technical reading" [ref=f1e34]:
+          - link "Framework" [ref=f1e35] [cursor=pointer]:
+            - /url: /framework/
+          - link "Mathematics" [ref=f1e36] [cursor=pointer]:
+            - /url: /math/
+          - link "Evidence" [ref=f1e37] [cursor=pointer]:
+            - /url: /evidence/
+          - link "Status" [ref=f1e38] [cursor=pointer]:
+            - /url: /research-status/
+          - link "Open questions" [ref=f1e39] [cursor=pointer]:
+            - /url: /open-problems/
+          - link "Documents" [ref=f1e40] [cursor=pointer]:
+            - /url: /documents/
+        - paragraph [ref=f1e41]: "Source: 02_scientific_framework.md. Edition: RRG v0.2 locked + evidence updates; promoted 2026-10-01."
+        - paragraph [ref=f1e42]:
+          - text: "Simpler reading:"
+          - link "Start" [ref=f1e43] [cursor=pointer]:
+            - /url: /start/
+          - text: ·
+          - link "Examples" [ref=f1e44] [cursor=pointer]:
+            - /url: /examples/
+          - text: ·
+          - link "Concepts" [ref=f1e45] [cursor=pointer]:
+            - /url: /concepts/
+          - text: .
+        - complementary "Reading context" [ref=f1e46]:
+          - heading "Before reading" [level=2] [ref=f1e47]
+          - paragraph [ref=f1e48]: The framework asks whether the geometry–mode relation can usefully predict organization across scales. Its examples have different physical mechanisms. Its labels “Established”, “Compatible”, “RRG hypothesis” and “Open” are the supplied document’s labels.
+          - paragraph [ref=f1e49]:
+            - text: The
+            - link "locked core" [ref=f1e50] [cursor=pointer]:
+              - /url: /documents/locked-core/
+            - text: governs definitions.
+            - link "Candidate mathematics" [ref=f1e51] [cursor=pointer]:
+              - /url: /math/
+            - text: describes implementations and tests. Same-equation closure is a stronger optional hypothesis; effective-interaction examples do not derive all four fundamental forces. See the
+            - link "evidence views" [ref=f1e52] [cursor=pointer]:
+              - /url: /evidence/
+            - text: and
+            - link "open questions" [ref=f1e53] [cursor=pointer]:
+              - /url: /open-problems/
+            - text: .
+        - group [ref=f1e54]:
+          - generic "On this page (27 sections)" [ref=f1e55] [cursor=pointer]
+          - list [ref=f1e56]:
+            - listitem [ref=f1e57]:
+              - link "1. Research status" [ref=f1e58] [cursor=pointer]:
+                - /url: "#1-research-status"
+            - listitem [ref=f1e59]:
+              - link "2. Definitions" [ref=f1e60] [cursor=pointer]:
+                - /url: "#2-definitions"
+            - listitem [ref=f1e61]:
+              - link "3. Core RRG propositions" [ref=f1e62] [cursor=pointer]:
+                - /url: "#3-core-rrg-propositions"
+            - listitem [ref=f1e63]:
+              - link "4. What established science already supports" [ref=f1e64] [cursor=pointer]:
+                - /url: "#4-what-established-science-already-supports"
+            - listitem [ref=f1e65]:
+              - link "5. Scale and time" [ref=f1e66] [cursor=pointer]:
+                - /url: "#5-scale-and-time"
+            - listitem [ref=f1e67]:
+              - link "6. Chemistry under RRG" [ref=f1e68] [cursor=pointer]:
+                - /url: "#6-chemistry-under-rrg"
+            - listitem [ref=f1e69]:
+              - link "7. Stars and increasing chemical possibility" [ref=f1e70] [cursor=pointer]:
+                - /url: "#7-stars-and-increasing-chemical-possibility"
+            - listitem [ref=f1e71]:
+              - link "8. Life under RRG" [ref=f1e72] [cursor=pointer]:
+                - /url: "#8-life-under-rrg"
+            - listitem [ref=f1e73]:
+              - link "9. Mind under RRG" [ref=f1e74] [cursor=pointer]:
+                - /url: "#9-mind-under-rrg"
+            - listitem [ref=f1e75]:
+              - link "10. AI under RRG" [ref=f1e76] [cursor=pointer]:
+                - /url: "#10-ai-under-rrg"
+            - listitem [ref=f1e77]:
+              - 'link "11. The four interactions: current RRG position" [ref=f1e78] [cursor=pointer]':
+                - /url: "#11-the-four-interactions-current-rrg-position"
+            - listitem [ref=f1e79]:
+              - 'link "12. Gravity: hardest open physics problem for RRG" [ref=f1e80] [cursor=pointer]':
+                - /url: "#12-gravity-hardest-open-physics-problem-for-rrg"
+            - listitem [ref=f1e81]:
+              - link "13. Thermodynamics constraint" [ref=f1e82] [cursor=pointer]:
+                - /url: "#13-thermodynamics-constraint"
+            - listitem [ref=f1e83]:
+              - link "14. The strongest current RRG cycle" [ref=f1e84] [cursor=pointer]:
+                - /url: "#14-the-strongest-current-rrg-cycle"
+            - listitem [ref=f1e85]:
+              - link "15. What would falsify or weaken specific RRG claims" [ref=f1e86] [cursor=pointer]:
+                - /url: "#15-what-would-falsify-or-weaken-specific-rrg-claims"
+            - listitem [ref=f1e87]:
+              - link "16. Research program" [ref=f1e88] [cursor=pointer]:
+                - /url: "#16-research-program"
+            - listitem [ref=f1e89]:
+              - link "17. References / closest existing frameworks" [ref=f1e90] [cursor=pointer]:
+                - /url: "#17-references--closest-existing-frameworks"
+            - listitem [ref=f1e91]:
+              - link "v0.1a Addendum — Scale Ladder and Latent Interaction Channels" [ref=f1e92] [cursor=pointer]:
+                - /url: "#v01a-addendum--scale-ladder-and-latent-interaction-channels"
+            - listitem [ref=f1e93]:
+              - link "18. Corrected observational ladder" [ref=f1e94] [cursor=pointer]:
+                - /url: "#18-corrected-observational-ladder"
+            - listitem [ref=f1e95]:
+              - link "19. A better formulation of “the force is already there waiting”" [ref=f1e96] [cursor=pointer]:
+                - /url: "#19-a-better-formulation-of-the-force-is-already-there-waiting"
+            - listitem [ref=f1e97]:
+              - link "20. RRG unification hypothesis for interactions" [ref=f1e98] [cursor=pointer]:
+                - /url: "#20-rrg-unification-hypothesis-for-interactions"
+            - listitem [ref=f1e99]:
+              - link "v0.1b Addendum — Background Selection, Scale, and the Remaining Blockers" [ref=f1e100] [cursor=pointer]:
+                - /url: "#v01b-addendum--background-selection-scale-and-the-remaining-blockers"
+            - listitem [ref=f1e101]:
+              - link "21. Background-selection principle" [ref=f1e102] [cursor=pointer]:
+                - /url: "#21-background-selection-principle"
+            - listitem [ref=f1e103]:
+              - link "22. Scale as a geometry–mode regime" [ref=f1e104] [cursor=pointer]:
+                - /url: "#22-scale-as-a-geometrymode-regime"
+            - listitem [ref=f1e105]:
+              - link "23. What remains genuinely unresolved" [ref=f1e106] [cursor=pointer]:
+                - /url: "#23-what-remains-genuinely-unresolved"
+            - listitem [ref=f1e107]:
+              - link "24. Current status" [ref=f1e108] [cursor=pointer]:
+                - /url: "#24-current-status"
+            - listitem [ref=f1e109]:
+              - link "19. Emergent/effective interactions from lower-level organization" [ref=f1e110] [cursor=pointer]:
+                - /url: "#19-emergenteffective-interactions-from-lower-level-organization"
+      - generic [ref=f1e111]:
+        - blockquote [ref=f1e112]:
+          - paragraph [ref=f1e113]:
+            - strong [ref=f1e114]: "NON-NORMATIVE:"
+            - text: This document tests and extends the locked core in
+            - code [ref=f1e115]: 00_LOCKED_CORE.md
+            - text: . If wording here conflicts with the locked core, the locked core wins.
+        - heading "1. Research status" [level=2] [ref=f1e116]
+        - paragraph [ref=f1e117]:
+          - strong [ref=f1e118]: Recursive Resonant Geometry (RRG)
+          - text: is a working unification hypothesis, not an established physical theory.
+        - paragraph [ref=f1e119]: "The framework asks whether a repeated relation found across many known systems can be promoted into a scale-recursive organizing principle:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e120]:
+          - generic [ref=f1e121]:
+            - math [ref=f1e123]:
+              - generic [ref=f1e130]:
+                - generic [ref=f1e131]: relational geometry
+                - generic [ref=f1e132]: ↔
+                - generic [ref=f1e133]: temporal mode structure
+            - generic [ref=f1e142]:
+              - generic [ref=f1e143]: relational geometry
+              - text: ↔
+              - generic [ref=f1e144]: temporal mode structure
+        - paragraph [ref=f1e149]: "followed by:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e150]:
+          - generic [ref=f1e151]:
+            - math [ref=f1e153]:
+              - generic [ref=f1e160]:
+                - generic [ref=f1e161]: persistent coupled structures
+                - generic [ref=f1e162]: →
+                - generic [ref=f1e163]: new effective unit at a higher scale
+            - generic [ref=f1e172]:
+              - generic [ref=f1e173]: persistent coupled structures
+              - text: →
+              - generic [ref=f1e174]: new effective unit at a higher scale
+        - paragraph [ref=f1e179]:
+          - text: The crucial research question is not whether individual pieces of this occur — many do — but whether the
+          - strong [ref=f1e180]: locked geometry↔mode relation remains useful and predictive across successive scales even when the scale-specific microscopic mechanisms differ
+          - text: .
+        - heading "Evidence labels used below" [level=3] [ref=f1e181]
+        - list [ref=f1e182]:
+          - listitem [ref=f1e183]:
+            - strong [ref=f1e184]: "Established:"
+            - text: directly part of accepted or well-supported science.
+          - listitem [ref=f1e185]:
+            - strong [ref=f1e186]: "Compatible:"
+            - text: known science demonstrates a mechanism of the same abstract form.
+          - listitem [ref=f1e187]:
+            - strong [ref=f1e188]: "RRG hypothesis:"
+            - text: an extrapolation RRG must derive/test.
+          - listitem [ref=f1e189]:
+            - strong [ref=f1e190]: "Open:"
+            - text: unresolved even in conventional science, or unresolved within RRG.
+        - separator [ref=f1e191]
+        - heading "2. Definitions" [level=2] [ref=f1e192]
+        - heading [level=3] [ref=f1e193]:
+          - text: 2.1 Relational geometry
+          - generic [ref=f1e194]:
+            - math [ref=f1e196]:
+              - generic [ref=f1e197]: G
+            - generic [ref=f1e201]: G
+        - paragraph [ref=f1e202]: "Geometry is used broadly:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e203]:
+          - generic [ref=f1e204]:
+            - math [ref=f1e206]:
+              - generic [ref=f1e208]:
+                - generic [ref=f1e209]: G
+                - generic [ref=f1e210]: =
+                - generic [ref=f1e211]: "{"
+                - generic [ref=f1e212]: components, positions, connectivity, order, orientation, boundaries, constraints
+                - generic [ref=f1e213]: "}"
+            - generic [aria-hidden] [ref=f1e214]:
+              - generic [ref=f1e215]: G =
+              - generic [ref=f1e216]:
+                - text: "{"
+                - generic [ref=f1e217]: components, positions, connectivity, order, orientation, boundaries, constraints
+                - text: "}"
+        - paragraph [ref=f1e218]: It is not restricted to Euclidean visible shape.
+        - heading [level=3] [ref=f1e219]:
+          - text: 2.2 Temporal mode structure
+          - generic [ref=f1e220]:
+            - math [ref=f1e222]:
+              - generic [ref=f1e223]: M
+            - generic [ref=f1e227]: M
+        - paragraph [ref=f1e228]: "RRG's earlier conversational use of “frequency” is formalized as:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e229]:
+          - generic [ref=f1e230]:
+            - math [ref=f1e232]:
+              - generic [ref=f1e234]:
+                - generic [ref=f1e235]: M
+                - generic [ref=f1e236]: =
+                - generic [ref=f1e237]: "{"
+                - generic [ref=f1e238]: ω
+                - generic [ref=f1e239]: ","
+                - generic [ref=f1e240]: ϕ
+                - generic [ref=f1e241]: ","
+                - generic [ref=f1e242]: A
+                - generic [ref=f1e243]: ","
+                - generic [ref=f1e244]: ψ
+                - generic [ref=f1e245]: (
+                - generic [ref=f1e246]: x
+                - generic [ref=f1e247]: )
+                - generic [ref=f1e248]: ","
+                - generic [ref=f1e249]: propagation
+                - generic [ref=f1e250]: ","
+                - generic [ref=f1e251]: coupling
+                - generic [ref=f1e252]: ","
+                - generic [ref=f1e253]: τ
+                - generic [ref=f1e254]: ","
+                - generic [ref=f1e255]: …
+                - generic [ref=f1e256]: "}"
+            - generic [aria-hidden] [ref=f1e257]:
+              - generic [ref=f1e258]: M =
+              - generic [ref=f1e259]:
+                - text: "{ω, ϕ, A, ψ(x),"
+                - generic [ref=f1e260]: propagation
+                - text: ","
+                - generic [ref=f1e261]: coupling
+                - text: ", τ, …}"
+        - paragraph [ref=f1e262]: "where:"
+        - list [ref=f1e263]:
+          - listitem [ref=f1e264]:
+            - generic [ref=f1e265]:
+              - math [ref=f1e267]:
+                - generic [ref=f1e268]: ω
+              - generic [ref=f1e272]: ω
+            - text: = characteristic frequency/frequencies,
+          - listitem [ref=f1e273]:
+            - generic [ref=f1e274]:
+              - math [ref=f1e276]:
+                - generic [ref=f1e277]: ϕ
+              - generic [ref=f1e281]: ϕ
+            - text: = phase relations,
+          - listitem [ref=f1e282]:
+            - generic [ref=f1e283]:
+              - math [ref=f1e285]:
+                - generic [ref=f1e286]: A
+              - generic [ref=f1e290]: A
+            - text: = amplitude/state strength,
+          - listitem [ref=f1e291]:
+            - generic [ref=f1e292]:
+              - math [ref=f1e294]:
+                - generic [ref=f1e296]:
+                  - generic [ref=f1e297]: ψ
+                  - generic [ref=f1e298]: (
+                  - generic [ref=f1e299]: x
+                  - generic [ref=f1e300]: )
+              - generic [ref=f1e302]: ψ(x)
+            - text: = spatial mode pattern,
+          - listitem [ref=f1e303]:
+            - generic [ref=f1e304]:
+              - math [ref=f1e306]:
+                - generic [ref=f1e307]: τ
+              - generic [ref=f1e311]: τ
+            - text: = characteristic timescale,
+          - listitem [ref=f1e312]: coupling = how modes exchange influence/energy.
+        - paragraph [ref=f1e313]: A single scalar frequency is not sufficient to determine a physical geometry.
+        - heading [level=3] [ref=f1e314]:
+          - text: 2.3 Resonant dynamic geometry
+          - generic [ref=f1e315]:
+            - math [ref=f1e317]:
+              - generic [ref=f1e318]: R
+            - generic [ref=f1e322]: R
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e323]:
+          - generic [ref=f1e324]:
+            - math [ref=f1e326]:
+              - generic [ref=f1e333]:
+                - generic [ref=f1e334]: R
+                - generic [ref=f1e335]: =
+                - generic [ref=f1e336]: (
+                - generic [ref=f1e337]: G
+                - generic [ref=f1e338]: ","
+                - generic [ref=f1e339]: M
+                - generic [ref=f1e340]: )
+            - generic [ref=f1e342]: R = (G, M)
+        - paragraph [ref=f1e354]: A geometry and compatible mode structure considered together.
+        - heading "2.4 Stability" [level=3] [ref=f1e355]
+        - paragraph [ref=f1e356]:
+          - text: "Locked definition: a geometry is stable while its geometry and mode structure form a self-consistent organized closure. Perturbation recovery, decay rate, lifetime, or Lyapunov/Floquet criteria are possible"
+          - strong [ref=f1e357]: tests for particular systems
+          - text: ", not the definition itself."
+        - paragraph [ref=f1e358]: "Conceptually:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e359]:
+          - generic [ref=f1e360]:
+            - math [ref=f1e362]:
+              - generic [ref=f1e369]:
+                - generic [ref=f1e370]: G
+                - generic [ref=f1e371]: →
+                - generic [ref=f1e372]: M
+                - generic [ref=f1e373]: →
+                - generic [ref=f1e374]: G
+            - generic [ref=f1e376]: G → M → G
+        - paragraph [ref=f1e388]: For fixed points, periodic orbits, quasiperiodic states, and attractors, different mathematical stability tests may be appropriate.
+        - heading "2.5 Collapse / transformation" [level=3] [ref=f1e389]
+        - paragraph [ref=f1e390]: "When perturbations drive the system outside the stable region of its current higher-level organization:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e391]:
+          - generic [ref=f1e392]:
+            - math [ref=f1e394]:
+              - generic [ref=f1e396]:
+                - generic [ref=f1e397]:
+                  - generic [ref=f1e398]: R
+                  - generic [ref=f1e399]: A
+                - generic [ref=f1e400]: →
+                - generic [ref=f1e401]:
+                  - generic [ref=f1e402]: R
+                  - generic [ref=f1e403]: B
+            - generic [aria-hidden] [ref=f1e404]:
+              - generic [ref=f1e405]:
+                - generic [ref=f1e406]:
+                  - text: R
+                  - generic [ref=f1e407]: A
+                - text: →
+              - generic [ref=f1e416]:
+                - text: R
+                - generic [ref=f1e417]: B
+        - paragraph [ref=f1e425]: "or:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e426]:
+          - generic [ref=f1e427]:
+            - math [ref=f1e429]:
+              - generic [ref=f1e431]:
+                - generic [ref=f1e432]:
+                  - generic [ref=f1e433]: R
+                  - generic [ref=f1e434]: A
+                - generic [ref=f1e435]: →
+                - generic [ref=f1e436]: "{"
+                - generic [ref=f1e437]:
+                  - generic [ref=f1e438]: R
+                  - generic [ref=f1e439]: i
+                - generic [ref=f1e440]:
+                  - generic [ref=f1e441]: "}"
+                  - generic [ref=f1e442]: lower scale
+            - generic [aria-hidden] [ref=f1e443]:
+              - generic [ref=f1e444]:
+                - generic [ref=f1e445]:
+                  - text: R
+                  - generic [ref=f1e446]: A
+                - text: →
+              - generic [ref=f1e454]:
+                - text: "{"
+                - generic [ref=f1e455]:
+                  - text: R
+                  - generic [ref=f1e456]: i
+                - generic [ref=f1e464]:
+                  - text: "}"
+                  - generic [ref=f1e465]: lower scale
+        - paragraph [ref=f1e475]: The energy and lower-level structures need not disappear when a higher-level organization does.
+        - heading "2.6 Scale" [level=3] [ref=f1e476]
+        - paragraph [ref=f1e477]: A level of description at which a lower-level persistent structure can be treated as one effective degree of freedom.
+        - paragraph [ref=f1e478]:
+          - text: RRG does
+          - strong [ref=f1e479]: not
+          - text: assume equally spaced scales or one universal scale factor.
+        - separator [ref=f1e480]
+        - heading "3. Core RRG propositions" [level=2] [ref=f1e481]
+        - heading "Proposition 1 — Geometry and mode are mutually constraining" [level=3] [ref=f1e482]
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e483]:
+          - generic [ref=f1e484]:
+            - math [ref=f1e486]:
+              - generic [ref=f1e493]:
+                - generic [ref=f1e494]: G
+                - generic [ref=f1e495]: ↔
+                - generic [ref=f1e496]: M
+            - generic [ref=f1e498]: G ↔ M
+        - paragraph [ref=f1e510]:
+          - strong [ref=f1e511]: "Established/compatible examples:"
+          - text: normal modes of strings, cavities, molecules, lattices, planets; synchronization systems where spatial organization and phase dynamics interact.
+        - paragraph [ref=f1e512]:
+          - strong [ref=f1e513]: "RRG extension:"
+          - text: treat this mutual constraint as the primitive language of physical organization across scales.
+        - heading "Proposition 2 — Stable organization is dynamic closure" [level=3] [ref=f1e514]
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e515]:
+          - generic [ref=f1e516]:
+            - math [ref=f1e518]:
+              - generic [ref=f1e525]:
+                - generic [ref=f1e526]: R
+                - generic [ref=f1e527]: =
+                - generic [ref=f1e528]: (
+                - generic [ref=f1e529]: G
+                - generic [ref=f1e530]: ","
+                - generic [ref=f1e531]: M
+                - generic [ref=f1e532]: )
+                - generic [ref=f1e533]: persists when
+                - generic [ref=f1e534]: G
+                - generic [ref=f1e535]: supports
+                - generic [ref=f1e536]: M
+                - generic [ref=f1e537]: and
+                - generic [ref=f1e538]: M
+                - generic [ref=f1e539]: reproduces/maintains
+                - generic [ref=f1e540]: G
+            - generic [ref=f1e549]:
+              - text: R = (G, M)
+              - generic [ref=f1e550]: persists when
+              - text: G
+              - generic [ref=f1e551]: supports
+              - text: M
+              - generic [ref=f1e552]: and
+              - text: M
+              - generic [ref=f1e553]: reproduces/maintains
+              - text: G
+        - paragraph [ref=f1e558]: This does not require static equilibrium.
+        - heading "Proposition 3 — Coupling creates new degrees of freedom" [level=3] [ref=f1e559]
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e560]:
+          - generic [ref=f1e561]:
+            - math [ref=f1e563]:
+              - generic [ref=f1e570]:
+                - generic [ref=f1e571]: "{"
+                - generic [ref=f1e572]:
+                  - generic [ref=f1e573]: R
+                  - generic [ref=f1e574]: "n"
+                  - generic [ref=f1e575]: i
+                - generic [ref=f1e576]: "}"
+                - generic [ref=f1e577]: →
+                - generic [ref=f1e578]:
+                  - generic [ref=f1e579]: R
+                  - generic [ref=f1e580]:
+                    - generic [ref=f1e581]: "n"
+                    - generic [ref=f1e582]: +
+                    - generic [ref=f1e583]: "1"
+            - generic [ref=f1e592]:
+              - text: "{"
+              - generic [ref=f1e593]:
+                - text: R
+                - generic [ref=f1e597]:
+                  - generic [ref=f1e598]: "n"
+                  - generic [ref=f1e599]: i
+              - text: "} →"
+              - generic [ref=f1e603]:
+                - text: R
+                - generic [ref=f1e604]: n+1
+        - paragraph [ref=f1e617]: The lower components remain internally active while some freedoms are constrained and new collective freedoms/modes emerge.
+        - paragraph [ref=f1e618]:
+          - text: The lower components may be
+          - strong [ref=f1e619]: different
+          - text: structures with different roles and modes. Identical duplication is not required.
+        - heading "Proposition 4 — Whole and parts form circular causality" [level=3] [ref=f1e620]
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e621]:
+          - generic [ref=f1e622]:
+            - math [ref=f1e624]:
+              - generic [ref=f1e631]:
+                - generic [ref=f1e632]: parts create collective order
+                - generic [ref=f1e633]: ↔
+                - generic [ref=f1e634]: collective order constrains parts
+            - generic [ref=f1e643]:
+              - generic [ref=f1e644]: parts create collective order
+              - text: ↔
+              - generic [ref=f1e645]: collective order constrains parts
+        - paragraph [ref=f1e650]: This abstract form is strongly compatible with Haken's Synergetics and its “slaving principle” / circular causality.
+        - heading "Proposition 5 — Persistent higher structures become new effective units" [level=3] [ref=f1e651]
+        - paragraph [ref=f1e652]: "Once a collective structure forms a self-consistent resonant geometry at its scale, it can function as an effective unit for further interactions:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e653]:
+          - generic [ref=f1e654]:
+            - math [ref=f1e656]:
+              - generic [ref=f1e658]:
+                - generic [ref=f1e659]:
+                  - generic [ref=f1e660]: R
+                  - generic [ref=f1e661]:
+                    - generic [ref=f1e662]: "n"
+                    - generic [ref=f1e663]: +
+                    - generic [ref=f1e664]: "1"
+                - generic [ref=f1e665]: =
+                - generic [ref=f1e666]: C
+                - generic [ref=f1e667]: (
+                - generic [ref=f1e668]: "{"
+                - generic [ref=f1e669]:
+                  - generic [ref=f1e670]: R
+                  - generic [ref=f1e671]: "n"
+                - generic [ref=f1e672]: "}"
+                - generic [ref=f1e673]: )
+            - generic [aria-hidden] [ref=f1e674]:
+              - generic [ref=f1e675]:
+                - generic [ref=f1e676]:
+                  - text: R
+                  - generic [ref=f1e677]: n+1
+                - text: =
+              - generic [ref=f1e686]:
+                - text: "C({"
+                - generic [ref=f1e687]:
+                  - text: R
+                  - generic [ref=f1e688]: "n"
+                - text: "})"
+        - paragraph [ref=f1e696]:
+          - text: where
+          - generic [ref=f1e697]:
+            - math [ref=f1e699]:
+              - generic [ref=f1e700]: C
+            - generic [ref=f1e704]: C
+          - text: is a coarse-graining/composition rule.
+        - heading "Proposition 6 — Variation comes primarily from arrangement and mode" [level=3] [ref=f1e705]
+        - paragraph [ref=f1e706]: "Different higher-level identities can arise from the same types of lower-level components:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e707]:
+          - generic [ref=f1e708]:
+            - math [ref=f1e710]:
+              - generic [ref=f1e712]:
+                - generic [ref=f1e713]: same parts
+                - generic [ref=f1e714]: +
+                - generic [ref=f1e715]: different
+                - generic [ref=f1e716]: G
+                - generic [ref=f1e717]: ","
+                - generic [ref=f1e718]: M
+                - generic [ref=f1e719]: →
+                - generic [ref=f1e720]: different effective object
+            - generic [aria-hidden] [ref=f1e721]:
+              - generic [ref=f1e722]:
+                - generic [ref=f1e723]: same parts
+                - text: +
+              - generic [ref=f1e724]:
+                - generic [ref=f1e725]: different
+                - text: G, M →
+              - generic [ref=f1e726]: different effective object
+        - paragraph [ref=f1e728]: Composition matters, but organization can be equally decisive.
+        - heading "Proposition 7 — Stability compresses complexity" [level=3] [ref=f1e729]
+        - paragraph [ref=f1e730]: A persistent structure packages lower-level complexity into a reusable effective unit.
+        - paragraph [ref=f1e731]: This is not information-theoretic compression in a fully defined technical sense yet; it is an RRG research interpretation to formalize later.
+        - heading "Proposition 8 — New stable structures can open new possibility spaces" [level=3] [ref=f1e732]
+        - paragraph [ref=f1e733]: A stable structure can generate pressure, temperature, fields, gradients, boundaries, or catalytic environments that allow additional configurations to become persistent.
+        - paragraph [ref=f1e734]: Examples include stars enabling nucleosynthesis and biological systems maintaining chemical environments far from equilibrium.
+        - separator [ref=f1e735]
+        - heading "4. What established science already supports" [level=2] [ref=f1e736]
+        - heading "4.1 Coupled resonators create collective modes — Established" [level=3] [ref=f1e737]
+        - paragraph [ref=f1e738]: Coupled resonators can generate bonding, antibonding, Bloch, and other supermodes belonging to the collective system rather than any isolated component.
+        - paragraph [ref=f1e739]: A recent rigorous treatment of open coupled resonators explicitly derives mode hybridization and bonding/antibonding supermodes.
+        - heading "4.2 Spatial organization and synchronization can co-evolve — Established" [level=3] [ref=f1e740]
+        - paragraph [ref=f1e741]: Swarmalator models couple spatial motion with internal phase dynamics.
+        - paragraph [ref=f1e742]: A 2025 experimental realization showed synchronization and spatial dynamics co-evolving into synchronized clusters, rotating aggregates, and dispersive states.
+        - paragraph [ref=f1e743]: "This is a direct example of:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e744]:
+          - generic [ref=f1e745]:
+            - math [ref=f1e747]:
+              - generic [ref=f1e749]:
+                - generic [ref=f1e750]: G
+                - generic [ref=f1e751]: →
+                - generic [ref=f1e752]: M
+                - generic [ref=f1e753]: and
+                - generic [ref=f1e754]: M
+                - generic [ref=f1e755]: →
+                - generic [ref=f1e756]: G
+            - generic [aria-hidden] [ref=f1e757]:
+              - generic [ref=f1e758]: G →
+              - generic [ref=f1e759]:
+                - text: M
+                - generic [ref=f1e760]: and
+                - text: M →
+              - generic [ref=f1e761]: G
+        - paragraph [ref=f1e762]: inside one system.
+        - heading "4.3 Scale-dependent effective degrees of freedom — Established" [level=3] [ref=f1e763]
+        - paragraph [ref=f1e764]: Renormalization-group and effective-field-theory methods explicitly connect descriptions valid at different scales.
+        - paragraph [ref=f1e765]: Interacting systems can develop collective phenomena, bound states, and new effective degrees of freedom as energy scale changes.
+        - paragraph [ref=f1e766]: RRG's stronger claim is that a common resonant-geometry recursion might underlie some of these transitions.
+        - heading "4.4 Whole constraining parts — Established as a complex-systems pattern" [level=3] [ref=f1e767]
+        - paragraph [ref=f1e768]: Synergetics describes macroscopic order parameters arising from microscopic components and subsequently constraining (“enslaving”) component behavior.
+        - paragraph [ref=f1e769]: "This closely matches RRG's circular:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e770]:
+          - generic [ref=f1e771]:
+            - math [ref=f1e773]:
+              - generic [ref=f1e775]:
+                - generic [ref=f1e776]: parts
+                - generic [ref=f1e777]: →
+                - generic [ref=f1e778]: whole
+                - generic [ref=f1e779]: →
+                - generic [ref=f1e780]: parts
+            - generic [aria-hidden] [ref=f1e781]:
+              - generic [ref=f1e782]:
+                - generic [ref=f1e783]: parts
+                - text: →
+              - generic [ref=f1e784]:
+                - generic [ref=f1e785]: whole
+                - text: →
+              - generic [ref=f1e786]: parts
+        - heading "4.5 Geometry changes spectra and forces — Established in specific systems" [level=3] [ref=f1e788]
+        - paragraph [ref=f1e789]: Boundary geometry affects mode spectra.
+        - paragraph [ref=f1e790]: Casimir physics is a concrete example where boundary geometry and spectral structure are directly linked to measurable forces.
+        - paragraph [ref=f1e791]:
+          - text: This does
+          - strong [ref=f1e792]: not
+          - text: imply that all fundamental forces are Casimir-like.
+        - paragraph [ref=f1e793]: "It demonstrates only that:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e794]:
+          - generic [ref=f1e795]:
+            - math [ref=f1e797]:
+              - generic [ref=f1e799]:
+                - generic [ref=f1e800]: geometry
+                - generic [ref=f1e801]: →
+                - generic [ref=f1e802]: spectrum
+                - generic [ref=f1e803]: →
+                - generic [ref=f1e804]: effective force
+            - generic [aria-hidden] [ref=f1e805]:
+              - generic [ref=f1e806]:
+                - generic [ref=f1e807]: geometry
+                - text: →
+              - generic [ref=f1e808]:
+                - generic [ref=f1e809]: spectrum
+                - text: →
+              - generic [ref=f1e810]: effective force
+        - paragraph [ref=f1e812]: is physically possible.
+        - heading "4.6 Autocatalytic closure and self-reproduction — Established research framework" [level=3] [ref=f1e813]
+        - paragraph [ref=f1e814]: Origin-of-life work on autocatalytic sets formally studies networks in which products collectively catalyze reactions needed to sustain the network.
+        - paragraph [ref=f1e815]: RAF theory formalizes “catalytic closure” and gives a mathematically precise bridge between ordinary chemistry and self-sustaining chemical organization.
+        - paragraph [ref=f1e816]: RRG interprets biological reproduction as a highly developed form of propagation of dynamic organization.
+        - heading "4.7 Neural manifolds — Established research framework" [level=3] [ref=f1e817]
+        - paragraph [ref=f1e818]: Large neural populations often occupy lower-dimensional collective state spaces constrained by intrinsic connectivity and behavioral context.
+        - paragraph [ref=f1e819]: This is strongly compatible with treating cognition as trajectories through dynamic relational geometry.
+        - separator [ref=f1e820]
+        - heading "5. Scale and time" [level=2] [ref=f1e821]
+        - paragraph [ref=f1e822]: "RRG predicts that a higher-level structure should generally have its own characteristic timescale:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e823]:
+          - generic [ref=f1e824]:
+            - math [ref=f1e826]:
+              - generic [ref=f1e829]:
+                - generic [ref=f1e830]: τ
+                - generic [ref=f1e831]: "n"
+            - generic [ref=f1e834]:
+              - text: τ
+              - generic [ref=f1e835]: "n"
+        - paragraph [ref=f1e843]: It is tempting to say “larger = always slower”, but that is too strong.
+        - paragraph [ref=f1e844]: "A safer relation is:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e845]:
+          - generic [ref=f1e846]:
+            - math [ref=f1e848]:
+              - generic [ref=f1e850]:
+                - generic [ref=f1e851]: τ
+                - generic [ref=f1e852]: ∼
+                - generic [ref=f1e853]:
+                  - generic [ref=f1e854]: L
+                  - generic [ref=f1e855]:
+                    - generic [ref=f1e856]: v
+                    - generic [ref=f1e857]: effective
+                - generic [ref=f1e858]: ×
+                - generic [ref=f1e859]: (
+                - generic [ref=f1e860]: coordination complexity
+                - generic [ref=f1e861]: )
+            - generic [aria-hidden] [ref=f1e862]:
+              - generic [ref=f1e863]: τ ∼
+              - generic [ref=f1e864]:
+                - generic [ref=f1e869]:
+                  - generic [ref=f1e871]:
+                    - text: v
+                    - generic [ref=f1e872]: effective
+                  - generic [ref=f1e883]: L
+                - text: ×
+              - generic [ref=f1e887]:
+                - text: (
+                - generic [ref=f1e888]: coordination complexity
+                - text: )
+        - paragraph [ref=f1e889]: "where:"
+        - list [ref=f1e890]:
+          - listitem [ref=f1e891]:
+            - generic [ref=f1e892]:
+              - math [ref=f1e894]:
+                - generic [ref=f1e895]: L
+              - generic [ref=f1e899]: L
+            - text: is a characteristic length,
+          - listitem [ref=f1e900]:
+            - generic [ref=f1e901]:
+              - math [ref=f1e903]:
+                - generic [ref=f1e906]:
+                  - generic [ref=f1e907]: v
+                  - generic [ref=f1e908]: effective
+              - generic [ref=f1e911]:
+                - text: v
+                - generic [ref=f1e912]: effective
+            - text: is a propagation/coupling speed,
+          - listitem [ref=f1e922]: additional collective processes can introduce longer timescales.
+        - paragraph [ref=f1e923]:
+          - strong [ref=f1e924]: "RRG hypothesis:"
+          - text: recursive organization may often create increasing separation of characteristic timescales across levels.
+        - paragraph [ref=f1e925]: This must be measured rather than assumed universally.
+        - separator [ref=f1e926]
+        - heading "6. Chemistry under RRG" [level=2] [ref=f1e927]
+        - paragraph [ref=f1e928]: Chemistry illustrates why organization cannot be reduced to an inventory of components.
+        - paragraph [ref=f1e929]: "The same element can participate in radically different higher-level structures depending on:"
+        - list [ref=f1e930]:
+          - listitem [ref=f1e931]: bonding,
+          - listitem [ref=f1e932]: connectivity,
+          - listitem [ref=f1e933]: order,
+          - listitem [ref=f1e934]: orientation,
+          - listitem [ref=f1e935]: 3D conformation,
+          - listitem [ref=f1e936]: environment.
+        - paragraph [ref=f1e937]: "A molecule introduces new:"
+        - list [ref=f1e938]:
+          - listitem [ref=f1e939]: electron distributions,
+          - listitem [ref=f1e940]: vibrational modes,
+          - listitem [ref=f1e941]: rotational modes,
+          - listitem [ref=f1e942]: conformational transitions,
+          - listitem [ref=f1e943]: reaction pathways.
+        - paragraph [ref=f1e944]: "RRG interpretation:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e945]:
+          - generic [ref=f1e946]:
+            - math [ref=f1e948]:
+              - generic [ref=f1e955]:
+                - generic [ref=f1e956]: atomic resonant geometries
+                - generic [ref=f1e957]: →
+                - generic [ref=f1e958]: molecular collective geometry/modes
+            - generic [ref=f1e967]:
+              - generic [ref=f1e968]: atomic resonant geometries
+              - text: →
+              - generic [ref=f1e969]: molecular collective geometry/modes
+        - paragraph [ref=f1e974]: The atoms remain internally structured; the molecule adds new collective constraints.
+        - separator [ref=f1e975]
+        - heading "7. Stars and increasing chemical possibility" [level=2] [ref=f1e976]
+        - paragraph [ref=f1e977]: The early universe produced mainly hydrogen and helium, with small amounts of lighter nuclei.
+        - paragraph [ref=f1e978]: Stars are higher-level gravitational structures that create sustained regimes of density and temperature enabling stellar nucleosynthesis.
+        - paragraph [ref=f1e979]: "RRG interpretation:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e980]:
+          - generic [ref=f1e981]:
+            - math [ref=f1e983]:
+              - generic [ref=f1e985]:
+                - generic [ref=f1e986]: existing structures
+                - generic [ref=f1e987]: →
+                - generic [ref=f1e988]: stellar geometry
+                - generic [ref=f1e989]: →
+                - generic [ref=f1e990]: new energetic conditions
+                - generic [ref=f1e991]: →
+                - generic [ref=f1e992]: new stable nuclei
+                - generic [ref=f1e993]: →
+                - generic [ref=f1e994]: larger chemical possibility space
+            - generic [aria-hidden] [ref=f1e995]:
+              - generic [ref=f1e996]:
+                - generic [ref=f1e997]: existing structures
+                - text: →
+              - generic [ref=f1e998]:
+                - generic [ref=f1e999]: stellar geometry
+                - text: →
+              - generic [ref=f1e1000]:
+                - generic [ref=f1e1001]: new energetic conditions
+                - text: →
+              - generic [ref=f1e1002]:
+                - generic [ref=f1e1003]: new stable nuclei
+                - text: →
+              - generic [ref=f1e1004]: larger chemical possibility space
+        - paragraph [ref=f1e1006]: This is an example of a higher-order structure opening new lower-level transformations.
+        - paragraph [ref=f1e1007]:
+          - text: It does
+          - strong [ref=f1e1008]: not
+          - text: prove that gravity is generated by the same resonance law as chemical bonding.
+        - separator [ref=f1e1009]
+        - heading "8. Life under RRG" [level=2] [ref=f1e1010]
+        - heading "8.1 A living system is not static matter" [level=3] [ref=f1e1011]
+        - paragraph [ref=f1e1012]: A living organism continually exchanges matter and energy while preserving higher-order organization.
+        - paragraph [ref=f1e1013]: "RRG models this abstractly as:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1014]:
+          - generic [ref=f1e1015]:
+            - math [ref=f1e1017]:
+              - generic [ref=f1e1019]:
+                - generic [ref=f1e1020]: D
+                - generic [ref=f1e1021]: (
+                - generic [ref=f1e1022]: t
+                - generic [ref=f1e1023]: )
+                - generic [ref=f1e1024]: =
+                - generic [ref=f1e1025]: (
+                - generic [ref=f1e1026]: G
+                - generic [ref=f1e1027]: (
+                - generic [ref=f1e1028]: t
+                - generic [ref=f1e1029]: )
+                - generic [ref=f1e1030]: ","
+                - generic [ref=f1e1031]: M
+                - generic [ref=f1e1032]: (
+                - generic [ref=f1e1033]: t
+                - generic [ref=f1e1034]: )
+                - generic [ref=f1e1035]: )
+            - generic [aria-hidden] [ref=f1e1036]:
+              - generic [ref=f1e1037]: D(t) =
+              - generic [ref=f1e1038]: (G(t), M(t))
+        - paragraph [ref=f1e1039]: remaining within a living organizational attractor despite continuous lower-level turnover.
+        - heading "8.2 Self-maintenance" [level=3] [ref=f1e1040]
+        - paragraph [ref=f1e1041]: Life requires continual work to preserve far-from-equilibrium organization.
+        - paragraph [ref=f1e1042]: RRG does not replace thermodynamics. Any living RRG model must satisfy energy conservation and entropy production.
+        - heading "8.3 Replication" [level=3] [ref=f1e1043]
+        - paragraph [ref=f1e1044]:
+          - text: Replication is one possible propagation mechanism,
+          - strong [ref=f1e1045]: not a required step in the core recursion
+          - text: .
+        - paragraph [ref=f1e1046]: "Replication is represented as:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1047]:
+          - generic [ref=f1e1048]:
+            - math [ref=f1e1050]:
+              - generic [ref=f1e1052]:
+                - generic [ref=f1e1053]: D
+                - generic [ref=f1e1054]: +
+                - generic [ref=f1e1055]: resources/energy
+                - generic [ref=f1e1056]: →
+                - generic [ref=f1e1057]: D
+                - generic [ref=f1e1058]: +
+                - generic [ref=f1e1059]:
+                  - generic [ref=f1e1060]: D
+                  - generic [ref=f1e1061]: ′
+            - generic [aria-hidden] [ref=f1e1062]:
+              - generic [ref=f1e1063]: D +
+              - generic [ref=f1e1064]:
+                - generic [ref=f1e1065]: resources/energy
+                - text: →
+              - generic [ref=f1e1066]: D +
+              - generic [ref=f1e1068]:
+                - text: D
+                - generic [ref=f1e1069]: ′
+        - paragraph [ref=f1e1075]: "with:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1076]:
+          - generic [ref=f1e1077]:
+            - math [ref=f1e1079]:
+              - generic [ref=f1e1081]:
+                - generic [ref=f1e1082]:
+                  - generic [ref=f1e1083]: D
+                  - generic [ref=f1e1084]: ′
+                - generic [ref=f1e1085]: ≈
+                - generic [ref=f1e1086]: D
+            - generic [aria-hidden] [ref=f1e1087]:
+              - generic [ref=f1e1088]:
+                - generic [ref=f1e1089]:
+                  - text: D
+                  - generic [ref=f1e1090]: ′
+                - text: ≈
+              - generic [ref=f1e1096]: D
+        - paragraph [ref=f1e1097]: The exact biological machinery is scale-specific.
+        - paragraph [ref=f1e1098]: RRG's universal claim would be only that a sufficiently developed dynamic geometry can participate in reconstructing its organization in another instance.
+        - heading "8.4 Evolution" [level=3] [ref=f1e1099]
+        - paragraph [ref=f1e1100]: Variation + inheritance + differential persistence/reproduction generates Darwinian evolution.
+        - paragraph [ref=f1e1101]: RRG does not replace evolutionary theory.
+        - paragraph [ref=f1e1102]: "It asks whether biological evolution is an advanced scale-specific realization of a more general pattern:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1103]:
+          - generic [ref=f1e1104]:
+            - math [ref=f1e1106]:
+              - generic [ref=f1e1108]:
+                - generic [ref=f1e1109]: variation
+                - generic [ref=f1e1110]: →
+                - generic [ref=f1e1111]: persistence
+                - generic [ref=f1e1112]: →
+                - generic [ref=f1e1113]: propagation
+                - generic [ref=f1e1114]: →
+                - generic [ref=f1e1115]: new combinations
+            - generic [aria-hidden] [ref=f1e1116]:
+              - generic [ref=f1e1117]:
+                - generic [ref=f1e1118]: variation
+                - text: →
+              - generic [ref=f1e1119]:
+                - generic [ref=f1e1120]: persistence
+                - text: →
+              - generic [ref=f1e1121]:
+                - generic [ref=f1e1122]: propagation
+                - text: →
+              - generic [ref=f1e1123]: new combinations
+        - separator [ref=f1e1125]
+        - heading "9. Mind under RRG" [level=2] [ref=f1e1126]
+        - paragraph [ref=f1e1127]: "RRG's cognitive hypothesis is:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1128]:
+          - generic [ref=f1e1129]:
+            - math [ref=f1e1131]:
+              - generic [ref=f1e1138]:
+                - generic [ref=f1e1139]: mind
+                - generic [ref=f1e1140]: ≈
+                - generic [ref=f1e1141]: evolving multiscale neural geometry
+            - generic [ref=f1e1150]:
+              - generic [ref=f1e1151]: mind
+              - text: ≈
+              - generic [ref=f1e1152]: evolving multiscale neural geometry
+        - paragraph [ref=f1e1157]: The physical network constrains possible activity.
+        - paragraph [ref=f1e1158]: Activity and plasticity modify effective geometry.
+        - paragraph [ref=f1e1159]: Thought can be represented as state trajectories.
+        - paragraph [ref=f1e1160]: Learning changes the manifold/attractor landscape.
+        - paragraph [ref=f1e1161]: This connects naturally to neural-manifold and dynamical-systems neuroscience, but RRG's stronger claim — that cognition obeys the same recursive law as other physical scales — remains unproven.
+        - separator [ref=f1e1162]
+        - heading "10. AI under RRG" [level=2] [ref=f1e1163]
+        - paragraph [ref=f1e1164]: "RRG motivates a different architecture:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1165]:
+          - generic [ref=f1e1166]:
+            - math [ref=f1e1168]:
+              - generic [ref=f1e1175]:
+                - generic [ref=f1e1176]: dynamic modules
+                - generic [ref=f1e1177]: +
+                - generic [ref=f1e1178]: adaptive geometry
+                - generic [ref=f1e1179]: +
+                - generic [ref=f1e1180]: mode synchronization
+                - generic [ref=f1e1181]: +
+                - generic [ref=f1e1182]: recursive coarse-graining
+            - generic [ref=f1e1191]:
+              - generic [ref=f1e1192]: dynamic modules
+              - text: +
+              - generic [ref=f1e1193]: adaptive geometry
+              - text: +
+              - generic [ref=f1e1194]: mode synchronization
+              - text: +
+              - generic [ref=f1e1195]: recursive coarse-graining
+        - paragraph [ref=f1e1200]: "Candidate interpretations:"
+        - list [ref=f1e1201]:
+          - listitem [ref=f1e1202]: memory = persistent structure,
+          - listitem [ref=f1e1203]: learning = geometry change,
+          - listitem [ref=f1e1204]: attention = transient strong coupling / synchronization,
+          - listitem [ref=f1e1205]: abstraction = promotion of a stable cluster to a higher-level node,
+          - listitem [ref=f1e1206]: reasoning = trajectory through state geometry,
+          - listitem [ref=f1e1207]: skill = robust recurrent trajectory/attractor,
+          - listitem [ref=f1e1208]: world model = internal geometry preserving useful external relations.
+        - paragraph [ref=f1e1209]: The AI version is experimentally easier to test than the fundamental-physics version.
+        - separator [ref=f1e1210]
+        - 'heading "11. The four interactions: current RRG position" [level=2] [ref=f1e1211]'
+        - paragraph [ref=f1e1212]:
+          - text: RRG must
+          - strong [ref=f1e1213]: not
+          - text: "assume in advance:"
+        - list [ref=f1e1214]:
+          - listitem [ref=f1e1215]: strong = scale 1,
+          - listitem [ref=f1e1216]: weak = scale 2,
+          - listitem [ref=f1e1217]: electromagnetic = scale 3,
+          - listitem [ref=f1e1218]: gravity = scale 4.
+        - paragraph [ref=f1e1219]: Known physics does not organize that cleanly.
+        - paragraph [ref=f1e1220]: Electromagnetism and the weak interaction already unify into electroweak theory at sufficiently high energies.
+        - paragraph [ref=f1e1221]: The strong interaction has scale-dependent behavior.
+        - paragraph [ref=f1e1222]: Gravity dominates astronomical organization while being extremely weak between individual particles.
+        - paragraph [ref=f1e1223]: "Therefore the more defensible RRG hypothesis is:"
+        - blockquote [ref=f1e1224]:
+          - paragraph [ref=f1e1225]:
+            - strong [ref=f1e1226]: Different scales and stable geometries can generate or expose different effective interaction regimes. The known fundamental interactions may or may not ultimately be derivable from one deeper geometry–mode law.
+        - paragraph [ref=f1e1227]: This remains one of the central open tests.
+        - separator [ref=f1e1228]
+        - 'heading "12. Gravity: hardest open physics problem for RRG" [level=2] [ref=f1e1229]'
+        - paragraph [ref=f1e1230]: "For RRG to derive gravity, it must eventually recover at least:"
+        - list [ref=f1e1231]:
+          - listitem [ref=f1e1232]: universal free fall / equivalence principle,
+          - listitem [ref=f1e1233]: Lorentz-compatible causal structure,
+          - listitem [ref=f1e1234]: weak-field Newtonian limit,
+          - listitem [ref=f1e1235]: gravitational redshift,
+          - listitem [ref=f1e1236]: lensing,
+          - listitem [ref=f1e1237]: relativistic orbital dynamics,
+          - listitem [ref=f1e1238]: gravitational waves,
+          - listitem [ref=f1e1239]: black-hole solutions.
+        - paragraph [ref=f1e1240]: Analogue-gravity systems show that effective curved metrics and horizons can emerge from underlying collective media.
+        - paragraph [ref=f1e1241]: That demonstrates logical possibility, not that real spacetime is such a medium.
+        - paragraph [ref=f1e1242]:
+          - text: RRG should treat gravity as
+          - strong [ref=f1e1243]: open
+          - text: ", not solved."
+        - separator [ref=f1e1244]
+        - heading "13. Thermodynamics constraint" [level=2] [ref=f1e1245]
+        - paragraph [ref=f1e1246]: RRG cannot say “complexity naturally increases” without qualification.
+        - paragraph [ref=f1e1247]: The second law still constrains physical processes.
+        - paragraph [ref=f1e1248]: Local organization can increase when energy and entropy are exported.
+        - paragraph [ref=f1e1249]: "Therefore any RRG simulation of self-maintaining higher levels needs:"
+        - list [ref=f1e1250]:
+          - listitem [ref=f1e1251]: energy input,
+          - listitem [ref=f1e1252]: dissipation,
+          - listitem [ref=f1e1253]: entropy accounting,
+          - listitem [ref=f1e1254]: finite resources,
+          - listitem [ref=f1e1255]: instability/death pathways.
+        - paragraph [ref=f1e1256]: "A useful RRG distinction is:"
+        - list [ref=f1e1257]:
+          - listitem [ref=f1e1258]:
+            - strong [ref=f1e1259]: passively persistent structures
+            - text: — bound states that need no continuous external power to remain in their state;
+          - listitem [ref=f1e1260]:
+            - strong [ref=f1e1261]: actively maintained structures
+            - text: — far-from-equilibrium systems requiring ongoing energy flow.
+        - separator [ref=f1e1262]
+        - heading "14. The strongest current RRG cycle" [level=2] [ref=f1e1263]
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1264]:
+          - generic [ref=f1e1265]:
+            - math [ref=f1e1267]:
+              - generic [ref=f1e1274]:
+                - generic [ref=f1e1275]: lower dynamic geometries
+                - generic [ref=f1e1285]:
+                  - generic [ref=f1e1286]: ↓
+                  - generic [ref=f1e1287]: variation + interaction
+                - generic [ref=f1e1288]: coupling and constraint
+                - generic [ref=f1e1294]: ↓
+                - generic [ref=f1e1304]:
+                  - generic [ref=f1e1305]: collective geometry
+                  - generic [ref=f1e1306]:
+                    - generic [ref=f1e1307]: G
+                    - generic [ref=f1e1308]:
+                      - generic [ref=f1e1309]: "n"
+                      - generic [ref=f1e1310]: +
+                      - generic [ref=f1e1311]: "1"
+                - generic [ref=f1e1312]: ↔
+                - generic [ref=f1e1322]:
+                  - generic [ref=f1e1323]: collective mode structure
+                  - generic [ref=f1e1324]:
+                    - generic [ref=f1e1325]: M
+                    - generic [ref=f1e1326]:
+                      - generic [ref=f1e1327]: "n"
+                      - generic [ref=f1e1328]: +
+                      - generic [ref=f1e1329]: "1"
+                - generic [ref=f1e1330]: ↓
+                - generic [ref=f1e1340]:
+                  - generic [ref=f1e1341]: persistent resonator
+                  - generic [ref=f1e1342]:
+                    - generic [ref=f1e1343]: R
+                    - generic [ref=f1e1344]:
+                      - generic [ref=f1e1345]: "n"
+                      - generic [ref=f1e1346]: +
+                      - generic [ref=f1e1347]: "1"
+                - generic [ref=f1e1348]: ↓
+                - generic [ref=f1e1354]: new effective unit / new possibility space
+                - generic [ref=f1e1360]: ↓
+                - generic [ref=f1e1366]: repeat
+            - generic [ref=f1e1390]:
+              - generic [ref=f1e1391]: lower dynamic geometries
+              - generic [ref=f1e1393]:
+                - text: ↓
+                - generic [ref=f1e1394]: variation + interaction
+              - generic [ref=f1e1395]: coupling and constraint
+              - generic [ref=f1e1397]: ↓
+              - generic [ref=f1e1398]:
+                - generic [ref=f1e1399]: collective geometry
+                - generic [ref=f1e1400]:
+                  - text: G
+                  - generic [ref=f1e1401]: n+1
+              - generic [ref=f1e1410]: ↔
+              - generic [ref=f1e1411]:
+                - generic [ref=f1e1412]: collective mode structure
+                - generic [ref=f1e1413]:
+                  - text: M
+                  - generic [ref=f1e1414]: n+1
+              - generic [ref=f1e1423]: ↓
+              - generic [ref=f1e1424]:
+                - generic [ref=f1e1425]: persistent resonator
+                - generic [ref=f1e1426]:
+                  - text: R
+                  - generic [ref=f1e1427]: n+1
+              - generic [ref=f1e1436]: ↓
+              - generic [ref=f1e1437]: new effective unit / new possibility space
+              - generic [ref=f1e1439]: ↓
+              - generic [ref=f1e1440]: repeat
+        - paragraph [ref=f1e1449]: "Variation at the next level can arise from different:"
+        - list [ref=f1e1450]:
+          - listitem [ref=f1e1451]: counts,
+          - listitem [ref=f1e1452]: connectivity,
+          - listitem [ref=f1e1453]: ordering,
+          - listitem [ref=f1e1454]: orientation,
+          - listitem [ref=f1e1455]: composition,
+          - listitem [ref=f1e1456]: phase relations,
+          - listitem [ref=f1e1457]: boundary conditions,
+          - listitem [ref=f1e1458]: environments.
+        - separator [ref=f1e1459]
+        - heading "15. What would falsify or weaken specific RRG claims" [level=2] [ref=f1e1460]
+        - paragraph [ref=f1e1461]:
+          - text: The
+          - strong [ref=f1e1462]: locked core
+          - text: and the
+          - strong [ref=f1e1463]: stronger extensions
+          - text: must not be mixed.
+        - heading "Core-level contradiction candidates" [level=3] [ref=f1e1464]
+        - paragraph [ref=f1e1465]:
+          - text: A genuine core problem would require evidence that a claimed organized system cannot consistently be represented by the locked relation
+          - generic [ref=f1e1466]:
+            - math [ref=f1e1468]:
+              - generic [ref=f1e1470]:
+                - generic [ref=f1e1471]: R
+                - generic [ref=f1e1472]: =
+                - generic [ref=f1e1473]: (
+                - generic [ref=f1e1474]: G
+                - generic [ref=f1e1475]: ","
+                - generic [ref=f1e1476]: M
+                - generic [ref=f1e1477]: )
+            - generic [aria-hidden] [ref=f1e1478]:
+              - generic [ref=f1e1479]: R =
+              - generic [ref=f1e1480]: (G, M)
+          - text: ", or that a proposed higher-level resonant organization cannot be formed from lower resonant geometries without violating the locked definitions. Any such proposal must pass"
+          - code [ref=f1e1481]: 05_CHANGE_CONTROL.md
+          - text: .
+        - heading "Extension-level failures" [level=3] [ref=f1e1482]
+        - paragraph [ref=f1e1483]: "The following can falsify or weaken stronger RRG extensions without changing the core:"
+        - list [ref=f1e1484]:
+          - listitem [ref=f1e1485]:
+            - strong [ref=f1e1486]: "No useful cross-domain invariant:"
+            - text: no common measurable geometry↔mode relation transfers across domains.
+          - listitem [ref=f1e1487]:
+            - strong [ref=f1e1488]: "No predictive coarse-graining:"
+            - text: higher-level reductions fail to predict relevant interactions within stated error.
+          - listitem [ref=f1e1489]:
+            - strong [ref=f1e1490]: "No spontaneous hierarchy in a proposed model:"
+            - text: a particular implementation generates levels only because the researcher programs them.
+          - listitem [ref=f1e1491]:
+            - strong [ref=f1e1492]: "Wrong known physics:"
+            - text: a proposed fundamental extension predicts effects already ruled out experimentally.
+          - listitem [ref=f1e1493]:
+            - strong [ref=f1e1494]: "No novel prediction:"
+            - text: a claimed unification merely redescribes known outcomes.
+          - listitem [ref=f1e1495]:
+            - strong [ref=f1e1496]: "Trivial universality:"
+            - text: an extension defines geometry/mode so loosely that it cannot exclude outcomes.
+          - listitem [ref=f1e1497]:
+            - strong [ref=f1e1498]: "No same-family closure:"
+            - text: this rejects the optional strong renormalization hypothesis, not the locked RRG core.
+        - separator [ref=f1e1499]
+        - heading "16. Research program" [level=2] [ref=f1e1500]
+        - heading "Phase A — Minimal self-consistency" [level=3] [ref=f1e1501]
+        - paragraph [ref=f1e1502]: "Demonstrate:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1503]:
+          - generic [ref=f1e1504]:
+            - math [ref=f1e1506]:
+              - generic [ref=f1e1508]:
+                - generic [ref=f1e1509]: G
+                - generic [ref=f1e1510]: ↔
+                - generic [ref=f1e1511]: M
+            - generic [aria-hidden] [ref=f1e1512]:
+              - generic [ref=f1e1513]: G ↔
+              - generic [ref=f1e1514]: M
+        - paragraph [ref=f1e1515]: in an adaptive oscillator/geometry model.
+        - heading "Phase B — Spontaneous stable resonators" [level=3] [ref=f1e1516]
+        - paragraph [ref=f1e1517]: Start from heterogeneous units and allow multiple distinct stable geometries to emerge.
+        - heading "Phase C — Recursive promotion" [level=3] [ref=f1e1518]
+        - paragraph [ref=f1e1519]: Represent a collective resonant geometry as an effective higher-level unit and test whether its relevant geometry↔mode behavior is preserved.
+        - paragraph [ref=f1e1520]: The higher-scale equation may differ. Separately test the stronger optional hypothesis that the same equation family reappears after renormalization.
+        - heading "Phase D — Multiple levels" [level=3] [ref=f1e1521]
+        - paragraph [ref=f1e1522]: "Seek:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1523]:
+          - generic [ref=f1e1524]:
+            - math [ref=f1e1526]:
+              - generic [ref=f1e1528]:
+                - generic [ref=f1e1529]:
+                  - generic [ref=f1e1530]: R
+                  - generic [ref=f1e1531]: "0"
+                - generic [ref=f1e1532]: →
+                - generic [ref=f1e1533]:
+                  - generic [ref=f1e1534]: R
+                  - generic [ref=f1e1535]: "1"
+                - generic [ref=f1e1536]: →
+                - generic [ref=f1e1537]:
+                  - generic [ref=f1e1538]: R
+                  - generic [ref=f1e1539]: "2"
+                - generic [ref=f1e1540]: →
+                - generic [ref=f1e1541]:
+                  - generic [ref=f1e1542]: R
+                  - generic [ref=f1e1543]: "3"
+            - generic [aria-hidden] [ref=f1e1544]:
+              - generic [ref=f1e1545]:
+                - generic [ref=f1e1546]:
+                  - text: R
+                  - generic [ref=f1e1547]: "0"
+                - text: →
+              - generic [ref=f1e1555]:
+                - generic [ref=f1e1556]:
+                  - text: R
+                  - generic [ref=f1e1557]: "1"
+                - text: →
+              - generic [ref=f1e1565]:
+                - generic [ref=f1e1566]:
+                  - text: R
+                  - generic [ref=f1e1567]: "2"
+                - text: →
+              - generic [ref=f1e1576]:
+                - text: R
+                - generic [ref=f1e1577]: "3"
+        - paragraph [ref=f1e1585]: without predefined levels.
+        - heading "Phase E — Energy and dissipation" [level=3] [ref=f1e1586]
+        - paragraph [ref=f1e1587]: Add explicit energy accounting and open-system driving.
+        - heading "Phase F — Replication transition" [level=3] [ref=f1e1588]
+        - paragraph [ref=f1e1589]: Test whether self-templating or autocatalytic propagation can emerge.
+        - heading "Phase G — AI benchmark" [level=3] [ref=f1e1590]
+        - paragraph [ref=f1e1591]: Compare recursive dynamic geometry with standard RNN/GNN/Transformer baselines in a small world-model task.
+        - heading "Phase H — Physics constraints" [level=3] [ref=f1e1592]
+        - paragraph [ref=f1e1593]: Only after the generic mechanism works, test whether known interaction laws can emerge quantitatively.
+        - separator [ref=f1e1594]
+        - heading "17. References / closest existing frameworks" [level=2] [ref=f1e1595]
+        - list [ref=f1e1596]:
+          - listitem [ref=f1e1597]:
+            - paragraph [ref=f1e1598]:
+              - text: Perich, Narain & Gallego,
+              - strong [ref=f1e1599]: “A neural manifold view of the brain”
+              - text: ","
+              - emphasis [ref=f1e1600]: Nature Neuroscience
+              - text: 28, 1582–1597 (2025).
+              - link "https://doi.org/10.1038/s41593-025-02031-z" [ref=f1e1601] [cursor=pointer]:
+                - /url: https://doi.org/10.1038/s41593-025-02031-z
+          - listitem [ref=f1e1602]:
+            - paragraph [ref=f1e1603]:
+              - text: Heuthe et al.,
+              - strong [ref=f1e1604]: “Tunable colloidal swarmalators with hydrodynamic coupling”
+              - text: ","
+              - emphasis [ref=f1e1605]: Nature Communications
+              - text: 16, 10984 (2025).
+              - link "https://doi.org/10.1038/s41467-025-66830-5" [ref=f1e1606] [cursor=pointer]:
+                - /url: https://doi.org/10.1038/s41467-025-66830-5
+          - listitem [ref=f1e1607]:
+            - paragraph [ref=f1e1608]:
+              - text: O’Keeffe, Hong & Strogatz,
+              - strong [ref=f1e1609]: “Oscillators that sync and swarm”
+              - text: ","
+              - emphasis [ref=f1e1610]: Nature Communications
+              - text: 8, 1504 (2017).
+              - link "https://doi.org/10.1038/s41467-017-01190-3" [ref=f1e1611] [cursor=pointer]:
+                - /url: https://doi.org/10.1038/s41467-017-01190-3
+          - listitem [ref=f1e1612]:
+            - paragraph [ref=f1e1613]:
+              - text: "Haken / Synergetics discussion:"
+              - strong [ref=f1e1614]: “Synergetics’ two foundations and the city”
+              - text: ","
+              - emphasis [ref=f1e1615]: European Physical Journal Special Topics
+              - text: (2025).
+              - link "https://doi.org/10.1140/epjs/s11734-025-01794-7" [ref=f1e1616] [cursor=pointer]:
+                - /url: https://doi.org/10.1140/epjs/s11734-025-01794-7
+          - listitem [ref=f1e1617]:
+            - paragraph [ref=f1e1618]:
+              - text: Isidori, Wilsch & Wyler,
+              - strong [ref=f1e1619]: “The Standard Model effective field theory at work”
+              - text: ","
+              - emphasis [ref=f1e1620]: Reviews of Modern Physics
+              - text: 96, 015006 (2024).
+              - link "https://doi.org/10.1103/RevModPhys.96.015006" [ref=f1e1621] [cursor=pointer]:
+                - /url: https://doi.org/10.1103/RevModPhys.96.015006
+          - listitem [ref=f1e1622]:
+            - paragraph [ref=f1e1623]:
+              - text: Metzner et al.,
+              - strong [ref=f1e1624]: “Functional renormalization group approach to correlated fermion systems”
+              - text: ","
+              - emphasis [ref=f1e1625]: Reviews of Modern Physics
+              - text: 84, 299 (2012).
+              - link "https://doi.org/10.1103/RevModPhys.84.299" [ref=f1e1626] [cursor=pointer]:
+                - /url: https://doi.org/10.1103/RevModPhys.84.299
+          - listitem [ref=f1e1627]:
+            - paragraph [ref=f1e1628]:
+              - text: Muljarov,
+              - strong [ref=f1e1629]: “Rigorous Theory of Coupled Resonators”
+              - text: ","
+              - emphasis [ref=f1e1630]: Physical Review Letters
+              - text: 136, 023801 (2026).
+              - link "https://doi.org/10.1103/fqzx-xtl9" [ref=f1e1631] [cursor=pointer]:
+                - /url: https://doi.org/10.1103/fqzx-xtl9
+          - listitem [ref=f1e1632]:
+            - paragraph [ref=f1e1633]:
+              - text: Büscher & Emig,
+              - strong [ref=f1e1634]: “Geometry and Spectrum of Casimir Forces”
+              - text: ","
+              - emphasis [ref=f1e1635]: Physical Review Letters
+              - text: 94, 133901 (2005).
+              - link "https://doi.org/10.1103/PhysRevLett.94.133901" [ref=f1e1636] [cursor=pointer]:
+                - /url: https://doi.org/10.1103/PhysRevLett.94.133901
+          - listitem [ref=f1e1637]:
+            - paragraph [ref=f1e1638]:
+              - text: Hordijk, Hein & Steel,
+              - strong [ref=f1e1639]: “Autocatalytic Sets and the Origin of Life”
+              - text: ","
+              - emphasis [ref=f1e1640]: Entropy
+              - text: 12, 1733–1742 (2010).
+              - link "https://doi.org/10.3390/e12071733" [ref=f1e1641] [cursor=pointer]:
+                - /url: https://doi.org/10.3390/e12071733
+          - listitem [ref=f1e1642]:
+            - paragraph [ref=f1e1643]:
+              - text: Hordijk, Steel & Kauffman-related review,
+              - strong [ref=f1e1644]: “Autocatalytic Networks at the Basis of Life’s Origin and Organization”
+              - text: ","
+              - emphasis [ref=f1e1645]: Life
+              - text: 8, 62 (2018).
+              - link "https://doi.org/10.3390/life8040062" [ref=f1e1646] [cursor=pointer]:
+                - /url: https://doi.org/10.3390/life8040062
+        - paragraph [ref=f1e1647]: These works support pieces of the framework. None is evidence that the full RRG unification is already true.
+        - separator [ref=f1e1648]
+        - heading "v0.1a Addendum — Scale Ladder and Latent Interaction Channels" [level=2] [ref=f1e1649]
+        - heading "18. Corrected observational ladder" [level=2] [ref=f1e1650]
+        - paragraph [ref=f1e1651]: RRG should not use an incorrect chronology to support the hypothesis.
+        - paragraph [ref=f1e1652]: "A defensible simplified ladder is:"
+        - list [ref=f1e1653]:
+          - listitem [ref=f1e1654]:
+            - strong [ref=f1e1655]: Very early hot field/particle regime
+            - text: — including a quark–gluon plasma in the first microseconds.
+          - listitem [ref=f1e1656]:
+            - strong [ref=f1e1657]: Hadrons
+            - text: — quarks become confined into composite hadrons such as protons and neutrons.
+          - listitem [ref=f1e1658]:
+            - strong [ref=f1e1659]: Big-bang nucleosynthesis
+            - text: — mostly hydrogen and helium nuclei, with traces of light nuclei.
+          - listitem [ref=f1e1660]:
+            - strong [ref=f1e1661]: Early molecular chemistry
+            - text: — helium hydride
+            - generic [ref=f1e1662]:
+              - math [ref=f1e1664]:
+                - generic [ref=f1e1666]:
+                  - generic [ref=f1e1667]: H
+                  - generic [ref=f1e1668]: e
+                  - generic [ref=f1e1669]:
+                    - generic [ref=f1e1670]: H
+                    - generic [ref=f1e1671]: +
+              - generic [ref=f1e1673]:
+                - text: He
+                - generic [ref=f1e1674]:
+                  - text: H
+                  - generic [ref=f1e1675]: +
+            - text: is expected to have been the first molecular species, around
+            - generic [ref=f1e1680]:
+              - math [ref=f1e1682]:
+                - generic [ref=f1e1685]:
+                  - generic [ref=f1e1686]: "10"
+                  - generic [ref=f1e1687]: "5"
+              - generic [ref=f1e1689]:
+                - text: "1"
+                - generic [ref=f1e1690]:
+                  - text: "0"
+                  - generic [ref=f1e1691]: "5"
+            - text: years after the Big Bang.
+          - listitem [ref=f1e1696]:
+            - strong [ref=f1e1697]: Neutral atoms / recombination
+            - text: — mainly hydrogen and helium atoms, around
+            - generic [ref=f1e1698]:
+              - math [ref=f1e1700]:
+                - generic [ref=f1e1702]:
+                  - generic [ref=f1e1703]: "3.8"
+                  - generic [ref=f1e1704]: ×
+                  - generic [ref=f1e1705]:
+                    - generic [ref=f1e1706]: "10"
+                    - generic [ref=f1e1707]: "5"
+              - generic [aria-hidden] [ref=f1e1708]:
+                - generic [ref=f1e1709]: 3.8 ×
+                - generic [ref=f1e1710]:
+                  - text: "1"
+                  - generic [ref=f1e1711]:
+                    - text: "0"
+                    - generic [ref=f1e1712]: "5"
+            - text: years.
+          - listitem [ref=f1e1717]:
+            - strong [ref=f1e1718]: First stars
+            - text: — gravitational collapse of primordial H/He gas, roughly hundreds of millions of years after the Big Bang.
+          - listitem [ref=f1e1719]:
+            - strong [ref=f1e1720]: Stellar nucleosynthesis and stellar explosions
+            - text: — production/distribution of many heavier elements.
+          - listitem [ref=f1e1721]:
+            - strong [ref=f1e1722]: Later stars, disks, rocky planets, oceans/atmospheres, rich chemistry.
+          - listitem [ref=f1e1723]:
+            - strong [ref=f1e1724]: Prebiotic chemistry
+            - text: — networks involving nucleotides, peptides, amphiphiles, catalytic surfaces, energy gradients, and compartmentalization.
+          - listitem [ref=f1e1725]:
+            - strong [ref=f1e1726]: Self-maintaining / replicating chemical systems and protocells
+            - text: — historical path still unresolved.
+          - listitem [ref=f1e1727]:
+            - strong [ref=f1e1728]: Cells → multicellularity → nervous systems → cognition → humans.
+          - listitem [ref=f1e1729]:
+            - strong [ref=f1e1730]: Technology → externally constructed information-processing systems → AI.
+        - paragraph [ref=f1e1731]:
+          - text: This ladder is evidence for repeated emergence of new effective units, but it does
+          - strong [ref=f1e1732]: not
+          - text: by itself prove that a single mathematical recursion generates every level.
+        - heading "Sources for the ladder" [level=3] [ref=f1e1733]
+        - list [ref=f1e1734]:
+          - listitem [ref=f1e1735]:
+            - text: NASA,
+            - emphasis [ref=f1e1736]: Overview — Big Bang, nucleosynthesis, recombination, first stars
+            - text: ":"
+            - link "https://science.nasa.gov/universe/overview/" [ref=f1e1737] [cursor=pointer]:
+              - /url: https://science.nasa.gov/universe/overview/
+          - listitem [ref=f1e1738]:
+            - text: CERN,
+            - emphasis [ref=f1e1739]: The early universe
+            - text: ":"
+            - link "https://home.web.cern.ch/science/physics/early-universe/" [ref=f1e1740] [cursor=pointer]:
+              - /url: https://home.web.cern.ch/science/physics/early-universe/
+          - listitem [ref=f1e1741]:
+            - text: NASA Astrobiology,
+            - emphasis [ref=f1e1742]: The Universe's first type of molecule
+            - text: ":"
+            - link "https://astrobiology.nasa.gov/news/top-ten-discoveries-from-sofia/" [ref=f1e1743] [cursor=pointer]:
+              - /url: https://astrobiology.nasa.gov/news/top-ten-discoveries-from-sofia/
+          - listitem [ref=f1e1744]:
+            - text: NASA Webb,
+            - emphasis [ref=f1e1745]: What were the first stars like?
+            - text: ":"
+            - link "https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-were-the-first-stars-like/" [ref=f1e1746] [cursor=pointer]:
+              - /url: https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-were-the-first-stars-like/
+          - listitem [ref=f1e1747]:
+            - text: Nature Index,
+            - emphasis [ref=f1e1748]: Prebiotic Chemistry and Origins of Life
+            - text: ":"
+            - link "https://www.nature.com/nature-index/topics/l4/prebiotic-chemistry-and-origins-of-life" [ref=f1e1749] [cursor=pointer]:
+              - /url: https://www.nature.com/nature-index/topics/l4/prebiotic-chemistry-and-origins-of-life
+        - heading "19. A better formulation of “the force is already there waiting”" [level=2] [ref=f1e1750]
+        - paragraph [ref=f1e1751]: "The conversational intuition was:"
+        - blockquote [ref=f1e1752]:
+          - paragraph [ref=f1e1753]: A new scale/geometry eventually becomes capable of resonating with an interaction that was already possible, and that interaction becomes important at that level.
+        - paragraph [ref=f1e1754]:
+          - text: The mathematically safer version is
+          - strong [ref=f1e1755]: latent interaction channels
+          - text: .
+        - paragraph [ref=f1e1756]:
+          - text: At scale
+          - generic [ref=f1e1757]:
+            - math [ref=f1e1759]:
+              - generic [ref=f1e1760]: k
+            - generic [ref=f1e1764]: k
+          - text: ", write the effective action schematically as:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1765]:
+          - generic [ref=f1e1766]:
+            - math [ref=f1e1768]:
+              - generic [ref=f1e1775]:
+                - generic [ref=f1e1776]:
+                  - generic [ref=f1e1777]: Γ
+                  - generic [ref=f1e1778]: k
+                - generic [ref=f1e1779]: "["
+                - generic [ref=f1e1780]: R
+                - generic [ref=f1e1781]: "]"
+                - generic [ref=f1e1782]: =
+                - generic [ref=f1e1783]:
+                  - generic [ref=f1e1784]: Γ
+                  - generic [ref=f1e1785]:
+                    - generic [ref=f1e1786]: "0"
+                    - generic [ref=f1e1787]: ","
+                    - generic [ref=f1e1788]: k
+                - generic [ref=f1e1789]: "["
+                - generic [ref=f1e1790]: R
+                - generic [ref=f1e1791]: "]"
+                - generic [ref=f1e1792]: +
+                - generic [ref=f1e1793]:
+                  - generic [ref=f1e1794]: ∑
+                  - generic [ref=f1e1795]: α
+                - generic [ref=f1e1796]:
+                  - generic [ref=f1e1797]: g
+                  - generic [ref=f1e1798]: α
+                - generic [ref=f1e1799]: (
+                - generic [ref=f1e1800]: k
+                - generic [ref=f1e1801]: )
+                - generic [ref=f1e1802]:
+                  - generic [ref=f1e1803]: O
+                  - generic [ref=f1e1804]: α
+                - generic [ref=f1e1805]: "["
+                - generic [ref=f1e1806]: R
+                - generic [ref=f1e1807]: "]"
+            - generic [ref=f1e1816]:
+              - generic [ref=f1e1817]:
+                - text: Γ
+                - generic [ref=f1e1818]: k
+              - text: "[R] ="
+              - generic [ref=f1e1826]:
+                - text: Γ
+                - generic [ref=f1e1827]: 0,k
+              - text: "[R] +"
+              - generic [ref=f1e1839]:
+                - generic [ref=f1e1840]: α
+                - generic [ref=f1e1842]: ∑
+              - generic [ref=f1e1846]:
+                - text: g
+                - generic [ref=f1e1847]: α
+              - text: (k)
+              - generic [ref=f1e1855]:
+                - text: O
+                - generic [ref=f1e1856]: α
+              - text: "[R]"
+        - paragraph [ref=f1e1868]: "where:"
+        - list [ref=f1e1869]:
+          - listitem [ref=f1e1870]:
+            - generic [ref=f1e1871]:
+              - math [ref=f1e1873]:
+                - generic [ref=f1e1875]:
+                  - generic [ref=f1e1876]: R
+                  - generic [ref=f1e1877]: =
+                  - generic [ref=f1e1878]: (
+                  - generic [ref=f1e1879]: G
+                  - generic [ref=f1e1880]: ","
+                  - generic [ref=f1e1881]: M
+                  - generic [ref=f1e1882]: )
+              - generic [aria-hidden] [ref=f1e1883]:
+                - generic [ref=f1e1884]: R =
+                - generic [ref=f1e1885]: (G, M)
+            - text: is the current resonant geometry/state;
+          - listitem [ref=f1e1886]:
+            - generic [ref=f1e1887]:
+              - math [ref=f1e1889]:
+                - generic [ref=f1e1892]:
+                  - generic [ref=f1e1893]: O
+                  - generic [ref=f1e1894]: α
+              - generic [ref=f1e1897]:
+                - text: O
+                - generic [ref=f1e1898]: α
+            - text: is an allowed interaction channel/operator;
+          - listitem [ref=f1e1906]:
+            - generic [ref=f1e1907]:
+              - math [ref=f1e1909]:
+                - generic [ref=f1e1911]:
+                  - generic [ref=f1e1912]:
+                    - generic [ref=f1e1913]: g
+                    - generic [ref=f1e1914]: α
+                  - generic [ref=f1e1915]: (
+                  - generic [ref=f1e1916]: k
+                  - generic [ref=f1e1917]: )
+              - generic [ref=f1e1919]:
+                - generic [ref=f1e1920]:
+                  - text: g
+                  - generic [ref=f1e1921]: α
+                - text: (k)
+            - text: is the scale-dependent strength of that channel.
+        - paragraph [ref=f1e1929]: The allowed channels are constrained by symmetry, topology, locality, conservation laws, and the underlying microscopic theory.
+        - paragraph [ref=f1e1930]: "Their strengths need not be constant:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e1931]:
+          - generic [ref=f1e1932]:
+            - math [ref=f1e1934]:
+              - generic [ref=f1e1941]:
+                - generic [ref=f1e1942]:
+                  - generic [ref=f1e1943]:
+                    - generic [ref=f1e1944]: d
+                    - generic [ref=f1e1945]:
+                      - generic [ref=f1e1946]: g
+                      - generic [ref=f1e1947]: α
+                  - generic [ref=f1e1948]:
+                    - generic [ref=f1e1949]: d
+                    - generic [ref=f1e1950]: ln
+                    - generic: ⁡
+                    - generic [ref=f1e1951]: k
+                - generic [ref=f1e1952]: =
+                - generic [ref=f1e1953]:
+                  - generic [ref=f1e1954]: β
+                  - generic [ref=f1e1955]: α
+                - generic [ref=f1e1956]: (
+                - generic [ref=f1e1957]: "{"
+                - generic [ref=f1e1958]: g
+                - generic [ref=f1e1959]: "}"
+                - generic [ref=f1e1960]: )
+            - generic [ref=f1e1969]:
+              - generic [ref=f1e1974]:
+                - generic [ref=f1e1975]: d ln k
+                - generic [ref=f1e1977]:
+                  - text: d
+                  - generic [ref=f1e1978]:
+                    - text: g
+                    - generic [ref=f1e1979]: α
+              - text: =
+              - generic [ref=f1e1990]:
+                - text: β
+                - generic [ref=f1e1991]: α
+              - text: "({g})"
+        - paragraph [ref=f1e2003]: So an interaction can be negligible at one scale, relevant at another, dominant at another, or reorganized after a symmetry-breaking/phase transition.
+        - paragraph [ref=f1e2004]: "This gives a precise interpretation of “waiting”:"
+        - blockquote [ref=f1e2005]:
+          - paragraph [ref=f1e2006]: the channel need not be literally absent; it may be dynamically suppressed, short-ranged, screened, confined, or irrelevant until the scale and background geometry make it important.
+        - heading "Known examples" [level=3] [ref=f1e2007]
+        - heading "QCD / strong interaction" [level=4] [ref=f1e2008]
+        - paragraph [ref=f1e2009]: At high energies, the strong interaction is weaker; at lower energies it becomes strong enough that quarks/gluons form hadrons. Hadronization is energy-scale dependent.
+        - paragraph [ref=f1e2010]: "This is an excellent example of:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2011]:
+          - generic [ref=f1e2012]:
+            - math [ref=f1e2014]:
+              - generic [ref=f1e2021]:
+                - generic [ref=f1e2022]: same underlying interaction
+                - generic [ref=f1e2023]: +
+                - generic [ref=f1e2024]: different scale
+                - generic [ref=f1e2025]: →
+                - generic [ref=f1e2026]: different effective geometry/objects
+            - generic [ref=f1e2035]:
+              - generic [ref=f1e2036]: same underlying interaction
+              - text: +
+              - generic [ref=f1e2037]: different scale
+              - text: →
+              - generic [ref=f1e2038]: different effective geometry/objects
+        - heading "Electroweak interaction" [level=4] [ref=f1e2043]
+        - paragraph [ref=f1e2044]: At high energy the weak and electromagnetic interactions are described by one electroweak theory.
+        - paragraph [ref=f1e2045]:
+          - text: After the Higgs field settles into a symmetry-breaking vacuum, the
+          - generic [ref=f1e2046]:
+            - math [ref=f1e2048]:
+              - generic [ref=f1e2049]: W
+            - generic [ref=f1e2053]: W
+          - text: and
+          - generic [ref=f1e2054]:
+            - math [ref=f1e2056]:
+              - generic [ref=f1e2057]: Z
+            - generic [ref=f1e2061]: Z
+          - text: acquire mass while the photon remains massless. Their effective ranges and low-energy behavior then differ strongly.
+        - paragraph [ref=f1e2062]:
+          - text: This is a concrete case where a
+          - strong [ref=f1e2063]: background field configuration changes the observable interaction regime
+          - text: .
+        - heading "Gravity" [level=4] [ref=f1e2064]
+        - paragraph [ref=f1e2065]: Gravity is not experimentally known to “switch on” only at large scale. It is present at small scales too, but is extraordinarily weak there.
+        - paragraph [ref=f1e2066]: It becomes dominant for astronomical structures because it is long-range, universally attractive in ordinary situations, and large masses can accumulate without electric-charge cancellation.
+        - paragraph [ref=f1e2067]: RRG may eventually attempt to derive gravity as an emergent collective geometry, but that remains an open hypothesis.
+        - heading "20. RRG unification hypothesis for interactions" [level=2] [ref=f1e2068]
+        - paragraph [ref=f1e2069]: "The stronger RRG proposal should be stated as:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2070]:
+          - generic [ref=f1e2071]:
+            - math [ref=f1e2073]:
+              - generic [ref=f1e2074]: The effective interactions visible at a scale are the active coupling channels of the scale-dependent resonant geometry.
+            - generic [ref=f1e2082]: The effective interactions visible at a scale are the active coupling channels of the scale-dependent resonant geometry.
+        - paragraph [ref=f1e2095]: "Not:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2096]:
+          - generic [ref=f1e2097]:
+            - math [ref=f1e2099]:
+              - generic [ref=f1e2101]:
+                - generic [ref=f1e2102]: force 1 = level 1, force 2 = level 2,
+                - generic [ref=f1e2103]: …
+            - generic [ref=f1e2105]: force 1 = level 1, force 2 = level 2, …
+        - paragraph [ref=f1e2107]: Known physics already rules out such a simple ladder.
+        - paragraph [ref=f1e2108]: "Instead:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2109]:
+          - generic [ref=f1e2110]:
+            - math [ref=f1e2112]:
+              - generic [ref=f1e2119]:
+                - generic [ref=f1e2120]:
+                  - generic [ref=f1e2121]: Γ
+                  - generic [ref=f1e2122]: k
+                - generic [ref=f1e2123]: →
+                - generic [ref=f1e2124]: "{"
+                - generic [ref=f1e2125]:
+                  - generic [ref=f1e2126]: g
+                  - generic [ref=f1e2127]: α
+                - generic [ref=f1e2128]: (
+                - generic [ref=f1e2129]: k
+                - generic [ref=f1e2130]: )
+                - generic [ref=f1e2131]: ","
+                - generic [ref=f1e2132]:
+                  - generic [ref=f1e2133]: G
+                  - generic [ref=f1e2134]: k
+                - generic [ref=f1e2135]: ","
+                - generic [ref=f1e2136]:
+                  - generic [ref=f1e2137]: M
+                  - generic [ref=f1e2138]: k
+                - generic [ref=f1e2139]: "}"
+            - generic [ref=f1e2148]:
+              - generic [ref=f1e2149]:
+                - text: Γ
+                - generic [ref=f1e2150]: k
+              - text: "→ {"
+              - generic [ref=f1e2158]:
+                - text: g
+                - generic [ref=f1e2159]: α
+              - text: (k),
+              - generic [ref=f1e2167]:
+                - text: G
+                - generic [ref=f1e2168]: k
+              - text: ","
+              - generic [ref=f1e2176]:
+                - text: M
+                - generic [ref=f1e2177]: k
+              - text: "}"
+        - paragraph [ref=f1e2189]: "and a new stable collective geometry changes the effective action itself:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2190]:
+          - generic [ref=f1e2191]:
+            - math [ref=f1e2193]:
+              - generic [ref=f1e2200]:
+                - generic [ref=f1e2201]:
+                  - generic [ref=f1e2202]: R
+                  - generic [ref=f1e2203]: "n"
+                - generic [ref=f1e2204]: →
+                - generic [ref=f1e2205]:
+                  - generic [ref=f1e2206]: Γ
+                  - generic [ref=f1e2207]:
+                    - generic [ref=f1e2208]: "n"
+                    - generic [ref=f1e2209]: +
+                    - generic [ref=f1e2210]: "1"
+                - generic [ref=f1e2211]: →
+                - generic [ref=f1e2212]: new active channels / modes / interactions
+                - generic [ref=f1e2213]: .
+            - generic [ref=f1e2222]:
+              - generic [ref=f1e2223]:
+                - text: R
+                - generic [ref=f1e2224]: "n"
+              - text: →
+              - generic [ref=f1e2232]:
+                - text: Γ
+                - generic [ref=f1e2233]: n+1
+              - text: →
+              - generic [ref=f1e2242]: new active channels / modes / interactions
+              - text: .
+        - paragraph [ref=f1e2247]: "This provides a candidate mechanism for the RRG cycle:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2248]:
+          - generic [ref=f1e2249]:
+            - math [ref=f1e2251]:
+              - generic [ref=f1e2258]:
+                - generic [ref=f1e2259]: geometry/modes
+                - generic [ref=f1e2260]: →
+                - generic [ref=f1e2261]: active interaction channels
+                - generic [ref=f1e2262]: →
+                - generic [ref=f1e2263]: new stable geometry
+                - generic [ref=f1e2264]: →
+                - generic [ref=f1e2265]: new scale-dependent action
+                - generic [ref=f1e2266]: →
+                - generic [ref=f1e2267]: repeat
+            - generic [ref=f1e2276]:
+              - generic [ref=f1e2277]: geometry/modes
+              - text: →
+              - generic [ref=f1e2278]: active interaction channels
+              - text: →
+              - generic [ref=f1e2279]: new stable geometry
+              - text: →
+              - generic [ref=f1e2280]: new scale-dependent action
+              - text: →
+              - generic [ref=f1e2281]: repeat
+        - heading "Crucial open question" [level=3] [ref=f1e2286]
+        - paragraph [ref=f1e2287]:
+          - text: Do the presently known fundamental interactions arise as different sectors/limits of one deeper
+          - generic [ref=f1e2288]:
+            - math [ref=f1e2290]:
+              - generic [ref=f1e2291]: Γ
+            - generic [ref=f1e2295]: Γ
+          - text: "?"
+        - paragraph [ref=f1e2296]: RRG does not yet know.
+        - paragraph [ref=f1e2297]: The framework should attempt to derive that rather than assume it.
+        - separator [ref=f1e2298]
+        - heading "v0.1b Addendum — Background Selection, Scale, and the Remaining Blockers" [level=2] [ref=f1e2299]
+        - heading "21. Background-selection principle" [level=2] [ref=f1e2300]
+        - paragraph [ref=f1e2301]: "RRG now treats the effective theory as background dependent:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2302]:
+          - generic [ref=f1e2303]:
+            - math [ref=f1e2305]:
+              - generic [ref=f1e2312]:
+                - generic [ref=f1e2313]:
+                  - generic [ref=f1e2314]: Γ
+                  - generic [ref=f1e2315]: k
+                - generic [ref=f1e2316]: "["
+                - generic [ref=f1e2317]: R
+                - generic [ref=f1e2318]: ;
+                - generic [ref=f1e2319]: B
+                - generic [ref=f1e2320]: (
+                - generic [ref=f1e2321]: t
+                - generic [ref=f1e2322]: )
+                - generic [ref=f1e2323]: "]"
+            - generic [ref=f1e2332]:
+              - generic [ref=f1e2333]:
+                - text: Γ
+                - generic [ref=f1e2334]: k
+              - text: "[R; B(t)]"
+        - paragraph [ref=f1e2346]:
+          - text: where
+          - generic [ref=f1e2347]:
+            - math [ref=f1e2349]:
+              - generic [ref=f1e2351]:
+                - generic [ref=f1e2352]: B
+                - generic [ref=f1e2353]: (
+                - generic [ref=f1e2354]: t
+                - generic [ref=f1e2355]: )
+            - generic [ref=f1e2357]: B(t)
+          - text: is the slowly varying global or environmental background. Depending on application,
+          - generic [ref=f1e2358]:
+            - math [ref=f1e2360]:
+              - generic [ref=f1e2361]: B
+            - generic [ref=f1e2365]: B
+          - text: "may include:"
+        - list [ref=f1e2366]:
+          - listitem [ref=f1e2367]: cosmic scale factor,
+          - listitem [ref=f1e2368]: temperature,
+          - listitem [ref=f1e2369]: density,
+          - listitem [ref=f1e2370]: curvature,
+          - listitem [ref=f1e2371]: background field expectation values,
+          - listitem [ref=f1e2372]: pressure,
+          - listitem [ref=f1e2373]: chemical environment,
+          - listitem [ref=f1e2374]: external energy flux,
+          - listitem [ref=f1e2375]: boundary conditions.
+        - paragraph [ref=f1e2376]: "Stable resonant geometries are solutions of:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2377]:
+          - generic [ref=f1e2378]:
+            - math [ref=f1e2380]:
+              - generic [ref=f1e2387]:
+                - generic [ref=f1e2388]:
+                  - generic [ref=f1e2389]: δ
+                  - generic [ref=f1e2390]: R
+                - generic [ref=f1e2391]:
+                  - generic [ref=f1e2392]: Γ
+                  - generic [ref=f1e2393]: k
+                - generic [ref=f1e2394]: "["
+                - generic [ref=f1e2395]: R
+                - generic [ref=f1e2396]: ;
+                - generic [ref=f1e2397]: B
+                - generic [ref=f1e2398]: "]"
+                - generic [ref=f1e2399]: =
+                - generic [ref=f1e2400]: "0"
+            - generic [ref=f1e2409]:
+              - generic [ref=f1e2410]:
+                - text: δ
+                - generic [ref=f1e2411]: R
+              - generic [ref=f1e2419]:
+                - text: Γ
+                - generic [ref=f1e2420]: k
+              - text: "[R; B] = 0"
+        - paragraph [ref=f1e2432]: with an additional stability requirement from the fluctuation spectrum.
+        - paragraph [ref=f1e2433]:
+          - text: As
+          - generic [ref=f1e2434]:
+            - math [ref=f1e2436]:
+              - generic [ref=f1e2437]: B
+            - generic [ref=f1e2441]: B
+          - text: "changes, the number, identity, and stability of solutions can change through phase transitions, bifurcations, or symmetry breaking:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2442]:
+          - generic [ref=f1e2443]:
+            - math [ref=f1e2445]:
+              - generic [ref=f1e2452]:
+                - generic [ref=f1e2453]:
+                  - generic [ref=f1e2454]: B
+                  - generic [ref=f1e2455]: "1"
+                - generic [ref=f1e2456]: →
+                - generic [ref=f1e2457]:
+                  - generic [ref=f1e2458]: B
+                  - generic [ref=f1e2459]: "2"
+                - generic [ref=f1e2460]: ⇒
+                - generic [ref=f1e2461]: S
+                - generic [ref=f1e2462]: (
+                - generic [ref=f1e2463]:
+                  - generic [ref=f1e2464]: B
+                  - generic [ref=f1e2465]: "1"
+                - generic [ref=f1e2466]: )
+                - generic [ref=f1e2467]: →
+                - generic [ref=f1e2468]: S
+                - generic [ref=f1e2469]: (
+                - generic [ref=f1e2470]:
+                  - generic [ref=f1e2471]: B
+                  - generic [ref=f1e2472]: "2"
+                - generic [ref=f1e2473]: )
+            - generic [ref=f1e2482]:
+              - generic [ref=f1e2483]:
+                - text: B
+                - generic [ref=f1e2484]: "1"
+              - text: →
+              - generic [ref=f1e2492]:
+                - text: B
+                - generic [ref=f1e2493]: "2"
+              - text: ⇒ S(
+              - generic [ref=f1e2501]:
+                - text: B
+                - generic [ref=f1e2502]: "1"
+              - text: ) → S(
+              - generic [ref=f1e2510]:
+                - text: B
+                - generic [ref=f1e2511]: "2"
+              - text: )
+        - paragraph [ref=f1e2523]: This is RRG's precise replacement for saying that a later structure was “waiting”.
+        - heading "Established analogues" [level=3] [ref=f1e2524]
+        - list [ref=f1e2525]:
+          - listitem [ref=f1e2526]: Cosmic expansion stretches wavelengths and changes the thermodynamic background.
+          - listitem [ref=f1e2527]: The early Universe cooled through regimes in which hadrons, nuclei, and later neutral atoms became possible.
+          - listitem [ref=f1e2528]: Electroweak symmetry breaking changes the realized particle spectrum and interaction ranges without requiring the deepest equations to be rewritten.
+        - paragraph [ref=f1e2529]: These are analogues of the background-selection mechanism, not proof of the complete RRG recursion.
+        - heading "22. Scale as a geometry–mode regime" [level=2] [ref=f1e2530]
+        - paragraph [ref=f1e2531]: RRG should not define scale by length alone.
+        - paragraph [ref=f1e2532]: "A scale is provisionally a regime in which a collective structure can be treated as one effective degree of freedom:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2533]:
+          - generic [ref=f1e2534]:
+            - math [ref=f1e2536]:
+              - generic [ref=f1e2543]:
+                - generic [ref=f1e2544]:
+                  - generic [ref=f1e2545]: R
+                  - generic [ref=f1e2546]: "n"
+                - generic [ref=f1e2547]: =
+                - generic [ref=f1e2548]: (
+                - generic [ref=f1e2549]:
+                  - generic [ref=f1e2550]: G
+                  - generic [ref=f1e2551]: "n"
+                - generic [ref=f1e2552]: ","
+                - generic [ref=f1e2553]:
+                  - generic [ref=f1e2554]: M
+                  - generic [ref=f1e2555]: "n"
+                - generic [ref=f1e2556]: ;
+                - generic [ref=f1e2557]:
+                  - generic [ref=f1e2558]: B
+                  - generic [ref=f1e2559]: "n"
+                - generic [ref=f1e2560]: )
+            - generic [ref=f1e2569]:
+              - generic [ref=f1e2570]:
+                - text: R
+                - generic [ref=f1e2571]: "n"
+              - text: = (
+              - generic [ref=f1e2579]:
+                - text: G
+                - generic [ref=f1e2580]: "n"
+              - text: ","
+              - generic [ref=f1e2588]:
+                - text: M
+                - generic [ref=f1e2589]: "n"
+              - text: ;
+              - generic [ref=f1e2597]:
+                - text: B
+                - generic [ref=f1e2598]: "n"
+              - text: )
+        - paragraph [ref=f1e2610]: "with characteristic:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2611]:
+          - generic [ref=f1e2612]:
+            - math [ref=f1e2614]:
+              - generic [ref=f1e2616]:
+                - generic [ref=f1e2617]:
+                  - generic [ref=f1e2618]: L
+                  - generic [ref=f1e2619]: "n"
+                - generic [ref=f1e2620]: ","
+                - generic [ref=f1e2621]:
+                  - generic [ref=f1e2622]: τ
+                  - generic [ref=f1e2623]: "n"
+                - generic [ref=f1e2624]: ","
+                - generic [ref=f1e2625]:
+                  - generic [ref=f1e2626]: Ω
+                  - generic [ref=f1e2627]: "n"
+                - generic [ref=f1e2628]: ","
+                - generic [ref=f1e2629]: "{"
+                - generic [ref=f1e2630]:
+                  - generic [ref=f1e2631]: g
+                  - generic [ref=f1e2632]:
+                    - generic [ref=f1e2633]: α
+                    - generic [ref=f1e2634]: ","
+                    - generic [ref=f1e2635]: "n"
+                - generic [ref=f1e2636]: "}"
+                - generic [ref=f1e2637]: .
+            - generic [ref=f1e2639]:
+              - generic [ref=f1e2640]:
+                - text: L
+                - generic [ref=f1e2641]: "n"
+              - text: ","
+              - generic [ref=f1e2649]:
+                - text: τ
+                - generic [ref=f1e2650]: "n"
+              - text: ","
+              - generic [ref=f1e2658]:
+                - text: Ω
+                - generic [ref=f1e2659]: "n"
+              - text: ", {"
+              - generic [ref=f1e2667]:
+                - text: g
+                - generic [ref=f1e2668]: α,n
+              - text: "}."
+        - paragraph [ref=f1e2677]: Lower-level modes remain active internally. The higher-level collective mode determines the effective interactions visible at the next description level.
+        - paragraph [ref=f1e2678]: This avoids the incorrect claim that lower physics disappears when a higher level emerges.
+        - heading "23. What remains genuinely unresolved" [level=2] [ref=f1e2679]
+        - paragraph [ref=f1e2680]: "The conceptual loop is now largely closed. The remaining blockers are quantitative:"
+        - heading "A. One scale-closed effective action" [level=3] [ref=f1e2681]
+        - paragraph [ref=f1e2682]:
+          - text: Find a nontrivial
+          - generic [ref=f1e2683]:
+            - math [ref=f1e2685]:
+              - generic [ref=f1e2688]:
+                - generic [ref=f1e2689]: Γ
+                - generic [ref=f1e2690]: k
+            - generic [ref=f1e2693]:
+              - text: Γ
+              - generic [ref=f1e2694]: k
+          - text: "whose mathematical family survives repeated coarse-graining:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2702]:
+          - generic [ref=f1e2703]:
+            - math [ref=f1e2705]:
+              - generic [ref=f1e2712]:
+                - generic [ref=f1e2713]:
+                  - generic [ref=f1e2714]: Γ
+                  - generic [ref=f1e2715]: "n"
+                - generic [ref=f1e2716]:
+                  - generic [ref=f1e2717]: →
+                  - generic [ref=f1e2718]: R
+                - generic [ref=f1e2720]:
+                  - generic [ref=f1e2721]: Γ
+                  - generic [ref=f1e2722]:
+                    - generic [ref=f1e2723]: "n"
+                    - generic [ref=f1e2724]: +
+                    - generic [ref=f1e2725]: "1"
+            - generic [ref=f1e2734]:
+              - generic [ref=f1e2735]:
+                - text: Γ
+                - generic [ref=f1e2736]: "n"
+              - generic [ref=f1e2744]: R
+              - generic [ref=f1e2756]:
+                - text: Γ
+                - generic [ref=f1e2757]: n+1
+        - paragraph [ref=f1e2770]: without manually inserting a new law at each level.
+        - heading "B. Automatic composite promotion" [level=3] [ref=f1e2771]
+        - paragraph [ref=f1e2772]: A new effective unit must emerge from the dynamics themselves, for example through a long-lived pole, isolated collective mode, spectral gap, or stable attractor. The researcher should not manually declare “this is now a particle/cell/node”.
+        - heading "C. Recover known fundamental constraints" [level=3] [ref=f1e2773]
+        - paragraph [ref=f1e2774]: "Any fundamental version must reproduce, at minimum, the experimentally tested structures of quantum field theory and gravity: Lorentz symmetry, gauge structure, spin/statistics, known particle properties, conservation laws, equivalence principle, and the Newtonian/GR limits."
+        - heading "D. Thermodynamics and open systems" [level=3] [ref=f1e2775]
+        - paragraph [ref=f1e2776]: The same framework must support both passive bound structures and actively maintained dissipative structures such as cells and brains without violating energy conservation or the second law.
+        - heading "E. A prediction unique to RRG" [level=3] [ref=f1e2777]
+        - paragraph [ref=f1e2778]: RRG must predict at least one stable geometry, transition threshold, scaling relation, or interaction regime not inserted as an assumption and distinguishable from existing theories.
+        - heading "F. Avoiding triviality" [level=3] [ref=f1e2779]
+        - paragraph [ref=f1e2780]: If “geometry” means every relation and “mode” means every possible change, all observations fit automatically. RRG must remain restrictive enough that some possible systems are forbidden or unstable by the equations.
+        - heading "24. Current status" [level=2] [ref=f1e2781]
+        - paragraph [ref=f1e2782]:
+          - strong [ref=f1e2783]: "Conceptual closure:"
+          - text: strong.
+        - paragraph [ref=f1e2784]:
+          - strong [ref=f1e2785]: "Existing mathematical toolkit:"
+          - text: strong — spectral geometry, effective action methods, RG/FRG, dynamical systems, non-equilibrium thermodynamics.
+        - paragraph [ref=f1e2786]:
+          - strong [ref=f1e2787]: "Universal derivation:"
+          - text: open.
+        - paragraph [ref=f1e2788]:
+          - strong [ref=f1e2789]: "Fundamental-force unification:"
+          - text: open.
+        - paragraph [ref=f1e2790]:
+          - strong [ref=f1e2791]: "Novel falsifiable prediction:"
+          - text: open.
+        - paragraph [ref=f1e2792]: This is now the correct boundary between the RRG hypothesis and a demonstrated physical theory.
+        - separator [ref=f1e2793]
+        - heading "19. Emergent/effective interactions from lower-level organization" [level=2] [ref=f1e2794]
+        - paragraph [ref=f1e2795]:
+          - strong [ref=f1e2796]: "Status: established mechanism in multiple physical systems; RRG unification remains an extension."
+        - paragraph [ref=f1e2797]: A key question is whether lower-level organization can generate a new interaction channel that then supports a higher-level organization. Established physics provides direct examples.
+        - heading "19.1 Phonon-mediated attraction" [level=3] [ref=f1e2798]
+        - paragraph [ref=f1e2799]: In conventional superconductivity, collective crystal-lattice vibrations (phonons) can mediate an effective attractive electron–electron interaction in the relevant regime, enabling Cooper pairing.
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2800]:
+          - generic [ref=f1e2801]:
+            - math [ref=f1e2803]:
+              - generic [ref=f1e2810]:
+                - generic [ref=f1e2811]: lattice geometry
+                - generic [ref=f1e2812]: →
+                - generic [ref=f1e2813]: phonon mode
+                - generic [ref=f1e2814]: →
+                - generic [ref=f1e2815]: effective attraction
+                - generic [ref=f1e2816]: →
+                - generic [ref=f1e2817]: new collective state
+            - generic [ref=f1e2826]:
+              - generic [ref=f1e2827]: lattice geometry
+              - text: →
+              - generic [ref=f1e2828]: phonon mode
+              - text: →
+              - generic [ref=f1e2829]: effective attraction
+              - text: →
+              - generic [ref=f1e2830]: new collective state
+        - paragraph [ref=f1e2835]:
+          - text: "Reference: Zheng & Walmsley,"
+          - emphasis [ref=f1e2836]: Phys. Rev. B
+          - text: 71, 134512 (2005),
+          - link "https://doi.org/10.1103/PhysRevB.71.134512" [ref=f1e2837] [cursor=pointer]:
+            - /url: https://doi.org/10.1103/PhysRevB.71.134512
+        - heading "19.2 Spin ice" [level=3] [ref=f1e2838]
+        - paragraph [ref=f1e2839]: Collective spin-ice geometry produces emergent magnetic-monopole quasiparticles. Experiments measured magnetic charges and currents, and the emergent charges interact through a Coulomb potential.
+        - paragraph [ref=f1e2840]: "References:"
+        - list [ref=f1e2841]:
+          - listitem [ref=f1e2842]:
+            - text: Castelnovo, Moessner & Sondhi,
+            - emphasis [ref=f1e2843]: Nature
+            - text: 451, 42–45 (2008),
+            - link "https://doi.org/10.1038/nature06433" [ref=f1e2844] [cursor=pointer]:
+              - /url: https://doi.org/10.1038/nature06433
+          - listitem [ref=f1e2845]:
+            - text: Bramwell et al.,
+            - emphasis [ref=f1e2846]: Nature
+            - text: 461, 956–959 (2009),
+            - link "https://doi.org/10.1038/nature08500" [ref=f1e2847] [cursor=pointer]:
+              - /url: https://doi.org/10.1038/nature08500
+          - listitem [ref=f1e2848]:
+            - text: Mengotti et al.,
+            - emphasis [ref=f1e2849]: Nature Physics
+            - text: 7, 68–74 (2011),
+            - link "https://doi.org/10.1038/nphys1794" [ref=f1e2850] [cursor=pointer]:
+              - /url: https://doi.org/10.1038/nphys1794
+        - heading "19.3 Background state and interaction regime" [level=3] [ref=f1e2851]
+        - paragraph [ref=f1e2852]:
+          - text: "The Higgs-field vacuum configuration changes the electroweak particle spectrum:"
+          - generic [ref=f1e2853]:
+            - math [ref=f1e2855]:
+              - generic [ref=f1e2857]:
+                - generic [ref=f1e2858]: W
+                - generic [ref=f1e2859]: /
+                - generic [ref=f1e2860]: Z
+            - generic [ref=f1e2862]: W/Z
+          - text: are massive while the photon remains massless, producing radically different low-energy interaction ranges.
+        - paragraph [ref=f1e2863]: "References:"
+        - list [ref=f1e2864]:
+          - listitem [ref=f1e2865]:
+            - link "https://home.cern/science/physics/origins-brout-englert-higgs-mechanism/" [ref=f1e2866] [cursor=pointer]:
+              - /url: https://home.cern/science/physics/origins-brout-englert-higgs-mechanism/
+          - listitem [ref=f1e2867]:
+            - link "https://home.cern/science/physics/higgs-boson/what/" [ref=f1e2868] [cursor=pointer]:
+              - /url: https://home.cern/science/physics/higgs-boson/what/
+        - heading "19.4 RRG interpretation" [level=3] [ref=f1e2869]
+        - paragraph [ref=f1e2870]: "The evidence supports testing:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f1e2871]:
+          - generic [ref=f1e2872]:
+            - math [ref=f1e2874]:
+              - generic [ref=f1e2881]:
+                - generic [ref=f1e2882]:
+                  - generic [ref=f1e2883]: R
+                  - generic [ref=f1e2884]: "n"
+                - generic [ref=f1e2885]: =
+                - generic [ref=f1e2886]: (
+                - generic [ref=f1e2887]:
+                  - generic [ref=f1e2888]: G
+                  - generic [ref=f1e2889]: "n"
+                - generic [ref=f1e2890]: ","
+                - generic [ref=f1e2891]:
+                  - generic [ref=f1e2892]: M
+                  - generic [ref=f1e2893]: "n"
+                - generic [ref=f1e2894]: )
+                - generic [ref=f1e2895]: →
+                - generic [ref=f1e2896]:
+                  - generic [ref=f1e2897]: I
+                  - generic [ref=f1e2898]:
+                    - generic [ref=f1e2899]: "n"
+                    - generic [ref=f1e2900]: +
+                    - generic [ref=f1e2901]: "1"
+                  - generic [ref=f1e2902]:
+                    - generic [ref=f1e2903]: e
+                    - generic [ref=f1e2904]: f
+                    - generic [ref=f1e2905]: f
+                - generic [ref=f1e2906]: →
+                - generic [ref=f1e2907]:
+                  - generic [ref=f1e2908]: R
+                  - generic [ref=f1e2909]:
+                    - generic [ref=f1e2910]: "n"
+                    - generic [ref=f1e2911]: +
+                    - generic [ref=f1e2912]: "1"
+            - generic [ref=f1e2921]:
+              - generic [ref=f1e2922]:
+                - text: R
+                - generic [ref=f1e2923]: "n"
+              - text: = (
+              - generic [ref=f1e2931]:
+                - text: G
+                - generic [ref=f1e2932]: "n"
+              - text: ","
+              - generic [ref=f1e2940]:
+                - text: M
+                - generic [ref=f1e2941]: "n"
+              - text: ) →
+              - generic [ref=f1e2949]:
+                - text: I
+                - generic [ref=f1e2953]:
+                  - generic [ref=f1e2954]: n+1
+                  - generic [ref=f1e2956]: eff
+              - text: →
+              - generic [ref=f1e2962]:
+                - text: R
+                - generic [ref=f1e2963]: n+1
+        - paragraph [ref=f1e2976]:
+          - text: This does
+          - strong [ref=f1e2977]: not modify
+          - text: the locked core and does
+          - strong [ref=f1e2978]: not prove
+          - text: that the four fundamental interactions are successive resonant levels.
+        - paragraph [ref=f1e2979]:
+          - text: See
+          - code [ref=f1e2980]: 07_EMERGENT_INTERACTION_EVIDENCE.md
+          - text: .
+      - generic [ref=f1e2982]:
+        - heading "Scope and sources" [level=2] [ref=f1e2983]
+        - paragraph [ref=f1e2984]: "The current non-normative RRG framework: propositions, reported evidence and unresolved extensions."
+        - paragraph [ref=f1e2985]: 02_scientific_framework.md, original current edition; source body is extracted, not independently authored.
+        - group [ref=f1e2986]:
+          - generic "Source extraction details" [ref=f1e2987]
+        - heading "Depends on" [level=3] [ref=f1e2988]
+        - list [ref=f1e2989]:
+          - listitem [ref=f1e2990]:
+            - link "DOC-CONTROL — Research and change control" [ref=f1e2991] [cursor=pointer]:
+              - /url: /changes/
+          - listitem [ref=f1e2992]:
+            - link "DOC-CORE — The locked RRG core" [ref=f1e2993] [cursor=pointer]:
+              - /url: /documents/locked-core/
+        - heading "References reported by this source" [level=3] [ref=f1e2994]
+        - list [ref=f1e2995]:
+          - listitem [ref=f1e2996]:
+            - link "A neural manifold view of the brain" [ref=f1e2997] [cursor=pointer]:
+              - /url: /references/#BIB-0001
+          - listitem [ref=f1e2998]:
+            - link "Tunable colloidal swarmalators with hydrodynamic coupling" [ref=f1e2999] [cursor=pointer]:
+              - /url: /references/#BIB-0002
+          - listitem [ref=f1e3000]:
+            - link "O’Keeffe, Hong & Strogatz, “Oscillators that sync and swarm”, Nature Communications 8, 1504 (2017)." [ref=f1e3001] [cursor=pointer]:
+              - /url: /references/#BIB-0003
+          - listitem [ref=f1e3002]:
+            - link "Synergetics’ two foundations and the city" [ref=f1e3003] [cursor=pointer]:
+              - /url: /references/#BIB-0004
+          - listitem [ref=f1e3004]:
+            - link "The standard model effective field theory at work" [ref=f1e3005] [cursor=pointer]:
+              - /url: /references/#BIB-0005
+          - listitem [ref=f1e3006]:
+            - link "Metzner et al., “Functional renormalization group approach to correlated fermion systems”, Reviews of Modern Physics 84, 299 (2012)." [ref=f1e3007] [cursor=pointer]:
+              - /url: /references/#BIB-0006
+          - listitem [ref=f1e3008]:
+            - link "Rigorous Theory of Coupled Resonators" [ref=f1e3009] [cursor=pointer]:
+              - /url: /references/#BIB-0007
+          - listitem [ref=f1e3010]:
+            - link "Büscher & Emig, “Geometry and Spectrum of Casimir Forces”, Physical Review Letters 94, 133901 (2005)." [ref=f1e3011] [cursor=pointer]:
+              - /url: /references/#BIB-0008
+          - listitem [ref=f1e3012]:
+            - link "Hordijk, Hein & Steel, “Autocatalytic Sets and the Origin of Life”, Entropy 12, 1733–1742 (2010)." [ref=f1e3013] [cursor=pointer]:
+              - /url: /references/#BIB-0009
+          - listitem [ref=f1e3014]:
+            - link "Hordijk, Steel & Kauffman-related review, “Autocatalytic Networks at the Basis of Life’s Origin and Organization”, Life 8, 62 (2018)." [ref=f1e3015] [cursor=pointer]:
+              - /url: /references/#BIB-0010
+          - listitem [ref=f1e3016]:
+            - link "- NASA, Overview — Big Bang, nucleosynthesis, recombination, first stars" [ref=f1e3017] [cursor=pointer]:
+              - /url: /references/#BIB-0011
+          - listitem [ref=f1e3018]:
+            - link "- CERN, The early universe" [ref=f1e3019] [cursor=pointer]:
+              - /url: /references/#BIB-0012
+          - listitem [ref=f1e3020]:
+            - link "- NASA Astrobiology, The Universe's first type of molecule" [ref=f1e3021] [cursor=pointer]:
+              - /url: /references/#BIB-0013
+          - listitem [ref=f1e3022]:
+            - link "- NASA Webb, What were the first stars like?" [ref=f1e3023] [cursor=pointer]:
+              - /url: /references/#BIB-0014
+          - listitem [ref=f1e3024]:
+            - link "- Nature Index, Prebiotic Chemistry and Origins of Life" [ref=f1e3025] [cursor=pointer]:
+              - /url: /references/#BIB-0015
+          - listitem [ref=f1e3026]:
+            - link "Coulomb repulsion and T_c in BCS theory of superconductivity" [ref=f1e3027] [cursor=pointer]:
+              - /url: /references/#BIB-0016
+          - listitem [ref=f1e3028]:
+            - link "Magnetic monopoles in spin ice" [ref=f1e3029] [cursor=pointer]:
+              - /url: /references/#BIB-0017
+          - listitem [ref=f1e3030]:
+            - link "Measurement of the charge and current of magnetic monopoles in spin ice" [ref=f1e3031] [cursor=pointer]:
+              - /url: /references/#BIB-0018
+          - listitem [ref=f1e3032]:
+            - link "Real-space observation of emergent magnetic monopoles and associated Dirac strings in artificial kagome spin ice" [ref=f1e3033] [cursor=pointer]:
+              - /url: /references/#BIB-0019
+          - listitem [ref=f1e3034]:
+            - link "The origins of the Brout–Englert–Higgs mechanism" [ref=f1e3035] [cursor=pointer]:
+              - /url: /references/#BIB-0020
+          - listitem [ref=f1e3036]:
+            - link "What’s so special about the Higgs boson?" [ref=f1e3037] [cursor=pointer]:
+              - /url: /references/#BIB-0021
+  - complementary "Source availability" [ref=f1e3038]:
+    - generic [ref=f1e3040]:
+      - strong [ref=f1e3041]: Current sources available
+      - paragraph [ref=f1e3042]: 13 supplied files checked against the recorded edition. Website explanations are drafts.
+  - contentinfo [ref=f1e3043]:
+    - paragraph [ref=f1e3044]: Unity Theory / Recursive Resonant Geometry
+    - paragraph [ref=f1e3045]: A working research framework · Local preview
+```

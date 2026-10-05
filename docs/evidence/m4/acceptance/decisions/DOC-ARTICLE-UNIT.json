@@ -1,0 +1,150 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-ARTICLE-UNIT",
+  "fingerprint": "236bb1cc6326a06bb9f3c32d12542e56e1f78873ec853257ff75718c913de843",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04T20:27:30.716Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Accepted website fidelity of the full useful-unit article and its rendered UT-D05 expansion after comparison with the locked core and explanatory documents, plus both-base HTML and generated Markdown. No independent scientific result is asserted.",
+  "inputs": {
+    "fingerprint": "236bb1cc6326a06bb9f3c32d12542e56e1f78873ec853257ff75718c913de843",
+    "ownRead": {
+      "id": "DOC-ARTICLE-UNIT",
+      "route": "/articles/when-can-a-whole-be-treated-as-one-useful-unit/",
+      "title": "When can a whole be treated as one useful unit?",
+      "description": "An explanatory reading of the supplied RRG documents, with proposal and results kept separate.",
+      "revision": 1,
+      "kind": "article",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-04",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-MATH",
+        "R-CURRENT-STATUS",
+        "R-CURRENT-INTERACTIONS"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Explanatory article; universal claims and quantitative tests remain open.",
+      "evidenceState": "not-applicable",
+      "body": "## Explanation: a useful description depends on the question\n\nA molecule contains atoms with internal activity, yet a description at another scale can treat the molecule as a participant in a reaction or as a rotating object. That useful simplification does not erase the atoms. It selects the collective properties relevant to an interaction. The supplied [world explanation](/concepts/geometry-and-modes/) discusses this packaging of complexity, and the [molecule example](/examples/molecule/) illustrates how collective constraints coexist with active parts.\n\nA whole is not automatically a useful unit just because we can draw a boundary around it. The question is whether the organization persists in the circumstances of interest and supports a collective response that the next description can use. A description useful for one timescale or perturbation can be inadequate for another. When a molecule dissociates, continuing to treat it as the same intact participant would hide a material change.\n\nRRG's geometry includes relations, connectivity, boundaries and constraints, as well as arrangement. Its mode structure includes phase, amplitude, coupling, propagation and characteristic times. One frequency number cannot stand in for all of that organization. The [string example](/examples/string/) makes the limitation concrete: supported patterns depend on boundaries, tension and mass per unit length. A standing-wave analogy is not itself proof of a self-maintaining higher-level object.\n\n## Proposal: collective organization becomes reusable\n\nThe registered resonant geometry is :claim[UT-D03]. The locked stability meaning, :claim[UT-D04], concerns a self-consistent geometry–mode organization. It does not mean permanence. Lifetimes and perturbation recovery are system-specific measurements of this meaning, rather than replacement definitions.\n\n::claim{id=\"UT-D05\" view=\"plainLanguage\"}\n\nThis scale definition anchors the useful-unit question. In higher-level formation (:claim[UT-D06]), parts can be different, retain internal activity and play different roles. Their collective organization can then participate in another combination. The structural recursion (:claim[UT-D08]) does not require identical microscopic mechanisms at every step or a perfectly regular ladder of sizes and times.\n\nTo assess a candidate whole, a model needs to specify what counts as its organization, which interactions are relevant and when the collective description stops working. The [mathematical programme](/math/) proposes tests and strong failure conditions. This article does not turn those proposed tests into a general theorem. The [stability concept](/concepts/stability/) offers a shorter reading of the same boundary.\n\n## Actual results: a description is not an execution receipt\n\nNo new result is derived or reproduced here. Familiar molecules and cells are explanatory examples, while the original documents report particular external and project evidence with their own scope. [Research status](/research-status/) and [the evidence index](/evidence/) distinguish those reports from conjectures and unperformed work.\n\nTreating a cell as a unit in an organism does not imply that all cells or all organisms follow a proved universal equation. Likewise, reported effective interactions do not establish unification of fundamental forces. Whether the organizing principle can be made quantitatively predictive across systems remains open.\n\nA useful next question is concrete: for this interaction and interval, which collective properties suffice, and what observation would force us to describe the parts again? That question preserves the hidden complexity while making the proposed abstraction testable. The separate historical cavity and response calculations remain NOT_SELECTED / NOT_RUN.\n",
+      "sourceMapping": "Derivative explanation of the supplied current core and world explanation; no new scientific result or definition.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "tags": [
+        "organization",
+        "research-explanation"
+      ],
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-04",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-INTERACTIONS",
+        "path": "research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-STATUS",
+        "path": "research/RRG_CURRENT/04_status_and_blockers.md",
+        "sha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "21fffe8500ab32151fead773f07126a4096d1688865082c6a608ca0daf0d5952",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "c76fc933f80a852577c8cb155fbc9937c0dbdeb53c08da046f4b3e7f1433123a",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Core sections 1-4 and 7 match geometry as relations/constraints, full temporal mode organization, stability as self-consistent organization rather than permanence, and scale as an effective unit.",
+    "meaning": "World explanation sections 3-4 and 8 support retained internal activity and reusable collective descriptions. Core sections 5/8 permit heterogeneous members and different mechanisms at successive levels.",
+    "assumptions": "Timescale and perturbation examples describe applicability of a collective description. Lifetime/recovery are system-specific tests, preserving core section 4 rather than replacing its definition.",
+    "hypotheses": "Proposal section labels model tests as proposed, not general theorems. The string analogy does not claim proof of a self-maintaining higher object or geometry alone.",
+    "evidenceDescriptions": "Actual results explicitly says no result was derived or reproduced. Familiar molecule/cell examples remain explanation; external/project reports are linked with their stated scope.",
+    "openQuestions": "Quantitative prediction across systems and when a collective description stops working remain open. Fundamental-force unification and historical cavity/response execution are not claimed.",
+    "attribution": "The world explanation and registered RRG definitions own the explanation; linked research status/evidence own reported support. No author identity or peer-review status is inferred.",
+    "sourceMappings": "UT-D03/04/05/06/08 bindings were checked against exact core sections 3/4/7/5/8. Both-base rendered UT-D05 plainLanguage and the explanatory export preserve the supplied scale meaning."
+  }
+}

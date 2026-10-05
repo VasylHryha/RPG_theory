@@ -140,7 +140,7 @@ test('literature has source-backed DOI identities and usable source extraction d
   const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:800}}),page=await context.newPage();
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'references/');
   await expect(page.locator('[data-bibliography] > ol > li')).toHaveCount(referenceRecords.filter((r:{id:string;primaryId?:string})=>artifact.publicationManifest.referenceIds.includes(r.id) && !r.primaryId).length);
-  await expect(page.locator('[data-bibliography] a[href^="https://doi.org/"]')).toHaveCount(13);
+  await expect(page.locator('[data-bibliography] a[href^="https://doi.org/"]')).toHaveCount(referenceRecords.filter((r:{id:string;primaryId?:string;url:string})=>artifact.publicationManifest.referenceIds.includes(r.id) && !r.primaryId && r.url.startsWith('https://doi.org/')).length);
   const paper=page.locator('#BIB-0022');await expect(paper.getByRole('heading')).toHaveText('Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions');
   await expect(paper.getByRole('link',{name:'DOI: 10.1038/s41467-019-13746-6'})).toHaveAttribute('href','https://doi.org/10.1038/s41467-019-13746-6');
   await expect(paper).toContainText('Supplementary reference reported by the supplied documents');

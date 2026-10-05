@@ -1,0 +1,20 @@
+
+Running 3 tests using 1 worker
+
+(node:21279) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/technical.spec.ts:7:1 › M3 technical reading and source discovery work without JavaScript (1.8s)
+  ✓  2 tests/e2e/technical.spec.ts:26:1 › M3 equations and technical readings remain accessible at 320px in dark mode (10.4s)
+  ✓  3 tests/e2e/technical.spec.ts:48:1 › M3 evidence attribution, scope and open tests remain visible beside the actual sources (567ms)
+
+  3 passed (13.9s)
+
+Running 3 tests using 1 worker
+
+(node:21344) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/technical.spec.ts:7:1 › M3 technical reading and source discovery work without JavaScript (1.6s)
+  ✓  2 tests/e2e/technical.spec.ts:26:1 › M3 equations and technical readings remain accessible at 320px in dark mode (10.4s)
+  ✓  3 tests/e2e/technical.spec.ts:48:1 › M3 evidence attribution, scope and open tests remain visible beside the actual sources (573ms)
+
+  3 passed (13.5s)

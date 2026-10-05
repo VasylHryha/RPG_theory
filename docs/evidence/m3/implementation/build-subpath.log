@@ -1,0 +1,84 @@
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode preview --config tests/fixtures/site-subpath.json --output dist/m3-subpath
+
+20:41:38 [content] Syncing content
+20:41:38 [content] Astro config changed
+20:41:38 [content] Clearing content store
+20:41:38 [content] Synced content
+20:41:38 [types] Generated 1.12s
+20:41:38 [build] output: "static"
+20:41:38 [build] mode: "static"
+20:41:38 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m3-subpath/
+20:41:38 [build] Collecting build info...
+20:41:38 [build] ✓ Completed in 1.16s.
+20:41:38 [build] Building static entrypoints...
+20:41:39 [vite] ✓ built in 461ms
+20:41:39 [vite] ✓ built in 19ms
+20:41:39 [build] Rearranging server assets...
+
+ generating static routes 
+20:41:40   ├─ /404.html (+11ms) 
+20:41:40   ├─ /fixtures/math/index.html (+65ms) 
+20:41:40   ├─ /references/index.html (+4ms) 
+20:41:40   ├─ /start/index.html (+9ms) 
+20:41:40   ├─ /index.html (+9ms) 
+20:41:40   ├─ /research-status/index.html (+25ms) 
+20:41:40   ├─ /research-status/proof-matrix/index.html (+9ms) 
+20:41:40   ├─ /concepts/geometry-and-modes/index.html (+8ms) 
+20:41:40   ├─ /documents/locked-core/index.html (+99ms) 
+20:41:40   ├─ /changes/index.html (+19ms) 
+20:41:40   ├─ /framework/index.html (+214ms) 
+20:41:40   ├─ /math/index.html (+420ms) 
+20:41:41   ├─ /evidence/interactions/index.html (+23ms) 
+20:41:41   ├─ /evidence/additional/index.html (+30ms) 
+20:41:41   ├─ /open-problems/index.html (+12ms) 
+20:41:41   ├─ /changes/source-history/index.html (+5ms) 
+20:41:41   ├─ /claims/UT-D01/index.html (+12ms) 
+20:41:41   ├─ /claims/UT-D02/index.html (+4ms) 
+20:41:41   ├─ /claims/UT-D03/index.html (+5ms) 
+20:41:41   ├─ /claims/UT-D04/index.html (+4ms) 
+20:41:41   ├─ /claims/UT-D05/index.html (+3ms) 
+20:41:41   ├─ /claims/UT-D06/index.html (+4ms) 
+20:41:41   ├─ /claims/UT-D07/index.html (+4ms) 
+20:41:41   ├─ /claims/UT-D08/index.html (+8ms) 
+20:41:41   ├─ /claims/UT-D09/index.html (+4ms) 
+20:41:41   ├─ /claims/UT-C01/index.html (+3ms) 
+20:41:41   ├─ /claims/UT-C02/index.html (+5ms) 
+20:41:41   ├─ /claims/UT-O01/index.html (+3ms) 
+20:41:41   ├─ /claims/UT-O02/index.html (+2ms) 
+20:41:41   ├─ /claims/UT-O03/index.html (+2ms) 
+20:41:41   ├─ /claims/UT-O04/index.html (+33ms) 
+20:41:41   ├─ /claims/UT-O05/index.html (+13ms) 
+20:41:41   ├─ /claims/UT-O06/index.html (+2ms) 
+20:41:41   ├─ /claims/UT-E01/index.html (+3ms) 
+20:41:41   ├─ /claims/UT-E02/index.html (+6ms) 
+20:41:41   ├─ /claims/UT-E03/index.html (+4ms) 
+20:41:41   ├─ /claims/UT-E04/index.html (+3ms) 
+20:41:41   ├─ /claims/UT-E05/index.html (+2ms) 
+20:41:41   ├─ /claims/UT-E06/index.html (+4ms) 
+20:41:41   ├─ /claims/UT-E07/index.html (+7ms) 
+20:41:41   ├─ /claims/UT-E08/index.html (+4ms) 
+20:41:41   ├─ /claims/UT-E09/index.html (+6ms) 
+20:41:41   ├─ /claims/UT-E10/index.html (+4ms) 
+20:41:41   ├─ /claims/UT-E11/index.html (+4ms) 
+20:41:41   ├─ /claims/UT-E12/index.html (+4ms) 
+20:41:41   ├─ /concepts/effective-interactions/index.html (+8ms) 
+20:41:41   ├─ /concepts/recursion/index.html (+5ms) 
+20:41:41   ├─ /concepts/stability/index.html (+4ms) 
+20:41:41   ├─ /concepts/index.html (+5ms) 
+20:41:41   ├─ /evidence/index.html (+56ms) 
+20:41:41   ├─ /examples/cell/index.html (+6ms) 
+20:41:41   ├─ /examples/life-environment/index.html (+4ms) 
+20:41:41   ├─ /examples/molecule/index.html (+5ms) 
+20:41:41   ├─ /examples/star/index.html (+3ms) 
+20:41:41   ├─ /examples/string/index.html (+3ms) 
+20:41:41   ├─ /examples/water/index.html (+4ms) 
+20:41:41   ├─ /examples/index.html (+7ms) 
+20:41:41   ├─ /documents/index.html (+9ms) 
+20:41:41 ✓ Completed in 2.09s.
+
+20:41:41 [build] ✓ Completed in 2.61s.
+20:41:41 [build] 58 page(s) built in 3.79s
+20:41:41 [build] Complete!
+Private preview artifact: /Users/new/RiderProjects/RPG_theory/dist/m3-subpath; deployEligible=false

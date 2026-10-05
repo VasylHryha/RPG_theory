@@ -1,0 +1,170 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-INTERACTION-EVIDENCE",
+  "fingerprint": "51f4c7cb362bb0ae97485dca4e93b28468321add02423e0c2fe4ea1b34ed25be",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Separate bounded High M3 original/sidecar/renderer/output comparison: Full 07 body retains phonon attraction, emergent spin-ice excitations and background-dependent electroweak regimes with different conditions and cited authors. Its final section explicitly leaves fundamental-force unification and scalar-frequency reduction unproved. Same-session matching-renderer CSS repair: canonical source/body/callouts unchanged; force-box width repaired from 2px to 122.64px and actual §39 desktop/mobile output compared. Prior issued decisions remain preserved. Website fidelity only; private draft and scientific/release gates remain distinct.",
+  "inputs": {
+    "fingerprint": "51f4c7cb362bb0ae97485dca4e93b28468321add02423e0c2fe4ea1b34ed25be",
+    "ownRead": {
+      "id": "DOC-INTERACTION-EVIDENCE",
+      "route": "/evidence/interactions/",
+      "title": "Emergent interaction evidence",
+      "description": "The supplied 07 addendum on phonons, spin ice and background-dependent interaction regimes.",
+      "revision": 1,
+      "kind": "research-status",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-04",
+      "sourceRefs": [
+        "R-CURRENT-INTERACTIONS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-CONTROL"
+      ],
+      "dependsOn": [
+        "DOC-CORE",
+        "UT-E10",
+        "UT-E11",
+        "UT-E12"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0016",
+        "BIB-0017",
+        "BIB-0018",
+        "BIB-0019",
+        "BIB-0020",
+        "BIB-0021"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-INTERACTIONS",
+        "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
+        "startLine": 3,
+        "endLine": 213,
+        "excerptSha256": "daa8862522725a39eea990e330bb08765577fa696fc92fc706efa41ccaea74ae"
+      },
+      "statement": "> **NON-NORMATIVE.** This file adds evidence for an extension of the locked core. It does not alter `00_LOCKED_CORE.md`.\n\n## Extension under test\n\n\\[\n\\boxed{\n\\text{lower-level organization}\n\\rightarrow\n\\text{collective mode / effective medium}\n\\rightarrow\n\\text{new effective interaction}\n\\rightarrow\n\\text{higher-level organization}\n}\n\\]\n\nThis is **not** the same as claiming that every effective interaction is a new fundamental force, or that the four known fundamental interactions have already been derived from RRG.\n\nThe narrower question is:\n\n> Can a lower-level organization generate an interaction channel that is meaningful at a higher descriptive level and that can support a new organized state?\n\nEstablished physics says **yes**.\n\n---\n\n## 1. Phonon-mediated effective attraction in superconductivity\n\nIn conventional superconductivity, electrons couple to lattice vibrations (phonons).\n\nAt the microscopic level, electrons and ions interact electromagnetically. The organized crystal lattice, however, possesses collective vibrational modes. Electron–phonon coupling can generate an **effective electron–electron attraction** in the appropriate regime, allowing Cooper pairing and superconducting order.\n\n\\[\n\\boxed{\n\\text{crystal geometry}\n\\rightarrow\n\\text{phonon modes}\n\\rightarrow\n\\text{effective electron interaction}\n\\rightarrow\n\\text{Cooper pairing / superconducting order}\n}\n\\]\n\nThe effective attraction does not replace electromagnetism as a fundamental interaction. It is a higher-level interaction generated through collective lattice dynamics.\n\n### RRG relevance\n\nThis directly supports the extension:\n\n\\[\nG_n \\leftrightarrow M_n\n\\rightarrow\n\\mathcal I^{\\rm eff}_{n+1}\n\\rightarrow\nG_{n+1}.\n\\]\n\n### Evidence\n\nX. H. Zheng & D. G. Walmsley, *Physical Review B* 71, 134512 (2005).  \nDOI: https://doi.org/10.1103/PhysRevB.71.134512\n\n---\n\n## 2. Emergent magnetic charges and Coulomb-like interactions in spin ice\n\nSpin-ice materials contain microscopic magnetic moments constrained by lattice geometry and frustration.\n\nCollective correlations in this many-body geometry permit excitations that behave as **emergent magnetic monopoles** rather than elementary magnetic charges.\n\nCastelnovo, Moessner & Sondhi predicted these quasiparticles as emergent manifestations of the correlated spin-ice system.\n\nBramwell and collaborators later experimentally measured effective magnetic charges and currents in Dy\\(_2\\)Ti\\(_2\\)O\\(_7\\), showing that these emergent charges interact through a Coulomb potential.\n\n\\[\n\\boxed{\n\\text{microscopic spins}\n+\n\\text{collective geometric constraints}\n\\rightarrow\n\\text{emergent quasiparticles}\n+\n\\text{Coulomb-like effective interaction}\n}\n\\]\n\n### RRG relevance\n\nThis demonstrates that a collective geometry can generate:\n\n- new effective particle-like degrees of freedom;\n- a higher-level interaction law;\n- behavior that is not apparent from treating each microscopic spin independently.\n\n### Evidence\n\nCastelnovo, Moessner & Sondhi, *Nature* 451, 42–45 (2008).  \nDOI: https://doi.org/10.1038/nature06433\n\nBramwell et al., *Nature* 461, 956–959 (2009).  \nDOI: https://doi.org/10.1038/nature08500\n\nMengotti et al., *Nature Physics* 7, 68–74 (2011).  \nDOI: https://doi.org/10.1038/nphys1794\n\n---\n\n## 3. Background-field state changes the observable interaction regime\n\nElectromagnetic and weak interactions are described within electroweak theory.\n\nAs the early Universe cooled, the Higgs field settled into a non-zero vacuum configuration. The \\(W\\) and \\(Z\\) bosons acquired mass while the photon remained massless.\n\nThat changes low-energy interaction behavior:\n\n- massive \\(W/Z\\) carriers imply a very short-range weak interaction;\n- the massless photon supports long-range electromagnetism.\n\n\\[\n\\boxed{\n\\text{background field state}\n\\rightarrow\n\\text{particle spectrum}\n\\rightarrow\n\\text{effective interaction ranges / behavior}\n}\n\\]\n\n### RRG relevance\n\nThis supports the weaker extension:\n\n\\[\n\\boxed{\n\\text{background state}\n\\rightarrow\n\\text{mode / particle spectrum}\n\\rightarrow\n\\text{interaction regime}\n}\n\\]\n\nIt does **not** establish that electroweak physics is itself generated by RRG recursion.\n\n### Evidence\n\nCERN, “The origins of the Brout–Englert–Higgs mechanism”:  \nhttps://home.cern/science/physics/origins-brout-englert-higgs-mechanism/\n\nCERN, “What’s so special about the Higgs boson?”:  \nhttps://home.cern/science/physics/higgs-boson/what/\n\n---\n\n## 4. What these examples establish\n\nSupported:\n\n\\[\n\\boxed{\n\\text{organization at one level}\n\\rightarrow\n\\text{collective mode / constraint}\n\\rightarrow\n\\text{new effective interaction}\n\\rightarrow\n\\text{new collective organization}\n}\n\\]\n\nThis mechanism occurs in more than one distinct physical system.\n\nTherefore RRG does **not** need to invent the possibility that lower-level organization can create a higher-level effective interaction.\n\n---\n\n## 5. What remains open\n\nThese examples do **not** prove:\n\n\\[\n\\boxed{\n\\text{strong, weak, EM, gravity}\n=\n\\text{four successive RRG resonant levels}\n}\n\\]\n\nThey also do not prove that all forces are literally scalar frequencies.\n\nThe locked core remains unchanged.\n\nThe stronger RRG extension remains:\n\n\\[\n\\boxed{\nR_n=(G_n,M_n)\n\\rightarrow\n\\mathcal I_{n+1}^{\\rm eff}\n\\rightarrow\nR_{n+1}\n}\n\\]\n\nwhere \\(\\mathcal I^{\\rm eff}\\) is an effective interaction channel generated, activated, or made dominant by the organization at level \\(n\\).\n\nThe next research question is:\n\n> **Under what general conditions does a resonant geometry generate an effective interaction channel that stabilizes or enables a new higher-level resonant geometry?**\n\n",
+      "plainLanguage": "The supplied addendum reports three distinct physical cases. Their mechanisms and conditions differ. The narrower proposed relation is lower-level organization → effective interaction channel → possible higher-level organization. This is not a derivation of strong, weak, electromagnetic and gravitational interactions from RRG.\n\nThe source’s statements about established physics and evidence are attributed to the document and its cited authors. Individual mapped records are :claim[UT-E10], :claim[UT-E11] and :claim[UT-E12].",
+      "scope": "The supplied 07 addendum on phonons, spin ice and background-dependent interaction regimes.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md, original current edition; source body is extracted, not independently authored.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-04",
+    "dependencies": [
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "343448dbcd4e46d8f8c36c3b40594e82d52013b9ab896037e5ffb12b6d56ed13"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+      },
+      {
+        "entryId": "UT-E10",
+        "semanticDigest": "bf6c7fe5c04cc0deb41a17ec382c833d1f02f792cb724c12c44f51865fb94ce4"
+      },
+      {
+        "entryId": "UT-E11",
+        "semanticDigest": "3f79a043989d7fc132b42e2752c79ba9b981a5b57f23b4f974ce0bd47d3b0618"
+      },
+      {
+        "entryId": "UT-E12",
+        "semanticDigest": "8ff4fc8f803df64283181f379facdb5416c0da2ea6227b3dc9ddf8e8ee8a2af9"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-INTERACTIONS",
+        "path": "research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      },
+      {
+        "sourceKey": "R-CURRENT-PROOF",
+        "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+        "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "a922cffbee06494719b93597ca11243ac274149041ee6c86781f90373b6c765e",
+        "plainLanguageSha256": "8541dcaf2e36f6710bc3e385c45085e0a1a656b72197876a7b2a100007dc1525",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "a922cffbee06494719b93597ca11243ac274149041ee6c86781f90373b6c765e",
+        "plainLanguageSha256": "15670e37c255a318705d2e679152411ce48aa4711b636232b4d1f3995112b134",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared original source wording, sidecar and both rendered bodies: Full 07 body retains phonon attraction, emergent spin-ice excitations and background-dependent electroweak regimes with different conditions and cited authors. Its final section explicitly leaves fundamental-force unification and scalar-frequency reduction unproved.",
+    "meaning": "Full 07 body retains phonon attraction, emergent spin-ice excitations and background-dependent electroweak regimes with different conditions and cited authors. Its final section explicitly leaves fundamental-force unification and scalar-frequency reduction unproved. Both saved canonical bodies and record details match the live renderer; technical guides match actual source context and heading anchors (evidence-reuse.json).",
+    "assumptions": "Original conditions and model-specific limitations remain in the source body and applicable context. No additional website assumption is imposed. Definitions and optional stronger implementations remain distinct.",
+    "hypotheses": "Full 07 body retains phonon attraction, emergent spin-ice excitations and background-dependent electroweak regimes with different conditions and cited authors. Its final section explicitly leaves fundamental-force unification and scalar-frequency reduction unproved. Proposed/open extensions retain their source-reported classification; no experiment, universal law or scientific truth is certified.",
+    "evidenceDescriptions": "Displayed evidence state is project-reported. Reported source assertions remain attributed, not website-reproduced. 08 E06/E07 access restrictions remain in original excerpts and context where applicable. Historical cavity/response work NOT_SELECTED / NOT_RUN.",
+    "openQuestions": "Full 07 body retains phonon attraction, emergent spin-ice excitations and background-dependent electroweak regimes with different conditions and cited authors. Its final section explicitly leaves fundamental-force unification and scalar-frequency reduction unproved. The original 04 six-question register, 06 failure/core-impact columns, 07 open boundary and 02/03 test programme remain separate from locked definitions.",
+    "attribution": "Compared source authors/URLs and bibliography links in original extracts and rendered details. Resolved bibliography identities: BIB-0016, BIB-0017, BIB-0018, BIB-0019, BIB-0020, BIB-0021. Supplied Checked/Location/Inspected source statements describe source authors' reported access.",
+    "sourceMappings": "R-CURRENT-INTERACTIONS lines 3–213; full original and excerpt hashes checked by shared loader. 07_EMERGENT_INTERACTION_EVIDENCE.md, original current edition; source body is extracted, not independently authored. Dependencies and source-local citation aliases validated by shared loader; original S01 identities are source-namespaced. Both base-path bodies compared with actual saved output."
+  }
+}

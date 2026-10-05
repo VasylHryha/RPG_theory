@@ -1,0 +1,12 @@
+{
+  "schema": "unity-m6-integration/1",
+  "base": "/",
+  "scope": "private engineering; no approvals",
+  "browserSmoke": [],
+  "performance": [],
+  "assistiveTechnology": "NOT_TESTED: no actual screen-reader session",
+  "humanComprehension": "NOT_TESTED",
+  "fieldCoreWebVitals": "NOT_MEASURED",
+  "status": "FAIL",
+  "error": "ContractError: SOURCE_BINDING_FAILURE: Corpus extraction membership differs from admitted bindings"
+}

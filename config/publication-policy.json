@@ -1,0 +1,16 @@
+{
+  "schema": "unity-publication-policy/1",
+  "deploymentEnabled": false,
+  "branch": "main",
+  "environment": "github-pages",
+  "approvedTarget": null,
+  "publicContentApproval": null,
+  "privacyApproval": null,
+  "rightsReview": null,
+  "qualification": null,
+  "repositoryFiles": [],
+  "platformProtections": {
+    "status": "NOT_CONFIGURED",
+    "reason": "No owner-authorized repository or platform access supplied. Branch rules, environment reviewers and CODEOWNERS are not configured."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-C02",
+  "fingerprint": "ae11ceb97a740aa17ffb52a98ae6801cb015380092f3cef6ac23f31379485671",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Separate bounded High M3 original/sidecar/renderer/output comparison: 00 §11 background/possibility-space selection remains compatible downstream extension rather than minimal definition. Same-session matching-renderer CSS repair: canonical source/body/callouts unchanged; force-box width repaired from 2px to 122.64px and actual §39 desktop/mobile output compared. Prior issued decisions remain preserved. Website fidelity only; private draft and scientific/release gates remain distinct.",
+  "inputs": {
+    "fingerprint": "ae11ceb97a740aa17ffb52a98ae6801cb015380092f3cef6ac23f31379485671",
+    "ownRead": {
+      "id": "UT-C02",
+      "route": "/claims/UT-C02/",
+      "title": "Background and possibility-space extension",
+      "description": "An open downstream extension, distinct from the minimal locked definitions.",
+      "revision": 2,
+      "kind": "conjecture",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-PROOF"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D05",
+        "UT-D07"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 138,
+        "endLine": 140,
+        "excerptSha256": "69de818aad3845247d950f3f58629c917dd67d3a14689d3c7ea28fc6d38a5a48"
+      },
+      "statement": "## 11. Background / possibility-space status\n\nThe idea that global cosmological/environmental conditions change which resonant geometries are accessible is an **extension compatible with the core**, not part of the minimal definition.\n",
+      "plainLanguage": "",
+      "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+      "evidenceState": "proposed",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §11",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "No universal derivation or force unification is supplied.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-PROOF",
+        "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+        "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared original source wording, sidecar and both rendered bodies: 00 §11 background/possibility-space selection remains compatible downstream extension rather than minimal definition.",
+    "meaning": "00 §11 background/possibility-space selection remains compatible downstream extension rather than minimal definition. Both saved canonical bodies and record details match the live renderer; technical guides match actual source context and heading anchors (evidence-reuse.json).",
+    "assumptions": "Original conditions and model-specific limitations remain in the source body and applicable context. No universal derivation or force unification is supplied. Definitions and optional stronger implementations remain distinct.",
+    "hypotheses": "00 §11 background/possibility-space selection remains compatible downstream extension rather than minimal definition. Proposed/open extensions retain their source-reported classification; no experiment, universal law or scientific truth is certified.",
+    "evidenceDescriptions": "Displayed evidence state is proposed. Reported source assertions remain attributed, not website-reproduced. 08 E06/E07 access restrictions remain in original excerpts and context where applicable. Historical cavity/response work NOT_SELECTED / NOT_RUN.",
+    "openQuestions": "00 §11 background/possibility-space selection remains compatible downstream extension rather than minimal definition. The original 04 six-question register, 06 failure/core-impact columns, 07 open boundary and 02/03 test programme remain separate from locked definitions.",
+    "attribution": "Compared source authors/URLs and bibliography links in original extracts and rendered details. No independent paper result is assigned to this website. Supplied Checked/Location/Inspected source statements describe source authors' reported access.",
+    "sourceMappings": "R-CURRENT-CORE lines 138–140; full original and excerpt hashes checked by shared loader. 00_LOCKED_CORE.md §11 Dependencies and source-local citation aliases validated by shared loader; original S01 identities are source-namespaced. Both base-path bodies compared with actual saved output."
+  }
+}

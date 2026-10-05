@@ -1,0 +1,34 @@
+{
+  "reviewedHead": "a46d943",
+  "productionInputs": {
+    "inputsSha256": "79e577bfa7e07fa76866ebccb6b6c9f8dd7176e2a81ba0e38e24dc7dcfe2e8ce",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "f94c1201b44e40a334700717add2507a767f3e96682decf4d246c153748207a5"
+  },
+  "priorEvidence": "docs/evidence/m2/quality-recheck",
+  "inputsMatch": true,
+  "rootArtifactFilesMatched": 112,
+  "subpathArtifactFilesMatched": 112,
+  "reusedContractCases": 89,
+  "reusedChromiumTests": 24,
+  "sourceAuthority": "research/RRG_CURRENT/",
+  "humanComprehension": "NOT_TESTED",
+  "authorApproval": "PENDING",
+  "status": "PASS",
+  "acceptedMilestone": "M2",
+  "nextImplementationTask": "M3",
+  "m3": "NOT_STARTED",
+  "freshFocusedContractCases": 16,
+  "freshFocusedChromiumTests": 4,
+  "bothPreviewBuilds": "PASS",
+  "bothOutputAudits": "PASS",
+  "websiteDecisions": {
+    "accepted": 14,
+    "stale": 31,
+    "pending": 0,
+    "rejected": 0
+  },
+  "unreviewedRegistryRecordsUnchanged": 31,
+  "originalM1RootReceiptRestored": true,
+  "currentSourceQualified": false
+}

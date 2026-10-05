@@ -1,0 +1,104 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-GEOMETRY",
+  "fingerprint": "3007ec470353c3f61527393978c14b34b6c49d0748dd4c25f155cd1c024d2101",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Independent bounded M2 source/display review: Arrangement and activity describe one RRG object; activity may maintain, transform or destroy arrangement, with neither universally first. Existing unchanged rendered-layout and read-aloud evidence reused after exact input/artifact comparison. This accepts website fidelity only; the entry remains a private draft.",
+  "inputs": {
+    "fingerprint": "3007ec470353c3f61527393978c14b34b6c49d0748dd4c25f155cd1c024d2101",
+    "ownRead": {
+      "id": "DOC-CONCEPT-GEOMETRY",
+      "route": "/concepts/geometry-and-modes/",
+      "title": "Geometry and mode structure",
+      "description": "Relationships, constraints and organized activity, before the formal RRG meanings.",
+      "revision": 3,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-03",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Beginner concept explanation mapped to original core §§1–3 and world §§1–2.",
+      "evidenceState": "not-applicable",
+      "body": "## In ordinary words\n\nGeometry describes how parts are arranged and related. Mode structure describes how they change and respond together. In RRG, both belong to the description of one organized system.\n\n## Try the string example\n\nA string's length and fixed ends constrain possible motion. Its tension and mass per unit length also matter. Arrangement and constraints do not magically provide the physical law. Read the [string illustration](/examples/string/).\n\nMode structure includes patterns, relative timing, responses and characteristic times. It is wider than a periodic vibration or one number in hertz. Activity can maintain an arrangement, transform it or destroy it.\n\n## The source meanings\n\n::claim{id=\"UT-D01\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D02\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D03\" view=\"plainLanguage\"}\n\nThe basic source object is $R=(G,M)$: $G$ denotes organization and $M$ its temporal mode structure. This is the framework's definition, not an extra independently established physical law.\n\nContinue with [stability](/concepts/stability/) or [all concepts](/concepts/).\n",
+      "sourceMapping": "Core §§1–3; world §§1–2. Material and force conditions remain necessary for the string illustration.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-03",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "026e67efb1aed254ed43d960e3505ebdf5909eb76a85f5497645b0cb577b8bdd",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "c137385cc01a9d53420586f8bc98aa576b7ce5a57c818caf3568df3ef3c25205",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "The rendered UT-D01/02/03 plain-language callouts agree with core 1-3; mode structure includes response and timing beyond one hertz value.",
+    "meaning": "Arrangement and activity describe one RRG object; activity may maintain, transform or destroy arrangement, with neither universally first.",
+    "assumptions": "The string explanation retains tension/mass and says constraints do not provide the physical law.",
+    "hypotheses": "The linked stability page carries the distinction between definition and application; this concept does not claim universal derivation.",
+    "evidenceDescriptions": "Canonical definitions are attributed as framework meanings; no new independent physical law or empirical result is assigned.",
+    "openQuestions": "The linked stability page carries the distinction between definition and application; this concept does not claim universal derivation.",
+    "attribution": "Compared with the original supplied RRG_CURRENT documents and the rendered canonical callouts. Canonical definitions are attributed as framework meanings; no new independent physical law or empirical result is assigned. This decision is agent review, not author approval or independent scientific certification.",
+    "sourceMappings": "Checked the declared mapping: Core §§1–3; world §§1–2. Material and force conditions remain necessary for the string illustration. Source identities and canonical dependency meanings are recorded in inputs; originals remain unchanged."
+  }
+}

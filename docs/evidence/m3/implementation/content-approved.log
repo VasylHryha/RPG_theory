@@ -1,0 +1,27 @@
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts --evidence-dir docs/evidence/m3/implementation
+
+/Users/new/RiderProjects/RPG_theory/src/lib/markdown.ts:29
+    if (failure) throw new ContractError('MATH_RENDER_FAILURE', String(failure.cause ?? failure));
+                       ^
+
+ContractError: MATH_RENDER_FAILURE: ParseError: KaTeX parse error: Undefined control sequence: \[ at position 99: …eraction, and
+
+\̲[̲
+\boxed{
+\omega…
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/src/lib/markdown.ts:29:24)
+    at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:160:27)
+    at next (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:86:23)
+    at done (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:194:7)
+    at then (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:204:5)
+    at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:181:9)
+    at next (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:86:23)
+    at done (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:194:7)
+    at then (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:204:5)
+    at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:181:9) {
+  code: 'MATH_RENDER_FAILURE'
+}
+
+Node.js v24.18.0

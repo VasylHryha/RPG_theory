@@ -1,0 +1,291 @@
+{
+  "config": {
+    "argv": [
+      "/Users/new/.local/node/bin/node",
+      "/Users/new/RiderProjects/RPG_theory/node_modules/@playwright/test/cli.js",
+      "test",
+      "tests/e2e/technical.spec.ts"
+    ],
+    "configFile": "/Users/new/RiderProjects/RPG_theory/playwright.config.ts",
+    "rootDir": "/Users/new/RiderProjects/RPG_theory/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m3/implementation/browser-traces/root",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/new/RiderProjects/RPG_theory/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/m3/implementation/root-browser.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "technical.spec.ts",
+      "file": "technical.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M3 technical reading and source discovery work without JavaScript",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 738,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#11-the-four-interactions-current-rrg-position')\nExpected: in viewport\nError: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#11-the-four-interactions-current-rrg-position' is not a valid selector.\n    at query (<anonymous>:5720:41)\n    at <anonymous>:5730:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)\n    at <anonymous>:5545:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)\n    at Object.query (<anonymous>:5752:44)\n    at <anonymous>:5710:21\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" locator('#11-the-four-interactions-current-rrg-position') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#11-the-four-interactions-current-rrg-position')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#11-the-four-interactions-current-rrg-position')\nExpected: in viewport\nError: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#11-the-four-interactions-current-rrg-position' is not a valid selector.\n    at query (<anonymous>:5720:41)\n    at <anonymous>:5730:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)\n    at <anonymous>:5545:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)\n    at Object.query (<anonymous>:5752:44)\n    at <anonymous>:5710:21\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" locator('#11-the-four-interactions-current-rrg-position') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#11-the-four-interactions-current-rrg-position')\u001b[22m\n\n    at query (<anonymous>:5720:41)\n    at <anonymous>:5730:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)\n    at <anonymous>:5545:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)\n    at Object.query (<anonymous>:5752:44)\n    at <anonymous>:5710:21\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/technical.spec.ts:16:80",
+                    "location": {
+                      "file": "<anonymous>",
+                      "column": 41,
+                      "line": 5720
+                    }
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "<anonymous>",
+                        "column": 41,
+                        "line": 5720
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#11-the-four-interactions-current-rrg-position')\nExpected: in viewport\nError: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#11-the-four-interactions-current-rrg-position' is not a valid selector.\n    at query (<anonymous>:5720:41)\n    at <anonymous>:5730:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)\n    at <anonymous>:5545:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)\n    at Object.query (<anonymous>:5752:44)\n    at <anonymous>:5710:21\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" locator('#11-the-four-interactions-current-rrg-position') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#11-the-four-interactions-current-rrg-position')\u001b[22m\n\n    at query (<anonymous>:5720:41)\n    at <anonymous>:5730:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)\n    at <anonymous>:5545:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)\n    at Object.query (<anonymous>:5752:44)\n    at <anonymous>:5710:21\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/technical.spec.ts:16:80"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T17:34:59.333Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m3/implementation/browser-traces/root/technical-M3-technical-rea-12a70-ery-work-without-JavaScript/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m3/implementation/browser-traces/root/technical-M3-technical-rea-12a70-ery-work-without-JavaScript/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "<anonymous>",
+                    "column": 41,
+                    "line": 5720
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f9ec34fa5d3770304f3-7459dd190ee691fc18da",
+          "file": "technical.spec.ts",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "M3 equations and technical readings remain accessible at 320px in dark mode",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 8451,
+                  "error": {
+                    "message": "Error: evidence/interactions/\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: evidence/interactions/\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/technical.spec.ts:30:100",
+                    "location": {
+                      "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/technical.spec.ts",
+                      "column": 100,
+                      "line": 30
+                    },
+                    "snippet": "  28 |   for(const route of ['framework/','math/','evidence/','evidence/interactions/','evidence/additional/','open-problems/','documents/locked-core/','changes/']) {\n  29 |     await page.goto(base+route);\n> 30 |     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),route).toBe(true);\n     |                                                                                                    ^\n  31 |     await expect(page.locator('.katex-error')).toHaveCount(0);\n  32 |     const audit=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();\n  33 |     expect(audit.violations,JSON.stringify(audit.violations)).toEqual([]);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/technical.spec.ts",
+                        "column": 100,
+                        "line": 30
+                      },
+                      "message": "Error: evidence/interactions/\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n  28 |   for(const route of ['framework/','math/','evidence/','evidence/interactions/','evidence/additional/','open-problems/','documents/locked-core/','changes/']) {\n  29 |     await page.goto(base+route);\n> 30 |     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),route).toBe(true);\n     |                                                                                                    ^\n  31 |     await expect(page.locator('.katex-error')).toHaveCount(0);\n  32 |     const audit=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();\n  33 |     expect(audit.violations,JSON.stringify(audit.violations)).toEqual([]);\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/technical.spec.ts:30:100"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T17:35:01.255Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m3/implementation/browser-traces/root/technical-M3-equations-and-767cb-sible-at-320px-in-dark-mode/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m3/implementation/browser-traces/root/technical-M3-equations-and-767cb-sible-at-320px-in-dark-mode/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/technical.spec.ts",
+                    "column": 100,
+                    "line": 30
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f9ec34fa5d3770304f3-8737f3452cffff8a3b15",
+          "file": "technical.spec.ts",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "M3 evidence attribution, scope and open tests remain visible beside the actual sources",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 911,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#19-strong-failure-conditions')\nExpected: in viewport\nError: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#19-strong-failure-conditions' is not a valid selector.\n    at query (<anonymous>:5720:41)\n    at <anonymous>:5730:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)\n    at <anonymous>:5545:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)\n    at Object.query (<anonymous>:5752:44)\n    at <anonymous>:5710:21\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" locator('#19-strong-failure-conditions') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#19-strong-failure-conditions')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#19-strong-failure-conditions')\nExpected: in viewport\nError: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#19-strong-failure-conditions' is not a valid selector.\n    at query (<anonymous>:5720:41)\n    at <anonymous>:5730:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)\n    at <anonymous>:5545:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)\n    at Object.query (<anonymous>:5752:44)\n    at <anonymous>:5710:21\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" locator('#19-strong-failure-conditions') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#19-strong-failure-conditions')\u001b[22m\n\n    at query (<anonymous>:5720:41)\n    at <anonymous>:5730:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)\n    at <anonymous>:5545:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)\n    at Object.query (<anonymous>:5752:44)\n    at <anonymous>:5710:21\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/technical.spec.ts:58:63",
+                    "location": {
+                      "file": "<anonymous>",
+                      "column": 41,
+                      "line": 5720
+                    }
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "<anonymous>",
+                        "column": 41,
+                        "line": 5720
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#19-strong-failure-conditions')\nExpected: in viewport\nError: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#19-strong-failure-conditions' is not a valid selector.\n    at query (<anonymous>:5720:41)\n    at <anonymous>:5730:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)\n    at <anonymous>:5545:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)\n    at Object.query (<anonymous>:5752:44)\n    at <anonymous>:5710:21\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" locator('#19-strong-failure-conditions') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#19-strong-failure-conditions')\u001b[22m\n\n    at query (<anonymous>:5720:41)\n    at <anonymous>:5730:7\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)\n    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)\n    at <anonymous>:5545:29\n    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)\n    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)\n    at Object.query (<anonymous>:5752:44)\n    at <anonymous>:5710:21\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/technical.spec.ts:58:63"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T17:35:10.934Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m3/implementation/browser-traces/root/technical-M3-evidence-attr-001b8-e-beside-the-actual-sources/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m3/implementation/browser-traces/root/technical-M3-evidence-attr-001b8-e-beside-the-actual-sources/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "<anonymous>",
+                    "column": 41,
+                    "line": 5720
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f9ec34fa5d3770304f3-1c248c4d624cad2c7ada",
+          "file": "technical.spec.ts",
+          "line": 48,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-04T17:34:58.741Z",
+    "duration": 13326.489,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}

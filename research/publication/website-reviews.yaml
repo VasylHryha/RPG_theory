@@ -1,342 +1,572 @@
 [
   {
     "purpose": "website-source-fidelity/1",
-    "entryId": "DOC-STATUS",
-    "fingerprint": "a75e8a538ccbdc9c2b806278156ec2c66bef6bbe1f8e08466ba6dafe22cd015d",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/DOC-STATUS.json",
-    "evidenceSha256": "d7a918bab1b118ffd2e39987b36132681193689ad2a732095e97b9137d6eaebc"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "DOC-PROOF",
-    "fingerprint": "f041a9ba5c98cb2d0a9b66c7d9f378b5233602098f4d33cd29b80af79bf1b523",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/DOC-PROOF.json",
-    "evidenceSha256": "75aba12a7c50cc85af367bff3f6de719f57b72006209af8e86f09aeca378dba2"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
     "entryId": "DOC-CONCEPT-GEOMETRY",
-    "fingerprint": "923ed8d86780b2c14fc9d44a42bc74f6e2c895c3adaaba08131a05588055b4ff",
+    "fingerprint": "3007ec470353c3f61527393978c14b34b6c49d0748dd4c25f155cd1c024d2101",
     "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
+    "reviewedAt": "2026-10-04",
     "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/DOC-CONCEPT-GEOMETRY.json",
-    "evidenceSha256": "a5ad704a97a68e499c16ddac879e09083ccd7ba234ed463d5bd665f8629c3558"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-D01",
-    "fingerprint": "a1dc930fa3871a9ab3dd4ffb515d8a5438f69de60a9755937056abc63136e616",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-D01.json",
-    "evidenceSha256": "4d2363f999798d2161783da0c7e15e1c50d317c4703a53192e0afcd7ab83f46e"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-D02",
-    "fingerprint": "3d64ab03dbce441c5ef06e80a709b271458b735ce198effad2aee014eeaa80b8",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-D02.json",
-    "evidenceSha256": "e3ff6e54a14e2fe3cc72fecbfa7d832be11376e006a3c8414b77a43d438901af"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-D03",
-    "fingerprint": "62e78b1e8c81997459381130b1cdbb870c50326033dfdd99ac0d59082ecab000",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-D03.json",
-    "evidenceSha256": "38be4cf2c1e49b438a80c6bd8f96cded70661c74274f80264b590daf64f4ea22"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-D04",
-    "fingerprint": "13d6e8b6ed5df9406ebb2f6477758ba3f252dde632e17eb187ce9e2632512287",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-D04.json",
-    "evidenceSha256": "a5b4bfd5e6e4559b64684bbab7252081e48b1a99f9f379e98b450bd662e4e199"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-D05",
-    "fingerprint": "b03f713c559676e08c3b35ed0432173f815bdcb5303b88aeb670c9c409653720",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-D05.json",
-    "evidenceSha256": "ff091b0c099625f829d947c86b14c6db442304b69c650d972693502a307fe16b"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-D06",
-    "fingerprint": "36bafb7527fbc2a4814cc2aba06d8e1264260b9df7b06e4e5ce338df2e032fb9",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-D06.json",
-    "evidenceSha256": "e6dfcbd7a66b3d568b375472de2279f6c9139e043f60e6e6dde8ebf4805acc5c"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-D07",
-    "fingerprint": "f542650fb53c323d312f5dceef42d34a4807cafbb91b566f1341ba93b1006202",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-D07.json",
-    "evidenceSha256": "b8b32bd1d259fb4dc6dfe10f9829226450b9609a34963f0b2ca46227c27351f9"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-D08",
-    "fingerprint": "884218454d60101a9900f0b99d3debe36c8b5de04cd40ac26ddf42323c4d4189",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-D08.json",
-    "evidenceSha256": "c11b687bc0033332fece67a6007a65bebe49af5efaf98b005fc9d579fb61fb02"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-D09",
-    "fingerprint": "53855d25aba258e47ffc2ae0e1508b93a3011389e316aea2db9ef25059840512",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-D09.json",
-    "evidenceSha256": "d0e23d0554dfa655e8933f275f04ff0b003b9cb44040c2bae6e7d9894661b4f4"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-C01",
-    "fingerprint": "b937950dd88f73452a058b3c20efea22575840cbf77c6de0032677fb05bba2d4",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-C01.json",
-    "evidenceSha256": "1df4307ba7696b851f48b88e2b9fcd328d9d1de4913b675ffd66c77facb5170b"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-C02",
-    "fingerprint": "94bf6514abd2664d4f7bf532756541160afe94269111594c9405d63c19b7e25b",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-C02.json",
-    "evidenceSha256": "d7800dd65d6935194d26ba26639050dfa6f120a61fff9dc1a8c24f6993e3bffa"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-O01",
-    "fingerprint": "d40e43c82573a525e6dcdc80aa98ea111e30906d4d9af3522cd7aa93fa324bc6",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-O01.json",
-    "evidenceSha256": "6317db23009b8484110df66448bc0a8e8016618fd0a2bf71dcd9b64b81bfd30a"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-O02",
-    "fingerprint": "57a807cba4bdbb7f8ad8a1d35da67494e8a6e3033b5f34eaaa41f9ee694d7967",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-O02.json",
-    "evidenceSha256": "15832811895b5621ad587aea09be0ea3a617ce20f1ac1e6a368249627d4e8aa6"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-O03",
-    "fingerprint": "5539002049ba0c724d78b37e7fe185510396881e8942542b53829f5561772b2c",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-O03.json",
-    "evidenceSha256": "f0e4e2e87cc6ba6ed474c2588fe40738b3859bf739c49fbb806f16962e65d42f"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-O04",
-    "fingerprint": "2593e208f42adc404ee159b4ac92f74686620fa159921b7d557b9224e83e7001",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-O04.json",
-    "evidenceSha256": "1c72fe8e641569454d0fc9405ae5d4df077d4d775128450c4f331b20f55d6d58"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-O05",
-    "fingerprint": "b7cc19fd5b76e7fec8308a946532fdf281b6851517e5cdac87b72bbf7bd492a4",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-O05.json",
-    "evidenceSha256": "b1b2aae19287c1a8f6400fa0f42cecfab081771f71945c9f1bcff5ca33c73bb0"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-O06",
-    "fingerprint": "c02b2d4d523ebaf05cde250a0f8ea663e33b0ca30fde45542a93b6f6883a7e0e",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-O06.json",
-    "evidenceSha256": "b602d8eb534ebe8e0afa83dea0f747cdb024d3f2e3f1e4c68732e5d9801d7dd8"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E01",
-    "fingerprint": "f1e4fcc95100d1edba6ae6a2bb3b2ff0b0818d8fc98e39c5f0cee81b5fd33762",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E01.json",
-    "evidenceSha256": "fd176dfe189c97795032539ba7f65c21ec9b193d3b5adc6c3194e04bc7e1d07b"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E02",
-    "fingerprint": "b4daa30df8b3727485f39bb41eb56de700ec36246a971248cca997a7322709bc",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E02.json",
-    "evidenceSha256": "79f4a3d2bf74f118bb6aed9f612efb7a4ebbf99cb5bd63d2703c65ced22be45a"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E03",
-    "fingerprint": "f4f22d385cc7cb44bc5d65a7c3906ded4ed2e7f518796f27745518f21a208ed7",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E03.json",
-    "evidenceSha256": "d91631a0821709021ed84f868ecce0092ebc4ac4f4e562f262f5e7c07ed79a7c"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E04",
-    "fingerprint": "e32b9bceccf6a75dac10969944a5cf037060c90de72c7b5578008a1af5565bb5",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E04.json",
-    "evidenceSha256": "280f2b6654b1966fe1862bd1a45ca93e7a83f8f051179e5dfdf6f9ecee23598f"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E05",
-    "fingerprint": "ce1efbd1caff1796d90edda33848fff15d9de6a4d2bc1a6aa7633463976c974f",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E05.json",
-    "evidenceSha256": "c38eada2762f6b8304f835cbecf14977618a82f4d94f7e58b48f06c4f5125ec7"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E06",
-    "fingerprint": "6db45392f0e68a7058277e18e83a5592828c2d57fa9e5e1b053c3118c06219a7",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E06.json",
-    "evidenceSha256": "b4f6bd955b34f32c4f40c0d8f3da9b7aa78a55af548a0438539f70aed880710f"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E07",
-    "fingerprint": "c8d59e2d0c86d75d848ebaab7ea269b74f153746adf33645c83d30f2e52a8f25",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E07.json",
-    "evidenceSha256": "d8b20ca2ab71410b5406c72ee19b208b62972028fb0da621ae7e5c31b5342a00"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E08",
-    "fingerprint": "076b5ae75d0281bac3ff88c2743a616046cd6df6100a0c2e3e3a154aac540aa5",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E08.json",
-    "evidenceSha256": "3c01f5c8b22829a9e5f6b168d3abdc156e18aaec319f59968a90b3f6a1791be0"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E09",
-    "fingerprint": "beffb5732d426ed23b46e64288d8f897a0f61836f91fca079e7450d78e3d8102",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E09.json",
-    "evidenceSha256": "9a93e6a8793fc66292da86e0c1f58617ff8b771cbea67b2c29827281826e6330"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E10",
-    "fingerprint": "4b8fe8ef0716de34bccc21a205ce8d5f8c8101d38f4bc52db71ab506eef5659b",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E10.json",
-    "evidenceSha256": "9c1791dd042ed67f96deef2815acace8b5701eef586dbde2734edae9172b6a0e"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E11",
-    "fingerprint": "136cc19f697c9930c3b6e994d82e7d79f3ac02f38bb792e394d92bab1b3dcba7",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E11.json",
-    "evidenceSha256": "e6c1a98965c89a6ef70f368a5ce6a16a306338cb7aa122629ca0f8e7f42f04e8"
-  },
-  {
-    "purpose": "website-source-fidelity/1",
-    "entryId": "UT-E12",
-    "fingerprint": "afc1071d188e84cc63ff986b6628fb4e46548a2a40303dcd18824d35afe1c98c",
-    "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
-    "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/UT-E12.json",
-    "evidenceSha256": "c954d7f3ed91c105a0f376cc21686a81202cc719b63c6ef2201edb4692fad4a6"
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-CONCEPT-GEOMETRY.json",
+    "evidenceSha256": "3fb6c24551b995ccbb956b517b3570bc0aca29353aaafe54f89b3338b25efe6a"
   },
   {
     "purpose": "website-source-fidelity/1",
     "entryId": "DOC-HOME",
-    "fingerprint": "836e8f7d30644fd00bde35dd7b70f1cbffe57f8cc0b2a4cebcb1f0d83bc2a482",
+    "fingerprint": "463a833b2ba08bdfb966243b20478545f76152c152a95b2a9647206b0c9c1ad9",
     "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
+    "reviewedAt": "2026-10-04",
     "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/DOC-HOME.json",
-    "evidenceSha256": "32d96c04ad15e9351686e4e3346a4cfd6e4a81e093508b06b71bf7536dc48efa"
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-HOME.json",
+    "evidenceSha256": "5948372cdb9f03e155a1b68a9c81ad5c7c8953ad4e566c51a665a90ec520838f"
   },
   {
     "purpose": "website-source-fidelity/1",
     "entryId": "DOC-START",
-    "fingerprint": "61f69aa8ee0aa6b30c85c315d3eb2c2721ff67998e08945f6534e226661097d8",
+    "fingerprint": "19312a202785209ef7ad3b01689ea2274641e8ccf895a63c1b5e267888370780",
     "reviewerKind": "agent",
-    "reviewedAt": "2026-10-02",
+    "reviewedAt": "2026-10-04",
     "outcome": "accepted",
-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/DOC-START.json",
-    "evidenceSha256": "6aa9acbc63d16b56d222ad7fedd12f552bb1632d61270d288ff552ca8a182bbb"
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-START.json",
+    "evidenceSha256": "0bcf217c31dc4c778b26b38680f985f568439bcf131559ce599120af53a82aed"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLES",
+    "fingerprint": "e19ce6863520a247bf7b445c5b12cc4e376cf4658dbb4db16f665396fc4e74ca",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLES.json",
+    "evidenceSha256": "4d37793518a591a2a1b82bcedca866b2ba96375c025316296a64f225865318d9"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONCEPTS",
+    "fingerprint": "f5ac512cd47a7b5b87168630c73175d5d406009f5a238312bd82fd3e95d4e8db",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-CONCEPTS.json",
+    "evidenceSha256": "68007b6abc6fc8e4e0da6c40b6a64cdf8136f325896080a934ad814164f08d58"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-WATER",
+    "fingerprint": "5f2c7e2340dc781ddddd6f69ac7788696282a31833d25c5f5a02fa2ff1116e20",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-WATER.json",
+    "evidenceSha256": "14f2ae9680a0fff6c8903c76955c1262932952635ce48247af3058f3a448bc0c"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-STRING",
+    "fingerprint": "ee22d025232a9df4e53c438d7ec8a0d5944e3c48fc7079679d9f67c0c8c4c380",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-STRING.json",
+    "evidenceSha256": "dccb698ef01719cc7206dd0af3d2035b3caad9ec0f14fb4f7a3ebd9a005597b2"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-MOLECULE",
+    "fingerprint": "dd9ffaf520799329538a6587b7d9ef6d1957fa259af3c08a06ee4f0d1ea197cc",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json",
+    "evidenceSha256": "b0c31e38052423a61c244f2495579a1fbfdf7f0ec7d26ce5abd430e3d55e28c8"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-STAR",
+    "fingerprint": "696ffc005885f069eb94e47deba9846b8e9ac15a16bb97d0c5735bbfe3aba610",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-STAR.json",
+    "evidenceSha256": "d5b42e2b6c2fc74ddad67a58a790a593d9f1cfc69e194f3a98cf8dcb8361707b"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-LIFE",
+    "fingerprint": "45070a3e643bd971fc10c38ec7583a620414e173e24fe8019811037b72700925",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-LIFE.json",
+    "evidenceSha256": "1398f7fe3bbbd6d9f04d62c20f045b4a9dd24f17a99fd342f1111925d6a84652"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-CELL",
+    "fingerprint": "f0e51d48490bb78df91a4796d10c580514be4cb209f671c2b1211b22247a8be1",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-CELL.json",
+    "evidenceSha256": "bd0d4ef4f22ac977756fd84fa1506e186d0473a0a9ee08e7f227e658bdc4aeed"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONCEPT-STABILITY",
+    "fingerprint": "e85d18abd219a35af57659dd0fc8f81afaeed2ca7d525198934b39ced58f1c93",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-CONCEPT-STABILITY.json",
+    "evidenceSha256": "aa1ee1ed919f14729704e0ea29fb297acc74e60f96b6d9f5fecc47d71a1cf0ba"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONCEPT-RECURSION",
+    "fingerprint": "dfc82c4dfd55c3cdb52ea1633c78cf921ef0fdd82aa130843b1cb605e7bd7e73",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-CONCEPT-RECURSION.json",
+    "evidenceSha256": "8e19ed194bd00acd7337014ef1540c93724b98994565a884dfbc0a3b8e3ae5d0"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONCEPT-INTERACTIONS",
+    "fingerprint": "6eddf8477cfee9a8bbea6726b3e4c53ec2794ebeeb6b4ced3c5deb1b9b55de1d",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-CONCEPT-INTERACTIONS.json",
+    "evidenceSha256": "7d8f585a030b2471073355986858822c83722c3b3ecf28226eba00c0e464091f"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CORE",
+    "fingerprint": "ddc5f04352101aae66db55c0a63716fe1e59429932228bc2810e930377553a96",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-CORE.json",
+    "evidenceSha256": "b6f662a873af405079bc35504212d47c385c8838706d9e11bb0b5c5943ed6cde"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONTROL",
+    "fingerprint": "2f3c0811d0e22690f59d81785816f73c31387545f0d9f2ba930f7d7027eaa689",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-CONTROL.json",
+    "evidenceSha256": "57d8d63fba17aedcfb4bfc00f6bc008cda8d8764229360892cdd9cca6157b41a"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-FRAMEWORK",
+    "fingerprint": "d945770a4b98d57c7ce6833529b7501d56e1af5440d55ecc8b334c29aee3a74b",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-FRAMEWORK.json",
+    "evidenceSha256": "e370f7731fa835d7ddd6af2d3faadd063815f888a1bf566a73a3604547f21a95"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-MATH",
+    "fingerprint": "3e2ec52393b0c231205305bca63a82b6e2cc235040e92f1de98d29f2d4aa5344",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-MATH.json",
+    "evidenceSha256": "3da92485d1b6daf5e2fef008a3ac8d2dbf93f76c8d9c14a56feacf0ed497e262"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-STATUS",
+    "fingerprint": "b58fc25cc6f55cad8c8fd5653fb3b504136893cd3ebb1f871c003b19e6e674ad",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-STATUS.json",
+    "evidenceSha256": "a0842a55aa2baf6ec0c62f2b73299390b30f75e86eacdd99bb449a6c42a7cb7d"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-PROOF",
+    "fingerprint": "913b253cbef35411666380e15eea820f4ce707434cf7e10774e4f3a7d12595f4",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-PROOF.json",
+    "evidenceSha256": "473265903f9e092ce70a29bdcb0edbf595056ef998a55f57db792977b10a260b"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-INTERACTION-EVIDENCE",
+    "fingerprint": "51f4c7cb362bb0ae97485dca4e93b28468321add02423e0c2fe4ea1b34ed25be",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-INTERACTION-EVIDENCE.json",
+    "evidenceSha256": "c5d4ea13fe1646610c22f44e41b581741664453527e134af7ab8c40b250a91f7"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-ADDITIONAL-EVIDENCE",
+    "fingerprint": "b34114d4efef11dc314fd41841dddb1ee7ddb7ec8553c73d11daac2adbfabe60",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-ADDITIONAL-EVIDENCE.json",
+    "evidenceSha256": "83b1286313050df32f0225e24a1cdafdc347cb81d8d255a5be21147fd037a820"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-OPEN-PROBLEMS",
+    "fingerprint": "c354996df2f9045fa8f4ec48be0d8b971787bf0863d7f5ad2506019d3f4d9f14",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-OPEN-PROBLEMS.json",
+    "evidenceSha256": "3c65042a6209b8520fe85fd3122cc7e28d201b3ce34f90884c9eb576c2719476"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-SOURCE-CHANGES",
+    "fingerprint": "16155adf8b37b004a31018337519cbe73d31915f70576e7166d6028e7bbbb706",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-SOURCE-CHANGES.json",
+    "evidenceSha256": "e232f9ad2d8edacd09a8bd08f130e71c6adc26b66496447da0d6e760568daca8"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EVIDENCE",
+    "fingerprint": "fa5fd524a16172ca26637ee59e3fca66541363e93ad8336ba1d36c21a2040918",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-EVIDENCE.json",
+    "evidenceSha256": "e5369b9a3296f70c0731d9f30d16353f885352e659e0c088bd337a7b752acbfe"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-LIBRARY",
+    "fingerprint": "e63a23f4d23457874d0cc88cc509c93f62e0f19091a38f9aff0e083c951b9a93",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04T20:27:30.716Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m4/acceptance/decisions/DOC-LIBRARY.json",
+    "evidenceSha256": "6fb57ba8829ff28163691624a6d291390f2b925137f868f2ca2ce858b4be0a19"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D01",
+    "fingerprint": "6d325dc988fe81a1556fa5563e36e7b64c9de89f46e754b3e89758661b112bd3",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-D01.json",
+    "evidenceSha256": "1614898583856a9d2a6d4f99e9cee13c218200424d5dfc3ff6eac9dc240abbeb"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D02",
+    "fingerprint": "74320d53f5097e48923779fa83f3462ee369420780d04963670170b311fd2267",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-D02.json",
+    "evidenceSha256": "b26875950d1b0759aa510557e41fad1433c50e7e34e21cce72cdb00f00b4f97d"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D03",
+    "fingerprint": "724fe98a282d3068bc8f2d05c6b5ed03556e50db5aeba6d877485d0cbc810df1",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-D03.json",
+    "evidenceSha256": "42b8197b9c1d43b609bfcae571868f2100f4ec99180c4b92346b0280995d89ce"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D04",
+    "fingerprint": "60e553601b277d1e0ce1ac03f55990a9bfd8a57ccf0e3aff93d08f6a9474c906",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-D04.json",
+    "evidenceSha256": "76b8f1b7a618610e61dc1d09f09435c1eef3e1c994b3d15226b89b19fac8f181"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D05",
+    "fingerprint": "1f1f843d648192b601e64a6f8799dc707cf95db2d2f77d2852efade7d8f16bdd",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-D05.json",
+    "evidenceSha256": "c13b754b1e4d62a8e572b83a1030e130798c6ea31aa80fc9f221a6c5053e70e6"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D06",
+    "fingerprint": "c79a0ba87f2dc6ac0d29aa67b7a6d1a8125968a2ff51f8e962882faf98a864f0",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-D06.json",
+    "evidenceSha256": "3f470857dd3e2dcc0d9d880d392e5fb17406637de589241f7f42bc2b59cebc69"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D07",
+    "fingerprint": "c7edc7c7df71d800806dd261758069b099aaa0177e25d07a11d000cec5c62088",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-D07.json",
+    "evidenceSha256": "99083537f9465c20208b41b86b4014720a2424be44ab12898cf3288d8f924947"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D08",
+    "fingerprint": "1b633ea64d90a0b9a95d4eb17f3de43dff5eca42d84878d55c4f8f91049fcec1",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-D08.json",
+    "evidenceSha256": "ffae2a612d9d579f9a6662000bf1376ead9710d74b50425002a7a356f6c660e8"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D09",
+    "fingerprint": "f6c260871ed027578c94f8b570306b701f70e1af292c6ca1760ab846a2b38d74",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-D09.json",
+    "evidenceSha256": "88fbb1cad475967794918b5cb74978b9e3561fb94303e09173afb374fd18432a"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-C01",
+    "fingerprint": "cb0f81577ce1b29d94fd8b47b67a8a2b04af9e06a43aaaa3a280ae2d44dd94e0",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-C01.json",
+    "evidenceSha256": "133ad67e10fa535f0be07e65d1c46be65beeda9735d00f666d2f51adc1f838ab"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-C02",
+    "fingerprint": "ae11ceb97a740aa17ffb52a98ae6801cb015380092f3cef6ac23f31379485671",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-C02.json",
+    "evidenceSha256": "bca63a9619db6d3872c6e9af181c8bd292eb107ba99dabc0187eff3d2061d488"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O01",
+    "fingerprint": "2f2565009d7b12ec51d2aadbfbc172fd402e3a4d579f6fad2d926ec7ffe3b07c",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O01.json",
+    "evidenceSha256": "a704b7ea24abdef0627d0a57aa824008c98ccad44c319166906af85e90210915"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O02",
+    "fingerprint": "69aeddb19d9a9bd364c39ca8310d605b1f79760624f608f1e88defc6cdbdfc0b",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O02.json",
+    "evidenceSha256": "17503ceddab5de23299b9d659a932f66829f35016470070d565a831813bd29b1"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O03",
+    "fingerprint": "9c0d7e619b1a73b710160c68fa5209472959e0f1a21c4dd3f0ba7f3daa8a9cd8",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O03.json",
+    "evidenceSha256": "7aefee1c6c4548db314bd4bb217288f2176302d9bed39d09a0cb3117dac0c63b"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O04",
+    "fingerprint": "7313eef7f077b5ce6938d31cbb916a050f28e238efbda9ec2af802e5ba9b6fc4",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O04.json",
+    "evidenceSha256": "edda9fcb6ef0f807ab97f08ba198643414267b38ab0425df7514cf0517d87f09"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O05",
+    "fingerprint": "5fff9d59e702d60ef4b81bc44718bd14b2eb9fb6b176886e447512e46e2a0b46",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O05.json",
+    "evidenceSha256": "735fc8e58a6064e7d62b5aad7a3897470989a615a134248a4c01f6f3a3d4771e"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O06",
+    "fingerprint": "eb0fdc026ddbf410fa18624755f3fa986ac9aafae42c4fc5aef0c1850a52a52c",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O06.json",
+    "evidenceSha256": "e9e925d08a9204dceb18f7ec1b22fcafdfa002dd65cf5d2f561247175cfe33cb"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E01",
+    "fingerprint": "2572e7e2ab35d3aca0e3c3f98d348f3dbe460a2734f7fe447a4f6e19b7abfb63",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E01.json",
+    "evidenceSha256": "802006a1fa8f5436007779e4d6ddcd5f863dd4cdacd4dff3d64cc45d68a0eebc"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E02",
+    "fingerprint": "5cc53048b81fabb6904d7b29f9123a2724f1cc595fca6d7b8e848b5550bf6ed7",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E02.json",
+    "evidenceSha256": "d452361f9cba9fc656280a13f3fc2a4782488e07ea1f2101ce4be2c51482082e"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E03",
+    "fingerprint": "37c225d171ff60677aa362860976531b02267da604aa7364576087861cfb3e87",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E03.json",
+    "evidenceSha256": "3b0a20770cdea6ba0ed4bc5bd6be0902942b5fc65ee38700f10f5908781b6a15"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E04",
+    "fingerprint": "e4718eaab4497ba2b795b36485e7f6e1c8841d213421c40fb4ad0f85954d3bc6",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E04.json",
+    "evidenceSha256": "3c1df5083525af398787b6165900feac7f31f5a7323650663cb7387e805dc1e3"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E05",
+    "fingerprint": "f3261504c8ec8f353545dcd2b914ff98e82ca7c80d99a55180f16f90add74aa0",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E05.json",
+    "evidenceSha256": "fcf7e90f298d772ca6cf2dada391305e1cd73bd2e794607dcc3814544cfc8ad6"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E06",
+    "fingerprint": "bdbce5498fe6c672b42c8a16a5079ded339256cf4dc096aa994f488ccf4abad7",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E06.json",
+    "evidenceSha256": "45ad6472cead78a5f897c77d01786fba641803c58ef60385830f7ac7e1ed5cef"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E07",
+    "fingerprint": "ade82cd5d1a7d5239ad40ebbcda69d9652597185334e150e009c62146804ed30",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E07.json",
+    "evidenceSha256": "60c43c14c1525e6a7fd68818cf775b7deb7cccdd27a6e33dd4da9e53ef35122d"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E08",
+    "fingerprint": "e8f31b3a68d649a4329988f99e16a6e3bd831431efd4dc9c42384dad53dd15cb",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E08.json",
+    "evidenceSha256": "cff099e2d96579bde960e7d394e65bfefec54bf62fa9b757760e8a07e1ca1009"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E09",
+    "fingerprint": "949c4253446b1be4f79f35bcc292d04cd58cbb96544203faa77d419679850c44",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E09.json",
+    "evidenceSha256": "542874a2ec443c93dcef198710928a4d7b923df2261bbd87f3163d593640e642"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E10",
+    "fingerprint": "7b2026defd84c84a34d098f9885e63ec0ab30994361c50c3f799675687dd1f0f",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E10.json",
+    "evidenceSha256": "b943079e88c3ae43b5baeed1e0d15ed0a20db76a83f0938fd1bb61cf59d44190"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E11",
+    "fingerprint": "0be13e0fdf6d272f00ee49e7dbce79abc8971c5a01945835f0eb25f5ca4bb0ef",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E11.json",
+    "evidenceSha256": "47fc9dd132980c924933940b93cb17dfc5881bce80a1f1dd6f9752ed455bdfd3"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E12",
+    "fingerprint": "17313976f123edcd4eec28cb99de1f6a9355258d8c36437f30d40a3a6211dcc8",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E12.json",
+    "evidenceSha256": "69ee16a24a42290996fd698a91066a32de89f20662683bbf390ae495b531f3e9"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-ARTICLE-STRUCTURES",
+    "fingerprint": "07adb15c0015790e63dbd28b4c3d2a7f656c14094324575667d046f08593371e",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04T20:27:30.716Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m4/acceptance/decisions/DOC-ARTICLE-STRUCTURES.json",
+    "evidenceSha256": "bc83f1b671eae8141bf5c94b394777e2c8b0c9130346b44dd7b6b78d6dd590e6"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-ARTICLE-UNIT",
+    "fingerprint": "236bb1cc6326a06bb9f3c32d12542e56e1f78873ec853257ff75718c913de843",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04T20:27:30.716Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m4/acceptance/decisions/DOC-ARTICLE-UNIT.json",
+    "evidenceSha256": "ac6a36829b72f87b5d381930f940600df6c079b5df9c248639fe45a42bd95f48"
   }
 ]

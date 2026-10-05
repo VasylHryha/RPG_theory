@@ -158,7 +158,7 @@ test('a real loader roundtrip validates hashed decisions and qualifies only the 
  const root=mkdtempSync(join(tmpdir(),'unity-fidelity-loader-'));
  try {
   for(const folder of ['src','research','config','scripts','public','.github','docs/evidence/m1/literature']) {mkdirSync(join(root,folder,'..'),{recursive:true});cpSync(folder,join(root,folder),{recursive:true});}
-  for(const file of ['astro.config.mjs','package-lock.json','package.json','tsconfig.json','.node-version','.npmrc'])cpSync(file,join(root,file));
+  for(const file of ['astro.config.mjs','package-lock.json','package.json','tsconfig.json','.node-version','.npmrc','CONTRIBUTING.md','RIGHTS.md'])cpSync(file,join(root,file));
   writeFileSync(join(root,'research/publication/website-reviews.yaml'),'[]');
   const file=join(root,'research/publication/records.yaml'),records=JSON.parse(readFileSync(file,'utf8')),entry=records.find((e:any)=>e.id==='UT-D01');
   Object.assign(entry,{publicationState:'published',publishedAt:'2026-10-02',updatedAt:'2026-10-02',rightsRef:'SYNTHETIC-RIGHTS'});writeFileSync(file,JSON.stringify(records));

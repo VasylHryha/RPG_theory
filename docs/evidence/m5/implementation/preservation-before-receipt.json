@@ -1,0 +1,38 @@
+{
+  "status": "PASS_WITH_UNOWNED_RUNTIME_OBSERVATION",
+  "baselineFiles": 2605,
+  "ownedChangedPaths": [
+    ".github/workflows/site.yml",
+    "CONTRIBUTING.md",
+    "package.json",
+    "research/publication/metadata.json",
+    "research/publication/release.json",
+    "scripts/audit-output.ts",
+    "scripts/verify.ts",
+    "src/layouts/ReadingLayout.astro",
+    "src/lib/build-identity.ts",
+    "src/lib/content.ts",
+    "src/lib/library.ts",
+    "src/lib/publication-assets.ts",
+    "src/lib/publication.ts"
+  ],
+  "unexpectedChanges": [],
+  "riderRuntime": {
+    "initiallyInventoried": true,
+    "changedPaths": [
+      ".idea/.idea.RPG_theory/.idea/workspace.xml"
+    ],
+    "writtenByTask": false,
+    "action": "left untouched"
+  },
+  "sourceRegistryAndLock": {
+    "research/publication/website-reviews.yaml": true,
+    "research/publication/reviews.yaml": true,
+    "package-lock.json": true,
+    "src/lib/source-display.ts": true,
+    "RRG_CURRENT.zip": true,
+    "UNITY_THEORY_WEBSITE_HANDOFF_R4.zip": true,
+    "RPG_theory.sln": true
+  },
+  "headUnchanged": true
+}

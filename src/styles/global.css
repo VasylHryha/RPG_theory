@@ -1,4 +1,11 @@
 @layer base, layout, components;
+@layer components {
+  .search-controls { display:flex; gap:.75rem; flex-wrap:wrap; margin-block:.5rem; }
+  .search-controls input { flex:1; min-width:0; width:100%; padding:.6rem; color:var(--ink); background:var(--white); border:1px solid var(--muted); font:inherit; }
+  .search-controls button { padding:.6rem 1rem; background:var(--ink); color:var(--paper); border:1px solid var(--ink); font:inherit; cursor:pointer; }
+  #search-status { min-height:1.7em; margin-block:1rem; }
+  #search-results li { padding-block:1rem; border-bottom:1px solid var(--line); overflow-wrap:anywhere; }
+}
 @layer base {
   :root { color-scheme: light dark; --paper:#f6f5f0; --ink:#233b35; --muted:#52655e; --line:#ced5cc; --accent:#90492e; --panel:#e9ede5; --white:#fffdf8; --reading-width:70ch; --space-small:1rem; --space-section:3.5rem; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size:18px; }
   * { box-sizing:border-box; }
@@ -140,9 +147,43 @@ nav { flex-wrap:wrap; max-width:100%; }
 .source-details { margin-block:2rem; border-block:1px solid var(--line); }
 .source-details > summary { cursor:pointer; padding-block:.8rem; }
 .source-details[open] > section { padding-block:1rem; }
+.technical-navigation { padding-block:1rem; border-block:1px solid var(--line); gap:12px 24px; }
+[data-technical-guide] .reading-note { overflow-wrap:anywhere; }
+.technical-callout { padding:1.2rem; background:var(--panel); border-left:3px solid var(--accent); margin-block:1.5rem; }
+.technical-callout h2 { margin-bottom:.8rem; }
+.technical-callout p:last-child { margin-bottom:0; }
+.technical-toc { max-width:var(--reading-width); margin-block:1.5rem 2rem; border-block:1px solid var(--line); }
+.technical-toc summary { cursor:pointer; padding-block:.8rem; }
+.technical-toc ol { padding-left:1.6rem; }
+.technical-toc li { margin-block:.5rem; overflow-wrap:anywhere; }
+.prose :is(h2,h3) { scroll-margin-top:1rem; }
 @media (max-width:760px) {
  .beginner-diagram { max-width:380px; }
  .hero h1 { font-size:clamp(2.5rem,10vw,3.4rem); }
  nav { gap:12px 18px; }
  .site-header nav { width:100%; }
+}
+
+.library-list { list-style: none; padding: 0; }
+.library-list > li { padding: 1.1rem 0; border-bottom: 1px solid var(--line); }
+.library-list h4 { margin: 0; }
+.download-tools { margin-block: 2rem; border-top: 1px solid var(--line); padding-block: 1rem; }
+.download-tools code, [data-citation] code, [data-source-backlinks] code { overflow-wrap: anywhere; }
+@media print {
+  @page { size: A4; margin: 15mm; }
+  :root { color-scheme: light; }
+  body { background: white; color: black; font-size: 10pt; }
+  .site-header, .site-footer, .skip-link, .technical-navigation, .technical-toc,
+  .download-tools, .source-note, .beginner-diagram, [data-publication-navigation] { display: none !important; }
+  .shell, .article { width: 100%; max-width: none; margin: 0; padding: 0; }
+  .preview-strip { background: white; color: black; border-bottom: 1px solid black; }
+  h1, h2, h3, h4 { break-after: avoid; }
+  p, li { orphans: 3; widows: 3; }
+  .record-status { break-inside: avoid; }
+  a { color: black; text-decoration: underline; overflow-wrap: anywhere; }
+  .prose a[href]::after { content: " (" attr(href) ")"; font-size: 8pt; }
+  .katex-display { overflow: visible !important; max-width: none; white-space: normal; break-inside: avoid; }
+  .katex { font-size: 0.9em; }
+  .katex-display > .katex { white-space: normal; }
+  .prose table, .binding-receipt, pre { overflow: visible; overflow-wrap: anywhere; white-space: pre-wrap; }
 }

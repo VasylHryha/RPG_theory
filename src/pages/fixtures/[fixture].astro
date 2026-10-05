@@ -2,7 +2,7 @@
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
 import { renderMarkdown } from '../../lib/markdown';
 import { activeConfig, activeMode } from '../../lib/site-config';
-if (activeMode() === 'release') throw new Error('PRIVATE_FIXTURE_IN_RELEASE');
+export function getStaticPaths(){return activeMode()==='release'?[]:[{params:{fixture:'math'}}];}
 const html = await renderMarkdown(String.raw`## A synthetic rendering fixture
 
 This equation tests mathematical typesetting. It is unrelated to the scientific corpus.

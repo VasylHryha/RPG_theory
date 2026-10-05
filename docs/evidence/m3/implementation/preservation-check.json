@@ -1,0 +1,28 @@
+{
+  "status": "PASS_WITH_CONCURRENT_IDE_STATE_CHANGE",
+  "protectedFilesChecked": 95,
+  "unchangedFiles": 92,
+  "taskOwnedChanges": {
+    "START_HERE.md": {
+      "before": "f0f70e96177793a38bd264f500caab3e6621d2f8a6e7b7f1cbca32e312609696",
+      "after": "f34886dc2fb34b435d34dc3bf638043b1e9af7fce061a4005b176202e904e5a2",
+      "reason": "Updated the existing index sentence to point to M3 review."
+    },
+    "tests/content/m2.test.ts": {
+      "before": "5fe2342b472053f88f4bcd88ede29e37bf89aec630df4615a0522c818de8039b",
+      "after": "695006f8bdad47bd66638844253a329afb44c159ba62464001bfd9609a6b2cce",
+      "reason": "Changed only the exact-total assertion to allow later documents; prior acceptance-test edits preserved."
+    }
+  },
+  "unownedChangeObserved": {
+    ".idea/.idea.RPG_theory/.idea/workspace.xml": {
+      "before": "f0192b06ecda001788b1e3167f742985ba540f4f3ac0e8c558064758eec082aa",
+      "after": "54cb306f087c9736391eb0691c4b8e192f8de062de7a407ab2f8fa77f3e4c8a7",
+      "handling": "No task command edits this IDE state. Current bytes left untouched; origin not independently established."
+    }
+  },
+  "originalScientificBytesChanged": false,
+  "websiteRegistryChanged": false,
+  "lockfileChanged": false,
+  "originalRiderSolutionChanged": false
+}

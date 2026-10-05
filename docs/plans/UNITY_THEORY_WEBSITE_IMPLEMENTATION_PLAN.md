@@ -3,10 +3,10 @@ title: "Unity Theory / RRG — Public Research Website"
 doc_type: implementation_plan
 program: unity_theory_publication_site
 revision: 4
-updated: 2026-10-03
-status: M2_REVIEW_READY
-current_milestone: M2
-execution_model: "User-selected Codex 6.1 Sol High implementer; separate fresh High reviewer"
+updated: 2026-10-05
+status: M6_REVIEW_READY
+current_milestone: M6
+execution_model: "Normal development with proportionate checks and separate bounded High acceptance under section 0.27"
 repository: "Local Git implementation: /Users/new/RiderProjects/RPG_theory; main branch; no remote configured"
 replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
 planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
@@ -26,42 +26,42 @@ This is the sole execution plan for the website, research-document publication, 
 
 **The website implements a research publication, not a new theory.** The broad project asks how geometry/relationships and dynamics can organize persistent systems, how these become components of further systems, and how existing organization can change the conditions for later organization. The shared update additionally identifies the question of lower-level geometry/modes enabling an effective interaction regime and further organization. Restricted model-reduction work is supporting historical research, not an automatic replacement for that question. Neither ambition nor a successful website makes the theory established physics.
 
-**Read route:** §0 → §§1–4 → current milestone in §8 → §9 evidence rules → §10 operating prompts. The complete architecture and all eight milestones are selected below. START_HERE is an index, not another tracker. Raw receipts are evidence, not additional plans.
+**Read route:** §0.27 first → current status in §0 → §§1–4 → current milestone in §8 → §9 proportionate verification → §10 operating prompts. The complete architecture and all eight milestones remain selected. START_HERE is an index, not another tracker. Raw receipts are evidence, not additional plans. §0.27 supersedes mandatory repeated review/repair cycles and disproportionate checking; normal affected checks remain part of development.
 
 ## 0. Current execution and authority
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | **M2 / REVIEW_READY**, quality recheck repairs at §0.26; separate M2 website acceptance pending. M1 predecessor accepted at §0.24; M3 NOT_STARTED |
+| Current milestone / state | **M6 / REVIEW_READY**, integrated private engineering at §0.35; final public qualification remains gated. M2–M5 remain ACCEPTED for their bounded private scopes |
 | Website repository / implementation | One-root local Astro implementation in `/Users/new/RiderProjects/RPG_theory`; local Git on main initialized by owner request (§0.11); original Rider files preserved; no remote/public target |
-| Last engineering acceptance | §0.24 independently accepts unchanged QF-12–14 static resource controls; bounded QF-10/QF-11 and M0/M1/ENG-03 predecessor acceptance preserved. No blanket browser/CSS or release closure |
-| Changed here | §0.26 repairs beginner reading order, real equation display/keyboard scrolling, conditional math assets and shared audit, optional source details with visible essential context, readable notes and stronger positive-before-negative tests. Original sources unchanged |
+| Last engineering acceptance | §0.34 accepts M5 contribution, pending identity/scoped rights, notices, screening and disabled controlled publication for demonstrated private scope. Earlier scoped M0–M4 acceptances remain preserved; full-site qualification remains M6 |
+| Changed here | M6 published-body search, accessible fallback, selected metadata, artifact checks and integrated browser/performance/stress/correction checks; no fidelity/rights approval or public action |
 | Declared active scientific authority | **RRG_CURRENT**, identified by the shared current-package note [P-CURRENT-NOTE] |
 | Actual current package | **AVAILABLE_CURRENT_BYTES** in local execution on 1 October 2026; owner-supplied ZIP unpacked into `research/RRG_CURRENT/` |
 | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; shared validator checks the declared pin |
 | Available historical research | Fourteen unchanged v0.1b / v0.2-audit files, preserved as history only |
-| Numerical reproduction | R2 receipts preserved as historical evidence; **NOT_RERUN** in this alignment |
-| Website/browser/a11y/live evidence | §0.26 all eleven commands PASS: 89 contract cases / 24 Chromium tests at both bases; 14 beginner routes at 320/375/1280 in both themes and doubled text, no-JS/keyboard/axe, real-equation checks, cold asset inventories and inspected screenshots. Eight actual-artifact refusals. Human comprehension/live hosting NOT_TESTED/NOT_RUN |
-| Shared-source mutation | No original scientific source bytes changed. Original documents own meanings; only website presentation authored. Preserved 34 website decisions are stale after rendering changes; 11 new entries pending; currentSourceQualified=false |
+| Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
+| Website/browser/a11y/live evidence | §0.35: clean install, zero Astro diagnostics, contracts with targeted repairs, 25 Chromium cases per base, Firefox/WebKit search/math smoke, axe/reflow, cold budgets, local stress, Lighthouse and 204-file/65-HTML audits per base. Screen reader/human comprehension NOT_TESTED; remote CI NOT_RUN, platform protections NOT_CONFIGURED, live hosting NOT_RUN |
+| Shared-source mutation | Original scientific bytes and issued decisions/receipts preserved. Shared validator confirms 57 stale / 0 pending / 0 accepted / 0 rejected, currentSourceQualified=false, deployEligible=false. No new decision manufactured; bounded M2–M5 acceptance preserved |
 | External publication authority | No public repository creation, push, visibility change, Pages/DNS action, license grant or purchase performed |
-| Next action | Launch separate M2 website acceptance using §0.26 and docs/evidence/m2/quality-recheck/recheck-receipt.md; compare actual source-faithful pages, shared stylesheet/diagram consumers, positive/negative checks and real screenshots. New repairs stop REVIEW_READY; no M3 or public action here |
+| Next action | One separate bounded High M6 review of delivered private engineering and recorded qualification limits. Owner decisions may wait. No M7/public action until actual applicable release gates are met |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
 | M0 | Static foundation, source-preserving intake, explicit missing-source behavior, private reading slice, root/subpath proof | Local tools + this handoff | ACCEPTED — demonstrated engineering only, separate review §0.5 |
-| M1 | Current-source-bound records, document adapters, source registry and publication guards used by actual pages | M0 + byte-admitted RRG_CURRENT and exact website source-fidelity review | ACCEPTED — separate §0.24 acceptance of the demonstrated predecessor; original records preserved. M2 rendering changes make its 34 preserved decisions stale; current presentation needs separate website review; science deferred |
-| M2 | Faithful complete beginner journey and example pages | M1 + reviewed current meanings | REVIEW_READY — quality repairs at §0.26; 89 contracts / 24 browser checks; separate website acceptance pending |
-| M3 | Current framework/math/status/proof/evidence documents rendered; bounded supplementary research where selected | M1–M2 + admitted current corpus | NOT_STARTED |
-| M4 | Articles, document library, source-faithful exports and citation | M3 | NOT_STARTED |
-| M5 | Contribution, identity, rights and controlled publication workflow | M4 | NOT_STARTED |
-| M6 | Whole-site qualification against the actual current corpus and both URL modes | M5 + qualified current sources | NOT_STARTED |
+| M1 | Current-source-bound records, document adapters, source registry and publication guards used by actual pages | M0 + byte-admitted RRG_CURRENT and exact website source-fidelity review | ACCEPTED — separate §0.24 predecessor acceptance preserved. §0.30 accepts current technical fidelity; 14 beginner decisions remain stale and science deferred |
+| M2 | Faithful complete beginner journey and example pages | M1 + reviewed current meanings | ACCEPTED — separate bounded High review §0.28; editorially checked and technically accepted for private implementation; author approval and final qualification remain pending |
+| M3 | Current framework/math/status/proof/evidence documents rendered; bounded supplementary research where selected | M1–M2 + admitted current corpus | ACCEPTED — separate bounded High §0.30, including same-session equation stylesheet repair; historical supplement NOT_SELECTED / NOT_RUN |
+| M4 | Articles, document library, source-faithful exports and citation | M3 | ACCEPTED — separate bounded High §0.32; demonstrated private scope, qualification/publication gates remain |
+| M5 | Contribution, identity, rights and controlled publication workflow | M4 | ACCEPTED — separate bounded High §0.34; demonstrated private engineering, external decisions/platform setup pending |
+| M6 | Whole-site qualification against the actual current corpus and both URL modes | M5; qualified current sources for public qualification | REVIEW_READY — §0.35 private integration; actual content/owner/AT/CI gates remain |
 | M7 | Owner-authorized deployment of qualified artifact; optional domain | M6 + actual access/authorization | NOT_STARTED |
 
-States: `NOT_STARTED → ACTIVE → REVIEW_READY → ACCEPTED`. A missing prerequisite blocks its affected scope, not unrelated local code. Fixture-based engineering checks may proceed while sources are missing, but cannot satisfy actual-current-content acceptance. A fresh High session reviews and accepts demonstrated engineering scope. **Agent review is not author approval, legal approval, external scientific peer review or a human user study.**
+States: `NOT_STARTED → ACTIVE → REVIEW_READY → ACCEPTED`. Under §0.27, separate High acceptance and affected checks are proportionate to delivered scope; full-site verification remains M6. Same-session review repairs may be accepted by the separate reviewer after inspecting affected behavior; no automatic second review cycle. Interim acceptance is not final qualification. A missing prerequisite blocks its affected scope, not unrelated local code. Fixture-based checks cannot satisfy actual-current-content acceptance. **Agent review is not author approval, legal approval, external scientific peer review or a human user study.**
 
 ### 0.1 Mandatory execution rules
 
-**Code first; verification after the complete session batch.** Finish the current session's coherent implementation, content, caller/configuration migration and fixture edits before running tests. Then run one consolidated affected verification phase. Do not alternate each edit with tests, use watch mode, or rerun unchanged passing checks. Repair failures as another connected batch and rerun affected checks only. An interrupted batch records NOT_RUN and a resume point. This is the session's scope, not an instruction to defer all tests until the entire project is finished.
+**Normal development; proportionate checks.** §0.27 governs: finish coherent batches of planned pages/features, run focused affected checks once, reuse valid unchanged evidence and keep bounded separate High acceptance. Full-site verification belongs at M6. Routine checks for small changes take minutes, not hours; do not expand them into audit projects or repeat general assurance cycles. Fix actual failures with targeted repairs, then rerun affected checks only. Preserve existing release guards and record limits honestly.
 
 **Parallel sessions are normal.** Preserve unrelated edits, do not reset to this document's baseline, and do not wait for or manage other sessions. Reread an actually overlapping area and adapt the task-owned change. Do not stage, overwrite, revert or commit someone else's work. A dirty tree is not itself a blocker. Follow the checkout's actual commit/push rules.
 
@@ -90,6 +90,8 @@ Do not require a second permission request merely because a justified in-scope c
 The recorded hash identifies one edition. A legitimate source revision gets a new version/hash and a predecessor/change record; an unexplained mismatch is still an error. Never reject an explicitly supplied replacement edition solely because an earlier hash differs, and never “fix” an unreviewed mismatch by silently resetting the pin.
 
 ### 0.4 Local implementation execution record — 1 October 2026 (before independent review)
+
+**Historical receipt notice:** §§0.4–0.26 preserve prior work and decisions. Their mandatory repeated quality rechecks and repair-acceptance stops are superseded by §0.27; use normal proportionate affected checks. Prior results and their limitations remain unchanged.
 
 The original supplied R4 observation below is historical context. The owner subsequently supplied the actual `RRG_CURRENT.zip` in this execution session. Its thirteen files are installed at `research/RRG_CURRENT/`; see `config/research-source.json` and `docs/evidence/m0/source-intake.md`. M0 byte intake is available; M1 scientific extraction/review qualification is pending. No source bytes were revised. Local M0 is **REVIEW_READY**. All ten commands in `npm run verify` passed: 14 contract tests and 8 real-static-output browser tests across `/` and `/unity-theory/`; zero Astro diagnostics. Detailed receipt: `docs/evidence/m0/implementation-receipt.md`; raw command/browser receipts, screenshots, artifact inventories and unchanged-after-test evidence are in the same folder. Both artifacts remain private and non-deployable. No scientific content, human comprehension, author/publication approval or M0 independent acceptance is implied.
 
@@ -383,6 +385,107 @@ Final production inputs `79e577bfa7e07fa76866ebccb6b6c9f8dd7176e2a81ba0e38e24dc7
 
 **Next handoff:** independently review and accept only unchanged demonstrated M2 website scope against original documents, actual consumers, real-equation/assets/disclosures, positive-before-negative controls and screenshots. Use `website-reviews.yaml` and the shared fidelity validator; historical science remains outside this task. New repairs stop REVIEW_READY for another independent session. No M3 or public action here. Future human/author/identity/rights/target/Lighthouse/release gates remain separate. Local task-owned commit authorized after checks.
 
+### 0.27 Owner rule: normal development with proportionate checking — 4 October 2026
+
+**Latest owner clarification governs:** builds, tests, rechecks and separate High acceptance are useful normal development. The problem is their cost exceeding their benefit: hours of extra safeguards and repeated audits for tiny progress on an informational website. This is not a blanket test ban or a requirement to defer every test until the end. This rule overrides earlier mandatory repeated review/repair cycles while preserving sources, evidence and release protections.
+
+**Until the planned local website is complete:**
+
+- Prioritize substantial delivery of the pages/features in §8. Use existing tools, validators and normal safeguards. Additional work must deliver a planned feature, fix a reproducible defect or check a concrete risk introduced by the change. No speculative bypass hunts, approval-system redesign, unrelated audit expansion, paper audits or scientific adjudication.
+- Finish a coherent batch, then run focused affected checks once. Reuse valid unchanged results; rerun affected checks after real repairs. Add meaningful feature/regression tests when warranted, not tests for trivial prose or tests that mirror implementation. Full-site integration/qualification belongs at M6.
+- Routine verification/review of small website changes should take minutes, not hours. If checking starts becoming a separate project, stop expanding it, record the concrete unresolved issue and return to delivery. An actual blocker requires the shortest targeted repair, not a new general audit. Do not silently spend hours on theoretical risks or another assurance pass.
+- Implementers stop at REVIEW_READY. Keep one bounded separate High acceptance of delivered pages/features, source fidelity, navigation, readability and concrete defects. The reviewer may repair material defects, check affected behavior and accept those repairs in that session; no automatic second acceptance cycle. Further rechecks need changed material or concrete evidence. Do not reopen accepted foundations without a defect affecting current work.
+- Keep receipts short: features delivered, actual checks, concrete blockers and next work. Existing pending/stale website decisions remain honest; actual fidelity decisions still need source/display comparison through the shared validator. Private implementation can proceed while qualification is pending. No fabricated tests, approvals or public release authority.
+
+**Policy-installation record (before §0.28):** policy-only change in AGENTS, this plan and START_HERE; no code/scientific source changed and no acceptance issued at that point. M2 remained REVIEW_READY for bounded High acceptance, then M3 technical documents/status/evidence, M4 articles/library/downloads/citation, M5 contribution/publication workflow and M6 search/integration/final verification. M7 remains an owner-authorized public action. Prior §0.26 checks were preserved, not rerun for that documentation edit.
+
+### 0.28 Separate bounded High M2 acceptance — 4 October 2026
+
+**M2 ACCEPTED for its delivered private website scope; EDITORIAL_CHECKED. M3 NOT_STARTED.** Independently compared home/start, both indexes, six examples and four concepts with original `research/RRG_CURRENT/` core/world/framework and scoped status/proof/interaction/additional-evidence passages. Inspected actual desktop/mobile/light/dark screenshots and the source → canonical callout → page/layout/navigation path. The central question, internally active parts, optional replication, environmental enabling and conditional effective-interaction extension remain faithful. Examples and diagrams are clearly illustrations; definitions, source-reported evidence and stronger open extensions remain distinct. Sources and uncertainty are discoverable without technical prerequisites. No material site defect or production repair was needed.
+
+**Actual checks and valid reuse:** initial production inputs exactly match §0.26 (`79e577bf…`), and all 112 saved artifact files at each base match their inventories. Reused its 89 contract / 24 Chromium results, all-route reflow/axe/theme/doubled-text evidence, and unchanged introduction/read-aloud evidence. After recording genuine decisions, `check:content`, 16 focused M2/fidelity contract cases, both private builds and shared output audits PASS. Four focused Chromium checks PASS: the real no-JS reading/source-disclosure journey and keyboard-scrolling/font-loaded interaction equation at both bases. Inspected the fresh equation capture. One old test assumed every decision must remain stale/pending; it now checks preserved predecessor invalidation without forbidding subsequent genuine review. The sandbox-blocked tsx validator was rerun successfully with approval. The root audit's default-folder write was moved to this scope and the original M1 receipt restored exactly. No unchanged full suite was repeated. Evidence and required decision snapshots: `docs/evidence/m2/acceptance/`.
+
+**Fidelity decision and remaining gates:** fourteen beginner-page decisions accepted through `website-reviews.yaml` and the existing shared validator after actual comparison. All older receipts and the pre-review registry snapshot remain preserved. The 31 technical records outside this acceptance remain stale; exact current counts are **14 accepted / 31 stale / 0 pending / 0 rejected**, `currentSourceQualified=false`, deployEligible=false. This does not certify scientific truth. Original scientific/history/ZIP/handoff/Rider/lockfile bytes remain unchanged; unrelated policy edits preserved. Human comprehension and assistive-technology studies NOT_TESTED, author approval PENDING, integrated M6/Lighthouse/release qualification and public target authorization still outstanding. These do not block the next private implementation batch under §0.27.
+
+**Next implementation task: M3 — Technical documents, bounded calculations and research status (§8).** Render the actual framework/math through sidecars and extend current evidence/status/open-problem views with source-reported scope. Stop this acceptance session here; no M3 implementation, commit, push or deployment performed.
+
+### 0.29 M3 technical implementation — 4 October 2026
+
+**M3 REVIEW_READY; not accepted. M2 acceptance preserved; M4 NOT_STARTED.** Delivered full source-bound current framework/math, 07/08 evidence readings, locked-core/change-control library access and the supplied current changelog. Extended 04 status and 06 proof context; added evidence and open-question indexes with all twelve stable evidence IDs and six open-question IDs. Technical navigation, simpler reading links, source edition/context, plain-language callouts and heading-derived no-JS tables of contents use the existing publication path. No duplicate active R2 technical bodies were present to retire; history remains preserved. Current adopted changes come from the supplied changelog, not older reviewer proposals.
+
+**Source boundary and targeted repairs:** original RRG_CURRENT bytes, definitions, assumptions, attribution, source-reported Checked/access limits and open extensions remain unchanged. The §39 math source omits a closing TeX display delimiter after the force formula; a disclosed exact-boundary display adapter closes that block without changing the formula/prose or source bytes. Retained addendum titles render as section headings and the framework’s literal-backslash addendum uses the existing display treatment. A measured 320px interaction-source filename overflow was fixed by wrapping technical source context. Effective interactions remain distinct from unproved fundamental-force unification; no paper audit, scientific adjudication or SF-01–06 work. Historical cavity/response calculations **NOT_SELECTED / NOT_RUN**: current sources do not retain those separate calculations and the owner did not select them. Their script/output/history bytes are preserved; no fabricated computation pass.
+
+**Actual focused checks:** zero Astro diagnostics; current admission/binding and shared content validators PASS; **22 distinct focused contract cases** pass across the 21-case M2/fidelity/M3 batch and six-case affected M3 repair run (five overlapping cases counted once). Both private builds and shared output audits PASS, **122 files / 58 HTML** each. **Six Chromium tests PASS**, three per base: no-JS technical/source navigation, 320px dark reflow/axe and keyboard equation scrolling/MathML, plus evidence attribution and open-test links. Actual screenshots inspected. Sandbox IPC failures, initial rendering/selector/layout failures and incorrect audit-CLI attempts are preserved as failures, not passes. Final audits cover repaired inputs; unchanged earlier checks are reused, full-site verification deferred to M6. Evidence: `docs/evidence/m3/implementation/`.
+
+**Remaining gates / handoff:** no concrete implementation blocker. Issued website decisions and historical receipts were preserved, never refreshed: renderer changes now yield **45 stale / 10 pending / 0 accepted / 0 rejected**, currentSourceQualified=false and deployEligible=false. This state does not revoke the bounded M2 engineering acceptance or block private implementation. Next: one separate bounded **High M3 acceptance** against original 00/02/03/04/05/06/07/08/changelog, actual sidecars and rendered routes, including disclosed §39 display repair, effective-interaction scope, reported access limits, navigation and equation readability. Use `website-reviews.yaml` and the shared fidelity validator for actual decisions; no automatic second acceptance cycle. Stop here at REVIEW_READY. Author/human/full-site/release gates remain pending; no M4, commit/push, deployment, DNS or license action.
+
+
+### 0.30 Separate bounded High M3 acceptance — 4 October 2026
+
+**M3 ACCEPTED for its delivered private technical website scope; M2 acceptance preserved; M4 NOT_STARTED.** Compared original 00/02/03/04/05/06/07/08/changelog with sidecar extracts, callouts, claim/citation mappings, shared validators, renderer and actual output at both base paths. Accepted twelve technical documents/indexes and their 29 stable records. Definitions, model assumptions, source-reported evidence/Checked/access limits, six open questions and effective-interaction versus unproved fundamental-force unification remain distinct. Retained addenda and literal-backslash treatment preserve their text and order. The exact §39 delimiter adapter preserves original source bytes, force formula and surrounding prose; no scientific adjudication, paper audit or source rewrite occurred. Historical cavity/response calculations remain **NOT_SELECTED / NOT_RUN**.
+
+**Material defect and same-session repair:** actual §39 screenshots exposed collapsed equation boxes (force-box width **2px**). Rehype-katex renders with its pinned KaTeX 0.16.47, while the page had loaded root KaTeX 0.18.10 CSS. ReadingLayout now imports the renderer's matching installed stylesheet; force-box width is **122.64px**, with all four §39 displays and prose readable on desktop/mobile. Source and lockfile bytes are unchanged. A focused browser assertion detects collapsed boxes. The M3 contract's permanent-pending assumption was corrected to allow genuine independently validated decisions. No other material website defect remains.
+
+**Actual checks and valid reuse:** current production inputs matched §0.29 exactly, all **122 artifact files per base** rehashed successfully, and **41 bodies/details plus 12 guides per base** matched live consumers. Reused unchanged implementation admission/focused evidence; independently inspected its screenshots. Shared content/fidelity validator and **17 focused contract cases PASS**; after the stylesheet repair, reran only the **six affected M3 cases**, with the unchanged eleven fidelity cases reused. Astro: **0 errors/warnings/hints**. Final private builds and shared audits PASS at `/` and `/unity-theory/`, **122 files / 58 HTML each**. Final **six Chromium checks PASS**, covering no-JS technical navigation, 320px dark reflow/axe, MathML/keyboard equation scrolling, repaired box geometry and evidence/open-test links. Fresh §39 desktop/mobile screenshots inspected. Sandbox listener refusal and failed first stylesheet-alias attempt are retained as failures. Evidence: `docs/evidence/m3/acceptance/receipt.md` and `final/`.
+
+**Fidelity and remaining gates:** issued **41 final genuine website-fidelity decisions** via `website-reviews.yaml` and the existing shared validator. Initial same-session decisions invalidated by the CSS repair, all predecessor receipts and both registry snapshots remain preserved. Exact final counts: **41 accepted / 14 stale / 0 pending / 0 rejected**, currentSourceQualified=false, deployEligible=false. The unreviewed beginner decisions remain untouched; M2 bounded engineering acceptance is not reopened. Original sources, ZIPs, handoff/history/Rider/lockfile and unrelated dirty work preserved. Human/assistive-technology studies, author approval, whole-site M6 qualification and an authorized public target remain separate gates. **Next task: M4 (§8), in a subsequent implementation session. Stop this review here.** No M4 implementation, commit, push, deployment, DNS or license action.
+
+**Preservation observation:** the final check found an unowned change to Rider's runtime `workspace.xml` during this session. No task command wrote it; its origin was not independently established and current bytes were left untouched. The original Rider solution and all other protected bytes (except the authorized website registry update) remain unchanged. The first failed preservation attempt is retained alongside the qualified final record.
+
+### 0.31 M4 articles, document library, exports and citation — 4 October 2026
+
+**M4 REVIEW_READY; separate bounded High acceptance pending. M2/M3 private acceptances preserved; M5 NOT_STARTED.** Delivered both planned substantive articles, manifest-selected index/publication-only RSS, grouped library with audience/status/edition/dates and reading/print/source/download links, references/backlinks, separate website change history, /cite/, gated CFF generation and the CONTRIBUTING recipe. Generated 57 explanatory Markdown mirrors and ten exact-byte original downloads. The 75-member private preview ZIP includes provenance, bibliography, README, citation/rights notice, release identity, document manifest and SHA256SUMS; it is explicitly partial and unapproved. Approved packaging uses the shared validated publication/rights selection. No administrative evidence/history or journal PDFs are included. Companion links work offline; website-only anchors resolve to their companion document. Research edition, website release, commit and manifest digest stay distinct; dirty inputs never masquerade as the clean commit.
+
+**Actual checks:** shared source/content/fidelity validation PASS; **39 focused contracts PASS**, zero Astro diagnostics; final private builds/audits PASS at both bases, **197 files / 62 HTML each**. **Four Chromium checks PASS** for no-JS journeys, actual ZIP download, RSS parsing, 320px reflow/axe and technical print. Independent unpacking validates safe paths, CRC, SHA256SUMS, exact original bytes and identity. Export/companion-link parity, corruption, draft/future/withdrawn/history filtering through routes/discovery/download manifests and RSS, duplicate routes, stale source numbers and actual canonical-file rename controls PASS. Live RSS is empty because articles remain unpublished; synthetic controls check published dates/URLs. Synthetic CFF passes the official 1.2.0 schema; actual CFF is INACTIVE. Mathematical print PDFs retain readable equations, status/revision and citation targets; actual cover/§39 inspected. Initial failures and targeted repairs are preserved in `docs/evidence/m4/implementation/receipt.md`, named logs, `final-v2/` and `browser-final/`. Full-site verification remains M6.
+
+**Preservation / gates:** original scientific sources, ZIPs/history/handoff, §39 adapter/addenda/literal-backslash treatment, matching stylesheet, Rider solution, lockfile, prior receipts and registry unchanged. An unowned runtime `workspace.xml` change was observed; no task command wrote it, origin unestablished, observed bytes left untouched. Other non-task baseline paths match. No scientific adjudication/rewrite; historical cavity/response work **NOT_SELECTED / NOT_RUN**. Issued decisions were never refreshed: **55 stale / 2 new pending / 0 accepted / 0 rejected**, currentSourceQualified=false, deployEligible=false. Public credit, permanent URL and rights decisions, reviewed published selection, M6 qualification and an authorized target remain required. No private implementation blocker.
+
+**Next:** one separate bounded High M4 acceptance against sources, shared selection/export/render path, actual ZIPs, citations and print evidence. Stop REVIEW_READY; no self-acceptance, M5, commit/push, deployment, DNS, license grant or public action.
+
+### 0.32 Separate bounded High M4 acceptance — 4 October 2026
+
+**M4 ACCEPTED for demonstrated private scope; M2/M3 acceptances preserved; M5 NOT_STARTED.** Compared both full articles and the revised library with original `research/RRG_CURRENT/` meanings and source-reported status, then traced sidecars, shared fidelity/selection validators, HTML, Markdown and archive generation. Explanation, proposal and actual results remain distinct; no new definition, fundamental-force-unification result or historical execution is claimed. Accepted manifest-driven articles/RSS, grouped library and links, generated companions, exact-byte originals, release identity, references/backlinks, separate change histories, citation preview/gated CFF, technical print and CONTRIBUTING recipe. No material M4 defect found; no production-code or scientific-source repair required.
+
+**Actual checks:** initial production-input digest, all 57 fingerprints and both 197-file artifact inventories match implementation evidence. Reused unchanged **39 focused contracts, zero Astro diagnostics and four Chromium checks**, including actual downloads, no-JS journeys, reflow/axe and print. Independently checked both downloaded 75-member ZIPs: safe paths, CRC, SHA256SUMS, 57 explanatory mirrors, ten exact original source files/provenance and no unapproved evidence/history/PDFs. Inspected mathematical print cover and §39 output; adapter/addenda/literal backslashes and matching KaTeX stylesheet preserved. Fresh shared fidelity validator PASS after genuine decisions for **DOC-ARTICLE-STRUCTURES, DOC-ARTICLE-UNIT and DOC-LIBRARY only**. Affected private builds/output audits PASS at both bases (**197 files / 62 HTML each**); explanatory/original bytes unchanged, only archive review/identity metadata and checksums changed. One audit invocation rejected an unsupported argument before checking; corrected invocation passed, failed log retained. Evidence: `docs/evidence/m4/acceptance/`.
+
+**Remaining gates / preservation:** **3 accepted / 54 stale / 0 pending / 0 rejected**, currentSourceQualified=false, deployEligible=false. Unrelated stale decisions and all predecessor receipts preserved; registry-before snapshot retained. Original sources, ZIPs, handoff/history, Rider solution, lockfile and unrelated inventoried dirty work unchanged. Rider runtime workspace.xml differs from the implementation receipt's last observation; it was not captured in this review's initial inventory. No task command wrote it; current bytes left untouched, change origin/time unestablished. Public credit, permanent URL, rights, reviewed published selection, M6 qualification, author/human checks and an authorized public target remain separate gates. CFF stays inactive; no science certification, SF-01–06 work or scientific rewrite. Historical cavity/response calculations remain **NOT_SELECTED / NOT_RUN**.
+
+**Next task: M5 (§8), in a subsequent implementation session. Stop after this acceptance decision.** No M5 work, commit, push, deployment, DNS change, license grant or public action.
+
+### 0.33 M5 contribution, identity, rights and controlled publication — 4–5 October 2026
+
+**M5 REVIEW_READY; separate bounded High acceptance pending. M2–M4 private acceptances preserved; M6 NOT_STARTED.** Completed CONTRIBUTING, four issue forms and the PR template. Added an explicit shared identity/scoped-rights record powering About/Legal/footer and existing Cite/CFF; no personal metadata inferred. The owner said those decisions can wait: public credit/contact/ORCID, repository, URL and license selection remain pending; the private preview grants no additional license. Code, research prose/figures and data/evidence stay separate, lawful exceptions/third-party rights remain visible, no automatic royalty is imposed, and the possible 5–10% negotiation stays only in the internal owner guide. Exact installed KaTeX license is retained in website and ZIP without licensing project research. Website release is `site-2026.10.04-m5-private`; research edition unchanged.
+
+**Workflow / actual checks:** one pinned workflow gives PRs read-only verification with no secrets, environment or artifact upload; manual main-only preparation precedes a separately privileged Pages/OIDC job executing only the pinned Pages action against the same-run sealed directory. Deployment remains disabled. Current builder/auditor still refuse public release until M6; no remote protection, CODEOWNERS or platform setup is claimed. Conservative monthly npm/Actions updates have bounded PRs, no automatic major merge and no scientific schedule. **Eight focused contracts PASS**, including named deployment refusals, scoped-file hash mismatch, private/secret screening, false universal royalty wording and workflow mutation. **Zero Astro errors/warnings/hints**, shared content/fidelity and publication tooling PASS, real PR-context CLI refuses `MANUAL_MAIN_DEPLOYMENT_REQUIRED`. Screened 69 engineering files and 76 private-preview ZIP members for named secret patterns; no matches detected, privacy not certified and public repository selection NOT_SELECTED. Both private builds/audits PASS (**200 files / 64 HTML each**); **four Chromium tests PASS** for no-JS About/Legal/Cite journey, notice download, 320px reflow/axe. Actual mobile screenshots inspected. Independent ZIP checks retain ten exact originals, 57 unchanged M4 explanatory mirrors, exact notice and hashes; no evidence/history/PDFs. Final inventories rehash unchanged. A late screen-receipt repair changed only Cite's input digest among HTML; unchanged browser evidence reused. Initial fixture paragraph-concatenation and sandbox listener failures retained; targeted fixes/authorized retry passed. Evidence: `docs/evidence/m5/implementation/`, `final/`, `browser/` and the internal `owner-decisions.md` guide.
+
+**Preservation / gates:** original sources, ZIPs, handoff/history, Rider solution, lockfile, §39 adapter/addenda/literal-backslash treatment, matching KaTeX stylesheet, issued registry/receipts and unrelated inventoried work preserved. Runtime workspace.xml changed independently of task writes during the session; origin unestablished, observed bytes left untouched. Registry never refreshed: **57 stale / 0 pending / 0 accepted / 0 rejected**, currentSourceQualified=false, deployEligible=false; CFF inactive. Public identity, scoped rights/legal approval, approved public file/history selection and privacy, permanent target/content authorization, actual platform protections and M6 integrated release pipeline/qualification remain gates. No private implementation blocker; no scientific adjudication or source rewrite. Historical cavity/response calculations **NOT_SELECTED / NOT_RUN**.
+
+**Next:** one separate bounded High M5 acceptance of identity/rights displays, contribution forms, actual workflow permissions, screening, notices and honest pending gates. Stop REVIEW_READY; no self-acceptance or M6 work. No commit, push, public repository, deployment, DNS change or license grant.
+
+### 0.34 Separate bounded High M5 acceptance — 5 October 2026
+
+**M5 ACCEPTED for demonstrated private engineering scope. M2–M4 acceptances preserved; M6 NOT_STARTED.** Inspected configuration → shared validators → About/Legal/Cite/footer, CFF and download generation, contribution forms/PR instructions, actual repository/export selection and the single workflow. Pending identity/contact/ORCID/repository and separate code/research/data rights are consistent and remain pending. RIGHTS and displayed copy preserve expression-versus-ideas, third-party rights, lawful exceptions and prior valid CC permissions; attribution is requested without inventing a condition or automatic royalty. The possible 5–10% preference stays internal. No material defect found; no production repairs or additional fidelity decisions issued.
+
+**Actual checks and valid reuse:** current build inputs exactly match the final M5 digest `dbb204a7…`; rehashed every artifact file at both bases (**200 files / 64 HTML each**) and recomputed inventory and selected-document manifest digests. All 69 screened engineering files remain exact. Independent Python ZIP/CRC/SHA-256 checks PASS: **76 members / 75 checksums**, ten exact source downloads, 57 unchanged M4 explanatory mirrors per base, release/dirty-input/manifest parity, exact installed renderer **KaTeX 0.16.47** license, inactive CFF and no evidence/history/PDF exports. All **13 original current files** also match the supplied ZIP byte for byte. Reused unchanged eight contract tests, zero Astro diagnostics, build/output/publication checks and four Chromium checks. Compared earlier and final HTML: only Cite's digest text changed after browser capture; normalized HTML is identical. Inspected actual About/Legal/Cite mobile captures. Fresh shared `check-content.ts` PASS: **57 stale / 0 pending / 0 accepted / 0 rejected**, currentSourceQualified=false. Fresh shared workflow validation and PR-context gate evaluation PASS; prior actual CLI refusal retained. Evidence: `docs/evidence/m5/acceptance/`; issued implementation evidence remains unchanged. No full-site verification repeated.
+
+**Publication boundary:** inspected read-only PR verification with no upload/deploy, manual main-only verify → prepare → deploy dependencies, full action pins, sealing before same-run upload, and Pages/OIDC permissions only in the deployment action job. The pinned action's [artifact lookup](https://github.com/actions/deploy-pages/blob/d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e/src/internal/api-client.js) selects the current run and rejects missing/duplicate artifacts. The workflow names `github-pages`; actual environment reviewers/branch rules/CODEOWNERS remain **NOT_CONFIGURED**, not demonstrated protection. Deployment stays disabled and builder/auditor retain the M6 release gate. Synthetic all-gates fixtures prove mechanics only. Monthly bounded Dependabot PRs have no automatic merging or scientific publication. Public repository selection remains **NOT_SELECTED**; named-pattern screening is neither privacy approval nor legal clearance. Rights wording was checked against the cited [Copyright Office](https://www.copyright.gov/what-is-copyright/) and [Creative Commons FAQ](https://creativecommons.org/faq/#what-if-i-change-my-mind-about-using-a-cc-license); this is no legal certification or license grant.
+
+**Remaining gates / preservation:** genuine owner identity/scoped-rights, public file/history/privacy/legal/content approval, permanent target and release authorization, actual platform protections, current fidelity requalification and integrated M6 qualification remain open for affected public actions. They do not block bounded private M5 acceptance or independent private implementation. Source/history/ZIP/handoff/Rider/lockfile/issued receipts and unrelated work preserved; runtime workspace.xml left untouched. §39 delimiter adapter, retained addenda/literal-backslash handling and matching renderer stylesheet remain unchanged. Effective-interaction scope stays distinct from unproved fundamental-force unification; no science adjudication, SF-01–06 or paper review. Historical calculations remain **NOT_SELECTED / NOT_RUN**; deployEligible=false.
+
+**Next implementation task: M6 — Integrated release qualification (§8), including search and integrated metadata/browser/accessibility/output checks.** Stop this acceptance session here. M6 not started; no commit, push, deployment, DNS change, public action or license grant.
+
+### 0.35 M6 integrated private engineering — 5 October 2026
+
+**M6 REVIEW_READY; no self-acceptance or M7 work.** Integrated pinned Pagefind 1.5.2 after static generation, selecting only explicit published reading bodies; actual search/sitemap remain empty because all 57 entries are drafts. Lazy search includes source-reported status/limits, honest empty/error states and no-JS reading indexes. Added selected sitemap and structured metadata; existing RSS/canonical/Open Graph remain shared-config outputs. Artifact auditing binds search inputs/assets and exports, preserves allowlisting/draft controls, and excludes synthetic routes from gated release. Builder/auditor/sealing use the existing shared owner/current-source/M6 gates; deployment stays disabled. The single read-only verification workflow now installs all three browser engines. Exact Pagefind notices accompany the unchanged renderer KaTeX 0.16.47 license; no project rights are granted.
+
+**Actual checks / repairs:** clean `npm ci`; final Astro diagnostics **0 errors/warnings/hints**; current/history source checks and final content/publication checks PASS. Initial full contracts: **104/113 pass, nine failures**. Fixed obsolete incomplete output/intake fixtures and date assumptions, isolated correction references, updated navigation assertions, and repaired literal title escaping in explanatory exports. All nine failures cleared in focused reruns; affected export/workflow contracts also PASS. Initial Chromium: **23/25 per base**; the two obsolete heading/navigation assertions then PASS per base, preserving all unchanged results. Both bases cover 320/375/768/1280 reflow, WCAG 2.2-tagged axe, dark/reduced-motion/doubled-text, keyboard/no-JS, math/print/download paths. Native Chromium 153 / Firefox 155 / WebKit 26.6 smoke and five search queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls PASS. Inspected actual empty/mobile and synthetic result captures. Synthetic correction/staleness/rereview/index/withdrawal and **100 documents + 100 records + 100 references**, including 10,000-word/20-equation/wide-table/long-title controls, PASS locally; fixtures prove engineering only. Raw initial failures remain recorded; the original `verify` orchestration receipt remains FAIL rather than being relabelled. An Astro cache collision from concurrent diagnostics/build was resolved by sequential diagnostics.
+
+**Measured artifacts:** final audits PASS, **204 files / 65 HTML per base**; root `7d60ab743410dc1abee8c9b232a9bf2606c543a7ee86406f8844e830468a7e6b`, subpath `73b39b4d2d81f51f14fc00ecc5e4446558419e8c1d59319e7c40d3b87a43d730`; inputs `d48f406e1eb28dea7c7ebef025a29354703f17e7ff4a2ecee3b1e89b01da52e1`. Reading HTML/CSS/fonts/search-client bytes match browser-tested output; refreshed Cite identity fields/manifests/exports pass fresh audits/contracts. Independent ZIP checks preserve exact selected originals, checksums/notices, inactive CFF and no evidence/history exports; all 13 original current files match the supplied ZIP. Fresh-context owned-response gzip equivalents: home **6,904 / 6,927 bytes**, math **151,296 / 151,337**, initial JS **0**; adopted budgets met. Lighthouse 13.5.0 mobile 375×812/simulated throttling: home/math **LCP 901/4,202 ms, CLS 0/0**; diagnostic only, field CWV NOT_MEASURED. Local stress took 960/883 ms, recorded peak RSS about 392/337 MiB; remote CI NOT_RUN.
+
+**Open qualification gates / preservation:** shared fidelity state remains **57 stale / 0 pending / 0 accepted / 0 rejected**, currentSourceQualified=false, deployEligible=false. Actual screen-reader MathML/accessibility and human comprehension **NOT_TESTED**; genuine fidelity/public wording, identity/contact/ORCID/scoped rights, permanent target, privacy/content/legal authorization, remote runner and platform protections remain open. Owner selections may wait; no invented decisions or certification. Baseline 2,677 files checked: original science/history/ZIP/handoff/issued receipts and unrelated work preserved; prior lock edition retained in evidence alongside the updated sole root lock. An unowned Rider runtime workspace.xml change was observed and left untouched. §39 adapter/addenda/literal backslashes and renderer stylesheet retained; effective interactions stay distinct from unproved force unification; SF-01–06/paper audits remain deferred, historical calculations NOT_SELECTED / NOT_RUN. Evidence: `docs/evidence/m6/implementation/receipt.md`, raw logs, `final/`, `browser-repairs/`, and `final-integrity.json`. **Next: one bounded separate High M6 review; stop this implementation here.** No commit, push, deployment, DNS change, license grant or public action.
+
+**Subsequent local checkpoint authorization:** the owner requested a commit of this task and continued after the mixed prerequisite scope was explained. Commit the coherent M6 website work with its existing uncommitted M3–M5 prerequisites and receipts; preserve original scientific/history/ZIP/handoff/Rider bytes. M6 remains REVIEW_READY and all release gates stay open. Recorded artifacts retain their pre-checkpoint commit/dirty identities; no clean-artifact or public-release claim is added. Scope: `docs/evidence/m6/implementation/commit-notes.md` and `commit-scope.json`. No push or public action.
+
 ## 1. Review findings and chosen repairs
 
 **R4 scope:** clarify the user's permission for necessary, justified source/core changes and recheck source visibility. R3 already mentioned a legitimate revised core, but its repeated “preserve bytes” and read-only presentation wording did not clearly distinguish the editable current source from immutable historical snapshots. R4 selects that distinction explicitly, supplies a revision path, and carries it through intake, records, milestones and both agent prompts. No scientific text is revised here and no fresh scientific literature audit is claimed.
@@ -520,7 +623,7 @@ The shared notes record this expected locked-core SHA-256:
 b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1
 ```
 
-**Current local observation:** actual core present; raw computed value matches the edition pin above; actual manifest/full inventory and bindings are verified (§§0.5–0.8). Bounded M1 extraction/display fidelity is independently accepted; historical scientific decisions remain preserved and deferred under §0.15. §0.19 made §0.18's 34 preserved receipts stale through a policy change. Separate §0.20 accepts the demonstrated unchanged repairs and records 34 new exact website-fidelity decisions after independent comparison: currentSourceQualified=true for reached private fidelity. §0.24 separately accepts demonstrated unchanged QF-12–14 controls, preserving bounded predecessor acceptance; M1 accepted for that predecessor, with its exact decisions current and unchanged at that receipt. §§0.25–0.26 M2 presentation changes make the 34 preserved decisions stale; 11 new entries await website review and currentSourceQualified=false. The original handoff absent-file/`null` observation is superseded for this supplied input. Byte integrity and website fidelity are not scientific validity or release authorization.
+**Current local observation:** actual core present; raw computed value matches the edition pin above; actual manifest/full inventory and bindings are verified (§§0.5–0.8). Bounded M1 extraction/display fidelity is independently accepted; historical scientific decisions remain preserved and deferred under §0.15. §0.19 made §0.18's 34 preserved receipts stale through a policy change. Separate §0.20 accepts the demonstrated unchanged repairs and records 34 new exact website-fidelity decisions after independent comparison: currentSourceQualified=true for reached private fidelity. §0.24 separately accepts demonstrated unchanged QF-12–14 controls, preserving bounded predecessor acceptance; M1 accepted for that predecessor, with its exact decisions current and unchanged at that receipt. §§0.25–0.26 M2 presentation changes made the 34 preserved decisions stale and added 11 pending entries. §0.28 independently accepts M2 and records 14 beginner-page decisions; 31 technical decisions remain stale and currentSourceQualified=false. §0.29 delivers M3 technical readings; rendering changes make 45 issued decisions stale and add 10 pending entries, without refreshing approvals. The original handoff absent-file/`null` observation is superseded for this supplied input. Byte integrity and website fidelity are not scientific validity or release authorization.
 
 Implement one admission path, used by source validation and release selection:
 
@@ -1004,7 +1107,7 @@ Preserve real implementation, meaningful IDs and valid independent evidence. Arc
 
 ## 8. Complete implementation milestones
 
-All listed checks are implementation obligations; §0 records the actually reached checks and accepted scopes. Run checks after the coherent session batch, not after each numbered step. Select required suites based on the changed material; reuse valid unaffected evidence.
+All listed deliverables remain selected. Under §0.27, implement pages/features in coherent batches, use focused affected checks and bounded High acceptance. Verify/Negative controls/Review focus paragraphs guide relevant checks, not a mandatory exhaustive audit at every milestone. Do not grow new test campaigns for unrelated edge cases. Full-site integration belongs at M6. §0 records actual checks/acceptance; no unrun check is reported as passing.
 
 ### M0 — Real static slice and source-preserving foundation
 
@@ -1207,7 +1310,7 @@ All listed checks are implementation obligations; §0 records the actually reach
 
 ### 9.1 Required check families
 
-These are **planned commands and test families**, not commands already present in a repository. M0/M1 install the shared script interfaces. `npm run verify` orchestrates reached checks once; do not have `build` recursively call the full test suite and then rerun it from `verify`. A selected skip must name why its previous evidence remains valid.
+These are **planned commands and test families**, not commands already present in a repository. M0/M1 install the shared script interfaces. Under §0.27, select focused checks for the changed feature; the stage column records feature ownership, not a demand to run every suite at each acceptance. Full-site verification belongs at M6. `npm run verify` orchestrates reached checks once; do not run its component suites separately and then repeat them through `verify`. Record earlier tests as preserved evidence and deferred tests as NOT_RUN, not passing.
 
 | Check / intended entry | Actual subject and failure exposed | Required stage |
 |---|---|---|
@@ -1254,7 +1357,7 @@ A negative control must fail for the intended reason. A syntax error that preven
 
 ### 9.3 Acceptance has separate scopes
 
-**Engineering acceptance:** the implementation reaches the named real producer, consumer and output path, passes relevant negative controls, and has no known blocker within its acceptance scope. A separate review accepts only unchanged scope independently verified. Material new repairs are completed and tested as a connected batch, then stop REVIEW_READY for later separate acceptance.
+**Engineering acceptance during §0.27:** a separate High reviewer inspects delivered pages/features, their source/display path and concrete defects. Use focused builds/tests/private preview inspection as appropriate to the changed scope; do not turn intermediate acceptance into exhaustive auditing. The separate reviewer may fix and accept material in-scope repairs after inspecting affected behavior in that session. Implementers never self-accept. Final M6 qualification still requires the applicable checks and honest remaining gates; interim acceptance cannot substitute for it. No repeated general recheck or automatic second-session repair acceptance.
 
 **Website source-fidelity acceptance:** each representation preserves the original documents’ terminology, meaning, assumptions, hypotheses, evidence descriptions and open questions, with accurate attribution/status and source mappings. Review source-to-display behavior and explanations, not independent scientific truth. Preserve the scientific findings/readouts/access ledgers for owner review after website completion. Do not require resolving SF-01–06, independently reading supporting papers, reproducing experiments, or rewriting source science to accept faithful website content. Bibliographic identity, source integrity, dependencies and safe rendering remain required.
 
@@ -1266,7 +1369,7 @@ An unavailable mandatory technical check is `NOT_RUN`/`BLOCKED`, not a waiver. E
 
 ### 9.4 Evidence receipt and validity
 
-Append a compact receipt to **this plan's execution section**; store detailed logs outside it:
+During §0.27, append one compact receipt to **this plan's execution section**: delivered features, actual checks/inspections, concrete blockers and next work. Do not create a new evidence campaign for interim acceptance. The detailed template below applies to final M6/M7 qualification or an actual recorded failure; store detailed logs outside the plan:
 
 ```text
 Milestone / implementing or reviewing role / actual date:
@@ -1299,14 +1402,15 @@ After launch, the normal author workflow is one Markdown change (plus a record/s
 
 ## 10. Codex implementation and review prompts
 
-The execution label below repeats the user's selected setup. It is not a claim about model availability or a promise that sessions run automatically. The user launches the implementing and separate review sessions.
+The execution label below repeats the user's selected setup. It is not a claim about model availability or a promise that sessions run automatically. The user launches implementing and separate High acceptance sessions. §0.27 requires proportionate checks and bounded acceptance, with full-site verification at M6.
 
 ### 10.1 Implementation prompt
 
 ```text
 Use UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md Revision 4 as the sole website
-execution authority. Read its current status, §§1–4, the selected milestone in §8,
-and §9. Follow actual local AGENTS instructions and preserve unrelated work.
+execution authority. Read §0.27 first, current status, the selected milestone in §8,
+and relevant architecture. Follow AGENTS and preserve unrelated work. This is an
+informational website: finish its planned pages/features; do not expand auditing.
 
 Implement the complete current milestone using the selected one-root Astro /
 canonical Markdown architecture. Do not create another plan or hand central
@@ -1331,53 +1435,52 @@ Implement real consumers and remove the obsolete path in the owning milestone.
 No fake passing stubs, copied website/research prose, or auto-approved reviews.
 
 Finish the coherent session code/content/config/test batch before verification.
-Run affected named checks once in a consolidated phase; repair as a batch and
-rerun affected checks only. Parallel sessions/dirty unrelated files are normal.
+Build/inspect previews and run focused affected checks after a coherent batch.
+Reuse valid unchanged results; rerun only affected checks after actual repairs.
+Do not spend hours checking a tiny change or expand auditing for speculative risks.
+Reserve full-site verification for M6.
+Parallel sessions/dirty unrelated files are normal.
 
 Local preview/qualification do not require a domain or GitHub access. Never
 publish, push, change visibility, grant a license or edit DNS without the named
 owner authorization and normal tool permissions. Record missing external gates
 without stopping independent local work.
 
-Update this same plan with actual changes, source/config identities, reached
-checks, failures/NOT_RUN, evidence paths and the exact resume point. End the
-milestone at REVIEW_READY. Do not self-accept or begin the next milestone.
+Update this same plan briefly with delivered features, actual checks/inspections,
+concrete blockers and the next work. End implementation at
+REVIEW_READY for bounded High acceptance. Do not self-accept. After acceptance,
+the next implementation session continues the planned milestone sequence without
+an additional quality recheck or reopening accepted foundations.
 ```
 
 ### 10.2 Separate High review prompt
 
 ```text
-Review the current REVIEW_READY milestone against the entire relevant Revision 4
-contract, current sources, actual code paths and emitted artifact. Do not accept
-from the implementer's summary, test count, screenshot alone or this plan's score.
+Read §0.27 first. Give the current REVIEW_READY milestone one bounded High
+acceptance review of delivered scope: actual private pages, source fidelity,
+navigation, readability and concrete defects. Inspect the real source/display
+path; do not accept from an implementer summary or test count alone.
 
-Inspect canonical content → dependency/review selection → rendered routes →
-exports/search → qualified artifact. Verify current-source admission and source
-bindings against actual RRG_CURRENT. Do not accept historical or note-derived
-text as the locked core, or old audit objectives as current by default. Recheck the named negative controls and what was
-actually executed. A newer proposed research objective is not owner approval.
-Verify the source-change rationale, scope, before/after meaning, history and
-updated dependencies. Accept justified authorized source/core revisions; reject
-silent drift, unexplained pin resets and blanket bans on needed source changes.
-A new supplied baseline must be inspected, not rejected for its old hash alone.
+Use existing private builds/screenshots where applicable; build/inspect a preview
+when needed. Run focused affected checks where justified; reuse valid unchanged
+results. No exhaustive campaign for a small change. Full-site verification is M6.
+Do not hunt speculative bypasses, reopen accepted foundations, expand resource
+auditing, redesign approval receipts or conduct scientific/paper audits.
 
-Review website fidelity against original downloaded documents; related papers
-are supplementary. Do not adjudicate SF-01–06 or import reviewer corrections.
-Record website decisions only after actual source/entry/rendered comparison.
-Fix material in-scope problems as a coherent batch, then run affected verification.
-New repairs stop REVIEW_READY for a later separate acceptance; accept only
-unchanged scope independently demonstrated in this review session. Preserve unrelated work and valid receipts.
-Do not add a compatibility layer, second tracker, test-only validator or bypass
-merely to produce a green status.
+Compare website meanings/status with original RRG_CURRENT. Related papers remain
+supplementary; no SF-01–06 adjudication or scientific source rewrite. Record real
+website decisions only after source/entry/rendered comparison through the existing
+shared validator; never fabricate qualification or owner approval.
 
-Separate engineering acceptance, website source fidelity, authorial/publication approval,
-rights/privacy decisions, accessibility and human comprehension evidence. Do not
-invent missing tests, a human reviewer, configured platform protection or live
-publication. Do not claim the supplied model calculations prove the full theory.
+Fix material page/feature defects as a coherent batch and check affected
+behavior with proportionate tests/inspection. You may accept those repairs in this session;
+do not require another acceptance session just because you made a fix. A remaining
+blocker must identify the broken feature and exact required repair.
 
-Accept only the scope actually demonstrated. Update this plan with the exact
-source/config/artifact evidence and next already-defined milestone. Do not start
-that next milestone inside the review run. An unresolved mandatory gate stays open.
+Keep the decision/receipt short, scope it to what was inspected, preserve earlier
+evidence and name the next planned implementation milestone. No extra quality
+recheck cycle. No invented test pass, human study, rights/author approval or public
+authorization. At final M6, perform the consolidated required qualification.
 ```
 
 ### 10.3 First invocation
@@ -1441,4 +1544,4 @@ The following external-source decisions are **retained from R2**, whose record s
 | W10 | WIPO copyright protection: `https://www.wipo.int/en/web/copyright/protection` | Copyright's expression/idea distinction; not jurisdiction-specific legal advice or a royalty contract |
 | W11 | Creative Commons BY-NC-SA 4.0: `https://creativecommons.org/licenses/by-nc-sa/4.0/` | Example of a non-commercial attribution/share-alike option and retained valid permissions; no license has been selected or granted here |
 
-**End of sole forward implementation plan.** Current execution/handoff are §§0.15–0.26. M1 predecessor independently accepted; repaired M2 website REVIEW_READY with 89 contract / 24 Chromium checks and measured asset budgets. Preserved website decisions remain 34 stale / 11 pending; currentSourceQualified=false. Launch separate website acceptance, stop new repairs REVIEW_READY and do not start M3. Original sources unchanged; scientific adjudication outside this task; no public authority.
+**End of sole forward implementation plan.** §0.27 governs proportionate development and separate bounded High acceptance. M2 (§0.28), M3 (§0.30), M4 (§0.32) and M5 (§0.34) are accepted for their bounded private scopes. M6 is REVIEW_READY for integrated private engineering (§0.35); final public qualification remains gated and M7 NOT_STARTED. The next task is one bounded separate High M6 review. All 57 issued fidelity decisions remain stale, with currentSourceQualified=false and deployEligible=false. Public identity/rights/target decisions can wait; nothing is licensed or published by this implementation. Original science is unchanged; historical calculations remain NOT_SELECTED / NOT_RUN.

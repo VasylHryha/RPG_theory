@@ -1,0 +1,19 @@
+---
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { activeConfig } from '../lib/site-config';
+import { activePublication } from '../lib/publication';
+import { renderSearchFallback } from '../lib/search';
+import { withBase } from '../lib/urls';
+const config=activeConfig(),selection=activePublication();
+---
+<ReadingLayout title="Search and browse" description="Search published readings, or browse concepts, examples and original documents." route="/search/">
+  <article class="article shell"><h1>Search and browse</h1>
+  <div class="prose"><p>Search published readings. Each result retains its source-reported status and limits.</p>
+  <form data-search-form data-base={config.basePath} data-bundle={withBase('/pagefind/pagefind.js',config.basePath)} data-count={selection.manifest.searchIds.length}>
+    <label for="search-query">Word or phrase</label><div class="search-controls"><input id="search-query" type="search" name="q" maxlength="200" aria-describedby="search-help" /><button type="submit">Search</button></div>
+    <p id="search-help" class="reading-note">Search requires JavaScript. The reading indexes below work without it.</p>
+  </form><p id="search-status" role="status" aria-live="polite" aria-atomic="true"></p><ol id="search-results" aria-label="Search results"></ol>
+  <div data-search-fallback set:html={renderSearchFallback(selection,config.basePath)} />
+  </div></article>
+  <script is:inline type="module" src={withBase('/search-client.js',config.basePath)} data-search-client></script>
+</ReadingLayout>

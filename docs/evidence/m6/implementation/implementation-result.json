@@ -1,0 +1,331 @@
+{
+  "schema": "unity-m6-implementation/1",
+  "milestone": "M6",
+  "status": "REVIEW_READY",
+  "engineeringChecks": "PASS_AFTER_TARGETED_REPAIRS",
+  "separateAcceptance": "NOT_RUN",
+  "publicQualification": "INCOMPLETE",
+  "initialFullOrchestrator": "FAIL_RETAINED; affected component checks completed separately",
+  "contracts": {
+    "initialTotal": 113,
+    "initialPass": 104,
+    "initialFailures": 9,
+    "allInitialFailuresClearedByFocusedReruns": true,
+    "logs": [
+      "verify-approved.log",
+      "contracts-repairs.log",
+      "contracts-last-repairs.log",
+      "contracts-sealed.log",
+      "export-workflow-sealed.log"
+    ]
+  },
+  "browser": {
+    "root": {
+      "distinctCases": 25,
+      "initial": {
+        "startTime": "2026-10-05T06:23:04.240Z",
+        "duration": 93372.823,
+        "expected": 23,
+        "skipped": 0,
+        "unexpected": 2,
+        "flaky": 0
+      },
+      "repairs": {
+        "startTime": "2026-10-05T06:49:13.603Z",
+        "duration": 2819.7,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "note": "23 unchanged passes reused; only two assertions rerun"
+    },
+    "subpath": {
+      "distinctCases": 25,
+      "initial": {
+        "startTime": "2026-10-05T06:23:03.617Z",
+        "duration": 94188.304,
+        "expected": 23,
+        "skipped": 0,
+        "unexpected": 2,
+        "flaky": 0
+      },
+      "repairs": {
+        "startTime": "2026-10-05T06:49:19.059Z",
+        "duration": 1843.196,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "note": "23 unchanged passes reused; only two assertions rerun"
+    }
+  },
+  "integration": {
+    "root": {
+      "schema": "unity-m6-integration/1",
+      "base": "/",
+      "scope": "private engineering; no approvals",
+      "browserSmoke": [
+        {
+          "engine": "chromium",
+          "version": "153.0.8010.12",
+          "status": "PASS",
+          "actual": "navigation/math/pending search",
+          "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+        },
+        {
+          "engine": "firefox",
+          "version": "155.0",
+          "status": "PASS",
+          "actual": "navigation/math/pending search",
+          "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+        },
+        {
+          "engine": "webkit",
+          "version": "26.6",
+          "status": "PASS",
+          "actual": "navigation/math/pending search",
+          "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+        }
+      ],
+      "assistiveTechnology": "NOT_TESTED: no actual screen-reader session",
+      "humanComprehension": "NOT_TESTED",
+      "fieldCoreWebVitals": "NOT_MEASURED",
+      "stress": {
+        "status": "PASS",
+        "documents": 100,
+        "records": 100,
+        "syntheticReferences": 100,
+        "indexedReadings": 200,
+        "elapsedMs": 960,
+        "maxRSSKiB": 401104,
+        "runner": "local; CI NOT_RUN",
+        "checks": "shared corpus validation \u2192 render 200 bodies incl 10000-word/20-equation/wide-table/long-title controls \u2192 native Pagefind build",
+        "fixtureOnly": true
+      },
+      "lighthouse": [
+        {
+          "route": "/",
+          "version": "13.5.0",
+          "LCPms": 900.8752,
+          "CLS": 0,
+          "performance": 0.9,
+          "accessibility": 1,
+          "profile": "mobile 375\u00d7812; simulated throttling; local Chromium; diagnostic only"
+        },
+        {
+          "route": "/math/",
+          "version": "13.5.0",
+          "LCPms": 4202.203949999999,
+          "CLS": 0,
+          "performance": 0.76,
+          "accessibility": 1,
+          "profile": "mobile 375\u00d7812; simulated throttling; local Chromium; diagnostic only"
+        }
+      ],
+      "actualIndex": {
+        "publishedReadings": 0,
+        "staleDecisions": 57,
+        "qualified": false,
+        "deployEligible": false
+      },
+      "status": "PASS",
+      "performance": [
+        {
+          "route": "/",
+          "status": "PASS",
+          "ownedColdGzipEquivalentBytes": 6904,
+          "initialJSGzipBytes": 0,
+          "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression"
+        },
+        {
+          "route": "/math/",
+          "status": "PASS",
+          "ownedColdGzipEquivalentBytes": 151296,
+          "initialJSGzipBytes": 0,
+          "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression"
+        }
+      ]
+    },
+    "subpath": {
+      "schema": "unity-m6-integration/1",
+      "base": "/unity-theory/",
+      "scope": "private engineering; no approvals",
+      "browserSmoke": [
+        {
+          "engine": "chromium",
+          "version": "153.0.8010.12",
+          "status": "PASS",
+          "actual": "navigation/math/pending search",
+          "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+        },
+        {
+          "engine": "firefox",
+          "version": "155.0",
+          "status": "PASS",
+          "actual": "navigation/math/pending search",
+          "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+        },
+        {
+          "engine": "webkit",
+          "version": "26.6",
+          "status": "PASS",
+          "actual": "navigation/math/pending search",
+          "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+        }
+      ],
+      "assistiveTechnology": "NOT_TESTED: no actual screen-reader session",
+      "humanComprehension": "NOT_TESTED",
+      "fieldCoreWebVitals": "NOT_MEASURED",
+      "stress": {
+        "status": "PASS",
+        "documents": 100,
+        "records": 100,
+        "syntheticReferences": 100,
+        "indexedReadings": 200,
+        "elapsedMs": 883,
+        "maxRSSKiB": 344864,
+        "runner": "local; CI NOT_RUN",
+        "checks": "shared corpus validation \u2192 render 200 bodies incl 10000-word/20-equation/wide-table/long-title controls \u2192 native Pagefind build",
+        "fixtureOnly": true
+      },
+      "lighthouse": "Root home/math diagnostic only; no duplicate subpath run",
+      "actualIndex": {
+        "publishedReadings": 0,
+        "staleDecisions": 57,
+        "qualified": false,
+        "deployEligible": false
+      },
+      "status": "PASS",
+      "performance": [
+        {
+          "route": "/unity-theory/",
+          "status": "PASS",
+          "ownedColdGzipEquivalentBytes": 6927,
+          "initialJSGzipBytes": 0,
+          "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression"
+        },
+        {
+          "route": "/unity-theory/math/",
+          "status": "PASS",
+          "ownedColdGzipEquivalentBytes": 151337,
+          "initialJSGzipBytes": 0,
+          "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression"
+        }
+      ]
+    }
+  },
+  "actualQualification": {
+    "reviewStates": {
+      "stale": 57,
+      "pending": 0,
+      "accepted": 0,
+      "rejected": 0
+    },
+    "currentSourceQualified": false,
+    "deployEligible": false,
+    "screenReader": "NOT_TESTED",
+    "humanComprehension": "NOT_TESTED",
+    "remoteCI": "NOT_RUN",
+    "platformProtections": "NOT_CONFIGURED",
+    "ownerSelections": "PENDING; may wait",
+    "publicActions": "NONE"
+  },
+  "preservation": {
+    "baselineFiles": 2677,
+    "taskChangedExistingPaths": [
+      ".github/workflows/site.yml",
+      "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "package-lock.json",
+      "package.json",
+      "research/publication/release.json",
+      "scripts/audit-output.ts",
+      "scripts/build.ts",
+      "scripts/seal-deployment.ts",
+      "scripts/static-server.ts",
+      "scripts/test-e2e.ts",
+      "scripts/verify.ts",
+      "src/components/CanonicalPage.astro",
+      "src/layouts/ReadingLayout.astro",
+      "src/lib/content.ts",
+      "src/lib/presentation.ts",
+      "src/lib/publication-assets.ts",
+      "src/lib/publication-policy.ts",
+      "src/lib/publication.ts",
+      "src/pages/fixtures/math.astro",
+      "src/pages/index.astro",
+      "src/pages/start.astro",
+      "src/styles/global.css",
+      "tests/content/contracts.test.ts",
+      "tests/content/m4.test.ts",
+      "tests/content/page-lifecycle.test.ts",
+      "tests/content/revision-inventory-cli.test.ts",
+      "tests/content/website-fidelity.test.ts",
+      "tests/e2e/introduction.spec.ts"
+    ],
+    "protectedScientificHistoricalEvidenceFiles": "UNCHANGED",
+    "riderRuntime": {
+      "path": ".idea/.idea.RPG_theory/.idea/workspace.xml",
+      "baselineSha256": "ff76a1f7b07e6bd1ed293280148af6cb9b7138942b161cc1d174ecdc8d46dcad",
+      "observedSha256": "8a6387bfeac4696bf71c286ea60a4674f2ec8150d45a516d2ee49a46430dde9b",
+      "note": "Unowned runtime change observed; no task write or restoration."
+    },
+    "priorLockEditionSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd"
+  },
+  "next": "One separate bounded High M6 review; M7 NOT_STARTED",
+  "root": {
+    "artifactSha256": "7d60ab743410dc1abee8c9b232a9bf2606c543a7ee86406f8844e830468a7e6b",
+    "files": 204,
+    "html": 65,
+    "inputsSha256": "d48f406e1eb28dea7c7ebef025a29354703f17e7ff4a2ecee3b1e89b01da52e1",
+    "browserReuse": {
+      "readingHTMLCSSMathFontsSearchClientExact": true,
+      "changedPaths": [
+        "build-info.json",
+        "search-manifest.json",
+        "cite/index.html",
+        "downloads/release.json",
+        "downloads/unity-theory-publication-site-2026.10.05-m6-private-preview.zip",
+        "downloads/SHA256SUMS"
+      ],
+      "limits": "Cite identity fields, search manifest and exports refreshed; fresh shared audit/export contracts cover these changes."
+    },
+    "zip": {
+      "sha256": "6b9ebccd37a2b157ab172bb49d458aab20848f69959b30cfd192046a33d17fec",
+      "members": 76,
+      "originalSourceMembers": 10,
+      "checksumParity": "PASS",
+      "exactRendererAndPagefindNotices": "PASS",
+      "cff": "INACTIVE",
+      "evidenceHistoryExported": false
+    }
+  },
+  "subpath": {
+    "artifactSha256": "73b39b4d2d81f51f14fc00ecc5e4446558419e8c1d59319e7c40d3b87a43d730",
+    "files": 204,
+    "html": 65,
+    "inputsSha256": "d48f406e1eb28dea7c7ebef025a29354703f17e7ff4a2ecee3b1e89b01da52e1",
+    "browserReuse": {
+      "readingHTMLCSSMathFontsSearchClientExact": true,
+      "changedPaths": [
+        "build-info.json",
+        "search-manifest.json",
+        "cite/index.html",
+        "downloads/release.json",
+        "downloads/unity-theory-publication-site-2026.10.05-m6-private-preview.zip",
+        "downloads/SHA256SUMS"
+      ],
+      "limits": "Cite identity fields, search manifest and exports refreshed; fresh shared audit/export contracts cover these changes."
+    },
+    "zip": {
+      "sha256": "fe77914dd70e7cd0bf22263ff59a102441fcf854edcfab33c72ff4438b76d643",
+      "members": 76,
+      "originalSourceMembers": 10,
+      "checksumParity": "PASS",
+      "exactRendererAndPagefindNotices": "PASS",
+      "cff": "INACTIVE",
+      "evidenceHistoryExported": false
+    }
+  }
+}

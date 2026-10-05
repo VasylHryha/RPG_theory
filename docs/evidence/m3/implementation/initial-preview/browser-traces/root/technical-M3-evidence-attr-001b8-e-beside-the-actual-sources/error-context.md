@@ -1,0 +1,5160 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: technical.spec.ts >> M3 evidence attribution, scope and open tests remain visible beside the actual sources
+- Location: tests/e2e/technical.spec.ts:48:1
+
+# Error details
+
+```
+Error: expect(locator).toBeInViewport() failed
+
+Locator: locator('#19-strong-failure-conditions')
+Expected: in viewport
+Error: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#19-strong-failure-conditions' is not a valid selector.
+    at query (<anonymous>:5720:41)
+    at <anonymous>:5730:7
+    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)
+    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5717:17)
+    at SelectorEvaluatorImpl._querySimple (<anonymous>:5597:19)
+    at <anonymous>:5545:29
+    at SelectorEvaluatorImpl._cached (<anonymous>:5507:20)
+    at SelectorEvaluatorImpl.query (<anonymous>:5538:19)
+    at Object.query (<anonymous>:5752:44)
+    at <anonymous>:5710:21
+
+Call log:
+  - Expect "toBeInViewport" locator('#19-strong-failure-conditions') with timeout 5000ms
+  - waiting for locator('#19-strong-failure-conditions')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f3e3]: Private preview · Draft website explanations
+  - banner [ref=f3e4]:
+    - link "Unity Theory home" [ref=f3e5] [cursor=pointer]:
+      - /url: /
+      - generic [aria-hidden] [ref=f3e6]: ↔
+      - text: Unity Theory
+    - navigation "Main navigation" [ref=f3e7]:
+      - link "Start" [ref=f3e8] [cursor=pointer]:
+        - /url: /start/
+      - link "Framework" [ref=f3e9] [cursor=pointer]:
+        - /url: /framework/
+      - link "Research" [ref=f3e10] [cursor=pointer]:
+        - /url: /research-status/
+      - link "Documents" [ref=f3e11] [cursor=pointer]:
+        - /url: /documents/
+      - link "Sources" [ref=f3e12] [cursor=pointer]:
+        - /url: /references/
+  - main [ref=f3e13]:
+    - article [ref=f3e14]:
+      - generic [ref=f3e15]:
+        - paragraph [ref=f3e16]: DOC-MATH · Revision 1
+        - heading "Candidate mathematics and experiments" [level=1] [ref=f3e17]
+        - paragraph [ref=f3e18]: The current mathematical programme, including its retained effective-action and background-dependent addenda.
+      - generic [ref=f3e20]:
+        - generic [ref=f3e21]:
+          - term [ref=f3e22]: Scientific role
+          - definition [ref=f3e23]: Research document
+        - generic [ref=f3e24]:
+          - term [ref=f3e25]: Evidence
+          - definition [ref=f3e26]: No empirical status assigned
+        - generic [ref=f3e27]:
+          - term [ref=f3e28]: Source fidelity
+          - definition [ref=f3e29]: Pending
+        - generic [ref=f3e30]:
+          - term [ref=f3e31]: Publication
+          - definition [ref=f3e32]: Draft · private preview
+      - generic [ref=f3e33]:
+        - navigation "Technical reading" [ref=f3e34]:
+          - link "Framework" [ref=f3e35] [cursor=pointer]:
+            - /url: /framework/
+          - link "Mathematics" [ref=f3e36] [cursor=pointer]:
+            - /url: /math/
+          - link "Evidence" [ref=f3e37] [cursor=pointer]:
+            - /url: /evidence/
+          - link "Status" [ref=f3e38] [cursor=pointer]:
+            - /url: /research-status/
+          - link "Open questions" [ref=f3e39] [cursor=pointer]:
+            - /url: /open-problems/
+          - link "Documents" [ref=f3e40] [cursor=pointer]:
+            - /url: /documents/
+        - paragraph [ref=f3e41]: "Source: 03_mathematical_core.md. Edition: RRG v0.2 locked + evidence updates; promoted 2026-10-01."
+        - paragraph [ref=f3e42]:
+          - text: "Simpler reading:"
+          - link "Start" [ref=f3e43] [cursor=pointer]:
+            - /url: /start/
+          - text: ·
+          - link "Examples" [ref=f3e44] [cursor=pointer]:
+            - /url: /examples/
+          - text: ·
+          - link "Concepts" [ref=f3e45] [cursor=pointer]:
+            - /url: /concepts/
+          - text: .
+        - complementary "Reading context" [ref=f3e46]:
+          - heading "Before reading" [level=2] [ref=f3e47]
+          - paragraph [ref=f3e48]: These equations are candidate implementations and tests of the core. Fixed-point, Floquet, lifetime and promotion criteria apply to specified models; they do not replace the definitions of stability or scale.
+          - paragraph [ref=f3e49]: "Coarse-graining asks whether evolving the parts then reducing them agrees, within a stated error, with evolving the effective units. The effective equations may change with scale. Some experiments in this document test the stronger optional same-family hypothesis. Sections 25–40 retain the source’s labelled addenda and its next concrete calculation: a background-dependent action with competing channels and spontaneous composite promotion."
+          - paragraph [ref=f3e50]:
+            - text: Read the
+            - link "framework" [ref=f3e51] [cursor=pointer]:
+              - /url: /framework/
+            - text: for context and the
+            - link "open questions and failure tests" [ref=f3e52] [cursor=pointer]:
+              - /url: /open-problems/
+            - text: for remaining work. No numerical reproduction is claimed by this reading page.
+          - paragraph [ref=f3e53]:
+            - strong [ref=f3e54]: "Source display note:"
+            - text: In §39 the original omits the closing display delimiter after the force equation. This reading closes that display block; the formula and following prose are unchanged.
+        - group [ref=f3e55]:
+          - generic "On this page (42 sections)" [ref=f3e56] [cursor=pointer]
+      - generic [ref=f3e57]:
+        - blockquote [ref=f3e58]:
+          - paragraph [ref=f3e59]:
+            - strong [ref=f3e60]: "NON-NORMATIVE:"
+            - text: every equation in this document is a candidate implementation/test of the locked core, not a definition of RRG.
+        - heading "1. Goal" [level=2] [ref=f3e61]
+        - paragraph [ref=f3e62]: "We want the smallest mathematical system that implements the sentence:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e63]:
+          - generic [ref=f3e64]:
+            - math [ref=f3e66]:
+              - generic [ref=f3e67]: geometry determines allowed modes, and modes determine/maintain geometry
+            - generic [ref=f3e75]: geometry determines allowed modes, and modes determine/maintain geometry
+        - paragraph [ref=f3e88]: "and then tests whether:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e89]:
+          - generic [ref=f3e90]:
+            - math [ref=f3e92]:
+              - generic [ref=f3e99]:
+                - generic [ref=f3e100]: stable lower-level resonators
+                - generic [ref=f3e101]: →
+                - generic [ref=f3e102]: stable higher-level resonators
+            - generic [ref=f3e111]:
+              - generic [ref=f3e112]: stable lower-level resonators
+              - text: →
+              - generic [ref=f3e113]: stable higher-level resonators
+        - paragraph [ref=f3e118]:
+          - text: while preserving the
+          - strong [ref=f3e119]: same locked geometry↔mode relationship
+          - text: after coarse-graining. The microscopic/effective equation is allowed to change with scale. Requiring the same equation family is retained only as an optional stronger hypothesis.
+        - separator [ref=f3e120]
+        - heading "2. Minimal state of one unit" [level=2] [ref=f3e121]
+        - paragraph [ref=f3e122]:
+          - text: For unit
+          - generic [ref=f3e123]:
+            - math [ref=f3e125]:
+              - generic [ref=f3e126]: i
+            - generic [ref=f3e130]: i
+          - text: ", begin with:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e131]:
+          - generic [ref=f3e132]:
+            - math [ref=f3e134]:
+              - generic [ref=f3e136]:
+                - generic [ref=f3e137]:
+                  - generic [ref=f3e138]: R
+                  - generic [ref=f3e139]: i
+                - generic [ref=f3e140]: =
+                - generic [ref=f3e141]: (
+                - generic [ref=f3e142]:
+                  - generic [ref=f3e143]: x
+                  - generic [ref=f3e144]: i
+                - generic [ref=f3e145]: ","
+                - generic [ref=f3e146]:
+                  - generic [ref=f3e147]: z
+                  - generic [ref=f3e148]: i
+                - generic [ref=f3e149]: )
+            - generic [aria-hidden] [ref=f3e150]:
+              - generic [ref=f3e151]:
+                - generic [ref=f3e152]:
+                  - text: R
+                  - generic [ref=f3e153]: i
+                - text: =
+              - generic [ref=f3e161]:
+                - text: (
+                - generic [ref=f3e162]:
+                  - text: x
+                  - generic [ref=f3e163]: i
+                - text: ","
+                - generic [ref=f3e171]:
+                  - text: z
+                  - generic [ref=f3e172]: i
+                - text: )
+        - paragraph [ref=f3e180]: "where:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e181]:
+          - generic [ref=f3e182]:
+            - math [ref=f3e184]:
+              - generic [ref=f3e186]:
+                - generic [ref=f3e187]:
+                  - generic [ref=f3e188]: z
+                  - generic [ref=f3e189]: i
+                - generic [ref=f3e190]: =
+                - generic [ref=f3e191]:
+                  - generic [ref=f3e192]: A
+                  - generic [ref=f3e193]: i
+                - generic [ref=f3e194]:
+                  - generic [ref=f3e195]: e
+                  - generic [ref=f3e196]:
+                    - generic [ref=f3e197]: i
+                    - generic [ref=f3e198]:
+                      - generic [ref=f3e199]: θ
+                      - generic [ref=f3e200]: i
+            - generic [aria-hidden] [ref=f3e201]:
+              - generic [ref=f3e202]:
+                - generic [ref=f3e203]:
+                  - text: z
+                  - generic [ref=f3e204]: i
+                - text: =
+              - generic [ref=f3e212]:
+                - generic [ref=f3e213]:
+                  - text: A
+                  - generic [ref=f3e214]: i
+                - generic [ref=f3e222]:
+                  - text: e
+                  - generic [ref=f3e228]:
+                    - text: i
+                    - generic [ref=f3e229]:
+                      - text: θ
+                      - generic [ref=f3e230]: i
+        - paragraph [ref=f3e238]: "and:"
+        - list [ref=f3e239]:
+          - listitem [ref=f3e240]:
+            - generic [ref=f3e241]:
+              - math [ref=f3e243]:
+                - generic [ref=f3e246]:
+                  - generic [ref=f3e247]: x
+                  - generic [ref=f3e248]: i
+              - generic [ref=f3e251]:
+                - text: x
+                - generic [ref=f3e252]: i
+            - text: = spatial position / geometric state,
+          - listitem [ref=f3e260]:
+            - generic [ref=f3e261]:
+              - math [ref=f3e263]:
+                - generic [ref=f3e266]:
+                  - generic [ref=f3e267]: A
+                  - generic [ref=f3e268]: i
+              - generic [ref=f3e271]:
+                - text: A
+                - generic [ref=f3e272]: i
+            - text: = oscillation/state amplitude,
+          - listitem [ref=f3e280]:
+            - generic [ref=f3e281]:
+              - math [ref=f3e283]:
+                - generic [ref=f3e286]:
+                  - generic [ref=f3e287]: θ
+                  - generic [ref=f3e288]: i
+              - generic [ref=f3e291]:
+                - text: θ
+                - generic [ref=f3e292]: i
+            - text: = phase,
+          - listitem [ref=f3e300]:
+            - generic [ref=f3e301]:
+              - math [ref=f3e303]:
+                - generic [ref=f3e306]:
+                  - generic [ref=f3e307]: ω
+                  - generic [ref=f3e308]: i
+              - generic [ref=f3e311]:
+                - text: ω
+                - generic [ref=f3e312]: i
+            - text: = natural frequency.
+        - paragraph [ref=f3e320]: "We may later add:"
+        - list [ref=f3e321]:
+          - listitem [ref=f3e322]: orientation,
+          - listitem [ref=f3e323]: internal topology,
+          - listitem [ref=f3e324]: multiple modes,
+          - listitem [ref=f3e325]: discrete identity,
+          - listitem [ref=f3e326]: conserved charges,
+          - listitem [ref=f3e327]: spin-like variables,
+          - listitem [ref=f3e328]: local energy stores.
+        - paragraph [ref=f3e329]: Do not add them in the first model unless required.
+        - separator [ref=f3e330]
+        - heading "3. One interaction should control both geometry and phase" [level=2] [ref=f3e331]
+        - paragraph [ref=f3e332]: "A minimal pair interaction:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e333]:
+          - generic [ref=f3e334]:
+            - math [ref=f3e336]:
+              - generic [ref=f3e343]:
+                - generic [ref=f3e344]:
+                  - generic [ref=f3e345]: V
+                  - generic [ref=f3e346]:
+                    - generic [ref=f3e347]: i
+                    - generic [ref=f3e348]: j
+                - generic [ref=f3e349]: (
+                - generic [ref=f3e350]:
+                  - generic [ref=f3e351]: r
+                  - generic [ref=f3e352]:
+                    - generic [ref=f3e353]: i
+                    - generic [ref=f3e354]: j
+                - generic [ref=f3e355]: ","
+                - generic [ref=f3e356]: Δ
+                - generic [ref=f3e357]:
+                  - generic [ref=f3e358]: θ
+                  - generic [ref=f3e359]:
+                    - generic [ref=f3e360]: i
+                    - generic [ref=f3e361]: j
+                - generic [ref=f3e362]: )
+                - generic [ref=f3e363]: =
+                - generic [ref=f3e364]: U
+                - generic [ref=f3e365]: (
+                - generic [ref=f3e366]:
+                  - generic [ref=f3e367]: r
+                  - generic [ref=f3e368]:
+                    - generic [ref=f3e369]: i
+                    - generic [ref=f3e370]: j
+                - generic [ref=f3e371]: )
+                - generic [ref=f3e372]: −
+                - generic [ref=f3e373]: J
+                - generic [ref=f3e374]: (
+                - generic [ref=f3e375]:
+                  - generic [ref=f3e376]: r
+                  - generic [ref=f3e377]:
+                    - generic [ref=f3e378]: i
+                    - generic [ref=f3e379]: j
+                - generic [ref=f3e380]: )
+                - generic [ref=f3e381]: cos
+                - generic: ⁡
+                - generic [ref=f3e382]: (
+                - generic [ref=f3e383]: Δ
+                - generic [ref=f3e384]:
+                  - generic [ref=f3e385]: θ
+                  - generic [ref=f3e386]:
+                    - generic [ref=f3e387]: i
+                    - generic [ref=f3e388]: j
+                - generic [ref=f3e389]: )
+            - generic [ref=f3e398]:
+              - generic [ref=f3e399]:
+                - text: V
+                - generic [ref=f3e400]: ij
+              - text: (
+              - generic [ref=f3e409]:
+                - text: r
+                - generic [ref=f3e410]: ij
+              - text: ", Δ"
+              - generic [ref=f3e419]:
+                - text: θ
+                - generic [ref=f3e420]: ij
+              - text: ) = U(
+              - generic [ref=f3e429]:
+                - text: r
+                - generic [ref=f3e430]: ij
+              - text: ) − J(
+              - generic [ref=f3e439]:
+                - text: r
+                - generic [ref=f3e440]: ij
+              - text: ) cos(Δ
+              - generic [ref=f3e449]:
+                - text: θ
+                - generic [ref=f3e450]: ij
+              - text: )
+        - paragraph [ref=f3e463]: "where:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e464]:
+          - generic [ref=f3e465]:
+            - math [ref=f3e467]:
+              - generic [ref=f3e469]:
+                - generic [ref=f3e470]:
+                  - generic [ref=f3e471]: r
+                  - generic [ref=f3e472]:
+                    - generic [ref=f3e473]: i
+                    - generic [ref=f3e474]: j
+                - generic [ref=f3e475]: =
+                - generic [ref=f3e476]: ∣
+                - generic [ref=f3e477]:
+                  - generic [ref=f3e478]: x
+                  - generic [ref=f3e479]: i
+                - generic [ref=f3e480]: −
+                - generic [ref=f3e481]:
+                  - generic [ref=f3e482]: x
+                  - generic [ref=f3e483]: j
+                - generic [ref=f3e484]: ∣
+            - generic [aria-hidden] [ref=f3e485]:
+              - generic [ref=f3e486]:
+                - generic [ref=f3e487]:
+                  - text: r
+                  - generic [ref=f3e488]: ij
+                - text: =
+              - generic [ref=f3e497]:
+                - text: ∣
+                - generic [ref=f3e498]:
+                  - text: x
+                  - generic [ref=f3e499]: i
+                - text: −
+              - generic [ref=f3e507]:
+                - generic [ref=f3e508]:
+                  - text: x
+                  - generic [ref=f3e509]: j
+                - text: ∣
+        - paragraph [ref=f3e517]: "and:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e518]:
+          - generic [ref=f3e519]:
+            - math [ref=f3e521]:
+              - generic [ref=f3e523]:
+                - generic [ref=f3e524]: Δ
+                - generic [ref=f3e525]:
+                  - generic [ref=f3e526]: θ
+                  - generic [ref=f3e527]:
+                    - generic [ref=f3e528]: i
+                    - generic [ref=f3e529]: j
+                - generic [ref=f3e530]: =
+                - generic [ref=f3e531]:
+                  - generic [ref=f3e532]: θ
+                  - generic [ref=f3e533]: i
+                - generic [ref=f3e534]: −
+                - generic [ref=f3e535]:
+                  - generic [ref=f3e536]: θ
+                  - generic [ref=f3e537]: j
+                - generic [ref=f3e538]: .
+            - generic [aria-hidden] [ref=f3e539]:
+              - generic [ref=f3e540]:
+                - text: Δ
+                - generic [ref=f3e541]:
+                  - text: θ
+                  - generic [ref=f3e542]: ij
+                - text: =
+              - generic [ref=f3e551]:
+                - generic [ref=f3e552]:
+                  - text: θ
+                  - generic [ref=f3e553]: i
+                - text: −
+              - generic [ref=f3e561]:
+                - generic [ref=f3e562]:
+                  - text: θ
+                  - generic [ref=f3e563]: j
+                - text: .
+        - paragraph [ref=f3e571]: "Interpretation:"
+        - list [ref=f3e572]:
+          - listitem [ref=f3e573]:
+            - generic [ref=f3e574]:
+              - math [ref=f3e576]:
+                - generic [ref=f3e578]:
+                  - generic [ref=f3e579]: U
+                  - generic [ref=f3e580]: (
+                  - generic [ref=f3e581]: r
+                  - generic [ref=f3e582]: )
+              - generic [ref=f3e584]: U(r)
+            - text: provides short-range exclusion plus a preferred geometric range;
+          - listitem [ref=f3e585]:
+            - generic [ref=f3e586]:
+              - math [ref=f3e588]:
+                - generic [ref=f3e590]:
+                  - generic [ref=f3e591]: J
+                  - generic [ref=f3e592]: (
+                  - generic [ref=f3e593]: r
+                  - generic [ref=f3e594]: )
+              - generic [ref=f3e596]: J(r)
+            - text: controls phase-sensitive coupling;
+          - listitem [ref=f3e597]:
+            - generic [ref=f3e598]:
+              - math [ref=f3e600]:
+                - generic [ref=f3e602]:
+                  - generic [ref=f3e603]: cos
+                  - generic: ⁡
+                  - generic [ref=f3e604]: (
+                  - generic [ref=f3e605]: Δ
+                  - generic [ref=f3e606]: θ
+                  - generic [ref=f3e607]: )
+              - generic [ref=f3e609]: cos(Δθ)
+            - text: makes geometry depend on phase compatibility.
+        - paragraph [ref=f3e610]: "This gives the closed relation:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e611]:
+          - generic [ref=f3e612]:
+            - math [ref=f3e614]:
+              - generic [ref=f3e621]:
+                - generic [ref=f3e622]: r
+                - generic [ref=f3e623]: →
+                - generic [ref=f3e624]: phase coupling
+                - generic [ref=f3e625]: and
+                - generic [ref=f3e626]: Δ
+                - generic [ref=f3e627]: θ
+                - generic [ref=f3e628]: →
+                - generic [ref=f3e629]: spatial force
+            - generic [ref=f3e638]:
+              - text: r →
+              - generic [ref=f3e639]: phase coupling
+              - generic [ref=f3e640]: and
+              - text: Δθ →
+              - generic [ref=f3e641]: spatial force
+        - paragraph [ref=f3e646]: This is conceptually related to swarmalator systems, where spatial and phase dynamics co-evolve.
+        - separator [ref=f3e647]
+        - heading "4. Spatial equation" [level=2] [ref=f3e648]
+        - paragraph [ref=f3e649]: "An inertial version:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e650]:
+          - generic [ref=f3e651]:
+            - math [ref=f3e653]:
+              - generic [ref=f3e660]:
+                - generic [ref=f3e661]:
+                  - generic [ref=f3e662]: m
+                  - generic [ref=f3e663]: i
+                - generic [ref=f3e664]:
+                  - generic [ref=f3e665]:
+                    - generic [ref=f3e666]: x
+                    - generic [ref=f3e667]: ¨
+                  - generic [ref=f3e668]: i
+                - generic [ref=f3e669]: +
+                - generic [ref=f3e670]:
+                  - generic [ref=f3e671]: γ
+                  - generic [ref=f3e672]: x
+                - generic [ref=f3e673]:
+                  - generic [ref=f3e674]:
+                    - generic [ref=f3e675]: x
+                    - generic [ref=f3e676]: ˙
+                  - generic [ref=f3e677]: i
+                - generic [ref=f3e678]: =
+                - generic [ref=f3e679]: −
+                - generic [ref=f3e680]:
+                  - generic [ref=f3e681]: ∇
+                  - generic [ref=f3e682]:
+                    - generic [ref=f3e683]: x
+                    - generic [ref=f3e684]: i
+                - generic [ref=f3e685]:
+                  - generic [ref=f3e686]: ∑
+                  - generic [ref=f3e687]:
+                    - generic [ref=f3e688]: j
+                    - generic [ref=f3e689]: ≠
+                    - generic [ref=f3e690]: i
+                - generic [ref=f3e691]:
+                  - generic [ref=f3e692]: V
+                  - generic [ref=f3e693]:
+                    - generic [ref=f3e694]: i
+                    - generic [ref=f3e695]: j
+                - generic [ref=f3e696]: +
+                - generic [ref=f3e697]:
+                  - generic [ref=f3e698]: ξ
+                  - generic [ref=f3e699]: i
+                - generic [ref=f3e700]: (
+                - generic [ref=f3e701]: t
+                - generic [ref=f3e702]: )
+            - generic [ref=f3e711]:
+              - generic [ref=f3e712]:
+                - text: m
+                - generic [ref=f3e713]: i
+              - generic [ref=f3e721]:
+                - generic [ref=f3e725]:
+                  - generic [ref=f3e726]: x
+                  - generic [ref=f3e727]: ¨
+                - generic [ref=f3e728]: i
+              - text: +
+              - generic [ref=f3e736]:
+                - text: γ
+                - generic [ref=f3e737]: x
+              - generic [ref=f3e745]:
+                - generic [ref=f3e749]:
+                  - generic [ref=f3e750]: x
+                  - generic [ref=f3e751]: ˙
+                - generic [ref=f3e752]: i
+              - text: = −
+              - generic [ref=f3e760]:
+                - text: ∇
+                - generic [ref=f3e767]:
+                  - text: x
+                  - generic [ref=f3e768]: i
+              - generic [ref=f3e782]:
+                - generic [ref=f3e784]:
+                  - text: j
+                  - generic [ref=f3e785]:
+                    - generic [ref=f3e786]: 
+                    - text: =
+                  - text: i
+                - generic [ref=f3e792]: ∑
+              - generic [ref=f3e796]:
+                - text: V
+                - generic [ref=f3e797]: ij
+              - text: +
+              - generic [ref=f3e806]:
+                - generic [ref=f3e807]: ξ
+                - generic [ref=f3e809]: i
+              - text: (t)
+        - paragraph [ref=f3e821]: "where:"
+        - list [ref=f3e822]:
+          - listitem [ref=f3e823]:
+            - generic [ref=f3e824]:
+              - math [ref=f3e826]:
+                - generic [ref=f3e829]:
+                  - generic [ref=f3e830]: m
+                  - generic [ref=f3e831]: i
+              - generic [ref=f3e834]:
+                - text: m
+                - generic [ref=f3e835]: i
+            - text: = effective inertia,
+          - listitem [ref=f3e843]:
+            - generic [ref=f3e844]:
+              - math [ref=f3e846]:
+                - generic [ref=f3e849]:
+                  - generic [ref=f3e850]: γ
+                  - generic [ref=f3e851]: x
+              - generic [ref=f3e854]:
+                - text: γ
+                - generic [ref=f3e855]: x
+            - text: = damping,
+          - listitem [ref=f3e863]:
+            - generic [ref=f3e864]:
+              - math [ref=f3e866]:
+                - generic [ref=f3e869]:
+                  - generic [ref=f3e870]: ξ
+                  - generic [ref=f3e871]: i
+              - generic [ref=f3e874]:
+                - generic [ref=f3e875]: ξ
+                - generic [ref=f3e877]: i
+            - text: = optional noise/perturbation.
+        - paragraph [ref=f3e885]: "For the first simulation an overdamped model may be simpler:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e886]:
+          - generic [ref=f3e887]:
+            - math [ref=f3e889]:
+              - generic [ref=f3e896]:
+                - generic [ref=f3e897]:
+                  - generic [ref=f3e898]:
+                    - generic [ref=f3e899]: x
+                    - generic [ref=f3e900]: ˙
+                  - generic [ref=f3e901]: i
+                - generic [ref=f3e902]: =
+                - generic [ref=f3e903]: −
+                - generic [ref=f3e904]:
+                  - generic [ref=f3e905]: μ
+                  - generic [ref=f3e906]: x
+                - generic [ref=f3e907]:
+                  - generic [ref=f3e908]: ∇
+                  - generic [ref=f3e909]:
+                    - generic [ref=f3e910]: x
+                    - generic [ref=f3e911]: i
+                - generic [ref=f3e912]:
+                  - generic [ref=f3e913]: ∑
+                  - generic [ref=f3e914]:
+                    - generic [ref=f3e915]: j
+                    - generic [ref=f3e916]: ≠
+                    - generic [ref=f3e917]: i
+                - generic [ref=f3e918]:
+                  - generic [ref=f3e919]: V
+                  - generic [ref=f3e920]:
+                    - generic [ref=f3e921]: i
+                    - generic [ref=f3e922]: j
+            - generic [ref=f3e931]:
+              - generic [ref=f3e932]:
+                - generic [ref=f3e936]:
+                  - generic [ref=f3e937]: x
+                  - generic [ref=f3e938]: ˙
+                - generic [ref=f3e939]: i
+              - text: = −
+              - generic [ref=f3e947]:
+                - text: μ
+                - generic [ref=f3e948]: x
+              - generic [ref=f3e956]:
+                - text: ∇
+                - generic [ref=f3e963]:
+                  - text: x
+                  - generic [ref=f3e964]: i
+              - generic [ref=f3e978]:
+                - generic [ref=f3e980]:
+                  - text: j
+                  - generic [ref=f3e981]:
+                    - generic [ref=f3e982]: 
+                    - text: =
+                  - text: i
+                - generic [ref=f3e988]: ∑
+              - generic [ref=f3e992]:
+                - text: V
+                - generic [ref=f3e993]: ij
+        - paragraph [ref=f3e1006]: This avoids unnecessary inertial complexity.
+        - separator [ref=f3e1007]
+        - heading "5. Phase equation" [level=2] [ref=f3e1008]
+        - paragraph [ref=f3e1009]: "A direct potential-gradient form:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1010]:
+          - generic [ref=f3e1011]:
+            - math [ref=f3e1013]:
+              - generic [ref=f3e1020]:
+                - generic [ref=f3e1021]:
+                  - generic [ref=f3e1022]:
+                    - generic [ref=f3e1023]: θ
+                    - generic [ref=f3e1024]: ˙
+                  - generic [ref=f3e1025]: i
+                - generic [ref=f3e1026]: =
+                - generic [ref=f3e1027]:
+                  - generic [ref=f3e1028]: ω
+                  - generic [ref=f3e1029]: i
+                - generic [ref=f3e1030]: −
+                - generic [ref=f3e1031]:
+                  - generic [ref=f3e1032]: μ
+                  - generic [ref=f3e1033]: θ
+                - generic [ref=f3e1034]:
+                  - generic [ref=f3e1035]: ∂
+                  - generic [ref=f3e1036]:
+                    - generic [ref=f3e1037]: ∂
+                    - generic [ref=f3e1038]:
+                      - generic [ref=f3e1039]: θ
+                      - generic [ref=f3e1040]: i
+                - generic [ref=f3e1041]:
+                  - generic [ref=f3e1042]: ∑
+                  - generic [ref=f3e1043]:
+                    - generic [ref=f3e1044]: j
+                    - generic [ref=f3e1045]: ≠
+                    - generic [ref=f3e1046]: i
+                - generic [ref=f3e1047]:
+                  - generic [ref=f3e1048]: V
+                  - generic [ref=f3e1049]:
+                    - generic [ref=f3e1050]: i
+                    - generic [ref=f3e1051]: j
+                - generic [ref=f3e1052]: +
+                - generic [ref=f3e1053]:
+                  - generic [ref=f3e1054]: η
+                  - generic [ref=f3e1055]: i
+                - generic [ref=f3e1056]: (
+                - generic [ref=f3e1057]: t
+                - generic [ref=f3e1058]: )
+            - generic [ref=f3e1067]:
+              - generic [ref=f3e1068]:
+                - generic [ref=f3e1072]:
+                  - generic [ref=f3e1073]: θ
+                  - generic [ref=f3e1074]: ˙
+                - generic [ref=f3e1075]: i
+              - text: =
+              - generic [ref=f3e1083]:
+                - text: ω
+                - generic [ref=f3e1084]: i
+              - text: −
+              - generic [ref=f3e1092]:
+                - text: μ
+                - generic [ref=f3e1093]: θ
+              - generic [ref=f3e1105]:
+                - generic [ref=f3e1106]:
+                  - text: ∂
+                  - generic [ref=f3e1107]:
+                    - text: θ
+                    - generic [ref=f3e1108]: i
+                - generic [ref=f3e1117]: ∂
+              - generic [ref=f3e1124]:
+                - generic [ref=f3e1126]:
+                  - text: j
+                  - generic [ref=f3e1127]:
+                    - generic [ref=f3e1128]: 
+                    - text: =
+                  - text: i
+                - generic [ref=f3e1134]: ∑
+              - generic [ref=f3e1138]:
+                - text: V
+                - generic [ref=f3e1139]: ij
+              - text: +
+              - generic [ref=f3e1148]:
+                - text: η
+                - generic [ref=f3e1149]: i
+              - text: (t)
+        - paragraph [ref=f3e1161]: which yields a Kuramoto-like phase term.
+        - paragraph [ref=f3e1162]: "Equivalently:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1163]:
+          - generic [ref=f3e1164]:
+            - math [ref=f3e1166]:
+              - generic [ref=f3e1168]:
+                - generic [ref=f3e1169]:
+                  - generic [ref=f3e1170]:
+                    - generic [ref=f3e1171]: θ
+                    - generic [ref=f3e1172]: ˙
+                  - generic [ref=f3e1173]: i
+                - generic [ref=f3e1174]: =
+                - generic [ref=f3e1175]:
+                  - generic [ref=f3e1176]: ω
+                  - generic [ref=f3e1177]: i
+                - generic [ref=f3e1178]: +
+                - generic [ref=f3e1179]:
+                  - generic [ref=f3e1180]: ∑
+                  - generic [ref=f3e1181]:
+                    - generic [ref=f3e1182]: j
+                    - generic [ref=f3e1183]: ≠
+                    - generic [ref=f3e1184]: i
+                - generic [ref=f3e1185]: K
+                - generic [ref=f3e1186]: (
+                - generic [ref=f3e1187]:
+                  - generic [ref=f3e1188]: r
+                  - generic [ref=f3e1189]:
+                    - generic [ref=f3e1190]: i
+                    - generic [ref=f3e1191]: j
+                - generic [ref=f3e1192]: )
+                - generic [ref=f3e1193]: sin
+                - generic: ⁡
+                - generic [ref=f3e1194]: (
+                - generic [ref=f3e1195]:
+                  - generic [ref=f3e1196]: θ
+                  - generic [ref=f3e1197]: j
+                - generic [ref=f3e1198]: −
+                - generic [ref=f3e1199]:
+                  - generic [ref=f3e1200]: θ
+                  - generic [ref=f3e1201]: i
+                - generic [ref=f3e1202]: )
+                - generic [ref=f3e1203]: +
+                - generic [ref=f3e1204]:
+                  - generic [ref=f3e1205]: η
+                  - generic [ref=f3e1206]: i
+                - generic [ref=f3e1207]: (
+                - generic [ref=f3e1208]: t
+                - generic [ref=f3e1209]: )
+            - generic [aria-hidden] [ref=f3e1210]:
+              - generic [ref=f3e1211]:
+                - generic [ref=f3e1212]:
+                  - generic [ref=f3e1216]:
+                    - generic [ref=f3e1217]: θ
+                    - generic [ref=f3e1218]: ˙
+                  - generic [ref=f3e1219]: i
+                - text: =
+              - generic [ref=f3e1227]:
+                - generic [ref=f3e1228]:
+                  - text: ω
+                  - generic [ref=f3e1229]: i
+                - text: +
+              - generic [ref=f3e1237]:
+                - generic [ref=f3e1241]:
+                  - generic [ref=f3e1243]:
+                    - text: j
+                    - generic [ref=f3e1244]:
+                      - generic [ref=f3e1245]: 
+                      - text: =
+                    - text: i
+                  - generic [ref=f3e1251]: ∑
+                - text: K(
+                - generic [ref=f3e1255]:
+                  - text: r
+                  - generic [ref=f3e1256]: ij
+                - text: ) sin(
+                - generic [ref=f3e1265]:
+                  - text: θ
+                  - generic [ref=f3e1266]: j
+                - text: −
+              - generic [ref=f3e1274]:
+                - generic [ref=f3e1275]:
+                  - text: θ
+                  - generic [ref=f3e1276]: i
+                - text: ) +
+              - generic [ref=f3e1284]:
+                - generic [ref=f3e1285]:
+                  - text: η
+                  - generic [ref=f3e1286]: i
+                - text: (t)
+        - paragraph [ref=f3e1294]:
+          - text: for an appropriate
+          - generic [ref=f3e1295]:
+            - math [ref=f3e1297]:
+              - generic [ref=f3e1299]:
+                - generic [ref=f3e1300]: K
+                - generic [ref=f3e1301]: (
+                - generic [ref=f3e1302]: r
+                - generic [ref=f3e1303]: )
+            - generic [ref=f3e1305]: K(r)
+          - text: .
+        - paragraph [ref=f3e1306]: "Thus:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1307]:
+          - generic [ref=f3e1308]:
+            - math [ref=f3e1310]:
+              - generic [ref=f3e1311]: geometry controls synchronization
+            - generic [ref=f3e1319]: geometry controls synchronization
+        - paragraph [ref=f3e1332]: "while the spatial equation gives:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1333]:
+          - generic [ref=f3e1334]:
+            - math [ref=f3e1336]:
+              - generic [ref=f3e1337]: synchronization controls geometry
+            - generic [ref=f3e1345]: synchronization controls geometry
+        - separator [ref=f3e1358]
+        - heading "6. Optional amplitude dynamics" [level=2] [ref=f3e1359]
+        - paragraph [ref=f3e1360]: "If amplitude must evolve, use a Stuart–Landau normal form:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1361]:
+          - generic [ref=f3e1362]:
+            - math [ref=f3e1364]:
+              - generic [ref=f3e1371]:
+                - generic [ref=f3e1372]:
+                  - generic [ref=f3e1373]:
+                    - generic [ref=f3e1374]: z
+                    - generic [ref=f3e1375]: ˙
+                  - generic [ref=f3e1376]: i
+                - generic [ref=f3e1377]: =
+                - generic [ref=f3e1378]: (
+                - generic [ref=f3e1379]:
+                  - generic [ref=f3e1380]: α
+                  - generic [ref=f3e1381]: i
+                - generic [ref=f3e1382]: +
+                - generic [ref=f3e1383]: i
+                - generic [ref=f3e1384]:
+                  - generic [ref=f3e1385]: ω
+                  - generic [ref=f3e1386]: i
+                - generic [ref=f3e1387]: −
+                - generic [ref=f3e1388]:
+                  - generic [ref=f3e1389]: β
+                  - generic [ref=f3e1390]: i
+                - generic [ref=f3e1391]: ∣
+                - generic [ref=f3e1392]:
+                  - generic [ref=f3e1393]: z
+                  - generic [ref=f3e1394]: i
+                - generic [ref=f3e1395]:
+                  - generic [ref=f3e1396]: ∣
+                  - generic [ref=f3e1397]: "2"
+                - generic [ref=f3e1398]: )
+                - generic [ref=f3e1399]:
+                  - generic [ref=f3e1400]: z
+                  - generic [ref=f3e1401]: i
+                - generic [ref=f3e1402]: +
+                - generic [ref=f3e1403]:
+                  - generic [ref=f3e1404]: ∑
+                  - generic [ref=f3e1405]: j
+                - generic [ref=f3e1406]:
+                  - generic [ref=f3e1407]: K
+                  - generic [ref=f3e1408]:
+                    - generic [ref=f3e1409]: i
+                    - generic [ref=f3e1410]: j
+                - generic [ref=f3e1411]: (
+                - generic [ref=f3e1412]: G
+                - generic [ref=f3e1413]: )
+                - generic [ref=f3e1414]: (
+                - generic [ref=f3e1415]:
+                  - generic [ref=f3e1416]: z
+                  - generic [ref=f3e1417]: j
+                - generic [ref=f3e1418]: −
+                - generic [ref=f3e1419]:
+                  - generic [ref=f3e1420]: z
+                  - generic [ref=f3e1421]: i
+                - generic [ref=f3e1422]: )
+            - generic [ref=f3e1431]:
+              - generic [ref=f3e1432]:
+                - generic [ref=f3e1436]:
+                  - generic [ref=f3e1437]: z
+                  - generic [ref=f3e1438]: ˙
+                - generic [ref=f3e1439]: i
+              - text: = (
+              - generic [ref=f3e1447]:
+                - text: α
+                - generic [ref=f3e1448]: i
+              - text: + i
+              - generic [ref=f3e1456]:
+                - text: ω
+                - generic [ref=f3e1457]: i
+              - text: −
+              - generic [ref=f3e1465]:
+                - text: β
+                - generic [ref=f3e1466]: i
+              - text: ∣
+              - generic [ref=f3e1474]:
+                - text: z
+                - generic [ref=f3e1475]: i
+              - generic [ref=f3e1483]:
+                - text: ∣
+                - generic [ref=f3e1484]: "2"
+              - text: )
+              - generic [ref=f3e1489]:
+                - text: z
+                - generic [ref=f3e1490]: i
+              - text: +
+              - generic [ref=f3e1501]:
+                - generic [ref=f3e1502]: j
+                - generic [ref=f3e1503]: ∑
+              - generic [ref=f3e1507]:
+                - text: K
+                - generic [ref=f3e1508]: ij
+              - text: (G)(
+              - generic [ref=f3e1517]:
+                - text: z
+                - generic [ref=f3e1518]: j
+              - text: −
+              - generic [ref=f3e1526]:
+                - text: z
+                - generic [ref=f3e1527]: i
+              - text: )
+        - paragraph [ref=f3e1539]:
+          - text: This naturally provides stable oscillation amplitude when
+          - generic [ref=f3e1540]:
+            - math [ref=f3e1542]:
+              - generic [ref=f3e1544]:
+                - generic [ref=f3e1545]:
+                  - generic [ref=f3e1546]: α
+                  - generic [ref=f3e1547]: i
+                - generic [ref=f3e1548]: ">"
+                - generic [ref=f3e1549]: "0"
+            - generic [aria-hidden] [ref=f3e1550]:
+              - generic [ref=f3e1551]:
+                - generic [ref=f3e1552]:
+                  - text: α
+                  - generic [ref=f3e1553]: i
+                - text: ">"
+              - generic [ref=f3e1561]: "0"
+          - text: .
+        - paragraph [ref=f3e1562]: It is a better second-stage model than manually fixing all amplitudes.
+        - separator [ref=f3e1563]
+        - heading "7. Geometry as a graph as well as position" [level=2] [ref=f3e1564]
+        - paragraph [ref=f3e1565]: Physical position alone may be insufficient.
+        - paragraph [ref=f3e1566]: "Define adaptive edge strength:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1567]:
+          - generic [ref=f3e1568]:
+            - math [ref=f3e1570]:
+              - generic [ref=f3e1572]:
+                - generic [ref=f3e1573]:
+                  - generic [ref=f3e1574]: g
+                  - generic [ref=f3e1575]:
+                    - generic [ref=f3e1576]: i
+                    - generic [ref=f3e1577]: j
+                - generic [ref=f3e1578]: ∈
+                - generic [ref=f3e1579]: "["
+                - generic [ref=f3e1580]: "0"
+                - generic [ref=f3e1581]: ","
+                - generic [ref=f3e1582]: "1"
+                - generic [ref=f3e1583]: "]"
+                - generic [ref=f3e1584]: .
+            - generic [aria-hidden] [ref=f3e1585]:
+              - generic [ref=f3e1586]:
+                - generic [ref=f3e1587]:
+                  - text: g
+                  - generic [ref=f3e1588]: ij
+                - text: ∈
+              - generic [ref=f3e1597]: "[0, 1]."
+        - paragraph [ref=f3e1598]: "Let effective interaction be:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1599]:
+          - generic [ref=f3e1600]:
+            - math [ref=f3e1602]:
+              - generic [ref=f3e1604]:
+                - generic [ref=f3e1605]:
+                  - generic [ref=f3e1606]: K
+                  - generic [ref=f3e1607]:
+                    - generic [ref=f3e1608]: i
+                    - generic [ref=f3e1609]: j
+                - generic [ref=f3e1610]: =
+                - generic [ref=f3e1611]:
+                  - generic [ref=f3e1612]: g
+                  - generic [ref=f3e1613]:
+                    - generic [ref=f3e1614]: i
+                    - generic [ref=f3e1615]: j
+                - generic [ref=f3e1616]: K
+                - generic [ref=f3e1617]: (
+                - generic [ref=f3e1618]:
+                  - generic [ref=f3e1619]: r
+                  - generic [ref=f3e1620]:
+                    - generic [ref=f3e1621]: i
+                    - generic [ref=f3e1622]: j
+                - generic [ref=f3e1623]: )
+                - generic [ref=f3e1624]: .
+            - generic [aria-hidden] [ref=f3e1625]:
+              - generic [ref=f3e1626]:
+                - generic [ref=f3e1627]:
+                  - text: K
+                  - generic [ref=f3e1628]: ij
+                - text: =
+              - generic [ref=f3e1637]:
+                - generic [ref=f3e1638]:
+                  - text: g
+                  - generic [ref=f3e1639]: ij
+                - text: K(
+                - generic [ref=f3e1648]:
+                  - text: r
+                  - generic [ref=f3e1649]: ij
+                - text: ).
+        - paragraph [ref=f3e1658]: "Then let the graph adapt:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1659]:
+          - generic [ref=f3e1660]:
+            - math [ref=f3e1662]:
+              - generic [ref=f3e1669]:
+                - generic [ref=f3e1670]:
+                  - generic [ref=f3e1671]:
+                    - generic [ref=f3e1672]: g
+                    - generic [ref=f3e1673]: ˙
+                  - generic [ref=f3e1674]:
+                    - generic [ref=f3e1675]: i
+                    - generic [ref=f3e1676]: j
+                - generic [ref=f3e1677]: =
+                - generic [ref=f3e1678]:
+                  - generic [ref=f3e1679]: η
+                  - generic [ref=f3e1680]: g
+                - generic [ref=f3e1681]:
+                  - generic [ref=f3e1682]: "["
+                  - generic [ref=f3e1683]:
+                    - generic [ref=f3e1684]: C
+                    - generic [ref=f3e1685]:
+                      - generic [ref=f3e1686]: i
+                      - generic [ref=f3e1687]: j
+                  - generic [ref=f3e1688]: (
+                  - generic [ref=f3e1689]: R
+                  - generic [ref=f3e1690]: )
+                  - generic [ref=f3e1691]: −
+                  - generic [ref=f3e1692]:
+                    - generic [ref=f3e1693]: g
+                    - generic [ref=f3e1694]:
+                      - generic [ref=f3e1695]: i
+                      - generic [ref=f3e1696]: j
+                  - generic [ref=f3e1697]: "]"
+            - generic [ref=f3e1706]:
+              - generic [ref=f3e1707]:
+                - generic [ref=f3e1711]:
+                  - generic [ref=f3e1712]: g
+                  - generic [ref=f3e1713]: ˙
+                - generic [ref=f3e1717]: ij
+              - text: =
+              - generic [ref=f3e1726]:
+                - text: η
+                - generic [ref=f3e1727]: g
+              - generic [ref=f3e1735]:
+                - text: "["
+                - generic [ref=f3e1736]:
+                  - text: C
+                  - generic [ref=f3e1737]: ij
+                - text: (R) −
+                - generic [ref=f3e1746]:
+                  - text: g
+                  - generic [ref=f3e1747]: ij
+                - text: "]"
+        - paragraph [ref=f3e1760]:
+          - text: where
+          - generic [ref=f3e1761]:
+            - math [ref=f3e1763]:
+              - generic [ref=f3e1766]:
+                - generic [ref=f3e1767]: C
+                - generic [ref=f3e1768]:
+                  - generic [ref=f3e1769]: i
+                  - generic [ref=f3e1770]: j
+            - generic [ref=f3e1773]:
+              - text: C
+              - generic [ref=f3e1774]: ij
+          - text: measures compatibility.
+        - paragraph [ref=f3e1783]: "A first compatibility function:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1784]:
+          - generic [ref=f3e1785]:
+            - math [ref=f3e1787]:
+              - generic [ref=f3e1789]:
+                - generic [ref=f3e1790]:
+                  - generic [ref=f3e1791]: C
+                  - generic [ref=f3e1792]:
+                    - generic [ref=f3e1793]: i
+                    - generic [ref=f3e1794]: j
+                - generic [ref=f3e1795]: =
+                - generic [ref=f3e1796]: σ
+                - generic [ref=f3e1797]:
+                  - generic [ref=f3e1798]: "["
+                  - generic [ref=f3e1799]: a
+                  - generic [ref=f3e1800]: cos
+                  - generic: ⁡
+                  - generic [ref=f3e1801]: (
+                  - generic [ref=f3e1802]:
+                    - generic [ref=f3e1803]: θ
+                    - generic [ref=f3e1804]: i
+                  - generic [ref=f3e1805]: −
+                  - generic [ref=f3e1806]:
+                    - generic [ref=f3e1807]: θ
+                    - generic [ref=f3e1808]: j
+                  - generic [ref=f3e1809]: )
+                  - generic [ref=f3e1810]: −
+                  - generic [ref=f3e1811]: b
+                  - generic [ref=f3e1812]: (
+                  - generic [ref=f3e1813]:
+                    - generic [ref=f3e1814]: r
+                    - generic [ref=f3e1815]:
+                      - generic [ref=f3e1816]: i
+                      - generic [ref=f3e1817]: j
+                  - generic [ref=f3e1818]: −
+                  - generic [ref=f3e1819]:
+                    - generic [ref=f3e1820]: r
+                    - generic [ref=f3e1821]: "0"
+                  - generic [ref=f3e1822]:
+                    - generic [ref=f3e1823]: )
+                    - generic [ref=f3e1824]: "2"
+                  - generic [ref=f3e1825]: +
+                  - generic [ref=f3e1826]: c
+                  - generic [ref=f3e1827]:
+                    - generic [ref=f3e1828]: A
+                    - generic [ref=f3e1829]: i
+                  - generic [ref=f3e1830]:
+                    - generic [ref=f3e1831]: A
+                    - generic [ref=f3e1832]: j
+                  - generic [ref=f3e1833]: "]"
+            - generic [aria-hidden] [ref=f3e1834]:
+              - generic [ref=f3e1835]:
+                - generic [ref=f3e1836]:
+                  - text: C
+                  - generic [ref=f3e1837]: ij
+                - text: =
+              - generic [ref=f3e1846]:
+                - text: σ
+                - generic [ref=f3e1847]:
+                  - generic [ref=f3e1848]: "["
+                  - text: a cos(
+                  - generic [ref=f3e1849]:
+                    - text: θ
+                    - generic [ref=f3e1850]: i
+                  - text: −
+                  - generic [ref=f3e1858]:
+                    - text: θ
+                    - generic [ref=f3e1859]: j
+                  - text: ) − b(
+                  - generic [ref=f3e1867]:
+                    - text: r
+                    - generic [ref=f3e1868]: ij
+                  - text: −
+                  - generic [ref=f3e1877]:
+                    - text: r
+                    - generic [ref=f3e1878]: "0"
+                  - generic [ref=f3e1886]:
+                    - text: )
+                    - generic [ref=f3e1887]: "2"
+                  - text: + c
+                  - generic [ref=f3e1892]:
+                    - text: A
+                    - generic [ref=f3e1893]: i
+                  - generic [ref=f3e1901]:
+                    - text: A
+                    - generic [ref=f3e1902]: j
+                  - generic [ref=f3e1910]: "]"
+        - paragraph [ref=f3e1911]:
+          - text: with sigmoid
+          - generic [ref=f3e1912]:
+            - math [ref=f3e1914]:
+              - generic [ref=f3e1915]: σ
+            - generic [ref=f3e1919]: σ
+          - text: .
+        - paragraph [ref=f3e1920]: "This gives a literal dynamic graph:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1921]:
+          - generic [ref=f3e1922]:
+            - math [ref=f3e1924]:
+              - generic [ref=f3e1931]:
+                - generic [ref=f3e1932]: mode changes topology
+                - generic [ref=f3e1933]: ↔
+                - generic [ref=f3e1934]: topology changes mode
+            - generic [ref=f3e1943]:
+              - generic [ref=f3e1944]: mode changes topology
+              - text: ↔
+              - generic [ref=f3e1945]: topology changes mode
+        - separator [ref=f3e1950]
+        - heading "8. Geometry determines modes" [level=2] [ref=f3e1951]
+        - paragraph [ref=f3e1952]:
+          - text: For a fixed weighted graph
+          - generic [ref=f3e1953]:
+            - math [ref=f3e1955]:
+              - generic [ref=f3e1956]: G
+            - generic [ref=f3e1960]: G
+          - text: ", define its graph Laplacian:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e1961]:
+          - generic [ref=f3e1962]:
+            - math [ref=f3e1964]:
+              - generic [ref=f3e1966]:
+                - generic [ref=f3e1967]: L
+                - generic [ref=f3e1968]: =
+                - generic [ref=f3e1969]: D
+                - generic [ref=f3e1970]: −
+                - generic [ref=f3e1971]: W
+            - generic [aria-hidden] [ref=f3e1972]:
+              - generic [ref=f3e1973]: L =
+              - generic [ref=f3e1974]: D −
+              - generic [ref=f3e1975]: W
+        - paragraph [ref=f3e1976]:
+          - text: where
+          - generic [ref=f3e1977]:
+            - math [ref=f3e1979]:
+              - generic [ref=f3e1981]:
+                - generic [ref=f3e1982]: W
+                - generic [ref=f3e1983]: =
+                - generic [ref=f3e1984]: "["
+                - generic [ref=f3e1985]:
+                  - generic [ref=f3e1986]: g
+                  - generic [ref=f3e1987]:
+                    - generic [ref=f3e1988]: i
+                    - generic [ref=f3e1989]: j
+                - generic [ref=f3e1990]: "]"
+            - generic [aria-hidden] [ref=f3e1991]:
+              - generic [ref=f3e1992]: W =
+              - generic [ref=f3e1993]:
+                - text: "["
+                - generic [ref=f3e1994]:
+                  - text: g
+                  - generic [ref=f3e1995]: ij
+                - text: "]"
+          - text: and
+          - generic [ref=f3e2004]:
+            - math [ref=f3e2006]:
+              - generic [ref=f3e2007]: D
+            - generic [ref=f3e2011]: D
+          - text: is the degree matrix.
+        - paragraph [ref=f3e2012]: "Linear collective modes satisfy:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2013]:
+          - generic [ref=f3e2014]:
+            - math [ref=f3e2016]:
+              - generic [ref=f3e2023]:
+                - generic [ref=f3e2024]: L
+                - generic [ref=f3e2025]:
+                  - generic [ref=f3e2026]: u
+                  - generic [ref=f3e2027]: k
+                - generic [ref=f3e2028]: =
+                - generic [ref=f3e2029]:
+                  - generic [ref=f3e2030]: λ
+                  - generic [ref=f3e2031]: k
+                - generic [ref=f3e2032]:
+                  - generic [ref=f3e2033]: u
+                  - generic [ref=f3e2034]: k
+            - generic [ref=f3e2043]:
+              - text: L
+              - generic [ref=f3e2044]:
+                - text: u
+                - generic [ref=f3e2045]: k
+              - text: =
+              - generic [ref=f3e2053]:
+                - text: λ
+                - generic [ref=f3e2054]: k
+              - generic [ref=f3e2062]:
+                - text: u
+                - generic [ref=f3e2063]: k
+        - paragraph [ref=f3e2075]: "For many oscillator networks:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2076]:
+          - generic [ref=f3e2077]:
+            - math [ref=f3e2079]:
+              - generic [ref=f3e2081]:
+                - generic [ref=f3e2082]:
+                  - generic [ref=f3e2083]: ω
+                  - generic [ref=f3e2084]: k
+                  - generic [ref=f3e2085]: "2"
+                - generic [ref=f3e2086]: ∝
+                - generic [ref=f3e2087]:
+                  - generic [ref=f3e2088]: λ
+                  - generic [ref=f3e2089]: k
+                - generic [ref=f3e2090]: .
+            - generic [aria-hidden] [ref=f3e2091]:
+              - generic [ref=f3e2092]:
+                - generic [ref=f3e2093]:
+                  - text: ω
+                  - generic [ref=f3e2097]:
+                    - generic [ref=f3e2098]: k
+                    - generic [ref=f3e2099]: "2"
+                - text: ∝
+              - generic [ref=f3e2103]:
+                - generic [ref=f3e2104]:
+                  - text: λ
+                  - generic [ref=f3e2105]: k
+                - text: .
+        - paragraph [ref=f3e2113]: "Thus the graph/geometry produces an allowed collective spectrum:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2114]:
+          - generic [ref=f3e2115]:
+            - math [ref=f3e2117]:
+              - generic [ref=f3e2124]:
+                - generic [ref=f3e2125]: G
+                - generic [ref=f3e2126]: →
+                - generic [ref=f3e2127]: "{"
+                - generic [ref=f3e2128]:
+                  - generic [ref=f3e2129]: u
+                  - generic [ref=f3e2130]: k
+                - generic [ref=f3e2131]: ","
+                - generic [ref=f3e2132]:
+                  - generic [ref=f3e2133]: ω
+                  - generic [ref=f3e2134]: k
+                - generic [ref=f3e2135]: "}"
+                - generic [ref=f3e2136]: .
+            - generic [ref=f3e2145]:
+              - text: "G → {"
+              - generic [ref=f3e2146]:
+                - text: u
+                - generic [ref=f3e2147]: k
+              - text: ","
+              - generic [ref=f3e2155]:
+                - text: ω
+                - generic [ref=f3e2156]: k
+              - text: "}."
+        - paragraph [ref=f3e2168]: This is the mathematical form of “shape is a resonator”.
+        - separator [ref=f3e2169]
+        - heading "9. Mode determines geometry" [level=2] [ref=f3e2170]
+        - paragraph [ref=f3e2171]: "Because:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2172]:
+          - generic [ref=f3e2173]:
+            - math [ref=f3e2175]:
+              - generic [ref=f3e2177]:
+                - generic [ref=f3e2178]:
+                  - generic [ref=f3e2179]: V
+                  - generic [ref=f3e2180]:
+                    - generic [ref=f3e2181]: i
+                    - generic [ref=f3e2182]: j
+                - generic [ref=f3e2183]: =
+                - generic [ref=f3e2184]: V
+                - generic [ref=f3e2185]: (
+                - generic [ref=f3e2186]:
+                  - generic [ref=f3e2187]: r
+                  - generic [ref=f3e2188]:
+                    - generic [ref=f3e2189]: i
+                    - generic [ref=f3e2190]: j
+                - generic [ref=f3e2191]: ","
+                - generic [ref=f3e2192]: Δ
+                - generic [ref=f3e2193]:
+                  - generic [ref=f3e2194]: θ
+                  - generic [ref=f3e2195]:
+                    - generic [ref=f3e2196]: i
+                    - generic [ref=f3e2197]: j
+                - generic [ref=f3e2198]: )
+            - generic [aria-hidden] [ref=f3e2199]:
+              - generic [ref=f3e2200]:
+                - generic [ref=f3e2201]:
+                  - text: V
+                  - generic [ref=f3e2202]: ij
+                - text: =
+              - generic [ref=f3e2211]:
+                - text: V(
+                - generic [ref=f3e2212]:
+                  - text: r
+                  - generic [ref=f3e2213]: ij
+                - text: ", Δ"
+                - generic [ref=f3e2222]:
+                  - text: θ
+                  - generic [ref=f3e2223]: ij
+                - text: )
+        - paragraph [ref=f3e2232]: the active phase pattern changes the force/relationship network.
+        - paragraph [ref=f3e2233]: "Therefore:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2234]:
+          - generic [ref=f3e2235]:
+            - math [ref=f3e2237]:
+              - generic [ref=f3e2244]:
+                - generic [ref=f3e2245]: M
+                - generic [ref=f3e2246]: →
+                - generic [ref=f3e2247]:
+                  - generic [ref=f3e2248]: G
+                  - generic [ref=f3e2249]: ′
+                - generic [ref=f3e2250]: .
+            - generic [ref=f3e2259]:
+              - text: M →
+              - generic [ref=f3e2260]:
+                - text: G
+                - generic [ref=f3e2261]: ′
+              - text: .
+        - paragraph [ref=f3e2271]: "A self-consistent stable resonator is a pair:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2272]:
+          - generic [ref=f3e2273]:
+            - math [ref=f3e2275]:
+              - generic [ref=f3e2282]:
+                - generic [ref=f3e2283]:
+                  - generic [ref=f3e2284]: R
+                  - generic [ref=f3e2285]: ∗
+                - generic [ref=f3e2286]: =
+                - generic [ref=f3e2287]: (
+                - generic [ref=f3e2288]:
+                  - generic [ref=f3e2289]: G
+                  - generic [ref=f3e2290]: ∗
+                - generic [ref=f3e2291]: ","
+                - generic [ref=f3e2292]:
+                  - generic [ref=f3e2293]: M
+                  - generic [ref=f3e2294]: ∗
+                - generic [ref=f3e2295]: )
+            - generic [ref=f3e2304]:
+              - generic [ref=f3e2305]:
+                - text: R
+                - generic [ref=f3e2306]: ∗
+              - text: = (
+              - generic [ref=f3e2311]:
+                - text: G
+                - generic [ref=f3e2312]: ∗
+              - text: ","
+              - generic [ref=f3e2317]:
+                - text: M
+                - generic [ref=f3e2318]: ∗
+              - text: )
+        - paragraph [ref=f3e2327]: for which evolution keeps the system in the same organized class.
+        - separator [ref=f3e2328]
+        - heading "10. Stability condition" [level=2] [ref=f3e2329]
+        - heading "10.1 Fixed-point test (candidate test, not the definition of RRG stability)" [level=3] [ref=f3e2330]
+        - paragraph [ref=f3e2331]: "Let the full state be:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2332]:
+          - generic [ref=f3e2333]:
+            - math [ref=f3e2335]:
+              - generic [ref=f3e2337]:
+                - generic [ref=f3e2338]: X
+                - generic [ref=f3e2339]: =
+                - generic [ref=f3e2340]: (
+                - generic [ref=f3e2341]:
+                  - generic [ref=f3e2342]: x
+                  - generic [ref=f3e2343]: "1"
+                - generic [ref=f3e2344]: ","
+                - generic [ref=f3e2345]: …
+                - generic [ref=f3e2346]: ","
+                - generic [ref=f3e2347]:
+                  - generic [ref=f3e2348]: θ
+                  - generic [ref=f3e2349]: "1"
+                - generic [ref=f3e2350]: ","
+                - generic [ref=f3e2351]: …
+                - generic [ref=f3e2352]: ","
+                - generic [ref=f3e2353]:
+                  - generic [ref=f3e2354]: g
+                  - generic [ref=f3e2355]:
+                    - generic [ref=f3e2356]: i
+                    - generic [ref=f3e2357]: j
+                - generic [ref=f3e2358]: ","
+                - generic [ref=f3e2359]: …
+                - generic [ref=f3e2360]: )
+                - generic [ref=f3e2361]: .
+            - generic [aria-hidden] [ref=f3e2362]:
+              - generic [ref=f3e2363]: X =
+              - generic [ref=f3e2364]:
+                - text: (
+                - generic [ref=f3e2365]:
+                  - text: x
+                  - generic [ref=f3e2366]: "1"
+                - text: ", … ,"
+                - generic [ref=f3e2374]:
+                  - text: θ
+                  - generic [ref=f3e2375]: "1"
+                - text: ", … ,"
+                - generic [ref=f3e2383]:
+                  - text: g
+                  - generic [ref=f3e2384]: ij
+                - text: ", …)."
+        - paragraph [ref=f3e2393]: "Dynamics:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2394]:
+          - generic [ref=f3e2395]:
+            - math [ref=f3e2397]:
+              - generic [ref=f3e2399]:
+                - generic [ref=f3e2400]:
+                  - generic [ref=f3e2401]: X
+                  - generic [ref=f3e2402]: ˙
+                - generic [ref=f3e2403]: =
+                - generic [ref=f3e2404]: F
+                - generic [ref=f3e2405]: (
+                - generic [ref=f3e2406]: X
+                - generic [ref=f3e2407]: )
+                - generic [ref=f3e2408]: .
+            - generic [aria-hidden] [ref=f3e2409]:
+              - generic [ref=f3e2410]:
+                - generic [ref=f3e2414]:
+                  - generic [ref=f3e2415]: X
+                  - generic [ref=f3e2416]: ˙
+                - text: =
+              - generic [ref=f3e2417]: F(X).
+        - paragraph [ref=f3e2418]:
+          - text: A fixed organized state
+          - generic [ref=f3e2419]:
+            - math [ref=f3e2421]:
+              - generic [ref=f3e2424]:
+                - generic [ref=f3e2425]: X
+                - generic [ref=f3e2426]: ∗
+            - generic [ref=f3e2429]:
+              - text: X
+              - generic [ref=f3e2430]: ∗
+          - text: "satisfies:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2435]:
+          - generic [ref=f3e2436]:
+            - math [ref=f3e2438]:
+              - generic [ref=f3e2440]:
+                - generic [ref=f3e2441]: F
+                - generic [ref=f3e2442]: (
+                - generic [ref=f3e2443]:
+                  - generic [ref=f3e2444]: X
+                  - generic [ref=f3e2445]: ∗
+                - generic [ref=f3e2446]: )
+                - generic [ref=f3e2447]: =
+                - generic [ref=f3e2448]: "0."
+            - generic [aria-hidden] [ref=f3e2449]:
+              - generic [ref=f3e2450]:
+                - text: F(
+                - generic [ref=f3e2451]:
+                  - text: X
+                  - generic [ref=f3e2452]: ∗
+                - text: ) =
+              - generic [ref=f3e2457]: "0."
+        - paragraph [ref=f3e2458]: "Linearize:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2459]:
+          - generic [ref=f3e2460]:
+            - math [ref=f3e2462]:
+              - generic [ref=f3e2464]:
+                - generic [ref=f3e2465]: δ
+                - generic [ref=f3e2466]:
+                  - generic [ref=f3e2467]: X
+                  - generic [ref=f3e2468]: ˙
+                - generic [ref=f3e2469]: =
+                - generic [ref=f3e2470]: J
+                - generic [ref=f3e2471]: (
+                - generic [ref=f3e2472]:
+                  - generic [ref=f3e2473]: X
+                  - generic [ref=f3e2474]: ∗
+                - generic [ref=f3e2475]: )
+                - generic [ref=f3e2476]: δ
+                - generic [ref=f3e2477]: X
+                - generic [ref=f3e2478]: .
+            - generic [aria-hidden] [ref=f3e2479]:
+              - generic [ref=f3e2480]:
+                - text: δ
+                - generic [ref=f3e2484]:
+                  - generic [ref=f3e2485]: X
+                  - generic [ref=f3e2486]: ˙
+                - text: =
+              - generic [ref=f3e2487]:
+                - text: J(
+                - generic [ref=f3e2488]:
+                  - text: X
+                  - generic [ref=f3e2489]: ∗
+                - text: )δX.
+        - paragraph [ref=f3e2494]: "For this fixed-point model, local asymptotic stability is tested by:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2495]:
+          - generic [ref=f3e2496]:
+            - math [ref=f3e2498]:
+              - generic [ref=f3e2505]:
+                - generic [ref=f3e2506]:
+                  - generic [ref=f3e2507]: R
+                  - generic [ref=f3e2508]: e
+                - generic [ref=f3e2509]: (
+                - generic [ref=f3e2510]:
+                  - generic [ref=f3e2511]: λ
+                  - generic [ref=f3e2512]: k
+                - generic [ref=f3e2513]: (
+                - generic [ref=f3e2514]: J
+                - generic [ref=f3e2515]: )
+                - generic [ref=f3e2516]: )
+                - generic [ref=f3e2517]: <
+                - generic [ref=f3e2518]: "0"
+            - generic [ref=f3e2527]:
+              - generic [ref=f3e2528]: Re
+              - text: (
+              - generic [ref=f3e2529]:
+                - text: λ
+                - generic [ref=f3e2530]: k
+              - text: (J)) < 0
+        - paragraph [ref=f3e2542]: for all non-symmetry modes.
+        - heading "10.2 Periodic-resonator test" [level=3] [ref=f3e2543]
+        - paragraph [ref=f3e2544]:
+          - text: If the system reproduces its organization every period
+          - generic [ref=f3e2545]:
+            - math [ref=f3e2547]:
+              - generic [ref=f3e2548]: T
+            - generic [ref=f3e2552]: T
+          - text: ":"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2553]:
+          - generic [ref=f3e2554]:
+            - math [ref=f3e2556]:
+              - generic [ref=f3e2558]:
+                - generic [ref=f3e2559]: X
+                - generic [ref=f3e2560]: (
+                - generic [ref=f3e2561]: t
+                - generic [ref=f3e2562]: +
+                - generic [ref=f3e2563]: T
+                - generic [ref=f3e2564]: )
+                - generic [ref=f3e2565]: ≈
+                - generic [ref=f3e2566]: X
+                - generic [ref=f3e2567]: (
+                - generic [ref=f3e2568]: t
+                - generic [ref=f3e2569]: )
+                - generic [ref=f3e2570]: ","
+            - generic [aria-hidden] [ref=f3e2571]:
+              - generic [ref=f3e2572]: X(t +
+              - generic [ref=f3e2573]: T) ≈
+              - generic [ref=f3e2574]: X(t),
+        - paragraph [ref=f3e2575]: use Floquet multipliers.
+        - paragraph [ref=f3e2576]: For this periodic-orbit model, Floquet stability is tested by requiring nontrivial multipliers to lie inside the unit circle.
+        - heading "10.3 Attractor test" [level=3] [ref=f3e2577]
+        - paragraph [ref=f3e2578]:
+          - text: More generally, define a persistent region
+          - generic [ref=f3e2579]:
+            - math [ref=f3e2581]:
+              - generic [ref=f3e2582]: A
+            - generic [ref=f3e2586]: A
+          - text: such that perturbed trajectories return to or remain near
+          - generic [ref=f3e2587]:
+            - math [ref=f3e2589]:
+              - generic [ref=f3e2590]: A
+            - generic [ref=f3e2594]: A
+          - text: .
+        - paragraph [ref=f3e2595]: "This lets RRG include:"
+        - list [ref=f3e2596]:
+          - listitem [ref=f3e2597]: fixed structures,
+          - listitem [ref=f3e2598]: oscillatory structures,
+          - listitem [ref=f3e2599]: rotating structures,
+          - listitem [ref=f3e2600]: quasiperiodic systems,
+          - listitem [ref=f3e2601]: more complicated bounded attractors.
+        - separator [ref=f3e2602]
+        - heading "11. What counts as a new resonator?" [level=2] [ref=f3e2603]
+        - paragraph [ref=f3e2604]:
+          - text: For a cluster
+          - generic [ref=f3e2605]:
+            - math [ref=f3e2607]:
+              - generic [ref=f3e2608]: C
+            - generic [ref=f3e2612]: C
+          - text: ", compute phase coherence:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2613]:
+          - generic [ref=f3e2614]:
+            - math [ref=f3e2616]:
+              - generic [ref=f3e2623]:
+                - generic [ref=f3e2624]:
+                  - generic [ref=f3e2625]: ρ
+                  - generic [ref=f3e2626]: C
+                - generic [ref=f3e2627]: =
+                - generic [ref=f3e2628]:
+                  - generic [ref=f3e2629]: ∣
+                  - generic [ref=f3e2630]:
+                    - generic [ref=f3e2631]: "1"
+                    - generic [ref=f3e2632]:
+                      - generic [ref=f3e2633]: ∣
+                      - generic [ref=f3e2634]: C
+                      - generic [ref=f3e2635]: ∣
+                  - generic [ref=f3e2636]:
+                    - generic [ref=f3e2637]: ∑
+                    - generic [ref=f3e2638]:
+                      - generic [ref=f3e2639]: i
+                      - generic [ref=f3e2640]: ∈
+                      - generic [ref=f3e2641]: C
+                  - generic [ref=f3e2642]:
+                    - generic [ref=f3e2643]: e
+                    - generic [ref=f3e2644]:
+                      - generic [ref=f3e2645]: i
+                      - generic [ref=f3e2646]:
+                        - generic [ref=f3e2647]: θ
+                        - generic [ref=f3e2648]: i
+                  - generic [ref=f3e2649]: ∣
+            - generic [ref=f3e2658]:
+              - generic [ref=f3e2659]:
+                - text: ρ
+                - generic [ref=f3e2660]: C
+              - text: =
+              - generic [ref=f3e2668]:
+                - generic [ref=f3e2684]:
+                  - generic [ref=f3e2685]: ∣C∣
+                  - generic [ref=f3e2687]: "1"
+                - generic [ref=f3e2694]:
+                  - generic [ref=f3e2695]: i∈C
+                  - generic [ref=f3e2697]: ∑
+                - generic [ref=f3e2701]:
+                  - text: e
+                  - generic [ref=f3e2707]:
+                    - text: i
+                    - generic [ref=f3e2708]:
+                      - text: θ
+                      - generic [ref=f3e2709]: i
+        - paragraph [ref=f3e2732]: but phase coherence alone is not enough.
+        - paragraph [ref=f3e2733]: "Define a persistence score:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2734]:
+          - generic [ref=f3e2735]:
+            - math [ref=f3e2737]:
+              - generic [ref=f3e2739]:
+                - generic [ref=f3e2740]:
+                  - generic [ref=f3e2741]: P
+                  - generic [ref=f3e2742]: C
+                - generic [ref=f3e2743]: =
+                - generic [ref=f3e2744]:
+                  - generic [ref=f3e2745]: w
+                  - generic [ref=f3e2746]: "1"
+                - generic [ref=f3e2747]:
+                  - generic [ref=f3e2748]: ρ
+                  - generic [ref=f3e2749]: C
+                - generic [ref=f3e2750]: +
+                - generic [ref=f3e2751]:
+                  - generic [ref=f3e2752]: w
+                  - generic [ref=f3e2753]: "2"
+                - generic [ref=f3e2754]:
+                  - generic [ref=f3e2755]: S
+                  - generic [ref=f3e2756]: geometry
+                - generic [ref=f3e2757]: +
+                - generic [ref=f3e2758]:
+                  - generic [ref=f3e2759]: w
+                  - generic [ref=f3e2760]: "3"
+                - generic [ref=f3e2761]:
+                  - generic [ref=f3e2762]: S
+                  - generic [ref=f3e2763]: return
+                - generic [ref=f3e2764]: +
+                - generic [ref=f3e2765]:
+                  - generic [ref=f3e2766]: w
+                  - generic [ref=f3e2767]: "4"
+                - generic [ref=f3e2768]:
+                  - generic [ref=f3e2769]: S
+                  - generic [ref=f3e2770]: lifetime
+                - generic [ref=f3e2771]: −
+                - generic [ref=f3e2772]:
+                  - generic [ref=f3e2773]: w
+                  - generic [ref=f3e2774]: "5"
+                - generic [ref=f3e2775]:
+                  - generic [ref=f3e2776]: S
+                  - generic [ref=f3e2777]: fragmentation
+                - generic [ref=f3e2778]: .
+            - generic [aria-hidden] [ref=f3e2779]:
+              - generic [ref=f3e2780]:
+                - generic [ref=f3e2781]:
+                  - text: P
+                  - generic [ref=f3e2782]: C
+                - text: =
+              - generic [ref=f3e2790]:
+                - generic [ref=f3e2791]:
+                  - text: w
+                  - generic [ref=f3e2792]: "1"
+                - generic [ref=f3e2800]:
+                  - text: ρ
+                  - generic [ref=f3e2801]: C
+                - text: +
+              - generic [ref=f3e2809]:
+                - generic [ref=f3e2810]:
+                  - text: w
+                  - generic [ref=f3e2811]: "2"
+                - generic [ref=f3e2819]:
+                  - text: S
+                  - generic [ref=f3e2820]: geometry
+                - text: +
+              - generic [ref=f3e2830]:
+                - generic [ref=f3e2831]:
+                  - text: w
+                  - generic [ref=f3e2832]: "3"
+                - generic [ref=f3e2840]:
+                  - text: S
+                  - generic [ref=f3e2841]: return
+                - text: +
+              - generic [ref=f3e2851]:
+                - generic [ref=f3e2852]:
+                  - text: w
+                  - generic [ref=f3e2853]: "4"
+                - generic [ref=f3e2861]:
+                  - text: S
+                  - generic [ref=f3e2862]: lifetime
+                - text: −
+              - generic [ref=f3e2872]:
+                - generic [ref=f3e2873]:
+                  - text: w
+                  - generic [ref=f3e2874]: "5"
+                - generic [ref=f3e2882]:
+                  - text: S
+                  - generic [ref=f3e2883]: fragmentation
+                - text: .
+        - paragraph [ref=f3e2893]: "For this toy model only, a cluster may be operationally promoted when:"
+        - list [ref=f3e2894]:
+          - listitem [ref=f3e2895]: membership remains sufficiently stable,
+          - listitem [ref=f3e2896]: geometry remains within a bounded equivalence class,
+          - listitem [ref=f3e2897]: collective phase/mode is measurable,
+          - listitem [ref=f3e2898]: it survives perturbations,
+          - listitem [ref=f3e2899]: it persists for many internal cycles.
+        - paragraph [ref=f3e2900]: These thresholds are simulation conveniences only. They do not define RRG stability or scale.
+        - separator [ref=f3e2901]
+        - heading "12. Coarse-graining a stable cluster" [level=2] [ref=f3e2902]
+        - paragraph [ref=f3e2903]:
+          - text: For cluster
+          - generic [ref=f3e2904]:
+            - math [ref=f3e2906]:
+              - generic [ref=f3e2907]: C
+            - generic [ref=f3e2911]: C
+          - text: ":"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e2912]:
+          - generic [ref=f3e2913]:
+            - math [ref=f3e2915]:
+              - generic [ref=f3e2922]:
+                - generic [ref=f3e2923]:
+                  - generic [ref=f3e2924]: Z
+                  - generic [ref=f3e2925]: C
+                - generic [ref=f3e2926]: =
+                - generic [ref=f3e2927]:
+                  - generic [ref=f3e2928]:
+                    - generic [ref=f3e2929]:
+                      - generic [ref=f3e2930]: ∑
+                      - generic [ref=f3e2931]:
+                        - generic [ref=f3e2932]: i
+                        - generic [ref=f3e2933]: ∈
+                        - generic [ref=f3e2934]: C
+                    - generic [ref=f3e2935]:
+                      - generic [ref=f3e2936]: w
+                      - generic [ref=f3e2937]: i
+                    - generic [ref=f3e2938]:
+                      - generic [ref=f3e2939]: z
+                      - generic [ref=f3e2940]: i
+                  - generic [ref=f3e2941]:
+                    - generic [ref=f3e2942]:
+                      - generic [ref=f3e2943]: ∑
+                      - generic [ref=f3e2944]:
+                        - generic [ref=f3e2945]: i
+                        - generic [ref=f3e2946]: ∈
+                        - generic [ref=f3e2947]: C
+                    - generic [ref=f3e2948]:
+                      - generic [ref=f3e2949]: w
+                      - generic [ref=f3e2950]: i
+            - generic [ref=f3e2959]:
+              - generic [ref=f3e2960]:
+                - text: Z
+                - generic [ref=f3e2961]: C
+              - text: =
+              - generic [ref=f3e2973]:
+                - generic [ref=f3e2974]:
+                  - generic [ref=f3e2975]:
+                    - text: ∑
+                    - generic [ref=f3e2976]: i∈C
+                  - generic [ref=f3e2985]:
+                    - text: w
+                    - generic [ref=f3e2986]: i
+                - generic [ref=f3e2995]:
+                  - generic [ref=f3e2996]:
+                    - text: ∑
+                    - generic [ref=f3e2997]: i∈C
+                  - generic [ref=f3e3006]:
+                    - text: w
+                    - generic [ref=f3e3007]: i
+                  - generic [ref=f3e3015]:
+                    - text: z
+                    - generic [ref=f3e3016]: i
+        - paragraph [ref=f3e3031]: "Collective amplitude:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3032]:
+          - generic [ref=f3e3033]:
+            - math [ref=f3e3035]:
+              - generic [ref=f3e3037]:
+                - generic [ref=f3e3038]:
+                  - generic [ref=f3e3039]: A
+                  - generic [ref=f3e3040]: C
+                - generic [ref=f3e3041]: =
+                - generic [ref=f3e3042]: ∣
+                - generic [ref=f3e3043]:
+                  - generic [ref=f3e3044]: Z
+                  - generic [ref=f3e3045]: C
+                - generic [ref=f3e3046]: ∣
+                - generic [ref=f3e3047]: .
+            - generic [aria-hidden] [ref=f3e3048]:
+              - generic [ref=f3e3049]:
+                - generic [ref=f3e3050]:
+                  - text: A
+                  - generic [ref=f3e3051]: C
+                - text: =
+              - generic [ref=f3e3059]:
+                - text: ∣
+                - generic [ref=f3e3060]:
+                  - text: Z
+                  - generic [ref=f3e3061]: C
+                - text: ∣.
+        - paragraph [ref=f3e3069]: "Collective phase:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3070]:
+          - generic [ref=f3e3071]:
+            - math [ref=f3e3073]:
+              - generic [ref=f3e3075]:
+                - generic [ref=f3e3076]:
+                  - generic [ref=f3e3077]: Θ
+                  - generic [ref=f3e3078]: C
+                - generic [ref=f3e3079]: =
+                - generic [ref=f3e3080]: arg
+                - generic: ⁡
+                - generic [ref=f3e3081]:
+                  - generic [ref=f3e3082]: Z
+                  - generic [ref=f3e3083]: C
+                - generic [ref=f3e3084]: .
+            - generic [aria-hidden] [ref=f3e3085]:
+              - generic [ref=f3e3086]:
+                - generic [ref=f3e3087]:
+                  - text: Θ
+                  - generic [ref=f3e3088]: C
+                - text: =
+              - generic [ref=f3e3096]:
+                - generic [ref=f3e3097]: arg
+                - generic [ref=f3e3098]:
+                  - text: Z
+                  - generic [ref=f3e3099]: C
+                - text: .
+        - paragraph [ref=f3e3107]: "Collective frequency:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3108]:
+          - generic [ref=f3e3109]:
+            - math [ref=f3e3111]:
+              - generic [ref=f3e3118]:
+                - generic [ref=f3e3119]:
+                  - generic [ref=f3e3120]: Ω
+                  - generic [ref=f3e3121]: C
+                - generic [ref=f3e3122]: =
+                - generic [ref=f3e3123]:
+                  - generic [ref=f3e3124]:
+                    - generic [ref=f3e3125]: d
+                    - generic [ref=f3e3126]:
+                      - generic [ref=f3e3127]: Θ
+                      - generic [ref=f3e3128]: C
+                  - generic [ref=f3e3129]:
+                    - generic [ref=f3e3130]: d
+                    - generic [ref=f3e3131]: t
+                - generic [ref=f3e3132]: .
+            - generic [ref=f3e3141]:
+              - generic [ref=f3e3142]:
+                - text: Ω
+                - generic [ref=f3e3143]: C
+              - text: =
+              - generic [ref=f3e3155]:
+                - generic [ref=f3e3156]: dt
+                - generic [ref=f3e3158]:
+                  - text: d
+                  - generic [ref=f3e3159]:
+                    - text: Θ
+                    - generic [ref=f3e3160]: C
+              - text: .
+        - paragraph [ref=f3e3175]: "Collective position:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3176]:
+          - generic [ref=f3e3177]:
+            - math [ref=f3e3179]:
+              - generic [ref=f3e3186]:
+                - generic [ref=f3e3187]:
+                  - generic [ref=f3e3188]: X
+                  - generic [ref=f3e3189]: C
+                - generic [ref=f3e3190]: =
+                - generic [ref=f3e3191]:
+                  - generic [ref=f3e3192]:
+                    - generic [ref=f3e3193]:
+                      - generic [ref=f3e3194]: ∑
+                      - generic [ref=f3e3195]:
+                        - generic [ref=f3e3196]: i
+                        - generic [ref=f3e3197]: ∈
+                        - generic [ref=f3e3198]: C
+                    - generic [ref=f3e3199]:
+                      - generic [ref=f3e3200]: m
+                      - generic [ref=f3e3201]: i
+                    - generic [ref=f3e3202]:
+                      - generic [ref=f3e3203]: x
+                      - generic [ref=f3e3204]: i
+                  - generic [ref=f3e3205]:
+                    - generic [ref=f3e3206]:
+                      - generic [ref=f3e3207]: ∑
+                      - generic [ref=f3e3208]:
+                        - generic [ref=f3e3209]: i
+                        - generic [ref=f3e3210]: ∈
+                        - generic [ref=f3e3211]: C
+                    - generic [ref=f3e3212]:
+                      - generic [ref=f3e3213]: m
+                      - generic [ref=f3e3214]: i
+            - generic [ref=f3e3223]:
+              - generic [ref=f3e3224]:
+                - text: X
+                - generic [ref=f3e3225]: C
+              - text: =
+              - generic [ref=f3e3237]:
+                - generic [ref=f3e3238]:
+                  - generic [ref=f3e3239]:
+                    - text: ∑
+                    - generic [ref=f3e3240]: i∈C
+                  - generic [ref=f3e3249]:
+                    - text: m
+                    - generic [ref=f3e3250]: i
+                - generic [ref=f3e3259]:
+                  - generic [ref=f3e3260]:
+                    - text: ∑
+                    - generic [ref=f3e3261]: i∈C
+                  - generic [ref=f3e3270]:
+                    - text: m
+                    - generic [ref=f3e3271]: i
+                  - generic [ref=f3e3279]:
+                    - text: x
+                    - generic [ref=f3e3280]: i
+        - paragraph [ref=f3e3295]: or another conserved-weight center.
+        - paragraph [ref=f3e3296]: "Inter-cluster edge:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3297]:
+          - generic [ref=f3e3298]:
+            - math [ref=f3e3300]:
+              - generic [ref=f3e3307]:
+                - generic [ref=f3e3308]:
+                  - generic [ref=f3e3309]: g
+                  - generic [ref=f3e3310]:
+                    - generic [ref=f3e3311]: C
+                    - generic [ref=f3e3312]: D
+                - generic [ref=f3e3313]: =
+                - generic [ref=f3e3314]: A
+                - generic [ref=f3e3315]:
+                  - generic [ref=f3e3316]: (
+                  - generic [ref=f3e3317]: "{"
+                  - generic [ref=f3e3318]:
+                    - generic [ref=f3e3319]: g
+                    - generic [ref=f3e3320]:
+                      - generic [ref=f3e3321]: i
+                      - generic [ref=f3e3322]: j
+                  - generic [ref=f3e3323]: ":"
+                  - generic [ref=f3e3324]: i
+                  - generic [ref=f3e3325]: ∈
+                  - generic [ref=f3e3326]: C
+                  - generic [ref=f3e3327]: ","
+                  - generic [ref=f3e3328]: j
+                  - generic [ref=f3e3329]: ∈
+                  - generic [ref=f3e3330]: D
+                  - generic [ref=f3e3331]: "}"
+                  - generic [ref=f3e3332]: )
+            - generic [ref=f3e3341]:
+              - generic [ref=f3e3342]:
+                - text: g
+                - generic [ref=f3e3343]: CD
+              - text: = A
+              - generic [ref=f3e3352]:
+                - text: "({"
+                - generic [ref=f3e3353]:
+                  - text: g
+                  - generic [ref=f3e3354]: ij
+                - text: ": i ∈ C, j ∈ D})"
+        - paragraph [ref=f3e3367]:
+          - text: where
+          - generic [ref=f3e3368]:
+            - math [ref=f3e3370]:
+              - generic [ref=f3e3371]: A
+            - generic [ref=f3e3375]: A
+          - text: is an aggregation operator derived from flux/coupling, not chosen solely for convenience.
+        - paragraph [ref=f3e3376]: "Now:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3377]:
+          - generic [ref=f3e3378]:
+            - math [ref=f3e3380]:
+              - generic [ref=f3e3382]:
+                - generic [ref=f3e3383]:
+                  - generic [ref=f3e3384]: R
+                  - generic [ref=f3e3385]: C
+                - generic [ref=f3e3386]: =
+                - generic [ref=f3e3387]: (
+                - generic [ref=f3e3388]:
+                  - generic [ref=f3e3389]: X
+                  - generic [ref=f3e3390]: C
+                - generic [ref=f3e3391]: ","
+                - generic [ref=f3e3392]:
+                  - generic [ref=f3e3393]: Z
+                  - generic [ref=f3e3394]: C
+                - generic [ref=f3e3395]: ","
+                - generic [ref=f3e3396]:
+                  - generic [ref=f3e3397]: g
+                  - generic [ref=f3e3398]:
+                    - generic [ref=f3e3399]: C
+                    - generic [ref=f3e3400]: ∗
+                - generic [ref=f3e3401]: ","
+                - generic [ref=f3e3402]: …
+                - generic [ref=f3e3403]: )
+            - generic [aria-hidden] [ref=f3e3404]:
+              - generic [ref=f3e3405]:
+                - generic [ref=f3e3406]:
+                  - text: R
+                  - generic [ref=f3e3407]: C
+                - text: =
+              - generic [ref=f3e3415]:
+                - text: (
+                - generic [ref=f3e3416]:
+                  - text: X
+                  - generic [ref=f3e3417]: C
+                - text: ","
+                - generic [ref=f3e3425]:
+                  - text: Z
+                  - generic [ref=f3e3426]: C
+                - text: ","
+                - generic [ref=f3e3434]:
+                  - text: g
+                  - generic [ref=f3e3435]: C∗
+                - text: ", …)"
+        - paragraph [ref=f3e3444]: becomes one effective node.
+        - separator [ref=f3e3445]
+        - heading "13. The central RRG recursion test" [level=2] [ref=f3e3446]
+        - paragraph [ref=f3e3447]: "Let microscopic evolution be:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3448]:
+          - generic [ref=f3e3449]:
+            - math [ref=f3e3451]:
+              - generic [ref=f3e3453]:
+                - generic [ref=f3e3454]:
+                  - generic [ref=f3e3455]: Φ
+                  - generic [ref=f3e3456]: t
+                - generic [ref=f3e3457]: .
+            - generic [ref=f3e3459]:
+              - generic [ref=f3e3460]:
+                - text: Φ
+                - generic [ref=f3e3461]: t
+              - text: .
+        - paragraph [ref=f3e3469]: "Let coarse-graining be:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3470]:
+          - generic [ref=f3e3471]:
+            - math [ref=f3e3473]:
+              - generic [ref=f3e3475]:
+                - generic [ref=f3e3476]: R
+                - generic [ref=f3e3477]: .
+            - generic [ref=f3e3479]: R.
+        - paragraph [ref=f3e3480]: "RRG seeks approximate closure:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3481]:
+          - generic [ref=f3e3482]:
+            - math [ref=f3e3484]:
+              - generic [ref=f3e3491]:
+                - generic [ref=f3e3492]: R
+                - generic [ref=f3e3493]: ∘
+                - generic [ref=f3e3494]:
+                  - generic [ref=f3e3495]: Φ
+                  - generic [ref=f3e3496]: t
+                - generic [ref=f3e3497]: ≈
+                - generic [ref=f3e3498]:
+                  - generic [ref=f3e3499]: Φ
+                  - generic [ref=f3e3500]: t
+                  - generic [ref=f3e3501]: ′
+                - generic [ref=f3e3502]: ∘
+                - generic [ref=f3e3503]: R
+            - generic [ref=f3e3512]:
+              - text: R ∘
+              - generic [ref=f3e3513]:
+                - text: Φ
+                - generic [ref=f3e3514]: t
+              - text: ≈
+              - generic [ref=f3e3522]:
+                - text: Φ
+                - generic [ref=f3e3526]:
+                  - generic [ref=f3e3527]: t
+                  - generic [ref=f3e3528]: ′
+              - text: ∘ R
+        - paragraph [ref=f3e3537]:
+          - text: where
+          - generic [ref=f3e3538]:
+            - math [ref=f3e3540]:
+              - generic [ref=f3e3543]:
+                - generic [ref=f3e3544]: Φ
+                - generic [ref=f3e3545]: t
+                - generic [ref=f3e3546]: ′
+            - generic [ref=f3e3549]:
+              - text: Φ
+              - generic [ref=f3e3553]:
+                - generic [ref=f3e3554]: t
+                - generic [ref=f3e3555]: ′
+          - text: is an effective higher-scale dynamics that preserves the relevant locked geometry↔mode organization. It
+          - strong [ref=f3e3560]: need not
+          - text: "belong to the same microscopic equation family. A same-family result would be an additional strong form of universality:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3561]:
+          - generic [ref=f3e3562]:
+            - math [ref=f3e3564]:
+              - generic [ref=f3e3566]:
+                - generic [ref=f3e3567]: λ
+                - generic [ref=f3e3568]: →
+                - generic [ref=f3e3569]:
+                  - generic [ref=f3e3570]: λ
+                  - generic [ref=f3e3571]: ′
+                - generic [ref=f3e3572]: .
+            - generic [aria-hidden] [ref=f3e3573]:
+              - generic [ref=f3e3574]: λ →
+              - generic [ref=f3e3575]:
+                - generic [ref=f3e3576]:
+                  - text: λ
+                  - generic [ref=f3e3577]: ′
+                - text: .
+        - paragraph [ref=f3e3583]: "In plain language:"
+        - blockquote [ref=f3e3584]:
+          - paragraph [ref=f3e3585]: evolve the small structures and then zoom out
+        - paragraph [ref=f3e3586]: "should approximately agree with:"
+        - blockquote [ref=f3e3587]:
+          - paragraph [ref=f3e3588]: zoom out first and evolve the larger structures using the same kind of rule.
+        - paragraph [ref=f3e3589]: This is a useful coarse-graining test. It is not part of the locked definition.
+        - separator [ref=f3e3590]
+        - 'heading "14. Variation: same lower units, different higher structures" [level=2] [ref=f3e3591]'
+        - paragraph [ref=f3e3592]: "The model must permit:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3593]:
+          - generic [ref=f3e3594]:
+            - math [ref=f3e3596]:
+              - generic [ref=f3e3598]:
+                - generic [ref=f3e3599]: "{"
+                - generic [ref=f3e3600]:
+                  - generic [ref=f3e3601]: R
+                  - generic [ref=f3e3602]: i
+                - generic [ref=f3e3603]: "}"
+                - generic [ref=f3e3604]: →
+                - generic [ref=f3e3605]:
+                  - generic [ref=f3e3606]: R
+                  - generic [ref=f3e3607]: A
+                - generic [ref=f3e3608]: ","
+                - generic [ref=f3e3609]:
+                  - generic [ref=f3e3610]: R
+                  - generic [ref=f3e3611]: B
+                - generic [ref=f3e3612]: ","
+                - generic [ref=f3e3613]:
+                  - generic [ref=f3e3614]: R
+                  - generic [ref=f3e3615]: C
+                - generic [ref=f3e3616]: ","
+                - generic [ref=f3e3617]: …
+            - generic [aria-hidden] [ref=f3e3618]:
+              - generic [ref=f3e3619]:
+                - text: "{"
+                - generic [ref=f3e3620]:
+                  - text: R
+                  - generic [ref=f3e3621]: i
+                - text: "} →"
+              - generic [ref=f3e3629]:
+                - generic [ref=f3e3630]:
+                  - text: R
+                  - generic [ref=f3e3631]: A
+                - text: ","
+                - generic [ref=f3e3639]:
+                  - text: R
+                  - generic [ref=f3e3640]: B
+                - text: ","
+                - generic [ref=f3e3648]:
+                  - text: R
+                  - generic [ref=f3e3649]: C
+                - text: ", …"
+        - paragraph [ref=f3e3657]: "depending on:"
+        - list [ref=f3e3658]:
+          - listitem [ref=f3e3659]: count,
+          - listitem [ref=f3e3660]: geometry,
+          - listitem [ref=f3e3661]: order,
+          - listitem [ref=f3e3662]: connectivity,
+          - listitem [ref=f3e3663]: phase arrangement,
+          - listitem [ref=f3e3664]: energy,
+          - listitem [ref=f3e3665]: boundary conditions,
+          - listitem [ref=f3e3666]: external environment.
+        - paragraph [ref=f3e3667]: This is essential.
+        - paragraph [ref=f3e3668]: Otherwise the model produces only one repetitive crystal-like structure and cannot explore higher complexity.
+        - separator [ref=f3e3669]
+        - heading "15. Energy" [level=2] [ref=f3e3670]
+        - paragraph [ref=f3e3671]: "For conservative components, define:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3672]:
+          - generic [ref=f3e3673]:
+            - math [ref=f3e3675]:
+              - generic [ref=f3e3677]:
+                - generic [ref=f3e3678]: E
+                - generic [ref=f3e3679]: =
+                - generic [ref=f3e3680]:
+                  - generic [ref=f3e3681]: ∑
+                  - generic [ref=f3e3682]: i
+                - generic [ref=f3e3683]:
+                  - generic [ref=f3e3684]: "1"
+                  - generic [ref=f3e3685]: "2"
+                - generic [ref=f3e3686]:
+                  - generic [ref=f3e3687]: m
+                  - generic [ref=f3e3688]: i
+                - generic [ref=f3e3689]: ∣
+                - generic [ref=f3e3690]:
+                  - generic [ref=f3e3691]:
+                    - generic [ref=f3e3692]: x
+                    - generic [ref=f3e3693]: ˙
+                  - generic [ref=f3e3694]: i
+                - generic [ref=f3e3695]:
+                  - generic [ref=f3e3696]: ∣
+                  - generic [ref=f3e3697]: "2"
+                - generic [ref=f3e3698]: +
+                - generic [ref=f3e3699]:
+                  - generic [ref=f3e3700]: ∑
+                  - generic [ref=f3e3701]: i
+                - generic [ref=f3e3702]:
+                  - generic [ref=f3e3703]: E
+                  - generic [ref=f3e3704]:
+                    - generic [ref=f3e3705]: osc
+                    - generic [ref=f3e3706]: ","
+                    - generic [ref=f3e3707]: i
+                - generic [ref=f3e3708]: +
+                - generic [ref=f3e3709]:
+                  - generic [ref=f3e3710]: ∑
+                  - generic [ref=f3e3711]:
+                    - generic [ref=f3e3712]: i
+                    - generic [ref=f3e3713]: <
+                    - generic [ref=f3e3714]: j
+                - generic [ref=f3e3715]:
+                  - generic [ref=f3e3716]: V
+                  - generic [ref=f3e3717]:
+                    - generic [ref=f3e3718]: i
+                    - generic [ref=f3e3719]: j
+                - generic [ref=f3e3720]: .
+            - generic [aria-hidden] [ref=f3e3721]:
+              - generic [ref=f3e3722]: E =
+              - generic [ref=f3e3723]:
+                - generic [ref=f3e3727]:
+                  - generic [ref=f3e3728]: i
+                  - generic [ref=f3e3729]: ∑
+                - generic [ref=f3e3737]:
+                  - generic [ref=f3e3738]: "2"
+                  - generic [ref=f3e3740]: "1"
+                - generic [ref=f3e3744]:
+                  - text: m
+                  - generic [ref=f3e3745]: i
+                - text: ∣
+                - generic [ref=f3e3753]:
+                  - generic [ref=f3e3757]:
+                    - generic [ref=f3e3758]: x
+                    - generic [ref=f3e3759]: ˙
+                  - generic [ref=f3e3760]: i
+                - generic [ref=f3e3768]:
+                  - text: ∣
+                  - generic [ref=f3e3769]: "2"
+                - text: +
+              - generic [ref=f3e3774]:
+                - generic [ref=f3e3778]:
+                  - generic [ref=f3e3779]: i
+                  - generic [ref=f3e3780]: ∑
+                - generic [ref=f3e3784]:
+                  - text: E
+                  - generic [ref=f3e3790]:
+                    - generic [ref=f3e3791]: osc
+                    - text: ",i"
+                - text: +
+              - generic [ref=f3e3795]:
+                - generic [ref=f3e3799]:
+                  - generic [ref=f3e3800]: i<j
+                  - generic [ref=f3e3802]: ∑
+                - generic [ref=f3e3806]:
+                  - text: V
+                  - generic [ref=f3e3807]: ij
+                - text: .
+        - paragraph [ref=f3e3816]: "For open/dissipative systems:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3817]:
+          - generic [ref=f3e3818]:
+            - math [ref=f3e3820]:
+              - generic [ref=f3e3827]:
+                - generic [ref=f3e3828]:
+                  - generic [ref=f3e3829]:
+                    - generic [ref=f3e3830]: d
+                    - generic [ref=f3e3831]: E
+                  - generic [ref=f3e3832]:
+                    - generic [ref=f3e3833]: d
+                    - generic [ref=f3e3834]: t
+                - generic [ref=f3e3835]: =
+                - generic [ref=f3e3836]:
+                  - generic [ref=f3e3837]: P
+                  - generic [ref=f3e3838]: in
+                - generic [ref=f3e3839]: −
+                - generic [ref=f3e3840]:
+                  - generic [ref=f3e3841]: P
+                  - generic [ref=f3e3842]: diss
+            - generic [ref=f3e3851]:
+              - generic [ref=f3e3856]:
+                - generic [ref=f3e3857]: dt
+                - generic [ref=f3e3859]: dE
+              - text: =
+              - generic [ref=f3e3863]:
+                - text: P
+                - generic [ref=f3e3864]: in
+              - text: −
+              - generic [ref=f3e3874]:
+                - text: P
+                - generic [ref=f3e3875]: diss
+        - paragraph [ref=f3e3889]: A passively stable structure may sit in a bound state without continuous external power.
+        - paragraph [ref=f3e3890]: "An actively maintained structure may require:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3891]:
+          - generic [ref=f3e3892]:
+            - math [ref=f3e3894]:
+              - generic [ref=f3e3896]:
+                - generic [ref=f3e3897]:
+                  - generic [ref=f3e3898]: P
+                  - generic [ref=f3e3899]: in
+                - generic [ref=f3e3900]: ">"
+                - generic [ref=f3e3901]: "0."
+            - generic [aria-hidden] [ref=f3e3902]:
+              - generic [ref=f3e3903]:
+                - generic [ref=f3e3904]:
+                  - text: P
+                  - generic [ref=f3e3905]: in
+                - text: ">"
+              - generic [ref=f3e3915]: "0."
+        - paragraph [ref=f3e3916]: This distinction is essential before modelling life.
+        - separator [ref=f3e3917]
+        - heading "16. A possible “resonant closure” functional" [level=2] [ref=f3e3918]
+        - paragraph [ref=f3e3919]: We want one scalar diagnostic for how well mode and geometry mutually support one another.
+        - paragraph [ref=f3e3920]: "Define schematically:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e3921]:
+          - generic [ref=f3e3922]:
+            - math [ref=f3e3924]:
+              - generic [ref=f3e3931]:
+                - generic [ref=f3e3932]: Q
+                - generic [ref=f3e3933]: (
+                - generic [ref=f3e3934]: R
+                - generic [ref=f3e3935]: )
+                - generic [ref=f3e3936]: =
+                - generic [ref=f3e3937]: −
+                - generic [ref=f3e3938]: α
+                - generic [ref=f3e3939]: ∥
+                - generic [ref=f3e3940]:
+                  - generic [ref=f3e3941]: G
+                  - generic [ref=f3e3942]: ˙
+                - generic [ref=f3e3943]: −
+                - generic [ref=f3e3944]:
+                  - generic [ref=f3e3945]: F
+                  - generic [ref=f3e3946]: G
+                - generic [ref=f3e3947]: (
+                - generic [ref=f3e3948]: M
+                - generic [ref=f3e3949]: ","
+                - generic [ref=f3e3950]: G
+                - generic [ref=f3e3951]: )
+                - generic [ref=f3e3952]:
+                  - generic [ref=f3e3953]: ∥
+                  - generic [ref=f3e3954]: "2"
+                - generic [ref=f3e3955]: −
+                - generic [ref=f3e3956]: β
+                - generic [ref=f3e3957]: ∥
+                - generic [ref=f3e3958]:
+                  - generic [ref=f3e3959]: M
+                  - generic [ref=f3e3960]: ˙
+                - generic [ref=f3e3961]: −
+                - generic [ref=f3e3962]:
+                  - generic [ref=f3e3963]: F
+                  - generic [ref=f3e3964]: M
+                - generic [ref=f3e3965]: (
+                - generic [ref=f3e3966]: G
+                - generic [ref=f3e3967]: ","
+                - generic [ref=f3e3968]: M
+                - generic [ref=f3e3969]: )
+                - generic [ref=f3e3970]:
+                  - generic [ref=f3e3971]: ∥
+                  - generic [ref=f3e3972]: "2"
+                - generic [ref=f3e3973]: −
+                - generic [ref=f3e3974]: γ
+                - generic [ref=f3e3975]:
+                  - generic [ref=f3e3976]: E
+                  - generic [ref=f3e3977]: escape
+                - generic [ref=f3e3978]: +
+                - generic [ref=f3e3979]: δ
+                - generic [ref=f3e3980]:
+                  - generic [ref=f3e3981]: P
+                  - generic [ref=f3e3982]: return
+            - generic [ref=f3e3991]:
+              - text: Q(R) = −α∥
+              - generic [ref=f3e3995]:
+                - generic [ref=f3e3996]: G
+                - generic [ref=f3e3997]: ˙
+              - text: −
+              - generic [ref=f3e3998]:
+                - text: F
+                - generic [ref=f3e3999]: G
+              - text: (M, G)
+              - generic [ref=f3e4007]:
+                - text: ∥
+                - generic [ref=f3e4008]: "2"
+              - text: − β∥
+              - generic [ref=f3e4016]:
+                - generic [ref=f3e4017]: M
+                - generic [ref=f3e4018]: ˙
+              - text: −
+              - generic [ref=f3e4019]:
+                - text: F
+                - generic [ref=f3e4020]: M
+              - text: (G, M)
+              - generic [ref=f3e4028]:
+                - text: ∥
+                - generic [ref=f3e4029]: "2"
+              - text: − γ
+              - generic [ref=f3e4034]:
+                - text: E
+                - generic [ref=f3e4035]: escape
+              - text: + δ
+              - generic [ref=f3e4045]:
+                - text: P
+                - generic [ref=f3e4046]: return
+        - paragraph [ref=f3e4060]:
+          - text: High
+          - generic [ref=f3e4061]:
+            - math [ref=f3e4063]:
+              - generic [ref=f3e4064]: Q
+            - generic [ref=f3e4068]: Q
+          - text: "means:"
+        - list [ref=f3e4069]:
+          - listitem [ref=f3e4070]: geometry evolves consistently with the mode,
+          - listitem [ref=f3e4071]: mode evolves consistently with geometry,
+          - listitem [ref=f3e4072]: perturbations tend to return,
+          - listitem [ref=f3e4073]: escape/fragmentation is difficult.
+        - paragraph [ref=f3e4074]: This is not yet a law of nature.
+        - paragraph [ref=f3e4075]: It is a useful simulation diagnostic.
+        - paragraph [ref=f3e4076]:
+          - text: A later theory should derive stability directly from the governing action/dynamics rather than optimizing
+          - generic [ref=f3e4077]:
+            - math [ref=f3e4079]:
+              - generic [ref=f3e4080]: Q
+            - generic [ref=f3e4084]: Q
+          - text: by hand.
+        - separator [ref=f3e4085]
+        - heading "17. First computational experiment" [level=2] [ref=f3e4086]
+        - heading "17.1 Setup" [level=3] [ref=f3e4087]
+        - list [ref=f3e4088]:
+          - listitem [ref=f3e4089]: 256–2048 units
+          - listitem [ref=f3e4090]: 2D continuous space initially
+          - listitem [ref=f3e4091]:
+            - text: heterogeneous
+            - generic [ref=f3e4092]:
+              - math [ref=f3e4094]:
+                - generic [ref=f3e4097]:
+                  - generic [ref=f3e4098]: ω
+                  - generic [ref=f3e4099]: i
+              - generic [ref=f3e4102]:
+                - text: ω
+                - generic [ref=f3e4103]: i
+          - listitem [ref=f3e4111]: random initial phases
+          - listitem [ref=f3e4112]: random positions
+          - listitem [ref=f3e4113]:
+            - text: one universal pair interaction
+            - generic [ref=f3e4114]:
+              - math [ref=f3e4116]:
+                - generic [ref=f3e4118]:
+                  - generic [ref=f3e4119]: V
+                  - generic [ref=f3e4120]: (
+                  - generic [ref=f3e4121]: r
+                  - generic [ref=f3e4122]: ","
+                  - generic [ref=f3e4123]: Δ
+                  - generic [ref=f3e4124]: θ
+                  - generic [ref=f3e4125]: )
+              - generic [ref=f3e4127]: V(r, Δθ)
+          - listitem [ref=f3e4128]:
+            - text: optional adaptive
+            - generic [ref=f3e4129]:
+              - math [ref=f3e4131]:
+                - generic [ref=f3e4134]:
+                  - generic [ref=f3e4135]: g
+                  - generic [ref=f3e4136]:
+                    - generic [ref=f3e4137]: i
+                    - generic [ref=f3e4138]: j
+              - generic [ref=f3e4141]:
+                - text: g
+                - generic [ref=f3e4142]: ij
+          - listitem [ref=f3e4151]: damping + controlled noise
+          - listitem [ref=f3e4152]: no predefined clusters
+        - heading "17.2 Phase A — Can multiple stable shapes emerge?" [level=3] [ref=f3e4153]
+        - paragraph [ref=f3e4154]: "Measure:"
+        - list [ref=f3e4155]:
+          - listitem [ref=f3e4156]: number of persistent clusters,
+          - listitem [ref=f3e4157]: distinct geometry classes,
+          - listitem [ref=f3e4158]: mode spectra,
+          - listitem [ref=f3e4159]: perturbation recovery,
+          - listitem [ref=f3e4160]: lifetimes.
+        - paragraph [ref=f3e4161]: Success means more than one stable attractor appears from the same lower-level laws.
+        - heading "17.3 Phase B — Promote stable clusters" [level=3] [ref=f3e4162]
+        - paragraph [ref=f3e4163]: Automatically coarse-grain clusters that pass stability criteria.
+        - paragraph [ref=f3e4164]:
+          - text: Do
+          - strong [ref=f3e4165]: not
+          - text: manually assign identities.
+        - heading "17.4 Phase C — Apply same equation family" [level=3] [ref=f3e4166]
+        - paragraph [ref=f3e4167]: Treat supernodes as the new units.
+        - paragraph [ref=f3e4168]: Run again.
+        - heading "17.5 Phase D — Seek third level" [level=3] [ref=f3e4169]
+        - paragraph [ref=f3e4170]: "Attempt:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4171]:
+          - generic [ref=f3e4172]:
+            - math [ref=f3e4174]:
+              - generic [ref=f3e4176]:
+                - generic [ref=f3e4177]:
+                  - generic [ref=f3e4178]: R
+                  - generic [ref=f3e4179]: "0"
+                - generic [ref=f3e4180]: →
+                - generic [ref=f3e4181]:
+                  - generic [ref=f3e4182]: R
+                  - generic [ref=f3e4183]: "1"
+                - generic [ref=f3e4184]: →
+                - generic [ref=f3e4185]:
+                  - generic [ref=f3e4186]: R
+                  - generic [ref=f3e4187]: "2"
+                - generic [ref=f3e4188]: →
+                - generic [ref=f3e4189]:
+                  - generic [ref=f3e4190]: R
+                  - generic [ref=f3e4191]: "3"
+                - generic [ref=f3e4192]: .
+            - generic [aria-hidden] [ref=f3e4193]:
+              - generic [ref=f3e4194]:
+                - generic [ref=f3e4195]:
+                  - text: R
+                  - generic [ref=f3e4196]: "0"
+                - text: →
+              - generic [ref=f3e4204]:
+                - generic [ref=f3e4205]:
+                  - text: R
+                  - generic [ref=f3e4206]: "1"
+                - text: →
+              - generic [ref=f3e4214]:
+                - generic [ref=f3e4215]:
+                  - text: R
+                  - generic [ref=f3e4216]: "2"
+                - text: →
+              - generic [ref=f3e4224]:
+                - generic [ref=f3e4225]:
+                  - text: R
+                  - generic [ref=f3e4226]: "3"
+                - text: .
+        - paragraph [ref=f3e4234]: The hierarchy must not be predeclared.
+        - separator [ref=f3e4235]
+        - heading "18. Metrics" [level=2] [ref=f3e4236]
+        - heading "Persistence" [level=3] [ref=f3e4237]
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4238]:
+          - generic [ref=f3e4239]:
+            - math [ref=f3e4241]:
+              - generic [ref=f3e4243]:
+                - generic [ref=f3e4244]:
+                  - generic [ref=f3e4245]: T
+                  - generic [ref=f3e4246]: life
+                - generic [ref=f3e4247]: /
+                - generic [ref=f3e4248]:
+                  - generic [ref=f3e4249]: τ
+                  - generic [ref=f3e4250]: internal
+            - generic [ref=f3e4252]:
+              - generic [ref=f3e4253]:
+                - text: T
+                - generic [ref=f3e4254]: life
+              - text: /
+              - generic [ref=f3e4264]:
+                - text: τ
+                - generic [ref=f3e4265]: internal
+        - paragraph [ref=f3e4275]: How many internal cycles does a structure survive?
+        - heading "Coherence" [level=3] [ref=f3e4276]
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4277]:
+          - generic [ref=f3e4278]:
+            - math [ref=f3e4280]:
+              - generic [ref=f3e4283]:
+                - generic [ref=f3e4284]: ρ
+                - generic [ref=f3e4285]: C
+            - generic [ref=f3e4288]:
+              - text: ρ
+              - generic [ref=f3e4289]: C
+        - heading "Perturbation recovery" [level=3] [ref=f3e4297]
+        - paragraph [ref=f3e4298]: Distance back to attractor after standardized disturbance.
+        - heading "Compression ratio" [level=3] [ref=f3e4299]
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4300]:
+          - generic [ref=f3e4301]:
+            - math [ref=f3e4303]:
+              - generic [ref=f3e4306]:
+                - generic [ref=f3e4307]: number of lower degrees of freedom
+                - generic [ref=f3e4308]: number of effective higher degrees of freedom
+            - generic [ref=f3e4315]:
+              - generic [ref=f3e4316]: number of effective higher degrees of freedom
+              - generic [ref=f3e4319]: number of lower degrees of freedom
+        - heading "Timescale separation" [level=3] [ref=f3e4324]
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4325]:
+          - generic [ref=f3e4326]:
+            - math [ref=f3e4328]:
+              - generic [ref=f3e4331]:
+                - generic [ref=f3e4332]:
+                  - generic [ref=f3e4333]: τ
+                  - generic [ref=f3e4334]:
+                    - generic [ref=f3e4335]: "n"
+                    - generic [ref=f3e4336]: +
+                    - generic [ref=f3e4337]: "1"
+                - generic [ref=f3e4338]:
+                  - generic [ref=f3e4339]: τ
+                  - generic [ref=f3e4340]: "n"
+            - generic [ref=f3e4347]:
+              - generic [ref=f3e4349]:
+                - text: τ
+                - generic [ref=f3e4350]: "n"
+              - generic [ref=f3e4360]:
+                - text: τ
+                - generic [ref=f3e4361]: n+1
+        - heading "Recursive closure error" [level=3] [ref=f3e4373]
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4374]:
+          - generic [ref=f3e4375]:
+            - math [ref=f3e4377]:
+              - generic [ref=f3e4384]:
+                - generic [ref=f3e4385]:
+                  - generic [ref=f3e4386]: ϵ
+                  - generic [ref=f3e4387]: R
+                - generic [ref=f3e4388]: =
+                - generic [ref=f3e4389]:
+                  - generic [ref=f3e4390]: ∥
+                  - generic [ref=f3e4391]: R
+                  - generic [ref=f3e4392]: (
+                  - generic [ref=f3e4393]:
+                    - generic [ref=f3e4394]: Φ
+                    - generic [ref=f3e4395]: t
+                  - generic [ref=f3e4396]: (
+                  - generic [ref=f3e4397]: X
+                  - generic [ref=f3e4398]: )
+                  - generic [ref=f3e4399]: )
+                  - generic [ref=f3e4400]: −
+                  - generic [ref=f3e4401]:
+                    - generic [ref=f3e4402]: Φ
+                    - generic [ref=f3e4403]: t
+                    - generic [ref=f3e4404]: ′
+                  - generic [ref=f3e4405]: (
+                  - generic [ref=f3e4406]: R
+                  - generic [ref=f3e4407]: (
+                  - generic [ref=f3e4408]: X
+                  - generic [ref=f3e4409]: )
+                  - generic [ref=f3e4410]: )
+                  - generic [ref=f3e4411]: ∥
+            - generic [ref=f3e4420]:
+              - generic [ref=f3e4421]:
+                - text: ϵ
+                - generic [ref=f3e4422]: R
+              - text: =
+              - generic [ref=f3e4430]:
+                - text: ∥R(
+                - generic [ref=f3e4431]:
+                  - text: Φ
+                  - generic [ref=f3e4432]: t
+                - text: (X)) −
+                - generic [ref=f3e4440]:
+                  - text: Φ
+                  - generic [ref=f3e4444]:
+                    - generic [ref=f3e4445]: t
+                    - generic [ref=f3e4446]: ′
+                - text: (R(X))∥
+        - paragraph [ref=f3e4455]: This is perhaps the most important metric.
+        - paragraph [ref=f3e4456]:
+          - text: If
+          - generic [ref=f3e4457]:
+            - math [ref=f3e4459]:
+              - generic [ref=f3e4462]:
+                - generic [ref=f3e4463]: ϵ
+                - generic [ref=f3e4464]: R
+            - generic [ref=f3e4467]:
+              - text: ϵ
+              - generic [ref=f3e4468]: R
+          - text: remains small across multiple levels after parameter rescaling, RRG gains real mathematical support.
+        - separator [ref=f3e4476]
+        - heading "19. Strong failure conditions" [level=2] [ref=f3e4477]
+        - paragraph [ref=f3e4478]: "The first simulation should count as failure if:"
+        - list [ref=f3e4479]:
+          - listitem [ref=f3e4480]: stable structures only appear after manually specifying cluster geometry;
+          - listitem [ref=f3e4481]: every stable structure is essentially identical and no combinatorial variation appears;
+          - listitem [ref=f3e4482]: no effective higher-level dynamics can reproduce the relevant collective geometry–mode behavior with bounded predictive error;
+          - listitem [ref=f3e4483]: coarse-graining destroys predictive power;
+          - listitem [ref=f3e4484]: stable higher levels cannot survive perturbations;
+          - listitem [ref=f3e4485]: hierarchy depth is entirely controlled by manually chosen thresholds;
+          - listitem [ref=f3e4486]: apparent “recursion” disappears when units/noise/initial conditions are varied.
+        - paragraph [ref=f3e4487]: These are useful failures.
+        - separator [ref=f3e4488]
+        - 'heading "20. Second experiment: primitive replication" [level=2] [ref=f3e4489]'
+        - paragraph [ref=f3e4490]: Only after recursive stable geometry works.
+        - paragraph [ref=f3e4491]: "Add:"
+        - list [ref=f3e4492]:
+          - listitem [ref=f3e4493]: finite resources,
+          - listitem [ref=f3e4494]: local energy source,
+          - listitem [ref=f3e4495]: components that can bind/unbind,
+          - listitem [ref=f3e4496]: structures capable of catalyzing compatible assembly.
+        - paragraph [ref=f3e4497]: "Ask whether a persistent geometry can increase the probability of creating another similar geometry:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4498]:
+          - generic [ref=f3e4499]:
+            - math [ref=f3e4501]:
+              - generic [ref=f3e4503]:
+                - generic [ref=f3e4504]: R
+                - generic [ref=f3e4505]: +
+                - generic [ref=f3e4506]: resources
+                - generic [ref=f3e4507]: →
+                - generic [ref=f3e4508]: R
+                - generic [ref=f3e4509]: +
+                - generic [ref=f3e4510]:
+                  - generic [ref=f3e4511]: R
+                  - generic [ref=f3e4512]: ′
+                - generic [ref=f3e4513]: .
+            - generic [aria-hidden] [ref=f3e4514]:
+              - generic [ref=f3e4515]: R +
+              - generic [ref=f3e4516]:
+                - generic [ref=f3e4517]: resources
+                - text: →
+              - generic [ref=f3e4518]: R +
+              - generic [ref=f3e4519]:
+                - generic [ref=f3e4520]:
+                  - text: R
+                  - generic [ref=f3e4521]: ′
+                - text: .
+        - paragraph [ref=f3e4527]: Do not hard-code DNA-style copying.
+        - paragraph [ref=f3e4528]: Measure whether geometry-assisted self-templating can emerge.
+        - paragraph [ref=f3e4529]: This links RRG with autocatalytic-set research.
+        - separator [ref=f3e4530]
+        - 'heading "21. Third experiment: RRG AI toy model" [level=2] [ref=f3e4531]'
+        - paragraph [ref=f3e4532]: "Build a simple 2D world with:"
+        - list [ref=f3e4533]:
+          - listitem [ref=f3e4534]: moving objects,
+          - listitem [ref=f3e4535]: collisions,
+          - listitem [ref=f3e4536]: hidden object identity,
+          - listitem [ref=f3e4537]: goals,
+          - listitem [ref=f3e4538]: changing relationships.
+        - paragraph [ref=f3e4539]: "Compare equal-resource:"
+        - list [ref=f3e4540]:
+          - listitem [ref=f3e4541]: small Transformer,
+          - listitem [ref=f3e4542]: RNN,
+          - listitem [ref=f3e4543]: graph neural network,
+          - listitem [ref=f3e4544]: RRG recursive dynamic network.
+        - paragraph [ref=f3e4545]: "RRG network rules:"
+        - list [ref=f3e4546]:
+          - listitem [ref=f3e4547]: local dynamic nodes,
+          - listitem [ref=f3e4548]: adaptive graph,
+          - listitem [ref=f3e4549]: phase/timescale variables,
+          - listitem [ref=f3e4550]: persistent clusters promoted automatically,
+          - listitem [ref=f3e4551]: temporary synchronization for task relevance,
+          - listitem [ref=f3e4552]: same recursive update family across levels.
+        - paragraph [ref=f3e4553]: "Compare:"
+        - list [ref=f3e4554]:
+          - listitem [ref=f3e4555]: sample efficiency,
+          - listitem [ref=f3e4556]: parameter count,
+          - listitem [ref=f3e4557]: memory,
+          - listitem [ref=f3e4558]: generalization to unseen combinations,
+          - listitem [ref=f3e4559]: long-horizon prediction,
+          - listitem [ref=f3e4560]: robustness to perturbations,
+          - listitem [ref=f3e4561]: computational cost.
+        - separator [ref=f3e4562]
+        - heading "22. Physics program after the toy model" [level=2] [ref=f3e4563]
+        - paragraph [ref=f3e4564]: "Only if recursive closure works generically:"
+        - list [ref=f3e4565]:
+          - listitem [ref=f3e4566]: test whether known inverse-distance interactions can emerge;
+          - listitem [ref=f3e4567]: test local symmetries;
+          - listitem [ref=f3e4568]: test conservation laws;
+          - listitem [ref=f3e4569]: test continuum/field limit;
+          - listitem [ref=f3e4570]: test Lorentz-compatible dynamics;
+          - listitem [ref=f3e4571]: test whether gauge-like redundancy emerges;
+          - listitem [ref=f3e4572]: compare with quantum field behavior;
+          - listitem [ref=f3e4573]: test whether an effective metric/gravity-like regime can appear.
+        - paragraph [ref=f3e4574]: Do not retrofit these properties one by one unless the extension is independently motivated.
+        - separator [ref=f3e4575]
+        - heading "23. Closest mathematical/scientific frameworks" [level=2] [ref=f3e4576]
+        - paragraph [ref=f3e4577]: "RRG should explicitly build on rather than ignore:"
+        - list [ref=f3e4578]:
+          - listitem [ref=f3e4579]: normal-mode / spectral theory,
+          - listitem [ref=f3e4580]: coupled resonator theory,
+          - listitem [ref=f3e4581]: Kuramoto synchronization,
+          - listitem [ref=f3e4582]: swarmalators,
+          - listitem [ref=f3e4583]: Stuart–Landau oscillators,
+          - listitem [ref=f3e4584]: adaptive networks,
+          - listitem [ref=f3e4585]: Synergetics,
+          - listitem [ref=f3e4586]: dynamical systems / attractors,
+          - listitem [ref=f3e4587]: renormalization group,
+          - listitem [ref=f3e4588]: effective field theory,
+          - listitem [ref=f3e4589]: graph spectral theory,
+          - listitem [ref=f3e4590]: autocatalytic-set theory,
+          - listitem [ref=f3e4591]: neural manifolds.
+        - paragraph [ref=f3e4592]:
+          - text: The potential novelty is their use in a cross-scale framework governed by the
+          - strong [ref=f3e4593]: locked geometry↔mode relation
+          - text: . No identical microscopic equation is assumed across domains.
+        - separator [ref=f3e4594]
+        - heading "24. Minimal mathematical summary" [level=2] [ref=f3e4595]
+        - paragraph [ref=f3e4596]:
+          - text: At scale
+          - generic [ref=f3e4597]:
+            - math [ref=f3e4599]:
+              - generic [ref=f3e4600]: "n"
+            - generic [ref=f3e4604]: "n"
+          - text: ":"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4605]:
+          - generic [ref=f3e4606]:
+            - math [ref=f3e4608]:
+              - generic [ref=f3e4610]:
+                - generic [ref=f3e4611]:
+                  - generic [ref=f3e4612]: R
+                  - generic [ref=f3e4613]: "n"
+                - generic [ref=f3e4614]: =
+                - generic [ref=f3e4615]: (
+                - generic [ref=f3e4616]:
+                  - generic [ref=f3e4617]: G
+                  - generic [ref=f3e4618]: "n"
+                - generic [ref=f3e4619]: ","
+                - generic [ref=f3e4620]:
+                  - generic [ref=f3e4621]: M
+                  - generic [ref=f3e4622]: "n"
+                - generic [ref=f3e4623]: )
+                - generic [ref=f3e4624]: .
+            - generic [aria-hidden] [ref=f3e4625]:
+              - generic [ref=f3e4626]:
+                - generic [ref=f3e4627]:
+                  - text: R
+                  - generic [ref=f3e4628]: "n"
+                - text: =
+              - generic [ref=f3e4636]:
+                - text: (
+                - generic [ref=f3e4637]:
+                  - text: G
+                  - generic [ref=f3e4638]: "n"
+                - text: ","
+                - generic [ref=f3e4646]:
+                  - text: M
+                  - generic [ref=f3e4647]: "n"
+                - text: ).
+        - paragraph [ref=f3e4655]: "Evolution:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4656]:
+          - generic [ref=f3e4657]:
+            - math [ref=f3e4659]:
+              - generic [ref=f3e4661]:
+                - generic [ref=f3e4662]:
+                  - generic [ref=f3e4663]:
+                    - generic [ref=f3e4664]: R
+                    - generic [ref=f3e4665]: ˙
+                  - generic [ref=f3e4666]: "n"
+                - generic [ref=f3e4667]: =
+                - generic [ref=f3e4668]: F
+                - generic [ref=f3e4669]: (
+                - generic [ref=f3e4670]:
+                  - generic [ref=f3e4671]: R
+                  - generic [ref=f3e4672]: "n"
+                - generic [ref=f3e4673]: ;
+                - generic [ref=f3e4674]:
+                  - generic [ref=f3e4675]: λ
+                  - generic [ref=f3e4676]: "n"
+                - generic [ref=f3e4677]: )
+                - generic [ref=f3e4678]: .
+            - generic [aria-hidden] [ref=f3e4679]:
+              - generic [ref=f3e4680]:
+                - generic [ref=f3e4681]:
+                  - generic [ref=f3e4685]:
+                    - generic [ref=f3e4686]: R
+                    - generic [ref=f3e4687]: ˙
+                  - generic [ref=f3e4688]: "n"
+                - text: =
+              - generic [ref=f3e4696]:
+                - text: F(
+                - generic [ref=f3e4697]:
+                  - text: R
+                  - generic [ref=f3e4698]: "n"
+                - text: ;
+                - generic [ref=f3e4706]:
+                  - text: λ
+                  - generic [ref=f3e4707]: "n"
+                - text: ).
+        - paragraph [ref=f3e4715]: "Stable resonant geometry:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4716]:
+          - generic [ref=f3e4717]:
+            - math [ref=f3e4719]:
+              - generic [ref=f3e4721]:
+                - generic [ref=f3e4722]:
+                  - generic [ref=f3e4723]: R
+                  - generic [ref=f3e4724]: "n"
+                - generic [ref=f3e4725]: ∈
+                - generic [ref=f3e4726]:
+                  - generic [ref=f3e4727]: A
+                  - generic [ref=f3e4728]: "n"
+            - generic [aria-hidden] [ref=f3e4729]:
+              - generic [ref=f3e4730]:
+                - generic [ref=f3e4731]:
+                  - text: R
+                  - generic [ref=f3e4732]: "n"
+                - text: ∈
+              - generic [ref=f3e4741]:
+                - text: A
+                - generic [ref=f3e4742]: "n"
+        - paragraph [ref=f3e4750]:
+          - text: for an attractor/persistent set
+          - generic [ref=f3e4751]:
+            - math [ref=f3e4753]:
+              - generic [ref=f3e4756]:
+                - generic [ref=f3e4757]: A
+                - generic [ref=f3e4758]: "n"
+            - generic [ref=f3e4761]:
+              - text: A
+              - generic [ref=f3e4762]: "n"
+          - text: .
+        - paragraph [ref=f3e4770]: "Coarse-grain stable cluster:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4771]:
+          - generic [ref=f3e4772]:
+            - math [ref=f3e4774]:
+              - generic [ref=f3e4776]:
+                - generic [ref=f3e4777]:
+                  - generic [ref=f3e4778]: R
+                  - generic [ref=f3e4779]:
+                    - generic [ref=f3e4780]: "n"
+                    - generic [ref=f3e4781]: +
+                    - generic [ref=f3e4782]: "1"
+                - generic [ref=f3e4783]: =
+                - generic [ref=f3e4784]: R
+                - generic [ref=f3e4785]: (
+                - generic [ref=f3e4786]: "{"
+                - generic [ref=f3e4787]:
+                  - generic [ref=f3e4788]: R
+                  - generic [ref=f3e4789]: "n"
+                - generic [ref=f3e4790]: "}"
+                - generic [ref=f3e4791]: )
+                - generic [ref=f3e4792]: .
+            - generic [aria-hidden] [ref=f3e4793]:
+              - generic [ref=f3e4794]:
+                - generic [ref=f3e4795]:
+                  - text: R
+                  - generic [ref=f3e4796]: n+1
+                - text: =
+              - generic [ref=f3e4805]:
+                - text: "R({"
+                - generic [ref=f3e4806]:
+                  - text: R
+                  - generic [ref=f3e4807]: "n"
+                - text: "})."
+        - paragraph [ref=f3e4815]: "Optional strong recursive-closure test:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4816]:
+          - generic [ref=f3e4817]:
+            - math [ref=f3e4819]:
+              - generic [ref=f3e4826]:
+                - generic [ref=f3e4827]: R
+                - generic [ref=f3e4828]: ∘
+                - generic [ref=f3e4829]:
+                  - generic [ref=f3e4830]: F
+                  - generic [ref=f3e4831]:
+                    - generic [ref=f3e4832]: λ
+                    - generic [ref=f3e4833]: "n"
+                - generic [ref=f3e4834]: ≈
+                - generic [ref=f3e4835]:
+                  - generic [ref=f3e4836]: F
+                  - generic [ref=f3e4837]:
+                    - generic [ref=f3e4838]: λ
+                    - generic [ref=f3e4839]:
+                      - generic [ref=f3e4840]: "n"
+                      - generic [ref=f3e4841]: +
+                      - generic [ref=f3e4842]: "1"
+                - generic [ref=f3e4843]: ∘
+                - generic [ref=f3e4844]: R
+                - generic [ref=f3e4845]: .
+            - generic [ref=f3e4854]:
+              - text: R ∘
+              - generic [ref=f3e4855]:
+                - text: F
+                - generic [ref=f3e4862]:
+                  - text: λ
+                  - generic [ref=f3e4863]: "n"
+              - text: ≈
+              - generic [ref=f3e4874]:
+                - text: F
+                - generic [ref=f3e4881]:
+                  - text: λ
+                  - generic [ref=f3e4882]: n+1
+              - text: ∘ R.
+        - paragraph [ref=f3e4898]:
+          - text: This condition is a strong mathematical test, not the definition of RRG. The locked heart remains
+          - generic [ref=f3e4899]:
+            - math [ref=f3e4901]:
+              - generic [ref=f3e4903]:
+                - generic [ref=f3e4904]: R
+                - generic [ref=f3e4905]: =
+                - generic [ref=f3e4906]: (
+                - generic [ref=f3e4907]: G
+                - generic [ref=f3e4908]: ","
+                - generic [ref=f3e4909]: M
+                - generic [ref=f3e4910]: )
+            - generic [aria-hidden] [ref=f3e4911]:
+              - generic [ref=f3e4912]: R =
+              - generic [ref=f3e4913]: (G, M)
+          - text: with
+          - generic [ref=f3e4914]:
+            - math [ref=f3e4916]:
+              - generic [ref=f3e4918]:
+                - generic [ref=f3e4919]: G
+                - generic [ref=f3e4920]: ↔
+                - generic [ref=f3e4921]: M
+            - generic [aria-hidden] [ref=f3e4922]:
+              - generic [ref=f3e4923]: G ↔
+              - generic [ref=f3e4924]: M
+          - text: ", plus higher-level formation from lower resonant geometries."
+        - paragraph [ref=f3e4925]: If it survives nontrivial simulations and known physical constraints, the framework becomes much more than an analogy.
+        - paragraph [ref=f3e4926]: If it does not, we revise or reject the universal-recursion claim.
+        - separator [ref=f3e4927]
+        - heading [level=2] [ref=f3e4928]:
+          - text: v0.1a Addendum — Minimal
+          - generic [ref=f3e4929]:
+            - math [ref=f3e4931]:
+              - generic [ref=f3e4932]: Γ
+            - generic [ref=f3e4936]: Γ
+          - text: with Scale-Activated Interaction Channels
+        - heading "25. Why the previous minimal model was not enough" [level=2] [ref=f3e4937]
+        - paragraph [ref=f3e4938]:
+          - text: The pair potential
+          - generic [ref=f3e4939]:
+            - math [ref=f3e4941]:
+              - generic [ref=f3e4943]:
+                - generic [ref=f3e4944]: V
+                - generic [ref=f3e4945]: (
+                - generic [ref=f3e4946]: r
+                - generic [ref=f3e4947]: ","
+                - generic [ref=f3e4948]: Δ
+                - generic [ref=f3e4949]: θ
+                - generic [ref=f3e4950]: )
+            - generic [ref=f3e4952]: V(r, Δθ)
+          - text: is useful for a toy simulation, but it cannot realistically encode multiple force sectors, symmetry breaking, confinement, emergent composite fields, gravity-like geometry, and different effective laws at different scales.
+        - paragraph [ref=f3e4953]:
+          - text: For the deeper RRG formulation, use a
+          - strong [ref=f3e4954]: scale-dependent effective action
+          - text: .
+        - heading "26. Abstract minimal RRG effective action" [level=2] [ref=f3e4955]
+        - paragraph [ref=f3e4956]: "Let:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4957]:
+          - generic [ref=f3e4958]:
+            - math [ref=f3e4960]:
+              - generic [ref=f3e4962]:
+                - generic [ref=f3e4963]: R
+                - generic [ref=f3e4964]: =
+                - generic [ref=f3e4965]: (
+                - generic [ref=f3e4966]: D
+                - generic [ref=f3e4967]: ","
+                - generic [ref=f3e4968]: Ψ
+                - generic [ref=f3e4969]: )
+            - generic [aria-hidden] [ref=f3e4970]:
+              - generic [ref=f3e4971]: R =
+              - generic [ref=f3e4972]: (D, Ψ)
+        - paragraph [ref=f3e4973]: "where:"
+        - list [ref=f3e4974]:
+          - listitem [ref=f3e4975]:
+            - generic [ref=f3e4976]:
+              - math [ref=f3e4978]:
+                - generic [ref=f3e4979]: D
+              - generic [ref=f3e4983]: D
+            - text: is the geometry/spectral operator,
+          - listitem [ref=f3e4984]:
+            - generic [ref=f3e4985]:
+              - math [ref=f3e4987]:
+                - generic [ref=f3e4988]: Ψ
+              - generic [ref=f3e4992]: Ψ
+            - text: is the active state/mode content.
+        - paragraph [ref=f3e4993]: "Use:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e4994]:
+          - generic [ref=f3e4995]:
+            - math [ref=f3e4997]:
+              - generic [ref=f3e5004]:
+                - generic [ref=f3e5005]:
+                  - generic [ref=f3e5006]: Γ
+                  - generic [ref=f3e5007]: k
+                - generic [ref=f3e5008]: "["
+                - generic [ref=f3e5009]: D
+                - generic [ref=f3e5010]: ","
+                - generic [ref=f3e5011]: Ψ
+                - generic [ref=f3e5012]: "]"
+                - generic [ref=f3e5013]: =
+                - generic [ref=f3e5014]:
+                  - generic [ref=f3e5015]: Γ
+                  - generic [ref=f3e5016]:
+                    - generic [ref=f3e5017]:
+                      - generic [ref=f3e5018]: g
+                      - generic [ref=f3e5019]: e
+                      - generic [ref=f3e5020]: o
+                      - generic [ref=f3e5021]: m
+                    - generic [ref=f3e5022]: ","
+                    - generic [ref=f3e5023]: k
+                - generic [ref=f3e5024]: "["
+                - generic [ref=f3e5025]: D
+                - generic [ref=f3e5026]: "]"
+                - generic [ref=f3e5027]: +
+                - generic [ref=f3e5028]: ⟨
+                - generic [ref=f3e5029]: Ψ
+                - generic [ref=f3e5030]: ","
+                - generic [ref=f3e5031]:
+                  - generic [ref=f3e5032]: K
+                  - generic [ref=f3e5033]: k
+                - generic [ref=f3e5034]: (
+                - generic [ref=f3e5035]: D
+                - generic [ref=f3e5036]: )
+                - generic [ref=f3e5037]: Ψ
+                - generic [ref=f3e5038]: ⟩
+                - generic [ref=f3e5039]: +
+                - generic [ref=f3e5040]:
+                  - generic [ref=f3e5041]: U
+                  - generic [ref=f3e5042]: k
+                - generic [ref=f3e5043]: "["
+                - generic [ref=f3e5044]: Ψ
+                - generic [ref=f3e5045]: "]"
+                - generic [ref=f3e5046]: +
+                - generic [ref=f3e5047]:
+                  - generic [ref=f3e5048]: ∑
+                  - generic [ref=f3e5049]: α
+                - generic [ref=f3e5050]:
+                  - generic [ref=f3e5051]: g
+                  - generic [ref=f3e5052]: α
+                - generic [ref=f3e5053]: (
+                - generic [ref=f3e5054]: k
+                - generic [ref=f3e5055]: )
+                - generic [ref=f3e5056]:
+                  - generic [ref=f3e5057]: O
+                  - generic [ref=f3e5058]: α
+                - generic [ref=f3e5059]: "["
+                - generic [ref=f3e5060]: D
+                - generic [ref=f3e5061]: ","
+                - generic [ref=f3e5062]: Ψ
+                - generic [ref=f3e5063]: "]"
+            - generic [ref=f3e5072]:
+              - generic [ref=f3e5073]:
+                - text: Γ
+                - generic [ref=f3e5074]: k
+              - text: "[D, Ψ] ="
+              - generic [ref=f3e5082]:
+                - text: Γ
+                - generic [ref=f3e5088]:
+                  - generic [ref=f3e5089]: geom
+                  - text: ",k"
+              - text: "[D] + ⟨Ψ,"
+              - generic [ref=f3e5093]:
+                - text: K
+                - generic [ref=f3e5094]: k
+              - text: (D)Ψ⟩ +
+              - generic [ref=f3e5102]:
+                - text: U
+                - generic [ref=f3e5103]: k
+              - text: "[Ψ] +"
+              - generic [ref=f3e5114]:
+                - generic [ref=f3e5115]: α
+                - generic [ref=f3e5116]: ∑
+              - generic [ref=f3e5120]:
+                - text: g
+                - generic [ref=f3e5121]: α
+              - text: (k)
+              - generic [ref=f3e5129]:
+                - text: O
+                - generic [ref=f3e5130]: α
+              - text: "[D, Ψ]"
+        - paragraph [ref=f3e5142]: "Interpretation:"
+        - list [ref=f3e5143]:
+          - listitem [ref=f3e5144]:
+            - generic [ref=f3e5145]:
+              - math [ref=f3e5147]:
+                - generic [ref=f3e5149]:
+                  - generic [ref=f3e5150]:
+                    - generic [ref=f3e5151]: Γ
+                    - generic [ref=f3e5152]:
+                      - generic [ref=f3e5153]:
+                        - generic [ref=f3e5154]: g
+                        - generic [ref=f3e5155]: e
+                        - generic [ref=f3e5156]: o
+                        - generic [ref=f3e5157]: m
+                      - generic [ref=f3e5158]: ","
+                      - generic [ref=f3e5159]: k
+                  - generic [ref=f3e5160]: "["
+                  - generic [ref=f3e5161]: D
+                  - generic [ref=f3e5162]: "]"
+              - generic [ref=f3e5164]:
+                - generic [ref=f3e5165]:
+                  - text: Γ
+                  - generic [ref=f3e5171]:
+                    - generic [ref=f3e5172]: geom
+                    - text: ",k"
+                - text: "[D]"
+            - text: ": cost/dynamics of geometry itself."
+          - listitem [ref=f3e5176]:
+            - generic [ref=f3e5177]:
+              - math [ref=f3e5179]:
+                - generic [ref=f3e5181]:
+                  - generic [ref=f3e5182]: ⟨
+                  - generic [ref=f3e5183]: Ψ
+                  - generic [ref=f3e5184]: ","
+                  - generic [ref=f3e5185]:
+                    - generic [ref=f3e5186]: K
+                    - generic [ref=f3e5187]: k
+                  - generic [ref=f3e5188]: (
+                  - generic [ref=f3e5189]: D
+                  - generic [ref=f3e5190]: )
+                  - generic [ref=f3e5191]: Ψ
+                  - generic [ref=f3e5192]: ⟩
+              - generic [ref=f3e5194]:
+                - text: ⟨Ψ,
+                - generic [ref=f3e5195]:
+                  - text: K
+                  - generic [ref=f3e5196]: k
+                - text: (D)Ψ⟩
+            - text: ": modes allowed by that geometry."
+          - listitem [ref=f3e5204]:
+            - generic [ref=f3e5205]:
+              - math [ref=f3e5207]:
+                - generic [ref=f3e5209]:
+                  - generic [ref=f3e5210]:
+                    - generic [ref=f3e5211]: U
+                    - generic [ref=f3e5212]: k
+                  - generic [ref=f3e5213]: "["
+                  - generic [ref=f3e5214]: Ψ
+                  - generic [ref=f3e5215]: "]"
+              - generic [ref=f3e5217]:
+                - generic [ref=f3e5218]:
+                  - text: U
+                  - generic [ref=f3e5219]: k
+                - text: "[Ψ]"
+            - text: ": nonlinear self-interaction needed for multiple stable branches."
+          - listitem [ref=f3e5227]:
+            - generic [ref=f3e5228]:
+              - math [ref=f3e5230]:
+                - generic [ref=f3e5232]:
+                  - generic [ref=f3e5233]:
+                    - generic [ref=f3e5234]: g
+                    - generic [ref=f3e5235]: α
+                  - generic [ref=f3e5236]: (
+                  - generic [ref=f3e5237]: k
+                  - generic [ref=f3e5238]: )
+                  - generic [ref=f3e5239]:
+                    - generic [ref=f3e5240]: O
+                    - generic [ref=f3e5241]: α
+              - generic [ref=f3e5243]:
+                - generic [ref=f3e5244]:
+                  - text: g
+                  - generic [ref=f3e5245]: α
+                - text: (k)
+                - generic [ref=f3e5253]:
+                  - text: O
+                  - generic [ref=f3e5254]: α
+            - text: ": interaction channels allowed by the current symmetries/constraints."
+        - paragraph [ref=f3e5262]: This is the smallest abstract form that can contain geometry, spectrum, nonlinear stability, multiple interaction channels, and scale dependence.
+        - heading "27. Geometry↔mode closure" [level=2] [ref=f3e5263]
+        - paragraph [ref=f3e5264]: "Self-consistency requires:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e5265]:
+          - generic [ref=f3e5266]:
+            - math [ref=f3e5268]:
+              - generic [ref=f3e5275]:
+                - generic [ref=f3e5276]:
+                  - generic [ref=f3e5277]:
+                    - generic [ref=f3e5278]: δ
+                    - generic [ref=f3e5279]:
+                      - generic [ref=f3e5280]: Γ
+                      - generic [ref=f3e5281]: k
+                  - generic [ref=f3e5282]:
+                    - generic [ref=f3e5283]: δ
+                    - generic [ref=f3e5284]: Ψ
+                - generic [ref=f3e5285]: =
+                - generic [ref=f3e5286]: "0"
+            - generic [ref=f3e5295]:
+              - generic [ref=f3e5300]:
+                - generic [ref=f3e5301]: δΨ
+                - generic [ref=f3e5303]:
+                  - text: δ
+                  - generic [ref=f3e5304]:
+                    - text: Γ
+                    - generic [ref=f3e5305]: k
+              - text: = 0
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e5320]:
+          - generic [ref=f3e5321]:
+            - math [ref=f3e5323]:
+              - generic [ref=f3e5330]:
+                - generic [ref=f3e5331]:
+                  - generic [ref=f3e5332]:
+                    - generic [ref=f3e5333]: δ
+                    - generic [ref=f3e5334]:
+                      - generic [ref=f3e5335]: Γ
+                      - generic [ref=f3e5336]: k
+                  - generic [ref=f3e5337]:
+                    - generic [ref=f3e5338]: δ
+                    - generic [ref=f3e5339]: D
+                - generic [ref=f3e5340]: =
+                - generic [ref=f3e5341]: "0"
+            - generic [ref=f3e5350]:
+              - generic [ref=f3e5355]:
+                - generic [ref=f3e5356]: δD
+                - generic [ref=f3e5358]:
+                  - text: δ
+                  - generic [ref=f3e5359]:
+                    - text: Γ
+                    - generic [ref=f3e5360]: k
+              - text: = 0
+        - paragraph [ref=f3e5375]: The first gives the allowed state/mode on the current geometry. The second gives the geometry compatible with the active state/mode.
+        - heading "28. Force and frequency emerge from the same effective action" [level=2] [ref=f3e5376]
+        - paragraph [ref=f3e5377]:
+          - text: Let
+          - generic [ref=f3e5378]:
+            - math [ref=f3e5380]:
+              - generic [ref=f3e5381]: q
+            - generic [ref=f3e5385]: q
+          - text: "be a collective geometric coordinate. Then:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e5386]:
+          - generic [ref=f3e5387]:
+            - math [ref=f3e5389]:
+              - generic [ref=f3e5396]:
+                - generic [ref=f3e5397]:
+                  - generic [ref=f3e5398]: F
+                  - generic [ref=f3e5399]: q
+                - generic [ref=f3e5400]: =
+                - generic [ref=f3e5401]: −
+                - generic [ref=f3e5402]:
+                  - generic [ref=f3e5403]:
+                    - generic [ref=f3e5404]: ∂
+                    - generic [ref=f3e5405]:
+                      - generic [ref=f3e5406]: Γ
+                      - generic [ref=f3e5407]: k
+                  - generic [ref=f3e5408]:
+                    - generic [ref=f3e5409]: ∂
+                    - generic [ref=f3e5410]: q
+            - generic [ref=f3e5419]:
+              - generic [ref=f3e5420]:
+                - text: F
+                - generic [ref=f3e5421]: q
+              - text: = −
+              - generic [ref=f3e5433]:
+                - generic [ref=f3e5434]: ∂q
+                - generic [ref=f3e5436]:
+                  - text: ∂
+                  - generic [ref=f3e5437]:
+                    - text: Γ
+                    - generic [ref=f3e5438]: k
+        - paragraph [ref=f3e5453]: "A stable geometry satisfies:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e5454]:
+          - generic [ref=f3e5455]:
+            - math [ref=f3e5457]:
+              - generic [ref=f3e5464]:
+                - generic [ref=f3e5465]:
+                  - generic [ref=f3e5466]:
+                    - generic [ref=f3e5467]: ∂
+                    - generic [ref=f3e5468]:
+                      - generic [ref=f3e5469]: Γ
+                      - generic [ref=f3e5470]: k
+                  - generic [ref=f3e5471]:
+                    - generic [ref=f3e5472]: ∂
+                    - generic [ref=f3e5473]: q
+                - generic [ref=f3e5474]: =
+                - generic [ref=f3e5475]: "0"
+            - generic [ref=f3e5484]:
+              - generic [ref=f3e5489]:
+                - generic [ref=f3e5490]: ∂q
+                - generic [ref=f3e5492]:
+                  - text: ∂
+                  - generic [ref=f3e5493]:
+                    - text: Γ
+                    - generic [ref=f3e5494]: k
+              - text: = 0
+        - paragraph [ref=f3e5509]: "Near a stable state:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e5510]:
+          - generic [ref=f3e5511]:
+            - math [ref=f3e5513]:
+              - generic [ref=f3e5515]:
+                - generic [ref=f3e5516]:
+                  - generic [ref=f3e5517]: Γ
+                  - generic [ref=f3e5518]: k
+                - generic [ref=f3e5519]: (
+                - generic [ref=f3e5520]: q
+                - generic [ref=f3e5521]: )
+                - generic [ref=f3e5522]: ≈
+                - generic [ref=f3e5523]:
+                  - generic [ref=f3e5524]: Γ
+                  - generic [ref=f3e5525]: k
+                - generic [ref=f3e5526]: (
+                - generic [ref=f3e5527]:
+                  - generic [ref=f3e5528]: q
+                  - generic [ref=f3e5529]: ∗
+                - generic [ref=f3e5530]: )
+                - generic [ref=f3e5531]: +
+                - generic [ref=f3e5532]:
+                  - generic [ref=f3e5533]: "1"
+                  - generic [ref=f3e5534]: "2"
+                - generic [ref=f3e5535]: (
+                - generic [ref=f3e5536]: q
+                - generic [ref=f3e5537]: −
+                - generic [ref=f3e5538]:
+                  - generic [ref=f3e5539]: q
+                  - generic [ref=f3e5540]: ∗
+                - generic [ref=f3e5541]:
+                  - generic [ref=f3e5542]: )
+                  - generic [ref=f3e5543]: T
+                - generic [ref=f3e5544]:
+                  - generic [ref=f3e5545]: H
+                  - generic [ref=f3e5546]: k
+                - generic [ref=f3e5547]: (
+                - generic [ref=f3e5548]: q
+                - generic [ref=f3e5549]: −
+                - generic [ref=f3e5550]:
+                  - generic [ref=f3e5551]: q
+                  - generic [ref=f3e5552]: ∗
+                - generic [ref=f3e5553]: )
+            - generic [aria-hidden] [ref=f3e5554]:
+              - generic [ref=f3e5555]:
+                - generic [ref=f3e5556]:
+                  - text: Γ
+                  - generic [ref=f3e5557]: k
+                - text: (q) ≈
+              - generic [ref=f3e5565]:
+                - generic [ref=f3e5566]:
+                  - text: Γ
+                  - generic [ref=f3e5567]: k
+                - text: (
+                - generic [ref=f3e5575]:
+                  - text: q
+                  - generic [ref=f3e5576]: ∗
+                - text: ) +
+              - generic [ref=f3e5584]:
+                - generic [ref=f3e5589]:
+                  - generic [ref=f3e5590]: "2"
+                  - generic [ref=f3e5592]: "1"
+                - text: (q −
+              - generic [ref=f3e5596]:
+                - generic [ref=f3e5597]:
+                  - text: q
+                  - generic [ref=f3e5598]: ∗
+                - generic [ref=f3e5606]:
+                  - text: )
+                  - generic [ref=f3e5607]: T
+                - generic [ref=f3e5612]:
+                  - text: H
+                  - generic [ref=f3e5613]: k
+                - text: (q −
+              - generic [ref=f3e5621]:
+                - generic [ref=f3e5622]:
+                  - text: q
+                  - generic [ref=f3e5623]: ∗
+                - text: )
+        - paragraph [ref=f3e5631]: "with:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e5632]:
+          - generic [ref=f3e5633]:
+            - math [ref=f3e5635]:
+              - generic [ref=f3e5642]:
+                - generic [ref=f3e5643]:
+                  - generic [ref=f3e5644]: H
+                  - generic [ref=f3e5645]: k
+                - generic [ref=f3e5646]: =
+                - generic [ref=f3e5647]:
+                  - generic [ref=f3e5648]:
+                    - generic [ref=f3e5649]:
+                      - generic [ref=f3e5650]: ∂
+                      - generic [ref=f3e5651]: "2"
+                    - generic [ref=f3e5652]:
+                      - generic [ref=f3e5653]: Γ
+                      - generic [ref=f3e5654]: k
+                  - generic [ref=f3e5655]:
+                    - generic [ref=f3e5656]: ∂
+                    - generic [ref=f3e5657]:
+                      - generic [ref=f3e5658]: q
+                      - generic [ref=f3e5659]: "2"
+            - generic [ref=f3e5668]:
+              - generic [ref=f3e5669]:
+                - text: H
+                - generic [ref=f3e5670]: k
+              - text: =
+              - generic [ref=f3e5682]:
+                - generic [ref=f3e5683]:
+                  - text: ∂
+                  - generic [ref=f3e5684]:
+                    - text: q
+                    - generic [ref=f3e5685]: "2"
+                - generic [ref=f3e5691]:
+                  - generic [ref=f3e5692]:
+                    - text: ∂
+                    - generic [ref=f3e5693]: "2"
+                  - generic [ref=f3e5698]:
+                    - text: Γ
+                    - generic [ref=f3e5699]: k
+        - paragraph [ref=f3e5714]: "Normal modes satisfy:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e5715]:
+          - generic [ref=f3e5716]:
+            - math [ref=f3e5718]:
+              - generic [ref=f3e5725]:
+                - generic [ref=f3e5726]:
+                  - generic [ref=f3e5727]: H
+                  - generic [ref=f3e5728]: k
+                - generic [ref=f3e5729]:
+                  - generic [ref=f3e5730]: u
+                  - generic [ref=f3e5731]: "n"
+                - generic [ref=f3e5732]: =
+                - generic [ref=f3e5733]:
+                  - generic [ref=f3e5734]: λ
+                  - generic [ref=f3e5735]: "n"
+                - generic [ref=f3e5736]:
+                  - generic [ref=f3e5737]: u
+                  - generic [ref=f3e5738]: "n"
+            - generic [ref=f3e5747]:
+              - generic [ref=f3e5748]:
+                - text: H
+                - generic [ref=f3e5749]: k
+              - generic [ref=f3e5757]:
+                - text: u
+                - generic [ref=f3e5758]: "n"
+              - text: =
+              - generic [ref=f3e5766]:
+                - text: λ
+                - generic [ref=f3e5767]: "n"
+              - generic [ref=f3e5775]:
+                - text: u
+                - generic [ref=f3e5776]: "n"
+        - paragraph [ref=f3e5788]:
+          - text: After accounting for the kinetic metric/mass matrix
+          - generic [ref=f3e5789]:
+            - math [ref=f3e5791]:
+              - generic [ref=f3e5794]:
+                - generic [ref=f3e5795]: M
+                - generic [ref=f3e5796]: q
+            - generic [ref=f3e5799]:
+              - text: M
+              - generic [ref=f3e5800]: q
+          - text: ":"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e5808]:
+          - generic [ref=f3e5809]:
+            - math [ref=f3e5811]:
+              - generic [ref=f3e5818]:
+                - generic [ref=f3e5819]:
+                  - generic [ref=f3e5820]: ω
+                  - generic [ref=f3e5821]: "n"
+                  - generic [ref=f3e5822]: "2"
+                - generic [ref=f3e5823]: =
+                - generic [ref=f3e5824]: eig
+                - generic: ⁡
+                - generic [ref=f3e5825]: (
+                - generic [ref=f3e5826]:
+                  - generic [ref=f3e5827]: M
+                  - generic [ref=f3e5828]: q
+                  - generic [ref=f3e5829]:
+                    - generic [ref=f3e5830]: −
+                    - generic [ref=f3e5831]: "1"
+                - generic [ref=f3e5832]:
+                  - generic [ref=f3e5833]: H
+                  - generic [ref=f3e5834]: k
+                - generic [ref=f3e5835]: )
+            - generic [ref=f3e5844]:
+              - generic [ref=f3e5845]:
+                - text: ω
+                - generic [ref=f3e5849]:
+                  - generic [ref=f3e5850]: "n"
+                  - generic [ref=f3e5851]: "2"
+              - text: =
+              - generic [ref=f3e5855]: eig
+              - text: (
+              - generic [ref=f3e5856]:
+                - text: M
+                - generic [ref=f3e5860]:
+                  - generic [ref=f3e5861]: q
+                  - generic [ref=f3e5862]: −1
+              - generic [ref=f3e5867]:
+                - text: H
+                - generic [ref=f3e5868]: k
+              - text: )
+        - paragraph [ref=f3e5880]: "Therefore stable geometry, restoring interaction, and resonant frequencies are three properties of the same local effective-action landscape:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e5881]:
+          - generic [ref=f3e5882]:
+            - math [ref=f3e5884]:
+              - generic [ref=f3e5891]:
+                - generic [ref=f3e5892]:
+                  - generic [ref=f3e5893]: Γ
+                  - generic [ref=f3e5894]: k
+                - generic [ref=f3e5895]: ⇒
+                - generic [ref=f3e5896]: "{"
+                - generic [ref=f3e5897]:
+                  - generic [ref=f3e5898]: G
+                  - generic [ref=f3e5899]: k
+                - generic [ref=f3e5900]: ","
+                - generic [ref=f3e5901]:
+                  - generic [ref=f3e5902]: F
+                  - generic [ref=f3e5903]: k
+                - generic [ref=f3e5904]: ","
+                - generic [ref=f3e5905]:
+                  - generic [ref=f3e5906]: Ω
+                  - generic [ref=f3e5907]: k
+                - generic [ref=f3e5908]: "}"
+            - generic [ref=f3e5917]:
+              - generic [ref=f3e5918]:
+                - text: Γ
+                - generic [ref=f3e5919]: k
+              - text: "⇒ {"
+              - generic [ref=f3e5927]:
+                - text: G
+                - generic [ref=f3e5928]: k
+              - text: ","
+              - generic [ref=f3e5936]:
+                - text: F
+                - generic [ref=f3e5937]: k
+              - text: ","
+              - generic [ref=f3e5945]:
+                - text: Ω
+                - generic [ref=f3e5946]: k
+              - text: "}"
+        - heading "29. Latent interaction channels" [level=2] [ref=f3e5958]
+        - paragraph [ref=f3e5959]: "Write:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e5960]:
+          - generic [ref=f3e5961]:
+            - math [ref=f3e5963]:
+              - generic [ref=f3e5970]:
+                - generic [ref=f3e5971]:
+                  - generic [ref=f3e5972]: Γ
+                  - generic [ref=f3e5973]: k
+                - generic [ref=f3e5974]: =
+                - generic [ref=f3e5975]:
+                  - generic [ref=f3e5976]: Γ
+                  - generic [ref=f3e5977]:
+                    - generic [ref=f3e5978]: "0"
+                    - generic [ref=f3e5979]: ","
+                    - generic [ref=f3e5980]: k
+                - generic [ref=f3e5981]: +
+                - generic [ref=f3e5982]:
+                  - generic [ref=f3e5983]: ∑
+                  - generic [ref=f3e5984]: α
+                - generic [ref=f3e5985]:
+                  - generic [ref=f3e5986]: g
+                  - generic [ref=f3e5987]: α
+                - generic [ref=f3e5988]: (
+                - generic [ref=f3e5989]: k
+                - generic [ref=f3e5990]: )
+                - generic [ref=f3e5991]:
+                  - generic [ref=f3e5992]: O
+                  - generic [ref=f3e5993]: α
+            - generic [ref=f3e6002]:
+              - generic [ref=f3e6003]:
+                - text: Γ
+                - generic [ref=f3e6004]: k
+              - text: =
+              - generic [ref=f3e6012]:
+                - text: Γ
+                - generic [ref=f3e6013]: 0,k
+              - text: +
+              - generic [ref=f3e6025]:
+                - generic [ref=f3e6026]: α
+                - generic [ref=f3e6027]: ∑
+              - generic [ref=f3e6031]:
+                - text: g
+                - generic [ref=f3e6032]: α
+              - text: (k)
+              - generic [ref=f3e6040]:
+                - text: O
+                - generic [ref=f3e6041]: α
+        - paragraph [ref=f3e6053]: "Scale changes the couplings:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6054]:
+          - generic [ref=f3e6055]:
+            - math [ref=f3e6057]:
+              - generic [ref=f3e6064]:
+                - generic [ref=f3e6065]: k
+                - generic [ref=f3e6066]:
+                  - generic [ref=f3e6067]:
+                    - generic [ref=f3e6068]: d
+                    - generic [ref=f3e6069]:
+                      - generic [ref=f3e6070]: g
+                      - generic [ref=f3e6071]: α
+                  - generic [ref=f3e6072]:
+                    - generic [ref=f3e6073]: d
+                    - generic [ref=f3e6074]: k
+                - generic [ref=f3e6075]: =
+                - generic [ref=f3e6076]:
+                  - generic [ref=f3e6077]: β
+                  - generic [ref=f3e6078]: α
+                - generic [ref=f3e6079]: (
+                - generic [ref=f3e6080]: "{"
+                - generic [ref=f3e6081]: g
+                - generic [ref=f3e6082]: "}"
+                - generic [ref=f3e6083]: )
+            - generic [ref=f3e6092]:
+              - text: k
+              - generic [ref=f3e6097]:
+                - generic [ref=f3e6098]: dk
+                - generic [ref=f3e6100]:
+                  - text: d
+                  - generic [ref=f3e6101]:
+                    - text: g
+                    - generic [ref=f3e6102]: α
+              - text: =
+              - generic [ref=f3e6113]:
+                - text: β
+                - generic [ref=f3e6114]: α
+              - text: "({g})"
+        - paragraph [ref=f3e6126]: An interaction channel can therefore be negligible at one scale and important at another.
+        - paragraph [ref=f3e6127]: This mathematically captures the intuition that an interaction may be “available” but only become dynamically visible/dominant once the scale, geometry, and mode structure make its coupling relevant.
+        - heading "30. When a new geometry appears" [level=2] [ref=f3e6128]
+        - paragraph [ref=f3e6129]: A new collective structure often appears when a fluctuation channel becomes soft/unstable.
+        - paragraph [ref=f3e6130]:
+          - text: Let
+          - generic [ref=f3e6131]:
+            - math [ref=f3e6133]:
+              - generic [ref=f3e6136]:
+                - generic [ref=f3e6137]: Γ
+                - generic [ref=f3e6138]: k
+                - generic [ref=f3e6139]:
+                  - generic [ref=f3e6140]: (
+                  - generic [ref=f3e6141]: "2"
+                  - generic [ref=f3e6142]: )
+            - generic [ref=f3e6145]:
+              - text: Γ
+              - generic [ref=f3e6149]:
+                - generic [ref=f3e6150]: k
+                - generic [ref=f3e6151]: (2)
+          - text: be the second functional derivative. In channel
+          - generic [ref=f3e6156]:
+            - math [ref=f3e6158]:
+              - generic [ref=f3e6159]: α
+            - generic [ref=f3e6163]: α
+          - text: ", suppose:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6164]:
+          - generic [ref=f3e6165]:
+            - math [ref=f3e6167]:
+              - generic [ref=f3e6174]:
+                - generic [ref=f3e6175]:
+                  - generic [ref=f3e6176]: λ
+                  - generic [ref=f3e6177]: min
+                  - generic: ⁡
+                  - generic [ref=f3e6178]:
+                    - generic [ref=f3e6179]: (
+                    - generic [ref=f3e6180]: α
+                    - generic [ref=f3e6181]: )
+                - generic [ref=f3e6182]: (
+                - generic [ref=f3e6183]: k
+                - generic [ref=f3e6184]: )
+                - generic [ref=f3e6185]: →
+                - generic [ref=f3e6186]: "0"
+            - generic [ref=f3e6195]:
+              - generic [ref=f3e6196]:
+                - text: λ
+                - generic [ref=f3e6200]:
+                  - generic [ref=f3e6201]: min
+                  - generic [ref=f3e6204]: (α)
+              - text: (k) → 0
+        - paragraph [ref=f3e6213]: "Then fluctuations in that mode become large. If the eigenvalue changes sign:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6214]:
+          - generic [ref=f3e6215]:
+            - math [ref=f3e6217]:
+              - generic [ref=f3e6219]:
+                - generic [ref=f3e6220]:
+                  - generic [ref=f3e6221]: λ
+                  - generic [ref=f3e6222]: min
+                  - generic: ⁡
+                  - generic [ref=f3e6223]:
+                    - generic [ref=f3e6224]: (
+                    - generic [ref=f3e6225]: α
+                    - generic [ref=f3e6226]: )
+                - generic [ref=f3e6227]: <
+                - generic [ref=f3e6228]: "0"
+            - generic [aria-hidden] [ref=f3e6229]:
+              - generic [ref=f3e6230]:
+                - generic [ref=f3e6231]:
+                  - text: λ
+                  - generic [ref=f3e6235]:
+                    - generic [ref=f3e6236]: min
+                    - generic [ref=f3e6239]: (α)
+                - text: <
+              - generic [ref=f3e6244]: "0"
+        - paragraph [ref=f3e6245]: "the old state is unstable and the system reorganizes. A new order parameter/composite field can acquire:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6246]:
+          - generic [ref=f3e6247]:
+            - math [ref=f3e6249]:
+              - generic [ref=f3e6256]:
+                - generic [ref=f3e6257]: ⟨
+                - generic [ref=f3e6258]:
+                  - generic [ref=f3e6259]: Φ
+                  - generic [ref=f3e6260]: α
+                - generic [ref=f3e6261]: ⟩
+                - generic [ref=f3e6262]: ≠
+                - generic [ref=f3e6263]: "0"
+            - generic [ref=f3e6272]:
+              - text: ⟨
+              - generic [ref=f3e6273]:
+                - text: Φ
+                - generic [ref=f3e6274]: α
+              - text: ⟩
+              - generic [ref=f3e6282]:
+                - generic [ref=f3e6283]: 
+                - text: =
+              - text: "0"
+        - paragraph [ref=f3e6293]: "This is the mathematical version of:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6294]:
+          - generic [ref=f3e6295]:
+            - math [ref=f3e6297]:
+              - generic [ref=f3e6304]:
+                - generic [ref=f3e6305]: old geometry
+                - generic [ref=f3e6306]: →
+                - generic [ref=f3e6307]: soft resonant mode
+                - generic [ref=f3e6308]: →
+                - generic [ref=f3e6309]: reorganization
+                - generic [ref=f3e6310]: →
+                - generic [ref=f3e6311]: new stable geometry
+            - generic [ref=f3e6320]:
+              - generic [ref=f3e6321]: old geometry
+              - text: →
+              - generic [ref=f3e6322]: soft resonant mode
+              - text: →
+              - generic [ref=f3e6323]: reorganization
+              - text: →
+              - generic [ref=f3e6324]: new stable geometry
+        - heading "31. Functional RG supplies the scale evolution" [level=2] [ref=f3e6329]
+        - paragraph [ref=f3e6330]: "Use:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6331]:
+          - generic [ref=f3e6332]:
+            - math [ref=f3e6334]:
+              - generic [ref=f3e6341]:
+                - generic [ref=f3e6342]: k
+                - generic [ref=f3e6343]:
+                  - generic [ref=f3e6344]: ∂
+                  - generic [ref=f3e6345]: k
+                - generic [ref=f3e6346]:
+                  - generic [ref=f3e6347]: Γ
+                  - generic [ref=f3e6348]: k
+                - generic [ref=f3e6349]: =
+                - generic [ref=f3e6350]:
+                  - generic [ref=f3e6351]: "1"
+                  - generic [ref=f3e6352]: "2"
+                - generic [ref=f3e6353]: STr
+                - generic: ⁡
+                - generic [ref=f3e6354]:
+                  - generic [ref=f3e6355]: "["
+                  - generic [ref=f3e6356]: (
+                  - generic [ref=f3e6357]:
+                    - generic [ref=f3e6358]: Γ
+                    - generic [ref=f3e6359]: k
+                    - generic [ref=f3e6360]:
+                      - generic [ref=f3e6361]: (
+                      - generic [ref=f3e6362]: "2"
+                      - generic [ref=f3e6363]: )
+                  - generic [ref=f3e6364]: +
+                  - generic [ref=f3e6365]:
+                    - generic [ref=f3e6366]: R
+                    - generic [ref=f3e6367]: k
+                  - generic [ref=f3e6368]:
+                    - generic [ref=f3e6369]: )
+                    - generic [ref=f3e6370]:
+                      - generic [ref=f3e6371]: −
+                      - generic [ref=f3e6372]: "1"
+                  - generic [ref=f3e6373]: k
+                  - generic [ref=f3e6374]:
+                    - generic [ref=f3e6375]: ∂
+                    - generic [ref=f3e6376]: k
+                  - generic [ref=f3e6377]:
+                    - generic [ref=f3e6378]: R
+                    - generic [ref=f3e6379]: k
+                  - generic [ref=f3e6380]: "]"
+            - generic [ref=f3e6389]:
+              - text: k
+              - generic [ref=f3e6390]:
+                - text: ∂
+                - generic [ref=f3e6391]: k
+              - generic [ref=f3e6399]:
+                - text: Γ
+                - generic [ref=f3e6400]: k
+              - text: =
+              - generic [ref=f3e6412]:
+                - generic [ref=f3e6413]: "2"
+                - generic [ref=f3e6415]: "1"
+              - generic [ref=f3e6419]: STr
+              - generic [ref=f3e6420]:
+                - generic [ref=f3e6421]: "["
+                - text: (
+                - generic [ref=f3e6422]:
+                  - text: Γ
+                  - generic [ref=f3e6426]:
+                    - generic [ref=f3e6427]: k
+                    - generic [ref=f3e6428]: (2)
+                - text: +
+                - generic [ref=f3e6433]:
+                  - text: R
+                  - generic [ref=f3e6434]: k
+                - generic [ref=f3e6442]:
+                  - text: )
+                  - generic [ref=f3e6443]: −1
+                - text: k
+                - generic [ref=f3e6449]:
+                  - text: ∂
+                  - generic [ref=f3e6450]: k
+                - generic [ref=f3e6458]:
+                  - text: R
+                  - generic [ref=f3e6459]: k
+                - generic [ref=f3e6467]: "]"
+        - paragraph [ref=f3e6472]: This integrates out progressively shorter/faster fluctuations and produces the larger-scale effective action.
+        - paragraph [ref=f3e6473]: When a collective mode is represented as a new effective field/node in this FRG implementation, continue the flow. Long lifetime is an implementation criterion, not the definition of RRG stability.
+        - heading "32. The RRG recursion with interaction channels" [level=2] [ref=f3e6474]
+        - paragraph [ref=f3e6475]:
+          - text: At scale
+          - generic [ref=f3e6476]:
+            - math [ref=f3e6478]:
+              - generic [ref=f3e6479]: "n"
+            - generic [ref=f3e6483]: "n"
+          - text: ":"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6484]:
+          - generic [ref=f3e6485]:
+            - math [ref=f3e6487]:
+              - generic [ref=f3e6489]:
+                - generic [ref=f3e6490]:
+                  - generic [ref=f3e6491]: Γ
+                  - generic [ref=f3e6492]: "n"
+                - generic [ref=f3e6493]: ⇒
+                - generic [ref=f3e6494]: (
+                - generic [ref=f3e6495]:
+                  - generic [ref=f3e6496]: G
+                  - generic [ref=f3e6497]: "n"
+                - generic [ref=f3e6498]: ","
+                - generic [ref=f3e6499]:
+                  - generic [ref=f3e6500]: M
+                  - generic [ref=f3e6501]: "n"
+                - generic [ref=f3e6502]: ","
+                - generic [ref=f3e6503]: "{"
+                - generic [ref=f3e6504]:
+                  - generic [ref=f3e6505]: g
+                  - generic [ref=f3e6506]:
+                    - generic [ref=f3e6507]: α
+                    - generic [ref=f3e6508]: ","
+                    - generic [ref=f3e6509]: "n"
+                - generic [ref=f3e6510]: "}"
+                - generic [ref=f3e6511]: )
+                - generic [ref=f3e6512]: .
+            - generic [aria-hidden] [ref=f3e6513]:
+              - generic [ref=f3e6514]:
+                - generic [ref=f3e6515]:
+                  - text: Γ
+                  - generic [ref=f3e6516]: "n"
+                - text: ⇒
+              - generic [ref=f3e6524]:
+                - text: (
+                - generic [ref=f3e6525]:
+                  - text: G
+                  - generic [ref=f3e6526]: "n"
+                - text: ","
+                - generic [ref=f3e6534]:
+                  - text: M
+                  - generic [ref=f3e6535]: "n"
+                - text: ", {"
+                - generic [ref=f3e6543]:
+                  - text: g
+                  - generic [ref=f3e6544]: α,n
+                - text: "})."
+        - paragraph [ref=f3e6553]: "A collective channel becomes stable:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6554]:
+          - generic [ref=f3e6555]:
+            - math [ref=f3e6557]:
+              - generic [ref=f3e6559]:
+                - generic [ref=f3e6560]:
+                  - generic [ref=f3e6561]: λ
+                  - generic [ref=f3e6562]: min
+                  - generic: ⁡
+                  - generic [ref=f3e6563]:
+                    - generic [ref=f3e6564]: (
+                    - generic [ref=f3e6565]: α
+                    - generic [ref=f3e6566]: )
+                - generic [ref=f3e6567]: →
+                - generic [ref=f3e6568]: "0"
+                - generic [ref=f3e6569]: →
+                - generic [ref=f3e6570]:
+                  - generic [ref=f3e6571]: Φ
+                  - generic [ref=f3e6572]: α
+                - generic [ref=f3e6573]: ≠
+                - generic [ref=f3e6574]: "0."
+            - generic [aria-hidden] [ref=f3e6575]:
+              - generic [ref=f3e6576]:
+                - generic [ref=f3e6577]:
+                  - text: λ
+                  - generic [ref=f3e6581]:
+                    - generic [ref=f3e6582]: min
+                    - generic [ref=f3e6585]: (α)
+                - text: →
+              - generic [ref=f3e6590]: 0 →
+              - generic [ref=f3e6591]:
+                - generic [ref=f3e6592]:
+                  - text: Φ
+                  - generic [ref=f3e6593]: α
+                - generic [ref=f3e6601]:
+                  - generic [ref=f3e6602]: 
+                  - text: =
+              - generic [ref=f3e6608]: "0."
+        - paragraph [ref=f3e6609]:
+          - text: That produces a new effective object
+          - generic [ref=f3e6610]:
+            - math [ref=f3e6612]:
+              - generic [ref=f3e6615]:
+                - generic [ref=f3e6616]: R
+                - generic [ref=f3e6617]:
+                  - generic [ref=f3e6618]: "n"
+                  - generic [ref=f3e6619]: +
+                  - generic [ref=f3e6620]: "1"
+            - generic [ref=f3e6623]:
+              - text: R
+              - generic [ref=f3e6624]: n+1
+          - text: ". Coarse-grain:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6633]:
+          - generic [ref=f3e6634]:
+            - math [ref=f3e6636]:
+              - generic [ref=f3e6638]:
+                - generic [ref=f3e6639]:
+                  - generic [ref=f3e6640]: Γ
+                  - generic [ref=f3e6641]: "n"
+                - generic [ref=f3e6642]: →
+                - generic [ref=f3e6643]:
+                  - generic [ref=f3e6644]: Γ
+                  - generic [ref=f3e6645]:
+                    - generic [ref=f3e6646]: "n"
+                    - generic [ref=f3e6647]: +
+                    - generic [ref=f3e6648]: "1"
+                - generic [ref=f3e6649]: .
+            - generic [aria-hidden] [ref=f3e6650]:
+              - generic [ref=f3e6651]:
+                - generic [ref=f3e6652]:
+                  - text: Γ
+                  - generic [ref=f3e6653]: "n"
+                - text: →
+              - generic [ref=f3e6661]:
+                - generic [ref=f3e6662]:
+                  - text: Γ
+                  - generic [ref=f3e6663]: n+1
+                - text: .
+        - paragraph [ref=f3e6672]: "Then:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6673]:
+          - generic [ref=f3e6674]:
+            - math [ref=f3e6676]:
+              - generic [ref=f3e6678]:
+                - generic [ref=f3e6679]:
+                  - generic [ref=f3e6680]: Γ
+                  - generic [ref=f3e6681]:
+                    - generic [ref=f3e6682]: "n"
+                    - generic [ref=f3e6683]: +
+                    - generic [ref=f3e6684]: "1"
+                - generic [ref=f3e6685]: ⇒
+                - generic [ref=f3e6686]: (
+                - generic [ref=f3e6687]:
+                  - generic [ref=f3e6688]: G
+                  - generic [ref=f3e6689]:
+                    - generic [ref=f3e6690]: "n"
+                    - generic [ref=f3e6691]: +
+                    - generic [ref=f3e6692]: "1"
+                - generic [ref=f3e6693]: ","
+                - generic [ref=f3e6694]:
+                  - generic [ref=f3e6695]: M
+                  - generic [ref=f3e6696]:
+                    - generic [ref=f3e6697]: "n"
+                    - generic [ref=f3e6698]: +
+                    - generic [ref=f3e6699]: "1"
+                - generic [ref=f3e6700]: ","
+                - generic [ref=f3e6701]: "{"
+                - generic [ref=f3e6702]:
+                  - generic [ref=f3e6703]: g
+                  - generic [ref=f3e6704]:
+                    - generic [ref=f3e6705]: α
+                    - generic [ref=f3e6706]: ","
+                    - generic [ref=f3e6707]: "n"
+                    - generic [ref=f3e6708]: +
+                    - generic [ref=f3e6709]: "1"
+                - generic [ref=f3e6710]: "}"
+                - generic [ref=f3e6711]: )
+                - generic [ref=f3e6712]: .
+            - generic [aria-hidden] [ref=f3e6713]:
+              - generic [ref=f3e6714]:
+                - generic [ref=f3e6715]:
+                  - text: Γ
+                  - generic [ref=f3e6716]: n+1
+                - text: ⇒
+              - generic [ref=f3e6725]:
+                - text: (
+                - generic [ref=f3e6726]:
+                  - text: G
+                  - generic [ref=f3e6727]: n+1
+                - text: ","
+                - generic [ref=f3e6736]:
+                  - text: M
+                  - generic [ref=f3e6737]: n+1
+                - text: ", {"
+                - generic [ref=f3e6746]:
+                  - text: g
+                  - generic [ref=f3e6747]: α,n+1
+                - text: "})."
+        - paragraph [ref=f3e6756]: "So:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6757]:
+          - generic [ref=f3e6758]:
+            - math [ref=f3e6760]:
+              - generic [ref=f3e6767]:
+                - generic [ref=f3e6768]:
+                  - generic [ref=f3e6769]: Γ
+                  - generic [ref=f3e6770]: "n"
+                - generic [ref=f3e6771]: →
+                - generic [ref=f3e6772]: stable resonant geometry
+                - generic [ref=f3e6773]: →
+                - generic [ref=f3e6774]: composite promotion
+                - generic [ref=f3e6775]: →
+                - generic [ref=f3e6776]:
+                  - generic [ref=f3e6777]: Γ
+                  - generic [ref=f3e6778]:
+                    - generic [ref=f3e6779]: "n"
+                    - generic [ref=f3e6780]: +
+                    - generic [ref=f3e6781]: "1"
+                - generic [ref=f3e6782]: →
+                - generic [ref=f3e6783]: ⋯
+            - generic [ref=f3e6792]:
+              - generic [ref=f3e6793]:
+                - text: Γ
+                - generic [ref=f3e6794]: "n"
+              - text: →
+              - generic [ref=f3e6802]: stable resonant geometry
+              - text: →
+              - generic [ref=f3e6803]: composite promotion
+              - text: →
+              - generic [ref=f3e6804]:
+                - text: Γ
+                - generic [ref=f3e6805]: n+1
+              - text: → ⋯
+        - heading "33. Relation to known forces" [level=2] [ref=f3e6818]
+        - paragraph [ref=f3e6819]: RRG should treat known forces as constraints/examples, not pre-assigned layers.
+        - list [ref=f3e6820]:
+          - listitem [ref=f3e6821]:
+            - strong [ref=f3e6822]: "Strong interaction:"
+            - text: QCD coupling is strongly scale dependent; quarks/gluons are useful high-energy variables, hadrons useful low-energy composites.
+          - listitem [ref=f3e6823]:
+            - strong [ref=f3e6824]: "Electroweak:"
+            - text: the Higgs vacuum changes the effective low-energy spectrum; massive
+            - generic [ref=f3e6825]:
+              - math [ref=f3e6827]:
+                - generic [ref=f3e6829]:
+                  - generic [ref=f3e6830]: W
+                  - generic [ref=f3e6831]: /
+                  - generic [ref=f3e6832]: Z
+              - generic [ref=f3e6834]: W/Z
+            - text: ", massless photon, hence very different ranges."
+          - listitem [ref=f3e6835]:
+            - strong [ref=f3e6836]: "Electromagnetism:"
+            - text: long-range massless photon sector; neutral matter can strongly screen/cancel electric effects at large scales.
+          - listitem [ref=f3e6837]:
+            - strong [ref=f3e6838]: "Gravity:"
+            - text: present at all known scales but dominant for large astronomical systems. Whether it emerges as a collective spin-2/geometric channel remains open.
+        - paragraph [ref=f3e6839]: A 2026 FRG study demonstrates that dynamical tensor composite fields with an Einstein-Hilbert-like quadratic structure can emerge in prototype microscopic models. This shows mathematical possibility, not a derivation of real gravity from RRG.
+        - heading "34. Immediate mathematical target" [level=2] [ref=f3e6840]
+        - paragraph [ref=f3e6841]: "Use at least two competing channels:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e6842]:
+          - generic [ref=f3e6843]:
+            - math [ref=f3e6845]:
+              - generic [ref=f3e6847]:
+                - generic [ref=f3e6848]:
+                  - generic [ref=f3e6849]: Γ
+                  - generic [ref=f3e6850]: k
+                - generic [ref=f3e6851]: =
+                - generic [ref=f3e6852]:
+                  - generic [ref=f3e6853]: Γ
+                  - generic [ref=f3e6854]:
+                    - generic [ref=f3e6855]: b
+                    - generic [ref=f3e6856]: a
+                    - generic [ref=f3e6857]: s
+                    - generic [ref=f3e6858]: e
+                - generic [ref=f3e6859]: +
+                - generic [ref=f3e6860]:
+                  - generic [ref=f3e6861]: g
+                  - generic [ref=f3e6862]: "1"
+                - generic [ref=f3e6863]: (
+                - generic [ref=f3e6864]: k
+                - generic [ref=f3e6865]: )
+                - generic [ref=f3e6866]:
+                  - generic [ref=f3e6867]: O
+                  - generic [ref=f3e6868]: "1"
+                - generic [ref=f3e6869]: +
+                - generic [ref=f3e6870]:
+                  - generic [ref=f3e6871]: g
+                  - generic [ref=f3e6872]: "2"
+                - generic [ref=f3e6873]: (
+                - generic [ref=f3e6874]: k
+                - generic [ref=f3e6875]: )
+                - generic [ref=f3e6876]:
+                  - generic [ref=f3e6877]: O
+                  - generic [ref=f3e6878]: "2"
+                - generic [ref=f3e6879]: +
+                - generic [ref=f3e6880]:
+                  - generic [ref=f3e6881]: U
+                  - generic [ref=f3e6882]: k
+                - generic [ref=f3e6883]: .
+            - generic [aria-hidden] [ref=f3e6884]:
+              - generic [ref=f3e6885]:
+                - generic [ref=f3e6886]:
+                  - text: Γ
+                  - generic [ref=f3e6887]: k
+                - text: =
+              - generic [ref=f3e6895]:
+                - generic [ref=f3e6896]:
+                  - text: Γ
+                  - generic [ref=f3e6897]: base
+                - text: +
+              - generic [ref=f3e6907]:
+                - generic [ref=f3e6908]:
+                  - text: g
+                  - generic [ref=f3e6909]: "1"
+                - text: (k)
+                - generic [ref=f3e6917]:
+                  - text: O
+                  - generic [ref=f3e6918]: "1"
+                - text: +
+              - generic [ref=f3e6926]:
+                - generic [ref=f3e6927]:
+                  - text: g
+                  - generic [ref=f3e6928]: "2"
+                - text: (k)
+                - generic [ref=f3e6936]:
+                  - text: O
+                  - generic [ref=f3e6937]: "2"
+                - text: +
+              - generic [ref=f3e6945]:
+                - generic [ref=f3e6946]:
+                  - text: U
+                  - generic [ref=f3e6947]: k
+                - text: .
+        - paragraph [ref=f3e6955]: "Desired behavior:"
+        - list [ref=f3e6956]:
+          - listitem [ref=f3e6957]: At high scale, neither channel forms a stable composite.
+          - listitem [ref=f3e6958]:
+            - text: Under RG,
+            - generic [ref=f3e6959]:
+              - math [ref=f3e6961]:
+                - generic [ref=f3e6964]:
+                  - generic [ref=f3e6965]: g
+                  - generic [ref=f3e6966]: "1"
+              - generic [ref=f3e6969]:
+                - text: g
+                - generic [ref=f3e6970]: "1"
+            - text: becomes relevant.
+          - listitem [ref=f3e6978]:
+            - text: Stable resonator
+            - generic [ref=f3e6979]:
+              - math [ref=f3e6981]:
+                - generic [ref=f3e6984]:
+                  - generic [ref=f3e6985]: R
+                  - generic [ref=f3e6986]: "1"
+              - generic [ref=f3e6989]:
+                - text: R
+                - generic [ref=f3e6990]: "1"
+            - text: forms.
+          - listitem [ref=f3e6998]:
+            - text: Promote
+            - generic [ref=f3e6999]:
+              - math [ref=f3e7001]:
+                - generic [ref=f3e7004]:
+                  - generic [ref=f3e7005]: R
+                  - generic [ref=f3e7006]: "1"
+              - generic [ref=f3e7009]:
+                - text: R
+                - generic [ref=f3e7010]: "1"
+            - text: to an effective node/field.
+          - listitem [ref=f3e7018]: Continue RG.
+          - listitem [ref=f3e7019]:
+            - text: At a larger scale,
+            - generic [ref=f3e7020]:
+              - math [ref=f3e7022]:
+                - generic [ref=f3e7025]:
+                  - generic [ref=f3e7026]: g
+                  - generic [ref=f3e7027]: "2"
+              - generic [ref=f3e7030]:
+                - text: g
+                - generic [ref=f3e7031]: "2"
+            - text: or a newly generated composite channel becomes relevant.
+          - listitem [ref=f3e7039]:
+            - text: Stable resonator
+            - generic [ref=f3e7040]:
+              - math [ref=f3e7042]:
+                - generic [ref=f3e7045]:
+                  - generic [ref=f3e7046]: R
+                  - generic [ref=f3e7047]: "2"
+              - generic [ref=f3e7050]:
+                - text: R
+                - generic [ref=f3e7051]: "2"
+            - text: forms.
+          - listitem [ref=f3e7059]: The same geometry–force–frequency relation remains valid.
+        - paragraph [ref=f3e7060]: If this occurs for multiple levels without hand-authoring each transition, it directly tests the distinctive RRG claim.
+        - separator [ref=f3e7061]
+        - heading "v0.1b Addendum — Background-Dependent Recursive Action" [level=2] [ref=f3e7062]
+        - heading "35. Add the evolving background" [level=2] [ref=f3e7063]
+        - paragraph [ref=f3e7064]:
+          - text: The effective action should depend not only on scale
+          - generic [ref=f3e7065]:
+            - math [ref=f3e7067]:
+              - generic [ref=f3e7068]: k
+            - generic [ref=f3e7072]: k
+          - text: but on a background/environment
+          - generic [ref=f3e7073]:
+            - math [ref=f3e7075]:
+              - generic [ref=f3e7077]:
+                - generic [ref=f3e7078]: B
+                - generic [ref=f3e7079]: (
+                - generic [ref=f3e7080]: t
+                - generic [ref=f3e7081]: )
+            - generic [ref=f3e7083]: B(t)
+          - text: ":"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e7084]:
+          - generic [ref=f3e7085]:
+            - math [ref=f3e7087]:
+              - generic [ref=f3e7094]:
+                - generic [ref=f3e7095]:
+                  - generic [ref=f3e7096]: Γ
+                  - generic [ref=f3e7097]: k
+                - generic [ref=f3e7098]: "["
+                - generic [ref=f3e7099]: D
+                - generic [ref=f3e7100]: ","
+                - generic [ref=f3e7101]: Ψ
+                - generic [ref=f3e7102]: ;
+                - generic [ref=f3e7103]: B
+                - generic [ref=f3e7104]: (
+                - generic [ref=f3e7105]: t
+                - generic [ref=f3e7106]: )
+                - generic [ref=f3e7107]: "]"
+            - generic [ref=f3e7116]:
+              - generic [ref=f3e7117]:
+                - text: Γ
+                - generic [ref=f3e7118]: k
+              - text: "[D, Ψ; B(t)]"
+        - paragraph [ref=f3e7130]: "A minimal decomposition is:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e7131]:
+          - generic [ref=f3e7132]:
+            - math [ref=f3e7134]:
+              - generic [ref=f3e7141]:
+                - generic [ref=f3e7142]:
+                  - generic [ref=f3e7143]: Γ
+                  - generic [ref=f3e7144]: k
+                - generic [ref=f3e7145]: =
+                - generic [ref=f3e7146]:
+                  - generic [ref=f3e7147]: Γ
+                  - generic [ref=f3e7148]:
+                    - generic [ref=f3e7149]:
+                      - generic [ref=f3e7150]: g
+                      - generic [ref=f3e7151]: e
+                      - generic [ref=f3e7152]: o
+                      - generic [ref=f3e7153]: m
+                    - generic [ref=f3e7154]: ","
+                    - generic [ref=f3e7155]: k
+                - generic [ref=f3e7156]: "["
+                - generic [ref=f3e7157]: D
+                - generic [ref=f3e7158]: ;
+                - generic [ref=f3e7159]: B
+                - generic [ref=f3e7160]: "]"
+                - generic [ref=f3e7161]: +
+                - generic [ref=f3e7162]: ⟨
+                - generic [ref=f3e7163]: Ψ
+                - generic [ref=f3e7164]: ","
+                - generic [ref=f3e7165]:
+                  - generic [ref=f3e7166]: K
+                  - generic [ref=f3e7167]: k
+                - generic [ref=f3e7168]: (
+                - generic [ref=f3e7169]: D
+                - generic [ref=f3e7170]: ;
+                - generic [ref=f3e7171]: B
+                - generic [ref=f3e7172]: )
+                - generic [ref=f3e7173]: Ψ
+                - generic [ref=f3e7174]: ⟩
+                - generic [ref=f3e7175]: +
+                - generic [ref=f3e7176]:
+                  - generic [ref=f3e7177]: U
+                  - generic [ref=f3e7178]: k
+                - generic [ref=f3e7179]: "["
+                - generic [ref=f3e7180]: Ψ
+                - generic [ref=f3e7181]: ;
+                - generic [ref=f3e7182]: B
+                - generic [ref=f3e7183]: "]"
+                - generic [ref=f3e7184]: +
+                - generic [ref=f3e7185]:
+                  - generic [ref=f3e7186]: ∑
+                  - generic [ref=f3e7187]: α
+                - generic [ref=f3e7188]:
+                  - generic [ref=f3e7189]: g
+                  - generic [ref=f3e7190]: α
+                - generic [ref=f3e7191]: (
+                - generic [ref=f3e7192]: k
+                - generic [ref=f3e7193]: ","
+                - generic [ref=f3e7194]: B
+                - generic [ref=f3e7195]: )
+                - generic [ref=f3e7196]:
+                  - generic [ref=f3e7197]: O
+                  - generic [ref=f3e7198]: α
+                - generic [ref=f3e7199]: "["
+                - generic [ref=f3e7200]: D
+                - generic [ref=f3e7201]: ","
+                - generic [ref=f3e7202]: Ψ
+                - generic [ref=f3e7203]: ;
+                - generic [ref=f3e7204]: B
+                - generic [ref=f3e7205]: "]"
+                - generic [ref=f3e7206]: .
+            - generic [ref=f3e7215]:
+              - generic [ref=f3e7216]:
+                - text: Γ
+                - generic [ref=f3e7217]: k
+              - text: =
+              - generic [ref=f3e7225]:
+                - text: Γ
+                - generic [ref=f3e7231]:
+                  - generic [ref=f3e7232]: geom
+                  - text: ",k"
+              - text: "[D; B] + ⟨Ψ,"
+              - generic [ref=f3e7236]:
+                - text: K
+                - generic [ref=f3e7237]: k
+              - text: (D; B)Ψ⟩ +
+              - generic [ref=f3e7245]:
+                - text: U
+                - generic [ref=f3e7246]: k
+              - text: "[Ψ; B] +"
+              - generic [ref=f3e7257]:
+                - generic [ref=f3e7258]: α
+                - generic [ref=f3e7259]: ∑
+              - generic [ref=f3e7263]:
+                - text: g
+                - generic [ref=f3e7264]: α
+              - text: (k, B)
+              - generic [ref=f3e7272]:
+                - text: O
+                - generic [ref=f3e7273]: α
+              - text: "[D, Ψ; B]."
+        - paragraph [ref=f3e7285]: The background can change which stationary solutions and interaction channels are stable.
+        - heading "36. Background-dependent stable set" [level=2] [ref=f3e7286]
+        - blockquote [ref=f3e7287]:
+          - paragraph [ref=f3e7288]: This section is a candidate mathematical extension; it does not redefine locked RRG stability.
+        - paragraph [ref=f3e7289]: "Define:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e7290]:
+          - generic [ref=f3e7291]:
+            - math [ref=f3e7293]:
+              - generic [ref=f3e7300]:
+                - generic [ref=f3e7301]:
+                  - generic [ref=f3e7302]: S
+                  - generic [ref=f3e7303]:
+                    - generic [ref=f3e7304]: k
+                    - generic [ref=f3e7305]: ","
+                    - generic [ref=f3e7306]: B
+                - generic [ref=f3e7307]: =
+                - generic [ref=f3e7308]:
+                  - generic [ref=f3e7309]: "{"
+                  - generic [ref=f3e7310]: R
+                  - generic [ref=f3e7311]: =
+                  - generic [ref=f3e7312]: (
+                  - generic [ref=f3e7313]: D
+                  - generic [ref=f3e7314]: ","
+                  - generic [ref=f3e7315]: Ψ
+                  - generic [ref=f3e7316]: )
+                  - generic [ref=f3e7317]: ":"
+                  - generic [ref=f3e7318]:
+                    - generic [ref=f3e7319]:
+                      - generic [ref=f3e7320]: δ
+                      - generic [ref=f3e7321]:
+                        - generic [ref=f3e7322]: Γ
+                        - generic [ref=f3e7323]: k
+                    - generic [ref=f3e7324]:
+                      - generic [ref=f3e7325]: δ
+                      - generic [ref=f3e7326]: R
+                  - generic [ref=f3e7327]: =
+                  - generic [ref=f3e7328]: "0"
+                  - generic [ref=f3e7329]: ","
+                  - generic [ref=f3e7330]: σ
+                  - generic [ref=f3e7331]: (
+                  - generic [ref=f3e7332]:
+                    - generic [ref=f3e7333]: Γ
+                    - generic [ref=f3e7334]: k
+                    - generic [ref=f3e7335]:
+                      - generic [ref=f3e7336]: (
+                      - generic [ref=f3e7337]: "2"
+                      - generic [ref=f3e7338]: )
+                  - generic [ref=f3e7339]: )
+                  - generic [ref=f3e7340]: is stable
+                  - generic [ref=f3e7341]: "}"
+                - generic [ref=f3e7342]: .
+            - generic [ref=f3e7351]:
+              - generic [ref=f3e7352]:
+                - text: S
+                - generic [ref=f3e7353]: k,B
+              - text: =
+              - generic [ref=f3e7362]:
+                - generic [ref=f3e7363]: "{"
+                - text: "R = (D, Ψ) :"
+                - generic [ref=f3e7368]:
+                  - generic [ref=f3e7369]: δR
+                  - generic [ref=f3e7371]:
+                    - text: δ
+                    - generic [ref=f3e7372]:
+                      - text: Γ
+                      - generic [ref=f3e7373]: k
+                - text: = 0, σ(
+                - generic [ref=f3e7384]:
+                  - text: Γ
+                  - generic [ref=f3e7388]:
+                    - generic [ref=f3e7389]: k
+                    - generic [ref=f3e7390]: (2)
+                - text: )
+                - generic [ref=f3e7395]: is stable
+                - generic [ref=f3e7396]: "}"
+              - text: .
+        - paragraph [ref=f3e7401]:
+          - text: As
+          - generic [ref=f3e7402]:
+            - math [ref=f3e7404]:
+              - generic [ref=f3e7405]: B
+            - generic [ref=f3e7409]: B
+          - text: "evolves:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e7410]:
+          - generic [ref=f3e7411]:
+            - math [ref=f3e7413]:
+              - generic [ref=f3e7420]:
+                - generic [ref=f3e7421]:
+                  - generic [ref=f3e7422]: S
+                  - generic [ref=f3e7423]:
+                    - generic [ref=f3e7424]: k
+                    - generic [ref=f3e7425]: ","
+                    - generic [ref=f3e7426]:
+                      - generic [ref=f3e7427]: B
+                      - generic [ref=f3e7428]: "1"
+                - generic [ref=f3e7429]: ≠
+                - generic [ref=f3e7430]:
+                  - generic [ref=f3e7431]: S
+                  - generic [ref=f3e7432]:
+                    - generic [ref=f3e7433]: k
+                    - generic [ref=f3e7434]: ","
+                    - generic [ref=f3e7435]:
+                      - generic [ref=f3e7436]: B
+                      - generic [ref=f3e7437]: "2"
+            - generic [ref=f3e7446]:
+              - generic [ref=f3e7447]:
+                - text: S
+                - generic [ref=f3e7453]:
+                  - text: k,
+                  - generic [ref=f3e7454]:
+                    - text: B
+                    - generic [ref=f3e7455]: "1"
+              - generic [ref=f3e7466]:
+                - generic [ref=f3e7467]: 
+                - text: =
+              - generic [ref=f3e7473]:
+                - text: S
+                - generic [ref=f3e7479]:
+                  - text: k,
+                  - generic [ref=f3e7480]:
+                    - text: B
+                    - generic [ref=f3e7481]: "2"
+        - paragraph [ref=f3e7496]: can occur even though the underlying functional form remains the same.
+        - paragraph [ref=f3e7497]: This gives the theory a mathematically precise notion of “previously inaccessible geometry becomes possible”.
+        - heading "37. A scale is an effective resonant regime" [level=2] [ref=f3e7498]
+        - paragraph [ref=f3e7499]:
+          - text: For a persistent collective mode
+          - generic [ref=f3e7500]:
+            - math [ref=f3e7502]:
+              - generic [ref=f3e7505]:
+                - generic [ref=f3e7506]: R
+                - generic [ref=f3e7507]: "n"
+            - generic [ref=f3e7510]:
+              - text: R
+              - generic [ref=f3e7511]: "n"
+          - text: ", define characteristic quantities:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e7519]:
+          - generic [ref=f3e7520]:
+            - math [ref=f3e7522]:
+              - generic [ref=f3e7529]:
+                - generic [ref=f3e7530]:
+                  - generic [ref=f3e7531]: L
+                  - generic [ref=f3e7532]: "n"
+                - generic [ref=f3e7533]: =
+                - generic [ref=f3e7534]: "{"
+                - generic [ref=f3e7535]:
+                  - generic [ref=f3e7536]: L
+                  - generic [ref=f3e7537]: "n"
+                - generic [ref=f3e7538]: ","
+                - generic [ref=f3e7539]:
+                  - generic [ref=f3e7540]: τ
+                  - generic [ref=f3e7541]: "n"
+                - generic [ref=f3e7542]: ","
+                - generic [ref=f3e7543]:
+                  - generic [ref=f3e7544]: Ω
+                  - generic [ref=f3e7545]: "n"
+                - generic [ref=f3e7546]: ","
+                - generic [ref=f3e7547]: "{"
+                - generic [ref=f3e7548]:
+                  - generic [ref=f3e7549]: g
+                  - generic [ref=f3e7550]:
+                    - generic [ref=f3e7551]: α
+                    - generic [ref=f3e7552]: ","
+                    - generic [ref=f3e7553]: "n"
+                - generic [ref=f3e7554]: "}"
+                - generic [ref=f3e7555]: ","
+                - generic [ref=f3e7556]:
+                  - generic [ref=f3e7557]: B
+                  - generic [ref=f3e7558]: "n"
+                - generic [ref=f3e7559]: "}"
+                - generic [ref=f3e7560]: .
+            - generic [ref=f3e7569]:
+              - generic [ref=f3e7570]:
+                - text: L
+                - generic [ref=f3e7571]: "n"
+              - text: "= {"
+              - generic [ref=f3e7579]:
+                - text: L
+                - generic [ref=f3e7580]: "n"
+              - text: ","
+              - generic [ref=f3e7588]:
+                - text: τ
+                - generic [ref=f3e7589]: "n"
+              - text: ","
+              - generic [ref=f3e7597]:
+                - text: Ω
+                - generic [ref=f3e7598]: "n"
+              - text: ", {"
+              - generic [ref=f3e7606]:
+                - text: g
+                - generic [ref=f3e7607]: α,n
+              - text: "},"
+              - generic [ref=f3e7616]:
+                - text: B
+                - generic [ref=f3e7617]: "n"
+              - text: "}."
+        - paragraph [ref=f3e7629]: "A new scale exists when:"
+        - list [ref=f3e7630]:
+          - listitem [ref=f3e7631]: a collective organization can be represented as an effective unit for the interaction/question being modeled,
+          - listitem [ref=f3e7632]: a reduced set of variables predicts its relevant interactions with bounded error,
+          - listitem [ref=f3e7633]: optionally, test whether the coarse-grained action closes within the same functional family.
+        - paragraph [ref=f3e7634]: This makes “scale” an emergent modelling regime rather than merely a length interval.
+        - heading "38. Revised RRG closure condition" [level=2] [ref=f3e7635]
+        - paragraph [ref=f3e7636]:
+          - text: Let
+          - generic [ref=f3e7637]:
+            - math [ref=f3e7639]:
+              - generic [ref=f3e7642]:
+                - generic [ref=f3e7643]: Φ
+                - generic [ref=f3e7644]:
+                  - generic [ref=f3e7645]: k
+                  - generic [ref=f3e7646]: ","
+                  - generic [ref=f3e7647]: B
+                - generic [ref=f3e7648]: t
+            - generic [ref=f3e7651]:
+              - text: Φ
+              - generic [ref=f3e7655]:
+                - generic [ref=f3e7656]: k,B
+                - generic [ref=f3e7658]: t
+          - text: denote evolution under
+          - generic [ref=f3e7662]:
+            - math [ref=f3e7664]:
+              - generic [ref=f3e7666]:
+                - generic [ref=f3e7667]:
+                  - generic [ref=f3e7668]: Γ
+                  - generic [ref=f3e7669]: k
+                - generic [ref=f3e7670]: "["
+                - generic [ref=f3e7671]: ⋅
+                - generic [ref=f3e7672]: ;
+                - generic [ref=f3e7673]: B
+                - generic [ref=f3e7674]: "]"
+            - generic [ref=f3e7676]:
+              - generic [ref=f3e7677]:
+                - text: Γ
+                - generic [ref=f3e7678]: k
+              - text: "[⋅; B]"
+          - text: ", and let"
+          - generic [ref=f3e7686]:
+            - math [ref=f3e7688]:
+              - generic [ref=f3e7689]: R
+            - generic [ref=f3e7693]: R
+          - text: coarse-grain a stable collective structure.
+        - paragraph [ref=f3e7694]: "RRG seeks:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e7695]:
+          - generic [ref=f3e7696]:
+            - math [ref=f3e7698]:
+              - generic [ref=f3e7705]:
+                - generic [ref=f3e7706]: R
+                - generic: ⁣
+                - generic [ref=f3e7707]:
+                  - generic [ref=f3e7708]: (
+                  - generic [ref=f3e7709]:
+                    - generic [ref=f3e7710]: Φ
+                    - generic [ref=f3e7711]:
+                      - generic [ref=f3e7712]: k
+                      - generic [ref=f3e7713]: ","
+                      - generic [ref=f3e7714]: B
+                    - generic [ref=f3e7715]: t
+                  - generic [ref=f3e7716]: (
+                  - generic [ref=f3e7717]: R
+                  - generic [ref=f3e7718]: )
+                  - generic [ref=f3e7719]: )
+                - generic [ref=f3e7720]: ≈
+                - generic [ref=f3e7721]:
+                  - generic [ref=f3e7722]: Φ
+                  - generic [ref=f3e7723]:
+                    - generic [ref=f3e7724]:
+                      - generic [ref=f3e7725]: k
+                      - generic [ref=f3e7726]: ′
+                    - generic [ref=f3e7727]: ","
+                    - generic [ref=f3e7728]:
+                      - generic [ref=f3e7729]: B
+                      - generic [ref=f3e7730]: ′
+                  - generic [ref=f3e7731]: t
+                - generic: ⁣
+                - generic [ref=f3e7732]:
+                  - generic [ref=f3e7733]: (
+                  - generic [ref=f3e7734]: R
+                  - generic [ref=f3e7735]: (
+                  - generic [ref=f3e7736]: R
+                  - generic [ref=f3e7737]: )
+                  - generic [ref=f3e7738]: )
+            - generic [ref=f3e7747]:
+              - text: R
+              - generic [ref=f3e7748]:
+                - generic [ref=f3e7749]: (
+                - generic [ref=f3e7750]:
+                  - text: Φ
+                  - generic [ref=f3e7754]:
+                    - generic [ref=f3e7755]: k,B
+                    - generic [ref=f3e7757]: t
+                - text: (R)
+                - generic [ref=f3e7761]: )
+              - text: ≈
+              - generic [ref=f3e7762]:
+                - text: Φ
+                - generic [ref=f3e7766]:
+                  - generic [ref=f3e7768]:
+                    - generic [ref=f3e7769]:
+                      - text: k
+                      - generic [ref=f3e7770]: ′
+                    - text: ","
+                    - generic [ref=f3e7776]:
+                      - text: B
+                      - generic [ref=f3e7777]: ′
+                  - generic [ref=f3e7783]: t
+              - generic [ref=f3e7787]: (R(R))
+        - paragraph [ref=f3e7792]:
+          - text: with
+          - generic [ref=f3e7793]:
+            - math [ref=f3e7795]:
+              - generic [ref=f3e7798]:
+                - generic [ref=f3e7799]: Φ
+                - generic [ref=f3e7800]:
+                  - generic [ref=f3e7801]:
+                    - generic [ref=f3e7802]: k
+                    - generic [ref=f3e7803]: ′
+                  - generic [ref=f3e7804]: ","
+                  - generic [ref=f3e7805]:
+                    - generic [ref=f3e7806]: B
+                    - generic [ref=f3e7807]: ′
+            - generic [ref=f3e7810]:
+              - text: Φ
+              - generic [ref=f3e7816]:
+                - generic [ref=f3e7817]:
+                  - text: k
+                  - generic [ref=f3e7818]: ′
+                - text: ","
+                - generic [ref=f3e7824]:
+                  - text: B
+                  - generic [ref=f3e7825]: ′
+          - text: an effective higher-level dynamics. Same-action-family closure is an optional stronger result, not a core requirement.
+        - paragraph [ref=f3e7834]: "The full recursion is therefore:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e7835]:
+          - generic [ref=f3e7836]:
+            - math [ref=f3e7838]:
+              - generic [ref=f3e7845]:
+                - generic [ref=f3e7846]: (
+                - generic [ref=f3e7847]:
+                  - generic [ref=f3e7848]: Γ
+                  - generic [ref=f3e7849]: "n"
+                - generic [ref=f3e7850]: ","
+                - generic [ref=f3e7851]:
+                  - generic [ref=f3e7852]: B
+                  - generic [ref=f3e7853]: "n"
+                - generic [ref=f3e7854]: )
+                - generic [ref=f3e7855]: →
+                - generic [ref=f3e7856]:
+                  - generic [ref=f3e7857]: R
+                  - generic [ref=f3e7858]: "n"
+                - generic [ref=f3e7859]: →
+                - generic [ref=f3e7860]: R
+                - generic [ref=f3e7861]: →
+                - generic [ref=f3e7862]: (
+                - generic [ref=f3e7863]:
+                  - generic [ref=f3e7864]: Γ
+                  - generic [ref=f3e7865]:
+                    - generic [ref=f3e7866]: "n"
+                    - generic [ref=f3e7867]: +
+                    - generic [ref=f3e7868]: "1"
+                - generic [ref=f3e7869]: ","
+                - generic [ref=f3e7870]:
+                  - generic [ref=f3e7871]: B
+                  - generic [ref=f3e7872]:
+                    - generic [ref=f3e7873]: "n"
+                    - generic [ref=f3e7874]: +
+                    - generic [ref=f3e7875]: "1"
+                - generic [ref=f3e7876]: )
+                - generic [ref=f3e7877]: →
+                - generic [ref=f3e7878]:
+                  - generic [ref=f3e7879]: R
+                  - generic [ref=f3e7880]:
+                    - generic [ref=f3e7881]: "n"
+                    - generic [ref=f3e7882]: +
+                    - generic [ref=f3e7883]: "1"
+                - generic [ref=f3e7884]: .
+            - generic [ref=f3e7893]:
+              - text: (
+              - generic [ref=f3e7894]:
+                - text: Γ
+                - generic [ref=f3e7895]: "n"
+              - text: ","
+              - generic [ref=f3e7903]:
+                - text: B
+                - generic [ref=f3e7904]: "n"
+              - text: ) →
+              - generic [ref=f3e7912]:
+                - text: R
+                - generic [ref=f3e7913]: "n"
+              - text: → R → (
+              - generic [ref=f3e7921]:
+                - text: Γ
+                - generic [ref=f3e7922]: n+1
+              - text: ","
+              - generic [ref=f3e7931]:
+                - text: B
+                - generic [ref=f3e7932]: n+1
+              - text: ) →
+              - generic [ref=f3e7941]:
+                - text: R
+                - generic [ref=f3e7942]: n+1
+              - text: .
+        - heading "39. Geometry, force, and mode remain one local object" [level=2] [ref=f3e7955]
+        - paragraph [ref=f3e7956]:
+          - text: For collective coordinates
+          - generic [ref=f3e7957]:
+            - math [ref=f3e7959]:
+              - generic [ref=f3e7960]: q
+            - generic [ref=f3e7964]: q
+          - text: ":"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e7965]:
+          - generic [ref=f3e7966]:
+            - math [ref=f3e7968]:
+              - generic [ref=f3e7975]:
+                - generic [ref=f3e7976]:
+                  - generic [ref=f3e7977]:
+                    - generic [ref=f3e7978]: ∂
+                    - generic [ref=f3e7979]: Γ
+                  - generic [ref=f3e7980]:
+                    - generic [ref=f3e7981]: ∂
+                    - generic [ref=f3e7982]: q
+                - generic [ref=f3e7983]: =
+                - generic [ref=f3e7984]: "0"
+            - generic [ref=f3e7993]:
+              - generic [ref=f3e7998]:
+                - generic [ref=f3e7999]: ∂q
+                - generic [ref=f3e8001]: ∂Γ
+              - text: = 0
+        - paragraph [ref=f3e8009]: defines a stationary geometry,
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e8010]:
+          - generic [ref=f3e8011]:
+            - math [ref=f3e8013]:
+              - generic [ref=f3e8020]:
+                - generic [ref=f3e8021]:
+                  - generic [ref=f3e8022]: F
+                  - generic [ref=f3e8023]: q
+                - generic [ref=f3e8024]: =
+                - generic [ref=f3e8025]: −
+                - generic [ref=f3e8026]:
+                  - generic [ref=f3e8027]:
+                    - generic [ref=f3e8028]: ∂
+                    - generic [ref=f3e8029]: Γ
+                  - generic [ref=f3e8030]:
+                    - generic [ref=f3e8031]: ∂
+                    - generic [ref=f3e8032]: q
+            - generic [ref=f3e8041]:
+              - generic [ref=f3e8042]:
+                - text: F
+                - generic [ref=f3e8043]: q
+              - text: = −
+              - generic [ref=f3e8055]:
+                - generic [ref=f3e8056]: ∂q
+                - generic [ref=f3e8058]: ∂Γ
+        - paragraph [ref=f3e8066]: defines the restoring/driving interaction, and
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e8067]:
+          - generic [ref=f3e8068]:
+            - math [ref=f3e8070]:
+              - generic [ref=f3e8077]:
+                - generic [ref=f3e8078]:
+                  - generic [ref=f3e8079]: ω
+                  - generic [ref=f3e8080]: "n"
+                  - generic [ref=f3e8081]: "2"
+                - generic [ref=f3e8082]: =
+                - generic [ref=f3e8083]: eig
+                - generic: ⁡
+                - generic: ⁣
+                - generic [ref=f3e8084]:
+                  - generic [ref=f3e8085]: (
+                  - generic [ref=f3e8086]:
+                    - generic [ref=f3e8087]: M
+                    - generic [ref=f3e8088]: q
+                    - generic [ref=f3e8089]:
+                      - generic [ref=f3e8090]: −
+                      - generic [ref=f3e8091]: "1"
+                  - generic [ref=f3e8092]:
+                    - generic [ref=f3e8093]:
+                      - generic [ref=f3e8094]:
+                        - generic [ref=f3e8095]: ∂
+                        - generic [ref=f3e8096]: "2"
+                      - generic [ref=f3e8097]: Γ
+                    - generic [ref=f3e8098]:
+                      - generic [ref=f3e8099]: ∂
+                      - generic [ref=f3e8100]:
+                        - generic [ref=f3e8101]: q
+                        - generic [ref=f3e8102]: "2"
+                  - generic [ref=f3e8103]: )
+            - generic [ref=f3e8112]:
+              - generic [ref=f3e8113]:
+                - text: ω
+                - generic [ref=f3e8117]:
+                  - generic [ref=f3e8118]: "n"
+                  - generic [ref=f3e8119]: "2"
+              - text: =
+              - generic [ref=f3e8123]: eig
+              - generic [ref=f3e8124]:
+                - generic [ref=f3e8125]: (
+                - generic [ref=f3e8126]:
+                  - text: M
+                  - generic [ref=f3e8130]:
+                    - generic [ref=f3e8131]: q
+                    - generic [ref=f3e8132]: −1
+                - generic [ref=f3e8141]:
+                  - generic [ref=f3e8142]:
+                    - text: ∂
+                    - generic [ref=f3e8143]:
+                      - text: q
+                      - generic [ref=f3e8144]: "2"
+                  - generic [ref=f3e8150]:
+                    - generic [ref=f3e8151]:
+                      - text: ∂
+                      - generic [ref=f3e8152]: "2"
+                    - text: Γ
+                - generic [ref=f3e8160]: )
+        - paragraph [ref=f3e8165]: defines the local collective mode spectrum.
+        - paragraph [ref=f3e8166]: "Thus RRG's core statement is represented mathematically as:"
+        - region "Mathematical expression; scroll horizontally if needed" [ref=f3e8167]:
+          - generic [ref=f3e8168]:
+            - math [ref=f3e8170]:
+              - generic [ref=f3e8177]:
+                - generic [ref=f3e8178]:
+                  - generic [ref=f3e8179]: Γ
+                  - generic [ref=f3e8180]: k
+                - generic [ref=f3e8181]: ⇒
+                - generic [ref=f3e8182]: "{"
+                - generic [ref=f3e8183]:
+                  - generic [ref=f3e8184]: G
+                  - generic [ref=f3e8185]: k
+                - generic [ref=f3e8186]: ","
+                - generic [ref=f3e8187]:
+                  - generic [ref=f3e8188]: F
+                  - generic [ref=f3e8189]: k
+                - generic [ref=f3e8190]: ","
+                - generic [ref=f3e8191]:
+                  - generic [ref=f3e8192]: M
+                  - generic [ref=f3e8193]: k
+                - generic [ref=f3e8194]: "}"
+            - generic [ref=f3e8203]:
+              - generic [ref=f3e8204]:
+                - text: Γ
+                - generic [ref=f3e8205]: k
+              - text: "⇒ {"
+              - generic [ref=f3e8213]:
+                - text: G
+                - generic [ref=f3e8214]: k
+              - text: ","
+              - generic [ref=f3e8222]:
+                - text: F
+                - generic [ref=f3e8223]: k
+              - text: ","
+              - generic [ref=f3e8231]:
+                - text: M
+                - generic [ref=f3e8232]: k
+              - text: "}"
+        - paragraph [ref=f3e8244]: rather than treating geometry, force, and frequency as independent primitives.
+        - heading "40. Next concrete calculation" [level=2] [ref=f3e8245]
+        - paragraph [ref=f3e8246]:
+          - text: Construct the smallest explicit
+          - generic [ref=f3e8247]:
+            - math [ref=f3e8249]:
+              - generic [ref=f3e8252]:
+                - generic [ref=f3e8253]: Γ
+                - generic [ref=f3e8254]: k
+            - generic [ref=f3e8257]:
+              - text: Γ
+              - generic [ref=f3e8258]: k
+          - text: "with:"
+        - list [ref=f3e8266]:
+          - listitem [ref=f3e8267]:
+            - text: one background parameter
+            - generic [ref=f3e8268]:
+              - math [ref=f3e8270]:
+                - generic [ref=f3e8271]: B
+              - generic [ref=f3e8275]: B
+            - text: that changes slowly,
+          - listitem [ref=f3e8276]:
+            - text: two competing interaction channels
+            - generic [ref=f3e8277]:
+              - math [ref=f3e8279]:
+                - generic [ref=f3e8281]:
+                  - generic [ref=f3e8282]:
+                    - generic [ref=f3e8283]: g
+                    - generic [ref=f3e8284]: "1"
+                  - generic [ref=f3e8285]:
+                    - generic [ref=f3e8286]: O
+                    - generic [ref=f3e8287]: "1"
+              - generic [ref=f3e8289]:
+                - generic [ref=f3e8290]:
+                  - text: g
+                  - generic [ref=f3e8291]: "1"
+                - generic [ref=f3e8299]:
+                  - text: O
+                  - generic [ref=f3e8300]: "1"
+            - text: and
+            - generic [ref=f3e8308]:
+              - math [ref=f3e8310]:
+                - generic [ref=f3e8312]:
+                  - generic [ref=f3e8313]:
+                    - generic [ref=f3e8314]: g
+                    - generic [ref=f3e8315]: "2"
+                  - generic [ref=f3e8316]:
+                    - generic [ref=f3e8317]: O
+                    - generic [ref=f3e8318]: "2"
+              - generic [ref=f3e8320]:
+                - generic [ref=f3e8321]:
+                  - text: g
+                  - generic [ref=f3e8322]: "2"
+                - generic [ref=f3e8330]:
+                  - text: O
+                  - generic [ref=f3e8331]: "2"
+            - text: ","
+          - listitem [ref=f3e8339]: nonlinear terms that permit several stable branches,
+          - listitem [ref=f3e8340]: a calculable fluctuation spectrum,
+          - listitem [ref=f3e8341]: an RG/coarse-graining step.
+        - paragraph [ref=f3e8342]: "Required outcome:"
+        - list [ref=f3e8343]:
+          - listitem [ref=f3e8344]:
+            - text: At
+            - generic [ref=f3e8345]:
+              - math [ref=f3e8347]:
+                - generic [ref=f3e8349]:
+                  - generic [ref=f3e8350]: B
+                  - generic [ref=f3e8351]: =
+                  - generic [ref=f3e8352]:
+                    - generic [ref=f3e8353]: B
+                    - generic [ref=f3e8354]: "0"
+              - generic [aria-hidden] [ref=f3e8355]:
+                - generic [ref=f3e8356]: B =
+                - generic [ref=f3e8358]:
+                  - text: B
+                  - generic [ref=f3e8359]: "0"
+            - text: ", only lower-level resonators are stable."
+          - listitem [ref=f3e8367]:
+            - text: As
+            - generic [ref=f3e8368]:
+              - math [ref=f3e8370]:
+                - generic [ref=f3e8371]: B
+              - generic [ref=f3e8375]: B
+            - text: or
+            - generic [ref=f3e8376]:
+              - math [ref=f3e8378]:
+                - generic [ref=f3e8379]: k
+              - generic [ref=f3e8383]: k
+            - text: changes, a collective mode softens.
+          - listitem [ref=f3e8384]: A new stable resonator forms without being specified in advance.
+          - listitem [ref=f3e8385]: That resonator is promoted to an effective field/node.
+          - listitem [ref=f3e8386]: The same action family then produces a second transition.
+        - paragraph [ref=f3e8387]: This is now the minimum mathematical experiment that tests the combined RRG claims of geometry–mode closure, background selection, and recursive scale formation.
+      - generic [ref=f3e8389]:
+        - heading "Scope and sources" [level=2] [ref=f3e8390]
+        - paragraph [ref=f3e8391]: The current mathematical programme, including its retained effective-action and background-dependent addenda.
+        - paragraph [ref=f3e8392]: "03_mathematical_core.md, original current edition; source body is extracted, not independently authored. Section 39 display-only repair: insert the omitted closing TeX delimiter after the force expression, preserving source bytes and formula."
+        - group [ref=f3e8393]:
+          - generic "Source extraction details" [ref=f3e8394]
+        - heading "Depends on" [level=3] [ref=f3e8395]
+        - list [ref=f3e8396]:
+          - listitem [ref=f3e8397]:
+            - link "DOC-CONTROL — Research and change control" [ref=f3e8398] [cursor=pointer]:
+              - /url: /changes/
+          - listitem [ref=f3e8399]:
+            - link "DOC-CORE — The locked RRG core" [ref=f3e8400] [cursor=pointer]:
+              - /url: /documents/locked-core/
+  - complementary "Source availability" [ref=f3e8401]:
+    - generic [ref=f3e8403]:
+      - strong [ref=f3e8404]: Current sources available
+      - paragraph [ref=f3e8405]: 13 supplied files checked against the recorded edition. Website explanations are drafts.
+  - contentinfo [ref=f3e8406]:
+    - paragraph [ref=f3e8407]: Unity Theory / Recursive Resonant Geometry
+    - paragraph [ref=f3e8408]: A working research framework · Local preview
+```

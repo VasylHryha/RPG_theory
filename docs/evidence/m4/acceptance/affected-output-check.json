@@ -1,0 +1,82 @@
+[
+  {
+    "base": "root",
+    "status": "PASS",
+    "artifactSha256": "91b3a61b655e6cf095bea3c01ee6510eaf45c03ee3bffe47f502c0a263ba679e",
+    "files": 197,
+    "zipMembers": 75,
+    "changedMembers": [
+      "CITATION-AND-RIGHTS.md",
+      "publication-manifest.json",
+      "release.json",
+      "SHA256SUMS"
+    ],
+    "unchangedExplanatoryAndOriginalBytes": true,
+    "reviewStates": {
+      "accepted": 3,
+      "stale": 54,
+      "pending": 0,
+      "rejected": 0
+    },
+    "releaseIdentity": {
+      "schema": "unity-release/1",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "websiteRelease": "site-2026.10.04-m4-private",
+      "releaseAt": "2026-10-04T18:00:00.000Z",
+      "websiteCodeVersion": "0.0.1",
+      "sourceCommit": "a46d943dd89c543bed15b165835f845c25db0f93",
+      "workspaceDirty": true,
+      "workspaceInputsSha256": "d78f4a5d89f2b416696bd6814915c7b529acdcac45107b710f5671e40a826523",
+      "commitDescribesInputs": false,
+      "documentManifestSha256": "846f269f5e97d61d63f9c0adf76862ecca21eb557399bb9c1df0a8875e39aa58",
+      "distribution": "private-preview",
+      "deployEligible": false,
+      "citationGates": [
+        "PUBLIC_CREDIT_DECISION_REQUIRED",
+        "PERMANENT_URL_REQUIRED",
+        "RIGHTS_DECISION_REQUIRED"
+      ],
+      "publicReleaseAuthorized": false
+    }
+  },
+  {
+    "base": "subpath",
+    "status": "PASS",
+    "artifactSha256": "8ce28b23e7ead425c8fb18e03c14ca7c689b837f4720e64d2e769896a600f847",
+    "files": 197,
+    "zipMembers": 75,
+    "changedMembers": [
+      "CITATION-AND-RIGHTS.md",
+      "publication-manifest.json",
+      "release.json",
+      "SHA256SUMS"
+    ],
+    "unchangedExplanatoryAndOriginalBytes": true,
+    "reviewStates": {
+      "accepted": 3,
+      "stale": 54,
+      "pending": 0,
+      "rejected": 0
+    },
+    "releaseIdentity": {
+      "schema": "unity-release/1",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "websiteRelease": "site-2026.10.04-m4-private",
+      "releaseAt": "2026-10-04T18:00:00.000Z",
+      "websiteCodeVersion": "0.0.1",
+      "sourceCommit": "a46d943dd89c543bed15b165835f845c25db0f93",
+      "workspaceDirty": true,
+      "workspaceInputsSha256": "d78f4a5d89f2b416696bd6814915c7b529acdcac45107b710f5671e40a826523",
+      "commitDescribesInputs": false,
+      "documentManifestSha256": "846f269f5e97d61d63f9c0adf76862ecca21eb557399bb9c1df0a8875e39aa58",
+      "distribution": "private-preview",
+      "deployEligible": false,
+      "citationGates": [
+        "PUBLIC_CREDIT_DECISION_REQUIRED",
+        "PERMANENT_URL_REQUIRED",
+        "RIGHTS_DECISION_REQUIRED"
+      ],
+      "publicReleaseAuthorized": false
+    }
+  }
+]

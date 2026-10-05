@@ -1,13 +1,16 @@
 ---
+import {renderSourceBacklinks} from '../lib/library';
 import { renderReferences } from '../lib/presentation';
 import { activeConfig } from '../lib/site-config';
 import ReadingLayout from '../layouts/ReadingLayout.astro';
 import { activePublication } from '../lib/publication';
-const { references,entries } = activePublication();
+const selection=activePublication();
+const { references,entries } = selection;
 const html=renderReferences(references,entries,activeConfig().basePath);
 ---
 <ReadingLayout title="Literature and sources" description="References transcribed from the selected current source records, with their review limits." route="/references/">
   <article class="article shell"><header><p class="eyebrow">Source registry · Private draft</p><h1>Literature and sources</h1><p class="article-lede">These identities are transcribed from the current sources. A listed reference is not a scientific approval.</p></header>
     <div class="prose" data-bibliography set:html={html} />
+    <div data-source-backlinks set:html={renderSourceBacklinks(selection,activeConfig().basePath)} />
   </article>
 </ReadingLayout>

@@ -1,0 +1,25 @@
+# M6 implementation — REVIEW_READY
+
+Private integration is delivered. Separate High acceptance has not occurred. The sole tracker is plan §0.35; M2–M5 bounded private acceptances are retained. M7 is not started.
+
+Published-body Pagefind search, lazy accessible controls and no-JS indexes, selected sitemap/structured metadata, search asset/identity auditing, gated release/sealing paths and three-engine verification are implemented. Actual search and sitemap contain zero readings because all actual entries remain drafts. The separate synthetic index contains 200 explicitly identified engineering fixtures, never approved research.
+
+Checks completed:
+
+- Clean `npm ci`; final Astro diagnostics: zero errors, warnings and hints. Source inventory/history checks, content and repository/export screening pass. Pagefind 1.5.2 and Lighthouse 13.5.0 are pinned; the vulnerable transitive http-cache-semantics edition found during installation was updated, with npm reporting zero vulnerabilities.
+- The initial complete contract run passed 104 of 113 cases. All nine failures subsequently passed through focused repairs and reruns; unchanged passing cases were reused. `final/verification.json` preserves the initial failed orchestration and its unrun steps. It is not a final passing `npm run verify` claim.
+- Browser suites passed 23 of 25 cases per base initially; `browser-repairs/` records the remaining two passing after obsolete assertions were corrected. Chromium covers 320/375/768/1280 layouts, WCAG 2.2-tagged axe, keyboard/no-JS, dark/reduced motion/200% text, math, print and downloads. Native Chromium 153.0.8010.12, Firefox 155 and WebKit 26.6 additionally passed actual navigation/math and synthetic search at both bases, including failed-bundle fallback.
+- Shared validation/rendering/native indexing handled 100 synthetic documents, 100 records and 100 references, with a 10,000-word technical body, 20 equations, wide table and long title. Local elapsed time/RSS are recorded in the integration JSON. Remote CI is NOT_RUN.
+- Correction fixtures exercise dependency staleness, explicit synthetic rereview, changed selection/index identity and withdrawal history. Original decisions and content were never replaced by the fixture.
+- Fresh audits pass for 204 files / 65 HTML pages per base. Independent Python archive checks pass all checksums, exact selected original bytes and exact installed KaTeX/Pagefind notices, inactive CFF and absence of evidence/history exports. All 13 original current source files match the supplied ZIP.
+- Cold owned-response gzip equivalents: home 6,904/6,927 bytes and math 151,296/151,337 bytes, zero initial JavaScript; within the adopted budgets. This measures fresh contexts and locally gzipped bodies, not on-wire compression. Lighthouse mobile 375×812 simulated diagnostics record home/math LCP 901/4,202 ms and CLS 0/0. Field CWV is NOT_MEASURED.
+
+Material repair: literal title characters were being interpreted as Markdown HTML while export links computed heading IDs. Titles now escape Markdown/HTML metacharacters. Other failures came from obsolete incomplete test fixtures, inherited date assumptions and outdated navigation labels. The test that wrote an issued M4 citation receipt now keeps its synthetic result in memory; the earlier receipt was restored to its exact baseline hash. An accidental default M1 audit receipt write was also restored exactly. Initial failures and an Astro shared-cache collision are retained; final diagnostics ran sequentially.
+
+Final artifact/input hashes and byte preservation are in [final-integrity.json](final-integrity.json). Browser-tested reading HTML/CSS/fonts/search-client remain exact; refreshed Cite identities, manifests and exports have fresh audit/contract coverage. Rider runtime workspace.xml changed during the task; this task did not write or restore it. Original science/history/ZIP/handoff and all prior issued receipts/reviews remain unchanged. The prior sole root lock edition is retained byte-for-byte in `prior-dependencies.json`.
+
+Qualification remains incomplete: **57 stale / 0 pending / 0 accepted / 0 rejected**, currentSourceQualified=false and deployEligible=false. Actual screen-reader/MathML and human comprehension are NOT_TESTED. Genuine content/fidelity, public wording, identity/contact/ORCID, scoped rights, target, privacy/legal/release authority, remote runner and platform protection gates remain open. Synthetic approvals only prove mechanics. No scientific/legal certification, license grant or public action occurred; historical calculations remain NOT_SELECTED / NOT_RUN.
+
+Primary implementation references: [Pagefind Node API](https://pagefind.app/docs/node-api/), [explicit body indexing](https://pagefind.app/docs/indexing/), [metadata](https://pagefind.app/docs/metadata/) and [search configuration](https://pagefind.app/docs/search-config/). Installed license bytes, rather than documentation summaries, supply the notices.
+
+Next task: one separate bounded High M6 review of demonstrated private engineering and these remaining gates. No commit, push, deployment or DNS action.

@@ -1,0 +1,787 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/m6 --evidence-dir docs/evidence/m6/implementation/final
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+09:06:47 [content] Syncing content
+09:06:47 [content] Synced content
+09:06:47 [types] Generated 930ms
+09:06:47 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+Result (83 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+Running npm run check:sources -- --scope history
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope history
+
+{"status":"PASS","historicalFiles":14,"noticeTranscriptions":2,"authorityNoticeOnly":true}
+
+Running npm run check:sources -- --scope current
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope current
+
+{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"qualificationBasis":"website-source-fidelity/1","files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01","sourceBoundEntries":39,"websiteFidelity":"pending","scientificCertification":"out-of-scope"}
+
+Running npm run check:content
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts
+
+{"schema":"unity-content-check/1","status":"PASS","date":"2026-10-05T06:06:56.292Z","admission":{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"qualificationBasis":"website-source-fidelity/1","files":13,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a","edition":"RRG v0.2 locked + evidence updates; promoted 2026-10-01"},"entries":57,"affected":[],"reviewPurpose":"website-source-fidelity/1","scientificCertification":"out-of-scope","acceptedReviews":0,"reviewStates":{"accepted":0,"pending":0,"stale":57,"rejected":0}}
+
+Running npm run check:publication
+
+> unity-theory@0.0.1 check:publication
+> tsx scripts/check-publication.ts
+
+{"status":"PASS","publicReady":false,"repositorySelection":"NOT_SELECTED","privateOrUnapprovedPaths":2582,"screenFindings":0,"deploymentGates":["MANUAL_MAIN_DEPLOYMENT_REQUIRED","PUBLIC_TARGET_REQUIRED","PUBLIC_TARGET_NOT_AUTHORIZED","PUBLIC_CREDIT_DECISION_REQUIRED","PERMANENT_URL_REQUIRED","RIGHTS_DECISION_REQUIRED","SCOPED_RIGHTS_REVIEW_REQUIRED","PUBLIC_CONTENT_APPROVAL_REQUIRED","PUBLIC_REPOSITORY_PRIVACY_REVIEW_REQUIRED","CURRENT_SOURCE_NOT_QUALIFIED","M6_RELEASE_QUALIFICATION_REQUIRED","DEPLOYMENT_DISABLED"],"platformProtections":"NOT_CONFIGURED"}
+
+Running npm run build -- --mode preview --config config/site.json --output dist/m6/preview-root
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode preview --config config/site.json --output dist/m6/preview-root
+
+09:07:00 [content] Syncing content
+09:07:01 [content] Synced content
+09:07:01 [types] Generated 747ms
+09:07:01 [build] output: "static"
+09:07:01 [build] mode: "static"
+09:07:01 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m6/preview-root/
+09:07:01 [build] Collecting build info...
+09:07:01 [build] ✓ Completed in 758ms.
+09:07:01 [build] Building static entrypoints...
+09:07:01 [vite] ✓ built in 499ms
+09:07:01 [vite] ✓ built in 11ms
+09:07:01 [build] Rearranging server assets...
+
+ generating static routes 
+09:07:02   ├─ /404.html (+15ms) 
+09:07:02   ├─ /about/index.html (+4ms) 
+09:07:02   ├─ /articles/index.html (+16ms) 
+09:07:02   ├─ /cite/index.html (+329ms) 
+09:07:03   ├─ /downloads/THIRD-PARTY-NOTICES.txt/ (+2ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-STATUS.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-PROOF.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-CONCEPT-GEOMETRY.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-CORE.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-CONTROL.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-FRAMEWORK.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-MATH.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-INTERACTION-EVIDENCE.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-ADDITIONAL-EVIDENCE.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-OPEN-PROBLEMS.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-SOURCE-CHANGES.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-D01.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-D02.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-D03.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-D04.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-D05.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-D06.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-D07.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-D08.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-D09.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/UT-C01.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-C02.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-O01.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/UT-O02.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-O03.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-O04.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-O05.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-O06.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E01.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E02.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E03.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E04.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E05.md/ (+1ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E06.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E07.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E08.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E09.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E10.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E11.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/UT-E12.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-ARTICLE-STRUCTURES.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-ARTICLE-UNIT.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-CONCEPT-INTERACTIONS.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-CONCEPT-RECURSION.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-CONCEPT-STABILITY.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-CONCEPTS.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-EVIDENCE.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-EXAMPLE-CELL.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-EXAMPLE-LIFE.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-EXAMPLE-MOLECULE.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-EXAMPLE-STAR.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-EXAMPLE-STRING.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-EXAMPLE-WATER.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-EXAMPLES.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-HOME.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-START.md/ (+0ms) 
+09:07:03   ├─ /downloads/explanatory/DOC-LIBRARY.md/ (+0ms) 
+09:07:03   ├─ /downloads/original/R-CURRENT-ADDITIONAL.md/ (+0ms) 
+09:07:03   ├─ /downloads/original/R-CURRENT-CHANGELOG.md/ (+0ms) 
+09:07:03   ├─ /downloads/original/R-CURRENT-CONTROL.md/ (+0ms) 
+09:07:03   ├─ /downloads/original/R-CURRENT-CORE.md/ (+0ms) 
+09:07:03   ├─ /downloads/original/R-CURRENT-INTERACTIONS.md/ (+1ms) 
+09:07:03   ├─ /downloads/original/R-CURRENT-MATH.md/ (+0ms) 
+09:07:03   ├─ /downloads/original/R-CURRENT-PROOF.md/ (+0ms) 
+09:07:03   ├─ /downloads/original/R-CURRENT-SCIENCE.md/ (+0ms) 
+09:07:03   ├─ /downloads/original/R-CURRENT-STATUS.md/ (+0ms) 
+09:07:03   ├─ /downloads/original/R-CURRENT-WORLD.md/ (+0ms) 
+09:07:03   ├─ /downloads/release.json/ (+1ms) 
+09:07:03   ├─ /downloads/SHA256SUMS/ (+0ms) 
+09:07:03   ├─ /downloads/unity-theory-publication-site-2026.10.05-m6-private-preview.zip/ (+1ms) 
+09:07:03   ├─ /fixtures/math/index.html (+6ms) 
+09:07:03   ├─ /legal/index.html (+2ms) 
+09:07:03   ├─ /references/index.html (+4ms) 
+09:07:03   ├─ /rss.xml (+2ms) 
+09:07:03   ├─ /search/index.html (+2ms) 
+09:07:03   ├─ /sitemap.xml (+1ms) 
+09:07:03   ├─ /start/index.html (+9ms) 
+09:07:03   ├─ /index.html (+9ms) 
+09:07:03   ├─ /research-status/index.html (+12ms) 
+09:07:03   ├─ /research-status/proof-matrix/index.html (+7ms) 
+09:07:03   ├─ /concepts/geometry-and-modes/index.html (+4ms) 
+09:07:03   ├─ /documents/locked-core/index.html (+17ms) 
+09:07:03   ├─ /changes/index.html (+6ms) 
+09:07:03   ├─ /framework/index.html (+72ms) 
+09:07:03   ├─ /math/index.html (+142ms) 
+09:07:03   ├─ /evidence/interactions/index.html (+21ms) 
+09:07:03   ├─ /evidence/additional/index.html (+14ms) 
+09:07:03   ├─ /open-problems/index.html (+6ms) 
+09:07:03   ├─ /changes/source-history/index.html (+5ms) 
+09:07:03   ├─ /claims/UT-D01/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-D02/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-D03/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-D04/index.html (+2ms) 
+09:07:03   ├─ /claims/UT-D05/index.html (+9ms) 
+09:07:03   ├─ /claims/UT-D06/index.html (+4ms) 
+09:07:03   ├─ /claims/UT-D07/index.html (+4ms) 
+09:07:03   ├─ /claims/UT-D08/index.html (+5ms) 
+09:07:03   ├─ /claims/UT-D09/index.html (+9ms) 
+09:07:03   ├─ /claims/UT-C01/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-C02/index.html (+2ms) 
+09:07:03   ├─ /claims/UT-O01/index.html (+2ms) 
+09:07:03   ├─ /claims/UT-O02/index.html (+2ms) 
+09:07:03   ├─ /claims/UT-O03/index.html (+2ms) 
+09:07:03   ├─ /claims/UT-O04/index.html (+2ms) 
+09:07:03   ├─ /claims/UT-O05/index.html (+2ms) 
+09:07:03   ├─ /claims/UT-O06/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-E01/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-E02/index.html (+2ms) 
+09:07:03   ├─ /claims/UT-E03/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-E04/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-E05/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-E06/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-E07/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-E08/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-E09/index.html (+3ms) 
+09:07:03   ├─ /claims/UT-E10/index.html (+4ms) 
+09:07:03   ├─ /claims/UT-E11/index.html (+4ms) 
+09:07:03   ├─ /claims/UT-E12/index.html (+5ms) 
+09:07:03   ├─ /articles/how-existing-structures-make-new-organization-possible/index.html (+4ms) 
+09:07:03   ├─ /articles/when-can-a-whole-be-treated-as-one-useful-unit/index.html (+4ms) 
+09:07:03   ├─ /concepts/effective-interactions/index.html (+9ms) 
+09:07:03   ├─ /concepts/recursion/index.html (+4ms) 
+09:07:03   ├─ /concepts/stability/index.html (+4ms) 
+09:07:03   ├─ /concepts/index.html (+4ms) 
+09:07:03   ├─ /evidence/index.html (+7ms) 
+09:07:03   ├─ /examples/cell/index.html (+3ms) 
+09:07:03   ├─ /examples/life-environment/index.html (+3ms) 
+09:07:03   ├─ /examples/molecule/index.html (+4ms) 
+09:07:03   ├─ /examples/star/index.html (+3ms) 
+09:07:03   ├─ /examples/string/index.html (+3ms) 
+09:07:03   ├─ /examples/water/index.html (+3ms) 
+09:07:03   ├─ /examples/index.html (+3ms) 
+09:07:03   ├─ /documents/index.html (+20ms) 
+09:07:03 ✓ Completed in 1.85s.
+
+09:07:03 [build] ✓ Completed in 2.39s.
+09:07:03 [build] 65 page(s) built in 3.17s
+09:07:03 [build] Complete!
+preview artifact: /Users/new/RiderProjects/RPG_theory/dist/m6/preview-root; deployEligible=false
+
+Running npm run audit:output -- --dir dist/m6/preview-root
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/m6/preview-root
+
+{"status":"PASS","mode":"preview","basePath":"/","deployEligible":false,"files":204,"artifactSha256":"92a69e28ad77aeabf95c8d002fb904de52c2899602b166e76feee4edc5408fb7"}
+
+Running npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m6/preview-subpath
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode preview --config tests/fixtures/site-subpath.json --output dist/m6/preview-subpath
+
+09:07:14 [content] Syncing content
+09:07:14 [content] Astro config changed
+09:07:14 [content] Clearing content store
+09:07:14 [content] Synced content
+09:07:14 [types] Generated 733ms
+09:07:14 [build] output: "static"
+09:07:14 [build] mode: "static"
+09:07:14 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m6/preview-subpath/
+09:07:14 [build] Collecting build info...
+09:07:14 [build] ✓ Completed in 743ms.
+09:07:14 [build] Building static entrypoints...
+09:07:14 [vite] ✓ built in 145ms
+09:07:14 [vite] ✓ built in 11ms
+09:07:14 [build] Rearranging server assets...
+
+ generating static routes 
+09:07:15   ├─ /404.html (+14ms) 
+09:07:15   ├─ /about/index.html (+4ms) 
+09:07:15   ├─ /articles/index.html (+4ms) 
+09:07:15   ├─ /cite/index.html (+334ms) 
+09:07:15   ├─ /downloads/THIRD-PARTY-NOTICES.txt/ (+2ms) 
+09:07:15   ├─ /downloads/explanatory/DOC-STATUS.md/ (+1ms) 
+09:07:15   ├─ /downloads/explanatory/DOC-PROOF.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-CONCEPT-GEOMETRY.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-CORE.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-CONTROL.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-FRAMEWORK.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-MATH.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-INTERACTION-EVIDENCE.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-ADDITIONAL-EVIDENCE.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-OPEN-PROBLEMS.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-SOURCE-CHANGES.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-D01.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-D02.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-D03.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-D04.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-D05.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/UT-D06.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/UT-D07.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-D08.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/UT-D09.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-C01.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-C02.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-O01.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-O02.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-O03.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-O04.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-O05.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-O06.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E01.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E02.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E03.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E04.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E05.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E06.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E07.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E08.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E09.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E10.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E11.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/UT-E12.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-ARTICLE-STRUCTURES.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-ARTICLE-UNIT.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-CONCEPT-INTERACTIONS.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-CONCEPT-RECURSION.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-CONCEPT-STABILITY.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-CONCEPTS.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-EVIDENCE.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-EXAMPLE-CELL.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-EXAMPLE-LIFE.md/ (+1ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-EXAMPLE-MOLECULE.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-EXAMPLE-STAR.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-EXAMPLE-STRING.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-EXAMPLE-WATER.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-EXAMPLES.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-HOME.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-START.md/ (+0ms) 
+09:07:16   ├─ /downloads/explanatory/DOC-LIBRARY.md/ (+0ms) 
+09:07:16   ├─ /downloads/original/R-CURRENT-ADDITIONAL.md/ (+1ms) 
+09:07:16   ├─ /downloads/original/R-CURRENT-CHANGELOG.md/ (+1ms) 
+09:07:16   ├─ /downloads/original/R-CURRENT-CONTROL.md/ (+0ms) 
+09:07:16   ├─ /downloads/original/R-CURRENT-CORE.md/ (+0ms) 
+09:07:16   ├─ /downloads/original/R-CURRENT-INTERACTIONS.md/ (+0ms) 
+09:07:16   ├─ /downloads/original/R-CURRENT-MATH.md/ (+0ms) 
+09:07:16   ├─ /downloads/original/R-CURRENT-PROOF.md/ (+0ms) 
+09:07:16   ├─ /downloads/original/R-CURRENT-SCIENCE.md/ (+0ms) 
+09:07:16   ├─ /downloads/original/R-CURRENT-STATUS.md/ (+0ms) 
+09:07:16   ├─ /downloads/original/R-CURRENT-WORLD.md/ (+0ms) 
+09:07:16   ├─ /downloads/release.json/ (+0ms) 
+09:07:16   ├─ /downloads/SHA256SUMS/ (+0ms) 
+09:07:16   ├─ /downloads/unity-theory-publication-site-2026.10.05-m6-private-preview.zip/ (+0ms) 
+09:07:16   ├─ /fixtures/math/index.html (+6ms) 
+09:07:16   ├─ /legal/index.html (+2ms) 
+09:07:16   ├─ /references/index.html (+4ms) 
+09:07:16   ├─ /rss.xml (+2ms) 
+09:07:16   ├─ /search/index.html (+2ms) 
+09:07:16   ├─ /sitemap.xml (+1ms) 
+09:07:16   ├─ /start/index.html (+9ms) 
+09:07:16   ├─ /index.html (+9ms) 
+09:07:16   ├─ /research-status/index.html (+12ms) 
+09:07:16   ├─ /research-status/proof-matrix/index.html (+7ms) 
+09:07:16   ├─ /concepts/geometry-and-modes/index.html (+4ms) 
+09:07:16   ├─ /documents/locked-core/index.html (+17ms) 
+09:07:16   ├─ /changes/index.html (+6ms) 
+09:07:16   ├─ /framework/index.html (+71ms) 
+09:07:16   ├─ /math/index.html (+144ms) 
+09:07:16   ├─ /evidence/interactions/index.html (+16ms) 
+09:07:16   ├─ /evidence/additional/index.html (+13ms) 
+09:07:16   ├─ /open-problems/index.html (+9ms) 
+09:07:16   ├─ /changes/source-history/index.html (+5ms) 
+09:07:16   ├─ /claims/UT-D01/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-D02/index.html (+4ms) 
+09:07:16   ├─ /claims/UT-D03/index.html (+4ms) 
+09:07:16   ├─ /claims/UT-D04/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-D05/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-D06/index.html (+4ms) 
+09:07:16   ├─ /claims/UT-D07/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-D08/index.html (+6ms) 
+09:07:16   ├─ /claims/UT-D09/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-C01/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-C02/index.html (+2ms) 
+09:07:16   ├─ /claims/UT-O01/index.html (+2ms) 
+09:07:16   ├─ /claims/UT-O02/index.html (+1ms) 
+09:07:16   ├─ /claims/UT-O03/index.html (+2ms) 
+09:07:16   ├─ /claims/UT-O04/index.html (+2ms) 
+09:07:16   ├─ /claims/UT-O05/index.html (+2ms) 
+09:07:16   ├─ /claims/UT-O06/index.html (+2ms) 
+09:07:16   ├─ /claims/UT-E01/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-E02/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-E03/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-E04/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-E05/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-E06/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-E07/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-E08/index.html (+2ms) 
+09:07:16   ├─ /claims/UT-E09/index.html (+3ms) 
+09:07:16   ├─ /claims/UT-E10/index.html (+4ms) 
+09:07:16   ├─ /claims/UT-E11/index.html (+7ms) 
+09:07:16   ├─ /claims/UT-E12/index.html (+5ms) 
+09:07:16   ├─ /articles/how-existing-structures-make-new-organization-possible/index.html (+4ms) 
+09:07:16   ├─ /articles/when-can-a-whole-be-treated-as-one-useful-unit/index.html (+4ms) 
+09:07:16   ├─ /concepts/effective-interactions/index.html (+7ms) 
+09:07:16   ├─ /concepts/recursion/index.html (+4ms) 
+09:07:16   ├─ /concepts/stability/index.html (+4ms) 
+09:07:16   ├─ /concepts/index.html (+3ms) 
+09:07:16   ├─ /evidence/index.html (+7ms) 
+09:07:16   ├─ /examples/cell/index.html (+3ms) 
+09:07:16   ├─ /examples/life-environment/index.html (+3ms) 
+09:07:16   ├─ /examples/molecule/index.html (+3ms) 
+09:07:16   ├─ /examples/star/index.html (+3ms) 
+09:07:16   ├─ /examples/string/index.html (+3ms) 
+09:07:16   ├─ /examples/water/index.html (+2ms) 
+09:07:16   ├─ /examples/index.html (+3ms) 
+09:07:16   ├─ /documents/index.html (+21ms) 
+09:07:16 ✓ Completed in 1.84s.
+
+09:07:16 [build] ✓ Completed in 2.02s.
+09:07:16 [build] 65 page(s) built in 2.76s
+09:07:16 [build] Complete!
+preview artifact: /Users/new/RiderProjects/RPG_theory/dist/m6/preview-subpath; deployEligible=false
+
+Running npm run audit:output -- --dir dist/m6/preview-subpath
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/m6/preview-subpath
+
+{"status":"PASS","mode":"preview","basePath":"/unity-theory/","deployEligible":false,"files":204,"artifactSha256":"c9b839e9260072b24af31f4058b86b5462becd009c9333d1c9c7746fa34f5700"}
+
+Running npm run test:content
+
+> unity-theory@0.0.1 test:content
+> tsx --test tests/content/*.test.ts
+
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (12.139833ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (26.946334ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (1.236916ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (0.925333ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (1.014167ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (30.986791ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (2.439209ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (1.818875ms)
+✔ silent edition-pin reset still fails (1.140916ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (2.755459ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.420625ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (4.133666ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (6852.942292ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (6562.484708ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (16370.918667ms)
+✔ artifact audit rejects false source identity and active SVG files (2899.37875ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (3.675667ms)
+✔ Markdown reference links/images share safety and base handling (2.665166ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (1.32625ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (90.1705ms)
+✔ output audit rejects changed source-bound display, manifest substitutions and draft sentinels (2387.710875ms)
+✖ output audit binds bibliography text, destinations, support limits, status, projection and navigation (18877.166ms)
+✔ output audit rejects multiply encoded local traversal (2503.099583ms)
+✔ document metadata comparison scopes the title to the head, preserving accessible SVG titles (4403.695084ms)
+✖ output audit rejects changed or duplicate social metadata, visible descriptions and private indexing controls (12651.223958ms)
+✔ output audit keeps all responsive, media, SVG and form loads local and refuses rebasing or redirects (40773.355125ms)
+✔ output audit inspects normalized CSS loading syntax in files and inline styles without bypassing data URLs (74569.648ms)
+✔ output audit checks SVG presentation URLs and refuses XML rebasing in inline and standalone SVG (62163.154959ms)
+✔ output audit preserves CSS string and URL semantics and refuses unsupported resource syntax (88803.638041ms)
+✔ standalone SVG refuses stylesheet and unknown processing instructions while allowing its XML declaration (12127.953542ms)
+✔ output audit rejects missing, altered or duplicate beginner schematics at their own control (12864.396708ms)
+✖ output audit refuses missing, duplicate, misplaced or unrelated math styles and unnecessary beginner math loads (15413.415208ms)
+✔ each additional-evidence mapping declares every core clause named by its actual excerpt (1188.729292ms)
+✔ the actual start explanation tracks emergent evidence, its support metadata and current status (790.247958ms)
+✔ background-extension changes invalidate the actual E12 interpretation and its consumers (755.172167ms)
+✔ review fingerprints track real URL, selection, style and pinned rendering dependency inputs (2472.767292ms)
+✔ historical representation decisions do not populate website fidelity or qualify the source (481.431541ms)
+✔ independent statement, bad binding range/hash, wrong record kind, duplicates and unknown sources fail (138.375667ms)
+✔ source-scoped aliases keep historical S01 local; duplicates and unresolved aliases fail (13.211708ms)
+✔ source URL aliases preserve case-sensitive paths while DOI identity remains case insensitive (402.49425ms)
+✔ non-DOI citation identity preserves added or removed trailing path separators (395.485125ms)
+✔ missing or cyclic semantic dependency fails; related feedback does not create proof cycles (738.248208ms)
+✔ authority notes cannot supply scientific excerpts; invalid states and real dates fail (83.678084ms)
+✔ safe directives render actual canonical explanations, extract dependencies and reject executable/unknown syntax (41.504459ms)
+✔ dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local (430.595666ms)
+✔ changing a relevant source verification scope or relevant citation stales its review (607.553792ms)
+✔ shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights (1503.961959ms)
+✔ one manifest excludes drafts from every production surface and rejects published draft dependencies (278.390417ms)
+✔ withdrawn history is explicitly selected as a tombstone; former body is removed (236.706958ms)
+✔ source display adapters preserve raw bindings while rendering status/math/table consumers (527.798416ms)
+✔ source revision transaction refuses missing prior-byte preservation and incomplete core proof gate (426.962042ms)
+✔ actual supplied 07 and 08 cannot disappear behind a matching core (5.371125ms)
+✔ a missing or mismatched actual local citation alias fails the source adapter (22.493667ms)
+✔ project reproduction cannot be asserted with an invented execution receipt (18.906291ms)
+✔ Markdown directive export uses ordinary links and leaves code examples untouched (1.460333ms)
+✔ statement directives are order-independent; nested references and cycles reach the shared graph (331.400792ms)
+✔ scientific identities cannot bypass proposal provenance or masquerade as documents (34.99925ms)
+✔ retained historical excerpts remain historical; supersession is reciprocal and draft history stays out of discovery (313.27275ms)
+✔ review rejection is distinct from pending; alternate citation review binds its primary metadata (149.68675ms)
+✔ source, bibliography, execution and renderer identity changes report or stale their actual dependants (159.764208ms)
+✔ actual status, proof and home summaries depend on their core definitions and emergent evidence (439.233209ms)
+✔ withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions (167.95775ms)
+✔ bibliographic verification cannot retain a checked label after metadata substitution (42.48575ms)
+✔ release rejects future updates and reviews independently of the publication date (292.939375ms)
+✔ qualification uses reviewed production selection; a preview cannot be relabelled qualification (206.459625ms)
+✔ Markdown export validates safety, expands nested references and leaves math samples intact (132.974166ms)
+✔ directives cannot create nested anchors in link labels or Markdown exports (0.831709ms)
+✔ proposals display non-adoption and cannot supersede source-authoritative records (148.802625ms)
+✔ revision impact retains predecessor dependants when the next graph removes an edge (293.539666ms)
+✔ M2 examples and concepts use the admitted source edition and explicit original-source mappings (0.726083ms)
+✔ M2 misleading editorial candidates are surfaced and cannot become a qualified selection without independent review (3212.452875ms)
+✔ the real interaction relation is a display equation with an accessible local scrolling region (20.856083ms)
+✔ optional beginner source details preserve visible proposal, correction, explanation and limits (11.83375ms)
+✔ M2 rendering changes invalidate preserved predecessor decisions independently of later bounded reviews (437.460667ms)
+✔ M3 technical readings extract each complete original body with retained addenda and source provenance (1616.02375ms)
+✔ M3 evidence retains all source-local entries, bibliography identities and reported access limitations (39.887209ms)
+✔ open questions and status preserve actual 04/06 mapping and separate model failure tests from definitions (7.615667ms)
+✔ technical guides use actual heading anchors and selected routes at both bases (4078.323208ms)
+✔ M3 preserves issued decisions without turning new readings or builds into approvals (12.586375ms)
+✔ the disclosed section 39 display repair preserves three separate formulas and refuses a changed boundary (12.073333ms)
+✔ M4 explanatory exports mirror canonical parsed statements, retain adapters and have usable destinations at both bases (6163.886458ms)
+✔ M4 ZIP manifests preserve original bytes and exclude administrative evidence/history; tampered members fail (1565.151542ms)
+✖ M4 approved selection filters draft/history/withdrawn downloads and emits dated article RSS at both bases (265.230208ms)
+✔ M4 duplicate article routes and stale source numbers refuse; document source rename does not rename its route (421.583625ms)
+✔ M4 citation remains inactive for actual missing decisions; prepared CFF uses only supplied approved metadata (827.728917ms)
+✔ M4 print CSS admits page layout and literal citation targets while refusing resource-bearing attr forms (0.671083ms)
+✔ M5 actual identity stays pending and every rights surface preserves separate scope and lawful exceptions (27.731334ms)
+✔ M5 explicit synthetic credit drives About/footer/CFF without inferred contact or identity (41.944584ms)
+✔ M5 deployment rejects PR, fixture host, unapproved target, missing identity and pending scoped rights with named reasons (1.753ms)
+✔ M5 scoped license declarations bind exact files; no additional license state cannot imply a grant (1.9355ms)
+✔ M5 targeted legal-copy control flags the faux any-use royalty claim; a parser never certifies legal wording (0.7745ms)
+✔ M5 actual workflow is read-only for PRs and manual artifact-bound for deploy; privileged PR mutation refuses (99.397541ms)
+✔ M5 public repository screen refuses private/history paths and reports secret locations without values (1.391875ms)
+✔ M5 actual website and ZIP carry the exact renderer notice without project licensing or administrative material (2771.767583ms)
+✔ M6 real drafts never enter search/sitemap; private utility metadata invents no author or institution (1376.344333ms)
+✖ M6 correction transaction invalidates dependants, requires explicit synthetic rereview and excludes the replaced route (675.811417ms)
+✔ M6 missing search body and misleading scope fail before indexing (523.683ms)
+✔ M6 stale search identity and added source-map/private assets are refused in the actual artifact auditor (3924.680834ms)
+✖ real home/start emit withdrawal tombstones through the shared consumer and output auditor (2370.841041ms)
+✔ real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals (7456.906875ms)
+✖ real revision CLI accounts for both rename paths without inventing a core-byte change: 04_status_and_blockers.md (1859.896916ms)
+✖ real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md (1441.479583ms)
+✔ intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate (746.306542ms)
+✔ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (443.480791ms)
+✔ bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision (338.191583ms)
+✔ complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it (295.155459ms)
+✔ null, primitive and incomplete stale evidence fail with the intended typed diagnostic (257.1625ms)
+✔ review dates cannot predate the reviewed material, including dependency updates (311.624125ms)
+✔ receipt paths reject traversal, symlink files and symlink ancestors (291.577292ms)
+✔ review inputs independently capture rendered plain language and the actual home projection without aliasing (268.206417ms)
+✔ stale decisions retain internally coherent dates, source excerpts, dependencies and projection reads (3801.575542ms)
+✔ receipt paths reject control characters even when a matching regular file exists (217.056083ms)
+✖ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (358.402959ms)
+ℹ tests 113
+ℹ suites 0
+ℹ pass 104
+ℹ fail 9
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 381922.510208
+
+✖ failing tests:
+
+test at tests/content/contracts.test.ts:214:1
+✖ output audit binds bibliography text, destinations, support limits, status, projection and navigation (18877.166ms)
+  AssertionError [ERR_ASSERTION]: How do parts become a whole?</h1>
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:226:79)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:126:58)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:214:114)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/content/contracts.test.ts:243:1
+✖ output audit rejects changed or duplicate social metadata, visible descriptions and private indexing controls (12651.223958ms)
+  AssertionError [ERR_ASSERTION]: Expected "actual" to be strictly unequal to:
+  
+  '<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible."><meta name="robots" content="noindex, nofollow"><meta name="color-scheme" content="light dark"><title>How do parts become a whole? · Unity Theory</title><link rel="canonical" href="https://unity-theory.invalid/unity-theory/"><meta property="og:title" content="How do parts become a whole?"><meta property="og:description" content="Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible."><meta property="og:url" content="https://unity-theory.invalid/unity-theory/"><meta property="og:type" content="website"><script type="application/ld+json" data-site-metadata>{"@context":"https://schema.org","@type":"WebPage","dateModified":"2026-10-03","description":"Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Unity Theory / RRG","url":"https://unity-theory.invalid/unity-theory/"},"name":"How do parts become a whole?","url":"https://unity-theory.invalid/unity-theory/"}</script><link rel="icon" type="image/svg+xml" href="/unity-theory/favicon.svg"><link rel="stylesheet" href="/unity-theory/_astro/ReadingLayout.B_EPQKDX.css"></head> <body> <a class="skip-link" href="#main">Skip to content</a> <div class="preview-strip">Private preview <span>· Draft website explanations</span></div> <header class="site-header shell"> <a class="brand" href="/unity-theory/" aria-label="Unity Theory home"><span class="brand-mark" aria-hidden="true">↔</span> Unity Theory</a> <nav aria-label="Main navigation" data-publication-navigation><a href="/unity-theory/start/">Start</a><a href="/unity-theory/framework/">Framework</a><a href="/unity-theory/research-status/">Research</a><a href="/unity-theory/documents/">Documents</a><a href="/unity-theory/articles/">Articles</a><a href="/unity-theory/cite/">Cite</a><a href="/unity-theory/references/">Sources</a><a href="/unity-theory/search/">Search</a></nav> </header> <main id="main" tabindex="-1"> <section class="hero shell" aria-labelledby="research-question"> <div><p class="eyebrow">A question about organization</p> <h1 id="research-question">How do parts become<br class="desktop-break" /> a <em>whole?</em></h1> <p class="hero-lede">Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible.</p> <a class="button" href="/unity-theory/start/">Start with the idea <span aria-hidden="true">→</span></a> <p class="reading-note">A short introduction · No technical background needed</p> <p class="reading-note" data-editorial-state="DOC-HOME">Publication: Draft · private preview. Source fidelity: Stale — rereview required.</p> </div> </section> <section class="reading-section shell"><div class="margin-label"><span>01 / The idea</span><p>From something familiar<br>to a research question.</p></div><div class="prose"><div data-canonical-body="DOC-HOME"><h2 id="begin-with-a-wave">Begin with a wave</h2>\n' +
+    `<p>Watch a ripple cross water. A crest moves across the surface as the water moves locally. The visible pattern and the material carrying it give us two ways to describe one event. <a href="/unity-theory/examples/water/">Explore the wave</a>; the background physics is explained by <a href="/unity-theory/references/#BIB-0060">NOAA's wave explanation</a>.</p>\n` +
+    '<h2 id="arrangement-and-activity-belong-together">Arrangement and activity belong together</h2>\n' +
+    "<p>A string's fixed ends constrain its motion. A molecule's connections constrain its collective behaviour. A cell keeps its organization through ongoing exchanges with its surroundings.</p>\n" +
+    '<p>Recursive Resonant Geometry, or <strong>RRG</strong>, asks how relationships and activity support one another. Its <strong>geometry</strong> means components, connections, boundaries and constraints. Its <strong>mode structure</strong> means the organized ways those parts change and respond over time.</p>\n' +
+    '<h2 id="a-whole-can-become-a-part">A whole can become a part</h2>\n' +
+    '<p>In the RRG proposal, compatible active parts may form a persistent whole. That whole can participate in another organization while activity continues inside it. Existing structures can also change the conditions for what happens next: a star makes new reaction conditions; living systems change their chemical surroundings.</p>\n' +
+    '<p>The wave introduces a distinction, rather than proving this entire cycle. The examples have different physical mechanisms. The research question is whether a useful, predictive organizing principle connects them.</p>\n' +
+    '<p><a href="/unity-theory/start/">Read the full introduction</a> or <a href="/unity-theory/concepts/">explore the concepts</a>.</p></div><figure class="beginner-diagram" data-beginner-diagram="DOC-HOME"><svg viewBox="0 0 360 370" role="img" aria-labelledby="diagram-DOC-HOME-title diagram-DOC-HOME-description"><title id="diagram-DOC-HOME-title">Parts, a whole, and further organization</title><desc id="diagram-DOC-HOME-description">Compatible active parts can couple into a collective organization. A persistent whole may become a useful unit in further combinations. The surroundings constrain the process, and existing organization may change those surroundings. This is the RRG research proposal, not a guaranteed sequence.</desc><rect class="diagram-environment" x="14" y="14" width="332" height="342" rx="22"/><text x="180" y="42">Surroundings &amp; conditions</text>\n' +
+    '      <g class="diagram-node"><rect x="57" y="64" width="246" height="56" rx="8"/><text x="180" y="89">Compatible active parts</text><text class="diagram-subtitle" x="180" y="109">different parts can play different roles</text></g>\n' +
+    '      <path class="diagram-link" d="M180 120 V147"/><path class="diagram-arrowhead" d="m175 142 5 6 5-6"/>\n' +
+    '      <g class="diagram-node"><rect x="57" y="151" width="246" height="68" rx="8"/><text x="180" y="178">Collective organization</text><text class="diagram-subtitle" x="180" y="200">arrangement ↔ activity</text></g>\n' +
+    '      <path class="diagram-link" d="M180 219 V245"/><path class="diagram-arrowhead" d="m175 240 5 6 5-6"/>\n' +
+    '      <g class="diagram-node"><rect x="57" y="249" width="246" height="60" rx="8"/><text x="180" y="276">A useful unit</text><text class="diagram-subtitle" x="180" y="297">in further combinations</text></g>\n' +
+    `      <path class="diagram-feedback" d="M303 277 C333 277 333 84 303 84"/><path class="diagram-arrowhead" d="m309 79-6 5 6 5"/><text class="diagram-subtitle" x="180" y="337">organization can change conditions</text></svg><figcaption>A proposed cycle: active parts → collective organization → a useful unit for further combinations. Conditions affect formation; existing organization may change conditions. Illustration, not a measurement.</figcaption></figure></div></section> <section class="pathways shell" aria-labelledby="explore-title"> <div class="section-heading"><p class="eyebrow">Choose your depth</p><h2 id="explore-title">Follow the question.</h2></div> <div class="pathway-grid"> <a class="pathway" href="/unity-theory/examples/string/"><span class="pathway-number">01 / Constraints</span><h3>A string's possible motion <span aria-hidden="true">↗</span></h3><p>Fixed ends, physical conditions and the patterns they support.</p><span class="pathway-state">Explore the string</span></a> <a class="pathway" href="/unity-theory/examples/molecule/"><span class="pathway-number">02 / A whole</span><h3>More than a bag of atoms <span aria-hidden="true">↗</span></h3><p>Connections constrain collective behaviour while the parts remain active.</p><span class="pathway-state">Explore the molecule</span></a> <a class="pathway" href="/unity-theory/examples/life-environment/"><span class="pathway-number">03 / Possibilities</span><h3>Life changes conditions <span aria-hidden="true">↗</span></h3><p>An existing organization can change what becomes possible around it.</p><span class="pathway-state">Explore life and environment</span></a> </div> <p class="reading-note"><a href="/unity-theory/examples/">All six examples</a> · <a href="/unity-theory/concepts/">Explore the source meanings</a></p> </section> <section class="open-question shell"><p class="eyebrow">The work ahead</p><h2>A framework to investigate.</h2><div class="prose" data-source-projection="DOC-STATUS"><h2 id="open-extensions-to-prove--not-definitions">Open extensions to prove — not definitions</h2>\n` +
+    '<ol>\n' +
+    '<li>Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.</li>\n' +
+    '<li>Whether gravity is an emergent higher-scale geometric/mode regime.</li>\n' +
+    '<li>Whether cosmological background evolution selects which resonant geometries are accessible.</li>\n' +
+    '<li>Whether one cross-domain mathematical invariant or promotion criterion exists.</li>\n' +
+    '<li>Whether RRG yields a novel prediction beyond existing frameworks.</li>\n' +
+    '<li>Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.</li>\n' +
+    '</ol></div><p><a href="/unity-theory/research-status/">Read current research status</a></p></section> <section class="shell edition-note"><p class="eyebrow">The current edition</p><p>Core definitions, source-reported evidence and open extensions remain distinct. <a href="/unity-theory/references/">Find the sources</a> and <a href="/unity-theory/research-status/">follow the current status</a>.</p><p class="reading-note">Public introduction: author approval pending.</p></section> </main> <aside class="source-note shell" aria-label="Source availability"> <span class="status-dot" aria-hidden="true"></span> <div><strong>Current sources available</strong> <p>13 supplied files checked against the recorded edition. Website explanations are drafts.</p></div> </as'... 391 more characters
+  
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:256:12)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:126:58)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:243:122)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: `<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible."><meta name="robots" content="noindex, nofollow"><meta name="color-scheme" content="light dark"><title>How do parts become a whole? · Unity Theory</title><link rel="canonical" href="https://unity-theory.invalid/unity-theory/"><meta property="og:title" content="How do parts become a whole?"><meta property="og:description" content="Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible."><meta property="og:url" content="https://unity-theory.invalid/unity-theory/"><meta property="og:type" content="website"><script type="application/ld+json" data-site-metadata>{"@context":"https://schema.org","@type":"WebPage","dateModified":"2026-10-03","description":"Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Unity Theory / RRG","url":"https://unity-theory.invalid/unity-theory/"},"name":"How do parts become a whole?","url":"https://unity-theory.invalid/unity-theory/"}</script><link rel="icon" type="image/svg+xml" href="/unity-theory/favicon.svg"><link rel="stylesheet" href="/unity-theory/_astro/ReadingLayout.B_EPQKDX.css"></head> <body> <a class="skip-link" href="#main">Skip to content</a> <div class="preview-strip">Private preview <span>· Draft website explanations</span></div> <header class="site-header shell"> <a class="brand" href="/unity-theory/" aria-label="Unity Theory home"><span class="brand-mark" aria-hidden="true">↔</span> Unity Theory</a> <nav aria-label="Main navigation" data-publication-navigation><a href="/unity-theory/start/">Start</a><a href="/unity-theory/framework/">Framework</a><a href="/unity-theory/research-status/">Research</a><a href="/unity-theory/documents/">Documents</a><a href="/unity-theory/articles/">Articles</a><a href="/unity-theory/cite/">Cite</a><a href="/unity-theory/references/">Sources</a><a href="/unity-theory/search/">Search</a></nav> </header> <main id="main" tabindex="-1"> <section class="hero shell" aria-labelledby="research-question"> <div><p class="eyebrow">A question about organization</p> <h1 id="research-question">How do parts become<br class="desktop-break" /> a <em>whole?</em></h1> <p class="hero-lede">Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible.</p> <a class="button" href="/unity-theory/start/">Start with the idea <span aria-hidden="true">→</span></a> <p class="reading-note">A short introduction · No technical background needed</p> <p class="reading-note" data-editorial-state="DOC-HOME">Publication: Draft · private preview. Source fidelity: Stale — rereview required.</p> </div> </section> <section class="reading-section shell"><div class="margin-label"><span>01 / The idea</span><p>From something familiar<br>to a research question.</p></div><div class="prose"><div data-canonical-body="DOC-HOME"><h2 id="begin-with-a-wave">Begin with a wave</h2>\n<p>Watch a ripple cross water. A crest moves across the surface as the water moves locally. The visible pattern and the material carrying it give us two ways to describe one event. <a href="/unity-theory/examples/water/">Explore the wave</a>; the background physics is explained by <a href="/unity-theory/references/#BIB-0060">NOAA's wave explanation</a>.</p>\n<h2 id="arrangement-and-activity-belong-together">Arrangement and activity belong together</h2>\n<p>A string's fixed ends constrain its motion. A molecule's connections constrain its collective behaviour. A cell keeps its organization through ongoing exchanges with its surroundings.</p>\n<p>Recursive Resonant Geometry, or <strong>RRG</strong>, asks how relationships and activity support one another. Its <strong>geometry</strong> means components, connections, boundaries and constraints. Its <strong>mode structure</strong> means the organized ways those parts change and respond over time.</p>\n<h2 id="a-whole-can-become-a-part">A whole can become a part</h2>\n<p>In the RRG proposal, compatible active parts may form a persistent whole. That whole can participate in another organization while activity continues inside it. Existing structures can also change the conditions for what happens next: a star makes new reaction conditions; living systems change their chemical surroundings.</p>\n<p>The wave introduces a distinction, rather than proving this entire cycle. The examples have different physical mechanisms. The research question is whether a useful, predictive organizing principle connects them.</p>\n<p><a href="/unity-theory/start/">Read the full introduction</a> or <a href="/unity-theory/concepts/">explore the concepts</a>.</p></div><figure class="beginner-diagram" data-beginner-diagram="DOC-HOME"><svg viewBox="0 0 360 370" role="img" aria-labelledby="diagram-DOC-HOME-title diagram-DOC-HOME-description"><title id="diagram-DOC-HOME-title">Parts, a whole, and further organization</title><desc id="diagram-DOC-HOME-description">Compatible active parts can couple into a collective organization. A persistent whole may become a useful unit in further combinations. The surroundings constrain the process, and existing organization may change those surroundings. This is the RRG research proposal, not a guaranteed sequence.</desc><rect class="diagram-environment" x="14" y="14" width="332" height="342" rx="22"/><text x="180" y="42">Surroundings &amp; conditions</text>\n      <g class="diagram-node"><rect x="57" y="64" width="246" height="56" rx="8"/><text x="180" y="89">Compatible active parts</text><text class="diagram-subtitle" x="180" y="109">different parts can play different roles</text></g>\n      <path class="diagram-link" d="M180 120 V147"/><path class="diagram-arrowhead" d="m175 142 5 6 5-6"/>\n      <g class="diagram-node"><rect x="57" y="151" width="246" height="68" rx="8"/><text x="180" y="178">Collective organization</text><text class="diagram-subtitle" x="180" y="200">arrangement ↔ activity</text></g>\n      <path class="diagram-link" d="M180 219 V245"/><path class="diagram-arrowhead" d="m175 240 5 6 5-6"/>\n      <g class="diagram-node"><rect x="57" y="249" width="246" height="60" rx="8"/><text x="180" y="276">A useful unit</text><text class="diagram-subtitle" x="180" y="297">in further combinations</text></g>\n      <path class="diagram-feedback" d="M303 277 C333 277 333 84 303 84"/><path class="diagram-arrowhead" d="m309 79-6 5 6 5"/><text class="diagram-subtitle" x="180" y="337">organization can change conditions</text></svg><figcaption>A proposed cycle: active parts → collective organization → a useful unit for further combinations. Conditions affect formation; existing organization may change conditions. Illustration, not a measurement.</figcaption></figure></div></section> <section class="pathways shell" aria-labelledby="explore-title"> <div class="section-heading"><p class="eyebrow">Choose your depth</p><h2 id="explore-title">Follow the question.</h2></div> <div class="pathway-grid"> <a class="pathway" href="/unity-theory/examples/string/"><span class="pathway-number">01 / Constraints</span><h3>A string's possible motion <span aria-hidden="true">↗</span></h3><p>Fixed ends, physical conditions and the patterns they support.</p><span class="pathway-state">Explore the string</span></a> <a class="pathway" href="/unity-theory/examples/molecule/"><span class="pathway-number">02 / A whole</span><h3>More than a bag of atoms <span aria-hidden="true">↗</span></h3><p>Connections constrain collective behaviour while the parts remain active.</p><span class="pathway-state">Explore the molecule</span></a> <a class="pathway" href="/unity-theory/examples/life-environment/"><span class="pathway-number">03 / Possibilities</span><h3>Life changes conditions <span aria-hidden="true">↗</span></h3><p>An existing organization can change what becomes possible around it.</p><span class="pathway-state">Explore life and environment</span></a> </div> <p class="reading-note"><a href="/unity-theory/examples/">All six examples</a> · <a href="/unity-theory/concepts/">Explore the source meanings</a></p> </section> <section class="open-question shell"><p class="eyebrow">The work ahead</p><h2>A framework to investigate.</h2><div class="prose" data-source-projection="DOC-STATUS"><h2 id="open-extensions-to-prove--not-definitions">Open extensions to prove — not definitions</h2>\n<ol>\n<li>Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.</li>\n<li>Whether gravity is an emergent higher-scale geometric/mode regime.</li>\n<li>Whether cosmological background evolution selects which resonant geometries are accessible.</li>\n<li>Whether one cross-domain mathematical invariant or promotion criterion exists.</li>\n<li>Whether RRG yields a novel prediction beyond existing frameworks.</li>\n<li>Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.</li>\n</ol></div><p><a href="/unity-theory/research-status/">Read current research status</a></p></section> <section class="shell edition-note"><p class="eyebrow">The current edition</p><p>Core definitions, source-reported evidence and open extensions remain distinct. <a href="/unity-theory/references/">Find the sources</a> and <a href="/unity-theory/research-status/">follow the current status</a>.</p><p class="reading-note">Public introduction: author approval pending.</p></section> </main> <aside class="source-note shell" aria-label="Source availability"> <span class="status-dot" aria-hidden="true"></span> <div><strong>Current sources available</strong> <p>13 supplied files checked against the recorded edition. Website explanations are drafts.</p></div> </as`... 391 more characters,
+    expected: `<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible."><meta name="robots" content="noindex, nofollow"><meta name="color-scheme" content="light dark"><title>How do parts become a whole? · Unity Theory</title><link rel="canonical" href="https://unity-theory.invalid/unity-theory/"><meta property="og:title" content="How do parts become a whole?"><meta property="og:description" content="Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible."><meta property="og:url" content="https://unity-theory.invalid/unity-theory/"><meta property="og:type" content="website"><script type="application/ld+json" data-site-metadata>{"@context":"https://schema.org","@type":"WebPage","dateModified":"2026-10-03","description":"Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Unity Theory / RRG","url":"https://unity-theory.invalid/unity-theory/"},"name":"How do parts become a whole?","url":"https://unity-theory.invalid/unity-theory/"}</script><link rel="icon" type="image/svg+xml" href="/unity-theory/favicon.svg"><link rel="stylesheet" href="/unity-theory/_astro/ReadingLayout.B_EPQKDX.css"></head> <body> <a class="skip-link" href="#main">Skip to content</a> <div class="preview-strip">Private preview <span>· Draft website explanations</span></div> <header class="site-header shell"> <a class="brand" href="/unity-theory/" aria-label="Unity Theory home"><span class="brand-mark" aria-hidden="true">↔</span> Unity Theory</a> <nav aria-label="Main navigation" data-publication-navigation><a href="/unity-theory/start/">Start</a><a href="/unity-theory/framework/">Framework</a><a href="/unity-theory/research-status/">Research</a><a href="/unity-theory/documents/">Documents</a><a href="/unity-theory/articles/">Articles</a><a href="/unity-theory/cite/">Cite</a><a href="/unity-theory/references/">Sources</a><a href="/unity-theory/search/">Search</a></nav> </header> <main id="main" tabindex="-1"> <section class="hero shell" aria-labelledby="research-question"> <div><p class="eyebrow">A question about organization</p> <h1 id="research-question">How do parts become<br class="desktop-break" /> a <em>whole?</em></h1> <p class="hero-lede">Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible.</p> <a class="button" href="/unity-theory/start/">Start with the idea <span aria-hidden="true">→</span></a> <p class="reading-note">A short introduction · No technical background needed</p> <p class="reading-note" data-editorial-state="DOC-HOME">Publication: Draft · private preview. Source fidelity: Stale — rereview required.</p> </div> </section> <section class="reading-section shell"><div class="margin-label"><span>01 / The idea</span><p>From something familiar<br>to a research question.</p></div><div class="prose"><div data-canonical-body="DOC-HOME"><h2 id="begin-with-a-wave">Begin with a wave</h2>\n<p>Watch a ripple cross water. A crest moves across the surface as the water moves locally. The visible pattern and the material carrying it give us two ways to describe one event. <a href="/unity-theory/examples/water/">Explore the wave</a>; the background physics is explained by <a href="/unity-theory/references/#BIB-0060">NOAA's wave explanation</a>.</p>\n<h2 id="arrangement-and-activity-belong-together">Arrangement and activity belong together</h2>\n<p>A string's fixed ends constrain its motion. A molecule's connections constrain its collective behaviour. A cell keeps its organization through ongoing exchanges with its surroundings.</p>\n<p>Recursive Resonant Geometry, or <strong>RRG</strong>, asks how relationships and activity support one another. Its <strong>geometry</strong> means components, connections, boundaries and constraints. Its <strong>mode structure</strong> means the organized ways those parts change and respond over time.</p>\n<h2 id="a-whole-can-become-a-part">A whole can become a part</h2>\n<p>In the RRG proposal, compatible active parts may form a persistent whole. That whole can participate in another organization while activity continues inside it. Existing structures can also change the conditions for what happens next: a star makes new reaction conditions; living systems change their chemical surroundings.</p>\n<p>The wave introduces a distinction, rather than proving this entire cycle. The examples have different physical mechanisms. The research question is whether a useful, predictive organizing principle connects them.</p>\n<p><a href="/unity-theory/start/">Read the full introduction</a> or <a href="/unity-theory/concepts/">explore the concepts</a>.</p></div><figure class="beginner-diagram" data-beginner-diagram="DOC-HOME"><svg viewBox="0 0 360 370" role="img" aria-labelledby="diagram-DOC-HOME-title diagram-DOC-HOME-description"><title id="diagram-DOC-HOME-title">Parts, a whole, and further organization</title><desc id="diagram-DOC-HOME-description">Compatible active parts can couple into a collective organization. A persistent whole may become a useful unit in further combinations. The surroundings constrain the process, and existing organization may change those surroundings. This is the RRG research proposal, not a guaranteed sequence.</desc><rect class="diagram-environment" x="14" y="14" width="332" height="342" rx="22"/><text x="180" y="42">Surroundings &amp; conditions</text>\n      <g class="diagram-node"><rect x="57" y="64" width="246" height="56" rx="8"/><text x="180" y="89">Compatible active parts</text><text class="diagram-subtitle" x="180" y="109">different parts can play different roles</text></g>\n      <path class="diagram-link" d="M180 120 V147"/><path class="diagram-arrowhead" d="m175 142 5 6 5-6"/>\n      <g class="diagram-node"><rect x="57" y="151" width="246" height="68" rx="8"/><text x="180" y="178">Collective organization</text><text class="diagram-subtitle" x="180" y="200">arrangement ↔ activity</text></g>\n      <path class="diagram-link" d="M180 219 V245"/><path class="diagram-arrowhead" d="m175 240 5 6 5-6"/>\n      <g class="diagram-node"><rect x="57" y="249" width="246" height="60" rx="8"/><text x="180" y="276">A useful unit</text><text class="diagram-subtitle" x="180" y="297">in further combinations</text></g>\n      <path class="diagram-feedback" d="M303 277 C333 277 333 84 303 84"/><path class="diagram-arrowhead" d="m309 79-6 5 6 5"/><text class="diagram-subtitle" x="180" y="337">organization can change conditions</text></svg><figcaption>A proposed cycle: active parts → collective organization → a useful unit for further combinations. Conditions affect formation; existing organization may change conditions. Illustration, not a measurement.</figcaption></figure></div></section> <section class="pathways shell" aria-labelledby="explore-title"> <div class="section-heading"><p class="eyebrow">Choose your depth</p><h2 id="explore-title">Follow the question.</h2></div> <div class="pathway-grid"> <a class="pathway" href="/unity-theory/examples/string/"><span class="pathway-number">01 / Constraints</span><h3>A string's possible motion <span aria-hidden="true">↗</span></h3><p>Fixed ends, physical conditions and the patterns they support.</p><span class="pathway-state">Explore the string</span></a> <a class="pathway" href="/unity-theory/examples/molecule/"><span class="pathway-number">02 / A whole</span><h3>More than a bag of atoms <span aria-hidden="true">↗</span></h3><p>Connections constrain collective behaviour while the parts remain active.</p><span class="pathway-state">Explore the molecule</span></a> <a class="pathway" href="/unity-theory/examples/life-environment/"><span class="pathway-number">03 / Possibilities</span><h3>Life changes conditions <span aria-hidden="true">↗</span></h3><p>An existing organization can change what becomes possible around it.</p><span class="pathway-state">Explore life and environment</span></a> </div> <p class="reading-note"><a href="/unity-theory/examples/">All six examples</a> · <a href="/unity-theory/concepts/">Explore the source meanings</a></p> </section> <section class="open-question shell"><p class="eyebrow">The work ahead</p><h2>A framework to investigate.</h2><div class="prose" data-source-projection="DOC-STATUS"><h2 id="open-extensions-to-prove--not-definitions">Open extensions to prove — not definitions</h2>\n<ol>\n<li>Whether the four known fundamental interactions are manifestations of deeper scale-dependent resonant geometry.</li>\n<li>Whether gravity is an emergent higher-scale geometric/mode regime.</li>\n<li>Whether cosmological background evolution selects which resonant geometries are accessible.</li>\n<li>Whether one cross-domain mathematical invariant or promotion criterion exists.</li>\n<li>Whether RRG yields a novel prediction beyond existing frameworks.</li>\n<li>Whether an RRG-inspired AI architecture gives measurable efficiency/generalization advantages.</li>\n</ol></div><p><a href="/unity-theory/research-status/">Read current research status</a></p></section> <section class="shell edition-note"><p class="eyebrow">The current edition</p><p>Core definitions, source-reported evidence and open extensions remain distinct. <a href="/unity-theory/references/">Find the sources</a> and <a href="/unity-theory/research-status/">follow the current status</a>.</p><p class="reading-note">Public introduction: author approval pending.</p></section> </main> <aside class="source-note shell" aria-label="Source availability"> <span class="status-dot" aria-hidden="true"></span> <div><strong>Current sources available</strong> <p>13 supplied files checked against the recorded edition. Website explanations are drafts.</p></div> </as`... 391 more characters,
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/content/contracts.test.ts:391:1
+✖ output audit refuses missing, duplicate, misplaced or unrelated math styles and unnecessary beginner math loads (15413.415208ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:396:40)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:126:58)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:391:124)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /MATH_STYLESHEET_PARITY_FAILURE/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/content/m4.test.ts:71:1
+✖ M4 approved selection filters draft/history/withdrawn downloads and emits dated article RSS at both bases (265.230208ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /FUTURE_PUBLICATION/. Input:
+  
+  'ContractError: REVIEW_REQUIRED: DOC-ARTICLE-UNIT: stale; required 0c3b6ee579c385279b64838f4b6be8493fb9f14fb7f0d6b3fe5f2ec253a8e2ae'
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m4.test.ts:80:42)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ContractError: REVIEW_REQUIRED: DOC-ARTICLE-UNIT: stale; required 0c3b6ee579c385279b64838f4b6be8493fb9f14fb7f0d6b3fe5f2ec253a8e2ae
+        at selectPublication (/Users/new/RiderProjects/RPG_theory/src/lib/publication.ts:43:62)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m4.test.ts:80:53)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m4.test.ts:80:42)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1325:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+        at Test.postRun (node:internal/test_runner/test:1465:19)
+        at Test.run (node:internal/test_runner/test:1390:12),
+    expected: /FUTURE_PUBLICATION/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/content/m6.test.ts:25:1
+✖ M6 correction transaction invalidates dependants, requires explicit synthetic rereview and excludes the replaced route (675.811417ms)
+  Error [ContractError]: UNKNOWN_DEPENDENCY: UT-D02
+      at excerpt (/Users/new/RiderProjects/RPG_theory/src/lib/directives.ts:14:58)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/src/lib/directives.ts:31:32)
+      at Array.flatMap (<anonymous>)
+      at walk (/Users/new/RiderProjects/RPG_theory/src/lib/directives.ts:27:35)
+      at expandDirectives (/Users/new/RiderProjects/RPG_theory/src/lib/directives.ts:64:3)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/src/lib/directives.ts:67:97)
+      at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:160:27)
+      at next (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:86:23)
+      at Object.run (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:57:5)
+      at executor (file:///Users/new/RiderProjects/RPG_theory/node_modules/unified/lib/index.js:901:20) {
+    code: 'UNKNOWN_DEPENDENCY'
+  }
+
+test at tests/content/page-lifecycle.test.ts:9:1
+✖ real home/start emit withdrawal tombstones through the shared consumer and output auditor (2370.841041ms)
+  AssertionError [ERR_ASSERTION]: fatal: not a git repository (or any of the parent directories): .git
+  node:fs:561
+    return binding.open(
+                   ^
+  
+  Error: ENOENT: no such file or directory, open '/private/var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/unity-page-lifecycle-7CZgE6/CONTRIBUTING.md'
+      at Object.openSync (node:fs:561:18)
+      at readFileSync (node:fs:445:35)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/src/lib/build-identity.ts:12:49)
+      at Array.map (<anonymous>)
+      at buildInputs (/Users/new/RiderProjects/RPG_theory/src/lib/build-identity.ts:12:23)
+      at workspaceIdentity (/Users/new/RiderProjects/RPG_theory/src/lib/publication-assets.ts:28:67)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/build.ts:19:17)
+      at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+      at async node:internal/modules/esm/loader:643:26
+      at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: '/private/var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/unity-page-lifecycle-7CZgE6/CONTRIBUTING.md'
+  }
+  
+  Node.js v24.18.0
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/page-lifecycle.test.ts:27:105)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/content/revision-inventory-cli.test.ts:9:72
+✖ real revision CLI accounts for both rename paths without inventing a core-byte change: 04_status_and_blockers.md (1859.896916ms)
+  AssertionError [ERR_ASSERTION]: /Users/new/RiderProjects/RPG_theory/src/lib/source-admission.ts:75
+      throw new ContractError('SOURCE_BINDING_FAILURE', binding.path);
+            ^
+  
+  ContractError: SOURCE_BINDING_FAILURE: CHANGELOG.md
+      at validateBinding (/Users/new/RiderProjects/RPG_theory/src/lib/source-admission.ts:75:11)
+      at qualifyCurrentSource (/Users/new/RiderProjects/RPG_theory/src/lib/source-admission.ts:108:5)
+      at validateCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:34:72)
+      at loadCanonicalCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:195:10)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/check-source-revision.ts:18:49)
+      at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+      at async node:internal/modules/esm/loader:643:26
+      at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+    code: 'SOURCE_BINDING_FAILURE'
+  }
+  
+  Node.js v24.18.0
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/revision-inventory-cli.test.ts:55:36)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/content/revision-inventory-cli.test.ts:9:72
+✖ real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md (1441.479583ms)
+  AssertionError [ERR_ASSERTION]: /Users/new/RiderProjects/RPG_theory/src/lib/source-admission.ts:75
+      throw new ContractError('SOURCE_BINDING_FAILURE', binding.path);
+            ^
+  
+  ContractError: SOURCE_BINDING_FAILURE: CHANGELOG.md
+      at validateBinding (/Users/new/RiderProjects/RPG_theory/src/lib/source-admission.ts:75:11)
+      at qualifyCurrentSource (/Users/new/RiderProjects/RPG_theory/src/lib/source-admission.ts:108:5)
+      at validateCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:34:72)
+      at loadCanonicalCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:195:10)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/check-source-revision.ts:18:49)
+      at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+      at async node:internal/modules/esm/loader:643:26
+      at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+    code: 'SOURCE_BINDING_FAILURE'
+  }
+  
+  Node.js v24.18.0
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/revision-inventory-cli.test.ts:55:36)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/content/website-fidelity.test.ts:157:1
+✖ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (358.402959ms)
+  Error: ENOENT: no such file or directory, open '/var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/unity-fidelity-loader-BmKa0q/CONTRIBUTING.md'
+      at Object.openSync (node:fs:561:18)
+      at readFileSync (node:fs:445:35)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/src/lib/build-identity.ts:12:49)
+      at Array.map (<anonymous>)
+      at buildInputs (/Users/new/RiderProjects/RPG_theory/src/lib/build-identity.ts:12:23)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/website-fidelity.test.ts:169:24)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: '/var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/unity-fidelity-loader-BmKa0q/CONTRIBUTING.md'
+  }

@@ -1,0 +1,1045 @@
+{
+  "config": {
+    "argv": [
+      "/Users/new/.local/node/bin/node",
+      "/Users/new/RiderProjects/RPG_theory/node_modules/@playwright/test/cli.js",
+      "test"
+    ],
+    "configFile": "/Users/new/RiderProjects/RPG_theory/playwright.config.ts",
+    "rootDir": "/Users/new/RiderProjects/RPG_theory/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m6/implementation/final/browser-traces/subpath",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/new/RiderProjects/RPG_theory/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/m6/implementation/final/subpath-browser.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "integration.spec.ts",
+      "file": "integration.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M6 published-only search has an honest empty state, keyboard controls and no-JS browsing",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5448,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1')\nExpected substring: \u001b[32m\"\u001b[7mC\u001b[27moncepts\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mThe c\u001b[27moncepts\u001b[7m, in ordinary words\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('h1') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1')\u001b[22m\n\u001b[2m    14 × locator resolved to <h1>The concepts, in ordinary words</h1>\u001b[22m\n\u001b[2m       - unexpected value \"The concepts, in ordinary words\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1')\nExpected substring: \u001b[32m\"\u001b[7mC\u001b[27moncepts\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mThe c\u001b[27moncepts\u001b[7m, in ordinary words\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('h1') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1')\u001b[22m\n\u001b[2m    14 × locator resolved to <h1>The concepts, in ordinary words</h1>\u001b[22m\n\u001b[2m       - unexpected value \"The concepts, in ordinary words\"\u001b[22m\n\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/integration.spec.ts:7:135",
+                    "location": {
+                      "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/integration.spec.ts",
+                      "column": 135,
+                      "line": 7
+                    },
+                    "snippet": "   5 |  const context=await browser.newContext({javaScriptEnabled:false}),page=await context.newPage();\n   6 |  await page.goto(base+'search/');await expect(page.getByText('No readings have been selected for publication yet.',{exact:false})).toBeVisible();\n>  7 |  await page.locator('[data-search-fallback]').getByRole('link',{name:'concepts',exact:true}).click();await expect(page.locator('h1')).toContainText('Concepts');await context.close();\n     |                                                                                                                                       ^\n   8 |  const js=await browser.newPage(),requests:string[]=[];js.on('request',r=>requests.push(r.url()));\n   9 |  await js.goto(base);expect(requests.some(r=>r.includes('pagefind') || r.includes('search-client'))).toBe(false);\n  10 |  await js.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Search',exact:true}).click();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/integration.spec.ts",
+                        "column": 135,
+                        "line": 7
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1')\nExpected substring: \u001b[32m\"\u001b[7mC\u001b[27moncepts\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mThe c\u001b[27moncepts\u001b[7m, in ordinary words\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('h1') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1')\u001b[22m\n\u001b[2m    14 × locator resolved to <h1>The concepts, in ordinary words</h1>\u001b[22m\n\u001b[2m       - unexpected value \"The concepts, in ordinary words\"\u001b[22m\n\n\n   5 |  const context=await browser.newContext({javaScriptEnabled:false}),page=await context.newPage();\n   6 |  await page.goto(base+'search/');await expect(page.getByText('No readings have been selected for publication yet.',{exact:false})).toBeVisible();\n>  7 |  await page.locator('[data-search-fallback]').getByRole('link',{name:'concepts',exact:true}).click();await expect(page.locator('h1')).toContainText('Concepts');await context.close();\n     |                                                                                                                                       ^\n   8 |  const js=await browser.newPage(),requests:string[]=[];js.on('request',r=>requests.push(r.url()));\n   9 |  await js.goto(base);expect(requests.some(r=>r.includes('pagefind') || r.includes('search-client'))).toBe(false);\n  10 |  await js.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Search',exact:true}).click();\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/integration.spec.ts:7:135"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:23:04.524Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m6/implementation/final/browser-traces/subpath/integration-M6-published-o-f05db-controls-and-no-JS-browsing/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m6/implementation/final/browser-traces/subpath/integration-M6-published-o-f05db-controls-and-no-JS-browsing/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/integration.spec.ts",
+                    "column": 135,
+                    "line": 7
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-fa33162a173aa7c200f4",
+          "file": "integration.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "M6 representative layouts pass reflow and WCAG axe at 320px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9404,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:23:10.683Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-42ffe858e2449a5d898e",
+          "file": "integration.spec.ts",
+          "line": 15,
+          "column": 39
+        },
+        {
+          "title": "M6 representative layouts pass reflow and WCAG axe at 375px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8716,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:23:20.237Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-071827e615c0cf5aae3d",
+          "file": "integration.spec.ts",
+          "line": 15,
+          "column": 39
+        },
+        {
+          "title": "M6 representative layouts pass reflow and WCAG axe at 768px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8579,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:23:28.959Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-457dc9691ac68d69f684",
+          "file": "integration.spec.ts",
+          "line": 15,
+          "column": 39
+        },
+        {
+          "title": "M6 representative layouts pass reflow and WCAG axe at 1280px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8935,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:23:37.544Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-53fb9386794e581ac42c",
+          "file": "integration.spec.ts",
+          "line": 15,
+          "column": 39
+        },
+        {
+          "title": "M6 search focus, doubled text, reduced motion and dark mode remain usable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 491,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:23:46.484Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-32f08d6ba794e80a24d8",
+          "file": "integration.spec.ts",
+          "line": 23,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "introduction.spec.ts",
+      "file": "introduction.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M2 beginner layouts reflow at 320, 375 and 1280 in light and dark with ordered headings and accessible schematics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13289,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:23:46.988Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6a019d5877a81a201b07-de0aeeb4a7bb516bd9d0",
+          "file": "introduction.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "M2 complete reading journey works without JavaScript and makes question, uncertainty and sources findable",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5513,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true })\nExpected: \u001b[32m\"page\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true })\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true })\nExpected: \u001b[32m\"page\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true })\u001b[22m\n\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts:68:120",
+                    "location": {
+                      "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts",
+                      "column": 120,
+                      "line": 68
+                    },
+                    "snippet": "  66 |     await expect(page.locator('math')).not.toHaveCount(0);\n  67 |     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/');\n> 68 |     await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Concepts',exact:true})).toHaveAttribute('aria-current','page');\n     |                                                                                                                        ^\n  69 |   } finally {await context.close();}\n  70 | });\n  71 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts",
+                        "column": 120,
+                        "line": 68
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true })\nExpected: \u001b[32m\"page\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true })\u001b[22m\n\n\n  66 |     await expect(page.locator('math')).not.toHaveCount(0);\n  67 |     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/');\n> 68 |     await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Concepts',exact:true})).toHaveAttribute('aria-current','page');\n     |                                                                                                                        ^\n  69 |   } finally {await context.close();}\n  70 | });\n  71 |\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts:68:120"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:00.283Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m6/implementation/final/browser-traces/subpath/introduction-M2-complete-r-a94ef-tainty-and-sources-findable/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m6/implementation/final/browser-traces/subpath/introduction-M2-complete-r-a94ef-tainty-and-sources-findable/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts",
+                    "column": 120,
+                    "line": 68
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6a019d5877a81a201b07-bc505bafaf28c5b6a5b0",
+          "file": "introduction.spec.ts",
+          "line": 36,
+          "column": 1
+        },
+        {
+          "title": "beginner pages retain reflow with doubled text size",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 651,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:06.230Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6a019d5877a81a201b07-c526cfcc6f993b6c4c50",
+          "file": "introduction.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "the real interaction equation scrolls locally by keyboard and retains loaded mathematical fonts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 364,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:07.017Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6a019d5877a81a201b07-77e9ceb4c061a257ed29",
+          "file": "introduction.spec.ts",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "cold home and real math reading meet owned asset budgets without loading math on plain pages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2399,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:07.387Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6a019d5877a81a201b07-720f344feeac55370c1d",
+          "file": "introduction.spec.ts",
+          "line": 95,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "publication-policy.spec.ts",
+      "file": "publication-policy.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M5 pending About/legal/identity journey works without JavaScript and dependency notice is downloadable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 286,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:09.811Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c554ef38fc6eb2ad358e-06e6fd1477642388cce4",
+          "file": "publication-policy.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "M5 policy pages and expanded footer reflow at 320px with no axe violations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1265,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:10.107Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c554ef38fc6eb2ad358e-11a9d5296a05ccf8bf39",
+          "file": "publication-policy.spec.ts",
+          "line": 16,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "publication.spec.ts",
+      "file": "publication.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:11.902Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "196bb43e3280bf0d8039-93e9a1745ed3924aa196",
+          "file": "publication.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "M4 new pages reflow at 320px and technical print retains equations, status, revision and citation targets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3823,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:14.038Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "196bb43e3280bf0d8039-46bdeca68368cebcc9be",
+          "file": "publication.spec.ts",
+          "line": 24,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "reading.spec.ts",
+      "file": "reading.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "home and start read without JavaScript, navigate by keyboard and show source state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 273,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:17.876Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-34a22171ff679132a9bb",
+          "file": "reading.spec.ts",
+          "line": 16,
+          "column": 1
+        },
+        {
+          "title": "home, nested reading and math pass automated accessibility and 320px reflow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1393,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:18.154Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-84f3e9a983094c077fdb",
+          "file": "reading.spec.ts",
+          "line": 39,
+          "column": 1
+        },
+        {
+          "title": "dark-mode reading remains accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 577,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:19.552Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-b97c71468e68d1b5ec86",
+          "file": "reading.spec.ts",
+          "line": 66,
+          "column": 1
+        },
+        {
+          "title": "unknown routes return real 404 and nested assets use the configured base",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 188,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:20.134Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-27df15f68d44623424f6",
+          "file": "reading.spec.ts",
+          "line": 73,
+          "column": 1
+        },
+        {
+          "title": "M1 consumers retain source roles and reported evidence independently of website fidelity",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 791,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:20.326Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-82c6da5c5880d4b95e7c",
+          "file": "reading.spec.ts",
+          "line": 88,
+          "column": 1
+        },
+        {
+          "title": "M1 claims, concepts, status, matrix and bibliography pass axe and 320px reflow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3070,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:21.122Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-5e4c9c083109ee1a79bb",
+          "file": "reading.spec.ts",
+          "line": 125,
+          "column": 1
+        },
+        {
+          "title": "literature has source-backed DOI identities and usable source extraction details without JS",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1810,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:24.197Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-306c558a61d151dd1f76",
+          "file": "reading.spec.ts",
+          "line": 139,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "technical.spec.ts",
+      "file": "technical.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M3 technical reading and source discovery work without JavaScript",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1538,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:26.018Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f9ec34fa5d3770304f3-7459dd190ee691fc18da",
+          "file": "technical.spec.ts",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "M3 equations and technical readings remain accessible at 320px in dark mode",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9564,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:27.561Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f9ec34fa5d3770304f3-8737f3452cffff8a3b15",
+          "file": "technical.spec.ts",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "M3 evidence attribution, scope and open tests remain visible beside the actual sources",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 592,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T06:24:37.132Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f9ec34fa5d3770304f3-1c248c4d624cad2c7ada",
+          "file": "technical.spec.ts",
+          "line": 54,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-05T06:23:03.617Z",
+    "duration": 94188.304,
+    "expected": 23,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

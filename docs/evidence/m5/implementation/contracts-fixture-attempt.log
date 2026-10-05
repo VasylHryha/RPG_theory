@@ -1,0 +1,43 @@
+✔ M5 actual identity stays pending and every rights surface preserves separate scope and lawful exceptions (12.540292ms)
+✔ M5 explicit synthetic credit drives About/footer/CFF without inferred contact or identity (6.698917ms)
+✔ M5 deployment rejects PR, fixture host, unapproved target, missing identity and pending scoped rights with named reasons (3.985625ms)
+✔ M5 scoped license declarations bind exact files; no additional license state cannot imply a grant (2.000458ms)
+✖ M5 targeted legal-copy control flags the faux any-use royalty claim; a parser never certifies legal wording (2.508291ms)
+✔ M5 actual workflow is read-only for PRs and manual artifact-bound for deploy; privileged PR mutation refuses (40.746042ms)
+✔ M5 public repository screen refuses private/history paths and reports secret locations without values (1.331334ms)
+✔ M5 actual website and ZIP carry the exact renderer notice without project licensing or administrative material (1501.938916ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 7
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2415.588875
+
+✖ failing tests:
+
+test at tests/content/m5.test.ts:1:6228
+✖ M5 targeted legal-copy control flags the faux any-use royalty claim; a parser never certifies legal wording (2.508291ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + []
+  - [
+  -   'LEGAL_COPY_REVIEW_REQUIRED'
+  - ]
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m5.test.ts:55:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [],
+    expected: [ 'LEGAL_COPY_REVIEW_REQUIRED' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

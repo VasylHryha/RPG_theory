@@ -1,0 +1,29 @@
+
+> unity-theory@0.0.1 check
+> astro check
+
+21:45:05 [content] Syncing content
+21:45:05 [content] Astro config changed
+21:45:05 [content] Clearing content store
+21:45:05 [content] Synced content
+21:45:05 [types] Generated 1.28s
+21:45:05 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+[96msrc/lib/library.ts[0m:[93m29[0m:[93m31[0m - [93mwarning[0m[90m ts(6133): [0m's' is declared but its value is never read.
+
+[7m29[0m export function renderHistory(s:Selection,base='/') {
+[7m  [0m [93m                              ~[0m
+
+[96msrc/lib/publication-assets.ts[0m:[93m33[0m:[93m31[0m - [93mwarning[0m[90m ts(6133): [0m'entries' is declared but its value is never read.
+
+[7m33[0m export function artifactPaths(entries: Entry[],exportIds:string[],sourceKeys:string[],releaseId:string,preview:boolean) {
+[7m  [0m [93m                              ~~~~~~~[0m
+[96msrc/lib/publication-assets.ts[0m:[93m10[0m:[93m18[0m - [93mwarning[0m[90m ts(6133): [0m'stableJSON' is declared but its value is never read.
+
+[7m10[0m import { sha256, stableJSON } from './identity.js';
+[7m  [0m [93m                 ~~~~~~~~~~[0m
+
+Result (62 files): 
+- 0 errors
+- 0 warnings
+- 3 hints
+

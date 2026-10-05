@@ -1,0 +1,107 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-STABILITY",
+  "fingerprint": "e85d18abd219a35af57659dd0fc8f81afaeed2ca7d525198934b39ced58f1c93",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Independent bounded M2 source/display review: The source definition is self-consistent geometry-mode closure during an interval, not permanence or a replacement numerical threshold. Existing unchanged rendered-layout and read-aloud evidence reused after exact input/artifact comparison. This accepts website fidelity only; the entry remains a private draft.",
+  "inputs": {
+    "fingerprint": "e85d18abd219a35af57659dd0fc8f81afaeed2ca7d525198934b39ced58f1c93",
+    "ownRead": {
+      "id": "DOC-CONCEPT-STABILITY",
+      "route": "/concepts/stability/",
+      "title": "Stability: what persists?",
+      "description": "The RRG definition and the measurements used to test particular systems.",
+      "revision": 1,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-03",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D04"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## In ordinary words\n\nAn organization can persist while activity continues inside it. In the supplied core, stability means that geometry and mode structure form a self-consistent closed organization during the interval in question. Persistence may be short or long.\n\n## Compare the questions\n\nA molecule can be considered over a particular lifetime; a living cell needs ongoing exchanges. To test a specified model, we may measure how long a state lasts, how it responds to a perturbation or whether nearby states approach it.\n\n**Bounded persistence** asks whether the chosen organization remains within stated limits over an interval. **Recovery** asks whether it returns after a disturbance. **Attraction** asks whether nearby states tend toward it. These describe different tests; observing one is not automatically a result about the others.\n\nThe framework allows different mathematical tests for different systems. They do not replace its locked meaning. A self-consistency definition is not an independently established universal stability theorem.\n\n## The source definition\n\n::claim{id=\"UT-D04\" view=\"statement\"}\n\nHere $G$ denotes organization and $M$ the full temporal mode structure. Their reciprocal relation is the RRG definition being used. A particular application still needs its conditions, equations and evidence; the definition alone does not give a numerical threshold.\n\n## Continue the question\n\nCompare the [cell example](/examples/cell/) with [recursion and scale](/concepts/recursion/). Return to [all concepts](/concepts/).\n",
+      "sourceMapping": "Core §4 and framework §§2.4, 3 proposition 2, 13. The persistence/recovery/attraction comparison explains distinct measurements without redefining source stability.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-03",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "01dc34fee23953cc47ca4eac2452d920fe8f0ab56b2897b285172e6ff9ec95ce",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "233aa4b09d862ad48bef24380acf9d92af7fabd0e77ffd43a08f8c4cab14b0eb",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Closure, persistence, recovery and attraction remain distinct; the rendered UT-D04 excerpt exactly reproduces core 4.",
+    "meaning": "The source definition is self-consistent geometry-mode closure during an interval, not permanence or a replacement numerical threshold.",
+    "assumptions": "Measurements require a chosen interval, limits, conditions and specified model; observing persistence alone does not establish attraction/recovery.",
+    "hypotheses": "Particular applications still need conditions, equations and evidence, consistent with core 4 and the framework stability discussion.",
+    "evidenceDescriptions": "The page explicitly denies an independently established universal stability theorem and introduces no empirical certification.",
+    "openQuestions": "Particular applications still need conditions, equations and evidence, consistent with core 4 and the framework stability discussion.",
+    "attribution": "Compared with the original supplied RRG_CURRENT documents and the rendered canonical callouts. The page explicitly denies an independently established universal stability theorem and introduces no empirical certification. This decision is agent review, not author approval or independent scientific certification.",
+    "sourceMappings": "Checked the declared mapping: Core §4 and framework §§2.4, 3 proposition 2, 13. The persistence/recovery/attraction comparison explains distinct measurements without redefining source stability. Source identities and canonical dependency meanings are recorded in inputs; originals remain unchanged."
+  }
+}

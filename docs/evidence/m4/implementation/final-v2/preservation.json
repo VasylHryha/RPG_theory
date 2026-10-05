@@ -1,0 +1,37 @@
+{
+  "status": "PASS_WITH_UNOWNED_RUNTIME_STATE_CHANGE",
+  "baselinePaths": 2171,
+  "ownedChangedPaths": [
+    "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+    "research/publication/pages/technical-documents.md",
+    "research/publication/release.json",
+    "scripts/audit-output.ts",
+    "scripts/build.ts",
+    "scripts/css-resources.ts",
+    "scripts/static-server.ts",
+    "src/components/CanonicalPage.astro",
+    "src/lib/content.ts",
+    "src/lib/presentation.ts",
+    "src/lib/publication.ts",
+    "src/pages/references.astro",
+    "src/styles/global.css",
+    "tests/content/fidelity-fixture.ts"
+  ],
+  "unexpectedChanges": [],
+  "riderRuntime": {
+    "path": ".idea/.idea.RPG_theory/.idea/workspace.xml",
+    "baselineSha256": "9cc536f890b2e6ff85fd76eed241344a3411ccf0e5decb6aee2b314b3afb01f2",
+    "observedSha256": "51fc4612e7b38c540fb0067b5121d74f4dbc5c429b0379d78ffea9ca30578427",
+    "writtenByTask": false,
+    "origin": "not independently established",
+    "action": "left untouched"
+  },
+  "protectedRegistryAndLock": {
+    "research/publication/website-reviews.yaml": true,
+    "research/publication/reviews.yaml": true,
+    "package-lock.json": true,
+    "src/layouts/ReadingLayout.astro": true,
+    "src/lib/source-display.ts": true,
+    "config/research-source.json": true
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D01",
+  "fingerprint": "e3b441621a409bcb5acfdaf4866074eeff38a1b8a6976744435769b644baab07",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Separate bounded High M3 original/sidecar/renderer/output comparison: 00 §1 relational organization includes components, connectivity, boundaries and constraints, beyond visible shape. Website fidelity only; private draft and scientific/release gates remain distinct.",
+  "inputs": {
+    "fingerprint": "e3b441621a409bcb5acfdaf4866074eeff38a1b8a6976744435769b644baab07",
+    "ownRead": {
+      "id": "UT-D01",
+      "route": "/claims/UT-D01/",
+      "title": "Geometry",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 1,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 6,
+        "endLine": 14,
+        "excerptSha256": "680c99c03b1ea11424b27fef2214ae09b72646cd103d2f025b5dc5c7a38c7e34"
+      },
+      "statement": "## 1. Geometry \\(G\\)\n\nIn RRG, **geometry** means the organization of a system at a chosen scale:\n\n\\[\nG=\\{\\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\\}.\n\\]\n\nGeometry is not limited to visible Euclidean shape.\n",
+      "plainLanguage": "Organization at a chosen scale includes components, relationships, boundaries and constraints.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §1; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+        "plainLanguageSha256": "bb7608084334c757a665fdad6dcc4316f14185b431e133921c43c56e36ead979",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+        "plainLanguageSha256": "bb7608084334c757a665fdad6dcc4316f14185b431e133921c43c56e36ead979",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared original source wording, sidecar and both rendered bodies: 00 §1 relational organization includes components, connectivity, boundaries and constraints, beyond visible shape.",
+    "meaning": "00 §1 relational organization includes components, connectivity, boundaries and constraints, beyond visible shape. Both saved canonical bodies and record details match the live renderer; technical guides match actual source context and heading anchors (evidence-reuse.json).",
+    "assumptions": "Original conditions and model-specific limitations remain in the source body and applicable context. No additional website assumption is imposed. Definitions and optional stronger implementations remain distinct.",
+    "hypotheses": "00 §1 relational organization includes components, connectivity, boundaries and constraints, beyond visible shape. Proposed/open extensions retain their source-reported classification; no experiment, universal law or scientific truth is certified.",
+    "evidenceDescriptions": "Displayed evidence state is not-applicable. Reported source assertions remain attributed, not website-reproduced. 08 E06/E07 access restrictions remain in original excerpts and context where applicable. Historical cavity/response work NOT_SELECTED / NOT_RUN.",
+    "openQuestions": "00 §1 relational organization includes components, connectivity, boundaries and constraints, beyond visible shape. The original 04 six-question register, 06 failure/core-impact columns, 07 open boundary and 02/03 test programme remain separate from locked definitions.",
+    "attribution": "Compared source authors/URLs and bibliography links in original extracts and rendered details. No independent paper result is assigned to this website. Supplied Checked/Location/Inspected source statements describe source authors' reported access.",
+    "sourceMappings": "R-CURRENT-CORE lines 6–14; full original and excerpt hashes checked by shared loader. 00_LOCKED_CORE.md §1; new navigation ID, source has no UT ID. Dependencies and source-local citation aliases validated by shared loader; original S01 identities are source-namespaced. Both base-path bodies compared with actual saved output."
+  }
+}

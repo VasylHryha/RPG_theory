@@ -1,0 +1,126 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-LIBRARY",
+  "fingerprint": "18b622f9cf695d5a881d6a49174a255796f78bed1dc34f3d97ee11bc8c5d086e",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Separate bounded High M3 original/sidecar/renderer/output comparison: Authored index correctly identifies 00 as definition authority, 05 as change-control authority, current 02/03 implementations and supplied changelog. Current retained addenda remain accessible; separate historical cavity/response work is not selected and no numerical result is claimed. Website fidelity only; private draft and scientific/release gates remain distinct.",
+  "inputs": {
+    "fingerprint": "18b622f9cf695d5a881d6a49174a255796f78bed1dc34f3d97ee11bc8c5d086e",
+    "ownRead": {
+      "id": "DOC-LIBRARY",
+      "route": "/documents/",
+      "title": "Current technical documents",
+      "description": "Read the current research edition and its definition and change-control authorities.",
+      "revision": 1,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-04",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-CONTROL",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-MATH"
+      ],
+      "dependsOn": [
+        "DOC-CONTROL",
+        "DOC-CORE",
+        "DOC-FRAMEWORK",
+        "DOC-MATH"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Read the current research edition and its definition and change-control authorities.",
+      "evidenceState": "not-applicable",
+      "body": "## Start with the definition authority\n\n- [00 — Locked core](/documents/locked-core/): normative definitions, structural recursion and the explicit open-extension boundaries.\n- [05 — Research and change control](/changes/): classification of research and the proof gate for a proposed definition change.\n\n- [Current source changelog](/changes/source-history/): adopted source repairs and its evidence-only update.\n\n## Then read the implementations and tests\n\n- [02 — Scientific framework](/framework/): non-normative propositions, source-reported support and research programme.\n- [03 — Candidate mathematics](/math/): model assumptions, equations, proposed experiments and retained addenda.\n- [04 — Research status](/research-status/), [06/07/08 evidence](/evidence/) and [open questions](/open-problems/): what is reported and what remains to be demonstrated.\n\nEach reading retains its supplied edition and source context. The source body is rendered from the original document rather than maintained as a separate website copy. [Start](/start/) offers a simpler reading path.\n\n## Current and historical work\n\nThe v0.1a/v0.1b addenda retained inside the current mathematical document belong to that supplied edition. Its candidate calculations and experiments are proposals, not results executed by this website. The separate historical cavity/response-reduction calculations are not selected for this edition’s website; they are not presented as evidence for the current programme.\n",
+      "sourceMapping": "Navigation and context for the original current documents and existing source-bound records.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-04",
+    "dependencies": [
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "375a3eb4db65598912da36cf318f4b59936e8d7cc81f9680c5df911e5cd7f843"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "343448dbcd4e46d8f8c36c3b40594e82d52013b9ab896037e5ffb12b6d56ed13"
+      },
+      {
+        "entryId": "DOC-FRAMEWORK",
+        "semanticDigest": "ab39802921a89a6e37e592cc2a2ee186881aa71bc215d97a8cd34121e3cacd85"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "79de4452376a7ede04b62f6aefea2ed26e1b35b7649accaeb002bf5120c93c73"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-INTERACTIONS",
+        "path": "research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "520f101b8b1fe65cdac0816d6be29e395abdbb0ec27f014c1570718994e553b0",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "9ffce93031fcbd8b9aa51f264e385753e7bcbbdada8abb88cdad08202426e7f5",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared original source wording, sidecar and both rendered bodies: Authored index correctly identifies 00 as definition authority, 05 as change-control authority, current 02/03 implementations and supplied changelog. Current retained addenda remain accessible; separate historical cavity/response work is not selected and no numerical result is claimed.",
+    "meaning": "Authored index correctly identifies 00 as definition authority, 05 as change-control authority, current 02/03 implementations and supplied changelog. Current retained addenda remain accessible; separate historical cavity/response work is not selected and no numerical result is claimed. Both saved canonical bodies and record details match the live renderer; technical guides match actual source context and heading anchors (evidence-reuse.json).",
+    "assumptions": "Original conditions and model-specific limitations remain in the source body and applicable context. No additional website assumption is imposed. Definitions and optional stronger implementations remain distinct.",
+    "hypotheses": "Authored index correctly identifies 00 as definition authority, 05 as change-control authority, current 02/03 implementations and supplied changelog. Current retained addenda remain accessible; separate historical cavity/response work is not selected and no numerical result is claimed. Proposed/open extensions retain their source-reported classification; no experiment, universal law or scientific truth is certified.",
+    "evidenceDescriptions": "Displayed evidence state is not-applicable. Reported source assertions remain attributed, not website-reproduced. 08 E06/E07 access restrictions remain in original excerpts and context where applicable. Historical cavity/response work NOT_SELECTED / NOT_RUN.",
+    "openQuestions": "Authored index correctly identifies 00 as definition authority, 05 as change-control authority, current 02/03 implementations and supplied changelog. Current retained addenda remain accessible; separate historical cavity/response work is not selected and no numerical result is claimed. The original 04 six-question register, 06 failure/core-impact columns, 07 open boundary and 02/03 test programme remain separate from locked definitions.",
+    "attribution": "Compared source authors/URLs and bibliography links in original extracts and rendered details. No independent paper result is assigned to this website. Supplied Checked/Location/Inspected source statements describe source authors' reported access.",
+    "sourceMappings": "Authored navigation/context compared with its original source documents and selected dependency routes. Navigation and context for the original current documents and existing source-bound records. Dependencies and source-local citation aliases validated by shared loader; original S01 identities are source-namespaced. Both base-path bodies compared with actual saved output."
+  }
+}

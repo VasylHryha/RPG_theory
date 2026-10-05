@@ -1,0 +1,9 @@
+
+Running 2 tests using 1 worker
+
+(node:36291) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/integration.spec.ts:4:1 › M6 published-only search has an honest empty state, keyboard controls and no-JS browsing (419ms)
+  ✓  2 tests/e2e/introduction.spec.ts:36:1 › M2 complete reading journey works without JavaScript and makes question, uncertainty and sources findable (672ms)
+
+  2 passed (1.8s)

@@ -4,7 +4,11 @@ import { activeConfig, activeMode } from '../lib/site-config';
 import { canonicalURL, withBase } from '../lib/urls';
 import { renderNavigation } from '../lib/presentation';
 import { activePublication } from '../lib/publication';
-import mathStylesheet from 'katex/dist/katex.min.css?url';
+import { renderFooter } from '../lib/publication-policy';
+import { pageMetadata, metadataJSON } from '../lib/site-metadata';
+// Use the stylesheet belonging to rehype-katex's lockfile-pinned renderer.
+// The separately installed root KaTeX version emits different box markup.
+import mathStylesheet from '../../node_modules/rehype-katex/node_modules/katex/dist/katex.min.css?url';
 interface Props { title: string; description: string; route: string; math?: boolean }
 const { title, description, route, math = false } = Astro.props;
 const config = activeConfig();
@@ -18,19 +22,21 @@ const source = {...selected.admission,errorCode:null};
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content={activeMode()==='release' && selected.entries.some(e=>e.route===route && e.publicationState==='published')?'index, follow':'noindex, nofollow'} />
     <meta name="color-scheme" content="light dark" />
     <title>{title} · Unity Theory</title>
     <link rel="canonical" href={canonicalURL(route, config)} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL(route, config)} />
+    <meta property="og:type" content={selected.entries.some(e=>e.route===route && e.kind==='article' && e.publicationState==='published')?'article':'website'} />
+    <script is:inline type="application/ld+json" data-site-metadata set:html={metadataJSON(pageMetadata(title,description,route,config,selected.entries.find(e=>e.route===route)))} />
     <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
     {math && <link rel="stylesheet" href={mathStylesheet} data-math-stylesheet />}
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <div class="preview-strip">Private {activeMode() === 'qualification' ? 'qualification' : 'preview'} <span>· {activeMode()==='qualification'?'Reviewed selection; deployment disabled':'Draft website explanations'}</span></div>
+    {activeMode()!=='release' && <div class="preview-strip">Private {activeMode() === 'qualification' ? 'qualification' : 'preview'} <span>· {activeMode()==='qualification'?'Reviewed selection; deployment disabled':'Draft website explanations'}</span></div>}
     <header class="site-header shell">
       <a class="brand" href={url('/')} aria-label="Unity Theory home"><span class="brand-mark" aria-hidden="true">↔</span> Unity Theory</a>
       <nav aria-label="Main navigation" data-publication-navigation set:html={renderNavigation(selected,route,config.basePath)} />
@@ -41,6 +47,6 @@ const source = {...selected.admission,errorCode:null};
       <div><strong>{source.bytesVerified ? 'Current sources available' : 'Current sources unavailable'}</strong>
       <p>{source.bytesVerified ? `${source.files} supplied files checked against the recorded edition. ${source.currentSourceQualified ? 'Website explanations reviewed against the supplied documents.' : 'Website explanations are drafts.'}` : `Source intake requires attention (${source.errorCode}). No historical document is used as a current substitute.`}</p></div>
     </aside>
-    <footer class="site-footer shell"><p>Unity Theory <span> / Recursive Resonant Geometry</span></p><p>A working research framework · Local preview</p></footer>
+    <footer class="site-footer shell" data-publication-footer set:html={renderFooter(config.basePath)} />
   </body>
 </html>

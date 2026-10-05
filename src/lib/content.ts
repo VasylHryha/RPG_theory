@@ -74,7 +74,7 @@ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; 
       if(title!==statedTitle || stableJSON(authors)!==stableJSON(reference.authors) || !metadata['container-title'].includes(reference.publication) || !years.includes(reference.year) || !reference.checkedAt || new URL(reference.url).hostname!=='doi.org' || decodeURIComponent(new URL(reference.url).pathname.slice(1)).toLowerCase()!==reference.doi?.toLowerCase()) fail('REFERENCE_METADATA_FAILURE',reference.id);
     }
   }
-  assertUniqueRoutes([...entries.values()].map(e=>e.route).concat(['/404.html','/fixtures/math/','/references/']));
+  assertUniqueRoutes([...entries.values()].map(e=>e.route).concat(['/404.html','/fixtures/math/','/references/','/articles/','/cite/','/rss.xml','/search/','/sitemap.xml']));
   const kinds: Record<string,string> = { D:'definition', A:'assumption', R:'derivation', C:'conjecture', E:'evidence', P:'prediction', F:'falsification', O:'open-problem' };
   for (const entry of entries.values()) {
     if (entry.id.startsWith('UT-') && (!/^UT-[DARCEPFO][0-9]{2,}$/.test(entry.id) || kinds[entry.id[3]] !== entry.kind)) fail('INVALID_RECORD_ID',entry.id);
@@ -146,7 +146,7 @@ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; 
   // Bind the transitive rendering/selection policy and its pinned dependencies,
   // not just the entry renderer. A URL, schema, CSS or KaTeX dependency change
   // can change the reviewed presentation without changing source prose.
-  const rendererFiles=['content.ts','website-review.ts','content-schema.ts','markdown.ts','markdown-safety.ts','markdown-tree.ts','directives.ts','source-display.ts','presentation.ts','publication.ts','source-admission.ts','site-config.ts','urls.ts','identity.ts','errors.ts'].map(path=>'src/lib/'+path)
+  const rendererFiles=['content.ts','library.ts','publication-assets.ts','publication-policy.ts','zip.ts','build-identity.ts','website-review.ts','content-schema.ts','markdown.ts','markdown-safety.ts','markdown-tree.ts','directives.ts','source-display.ts','presentation.ts','publication.ts','search.ts','site-metadata.ts','source-admission.ts','site-config.ts','urls.ts','identity.ts','errors.ts'].map(path=>'src/lib/'+path)
     .concat(filesIn(resolve(root,'src')).filter(path=>path.endsWith('.astro') || path.endsWith('.css')).map(path=>'src/'+path),['astro.config.mjs','package-lock.json']).sort();
   const rendererSha256=sha256(stableJSON(rendererFiles.map(path=>[path,sha256(readFileSync(resolve(root,path)))])));
   const corpus = { entries, sources, references, evidence, aliases: new Map([...aliases].map(([k,a])=>[k,a.bibliographyId])), root, websiteReviews:(input.websiteReviews ?? []).map(r=>websiteReviewSchema.parse(r)), admission, rendererSha256 };

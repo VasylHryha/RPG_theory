@@ -1,0 +1,13 @@
+/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:20
+function fail(code: string, message: string): never { throw new ContractError(code, message); }
+                                                            ^
+
+ContractError: SOURCE_BINDING_FAILURE: Corpus extraction membership differs from admitted bindings
+    at fail (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:20:61)
+    at validateCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:154:122)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/check-m6-integration.ts:30:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  code: 'SOURCE_BINDING_FAILURE'
+}
+
+Node.js v24.18.0

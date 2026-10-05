@@ -1,0 +1,9 @@
+---
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { publicationCredit, renderAbout } from '../lib/publication-policy';
+import { activeConfig } from '../lib/site-config';
+const html=renderAbout(publicationCredit(),activeConfig().basePath);
+---
+<ReadingLayout title="About and contact" description="Project credit, contact and contribution information, with pending owner decisions shown explicitly." route="/about/">
+  <article class="article shell"><h1>About and contact</h1><div class="prose" data-about set:html={html} /></article>
+</ReadingLayout>

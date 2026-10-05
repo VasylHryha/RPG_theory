@@ -1,0 +1,33 @@
+08:52:38 [vite] Re-optimizing dependencies because lockfile has changed
+08:52:38 [content] Syncing content
+08:52:38 [content] Astro config changed
+08:52:38 [content] Clearing content store
+08:52:38 [content] Synced content
+08:52:38 [types] Generated 758ms
+08:52:38 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+[96mpublic/search-client.js[0m:[93m38[0m:[93m33[0m - [93mwarning[0m[90m ts(6385): [0m'status' is deprecated.
+
+[7m38[0m     if (request === generation) status.textContent = 'Search is unavailable. Browse the topic and document indexes below.';
+[7m  [0m [93m                                ~~~~~~[0m
+[96mpublic/search-client.js[0m:[93m36[0m:[93m5[0m - [93mwarning[0m[90m ts(6385): [0m'status' is deprecated.
+
+[7m36[0m     status.textContent = found.results.length ? `${found.results.length} result${found.results.length === 1 ? '' : 's'}${found.results.length > 20 ? '; showing the first 20' : ''}.` : 'No results. Try a different word or browse the indexes below.';
+[7m  [0m [93m    ~~~~~~[0m
+[96mpublic/search-client.js[0m:[93m14[0m:[93m3[0m - [93mwarning[0m[90m ts(6385): [0m'status' is deprecated.
+
+[7m14[0m   status.textContent = 'Searching…';
+[7m  [0m [93m  ~~~~~~[0m
+[96mpublic/search-client.js[0m:[93m13[0m:[93m37[0m - [93mwarning[0m[90m ts(6385): [0m'status' is deprecated.
+
+[7m13[0m   if (form.dataset.count === '0') { status.textContent = 'No published readings yet. Browse the topic and document indexes below.'; return; }
+[7m  [0m [93m                                    ~~~~~~[0m
+[96mpublic/search-client.js[0m:[93m12[0m:[93m17[0m - [93mwarning[0m[90m ts(6385): [0m'status' is deprecated.
+
+[7m12[0m   if (!query) { status.textContent = 'Enter a word or phrase to search.'; return; }
+[7m  [0m [93m                ~~~~~~[0m
+
+Result (80 files): 
+- 0 errors
+- 0 warnings
+- 5 hints
+

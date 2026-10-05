@@ -1,0 +1,17 @@
+/Users/new/RiderProjects/RPG_theory/scripts/css-resources.ts:25
+  const invalid=(): never => { throw new ContractError('UNSAFE_OUTPUT_CSS',from); };
+                                     ^
+
+ContractError: UNSAFE_OUTPUT_CSS: /_astro/ReadingLayout.CkoKaM4p.css
+    at invalid (/Users/new/RiderProjects/RPG_theory/scripts/css-resources.ts:25:38)
+    at cssResourceURLs (/Users/new/RiderProjects/RPG_theory/scripts/css-resources.ts:89:46)
+    at auditCSS (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:78:24)
+    at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:187:5)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:196:19)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'UNSAFE_OUTPUT_CSS'
+}
+
+Node.js v24.18.0

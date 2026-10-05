@@ -1,0 +1,58 @@
+{
+  "milestone": "M3",
+  "state": "REVIEW_READY",
+  "acceptanceIssued": false,
+  "historicalSupplement": {
+    "selection": "NOT_SELECTED",
+    "execution": "NOT_RUN",
+    "reason": "No retained separate cavity/response calculation in actual current sources and no explicit owner selection."
+  },
+  "sourceAdmission": {
+    "availability": "AVAILABLE_BYTES_VERIFIED",
+    "bytesVerified": true,
+    "corpusScope": "current",
+    "currentSourceQualified": false,
+    "qualificationBasis": "website-source-fidelity/1",
+    "files": 13,
+    "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+    "inventorySeal": "25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a",
+    "edition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01"
+  },
+  "reviewStates": {
+    "accepted": 0,
+    "pending": 10,
+    "stale": 45,
+    "rejected": 0
+  },
+  "artifacts": [
+    {
+      "base": "/",
+      "files": 122,
+      "html": 58,
+      "artifactSha256": "00fcfa71f7ebacb75a7a4a8af8f6133bc730c0eb8b647f947705c4be126dd635",
+      "deployEligible": false
+    },
+    {
+      "base": "/unity-theory/",
+      "files": 122,
+      "html": 58,
+      "artifactSha256": "09a47bb33addadae25b332b037a92228f4fcd4abfbc11c38b59e34253f34c6a3",
+      "deployEligible": false
+    }
+  ],
+  "focusedContracts": {
+    "distinctPassed": 22,
+    "batchPassed": 21,
+    "affectedM3Passed": 6,
+    "overlap": 5
+  },
+  "browserChecks": {
+    "passed": 6,
+    "bases": [
+      "/",
+      "/unity-theory/"
+    ],
+    "suite": "tests/e2e/technical.spec.ts"
+  },
+  "remainingGate": "Separate bounded High M3 acceptance; qualification remains pending. M4 not started."
+}

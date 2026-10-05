@@ -1,0 +1,30 @@
+import { mkdirSync,writeFileSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
+import { args } from './args.js';
+import { loadCanonicalCorpus } from '../src/lib/content.js';
+import { loadSiteConfig } from '../src/lib/site-config.js';
+import { publicationCredit,publicationPolicy,deploymentGates,assertDeploymentAllowed } from '../src/lib/publication-policy.js';
+import { repositoryPathRisk,screenRepositoryFiles,validateContributionWorkflow } from '../src/lib/publication-screen.js';
+import { filesIn } from '../src/lib/source-admission.js';
+import { publicationFor } from '../src/lib/publication.js';
+import { publicationAssets,verifyArchive } from '../src/lib/publication-assets.js';
+import { secretDiagnostics } from '../src/lib/publication-screen.js';
+const options=args(['evidence-dir','require-deploy']);
+const credit=publicationCredit(),policy=publicationPolicy(),config=loadSiteConfig(),corpus=loadCanonicalCorpus();
+const context={event:process.env.GITHUB_EVENT_NAME ?? 'local',ref:process.env.GITHUB_REF ?? 'local',repository:process.env.GITHUB_REPOSITORY ?? '',sha:process.env.GITHUB_SHA ?? ''};
+const paths=execFileSync('git',['ls-files','--cached','--others','--exclude-standard'],{encoding:'utf8'}).trim().split('\n');
+const privatePaths=paths.filter(path=>repositoryPathRisk(path) || path.startsWith('research/'));
+const screen=screenRepositoryFiles(process.cwd(),policy.repositoryFiles);
+const engineeringPaths=['package.json','package-lock.json','CONTRIBUTING.md','RIGHTS.md',...['src','scripts','public','.github'].flatMap(folder=>filesIn(folder).filter(p=>!p.includes('__pycache__')).map(p=>folder+'/'+p))];
+const engineeringScreen=screenRepositoryFiles(process.cwd(),engineeringPaths);
+const assets=publicationAssets(publicationFor('preview',config),config),members=verifyArchive(assets.files.get(assets.zipPath)!);
+const exportFindings=[...members].flatMap(([path,raw])=>secretDiagnostics(raw.toString()).map(f=>({path,...f})));
+const screenBlocked=engineeringScreen.findings.length>0 || exportFindings.length>0;
+const receipt={schema:'unity-publication-readiness/1',date:new Date().toISOString(),status:screenBlocked?'BLOCKED':'PASS',workflow:validateContributionWorkflow(),publicReady:false,deploymentGates:deploymentGates(policy,credit,config,context,corpus.admission.currentSourceQualified),identity:credit,engineeringScreen,privatePreviewExportScreen:{members:members.size,findings:exportFindings,publicationApproved:false},proposedRepositoryScreen:screen,wholeCheckoutPublicReady:false,privateOrUnapprovedRepositoryPaths:privatePaths,repositorySelection:policy.repositoryFiles.length?'PROPOSED_ONLY':'NOT_SELECTED',legalCopyReview:'PENDING_SEPARATE_HIGH',thirdPartyNotice:'Exact installed renderer KaTeX LICENSE retained in website and ZIP; no project license inferred',platformProtections:policy.platformProtections};
+const evidence=options['evidence-dir'] ?? process.env.UNITY_EVIDENCE_DIR ?? 'docs/evidence/m5/implementation';mkdirSync(evidence,{recursive:true});writeFileSync(`${evidence}/publication-readiness.json`,JSON.stringify(receipt,null,2)+'\n');
+console.log(JSON.stringify({status:receipt.status,publicReady:false,repositorySelection:receipt.repositorySelection,privateOrUnapprovedPaths:privatePaths.length,screenFindings:screen.findings.length,deploymentGates:receipt.deploymentGates,platformProtections:policy.platformProtections.status}));
+if(screenBlocked)throw new Error('PUBLICATION_SCREEN_FINDINGS: inspect the private evidence; do not publish');
+if(options['require-deploy']==='true') {
+  assertDeploymentAllowed(policy,credit,config,context,corpus.admission.currentSourceQualified);
+  if(screen.findings.length)throw new Error('PUBLIC_REPOSITORY_SCREEN_BLOCKED');
+}

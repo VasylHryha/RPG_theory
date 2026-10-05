@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-05T06:13:44.789Z",
+  "mode": "preview",
+  "status": "FAIL",
+  "receipts": [
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:sources -- --scope history",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:sources -- --scope current",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:content",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:publication",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config config/site.json --output dist/m6/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m6/preview-root",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build -- --mode preview --config tests/fixtures/site-subpath.json --output dist/m6/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/m6/preview-subpath",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:content",
+      "exitCode": 1
+    }
+  ],
+  "notRun": [
+    "npm run test:e2e -- --output dist/m6/preview-root",
+    "npm run check:m6 -- --dir dist/m6/preview-root --evidence-dir docs/evidence/m6/implementation/final --lighthouse true",
+    "npm run test:e2e -- --output dist/m6/preview-subpath",
+    "npm run check:m6 -- --dir dist/m6/preview-subpath --evidence-dir docs/evidence/m6/implementation/final --lighthouse false"
+  ],
+  "scientificContentAccepted": false,
+  "humanComprehension": "NOT_TESTED",
+  "publicDeployment": "NOT_RUN"
+}

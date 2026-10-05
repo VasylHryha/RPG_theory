@@ -1,0 +1,116 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-WATER",
+  "fingerprint": "5f2c7e2340dc781ddddd6f69ac7788696282a31833d25c5f5a02fa2ff1116e20",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Independent bounded M2 source/display review: This added warm-up prepares the geometry/activity questions in core 1-4 without attributing a water example to the original world document. Existing unchanged rendered-layout and read-aloud evidence reused after exact input/artifact comparison. This accepts website fidelity only; the entry remains a private draft.",
+  "inputs": {
+    "fingerprint": "5f2c7e2340dc781ddddd6f69ac7788696282a31833d25c5f5a02fa2ff1116e20",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-WATER",
+      "route": "/examples/water/",
+      "title": "Water: follow a pattern",
+      "description": "A warm-up about local motion and a collective pattern.",
+      "revision": 1,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-03",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD",
+        "R-CURRENT-SCIENCE"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D04"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0060"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What to notice\n\nA wave crest can travel across water as the water moves locally. Following the crest and following a small region of water give different descriptions. Ordinary waves transfer energy through their medium; [NOAA's wave explanation](/references/#BIB-0060) explains this background physics.\n\n## What this illustrates\n\nThe visible pattern belongs to the collective behaviour. This gives us a first way to ask about parts, relationships and activity together, before trying to identify a persistent object.\n\nA passing ripple is a warm-up, not proof that a persistent higher-level unit has formed. The next example, a [string with fixed ends](/examples/string/), makes the role of constraints clearer.\n\n## Ask the next question\n\nWhich physical conditions support the pattern? How long does it last? Those questions matter when we move from noticing a collective pattern to investigating the source's [meaning of stability](/concepts/stability/).\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+      "sourceMapping": "Supplementary NOAA surface-wave explanation. RRG core §§1–4 supplies the questions, not a claim that every wave is a stable new unit.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-03",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "3473a91eee1b0b1d44e27574527f676f42503c0fbf46c9a575bae209fa561d75",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "8c600e57915ee470dc99eee775d0a683404456e5e18e8ad4bfe7d4beb5ea845e",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Pattern and material parts are distinguished without calling a ripple a new stable RRG object.",
+    "meaning": "This added warm-up prepares the geometry/activity questions in core 1-4 without attributing a water example to the original world document.",
+    "assumptions": "The transient ripple is explicitly not proof of a persistent higher-level unit; physical conditions and duration are questions.",
+    "hypotheses": "The linked stability concept separates noticing a pattern from testing persistent organization.",
+    "evidenceDescriptions": "NOAA BIB-0060 is supplementary elementary wave background, with the preserved limited verification metadata.",
+    "openQuestions": "The linked stability concept separates noticing a pattern from testing persistent organization.",
+    "attribution": "Compared with the original supplied RRG_CURRENT documents and the rendered canonical callouts. NOAA BIB-0060 is supplementary elementary wave background, with the preserved limited verification metadata. This decision is agent review, not author approval or independent scientific certification.",
+    "sourceMappings": "Checked the declared mapping: Supplementary NOAA surface-wave explanation. RRG core §§1–4 supplies the questions, not a claim that every wave is a stable new unit. Source identities and canonical dependency meanings are recorded in inputs; originals remain unchanged."
+  }
+}

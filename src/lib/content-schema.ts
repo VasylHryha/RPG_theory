@@ -8,7 +8,7 @@ export const entrySchema = z.object({
   sourceRefs: z.array(z.string()), dependsOn: z.array(z.string()), related: z.array(z.string()).default([]), bibRefs: z.array(z.string()).default([]),
   contentOrigin: z.enum(['source-bound','proposed','authored']), sourceBinding: bindingSchema.nullable(), statement: z.string().nullable(),
   plainLanguage: z.string().default(''), scope: z.string(), evidenceState: z.enum(['not-applicable','external-supported','project-reported','project-reproduced','proposed','contested']),
-  body: z.string().default(''), sourceMapping: z.string().default(''), adapter: z.enum(['markdown/1','rrg-escaped-addendum/1','rrg-proof-table/1']).default('markdown/1'),
+  body: z.string().default(''), sourceMapping: z.string().default(''), adapter: z.enum(['markdown/1','rrg-escaped-addendum/1','rrg-proof-table/1','rrg-document/1','rrg-math-document/1']).default('markdown/1'),
   assumptions: z.array(z.string()).default([]), testRefs: z.array(z.string()).default([]), evidenceRefs: z.array(z.string()).default([]), limits: z.string().default(''),
   observables: z.string().optional(), conditions: z.string().optional(), targetId: z.string().optional(), procedure: z.string().optional(), rejectionCriterion: z.string().optional(),
   proposalProvenance: z.string().optional(), adopted: z.literal(false).optional(), correctionRef: z.string().optional(), supersedes: z.string().optional(), supersededBy: z.string().optional(), withdrawalReason: z.string().optional(),

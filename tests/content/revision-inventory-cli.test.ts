@@ -31,7 +31,11 @@ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`rea
   record.inspection.inspectedFiles=record.inspection.inspectedFiles.map((p:string)=>p===member?destination:p);
   record.files=record.files.map((f:any)=>{const path=f.path===member?destination:f.path,raw=readFileSync(join(next,record.directory,path));return {...f,path,bytes:raw.length,sha256:sha256(raw)};}).sort((a:any,b:any)=>a.path.localeCompare(b.path));
   record.manifestSha256=sha256(readFileSync(manifest));record.inventorySeal=sha256(stableJSON(record.files));
-  record.bindings=record.bindings.map((b:any)=>({...b,path:b.path===member?destination:b.path}));
+  record.bindings=record.bindings.map((b:any)=>{
+   const path=b.path===member?destination:b.path,raw=readFileSync(join(next,record.directory,path));
+   const lines=raw.toString('utf8').match(/[^\n]*\n|[^\n]+$/g)??[];
+   return {...b,path,sourceSha256:sha256(raw),excerptSha256:sha256(lines.slice(b.startLine-1,b.endLine).join(''))};
+  });
   write(next,'config/research-source.json',record);
   const sources=read(next,'research/publication/source-index.yaml');
   const changedKeys:string[]=[];
@@ -42,7 +46,11 @@ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`rea
    source.path=`${record.directory}/${path}`;source.sha256=file.sha256;source.edition=record.edition;
   }
   write(next,'research/publication/source-index.yaml',sources);
-  const revise=(e:any)=>{e.researchEdition=record.edition;if(e.sourceRefs.some((k:string)=>changedKeys.includes(k))) e.revision++;return e;};
+  const revise=(e:any)=>{
+   e.researchEdition=record.edition;if(e.sourceRefs.some((k:string)=>changedKeys.includes(k))) e.revision++;
+   if(e.sourceBinding){const source=sources.find((s:any)=>s.key===e.sourceBinding.sourceKey),raw=readFileSync(join(next,source.path)),lines=raw.toString('utf8').match(/[^\n]*\n|[^\n]+$/g)??[];e.sourceBinding.sourceSha256=sha256(raw);e.sourceBinding.excerptSha256=sha256(lines.slice(e.sourceBinding.startLine-1,e.sourceBinding.endLine).join(''));}
+   return e;
+  };
   for(const name of ['records','canonical-documents']) write(next,`research/publication/${name}.yaml`,read(next,`research/publication/${name}.yaml`).map(revise));
   for(const name of readdirSync(join(next,'research/publication/pages')).filter(name=>name.endsWith('.md'))) {
    const path=join(next,`research/publication/pages/${name}`),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(readFileSync(path,'utf8'))!;

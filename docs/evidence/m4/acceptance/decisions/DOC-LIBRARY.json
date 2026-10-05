@@ -1,0 +1,126 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-LIBRARY",
+  "fingerprint": "e63a23f4d23457874d0cc88cc509c93f62e0f19091a38f9aff0e083c951b9a93",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04T20:27:30.716Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Accepted bounded M4 library fidelity after comparing its revised orientation, current source sidecars, generated groups/status metadata and links with the original documents. This decision covers presentation and attribution, not source qualification or science.",
+  "inputs": {
+    "fingerprint": "e63a23f4d23457874d0cc88cc509c93f62e0f19091a38f9aff0e083c951b9a93",
+    "ownRead": {
+      "id": "DOC-LIBRARY",
+      "route": "/documents/",
+      "title": "Documents and reading library",
+      "description": "Read the current research edition and its definition and change-control authorities.",
+      "revision": 2,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-04",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-CONTROL",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-MATH"
+      ],
+      "dependsOn": [
+        "DOC-CONTROL",
+        "DOC-CORE",
+        "DOC-FRAMEWORK",
+        "DOC-MATH"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Read the current research edition and its definition and change-control authorities.",
+      "evidenceState": "not-applicable",
+      "body": "## Start with the definition authority\n\n- [00 — Locked core](/documents/locked-core/): normative definitions, structural recursion and the explicit open-extension boundaries.\n- [05 — Research and change control](/changes/): classification of research and the proof gate for a proposed definition change.\n\n- [Current source changelog](/changes/source-history/): adopted source repairs and its evidence-only update.\n\n## Then read the implementations and tests\n\n- [02 — Scientific framework](/framework/): non-normative propositions, source-reported support and research programme.\n- [03 — Candidate mathematics](/math/): model assumptions, equations, proposed experiments and retained addenda.\n- [04 — Research status](/research-status/), [06/07/08 evidence](/evidence/) and [open questions](/open-problems/): what is reported and what remains to be demonstrated.\n\nEach reading retains its supplied edition and source context. The source body is rendered from the original document rather than maintained as a separate website copy. [Start](/start/) offers a simpler reading path.\n\n## Current and historical work\n\nThe v0.1a/v0.1b addenda retained inside the current mathematical document belong to that supplied edition. Its candidate calculations and experiments are proposals, not results executed by this website. The separate historical cavity/response-reduction calculations are not selected for this edition’s website; they are not presented as evidence for the current programme.\n",
+      "sourceMapping": "Navigation and context for the original current documents and existing source-bound records.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-04",
+    "dependencies": [
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "375a3eb4db65598912da36cf318f4b59936e8d7cc81f9680c5df911e5cd7f843"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "343448dbcd4e46d8f8c36c3b40594e82d52013b9ab896037e5ffb12b6d56ed13"
+      },
+      {
+        "entryId": "DOC-FRAMEWORK",
+        "semanticDigest": "ab39802921a89a6e37e592cc2a2ee186881aa71bc215d97a8cd34121e3cacd85"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "79de4452376a7ede04b62f6aefea2ed26e1b35b7649accaeb002bf5120c93c73"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-INTERACTIONS",
+        "path": "research/RRG_CURRENT/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "520f101b8b1fe65cdac0816d6be29e395abdbb0ec27f014c1570718994e553b0",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "9ffce93031fcbd8b9aa51f264e385753e7bcbbdada8abb88cdad08202426e7f5",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "The library preserves locked core as normative authority, framework as non-normative, mathematics as candidate models/tests and proof/status/evidence as distinct readings.",
+    "meaning": "Source changelog and research/change control remain separately linked; website presentation history does not advance the research edition.",
+    "assumptions": "Candidate mathematics and experiments are explicitly proposals, and retained v0.1a/v0.1b addenda belong to the supplied current edition; no new model premise is added.",
+    "hypotheses": "Open questions and evidence readings are discoverable without turning source-reported evidence into proof of universal recursion or force unification.",
+    "evidenceDescriptions": "Separate historical cavity/response calculations remain not selected, with no website execution claim. No historical body or administrative evidence is in the actual ZIP.",
+    "openQuestions": "Private draft states, stale fidelity badges, unpublished dates and citation/rights gates remain visible. Empty Historical Sources group accurately reports no separately selected historical body.",
+    "attribution": "Grouped entries expose audience, edition, revision and update/publication status from the shared manifest. Original links retain source hashes and distinguish explanatory exports from exact-byte downloads.",
+    "sourceMappings": "Compared DOC-CORE/CONTROL/FRAMEWORK/MATH sidecars and original 00/05/02/03 headings/status, current CHANGELOG, actual both-base library rows and companion links. Library adds navigation, not separately maintained science."
+  }
+}

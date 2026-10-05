@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D02",
+  "fingerprint": "4d3a7a9da5d8e1fbd17876289cca0e1dea19cc3e1c4168d712364e10a75f7bf2",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Separate bounded High M3 original/sidecar/renderer/output comparison: 00 §2 full temporal organization includes phases, amplitudes, coupling, response and timescales; no unique scalar-frequency geometry rule. Website fidelity only; private draft and scientific/release gates remain distinct.",
+  "inputs": {
+    "fingerprint": "4d3a7a9da5d8e1fbd17876289cca0e1dea19cc3e1c4168d712364e10a75f7bf2",
+    "ownRead": {
+      "id": "UT-D02",
+      "route": "/claims/UT-D02/",
+      "title": "Mode structure",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 1,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 16,
+        "endLine": 24,
+        "excerptSha256": "2a796e231760733d9076357e12a40973ea228e3a38d41c432dde2cb19f008c0e"
+      },
+      "statement": "## 2. Frequency / mode structure \\(M\\)\n\nIn RRG, **frequency** is shorthand for the system's full temporal mode organization, not one scalar value in hertz:\n\n\\[\nM=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}.\n\\]\n\nA scalar frequency alone is never assumed to uniquely determine a geometry.\n",
+      "plainLanguage": "Mode structure includes rhythms, phases, coupling, response and characteristic times, rather than one number in hertz.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+        "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+        "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared original source wording, sidecar and both rendered bodies: 00 §2 full temporal organization includes phases, amplitudes, coupling, response and timescales; no unique scalar-frequency geometry rule.",
+    "meaning": "00 §2 full temporal organization includes phases, amplitudes, coupling, response and timescales; no unique scalar-frequency geometry rule. Both saved canonical bodies and record details match the live renderer; technical guides match actual source context and heading anchors (evidence-reuse.json).",
+    "assumptions": "Original conditions and model-specific limitations remain in the source body and applicable context. No additional website assumption is imposed. Definitions and optional stronger implementations remain distinct.",
+    "hypotheses": "00 §2 full temporal organization includes phases, amplitudes, coupling, response and timescales; no unique scalar-frequency geometry rule. Proposed/open extensions retain their source-reported classification; no experiment, universal law or scientific truth is certified.",
+    "evidenceDescriptions": "Displayed evidence state is not-applicable. Reported source assertions remain attributed, not website-reproduced. 08 E06/E07 access restrictions remain in original excerpts and context where applicable. Historical cavity/response work NOT_SELECTED / NOT_RUN.",
+    "openQuestions": "00 §2 full temporal organization includes phases, amplitudes, coupling, response and timescales; no unique scalar-frequency geometry rule. The original 04 six-question register, 06 failure/core-impact columns, 07 open boundary and 02/03 test programme remain separate from locked definitions.",
+    "attribution": "Compared source authors/URLs and bibliography links in original extracts and rendered details. No independent paper result is assigned to this website. Supplied Checked/Location/Inspected source statements describe source authors' reported access.",
+    "sourceMappings": "R-CURRENT-CORE lines 16–24; full original and excerpt hashes checked by shared loader. 00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID. Dependencies and source-local citation aliases validated by shared loader; original S01 identities are source-namespaced. Both base-path bodies compared with actual saved output."
+  }
+}

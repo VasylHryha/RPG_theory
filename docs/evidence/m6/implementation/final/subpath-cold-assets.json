@@ -1,0 +1,101 @@
+{
+  "method": "Fresh browser context per route, local no-store HTTP server; observed successful owned response bodies compressed individually at gzip level 9; headers excluded. This is a lab inventory, not a Lighthouse or field CWV result.",
+  "observations": [
+    {
+      "route": "/unity-theory/",
+      "emptyBrowserCache": true,
+      "viewport": 375,
+      "resources": [
+        {
+          "url": "/unity-theory/",
+          "bytes": 10427,
+          "gzipBytes": 3653
+        },
+        {
+          "url": "/unity-theory/_astro/ReadingLayout.B_EPQKDX.css",
+          "bytes": 10860,
+          "gzipBytes": 3265
+        }
+      ],
+      "totalGzipBytes": 6918,
+      "javascriptBytes": 0
+    },
+    {
+      "route": "/unity-theory/start/",
+      "emptyBrowserCache": true,
+      "viewport": 375,
+      "resources": [
+        {
+          "url": "/unity-theory/start/",
+          "bytes": 11723,
+          "gzipBytes": 4382
+        },
+        {
+          "url": "/unity-theory/_astro/ReadingLayout.B_EPQKDX.css",
+          "bytes": 10860,
+          "gzipBytes": 3265
+        }
+      ],
+      "totalGzipBytes": 7647,
+      "javascriptBytes": 0
+    },
+    {
+      "route": "/unity-theory/examples/string/",
+      "emptyBrowserCache": true,
+      "viewport": 375,
+      "resources": [
+        {
+          "url": "/unity-theory/examples/string/",
+          "bytes": 9017,
+          "gzipBytes": 3339
+        },
+        {
+          "url": "/unity-theory/_astro/ReadingLayout.B_EPQKDX.css",
+          "bytes": 10860,
+          "gzipBytes": 3265
+        }
+      ],
+      "totalGzipBytes": 6604,
+      "javascriptBytes": 0
+    },
+    {
+      "route": "/unity-theory/concepts/effective-interactions/",
+      "emptyBrowserCache": true,
+      "viewport": 375,
+      "resources": [
+        {
+          "url": "/unity-theory/concepts/effective-interactions/",
+          "bytes": 23036,
+          "gzipBytes": 5021
+        },
+        {
+          "url": "/unity-theory/_astro/katex.min.CdFUmFPj.css",
+          "bytes": 29632,
+          "gzipBytes": 7852
+        },
+        {
+          "url": "/unity-theory/_astro/ReadingLayout.B_EPQKDX.css",
+          "bytes": 10860,
+          "gzipBytes": 3265
+        },
+        {
+          "url": "/unity-theory/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+          "bytes": 16440,
+          "gzipBytes": 16468
+        },
+        {
+          "url": "/unity-theory/_astro/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+          "bytes": 6908,
+          "gzipBytes": 6931
+        },
+        {
+          "url": "/unity-theory/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+          "bytes": 26272,
+          "gzipBytes": 26300
+        }
+      ],
+      "totalGzipBytes": 65837,
+      "javascriptBytes": 0
+    }
+  ]
+}

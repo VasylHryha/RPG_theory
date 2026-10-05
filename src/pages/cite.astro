@@ -1,0 +1,10 @@
+---
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import {activePublication} from '../lib/publication';
+import {activeConfig} from '../lib/site-config';
+import {renderCite} from '../lib/library';
+const html=renderCite(activePublication(),activeConfig());
+---
+<ReadingLayout title="Cite this edition" description="Citation preview, exact build identity and remaining public credit and rights decisions." route="/cite/">
+<article class="article shell"><h1>Cite this edition</h1><div data-citation set:html={html}/></article>
+</ReadingLayout>

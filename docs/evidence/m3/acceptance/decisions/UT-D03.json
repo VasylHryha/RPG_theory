@@ -1,0 +1,99 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D03",
+  "fingerprint": "f69db31ba08696d0287794d0f9f78d5e7cb1d19425ca32fc4cd7ef148114f8da",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Separate bounded High M3 original/sidecar/renderer/output comparison: 00 §3 R=(G,M) and reciprocal constraint/activity remain together; neither is universally first. Website fidelity only; private draft and scientific/release gates remain distinct.",
+  "inputs": {
+    "fingerprint": "f69db31ba08696d0287794d0f9f78d5e7cb1d19425ca32fc4cd7ef148114f8da",
+    "ownRead": {
+      "id": "UT-D03",
+      "route": "/claims/UT-D03/",
+      "title": "Resonant geometry",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 2,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-01",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 26,
+        "endLine": 43,
+        "excerptSha256": "f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1"
+      },
+      "statement": "## 3. Resonant geometry \\(R\\)\n\nThe basic RRG object is:\n\n\\[\n\\boxed{R=(G,M)}.\n\\]\n\nGeometry and mode structure are inseparable aspects of one organized system:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\n- Geometry constrains/supports which modes can exist.\n- The active mode structure supports, maintains, transforms, or destroys the geometry.\n\nNeither side is defined as universally \"first\".\n",
+      "plainLanguage": "RRG considers organization and mode structure together. Each constrains or changes the other.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-01",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+        "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+        "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared original source wording, sidecar and both rendered bodies: 00 §3 R=(G,M) and reciprocal constraint/activity remain together; neither is universally first.",
+    "meaning": "00 §3 R=(G,M) and reciprocal constraint/activity remain together; neither is universally first. Both saved canonical bodies and record details match the live renderer; technical guides match actual source context and heading anchors (evidence-reuse.json).",
+    "assumptions": "Original conditions and model-specific limitations remain in the source body and applicable context. No additional website assumption is imposed. Definitions and optional stronger implementations remain distinct.",
+    "hypotheses": "00 §3 R=(G,M) and reciprocal constraint/activity remain together; neither is universally first. Proposed/open extensions retain their source-reported classification; no experiment, universal law or scientific truth is certified.",
+    "evidenceDescriptions": "Displayed evidence state is not-applicable. Reported source assertions remain attributed, not website-reproduced. 08 E06/E07 access restrictions remain in original excerpts and context where applicable. Historical cavity/response work NOT_SELECTED / NOT_RUN.",
+    "openQuestions": "00 §3 R=(G,M) and reciprocal constraint/activity remain together; neither is universally first. The original 04 six-question register, 06 failure/core-impact columns, 07 open boundary and 02/03 test programme remain separate from locked definitions.",
+    "attribution": "Compared source authors/URLs and bibliography links in original extracts and rendered details. No independent paper result is assigned to this website. Supplied Checked/Location/Inspected source statements describe source authors' reported access.",
+    "sourceMappings": "R-CURRENT-CORE lines 26–43; full original and excerpt hashes checked by shared loader. 00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID. Dependencies and source-local citation aliases validated by shared loader; original S01 identities are source-namespaced. Both base-path bodies compared with actual saved output."
+  }
+}

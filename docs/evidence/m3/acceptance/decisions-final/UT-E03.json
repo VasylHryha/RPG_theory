@@ -1,0 +1,120 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E03",
+  "fingerprint": "37c225d171ff60677aa362860976531b02267da604aa7364576087861cfb3e87",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Separate bounded High M3 original/sidecar/renderer/output comparison: 08 E03 preserves ATP-driven reconstituted lipid/protein feedback, clauses 3/4/5 and phenomenological movement-model limitation. Same-session matching-renderer CSS repair: canonical source/body/callouts unchanged; force-box width repaired from 2px to 122.64px and actual §39 desktop/mobile output compared. Prior issued decisions remain preserved. Website fidelity only; private draft and scientific/release gates remain distinct.",
+  "inputs": {
+    "fingerprint": "37c225d171ff60677aa362860976531b02267da604aa7364576087861cfb3e87",
+    "ownRead": {
+      "id": "UT-E03",
+      "route": "/claims/UT-E03/",
+      "title": "Mechanochemical feedback loop drives persistent motion of liposomes",
+      "description": "An experiment or restricted result reported by the supplied evidence documents.",
+      "revision": 3,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-02",
+      "sourceRefs": [
+        "R-CURRENT-ADDITIONAL"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D04",
+        "UT-D06"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0026",
+        "BIB-0027"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 53,
+        "endLine": 68,
+        "excerptSha256": "27cc196f0abfaedc926c9d30f5fa26522772bd932514eb51180d435b55083b63"
+      },
+      "statement": "### E03 — Fu et al. (2023)\n\n**Mechanochemical feedback loop drives persistent motion of liposomes**  \nNature Physics 19, 1211–1218. DOI: [10.1038/s41567-023-02058-8](https://doi.org/10.1038/s41567-023-02058-8)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment plus reduced mechanochemical model.  \n**Existing clauses:** §3, §4, §5.\n\nProtein distributions deform vesicles; deformation and motion reorganize the proteins, sustaining a reciprocal loop.\n\n**Scope:** Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.\n\n**Checked:** Full primary article, methods and figure descriptions.  \n**Location:** Figures 1–4; Extended Data Figures 6–8; Results on geometry-sensitive protein redistribution.  \n**Inspected source:** https://www.nature.com/articles/s41567-023-02058-8\n",
+      "plainLanguage": "",
+      "scope": "Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E03 → UT-E03; original identifier preserved.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-02",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "path": "research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "74a6bd1c7157dc64b3af98f9da1203e7fa09fbeb4d8b85f9fab0ff60fcf61878",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "74a6bd1c7157dc64b3af98f9da1203e7fa09fbeb4d8b85f9fab0ff60fcf61878",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared original source wording, sidecar and both rendered bodies: 08 E03 preserves ATP-driven reconstituted lipid/protein feedback, clauses 3/4/5 and phenomenological movement-model limitation.",
+    "meaning": "08 E03 preserves ATP-driven reconstituted lipid/protein feedback, clauses 3/4/5 and phenomenological movement-model limitation. Both saved canonical bodies and record details match the live renderer; technical guides match actual source context and heading anchors (evidence-reuse.json).",
+    "assumptions": "Original conditions and model-specific limitations remain in the source body and applicable context. Reconstituted lipid/protein system with ATP; the simulation uses a phenomenological movement coupling. Definitions and optional stronger implementations remain distinct.",
+    "hypotheses": "08 E03 preserves ATP-driven reconstituted lipid/protein feedback, clauses 3/4/5 and phenomenological movement-model limitation. Proposed/open extensions retain their source-reported classification; no experiment, universal law or scientific truth is certified.",
+    "evidenceDescriptions": "Displayed evidence state is project-reported. Reported source assertions remain attributed, not website-reproduced. 08 E06/E07 access restrictions remain in original excerpts and context where applicable. Historical cavity/response work NOT_SELECTED / NOT_RUN.",
+    "openQuestions": "08 E03 preserves ATP-driven reconstituted lipid/protein feedback, clauses 3/4/5 and phenomenological movement-model limitation. The original 04 six-question register, 06 failure/core-impact columns, 07 open boundary and 02/03 test programme remain separate from locked definitions.",
+    "attribution": "Compared source authors/URLs and bibliography links in original extracts and rendered details. Resolved bibliography identities: BIB-0026, BIB-0027. Supplied Checked/Location/Inspected source statements describe source authors' reported access.",
+    "sourceMappings": "R-CURRENT-ADDITIONAL lines 53–68; full original and excerpt hashes checked by shared loader. 08_ADDITIONAL_PRIMARY_EVIDENCE.md E03 → UT-E03; original identifier preserved. Dependencies and source-local citation aliases validated by shared loader; original S01 identities are source-namespaced. Both base-path bodies compared with actual saved output."
+  }
+}

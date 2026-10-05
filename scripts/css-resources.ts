@@ -15,7 +15,7 @@ const functions = new Set([
   'opacity','saturate','sepia','cubic-bezier','steps','linear'
 ]);
 const atRules = new Set(['font-face','layer','media','supports','keyframes',
-  '-webkit-keyframes','container','scope','starting-style','property']);
+  '-webkit-keyframes','page','container','scope','starting-style','property']);
 const whitespace = (c: string | undefined) => c !== undefined && /[\t\n\f\r ]/.test(c);
 const nameCharacter = (c: string | undefined) => c !== undefined && /[-\w\u0080-\uffff]/.test(c);
 
@@ -91,6 +91,12 @@ export function cssResourceURLs(raw: string, from: string): string[] {
       const value=name();
       if(raw[i]==='(') {
         if(value==='url')urls.push(url());
+        else if(value==='attr') {
+          // Print citation targets use only the ordinary href string form.
+          // Typed/resource-bearing attribute syntax remains unsupported.
+          const match=/^\(\s*href\s*\)/i.exec(raw.slice(i));
+          if(!match)invalid();i+=match![0].length;
+        }
         else {if(!functions.has(value))invalid();closing.push(')');i++;}
       }
       continue;

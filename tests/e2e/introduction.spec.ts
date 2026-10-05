@@ -64,8 +64,8 @@ test('M2 complete reading journey works without JavaScript and makes question, u
     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/effective-interactions/');
     await expect(page.locator('[data-canonical-body]')).toContainText('four successive RRG levels');
     await expect(page.locator('math')).not.toHaveCount(0);
-    await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/');
-    await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Concepts',exact:true})).toHaveAttribute('aria-current','page');
+    await page.goto(process.env.UNITY_TEST_ORIGIN+base+'framework/');
+    await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Framework',exact:true})).toHaveAttribute('aria-current','page');
   } finally {await context.close();}
 });
 

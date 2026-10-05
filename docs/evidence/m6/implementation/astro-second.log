@@ -1,0 +1,68 @@
+09:01:18 [content] Syncing content
+09:01:18 [content] Synced content
+09:01:18 [types] Generated 636ms
+09:01:18 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+[96mscripts/check-m6-integration.ts[0m:[93m85[0m:[93m167[0m - [93mwarning[0m[90m ts(80007): [0m'await' has no effect on the type of this expression.
+
+[7m85[0m         const result=await lighthouse(actual.origin+actual.base+route,{port:chrome.port,onlyCategories:['performance','accessibility'],output:'json',logLevel:'error',formFactor:'mobile',screenEmulation:{mobile:true,width:375,height:812,deviceScaleFactor:1,disabled:false},throttlingMethod:'simulate'});
+[7m  [0m [93m                                                                                                                                                                      ~~~~~~~~~~~~~~~~~~~[0m
+
+[96mtests/content/contracts.test.ts[0m:[93m19[0m:[93m1[0m - [93mwarning[0m[90m ts(6192): [0mAll imports in import declaration are unused.
+
+[7m19[0m import { buildInputs, syntheticRoutes } from '../../src/lib/build-identity.js';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m18[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'privateRoutes' is declared but its value is never read.
+
+[7m18[0m const privateRoutes=activePublication().manifest.routes;
+[7m  [0m [93m      ~~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m17[0m:[93m99[0m - [93mwarning[0m[90m ts(6133): [0m'renderEditorialState' is declared but its value is never read.
+
+[7m17[0m import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
+[7m  [0m [93m                                                                                                  ~~~~~~~~~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m17[0m:[93m81[0m - [93mwarning[0m[90m ts(6133): [0m'renderHomeStatus' is declared but its value is never read.
+
+[7m17[0m import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
+[7m  [0m [93m                                                                                ~~~~~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m17[0m:[93m63[0m - [93mwarning[0m[90m ts(6133): [0m'renderNavigation' is declared but its value is never read.
+
+[7m17[0m import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
+[7m  [0m [93m                                                              ~~~~~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m17[0m:[93m45[0m - [93mwarning[0m[90m ts(6133): [0m'renderReferences' is declared but its value is never read.
+
+[7m17[0m import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
+[7m  [0m [93m                                            ~~~~~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m17[0m:[93m24[0m - [93mwarning[0m[90m ts(6133): [0m'renderRecordDetails' is declared but its value is never read.
+
+[7m17[0m import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
+[7m  [0m [93m                       ~~~~~~~~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m17[0m:[93m10[0m - [93mwarning[0m[90m ts(6133): [0m'renderStatus' is declared but its value is never read.
+
+[7m17[0m import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, reviewLabel, escapeHTML } from '../../src/lib/presentation.js';
+[7m  [0m [93m         ~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m15[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'requiresMathStyles' is declared but its value is never read.
+
+[7m15[0m import { requiresMathStyles } from '../../src/lib/markdown.js';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m5[0m:[93m79[0m - [93mwarning[0m[90m ts(6133): [0m'existsSync' is declared but its value is never read.
+
+[7m5[0m import { mkdtempSync, mkdirSync, writeFileSync, rmSync, readFileSync, cpSync, existsSync } from 'node:fs';
+[7m [0m [93m                                                                              ~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m2[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'renderEntrySync' is declared but its value is never read.
+
+[7m2[0m import { renderEntrySync } from '../../src/lib/content.js';
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m1[0m:[93m29[0m - [93mwarning[0m[90m ts(6133): [0m'publicationFor' is declared but its value is never read.
+
+[7m1[0m import { activePublication, publicationFor } from '../../src/lib/publication.js';
+[7m [0m [93m                            ~~~~~~~~~~~~~~[0m
+
+[96mtests/content/m6.test.ts[0m:[93m15[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'sha256' is declared but its value is never read.
+
+[7m15[0m import { sha256 } from '../../src/lib/identity.js';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Result (83 files): 
+- 0 errors
+- 0 warnings
+- 14 hints
+

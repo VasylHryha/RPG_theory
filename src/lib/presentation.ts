@@ -6,6 +6,7 @@ import { withBase } from './urls.js';
 import { sourceDisplay } from './source-display.js';
 import { parseMarkdown } from './markdown-tree.js';
 import { ContractError } from './errors.js';
+import { load } from 'cheerio';
 
 export function escapeHTML(value: string) { return value.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!)); }
 const roles: Record<string,string> = { definition:'Definition',assumption:'Assumption',conjecture:'Conjecture',evidence:'Evidence',derivation:'Restricted result',prediction:'Prediction',falsification:'Failure test','open-problem':'Open question' };
@@ -33,7 +34,7 @@ export function renderRecordDetails(corpus: Corpus,entry: Entry,base='/') {
   let html='';
   if(entry.contentOrigin==='proposed') html+=`<aside class="prose"><h2>Proposal · not adopted into the current theory</h2><p>${escapeHTML(entry.proposalProvenance ?? '')}</p></aside>`;
   if(entry.publicationState==='superseded') html+=`<aside class="prose"><h2>Historical record · corrected</h2><p>Change record: ${escapeHTML(entry.correctionRef ?? '')}</p>${link(corpus.entries.get(entry.supersededBy!)!.route,`Read replacement ${entry.supersededBy}`,base)}</aside>`;
-  if(entry.plainLanguage) html+=`<section class="prose"><h2>In plain language</h2><p class="reading-note">Source fidelity: ${escapeHTML(reviewLabel(corpus,entry.id))}</p>${renderMarkdownSync(entry.plainLanguage,base,corpus)}</section>`;
+  if(entry.plainLanguage && !isTechnicalDocument(entry)) html+=`<section class="prose"><h2>In plain language</h2><p class="reading-note">Source fidelity: ${escapeHTML(reviewLabel(corpus,entry.id))}</p>${renderMarkdownSync(entry.plainLanguage,base,corpus)}</section>`;
   const context=html;
   const compact=entry.audience==='general' && ['concept','example'].includes(entry.kind);
   html=`<section class="prose"><h2>Scope and sources</h2><p>${escapeHTML(entry.scope)}</p>`;
@@ -72,11 +73,34 @@ export function renderHomeStatus(corpus: Corpus,entry: Entry,base='/') {
   return renderMarkdownSync(text.slice(heading.position.start.offset,next.position.start.offset),base,corpus);
 }
 export function renderNavigation(selection: { entries: Entry[]; manifest: {navigationIds:string[];routes:string[]} },route:string,base='/') {
-  const navigation=[['DOC-START','Start'],['DOC-EXAMPLES','Examples'],['DOC-CONCEPTS','Concepts'],['DOC-STATUS','Research status']].flatMap(([id,label])=>{
+  const navigation=[['DOC-START','Start'],['DOC-FRAMEWORK','Framework'],['DOC-STATUS','Research'],['DOC-LIBRARY','Documents']].flatMap(([id,label])=>{
     const entry=selection.entries.find(e=>e.id===id);return entry && selection.manifest.navigationIds.includes(id)?[{route:entry.route,label}]:[];
   });
+  if(selection.manifest.routes.includes('/articles/'))navigation.push({route:'/articles/',label:'Articles'});
+  if(selection.manifest.routes.includes('/cite/'))navigation.push({route:'/cite/',label:'Cite'});
   if(selection.manifest.routes.includes('/references/')) navigation.push({route:'/references/',label:'Sources'});
+  if(selection.manifest.routes.includes('/search/')) navigation.push({route:'/search/',label:'Search'});
   return navigation.map(item=>`<a href="${escapeHTML(withBase(item.route,base))}"${route===item.route?' aria-current="page"':''}>${item.label}</a>`).join('');
+}
+
+export function isTechnicalDocument(entry: Entry) {
+  return entry.id.startsWith('DOC-') && entry.audience==='technical' && !['superseded','withdrawn'].includes(entry.publicationState);
+}
+
+// Long source readings share a selected-route guide and a TOC taken from the
+// actual rendered headings. No separate scientific summary or heading owner.
+export function renderTechnicalGuide(selection: {corpus: Corpus; entries: Entry[]; manifest:{navigationIds:string[]}},entry: Entry,html: string,base='/') {
+  if(!isTechnicalDocument(entry))return '';
+  const available=(id:string)=>selection.entries.find(item=>item.id===id && selection.manifest.navigationIds.includes(id));
+  const items=[['DOC-FRAMEWORK','Framework'],['DOC-MATH','Mathematics'],['DOC-EVIDENCE','Evidence'],['DOC-STATUS','Status'],['DOC-OPEN-PROBLEMS','Open questions'],['DOC-LIBRARY','Documents']];
+  const navigation=items.flatMap(([id,label])=>{const item=available(id);return item?[`<a href="${escapeHTML(withBase(item.route,base))}"${id===entry.id?' aria-current="page"':''}>${label}</a>`]:[];}).join('');
+  const $=load(html,null,false);
+  const headings=$('h2[id]').toArray().map(el=>({id:$(el).attr('id')!,text:$(el).text()}));
+  const source=entry.sourceBinding?selection.corpus.sources.get(entry.sourceBinding.sourceKey):undefined;
+  const simpler=[['DOC-START','Start'],['DOC-EXAMPLES','Examples'],['DOC-CONCEPTS','Concepts']].flatMap(([id,label])=>{const item=available(id);return item?[link(item.route,label,base)]:[];}).join(' · ');
+  const context=entry.plainLanguage?`<aside class="technical-callout prose" aria-label="Reading context"><h2>Before reading</h2>${renderMarkdownSync(entry.plainLanguage,base,selection.corpus)}</aside>`:'';
+  const toc=headings.length?`<details class="technical-toc"><summary>On this page (${headings.length} sections)</summary><ol>${headings.map(h=>`<li><a href="#${escapeHTML(h.id)}">${escapeHTML(h.text)}</a></li>`).join('')}</ol></details>`:'';
+  return `<nav class="technical-navigation" aria-label="Technical reading">${navigation}</nav><p class="reading-note">${source?`Source: ${escapeHTML(source.path.split('/').pop()!)}. `:''}Edition: ${escapeHTML(entry.researchEdition)}.</p>${simpler?`<p class="reading-note">Simpler reading: ${simpler}.</p>`:''}${context}${toc}`;
 }
 
 // Authored schematics are shared by the page and output auditor. Their bytes are

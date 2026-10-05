@@ -1,0 +1,38 @@
+name: "Scientific correction"
+description: "Identify a possible scientific defect; this report does not revise a definition."
+body:
+  - type: textarea
+    id: record
+    attributes:
+      label: "Affected record or document ID"
+      description: "Use a stable UT-/DOC- ID or the exact original filename."
+    validations:
+      required: true
+  - type: textarea
+    id: passage
+    attributes:
+      label: "Exact passage and location"
+      description: "Quote only the needed passage; include section/line or URL."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Evidence or reproduction"
+      description: "Name sources, assumptions and actual checks. A website bug needs steps, expected and observed behavior."
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: "Proposed change"
+      description: "Describe the smallest change and affected dependants. A core change must address the original seven-part change-control gate."
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: "Limitations and access"
+      description: "State missing inputs, unperformed tests and abstract-only or unavailable access. Do not paste secrets or private correspondence."
+    validations:
+      required: true

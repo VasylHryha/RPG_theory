@@ -1,0 +1,21 @@
+
+> unity-theory@0.0.1 check
+> astro check
+
+22:59:09 [content] Syncing content
+22:59:09 [content] Astro config changed
+22:59:09 [content] Clearing content store
+22:59:09 [content] Synced content
+22:59:09 [types] Generated 1.51s
+22:59:09 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+[96mtests/content/m4.test.ts[0m:[93m59[0m:[93m23[0m - [91merror[0m[90m ts(2345): [0mArgument of type '{ admission: { currentSourceQualified: boolean; availability: "AVAILABLE_BYTES_VERIFIED"; bytesVerified: boolean; corpusScope: "current" | "synthetic"; qualificationBasis: "website-source-fidelity/1"; files: number; coreSha256: string; inventorySeal: string; edition: string; }; entries: { ...; }[]; references: { ......' is not assignable to parameter of type 'Selection'.
+  Property 'corpus' is missing in type '{ admission: { currentSourceQualified: boolean; availability: "AVAILABLE_BYTES_VERIFIED"; bytesVerified: boolean; corpusScope: "current" | "synthetic"; qualificationBasis: "website-source-fidelity/1"; files: number; coreSha256: string; inventorySeal: string; edition: string; }; entries: { ...; }[]; references: { ......' but required in type 'Selection'.
+
+[7m59[0m   const $=load(rssXML(s,cfg),{xmlMode:true});assert.equal($('item').length,1);assert.equal($('item title').text(),article.title);assert.equal($('item link').text(),cfg.origin+(basePath==='/'?article.route:basePath+article.route.slice(1)));assert.equal(new Date($('pubDate').text()).toISOString().slice(0,10),'2026-10-04');
+[7m  [0m [91m                      ~[0m
+
+Result (65 files): 
+- 1 error
+- 0 warnings
+- 0 hints
+

@@ -1,0 +1,31 @@
+09:02:24 [content] Syncing content
+09:02:24 [content] Synced content
+09:02:24 [types] Generated 615ms
+09:02:24 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+[96mscripts/check-m6-integration.ts[0m:[93m28[0m:[93m45[0m - [91merror[0m[90m ts(2322): [0mType 'string' is not assignable to type 'never'.
+
+[7m28[0m   for(let i=0;i<100;i++)entries[i].bibRefs=[syntheticReferences[i].id];
+[7m  [0m [91m                                            ~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mscripts/check-m6-integration.ts[0m:[93m90[0m:[93m14[0m - [93mwarning[0m[90m ts(80007): [0m'await' has no effect on the type of this expression.
+
+[7m90[0m     }finally{await chrome.kill();}
+[7m  [0m [93m             ~~~~~~~~~~~~~~~~~~~[0m
+
+[96mtests/content/contracts.test.ts[0m:[93m388[0m:[93m27[0m - [91merror[0m[90m ts(2304): [0mCannot find name 'renderBeginnerDiagram'.
+
+[7m388[0m     raw.replace('</body>',renderBeginnerDiagram('DOC-HOME')+'</body>'),
+[7m   [0m [91m                          ~~~~~~~~~~~~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m222[0m:[93m22[0m - [91merror[0m[90m ts(2304): [0mCannot find name 'escapeHTML'.
+
+[7m222[0m     ['index.html',`${escapeHTML(activePublication().entries.find(e=>e.id==='DOC-HOME')!.title)}</h1>`,'All interactions proved.</h1>','CONTENT_METADATA_PARITY_FAILURE'],
+[7m   [0m [91m                     ~~~~~~~~~~[0m
+[96mtests/content/contracts.test.ts[0m:[93m16[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'buildInputs' is declared but its value is never read.
+
+[7m16[0m import { buildInputs } from '../../src/lib/build-identity.js';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Result (83 files): 
+- 3 errors
+- 0 warnings
+- 2 hints
+

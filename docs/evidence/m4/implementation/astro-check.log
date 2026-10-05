@@ -1,0 +1,16 @@
+
+> unity-theory@0.0.1 check
+> astro check
+
+21:44:44 [content] Syncing content
+21:44:44 [content] Astro config changed
+21:44:44 [content] Clearing content store
+UNKNOWN_DEPENDENCY: UT-D10
+  Location:
+    /Users/new/RiderProjects/RPG_theory/src/lib/content.ts:49:8
+  Stack trace:
+    at fail (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:49:8)
+    at loadCanonicalCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:374:9)
+    at Object.defineProperty.value (file:///Users/new/RiderProjects/RPG_theory/node_modules/zod/v4/core/schemas.js:2483:36)
+    at file:///Users/new/RiderProjects/RPG_theory/node_modules/astro/dist/content/content-layer.js:259:20
+    at async #doSync (file:///Users/new/RiderProjects/RPG_theory/node_modules/astro/dist/content/content-layer.js:220:5)

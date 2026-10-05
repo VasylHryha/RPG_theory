@@ -1,0 +1,93 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CORE",
+  "fingerprint": "408b83d37e110e0dd45ce2e1347dc4495749971fff278ccec1eec992ddc96fad",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Separate bounded High M3 original/sidecar/renderer/output comparison: Full 00 body preserves relational geometry, full temporal modes, interval closure, heterogeneous internally active constituents, optional replication and scale-dependent mechanisms. §§10–11 retain force/background extensions; §13 points to change control. Website fidelity only; private draft and scientific/release gates remain distinct.",
+  "inputs": {
+    "fingerprint": "408b83d37e110e0dd45ce2e1347dc4495749971fff278ccec1eec992ddc96fad",
+    "ownRead": {
+      "id": "DOC-CORE",
+      "route": "/documents/locked-core/",
+      "title": "The locked RRG core",
+      "description": "The normative definitions in the supplied current research edition.",
+      "revision": 1,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-04",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-CONTROL"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 3,
+        "endLine": 170,
+        "excerptSha256": "71ce27e7514d9039bef52ddcd6884db7e24bcbb37ebf3aad022c66cdb516cfb1"
+      },
+      "statement": "**Status:** normative core.  \n**Rule:** downstream examples, research papers, mathematical models, and analogies may **test or extend** this file but may not silently redefine it.\n\n## 1. Geometry \\(G\\)\n\nIn RRG, **geometry** means the organization of a system at a chosen scale:\n\n\\[\nG=\\{\\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\\}.\n\\]\n\nGeometry is not limited to visible Euclidean shape.\n\n## 2. Frequency / mode structure \\(M\\)\n\nIn RRG, **frequency** is shorthand for the system's full temporal mode organization, not one scalar value in hertz:\n\n\\[\nM=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}.\n\\]\n\nA scalar frequency alone is never assumed to uniquely determine a geometry.\n\n## 3. Resonant geometry \\(R\\)\n\nThe basic RRG object is:\n\n\\[\n\\boxed{R=(G,M)}.\n\\]\n\nGeometry and mode structure are inseparable aspects of one organized system:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\n- Geometry constrains/supports which modes can exist.\n- The active mode structure supports, maintains, transforms, or destroys the geometry.\n\nNeither side is defined as universally \"first\".\n\n## 4. Stability\n\n**Locked definition:** a geometry is stable in RRG while its geometry and mode structure form a self-consistent closed organization:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\nStability is **not permanence**. A state may satisfy the closure for a very short or very long interval.\n\nLifetime, perturbation recovery, Lyapunov stability, decay width, or metastability are **measurements/tests of a particular system**, not replacements for this core definition.\n\n## 5. Higher-level formation\n\nA higher-level resonant geometry may be formed from any compatible collection of lower-level resonant geometries:\n\n\\[\n\\boxed{\\{R_n^1,R_n^2,\\ldots,R_n^m\\}\\rightarrow R_{n+1}}.\n\\]\n\nThe lower-level members:\n\n- do not need to be identical;\n- do not need to duplicate first;\n- can have different roles and internal modes;\n- remain internally active after the higher-level structure forms.\n\nThe higher level introduces new collective constraints and a new collective mode structure while containing the lower levels.\n\n## 6. Variation\n\nDifferent counts, arrangements, compositions, orientations, connections, phases, and environments may create different higher-level resonant geometries from the same lower-level building blocks.\n\n\\[\n\\boxed{\\text{same or related lower units}+\\text{different organization}\\rightarrow\\text{different }R_{n+1}}.\n\\]\n\nVariation is therefore fully compatible with the core and requires no new principle.\n\n## 7. Scale\n\nA **scale** is a level at which a collective resonant geometry can function as an effective unit in further interactions.\n\nDifferent scales may have different:\n\n- characteristic sizes,\n- characteristic times/frequencies,\n- dominant interactions,\n- effective mechanisms,\n- compositions and geometries.\n\nRRG does **not** require the same microscopic mechanism or identical equation at every scale.\n\n## 8. Recursion\n\nThe core recursive claim is structural:\n\n\\[\n\\boxed{\\{R_n^i\\}\\rightarrow R_{n+1}\\rightarrow R_{n+2}\\rightarrow\\cdots}.\n\\]\n\nAt every level the locked relation remains:\n\n\\[\n\\boxed{R_n=(G_n,M_n),\\qquad G_n\\leftrightarrow M_n}.\n\\]\n\nThe mechanisms implementing the relation may change with scale.\n\n## 9. Replication / recurrence\n\nReplication, duplication, autocatalysis, reproduction, aggregation, differentiation, self-assembly, and symmetry breaking are **possible mechanisms of higher-level formation or propagation**, not mandatory steps in the core recursion.\n\nRRG never requires:\n\n\\[\nA\\rightarrow A+A\\rightarrow B\n\\]\n\nat every level.\n\nBiological replication is therefore an example, not the definition of recursion.\n\n## 10. Interaction / force status\n\nThe following is **NOT locked as established fact**:\n\n> known forces are identical to resonant frequencies or correspond one-to-one with scales.\n\nThe locked core only says that interactions occur within and between resonant geometries and can participate in forming higher-level geometries.\n\nThe stronger claim that gravity, electromagnetism, weak, and strong interactions are scale-dependent manifestations of deeper resonant geometry is an **RRG extension to be proven**, not a definition.\n\n## 11. Background / possibility-space status\n\nThe idea that global cosmological/environmental conditions change which resonant geometries are accessible is an **extension compatible with the core**, not part of the minimal definition.\n\n## 12. What counts as contradiction\n\nAn example does **not** contradict RRG merely because:\n\n- the components are different;\n- the higher level does not reproduce itself;\n- the structure is short-lived;\n- the mechanism differs from another scale;\n- the system is stationary rather than visibly oscillating;\n- lower-level units differentiate into different functions;\n- the higher-level interaction differs from the lower-level interaction.\n\nA genuine contradiction must show that a claimed RRG object cannot consistently be represented by the locked relation \\(R=(G,M)\\), or that the proposed recursive higher-level organization cannot be expressed without violating one of the locked definitions.\n\n## 13. Version rule\n\nThis file cannot be changed silently.\n\nAny proposed core change requires all of the following:\n\n1. **Exact current statement** that allegedly fails.\n2. **Concrete counterexample** that cannot be represented under that statement.\n3. **External evidence or derivation** supporting the counterexample.\n4. **Proof that an extension is insufficient** and the definition itself must change.\n5. **Minimal proposed wording change.**\n6. **Impact analysis** showing every previous RRG claim affected by the change.\n7. **Explicit version bump and approval.**\n\nUntil all seven are present, the locked definition remains authoritative.\n",
+      "plainLanguage": "This is the definition authority for RRG. Geometry and full temporal mode structure describe one organized system. Stability means their self-consistent closure during an interval; it does not require permanence. Different parts, mechanisms and equations may occur at different scales. Force unification and background selection remain extensions.\n\nFor a simpler introduction, read [Start](/start/). The [change-control protocol](/changes/) states how a proposed contradiction must be handled.",
+      "scope": "The normative definitions in the supplied current research edition.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md, original current edition; source body is extracted, not independently authored.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-04",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "6e42af700b89730a116c477e5f2cd72968df821c42e63454457ed457dffbd0af",
+        "plainLanguageSha256": "12b21b1e0c760ea6cfd3228c737c24bfa8fb45adde450cda304bd01680aa544b",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "6e42af700b89730a116c477e5f2cd72968df821c42e63454457ed457dffbd0af",
+        "plainLanguageSha256": "34909fdb228e57ebb11fdeccebe654fa56acbdddc3d1e895a095183798b8a111",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared original source wording, sidecar and both rendered bodies: Full 00 body preserves relational geometry, full temporal modes, interval closure, heterogeneous internally active constituents, optional replication and scale-dependent mechanisms. §§10–11 retain force/background extensions; §13 points to change control.",
+    "meaning": "Full 00 body preserves relational geometry, full temporal modes, interval closure, heterogeneous internally active constituents, optional replication and scale-dependent mechanisms. §§10–11 retain force/background extensions; §13 points to change control. Both saved canonical bodies and record details match the live renderer; technical guides match actual source context and heading anchors (evidence-reuse.json).",
+    "assumptions": "Original conditions and model-specific limitations remain in the source body and applicable context. No additional website assumption is imposed. Definitions and optional stronger implementations remain distinct.",
+    "hypotheses": "Full 00 body preserves relational geometry, full temporal modes, interval closure, heterogeneous internally active constituents, optional replication and scale-dependent mechanisms. §§10–11 retain force/background extensions; §13 points to change control. Proposed/open extensions retain their source-reported classification; no experiment, universal law or scientific truth is certified.",
+    "evidenceDescriptions": "Displayed evidence state is not-applicable. Reported source assertions remain attributed, not website-reproduced. 08 E06/E07 access restrictions remain in original excerpts and context where applicable. Historical cavity/response work NOT_SELECTED / NOT_RUN.",
+    "openQuestions": "Full 00 body preserves relational geometry, full temporal modes, interval closure, heterogeneous internally active constituents, optional replication and scale-dependent mechanisms. §§10–11 retain force/background extensions; §13 points to change control. The original 04 six-question register, 06 failure/core-impact columns, 07 open boundary and 02/03 test programme remain separate from locked definitions.",
+    "attribution": "Compared source authors/URLs and bibliography links in original extracts and rendered details. No independent paper result is assigned to this website. Supplied Checked/Location/Inspected source statements describe source authors' reported access.",
+    "sourceMappings": "R-CURRENT-CORE lines 3–170; full original and excerpt hashes checked by shared loader. 00_LOCKED_CORE.md, original current edition; source body is extracted, not independently authored. Dependencies and source-local citation aliases validated by shared loader; original S01 identities are source-namespaced. Both base-path bodies compared with actual saved output."
+  }
+}

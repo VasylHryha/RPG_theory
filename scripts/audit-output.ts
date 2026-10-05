@@ -1,5 +1,7 @@
-import { publicationFor, isHistorical } from '../src/lib/publication.js';
-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram } from '../src/lib/presentation.js';
+import { publicationAssets,rssXML,verifyArchive } from '../src/lib/publication-assets.js';
+import {renderLibrary,renderHistory,renderDownloadTools,renderArticles,renderCite,renderSourceBacklinks} from '../src/lib/library.js';
+import { publicationFor, isHistorical, assertBuildAllowed } from '../src/lib/publication.js';
+import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, renderTechnicalGuide } from '../src/lib/presentation.js';
 import { renderEntrySync } from '../src/lib/content.js';
 import { readFileSync, existsSync, statSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve, join, dirname } from 'node:path';
@@ -14,6 +16,9 @@ import { buildInputs, syntheticRoutes } from '../src/lib/build-identity.js';
 import { buildMode } from '../src/lib/site-config.js';
 import { cssResourceURLs } from './css-resources.js';
 import { requiresMathStyles } from '../src/lib/markdown.js';
+import { renderFooter,renderAbout,renderLegal,publicationCredit } from '../src/lib/publication-policy.js';
+import { renderSearchFallback, searchInputs, searchIdentity, searchable } from '../src/lib/search.js';
+import { pageMetadata, metadataJSON, sitemapXML } from '../src/lib/site-metadata.js';
 
 function normalizedHTML(html: string) {
   const $=load(html,null,false);
@@ -29,19 +34,34 @@ export function auditOutput(directory: string) {
   const root = resolve(directory);
   const info = JSON.parse(readFileSync(join(root, 'build-info.json'), 'utf8'));
   const files = filesIn(root);
-  if (info.schema !== 'unity-build-info/1' || !['preview', 'qualification'].includes(buildMode(info.mode)) || info.deployEligible !== false || info.corpusScope !== (info.mode==='preview'?'private-editorial-preview':'reviewed-current-qualification') || stableJSON(info.syntheticRoutes) !== stableJSON(syntheticRoutes)) throw new ContractError('INVALID_ARTIFACT_IDENTITY', 'Expected the selected private reading corpus');
+  if (info.schema !== 'unity-build-info/1' || info.deployEligible !== (info.mode==='release') || info.corpusScope !== (info.mode==='preview'?'private-editorial-preview':info.mode==='release'?'current':'reviewed-current-qualification') || stableJSON(info.syntheticRoutes) !== stableJSON(info.mode==='release'?[]:syntheticRoutes)) throw new ContractError('INVALID_ARTIFACT_IDENTITY', 'Expected the selected reading corpus');
+  buildMode(info.mode);
+  if(info.mode==='release')assertBuildAllowed(info.mode,info.config,info.sourceIntake);
   if (info.configSha256 !== sha256(stableJSON(info.config)) || Object.entries(buildInputs()).some(([key, value]) => info[key] !== value)) throw new ContractError('STALE_BUILD_INPUTS', 'Source/config/dependency/renderer identities no longer match');
   const selected=publicationFor(info.mode,info.config);
   if (stableJSON(info.sourceIntake) !== stableJSON(selected.admission)) throw new ContractError('STALE_SOURCE_IDENTITY', 'Artifact source identity differs from actual admission');
   if(info.currentSourceQualified!==selected.admission.currentSourceQualified || stableJSON(info.routes)!==stableJSON(selected.manifest.routes)) throw new ContractError('INVALID_ARTIFACT_IDENTITY','Selection/admission mismatch');
   if (stableJSON(info.publicationManifest) !== stableJSON(selected.manifest) || info.publicationManifestSha256 !== selected.manifestSha256) throw new ContractError('PUBLICATION_MANIFEST_MISMATCH','Artifact differs from production selection');
+  const assets=publicationAssets(selected,info.config);
+  const search=JSON.parse(readFileSync(join(root,'search-manifest.json'),'utf8'));
+  const indexed=searchInputs(root,selected.entries,path=>readFileSync(path,'utf8'));
+  if(search.schema!=='unity-search/1' || search.basePath!==info.config.basePath || search.publicationManifestSha256!==selected.manifestSha256 || stableJSON(search.inputs)!==stableJSON(indexed) || search.inputsSha256!==searchIdentity(indexed,info.config.basePath,selected.manifestSha256) || info.searchManifestSha256!==sha256(stableJSON(search)))throw new ContractError('STALE_SEARCH_INDEX','Search selection/config/HTML identity differs');
+  for(const f of search.files)if(!/^pagefind\/[\w./-]+$/.test(f.path) || f.path.split('/').includes('..') || !existsSync(join(root,f.path)) || sha256(readFileSync(join(root,f.path)))!==f.sha256)throw new ContractError('SEARCH_ASSET_MISMATCH',f.path);
+  if(!readFileSync(join(root,'search-client.js')).equals(readFileSync('public/search-client.js')))throw new ContractError('SEARCH_CLIENT_MISMATCH','Client bytes differ from owned source');
+  if(readFileSync(join(root,'sitemap.xml'),'utf8')!==sitemapXML(selected,info.config))throw new ContractError('SITEMAP_PARITY_FAILURE','Published selection only');
+  if(stableJSON(info.releaseMetadata)!==stableJSON(assets.identity))throw new ContractError('RELEASE_METADATA_PARITY_FAILURE','Build identity mismatch');
+  for(const [path,expected] of assets.files) {
+    if(!existsSync(join(root,path.slice(1))) || !readFileSync(join(root,path.slice(1))).equals(expected))throw new ContractError('EXPORT_PARITY_FAILURE',path);
+  }
+  verifyArchive(readFileSync(join(root,assets.zipPath.slice(1))));
+  if(readFileSync(join(root,'rss.xml'),'utf8')!==rssXML(selected,info.config))throw new ContractError('RSS_PARITY_FAILURE','rss.xml');
   const routeFiles=info.routes.map((r:string)=>r.endsWith('/') ? (r==='/'?'index.html':r.slice(1)+'index.html') : r.slice(1));
   for (const file of [...routeFiles, 'favicon.svg', 'robots.txt', 'build-info.json']) {
     if (!files.includes(file)) throw new ContractError('MISSING_OUTPUT', file);
   }
   const allowed = /^(?:favicon\.svg|robots\.txt|build-info\.json|_astro\/[\w.-]+\.(?:css|woff2?|ttf))$/;
   for (const file of files) {
-    if (!allowed.test(file) && !routeFiles.includes(file)) throw new ContractError('UNEXPECTED_OUTPUT', file);
+    if (!allowed.test(file) && !routeFiles.includes(file) && !search.files.some((f:{path:string})=>f.path===file)) throw new ContractError('UNEXPECTED_OUTPUT', file);
   }
   function targetOf(href: string, from: string, resource = false) {
     const url = new URL(href, `https://output.invalid${from}`);
@@ -108,6 +128,9 @@ export function auditOutput(directory: string) {
       const expected=load(expectedContent,null,false).html();
       const actual=$('[data-canonical-body]').filter((_i,el)=>$(el).attr('data-canonical-body')===entry.id);
       if (actual.length!==1 || normalizedHTML(actual.html() ?? '')!==normalizedHTML(expected)) throw new ContractError('CONTENT_PARITY_FAILURE',entry.id);
+      const guide=renderTechnicalGuide(selected,entry,expectedContent,info.config.basePath);
+      const actualGuide=$('[data-technical-guide]');
+      if(guide ? actualGuide.length!==1 || actualGuide.attr('data-technical-guide')!==entry.id || normalizedHTML(actualGuide.html() ?? '')!==normalizedHTML(guide) : actualGuide.length!==0) throw new ContractError('CONTENT_PARITY_FAILURE',`${entry.id}: technical guide`);
       if($('head > title').length!==1 || $('head > title').text()!==`${entry.title} · Unity Theory` || $('head > meta[name="description"]').length!==1 || $('head > meta[name="description"]').attr('content')!==entry.description) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
       if($('h1').length!==1 || $('h1').text().replace(/\s+/g,' ').trim()!==entry.title.replace(/\s+/g,' ').trim()) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
       if(['DOC-HOME','DOC-START'].includes(entry.id) && !isHistorical(entry)) {
@@ -130,21 +153,40 @@ export function auditOutput(directory: string) {
     const expectedDiagram=entry && !isHistorical(entry)?renderBeginnerDiagram(entry.id):'';
     const diagrams=$('[data-beginner-diagram]');
     if(expectedDiagram ? diagrams.length!==1 || normalizedHTML(diagrams.toArray().map(el=>$.html(el)).join(''))!==normalizedHTML(expectedDiagram) : diagrams.length!==0) throw new ContractError('DIAGRAM_PARITY_FAILURE',file);
+    const generatedRegions:[string,string][]=[];
+    if(entry && !['DOC-HOME','DOC-START'].includes(entry.id))generatedRegions.push(['data-download-tools',renderDownloadTools(selected,entry,info.config.basePath)]);
+    if(entry?.id==='DOC-LIBRARY')generatedRegions.push(['data-document-library',renderLibrary(selected,info.config.basePath)]);
+    if(entry?.id==='DOC-CONTROL')generatedRegions.push(['data-website-history',renderHistory(selected,info.config.basePath)]);
+    if(route==='/articles/')generatedRegions.push(['data-article-index',renderArticles(selected,info.config.basePath)]);
+    if(route==='/cite/')generatedRegions.push(['data-citation',renderCite(selected,info.config)]);
+    if(route==='/references/')generatedRegions.push(['data-source-backlinks',renderSourceBacklinks(selected,info.config.basePath)]);
+    if(route==='/about/')generatedRegions.push(['data-about',renderAbout(publicationCredit(),info.config.basePath)]);
+    if(route==='/legal/')generatedRegions.push(['data-legal',renderLegal(publicationCredit(),info.config.basePath)]);
+    if(route==='/search/')generatedRegions.push(['data-search-fallback',renderSearchFallback(selected,info.config.basePath)]);
+    generatedRegions.push(['data-publication-footer',renderFooter(info.config.basePath)]);
+    for(const [attr,expected] of generatedRegions)if($(`[${attr}]`).length!==1 || normalizedHTML($(`[${attr}]`).html() ?? '')!==normalizedHTML(expected))throw new ContractError('LIBRARY_PARITY_FAILURE',`${file}: ${attr}`);
     if(route==='/references/') {
       if($('[data-bibliography]').length!==1 || normalizedHTML($('[data-bibliography]').html() ?? '')!==normalizedHTML(renderReferences(selected.references,selected.entries,info.config.basePath))) throw new ContractError('BIBLIOGRAPHY_PARITY_FAILURE','Literature text/destinations/scope/users');
     }
     if($('[data-publication-navigation]').length!==1 || normalizedHTML($('[data-publication-navigation]').html() ?? '')!==normalizedHTML(renderNavigation(selected,route,info.config.basePath))) throw new ContractError('NAVIGATION_PARITY_FAILURE',route);
     const robots=$('head > meta[name="robots"]');
-    if ($('h1').length !== 1 || robots.length!==1 || !robots.attr('content')?.toLowerCase().split(/[\s,]+/).includes('noindex')) throw new ContractError('INVALID_PRIVATE_PAGE',file);
+    const noindex=info.mode!=='release' || !entry || entry.publicationState!=='published';
+    if ($('h1').length !== 1 || robots.length!==1 || robots.attr('content')!==(noindex?'noindex, nofollow':'index, follow')) throw new ContractError('INVALID_PRIVATE_PAGE',file);
     const canonical=$('head > link[rel="canonical"]');
     if (canonical.length!==1 || canonical.attr('href') !== info.config.origin + from) throw new ContractError('CANONICAL_PARITY_FAILURE',file);
     const socialTitle=entry?.title??$('head > title').text().replace(/ · Unity Theory$/,'');
+    const metadata=$('head > script[data-site-metadata]');
+    if(metadata.length!==1 || metadata.attr('type')!=='application/ld+json' || metadata.html()!==metadataJSON(pageMetadata(socialTitle,$('head > meta[name="description"]').attr('content')??'',route,info.config,entry)))throw new ContractError('STRUCTURED_METADATA_PARITY_FAILURE',file);
+    const indexBodies=$('[data-pagefind-body]');
+    if(indexBodies.length!==(entry && searchable(entry)?1:0))throw new ContractError('SEARCH_BODY_MISMATCH',file);
     for(const [property,value] of [['og:title',socialTitle],['og:description',$('head > meta[name="description"]').attr('content')],['og:url',info.config.origin+from]]) {
       const meta=$(`head > meta[property="${property}"]`);
       if(meta.length!==1 || meta.attr('content')!==value) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',`${file}: ${property}`);
     }
     if ($('.katex-error').length) throw new Error(`KaTeX error: ${file}`);
-    if ($('script,iframe,object,embed,foreignObject,base,style,noscript,animate,animateMotion,animateTransform,set').length || $('meta[http-equiv]').toArray().some(el=>$(el).attr('http-equiv')?.toLowerCase()==='refresh') || $('*').toArray().some(el => 'attribs' in el && Object.keys(el.attribs).some(key => /^(?:on|srcdoc$|ping$|autoplay$|xml:base$)/i.test(key)))) throw new ContractError('ACTIVE_OUTPUT', file);
+    const client=$('script[data-search-client]');
+    if(route==='/search/' ? client.length!==1 || client.attr('type')!=='module' || client.attr('src')!==withBase('/search-client.js',info.config.basePath) || client.html()!=='' : client.length!==0)throw new ContractError('SEARCH_CLIENT_MISMATCH',file);
+    if ($('script').toArray().some(el=>!$(el).is('head > script[data-site-metadata]') && !$(el).is('script[data-search-client]')) || $('iframe,object,embed,foreignObject,base,style,noscript,animate,animateMotion,animateTransform,set').length || $('meta[http-equiv]').toArray().some(el=>$(el).attr('http-equiv')?.toLowerCase()==='refresh') || $('*').toArray().some(el => 'attribs' in el && Object.keys(el.attribs).some(key => /^(?:on|srcdoc$|ping$|autoplay$|xml:base$)/i.test(key)))) throw new ContractError('ACTIVE_OUTPUT', file);
     auditSVGStyles($,from);
     for (const el of $('*').toArray()) {
       for(const attribute of ['href','src','xlink:href','poster','background','action','formaction']) {
@@ -167,7 +209,7 @@ export function auditOutput(directory: string) {
     auditCSS(readFileSync(join(root,file),'utf8'),withBase('/'+file,info.config.basePath));
   }
   const inventory = files.map(path => { const raw = readFileSync(join(root, path)); return { path, bytes: raw.length, sha256: sha256(raw) }; });
-  return { status: 'PASS', mode: info.mode, basePath: info.config.basePath, deployEligible: false, files: inventory, artifactSha256: sha256(stableJSON(inventory)) };
+  return { status: 'PASS', mode: info.mode, basePath: info.config.basePath, deployEligible: info.mode==='release', files: inventory, artifactSha256: sha256(stableJSON(inventory)) };
 }
 
 if (process.argv[1]?.endsWith('audit-output.ts')) {

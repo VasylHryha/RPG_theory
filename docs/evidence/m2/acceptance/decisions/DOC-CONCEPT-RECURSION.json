@@ -1,0 +1,151 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-RECURSION",
+  "fingerprint": "dfc82c4dfd55c3cdb52ea1633c78cf921ef0fdd82aa130843b1cb605e7bd7e73",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Independent bounded M2 source/display review: Internally active heterogeneous parts can form a useful whole; the cycle and environmental feedback match world 14 and background addendum. Existing unchanged rendered-layout and read-aloud evidence reused after exact input/artifact comparison. This accepts website fidelity only; the entry remains a private draft.",
+  "inputs": {
+    "fingerprint": "dfc82c4dfd55c3cdb52ea1633c78cf921ef0fdd82aa130843b1cb605e7bd7e73",
+    "ownRead": {
+      "id": "DOC-CONCEPT-RECURSION",
+      "route": "/concepts/recursion/",
+      "title": "Recursion and scale",
+      "description": "A whole can become a useful part while its components stay active.",
+      "revision": 1,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-03",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD",
+        "R-CURRENT-SCIENCE"
+      ],
+      "dependsOn": [
+        "UT-C02",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08",
+        "UT-D09",
+        "UT-O04"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## In ordinary words\n\nAn organized whole can participate in another organization. Its internal activity continues even when the next description treats it as one useful unit. RRG calls this structural recursion.\n\n## A concrete example\n\nThe [molecule example](/examples/molecule/) begins with atoms and their connections. A molecule can enter a larger chemical arrangement. A [cell](/examples/cell/) can participate in a tissue while exchanges and reactions continue inside it. These systems have different mechanisms; the shared description does not require identical equations at every scale.\n\n**Scale** means a level at which a collective organization can function as an effective unit in further interactions. It involves characteristic times, dominant interactions and useful descriptions, as well as size. It is not a claim that all levels are equally spaced or every larger process is slower.\n\n## The source definitions\n\n::claim{id=\"UT-D05\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D06\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D08\" view=\"plainLanguage\"}\n\nThe proposed cycle is compatible parts → collective organization → a useful unit → further combinations. Its environment can also change which combinations are accessible. The cycle illustration represents a research proposal, not a measurement or guaranteed history.\n\n## Copying is one possible mechanism\n\n::claim{id=\"UT-D09\" view=\"plainLanguage\"}\n\nReplication, aggregation and self-assembly can participate in formation or propagation. Duplication is optional in the locked core. The stronger questions of a predictive cross-domain criterion and spontaneous promotion remain open.\n\n[Explore effective interactions](/concepts/effective-interactions/) · [All concepts](/concepts/)\n",
+      "sourceMapping": "Core §§5–9, 11; world §§4, 8–9, 14 and background addendum; framework §§3, 15–16, 22–23.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-03",
+    "dependencies": [
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+      },
+      {
+        "entryId": "UT-O04",
+        "semanticDigest": "5c26c0fac51bbdd5632d7b6761f8fe3aa2cfe7d14567748702001a6c32b55950"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-PROOF",
+        "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+        "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-STATUS",
+        "path": "research/RRG_CURRENT/04_status_and_blockers.md",
+        "sha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "33ec81d2d8454f3cd1693e4fc3c90bf79050cd9e40f4e576eabc14f92a090a5c",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "1fc42ccb8d1272855f18ec6b9d0fbd518c00ce078bbbf57b04f233fb6ba12b07",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Scale, higher-level formation, structural recursion and optional replication match rendered UT-D05/06/08/09 and core 5,7-9.",
+    "meaning": "Internally active heterogeneous parts can form a useful whole; the cycle and environmental feedback match world 14 and background addendum.",
+    "assumptions": "Neither identical equations, equally spaced scales, universally slower larger processes nor obligatory copying is required.",
+    "hypotheses": "A predictive cross-domain criterion and spontaneous promotion remain open, matching current status and framework 23.",
+    "evidenceDescriptions": "The molecule/cell account and cycle are illustrations of the proposal, explicitly not measurements or guaranteed history.",
+    "openQuestions": "A predictive cross-domain criterion and spontaneous promotion remain open, matching current status and framework 23.",
+    "attribution": "Compared with the original supplied RRG_CURRENT documents and the rendered canonical callouts. The molecule/cell account and cycle are illustrations of the proposal, explicitly not measurements or guaranteed history. This decision is agent review, not author approval or independent scientific certification.",
+    "sourceMappings": "Checked the declared mapping: Core §§5–9, 11; world §§4, 8–9, 14 and background addendum; framework §§3, 15–16, 22–23. Source identities and canonical dependency meanings are recorded in inputs; originals remain unchanged."
+  }
+}

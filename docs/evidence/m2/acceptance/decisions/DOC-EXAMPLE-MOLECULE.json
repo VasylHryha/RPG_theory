@@ -1,0 +1,126 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-MOLECULE",
+  "fingerprint": "dd9ffaf520799329538a6587b7d9ef6d1957fa259af3c08a06ee4f0d1ea197cc",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Independent bounded M2 source/display review: The molecule expresses whole/parts mutual constraint and a collective system becoming a further component, consistent with core 5,7,8. Existing unchanged rendered-layout and read-aloud evidence reused after exact input/artifact comparison. This accepts website fidelity only; the entry remains a private draft.",
+  "inputs": {
+    "fingerprint": "dd9ffaf520799329538a6587b7d9ef6d1957fa259af3c08a06ee4f0d1ea197cc",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-MOLECULE",
+      "route": "/examples/molecule/",
+      "title": "Molecule: the whole constrains its parts",
+      "description": "Connections and collective behaviour, beyond an inventory of atoms.",
+      "revision": 1,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-03",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD",
+        "R-CURRENT-SCIENCE"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0065"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What to notice\n\nKnowing which atoms are present does not tell us everything about a molecule. Connections and spatial arrangement matter. Bond distances and angles are constrained; the whole has collective motions. The supplied world explanation describes electron-state reorganization, vibrations and rotations in this example. Basic relationships between bonding, arrangement and properties are explained by [OpenStax's molecular-structure explanation](/references/#BIB-0065).\n\n## What this illustrates\n\nThe source uses a molecule to explain a two-way relation: parts participate in a whole, while the whole constrains its parts. The atoms retain internal structure. A molecule can then participate in a larger arrangement, so the level of description changes without the lower-level activity disappearing.\n\nThis is a quantum chemical system. Atoms are not classical miniature solar systems, and molecular behaviour is not inferred from visible shape alone. Its interactions and physical conditions must be specified.\n\n## From whole to useful unit\n\nThe [recursion concept](/concepts/recursion/) explains how RRG treats a persistent collective system as a potential component of further organization. The mechanisms can change between levels; one microscopic equation is not required everywhere.\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+      "sourceMapping": "World §§5–6; framework §6; core §§5–8. OpenStax supplies supplementary molecular-structure background.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-03",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "a675212f36690b38bb9dd0d4fed9f7d10492faf0809bb96a61960ae2371f93e9",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "c9cd2dacddbbc11106a8d6c0167d0d4064bf3aa0c5142696cfc8659d55403fdb",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Connections, spatial arrangement, collective motion and retained internal structure match world 5-6 and framework 6.",
+    "meaning": "The molecule expresses whole/parts mutual constraint and a collective system becoming a further component, consistent with core 5,7,8.",
+    "assumptions": "Quantum chemistry, interactions and physical conditions remain necessary. Atoms are not described as classical miniature solar systems.",
+    "hypotheses": "The page does not derive chemistry from visible shape or require one microscopic equation across levels.",
+    "evidenceDescriptions": "Electron-state reorganization, vibrations and rotations are attributed to the world explanation; OpenStax BIB-0065 is basic supplementary bonding background.",
+    "openQuestions": "The page does not derive chemistry from visible shape or require one microscopic equation across levels.",
+    "attribution": "Compared with the original supplied RRG_CURRENT documents and the rendered canonical callouts. Electron-state reorganization, vibrations and rotations are attributed to the world explanation; OpenStax BIB-0065 is basic supplementary bonding background. This decision is agent review, not author approval or independent scientific certification.",
+    "sourceMappings": "Checked the declared mapping: World §§5–6; framework §6; core §§5–8. OpenStax supplies supplementary molecular-structure background. Source identities and canonical dependency meanings are recorded in inputs; originals remain unchanged."
+  }
+}

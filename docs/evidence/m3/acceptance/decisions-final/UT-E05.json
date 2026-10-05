@@ -1,0 +1,120 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E05",
+  "fingerprint": "f3261504c8ec8f353545dcd2b914ff98e82ca7c80d99a55180f16f90add74aa0",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Separate bounded High M3 original/sidecar/renderer/output comparison: 08 E05 preserves reported Bacillus subtilis conditions, potassium-clamp intervention and clauses 3/5/7. Same-session matching-renderer CSS repair: canonical source/body/callouts unchanged; force-box width repaired from 2px to 122.64px and actual §39 desktop/mobile output compared. Prior issued decisions remain preserved. Website fidelity only; private draft and scientific/release gates remain distinct.",
+  "inputs": {
+    "fingerprint": "f3261504c8ec8f353545dcd2b914ff98e82ca7c80d99a55180f16f90add74aa0",
+    "ownRead": {
+      "id": "UT-E05",
+      "route": "/claims/UT-E05/",
+      "title": "Ion channels enable electrical communication in bacterial communities",
+      "description": "An experiment or restricted result reported by the supplied evidence documents.",
+      "revision": 3,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-02",
+      "sourceRefs": [
+        "R-CURRENT-ADDITIONAL"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0030",
+        "BIB-0031"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
+        "startLine": 89,
+        "endLine": 104,
+        "excerptSha256": "585cddf8a29d29a67f1e918b8879fe0b892d55cfb8a3215fea5fde9262d385de"
+      },
+      "statement": "### E05 — Prindle et al. (2015)\n\n**Ion channels enable electrical communication in bacterial communities**  \nNature 527, 59–63. DOI: [10.1038/nature15709](https://doi.org/10.1038/nature15709)\n\n**Classification:** supports core / domain-specific realization.  \n**Evidence:** Experiment with interventions.  \n**Existing clauses:** §3, §5, §7.\n\nPotassium-mediated signals coordinate biofilm metabolic activity; potassium clamping suppresses the measured membrane-potential oscillations.\n\n**Scope:** Bacillus subtilis biofilms under the reported growth conditions.\n\n**Checked:** Primary publisher text and extended-data figure descriptions.  \n**Location:** Electrical signalling mechanism; Extended Data Figure 3, potassium-clamp intervention.  \n**Inspected source:** https://www.nature.com/articles/nature15709\n",
+      "plainLanguage": "",
+      "scope": "Bacillus subtilis biofilms under the reported growth conditions.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md E05 → UT-E05; original identifier preserved.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "Bacillus subtilis biofilms under the reported growth conditions.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-02",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-ADDITIONAL",
+        "path": "research/RRG_CURRENT/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "baaf4d91452ed768aac53afa805387505218d53a9bec47df524745418e93105c",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "baaf4d91452ed768aac53afa805387505218d53a9bec47df524745418e93105c",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared original source wording, sidecar and both rendered bodies: 08 E05 preserves reported Bacillus subtilis conditions, potassium-clamp intervention and clauses 3/5/7.",
+    "meaning": "08 E05 preserves reported Bacillus subtilis conditions, potassium-clamp intervention and clauses 3/5/7. Both saved canonical bodies and record details match the live renderer; technical guides match actual source context and heading anchors (evidence-reuse.json).",
+    "assumptions": "Original conditions and model-specific limitations remain in the source body and applicable context. Bacillus subtilis biofilms under the reported growth conditions. Definitions and optional stronger implementations remain distinct.",
+    "hypotheses": "08 E05 preserves reported Bacillus subtilis conditions, potassium-clamp intervention and clauses 3/5/7. Proposed/open extensions retain their source-reported classification; no experiment, universal law or scientific truth is certified.",
+    "evidenceDescriptions": "Displayed evidence state is project-reported. Reported source assertions remain attributed, not website-reproduced. 08 E06/E07 access restrictions remain in original excerpts and context where applicable. Historical cavity/response work NOT_SELECTED / NOT_RUN.",
+    "openQuestions": "08 E05 preserves reported Bacillus subtilis conditions, potassium-clamp intervention and clauses 3/5/7. The original 04 six-question register, 06 failure/core-impact columns, 07 open boundary and 02/03 test programme remain separate from locked definitions.",
+    "attribution": "Compared source authors/URLs and bibliography links in original extracts and rendered details. Resolved bibliography identities: BIB-0030, BIB-0031. Supplied Checked/Location/Inspected source statements describe source authors' reported access.",
+    "sourceMappings": "R-CURRENT-ADDITIONAL lines 89–104; full original and excerpt hashes checked by shared loader. 08_ADDITIONAL_PRIMARY_EVIDENCE.md E05 → UT-E05; original identifier preserved. Dependencies and source-local citation aliases validated by shared loader; original S01 identities are source-namespaced. Both base-path bodies compared with actual saved output."
+  }
+}

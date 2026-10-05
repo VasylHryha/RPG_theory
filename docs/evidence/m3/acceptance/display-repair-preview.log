@@ -1,0 +1,16 @@
+node:fs:441
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ENOENT: no such file or directory, open '/Users/new/RiderProjects/RPG_theory/dist/m3-display-repair-root/build-info.json'
+    at readFileSync (node:fs:441:20)
+    at serveOutput (/Users/new/RiderProjects/RPG_theory/scripts/static-server.ts:9:27)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/docs/evidence/m3/acceptance/preview-check.ts:10:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/new/RiderProjects/RPG_theory/dist/m3-display-repair-root/build-info.json'
+}
+
+Node.js v24.18.0

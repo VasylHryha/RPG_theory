@@ -1,14 +1,14 @@
 import { ContractError } from './errors.js';
 import type { BuildMode, SiteConfig } from './site-config.js';
+import { searchable } from './search.js';
+import { publicationPolicy, assertDeploymentAllowed } from './publication-policy.js';
 
 export function assertBuildAllowed(mode: BuildMode, config: SiteConfig, source: { currentSourceQualified: boolean; corpusScope: string }) {
   if (mode !== 'release') return;
   if (new URL(config.origin).hostname.endsWith('.invalid') || !config.repository) throw new ContractError('PUBLIC_TARGET_REQUIRED', 'A real owner-designated repository and origin are required');
   if (!source.currentSourceQualified || source.corpusScope !== 'current') throw new ContractError('CURRENT_SOURCE_NOT_QUALIFIED', 'M1 bindings and exact website source-fidelity reviews are required');
   if (!config.publicAuthorization) throw new ContractError('PUBLIC_AUTHORIZATION_REQUIRED', 'Publication has not been authorized');
-  // The M1 selector validates content, but M5–M7 still own complete identity,
-  // rights, all-surface qualification and the authorized release artifact pipeline.
-  throw new ContractError('RELEASE_PIPELINE_NOT_IMPLEMENTED', 'The full release artifact pipeline is unavailable; local artifacts are non-deployable');
+  assertDeploymentAllowed(publicationPolicy(),publicationCredit(),config,{event:process.env.GITHUB_EVENT_NAME??'',ref:process.env.GITHUB_REF??'',repository:process.env.GITHUB_REPOSITORY??'',sha:process.env.GITHUB_SHA??''},source.currentSourceQualified);
 }
 
 import { readFileSync } from 'node:fs';
@@ -17,6 +17,7 @@ import { loadCanonicalCorpus, reviewFingerprint, dependencyClosure, validDate, t
 import { sha256, stableJSON } from './identity.js';
 import type { Entry } from './content-schema.js';
 import { z } from 'astro/zod';
+import { artifactPaths, publicationCredit, citationGates } from './publication-assets.js';
 export interface ReleaseSelection { releaseId: string; releaseAt: string; historicalIds: string[]; rights?: { id: string; outcome: 'approved'; entryIds: string[]; evidenceRef: string }[] }
 export function isHistorical(entry: Pick<Entry,'publicationState'>) { return ['superseded','withdrawn'].includes(entry.publicationState); }
 const releaseSchema=z.object({releaseId:z.string().min(1),releaseAt:z.string(),historicalIds:z.array(z.string()),rights:z.array(z.object({id:z.string().min(1),outcome:z.literal('approved'),entryIds:z.array(z.string()).min(1),evidenceRef:z.string().min(1)}).strict()).optional()}).strict();
@@ -52,14 +53,23 @@ export function selectPublication(corpus: Corpus, config: SiteConfig, release: R
       if (!config.publicAuthorization) throw new ContractError('PUBLIC_AUTHORIZATION_REQUIRED','No publication authorization');
     }
   }
+  const credit=publicationCredit(corpus.root);
+  for(const e of intended.filter(e=>e.kind==='article' && e.publicationState==='published')) {
+    if(!e.publishedAt || validDate(e.publishedAt)>validDate(release.releaseAt))throw new ContractError('FUTURE_PUBLICATION',e.id);
+    if(!credit.approvedCredit || e.authorIdentity!==credit.approvedCredit.name)throw new ContractError('ARTICLE_IDENTITY_REQUIRED',e.id);
+  }
   const entries = intended.map(e => e.publicationState === 'withdrawn' ? withdrawnTombstone(e) : e);
   const discovery = entries.filter(e=>e.publicationState === 'published' || mode === 'preview' && e.publicationState === 'draft');
   const directReferences=entries.filter(e=>e.publicationState!=='withdrawn').flatMap(e=>e.bibRefs);
   const referenceIds = [...new Set(directReferences.concat(directReferences.flatMap(id=>corpus.references.get(id)?.primaryId ?? [])))].sort();
+  const exportIds=entries.filter(e=>e.publicationState!=='withdrawn' && (mode==='preview' || e.publicationState==='published' || release.historicalIds.includes(e.id))).map(e=>e.id);
+  const sourceDownloadKeys=[...new Set(entries.filter(e=>exportIds.includes(e.id)).flatMap(e=>e.sourceRefs))].filter(key=>corpus.sources.get(key)?.declaredCurrent).sort();
+  const downloads=artifactPaths(exportIds,sourceDownloadKeys,release.releaseId,mode==='preview');
+  if(!citationGates(credit).length)downloads.push('/downloads/CITATION.cff');
   const manifest = { schema:'unity-publication/1', mode, deployEligible:false, releaseId:release.releaseId, releaseAt:release.releaseAt, inventorySeal:corpus.admission.inventorySeal,
     entries:entries.map(e=>({ id:e.id,route:e.route,publicationState:e.publicationState,digest:sha256(stableJSON(e)),reviewState:reviewState(corpus,e.id),fingerprint:reviewFingerprint(corpus,e.id) })),
-    routes:entries.map(e=>e.route).concat(['/references/','/404.html'],mode==='release'?[]:['/fixtures/math/']),
-    navigationIds:discovery.map(e=>e.id), searchIds:discovery.map(e=>e.id), sitemapIds:discovery.map(e=>e.id), feedIds:discovery.filter(e=>e.kind==='article').map(e=>e.id), exportIds:[] as string[], referenceIds };
+    routes:entries.map(e=>e.route).concat(['/articles/','/cite/','/about/','/legal/','/search/','/rss.xml','/sitemap.xml','/search-manifest.json','/search-client.js','/references/','/404.html',...downloads],mode==='release'?[]:['/fixtures/math/']),
+    navigationIds:discovery.map(e=>e.id), searchIds:entries.filter(searchable).map(e=>e.id), sitemapIds:entries.filter(searchable).map(e=>e.id), feedIds:discovery.filter(e=>e.kind==='article' && e.publicationState==='published').map(e=>e.id), exportIds, sourceDownloadKeys, downloads, referenceIds };
   return { admission, entries, references:referenceIds.map(id=>corpus.references.get(id)!), manifest, manifestSha256:sha256(stableJSON(manifest)) };
 }
 export function publicationFor(mode: BuildMode, config: SiteConfig) {

@@ -7,6 +7,7 @@ import ReadingLayout from '../layouts/ReadingLayout.astro';
 import { activeConfig } from '../lib/site-config';
 import { withBase } from '../lib/urls';
 import { requiresMathStyles } from '../lib/markdown';
+import { searchAttributes } from '../lib/search';
 const { corpus, entry } = publicationEntry('DOC-HOME');
 const historical=isHistorical(entry);
 const html = historical?'':await renderEntry(corpus,entry,activeConfig().basePath);
@@ -25,7 +26,7 @@ const start = withBase('/start/', activeConfig().basePath);
       <p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} />
     </div>
   </section>
-  <section class="reading-section shell"><div class="margin-label"><span>01 / The idea</span><p>From something familiar<br />to a research question.</p></div><div class="prose"><div data-canonical-body={entry.id} set:html={html} /><Fragment set:html={renderBeginnerDiagram(entry.id)} /></div></section>
+  <section class="reading-section shell"><div class="margin-label"><span>01 / The idea</span><p>From something familiar<br />to a research question.</p></div><div class="prose"><div data-canonical-body={entry.id} {...searchAttributes(entry)} set:html={html} /><Fragment set:html={renderBeginnerDiagram(entry.id)} /></div></section>
   <section class="pathways shell" aria-labelledby="explore-title">
     <div class="section-heading"><p class="eyebrow">Choose your depth</p><h2 id="explore-title">Follow the question.</h2></div>
     <div class="pathway-grid">

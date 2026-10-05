@@ -1,0 +1,1250 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index 467ddb3..0c70219 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -1,10 +1,42 @@
+ # Workspace instructions
+ 
+ Use `docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md` Revision 4 as the
+-only forward plan and milestone tracker. Read its current execution receipt
+-before working, especially §§0.15–0.17. Finish a coherent implementation batch, then run affected checks.
+-Stop implementation at REVIEW_READY; a separately launched review session accepts
+-the demonstrated milestone. Do not self-accept or start the next milestone.
++only forward plan and milestone tracker. Read §0.27 first, then the current
++execution receipt and the remaining deliverables in §8.
++
++## Temporary rule: proportionate development until the website is finished
++
++The owner's latest 4 October 2026 clarification governs: normal development,
++including builds, tests, rechecks and separate High acceptance, is wanted. Their
++cost must be proportionate to this informational website. Prioritize substantial
++progress on planned pages/features. Do not spend hours checking or hardening a
++tiny change. This supersedes earlier mandatory repeated repair/review cycles;
++it is not a blanket ban on tests or an instruction to defer every check to M6.
++
++Use existing tools, validators and normal safeguards. Add work only when it
++delivers a planned feature, fixes a reproducible defect, or checks a concrete
++risk introduced by the change. No speculative bypass hunts, audit expansion,
++approval-system redesign, paper audits or scientific adjudication. Do not reopen
++accepted foundations without evidence of a defect affecting current work.
++
++Finish a coherent implementation batch, then run focused affected checks once.
++Reuse valid unchanged results; rerun affected checks after real repairs. Add
++meaningful tests when a changed feature needs them, not tests for trivial prose
++or tests that mirror implementation. Save full-site verification for M6. Routine
++checks/review of a small change should take minutes, not hours. If checking grows
++into a separate project, stop expanding it, record the concrete unresolved issue
++and return to deliverables; a real blocker needs the shortest targeted repair.
++
++Implementers stop at REVIEW_READY. Keep one bounded separate High acceptance of
++delivered scope. The reviewer may fix material defects, run focused checks and
++accept those repairs in the same session; no automatic second acceptance cycle.
++After acceptance, proceed to the next milestone. Rechecks are justified by changed
++material or concrete evidence, not by a desire for another general assurance pass.
++
++Keep receipts short: features delivered, actual checks, blockers and next work.
++Preserve source fidelity, existing validators/evidence, pending/stale decisions
++and release protections. Private implementation may continue while qualification
++is pending. Never fabricate approvals; no public release is authorized here.
+ 
+ Preserve the supplied ZIPs, handoff snapshot, historical sources, original Rider
+ solution and unrelated work. Source builds/intake preserve raw bytes. Necessary
+@@ -17,13 +49,14 @@ source directory, and shared production validators. Synthetic fixtures cannot
+ prove scientific content or authorize release. No push, public repository,
+ deployment, DNS change or license grant without an authorized target.
+ 
+-`npm run verify` tests the reached private M0 slice at both base paths. Evidence
++`npm run verify` tests the currently implemented private slice at both base paths. Evidence
+ belongs under `docs/evidence/`; it is never copied into `public/`.
+ 
+ Website content review establishes fidelity to the original downloaded
+ `research/RRG_CURRENT/` documents and accurate attribution/source-reported status.
+ Do not resume SF-01–06 scientific adjudication, import reviewer corrections, or
+ rewrite scientific sources in the website lane. Related papers are supplementary.
+-Use `website-reviews.yaml` and the shared website fidelity validator for active
+-content review. The preserved `reviews.yaml` registry is historical scientific
+-evidence, not website approval. Stop new repairs at REVIEW_READY.
++For bounded High content acceptance, use `website-reviews.yaml` and the shared
++website fidelity validator; never manufacture decisions. Pending/stale decisions
++block qualification/release, not independent private implementation. The preserved
++`reviews.yaml` registry is historical scientific evidence, not website approval.
+diff --git a/START_HERE.md b/START_HERE.md
+index e0e7c7b..05e60f5 100644
+--- a/START_HERE.md
++++ b/START_HERE.md
+@@ -1,7 +1,11 @@
+ # Start here
+ 
+ Read the [sole R4 execution plan](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md)
+-for current milestone status, remaining gates and review instructions.
++for current milestone status and remaining deliverables. Read **§0.27 first**:
++use normal development and bounded High acceptance with checks proportionate to
++this informational website. No hours of hardening for tiny progress; full-site
++verification belongs at M6. M2 is accepted at §0.28; M3 is REVIEW_READY at §0.29 for separate bounded High acceptance.
++Older instructions for repeated rechecks are historical.
+ 
+ [README](README.md) contains local run/check commands. The
+ [source-intake receipt](docs/evidence/m0/source-intake.md) describes the actual
+diff --git a/config/research-source.json b/config/research-source.json
+index c52a493..9751736 100644
+--- a/config/research-source.json
++++ b/config/research-source.json
+@@ -342,6 +342,62 @@
+       "startLine": 3,
+       "endLine": 23,
+       "excerptSha256": "66997726c6ea67eb4743320e7842e72fb6d2dcf2562550597bf1f81389f637c5"
++    },
++    {
++      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
++      "startLine": 3,
++      "endLine": 170,
++      "excerptSha256": "71ce27e7514d9039bef52ddcd6884db7e24bcbb37ebf3aad022c66cdb516cfb1",
++      "path": "00_LOCKED_CORE.md"
++    },
++    {
++      "sourceSha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a",
++      "startLine": 3,
++      "endLine": 57,
++      "excerptSha256": "7a54d1480c62eb51e1e677fd481c16b023fcea8658d689cc0c23e2f0ea1fee55",
++      "path": "05_CHANGE_CONTROL.md"
++    },
++    {
++      "sourceSha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807",
++      "startLine": 3,
++      "endLine": 996,
++      "excerptSha256": "d836caa3ed6f47bf3803cbb81f25f50379596a77ff906558aab962ffc33b9159",
++      "path": "02_scientific_framework.md"
++    },
++    {
++      "sourceSha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce",
++      "startLine": 3,
++      "endLine": 1353,
++      "excerptSha256": "77d393b117b9df4472e9f9751dd8703c9cf608674d3deb04fb323a03dde8a90b",
++      "path": "03_mathematical_core.md"
++    },
++    {
++      "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
++      "startLine": 3,
++      "endLine": 213,
++      "excerptSha256": "daa8862522725a39eea990e330bb08765577fa696fc92fc706efa41ccaea74ae",
++      "path": "07_EMERGENT_INTERACTION_EVIDENCE.md"
++    },
++    {
++      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
++      "startLine": 3,
++      "endLine": 199,
++      "excerptSha256": "9a258d346e3ee52cd92d8c234133414a41f02e6f4001ff61bb679c6980a2ebde",
++      "path": "08_ADDITIONAL_PRIMARY_EVIDENCE.md"
++    },
++    {
++      "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
++      "startLine": 18,
++      "endLine": 26,
++      "excerptSha256": "f122c094092079b086c5ffe33484d53070b47ca02a6382ec5afe80761936c263",
++      "path": "04_status_and_blockers.md"
++    },
++    {
++      "sourceSha256": "d63ef2d9124154e7994949a68f1c55ed6024ddfd1cd3048e18dad3a5d6b278a7",
++      "startLine": 3,
++      "endLine": 17,
++      "excerptSha256": "72e1abbd2013020f3354337f5466a6f9e030a5d72b411086bba7ac242317f45d",
++      "path": "CHANGELOG.md"
+     }
+   ],
+   "contentReview": "pending"
+diff --git a/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md b/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md
+index be76f29..a549be9 100644
+--- a/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md
++++ b/docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md
+@@ -3,10 +3,10 @@ title: "Unity Theory / RRG — Public Research Website"
+ doc_type: implementation_plan
+ program: unity_theory_publication_site
+ revision: 4
+-updated: 2026-10-03
+-status: M2_REVIEW_READY
+-current_milestone: M2
+-execution_model: "User-selected Codex 6.1 Sol High implementer; separate fresh High reviewer"
++updated: 2026-10-04
++status: M3_REVIEW_READY
++current_milestone: M3
++execution_model: "Normal development with proportionate checks and separate bounded High acceptance under section 0.27"
+ repository: "Local Git implementation: /Users/new/RiderProjects/RPG_theory; main branch; no remote configured"
+ replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
+ planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
+@@ -26,42 +26,42 @@ This is the sole execution plan for the website, research-document publication,
+ 
+ **The website implements a research publication, not a new theory.** The broad project asks how geometry/relationships and dynamics can organize persistent systems, how these become components of further systems, and how existing organization can change the conditions for later organization. The shared update additionally identifies the question of lower-level geometry/modes enabling an effective interaction regime and further organization. Restricted model-reduction work is supporting historical research, not an automatic replacement for that question. Neither ambition nor a successful website makes the theory established physics.
+ 
+-**Read route:** §0 → §§1–4 → current milestone in §8 → §9 evidence rules → §10 operating prompts. The complete architecture and all eight milestones are selected below. START_HERE is an index, not another tracker. Raw receipts are evidence, not additional plans.
++**Read route:** §0.27 first → current status in §0 → §§1–4 → current milestone in §8 → §9 proportionate verification → §10 operating prompts. The complete architecture and all eight milestones remain selected. START_HERE is an index, not another tracker. Raw receipts are evidence, not additional plans. §0.27 supersedes mandatory repeated review/repair cycles and disproportionate checking; normal affected checks remain part of development.
+ 
+ ## 0. Current execution and authority
+ 
+ | Field | Current record |
+ |---|---|
+-| Current milestone / state | **M2 / REVIEW_READY**, quality recheck repairs at §0.26; separate M2 website acceptance pending. M1 predecessor accepted at §0.24; M3 NOT_STARTED |
++| Current milestone / state | **M3 / REVIEW_READY**, delivered private technical scope at §0.29. M2 remains ACCEPTED at §0.28; separate bounded High M3 acceptance is next |
+ | Website repository / implementation | One-root local Astro implementation in `/Users/new/RiderProjects/RPG_theory`; local Git on main initialized by owner request (§0.11); original Rider files preserved; no remote/public target |
+-| Last engineering acceptance | §0.24 independently accepts unchanged QF-12–14 static resource controls; bounded QF-10/QF-11 and M0/M1/ENG-03 predecessor acceptance preserved. No blanket browser/CSS or release closure |
+-| Changed here | §0.26 repairs beginner reading order, real equation display/keyboard scrolling, conditional math assets and shared audit, optional source details with visible essential context, readable notes and stronger positive-before-negative tests. Original sources unchanged |
++| Last engineering acceptance | §0.28 independently accepts the delivered M2 beginner journey and §0.26 repairs. Earlier scoped M0/M1 acceptances remain preserved; full-site qualification remains M6 |
++| Changed here | M3 technical source readings, evidence/status/open-question views, core/change-control access and navigation delivered. Original sources and issued website decisions preserved; display-only §39 delimiter repair disclosed |
+ | Declared active scientific authority | **RRG_CURRENT**, identified by the shared current-package note [P-CURRENT-NOTE] |
+ | Actual current package | **AVAILABLE_CURRENT_BYTES** in local execution on 1 October 2026; owner-supplied ZIP unpacked into `research/RRG_CURRENT/` |
+ | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; shared validator checks the declared pin |
+ | Available historical research | Fourteen unchanged v0.1b / v0.2-audit files, preserved as history only |
+-| Numerical reproduction | R2 receipts preserved as historical evidence; **NOT_RERUN** in this alignment |
+-| Website/browser/a11y/live evidence | §0.26 all eleven commands PASS: 89 contract cases / 24 Chromium tests at both bases; 14 beginner routes at 320/375/1280 in both themes and doubled text, no-JS/keyboard/axe, real-equation checks, cold asset inventories and inspected screenshots. Eight actual-artifact refusals. Human comprehension/live hosting NOT_TESTED/NOT_RUN |
+-| Shared-source mutation | No original scientific source bytes changed. Original documents own meanings; only website presentation authored. Preserved 34 website decisions are stale after rendering changes; 11 new entries pending; currentSourceQualified=false |
++| Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
++| Website/browser/a11y/live evidence | §0.29 Astro/source/content checks, 22 distinct focused contracts, both private builds/output audits and 6 Chromium checks PASS. Actual desktop/mobile screenshots inspected. Full-site M6 verification, human comprehension and live hosting NOT_RUN / NOT_TESTED |
++| Shared-source mutation | No original scientific source bytes or issued decisions changed. Final renderer makes all 45 preserved website decisions stale; 10 new documents pending, currentSourceQualified=false |
+ | External publication authority | No public repository creation, push, visibility change, Pages/DNS action, license grant or purchase performed |
+-| Next action | Launch separate M2 website acceptance using §0.26 and docs/evidence/m2/quality-recheck/recheck-receipt.md; compare actual source-faithful pages, shared stylesheet/diagram consumers, positive/negative checks and real screenshots. New repairs stop REVIEW_READY; no M3 or public action here |
++| Next action | Separate bounded High acceptance of M3 (§0.29): inspect delivered readings, source/display adapters, evidence mapping and readability; use the genuine website registry/shared fidelity validator. No M4 or public action here |
+ 
+ | Milestone | Accepted outcome | Requires | State |
+ |---|---|---|---|
+ | M0 | Static foundation, source-preserving intake, explicit missing-source behavior, private reading slice, root/subpath proof | Local tools + this handoff | ACCEPTED — demonstrated engineering only, separate review §0.5 |
+-| M1 | Current-source-bound records, document adapters, source registry and publication guards used by actual pages | M0 + byte-admitted RRG_CURRENT and exact website source-fidelity review | ACCEPTED — separate §0.24 acceptance of the demonstrated predecessor; original records preserved. M2 rendering changes make its 34 preserved decisions stale; current presentation needs separate website review; science deferred |
+-| M2 | Faithful complete beginner journey and example pages | M1 + reviewed current meanings | REVIEW_READY — quality repairs at §0.26; 89 contracts / 24 browser checks; separate website acceptance pending |
+-| M3 | Current framework/math/status/proof/evidence documents rendered; bounded supplementary research where selected | M1–M2 + admitted current corpus | NOT_STARTED |
++| M1 | Current-source-bound records, document adapters, source registry and publication guards used by actual pages | M0 + byte-admitted RRG_CURRENT and exact website source-fidelity review | ACCEPTED — separate §0.24 predecessor acceptance preserved. §0.28 reviews the 14 beginner surfaces; 31 technical decisions remain stale and science deferred |
++| M2 | Faithful complete beginner journey and example pages | M1 + reviewed current meanings | ACCEPTED — separate bounded High review §0.28; editorially checked and technically accepted for private implementation; author approval and final qualification remain pending |
++| M3 | Current framework/math/status/proof/evidence documents rendered; bounded supplementary research where selected | M1–M2 + admitted current corpus | REVIEW_READY — §0.29; historical supplement not selected; separate bounded High acceptance next |
+ | M4 | Articles, document library, source-faithful exports and citation | M3 | NOT_STARTED |
+ | M5 | Contribution, identity, rights and controlled publication workflow | M4 | NOT_STARTED |
+ | M6 | Whole-site qualification against the actual current corpus and both URL modes | M5 + qualified current sources | NOT_STARTED |
+ | M7 | Owner-authorized deployment of qualified artifact; optional domain | M6 + actual access/authorization | NOT_STARTED |
+ 
+-States: `NOT_STARTED → ACTIVE → REVIEW_READY → ACCEPTED`. A missing prerequisite blocks its affected scope, not unrelated local code. Fixture-based engineering checks may proceed while sources are missing, but cannot satisfy actual-current-content acceptance. A fresh High session reviews and accepts demonstrated engineering scope. **Agent review is not author approval, legal approval, external scientific peer review or a human user study.**
++States: `NOT_STARTED → ACTIVE → REVIEW_READY → ACCEPTED`. Under §0.27, separate High acceptance and affected checks are proportionate to delivered scope; full-site verification remains M6. Same-session review repairs may be accepted by the separate reviewer after inspecting affected behavior; no automatic second review cycle. Interim acceptance is not final qualification. A missing prerequisite blocks its affected scope, not unrelated local code. Fixture-based checks cannot satisfy actual-current-content acceptance. **Agent review is not author approval, legal approval, external scientific peer review or a human user study.**
+ 
+ ### 0.1 Mandatory execution rules
+ 
+-**Code first; verification after the complete session batch.** Finish the current session's coherent implementation, content, caller/configuration migration and fixture edits before running tests. Then run one consolidated affected verification phase. Do not alternate each edit with tests, use watch mode, or rerun unchanged passing checks. Repair failures as another connected batch and rerun affected checks only. An interrupted batch records NOT_RUN and a resume point. This is the session's scope, not an instruction to defer all tests until the entire project is finished.
++**Normal development; proportionate checks.** §0.27 governs: finish coherent batches of planned pages/features, run focused affected checks once, reuse valid unchanged evidence and keep bounded separate High acceptance. Full-site verification belongs at M6. Routine checks for small changes take minutes, not hours; do not expand them into audit projects or repeat general assurance cycles. Fix actual failures with targeted repairs, then rerun affected checks only. Preserve existing release guards and record limits honestly.
+ 
+ **Parallel sessions are normal.** Preserve unrelated edits, do not reset to this document's baseline, and do not wait for or manage other sessions. Reread an actually overlapping area and adapt the task-owned change. Do not stage, overwrite, revert or commit someone else's work. A dirty tree is not itself a blocker. Follow the checkout's actual commit/push rules.
+ 
+@@ -91,6 +91,8 @@ The recorded hash identifies one edition. A legitimate source revision gets a ne
+ 
+ ### 0.4 Local implementation execution record — 1 October 2026 (before independent review)
+ 
++**Historical receipt notice:** §§0.4–0.26 preserve prior work and decisions. Their mandatory repeated quality rechecks and repair-acceptance stops are superseded by §0.27; use normal proportionate affected checks. Prior results and their limitations remain unchanged.
++
+ The original supplied R4 observation below is historical context. The owner subsequently supplied the actual `RRG_CURRENT.zip` in this execution session. Its thirteen files are installed at `research/RRG_CURRENT/`; see `config/research-source.json` and `docs/evidence/m0/source-intake.md`. M0 byte intake is available; M1 scientific extraction/review qualification is pending. No source bytes were revised. Local M0 is **REVIEW_READY**. All ten commands in `npm run verify` passed: 14 contract tests and 8 real-static-output browser tests across `/` and `/unity-theory/`; zero Astro diagnostics. Detailed receipt: `docs/evidence/m0/implementation-receipt.md`; raw command/browser receipts, screenshots, artifact inventories and unchanged-after-test evidence are in the same folder. Both artifacts remain private and non-deployable. No scientific content, human comprehension, author/publication approval or M0 independent acceptance is implied.
+ 
+ **Actual source/config/artifact identity.** Source inventory seal `25d4e1e9476da06972bd30245ea4d6abe6be0a0e9bc56aaa0ae9e09179a6386a`. Core raw hash matches §3.1a. Configs: `config/site.json` and `tests/fixtures/site-subpath.json`, reserved `.invalid` origin, qualification mode; config/lock/content hashes are recorded inside each private artifact's `build-info.json`. Root artifact `0ea6390f0e3b41f843ac9d8e2c77ba9bc6879eabe57ac85185625edb983e24eb`; subpath artifact `498c7323cd6e81d3b40e1b4dd8947dc87e0418d53dbd1b45ea0d69985e0cf55e`. Both were checked unchanged after browser tests. No Git HEAD exists; `docs/evidence/m0/task-files.json` seals task-owned implementation files instead. Existing Rider files and the handoff snapshot were preserved. Toolchain is pinned: Node 24.18.0/npm 11.16.0/Astro 7.3.5/TypeScript 6.0.3.
+@@ -383,6 +385,41 @@ Final production inputs `79e577bfa7e07fa76866ebccb6b6c9f8dd7176e2a81ba0e38e24dc7
+ 
+ **Next handoff:** independently review and accept only unchanged demonstrated M2 website scope against original documents, actual consumers, real-equation/assets/disclosures, positive-before-negative controls and screenshots. Use `website-reviews.yaml` and the shared fidelity validator; historical science remains outside this task. New repairs stop REVIEW_READY for another independent session. No M3 or public action here. Future human/author/identity/rights/target/Lighthouse/release gates remain separate. Local task-owned commit authorized after checks.
+ 
++### 0.27 Owner rule: normal development with proportionate checking — 4 October 2026
++
++**Latest owner clarification governs:** builds, tests, rechecks and separate High acceptance are useful normal development. The problem is their cost exceeding their benefit: hours of extra safeguards and repeated audits for tiny progress on an informational website. This is not a blanket test ban or a requirement to defer every test until the end. This rule overrides earlier mandatory repeated review/repair cycles while preserving sources, evidence and release protections.
++
++**Until the planned local website is complete:**
++
++- Prioritize substantial delivery of the pages/features in §8. Use existing tools, validators and normal safeguards. Additional work must deliver a planned feature, fix a reproducible defect or check a concrete risk introduced by the change. No speculative bypass hunts, approval-system redesign, unrelated audit expansion, paper audits or scientific adjudication.
++- Finish a coherent batch, then run focused affected checks once. Reuse valid unchanged results; rerun affected checks after real repairs. Add meaningful feature/regression tests when warranted, not tests for trivial prose or tests that mirror implementation. Full-site integration/qualification belongs at M6.
++- Routine verification/review of small website changes should take minutes, not hours. If checking starts becoming a separate project, stop expanding it, record the concrete unresolved issue and return to delivery. An actual blocker requires the shortest targeted repair, not a new general audit. Do not silently spend hours on theoretical risks or another assurance pass.
++- Implementers stop at REVIEW_READY. Keep one bounded separate High acceptance of delivered pages/features, source fidelity, navigation, readability and concrete defects. The reviewer may repair material defects, check affected behavior and accept those repairs in that session; no automatic second acceptance cycle. Further rechecks need changed material or concrete evidence. Do not reopen accepted foundations without a defect affecting current work.
++- Keep receipts short: features delivered, actual checks, concrete blockers and next work. Existing pending/stale website decisions remain honest; actual fidelity decisions still need source/display comparison through the shared validator. Private implementation can proceed while qualification is pending. No fabricated tests, approvals or public release authority.
++
++**Policy-installation record (before §0.28):** policy-only change in AGENTS, this plan and START_HERE; no code/scientific source changed and no acceptance issued at that point. M2 remained REVIEW_READY for bounded High acceptance, then M3 technical documents/status/evidence, M4 articles/library/downloads/citation, M5 contribution/publication workflow and M6 search/integration/final verification. M7 remains an owner-authorized public action. Prior §0.26 checks were preserved, not rerun for that documentation edit.
++
++### 0.28 Separate bounded High M2 acceptance — 4 October 2026
++
++**M2 ACCEPTED for its delivered private website scope; EDITORIAL_CHECKED. M3 NOT_STARTED.** Independently compared home/start, both indexes, six examples and four concepts with original `research/RRG_CURRENT/` core/world/framework and scoped status/proof/interaction/additional-evidence passages. Inspected actual desktop/mobile/light/dark screenshots and the source → canonical callout → page/layout/navigation path. The central question, internally active parts, optional replication, environmental enabling and conditional effective-interaction extension remain faithful. Examples and diagrams are clearly illustrations; definitions, source-reported evidence and stronger open extensions remain distinct. Sources and uncertainty are discoverable without technical prerequisites. No material site defect or production repair was needed.
++
++**Actual checks and valid reuse:** initial production inputs exactly match §0.26 (`79e577bf…`), and all 112 saved artifact files at each base match their inventories. Reused its 89 contract / 24 Chromium results, all-route reflow/axe/theme/doubled-text evidence, and unchanged introduction/read-aloud evidence. After recording genuine decisions, `check:content`, 16 focused M2/fidelity contract cases, both private builds and shared output audits PASS. Four focused Chromium checks PASS: the real no-JS reading/source-disclosure journey and keyboard-scrolling/font-loaded interaction equation at both bases. Inspected the fresh equation capture. One old test assumed every decision must remain stale/pending; it now checks preserved predecessor invalidation without forbidding subsequent genuine review. The sandbox-blocked tsx validator was rerun successfully with approval. The root audit's default-folder write was moved to this scope and the original M1 receipt restored exactly. No unchanged full suite was repeated. Evidence and required decision snapshots: `docs/evidence/m2/acceptance/`.
++
++**Fidelity decision and remaining gates:** fourteen beginner-page decisions accepted through `website-reviews.yaml` and the existing shared validator after actual comparison. All older receipts and the pre-review registry snapshot remain preserved. The 31 technical records outside this acceptance remain stale; exact current counts are **14 accepted / 31 stale / 0 pending / 0 rejected**, `currentSourceQualified=false`, deployEligible=false. This does not certify scientific truth. Original scientific/history/ZIP/handoff/Rider/lockfile bytes remain unchanged; unrelated policy edits preserved. Human comprehension and assistive-technology studies NOT_TESTED, author approval PENDING, integrated M6/Lighthouse/release qualification and public target authorization still outstanding. These do not block the next private implementation batch under §0.27.
++
++**Next implementation task: M3 — Technical documents, bounded calculations and research status (§8).** Render the actual framework/math through sidecars and extend current evidence/status/open-problem views with source-reported scope. Stop this acceptance session here; no M3 implementation, commit, push or deployment performed.
++
++### 0.29 M3 technical implementation — 4 October 2026
++
++**M3 REVIEW_READY; not accepted. M2 acceptance preserved; M4 NOT_STARTED.** Delivered full source-bound current framework/math, 07/08 evidence readings, locked-core/change-control library access and the supplied current changelog. Extended 04 status and 06 proof context; added evidence and open-question indexes with all twelve stable evidence IDs and six open-question IDs. Technical navigation, simpler reading links, source edition/context, plain-language callouts and heading-derived no-JS tables of contents use the existing publication path. No duplicate active R2 technical bodies were present to retire; history remains preserved. Current adopted changes come from the supplied changelog, not older reviewer proposals.
++
++**Source boundary and targeted repairs:** original RRG_CURRENT bytes, definitions, assumptions, attribution, source-reported Checked/access limits and open extensions remain unchanged. The §39 math source omits a closing TeX display delimiter after the force formula; a disclosed exact-boundary display adapter closes that block without changing the formula/prose or source bytes. Retained addendum titles render as section headings and the framework’s literal-backslash addendum uses the existing display treatment. A measured 320px interaction-source filename overflow was fixed by wrapping technical source context. Effective interactions remain distinct from unproved fundamental-force unification; no paper audit, scientific adjudication or SF-01–06 work. Historical cavity/response calculations **NOT_SELECTED / NOT_RUN**: current sources do not retain those separate calculations and the owner did not select them. Their script/output/history bytes are preserved; no fabricated computation pass.
++
++**Actual focused checks:** zero Astro diagnostics; current admission/binding and shared content validators PASS; **22 distinct focused contract cases** pass across the 21-case M2/fidelity/M3 batch and six-case affected M3 repair run (five overlapping cases counted once). Both private builds and shared output audits PASS, **122 files / 58 HTML** each. **Six Chromium tests PASS**, three per base: no-JS technical/source navigation, 320px dark reflow/axe and keyboard equation scrolling/MathML, plus evidence attribution and open-test links. Actual screenshots inspected. Sandbox IPC failures, initial rendering/selector/layout failures and incorrect audit-CLI attempts are preserved as failures, not passes. Final audits cover repaired inputs; unchanged earlier checks are reused, full-site verification deferred to M6. Evidence: `docs/evidence/m3/implementation/`.
++
++**Remaining gates / handoff:** no concrete implementation blocker. Issued website decisions and historical receipts were preserved, never refreshed: renderer changes now yield **45 stale / 10 pending / 0 accepted / 0 rejected**, currentSourceQualified=false and deployEligible=false. This state does not revoke the bounded M2 engineering acceptance or block private implementation. Next: one separate bounded **High M3 acceptance** against original 00/02/03/04/05/06/07/08/changelog, actual sidecars and rendered routes, including disclosed §39 display repair, effective-interaction scope, reported access limits, navigation and equation readability. Use `website-reviews.yaml` and the shared fidelity validator for actual decisions; no automatic second acceptance cycle. Stop here at REVIEW_READY. Author/human/full-site/release gates remain pending; no M4, commit/push, deployment, DNS or license action.
++
++
+ ## 1. Review findings and chosen repairs
+ 
+ **R4 scope:** clarify the user's permission for necessary, justified source/core changes and recheck source visibility. R3 already mentioned a legitimate revised core, but its repeated “preserve bytes” and read-only presentation wording did not clearly distinguish the editable current source from immutable historical snapshots. R4 selects that distinction explicitly, supplies a revision path, and carries it through intake, records, milestones and both agent prompts. No scientific text is revised here and no fresh scientific literature audit is claimed.
+@@ -520,7 +557,7 @@ The shared notes record this expected locked-core SHA-256:
+ b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1
+ ```
+ 
+-**Current local observation:** actual core present; raw computed value matches the edition pin above; actual manifest/full inventory and bindings are verified (§§0.5–0.8). Bounded M1 extraction/display fidelity is independently accepted; historical scientific decisions remain preserved and deferred under §0.15. §0.19 made §0.18's 34 preserved receipts stale through a policy change. Separate §0.20 accepts the demonstrated unchanged repairs and records 34 new exact website-fidelity decisions after independent comparison: currentSourceQualified=true for reached private fidelity. §0.24 separately accepts demonstrated unchanged QF-12–14 controls, preserving bounded predecessor acceptance; M1 accepted for that predecessor, with its exact decisions current and unchanged at that receipt. §§0.25–0.26 M2 presentation changes make the 34 preserved decisions stale; 11 new entries await website review and currentSourceQualified=false. The original handoff absent-file/`null` observation is superseded for this supplied input. Byte integrity and website fidelity are not scientific validity or release authorization.
++**Current local observation:** actual core present; raw computed value matches the edition pin above; actual manifest/full inventory and bindings are verified (§§0.5–0.8). Bounded M1 extraction/display fidelity is independently accepted; historical scientific decisions remain preserved and deferred under §0.15. §0.19 made §0.18's 34 preserved receipts stale through a policy change. Separate §0.20 accepts the demonstrated unchanged repairs and records 34 new exact website-fidelity decisions after independent comparison: currentSourceQualified=true for reached private fidelity. §0.24 separately accepts demonstrated unchanged QF-12–14 controls, preserving bounded predecessor acceptance; M1 accepted for that predecessor, with its exact decisions current and unchanged at that receipt. §§0.25–0.26 M2 presentation changes made the 34 preserved decisions stale and added 11 pending entries. §0.28 independently accepts M2 and records 14 beginner-page decisions; 31 technical decisions remain stale and currentSourceQualified=false. §0.29 delivers M3 technical readings; rendering changes make 45 issued decisions stale and add 10 pending entries, without refreshing approvals. The original handoff absent-file/`null` observation is superseded for this supplied input. Byte integrity and website fidelity are not scientific validity or release authorization.
+ 
+ Implement one admission path, used by source validation and release selection:
+ 
+@@ -1004,7 +1041,7 @@ Preserve real implementation, meaningful IDs and valid independent evidence. Arc
+ 
+ ## 8. Complete implementation milestones
+ 
+-All listed checks are implementation obligations; §0 records the actually reached checks and accepted scopes. Run checks after the coherent session batch, not after each numbered step. Select required suites based on the changed material; reuse valid unaffected evidence.
++All listed deliverables remain selected. Under §0.27, implement pages/features in coherent batches, use focused affected checks and bounded High acceptance. Verify/Negative controls/Review focus paragraphs guide relevant checks, not a mandatory exhaustive audit at every milestone. Do not grow new test campaigns for unrelated edge cases. Full-site integration belongs at M6. §0 records actual checks/acceptance; no unrun check is reported as passing.
+ 
+ ### M0 — Real static slice and source-preserving foundation
+ 
+@@ -1207,7 +1244,7 @@ All listed checks are implementation obligations; §0 records the actually reach
+ 
+ ### 9.1 Required check families
+ 
+-These are **planned commands and test families**, not commands already present in a repository. M0/M1 install the shared script interfaces. `npm run verify` orchestrates reached checks once; do not have `build` recursively call the full test suite and then rerun it from `verify`. A selected skip must name why its previous evidence remains valid.
++These are **planned commands and test families**, not commands already present in a repository. M0/M1 install the shared script interfaces. Under §0.27, select focused checks for the changed feature; the stage column records feature ownership, not a demand to run every suite at each acceptance. Full-site verification belongs at M6. `npm run verify` orchestrates reached checks once; do not run its component suites separately and then repeat them through `verify`. Record earlier tests as preserved evidence and deferred tests as NOT_RUN, not passing.
+ 
+ | Check / intended entry | Actual subject and failure exposed | Required stage |
+ |---|---|---|
+@@ -1254,7 +1291,7 @@ A negative control must fail for the intended reason. A syntax error that preven
+ 
+ ### 9.3 Acceptance has separate scopes
+ 
+-**Engineering acceptance:** the implementation reaches the named real producer, consumer and output path, passes relevant negative controls, and has no known blocker within its acceptance scope. A separate review accepts only unchanged scope independently verified. Material new repairs are completed and tested as a connected batch, then stop REVIEW_READY for later separate acceptance.
++**Engineering acceptance during §0.27:** a separate High reviewer inspects delivered pages/features, their source/display path and concrete defects. Use focused builds/tests/private preview inspection as appropriate to the changed scope; do not turn intermediate acceptance into exhaustive auditing. The separate reviewer may fix and accept material in-scope repairs after inspecting affected behavior in that session. Implementers never self-accept. Final M6 qualification still requires the applicable checks and honest remaining gates; interim acceptance cannot substitute for it. No repeated general recheck or automatic second-session repair acceptance.
+ 
+ **Website source-fidelity acceptance:** each representation preserves the original documents’ terminology, meaning, assumptions, hypotheses, evidence descriptions and open questions, with accurate attribution/status and source mappings. Review source-to-display behavior and explanations, not independent scientific truth. Preserve the scientific findings/readouts/access ledgers for owner review after website completion. Do not require resolving SF-01–06, independently reading supporting papers, reproducing experiments, or rewriting source science to accept faithful website content. Bibliographic identity, source integrity, dependencies and safe rendering remain required.
+ 
+@@ -1266,7 +1303,7 @@ An unavailable mandatory technical check is `NOT_RUN`/`BLOCKED`, not a waiver. E
+ 
+ ### 9.4 Evidence receipt and validity
+ 
+-Append a compact receipt to **this plan's execution section**; store detailed logs outside it:
++During §0.27, append one compact receipt to **this plan's execution section**: delivered features, actual checks/inspections, concrete blockers and next work. Do not create a new evidence campaign for interim acceptance. The detailed template below applies to final M6/M7 qualification or an actual recorded failure; store detailed logs outside the plan:
+ 
+ ```text
+ Milestone / implementing or reviewing role / actual date:
+@@ -1299,14 +1336,15 @@ After launch, the normal author workflow is one Markdown change (plus a record/s
+ 
+ ## 10. Codex implementation and review prompts
+ 
+-The execution label below repeats the user's selected setup. It is not a claim about model availability or a promise that sessions run automatically. The user launches the implementing and separate review sessions.
++The execution label below repeats the user's selected setup. It is not a claim about model availability or a promise that sessions run automatically. The user launches implementing and separate High acceptance sessions. §0.27 requires proportionate checks and bounded acceptance, with full-site verification at M6.
+ 
+ ### 10.1 Implementation prompt
+ 
+ ```text
+ Use UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md Revision 4 as the sole website
+-execution authority. Read its current status, §§1–4, the selected milestone in §8,
+-and §9. Follow actual local AGENTS instructions and preserve unrelated work.
++execution authority. Read §0.27 first, current status, the selected milestone in §8,
++and relevant architecture. Follow AGENTS and preserve unrelated work. This is an
++informational website: finish its planned pages/features; do not expand auditing.
+ 
+ Implement the complete current milestone using the selected one-root Astro /
+ canonical Markdown architecture. Do not create another plan or hand central
+@@ -1331,53 +1369,52 @@ Implement real consumers and remove the obsolete path in the owning milestone.
+ No fake passing stubs, copied website/research prose, or auto-approved reviews.
+ 
+ Finish the coherent session code/content/config/test batch before verification.
+-Run affected named checks once in a consolidated phase; repair as a batch and
+-rerun affected checks only. Parallel sessions/dirty unrelated files are normal.
++Build/inspect previews and run focused affected checks after a coherent batch.
++Reuse valid unchanged results; rerun only affected checks after actual repairs.
++Do not spend hours checking a tiny change or expand auditing for speculative risks.
++Reserve full-site verification for M6.
++Parallel sessions/dirty unrelated files are normal.
+ 
+ Local preview/qualification do not require a domain or GitHub access. Never
+ publish, push, change visibility, grant a license or edit DNS without the named
+ owner authorization and normal tool permissions. Record missing external gates
+ without stopping independent local work.
+ 
+-Update this same plan with actual changes, source/config identities, reached
+-checks, failures/NOT_RUN, evidence paths and the exact resume point. End the
+-milestone at REVIEW_READY. Do not self-accept or begin the next milestone.
++Update this same plan briefly with delivered features, actual checks/inspections,
++concrete blockers and the next work. End implementation at
++REVIEW_READY for bounded High acceptance. Do not self-accept. After acceptance,
++the next implementation session continues the planned milestone sequence without
++an additional quality recheck or reopening accepted foundations.
+ ```
+ 
+ ### 10.2 Separate High review prompt
+ 
+ ```text
+-Review the current REVIEW_READY milestone against the entire relevant Revision 4
+-contract, current sources, actual code paths and emitted artifact. Do not accept
+-from the implementer's summary, test count, screenshot alone or this plan's score.
+-
+-Inspect canonical content → dependency/review selection → rendered routes →
+-exports/search → qualified artifact. Verify current-source admission and source
+-bindings against actual RRG_CURRENT. Do not accept historical or note-derived
+-text as the locked core, or old audit objectives as current by default. Recheck the named negative controls and what was
+-actually executed. A newer proposed research objective is not owner approval.
+-Verify the source-change rationale, scope, before/after meaning, history and
+-updated dependencies. Accept justified authorized source/core revisions; reject
+-silent drift, unexplained pin resets and blanket bans on needed source changes.
+-A new supplied baseline must be inspected, not rejected for its old hash alone.
+-
+-Review website fidelity against original downloaded documents; related papers
+-are supplementary. Do not adjudicate SF-01–06 or import reviewer corrections.
+-Record website decisions only after actual source/entry/rendered comparison.
+-Fix material in-scope problems as a coherent batch, then run affected verification.
+-New repairs stop REVIEW_READY for a later separate acceptance; accept only
+-unchanged scope independently demonstrated in this review session. Preserve unrelated work and valid receipts.
+-Do not add a compatibility layer, second tracker, test-only validator or bypass
+-merely to produce a green status.
+-
+-Separate engineering acceptance, website source fidelity, authorial/publication approval,
+-rights/privacy decisions, accessibility and human comprehension evidence. Do not
+-invent missing tests, a human reviewer, configured platform protection or live
+-publication. Do not claim the supplied model calculations prove the full theory.
+-
+-Accept only the scope actually demonstrated. Update this plan with the exact
+-source/config/artifact evidence and next already-defined milestone. Do not start
+-that next milestone inside the review run. An unresolved mandatory gate stays open.
++Read §0.27 first. Give the current REVIEW_READY milestone one bounded High
++acceptance review of delivered scope: actual private pages, source fidelity,
++navigation, readability and concrete defects. Inspect the real source/display
++path; do not accept from an implementer summary or test count alone.
++
++Use existing private builds/screenshots where applicable; build/inspect a preview
++when needed. Run focused affected checks where justified; reuse valid unchanged
++results. No exhaustive campaign for a small change. Full-site verification is M6.
++Do not hunt speculative bypasses, reopen accepted foundations, expand resource
++auditing, redesign approval receipts or conduct scientific/paper audits.
++
++Compare website meanings/status with original RRG_CURRENT. Related papers remain
++supplementary; no SF-01–06 adjudication or scientific source rewrite. Record real
++website decisions only after source/entry/rendered comparison through the existing
++shared validator; never fabricate qualification or owner approval.
++
++Fix material page/feature defects as a coherent batch and check affected
++behavior with proportionate tests/inspection. You may accept those repairs in this session;
++do not require another acceptance session just because you made a fix. A remaining
++blocker must identify the broken feature and exact required repair.
++
++Keep the decision/receipt short, scope it to what was inspected, preserve earlier
++evidence and name the next planned implementation milestone. No extra quality
++recheck cycle. No invented test pass, human study, rights/author approval or public
++authorization. At final M6, perform the consolidated required qualification.
+ ```
+ 
+ ### 10.3 First invocation
+@@ -1441,4 +1478,4 @@ The following external-source decisions are **retained from R2**, whose record s
+ | W10 | WIPO copyright protection: `https://www.wipo.int/en/web/copyright/protection` | Copyright's expression/idea distinction; not jurisdiction-specific legal advice or a royalty contract |
+ | W11 | Creative Commons BY-NC-SA 4.0: `https://creativecommons.org/licenses/by-nc-sa/4.0/` | Example of a non-commercial attribution/share-alike option and retained valid permissions; no license has been selected or granted here |
+ 
+-**End of sole forward implementation plan.** Current execution/handoff are §§0.15–0.26. M1 predecessor independently accepted; repaired M2 website REVIEW_READY with 89 contract / 24 Chromium checks and measured asset budgets. Preserved website decisions remain 34 stale / 11 pending; currentSourceQualified=false. Launch separate website acceptance, stop new repairs REVIEW_READY and do not start M3. Original sources unchanged; scientific adjudication outside this task; no public authority.
++**End of sole forward implementation plan.** §0.27 governs proportionate development and separate bounded High acceptance. M1 predecessor and M2 (§0.28) remain accepted; M3 is REVIEW_READY at §0.29, with separate bounded High acceptance next. Final focused checks pass; 45 preserved website decisions are stale and 10 new entries pending, currentSourceQualified=false. Original science is unchanged; historical calculations are not selected. M4 and public work remain outside this session.
+diff --git a/research/publication/canonical-documents.yaml b/research/publication/canonical-documents.yaml
+index bc67188..f945036 100644
+--- a/research/publication/canonical-documents.yaml
++++ b/research/publication/canonical-documents.yaml
+@@ -4,20 +4,21 @@
+     "route": "/research-status/",
+     "title": "Current research status",
+     "description": "Research status reported by the supplied documents, with explicit extension boundaries.",
+-    "revision": 3,
++    "revision": 4,
+     "kind": "research-status",
+     "lang": "en",
+     "audience": "technical",
+     "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+     "publicationState": "draft",
+     "publishedAt": null,
+-    "updatedAt": "2026-10-02",
++    "updatedAt": "2026-10-04",
+     "sourceRefs": [
+       "R-CURRENT-CONTROL",
+       "R-CURRENT-CORE",
+       "R-CURRENT-INTERACTIONS",
+       "R-CURRENT-PROOF",
+-      "R-CURRENT-STATUS"
++      "R-CURRENT-STATUS",
++      "R-CURRENT-ADDITIONAL"
+     ],
+     "dependsOn": [
+       "UT-D01",
+@@ -39,7 +40,10 @@
+       "UT-O06",
+       "UT-E10",
+       "UT-E11",
+-      "UT-E12"
++      "UT-E12",
++      "DOC-PROOF",
++      "DOC-INTERACTION-EVIDENCE",
++      "DOC-ADDITIONAL-EVIDENCE"
+     ],
+     "related": [],
+     "bibRefs": [],
+@@ -52,10 +56,10 @@
+       "excerptSha256": "65365f2935370ae8ba5494c51334b1eb76ede7f6523e9db238ddce2e46ce2d68"
+     },
+     "statement": null,
+-    "plainLanguage": "",
++    "plainLanguage": "The source distinguishes conceptually locked definitions from six open extensions. Its effective-interaction update reports supporting examples, while force unification remains open. “Supported” in the proof matrix is a source-reported status, not a scientific certification by this website.",
+     "scope": "Research status reported by the supplied documents, with explicit extension boundaries.",
+     "evidenceState": "not-applicable",
+-    "body": "## Evidence source links\n\nThe status addendum refers to the scoped evidence records :claim[UT-E10], :claim[UT-E11] and :claim[UT-E12], each with literature links.\n",
++    "body": "## Follow the research\n\n- [Claim and evidence matrix](/research-status/proof-matrix/) — source-reported status, evidence targets and failure meanings.\n- [Effective-interaction evidence](/evidence/interactions/) — source 07, including :claim[UT-E10], :claim[UT-E11] and :claim[UT-E12].\n- [Additional primary evidence](/evidence/additional/) — source 08’s nine realizations, mappings and access limits.\n- [Evidence index](/evidence/) and [open questions](/open-problems/) — support and remaining tests.\n- [Current mathematics](/math/#40-next-concrete-calculation) — the proposed next calculation, not an executed result.\n",
+     "sourceMapping": "04_status_and_blockers.md body, with an explicitly scoped literal-backslash addendum display adapter.",
+     "adapter": "rrg-escaped-addendum/1",
+     "limits": "",
+@@ -66,14 +70,14 @@
+     "route": "/research-status/proof-matrix/",
+     "title": "Claim and evidence matrix",
+     "description": "Reported status and failure meanings; the document title does not certify proof.",
+-    "revision": 2,
++    "revision": 3,
+     "kind": "research-status",
+     "lang": "en",
+     "audience": "technical",
+     "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+     "publicationState": "draft",
+     "publishedAt": null,
+-    "updatedAt": "2026-10-01",
++    "updatedAt": "2026-10-04",
+     "sourceRefs": [
+       "R-CURRENT-CONTROL",
+       "R-CURRENT-CORE",
+@@ -114,10 +118,10 @@
+       "excerptSha256": "66997726c6ea67eb4743320e7842e72fb6d2dcf2562550597bf1f81389f637c5"
+     },
+     "statement": null,
+-    "plainLanguage": "",
++    "plainLanguage": "This matrix states what each claim would need and what would count against it. Its “supported”, “locked” and “open” statuses belong to the supplied document. Same-equation closure and force unification remain extensions; the core is governed by change control.",
+     "scope": "Reported status and failure meanings; the document title does not certify proof.",
+     "evidenceState": "not-applicable",
+-    "body": "",
++    "body": "## Follow the supporting records\n\nThe effective-interaction row maps to source 07’s :claim[UT-E10], :claim[UT-E11] and :claim[UT-E12]. See the [evidence index](/evidence/) for source 08’s complementary clause mappings, and [open questions](/open-problems/) for tests and failure criteria.\n",
+     "sourceMapping": "06_PROOF_MATRIX.md body; faithful table display.",
+     "adapter": "rrg-proof-table/1",
+     "limits": "",
+@@ -151,12 +155,347 @@
+     "sourceBinding": null,
+     "statement": null,
+     "plainLanguage": "",
+-    "scope": "Beginner concept explanation mapped to original core \u00a7\u00a71\u20133 and world \u00a7\u00a71\u20132.",
++    "scope": "Beginner concept explanation mapped to original core §§1–3 and world §§1–2.",
+     "evidenceState": "not-applicable",
+     "body": "## In ordinary words\n\nGeometry describes how parts are arranged and related. Mode structure describes how they change and respond together. In RRG, both belong to the description of one organized system.\n\n## Try the string example\n\nA string's length and fixed ends constrain possible motion. Its tension and mass per unit length also matter. Arrangement and constraints do not magically provide the physical law. Read the [string illustration](/examples/string/).\n\nMode structure includes patterns, relative timing, responses and characteristic times. It is wider than a periodic vibration or one number in hertz. Activity can maintain an arrangement, transform it or destroy it.\n\n## The source meanings\n\n::claim{id=\"UT-D01\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D02\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D03\" view=\"plainLanguage\"}\n\nThe basic source object is $R=(G,M)$: $G$ denotes organization and $M$ its temporal mode structure. This is the framework's definition, not an extra independently established physical law.\n\nContinue with [stability](/concepts/stability/) or [all concepts](/concepts/).\n",
+-    "sourceMapping": "Core \u00a7\u00a71\u20133; world \u00a7\u00a71\u20132. Material and force conditions remain necessary for the string illustration.",
++    "sourceMapping": "Core §§1–3; world §§1–2. Material and force conditions remain necessary for the string illustration.",
++    "adapter": "markdown/1",
++    "limits": "",
++    "rightsRef": null
++  },
++  {
++    "id": "DOC-CORE",
++    "route": "/documents/locked-core/",
++    "title": "The locked RRG core",
++    "description": "The normative definitions in the supplied current research edition.",
++    "revision": 1,
++    "kind": "library",
++    "lang": "en",
++    "audience": "technical",
++    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
++    "publicationState": "draft",
++    "publishedAt": null,
++    "updatedAt": "2026-10-04",
++    "sourceRefs": [
++      "R-CURRENT-CORE",
++      "R-CURRENT-CONTROL"
++    ],
++    "dependsOn": [],
++    "related": [],
++    "bibRefs": [],
++    "contentOrigin": "source-bound",
++    "sourceBinding": {
++      "sourceKey": "R-CURRENT-CORE",
++      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
++      "startLine": 3,
++      "endLine": 170,
++      "excerptSha256": "71ce27e7514d9039bef52ddcd6884db7e24bcbb37ebf3aad022c66cdb516cfb1"
++    },
++    "statement": null,
++    "plainLanguage": "This is the definition authority for RRG. Geometry and full temporal mode structure describe one organized system. Stability means their self-consistent closure during an interval; it does not require permanence. Different parts, mechanisms and equations may occur at different scales. Force unification and background selection remain extensions.\n\nFor a simpler introduction, read [Start](/start/). The [change-control protocol](/changes/) states how a proposed contradiction must be handled.",
++    "scope": "The normative definitions in the supplied current research edition.",
++    "evidenceState": "not-applicable",
++    "body": "",
++    "sourceMapping": "00_LOCKED_CORE.md, original current edition; source body is extracted, not independently authored.",
+     "adapter": "markdown/1",
+     "limits": "",
+     "rightsRef": null
++  },
++  {
++    "id": "DOC-CONTROL",
++    "route": "/changes/",
++    "title": "Research and change control",
++    "description": "The current source protocol for distinguishing evidence, tests, extensions and definition changes.",
++    "revision": 1,
++    "kind": "library",
++    "lang": "en",
++    "audience": "technical",
++    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
++    "publicationState": "draft",
++    "publishedAt": null,
++    "updatedAt": "2026-10-04",
++    "sourceRefs": [
++      "R-CURRENT-CONTROL",
++      "R-CURRENT-CORE"
++    ],
++    "dependsOn": [
++      "DOC-CORE"
++    ],
++    "related": [],
++    "bibRefs": [],
++    "contentOrigin": "source-bound",
++    "sourceBinding": {
++      "sourceKey": "R-CURRENT-CONTROL",
++      "sourceSha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a",
++      "startLine": 3,
++      "endLine": 57,
++      "excerptSha256": "7a54d1480c62eb51e1e677fd481c16b023fcea8658d689cc0c23e2f0ea1fee55"
++    },
++    "statement": null,
++    "plainLanguage": "A new example or mathematical model can support, test or extend the core. It does not automatically redefine it. A claimed contradiction requires the source protocol’s complete proof gate. This page renders that protocol, rather than recording a new scientific decision.\n\nRead the [locked core](/documents/locked-core/) alongside the protocol.",
++    "scope": "The current source protocol for distinguishing evidence, tests, extensions and definition changes.",
++    "evidenceState": "not-applicable",
++    "body": "## Adopted source positions\n\nRead the [supplied current changelog](/changes/source-history/) for its recorded drift repairs and evidence-only update. This website preserves those positions and does not import historical reviewer proposals as new current definitions.\n",
++    "sourceMapping": "05_CHANGE_CONTROL.md, original current edition; source body is extracted, not independently authored.",
++    "adapter": "markdown/1",
++    "limits": "",
++    "rightsRef": null
++  },
++  {
++    "id": "DOC-FRAMEWORK",
++    "route": "/framework/",
++    "title": "The scientific framework",
++    "description": "The current non-normative RRG framework: propositions, reported evidence and unresolved extensions.",
++    "revision": 1,
++    "kind": "framework",
++    "lang": "en",
++    "audience": "technical",
++    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
++    "publicationState": "draft",
++    "publishedAt": null,
++    "updatedAt": "2026-10-04",
++    "sourceRefs": [
++      "R-CURRENT-SCIENCE",
++      "R-CURRENT-CORE",
++      "R-CURRENT-CONTROL"
++    ],
++    "dependsOn": [
++      "DOC-CORE",
++      "DOC-CONTROL"
++    ],
++    "related": [],
++    "bibRefs": [],
++    "contentOrigin": "source-bound",
++    "sourceBinding": {
++      "sourceKey": "R-CURRENT-SCIENCE",
++      "sourceSha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807",
++      "startLine": 3,
++      "endLine": 996,
++      "excerptSha256": "d836caa3ed6f47bf3803cbb81f25f50379596a77ff906558aab962ffc33b9159"
++    },
++    "statement": null,
++    "plainLanguage": "The framework asks whether the geometry–mode relation can usefully predict organization across scales. Its examples have different physical mechanisms. Its labels “Established”, “Compatible”, “RRG hypothesis” and “Open” are the supplied document’s labels.\n\nThe [locked core](/documents/locked-core/) governs definitions. [Candidate mathematics](/math/) describes implementations and tests. Same-equation closure is a stronger optional hypothesis; effective-interaction examples do not derive all four fundamental forces. See the [evidence views](/evidence/) and [open questions](/open-problems/).",
++    "scope": "The current non-normative RRG framework: propositions, reported evidence and unresolved extensions.",
++    "evidenceState": "not-applicable",
++    "body": "",
++    "sourceMapping": "02_scientific_framework.md, original current edition; source body is extracted, not independently authored.",
++    "adapter": "rrg-document/1",
++    "limits": "",
++    "rightsRef": null
++  },
++  {
++    "id": "DOC-MATH",
++    "route": "/math/",
++    "title": "Candidate mathematics and experiments",
++    "description": "The current mathematical programme, including its retained effective-action and background-dependent addenda.",
++    "revision": 1,
++    "kind": "mathematics",
++    "lang": "en",
++    "audience": "technical",
++    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
++    "publicationState": "draft",
++    "publishedAt": null,
++    "updatedAt": "2026-10-04",
++    "sourceRefs": [
++      "R-CURRENT-MATH",
++      "R-CURRENT-CORE",
++      "R-CURRENT-CONTROL"
++    ],
++    "dependsOn": [
++      "DOC-CORE",
++      "DOC-CONTROL"
++    ],
++    "related": [],
++    "bibRefs": [],
++    "contentOrigin": "source-bound",
++    "sourceBinding": {
++      "sourceKey": "R-CURRENT-MATH",
++      "sourceSha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce",
++      "startLine": 3,
++      "endLine": 1353,
++      "excerptSha256": "77d393b117b9df4472e9f9751dd8703c9cf608674d3deb04fb323a03dde8a90b"
++    },
++    "statement": null,
++    "plainLanguage": "These equations are candidate implementations and tests of the core. Fixed-point, Floquet, lifetime and promotion criteria apply to specified models; they do not replace the definitions of stability or scale.\n\nCoarse-graining asks whether evolving the parts then reducing them agrees, within a stated error, with evolving the effective units. The effective equations may change with scale. Some experiments in this document test the stronger optional same-family hypothesis. Sections 25–40 retain the source’s labelled addenda and its next concrete calculation: a background-dependent action with competing channels and spontaneous composite promotion.\n\nRead the [framework](/framework/) for context and the [open questions and failure tests](/open-problems/) for remaining work. No numerical reproduction is claimed by this reading page.\n\n**Source display note:** In §39 the original omits the closing display delimiter after the force equation. This reading closes that display block; the formula and following prose are unchanged.",
++    "scope": "The current mathematical programme, including its retained effective-action and background-dependent addenda.",
++    "evidenceState": "not-applicable",
++    "body": "",
++    "sourceMapping": "03_mathematical_core.md, original current edition; source body is extracted, not independently authored. Section 39 display-only repair: insert the omitted closing TeX delimiter after the force expression, preserving source bytes and formula.",
++    "adapter": "rrg-math-document/1",
++    "limits": "",
++    "rightsRef": null
++  },
++  {
++    "id": "DOC-INTERACTION-EVIDENCE",
++    "route": "/evidence/interactions/",
++    "title": "Emergent interaction evidence",
++    "description": "The supplied 07 addendum on phonons, spin ice and background-dependent interaction regimes.",
++    "revision": 1,
++    "kind": "research-status",
++    "lang": "en",
++    "audience": "technical",
++    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
++    "publicationState": "draft",
++    "publishedAt": null,
++    "updatedAt": "2026-10-04",
++    "sourceRefs": [
++      "R-CURRENT-INTERACTIONS",
++      "R-CURRENT-CORE",
++      "R-CURRENT-CONTROL"
++    ],
++    "dependsOn": [
++      "DOC-CORE"
++    ],
++    "related": [],
++    "bibRefs": [],
++    "contentOrigin": "source-bound",
++    "sourceBinding": {
++      "sourceKey": "R-CURRENT-INTERACTIONS",
++      "sourceSha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670",
++      "startLine": 3,
++      "endLine": 213,
++      "excerptSha256": "daa8862522725a39eea990e330bb08765577fa696fc92fc706efa41ccaea74ae"
++    },
++    "statement": null,
++    "plainLanguage": "The supplied addendum reports three distinct physical cases. Their mechanisms and conditions differ. The narrower proposed relation is lower-level organization → effective interaction channel → possible higher-level organization. This is not a derivation of strong, weak, electromagnetic and gravitational interactions from RRG.\n\nThe source’s statements about established physics and evidence are attributed to the document and its cited authors. Individual mapped records are :claim[UT-E10], :claim[UT-E11] and :claim[UT-E12].",
++    "scope": "The supplied 07 addendum on phonons, spin ice and background-dependent interaction regimes.",
++    "evidenceState": "project-reported",
++    "body": "",
++    "sourceMapping": "07_EMERGENT_INTERACTION_EVIDENCE.md, original current edition; source body is extracted, not independently authored.",
++    "adapter": "markdown/1",
++    "limits": "",
++    "rightsRef": null
++  },
++  {
++    "id": "DOC-ADDITIONAL-EVIDENCE",
++    "route": "/evidence/additional/",
++    "title": "Additional primary evidence register",
++    "description": "The full supplied 08 register: nine domain-specific realizations, clause mappings and reported inspection limits.",
++    "revision": 1,
++    "kind": "research-status",
++    "lang": "en",
++    "audience": "technical",
++    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
++    "publicationState": "draft",
++    "publishedAt": null,
++    "updatedAt": "2026-10-04",
++    "sourceRefs": [
++      "R-CURRENT-ADDITIONAL",
++      "R-CURRENT-CORE",
++      "R-CURRENT-CONTROL"
++    ],
++    "dependsOn": [
++      "DOC-CORE"
++    ],
++    "related": [],
++    "bibRefs": [],
++    "contentOrigin": "source-bound",
++    "sourceBinding": {
++      "sourceKey": "R-CURRENT-ADDITIONAL",
++      "sourceSha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6",
++      "startLine": 3,
++      "endLine": 199,
++      "excerptSha256": "9a258d346e3ee52cd92d8c234133414a41f02e6f4001ff61bb679c6980a2ebde"
++    },
++    "statement": null,
++    "plainLanguage": "This register reports experiments and restricted mathematical results against existing core clauses. “Supports core” is the register’s classification; it does not mean the cited authors tested RRG by name or proved every application.\n\n“Checked”, “Location” and “Inspected source” describe checks reported by the supplied document, not new paper inspections by this website. In particular, E06 reports abstract/figure access without a full manuscript, and E07 reports abstract/figure access without subscription full text. All experimental results belong to the cited authors. No numerical simulation was run for the addendum.\n\nThe register’s E01–E09 correspond to the stable website IDs :claim[UT-E01], :claim[UT-E02], :claim[UT-E03], :claim[UT-E04], :claim[UT-E05], :claim[UT-E06], :claim[UT-E07], :claim[UT-E08] and :claim[UT-E09].",
++    "scope": "The full supplied 08 register: nine domain-specific realizations, clause mappings and reported inspection limits.",
++    "evidenceState": "project-reported",
++    "body": "",
++    "sourceMapping": "08_ADDITIONAL_PRIMARY_EVIDENCE.md, original current edition; source body is extracted, not independently authored.",
++    "adapter": "markdown/1",
++    "limits": "",
++    "rightsRef": null
++  },
++  {
++    "id": "DOC-OPEN-PROBLEMS",
++    "route": "/open-problems/",
++    "title": "Open questions and failure tests",
++    "description": "The open extensions in current status, connected to source-stated evidence and failure criteria.",
++    "revision": 1,
++    "kind": "open-problems",
++    "lang": "en",
++    "audience": "technical",
++    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
++    "publicationState": "draft",
++    "publishedAt": null,
++    "updatedAt": "2026-10-04",
++    "sourceRefs": [
++      "R-CURRENT-STATUS",
++      "R-CURRENT-CORE",
++      "R-CURRENT-CONTROL",
++      "R-CURRENT-PROOF",
++      "R-CURRENT-SCIENCE",
++      "R-CURRENT-MATH",
++      "R-CURRENT-INTERACTIONS",
++      "R-CURRENT-ADDITIONAL"
++    ],
++    "dependsOn": [
++      "DOC-PROOF",
++      "DOC-FRAMEWORK",
++      "DOC-MATH",
++      "DOC-INTERACTION-EVIDENCE",
++      "DOC-ADDITIONAL-EVIDENCE"
++    ],
++    "related": [],
++    "bibRefs": [],
++    "contentOrigin": "source-bound",
++    "sourceBinding": {
++      "sourceKey": "R-CURRENT-STATUS",
++      "sourceSha256": "26642102427e7a82eb4f107359a212037507c8edf1dee29e4ee5d01d88b251a2",
++      "startLine": 18,
++      "endLine": 26,
++      "excerptSha256": "f122c094092079b086c5ffe33484d53070b47ca02a6382ec5afe80761936c263"
++    },
++    "statement": null,
++    "plainLanguage": "The following six questions come directly from current status. They are extensions or applications to prove, rather than definitions. The proof matrix distinguishes evidence for a specific claim from a failed extension; failure does not by itself permit a core redefinition.",
++    "scope": "The open extensions in current status, connected to source-stated evidence and failure criteria.",
++    "evidenceState": "proposed",
++    "body": "## Stable question IDs\n\n1. :claim[UT-O01] — fundamental interactions.\n2. :claim[UT-O02] — gravity.\n3. :claim[UT-O03] — background selection.\n4. :claim[UT-O04] — a cross-domain invariant or promotion criterion.\n5. :claim[UT-O05] — a novel prediction.\n6. :claim[UT-O06] — measurable AI advantages.\n\n## What would count against an extension?\n\nRead the [current proof matrix](/research-status/proof-matrix/) for each claim’s reported status, evidence target, contrary result and core impact. The [framework’s failure criteria](/framework/#15-what-would-falsify-or-weaken-specific-rrg-claims) distinguish core contradiction candidates from failed extensions: lack of a transferable invariant, predictive reduction, spontaneous hierarchy or novel prediction can weaken a proposed extension. Wrong known physics or trivial universality are also stated failure criteria.\n\nThe [mathematical model’s strong failure conditions](/math/#19-strong-failure-conditions) include manually imposed clusters or hierarchy, lost predictive power after coarse-graining, and lack of robust persistence under perturbation. These are tests of that proposed implementation. [Metrics](/math/#18-metrics) and [the next concrete calculation](/math/#40-next-concrete-calculation) state the current programme; no calculation is reported as completed here.\n\n## Effective interactions: the narrower open question\n\nThe [07 addendum’s final section](/evidence/interactions/#5-what-remains-open) asks under what general conditions an effective interaction generated or activated by one organization can stabilize or enable another. Its phonon, spin-ice and background-field examples do not close universal force unification. The [08 register](/evidence/additional/) contributes other scoped realizations, without changing the core or supplying that universal derivation.\n",
++    "sourceMapping": "04_status_and_blockers.md, original current edition; source body is extracted, not independently authored.",
++    "adapter": "markdown/1",
++    "limits": "",
++    "rightsRef": null
++  },
++  {
++    "id": "DOC-SOURCE-CHANGES",
++    "route": "/changes/source-history/",
++    "title": "Source-reported changes",
++    "description": "The current source changelog: adopted drift repairs and its evidence-only update.",
++    "revision": 1,
++    "kind": "library",
++    "lang": "en",
++    "audience": "technical",
++    "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
++    "publicationState": "draft",
++    "publishedAt": null,
++    "updatedAt": "2026-10-04",
++    "sourceRefs": [
++      "R-CURRENT-CORE",
++      "R-CURRENT-CONTROL",
++      "R-CURRENT-CHANGELOG"
++    ],
++    "dependsOn": [
++      "DOC-CORE"
++    ],
++    "related": [],
++    "bibRefs": [],
++    "contentOrigin": "source-bound",
++    "sourceBinding": {
++      "sourceKey": "R-CURRENT-CHANGELOG",
++      "sourceSha256": "d63ef2d9124154e7994949a68f1c55ed6024ddfd1cd3048e18dad3a5d6b278a7",
++      "startLine": 3,
++      "endLine": 17,
++      "excerptSha256": "72e1abbd2013020f3354337f5466a6f9e030a5d72b411086bba7ac242317f45d"
++    },
++    "statement": null,
++    "plainLanguage": "This is the changelog supplied with the current edition. It reports repairs restoring stability, heterogeneous composition, optional replication and scale-dependent mechanisms, plus an evidence-only update. Those are adopted source positions, not new corrections made by this website. Older proposals outside this current package are not promoted into the framework.",
++    "scope": "The current source protocol for distinguishing evidence, tests, extensions and definition changes.",
++    "evidenceState": "not-applicable",
++    "body": "",
++    "sourceMapping": "CHANGELOG.md, full body from the supplied current edition; adopted source history, not a new website or scientific decision.",
++    "adapter": "rrg-document/1",
++    "limits": "",
++    "rightsRef": null
+   }
+ ]
+diff --git a/research/publication/website-reviews.yaml b/research/publication/website-reviews.yaml
+index 6d187dc..985aa8b 100644
+--- a/research/publication/website-reviews.yaml
++++ b/research/publication/website-reviews.yaml
+@@ -22,12 +22,12 @@
+   {
+     "purpose": "website-source-fidelity/1",
+     "entryId": "DOC-CONCEPT-GEOMETRY",
+-    "fingerprint": "923ed8d86780b2c14fc9d44a42bc74f6e2c895c3adaaba08131a05588055b4ff",
++    "fingerprint": "3007ec470353c3f61527393978c14b34b6c49d0748dd4c25f155cd1c024d2101",
+     "reviewerKind": "agent",
+-    "reviewedAt": "2026-10-02",
++    "reviewedAt": "2026-10-04",
+     "outcome": "accepted",
+-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/DOC-CONCEPT-GEOMETRY.json",
+-    "evidenceSha256": "a5ad704a97a68e499c16ddac879e09083ccd7ba234ed463d5bd665f8629c3558"
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-CONCEPT-GEOMETRY.json",
++    "evidenceSha256": "3fb6c24551b995ccbb956b517b3570bc0aca29353aaafe54f89b3338b25efe6a"
+   },
+   {
+     "purpose": "website-source-fidelity/1",
+@@ -322,21 +322,131 @@
+   {
+     "purpose": "website-source-fidelity/1",
+     "entryId": "DOC-HOME",
+-    "fingerprint": "836e8f7d30644fd00bde35dd7b70f1cbffe57f8cc0b2a4cebcb1f0d83bc2a482",
++    "fingerprint": "463a833b2ba08bdfb966243b20478545f76152c152a95b2a9647206b0c9c1ad9",
+     "reviewerKind": "agent",
+-    "reviewedAt": "2026-10-02",
++    "reviewedAt": "2026-10-04",
+     "outcome": "accepted",
+-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/DOC-HOME.json",
+-    "evidenceSha256": "32d96c04ad15e9351686e4e3346a4cfd6e4a81e093508b06b71bf7536dc48efa"
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-HOME.json",
++    "evidenceSha256": "5948372cdb9f03e155a1b68a9c81ad5c7c8953ad4e566c51a665a90ec520838f"
+   },
+   {
+     "purpose": "website-source-fidelity/1",
+     "entryId": "DOC-START",
+-    "fingerprint": "61f69aa8ee0aa6b30c85c315d3eb2c2721ff67998e08945f6534e226661097d8",
++    "fingerprint": "19312a202785209ef7ad3b01689ea2274641e8ccf895a63c1b5e267888370780",
+     "reviewerKind": "agent",
+-    "reviewedAt": "2026-10-02",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-START.json",
++    "evidenceSha256": "0bcf217c31dc4c778b26b38680f985f568439bcf131559ce599120af53a82aed"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-EXAMPLES",
++    "fingerprint": "e19ce6863520a247bf7b445c5b12cc4e376cf4658dbb4db16f665396fc4e74ca",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLES.json",
++    "evidenceSha256": "4d37793518a591a2a1b82bcedca866b2ba96375c025316296a64f225865318d9"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-CONCEPTS",
++    "fingerprint": "f5ac512cd47a7b5b87168630c73175d5d406009f5a238312bd82fd3e95d4e8db",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-CONCEPTS.json",
++    "evidenceSha256": "68007b6abc6fc8e4e0da6c40b6a64cdf8136f325896080a934ad814164f08d58"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-EXAMPLE-WATER",
++    "fingerprint": "5f2c7e2340dc781ddddd6f69ac7788696282a31833d25c5f5a02fa2ff1116e20",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-WATER.json",
++    "evidenceSha256": "14f2ae9680a0fff6c8903c76955c1262932952635ce48247af3058f3a448bc0c"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-EXAMPLE-STRING",
++    "fingerprint": "ee22d025232a9df4e53c438d7ec8a0d5944e3c48fc7079679d9f67c0c8c4c380",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-STRING.json",
++    "evidenceSha256": "dccb698ef01719cc7206dd0af3d2035b3caad9ec0f14fb4f7a3ebd9a005597b2"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-EXAMPLE-MOLECULE",
++    "fingerprint": "dd9ffaf520799329538a6587b7d9ef6d1957fa259af3c08a06ee4f0d1ea197cc",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json",
++    "evidenceSha256": "b0c31e38052423a61c244f2495579a1fbfdf7f0ec7d26ce5abd430e3d55e28c8"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-EXAMPLE-STAR",
++    "fingerprint": "696ffc005885f069eb94e47deba9846b8e9ac15a16bb97d0c5735bbfe3aba610",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-STAR.json",
++    "evidenceSha256": "d5b42e2b6c2fc74ddad67a58a790a593d9f1cfc69e194f3a98cf8dcb8361707b"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-EXAMPLE-LIFE",
++    "fingerprint": "45070a3e643bd971fc10c38ec7583a620414e173e24fe8019811037b72700925",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-LIFE.json",
++    "evidenceSha256": "1398f7fe3bbbd6d9f04d62c20f045b4a9dd24f17a99fd342f1111925d6a84652"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-EXAMPLE-CELL",
++    "fingerprint": "f0e51d48490bb78df91a4796d10c580514be4cb209f671c2b1211b22247a8be1",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-EXAMPLE-CELL.json",
++    "evidenceSha256": "bd0d4ef4f22ac977756fd84fa1506e186d0473a0a9ee08e7f227e658bdc4aeed"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-CONCEPT-STABILITY",
++    "fingerprint": "e85d18abd219a35af57659dd0fc8f81afaeed2ca7d525198934b39ced58f1c93",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-CONCEPT-STABILITY.json",
++    "evidenceSha256": "aa1ee1ed919f14729704e0ea29fb297acc74e60f96b6d9f5fecc47d71a1cf0ba"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-CONCEPT-RECURSION",
++    "fingerprint": "dfc82c4dfd55c3cdb52ea1633c78cf921ef0fdd82aa130843b1cb605e7bd7e73",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
++    "outcome": "accepted",
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-CONCEPT-RECURSION.json",
++    "evidenceSha256": "8e19ed194bd00acd7337014ef1540c93724b98994565a884dfbc0a3b8e3ae5d0"
++  },
++  {
++    "purpose": "website-source-fidelity/1",
++    "entryId": "DOC-CONCEPT-INTERACTIONS",
++    "fingerprint": "6eddf8477cfee9a8bbea6726b3e4c53ec2794ebeeb6b4ced3c5deb1b9b55de1d",
++    "reviewerKind": "agent",
++    "reviewedAt": "2026-10-04",
+     "outcome": "accepted",
+-    "evidenceRef": "docs/evidence/m1/separate-requalification-review/decisions/DOC-START.json",
+-    "evidenceSha256": "6aa9acbc63d16b56d222ad7fedd12f552bb1632d61270d288ff552ca8a182bbb"
++    "evidenceRef": "docs/evidence/m2/acceptance/decisions/DOC-CONCEPT-INTERACTIONS.json",
++    "evidenceSha256": "7d8f585a030b2471073355986858822c83722c3b3ecf28226eba00c0e464091f"
+   }
+ ]
+diff --git a/scripts/audit-output.ts b/scripts/audit-output.ts
+index eea969f..07ab77e 100644
+--- a/scripts/audit-output.ts
++++ b/scripts/audit-output.ts
+@@ -1,5 +1,5 @@
+ import { publicationFor, isHistorical } from '../src/lib/publication.js';
+-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram } from '../src/lib/presentation.js';
++import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, renderTechnicalGuide } from '../src/lib/presentation.js';
+ import { renderEntrySync } from '../src/lib/content.js';
+ import { readFileSync, existsSync, statSync, mkdirSync, writeFileSync } from 'node:fs';
+ import { resolve, join, dirname } from 'node:path';
+@@ -108,6 +108,9 @@ export function auditOutput(directory: string) {
+       const expected=load(expectedContent,null,false).html();
+       const actual=$('[data-canonical-body]').filter((_i,el)=>$(el).attr('data-canonical-body')===entry.id);
+       if (actual.length!==1 || normalizedHTML(actual.html() ?? '')!==normalizedHTML(expected)) throw new ContractError('CONTENT_PARITY_FAILURE',entry.id);
++      const guide=renderTechnicalGuide(selected,entry,expectedContent,info.config.basePath);
++      const actualGuide=$('[data-technical-guide]');
++      if(guide ? actualGuide.length!==1 || actualGuide.attr('data-technical-guide')!==entry.id || normalizedHTML(actualGuide.html() ?? '')!==normalizedHTML(guide) : actualGuide.length!==0) throw new ContractError('CONTENT_PARITY_FAILURE',`${entry.id}: technical guide`);
+       if($('head > title').length!==1 || $('head > title').text()!==`${entry.title} · Unity Theory` || $('head > meta[name="description"]').length!==1 || $('head > meta[name="description"]').attr('content')!==entry.description) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
+       if($('h1').length!==1 || $('h1').text().replace(/\s+/g,' ').trim()!==entry.title.replace(/\s+/g,' ').trim()) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
+       if(['DOC-HOME','DOC-START'].includes(entry.id) && !isHistorical(entry)) {
+diff --git a/src/components/CanonicalPage.astro b/src/components/CanonicalPage.astro
+index 70f7593..22682d1 100644
+--- a/src/components/CanonicalPage.astro
++++ b/src/components/CanonicalPage.astro
+@@ -4,20 +4,23 @@ import RecordStatus from './RecordStatus.astro';
+ import { renderEntry } from '../lib/content';
+ import { activePublication, isHistorical } from '../lib/publication';
+ import { activeConfig } from '../lib/site-config';
+-import { renderRecordDetails, renderBeginnerDiagram } from '../lib/presentation';
++import { renderRecordDetails, renderBeginnerDiagram, renderTechnicalGuide } from '../lib/presentation';
+ import { requiresMathStyles } from '../lib/markdown';
+ const { id } = Astro.props as { id: string };
+-const { corpus,entries } = activePublication();
++const selection = activePublication();
++const { corpus,entries } = selection;
+ const entry = entries.find(e=>e.id===id);
+ if (!entry) throw new Error(`Entry not selected: ${id}`);
+ const html = await renderEntry(corpus,entry,activeConfig().basePath);
+ const details=renderRecordDetails(corpus,entry,activeConfig().basePath);
++const guide=renderTechnicalGuide(selection,entry,html,activeConfig().basePath);
+ const diagram=isHistorical(entry)?'':renderBeginnerDiagram(entry.id);
+ const earlyDiagram=entry.id==='DOC-EXAMPLE-STRING';
+ ---
+ <ReadingLayout title={entry.title} description={entry.description} route={entry.route} math={requiresMathStyles(html + details)}>
+   <article class="article shell"><header><p class="eyebrow">{entry.id} · Revision {entry.revision}</p><h1>{entry.title}</h1><p class="article-lede">{entry.description}</p></header>
+   <RecordStatus entry={entry} corpus={corpus} />
++  {guide && <div data-technical-guide={entry.id} set:html={guide} />}
+   {earlyDiagram && <Fragment set:html={diagram} />}
+   <div class="prose" data-canonical-body={entry.id} set:html={html} />
+   {!earlyDiagram && <Fragment set:html={diagram} />}
+diff --git a/src/lib/content-schema.ts b/src/lib/content-schema.ts
+index 9562399..6de1a8d 100644
+--- a/src/lib/content-schema.ts
++++ b/src/lib/content-schema.ts
+@@ -8,7 +8,7 @@ export const entrySchema = z.object({
+   sourceRefs: z.array(z.string()), dependsOn: z.array(z.string()), related: z.array(z.string()).default([]), bibRefs: z.array(z.string()).default([]),
+   contentOrigin: z.enum(['source-bound','proposed','authored']), sourceBinding: bindingSchema.nullable(), statement: z.string().nullable(),
+   plainLanguage: z.string().default(''), scope: z.string(), evidenceState: z.enum(['not-applicable','external-supported','project-reported','project-reproduced','proposed','contested']),
+-  body: z.string().default(''), sourceMapping: z.string().default(''), adapter: z.enum(['markdown/1','rrg-escaped-addendum/1','rrg-proof-table/1']).default('markdown/1'),
++  body: z.string().default(''), sourceMapping: z.string().default(''), adapter: z.enum(['markdown/1','rrg-escaped-addendum/1','rrg-proof-table/1','rrg-document/1','rrg-math-document/1']).default('markdown/1'),
+   assumptions: z.array(z.string()).default([]), testRefs: z.array(z.string()).default([]), evidenceRefs: z.array(z.string()).default([]), limits: z.string().default(''),
+   observables: z.string().optional(), conditions: z.string().optional(), targetId: z.string().optional(), procedure: z.string().optional(), rejectionCriterion: z.string().optional(),
+   proposalProvenance: z.string().optional(), adopted: z.literal(false).optional(), correctionRef: z.string().optional(), supersedes: z.string().optional(), supersededBy: z.string().optional(), withdrawalReason: z.string().optional(),
+diff --git a/src/lib/presentation.ts b/src/lib/presentation.ts
+index d58dfc7..e65af33 100644
+--- a/src/lib/presentation.ts
++++ b/src/lib/presentation.ts
+@@ -6,6 +6,7 @@ import { withBase } from './urls.js';
+ import { sourceDisplay } from './source-display.js';
+ import { parseMarkdown } from './markdown-tree.js';
+ import { ContractError } from './errors.js';
++import { load } from 'cheerio';
+ 
+ export function escapeHTML(value: string) { return value.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!)); }
+ const roles: Record<string,string> = { definition:'Definition',assumption:'Assumption',conjecture:'Conjecture',evidence:'Evidence',derivation:'Restricted result',prediction:'Prediction',falsification:'Failure test','open-problem':'Open question' };
+@@ -33,7 +34,7 @@ export function renderRecordDetails(corpus: Corpus,entry: Entry,base='/') {
+   let html='';
+   if(entry.contentOrigin==='proposed') html+=`<aside class="prose"><h2>Proposal · not adopted into the current theory</h2><p>${escapeHTML(entry.proposalProvenance ?? '')}</p></aside>`;
+   if(entry.publicationState==='superseded') html+=`<aside class="prose"><h2>Historical record · corrected</h2><p>Change record: ${escapeHTML(entry.correctionRef ?? '')}</p>${link(corpus.entries.get(entry.supersededBy!)!.route,`Read replacement ${entry.supersededBy}`,base)}</aside>`;
+-  if(entry.plainLanguage) html+=`<section class="prose"><h2>In plain language</h2><p class="reading-note">Source fidelity: ${escapeHTML(reviewLabel(corpus,entry.id))}</p>${renderMarkdownSync(entry.plainLanguage,base,corpus)}</section>`;
++  if(entry.plainLanguage && !isTechnicalDocument(entry)) html+=`<section class="prose"><h2>In plain language</h2><p class="reading-note">Source fidelity: ${escapeHTML(reviewLabel(corpus,entry.id))}</p>${renderMarkdownSync(entry.plainLanguage,base,corpus)}</section>`;
+   const context=html;
+   const compact=entry.audience==='general' && ['concept','example'].includes(entry.kind);
+   html=`<section class="prose"><h2>Scope and sources</h2><p>${escapeHTML(entry.scope)}</p>`;
+@@ -72,13 +73,33 @@ export function renderHomeStatus(corpus: Corpus,entry: Entry,base='/') {
+   return renderMarkdownSync(text.slice(heading.position.start.offset,next.position.start.offset),base,corpus);
+ }
+ export function renderNavigation(selection: { entries: Entry[]; manifest: {navigationIds:string[];routes:string[]} },route:string,base='/') {
+-  const navigation=[['DOC-START','Start'],['DOC-EXAMPLES','Examples'],['DOC-CONCEPTS','Concepts'],['DOC-STATUS','Research status']].flatMap(([id,label])=>{
++  const navigation=[['DOC-START','Start'],['DOC-FRAMEWORK','Framework'],['DOC-STATUS','Research'],['DOC-LIBRARY','Documents']].flatMap(([id,label])=>{
+     const entry=selection.entries.find(e=>e.id===id);return entry && selection.manifest.navigationIds.includes(id)?[{route:entry.route,label}]:[];
+   });
+   if(selection.manifest.routes.includes('/references/')) navigation.push({route:'/references/',label:'Sources'});
+   return navigation.map(item=>`<a href="${escapeHTML(withBase(item.route,base))}"${route===item.route?' aria-current="page"':''}>${item.label}</a>`).join('');
+ }
+ 
++export function isTechnicalDocument(entry: Entry) {
++  return entry.id.startsWith('DOC-') && entry.audience==='technical' && !['superseded','withdrawn'].includes(entry.publicationState);
++}
++
++// Long source readings share a selected-route guide and a TOC taken from the
++// actual rendered headings. No separate scientific summary or heading owner.
++export function renderTechnicalGuide(selection: {corpus: Corpus; entries: Entry[]; manifest:{navigationIds:string[]}},entry: Entry,html: string,base='/') {
++  if(!isTechnicalDocument(entry))return '';
++  const available=(id:string)=>selection.entries.find(item=>item.id===id && selection.manifest.navigationIds.includes(id));
++  const items=[['DOC-FRAMEWORK','Framework'],['DOC-MATH','Mathematics'],['DOC-EVIDENCE','Evidence'],['DOC-STATUS','Status'],['DOC-OPEN-PROBLEMS','Open questions'],['DOC-LIBRARY','Documents']];
++  const navigation=items.flatMap(([id,label])=>{const item=available(id);return item?[`<a href="${escapeHTML(withBase(item.route,base))}"${id===entry.id?' aria-current="page"':''}>${label}</a>`]:[];}).join('');
++  const $=load(html,null,false);
++  const headings=$('h2[id]').toArray().map(el=>({id:$(el).attr('id')!,text:$(el).text()}));
++  const source=entry.sourceBinding?selection.corpus.sources.get(entry.sourceBinding.sourceKey):undefined;
++  const simpler=[['DOC-START','Start'],['DOC-EXAMPLES','Examples'],['DOC-CONCEPTS','Concepts']].flatMap(([id,label])=>{const item=available(id);return item?[link(item.route,label,base)]:[];}).join(' · ');
++  const context=entry.plainLanguage?`<aside class="technical-callout prose" aria-label="Reading context"><h2>Before reading</h2>${renderMarkdownSync(entry.plainLanguage,base,selection.corpus)}</aside>`:'';
++  const toc=headings.length?`<details class="technical-toc"><summary>On this page (${headings.length} sections)</summary><ol>${headings.map(h=>`<li><a href="#${escapeHTML(h.id)}">${escapeHTML(h.text)}</a></li>`).join('')}</ol></details>`:'';
++  return `<nav class="technical-navigation" aria-label="Technical reading">${navigation}</nav><p class="reading-note">${source?`Source: ${escapeHTML(source.path.split('/').pop()!)}. `:''}Edition: ${escapeHTML(entry.researchEdition)}.</p>${simpler?`<p class="reading-note">Simpler reading: ${simpler}.</p>`:''}${context}${toc}`;
++}
++
+ // Authored schematics are shared by the page and output auditor. Their bytes are
+ // part of the rendering-policy fingerprint; no external images or scripts load.
+ export function renderBeginnerDiagram(id: string) {
+diff --git a/src/lib/source-display.ts b/src/lib/source-display.ts
+index 6c9234c..a1ee8bc 100644
+--- a/src/lib/source-display.ts
++++ b/src/lib/source-display.ts
+@@ -3,11 +3,21 @@ import { ContractError } from './errors.js';
+ 
+ export function sourceDisplay(raw: string, adapter: Entry['adapter'] = 'markdown/1') {
+   let text = raw;
+-  if (adapter === 'rrg-escaped-addendum/1') {
++  if (adapter === 'rrg-math-document/1') {
++    // Exact supplied §39 formatting defect: a missing display close, not a
++    // mathematical correction. Sidecar context discloses this display repair.
++    const force = '\\[\n\\boxed{\nF_q=-\\frac{\\partial\\Gamma}{\\partial q}\n}\n\ndefines the restoring/driving interaction, and';
++    if(text.split(force).length!==2) throw new ContractError('SOURCE_ADAPTER_FAILURE','Expected the supplied section 39 force-display boundary');
++    text = text.replace(force,force.replace('}\n\ndefines','}\n\\]\n\ndefines'));
++  }
++  if (adapter === 'rrg-escaped-addendum/1' || adapter === 'rrg-document/1' && text.includes('\\n\\n')) {
+     const offset = text.indexOf('\\n\\n');
+     if (offset < 0) throw new ContractError('SOURCE_ADAPTER_FAILURE', 'Expected inspected literal addendum');
+     text = text.slice(0,offset) + text.slice(offset).replace(/\\n/g,'\n').replace(/\\\\/g,'\\');
+   }
+   if (adapter === 'rrg-proof-table/1') text = text.replace(/(\|[^\n]+\|)\n(?:\s*\n)+(?=\|)/g,'$1\n');
++  // Retained addenda have source-level titles. The website already supplies
++  // the document's h1; keep the addenda text and order as section headings.
++  if (adapter === 'rrg-document/1' || adapter === 'rrg-math-document/1') text = text.replace(/^# /gm,'## ');
+   return text.replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_match,tex) => '\n$$\n'+tex+'\n$$\n').replace(/\\\((.*?)\\\)/g, (_match,tex) => '$'+tex+'$');
+ }
+diff --git a/src/styles/global.css b/src/styles/global.css
+index 6814b72..ff9beb1 100644
+--- a/src/styles/global.css
++++ b/src/styles/global.css
+@@ -140,6 +140,16 @@ nav { flex-wrap:wrap; max-width:100%; }
+ .source-details { margin-block:2rem; border-block:1px solid var(--line); }
+ .source-details > summary { cursor:pointer; padding-block:.8rem; }
+ .source-details[open] > section { padding-block:1rem; }
++.technical-navigation { padding-block:1rem; border-block:1px solid var(--line); gap:12px 24px; }
++[data-technical-guide] .reading-note { overflow-wrap:anywhere; }
++.technical-callout { padding:1.2rem; background:var(--panel); border-left:3px solid var(--accent); margin-block:1.5rem; }
++.technical-callout h2 { margin-bottom:.8rem; }
++.technical-callout p:last-child { margin-bottom:0; }
++.technical-toc { max-width:var(--reading-width); margin-block:1.5rem 2rem; border-block:1px solid var(--line); }
++.technical-toc summary { cursor:pointer; padding-block:.8rem; }
++.technical-toc ol { padding-left:1.6rem; }
++.technical-toc li { margin-block:.5rem; overflow-wrap:anywhere; }
++.prose :is(h2,h3) { scroll-margin-top:1rem; }
+ @media (max-width:760px) {
+  .beginner-diagram { max-width:380px; }
+  .hero h1 { font-size:clamp(2.5rem,10vw,3.4rem); }
+diff --git a/tests/content/m2.test.ts b/tests/content/m2.test.ts
+index c427ce6..0947063 100644
+--- a/tests/content/m2.test.ts
++++ b/tests/content/m2.test.ts
+@@ -11,7 +11,7 @@ import {websiteReviewState} from '../../src/lib/website-review.js';
+ const corpus=loadCanonicalCorpus();
+ test('M2 examples and concepts use the admitted source edition and explicit original-source mappings',()=>{
+   const ids=['DOC-EXAMPLES','DOC-CONCEPTS',...['WATER','STRING','MOLECULE','STAR','LIFE','CELL'].map(s=>'DOC-EXAMPLE-'+s),...['GEOMETRY','STABILITY','RECURSION','INTERACTIONS'].map(s=>'DOC-CONCEPT-'+s)];
+-  assert.equal(corpus.entries.size,45);
++  assert.ok(corpus.entries.size>=45,'The accepted M2 slice remains present as later milestones add documents');
+   for(const id of ids) {
+     const entry=corpus.entries.get(id)!;assert.ok(entry,id);
+     assert.equal(entry.researchEdition,corpus.admission.edition);assert.equal(entry.publicationState,'draft');
+@@ -61,9 +61,16 @@ test('optional beginner source details preserve visible proposal, correction, ex
+     }
+   }
+ });
+-test('M2 preserves predecessor approvals as stale rather than refreshing changed rendering policy',()=>{
+-  const registry=JSON.parse(readFileSync('research/publication/website-reviews.yaml','utf8'));
+-  assert.equal(registry.length,34);assert.equal(corpus.admission.currentSourceQualified,false);
+-  for(const review of registry) {assert.notEqual(review.fingerprint,reviewFingerprint(corpus,review.entryId));assert.equal(websiteReviewState(corpus,review.entryId),'stale');}
+-  for(const id of ['DOC-EXAMPLE-WATER','DOC-CONCEPT-INTERACTIONS'])assert.equal(websiteReviewState(corpus,id),'pending');
++test('M2 rendering changes invalidate preserved predecessor decisions independently of later bounded reviews',()=>{
++  // Historical decisions keep their original snapshot. A genuine later review
++  // may accept a beginner page without refreshing the old receipt or qualifying
++  // the technical records outside that review's scope.
++  for(const id of ['UT-D01','DOC-HOME']) {
++    const prior=JSON.parse(readFileSync(`docs/evidence/m1/separate-requalification-review/decisions/${id}.json`,'utf8'));
++    assert.notEqual(prior.fingerprint,reviewFingerprint(corpus,id));
++  }
++  const c=loadCanonicalCorpus();
++  c.websiteReviews=c.websiteReviews.filter(review=>!['DOC-EXAMPLE-WATER','DOC-CONCEPT-INTERACTIONS'].includes(review.entryId));
++  for(const id of ['DOC-EXAMPLE-WATER','DOC-CONCEPT-INTERACTIONS'])assert.equal(websiteReviewState(c,id),'pending');
++  assert.equal(c.admission.currentSourceQualified,false);
+ });
+diff --git a/tests/e2e/reading.spec.ts b/tests/e2e/reading.spec.ts
+index 87d4674..de435fc 100644
+--- a/tests/e2e/reading.spec.ts
++++ b/tests/e2e/reading.spec.ts
+@@ -140,7 +140,7 @@ test('literature has source-backed DOI identities and usable source extraction d
+   const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:800}}),page=await context.newPage();
+   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'references/');
+   await expect(page.locator('[data-bibliography] > ol > li')).toHaveCount(referenceRecords.filter((r:{id:string;primaryId?:string})=>artifact.publicationManifest.referenceIds.includes(r.id) && !r.primaryId).length);
+-  await expect(page.locator('[data-bibliography] a[href^="https://doi.org/"]')).toHaveCount(13);
++  await expect(page.locator('[data-bibliography] a[href^="https://doi.org/"]')).toHaveCount(referenceRecords.filter((r:{id:string;primaryId?:string;url:string})=>artifact.publicationManifest.referenceIds.includes(r.id) && !r.primaryId && r.url.startsWith('https://doi.org/')).length);
+   const paper=page.locator('#BIB-0022');await expect(paper.getByRole('heading')).toHaveText('Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions');
+   await expect(paper.getByRole('link',{name:'DOI: 10.1038/s41467-019-13746-6'})).toHaveAttribute('href','https://doi.org/10.1038/s41467-019-13746-6');
+   await expect(paper).toContainText('Supplementary reference reported by the supplied documents');

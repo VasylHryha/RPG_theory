@@ -1,0 +1,37 @@
+✔ M4 explanatory exports mirror canonical parsed statements, retain adapters and have usable destinations at both bases (4388.202541ms)
+✖ M4 ZIP manifests preserve original bytes and exclude administrative evidence/history; tampered members fail (2213.249959ms)
+✔ M4 approved selection filters draft/history/withdrawn downloads and emits dated article RSS at both bases (470.529084ms)
+✔ M4 duplicate article routes and stale source numbers refuse; document source rename does not rename its route (848.446375ms)
+✔ M4 citation remains inactive for actual missing decisions; prepared CFF uses only supplied approved metadata (1103.906791ms)
+✔ M4 print CSS admits page layout and literal citation targets while refusing resource-bearing attr forms (0.501958ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 5
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11003.250459
+
+✖ failing tests:
+
+test at tests/content/m4.test.ts:1:4118
+✖ M4 ZIP manifests preserve original bytes and exclude administrative evidence/history; tampered members fail (2213.249959ms)
+  AssertionError [ERR_ASSERTION]: explanatory/DOC-START.md: ./DOC-HOME.md#research-question
+      at walk (/Users/new/RiderProjects/RPG_theory/tests/content/m4.test.ts:66:233)
+      at Array.forEach (<anonymous>)
+      at walk (/Users/new/RiderProjects/RPG_theory/tests/content/m4.test.ts:67:16)
+      at Array.forEach (<anonymous>)
+      at walk (/Users/new/RiderProjects/RPG_theory/tests/content/m4.test.ts:67:16)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m4.test.ts:68:4)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

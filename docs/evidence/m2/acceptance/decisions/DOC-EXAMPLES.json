@@ -1,0 +1,173 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLES",
+  "fingerprint": "e19ce6863520a247bf7b445c5b12cc4e376cf4658dbb4db16f665396fc4e74ca",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-04",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Independent bounded M2 source/display review: All six linked routes perform the roles in the world explanation and planned beginner journey; water and photosynthesis are added illustrations explicitly distinguished on their pages. Existing unchanged rendered-layout and read-aloud evidence reused after exact input/artifact comparison. This accepts website fidelity only; the entry remains a private draft.",
+  "inputs": {
+    "fingerprint": "e19ce6863520a247bf7b445c5b12cc4e376cf4658dbb4db16f665396fc4e74ca",
+    "ownRead": {
+      "id": "DOC-EXAMPLES",
+      "route": "/examples/",
+      "title": "Six ways into the question",
+      "description": "Patterns, constraints, reusable wholes and changing conditions.",
+      "revision": 1,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-03",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-EXAMPLE-CELL",
+        "DOC-EXAMPLE-LIFE",
+        "DOC-EXAMPLE-MOLECULE",
+        "DOC-EXAMPLE-STAR",
+        "DOC-EXAMPLE-STRING",
+        "DOC-EXAMPLE-WATER"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "Each example has one job. Begin with something familiar, then ask what the parts are doing, what constrains them, and what the collective description adds. The examples illustrate different aspects of RRG; they are not six demonstrations of one universal mechanism.\n\n## Patterns and constraints\n\n- [Water: follow a pattern](/examples/water/) — distinguish the moving pattern from its material parts.\n- [String: boundaries shape motion](/examples/string/) — see how arrangement and physical conditions constrain supported modes.\n- [Molecule: the whole constrains its parts](/examples/molecule/) — explore collective behaviour and retained internal structure.\n\n## Organization changes the possibilities\n\n- [Star: new reaction conditions](/examples/star/) — distinguish physical evolution from changing the level of description.\n- [Life and environment: conditions for other life](/examples/life-environment/) — follow biological effects without a guaranteed ladder of complexity.\n- [Cell: organization through exchange](/examples/cell/) — separate ongoing maintenance, copying and reproduction.\n\n## Connect the examples\n\nThe [concepts](/concepts/) explain geometry, mode structure, stability, recursion and the conditional effective-interaction question. For a continuous reading path, [start with the idea](/start/).\n",
+      "sourceMapping": "Editorial index of six separately mapped illustrations; no additional scientific claim.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-03",
+    "dependencies": [
+      {
+        "entryId": "DOC-EXAMPLE-CELL",
+        "semanticDigest": "63f11e801770787a3d3e86dccdb82eb6c38297fab5ddbed5ad1af99058601c87"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "cbd6d344026abe094bd4529309e1704b570e3e1fa842d409f9ab03b026a3f6b1"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-MOLECULE",
+        "semanticDigest": "cc67caeb35d39d1f1c532d9a46d1ce12c3a6ae9ea250163153e965beeba16c98"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STAR",
+        "semanticDigest": "c7bd7760d9cb4dd502becb527a341fab14faab65595d083337b4377ac3b38da7"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STRING",
+        "semanticDigest": "fcbd5439c00cd65cdb5fb03990e8801a75c41b27b61a934f88644a099ad40182"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-WATER",
+        "semanticDigest": "bb01d45a34a9d6721f011a6fbf633df5d321efbe61b0ca7a9473fb53bcf0999d"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "8aa416243fb0e8d04d682159e25346b07c8d47bc8a675abf1b31618ea3b9e7f4"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "af6ad5aef087fdb9a94e15ab2b81982a4efcd8e281fb81a2a0827351bb8c8784"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "59893b0e5f295bd485dd51fef9b102d8ea408b30b5512c02fe0dea081aaa7534"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "c3f7da1c689c6a6fc295ae26f5caddaa15a330aac3d4bc12ae5a51bd1435a235"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "ba730e2bbb77f7e09f8a3738fe7a25cb3ee2a0d0c5045a38451a6404b6527ea4"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "58e338a9c88b28e371daf1c42df9fe8861613f59c3ac6acf624e1330d5dd29bd"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "41fa32c26743fbb03216ae2db5d167f60322029b8ebd12246e0de4d97931ba07"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ca5633f06884fdba8e69b41ca9702eb4e7fc22efdfeb792fb102c84cf54c724c"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "11be4c22010fa957da57ae52559944e40a57217bd10ac7d171d355e3be6e36d0"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "10c6bb7ab2c3b98932ad93aa54d69399358196e7268969becf79367cbe99326d"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "9f0a77eebe80a9221d4fe219d2d7e60a99467a8b57def79824aa9193112ef46c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-PROOF",
+        "path": "research/RRG_CURRENT/06_PROOF_MATRIX.md",
+        "sha256": "a9f88143744c0b8b4d267c9f100d61e2ab7cf8b3a98e9123e5a1c93537ff20cf"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "7eb6e365e2bfda16c3b25b75c4983c1ed387eda80a3e816fbfae50c73b0bda74",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "82713ccf63d605cd35e2f3fe0093669ff028e4c16c83d4691c5fb213234c0243",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Parts, constraints, collective behaviour and organization are ordinary-language entry points compatible with core 1-9.",
+    "meaning": "All six linked routes perform the roles in the world explanation and planned beginner journey; water and photosynthesis are added illustrations explicitly distinguished on their pages.",
+    "assumptions": "The index explicitly says these are different aspects rather than six demonstrations of one universal mechanism.",
+    "hypotheses": "The concept and start links preserve access to the conditional interaction question and research limits.",
+    "evidenceDescriptions": "No new evidence status is assigned by the index; it routes to the source-attributed examples.",
+    "openQuestions": "The concept and start links preserve access to the conditional interaction question and research limits.",
+    "attribution": "Compared with the original supplied RRG_CURRENT documents and the rendered canonical callouts. No new evidence status is assigned by the index; it routes to the source-attributed examples. This decision is agent review, not author approval or independent scientific certification.",
+    "sourceMappings": "Checked the declared mapping: Editorial index of six separately mapped illustrations; no additional scientific claim. Source identities and canonical dependency meanings are recorded in inputs; originals remain unchanged."
+  }
+}

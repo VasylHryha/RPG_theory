@@ -1,0 +1,15 @@
+/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:71
+      if (!$('[id]').toArray().some(el => $(el).attr('id') === decodeURIComponent(url.hash.slice(1)))) throw new ContractError('BROKEN_FRAGMENT', href);
+                                                                                                             ^
+
+ContractError: BROKEN_FRAGMENT: /start/#print-reading
+    at targetOf (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:71:110)
+    at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:172:18)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:196:19)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'BROKEN_FRAGMENT'
+}
+
+Node.js v24.18.0

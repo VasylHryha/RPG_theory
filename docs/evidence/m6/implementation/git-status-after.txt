@@ -1,0 +1,84 @@
+ M .github/workflows/site.yml
+ M AGENTS.md
+ M START_HERE.md
+ M config/research-source.json
+ M docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md
+ M package-lock.json
+ M package.json
+ M research/publication/canonical-documents.yaml
+ M research/publication/release.json
+ M research/publication/website-reviews.yaml
+ M scripts/audit-output.ts
+ M scripts/build.ts
+ M scripts/css-resources.ts
+ M scripts/static-server.ts
+ M scripts/test-e2e.ts
+ M scripts/verify.ts
+ M src/components/CanonicalPage.astro
+ M src/layouts/ReadingLayout.astro
+ M src/lib/build-identity.ts
+ M src/lib/content-schema.ts
+ M src/lib/content.ts
+ M src/lib/presentation.ts
+ M src/lib/publication.ts
+ M src/lib/source-display.ts
+ D src/pages/fixtures/math.astro
+ M src/pages/index.astro
+ M src/pages/references.astro
+ M src/pages/start.astro
+ M src/styles/global.css
+ M tests/content/contracts.test.ts
+ M tests/content/fidelity-fixture.ts
+ M tests/content/m2.test.ts
+ M tests/content/page-lifecycle.test.ts
+ M tests/content/revision-inventory-cli.test.ts
+ M tests/content/website-fidelity.test.ts
+ M tests/e2e/introduction.spec.ts
+ M tests/e2e/reading.spec.ts
+?? .github/ISSUE_TEMPLATE/
+?? .github/dependabot.yml
+?? .github/pull_request_template.md
+?? CONTRIBUTING.md
+?? RIGHTS.md
+?? config/publication-policy.json
+?? docs/evidence/m2/acceptance/
+?? docs/evidence/m3/
+?? docs/evidence/m4/
+?? docs/evidence/m5/
+?? docs/evidence/m6/
+?? public/search-client.js
+?? research/publication/metadata.json
+?? research/publication/pages/article-how-existing-structures-make-new-organization-possible.md
+?? research/publication/pages/article-when-can-a-whole-be-treated-as-one-useful-unit.md
+?? research/publication/pages/evidence.md
+?? research/publication/pages/technical-documents.md
+?? scripts/check-m4-browser.ts
+?? scripts/check-m5-browser.ts
+?? scripts/check-m6-integration.ts
+?? scripts/check-publication.ts
+?? scripts/index-search.ts
+?? scripts/seal-deployment.ts
+?? src/lib/library.ts
+?? src/lib/publication-assets.ts
+?? src/lib/publication-policy.ts
+?? src/lib/publication-screen.ts
+?? src/lib/search.ts
+?? src/lib/site-metadata.ts
+?? src/lib/zip.ts
+?? src/pages/about.astro
+?? src/pages/articles.astro
+?? src/pages/cite.astro
+?? src/pages/downloads/
+?? src/pages/fixtures/[fixture].astro
+?? src/pages/legal.astro
+?? src/pages/rss.xml.ts
+?? src/pages/search.astro
+?? src/pages/sitemap.xml.ts
+?? tests/content/m3.test.ts
+?? tests/content/m4.test.ts
+?? tests/content/m5.test.ts
+?? tests/content/m6.test.ts
+?? tests/e2e/integration.spec.ts
+?? tests/e2e/publication-policy.spec.ts
+?? tests/e2e/publication.spec.ts
+?? tests/e2e/technical.spec.ts

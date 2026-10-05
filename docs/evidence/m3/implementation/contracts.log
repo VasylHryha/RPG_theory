@@ -1,0 +1,231 @@
+✔ M2 examples and concepts use the admitted source edition and explicit original-source mappings (0.68425ms)
+✔ M2 misleading editorial candidates are surfaced and cannot become a qualified selection without independent review (1131.586167ms)
+✔ the real interaction relation is a display equation with an accessible local scrolling region (14.0535ms)
+✔ optional beginner source details preserve visible proposal, correction, explanation and limits (1.9835ms)
+✔ M2 rendering changes invalidate preserved predecessor decisions independently of later bounded reviews (212.187292ms)
+✖ M3 technical readings extract each complete original body with retained addenda and source provenance (309.701625ms)
+✔ M3 evidence retains all source-local entries, bibliography identities and reported access limitations (34.711167ms)
+✖ open questions and status preserve actual 04/06 mapping and separate model failure tests from definitions (8.327375ms)
+✖ technical guides use actual heading anchors and selected routes at both bases (491.336167ms)
+✔ M3 preserves issued decisions without turning new readings or builds into approvals (1.43925ms)
+✔ intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate (1096.866125ms)
+✔ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (590.113042ms)
+✔ bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision (502.767333ms)
+✔ complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it (447.684083ms)
+✔ null, primitive and incomplete stale evidence fail with the intended typed diagnostic (416.6705ms)
+✔ review dates cannot predate the reviewed material, including dependency updates (442.394208ms)
+✔ receipt paths reject traversal, symlink files and symlink ancestors (445.025709ms)
+✔ review inputs independently capture rendered plain language and the actual home projection without aliasing (474.12675ms)
+✔ stale decisions retain internally coherent dates, source excerpts, dependencies and projection reads (6857.707042ms)
+✔ receipt paths reject control characters even when a matching regular file exists (370.132334ms)
+✖ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (2762.883375ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 17
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15798.164333
+
+✖ failing tests:
+
+test at tests/content/m3.test.ts:1:627
+✖ M3 technical readings extract each complete original body with retained addenda and source provenance (309.701625ms)
+  Error [ContractError]: MATH_RENDER_FAILURE: ParseError: KaTeX parse error: Undefined control sequence: \[ at position 99: …eraction, and
+  
+  \̲[̲
+  \boxed{
+  \omega…
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/src/lib/markdown.ts:29:24)
+      at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:160:27)
+      at next (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:86:23)
+      at done (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:194:7)
+      at then (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:204:5)
+      at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:181:9)
+      at next (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:86:23)
+      at done (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:194:7)
+      at then (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:204:5)
+      at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:181:9) {
+    code: 'MATH_RENDER_FAILURE'
+  }
+
+test at tests/content/m3.test.ts:1:3112
+✖ open questions and status preserve actual 04/06 mapping and separate model failure tests from definitions (8.327375ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Four forces.*open extension/. Input:
+  
+  '\n' +
+    '\n' +
+    '\n' +
+    'Claim\n' +
+    'Status\n' +
+    'What would count as evidence\n' +
+    'What would count against it\n' +
+    'Core impact\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Geometry constrains supported modes\n' +
+    'supported in many known systems\n' +
+    'spectral/normal-mode calculations and experiments\n' +
+    'a claimed application where geometry has no definable mode relation\n' +
+    'none unless it contradicts locked definition\n' +
+    '\n' +
+    '\n' +
+    'Modes can maintain/transform geometry\n' +
+    'supported in many systems\n' +
+    'backreaction, coupled-mode, optomechanical, self-organization examples\n' +
+    'failure in a specific implementation\n' +
+    'none\n' +
+    '\n' +
+    '\n' +
+    'Heterogeneous lower structures can form a higher resonant geometry\n' +
+    'core claim / common in known systems\n' +
+    'molecules, cells, composite systems, network modes\n' +
+    'genuine contradiction must pass change-control proof gate\n' +
+    'possible core impact only after proof gate\n' +
+    '\n' +
+    '\n' +
+    'Lower-level modes remain active inside higher structures\n' +
+    'core claim\n' +
+    'multiscale measurements/reductions\n' +
+    'evidence that higher formation literally eliminates lower state variables in a claimed case\n' +
+    'proof gate required\n' +
+    '\n' +
+    '\n' +
+    'Different scales may use different mechanisms\n' +
+    'locked\n' +
+    'established effective theories already allow this\n' +
+    'no issue\n' +
+    'none\n' +
+    '\n' +
+    '\n' +
+    'Same equation family reappears at each scale\n' +
+    'optional strong extension\n' +
+    'RG fixed points/universality/form-invariant reductions\n' +
+    'different effective equations across scales\n' +
+    'rejects extension only\n' +
+    '\n' +
+    '\n' +
+    'Four forces are deeper resonant-geometry manifestations\n' +
+    'open extension\n' +
+    'derivation of known interactions/charges/ranges/symmetries from a deeper model\n' +
+    'incompatibility with observed force structure\n' +
+    'extension rejected; core unchanged\n' +
+    '\n' +
+    '\n' +
+    'Gravity is emergent resonant geometry\n' +
+    'open extension\n' +
+    'recover equivalence principle, Lorentz/diffeomorphism structure, GR limits\n' +
+    'experimental/theoretical no-go under model assumptions\n' +
+    'extension rejected; core unchanged\n' +
+    '\n' +
+    '\n' +
+    'Cosmic background selects accessible geometries\n' +
+    'open extension\n' +
+    'derive/fit known phase transitions and structure windows\n' +
+    'model fails while standard physics succeeds\n' +
+    'extension rejected/refined\n' +
+    '\n' +
+    '\n' +
+    'Cross-domain RRG invariant exists\n' +
+    'open extension\n' +
+    'same measurable criterion predicts organization in ≥2 unrelated domains\n' +
+    'criterion becomes domain-specific or post-hoc\n' +
+    'extension weakened\n' +
+    '\n' +
+    '\n' +
+    'RRG improves AI\n' +
+    'open application\n' +
+    'controlled benchmark gains at equal resources\n' +
+    'no gain / worse scaling\n' +
+    'application rejected; core unchanged\n' +
+    '\n' +
+    '\n' +
+    'Lower-level organization can generate an effective higher-level interaction channel\n' +
+    'supported in known physical systems\n' +
+    'phonon-mediated attraction, emergent spin-ice charges/interactions, collective mediated interactions\n' +
+    'a claimed system where the proposed emergent interaction cannot be derived or measured\n' +
+    'supports extension; core unchanged\n' +
+    '\n' +
+    '\n'
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m3.test.ts:66:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '\n\n\nClaim\nStatus\nWhat would count as evidence\nWhat would count against it\nCore impact\n\n\n\n\nGeometry constrains supported modes\nsupported in many known systems\nspectral/normal-mode calculations and experiments\na claimed application where geometry has no definable mode relation\nnone unless it contradicts locked definition\n\n\nModes can maintain/transform geometry\nsupported in many systems\nbackreaction, coupled-mode, optomechanical, self-organization examples\nfailure in a specific implementation\nnone\n\n\nHeterogeneous lower structures can form a higher resonant geometry\ncore claim / common in known systems\nmolecules, cells, composite systems, network modes\ngenuine contradiction must pass change-control proof gate\npossible core impact only after proof gate\n\n\nLower-level modes remain active inside higher structures\ncore claim\nmultiscale measurements/reductions\nevidence that higher formation literally eliminates lower state variables in a claimed case\nproof gate required\n\n\nDifferent scales may use different mechanisms\nlocked\nestablished effective theories already allow this\nno issue\nnone\n\n\nSame equation family reappears at each scale\noptional strong extension\nRG fixed points/universality/form-invariant reductions\ndifferent effective equations across scales\nrejects extension only\n\n\nFour forces are deeper resonant-geometry manifestations\nopen extension\nderivation of known interactions/charges/ranges/symmetries from a deeper model\nincompatibility with observed force structure\nextension rejected; core unchanged\n\n\nGravity is emergent resonant geometry\nopen extension\nrecover equivalence principle, Lorentz/diffeomorphism structure, GR limits\nexperimental/theoretical no-go under model assumptions\nextension rejected; core unchanged\n\n\nCosmic background selects accessible geometries\nopen extension\nderive/fit known phase transitions and structure windows\nmodel fails while standard physics succeeds\nextension rejected/refined\n\n\nCross-domain RRG invariant exists\nopen extension\nsame measurable criterion predicts organization in ≥2 unrelated domains\ncriterion becomes domain-specific or post-hoc\nextension weakened\n\n\nRRG improves AI\nopen application\ncontrolled benchmark gains at equal resources\nno gain / worse scaling\napplication rejected; core unchanged\n\n\nLower-level organization can generate an effective higher-level interaction channel\nsupported in known physical systems\nphonon-mediated attraction, emergent spin-ice charges/interactions, collective mediated interactions\na claimed system where the proposed emergent interaction cannot be derived or measured\nsupports extension; core unchanged\n\n\n',
+    expected: /Four forces.*open extension/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/content/m3.test.ts:1:4025
+✖ technical guides use actual heading anchors and selected routes at both bases (491.336167ms)
+  Error [ContractError]: MATH_RENDER_FAILURE: ParseError: KaTeX parse error: Undefined control sequence: \[ at position 99: …eraction, and
+  
+  \̲[̲
+  \boxed{
+  \omega…
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/src/lib/markdown.ts:29:24)
+      at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:160:27)
+      at next (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:86:23)
+      at done (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:194:7)
+      at then (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:204:5)
+      at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:181:9)
+      at next (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:86:23)
+      at done (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:194:7)
+      at then (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:204:5)
+      at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:181:9) {
+    code: 'MATH_RENDER_FAILURE'
+  }
+
+test at tests/content/website-fidelity.test.ts:1:11414
+✖ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (2762.883375ms)
+  AssertionError [ERR_ASSERTION]: /Users/new/RiderProjects/RPG_theory/src/lib/markdown.ts:29
+      if (failure) throw new ContractError('MATH_RENDER_FAILURE', String(failure.cause ?? failure));
+                         ^
+  
+  ContractError: MATH_RENDER_FAILURE: ParseError: KaTeX parse error: Undefined control sequence: \[ at position 99: …eraction, and
+  
+  \̲[̲
+  \boxed{
+  \omega…
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/src/lib/markdown.ts:29:24)
+      at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:160:27)
+      at next (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:86:23)
+      at done (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:194:7)
+      at then (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:204:5)
+      at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:181:9)
+      at next (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:86:23)
+      at done (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:194:7)
+      at then (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:204:5)
+      at wrapped (file:///Users/new/RiderProjects/RPG_theory/node_modules/trough/lib/index.js:181:9) {
+    code: 'MATH_RENDER_FAILURE'
+  }
+  
+  Node.js v24.18.0
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/website-fidelity.test.ts:174:27)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

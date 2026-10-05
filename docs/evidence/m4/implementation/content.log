@@ -1,0 +1,16 @@
+/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:20
+function fail(code: string, message: string): never { throw new ContractError(code, message); }
+                                                            ^
+
+ContractError: UNKNOWN_DEPENDENCY: UT-D10
+    at fail (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:20:61)
+    at validateCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:138:183)
+    at loadCanonicalCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:195:10)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/check-content.ts:6:14)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'UNKNOWN_DEPENDENCY'
+}
+
+Node.js v24.18.0

@@ -1,0 +1,42 @@
+{
+  "status": "PASS_WITH_UNOWNED_RUNTIME_STATE_CHANGE",
+  "protectedFilesUnchanged": 93,
+  "authorizedProtectedChanges": [
+    "research/publication/website-reviews.yaml"
+  ],
+  "unownedRuntimeChanges": [
+    {
+      "path": ".idea/.idea.RPG_theory/.idea/workspace.xml",
+      "before": "b70251fa820fa6c3d380255d7453ef5134a5c6174f3acef0a4d0c8f129489254",
+      "after": "4cf4496575e5467d049f7093980e3570c143bb49d46530a707b412ecca06cd5e",
+      "action": "Current bytes left untouched; no task command writes this runtime file; origin not independently established."
+    }
+  ],
+  "priorReceiptReferencesVerified": 100,
+  "unreviewedRegistryRecordsUnchanged": 14,
+  "reviewStates": {
+    "accepted": 41,
+    "stale": 14,
+    "pending": 0,
+    "rejected": 0
+  },
+  "currentSourceQualified": false,
+  "outputs": [
+    {
+      "base": "/",
+      "files": 122,
+      "html": 58,
+      "artifactSha256": "00343fdf68a22af2f84afa8a50b6b9e780cf4f315fc5bdff514e742c6b2225f5",
+      "deployEligible": false,
+      "status": "MATCH"
+    },
+    {
+      "base": "/unity-theory/",
+      "files": 122,
+      "html": 58,
+      "artifactSha256": "c25f78efc82ba8e94d596e5404fa3778757e2aae3703a6fb42b84f8f7c164fdf",
+      "deployEligible": false,
+      "status": "MATCH"
+    }
+  ]
+}

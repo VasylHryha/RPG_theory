@@ -1,0 +1,64 @@
+ M .github/workflows/site.yml
+ M AGENTS.md
+ M START_HERE.md
+ M config/research-source.json
+ M docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md
+ M package.json
+ M research/publication/canonical-documents.yaml
+ M research/publication/release.json
+ M research/publication/website-reviews.yaml
+ M scripts/audit-output.ts
+ M scripts/build.ts
+ M scripts/css-resources.ts
+ M scripts/static-server.ts
+ M scripts/verify.ts
+ M src/components/CanonicalPage.astro
+ M src/layouts/ReadingLayout.astro
+ M src/lib/build-identity.ts
+ M src/lib/content-schema.ts
+ M src/lib/content.ts
+ M src/lib/presentation.ts
+ M src/lib/publication.ts
+ M src/lib/source-display.ts
+ M src/pages/references.astro
+ M src/styles/global.css
+ M tests/content/fidelity-fixture.ts
+ M tests/content/m2.test.ts
+ M tests/e2e/reading.spec.ts
+?? .github/ISSUE_TEMPLATE/
+?? .github/dependabot.yml
+?? .github/pull_request_template.md
+?? CONTRIBUTING.md
+?? RIGHTS.md
+?? config/publication-policy.json
+?? docs/evidence/m2/acceptance/
+?? docs/evidence/m3/
+?? docs/evidence/m4/
+?? docs/evidence/m5/
+?? docs/evidence/m6/
+?? research/publication/metadata.json
+?? research/publication/pages/article-how-existing-structures-make-new-organization-possible.md
+?? research/publication/pages/article-when-can-a-whole-be-treated-as-one-useful-unit.md
+?? research/publication/pages/evidence.md
+?? research/publication/pages/technical-documents.md
+?? scripts/check-m4-browser.ts
+?? scripts/check-m5-browser.ts
+?? scripts/check-publication.ts
+?? scripts/seal-deployment.ts
+?? src/lib/library.ts
+?? src/lib/publication-assets.ts
+?? src/lib/publication-policy.ts
+?? src/lib/publication-screen.ts
+?? src/lib/zip.ts
+?? src/pages/about.astro
+?? src/pages/articles.astro
+?? src/pages/cite.astro
+?? src/pages/downloads/
+?? src/pages/legal.astro
+?? src/pages/rss.xml.ts
+?? tests/content/m3.test.ts
+?? tests/content/m4.test.ts
+?? tests/content/m5.test.ts
+?? tests/e2e/publication-policy.spec.ts
+?? tests/e2e/publication.spec.ts
+?? tests/e2e/technical.spec.ts

@@ -11,7 +11,7 @@ import {websiteReviewState} from '../../src/lib/website-review.js';
 const corpus=loadCanonicalCorpus();
 test('M2 examples and concepts use the admitted source edition and explicit original-source mappings',()=>{
   const ids=['DOC-EXAMPLES','DOC-CONCEPTS',...['WATER','STRING','MOLECULE','STAR','LIFE','CELL'].map(s=>'DOC-EXAMPLE-'+s),...['GEOMETRY','STABILITY','RECURSION','INTERACTIONS'].map(s=>'DOC-CONCEPT-'+s)];
-  assert.equal(corpus.entries.size,45);
+  assert.ok(corpus.entries.size>=45,'The accepted M2 slice remains present as later milestones add documents');
   for(const id of ids) {
     const entry=corpus.entries.get(id)!;assert.ok(entry,id);
     assert.equal(entry.researchEdition,corpus.admission.edition);assert.equal(entry.publicationState,'draft');
@@ -61,9 +61,16 @@ test('optional beginner source details preserve visible proposal, correction, ex
     }
   }
 });
-test('M2 preserves predecessor approvals as stale rather than refreshing changed rendering policy',()=>{
-  const registry=JSON.parse(readFileSync('research/publication/website-reviews.yaml','utf8'));
-  assert.equal(registry.length,34);assert.equal(corpus.admission.currentSourceQualified,false);
-  for(const review of registry) {assert.notEqual(review.fingerprint,reviewFingerprint(corpus,review.entryId));assert.equal(websiteReviewState(corpus,review.entryId),'stale');}
-  for(const id of ['DOC-EXAMPLE-WATER','DOC-CONCEPT-INTERACTIONS'])assert.equal(websiteReviewState(corpus,id),'pending');
+test('M2 rendering changes invalidate preserved predecessor decisions independently of later bounded reviews',()=>{
+  // Historical decisions keep their original snapshot. A genuine later review
+  // may accept a beginner page without refreshing the old receipt or qualifying
+  // the technical records outside that review's scope.
+  for(const id of ['UT-D01','DOC-HOME']) {
+    const prior=JSON.parse(readFileSync(`docs/evidence/m1/separate-requalification-review/decisions/${id}.json`,'utf8'));
+    assert.notEqual(prior.fingerprint,reviewFingerprint(corpus,id));
+  }
+  const c=loadCanonicalCorpus();
+  c.websiteReviews=c.websiteReviews.filter(review=>!['DOC-EXAMPLE-WATER','DOC-CONCEPT-INTERACTIONS'].includes(review.entryId));
+  for(const id of ['DOC-EXAMPLE-WATER','DOC-CONCEPT-INTERACTIONS'])assert.equal(websiteReviewState(c,id),'pending');
+  assert.equal(c.admission.currentSourceQualified,false);
 });

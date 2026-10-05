@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "inputs": {
+    "inputsSha256": "dbb204a7649b73e3e0a6f0eedbe74aec036ca4f652e03841daf1d58766e67da7",
+    "lockfileSha256": "d0a844ecc45d3859929f27e610cd57487cb224365150a88f7ce52138160e44bd",
+    "contentSha256": "298f9dbef624bff458e1d7d360bf87053b051e1c01d369d5e0cc785ba396f83c"
+  },
+  "bases": [
+    {
+      "base": "/",
+      "files": 200,
+      "html": 64,
+      "artifactSha256": "2a684bb20079ece38c132825f1c10cbdf3710decdf28fa2b101d893cd9e46d71",
+      "browserChecksReused": 2,
+      "changedHTMLSinceBrowser": [
+        "cite/index.html"
+      ],
+      "change": "digest text only"
+    },
+    {
+      "base": "/unity-theory/",
+      "files": 200,
+      "html": 64,
+      "artifactSha256": "1947300c158d0e6cf6ed80cffac8ccd9e75049f94d946275bb915d313d9dfc2b",
+      "browserChecksReused": 2,
+      "changedHTMLSinceBrowser": [
+        "cite/index.html"
+      ],
+      "change": "digest text only"
+    }
+  ],
+  "workflow": {
+    "status": "PASS",
+    "prPermissions": "contents: read",
+    "deployment": "manual main only; disabled by default",
+    "artifactBinding": "same workflow run; verify → prepare → deploy; exact sealed directory",
+    "platformProtections": "NOT_CONFIGURED",
+    "scientificPublishingScheduled": false
+  },
+  "screenedEngineeringFilesUnchanged": 69,
+  "prRefusalGates": [
+    "MANUAL_MAIN_DEPLOYMENT_REQUIRED",
+    "PUBLIC_TARGET_REQUIRED",
+    "PUBLIC_TARGET_NOT_AUTHORIZED",
+    "PUBLIC_CREDIT_DECISION_REQUIRED",
+    "PERMANENT_URL_REQUIRED",
+    "RIGHTS_DECISION_REQUIRED",
+    "SCOPED_RIGHTS_REVIEW_REQUIRED",
+    "PUBLIC_CONTENT_APPROVAL_REQUIRED",
+    "PUBLIC_REPOSITORY_PRIVACY_REVIEW_REQUIRED",
+    "CURRENT_SOURCE_NOT_QUALIFIED",
+    "M6_RELEASE_QUALIFICATION_REQUIRED",
+    "DEPLOYMENT_DISABLED"
+  ],
+  "syntheticApprovals": "mechanics only; no genuine approval",
+  "testsReused": 8,
+  "astroDiagnosticsReused": "zero errors/warnings/hints",
+  "sourceQualified": false,
+  "deployEligible": false
+}

@@ -1,0 +1,24 @@
+
+> unity-theory@0.0.1 check
+> astro check
+
+09:51:30 [content] Syncing content
+09:51:30 [content] Astro config changed
+09:51:30 [content] Clearing content store
+[UnknownFilesystemError] 
+  Hint:
+    It can be caused by many things, eg. missing permissions or a file not existing we attempt to read. Check the error cause for more details.
+  Error reference:
+    https://docs.astro.build/en/reference/errors/unknown-filesystem-error/
+  Location:
+    /Users/new/RiderProjects/RPG_theory/node_modules/astro/dist/content/mutable-data-store.js:450:13
+  Stack trace:
+    at MutableDataStore.writeToDisk (file:///Users/new/RiderProjects/RPG_theory/node_modules/astro/dist/content/mutable-data-store.js:450:13)
+    at async MutableDataStore.waitUntilSaveComplete (file:///Users/new/RiderProjects/RPG_theory/node_modules/astro/dist/content/mutable-data-store.js:425:5)
+    at async run (file:///Users/new/RiderProjects/RPG_theory/node_modules/p-queue/dist/index.js:400:36)
+  Caused by:
+  ENOENT: no such file or directory, rename '/Users/new/RiderProjects/RPG_theory/node_modules/.astro/data-store.json.tmp' -> '/Users/new/RiderProjects/RPG_theory/node_modules/.astro/data-store.json'
+    at async Object.rename (node:internal/fs/promises:785:10)
+    at async FileWriter.write (file:///Users/new/RiderProjects/RPG_theory/node_modules/astro/dist/content/data-store-writer.js:65:12)
+    at async #saveToDiskNow (file:///Users/new/RiderProjects/RPG_theory/node_modules/astro/dist/content/mutable-data-store.js:262:7)
+    at async #doSync (file:///Users/new/RiderProjects/RPG_theory/node_modules/astro/dist/content/content-layer.js:275:5)

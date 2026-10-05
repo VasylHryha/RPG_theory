@@ -1,0 +1,21 @@
+21:07:37 [vite] Re-optimizing dependencies because vite config has changed
+21:07:38 [content] Syncing content
+21:07:38 [content] Astro config changed
+21:07:38 [content] Clearing content store
+21:07:38 [content] Synced content
+21:07:38 [types] Generated 1.22s
+21:07:38 [build] output: "static"
+21:07:38 [build] mode: "static"
+21:07:38 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/m3-display-repair-root/
+21:07:38 [build] Collecting build info...
+21:07:38 [build] ✓ Completed in 1.23s.
+21:07:38 [build] Building static entrypoints...
+21:07:38 [ERROR] [vite] ✗ Build failed in 300ms
+[vite]: Rolldown failed to resolve import "@rrg/math-renderer.css?url" from "/Users/new/RiderProjects/RPG_theory/src/layouts/ReadingLayout.astro".
+This is most likely unintended because it can break your application at runtime.
+If you do want to externalize this module explicitly add it to
+`build.rolldownOptions.external`
+  Stack trace:
+    at viteLog (file:///Users/new/RiderProjects/RPG_theory/node_modules/vite/dist/node/chunks/node.js:34583:57)
+    at onLog (file:///Users/new/RiderProjects/RPG_theory/node_modules/vite/dist/node/chunks/node.js:34375:4)
+    at logger (file:///Users/new/RiderProjects/RPG_theory/node_modules/rolldown/dist/shared/create-bundler-option-DLv8UpsD.mjs:39:3)

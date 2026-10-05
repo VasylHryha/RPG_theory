@@ -1,0 +1,108 @@
+
+Running 25 tests using 1 worker
+
+(node:4404) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 tests/e2e/integration.spec.ts:4:1 › M6 published-only search has an honest empty state, keyboard controls and no-JS browsing (5.4s)
+(node:4774) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 tests/e2e/integration.spec.ts:15:39 › M6 representative layouts pass reflow and WCAG axe at 320px (9.4s)
+  ✓   3 tests/e2e/integration.spec.ts:15:39 › M6 representative layouts pass reflow and WCAG axe at 375px (8.7s)
+  ✓   4 tests/e2e/integration.spec.ts:15:39 › M6 representative layouts pass reflow and WCAG axe at 768px (8.6s)
+  ✓   5 tests/e2e/integration.spec.ts:15:39 › M6 representative layouts pass reflow and WCAG axe at 1280px (8.9s)
+  ✓   6 tests/e2e/integration.spec.ts:23:1 › M6 search focus, doubled text, reduced motion and dark mode remain usable (491ms)
+  ✓   7 tests/e2e/introduction.spec.ts:10:1 › M2 beginner layouts reflow at 320, 375 and 1280 in light and dark with ordered headings and accessible schematics (13.3s)
+  ✘   8 tests/e2e/introduction.spec.ts:36:1 › M2 complete reading journey works without JavaScript and makes question, uncertainty and sources findable (5.5s)
+(node:6530) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 tests/e2e/introduction.spec.ts:72:1 › beginner pages retain reflow with doubled text size (651ms)
+  ✓  10 tests/e2e/introduction.spec.ts:81:1 › the real interaction equation scrolls locally by keyboard and retains loaded mathematical fonts (364ms)
+  ✓  11 tests/e2e/introduction.spec.ts:95:1 › cold home and real math reading meet owned asset budgets without loading math on plain pages (2.4s)
+  ✓  12 tests/e2e/publication-policy.spec.ts:4:1 › M5 pending About/legal/identity journey works without JavaScript and dependency notice is downloadable (286ms)
+  ✓  13 tests/e2e/publication-policy.spec.ts:16:1 › M5 policy pages and expanded footer reflow at 320px with no axe violations (1.3s)
+  ✓  14 tests/e2e/publication.spec.ts:8:1 › M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing (2.1s)
+  ✓  15 tests/e2e/publication.spec.ts:24:1 › M4 new pages reflow at 320px and technical print retains equations, status, revision and citation targets (3.8s)
+  ✓  16 tests/e2e/reading.spec.ts:16:1 › home and start read without JavaScript, navigate by keyboard and show source state (273ms)
+  ✓  17 tests/e2e/reading.spec.ts:39:1 › home, nested reading and math pass automated accessibility and 320px reflow (1.4s)
+  ✓  18 tests/e2e/reading.spec.ts:66:1 › dark-mode reading remains accessible (577ms)
+  ✓  19 tests/e2e/reading.spec.ts:73:1 › unknown routes return real 404 and nested assets use the configured base (188ms)
+  ✓  20 tests/e2e/reading.spec.ts:88:1 › M1 consumers retain source roles and reported evidence independently of website fidelity (791ms)
+  ✓  21 tests/e2e/reading.spec.ts:125:1 › M1 claims, concepts, status, matrix and bibliography pass axe and 320px reflow (3.1s)
+  ✓  22 tests/e2e/reading.spec.ts:139:1 › literature has source-backed DOI identities and usable source extraction details without JS (1.8s)
+  ✓  23 tests/e2e/technical.spec.ts:7:1 › M3 technical reading and source discovery work without JavaScript (1.5s)
+  ✓  24 tests/e2e/technical.spec.ts:26:1 › M3 equations and technical readings remain accessible at 320px in dark mode (9.6s)
+  ✓  25 tests/e2e/technical.spec.ts:54:1 › M3 evidence attribution, scope and open tests remain visible beside the actual sources (592ms)
+
+
+  1) tests/e2e/integration.spec.ts:4:1 › M6 published-only search has an honest empty state, keyboard controls and no-JS browsing 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('h1')
+    Expected substring: "Concepts"
+    Received string:    "The concepts, in ordinary words"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('h1') with timeout 5000ms
+      - waiting for locator('h1')
+        14 × locator resolved to <h1>The concepts, in ordinary words</h1>
+           - unexpected value "The concepts, in ordinary words"
+
+
+       5 |  const context=await browser.newContext({javaScriptEnabled:false}),page=await context.newPage();
+       6 |  await page.goto(base+'search/');await expect(page.getByText('No readings have been selected for publication yet.',{exact:false})).toBeVisible();
+    >  7 |  await page.locator('[data-search-fallback]').getByRole('link',{name:'concepts',exact:true}).click();await expect(page.locator('h1')).toContainText('Concepts');await context.close();
+         |                                                                                                                                       ^
+       8 |  const js=await browser.newPage(),requests:string[]=[];js.on('request',r=>requests.push(r.url()));
+       9 |  await js.goto(base);expect(requests.some(r=>r.includes('pagefind') || r.includes('search-client'))).toBe(false);
+      10 |  await js.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Search',exact:true}).click();
+        at /Users/new/RiderProjects/RPG_theory/tests/e2e/integration.spec.ts:7:135
+
+    Error Context: docs/evidence/m6/implementation/final/browser-traces/subpath/integration-M6-published-o-f05db-controls-and-no-JS-browsing/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/evidence/m6/implementation/final/browser-traces/subpath/integration-M6-published-o-f05db-controls-and-no-JS-browsing/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/evidence/m6/implementation/final/browser-traces/subpath/integration-M6-published-o-f05db-controls-and-no-JS-browsing/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/introduction.spec.ts:36:1 › M2 complete reading journey works without JavaScript and makes question, uncertainty and sources findable 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true })
+    Expected: "page"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true }) with timeout 5000ms
+      - waiting for getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Concepts', exact: true })
+
+
+      66 |     await expect(page.locator('math')).not.toHaveCount(0);
+      67 |     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/');
+    > 68 |     await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Concepts',exact:true})).toHaveAttribute('aria-current','page');
+         |                                                                                                                        ^
+      69 |   } finally {await context.close();}
+      70 | });
+      71 |
+        at /Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts:68:120
+
+    Error Context: docs/evidence/m6/implementation/final/browser-traces/subpath/introduction-M2-complete-r-a94ef-tainty-and-sources-findable/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/evidence/m6/implementation/final/browser-traces/subpath/introduction-M2-complete-r-a94ef-tainty-and-sources-findable/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/evidence/m6/implementation/final/browser-traces/subpath/introduction-M2-complete-r-a94ef-tainty-and-sources-findable/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests/e2e/integration.spec.ts:4:1 › M6 published-only search has an honest empty state, keyboard controls and no-JS browsing 
+    tests/e2e/introduction.spec.ts:36:1 › M2 complete reading journey works without JavaScript and makes question, uncertainty and sources findable 
+  23 passed (1.6m)
