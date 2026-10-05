@@ -998,3 +998,150 @@ For every new source ask:
 ---
 
 # 26. Current overall evidence assessment
+
+The strongest defensible statement today is:
+
+> **Many individual operations required by Recursive Resonant Geometry are independently established in physics and chemistry: fluctuations can produce order; geometry selects modes; modes reorganize matter; coupled resonators form collective modes; field and material organization can co-evolve; driven systems can self-select structures; nonliving patterns can replicate; autocatalytic networks can sustain their own production; and coarse-graining produces new effective descriptions.**
+
+The unproved RRG claim is:
+
+> **These are manifestations of one scale-recursive generative principle that repeatedly turns the stable organization of one level into the background and effective possibility space of the next.**
+
+That distinction should remain central to every public version.
+
+---
+
+# 27. Priority evidence gaps
+
+Instead of trying to prove everything, future searches should prioritize cases that bridge currently separate arrows.
+
+## Gap A
+
+Find systems where:
+
+\[
+\text{emergent structure}
+\rightarrow
+\text{changes background}
+\rightarrow
+\text{enables a second, qualitatively different structure}.
+\]
+
+## Gap B
+
+Find experiments with two or more spontaneous hierarchy levels.
+
+## Gap C
+
+Find systems where an emergent collective mode becomes a new effective resonator for other collective modes.
+
+## Gap D
+
+Find clean measurements linking:
+
+\[
+\text{structure lifetime},
+\quad
+\text{coupling range},
+\quad
+\text{mode spectrum},
+\quad
+\text{spatial expansion}.
+\]
+
+## Gap E
+
+Find counterexamples where the recursion stops, reverses, fragments, or loses scale separation.
+
+These negative cases are as important as positive ones because they tell us the actual domain of the theory.
+
+---
+
+# 28. Compact public evidence chain
+
+For public communication, the evidence can be summarized without claiming proof:
+
+\[
+\boxed{
+\begin{aligned}
+&\text{noise can create order} \\
+&\downarrow\\
+&\text{geometry and modes constrain one another} \\
+&\downarrow\\
+&\text{modes can reorganize matter} \\
+&\downarrow\\
+&\text{coupled structures can form collective modes} \\
+&\downarrow\\
+&\text{nonliving patterns can self-maintain or replicate} \\
+&\downarrow\\
+&\text{stable lower-level dynamics admit higher-level effective descriptions}
+\end{aligned}
+}
+\]
+
+RRG asks whether these known operations are fragments of one recursive source rule:
+
+\[
+\boxed{
+B_n
+\rightarrow
+R_n
+\rightarrow
+B_{n+1}
+\rightarrow
+R_{n+1}.
+}
+\]
+
+That is the hypothesis.
+
+---
+
+# 29. References added in this evidence pass
+
+1. Pantaleone, J. “Synchronization of metronomes.” *American Journal of Physics* 70, 992–1000 (2002). DOI: 10.1119/1.1501118.
+2. Oliveira, H. M. & Melo, L. V. “Huygens synchronization of two clocks.” *Scientific Reports* 5, 11548 (2015). DOI: 10.1038/srep11548.
+3. Kapitaniak et al. “Synchronization of clocks.” *Physics Reports* 517, 1–69 (2012). DOI: 10.1016/j.physrep.2012.03.002.
+4. Zhou et al. “Controlling the motion of multiple objects on a Chladni plate.” *Nature Communications* 7, 12764 (2016). DOI: 10.1038/ncomms12764.
+5. “Review of Ultrasonic Particle Manipulation Techniques: Applications and Research Advances.” PMCID: PMC10456655 (2023).
+6. “Spatiotemporal order out of noise.” *Reviews of Modern Physics* 79, 829 (2007). DOI: 10.1103/RevModPhys.79.829.
+7. Ouyang, Q. & Swinney, H. L. “Transition from a uniform state to hexagonal and striped Turing patterns.” *Nature* 352, 610–612 (1991).
+8. Petrov, V., Ouyang, Q. & Swinney, H. L. “Resonant pattern formation in a chemical system.” *Nature* 388, 655–657 (1997).
+9. Baumann et al. “Dicke quantum phase transition with a superfluid gas in an optical cavity.” *Nature* 464, 1301–1306 (2010). DOI: 10.1038/nature09009.
+10. Heuthe et al. “Tunable colloidal swarmalators with hydrodynamic coupling.” *Nature Communications* 16, 10984 (2025).
+11. Kachman, T., Owen, J. A. & England, J. L. “Self-Organized Resonance during Search of a Diverse Chemical Space.” *Physical Review Letters* 119, 038001 (2017). DOI: 10.1103/PhysRevLett.119.038001.
+12. Lee et al. “Experimental observation of self-replicating spots in a reaction–diffusion system.” *Nature* 369, 215–218 (1994).
+13. Ebata, H. & Sano, M. “Self-Replicating Holes in a Vertically Vibrated Dense Suspension.” *Physical Review Letters* 107, 088301 (2011). DOI: 10.1103/PhysRevLett.107.088301.
+14. Grzybowski et al. “Principles and Implementations of Dissipative (Dynamic) Self-Assembly.” *J. Phys. Chem. B* 110, 2482–2496 (2006).
+15. Hordijk & Steel. “Chasing the tail: The emergence of autocatalytic networks.” *BioSystems* 152, 1–10 (2017).
+16. Hordijk et al. “Autocatalytic Networks at the Basis of Life’s Origin and Organization.” *Life* 8, 62 (2018).
+17. Xavier et al. “Autocatalytic chemical networks at the origin of metabolism.” *Proceedings of the Royal Society B* (2020).
+18. Efrati et al. “Real-space renormalization in statistical mechanics.” *Reviews of Modern Physics* 86, 647 (2014). DOI: 10.1103/RevModPhys.86.647.
+19. Verdeny, Mielke & Mintert. “Accurate Effective Hamiltonians via Unitary Flow in Floquet Space.” *Physical Review Letters* 111, 175301 (2013).
+20. Chen & Cory. “Engineering precise and robust effective Hamiltonians.” *Physical Review A* 113, 042409 (2026).
+21. Solano-Cabrera et al. “Self-Assembly and Transport Phenomena of Colloids: Confinement and Geometrical Effects.” *Annual Review of Condensed Matter Physics* 16, 41–59 (2025).
+
+---
+
+# 30. Locked takeaway from this evidence pass
+
+The project position is:
+
+\[
+\boxed{
+\textbf{RRG is currently a generative theory/framework supported by many established local mechanisms, not a universally proved physical theory.}
+}
+\]
+
+Its strongest current value is explanatory compression:
+
+\[
+\boxed{
+\text{many apparently separate phenomena}
+\rightarrow
+\text{one candidate recursive interpretation}
+}
+\]
+
+The framework should be published clearly enough that other researchers can attempt the derivations and experiments we do not complete ourselves.
+
