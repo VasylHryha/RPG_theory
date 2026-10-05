@@ -1890,3 +1890,4 @@ B_n\rightarrow R_n\rightarrow B_{n+1}
 proposed to repeat across effective levels. A common mathematical family is one stronger way that proposal might eventually be formalized.
 
 The immediate publication offers the explanation, evidence connections, limitations and open questions. Proofs and new experiments are welcome contributions, not conditions for sharing it.
+
