@@ -982,3 +982,4 @@ If “geometry” means every relation and “mode” means every possible chang
 **Novel falsifiable prediction:** open.
 
 This is now the correct boundary between the RRG hypothesis and a demonstrated physical theory.
+
