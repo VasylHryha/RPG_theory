@@ -4,14 +4,14 @@ doc_type: implementation_plan
 program: unity_theory_publication_site
 revision: 4
 updated: 2026-10-05
-status: M7_PREPARATION_ACCEPTED_SOURCE_RECONCILIATION_REQUIRED
+status: M7_PREPARATION_ACCEPTED_SOURCE_PROMOTED_REBIND_REQUIRED
 current_milestone: M7
 execution_model: "Normal development with proportionate checks and separate bounded High acceptance under section 0.27; source-authority reconciliation in section 0.39 is required before public qualification/release"
 repository: "Public GitHub repository https://github.com/VasylHryha/RPG_theory on main; prior local-only/no-remote statements are historical receipts"
 replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
 planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
-source_baseline: "Project-wide RRG_CURRENT installed from owner-supplied bytes on 2026-10-01 remains the admitted repository baseline; GPT/Library audited publication companion v0.2.1 dated 2026-10-02 surfaced during the 2026-10-05 recheck and must be reconciled under section 0.39 before final public qualification; it does not automatically replace the separately locked core or source-authority manifest"
-publication: "Repository is already public; website/Pages release remains unqualified and must not proceed until section 0.39 plus normal identity/rights/target gates are closed"
+source_baseline: "Owner explicitly promoted the audited GPT/Library RRG v0.2.1 companion dated 2026-10-02 to repository CURRENT on 2026-10-05; predecessor current bytes are archived, the minimal locked core/repository 01-03/change control are carried forward unchanged, and website source bindings require rebind before qualification"
+publication: "Repository is already public; source promotion is complete, but website/Pages release remains unqualified until source keys/records/citations/reviews are rebound to v0.2.1 and normal identity/rights/target gates are closed"
 ---
 
 # Unity Theory — website implementation plan · Revision 4
@@ -37,7 +37,7 @@ This is the sole execution plan for the website, research-document publication, 
 | Current milestone / state | **M7 local preparation remains ACCEPTED for its demonstrated engineering scope, but public qualification/release is now additionally blocked by the §0.39 source-authority reconciliation gate.** Prior M2–M6 bounded engineering acceptances remain historical evidence for the corpus they actually tested; do not treat them as qualification of reconciled content |
 | Website repository / implementation | One-root Astro implementation on public GitHub repository `VasylHryha/RPG_theory`, main branch. Prior receipts that say “no remote/public target” describe the earlier local state, not current repository visibility |
 | Last engineering acceptance | §0.38 accepts M7 local preparation with bounded review repairs. This plan-only update does not revoke that engineering result; it reopens the scientific/content input gate before final qualification because newer audited companion material was surfaced |
-| Changed here | Plan-only source-authority correction after comparing GitHub with the GPT Project source record and Library v0.2.1. No scientific source byte, evidence card, website review, rights decision or deployment setting is changed by this update |
+| Changed here | Owner-authorized source promotion: audited v0.2.1 04–08/source register installed as current, predecessor current archived, minimal core/repository 01–03/change control carried forward, intake resealed. Website source keys/records/reviews are deliberately not auto-approved and remain to be rebound |
 | Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
 | Audited companion / repository package | Owner-supplied 1 October `research/RRG_CURRENT/` remains the admitted repository package; GPT/Library **RRG v0.2.1 · 2 Oct 2026** is a distinct audited publication/evidence companion and correction source that must be reconciled rather than copied over the repository wholesale |
 | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; it identifies the currently admitted edition. Any adopted scientific revision must create a new edition/hash with predecessor/change records rather than silently moving the pin |
@@ -46,7 +46,7 @@ This is the sole execution plan for the website, research-document publication, 
 | Website/browser/a11y/live evidence | §0.35 and §0.38 engineering evidence remains valid for the source/configuration actually tested. Screen reader/human comprehension remain NOT_TESTED; reconciled-content qualification, live hosting and actual-target checks remain open |
 | Shared-source mutation | None in this plan-only update. Existing validator state was 57 stale / 0 pending / 0 accepted / 0 rejected, currentSourceQualified=false, deployEligible=false; do **not** refresh these decisions until §0.39 reconciliation stabilizes the corpus |
 | External publication state | The GitHub repository is already public. This requested plan update is the only public repository mutation in this batch. No Pages deployment, DNS change, release tag, license grant, rights approval or scientific-source publication action is performed here |
-| Next action | Execute §0.39 as one bounded source-reconciliation batch: preserve/import the audited companion as provenance, map authority layers, resolve lock terminology and evidence IDs, adopt justified corrections/evidence through versioned source transactions, rebuild affected website/source mappings, then run one final website-fidelity/public-qualification pass against the reconciled selection |
+| Next action | Complete the remaining §0.39 rebind: map publication source keys/records/citations to the promoted v0.2.1 files, resolve evidence-ID namespace collisions without losing legacy aliases, rebuild affected pages/downloads, then perform one fresh bounded fidelity/M6 qualification pass |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -520,6 +520,9 @@ Reused the clean install/zero Astro diagnostics and initial **104/113** contract
 
 
 ### 0.39 Source-authority reconciliation required before public qualification — 5 October 2026
+
+**Execution update — owner replacement decision completed.** The owner subsequently instructed “replace old”. The active repository source set has therefore been promoted to **RRG v0.2.1 repository current**: predecessor `RRG_CURRENT` bytes are preserved under `research/history/repository-current-2026-10-01/`; audited v0.2.1 04–08 and `sources.json` are current; `00_LOCKED_CORE.md`, repository 01–03 and `05_CHANGE_CONTROL.md` are carried forward unchanged; `CURRENT_MANIFEST.md`, `SOURCE_AUTHORITY.md` and `config/research-source.json` record the new edition. The old active 04/06/07/08 files have been removed from CURRENT after archival. Source intake is resealed, but website mappings that referenced those predecessor paths are stale by construction. Remaining §0.39 work is now **rebind/ID migration + final qualification**, not source selection.
+
 
 **Decision: REQUIRED PRE-RELEASE CORRECTION BATCH. This does not revoke prior bounded engineering acceptance and does not itself change scientific source bytes.** A recheck compared the current public GitHub repository with the GPT Project source record and the user's persisted audited documents. The GPT-side record identifies **RRG v0.2.1, dated 2 October 2026**, as the latest audited session-document set. Its own `CURRENT.md` explicitly limits that authority: the set is current publication guidance for that audited session and does **not** automatically replace a separately locked project-wide core, website source-authority manifest or repository. Therefore the correct action is reconciliation, not wholesale replacement of `research/RRG_CURRENT/`.
 
