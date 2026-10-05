@@ -37,6 +37,7 @@ const source = {...selected.admission,errorCode:null};
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     {activeMode()!=='release' && <div class="preview-strip">Private {activeMode() === 'qualification' ? 'qualification' : 'preview'} <span>· {activeMode()==='qualification'?'Reviewed selection; deployment disabled':'Draft website explanations'}</span></div>}
+    {selected.manifest.releaseId.endsWith('-first-test') && <div class="preview-strip" aria-label="Research edition">Author’s research draft <span>· Open to review and revision</span></div>}
     <header class="site-header shell">
       <a class="brand" href={url('/')} aria-label="Unity Theory home"><span class="brand-mark" aria-hidden="true">↔</span> Unity Theory</a>
       <nav aria-label="Main navigation" data-publication-navigation set:html={renderNavigation(selected,route,config.basePath)} />

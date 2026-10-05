@@ -1,0 +1,59 @@
+{
+  "schema": "unity-first-release-verification/1",
+  "date": "2026-10-05T19:49:25.680071+00:00",
+  "state": "REVIEW_READY",
+  "accepted": false,
+  "publicContact": "vasylhryha.rpg@gmail.com",
+  "checks": {
+    "astro": "PASS: 0 errors/warnings/hints (95 files)",
+    "affectedContracts": "PASS: 22; eight M5 checks rerun after final contact",
+    "m6Contracts": "PASS: 4 including mail-link refusal controls",
+    "chromium": "PASS: 4 at root and 4 at actual target",
+    "contentAndCatalogue": "PASS; all 96 existing review decisions stale, not renewed",
+    "publicationScreen": "PASS bounded engineering/export checks; privacy not certified",
+    "protectedFilesUnchanged": 3349,
+    "scientificRenderedBodiesUnchanged": 75,
+    "fullVerify": "NOT_RUN this batch; prior incomplete result preserved",
+    "CI": "NOT_RUN",
+    "hostedVerification": "NOT_RUN"
+  },
+  "artifacts": [
+    {
+      "base": "/",
+      "artifactSha256": "ba1bfc688127a46d0eda74fbd71e8087878a38533d0f5adf02c86c9dbc52cc94",
+      "files": 348,
+      "htmlFiles": 104,
+      "deployEligible": false
+    },
+    {
+      "base": "/RPG_theory/",
+      "artifactSha256": "901b79fd5ba84fa65676312bd056cd4e6c65c0e0a858eca7febf04aa07db5dc3",
+      "files": 348,
+      "htmlFiles": 104,
+      "deployEligible": false
+    }
+  ],
+  "remaining": [
+    "Separate bounded High acceptance and revised 75 current fidelity decisions",
+    "Scoped rights review and explicit public repository/privacy scope",
+    "Actual screen-reader/MathML and current human/listening observations",
+    "Complete original-package provenance gap",
+    "Approved private receipt/artifact capture",
+    "Exact selected-commit qualification and CI",
+    "Pages/environment protection configuration after prerequisite gates"
+  ],
+  "actions": {
+    "commit": false,
+    "push": false,
+    "deployment": false,
+    "DNS": false,
+    "remoteWrite": false,
+    "deploymentEnabled": false
+  },
+  "failedAttempts": {
+    "initialContracts": "Two obsolete 75-result expectations failed; corrected to 68 after inspecting the existing search/sitemap filter; 22 pass on repair",
+    "approvedMailLink": "UNSAFE_OUTPUT_URL rejected approved contact; exact-contact repair and two negative controls now pass",
+    "intermediateIdentity": "Auditor input changed during target build: EXPORT_PARITY_FAILURE /downloads/release.json and ZIP browser parity failure. Rebuilt after final source/contact edits; final audits/download journeys pass",
+    "sandbox": "Local socket EPERM and API network failures; authorized bounded retries succeed; actual Pages 404 remains unconfigured state"
+  }
+}

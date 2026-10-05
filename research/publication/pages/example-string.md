@@ -9,8 +9,8 @@
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
-  "publicationState": "draft",
-  "publishedAt": null,
+  "publicationState": "published",
+  "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
@@ -35,7 +35,7 @@
   "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World explanation §2; core §§1–3. OpenStax supplements the ideal fixed-end string model and its physical parameters.",
   "adapter": "markdown/1",
   "limits": "",
-  "rightsRef": null
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
 ## What to notice

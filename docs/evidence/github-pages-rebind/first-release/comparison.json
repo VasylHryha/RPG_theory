@@ -1,0 +1,2865 @@
+{
+  "schema": "unity-first-release-comparison/1",
+  "status": "PASS",
+  "reviewDecision": false,
+  "launchEntries": 75,
+  "scientificFieldsUnchanged": true,
+  "renderedBodiesUnchanged": 75,
+  "changedRenderedBodies": [],
+  "protectedFiles": 3349,
+  "changedProtected": [],
+  "comparisons": [
+    {
+      "entryId": "DOC-ARTICLE-STRUCTURES",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "authorIdentity",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "f027362c22aa06133093e5385b73639b6ead09f37ad25f19f4b5a58439e301b2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "8ce5e9fad25cc8bef0f9af3817a23452534619af909a31d954231931e173f0a8",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "f027362c22aa06133093e5385b73639b6ead09f37ad25f19f4b5a58439e301b2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "8ce5e9fad25cc8bef0f9af3817a23452534619af909a31d954231931e173f0a8",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-ARTICLE-UNIT",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "authorIdentity",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "5e62a7fcad8899e8919239c10c7d8c7bd573fc36b985de77546631c739931a38",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "faf6ce21bab2d93c7a84e74c213094f6d50ecedb02b125d1a70f500b080d29a1",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "5e62a7fcad8899e8919239c10c7d8c7bd573fc36b985de77546631c739931a38",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "faf6ce21bab2d93c7a84e74c213094f6d50ecedb02b125d1a70f500b080d29a1",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-AUTHORITY",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "2770c3974eb6a6105d4f753d9667d3e6a3faa065dbb317df636b401f7cf9b914",
+          "plainLanguageSha256": "67331244f32b92d46f13cbff7b69e9d85c243d9f4f7ad6c264ef7ad33b0ef746",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "2770c3974eb6a6105d4f753d9667d3e6a3faa065dbb317df636b401f7cf9b914",
+          "plainLanguageSha256": "67331244f32b92d46f13cbff7b69e9d85c243d9f4f7ad6c264ef7ad33b0ef746",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "2770c3974eb6a6105d4f753d9667d3e6a3faa065dbb317df636b401f7cf9b914",
+          "plainLanguageSha256": "67331244f32b92d46f13cbff7b69e9d85c243d9f4f7ad6c264ef7ad33b0ef746",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "2770c3974eb6a6105d4f753d9667d3e6a3faa065dbb317df636b401f7cf9b914",
+          "plainLanguageSha256": "67331244f32b92d46f13cbff7b69e9d85c243d9f4f7ad6c264ef7ad33b0ef746",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-BACKGROUND",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "172093488fb738a701f255828bbae5e9e2447a7c33b5542a5908520844b86e47",
+          "plainLanguageSha256": "829a7dbda3c2e76848b070c3b55cb5d7725adf502fedf57532336813996df397",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "6f69cf275297718436a7631b4fcb2cb53303bd9e73d6bdaaae6c230b20b4cb32",
+          "plainLanguageSha256": "829a7dbda3c2e76848b070c3b55cb5d7725adf502fedf57532336813996df397",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "172093488fb738a701f255828bbae5e9e2447a7c33b5542a5908520844b86e47",
+          "plainLanguageSha256": "829a7dbda3c2e76848b070c3b55cb5d7725adf502fedf57532336813996df397",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "6f69cf275297718436a7631b4fcb2cb53303bd9e73d6bdaaae6c230b20b4cb32",
+          "plainLanguageSha256": "829a7dbda3c2e76848b070c3b55cb5d7725adf502fedf57532336813996df397",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-CATALOGUE",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "40479586528482a8d249fddb78b0c3652b34adecc368e80e50b9d04a50ced8a6",
+          "plainLanguageSha256": "0169eb8ed44c03f1d015453965b94b373a8cda8a8e2ad2d8fcce1850732b2937",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "c6b9bbc3e87184eabe82ab874d6687d190d1f57f46d7d39a5ca4b6bccc808340",
+          "plainLanguageSha256": "0169eb8ed44c03f1d015453965b94b373a8cda8a8e2ad2d8fcce1850732b2937",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "40479586528482a8d249fddb78b0c3652b34adecc368e80e50b9d04a50ced8a6",
+          "plainLanguageSha256": "0169eb8ed44c03f1d015453965b94b373a8cda8a8e2ad2d8fcce1850732b2937",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "c6b9bbc3e87184eabe82ab874d6687d190d1f57f46d7d39a5ca4b6bccc808340",
+          "plainLanguageSha256": "0169eb8ed44c03f1d015453965b94b373a8cda8a8e2ad2d8fcce1850732b2937",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-CLAIM-COVERAGE",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "01f14e152e5dc2b1405b9ce03be41710e76b9d0bec7f624706a8f27f8f565051",
+          "plainLanguageSha256": "e1c8b5031bd3add6295fd866e7ddd809f4c7b4a6e5e356c6578fa8b48c5b0157",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "01f14e152e5dc2b1405b9ce03be41710e76b9d0bec7f624706a8f27f8f565051",
+          "plainLanguageSha256": "e1c8b5031bd3add6295fd866e7ddd809f4c7b4a6e5e356c6578fa8b48c5b0157",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "01f14e152e5dc2b1405b9ce03be41710e76b9d0bec7f624706a8f27f8f565051",
+          "plainLanguageSha256": "e1c8b5031bd3add6295fd866e7ddd809f4c7b4a6e5e356c6578fa8b48c5b0157",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "01f14e152e5dc2b1405b9ce03be41710e76b9d0bec7f624706a8f27f8f565051",
+          "plainLanguageSha256": "e1c8b5031bd3add6295fd866e7ddd809f4c7b4a6e5e356c6578fa8b48c5b0157",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-CONCEPT-GEOMETRY",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "026e67efb1aed254ed43d960e3505ebdf5909eb76a85f5497645b0cb577b8bdd",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "c137385cc01a9d53420586f8bc98aa576b7ce5a57c818caf3568df3ef3c25205",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "026e67efb1aed254ed43d960e3505ebdf5909eb76a85f5497645b0cb577b8bdd",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "c137385cc01a9d53420586f8bc98aa576b7ce5a57c818caf3568df3ef3c25205",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-CONCEPT-INTERACTIONS",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7bda23e798ce8fdf0c3f7b85430eb5c0d314172cf514feb45da1646cf589b1f7",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "ffcc58c676549a37d089b8fd3d45da45241f7c4bdc7ab54e92d04478aae154a3",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7bda23e798ce8fdf0c3f7b85430eb5c0d314172cf514feb45da1646cf589b1f7",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "ffcc58c676549a37d089b8fd3d45da45241f7c4bdc7ab54e92d04478aae154a3",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-CONCEPT-RECURSION",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "33ec81d2d8454f3cd1693e4fc3c90bf79050cd9e40f4e576eabc14f92a090a5c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "1fc42ccb8d1272855f18ec6b9d0fbd518c00ce078bbbf57b04f233fb6ba12b07",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "33ec81d2d8454f3cd1693e4fc3c90bf79050cd9e40f4e576eabc14f92a090a5c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "1fc42ccb8d1272855f18ec6b9d0fbd518c00ce078bbbf57b04f233fb6ba12b07",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-CONCEPT-STABILITY",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "01dc34fee23953cc47ca4eac2452d920fe8f0ab56b2897b285172e6ff9ec95ce",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "233aa4b09d862ad48bef24380acf9d92af7fabd0e77ffd43a08f8c4cab14b0eb",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "01dc34fee23953cc47ca4eac2452d920fe8f0ab56b2897b285172e6ff9ec95ce",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "233aa4b09d862ad48bef24380acf9d92af7fabd0e77ffd43a08f8c4cab14b0eb",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-CONCEPTS",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "1158180d34f2ab700f5fbbafda549491cdeeeaee914fd8acf741175413a4d43c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "2ee1fabf01d75cad646a00038c57fcc1acdf5297bb48eeb3280756c39353f657",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "1158180d34f2ab700f5fbbafda549491cdeeeaee914fd8acf741175413a4d43c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "2ee1fabf01d75cad646a00038c57fcc1acdf5297bb48eeb3280756c39353f657",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-CONTROL",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "a2f72e379a3de47e6ec18680068497c65e26aae435848edbb48c1975f8022439",
+          "plainLanguageSha256": "a7afa801a6dfdea668b8681f257590ac5f4b5abeefdc374eed66cc6b32c0bbdc",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "101e12580a506e047ff1e4346d7907dd8020229195964de73b92e03a0a82a865",
+          "plainLanguageSha256": "4aa0919c1d017784d2cff4beeaa192d20d7151e540634df8d52f9f5abfcc7d39",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "a2f72e379a3de47e6ec18680068497c65e26aae435848edbb48c1975f8022439",
+          "plainLanguageSha256": "a7afa801a6dfdea668b8681f257590ac5f4b5abeefdc374eed66cc6b32c0bbdc",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "101e12580a506e047ff1e4346d7907dd8020229195964de73b92e03a0a82a865",
+          "plainLanguageSha256": "4aa0919c1d017784d2cff4beeaa192d20d7151e540634df8d52f9f5abfcc7d39",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-CORE",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "6e42af700b89730a116c477e5f2cd72968df821c42e63454457ed457dffbd0af",
+          "plainLanguageSha256": "12b21b1e0c760ea6cfd3228c737c24bfa8fb45adde450cda304bd01680aa544b",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "6e42af700b89730a116c477e5f2cd72968df821c42e63454457ed457dffbd0af",
+          "plainLanguageSha256": "34909fdb228e57ebb11fdeccebe654fa56acbdddc3d1e895a095183798b8a111",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "6e42af700b89730a116c477e5f2cd72968df821c42e63454457ed457dffbd0af",
+          "plainLanguageSha256": "12b21b1e0c760ea6cfd3228c737c24bfa8fb45adde450cda304bd01680aa544b",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "6e42af700b89730a116c477e5f2cd72968df821c42e63454457ed457dffbd0af",
+          "plainLanguageSha256": "34909fdb228e57ebb11fdeccebe654fa56acbdddc3d1e895a095183798b8a111",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-EVIDENCE",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "b5d5a494357f265e774cf9d5ad88abb489d20e59a53f9c8694bd85298ba7ab38",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "5ef4e9cc19a48617f7cabe90a3c4bf2bec63e1fb45f2bba9f153d3d3f4f2907c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "b5d5a494357f265e774cf9d5ad88abb489d20e59a53f9c8694bd85298ba7ab38",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "5ef4e9cc19a48617f7cabe90a3c4bf2bec63e1fb45f2bba9f153d3d3f4f2907c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-EXAMPLE-CELL",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7ce38a5596e067e0566b7c8d5ac1439067985da36bd1905b0974054e91fada03",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "22e3570b5f9e4f9821c7370500d85e374218b5810bfee7fe3dea72c1114e454a",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7ce38a5596e067e0566b7c8d5ac1439067985da36bd1905b0974054e91fada03",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "22e3570b5f9e4f9821c7370500d85e374218b5810bfee7fe3dea72c1114e454a",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-EXAMPLE-LIFE",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "1433ad797d4d9b01d87fc4ae4ed04c78108ef360c8fbee7769d27683c552a312",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "5d302ab140216cd9113711fef7910e7a6f5a69198b65f707eefbbc4812e515d2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "1433ad797d4d9b01d87fc4ae4ed04c78108ef360c8fbee7769d27683c552a312",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "5d302ab140216cd9113711fef7910e7a6f5a69198b65f707eefbbc4812e515d2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-EXAMPLE-MOLECULE",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "0876ee311c09089bc20143f28da634c6642c494a0b27f5e088066357286e06d1",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "49dea2fc19609da41aaf78ff6e5ba64433209df19f33449387d8d9a3da8e7169",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "0876ee311c09089bc20143f28da634c6642c494a0b27f5e088066357286e06d1",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "49dea2fc19609da41aaf78ff6e5ba64433209df19f33449387d8d9a3da8e7169",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-EXAMPLE-STAR",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "e4aafc0237a82aac9319b68ce803f6293f02e0aeda0a25ae79626d35b8ca6e2a",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "e1335e4b94dd01ab6b937af8cb23613473bc0bcda1f918e4cf8ff470ec01e714",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "e4aafc0237a82aac9319b68ce803f6293f02e0aeda0a25ae79626d35b8ca6e2a",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "e1335e4b94dd01ab6b937af8cb23613473bc0bcda1f918e4cf8ff470ec01e714",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-EXAMPLE-STRING",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "84e28c0b6f415df74db855e31a094cfda68ba0405ce1b55726c08ec4037c5f90",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "f69331d110b75eaa5d1a4d17d124b66b7af55dce792af0f2cebd8d0e678dddcd",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "84e28c0b6f415df74db855e31a094cfda68ba0405ce1b55726c08ec4037c5f90",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "f69331d110b75eaa5d1a4d17d124b66b7af55dce792af0f2cebd8d0e678dddcd",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-EXAMPLE-WATER",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "3473a91eee1b0b1d44e27574527f676f42503c0fbf46c9a575bae209fa561d75",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "8c600e57915ee470dc99eee775d0a683404456e5e18e8ad4bfe7d4beb5ea845e",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "3473a91eee1b0b1d44e27574527f676f42503c0fbf46c9a575bae209fa561d75",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "8c600e57915ee470dc99eee775d0a683404456e5e18e8ad4bfe7d4beb5ea845e",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-EXAMPLES",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7eb6e365e2bfda16c3b25b75c4983c1ed387eda80a3e816fbfae50c73b0bda74",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "82713ccf63d605cd35e2f3fe0093669ff028e4c16c83d4691c5fb213234c0243",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7eb6e365e2bfda16c3b25b75c4983c1ed387eda80a3e816fbfae50c73b0bda74",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "82713ccf63d605cd35e2f3fe0093669ff028e4c16c83d4691c5fb213234c0243",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-FOUNDATION-ERRATA",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "0720bb824543591d581a1aa01544939cf0de5fa83055a9c24a68768a032b58ea",
+          "plainLanguageSha256": "3469b4dcee67f467e70dfedef02be4afb4d032cd7bbda80172065732b2cd7906",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "a91e813f14feb97ccd10ce88eb3dcc7acb9b99e486df9e135f10d17a785bda67",
+          "plainLanguageSha256": "3469b4dcee67f467e70dfedef02be4afb4d032cd7bbda80172065732b2cd7906",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "0720bb824543591d581a1aa01544939cf0de5fa83055a9c24a68768a032b58ea",
+          "plainLanguageSha256": "3469b4dcee67f467e70dfedef02be4afb4d032cd7bbda80172065732b2cd7906",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "a91e813f14feb97ccd10ce88eb3dcc7acb9b99e486df9e135f10d17a785bda67",
+          "plainLanguageSha256": "3469b4dcee67f467e70dfedef02be4afb4d032cd7bbda80172065732b2cd7906",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-FRAMEWORK",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "f399e976d94887e567766360400b6c946c028dcbf6e53a1d0da21cc7854208a3",
+          "plainLanguageSha256": "5b2db7a6672699e838842c7f7a8bc90c9f41d1d30bf6d289bae5c480d1f3fb57",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "375f463be39f07e351f42d0c0ca700264d4444827f8648512bdc0d9910e6c31c",
+          "plainLanguageSha256": "ef73f794f0de8ee7dc138c6f8807792f8196d2fec48e07fbe21539a3822d74bf",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "f399e976d94887e567766360400b6c946c028dcbf6e53a1d0da21cc7854208a3",
+          "plainLanguageSha256": "5b2db7a6672699e838842c7f7a8bc90c9f41d1d30bf6d289bae5c480d1f3fb57",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "375f463be39f07e351f42d0c0ca700264d4444827f8648512bdc0d9910e6c31c",
+          "plainLanguageSha256": "ef73f794f0de8ee7dc138c6f8807792f8196d2fec48e07fbe21539a3822d74bf",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-HOME",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7d3ecb1a3d441ac50c0b89d78aed5363692b0d65427f5fbab681efc4fc2c0868",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": "c6dedc9423210d6f8d416340efe508faee8054374a4a85d11caa4254d866e3dc"
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "0d9f79e1b5085edd438eb797d381894f1e04e0609ad38a48d793803e01cbbf20",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": "c6dedc9423210d6f8d416340efe508faee8054374a4a85d11caa4254d866e3dc"
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7d3ecb1a3d441ac50c0b89d78aed5363692b0d65427f5fbab681efc4fc2c0868",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": "c6dedc9423210d6f8d416340efe508faee8054374a4a85d11caa4254d866e3dc"
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "0d9f79e1b5085edd438eb797d381894f1e04e0609ad38a48d793803e01cbbf20",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": "c6dedc9423210d6f8d416340efe508faee8054374a4a85d11caa4254d866e3dc"
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-ILLUSTRATIONS",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "015b5fa028d946b3d448402b9001856fa8342163ee1b538d357efe749a2d857b",
+          "plainLanguageSha256": "e489d9c4a33b9b8d04a57e428941dbdc908ca3c4aa7ee2460da907a3cefb23da",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "b156d4d7e3e7bf1694d93341b3e116d640871d93decc094872ab8fab775ebeeb",
+          "plainLanguageSha256": "e489d9c4a33b9b8d04a57e428941dbdc908ca3c4aa7ee2460da907a3cefb23da",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "015b5fa028d946b3d448402b9001856fa8342163ee1b538d357efe749a2d857b",
+          "plainLanguageSha256": "e489d9c4a33b9b8d04a57e428941dbdc908ca3c4aa7ee2460da907a3cefb23da",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "b156d4d7e3e7bf1694d93341b3e116d640871d93decc094872ab8fab775ebeeb",
+          "plainLanguageSha256": "e489d9c4a33b9b8d04a57e428941dbdc908ca3c4aa7ee2460da907a3cefb23da",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-LIBRARY",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "d1ab3e41451c0b17a4b526fa2565870c8bf8ef414ab794a048ef15c85aec8b8c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "bc38572bcd721a89c22dcff428155319a28fbe3fc71815997b3da1e21390f319",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "d1ab3e41451c0b17a4b526fa2565870c8bf8ef414ab794a048ef15c85aec8b8c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "bc38572bcd721a89c22dcff428155319a28fbe3fc71815997b3da1e21390f319",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-MATH",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "ce697cd291c2c699271f6f8a6c9e2addf3da5863d1ea5bdcac15c8104c4f9a9d",
+          "plainLanguageSha256": "f482bd580740e123ddb449a6dfba064ea91ae7012833dfea0a5a079ac92bfd6b",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "ad72933e77a3974f80921a6415a8d3025bf5eee35d312cb9ecbc7981cfa504a5",
+          "plainLanguageSha256": "780ffabd5ec5713639b47c046aa260c9bbb764235a1f48ce120f45901f2e4e90",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "ce697cd291c2c699271f6f8a6c9e2addf3da5863d1ea5bdcac15c8104c4f9a9d",
+          "plainLanguageSha256": "f482bd580740e123ddb449a6dfba064ea91ae7012833dfea0a5a079ac92bfd6b",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "ad72933e77a3974f80921a6415a8d3025bf5eee35d312cb9ecbc7981cfa504a5",
+          "plainLanguageSha256": "780ffabd5ec5713639b47c046aa260c9bbb764235a1f48ce120f45901f2e4e90",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-OPEN-PROBLEMS",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "d2ca4841594e728a8fdcb404405cce010f93494de0a5722ca056ab2e64cf597f",
+          "plainLanguageSha256": "d0aace83d8cfbe005bdf9d21f4a01e180ef7a872f6da39ee75e873afd09c247e",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "980777bc8ee46737662b8c510e500a7b9311575452669139d8d48fd993dbbac8",
+          "plainLanguageSha256": "d0aace83d8cfbe005bdf9d21f4a01e180ef7a872f6da39ee75e873afd09c247e",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "d2ca4841594e728a8fdcb404405cce010f93494de0a5722ca056ab2e64cf597f",
+          "plainLanguageSha256": "d0aace83d8cfbe005bdf9d21f4a01e180ef7a872f6da39ee75e873afd09c247e",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "980777bc8ee46737662b8c510e500a7b9311575452669139d8d48fd993dbbac8",
+          "plainLanguageSha256": "d0aace83d8cfbe005bdf9d21f4a01e180ef7a872f6da39ee75e873afd09c247e",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-READING-GUIDE",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "eca4bfdf72d8e58615fc5ae92c97b6abeae8ad3f37a5ed94fb1ee40542ee7d17",
+          "plainLanguageSha256": "e0865ba1f4c0a57276948389da71ea47c626dfff78233edfd92f9695399f880b",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "0941635ab53b0b6ef5ab3baf78bbea687dbf270ef15946ca78181f679b0c26c4",
+          "plainLanguageSha256": "e0865ba1f4c0a57276948389da71ea47c626dfff78233edfd92f9695399f880b",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "eca4bfdf72d8e58615fc5ae92c97b6abeae8ad3f37a5ed94fb1ee40542ee7d17",
+          "plainLanguageSha256": "e0865ba1f4c0a57276948389da71ea47c626dfff78233edfd92f9695399f880b",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "0941635ab53b0b6ef5ab3baf78bbea687dbf270ef15946ca78181f679b0c26c4",
+          "plainLanguageSha256": "e0865ba1f4c0a57276948389da71ea47c626dfff78233edfd92f9695399f880b",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-SOURCE-CHANGES",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "66d76bde3f22591b24c7150f245a92c9df67ac9355143bc8a7726d26424c33e7",
+          "plainLanguageSha256": "2f6ef2a64d72383fb02bcf39cd8b3a8d6d1d842127dcadf20fadbaf5a1738af6",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "66d76bde3f22591b24c7150f245a92c9df67ac9355143bc8a7726d26424c33e7",
+          "plainLanguageSha256": "2f6ef2a64d72383fb02bcf39cd8b3a8d6d1d842127dcadf20fadbaf5a1738af6",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "66d76bde3f22591b24c7150f245a92c9df67ac9355143bc8a7726d26424c33e7",
+          "plainLanguageSha256": "2f6ef2a64d72383fb02bcf39cd8b3a8d6d1d842127dcadf20fadbaf5a1738af6",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "66d76bde3f22591b24c7150f245a92c9df67ac9355143bc8a7726d26424c33e7",
+          "plainLanguageSha256": "2f6ef2a64d72383fb02bcf39cd8b3a8d6d1d842127dcadf20fadbaf5a1738af6",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-SOURCE-LINKS",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "c3b457386c2c3c6587a32e258e8d13981c1a88eef0c2f0f22089011cb0c03459",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "2013b60918681fba7c4a9298580ac83553831103393406f49bccbf1d737a6145",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "c3b457386c2c3c6587a32e258e8d13981c1a88eef0c2f0f22089011cb0c03459",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "2013b60918681fba7c4a9298580ac83553831103393406f49bccbf1d737a6145",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-START",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "99d03f16d778df689e92fef3c08666e5df5905891eef79d1fef45ff20b768401",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "5ecc213fe3f32e5d8ff146493c6db290cdd26b33b450d74526ee0f1f96dbb417",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "99d03f16d778df689e92fef3c08666e5df5905891eef79d1fef45ff20b768401",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "5ecc213fe3f32e5d8ff146493c6db290cdd26b33b450d74526ee0f1f96dbb417",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-STATUS",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "0dd3b875162f514ca206961214c3b33c1db326911bf8de7309915682b0021caf",
+          "plainLanguageSha256": "1b8a2ab5f2d565e3c8901beb7680031214202458b68e042cc051dc860d671abd",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "89accb4de5e0b21c1e0cfefb245ed15be20044fb49eeefa935c36a60efa8ac23",
+          "plainLanguageSha256": "1b8a2ab5f2d565e3c8901beb7680031214202458b68e042cc051dc860d671abd",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "0dd3b875162f514ca206961214c3b33c1db326911bf8de7309915682b0021caf",
+          "plainLanguageSha256": "1b8a2ab5f2d565e3c8901beb7680031214202458b68e042cc051dc860d671abd",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "89accb4de5e0b21c1e0cfefb245ed15be20044fb49eeefa935c36a60efa8ac23",
+          "plainLanguageSha256": "1b8a2ab5f2d565e3c8901beb7680031214202458b68e042cc051dc860d671abd",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "DOC-WORLD",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "6701cddaa6ee3aa84faea691079d431ab38c2a5cb5f4975170b6021f9315fa58",
+          "plainLanguageSha256": "942d385a2366cf498a5a83c5c7b40417f664d30f508f8c9ae401becf8a746631",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "6701cddaa6ee3aa84faea691079d431ab38c2a5cb5f4975170b6021f9315fa58",
+          "plainLanguageSha256": "942d385a2366cf498a5a83c5c7b40417f664d30f508f8c9ae401becf8a746631",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "6701cddaa6ee3aa84faea691079d431ab38c2a5cb5f4975170b6021f9315fa58",
+          "plainLanguageSha256": "942d385a2366cf498a5a83c5c7b40417f664d30f508f8c9ae401becf8a746631",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "6701cddaa6ee3aa84faea691079d431ab38c2a5cb5f4975170b6021f9315fa58",
+          "plainLanguageSha256": "942d385a2366cf498a5a83c5c7b40417f664d30f508f8c9ae401becf8a746631",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-C01",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-C02",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-D01",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+          "plainLanguageSha256": "bb7608084334c757a665fdad6dcc4316f14185b431e133921c43c56e36ead979",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+          "plainLanguageSha256": "bb7608084334c757a665fdad6dcc4316f14185b431e133921c43c56e36ead979",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+          "plainLanguageSha256": "bb7608084334c757a665fdad6dcc4316f14185b431e133921c43c56e36ead979",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+          "plainLanguageSha256": "bb7608084334c757a665fdad6dcc4316f14185b431e133921c43c56e36ead979",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-D02",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+          "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+          "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+          "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+          "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-D03",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+          "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+          "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+          "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+          "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-D04",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+          "plainLanguageSha256": "7e7e296baa2a4e7ead74a81bd4ea7dfb2b31fabac23ce19e16ffd881efb6833e",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+          "plainLanguageSha256": "7e7e296baa2a4e7ead74a81bd4ea7dfb2b31fabac23ce19e16ffd881efb6833e",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+          "plainLanguageSha256": "7e7e296baa2a4e7ead74a81bd4ea7dfb2b31fabac23ce19e16ffd881efb6833e",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+          "plainLanguageSha256": "7e7e296baa2a4e7ead74a81bd4ea7dfb2b31fabac23ce19e16ffd881efb6833e",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-D05",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "04ca8a61e328226812a0005821bfce03799e14179256786a58688a92e3cb2cdc",
+          "plainLanguageSha256": "81c231aa1f36beb7656caa9ad47b56a058a2122c96668d34c711ca12d996dee7",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "04ca8a61e328226812a0005821bfce03799e14179256786a58688a92e3cb2cdc",
+          "plainLanguageSha256": "81c231aa1f36beb7656caa9ad47b56a058a2122c96668d34c711ca12d996dee7",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "04ca8a61e328226812a0005821bfce03799e14179256786a58688a92e3cb2cdc",
+          "plainLanguageSha256": "81c231aa1f36beb7656caa9ad47b56a058a2122c96668d34c711ca12d996dee7",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "04ca8a61e328226812a0005821bfce03799e14179256786a58688a92e3cb2cdc",
+          "plainLanguageSha256": "81c231aa1f36beb7656caa9ad47b56a058a2122c96668d34c711ca12d996dee7",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-D06",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+          "plainLanguageSha256": "1d53ce6a0cf1c5ebc6e0fe7c1564a5002bd190ddc0f6de11846968b875fcff80",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+          "plainLanguageSha256": "1d53ce6a0cf1c5ebc6e0fe7c1564a5002bd190ddc0f6de11846968b875fcff80",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+          "plainLanguageSha256": "1d53ce6a0cf1c5ebc6e0fe7c1564a5002bd190ddc0f6de11846968b875fcff80",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+          "plainLanguageSha256": "1d53ce6a0cf1c5ebc6e0fe7c1564a5002bd190ddc0f6de11846968b875fcff80",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-D07",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+          "plainLanguageSha256": "5d3eec48abad1726f1fb8bb0668ea574a70cd8dc5de02df96c663b51351b76cf",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+          "plainLanguageSha256": "5d3eec48abad1726f1fb8bb0668ea574a70cd8dc5de02df96c663b51351b76cf",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+          "plainLanguageSha256": "5d3eec48abad1726f1fb8bb0668ea574a70cd8dc5de02df96c663b51351b76cf",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+          "plainLanguageSha256": "5d3eec48abad1726f1fb8bb0668ea574a70cd8dc5de02df96c663b51351b76cf",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-D08",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "5a7ad5b619436603525e7f1e74fc2343bc03f90fad34189f26eae92447acb2df",
+          "plainLanguageSha256": "843e13e4db95ca3fdad9486ffcab38295286df94b62d5af85a9f08749d3c5494",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "5a7ad5b619436603525e7f1e74fc2343bc03f90fad34189f26eae92447acb2df",
+          "plainLanguageSha256": "843e13e4db95ca3fdad9486ffcab38295286df94b62d5af85a9f08749d3c5494",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "5a7ad5b619436603525e7f1e74fc2343bc03f90fad34189f26eae92447acb2df",
+          "plainLanguageSha256": "843e13e4db95ca3fdad9486ffcab38295286df94b62d5af85a9f08749d3c5494",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "5a7ad5b619436603525e7f1e74fc2343bc03f90fad34189f26eae92447acb2df",
+          "plainLanguageSha256": "843e13e4db95ca3fdad9486ffcab38295286df94b62d5af85a9f08749d3c5494",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-D09",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+          "plainLanguageSha256": "714e8089403fe8d565914e8fa98f6afd5a55c94affe8a74a6ce3b06cff247df0",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+          "plainLanguageSha256": "714e8089403fe8d565914e8fa98f6afd5a55c94affe8a74a6ce3b06cff247df0",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+          "plainLanguageSha256": "714e8089403fe8d565914e8fa98f6afd5a55c94affe8a74a6ce3b06cff247df0",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+          "plainLanguageSha256": "714e8089403fe8d565914e8fa98f6afd5a55c94affe8a74a6ce3b06cff247df0",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E101",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "6e5026aded12cefd64ff7783918de69484dafa7f58256cd42c3dbe1e2331d863",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "6e5026aded12cefd64ff7783918de69484dafa7f58256cd42c3dbe1e2331d863",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "6e5026aded12cefd64ff7783918de69484dafa7f58256cd42c3dbe1e2331d863",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "6e5026aded12cefd64ff7783918de69484dafa7f58256cd42c3dbe1e2331d863",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E102",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "c2616dfafa725b7412a9a76c158bb59f7341769daf66046e83e1ce16d506b3da",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "c2616dfafa725b7412a9a76c158bb59f7341769daf66046e83e1ce16d506b3da",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "c2616dfafa725b7412a9a76c158bb59f7341769daf66046e83e1ce16d506b3da",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "c2616dfafa725b7412a9a76c158bb59f7341769daf66046e83e1ce16d506b3da",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E103",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "51f75ae6d009c96fb0daf16265b444539a7ddf2fe44963394b67c0b6e150512f",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "51f75ae6d009c96fb0daf16265b444539a7ddf2fe44963394b67c0b6e150512f",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "51f75ae6d009c96fb0daf16265b444539a7ddf2fe44963394b67c0b6e150512f",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "51f75ae6d009c96fb0daf16265b444539a7ddf2fe44963394b67c0b6e150512f",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E104",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "955549d6029d63ef81293ad86820a3f186f5bb673ae445af810af1024d26a4da",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "955549d6029d63ef81293ad86820a3f186f5bb673ae445af810af1024d26a4da",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "955549d6029d63ef81293ad86820a3f186f5bb673ae445af810af1024d26a4da",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "955549d6029d63ef81293ad86820a3f186f5bb673ae445af810af1024d26a4da",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E105",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "883ffca7833986de560e9cb3716f602ee72f59dcd802b5afb290127e4810f5f1",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "883ffca7833986de560e9cb3716f602ee72f59dcd802b5afb290127e4810f5f1",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "883ffca7833986de560e9cb3716f602ee72f59dcd802b5afb290127e4810f5f1",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "883ffca7833986de560e9cb3716f602ee72f59dcd802b5afb290127e4810f5f1",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E106",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7633693ed4cec59d38e95f9899061fd86b7af01b708ca12160015054134160ae",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "7633693ed4cec59d38e95f9899061fd86b7af01b708ca12160015054134160ae",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7633693ed4cec59d38e95f9899061fd86b7af01b708ca12160015054134160ae",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "7633693ed4cec59d38e95f9899061fd86b7af01b708ca12160015054134160ae",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E107",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "c2bddc061d888f1845bd293111a29faffeef186743ecaec0f9f89ee8478187d5",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "c2bddc061d888f1845bd293111a29faffeef186743ecaec0f9f89ee8478187d5",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "c2bddc061d888f1845bd293111a29faffeef186743ecaec0f9f89ee8478187d5",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "c2bddc061d888f1845bd293111a29faffeef186743ecaec0f9f89ee8478187d5",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E108",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "23420c2fb047bbc2adfa5258dbbc4ee471ab039010e751f90988b33b3ebfd597",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "23420c2fb047bbc2adfa5258dbbc4ee471ab039010e751f90988b33b3ebfd597",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "23420c2fb047bbc2adfa5258dbbc4ee471ab039010e751f90988b33b3ebfd597",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "23420c2fb047bbc2adfa5258dbbc4ee471ab039010e751f90988b33b3ebfd597",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E109",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "43ccd6ad2d0e88ebb9b3cd0d10807bae954f2b8d9e3a73123f574ff47231a042",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "43ccd6ad2d0e88ebb9b3cd0d10807bae954f2b8d9e3a73123f574ff47231a042",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "43ccd6ad2d0e88ebb9b3cd0d10807bae954f2b8d9e3a73123f574ff47231a042",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "43ccd6ad2d0e88ebb9b3cd0d10807bae954f2b8d9e3a73123f574ff47231a042",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E110",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "394e8c9db44b72de50df118f652e2017540aff1796075645a82b4a3935778cc0",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "394e8c9db44b72de50df118f652e2017540aff1796075645a82b4a3935778cc0",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "394e8c9db44b72de50df118f652e2017540aff1796075645a82b4a3935778cc0",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "394e8c9db44b72de50df118f652e2017540aff1796075645a82b4a3935778cc0",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E111",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "1719759f55e292b30be78a9e7c166ca32109f908305c4a4c2b69682a5613cfb7",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "1719759f55e292b30be78a9e7c166ca32109f908305c4a4c2b69682a5613cfb7",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "1719759f55e292b30be78a9e7c166ca32109f908305c4a4c2b69682a5613cfb7",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "1719759f55e292b30be78a9e7c166ca32109f908305c4a4c2b69682a5613cfb7",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E112",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "2506819662d707a9558304f15c9d8048fdd288e583138e1de95dea5c8eaf373d",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "2506819662d707a9558304f15c9d8048fdd288e583138e1de95dea5c8eaf373d",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "2506819662d707a9558304f15c9d8048fdd288e583138e1de95dea5c8eaf373d",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "2506819662d707a9558304f15c9d8048fdd288e583138e1de95dea5c8eaf373d",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E113",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "59ede6c449dd71931bf33e4fa4ffc9c570cce9821563fb7900690a94582e132a",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "59ede6c449dd71931bf33e4fa4ffc9c570cce9821563fb7900690a94582e132a",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "59ede6c449dd71931bf33e4fa4ffc9c570cce9821563fb7900690a94582e132a",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "59ede6c449dd71931bf33e4fa4ffc9c570cce9821563fb7900690a94582e132a",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E114",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "76388e74e1ab2c455f512d72fc74a512ad85ca55f0bedfe702682d466b553858",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "76388e74e1ab2c455f512d72fc74a512ad85ca55f0bedfe702682d466b553858",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "76388e74e1ab2c455f512d72fc74a512ad85ca55f0bedfe702682d466b553858",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "76388e74e1ab2c455f512d72fc74a512ad85ca55f0bedfe702682d466b553858",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E115",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "481e5836d2fdb48f81081b6f41966ac8222e5cd66d159a86941a020cdbf1ed0c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "481e5836d2fdb48f81081b6f41966ac8222e5cd66d159a86941a020cdbf1ed0c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "481e5836d2fdb48f81081b6f41966ac8222e5cd66d159a86941a020cdbf1ed0c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "481e5836d2fdb48f81081b6f41966ac8222e5cd66d159a86941a020cdbf1ed0c",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E116",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "a0ed01277b545dd0a1c04f7175ac1602d06bccf4a89c88caf2a7b5b05f7fad2d",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "a0ed01277b545dd0a1c04f7175ac1602d06bccf4a89c88caf2a7b5b05f7fad2d",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "a0ed01277b545dd0a1c04f7175ac1602d06bccf4a89c88caf2a7b5b05f7fad2d",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "a0ed01277b545dd0a1c04f7175ac1602d06bccf4a89c88caf2a7b5b05f7fad2d",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E117",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "373dfc86c0159668786044b699c8b819475f21b1d6fee10f7807704e478c7ac9",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "373dfc86c0159668786044b699c8b819475f21b1d6fee10f7807704e478c7ac9",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "373dfc86c0159668786044b699c8b819475f21b1d6fee10f7807704e478c7ac9",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "373dfc86c0159668786044b699c8b819475f21b1d6fee10f7807704e478c7ac9",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E118",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "759b1c2c8c83191582e678f6f6579551787f25135ba26dc5f5bffcb011fb9a14",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "759b1c2c8c83191582e678f6f6579551787f25135ba26dc5f5bffcb011fb9a14",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "759b1c2c8c83191582e678f6f6579551787f25135ba26dc5f5bffcb011fb9a14",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "759b1c2c8c83191582e678f6f6579551787f25135ba26dc5f5bffcb011fb9a14",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E119",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "0cddd2119a4c92ad5a613d98eeb222908ed65a5fe24a5a30df77a4ec6cd9c4a9",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "0cddd2119a4c92ad5a613d98eeb222908ed65a5fe24a5a30df77a4ec6cd9c4a9",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "0cddd2119a4c92ad5a613d98eeb222908ed65a5fe24a5a30df77a4ec6cd9c4a9",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "0cddd2119a4c92ad5a613d98eeb222908ed65a5fe24a5a30df77a4ec6cd9c4a9",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E120",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "cbca8be052ee5b9c1fc7ea583568094ad2b1a41280b69c76304ef1b20a449ec2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "cbca8be052ee5b9c1fc7ea583568094ad2b1a41280b69c76304ef1b20a449ec2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "cbca8be052ee5b9c1fc7ea583568094ad2b1a41280b69c76304ef1b20a449ec2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "cbca8be052ee5b9c1fc7ea583568094ad2b1a41280b69c76304ef1b20a449ec2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E121",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "b19e9ab0abf8125959d8e65011e5c6c3b2cb5548c5e96c21737abf460de35f0f",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "b19e9ab0abf8125959d8e65011e5c6c3b2cb5548c5e96c21737abf460de35f0f",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "b19e9ab0abf8125959d8e65011e5c6c3b2cb5548c5e96c21737abf460de35f0f",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "b19e9ab0abf8125959d8e65011e5c6c3b2cb5548c5e96c21737abf460de35f0f",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-E122",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "fcc787d15264d05b59821361b5169de45d446d32c010c9fb1a7bb5ef56d1e896",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "fcc787d15264d05b59821361b5169de45d446d32c010c9fb1a7bb5ef56d1e896",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "fcc787d15264d05b59821361b5169de45d446d32c010c9fb1a7bb5ef56d1e896",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "fcc787d15264d05b59821361b5169de45d446d32c010c9fb1a7bb5ef56d1e896",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-O101",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "664f567e0117075fe1f8bf038367bb154062a156ca633b0a60cce58cd1fb9534",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "664f567e0117075fe1f8bf038367bb154062a156ca633b0a60cce58cd1fb9534",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "664f567e0117075fe1f8bf038367bb154062a156ca633b0a60cce58cd1fb9534",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "664f567e0117075fe1f8bf038367bb154062a156ca633b0a60cce58cd1fb9534",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-O102",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "84616943eca6e9b6f74ea5107d5dc25f0b9b814b573d966278fd3bf282dbefe3",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "84616943eca6e9b6f74ea5107d5dc25f0b9b814b573d966278fd3bf282dbefe3",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "84616943eca6e9b6f74ea5107d5dc25f0b9b814b573d966278fd3bf282dbefe3",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "84616943eca6e9b6f74ea5107d5dc25f0b9b814b573d966278fd3bf282dbefe3",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-O103",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "6b84829c2ce574a6331f4e4fcf2426e1a28c50dfcbd84742c867f7d00423d02b",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "6b84829c2ce574a6331f4e4fcf2426e1a28c50dfcbd84742c867f7d00423d02b",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "6b84829c2ce574a6331f4e4fcf2426e1a28c50dfcbd84742c867f7d00423d02b",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "6b84829c2ce574a6331f4e4fcf2426e1a28c50dfcbd84742c867f7d00423d02b",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-O104",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7a7a003d5aeeb0bd7045f3ad47ee7cf603b3d81cafdd6c6569a549cb67d26d76",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "7a7a003d5aeeb0bd7045f3ad47ee7cf603b3d81cafdd6c6569a549cb67d26d76",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "7a7a003d5aeeb0bd7045f3ad47ee7cf603b3d81cafdd6c6569a549cb67d26d76",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "7a7a003d5aeeb0bd7045f3ad47ee7cf603b3d81cafdd6c6569a549cb67d26d76",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-O105",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "ac34d7190d660d6d722b5f78744321355502545ef33711d5c0cb29ffee3ee321",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "ac34d7190d660d6d722b5f78744321355502545ef33711d5c0cb29ffee3ee321",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "ac34d7190d660d6d722b5f78744321355502545ef33711d5c0cb29ffee3ee321",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "ac34d7190d660d6d722b5f78744321355502545ef33711d5c0cb29ffee3ee321",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-O106",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "a7f176c70ead5bf65304d407489048840d5ba6f5df6d990b4037fbf6ac50a5b2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "a7f176c70ead5bf65304d407489048840d5ba6f5df6d990b4037fbf6ac50a5b2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "a7f176c70ead5bf65304d407489048840d5ba6f5df6d990b4037fbf6ac50a5b2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "a7f176c70ead5bf65304d407489048840d5ba6f5df6d990b4037fbf6ac50a5b2",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-O107",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "47df8d28a947f706936ac0046d20a36a1617c3b54b0e591386dbfdbe1f84e223",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "47df8d28a947f706936ac0046d20a36a1617c3b54b0e591386dbfdbe1f84e223",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "47df8d28a947f706936ac0046d20a36a1617c3b54b0e591386dbfdbe1f84e223",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "47df8d28a947f706936ac0046d20a36a1617c3b54b0e591386dbfdbe1f84e223",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    },
+    {
+      "entryId": "UT-O108",
+      "changedFields": [
+        "publicationState",
+        "publishedAt",
+        "rightsRef"
+      ],
+      "sourceReadsUnchanged": true,
+      "renderingUnchanged": true,
+      "priorRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "e680b8644638ada73a6b2c2d5f06fbeed20357284606924bb7ce6c747bf31b0e",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "e680b8644638ada73a6b2c2d5f06fbeed20357284606924bb7ce6c747bf31b0e",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ],
+      "currentRenderedBodies": [
+        {
+          "base": "/",
+          "sha256": "e680b8644638ada73a6b2c2d5f06fbeed20357284606924bb7ce6c747bf31b0e",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        },
+        {
+          "base": "/unity-theory/",
+          "sha256": "e680b8644638ada73a6b2c2d5f06fbeed20357284606924bb7ce6c747bf31b0e",
+          "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceProjectionSha256": null
+        }
+      ]
+    }
+  ]
+}

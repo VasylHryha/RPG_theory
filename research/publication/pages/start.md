@@ -9,8 +9,8 @@
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
-  "publicationState": "draft",
-  "publishedAt": null,
+  "publicationState": "published",
+  "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CATALOGUE",
@@ -51,7 +51,7 @@
   "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion. Core §§1–11; world §§2–10 and background addendum; framework §§1–3, 7–8, 11, 15, 21–24; current evidence catalogue E18–E19 and its scope conventions; current audit/status and claim coverage H06, H12–H13, O1–O4, O7. Water is a supplementary illustration, not a source-reported RRG result.",
   "adapter": "markdown/1",
   "limits": "",
-  "rightsRef": null
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
 ## A pattern and its parts

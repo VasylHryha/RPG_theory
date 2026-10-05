@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "schema": "official CFF 1.2.0 preserved versioned schema",
+  "schemaSha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
+  "artifacts": [
+    {
+      "base": "root",
+      "sha256": "4132fad0838c954457081a24e35db6ccb382b9cfae53e8966d5cff0040dede83",
+      "status": "PASS"
+    },
+    {
+      "base": "target",
+      "sha256": "4132fad0838c954457081a24e35db6ccb382b9cfae53e8966d5cff0040dede83",
+      "status": "PASS"
+    }
+  ],
+  "firstAttempt": "Python YAML date object rejected; schema instructs date-to-string conversion; no CFF repair"
+}

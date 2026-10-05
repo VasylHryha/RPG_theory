@@ -1,0 +1,14 @@
+/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:54
+    if(!existsSync(join(root,path.slice(1))) || !readFileSync(join(root,path.slice(1))).equals(expected))throw new ContractError('EXPORT_PARITY_FAILURE',path);
+                                                                                                               ^
+
+ContractError: EXPORT_PARITY_FAILURE: /downloads/release.json
+    at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:54:112)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:222:19)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'EXPORT_PARITY_FAILURE'
+}
+
+Node.js v24.18.0

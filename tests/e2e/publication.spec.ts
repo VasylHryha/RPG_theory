@@ -7,16 +7,16 @@ const base=process.env.UNITY_TEST_BASE ?? '/',suffix=base==='/'?'root':'subpath'
 
 test('M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing',async({browser})=>{
  const context=await browser.newContext({javaScriptEnabled:false,acceptDownloads:true}),page=await context.newPage();
- const info=JSON.parse(readFileSync(`${process.env.UNITY_TEST_OUTPUT}/build-info.json`,'utf8')),s=publicationFor('preview',info.config),a=publicationAssets(s,info.config);
+ const info=JSON.parse(readFileSync(`${process.env.UNITY_TEST_OUTPUT}/build-info.json`,'utf8')),s=publicationFor(info.mode,info.config),a=publicationAssets(s,info.config);
  await page.goto(base+'articles/');await expect(page.locator('[data-article-index] h2')).toHaveCount(2);
  await page.locator('[data-article-index]').getByRole('link',{name:'When can a whole be treated as one useful unit?',exact:true}).click();
  await expect(page.locator('[data-canonical-body]')).toContainText('No new result is derived or reproduced here.');
  await page.goto(base+'documents/');for(const name of ['Start','Framework','Mathematics / Results','Research Questions','Historical Sources'])await expect(page.locator('[data-document-library]').getByRole('heading',{name,exact:true})).toBeVisible();
- await page.goto(base+'cite/');await expect(page.locator('[data-citation]')).toContainText('Dirty; the commit alone does not describe this build.');await expect(page.locator('[data-citation]')).toContainText('CITATION.cff: inactive');
- const [download]=await Promise.all([page.waitForEvent('download'),page.getByRole('link',{name:'Private preview publication ZIP',exact:true}).click()]);
+ await page.goto(base+'cite/');await expect(page.locator('[data-citation]')).toContainText('Dirty; the commit alone does not describe this build.');await expect(page.locator('[data-citation] a[href$="CITATION.cff"]')).toBeVisible();
+ const [download]=await Promise.all([page.waitForEvent('download'),page.getByRole('link',{name:info.mode==='preview'?'Private preview publication ZIP':'Selected publication ZIP',exact:true}).click()]);
  const dest=`${evidence}/${suffix}-download.zip`;await download.saveAs(dest);const raw=readFileSync(dest);expect(raw.equals(a.files.get(a.zipPath)!)).toBe(true);const members=verifyArchive(raw);expect(members.size).toBe(a.members.size);
  const rss=await page.request.get(base+'rss.xml');expect(rss.status()).toBe(200);expect(await rss.text()).toBe(rssXML(s,info.config));
- const parsed=await page.evaluate(xml=>{const doc=new DOMParser().parseFromString(xml,'application/xml');return {errors:doc.querySelectorAll('parsererror').length,items:doc.querySelectorAll('item').length,title:doc.querySelector('channel > title')?.textContent};},await rss.text());expect(parsed).toEqual({errors:0,items:0,title:'Unity Theory / RRG'});
+ const parsed=await page.evaluate(xml=>{const doc=new DOMParser().parseFromString(xml,'application/xml');return {errors:doc.querySelectorAll('parsererror').length,items:doc.querySelectorAll('item').length,title:doc.querySelector('channel > title')?.textContent};},await rss.text());expect(parsed).toEqual({errors:0,items:s.manifest.feedIds.length,title:'Unity Theory / RRG'});
  writeFileSync(`${evidence}/${suffix}-download-check.json`,JSON.stringify({status:'PASS',members:members.size,zipBytes:raw.length,rss:parsed,sourceCommit:a.identity.sourceCommit,workspaceDirty:a.identity.workspaceDirty},null,2));
  await context.close();
 });

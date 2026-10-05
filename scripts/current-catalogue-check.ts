@@ -41,7 +41,8 @@ export function validateCurrentCatalogue(corpus: Corpus, register: Register, cat
     const entry = [...corpus.entries.values()].find(e => e.route === label.route) ?? fail(`Wrong document or edition: ${label.label}`);
     if (!source || source.edition !== label.edition || entry.sourceBinding?.sourceKey !== label.sourceKey) fail(`Wrong document or edition: ${label.label}`);
     if (!label.meaning.trim() || !html.text().includes(label.meaning)) fail(`Missing displayed meaning: ${label.label}`);
-    if (!html('a').toArray().some(el => html(el).attr('href') === label.route + (label.fragment ? '#' + label.fragment : ''))) fail(`Missing displayed label destination: ${label.label}`);
+    const excludedHistory=entry.publicationState==='archived' && html.text().includes(label.meaning+' (historical reading excluded from this edition)');
+    if (!excludedHistory && !html('a').toArray().some(el => html(el).attr('href') === label.route + (label.fragment ? '#' + label.fragment : ''))) fail(`Missing displayed label destination: ${label.label}`);
     if (label.fragment) {
       const target = load(renderEntrySync(corpus, entry));
       if (!target('[id]').toArray().some(el => target(el).attr('id') === label.fragment)) fail(`Missing document anchor: ${label.label}`);

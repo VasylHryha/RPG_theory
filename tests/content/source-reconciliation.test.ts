@@ -50,9 +50,9 @@ test('current source downloads preserve exact bytes and correct file types; hist
   assert.match(renderLibrary(selection), /Evidence catalogue/);
   assert.match(renderLibrary(selection), /Historical Sources/);
   assert.doesNotMatch(renderSourceBacklinks(selection), /<h3>[^<]*\.md<\/h3>/);
-  // Fidelity may be completed independently; drafts still cannot enter discovery.
-  assert.deepEqual(selection.manifest.searchIds, []);
-  assert.deepEqual(selection.manifest.sitemapIds, []);
+  // Intended launch discovery is available privately; stale fidelity still blocks release.
+  assert.equal(selection.manifest.searchIds.length, 68);
+  assert.equal(selection.manifest.sitemapIds.length, 68);
   assert.equal(selection.manifest.deployEligible, false);
   assert.equal(corpus.websiteReviews.length, JSON.parse(readFileSync('research/publication/website-reviews.yaml', 'utf8')).length);
 });

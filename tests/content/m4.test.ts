@@ -56,7 +56,7 @@ test('M4 ZIP manifests preserve original bytes and exclude administrative eviden
  assert.match(members.get('README.md')!.toString(),/PRIVATE PREVIEW/);assert.equal(a.identity.workspaceDirty,true);assert.equal(a.identity.commitDescribesInputs,false);
  const corrupted=new Map(members);corrupted.set('explanatory/UT-D01.md',Buffer.from('wrong statement'));assert.throws(()=>verifyArchive(makeZip(corrupted)),/ARCHIVE_HASH_FAILURE/);
  assert.throws(()=>makeZip(new Map([['../history.md',Buffer.from('unapproved')]])),/UNSAFE_ROUTE/);
- assert.equal(members.has('CITATION.cff'),false);
+ assert.equal(members.has('CITATION.cff'),true);
  // Resolve real companion destinations and fragments after conversion.
  const ids=new Map<string,Set<string>>();
  for(const [path,raw] of members)if(path.endsWith('.md')) {
@@ -72,7 +72,7 @@ test('M4 ZIP manifests preserve original bytes and exclude administrative eviden
 });
 test('M4 approved selection filters draft/history/withdrawn downloads and emits dated article RSS at both bases',()=>{
  const {c,r,article,definition}=approvedMechanics();
- const draft=structuredClone(corpus.entries.get('DOC-ARTICLE-STRUCTURES')!);c.entries.set(draft.id,draft);
+ const draft=structuredClone(corpus.entries.get('DOC-ARTICLE-STRUCTURES')!);draft.publicationState='draft';draft.publishedAt=null;c.entries.set(draft.id,draft);
  for(const basePath of ['/','/unity-theory/']) {
   const cfg={...config,basePath},s=selectPublication(c,cfg,r,'qualification');
   for(const ids of [s.manifest.navigationIds,s.manifest.searchIds,s.manifest.sitemapIds,s.manifest.exportIds,s.manifest.feedIds])assert.ok(!ids.includes(draft.id));
@@ -96,8 +96,8 @@ test('M4 duplicate article routes and stale source numbers refuse; document sour
   const after=loadCanonicalCorpus(root).entries.get(before.id)!;assert.equal(after.route,before.route);assert.equal(renderEntrySync(corpus,after),renderEntrySync(corpus,before));
  }finally{rmSync(root,{recursive:true,force:true});}
 });
-test('M4 citation remains inactive for actual missing decisions; prepared CFF uses only supplied approved metadata',()=>{
- const a=publicationAssets(publicationFor('preview',config),config);assert.equal(citationCFF(a.identity),null);assert.deepEqual(citationGates(),['PUBLIC_CREDIT_DECISION_REQUIRED','PERMANENT_URL_REQUIRED','RIGHTS_DECISION_REQUIRED']);
+test('M4 citation uses owner-approved metadata; missing URL still refuses a synthetic CFF',()=>{
+ const a=publicationAssets(publicationFor('preview',config),config);assert.equal(parse(citationCFF(a.identity)!).authors[0].name,'Vasyl Hryha');assert.deepEqual(citationGates(),[]);assert.equal(citationCFF(a.identity,{...publicationCredit(),permanentUrl:null}),null);
  const credit={...publicationCredit(),approvedCredit:{name:'Synthetic organization',evidenceRef:'Synthetic fixture only'},permanentUrl:'https://example.org/research/',rights:{statement:'Synthetic rights only',evidenceRef:'Synthetic fixture'}};
  const cff=parse(citationCFF(a.identity,credit)!);assert.equal(cff.authors[0].name,credit.approvedCredit.name);assert.equal(cff.version,a.identity.websiteRelease);assert.equal(cff.doi,undefined);
 });

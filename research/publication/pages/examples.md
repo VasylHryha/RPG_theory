@@ -9,8 +9,8 @@
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
-  "publicationState": "draft",
-  "publishedAt": null,
+  "publicationState": "published",
+  "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
@@ -35,7 +35,7 @@
   "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Editorial index of six separately mapped illustrations; no additional scientific claim.",
   "adapter": "markdown/1",
   "limits": "",
-  "rightsRef": null
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
 Each example has one job. Begin with something familiar, then ask what the parts are doing, what constrains them, and what the collective description adds. The examples illustrate different aspects of RRG; they are not six demonstrations of one universal mechanism.

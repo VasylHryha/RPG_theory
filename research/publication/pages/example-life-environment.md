@@ -9,8 +9,8 @@
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
-  "publicationState": "draft",
-  "publishedAt": null,
+  "publicationState": "published",
+  "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
@@ -36,7 +36,7 @@
   "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Added beginner photosynthesis illustration mapped to world §10 and background addendum, framework §§8, 13, 21 and core §11. Factual background is supplementary; oxygenation is not certified as a universal RRG ladder.",
   "adapter": "markdown/1",
   "limits": "",
-  "rightsRef": null
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
 ## What to notice

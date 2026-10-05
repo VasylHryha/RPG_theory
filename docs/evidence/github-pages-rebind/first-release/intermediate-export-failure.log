@@ -1,0 +1,46 @@
+✔ M6 intended launch readings enter private discovery; drafts and archives remain excluded and stale reviews refuse qualification (3917.544125ms)
+✔ M6 correction transaction invalidates dependants, requires explicit synthetic rereview and excludes the replaced route (921.690375ms)
+✔ M6 missing search body and misleading scope fail before indexing (641.466625ms)
+✖ M6 stale search identity and added source-map/private assets are refused in the actual artifact auditor (4733.821166ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 3
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11392.782958
+
+✖ failing tests:
+
+test at tests/content/m6.test.ts:1:5667
+✖ M6 stale search identity and added source-map/private assets are refused in the actual artifact auditor (4733.821166ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /UNSAFE_OUTPUT_URL/. Input:
+  
+  'ContractError: EXPORT_PARITY_FAILURE: /downloads/release.json'
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m6.test.ts:74:80)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ContractError: EXPORT_PARITY_FAILURE: /downloads/release.json
+        at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:54:112)
+        at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m6.test.ts:74:91)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m6.test.ts:74:80)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1325:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+        at Test.postRun (node:internal/test_runner/test:1465:19)
+        at Test.run (node:internal/test_runner/test:1390:12),
+    expected: /UNSAFE_OUTPUT_URL/,
+    operator: 'throws',
+    diff: 'simple'
+  }

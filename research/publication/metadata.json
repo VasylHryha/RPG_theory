@@ -1,11 +1,20 @@
 {
   "schema": "unity-credit/1",
   "title": "Unity Theory / RRG",
-  "approvedCredit": null,
-  "permanentUrl": null,
-  "rights": null,
+  "approvedCredit": {
+    "name": "Vasyl Hryha",
+    "evidenceRef": "docs/evidence/research-rights-2033/owner-decision.md"
+  },
+  "permanentUrl": "https://vasylhryha.github.io/RPG_theory/",
+  "rights": {
+    "statement": "Upon the first public website release, Vasyl Hryha's own research prose, original figures and website explanations in that edition are licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/). Effective 1 January 2033 at 00:00 UTC, the same content is additionally licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Existing valid permissions continue. Third-party material retains its own rights. Website code and separately distributed data/evidence are all rights reserved; no additional license is granted for those scopes.",
+    "evidenceRef": "docs/evidence/research-rights-2033/owner-decision.md"
+  },
   "doi": null,
-  "approvedContact": null,
+  "approvedContact": {
+    "url": "mailto:vasylhryha.rpg@gmail.com",
+    "evidenceRef": "docs/evidence/github-pages-rebind/first-release/owner-decisions.md#public-contact"
+  },
   "approvedOrcid": null,
   "approvedRepository": {
     "owner": "VasylHryha",
@@ -14,22 +23,22 @@
   },
   "rightsScopes": {
     "code": {
-      "state": "pending",
-      "evidenceRef": null,
+      "state": "no-additional-license",
+      "evidenceRef": "docs/evidence/github-pages-rebind/first-release/owner-decisions.md",
       "identifier": null,
       "file": null,
       "sha256": null
     },
     "research": {
-      "state": "pending",
-      "evidenceRef": null,
-      "identifier": null,
-      "file": null,
-      "sha256": null
+      "state": "licensed",
+      "evidenceRef": "docs/evidence/research-rights-2033/owner-decision.md",
+      "identifier": "CC BY-NC-SA 4.0; additional CC BY 4.0 effective 2033-01-01T00:00:00Z",
+      "file": "licenses/RESEARCH-CONTENT.md",
+      "sha256": "1c7e6e1d2b3e155805b50bf7a377430d6281fba3a5a91106c3f013ac8833c093"
     },
     "data": {
-      "state": "pending",
-      "evidenceRef": null,
+      "state": "no-additional-license",
+      "evidenceRef": "docs/evidence/github-pages-rebind/first-release/owner-decisions.md",
       "identifier": null,
       "file": null,
       "sha256": null

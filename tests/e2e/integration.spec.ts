@@ -1,16 +1,18 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 const base=process.env.UNITY_TEST_BASE??'/',suffix=base==='/'?'root':'subpath',evidence=process.env.UNITY_EVIDENCE_DIR??'docs/evidence/m6/implementation';
-test('M6 published-only search has an honest empty state, keyboard controls and no-JS browsing',async({browser})=>{
+test('M6 launch search returns real readings with keyboard controls and no-JS browsing',async({browser})=>{
  const context=await browser.newContext({javaScriptEnabled:false}),page=await context.newPage();
- await page.goto(base+'search/');await expect(page.getByText('No readings have been selected for publication yet.',{exact:false})).toBeVisible();
+ await page.goto(base+'search/');await expect(page.locator('[data-search-fallback] li')).toHaveCount(68);
  await page.locator('[data-search-fallback]').getByRole('link',{name:'concepts',exact:true}).click();await expect(page.locator('h1')).toContainText('concepts');await context.close();
  const js=await browser.newPage(),requests:string[]=[];js.on('request',r=>requests.push(r.url()));
  await js.goto(base);expect(requests.some(r=>r.includes('pagefind') || r.includes('search-client'))).toBe(false);
  await js.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Search',exact:true}).click();
  await js.locator('#search-query').focus();await js.keyboard.press('Enter');await expect(js.getByRole('status')).toContainText('Enter a word');
- await js.locator('#search-query').fill('geometry');await js.keyboard.press('Enter');await expect(js.getByRole('status')).toContainText('No published readings');
- expect(requests.some(r=>r.includes('pagefind/'))).toBe(false);await js.close();
+ await js.locator('#search-query').fill('geometry');await js.keyboard.press('Enter');await expect(js.locator('#search-results li').first()).toBeVisible();
+ const href=await js.locator('#search-results a').first().getAttribute('href');expect(href).toContain(base);
+ await js.locator('#search-results a').first().click();await expect(js.locator('[data-canonical-body]')).toBeVisible();
+ expect(requests.some(r=>r.includes('pagefind/'))).toBe(true);await js.close();
 });
 for(const width of [320,375,768,1280])test(`M6 representative layouts pass reflow and WCAG axe at ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:900});

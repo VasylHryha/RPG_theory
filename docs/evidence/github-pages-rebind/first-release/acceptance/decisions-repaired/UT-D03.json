@@ -1,0 +1,99 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D03",
+  "fingerprint": "3ab974ff35ddcd8c606ad41e1385996caff4b688792c88035cab76b365e670a0",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T20:11:05.593Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D03.json, SHA-256 4c666222bb89493ad9a289de7579e1e89bcd0adc3025ff1b2ad3d1df8cdb2d17, remains preserved.",
+  "inputs": {
+    "fingerprint": "3ab974ff35ddcd8c606ad41e1385996caff4b688792c88035cab76b365e670a0",
+    "ownRead": {
+      "id": "UT-D03",
+      "route": "/claims/UT-D03/",
+      "title": "Resonant geometry",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 3,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 26,
+        "endLine": 43,
+        "excerptSha256": "f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1"
+      },
+      "statement": "## 3. Resonant geometry \\(R\\)\n\nThe basic RRG object is:\n\n\\[\n\\boxed{R=(G,M)}.\n\\]\n\nGeometry and mode structure are inseparable aspects of one organized system:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\n- Geometry constrains/supports which modes can exist.\n- The active mode structure supports, maintains, transforms, or destroys the geometry.\n\nNeither side is defined as universally \"first\".\n",
+      "plainLanguage": "RRG considers organization and mode structure together. Each constrains or changes the other.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+        "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+        "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D03.json, SHA-256 4c666222bb89493ad9a289de7579e1e89bcd0adc3025ff1b2ad3d1df8cdb2d17, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D03.json, SHA-256 4c666222bb89493ad9a289de7579e1e89bcd0adc3025ff1b2ad3d1df8cdb2d17, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: A locked RRG meaning; a definition is not an experimental finding. No new experimental inputs, causal stages or equation-family requirement was introduced. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D03.json, SHA-256 4c666222bb89493ad9a289de7579e1e89bcd0adc3025ff1b2ad3d1df8cdb2d17, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "hypotheses": "Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Scientific role definition, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D03.json, SHA-256 4c666222bb89493ad9a289de7579e1e89bcd0adc3025ff1b2ad3d1df8cdb2d17, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "evidenceDescriptions": "Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D03.json, SHA-256 4c666222bb89493ad9a289de7579e1e89bcd0adc3025ff1b2ad3d1df8cdb2d17, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "openQuestions": "Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D03.json, SHA-256 4c666222bb89493ad9a289de7579e1e89bcd0adc3025ff1b2ad3d1df8cdb2d17, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. 00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID. No personal identity, rights, author-public-wording or release authorization is inferred. Current review: The owner-approved author, dedicated project contact and citation URL are recorded; source-role, edition and supplementary attribution remain unchanged. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D03.json, SHA-256 4c666222bb89493ad9a289de7579e1e89bcd0adc3025ff1b2ad3d1df8cdb2d17, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D03.json. Retained semantic finding: Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D03.json, SHA-256 4c666222bb89493ad9a289de7579e1e89bcd0adc3025ff1b2ad3d1df8cdb2d17, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open."
+  }
+}

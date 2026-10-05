@@ -1,0 +1,74 @@
+✔ M4 explanatory exports mirror canonical parsed statements, retain adapters and have usable destinations at both bases (8238.75425ms)
+✔ M4 ZIP manifests preserve original bytes and exclude administrative evidence/history; tampered members fail (3070.063209ms)
+✔ M4 approved selection filters draft/history/withdrawn downloads and emits dated article RSS at both bases (760.924458ms)
+✔ M4 duplicate article routes and stale source numbers refuse; document source rename does not rename its route (1227.24825ms)
+✔ M4 citation uses owner-approved metadata; missing URL still refuses a synthetic CFF (2061.551ms)
+✔ M4 print CSS admits page layout and literal citation targets while refusing resource-bearing attr forms (0.510708ms)
+✔ M5 owner credit and dated research grant reach every rights surface while code and data remain reserved (20.871708ms)
+✔ M5 explicit synthetic credit drives About/footer/CFF without inferred contact or identity (2.129583ms)
+✔ M5 deployment rejects PR, fixture host, unapproved target, missing identity and pending scoped rights with named reasons (3.496583ms)
+✔ M5 scoped license declarations bind exact files; no additional license state cannot imply a grant (3.221667ms)
+✔ M5 targeted legal-copy control flags the faux any-use royalty claim; a parser never certifies legal wording (0.917791ms)
+✔ M5 actual workflow is read-only for PRs and manual artifact-bound for deploy; privileged PR mutation refuses (36.91675ms)
+✔ M5 public repository screen refuses private/history paths and reports secret locations without values (1.234125ms)
+✔ M5 ZIP carries the selected research grant and exact renderer notice without administrative material (2669.232125ms)
+✔ selected current cases use their actual inventory; document-scoped C1 and E labels retain distinct meanings (2777.766708ms)
+✔ adapted check exposes duplicate cases/DOIs, unknown claims and incomplete selected inventory (7138.071333ms)
+✔ adapted check rejects label collisions, wrong editions and case-to-paper substitutions (2468.755125ms)
+✔ version/access links retain every BIB target without displaying independent duplicate publications (814.349875ms)
+✔ a displayed alternate is bound to its parent user review and remains local to that publication (2.609709ms)
+✖ HTML, explanatory downloads and ZIP preserve scoped findings and original bytes at both bases (2554.744209ms)
+✔ document links, reference-style links and case sections resolve to real HTML at both bases (292.585875ms)
+✖ current source downloads preserve exact bytes and correct file types; historical drafts stay outside exports and navigation (3048.6135ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 20
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17460.621125
+
+✖ failing tests:
+
+test at tests/content/source-link-r2.test.ts:1:5020
+✖ HTML, explanatory downloads and ZIP preserve scoped findings and original bytes at both bases (2554.744209ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  68 !== 75
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/source-link-r2.test.ts:78:66)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 68,
+    expected: 75,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/content/source-reconciliation.test.ts:1:2036
+✖ current source downloads preserve exact bytes and correct file types; historical drafts stay outside exports and navigation (3048.6135ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  68 !== 75
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/source-reconciliation.test.ts:54:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 68,
+    expected: 75,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

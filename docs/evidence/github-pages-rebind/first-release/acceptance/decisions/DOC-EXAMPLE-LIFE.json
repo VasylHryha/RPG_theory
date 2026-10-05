@@ -1,0 +1,134 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-LIFE",
+  "fingerprint": "ae0530cc55de94994b497e74948a7dae6fd5ea744598feec84adad23ec59107c",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T20:06:37.121Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared world §10/background addendum, framework §§8/13/21 and core §11. Photosynthesis/oxygen history is identified as an added supplementary illustration, not a core case. Accumulation and complexity are conditional; low-oxygen organisms, consumption/resources/history and unresolved universal extension remain explicit. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-LIFE.json, SHA-256 b8acdcb955bcd86adb4c8e632bf74fcc45bc566075391ea5e3aba5a474c1b470, remains preserved.",
+  "inputs": {
+    "fingerprint": "ae0530cc55de94994b497e74948a7dae6fd5ea744598feec84adad23ec59107c",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-LIFE",
+      "route": "/examples/life-environment/",
+      "title": "Life changes its environment",
+      "description": "An organization can alter conditions for other organisms and reactions.",
+      "revision": 2,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-C02",
+        "UT-D01",
+        "UT-D02"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0062",
+        "BIB-0064"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What to notice\n\nOxygen-producing photosynthesis converts light energy into chemical energy and releases oxygen. Plants, algae and cyanobacteria participate in this process; [OpenStax's photosynthesis overview](/references/#BIB-0062) explains the basic biology. Earth's atmosphere has not always had its present oxygen composition. NASA's report on early oxygen evidence is supplementary historical context: [NASA's oxygen-history report](/references/#BIB-0064).\n\n## What this illustrates\n\nLiving systems do more than occupy their surroundings. Their activity can change chemical conditions, making some processes more accessible and others less so. Oxygen can support organisms using it in respiration, while changing the conditions faced by organisms adapted to low-oxygen settings.\n\nThe original world explanation describes specialized biological environments and a wider landscape of reachable organizations. This page uses photosynthesis as an added beginner illustration of that environmental question; it is not presented as a named example from the locked core.\n\n## Conditions, rather than a guaranteed ladder\n\nOxygen production does not by itself guarantee atmospheric accumulation or inevitable greater complexity. Chemical consumption, resources, exchanges and history matter. There is no purpose-driven guarantee of a next level, and this page does not infer a single cause for the emergence of complex life.\n\nThe broad environmental interpretation is an [open extension](/claims/UT-C02/). A [cell](/examples/cell/) lets us examine maintained organization and exchange at a smaller scale.\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Added beginner photosynthesis illustration mapped to world §10 and background addendum, framework §§8, 13, 21 and core §11. Factual background is supplementary; oxygenation is not certified as a universal RRG ladder.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "f6bea956a0abd13bef21e484914ccbaa42ed74a69c316688643047976fd651f2"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "1433ad797d4d9b01d87fc4ae4ed04c78108ef360c8fbee7769d27683c552a312",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "5d302ab140216cd9113711fef7910e7a6f5a69198b65f707eefbbc4812e515d2",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared world §10/background addendum, framework §§8/13/21 and core §11. Photosynthesis/oxygen history is identified as an added supplementary illustration, not a core case. Accumulation and complexity are conditional; low-oxygen organisms, consumption/resources/history and unresolved universal extension remain explicit. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-LIFE.json, SHA-256 b8acdcb955bcd86adb4c8e632bf74fcc45bc566075391ea5e3aba5a474c1b470, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared world §10/background addendum, framework §§8/13/21 and core §11. Photosynthesis/oxygen history is identified as an added supplementary illustration, not a core case. Accumulation and complexity are conditional; low-oxygen organisms, consumption/resources/history and unresolved universal extension remain explicit. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-LIFE.json, SHA-256 b8acdcb955bcd86adb4c8e632bf74fcc45bc566075391ea5e3aba5a474c1b470, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: An illustrative beginner explanation mapped to the original supplied RRG documents. No new experimental inputs, causal stages or equation-family requirement was introduced. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-LIFE.json, SHA-256 b8acdcb955bcd86adb4c8e632bf74fcc45bc566075391ea5e3aba5a474c1b470, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "hypotheses": "Compared world §10/background addendum, framework §§8/13/21 and core §11. Photosynthesis/oxygen history is identified as an added supplementary illustration, not a core case. Accumulation and complexity are conditional; low-oxygen organisms, consumption/resources/history and unresolved universal extension remain explicit. Scientific role example, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-LIFE.json, SHA-256 b8acdcb955bcd86adb4c8e632bf74fcc45bc566075391ea5e3aba5a474c1b470, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "evidenceDescriptions": "Compared world §10/background addendum, framework §§8/13/21 and core §11. Photosynthesis/oxygen history is identified as an added supplementary illustration, not a core case. Accumulation and complexity are conditional; low-oxygen organisms, consumption/resources/history and unresolved universal extension remain explicit. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-LIFE.json, SHA-256 b8acdcb955bcd86adb4c8e632bf74fcc45bc566075391ea5e3aba5a474c1b470, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "openQuestions": "Compared world §10/background addendum, framework §§8/13/21 and core §11. Photosynthesis/oxygen history is identified as an added supplementary illustration, not a core case. Accumulation and complexity are conditional; low-oxygen organisms, consumption/resources/history and unresolved universal extension remain explicit. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-LIFE.json, SHA-256 b8acdcb955bcd86adb4c8e632bf74fcc45bc566075391ea5e3aba5a474c1b470, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Added beginner photosynthesis illustration mapped to world §10 and background addendum, framework §§8, 13, 21 and core §11. Factual background is supplementary; oxygenation is not certified as a universal RRG ladder. No personal identity, rights, author-public-wording or release authorization is inferred. Current review: The owner-approved author, dedicated project contact and citation URL are recorded; source-role, edition and supplementary attribution remain unchanged. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-LIFE.json, SHA-256 b8acdcb955bcd86adb4c8e632bf74fcc45bc566075391ea5e3aba5a474c1b470, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/DOC-EXAMPLE-LIFE.json. Retained semantic finding: Compared world §10/background addendum, framework §§8/13/21 and core §11. Photosynthesis/oxygen history is identified as an added supplementary illustration, not a core case. Accumulation and complexity are conditional; low-oxygen organisms, consumption/resources/history and unresolved universal extension remain explicit. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-LIFE.json, SHA-256 b8acdcb955bcd86adb4c8e632bf74fcc45bc566075391ea5e3aba5a474c1b470, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open."
+  }
+}

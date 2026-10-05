@@ -1,0 +1,15 @@
+/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:83
+    if (!existsSync(target) || !statSync(target).isFile()) throw new ContractError('BROKEN_OUTPUT_LINK', `${from}: ${href}`);
+                                                                 ^
+
+ContractError: BROKEN_OUTPUT_LINK: /evidence/source-links/: /evidence/additional/#e01--he-et-al-2019
+    at targetOf (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:83:66)
+    at auditOutput (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:198:18)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:222:19)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'BROKEN_OUTPUT_LINK'
+}
+
+Node.js v24.18.0

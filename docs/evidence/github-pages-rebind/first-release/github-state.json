@@ -1,0 +1,45 @@
+{
+  "schema": "unity-github-read-only-state/1",
+  "observedAt": "2026-10-05T19:40:24.464Z",
+  "remoteMutation": false,
+  "observations": {
+    "repository": {
+      "exitCode": 0,
+      "response": {
+        "full_name": "VasylHryha/RPG_theory",
+        "private": false,
+        "default_branch": "main",
+        "has_pages": false,
+        "permissions": {
+          "admin": true,
+          "maintain": true,
+          "push": true,
+          "triage": true,
+          "pull": true
+        }
+      }
+    },
+    "pages": {
+      "exitCode": 1,
+      "response": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site",
+        "status": "404"
+      }
+    },
+    "environments": {
+      "exitCode": 0,
+      "response": {
+        "total_count": 0,
+        "environments": []
+      }
+    },
+    "variables": {
+      "exitCode": 0,
+      "response": {
+        "variables": [],
+        "total_count": 0
+      }
+    }
+  }
+}

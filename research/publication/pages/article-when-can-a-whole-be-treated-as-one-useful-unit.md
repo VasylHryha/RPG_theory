@@ -9,8 +9,8 @@
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
-  "publicationState": "draft",
-  "publishedAt": null,
+  "publicationState": "published",
+  "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CATALOGUE",
@@ -38,11 +38,12 @@
   "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Derivative explanation of the supplied current core and world explanation; no new scientific result or definition.",
   "adapter": "markdown/1",
   "limits": "",
-  "rightsRef": null,
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033",
   "tags": [
     "organization",
     "research-explanation"
-  ]
+  ],
+  "authorIdentity": "Vasyl Hryha"
 }
 ---
 ## Explanation: a useful description depends on the question

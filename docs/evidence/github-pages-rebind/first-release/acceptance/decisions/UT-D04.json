@@ -1,0 +1,102 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D04",
+  "fingerprint": "bec053cec3c8656fe8e7fac7f0eae7d0a62160fb996449a4fff9ee02ea718c37",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T20:06:37.121Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared core §4 closure definition and plain-language statement. Stability is self-consistent organization over a short or long interval; lifetime, recovery and Lyapunov tests remain system measurements rather than replacement definitions. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/UT-D04.json, SHA-256 c2ee61e429f6fe9d5351761fc5eea19c8e8b0b838f17589e68b60ad6ad2f5658, remains preserved.",
+  "inputs": {
+    "fingerprint": "bec053cec3c8656fe8e7fac7f0eae7d0a62160fb996449a4fff9ee02ea718c37",
+    "ownRead": {
+      "id": "UT-D04",
+      "route": "/claims/UT-D04/",
+      "title": "Stability",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 3,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 45,
+        "endLine": 55,
+        "excerptSha256": "c6f7fe3e4ae4ad799503dfd266c8bba802d2e459bfc2c332ad8eebe6270b0414"
+      },
+      "statement": "## 4. Stability\n\n**Locked definition:** a geometry is stable in RRG while its geometry and mode structure form a self-consistent closed organization:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\nStability is **not permanence**. A state may satisfy the closure for a very short or very long interval.\n\nLifetime, perturbation recovery, Lyapunov stability, decay width, or metastability are **measurements/tests of a particular system**, not replacements for this core definition.\n",
+      "plainLanguage": "RRG calls the geometry–mode organization stable while it is self-consistent. This does not require permanence.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §4; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+        "plainLanguageSha256": "7e7e296baa2a4e7ead74a81bd4ea7dfb2b31fabac23ce19e16ffd881efb6833e",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+        "plainLanguageSha256": "7e7e296baa2a4e7ead74a81bd4ea7dfb2b31fabac23ce19e16ffd881efb6833e",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §4 closure definition and plain-language statement. Stability is self-consistent organization over a short or long interval; lifetime, recovery and Lyapunov tests remain system measurements rather than replacement definitions. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/UT-D04.json, SHA-256 c2ee61e429f6fe9d5351761fc5eea19c8e8b0b838f17589e68b60ad6ad2f5658, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §4 closure definition and plain-language statement. Stability is self-consistent organization over a short or long interval; lifetime, recovery and Lyapunov tests remain system measurements rather than replacement definitions. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/UT-D04.json, SHA-256 c2ee61e429f6fe9d5351761fc5eea19c8e8b0b838f17589e68b60ad6ad2f5658, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: A locked RRG meaning; a definition is not an experimental finding. No new experimental inputs, causal stages or equation-family requirement was introduced. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/UT-D04.json, SHA-256 c2ee61e429f6fe9d5351761fc5eea19c8e8b0b838f17589e68b60ad6ad2f5658, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "hypotheses": "Compared core §4 closure definition and plain-language statement. Stability is self-consistent organization over a short or long interval; lifetime, recovery and Lyapunov tests remain system measurements rather than replacement definitions. Scientific role definition, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/UT-D04.json, SHA-256 c2ee61e429f6fe9d5351761fc5eea19c8e8b0b838f17589e68b60ad6ad2f5658, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "evidenceDescriptions": "Compared core §4 closure definition and plain-language statement. Stability is self-consistent organization over a short or long interval; lifetime, recovery and Lyapunov tests remain system measurements rather than replacement definitions. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/UT-D04.json, SHA-256 c2ee61e429f6fe9d5351761fc5eea19c8e8b0b838f17589e68b60ad6ad2f5658, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "openQuestions": "Compared core §4 closure definition and plain-language statement. Stability is self-consistent organization over a short or long interval; lifetime, recovery and Lyapunov tests remain system measurements rather than replacement definitions. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/UT-D04.json, SHA-256 c2ee61e429f6fe9d5351761fc5eea19c8e8b0b838f17589e68b60ad6ad2f5658, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. 00_LOCKED_CORE.md §4; new navigation ID, source has no UT ID. No personal identity, rights, author-public-wording or release authorization is inferred. Current review: The owner-approved author, dedicated project contact and citation URL are recorded; source-role, edition and supplementary attribution remain unchanged. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/UT-D04.json, SHA-256 c2ee61e429f6fe9d5351761fc5eea19c8e8b0b838f17589e68b60ad6ad2f5658, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D04.json. Retained semantic finding: Compared core §4 closure definition and plain-language statement. Stability is self-consistent organization over a short or long interval; lifetime, recovery and Lyapunov tests remain system measurements rather than replacement definitions. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/UT-D04.json, SHA-256 c2ee61e429f6fe9d5351761fc5eea19c8e8b0b838f17589e68b60ad6ad2f5658, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open."
+  }
+}

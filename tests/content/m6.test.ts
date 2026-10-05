@@ -15,13 +15,17 @@ import { indexSearch } from '../../scripts/index-search.js';
 import { auditOutput } from '../../scripts/audit-output.js';
 import { escapeHTML } from '../../src/lib/presentation.js';
 
-test('M6 real drafts never enter search/sitemap; private utility metadata invents no author or institution',()=>{
+test('M6 intended launch readings enter private discovery; drafts and archives remain excluded and stale reviews refuse qualification',()=>{
  const config=loadSiteConfig(),selection=publicationFor('preview',config);
- assert.deepEqual(selection.manifest.searchIds,[]);assert.deepEqual(selection.manifest.sitemapIds,[]);
- assert.doesNotMatch(sitemapXML(selection,config),/<loc>/);
+ assert.equal(selection.manifest.searchIds.length,68);assert.equal(selection.manifest.sitemapIds.length,68);
+ assert.match(sitemapXML(selection,config),/<loc>/);
+ const release=JSON.parse(readFileSync('research/publication/release.json','utf8'));
+ assert.equal(publicationFor('qualification',config).manifest.entries.length,75);
+ selection.corpus.entries.get('DOC-HOME')!.description+=' Synthetic changed description';
+ assert.throws(()=>selectPublication(selection.corpus,config,release,'qualification'),/REVIEW_REQUIRED/);
  const metadata=pageMetadata('Search','Browse','/search/',config);
  assert.equal('author' in metadata,false);assert.doesNotMatch(JSON.stringify(metadata),/ScholarlyArticle|Organization|peer.review/);
- for(const e of selection.entries)assert.equal(searchable(e),false);
+ for(const e of selection.entries){assert.equal(searchable(e),selection.manifest.searchIds.includes(e.id));assert.equal(searchable({...e,publicationState:'draft'}),false);assert.equal(searchable({...e,publicationState:'archived'}),false);}
 });
 test('M6 correction transaction invalidates dependants, requires explicit synthetic rereview and excludes the replaced route',async()=>{
  const corpus=loadCanonicalCorpus(),definition=structuredClone(corpus.entries.get('UT-D01')!),dependent=structuredClone(corpus.entries.get('DOC-CONCEPT-GEOMETRY')!);
@@ -67,6 +71,11 @@ test('M6 stale search identity and added source-map/private assets are refused i
   cpSync(source,root,{recursive:true});
   const manifestPath=join(root,'search-manifest.json'),raw=readFileSync(manifestPath),manifest=JSON.parse(raw.toString());
   manifest.inputsSha256='0'.repeat(64);writeFileSync(manifestPath,JSON.stringify(manifest));assert.throws(()=>auditOutput(root),/STALE_SEARCH_INDEX/);
-  writeFileSync(manifestPath,raw);writeFileSync(join(root,'_astro/private.js.map'),'DRAFT_SENTINEL');assert.throws(()=>auditOutput(root),/UNEXPECTED_OUTPUT/);
+  writeFileSync(manifestPath,raw);
+  const aboutPath=join(root,'about/index.html'),about=readFileSync(aboutPath,'utf8');
+  for(const injected of ['<a href="mailto:unapproved@example.org">Unapproved contact</a>','<img src="mailto:vasylhryha.rpg@gmail.com" alt="Invalid resource">']) {
+   writeFileSync(aboutPath,about.replace('</body>',injected+'</body>'));assert.throws(()=>auditOutput(root),/UNSAFE_OUTPUT_URL/);
+  }
+  writeFileSync(aboutPath,about);writeFileSync(join(root,'_astro/private.js.map'),'DRAFT_SENTINEL');assert.throws(()=>auditOutput(root),/UNEXPECTED_OUTPUT/);
  }finally{rmSync(root,{recursive:true,force:true});}
 });

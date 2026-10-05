@@ -9,8 +9,8 @@
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
-  "publicationState": "draft",
-  "publishedAt": null,
+  "publicationState": "published",
+  "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CATALOGUE",
@@ -44,7 +44,7 @@
   "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§1–3, 5, 7–11; world explanation §§2, 4, 6–7, 10 and background addendum. The water warm-up is supplementary NOAA physics, not a new RRG claim.",
   "adapter": "markdown/1",
   "limits": "",
-  "rightsRef": null
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
 ## Begin with a wave

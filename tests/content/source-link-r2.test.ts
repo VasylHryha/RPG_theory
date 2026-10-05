@@ -39,6 +39,12 @@ test('adapted check rejects label collisions, wrong editions and case-to-paper s
   const paper=structuredClone(map);paper.caseEdges[0].bibliographyId='BIB-0022';assert.throws(()=>check(register,paper),/Case → binding → bibliography mismatch/);
 });
 
+test('excluded historical label destinations require an explicit unavailable-reading disclosure',()=>{
+  const changed={...corpus,entries:new Map(corpus.entries)},entry=corpus.entries.get('DOC-SOURCE-LINKS')!;
+  changed.entries.set(entry.id,{...entry,body:entry.body.replaceAll(' (historical reading excluded from this edition)','')});
+  assert.throws(()=>check(register,map,changed),/Missing displayed label destination/);
+});
+
 test('version/access links retain every BIB target without displaying independent duplicate publications',()=>{
   const selection=publicationFor('preview',loadSiteConfig());
   const html=renderReferences(selection.references,selection.entries);
@@ -71,10 +77,12 @@ test('HTML, explanatory downloads and ZIP preserve scoped findings and original 
     const html=renderEntrySync(corpus,entry,base),md=explanatoryMarkdown(corpus,entry,config);
     assert.ok(html.includes(base+'claims/UT-E107/'));assert.ok(md.includes('./UT-E107.md'));
     assert.match(md,/simulated interruption of feedback/);assert.match(md,/not endorsements/);assert.match(md,/universal-proof prerequisite/);
-    assert.ok(!md.includes('./DOC-ADDITIONAL-EVIDENCE.md'));assert.ok(md.includes(config.origin+base+'evidence/additional/'));
+    assert.ok(!md.includes('./DOC-ADDITIONAL-EVIDENCE.md'));assert.ok(!md.includes(config.origin+base+'evidence/additional/'));
+    assert.ok(!html.includes('href="'+base+'evidence/additional/'));
+    assert.match(html,/Formation of optical supramolecular structures[\s\S]*historical reading excluded from this edition/);
     const selection=publicationFor('preview',config),assets=publicationAssets(selection,config);verifyArchive(assets.files.get(assets.zipPath)!);
     assert.equal(assets.members.get('explanatory/DOC-SOURCE-LINKS.md')?.toString(),md);
     assert.deepEqual(assets.members.get('original/R-CURRENT-CATALOGUE.md'),readFileSync('research/RRG_CURRENT/06_evidence_catalog.md'));
-    assert.equal(selection.manifest.deployEligible,false);assert.deepEqual(selection.manifest.searchIds,[]);
+    assert.equal(selection.manifest.deployEligible,false);assert.equal(selection.manifest.searchIds.length,68);
   }
 });

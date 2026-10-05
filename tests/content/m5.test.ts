@@ -12,15 +12,16 @@ import {publicationAssets,verifyArchive,citationCFF} from '../../src/lib/publica
 import {loadSiteConfig} from '../../src/lib/site-config.js';
 import {sha256} from '../../src/lib/identity.js';
 
-test('M5 actual identity stays pending and every rights surface preserves separate scope and lawful exceptions',()=>{
- const c=publicationCredit();assert.equal(c.approvedCredit,null);assert.equal(c.approvedContact,null);assert.equal(c.approvedRepository?.owner,'VasylHryha');assert.equal(c.approvedRepository?.name,'RPG_theory');assert.equal(c.approvedOrcid,null);
+test('M5 owner credit and dated research grant reach every rights surface while code and data remain reserved',()=>{
+ const c=publicationCredit();assert.equal(c.approvedCredit?.name,'Vasyl Hryha');assert.equal(c.approvedContact?.url,'mailto:vasylhryha.rpg@gmail.com');assert.equal(c.approvedRepository?.owner,'VasylHryha');assert.equal(c.approvedRepository?.name,'RPG_theory');assert.equal(c.approvedOrcid,null);
  for(const base of ['/','/unity-theory/']) {
   const about=load(renderAbout(c,base)),legal=load(renderLegal(c,base)),footer=load(renderFooter(base,c));
-  assert.match(about.text(),/no personal identity inferred/);assert.match(legal.text(),/Website code: selection pending/);assert.match(legal.text(),/Research prose and figures: selection pending/);assert.match(legal.text(),/Data and evidence: selection pending/);assert.match(legal.text(),/lawful exceptions/);assert.match(legal.text(),/not retroactively removed/);assert.match(footer.text(),/No additional license/);
+  assert.match(about.text(),/Approved public credit: Vasyl Hryha/);assert.match(legal.text(),/Website code: no additional license granted/);assert.match(legal.text(),/Research prose and figures: CC BY-NC-SA 4.0/);assert.match(legal.text(),/Data and evidence: no additional license granted/);assert.match(legal.text(),/lawful exceptions/);assert.match(legal.text(),/not retroactively removed/);
+  for(const text of [legal.text(),footer.text()]){assert.match(text,/1 January 2033 at 00:00 UTC/);assert.match(text,/additionally licensed under CC BY 4.0/);assert.match(text,/first public website release/);assert.match(text,/Third-party material retains its own rights/);}
   assert.equal(footer('a').first().attr('href'),base+'about/');assert.equal(legal('a').last().attr('href'),base+'downloads/THIRD-PARTY-NOTICES.txt');
  }
- assert.equal(citationCFF({websiteRelease:'synthetic',releaseAt:'2026-10-04'}),null);
- assert.deepEqual(citationGates(),['PUBLIC_CREDIT_DECISION_REQUIRED','PERMANENT_URL_REQUIRED','RIGHTS_DECISION_REQUIRED']);
+ assert.equal(parse(citationCFF({websiteRelease:'synthetic',releaseAt:'2026-10-04'})!).authors[0].name,'Vasyl Hryha');
+ assert.deepEqual(citationGates(),[]);
 });
 test('M5 explicit synthetic credit drives About/footer/CFF without inferred contact or identity',()=>{
  const c=creditSchema.parse({...publicationCredit(),approvedCredit:{name:'Synthetic organization',evidenceRef:'Synthetic mechanics only'},approvedContact:{url:'https://example.org/contact',evidenceRef:'Synthetic only'},approvedOrcid:{url:'https://orcid.org/0000-0000-0000-000X',evidenceRef:'Synthetic only'},approvedRepository:{owner:'example',name:'research',evidenceRef:'Synthetic only'},permanentUrl:'https://example.org/research/',rights:{statement:'Synthetic rights only',evidenceRef:'Synthetic only'}});
@@ -36,13 +37,14 @@ test('M5 deployment rejects PR, fixture host, unapproved target, missing identit
  assert.throws(()=>assertDeploymentAllowed(policy,credit,{...config,origin:'https://fixture.invalid'},context,true),/PUBLIC_TARGET_REQUIRED/);
  assert.throws(()=>assertDeploymentAllowed({...policy,approvedTarget:null},credit,config,context,true),/PUBLIC_TARGET_NOT_AUTHORIZED/);
  assert.throws(()=>assertDeploymentAllowed(policy,{...credit,approvedCredit:null},config,context,true),/PUBLIC_CREDIT_DECISION_REQUIRED/);
- assert.throws(()=>assertDeploymentAllowed(policy,{...credit,rightsScopes:publicationCredit().rightsScopes},config,context,true),/SCOPED_RIGHTS_REVIEW_REQUIRED/);
+ assert.throws(()=>assertDeploymentAllowed(policy,{...credit,rightsScopes:{...credit.rightsScopes,code:{state:'pending',evidenceRef:null,file:null,sha256:null,identifier:null}}},config,context,true),/SCOPED_RIGHTS_REVIEW_REQUIRED/);
  assert.throws(()=>assertDeploymentAllowed({...policy,qualification:null},credit,config,context,true),/M6_RELEASE_QUALIFICATION_REQUIRED/);
 });
 test('M5 scoped license declarations bind exact files; no additional license state cannot imply a grant',()=>{
  const root=mkdtempSync(join(tmpdir(),'unity-m5-rights-'));
  try {
   mkdirSync(join(root,'research/publication'),{recursive:true});mkdirSync(join(root,'licenses'));
+  cpSync('licenses',join(root,'licenses'),{recursive:true});
   const raw=readFileSync('node_modules/rehype-katex/node_modules/katex/LICENSE'),c=publicationCredit();writeFileSync(join(root,'licenses/synthetic.txt'),raw);
   c.rightsScopes.code={state:'licensed',evidenceRef:'Synthetic fixture, not real approval',identifier:'Synthetic MIT mechanics',file:'licenses/synthetic.txt',sha256:sha256(raw)};
   writeFileSync(join(root,'research/publication/metadata.json'),JSON.stringify(c));assert.equal(publicationCredit(root).rightsScopes.code.identifier,c.rightsScopes.code.identifier);
@@ -51,9 +53,8 @@ test('M5 scoped license declarations bind exact files; no additional license sta
  }finally{rmSync(root,{recursive:true,force:true});}
 });
 test('M5 targeted legal-copy control flags the faux any-use royalty claim; a parser never certifies legal wording',()=>{
- const faux=renderFooter().replace('No additional license is granted by this preview; license selection is pending.','Any use owes 10% of revenue.');
- const $=load(faux);assert.deepEqual(legalCopyDiagnostics($('p').toArray().map(p=>$(p).text()).join('\n')),['LEGAL_COPY_REVIEW_REQUIRED']);
- assert.equal(publicationPolicy().rightsReview,null);
+ const $=load(renderFooter());$('p').eq(1).text('Any use owes 10% of revenue.');
+ assert.deepEqual(legalCopyDiagnostics($('p').toArray().map(p=>$(p).text()).join('\n')),['LEGAL_COPY_REVIEW_REQUIRED']);
 });
 test('M5 actual workflow is read-only for PRs and manual artifact-bound for deploy; privileged PR mutation refuses',()=>{
  assert.equal(validateContributionWorkflow().status,'PASS');
@@ -74,9 +75,10 @@ test('M5 public repository screen refuses private/history paths and reports secr
   assert.equal(repositoryPathRisk('.idea/runtime.xml'),'PRIVATE_OR_UNAPPROVED_REPOSITORY_FILE');
  }finally{rmSync(root,{recursive:true,force:true});}
 });
-test('M5 actual website and ZIP carry the exact renderer notice without project licensing or administrative material',()=>{
+test('M5 ZIP carries the selected research grant and exact renderer notice without administrative material',()=>{
  const s=publicationFor('preview',loadSiteConfig()),a=publicationAssets(s,loadSiteConfig()),z=verifyArchive(a.files.get(a.zipPath)!);
  assert.equal(z.get('THIRD-PARTY-NOTICES.txt')?.toString(),thirdPartyNotices());assert.ok(thirdPartyNotices().endsWith(readFileSync('node_modules/rehype-katex/node_modules/katex/LICENSE','utf8')));
- assert.equal(z.has('CITATION.cff'),false);assert.equal(z.has('RIGHTS.md'),false);assert.equal(z.has('docs/evidence/m5/implementation/owner-decisions.md'),false);
+ assert.equal(z.has('CITATION.cff'),true);assert.equal(z.has('RIGHTS.md'),false);assert.equal(z.has('docs/evidence/m5/implementation/owner-decisions.md'),false);
+ assert.ok(z.get('CITATION-AND-RIGHTS.md')!.toString().includes(publicationCredit().rights!.statement));
  for(const path of z.keys())assert.doesNotMatch(path,/^(?:docs|history|\.git|research)\//);
 });

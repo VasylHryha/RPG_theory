@@ -1,0 +1,339 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-HOME",
+  "fingerprint": "91bb283ba5adba05a26396ea7caf23bab828168ec0599747ecdd6c9393723dbf",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T20:06:37.121Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the complete warm-up and whole-as-part body against core §§1–3/5/7–11, world §§2/4/6–7/10/background, all dependencies and actual source-status projection. Full mode meaning, continuing internal activity and changed possibilities survive; different phenomena motivate a question rather than prove a universal cycle. First-public author approval remains pending. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-HOME.json, SHA-256 310888993cc58b29b0e3e00c3e946e0fd9a230c3bfdf284d817a0ddd6ceff2c0, remains preserved.",
+  "inputs": {
+    "fingerprint": "91bb283ba5adba05a26396ea7caf23bab828168ec0599747ecdd6c9393723dbf",
+    "ownRead": {
+      "id": "DOC-HOME",
+      "route": "/",
+      "title": "How do parts become a whole?",
+      "description": "Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible.",
+      "revision": 4,
+      "kind": "intro",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-EXAMPLE-WATER",
+        "DOC-STATUS",
+        "UT-C01",
+        "UT-C02",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08",
+        "UT-O102"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0060"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Compact introduction to the source research question, with one familiar warm-up and links to deeper examples.",
+      "evidenceState": "not-applicable",
+      "body": "## Begin with a wave\n\nWatch a ripple cross water. A crest moves across the surface as the water moves locally. The visible pattern and the material carrying it give us two ways to describe one event. [Explore the wave](/examples/water/); the background physics is explained by [NOAA's wave explanation](/references/#BIB-0060).\n\n## Arrangement and activity belong together\n\nA string's fixed ends constrain its motion. A molecule's connections constrain its collective behaviour. A cell keeps its organization through ongoing exchanges with its surroundings.\n\nRecursive Resonant Geometry, or **RRG**, asks how relationships and activity support one another. Its **geometry** means components, connections, boundaries and constraints. Its **mode structure** means the organized ways those parts change and respond over time.\n\n## A whole can become a part\n\nIn the RRG proposal, compatible active parts may form a persistent whole. That whole can participate in another organization while activity continues inside it. Existing structures can also change the conditions for what happens next: a star makes new reaction conditions; living systems change their chemical surroundings.\n\nThe wave introduces a distinction, rather than proving this entire cycle. The examples have different physical mechanisms. The research question is whether a useful, predictive organizing principle connects them.\n\n[Read the full introduction](/start/) or [explore the concepts](/concepts/).\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§1–3, 5, 7–11; world explanation §§2, 4, 6–7, 10 and background addendum. The water warm-up is supplementary NOAA physics, not a new RRG claim.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "DOC-CATALOGUE",
+        "semanticDigest": "42249821eb725b59d2f8a330945f09ebc121db7697d91024481b24e6276853ac"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "f19f30d66953552dba483a18521f145f595ef6b5ecf1e076e87726d7b7a08c98"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "b01cb5c229d290e266f231b32de6086b0b730c9174ba07c9cb73459ce6e8c00b"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-WATER",
+        "semanticDigest": "b83731626200783445f35a682e938ce1a450614279a634ab2a46e24ada0fa613"
+      },
+      {
+        "entryId": "DOC-STATUS",
+        "semanticDigest": "f8fe077097a1d98efdb5f14aeeec3394c198bd164841f30c1ac2036a58bdbf59"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "9fad979d74d5458a1b65e9625bd772ef5b1f35e4ca515bcbd8faf7b9e552d9e7"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "f6bea956a0abd13bef21e484914ccbaa42ed74a69c316688643047976fd651f2"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "6ebf7586c6c9b273a876e4b411da204fac0b89e6c08c7579d841741bd1067fee"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      },
+      {
+        "entryId": "UT-E101",
+        "semanticDigest": "0e9df2b644023f9f6582af718513e4e3f26f400b926b721f8abcc2d33153e768"
+      },
+      {
+        "entryId": "UT-E102",
+        "semanticDigest": "28f048e37e47db7be8ca8fa5d00f9cbb1b1594dd0dba01474e779dcaea64e4f9"
+      },
+      {
+        "entryId": "UT-E103",
+        "semanticDigest": "b5cb528ef993cb6e6f04cb8ba3e7e0e5cd15835b417497cb065c5a065230feb3"
+      },
+      {
+        "entryId": "UT-E104",
+        "semanticDigest": "842e58652b263a1c169c3aef99e5d023ba4fcec2693244c534856a2900083250"
+      },
+      {
+        "entryId": "UT-E105",
+        "semanticDigest": "50e17d5fb207a94bc945d79f097fdd735002aea3a5aa3e36bf860f85662b9c7f"
+      },
+      {
+        "entryId": "UT-E106",
+        "semanticDigest": "fd5d5035510fc1983bbd60444653b24e60c4a2bb206fe0370c3a0246933181af"
+      },
+      {
+        "entryId": "UT-E107",
+        "semanticDigest": "3386d5b0f9c0798a8d0926ea2ce16f238e28342eef8dc843d049d44b95aced78"
+      },
+      {
+        "entryId": "UT-E108",
+        "semanticDigest": "9d4b6cab0b82b272bd7c434a0870a819bd044fcbd8a795ef24a5cd7f1a8d47a0"
+      },
+      {
+        "entryId": "UT-E109",
+        "semanticDigest": "100cfc0f8de703859f470688f14c0d28a73f7203a177a30a8e7c1cdc8319a3a7"
+      },
+      {
+        "entryId": "UT-E110",
+        "semanticDigest": "23124295ec8c8b2592e2b1d3d498a8527f2b6a8c7a953998b0a9799fa85aa4fd"
+      },
+      {
+        "entryId": "UT-E111",
+        "semanticDigest": "66c80b47f13c2d3935246ffc17f6dc8c4663acd40419bc6265c55f8809639ff9"
+      },
+      {
+        "entryId": "UT-E112",
+        "semanticDigest": "9d8531ecc3cd3991dfbbc81d8f1a605a5651bc4f1b71010e95583e2e5ade02ce"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "f3d9c2742ff7560aca297bc6251bd3d0411bc5402e640030462138f7bea49fc1"
+      },
+      {
+        "entryId": "UT-E114",
+        "semanticDigest": "99549b367dbd70c1985d6f09e685bfa5cd1a99582893a93418cc7d0830145efe"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "b56cce0161cf4eb7c0c1d51330046d40f7260a6f80bde5a684b206ec3634ac3f"
+      },
+      {
+        "entryId": "UT-E116",
+        "semanticDigest": "f4ee9d31590ea9e6586d601106f04043237b0d0f8885a7da0984d601e64e7496"
+      },
+      {
+        "entryId": "UT-E117",
+        "semanticDigest": "5d588a9dcd040232edccaaead30962cfbb2ca3c7e8439a555eeecb87346ed083"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "bb90d22786c14366d3e16aa6ce520a7f3d98c944408c4e8f7dd114003adeaeb8"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "1c05c58c8d43e95831721fad3cbfa65c52517f085238ac13dec747850076a7e5"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "6237265792cca23f27a6b3df93a922b15782796d7db186f9a0e78b439f25f09c"
+      },
+      {
+        "entryId": "UT-E121",
+        "semanticDigest": "e9881ae203dd96b8623603c2dfb0546b82af7564c56e97eeb9ae864f90fec8ed"
+      },
+      {
+        "entryId": "UT-E122",
+        "semanticDigest": "13445b560d9749f7fa544634442fc77df07a12fcd013e73e185b29763b4bde2b"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "85af6060a57bd5ea57bce55ac38f74ad71fa2dc22bbc6c2850b38d9f8233a30d"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "697f22c36e9bea025f0a33d9b3e55d9e22080c97c05d9e57fe8e0dc8c9da35ef"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "f2f9fe3db8ab9435d079bda66c420ba4a245cfbcd68d2b50b1c6fd3c7876b821"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "a159e8ae55d70b73da958743d9f4703905a345589d787583ac49dfc6ddce6ee1"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "7f6d2721bd76dd6cb65e35f1aed8b9b2eab20148c9df602ba2e6918bef3c510a"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "242009393226964b6a642674d016007472531dbbf31c8436aa8184f0f1370e80"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "42efd51f43c0f6de8d510aef0ba1b4f7e681ee72627c37174db0e88794fe30d6"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "5f093402ffbccfd67476c962a962d0eec59228f5c3649f0a1f3b2db402f4550c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-AUDIT",
+        "path": "research/RRG_CURRENT/07_audit_report.md",
+        "sha256": "222487df50faa457b85d5748a846f728f2c4fd9845b4a33ffac181d6e45ebfa7"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON",
+        "path": "research/RRG_CURRENT/checks/package_validation.json",
+        "sha256": "08119204887af30f804c7b8a6a7031a90f5be43ce8ba03f68601b72f75136353"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "7d3ecb1a3d441ac50c0b89d78aed5363692b0d65427f5fbab681efc4fc2c0868",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": "c6dedc9423210d6f8d416340efe508faee8054374a4a85d11caa4254d866e3dc"
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "0d9f79e1b5085edd438eb797d381894f1e04e0609ad38a48d793803e01cbbf20",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": "c6dedc9423210d6f8d416340efe508faee8054374a4a85d11caa4254d866e3dc"
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the complete warm-up and whole-as-part body against core §§1–3/5/7–11, world §§2/4/6–7/10/background, all dependencies and actual source-status projection. Full mode meaning, continuing internal activity and changed possibilities survive; different phenomena motivate a question rather than prove a universal cycle. First-public author approval remains pending. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-HOME.json, SHA-256 310888993cc58b29b0e3e00c3e946e0fd9a230c3bfdf284d817a0ddd6ceff2c0, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared the complete warm-up and whole-as-part body against core §§1–3/5/7–11, world §§2/4/6–7/10/background, all dependencies and actual source-status projection. Full mode meaning, continuing internal activity and changed possibilities survive; different phenomena motivate a question rather than prove a universal cycle. First-public author approval remains pending. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-HOME.json, SHA-256 310888993cc58b29b0e3e00c3e946e0fd9a230c3bfdf284d817a0ddd6ceff2c0, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: Compact introduction to the source research question, with one familiar warm-up and links to deeper examples. No new experimental inputs, causal stages or equation-family requirement was introduced. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-HOME.json, SHA-256 310888993cc58b29b0e3e00c3e946e0fd9a230c3bfdf284d817a0ddd6ceff2c0, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "hypotheses": "Compared the complete warm-up and whole-as-part body against core §§1–3/5/7–11, world §§2/4/6–7/10/background, all dependencies and actual source-status projection. Full mode meaning, continuing internal activity and changed possibilities survive; different phenomena motivate a question rather than prove a universal cycle. First-public author approval remains pending. Scientific role intro, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-HOME.json, SHA-256 310888993cc58b29b0e3e00c3e946e0fd9a230c3bfdf284d817a0ddd6ceff2c0, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "evidenceDescriptions": "Compared the complete warm-up and whole-as-part body against core §§1–3/5/7–11, world §§2/4/6–7/10/background, all dependencies and actual source-status projection. Full mode meaning, continuing internal activity and changed possibilities survive; different phenomena motivate a question rather than prove a universal cycle. First-public author approval remains pending. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-HOME.json, SHA-256 310888993cc58b29b0e3e00c3e946e0fd9a230c3bfdf284d817a0ddd6ceff2c0, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "openQuestions": "Compared the complete warm-up and whole-as-part body against core §§1–3/5/7–11, world §§2/4/6–7/10/background, all dependencies and actual source-status projection. Full mode meaning, continuing internal activity and changed possibilities survive; different phenomena motivate a question rather than prove a universal cycle. First-public author approval remains pending. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-HOME.json, SHA-256 310888993cc58b29b0e3e00c3e946e0fd9a230c3bfdf284d817a0ddd6ceff2c0, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§1–3, 5, 7–11; world explanation §§2, 4, 6–7, 10 and background addendum. The water warm-up is supplementary NOAA physics, not a new RRG claim. No personal identity, rights, author-public-wording or release authorization is inferred. Current review: The owner-approved author, dedicated project contact and citation URL are recorded; source-role, edition and supplementary attribution remain unchanged. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-HOME.json, SHA-256 310888993cc58b29b0e3e00c3e946e0fd9a230c3bfdf284d817a0ddd6ceff2c0, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/DOC-HOME.json. Retained semantic finding: Compared the complete warm-up and whole-as-part body against core §§1–3/5/7–11, world §§2/4/6–7/10/background, all dependencies and actual source-status projection. Full mode meaning, continuing internal activity and changed possibilities survive; different phenomena motivate a question rather than prove a universal cycle. First-public author approval remains pending. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-HOME.json, SHA-256 310888993cc58b29b0e3e00c3e946e0fd9a230c3bfdf284d817a0ddd6ceff2c0, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open."
+  }
+}

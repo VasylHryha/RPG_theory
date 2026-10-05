@@ -1,0 +1,128 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-MOLECULE",
+  "fingerprint": "bab8ef9f2fa427ade3a70f2eb7cf4881cce90419779b964e261486202224442d",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T20:06:37.121Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the entire molecule explanation and added HeH+ paragraph with its unchanged core/world/framework meaning and primary detection abstract/Figure 1 caption. NGC 7027 observation does not directly observe primordial formation; quantum/conditions/whole-as-part limits survive. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json, SHA-256 003194e98a624014a9713f44c8a8c4f05fcd4e4cf7985547eece9b67f76eb94d, remains preserved.",
+  "inputs": {
+    "fingerprint": "bab8ef9f2fa427ade3a70f2eb7cf4881cce90419779b964e261486202224442d",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-MOLECULE",
+      "route": "/examples/molecule/",
+      "title": "Molecule: the whole constrains its parts",
+      "description": "Connections and collective behaviour, beyond an inventory of atoms.",
+      "revision": 3,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0013",
+        "BIB-0065",
+        "BIB-0091"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What to notice\n\nKnowing which atoms are present does not tell us everything about a molecule. Connections and spatial arrangement matter. Bond distances and angles are constrained; the whole has collective motions. The supplied world explanation describes electron-state reorganization, vibrations and rotations in this example. Basic relationships between bonding, arrangement and properties are explained by [OpenStax's molecular-structure explanation](/references/#BIB-0065).\n\n## What this illustrates\n\nThe source uses a molecule to explain a two-way relation: parts participate in a whole, while the whole constrains its parts. The atoms retain internal structure. A molecule can then participate in a larger arrangement, so the level of description changes without the lower-level activity disappearing.\n\nThis is a quantum chemical system. Atoms are not classical miniature solar systems, and molecular behaviour is not inferred from visible shape alone. Its interactions and physical conditions must be specified.\n\n## From whole to useful unit\n\nThe [recursion concept](/concepts/recursion/) explains how RRG treats a persistent collective system as a potential component of further organization. The mechanisms can change between levels; one microscopic equation is not required everywhere.\n\n[All examples](/examples/) · [Start with the idea](/start/)\n\n## An observed molecule and its setting\n\nThe [helium hydride detection paper](/references/#BIB-0091) reports an observation in planetary nebula NGC 7027. It is a research link alongside the broader [NASA SOFIA introduction](/references/#BIB-0013); it does not directly observe the first molecule forming in the early Universe.\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§5–6; framework §6; core §§5–8. OpenStax supplies supplementary molecular-structure background.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "0876ee311c09089bc20143f28da634c6642c494a0b27f5e088066357286e06d1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "49dea2fc19609da41aaf78ff6e5ba64433209df19f33449387d8d9a3da8e7169",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the entire molecule explanation and added HeH+ paragraph with its unchanged core/world/framework meaning and primary detection abstract/Figure 1 caption. NGC 7027 observation does not directly observe primordial formation; quantum/conditions/whole-as-part limits survive. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json, SHA-256 003194e98a624014a9713f44c8a8c4f05fcd4e4cf7985547eece9b67f76eb94d, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "meaning": "Compared the entire molecule explanation and added HeH+ paragraph with its unchanged core/world/framework meaning and primary detection abstract/Figure 1 caption. NGC 7027 observation does not directly observe primordial formation; quantum/conditions/whole-as-part limits survive. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json, SHA-256 003194e98a624014a9713f44c8a8c4f05fcd4e4cf7985547eece9b67f76eb94d, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "assumptions": "Compared the entire molecule explanation and added HeH+ paragraph with its unchanged core/world/framework meaning and primary detection abstract/Figure 1 caption. NGC 7027 observation does not directly observe primordial formation; quantum/conditions/whole-as-part limits survive. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json, SHA-256 003194e98a624014a9713f44c8a8c4f05fcd4e4cf7985547eece9b67f76eb94d, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "hypotheses": "Compared the entire molecule explanation and added HeH+ paragraph with its unchanged core/world/framework meaning and primary detection abstract/Figure 1 caption. NGC 7027 observation does not directly observe primordial formation; quantum/conditions/whole-as-part limits survive. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json, SHA-256 003194e98a624014a9713f44c8a8c4f05fcd4e4cf7985547eece9b67f76eb94d, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "evidenceDescriptions": "Compared the entire molecule explanation and added HeH+ paragraph with its unchanged core/world/framework meaning and primary detection abstract/Figure 1 caption. NGC 7027 observation does not directly observe primordial formation; quantum/conditions/whole-as-part limits survive. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json, SHA-256 003194e98a624014a9713f44c8a8c4f05fcd4e4cf7985547eece9b67f76eb94d, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "openQuestions": "Compared the entire molecule explanation and added HeH+ paragraph with its unchanged core/world/framework meaning and primary detection abstract/Figure 1 caption. NGC 7027 observation does not directly observe primordial formation; quantum/conditions/whole-as-part limits survive. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json, SHA-256 003194e98a624014a9713f44c8a8c4f05fcd4e4cf7985547eece9b67f76eb94d, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "attribution": "Compared the entire molecule explanation and added HeH+ paragraph with its unchanged core/world/framework meaning and primary detection abstract/Figure 1 caption. NGC 7027 observation does not directly observe primordial formation; quantum/conditions/whole-as-part limits survive. Current review: The owner-approved author, dedicated project contact and citation URL are recorded; source-role, edition and supplementary attribution remain unchanged. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json, SHA-256 003194e98a624014a9713f44c8a8c4f05fcd4e4cf7985547eece9b67f76eb94d, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "sourceMappings": "Compared the entire molecule explanation and added HeH+ paragraph with its unchanged core/world/framework meaning and primary detection abstract/Figure 1 caption. NGC 7027 observation does not directly observe primordial formation; quantum/conditions/whole-as-part limits survive. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-MOLECULE.json, SHA-256 003194e98a624014a9713f44c8a8c4f05fcd4e4cf7985547eece9b67f76eb94d, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open."
+  }
+}

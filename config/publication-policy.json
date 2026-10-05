@@ -8,13 +8,17 @@
     "name": "RPG_theory",
     "evidenceRef": "docs/handoffs/RRG_GITHUB_PAGES_REBIND_DEPLOY_HANDOFF_2026-10-05.md#0-owner-decisions--treat-these-as-authoritative"
   },
-  "publicContentApproval": null,
+  "publicContentApproval": {
+    "evidenceRef": "docs/evidence/github-pages-rebind/first-release/owner-decisions.md"
+  },
   "privacyApproval": null,
-  "rightsReview": null,
+  "rightsReview": {
+    "evidenceRef": "docs/evidence/github-pages-rebind/first-release/acceptance/rights-privacy-review.md"
+  },
   "qualification": null,
   "repositoryFiles": [],
   "platformProtections": {
     "status": "NOT_CONFIGURED",
-    "reason": "GitHub Pages target authorized by the owner handoff; Pages API returned 404 on 2026-10-05 and UNITY_DEPLOY_ENABLED is absent. Platform protections have not been configured."
+    "reason": "Read-only GitHub inspection on 2026-10-05: repository public/main with admin access; has_pages=false, Pages GET returned 404, environments empty and UNITY_DEPLOY_ENABLED absent. No platform setting changed."
   }
 }

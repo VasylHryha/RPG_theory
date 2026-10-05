@@ -1,0 +1,116 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-WATER",
+  "fingerprint": "cd318e014908999bcb75d19c3284c6954dba72fee53fc0aebd0bd5cc3a827290",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T20:06:37.121Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the warm-up against the core questions and retained supplementary NOAA attribution. Moving crest/local material movement illustrates a collective pattern. It is explicitly not proof of a persistent higher unit or universal stability; constraints and interval are asked next. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-WATER.json, SHA-256 1f08468c49583fb1f6af586b28026ad6b23bc25456fc2c022867d6e18aac210c, remains preserved.",
+  "inputs": {
+    "fingerprint": "cd318e014908999bcb75d19c3284c6954dba72fee53fc0aebd0bd5cc3a827290",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-WATER",
+      "route": "/examples/water/",
+      "title": "Water: follow a pattern",
+      "description": "A warm-up about local motion and a collective pattern.",
+      "revision": 2,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D04"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0060"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What to notice\n\nA wave crest can travel across water as the water moves locally. Following the crest and following a small region of water give different descriptions. Ordinary waves transfer energy through their medium; [NOAA's wave explanation](/references/#BIB-0060) explains this background physics.\n\n## What this illustrates\n\nThe visible pattern belongs to the collective behaviour. This gives us a first way to ask about parts, relationships and activity together, before trying to identify a persistent object.\n\nA passing ripple is a warm-up, not proof that a persistent higher-level unit has formed. The next example, a [string with fixed ends](/examples/string/), makes the role of constraints clearer.\n\n## Ask the next question\n\nWhich physical conditions support the pattern? How long does it last? Those questions matter when we move from noticing a collective pattern to investigating the source's [meaning of stability](/concepts/stability/).\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Supplementary NOAA surface-wave explanation. RRG core §§1–4 supplies the questions, not a claim that every wave is a stable new unit.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "6ebf7586c6c9b273a876e4b411da204fac0b89e6c08c7579d841741bd1067fee"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "3473a91eee1b0b1d44e27574527f676f42503c0fbf46c9a575bae209fa561d75",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "8c600e57915ee470dc99eee775d0a683404456e5e18e8ad4bfe7d4beb5ea845e",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the warm-up against the core questions and retained supplementary NOAA attribution. Moving crest/local material movement illustrates a collective pattern. It is explicitly not proof of a persistent higher unit or universal stability; constraints and interval are asked next. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-WATER.json, SHA-256 1f08468c49583fb1f6af586b28026ad6b23bc25456fc2c022867d6e18aac210c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared the warm-up against the core questions and retained supplementary NOAA attribution. Moving crest/local material movement illustrates a collective pattern. It is explicitly not proof of a persistent higher unit or universal stability; constraints and interval are asked next. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-WATER.json, SHA-256 1f08468c49583fb1f6af586b28026ad6b23bc25456fc2c022867d6e18aac210c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: An illustrative beginner explanation mapped to the original supplied RRG documents. No new experimental inputs, causal stages or equation-family requirement was introduced. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-WATER.json, SHA-256 1f08468c49583fb1f6af586b28026ad6b23bc25456fc2c022867d6e18aac210c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "hypotheses": "Compared the warm-up against the core questions and retained supplementary NOAA attribution. Moving crest/local material movement illustrates a collective pattern. It is explicitly not proof of a persistent higher unit or universal stability; constraints and interval are asked next. Scientific role example, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-WATER.json, SHA-256 1f08468c49583fb1f6af586b28026ad6b23bc25456fc2c022867d6e18aac210c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "evidenceDescriptions": "Compared the warm-up against the core questions and retained supplementary NOAA attribution. Moving crest/local material movement illustrates a collective pattern. It is explicitly not proof of a persistent higher unit or universal stability; constraints and interval are asked next. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-WATER.json, SHA-256 1f08468c49583fb1f6af586b28026ad6b23bc25456fc2c022867d6e18aac210c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "openQuestions": "Compared the warm-up against the core questions and retained supplementary NOAA attribution. Moving crest/local material movement illustrates a collective pattern. It is explicitly not proof of a persistent higher unit or universal stability; constraints and interval are asked next. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-WATER.json, SHA-256 1f08468c49583fb1f6af586b28026ad6b23bc25456fc2c022867d6e18aac210c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Supplementary NOAA surface-wave explanation. RRG core §§1–4 supplies the questions, not a claim that every wave is a stable new unit. No personal identity, rights, author-public-wording or release authorization is inferred. Current review: The owner-approved author, dedicated project contact and citation URL are recorded; source-role, edition and supplementary attribution remain unchanged. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-WATER.json, SHA-256 1f08468c49583fb1f6af586b28026ad6b23bc25456fc2c022867d6e18aac210c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/DOC-EXAMPLE-WATER.json. Retained semantic finding: Compared the warm-up against the core questions and retained supplementary NOAA attribution. Moving crest/local material movement illustrates a collective pattern. It is explicitly not proof of a persistent higher unit or universal stability; constraints and interval are asked next. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Current review: Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection hashes. Publication changes (publicationState, publishedAt, rightsRef) implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/acceptance/decisions/DOC-EXAMPLE-WATER.json, SHA-256 1f08468c49583fb1f6af586b28026ad6b23bc25456fc2c022867d6e18aac210c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open."
+  }
+}

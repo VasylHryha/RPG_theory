@@ -1,0 +1,206 @@
+{
+  "schema": "unity-first-release-high-acceptance/1",
+  "date": "2026-10-05T20:21:19.689682+00:00",
+  "decision": "ACCEPTED",
+  "scope": "delivered candidate including justified same-session repairs; website fidelity, not scientific adjudication",
+  "reviewStates": {
+    "accepted": 75,
+    "pending": 0,
+    "stale": 21,
+    "rejected": 0
+  },
+  "currentSourceQualified": true,
+  "deployEligible": false,
+  "completePublicM6": "INCOMPLETE",
+  "M7": "NOT_STARTED",
+  "checks": {
+    "focusedContracts": 15,
+    "chromium": 8,
+    "astro": "PASS: 0 errors/warnings/hints, 95 files",
+    "sharedFidelityAndCatalogue": "PASS",
+    "actualSelectedQualification": {
+      "status": "PASS_SELECTED_PRIVATE_QUALIFICATION",
+      "scientificCertification": false,
+      "completePublicM6": false,
+      "artifacts": [
+        {
+          "dir": "dist/first-release-final/qualification-root",
+          "base": "/",
+          "mode": "qualification",
+          "artifactSha256": "d98110f2b626cda5665366c1d474a4506f8afbda32177426786666b0aef597d6",
+          "inputsSha256": "9d46acd1d3b4f04a7eb7a05440ed41a344bfeb67093fc815c1d8ce5467961217",
+          "sourceCommit": "7ce9db123d8b398def6d82d6f4a62426c456738e",
+          "workspaceDirty": true,
+          "currentSourceQualified": true,
+          "deployEligible": false,
+          "files": 327,
+          "html": 83,
+          "readings": 75,
+          "search": 68,
+          "rssArticles": 2,
+          "exports": 75,
+          "originalDownloads": 18,
+          "zipMembers": 103,
+          "chromium": 4
+        },
+        {
+          "dir": "dist/first-release-final/qualification-target",
+          "base": "/RPG_theory/",
+          "mode": "qualification",
+          "artifactSha256": "8174ed708bbe5ef8d57cc8b80dba9afa2f0f2270f75a21059e03c39149e2c349",
+          "inputsSha256": "9d46acd1d3b4f04a7eb7a05440ed41a344bfeb67093fc815c1d8ce5467961217",
+          "sourceCommit": "7ce9db123d8b398def6d82d6f4a62426c456738e",
+          "workspaceDirty": true,
+          "currentSourceQualified": true,
+          "deployEligible": false,
+          "files": 327,
+          "html": 83,
+          "readings": 75,
+          "search": 68,
+          "rssArticles": 2,
+          "exports": 75,
+          "originalDownloads": 18,
+          "zipMembers": 103,
+          "chromium": 4
+        }
+      ]
+    },
+    "cffSchema": "PASS actual root/target CFF, official 1.2.0 versioned schema",
+    "protectedFilesUnchanged": 3349,
+    "canonicalBodiesUnchanged": 74,
+    "navigationOnlyBodyRepair": "DOC-SOURCE-LINKS, 18 explicit exclusion labels",
+    "scienceSourceChanges": 0,
+    "fullVerify": "NOT_COMPLETED prior result retained; NOT_RUN this session",
+    "CI": "NOT_RUN",
+    "hosted": "NOT_RUN"
+  },
+  "rightsReview": "ACCEPTED_SCOPED_HIGH",
+  "repositoryPrivacy": "available website/export and exact inventory review complete; repository/history approval unavailable",
+  "deploymentGates": [
+    "MANUAL_MAIN_DEPLOYMENT_REQUIRED",
+    "PUBLIC_TARGET_NOT_AUTHORIZED",
+    "PUBLIC_REPOSITORY_PRIVACY_REVIEW_REQUIRED",
+    "M6_RELEASE_QUALIFICATION_REQUIRED",
+    "DEPLOYMENT_DISABLED"
+  ],
+  "remaining": [
+    "Exact public repository/file/history privacy approval",
+    "Actual screen-reader/MathML observations",
+    "Current read-aloud listening and two non-specialist comprehension observations",
+    "Unavailable complete original audited-package provenance/parity",
+    "Approved durable private same-run artifact/audit/seal capture, retention and recovery evidence",
+    "Exact clean selected release-commit required qualification and CI; prior full verify incomplete",
+    "Pages publishing/environment protections and deployment variable setup after prerequisites",
+    "Release switches intentionally off; M7 hosted verification/recovery unperformed"
+  ],
+  "reusedEvidence": "first-release/verification.json 26 focused contracts, eight Chromium checks and both builds/audits; exact prior source/display comparisons, dated unchanged M6 layout/accessibility/engine/stress/Lighthouse results retained within demonstrated scope",
+  "actions": {
+    "commit": false,
+    "push": false,
+    "remoteWrite": false,
+    "deployment": false,
+    "DNS": false,
+    "licenseGrant": false
+  },
+  "sourceCommit": "7ce9db123d8b398def6d82d6f4a62426c456738e",
+  "workspaceDirty": true,
+  "failuresSeparateFromPasses": [
+    "initial qualification BROKEN_OUTPUT_LINK repaired and reaudited",
+    "tsx IPC listen EPERM followed by authorized comparison PASS",
+    "missing Chromium 1234 cache; verified installed cache retry PASS",
+    "Python YAML date object conversion before CFF validation PASS",
+    "invalid six-digit offset timestamp corrected to accepted millisecond UTC format before review",
+    "final evidence-script registry-in-protected-list assumption corrected: all 3349 protected files match",
+    "one default evidence destination overwrite restored from verified pinned HEAD; final check used isolated destination"
+  ],
+  "evidence": [
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/receipt.md",
+      "sha256": "5db74d763f6ead6613eb5a456de98f4e4b0c0668fce2d65e48d2fb2e5957e864"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/remaining-gates.md",
+      "sha256": "2d7e75c8d789a99ee9cb53423bc98808a33f99e3ac9c27cf7085d95ef90578d7"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/independent-comparison.json",
+      "sha256": "60d175e82caf8ea633e9c5afb11313947caeebdc4341b4db757ce3ace4d8307f"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json",
+      "sha256": "115583584e0a36be1808c65c1bb1f4bda0018629b44231e8bc9ef82d0d9ed035"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/decision-summary.json",
+      "sha256": "1cdfdf3cf0498dce26714586442276c676b320f890ab4968b61d46a0fa91228a"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/preservation-final.json",
+      "sha256": "0a913e05ff83927c9cf5a2623383ba62ae2deab0f2b0855fa46b20b186f76102"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/selected-qualification.json",
+      "sha256": "9e6aa4aa4ee332c5476ad6e7c1cf0d9f4f29bb9c14d421813f3cc2d2921eddc8"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/cff-schema.json",
+      "sha256": "1f32aa1582f59326b9889e4598c58455ca07a6ca5f1bee8d9a881f9eb47ca1e4"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/rights-privacy-review.md",
+      "sha256": "ef708ab9d473541cd81dbc84467e696087670d54d420ce125371da9ff03c3267"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/repository-scope-review.json",
+      "sha256": "71b4aa8beeb8b6412f7df5c1d7e1694a34cf3b9d34d3527d75ce7c349e74b85b"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/astro-final.log",
+      "sha256": "9409de62401eec5020aba8a8c8c3dccaeefa9fca94ee1e10522a3cafb51102d5"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/rights-contracts.log",
+      "sha256": "309ab7fb7ae252d2f92bb10b2bbcf41108f594369dcc1ccf9885b28904f34618"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/affected-contracts-final.log",
+      "sha256": "24648fe0b28e75eebb44e73e453a7d8f9368f0394c9be3518d6e41016d347b9c"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/mail-audit-controls-final.log",
+      "sha256": "0ea27722a467fa482e2c5cf349d77b46fae7895d42b64839074f2101309d55f1"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/build-root-final.log",
+      "sha256": "49d058d2de3236289b7e4b7d595fdf4bfea2bd52b952a2e8300134345aa28a1a"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/build-target-final.log",
+      "sha256": "f43bf52d62409124745c3360ab6683247d62688dca94c1124921dea5abe63ffa"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/audit-root-final.log",
+      "sha256": "43a03cfd1773eafb65e581c5e4570762e6b86bebd6f3fe991e1f2e41cf9d4c3d"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/audit-target-final.log",
+      "sha256": "b53f0c4e9b2c29a4f8c3f2093a6a9cb3b1c86b07efdf3c7ffd9d8f1cdb1a9d30"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/browser-root-retry.log",
+      "sha256": "148a19ce571c423f2322aa57c2d447f53ea49acda8b989188c6e4abd15ca1c44"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/browser-target-final.log",
+      "sha256": "51d44b0a527dbc317f008496f131b8a7f6e7d4d612101b6ed267a0841b4d66a5"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/content-final.log",
+      "sha256": "5776436faf8a7c4d808806995134af1adff8096698a0d431a27b06e6704d117b"
+    },
+    {
+      "path": "docs/evidence/github-pages-rebind/first-release/acceptance/final/publication-readiness.json",
+      "sha256": "c79673c16e585ad3e05e59d49ce54bfa1748aa6ecb5bf142f09ef433dfbb9e48"
+    }
+  ]
+}

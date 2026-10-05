@@ -4,14 +4,14 @@
   "route": "/evidence/source-links/",
   "title": "Sources, local labels and limited connections",
   "description": "Document-qualified labels, useful physical connections and their stated limits.",
-  "revision": 1,
+  "revision": 2,
   "kind": "research-status",
   "lang": "en",
   "audience": "technical",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
-  "publicationState": "draft",
-  "publishedAt": null,
-  "updatedAt": "2026-10-05",
+  "publicationState": "published",
+  "publishedAt": "2026-10-05",
+  "updatedAt": "2026-10-05T20:10:35.894Z",
   "sourceRefs": [
     "R-CURRENT-BACKGROUND",
     "R-CURRENT-CATALOGUE",
@@ -32,7 +32,7 @@
   "sourceMapping": "Current 04/06/08 and sources.json; recovered predecessor 08 cases by original DOI. Proposed navigation edges are distinct from source claims.",
   "adapter": "markdown/1",
   "limits": "",
-  "rightsRef": null,
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033",
   "sourceBinding": null
 }
 ---
@@ -70,15 +70,15 @@ Use the source document, its edition and its local label together. In particular
 | 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E20 | [Self-replicating segregation patterns in horizontally vibrated binary mixture of granules](/claims/UT-E120/#e20--self-replicating-segregation-patterns-in-horizontally-vibrated-binary-mixture-of-granules) | :cite[BIB-0083] |
 | 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E21 | [Pattern formation in a Swift-Hohenberg equation with spatially periodic coefficients](/claims/UT-E121/#e21--pattern-formation-in-a-swift-hohenberg-equation-with-spatially-periodic-coefficients) | :cite[BIB-0084] |
 | 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E22 | [Thermodynamics of bouncing grains](/claims/UT-E122/#e22--thermodynamics-of-bouncing-grains) | :cite[BIB-0085] |
-| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E01 | [Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions](/evidence/additional/#e01--he-et-al-2019) | :cite[BIB-0022] |
-| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E02 | [Heteronuclear soliton molecules in optical microresonators](/evidence/additional/#e02--weng-et-al-2020) | :cite[BIB-0024] |
-| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E03 | [Mechanochemical feedback loop drives persistent motion of liposomes](/evidence/additional/#e03--fu-et-al-2023) | :cite[BIB-0026] |
-| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E04 | [De novo synthesized Min proteins drive oscillatory liposome deformation and regulate FtsA-FtsZ cytoskeletal patterns](/evidence/additional/#e04--godino-et-al-2019) | :cite[BIB-0028] |
-| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E05 | [Ion channels enable electrical communication in bacterial communities](/evidence/additional/#e05--prindle-et-al-2015) | :cite[BIB-0030] |
-| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E06 | [Coupling between distant biofilms and emergence of nutrient time-sharing](/evidence/additional/#e06--liu-et-al-2017) | :cite[BIB-0032] |
-| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E07 | [Fractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns](/evidence/additional/#e07--tikhomirov-petersen-and-qian-2017) | :cite[BIB-0034] |
-| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E08 | [Dicke quantum phase transition with a superfluid gas in an optical cavity](/evidence/additional/#e08--baumann-et-al-2010) | :cite[BIB-0036] |
-| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E09 | [Cluster synchronization and isolated desynchronization in complex networks with symmetries](/evidence/additional/#e09--pecora-et-al-2014) | :cite[BIB-0038] |
+| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E01 | Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions (historical reading excluded from this edition) | :cite[BIB-0022] |
+| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E02 | Heteronuclear soliton molecules in optical microresonators (historical reading excluded from this edition) | :cite[BIB-0024] |
+| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E03 | Mechanochemical feedback loop drives persistent motion of liposomes (historical reading excluded from this edition) | :cite[BIB-0026] |
+| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E04 | De novo synthesized Min proteins drive oscillatory liposome deformation and regulate FtsA-FtsZ cytoskeletal patterns (historical reading excluded from this edition) | :cite[BIB-0028] |
+| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E05 | Ion channels enable electrical communication in bacterial communities (historical reading excluded from this edition) | :cite[BIB-0030] |
+| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E06 | Coupling between distant biofilms and emergence of nutrient time-sharing (historical reading excluded from this edition) | :cite[BIB-0032] |
+| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E07 | Fractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns (historical reading excluded from this edition) | :cite[BIB-0034] |
+| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E08 | Dicke quantum phase transition with a superfluid gas in an optical cavity (historical reading excluded from this edition) | :cite[BIB-0036] |
+| 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E09 | Cluster synchronization and isolated desynchronization in complex networks with symmetries (historical reading excluded from this edition) | :cite[BIB-0038] |
 | 04_recursive_background_generation.md · v0.2.1 repository current, promoted 2026-10-05 | C1 | [Possibility-space growth](/framework/recursive-background/#c1--possibility-space-growth) | Claim label, not a bibliographic alias |
 | 04_recursive_background_generation.md · v0.2.1 repository current, promoted 2026-10-05 | C2 | [Timescale hierarchy](/framework/recursive-background/#c2--timescale-hierarchy) | Claim label, not a bibliographic alias |
 | 04_recursive_background_generation.md · v0.2.1 repository current, promoted 2026-10-05 | C3 | [Recursive persistence generates apparent directionality](/framework/recursive-background/#c3--recursive-persistence-generates-apparent-directionality) | Claim label, not a bibliographic alias |
@@ -402,7 +402,7 @@ These papers remain useful supplementary reading. Their former project case labe
 
 ### Predecessor 08 E01 — Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions
 
-:cite[BIB-0022] · [Preserved historical register](/evidence/additional/)
+:cite[BIB-0022] · Preserved historical register (historical reading excluded from this edition)
 
 **Result type:** Experiment with theoretical modelling.. **Relevance:** partial bridge. **Partial-claim connections:** H03, H06, H12.
 
@@ -414,7 +414,7 @@ Pulse-generated acoustic attraction competes with dispersive-wave repulsion; nes
 
 ### Predecessor 08 E02 — Heteronuclear soliton molecules in optical microresonators
 
-:cite[BIB-0024] · [Preserved historical register](/evidence/additional/)
+:cite[BIB-0024] · Preserved historical register (historical reading excluded from this edition)
 
 **Result type:** Experiment with theoretical modelling.. **Relevance:** partial bridge. **Partial-claim connections:** H03, H12.
 
@@ -426,7 +426,7 @@ Pulses of different carrier frequencies and amplitudes coexist in a bound optica
 
 ### Predecessor 08 E03 — Mechanochemical feedback loop drives persistent motion of liposomes
 
-:cite[BIB-0026] · [Preserved historical register](/evidence/additional/)
+:cite[BIB-0026] · Preserved historical register (historical reading excluded from this edition)
 
 **Result type:** Experiment plus reduced mechanochemical model.. **Relevance:** partial bridge. **Partial-claim connections:** H03, H06, H17.
 
@@ -438,7 +438,7 @@ Protein gradients deform liposomes, and changed geometry redistributes proteins,
 
 ### Predecessor 08 E04 — De novo synthesized Min proteins drive oscillatory liposome deformation and regulate FtsA-FtsZ cytoskeletal patterns
 
-:cite[BIB-0028] · [Preserved historical register](/evidence/additional/)
+:cite[BIB-0028] · Preserved historical register (historical reading excluded from this edition)
 
 **Result type:** Experiment.. **Relevance:** component / analogy. **Partial-claim connections:** H03, H17.
 
@@ -450,7 +450,7 @@ Newly synthesized Min proteins develop collective patterns accompanied by liposo
 
 ### Predecessor 08 E05 — Ion channels enable electrical communication in bacterial communities
 
-:cite[BIB-0030] · [Preserved historical register](/evidence/additional/)
+:cite[BIB-0030] · Preserved historical register (historical reading excluded from this edition)
 
 **Result type:** Experiment with interventions.. **Relevance:** component / analogy. **Partial-claim connections:** H04, H06, H17.
 
@@ -462,7 +462,7 @@ Potassium-channel signalling couples metabolism and electrical communication wit
 
 ### Predecessor 08 E06 — Coupling between distant biofilms and emergence of nutrient time-sharing
 
-:cite[BIB-0032] · [Preserved historical register](/evidence/additional/)
+:cite[BIB-0032] · Preserved historical register (historical reading excluded from this edition)
 
 **Result type:** Experiment testing a coupled-oscillator prediction.. **Relevance:** component / analogy. **Partial-claim connections:** H04, H09, H17.
 
@@ -474,7 +474,7 @@ Distant existing biofilms coordinate nutrient use through electrical signalling 
 
 ### Predecessor 08 E07 — Fractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns
 
-:cite[BIB-0034] · [Preserved historical register](/evidence/additional/)
+:cite[BIB-0034] · Preserved historical register (historical reading excluded from this edition)
 
 **Result type:** Engineered molecular self-assembly experiment.. **Relevance:** structural analogy. **Partial-claim connections:** H11, H12.
 
@@ -486,7 +486,7 @@ Designed DNA assemblies become building units for later staged assemblies.
 
 ### Predecessor 08 E08 — Dicke quantum phase transition with a superfluid gas in an optical cavity
 
-:cite[BIB-0036] · [Preserved historical register](/evidence/additional/)
+:cite[BIB-0036] · Preserved historical register (historical reading excluded from this edition)
 
 **Result type:** Quantum-gas experiment with quantitative threshold comparison.. **Relevance:** partial bridge. **Partial-claim connections:** H03, H06.
 
@@ -498,7 +498,7 @@ Atoms and a supplied cavity field self-organize through reciprocal feedback. Thi
 
 ### Predecessor 08 E09 — Cluster synchronization and isolated desynchronization in complex networks with symmetries
 
-:cite[BIB-0038] · [Preserved historical register](/evidence/additional/)
+:cite[BIB-0038] · Preserved historical register (historical reading excluded from this edition)
 
 **Result type:** Mathematical derivation plus electro-optic experiment.. **Relevance:** method context. **Partial-claim connections:** H03, H04.
 

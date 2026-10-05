@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D02",
+  "fingerprint": "205e4c125b7fff12cdba1ba9b6555dc22914b4d2f0c7b45f4f932fb545474842",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T20:11:05.593Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D02.json, SHA-256 e4ac0dd2eaecc48c58b0815cefeb01e153a933d8265cbefc9820cc2af8e3327c, remains preserved.",
+  "inputs": {
+    "fingerprint": "205e4c125b7fff12cdba1ba9b6555dc22914b4d2f0c7b45f4f932fb545474842",
+    "ownRead": {
+      "id": "UT-D02",
+      "route": "/claims/UT-D02/",
+      "title": "Mode structure",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 2,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 16,
+        "endLine": 24,
+        "excerptSha256": "2a796e231760733d9076357e12a40973ea228e3a38d41c432dde2cb19f008c0e"
+      },
+      "statement": "## 2. Frequency / mode structure \\(M\\)\n\nIn RRG, **frequency** is shorthand for the system's full temporal mode organization, not one scalar value in hertz:\n\n\\[\nM=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}.\n\\]\n\nA scalar frequency alone is never assumed to uniquely determine a geometry.\n",
+      "plainLanguage": "Mode structure includes rhythms, phases, coupling, response and characteristic times, rather than one number in hertz.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+        "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+        "plainLanguageSha256": "4046559d07ccab1c1872659f6c0463705fd173f1ade64ba0d5a80f47172e282d",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D02.json, SHA-256 e4ac0dd2eaecc48c58b0815cefeb01e153a933d8265cbefc9820cc2af8e3327c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D02.json, SHA-256 e4ac0dd2eaecc48c58b0815cefeb01e153a933d8265cbefc9820cc2af8e3327c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: A locked RRG meaning; a definition is not an experimental finding. No new experimental inputs, causal stages or equation-family requirement was introduced. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D02.json, SHA-256 e4ac0dd2eaecc48c58b0815cefeb01e153a933d8265cbefc9820cc2af8e3327c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "hypotheses": "Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Scientific role definition, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D02.json, SHA-256 e4ac0dd2eaecc48c58b0815cefeb01e153a933d8265cbefc9820cc2af8e3327c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "evidenceDescriptions": "Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D02.json, SHA-256 e4ac0dd2eaecc48c58b0815cefeb01e153a933d8265cbefc9820cc2af8e3327c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "openQuestions": "Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D02.json, SHA-256 e4ac0dd2eaecc48c58b0815cefeb01e153a933d8265cbefc9820cc2af8e3327c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. 00_LOCKED_CORE.md §2; new navigation ID, source has no UT ID. No personal identity, rights, author-public-wording or release authorization is inferred. Current review: The owner-approved author, dedicated project contact and citation URL are recorded; source-role, edition and supplementary attribution remain unchanged. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D02.json, SHA-256 e4ac0dd2eaecc48c58b0815cefeb01e153a933d8265cbefc9820cc2af8e3327c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D02.json. Retained semantic finding: Compared core §2 raw slice and plain-language rendering. M retains frequency, phase, amplitude, spatial pattern, propagation, coupling, characteristic times and response. Scalar hertz does not uniquely determine geometry. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/UT-D02.json, SHA-256 e4ac0dd2eaecc48c58b0815cefeb01e153a933d8265cbefc9820cc2af8e3327c, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open."
+  }
+}

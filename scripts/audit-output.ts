@@ -63,7 +63,11 @@ export function auditOutput(directory: string) {
   for (const file of files) {
     if (!allowed.test(file) && !routeFiles.includes(file) && !search.files.some((f:{path:string})=>f.path===file)) throw new ContractError('UNEXPECTED_OUTPUT', file);
   }
+  const approvedMailContact = publicationCredit().approvedContact?.url;
   function targetOf(href: string, from: string, resource = false) {
+    // Only the recorded public contact may be used as a mail link; it is never
+    // an asset destination and arbitrary mail addresses remain refused.
+    if (!resource && href.startsWith('mailto:') && href === approvedMailContact) return null;
     const url = new URL(href, `https://output.invalid${from}`);
     if (url.username || url.password) throw new ContractError('UNSAFE_OUTPUT_URL', href);
     if (url.origin !== 'https://output.invalid' && url.origin !== info.config.origin) {

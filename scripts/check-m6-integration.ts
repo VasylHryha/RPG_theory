@@ -40,7 +40,7 @@ try {
   }
   const search=await indexSearch(fixtureDir,{entries:indexedEntries,manifestSha256:sha256('isolated synthetic selection')},actual.base);
   assert.equal(search.inputs.length,200);
-  writeFileSync(join(fixtureDir,'search/index.html'),readFileSync(join(dir,'search/index.html'),'utf8').replace('data-count="0"','data-count="200"').replace('<h1>Search and browse</h1>','<h1>Search and browse</h1><p>SYNTHETIC SEARCH MECHANICS ONLY — no approval or research result.</p>'));
+  writeFileSync(join(fixtureDir,'search/index.html'),readFileSync(join(dir,'search/index.html'),'utf8').replace(/data-count="\d+"/,'data-count="200"').replace('<h1>Search and browse</h1>','<h1>Search and browse</h1><p>SYNTHETIC SEARCH MECHANICS ONLY — no approval or research result.</p>'));
   const fixtureInfo={...actual.info,corpusScope:'synthetic',deployEligible:false,currentSourceQualified:false};writeFileSync(join(fixtureDir,'build-info.json'),JSON.stringify(fixtureInfo));
   summary.stress={status:'PASS',documents:100,records:100,syntheticReferences:100,indexedReadings:200,elapsedMs:Math.round(performance.now()-start),maxRSSKiB:process.resourceUsage().maxRSS,runner:'local; CI NOT_RUN',checks:'shared corpus validation → render 200 bodies incl 10000-word/20-equation/wide-table/long-title controls → native Pagefind build',fixtureOnly:true};
   const synthetic=await serveOutput(fixtureDir);
@@ -52,7 +52,9 @@ try {
         await page.goto(actual.origin+actual.base);await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Framework',exact:true}).click();
         assert(await page.locator('math').count()>0);await page.goto(actual.origin+actual.base+'math/');assert(await page.locator('math').count()>50);
         assert(await page.locator('.fbox').first().evaluate(el=>el.getBoundingClientRect().width)>20);
-        await page.goto(actual.origin+actual.base+'search/');await page.locator('#search-query').fill('geometry');await page.locator('button[type="submit"]').click();await page.getByRole('status').filter({hasText:'No published readings'}).waitFor();
+        await page.goto(actual.origin+actual.base+'search/');await page.locator('#search-query').fill('geometry');await page.locator('button[type="submit"]').click();await page.locator('#search-results li').first().waitFor();
+        const actualHref=await page.locator('#search-results a').first().getAttribute('href');assert(actualHref?.startsWith(actual.origin+actual.base));
+        await page.locator('#search-results a').first().click();assert(await page.locator('[data-canonical-body]').count()===1);
         await page.goto(synthetic.origin+synthetic.base+'search/');
         for(const query of ['geometry','mode','environmental conditions','stability','effective interactions']) {
           await page.locator('#search-query').fill(query);await page.locator('button[type="submit"]').click();await page.locator('#search-results li').first().waitFor();
@@ -65,7 +67,7 @@ try {
         await page.locator('#search-query').fill('geometry');await page.locator('button[type="submit"]').click();await page.locator('#search-results li').first().waitFor();
         await page.screenshot({path:join(evidence,`${suffix}-${name}-synthetic-search.png`),fullPage:false});assert.deepEqual(errors,[]);
         const broken=await browser.newPage();await broken.route('**/pagefind/**',route=>route.abort());await broken.goto(synthetic.origin+synthetic.base+'search/');await broken.locator('#search-query').fill('geometry');await broken.locator('button[type="submit"]').click();await broken.getByRole('status').filter({hasText:'Search is unavailable'}).waitFor();assert(await broken.locator('[data-search-fallback]').isVisible());await broken.close();
-        summary.browserSmoke.push({engine:name,version:browser.version(),status:'PASS',actual:'navigation/math/pending search',synthetic:'five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls'});
+        summary.browserSmoke.push({engine:name,version:browser.version(),status:'PASS',actual:'navigation/math/real geometry search and destination',synthetic:'five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls'});
       }finally{await browser.close();}
     }
   }finally{synthetic.server.close();}
@@ -94,7 +96,7 @@ try {
       }
     }finally{chrome.kill();}
   } else summary.lighthouse='Root home/math diagnostic only; no duplicate subpath run';
-  const actualSelection=publicationFor('preview',actual.info.config);assert.deepEqual(actualSelection.manifest.searchIds,[]);
+  const actualSelection=publicationFor('preview',actual.info.config);assert.equal(actualSelection.manifest.searchIds.length,68);
   const reviewStates=Object.fromEntries(['accepted','pending','stale','rejected'].map(state=>[state,[...actualSelection.corpus.entries.values()].filter(e=>websiteReviewState(actualSelection.corpus,e.id)===state).length]));
   summary.actualIndex={publishedReadings:actualSelection.manifest.searchIds.length,reviewStates,qualified:actualSelection.admission.currentSourceQualified,deployEligible:actual.info.deployEligible};
   summary.status='PASS';

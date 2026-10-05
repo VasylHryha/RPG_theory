@@ -9,8 +9,8 @@
   "lang": "en",
   "audience": "technical",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
-  "publicationState": "draft",
-  "publishedAt": null,
+  "publicationState": "published",
+  "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CATALOGUE",
@@ -54,7 +54,7 @@
   "sourceMapping": "Selected v0.2.1 companion, evidence catalogue and claim coverage; source-reported findings and limits.",
   "adapter": "markdown/1",
   "limits": "",
-  "rightsRef": null
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
 ## Read the evidence in context

@@ -1,0 +1,78 @@
+
+Running 4 tests using 1 worker
+
+(node:25956) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/e2e/integration.spec.ts:4:1 › M6 launch search returns real readings with keyboard controls and no-JS browsing (1ms)
+(node:25961) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/e2e/publication-policy.spec.ts:4:1 › M5 approved About/contact and scoped research rights journey works without JavaScript and dependency notice is downloadable (0ms)
+(node:25963) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 tests/e2e/publication-policy.spec.ts:18:1 › M5 policy pages and expanded footer reflow at 320px with no axe violations (1ms)
+(node:25973) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 tests/e2e/publication.spec.ts:8:1 › M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing (1ms)
+
+
+  1) tests/e2e/integration.spec.ts:4:1 › M6 launch search returns real readings with keyboard controls and no-JS browsing 
+
+    Error: browserType.launch: Failed to launch chromium because executable doesn't exist at /Users/new/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell
+
+    Error Context: docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/integration-M6-launch-sear-6854d-controls-and-no-JS-browsing/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/integration-M6-launch-sear-6854d-controls-and-no-JS-browsing/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/integration-M6-launch-sear-6854d-controls-and-no-JS-browsing/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/publication-policy.spec.ts:4:1 › M5 approved About/contact and scoped research rights journey works without JavaScript and dependency notice is downloadable 
+
+    Error: browserType.launch: Failed to launch chromium because executable doesn't exist at /Users/new/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell
+
+    Error Context: docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/publication-policy-M5-appr-94d8f-ency-notice-is-downloadable/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/publication-policy-M5-appr-94d8f-ency-notice-is-downloadable/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/publication-policy-M5-appr-94d8f-ency-notice-is-downloadable/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests/e2e/publication-policy.spec.ts:18:1 › M5 policy pages and expanded footer reflow at 320px with no axe violations 
+
+    Error: browserType.launch: Failed to launch chromium because executable doesn't exist at /Users/new/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell
+
+    Error Context: docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/publication-policy-M5-poli-9c7af-20px-with-no-axe-violations/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/publication-policy-M5-poli-9c7af-20px-with-no-axe-violations/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/publication-policy-M5-poli-9c7af-20px-with-no-axe-violations/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) tests/e2e/publication.spec.ts:8:1 › M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing 
+
+    Error: browserType.launch: Failed to launch chromium because executable doesn't exist at /Users/new/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell
+
+    Error Context: docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/publication-M4-library-art-ab768-IP-download-and-RSS-parsing/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/publication-M4-library-art-ab768-IP-download-and-RSS-parsing/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/evidence/github-pages-rebind/first-release/acceptance/final/root/browser-traces/root/publication-M4-library-art-ab768-IP-download-and-RSS-parsing/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    tests/e2e/integration.spec.ts:4:1 › M6 launch search returns real readings with keyboard controls and no-JS browsing 
+    tests/e2e/publication-policy.spec.ts:4:1 › M5 approved About/contact and scoped research rights journey works without JavaScript and dependency notice is downloadable 
+    tests/e2e/publication-policy.spec.ts:18:1 › M5 policy pages and expanded footer reflow at 320px with no axe violations 
+    tests/e2e/publication.spec.ts:8:1 › M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing 
