@@ -997,3 +997,355 @@ Let \(q\) be a collective geometric coordinate. Then:
 \]
 
 A stable geometry satisfies:
+
+\[
+\boxed{\frac{\partial\Gamma_k}{\partial q}=0}
+\]
+
+Near a stable state:
+
+\[
+\Gamma_k(q)\approx\Gamma_k(q_*)+\frac12(q-q_*)^T H_k(q-q_*)
+\]
+
+with:
+
+\[
+\boxed{H_k=\frac{\partial^2\Gamma_k}{\partial q^2}}
+\]
+
+Normal modes satisfy:
+
+\[
+\boxed{H_k u_n=\lambda_n u_n}
+\]
+
+After accounting for the kinetic metric/mass matrix \(M_q\):
+
+\[
+\boxed{\omega_n^2=\operatorname{eig}(M_q^{-1}H_k)}
+\]
+
+Therefore stable geometry, restoring interaction, and resonant frequencies are three properties of the same local effective-action landscape:
+
+\[
+\boxed{\Gamma_k\Rightarrow\{G_k,F_k,\Omega_k\}}
+\]
+
+## 29. Latent interaction channels
+
+Write:
+
+\[
+\boxed{\Gamma_k=\Gamma_{0,k}+\sum_\alpha g_\alpha(k)\mathcal O_\alpha}
+\]
+
+Scale changes the couplings:
+
+\[
+\boxed{k\frac{dg_\alpha}{dk}=\beta_\alpha(\{g\})}
+\]
+
+An interaction channel can therefore be negligible at one scale and important at another.
+
+This mathematically captures the intuition that an interaction may be “available” but only become dynamically visible/dominant once the scale, geometry, and mode structure make its coupling relevant.
+
+## 30. When a new geometry appears
+
+A new collective structure often appears when a fluctuation channel becomes soft/unstable.
+
+Let \(\Gamma_k^{(2)}\) be the second functional derivative. In channel \(\alpha\), suppose:
+
+\[
+\boxed{\lambda_{\min}^{(\alpha)}(k)\rightarrow0}
+\]
+
+Then fluctuations in that mode become large. If the eigenvalue changes sign:
+
+\[
+\lambda_{\min}^{(\alpha)}<0
+\]
+
+the old state is unstable and the system reorganizes. A new order parameter/composite field can acquire:
+
+\[
+\boxed{\langle\Phi_\alpha\rangle\neq0}
+\]
+
+This is the mathematical version of:
+
+\[
+\boxed{
+\text{old geometry}
+\rightarrow
+\text{soft resonant mode}
+\rightarrow
+\text{reorganization}
+\rightarrow
+\text{new stable geometry}
+}
+\]
+
+## 31. Functional RG supplies the scale evolution
+
+Use:
+
+\[
+\boxed{
+k\partial_k\Gamma_k
+=
+\frac12\operatorname{STr}
+\left[(\Gamma_k^{(2)}+R_k)^{-1}k\partial_kR_k\right]
+}
+\]
+
+This integrates out progressively shorter/faster fluctuations and produces the larger-scale effective action.
+
+When a long-lived composite mode appears, promote it to an explicit field/node and continue the flow.
+
+## 32. The RRG recursion with interaction channels
+
+At scale \(n\):
+
+\[
+\Gamma_n\Rightarrow(G_n,M_n,\{g_{\alpha,n}\}).
+\]
+
+A collective channel becomes stable:
+
+\[
+\lambda_{\min}^{(\alpha)}\rightarrow0\rightarrow\Phi_\alpha\neq0.
+\]
+
+That produces a new effective object \(R_{n+1}\). Coarse-grain:
+
+\[
+\Gamma_n\rightarrow\Gamma_{n+1}.
+\]
+
+Then:
+
+\[
+\Gamma_{n+1}\Rightarrow(G_{n+1},M_{n+1},\{g_{\alpha,n+1}\}).
+\]
+
+So:
+
+\[
+\boxed{
+\Gamma_n
+\rightarrow
+\text{stable resonant geometry}
+\rightarrow
+\text{composite promotion}
+\rightarrow
+\Gamma_{n+1}
+\rightarrow\cdots
+}
+\]
+
+## 33. Relation to known forces
+
+RRG should treat known forces as constraints/examples, not pre-assigned layers.
+
+- **Strong interaction:** QCD coupling is strongly scale dependent; quarks/gluons are useful high-energy variables, hadrons useful low-energy composites.
+- **Electroweak:** the Higgs vacuum changes the effective low-energy spectrum; massive \(W/Z\), massless photon, hence very different ranges.
+- **Electromagnetism:** long-range massless photon sector; neutral matter can strongly screen/cancel electric effects at large scales.
+- **Gravity:** present at all known scales but dominant for large astronomical systems. Whether it emerges as a collective spin-2/geometric channel remains open.
+
+A 2026 FRG study demonstrates that dynamical tensor composite fields with an Einstein-Hilbert-like quadratic structure can emerge in prototype microscopic models. This shows mathematical possibility, not a derivation of real gravity from RRG.
+
+## 34. Immediate mathematical target
+
+Use at least two competing channels:
+
+\[
+\Gamma_k=\Gamma_{\rm base}+g_1(k)\mathcal O_1+g_2(k)\mathcal O_2+U_k.
+\]
+
+Desired behavior:
+
+1. At high scale, neither channel forms a stable composite.
+2. Under RG, \(g_1\) becomes relevant.
+3. Stable resonator \(R_1\) forms.
+4. Promote \(R_1\) to an effective node/field.
+5. Continue RG.
+6. At a larger scale, \(g_2\) or a newly generated composite channel becomes relevant.
+7. Stable resonator \(R_2\) forms.
+8. The same geometry–force–frequency relation remains valid.
+
+If this occurs for multiple levels without hand-authoring each transition, it directly tests the distinctive RRG claim.
+
+
+---
+
+# v0.1b Addendum — Background-Dependent Recursive Action
+
+## 35. Add the evolving background
+
+The effective action should depend not only on scale \(k\) but on a background/environment \(B(t)\):
+
+\[
+\boxed{
+\Gamma_k[D,\Psi;B(t)]
+}
+\]
+
+A minimal decomposition is:
+
+\[
+\boxed{
+\Gamma_k
+=
+\Gamma_{\mathrm{geom},k}[D;B]
++
+\langle\Psi,\mathcal K_k(D;B)\Psi\rangle
++
+U_k[\Psi;B]
++
+\sum_\alpha g_\alpha(k,B)\mathcal O_\alpha[D,\Psi;B].
+}
+\]
+
+The background can change which stationary solutions and interaction channels are stable.
+
+## 36. Background-dependent stable set
+
+Define:
+
+\[
+\boxed{
+\mathcal S_{k,B}
+=
+\left\{
+R=(D,\Psi):
+\frac{\delta\Gamma_k}{\delta R}=0,
+\;\sigma(\Gamma_k^{(2)})\;\text{is stable}
+\right\}.
+}
+\]
+
+As \(B\) evolves:
+
+\[
+\boxed{
+\mathcal S_{k,B_1}\neq\mathcal S_{k,B_2}
+}
+\]
+
+can occur even though the underlying functional form remains the same.
+
+This gives the theory a mathematically precise notion of “previously inaccessible geometry becomes possible”.
+
+## 37. A scale is an effective resonant regime
+
+For a persistent collective mode \(R_n\), define characteristic quantities:
+
+\[
+\boxed{
+\mathcal L_n=
+\{L_n,\tau_n,\Omega_n,\{g_{\alpha,n}\},B_n\}.
+}
+\]
+
+A new scale exists when:
+
+1. a collective mode is long lived compared with its internal timescale,
+2. a reduced set of variables predicts its interactions with bounded error,
+3. the coarse-grained action closes approximately within the same functional family.
+
+This makes “scale” an emergent modelling regime rather than merely a length interval.
+
+## 38. Revised RRG closure condition
+
+Let \(\Phi_{k,B}^t\) denote evolution under \(\Gamma_k[\cdot;B]\), and let \(\mathcal R\) coarse-grain a stable collective structure.
+
+RRG seeks:
+
+\[
+\boxed{
+\mathcal R\!\left(\Phi_{k,B}^t(R)\right)
+\approx
+\Phi_{k',B'}^t\!\left(\mathcal R(R)\right)
+}
+\]
+
+with \(\Phi_{k',B'}\) generated by the **same class of effective action**, but with renormalized couplings and possibly a new background produced by the higher-level structure.
+
+The full recursion is therefore:
+
+\[
+\boxed{
+(\Gamma_n,B_n)
+\rightarrow
+R_n
+\rightarrow
+\mathcal R
+\rightarrow
+(\Gamma_{n+1},B_{n+1})
+\rightarrow
+R_{n+1}.
+}
+\]
+
+## 39. Geometry, force, and mode remain one local object
+
+For collective coordinates \(q\):
+
+\[
+\boxed{
+\frac{\partial\Gamma}{\partial q}=0
+}
+\]
+
+defines a stationary geometry,
+
+\[
+\boxed{
+F_q=-\frac{\partial\Gamma}{\partial q}
+}
+
+defines the restoring/driving interaction, and
+
+\[
+\boxed{
+\omega_n^2
+=
+\operatorname{eig}\!\left(M_q^{-1}\frac{\partial^2\Gamma}{\partial q^2}\right)
+}
+\]
+
+defines the local collective mode spectrum.
+
+Thus RRG's core statement is represented mathematically as:
+
+\[
+\boxed{
+\Gamma_k
+\Rightarrow
+\{G_k,F_k,M_k\}
+}
+\]
+
+rather than treating geometry, force, and frequency as independent primitives.
+
+## 40. Next concrete calculation
+
+Construct the smallest explicit \(\Gamma_k\) with:
+
+- one background parameter \(B\) that changes slowly,
+- two competing interaction channels \(g_1\mathcal O_1\) and \(g_2\mathcal O_2\),
+- nonlinear terms that permit several stable branches,
+- a calculable fluctuation spectrum,
+- an RG/coarse-graining step.
+
+Required outcome:
+
+1. At \(B=B_0\), only lower-level resonators are stable.
+2. As \(B\) or \(k\) changes, a collective mode softens.
+3. A new stable resonator forms without being specified in advance.
+4. That resonator is promoted to an effective field/node.
+5. The same action family then produces a second transition.
+
+This is now the minimum mathematical experiment that tests the combined RRG claims of geometry–mode closure, background selection, and recursive scale formation.
+
