@@ -5,7 +5,7 @@
 **Audited companion date:** 2026-10-02  
 **Locked-core status:** carried forward unchanged from the prior repository edition.
 
-Only files listed under **Active files** define the active repository source set. Supporting files under `archive/`, `foundations/`, and `checks/` are bundled provenance/audit material and are not additional active definitions.
+Only files listed under **Active files** define the active repository source set. Supporting files under `foundations/` and `checks/` are bundled provenance/audit material and are not additional active definitions. The audited package's internal archive remains preserved in GPT Library.
 
 ## Active files
 
@@ -28,6 +28,5 @@ Only files listed under **Active files** define the active repository source set
 
 - `foundations/` — byte-preserved older foundation snapshots from the audited v0.2.1 package plus their errata.
 - `checks/` — v0.2.1 deterministic spot-check and package-validation records/scripts.
-- `archive/` — prior companion text included with the audited package; older repository-current source bytes are separately preserved under `research/history/repository-current-2026-10-01/`.
 
 The old active files `04_status_and_blockers.md`, `06_PROOF_MATRIX.md`, `07_EMERGENT_INTERACTION_EVIDENCE.md`, `07_UPDATE_MANIFEST.json`, and `08_ADDITIONAL_PRIMARY_EVIDENCE.md` are superseded by this promotion and are not members of the current manifest.
