@@ -169,3 +169,4 @@ A **scale** is provisionally defined as a self-consistent geometry–mode regime
 \]
 
 with lower-level modes remaining active internally while the higher-level collective mode becomes the effective interaction language of the next level.
+
