@@ -1,13 +1,16 @@
 # Start here
 
-Read the [sole R4 execution plan](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md)
-for current milestone status and remaining deliverables. Read **§0.27 first**:
-use normal development and bounded High acceptance with checks proportionate to
-this informational website. No hours of hardening for tiny progress; full-site
-verification belongs at M6. M2 is accepted at §0.28; M3 is REVIEW_READY at §0.29 for separate bounded High acceptance.
-Older instructions for repeated rechecks are historical.
+The repository's selected scientific source is now **RRG v0.2.1 repository current**, promoted on 5 October 2026 from the audited 2 October companion.
 
-[README](README.md) contains local run/check commands. The
-[source-intake receipt](docs/evidence/m0/source-intake.md) describes the actual
-owner-supplied current edition. The handoff folder and both original ZIPs are
-provenance inputs, outside the website output.
+Read in this order:
+
+1. [RRG current source authority](research/RRG_CURRENT/SOURCE_AUTHORITY.md) — what is core, carried forward, newly promoted and historical.
+2. [RRG current manifest](research/RRG_CURRENT/CURRENT_MANIFEST.md) — exact active document set.
+3. [R4 implementation plan](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md) — sole website/release tracker; read §0.27 and §0.39 first.
+4. [README](README.md) — repository status and local commands.
+
+The previous repository-current source set is preserved under `research/history/repository-current-2026-10-01/`; it is no longer active authority.
+
+**Current work is not another source-selection pass.** The source replacement is complete. The next task is to rebind website source keys/records/citations and evidence IDs to v0.2.1, then run one fresh bounded fidelity/M6 qualification pass.
+
+The GitHub repository is public, but Pages/publication qualification is still blocked. Do not publish an old preview artifact or treat predecessor fidelity receipts as acceptance of v0.2.1.
