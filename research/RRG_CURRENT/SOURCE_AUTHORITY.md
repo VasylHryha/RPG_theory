@@ -12,7 +12,7 @@ The owner has explicitly selected the audited v0.2.1 documents to replace the pr
 2. `05_CHANGE_CONTROL.md` remains the core-change protocol and is carried forward unchanged.
 3. `01_world_explanation.md`, `02_scientific_framework.md`, and `03_mathematical_core.md` remain the repository's carried-forward current foundation documents until explicitly revised. The v0.2.1 package's byte-preserved older foundation snapshots are retained separately under `foundations/` for provenance and comparison; they do not replace the newer repository foundation documents.
 4. `04_recursive_background_generation.md`, `05_mathematical_source_model.md`, `06_evidence_catalog.md`, `07_audit_report.md`, `08_claim_coverage.md`, `README.md`, `CHANGELOG.md`, and `sources.json` are the promoted audited v0.2.1 publication/evidence companion.
-5. Files under `archive/`, `foundations/`, and `checks/` are supporting provenance/audit material, not additional normative definitions.
+5. Files under `foundations/` and `checks/` are supporting provenance/audit material, not additional normative definitions. The audited package's internal archive remains preserved in GPT Library rather than duplicated into the active source tree.
 
 ## Replacement boundary
 
