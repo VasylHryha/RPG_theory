@@ -1,0 +1,15 @@
+{"status":"PASS","publicReady":false,"repositorySelection":"NOT_SELECTED","privateOrUnapprovedPaths":2734,"screenFindings":0,"deploymentGates":["MANUAL_MAIN_DEPLOYMENT_REQUIRED","PUBLIC_TARGET_REQUIRED","PUBLIC_TARGET_NOT_AUTHORIZED","PUBLIC_CREDIT_DECISION_REQUIRED","PERMANENT_URL_REQUIRED","RIGHTS_DECISION_REQUIRED","SCOPED_RIGHTS_REVIEW_REQUIRED","PUBLIC_CONTENT_APPROVAL_REQUIRED","PUBLIC_REPOSITORY_PRIVACY_REVIEW_REQUIRED","CURRENT_SOURCE_NOT_QUALIFIED","M6_RELEASE_QUALIFICATION_REQUIRED","DEPLOYMENT_DISABLED"],"platformProtections":"NOT_CONFIGURED"}
+/Users/new/RiderProjects/RPG_theory/src/lib/publication-policy.ts:83
+  if(gates.length)throw new ContractError(gates[0],gates.join(', '));
+                        ^
+
+ContractError: MANUAL_MAIN_DEPLOYMENT_REQUIRED: MANUAL_MAIN_DEPLOYMENT_REQUIRED, PUBLIC_TARGET_REQUIRED, PUBLIC_TARGET_NOT_AUTHORIZED, PUBLIC_CREDIT_DECISION_REQUIRED, PERMANENT_URL_REQUIRED, RIGHTS_DECISION_REQUIRED, SCOPED_RIGHTS_REVIEW_REQUIRED, PUBLIC_CONTENT_APPROVAL_REQUIRED, PUBLIC_REPOSITORY_PRIVACY_REVIEW_REQUIRED, CURRENT_SOURCE_NOT_QUALIFIED, M6_RELEASE_QUALIFICATION_REQUIRED, DEPLOYMENT_DISABLED
+    at assertDeploymentAllowed (/Users/new/RiderProjects/RPG_theory/src/lib/publication-policy.ts:83:25)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/check-publication.ts:28:3)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'MANUAL_MAIN_DEPLOYMENT_REQUIRED'
+}
+
+Node.js v24.18.0

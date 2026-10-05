@@ -1,0 +1,50 @@
+{
+  "head": "6d291e63377597bf9f54542143f12e902aff9904",
+  "inputs": {
+    "inputsSha256": "8c8a8fb2237d214f7ff2bcbfe97879fb50c8bb867f4e8e28e9781b0a58172455",
+    "lockfileSha256": "bed1c6ee69510c10ef2c541f561d26536fd5415e4df351a8d4f8c1d8e1e36cb0",
+    "contentSha256": "a71c49e67009d7d1a41525d00afa96f34ccc62912377d4fb7bb0d965411594fc"
+  },
+  "bases": [
+    {
+      "base": "root",
+      "status": "PASS",
+      "files": 204,
+      "html": 65,
+      "artifactSha256": "f42a570b142fb3d23cb82222b65ad1cc9940ecf8111c34b524fc756e37d19eab",
+      "changedFromM6": [
+        "build-info.json",
+        "cite/index.html",
+        "downloads/SHA256SUMS",
+        "downloads/release.json",
+        "downloads/unity-theory-publication-site-2026.10.05-m6-private-preview.zip"
+      ],
+      "sourceCommit": "6d291e63377597bf9f54542143f12e902aff9904",
+      "workspaceDirty": true
+    },
+    {
+      "base": "subpath",
+      "status": "PASS",
+      "files": 204,
+      "html": 65,
+      "artifactSha256": "2bebab862ce104d5386f7e8c9b68f7d86b8a2932f088d7d2933c685d7ca30c5f",
+      "changedFromM6": [
+        "build-info.json",
+        "cite/index.html",
+        "downloads/SHA256SUMS",
+        "downloads/release.json",
+        "downloads/unity-theory-publication-site-2026.10.05-m6-private-preview.zip"
+      ],
+      "sourceCommit": "6d291e63377597bf9f54542143f12e902aff9904",
+      "workspaceDirty": true
+    }
+  ],
+  "baselineChanges": [
+    ".github/workflows/site.yml",
+    ".gitignore",
+    ".idea/.idea.RPG_theory/.idea/workspace.xml",
+    "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+    "package.json",
+    "scripts/seal-deployment.ts"
+  ]
+}

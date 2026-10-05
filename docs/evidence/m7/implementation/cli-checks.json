@@ -1,0 +1,36 @@
+[
+  {
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/verify-live.ts",
+      "--release",
+      "docs/evidence/m6/acceptance/root-artifact.json",
+      "--seal",
+      "docs/evidence/m6/acceptance/identity-check.json",
+      "--evidence-dir",
+      "docs/evidence/m7/implementation/live-refusal"
+    ],
+    "exitCode": 1,
+    "reason": "PUBLIC_TARGET_REQUIRED",
+    "result": "PASS_EXPECTED_REFUSAL",
+    "publicAction": "NONE"
+  },
+  {
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/seal-deployment.ts",
+      "--dir",
+      "dist/m6/acceptance-root",
+      "--evidence-dir",
+      "docs/evidence/m7/runtime"
+    ],
+    "exitCode": 1,
+    "reason": "MANUAL_MAIN_DEPLOYMENT_REQUIRED",
+    "result": "PASS_EXPECTED_REFUSAL",
+    "publicAction": "NONE"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "release-refusal",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/build.ts",
+      "--mode",
+      "release",
+      "--output",
+      "dist/m6/acceptance-refused-release"
+    ],
+    "env": {},
+    "exitCode": 1,
+    "expectedReason": "CURRENT_SOURCE_NOT_QUALIFIED",
+    "status": "PASS_EXPECTED_REFUSAL"
+  },
+  {
+    "name": "pr-refusal",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/check-publication.ts",
+      "--require-deploy",
+      "true",
+      "--evidence-dir",
+      "docs/evidence/m6/acceptance/pr-refusal"
+    ],
+    "env": {
+      "GITHUB_EVENT_NAME": "pull_request",
+      "GITHUB_REF": "refs/pull/1/merge"
+    },
+    "exitCode": 1,
+    "expectedReason": "MANUAL_MAIN_DEPLOYMENT_REQUIRED",
+    "status": "PASS_EXPECTED_REFUSAL"
+  },
+  {
+    "name": "seal-refusal",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/seal-deployment.ts",
+      "--dir",
+      "dist/m6/acceptance-root"
+    ],
+    "env": {},
+    "exitCode": 1,
+    "expectedReason": "MANUAL_MAIN_DEPLOYMENT_REQUIRED",
+    "status": "PASS_EXPECTED_REFUSAL"
+  }
+]

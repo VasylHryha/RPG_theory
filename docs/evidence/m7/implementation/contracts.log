@@ -1,0 +1,14 @@
+✔ M5 actual workflow is read-only for PRs and manual artifact-bound for deploy; privileged PR mutation refuses (32.77925ms)
+✔ M7 live transport matches every qualified file, Git/input/seal identity and true 404 at both bases (24.662542ms)
+✔ M7 live verification refuses actual private target and private/forged receipts before network access (1.744583ms)
+✔ M7 live byte drift, redirects, mismatched same-run seal and soft 404 all fail (6.626375ms)
+✔ M7 refuses bound-but-dirty or fixture build identities rather than qualifying their self-description (0.973042ms)
+✔ M7 prepare receipts use the narrow ignored evidence directory; issued tracked evidence still makes Git dirty (140.035416ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 606.6175

@@ -1,0 +1,83 @@
+{
+  "schema": "unity-m7-local-preparation/1",
+  "date": "2026-10-05",
+  "checkpoint": "6d291e63377597bf9f54542143f12e902aff9904",
+  "status": "REVIEW_READY_LOCAL_PREPARATION",
+  "separateAcceptance": "NOT_RUN",
+  "publicRelease": "NOT_STARTED_PREREQUISITE_BLOCKED",
+  "delivered": [
+    "read-only npm run verify:live using shared audit inventory and same-run deployment seal",
+    "operator release/retention/live-check/corrective-release recovery instructions",
+    "release preparation receipts isolated under narrowly ignored docs/evidence/m7/runtime/",
+    "sealer captures exact private audit and seal receipts outside public output"
+  ],
+  "defectRepaired": "Preparation publication receipt would dirty tracked evidence before clean release build; narrowly ignored generated runtime evidence avoids this without ignoring issued evidence.",
+  "checks": {
+    "focusedContracts": {
+      "pass": 6,
+      "fail": 0,
+      "scope": "synthetic transport mechanics at both bases, mismatch/refusal controls, actual workflow and isolated Git evidence behavior"
+    },
+    "astro": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "privateOutputAudits": {
+      "root": "PASS: 204 files / 65 HTML",
+      "subpath": "PASS: 204 files / 65 HTML"
+    },
+    "realLiveCLI": "EXPECTED_REFUSAL: PUBLIC_TARGET_REQUIRED before network",
+    "realPrivateSeal": "EXPECTED_REFUSAL: MANUAL_MAIN_DEPLOYMENT_REQUIRED",
+    "readingParity": "all reading HTML except Cite input identity, CSS/fonts/search client exact versus M6 acceptance"
+  },
+  "reviewStates": {
+    "stale": 57,
+    "pending": 0,
+    "accepted": 0,
+    "rejected": 0
+  },
+  "currentSourceQualified": false,
+  "deployEligible": false,
+  "notRun": [
+    "genuine public sealing/upload/deployment",
+    "real host HTTP/Chromium/no-JS/search verification",
+    "remote CI/chosen-runner stress",
+    "platform protections configuration",
+    "release tagging",
+    "live rollback/recovery",
+    "actual screen-reader/MathML",
+    "human comprehension"
+  ],
+  "remainingGates": [
+    "genuine M6 public qualification and reviewed published launch corpus",
+    "author public-wording approval",
+    "named repository/Pages access/authorized target",
+    "identity/contact/ORCID/scoped rights",
+    "privacy/legal/content/public-release authorization",
+    "assistive-technology/human/CI/platform qualification"
+  ],
+  "preservation": {
+    "baselineFiles": 2851,
+    "taskChangedExistingPaths": [
+      ".github/workflows/site.yml",
+      ".gitignore",
+      "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "package.json",
+      "scripts/seal-deployment.ts"
+    ],
+    "otherBaselineBytes": "UNCHANGED except observed Rider runtime change",
+    "issuedM6EvidenceAndArtifacts": "EXACT_REHASH_PASS",
+    "scientificSourcesArchivesHistoryHandoffRiderSolution": "UNCHANGED",
+    "runtimeWorkspaceXML": {
+      "path": ".idea/.idea.RPG_theory/.idea/workspace.xml",
+      "baselineSha256": "3b54a881f77fac358e4aed8f02fdb4f6f69031ab75badb810d1c0ca2972c53d1",
+      "observedSha256": "dd447091d39a8cf18fc0197c46ac0139db39c5465a5d6e3d5a0b15254dfa069c",
+      "taskWriteOrRestore": false,
+      "origin": "UNESTABLISHED; current observed bytes left untouched"
+    },
+    "soleRootLockfile": "UNCHANGED"
+  },
+  "commit": "NONE",
+  "publicActions": "NONE"
+}

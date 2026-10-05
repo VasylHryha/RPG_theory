@@ -20,7 +20,8 @@
     "check:content": "tsx scripts/check-content.ts",
     "check:source-revision": "tsx scripts/check-source-revision.ts",
     "check:publication": "tsx scripts/check-publication.ts",
-    "check:m6": "tsx scripts/check-m6-integration.ts"
+    "check:m6": "tsx scripts/check-m6-integration.ts",
+    "verify:live": "tsx scripts/verify-live.ts"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.3.1",

@@ -1,0 +1,124 @@
+{
+  "schema": "unity-m7-bounded-high-acceptance/1",
+  "date": "2026-10-05",
+  "head": "6d291e63377597bf9f54542143f12e902aff9904",
+  "status": "ACCEPTED_LOCAL_RELEASE_PREPARATION_ONLY",
+  "completeM7": "INCOMPLETE",
+  "publicQualification": "INCOMPLETE",
+  "publicRelease": "NOT_STARTED_PREREQUISITE_BLOCKED",
+  "repairs": [
+    "Five-query search destination selection opens exact qualified reading",
+    "Existing local Playwright cache used when no explicit browser path",
+    "Private runner receipt capture explicitly required before public dispatch"
+  ],
+  "inputs": {
+    "inputsSha256": "7ac6aa3a1d3ca6dfcc93cd8bd2fc64f3bc5ffde273ad84be3e3bb18b3483bb12",
+    "lockfileSha256": "bed1c6ee69510c10ef2c541f561d26536fd5415e4df351a8d4f8c1d8e1e36cb0",
+    "contentSha256": "a71c49e67009d7d1a41525d00afa96f34ccc62912377d4fb7bb0d965411594fc"
+  },
+  "bases": [
+    {
+      "base": "root",
+      "files": 204,
+      "html": 65,
+      "status": "PASS",
+      "artifactSha256": "7478cd4c4c8c717962699c205958d0a391ce4334d7a1c70f9169bd21257504ef",
+      "inputsSha256": "7ac6aa3a1d3ca6dfcc93cd8bd2fc64f3bc5ffde273ad84be3e3bb18b3483bb12",
+      "sourceCommit": "6d291e63377597bf9f54542143f12e902aff9904",
+      "workspaceDirty": true,
+      "changedFromImplementation": [
+        "build-info.json",
+        "cite/index.html",
+        "downloads/SHA256SUMS",
+        "downloads/release.json",
+        "downloads/unity-theory-publication-site-2026.10.05-m6-private-preview.zip"
+      ],
+      "readingParity": "EXACT except Cite input identity"
+    },
+    {
+      "base": "subpath",
+      "files": 204,
+      "html": 65,
+      "status": "PASS",
+      "artifactSha256": "9f67e32e4e5ade6c095a51d04da0ec93ad237e5bb7e6aa0bd15ba283c30958fc",
+      "inputsSha256": "7ac6aa3a1d3ca6dfcc93cd8bd2fc64f3bc5ffde273ad84be3e3bb18b3483bb12",
+      "sourceCommit": "6d291e63377597bf9f54542143f12e902aff9904",
+      "workspaceDirty": true,
+      "changedFromImplementation": [
+        "build-info.json",
+        "cite/index.html",
+        "downloads/SHA256SUMS",
+        "downloads/release.json",
+        "downloads/unity-theory-publication-site-2026.10.05-m6-private-preview.zip"
+      ],
+      "readingParity": "EXACT except Cite input identity"
+    }
+  ],
+  "reused": [
+    "six unchanged transport/workflow/isolated-Git contracts after initial input match",
+    "private seal MANUAL_MAIN_DEPLOYMENT_REQUIRED refusal"
+  ],
+  "checks": {
+    "focusedChromium": "2 PASS; intercepted synthetic transport, 5 selections and redirect rejection at each base",
+    "astro": "0 errors/warnings/hints",
+    "privateBuildsAudits": "PASS at both bases",
+    "realCLI": "exit 1; PUBLIC_TARGET_REQUIRED; FAIL receipt before network",
+    "diffCheck": "PASS"
+  },
+  "failedAttempts": [
+    "default global browser cache missing",
+    "sandbox Chromium launch blocked",
+    "sandbox tsx IPC blocked",
+    "audit CLI --evidence-dir unsupported; corrected to UNITY_EVIDENCE_DIR",
+    "preservation check detected changing Rider runtime; observed identity recorded without restoring"
+  ],
+  "reviewStates": {
+    "accepted": 0,
+    "pending": 0,
+    "stale": 57,
+    "rejected": 0
+  },
+  "currentSourceQualified": false,
+  "deployEligible": false,
+  "policyQualification": null,
+  "deploymentEnabled": false,
+  "preservation": {
+    "predecessorReceipts": 186,
+    "predecessorReceiptHashes": "PASS",
+    "priorM6M7Artifacts": "PASS rehash",
+    "baselineFiles": 2851,
+    "changedExistingSinceReview": [
+      ".idea/.idea.RPG_theory/.idea/workspace.xml",
+      "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md"
+    ],
+    "runtimeWorkspaceXML": {
+      "path": ".idea/.idea.RPG_theory/.idea/workspace.xml",
+      "beforeSha256": "01eabc93f08e5a3e33efb844fe6aa6f7ce5374add694e1339c64985947bcab87",
+      "finalObservedSha256": "6cb16fac56b03a91d86611e5480a2df92907dd674e2b58efcd35c630ad9651bf",
+      "origin": "UNESTABLISHED",
+      "taskWriteOrRestore": false
+    },
+    "scientificZIPHistoryHandoffRiderSolutionLockReviews": "UNCHANGED"
+  },
+  "remainingGates": [
+    "actual current-corpus qualification and published launch selection",
+    "author wording, identity/contact/ORCID, scoped rights, privacy/legal/content/release approvals",
+    "named repository/Pages access and authorized HTTPS target",
+    "remote CI/chosen-runner stress and real platform protections",
+    "approved private receipt capture destination/mechanism",
+    "actual screen-reader/MathML and human comprehension"
+  ],
+  "notRun": [
+    "successful genuine public sealing",
+    "hosted HTTP/Chromium/search verification",
+    "remote CI/chosen-runner stress",
+    "release tagging",
+    "live recovery"
+  ],
+  "notTested": [
+    "screen-reader/MathML",
+    "human comprehension"
+  ],
+  "publicActions": "NONE",
+  "commit": "NONE"
+}
