@@ -1,0 +1,5 @@
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts --evidence-dir docs/evidence/source-reconciliation/implementation
+
+{"schema":"unity-content-check/1","status":"PASS","date":"2026-10-05T11:39:07.661Z","admission":{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"qualificationBasis":"website-source-fidelity/1","files":24,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"caaa7691bde318f188dcecf45950b05b5c0cdcc2cff9770474522395b67c8139","edition":"RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05"},"entries":95,"affected":[],"reviewPurpose":"website-source-fidelity/1","scientificCertification":"out-of-scope","acceptedReviews":0,"reviewStates":{"accepted":0,"pending":38,"stale":57,"rejected":0}}

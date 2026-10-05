@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/build.ts",
+    "--mode",
+    "preview",
+    "--config",
+    "tests/fixtures/site-subpath.json",
+    "--output",
+    "dist/source-link-r2/subpath"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 27.39,
+  "log": "docs/evidence/source-link-r2/implementation/build-subpath-1791212103027729000.log"
+}

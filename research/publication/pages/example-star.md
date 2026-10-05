@@ -4,23 +4,23 @@
   "route": "/examples/star/",
   "title": "Star: new reaction conditions",
   "description": "Existing organization can open possibilities for later transformations.",
-  "revision": 1,
+  "revision": 2,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
-    "R-CURRENT-WORLD",
-    "R-CURRENT-SCIENCE"
+    "R-CURRENT-SCIENCE",
+    "R-CURRENT-WORLD"
   ],
   "dependsOn": [
-    "UT-D05",
     "UT-C01",
-    "UT-C02"
+    "UT-C02",
+    "UT-D05"
   ],
   "related": [],
   "bibRefs": [
@@ -32,7 +32,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "World \u00a77 and cosmic/background addenda; framework \u00a77. NASA is supplementary background, not evidence that RRG derives gravity.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null

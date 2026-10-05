@@ -1,0 +1,24 @@
+# R4 §9 M6 qualification matrix
+
+| Family | Actual result and evidence | Limit / remaining gate |
+|---|---|---|
+| Checkout / ownership | `baseline.json`; HEAD unchanged, staged baseline empty | Unowned Rider runtime change has unestablished provenance; observed bytes retained in place, hashes recorded |
+| Current-source admission | Fresh `sources.log`: 24 pinned files, coherent current manifest/roles; raw core `b6d3e7c…e1`; `artifact-identities.json` | Complete GPT/Library original-package provenance unavailable |
+| Historical integrity | Fresh `history.log`; final baseline hashes for current/history/ZIP/handoff/issued evidence | No historical experiment or scientific adjudication performed |
+| Fidelity / extraction / attribution | 33 genuine comparisons plus 41 unchanged accepted decisions; `decision-summary.json`, `final-corpus.json`; 74 accepted / 21 archived stale | Agent website fidelity only; no author or scientific approval |
+| Schema / dependencies / dates / review locality | Migration's 118 main-run passing cases plus two targeted repaired passes reused for unchanged scope; fresh 21 affected passes plus three targeted repaired passes | No new monolithic content-suite or `verify` PASS is claimed |
+| Correction transaction / stale reviews | Fresh M6 contract exercises isolated definition edit, stale dependant, explicit synthetic rereview, new selection/index and withdrawn-route history | Synthetic mechanics only; real sources unchanged |
+| Publication / direct-route / exports | Fresh both builds and shared audits: 267 files / 103 HTML per base; exact generated Markdown/ZIP/original bytes, links/anchors, statuses, allowlist and notices | 74 current drafts / 21 archived entries; published launch set NOT_SELECTED |
+| Search / metadata / feeds | Actual search empty, zero RSS items / sitemap readings; no draft indexed. Both actual and isolated positive five-query/broken-bundle three-engine checks pass | Published actual-corpus search snippets/results cannot be qualified until a published selection is authorized |
+| Build / install / toolchain | Fresh Astro 0 errors/warnings/hints; unchanged pinned-lock clean-install receipt reused, installed top-level versions match; `environment.json` | No fresh clean-install or remote CI execution claimed |
+| Root / fixture subpath | Both exact current private artifacts exercised on production-output servers and rehashed after all checks | `/unity-theory/` is regression coverage; actual public target/base NOT_SUPPLIED |
+| Chromium / no-JS / keyboard / layout | Per base: main run 26 passes and one obsolete-assertion failure; repaired journey 1 pass; added reading-layout accessibility 1 pass. 56 passing cases in aggregate, no skipped/flaky cases | Initial failures remain intact; no fresh all-green monolithic browser run claimed |
+| Firefox / WebKit | Actual navigation/math/empty search plus isolated search mechanics PASS at both bases; versions recorded in integration receipts | No hosted or published current-selection qualification |
+| Accessibility | Axe relevant AA tags, four widths, promoted layouts; named no-JS/focus/math scrolling/fonts/headings/zoom/theme/reduced-motion/print checks PASS; fresh captures inspected | Actual screen-reader/MathML NOT_TESTED; no whole-site WCAG certification |
+| Cold budgets / Lighthouse | Home 7118 / 7139 bytes; math 151336 / 151375 bytes; zero initial JS. Fresh-context owned-response gzip equivalents meet 250/750 KiB budgets. Root mobile Lighthouse: LCP 752ms / 4204ms, CLS 0 / 0 | Local diagnostic only; math LCP observation retained. Hardware model probe denied; field CWV NOT_MEASURED; actual on-wire target transfer NOT_RUN |
+| Stress | Local shared validation/rendering/Pagefind: 100 docs + 100 records + 100 references; 12.94s / 10.28s, max RSS 661440 / 647536 KiB; fixtures outside artifacts | Chosen CI runner / remote stress NOT_RUN |
+| Engineering screens / permissions | Fresh `publication-readiness.json`; no named-pattern findings in selected engineering files or private ZIP; gates preserved; deployment disabled | Public repository/file/history selection, privacy/legal/content and scoped rights remain pending; screening is not clearance |
+| Qualification selection refusal | Actual qualification-mode CLI returns exit 1 / `CURRENT_SOURCE_NOT_QUALIFIED`, no output (`qualification-refusal.json`) | Immediate cause is empty published intended selection, not failed current website fidelity |
+| Human / author / identity / platform | Existing honest pending displays and gates preserved | Author first-public wording, identity/contact/ORCID/permanent URL, rights/privacy/release, Pages protections/private capture unavailable; actual screen-reader, current read-aloud listening and two-person comprehension NOT_TESTED/NOT_RUN |
+
+Local qualification work is REVIEW_READY for one separate bounded High M6 decision. Complete public M6 remains INCOMPLETE. No M7 work or public action is authorized.

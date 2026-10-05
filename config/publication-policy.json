@@ -3,7 +3,11 @@
   "deploymentEnabled": false,
   "branch": "main",
   "environment": "github-pages",
-  "approvedTarget": null,
+  "approvedTarget": {
+    "owner": "VasylHryha",
+    "name": "RPG_theory",
+    "evidenceRef": "docs/handoffs/RRG_GITHUB_PAGES_REBIND_DEPLOY_HANDOFF_2026-10-05.md#0-owner-decisions--treat-these-as-authoritative"
+  },
   "publicContentApproval": null,
   "privacyApproval": null,
   "rightsReview": null,
@@ -11,6 +15,6 @@
   "repositoryFiles": [],
   "platformProtections": {
     "status": "NOT_CONFIGURED",
-    "reason": "No owner-authorized repository or platform access supplied. Branch rules, environment reviewers and CODEOWNERS are not configured."
+    "reason": "GitHub Pages target authorized by the owner handoff; Pages API returned 404 on 2026-10-05 and UNITY_DEPLOY_ENABLED is absent. Platform protections have not been configured."
   }
 }

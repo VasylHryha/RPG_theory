@@ -1,0 +1,95 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E117",
+  "fingerprint": "d9978d2241f58227f6f2f9962925c21afc3cd33c2694172fe30f083db217ad10",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T12:08:15.325Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared UT-E117, Low-absorption selection, to its complete source-scoped case card. simulation; published report also includes experimental evidence; constraint; source-reported C4. Supplied conditions, reported finding, verification coverage and study citation are preserved; limit: This constrains “strongest resonance always dominates”; it does not refute a conditional geometry–mode hypothesis. The experimental portion was not separately method-audited here.",
+  "inputs": {
+    "fingerprint": "d9978d2241f58227f6f2f9962925c21afc3cd33c2694172fe30f083db217ad10",
+    "ownRead": {
+      "id": "UT-E117",
+      "route": "/claims/UT-E117/",
+      "title": "Low-absorption selection",
+      "description": "In studied driven mechanical networks, selected configurations absorb relatively little work from the drive.",
+      "revision": 1,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [
+        "BIB-0080"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "sourceSha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc",
+        "startLine": 302,
+        "endLine": 315,
+        "excerptSha256": "2e3a7df3d1039721b15171b382edfced4d2b865537dc8b99c43c792e4f6d92cd"
+      },
+      "statement": "## E17 — Drive-specific selection in multistable mechanical networks\n\n**simulation; published report also includes experimental evidence · constraint · claims C4.**\n\n**Reported result:** In studied driven mechanical networks, selected configurations absorb relatively little work from the drive.\n\n**Already supplied:** Multistable spring networks, their interaction landscape and an external drive are supplied.\n\n**Limit of the RRG connection:** This constrains “strongest resonance always dominates”; it does not refute a conditional geometry–mode hypothesis. The experimental portion was not separately method-audited here.\n\n**Source:** Kedia, Pan, Slotine & England (2023), *Journal of Chemical Physics 159, 214106*. [DOI: 10.1063/5.0171993](https://doi.org/10.1063/5.0171993).\n\n**Verification coverage:** Author preprint arXiv:1908.09332 plus journal metadata and original abstract indexed by PubMed. Checked 2026-10-02. The 2019 preprint title is Drive-specific adaptation in disordered mechanical networks of bistable springs. It is not an additional independent study.\n\n",
+      "plainLanguage": "",
+      "scope": "simulation; published report also includes experimental evidence; constraint; source-reported C4.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "v0.2.1:E17 → UT-E117; source-local ID retains its edition; predecessor UT-E IDs are historical.",
+      "adapter": "rrg-evidence-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "This constrains “strongest resonance always dominates”; it does not refute a conditional geometry–mode hypothesis. The experimental portion was not separately method-audited here.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "373dfc86c0159668786044b699c8b819475f21b1d6fee10f7807704e478c7ac9",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "373dfc86c0159668786044b699c8b819475f21b1d6fee10f7807704e478c7ac9",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "The source's independent labels remain simulation; published report also includes experimental evidence; constraint; source-reported C4.",
+    "meaning": "Compared UT-E117, Low-absorption selection, to its complete source-scoped case card. simulation; published report also includes experimental evidence; constraint; source-reported C4. Supplied conditions, reported finding, verification coverage and study citation are preserved; limit: This constrains “strongest resonance always dominates”; it does not refute a conditional geometry–mode hypothesis. The experimental portion was not separately method-audited here.",
+    "assumptions": "Compared the card’s Already supplied paragraph; apparatus, driving, chosen model or mathematical regime is retained.",
+    "hypotheses": "The universal recursive chain and stronger branch claims retain their source-reported hypothesis boundaries; no fidelity badge is a science approval.",
+    "evidenceDescriptions": "Reported result, result type, relation, limitations and verification-depth paragraphs match the raw case card; evidenceState remains project-reported.",
+    "openQuestions": "This constrains “strongest resonance always dominates”; it does not refute a conditional geometry–mode hypothesis. The experimental portion was not separately method-audited here.",
+    "attribution": "Source-scoped R-CURRENT-CATALOGUE, DOI/bibliography alias and title match the case; preprint/journal versions are not counted twice.",
+    "sourceMappings": "Raw excerpt/binding and dependency/source snapshots are retained below. Actual bodies were compared at both bases; representative source-document/section/original/history journeys reuse implementation browser evidence. Comparison evidence: docs/evidence/source-reconciliation/acceptance/comparison.json; history-check.json. Four archive-note repairs were checked in affected final output. No acceptance is issued to unseen entries or dependencies."
+  }
+}

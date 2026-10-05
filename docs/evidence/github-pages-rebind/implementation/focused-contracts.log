@@ -1,0 +1,76 @@
+node:internal/test_runner/harness:122
+      throw err;
+      ^
+
+ContractError: SOURCE_NOTE_ONLY_MISUSE: DOC-FOUNDATION-ERRATA
+    at fail (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:22:61)
+    at validateCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:101:138)
+    at loadCanonicalCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:204:10)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m1.test.ts:13:14)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'SOURCE_NOTE_ONLY_MISUSE'
+}
+
+Node.js v24.18.0
+✖ tests/content/m1.test.ts (3662.726125ms)
+✔ M5 actual identity stays pending and every rights surface preserves separate scope and lawful exceptions (102.604458ms)
+✔ M5 explicit synthetic credit drives About/footer/CFF without inferred contact or identity (21.328958ms)
+✔ M5 deployment rejects PR, fixture host, unapproved target, missing identity and pending scoped rights with named reasons (1.926083ms)
+✔ M5 scoped license declarations bind exact files; no additional license state cannot imply a grant (2.649709ms)
+✔ M5 targeted legal-copy control flags the faux any-use royalty claim; a parser never certifies legal wording (0.897334ms)
+✔ M5 actual workflow is read-only for PRs and manual artifact-bound for deploy; privileged PR mutation refuses (162.034958ms)
+✔ M5 public repository screen refuses private/history paths and reports secret locations without values (1.384875ms)
+✖ M5 actual website and ZIP carry the exact renderer notice without project licensing or administrative material (599.015ms)
+/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:22
+function fail(code: string, message: string): never { throw new ContractError(code, message); }
+                                                            ^
+
+ContractError: SOURCE_NOTE_ONLY_MISUSE: DOC-FOUNDATION-ERRATA
+    at fail (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:22:61)
+    at validateCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:101:138)
+    at loadCanonicalCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:204:10)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/source-reconciliation.test.ts:13:16)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'SOURCE_NOTE_ONLY_MISUSE'
+}
+
+Node.js v24.18.0
+✖ tests/content/source-reconciliation.test.ts (3390.045958ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 7
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3821.307541
+
+✖ failing tests:
+
+test at tests/content/m1.test.ts:1:1
+✖ tests/content/m1.test.ts (3662.726125ms)
+  'test failed'
+
+test at tests/content/m5.test.ts:1:8491
+✖ M5 actual website and ZIP carry the exact renderer notice without project licensing or administrative material (599.015ms)
+  Error [ContractError]: SOURCE_NOTE_ONLY_MISUSE: DOC-FOUNDATION-ERRATA
+      at fail (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:22:61)
+      at validateCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:101:138)
+      at loadCanonicalCorpus (/Users/new/RiderProjects/RPG_theory/src/lib/content.ts:204:10)
+      at publicationFor (/Users/new/RiderProjects/RPG_theory/src/lib/publication.ts:77:18)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m5.test.ts:78:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12) {
+    code: 'SOURCE_NOTE_ONLY_MISUSE'
+  }
+
+test at tests/content/source-reconciliation.test.ts:1:1
+✖ tests/content/source-reconciliation.test.ts (3390.045958ms)
+  'test failed'

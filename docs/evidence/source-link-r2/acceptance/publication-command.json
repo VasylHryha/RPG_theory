@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/check-publication.ts",
+    "--evidence-dir",
+    "docs/evidence/source-link-r2/acceptance"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 12.82,
+  "log": "docs/evidence/source-link-r2/acceptance/publication.log"
+}

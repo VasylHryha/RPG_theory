@@ -1,0 +1,14 @@
+{
+  "stage": "remaining",
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/test-e2e.ts",
+    "--output",
+    "dist/m6-reconciled/subpath"
+  ],
+  "log": "docs/evidence/m6/reconciled/browser-subpath.log",
+  "exitCode": 1,
+  "elapsedSeconds": 141.26
+}

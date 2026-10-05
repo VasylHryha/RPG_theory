@@ -1,0 +1,15 @@
+{
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "--test",
+    "tests/content/source-link-r2.test.ts",
+    "tests/content/source-reconciliation.test.ts",
+    "tests/content/m4.test.ts",
+    "tests/content/website-fidelity.test.ts"
+  ],
+  "exitCode": 1,
+  "elapsedSeconds": 116.82,
+  "log": "docs/evidence/source-link-r2/implementation/contracts-1791212202407346000.log"
+}

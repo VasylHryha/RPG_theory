@@ -1,0 +1,19 @@
+
+> unity-theory@0.0.1 test:e2e
+> tsx scripts/test-e2e.ts --output dist/github-pages-rebind/preview-target --grep without JavaScript|real 404
+
+
+Running 8 tests using 1 worker
+
+(node:42624) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/introduction.spec.ts:36:1 › M2 complete reading journey works without JavaScript and makes question, uncertainty and sources findable (780ms)
+  ✓  2 tests/e2e/publication-policy.spec.ts:4:1 › M5 pending About/legal/identity journey works without JavaScript and dependency notice is downloadable (329ms)
+  ✓  3 tests/e2e/publication.spec.ts:8:1 › M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing (3.0s)
+  ✓  4 tests/e2e/reading.spec.ts:16:1 › home and start read without JavaScript, navigate by keyboard and show source state (343ms)
+  ✓  5 tests/e2e/reading.spec.ts:73:1 › unknown routes return real 404 and nested assets use the configured base (232ms)
+  ✓  6 tests/e2e/source-link-r2.spec.ts:10:1 › R2 source connections keep distinct document labels, alternate targets and downloads without JavaScript (934ms)
+  ✓  7 tests/e2e/source-reconciliation.spec.ts:9:1 › source reconciliation reading and section journeys work without JavaScript (895ms)
+  ✓  8 tests/e2e/technical.spec.ts:7:1 › M3 technical reading and source discovery work without JavaScript (2.0s)
+
+  8 passed (9.7s)

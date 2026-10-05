@@ -1,0 +1,182 @@
+✔ missing current sources reach CURRENT_SOURCE_PACKAGE_MISSING (0.893625ms)
+✔ one-byte history mutation reaches HISTORICAL_INTEGRITY_FAILURE (10.993417ms)
+✔ unrecorded core change reaches LOCKED_CORE_MISMATCH (2.360458ms)
+✔ missing required manifest member reaches CURRENT_MANIFEST_INCOMPLETE (2.478291ms)
+✔ mixed stale sibling with matching core reaches SOURCE_INTEGRITY_FAILURE (1.240125ms)
+✔ wrong source/excerpt binding reaches SOURCE_BINDING_FAILURE (1.506667ms)
+✔ history offered as current reaches LEGACY_SOURCE_REJECTED (0.814625ms)
+✔ complete justified revised synthetic edition passes without historical-pin veto (14.104084ms)
+✔ silent edition-pin reset still fails (7.173083ms)
+✔ recorded membership omissions, duplicates and unknown manifest formats fail against actual text (1.686ms)
+✔ root, subpath, file endpoints and path collisions use the same URL owner (0.455625ms)
+✔ release with fixture host or unqualified scientific corpus fails closed (3.526791ms)
+✔ root-only asset in subpath output reaches BASE_PATH_FAILURE (34714.028875ms)
+✔ output audit requires routes, rejects extra private files and stale/relabelled identity (19292.5055ms)
+✔ absolute same-site links/fragments are local; unsafe links and remote resources fail (56365.238209ms)
+✔ artifact audit rejects false source identity and active SVG files (5417.542ms)
+✔ Markdown renders MathML, prefixes links and rejects HTML/unsafe destinations (2.823417ms)
+✔ Markdown reference links/images share safety and base handling (2.117ms)
+✔ math macros cannot leak between documents and trusted HTML commands emit no active link (1.186042ms)
+✔ safe archive extraction rejects traversal, absolute paths, symlinks, collisions and unexpected roots (127.852541ms)
+✔ output audit rejects changed source-bound display, manifest substitutions and draft sentinels (4789.879292ms)
+✖ output audit binds bibliography text, destinations, support limits, status, projection and navigation (38601.44375ms)
+✔ output audit rejects multiply encoded local traversal (8578.358ms)
+✔ document metadata comparison scopes the title to the head, preserving accessible SVG titles (12131.485333ms)
+✔ output audit rejects changed or duplicate social metadata, visible descriptions and private indexing controls (67249.131792ms)
+✔ output audit keeps all responsive, media, SVG and form loads local and refuses rebasing or redirects (129800.956083ms)
+✔ output audit inspects normalized CSS loading syntax in files and inline styles without bypassing data URLs (364609.716167ms)
+✔ output audit checks SVG presentation URLs and refuses XML rebasing in inline and standalone SVG (198407.644083ms)
+✔ output audit preserves CSS string and URL semantics and refuses unsupported resource syntax (250896.916166ms)
+✔ standalone SVG refuses stylesheet and unknown processing instructions while allowing its XML declaration (29808.261167ms)
+✔ output audit rejects missing, altered or duplicate beginner schematics at their own control (39003.305541ms)
+✔ output audit refuses missing, duplicate, misplaced or unrelated math styles and unnecessary beginner math loads (51788.765ms)
+✔ each additional-evidence mapping declares every core clause named by its actual excerpt (2474.859833ms)
+✔ the actual start explanation tracks emergent evidence, its support metadata and current status (1828.247041ms)
+✔ background-extension changes invalidate the actual E12 interpretation and its consumers (2130.374625ms)
+✔ review fingerprints track real URL, selection, style and pinned rendering dependency inputs (8439.227959ms)
+✔ historical representation decisions do not populate website fidelity or qualify the source (1331.3925ms)
+✔ independent statement, bad binding range/hash, wrong record kind, duplicates and unknown sources fail (159.267417ms)
+✔ source-scoped aliases keep historical S01 local; duplicates and unresolved aliases fail (35.651125ms)
+✔ source URL aliases preserve case-sensitive paths while DOI identity remains case insensitive (1152.57175ms)
+✔ non-DOI citation identity preserves added or removed trailing path separators (1410.820583ms)
+✔ missing or cyclic semantic dependency fails; related feedback does not create proof cycles (2288.386291ms)
+✔ authority notes cannot supply scientific excerpts; invalid states and real dates fail (130.908958ms)
+✔ safe directives render actual canonical explanations, extract dependencies and reject executable/unknown syntax (23.1925ms)
+✔ dependency changes stale exact reviews and report reverse dependants; unrelated bibliography is local (1197.008334ms)
+✔ changing a relevant source verification scope or relevant citation stales its review (2492.383666ms)
+✔ shared release selector refuses actual pending corpus, missing/stale reviews, future publication and rights (6571.146167ms)
+✔ one manifest excludes drafts from every production surface and rejects published draft dependencies (1144.300666ms)
+✔ withdrawn history is explicitly selected as a tombstone; former body is removed (767.7785ms)
+✔ source display adapters preserve raw bindings while rendering status/math/table consumers (1033.1765ms)
+✔ source revision transaction refuses missing prior-byte preservation and incomplete core proof gate (1544.721208ms)
+✔ actual supplied 07 and 08 cannot disappear behind a matching core (8.619ms)
+✔ a missing or mismatched actual local citation alias fails the source adapter (45.768958ms)
+✔ project reproduction cannot be asserted with an invented execution receipt (49.953292ms)
+✔ Markdown directive export uses ordinary links and leaves code examples untouched (1.505125ms)
+✔ statement directives are order-independent; nested references and cycles reach the shared graph (1974.380792ms)
+✔ scientific identities cannot bypass proposal provenance or masquerade as documents (76.205667ms)
+✔ retained historical excerpts remain historical; supersession is reciprocal and draft history stays out of discovery (1998.775875ms)
+✔ review rejection is distinct from pending; alternate citation review binds its primary metadata (933.533584ms)
+✔ source, bibliography, execution and renderer identity changes report or stale their actual dependants (854.906334ms)
+✔ actual status, proof and home summaries depend on their core definitions and emergent evidence (1745.733125ms)
+✔ withdrawal removes old title, scope, source mapping, evidence and bibliography from all rendered regions (999.53625ms)
+✔ bibliographic verification cannot retain a checked label after metadata substitution (86.438167ms)
+✔ release rejects future updates and reviews independently of the publication date (1784.182583ms)
+✔ qualification uses reviewed production selection; a preview cannot be relabelled qualification (1029.297208ms)
+✔ Markdown export validates safety, expands nested references and leaves math samples intact (837.127ms)
+✔ directives cannot create nested anchors in link labels or Markdown exports (0.748083ms)
+✔ proposals display non-adoption and cannot supersede source-authoritative records (915.978833ms)
+✔ revision impact retains predecessor dependants when the next graph removes an edge (1543.170375ms)
+✔ M2 examples and concepts use the admitted source edition and explicit original-source mappings (0.740417ms)
+✔ M2 misleading editorial candidates are surfaced and cannot become a qualified selection without independent review (6751.882917ms)
+✔ the real interaction relation is a display equation with an accessible local scrolling region (8.065958ms)
+✔ optional beginner source details preserve visible proposal, correction, explanation and limits (2.092584ms)
+✔ M2 rendering changes invalidate preserved predecessor decisions independently of later bounded reviews (1679.84075ms)
+✔ M3 technical readings extract each complete original body with retained addenda and source provenance (3088.553625ms)
+✔ selected catalogue retains all 22 case identities and source-reported two-axis classification (164.520458ms)
+✔ current questions and audit preserve the promoted source scope while predecessor IDs remain historical (0.174625ms)
+✔ technical guides use actual heading anchors and selected routes at both bases (11433.20475ms)
+✔ M3 preserves issued decisions without turning new readings or builds into approvals (3.723541ms)
+✔ the disclosed section 39 display repair preserves three separate formulas and refuses a changed boundary (4.754375ms)
+✔ M4 explanatory exports mirror canonical parsed statements, retain adapters and have usable destinations at both bases (15347.581458ms)
+✔ M4 ZIP manifests preserve original bytes and exclude administrative evidence/history; tampered members fail (4315.301083ms)
+✔ M4 approved selection filters draft/history/withdrawn downloads and emits dated article RSS at both bases (773.729625ms)
+✔ M4 duplicate article routes and stale source numbers refuse; document source rename does not rename its route (2259.569791ms)
+✔ M4 citation remains inactive for actual missing decisions; prepared CFF uses only supplied approved metadata (2728.030292ms)
+✔ M4 print CSS admits page layout and literal citation targets while refusing resource-bearing attr forms (5.248917ms)
+✔ M5 actual identity stays pending and every rights surface preserves separate scope and lawful exceptions (44.4985ms)
+✔ M5 explicit synthetic credit drives About/footer/CFF without inferred contact or identity (11.055792ms)
+✔ M5 deployment rejects PR, fixture host, unapproved target, missing identity and pending scoped rights with named reasons (1.684958ms)
+✔ M5 scoped license declarations bind exact files; no additional license state cannot imply a grant (3.391584ms)
+✔ M5 targeted legal-copy control flags the faux any-use royalty claim; a parser never certifies legal wording (0.803125ms)
+✔ M5 actual workflow is read-only for PRs and manual artifact-bound for deploy; privileged PR mutation refuses (145.673ms)
+✔ M5 public repository screen refuses private/history paths and reports secret locations without values (2.873917ms)
+✔ M5 actual website and ZIP carry the exact renderer notice without project licensing or administrative material (4846.896417ms)
+✔ M6 real drafts never enter search/sitemap; private utility metadata invents no author or institution (2426.900208ms)
+✔ M6 correction transaction invalidates dependants, requires explicit synthetic rereview and excludes the replaced route (2041.272459ms)
+✔ M6 missing search body and misleading scope fail before indexing (1605.025833ms)
+✔ M6 stale search identity and added source-map/private assets are refused in the actual artifact auditor (23476.821417ms)
+✔ M7 live transport matches every qualified file, Git/input/seal identity and true 404 at both bases (53.361167ms)
+✔ M7 live verification refuses actual private target and private/forged receipts before network access (1.037583ms)
+✔ M7 live byte drift, redirects, mismatched same-run seal and soft 404 all fail (10.812083ms)
+✔ M7 refuses bound-but-dirty or fixture build identities rather than qualifying their self-description (1.642083ms)
+✔ M7 prepare receipts use the narrow ignored evidence directory; issued tracked evidence still makes Git dirty (374.437958ms)
+✔ real home/start emit withdrawal tombstones through the shared consumer and output auditor (63381.955833ms)
+✖ real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals (13750.987708ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 07_audit_report.md (11630.554166ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md (9433.651459ms)
+✔ document links, reference-style links and case sections resolve to real HTML at both bases (439.706375ms)
+✔ current source downloads preserve exact bytes and correct file types; historical drafts stay outside exports and navigation (2898.832417ms)
+✔ intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate (1877.862334ms)
+✔ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (1147.049125ms)
+✔ bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision (812.727958ms)
+✔ complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it (841.339625ms)
+✔ null, primitive and incomplete stale evidence fail with the intended typed diagnostic (1279.860625ms)
+✔ review dates cannot predate the reviewed material, including dependency updates (1310.641417ms)
+✔ receipt paths reject traversal, symlink files and symlink ancestors (1226.033584ms)
+✔ review inputs independently capture rendered plain language and the actual home projection without aliasing (1383.622791ms)
+✔ stale decisions retain internally coherent dates, source excerpts, dependencies and projection reads (15851.681417ms)
+✔ receipt paths reject control characters even when a matching regular file exists (1019.98925ms)
+✔ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (12800.884875ms)
+ℹ tests 120
+ℹ suites 0
+ℹ pass 118
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1312967.824958
+
+✖ failing tests:
+
+test at tests/content/contracts.test.ts:3:1860
+✖ output audit binds bibliography text, destinations, support limits, status, projection and navigation (38601.44375ms)
+  AssertionError [ERR_ASSERTION]: Whether the four known fundamental interactions
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:226:79)
+      at outputFixture (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:126:58)
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/contracts.test.ts:214:114)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/content/revision-cli.test.ts:1:452
+✖ real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals (13750.987708ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /CORE_PROOF_GATE_REQUIRED/. Input:
+  
+  '/Users/new/RiderProjects/RPG_theory/src/lib/source-revision.ts:17\n' +
+    "  if (new Set(change.affectedFiles).size!==change.affectedFiles.length || paths.join('\\n')!==[...change.affectedFiles].sort().join('\\n') || !paths.length || changed.some(s=>!change.priorSnapshot.some(p=>p.path===s.path && p.sha256===s.sha256))) throw new ContractError('SOURCE_REVISION_FAILURE','Exact changed/added/removed membership and prior snapshots required');\n" +
+    '                                                                                                                                                                                                                                                           ^\n' +
+    '\n' +
+    'ContractError: SOURCE_REVISION_FAILURE: Exact changed/added/removed membership and prior snapshots required\n' +
+    '    at validateSourceRevision (/Users/new/RiderProjects/RPG_theory/src/lib/source-revision.ts:17:252)\n' +
+    '    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/check-source-revision.ts:25:14)\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n' +
+    '    at async node:internal/modules/esm/loader:643:26\n' +
+    '    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {\n' +
+    "  code: 'SOURCE_REVISION_FAILURE'\n" +
+    '}\n' +
+    '\n' +
+    'Node.js v24.18.0\n'
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/revision-cli.test.ts:85:65)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "/Users/new/RiderProjects/RPG_theory/src/lib/source-revision.ts:17\n  if (new Set(change.affectedFiles).size!==change.affectedFiles.length || paths.join('\\n')!==[...change.affectedFiles].sort().join('\\n') || !paths.length || changed.some(s=>!change.priorSnapshot.some(p=>p.path===s.path && p.sha256===s.sha256))) throw new ContractError('SOURCE_REVISION_FAILURE','Exact changed/added/removed membership and prior snapshots required');\n                                                                                                                                                                                                                                                           ^\n\nContractError: SOURCE_REVISION_FAILURE: Exact changed/added/removed membership and prior snapshots required\n    at validateSourceRevision (/Users/new/RiderProjects/RPG_theory/src/lib/source-revision.ts:17:252)\n    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/check-source-revision.ts:25:14)\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:643:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {\n  code: 'SOURCE_REVISION_FAILURE'\n}\n\nNode.js v24.18.0\n",
+    expected: /CORE_PROOF_GATE_REQUIRED/,
+    operator: 'match',
+    diff: 'simple'
+  }

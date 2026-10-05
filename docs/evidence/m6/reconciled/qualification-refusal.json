@@ -1,0 +1,20 @@
+{
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/build.ts",
+    "--mode",
+    "qualification",
+    "--config",
+    "config/site.json",
+    "--output",
+    "dist/m6-reconciled/qualification-refused"
+  ],
+  "exitCode": 1,
+  "status": "EXPECTED_REFUSAL",
+  "diagnostic": "CURRENT_SOURCE_NOT_QUALIFIED",
+  "actualUnmetPrerequisite": "No published launch selection: all 74 current entries remain drafts, historicalIds is empty. Current website fidelity is qualified; the selector uses this diagnostic for an empty intended selection too.",
+  "outputExists": false,
+  "publicAction": false
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/audit-output.ts",
+    "--dir",
+    "dist/source-link-r2/root"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 39.61,
+  "log": "docs/evidence/source-link-r2/implementation/audit-root-1791212146269945000.log"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/audit-output.ts",
+    "--dir",
+    "dist/source-link-r2-accepted/subpath"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 23.62,
+  "log": "docs/evidence/source-link-r2/acceptance/audit-subpath.log"
+}

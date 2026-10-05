@@ -1,0 +1,99 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D03",
+  "fingerprint": "a05be5f92168647e0b1d487ef2861d56ecf3e939a4b37f86fc44418624dba2ca",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T15:32:57.561Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D03.json. Retained semantic finding: Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first.",
+  "inputs": {
+    "fingerprint": "a05be5f92168647e0b1d487ef2861d56ecf3e939a4b37f86fc44418624dba2ca",
+    "ownRead": {
+      "id": "UT-D03",
+      "route": "/claims/UT-D03/",
+      "title": "Resonant geometry",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 3,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 26,
+        "endLine": 43,
+        "excerptSha256": "f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1"
+      },
+      "statement": "## 3. Resonant geometry \\(R\\)\n\nThe basic RRG object is:\n\n\\[\n\\boxed{R=(G,M)}.\n\\]\n\nGeometry and mode structure are inseparable aspects of one organized system:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\n- Geometry constrains/supports which modes can exist.\n- The active mode structure supports, maintains, transforms, or destroys the geometry.\n\nNeither side is defined as universally \"first\".\n",
+      "plainLanguage": "RRG considers organization and mode structure together. Each constrains or changes the other.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+        "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+        "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: A locked RRG meaning; a definition is not an experimental finding. No new experimental inputs, causal stages or equation-family requirement was introduced. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "hypotheses": "Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Scientific role definition, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "evidenceDescriptions": "Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "openQuestions": "Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. 00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID. No personal identity, rights, author-public-wording or release authorization is inferred. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-D03.json. Retained semantic finding: Compared core §3 raw slice and both rendered formulas. R=(G,M) and G↔M retain mutual support, transformation or destruction, and neither side is universally first. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision."
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-CELL",
+  "fingerprint": "9e6a09aa4e4b8e3fd34707ea9d4fd144da8a92128d5d3559f9a6aa6ab6e02b7f",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T12:32:15.645Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared world §§8–10, framework §§8/13 and core §§4–9. Maintaining organization through material/energy exchange, internal activity, thermodynamics and optional copying are preserved. OpenStax membrane transport is explicitly supplementary and no origin-of-life or complete artificial-cell claim is added.",
+  "inputs": {
+    "fingerprint": "9e6a09aa4e4b8e3fd34707ea9d4fd144da8a92128d5d3559f9a6aa6ab6e02b7f",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-CELL",
+      "route": "/examples/cell/",
+      "title": "Cell: organization through exchange",
+      "description": "Maintaining an organization while its components remain active.",
+      "revision": 2,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08",
+        "UT-D09"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0063"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What to notice\n\nA cell exchanges substances with its surroundings. Its membrane regulates passage, while reactions and transport help preserve conditions within it. Some transport follows concentration differences; other transport requires energy. This introductory membrane distinction is explained by [OpenStax's membrane transport explanation](/references/#BIB-0063).\n\n## What this illustrates\n\nThe source describes life as maintained organization, rather than a fixed inventory of atoms. Internal processes continue as materials enter, leave and are replaced. RRG treats the organization and coordinated activity as aspects of the same living system.\n\nThe source framework explicitly retains energy conservation and thermodynamic constraints. Active maintenance needs resources and energy flow; describing an organization does not supply them.\n\n## Maintenance, copying and reproduction\n\nKeeping one cell organized, templating a molecular structure and reproducing a biological cell are different processes. The core allows replication as a possible mechanism, rather than requiring duplication before every higher-level formation. The [recursion concept](/concepts/recursion/) keeps that distinction visible.\n\nA cell may also participate in a larger organization while its internal activity remains. This illustrates the whole-as-part question; the historical route from prebiotic chemistry to the first life remains unresolved in the supplied framework.\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§8–10; framework §8 and §13; core §§4–9. OpenStax supplements membrane transport; no origin-of-life or complete artificial-cell claim.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "622d51b22ae01652baccf4ef808fe1596f66824a6562f2b5bc09939735f941a4"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "f2dfe9b807107e6fb0604d4c0c8d7ff9284c9425aeda2181a3e810e5f1bcaf09"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "e63119326f25862de27d3cf265a6af8b71e6a587a8357c2a61f6d18cdda3d1e7"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ba24845b313aacf063d30c124d5fa4aef773cba1e32c5f1a54b1812906960b4b"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "ec4d1caf6bdc8ed162f3f87b995e8424bed1550d736d6304bc2b7dc96c29d868"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "2bac621293330f7ad6a4d761f4b851d8e5f7f6a5926386a4e6e2cde648e91c75"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "f445239c950392fd43a51817a2e40217f57c8b662eaccfcbe0fb69fda8f869c5",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "7b95ae3e7a0a237a5a10c1ed72c56e5e295c40c3771f11e39518c026698ab400",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared world §§8–10, framework §§8/13 and core §§4–9. Maintaining organization through material/energy exchange, internal activity, thermodynamics and optional copying are preserved. OpenStax membrane transport is explicitly supplementary and no origin-of-life or complete artificial-cell claim is added.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared world §§8–10, framework §§8/13 and core §§4–9. Maintaining organization through material/energy exchange, internal activity, thermodynamics and optional copying are preserved. OpenStax membrane transport is explicitly supplementary and no origin-of-life or complete artificial-cell claim is added.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: An illustrative beginner explanation mapped to the original supplied RRG documents. No new experimental inputs, causal stages or equation-family requirement was introduced.",
+    "hypotheses": "Compared world §§8–10, framework §§8/13 and core §§4–9. Maintaining organization through material/energy exchange, internal activity, thermodynamics and optional copying are preserved. OpenStax membrane transport is explicitly supplementary and no origin-of-life or complete artificial-cell claim is added. Scientific role example, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval.",
+    "evidenceDescriptions": "Compared world §§8–10, framework §§8/13 and core §§4–9. Maintaining organization through material/energy exchange, internal activity, thermodynamics and optional copying are preserved. OpenStax membrane transport is explicitly supplementary and no origin-of-life or complete artificial-cell claim is added. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary.",
+    "openQuestions": "Compared world §§8–10, framework §§8/13 and core §§4–9. Maintaining organization through material/energy exchange, internal activity, thermodynamics and optional copying are preserved. OpenStax membrane transport is explicitly supplementary and no origin-of-life or complete artificial-cell claim is added. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§8–10; framework §8 and §13; core §§4–9. OpenStax supplements membrane transport; no origin-of-life or complete artificial-cell claim. No personal identity, rights, author-public-wording or release authorization is inferred.",
+    "sourceMappings": "Actual source → registry/exact raw line binding → both rendered bodies → explanatory Markdown → ZIP comparisons are recorded in docs/evidence/m6/reconciled/comparison-corpus.json. Full raw sources, all derived paragraphs and live directive dependencies were read. Rendered reading capture: comparison-rendered-readings.txt. The introduction mapping-only repair is recorded in comparison-notes.json and checked in final output. No decision issued to archived entries."
+  }
+}

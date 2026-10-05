@@ -1,0 +1,16 @@
+{
+  "stage": "browser-repairs",
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/test-e2e.ts",
+    "--output",
+    "dist/m6-reconciled/subpath",
+    "--grep",
+    "M2 complete reading journey works without JavaScript"
+  ],
+  "log": "docs/evidence/m6/reconciled/repaired-subpath.log",
+  "exitCode": 0,
+  "elapsedSeconds": 4.0
+}

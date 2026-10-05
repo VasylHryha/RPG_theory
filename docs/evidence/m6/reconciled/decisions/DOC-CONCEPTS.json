@@ -1,0 +1,222 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPTS",
+  "fingerprint": "e397cb16603bf7667a24408cc264b934133f5a7717f514d82a79e165b17b87f7",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T12:32:15.645Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all four concept-index destinations with their actual pages and core authority. The index adds no definition or empirical result; it distinguishes arrangement/activity, closure, structural recursion and conditional interactions.",
+  "inputs": {
+    "fingerprint": "e397cb16603bf7667a24408cc264b934133f5a7717f514d82a79e165b17b87f7",
+    "ownRead": {
+      "id": "DOC-CONCEPTS",
+      "route": "/concepts/",
+      "title": "The concepts, in ordinary words",
+      "description": "From organization and activity to the source definitions.",
+      "revision": 2,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-CONCEPT-GEOMETRY",
+        "DOC-CONCEPT-INTERACTIONS",
+        "DOC-CONCEPT-RECURSION",
+        "DOC-CONCEPT-STABILITY"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## Begin with arrangement and activity\n\n[Geometry and modes](/concepts/geometry-and-modes/) explains relationships, constraints and organized change before introducing the symbols.\n\n## Ask what it means to persist\n\n[Stability](/concepts/stability/) separates the RRG closure definition from lifetime, recovery and attraction measurements.\n\n## Follow a whole into further organization\n\n[Recursion and scale](/concepts/recursion/) explains internally active parts, different roles and why replication is optional.\n\n## Connect organization to interactions\n\n[Effective interactions](/concepts/effective-interactions/) follows the supplied evidence cases and the stronger open research question.\n\nThe original [core definition records](/claims/UT-D01/) remain the authority for meanings. For a continuous reading path, [start with the idea](/start/) or [choose an example](/examples/).\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Editorial index of the four mapped concept explanations.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "5242ca4a4d3c1d38e93e6b3ee073bdb251defd04965095d3cc7d528ef0e10820"
+      },
+      {
+        "entryId": "DOC-CONCEPT-GEOMETRY",
+        "semanticDigest": "14e73d6a7ee65d53edbba785b27aedae002dac642ad55bfd32f313319c7e41d9"
+      },
+      {
+        "entryId": "DOC-CONCEPT-INTERACTIONS",
+        "semanticDigest": "fedac9d9568c03cd6366c144a108aa9d919d8310e2df5f2e065dac54752a6f66"
+      },
+      {
+        "entryId": "DOC-CONCEPT-RECURSION",
+        "semanticDigest": "a7c2a47fd72804872b80799ca8b91beed5b5da8fecc7caeb0146b9baf72c2d1e"
+      },
+      {
+        "entryId": "DOC-CONCEPT-STABILITY",
+        "semanticDigest": "57d2daf5cf492e3f2bcff5512a3ba29be564f6ef70791eb410da17ed90e9d3d1"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "cc43afaa476536dc62e441dd19017fc8b993b796c2c54b350fe3f973c0a56a33"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "508f72a1c032925d89f0579aa7e4ccf8d6d26d95cc58af1c547c9477ce4e494f"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "622d51b22ae01652baccf4ef808fe1596f66824a6562f2b5bc09939735f941a4"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "f2dfe9b807107e6fb0604d4c0c8d7ff9284c9425aeda2181a3e810e5f1bcaf09"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "e63119326f25862de27d3cf265a6af8b71e6a587a8357c2a61f6d18cdda3d1e7"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ba24845b313aacf063d30c124d5fa4aef773cba1e32c5f1a54b1812906960b4b"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "7e15e280cd724c78444744ec618d0142aaf577b2865aae76bb26b2be36921358"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "ec4d1caf6bdc8ed162f3f87b995e8424bed1550d736d6304bc2b7dc96c29d868"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "2bac621293330f7ad6a4d761f4b851d8e5f7f6a5926386a4e6e2cde648e91c75"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "eaf4c5d0ff0913accb36958eaad2146bfaa77ec54c877c96a2ea85e921f87af7"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "f2be6fb0151e271d463cde645c7fe5c5639a3188fb877394093fbb39ac97279b"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "1a99799b4c21eb65ca852bc1e787807345a5da687ba0404d84fe7943d1fe07a6"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "fb2aa10ba1ff413353de69ec869f163484aff4f45ce5c587deae009cfb6e5d63"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "87de2300d3d3fc087531f41d91dc2ca02bcc48cee4a01017fc5c43613ad90a1c"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "0874087b77845d60b23f7f74d7f6b2956167fdb03b3a984a4b9275fc174615e9"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "c5c09eb7ffd5408c02477198d66d1f816c14fed5ca9a2fdc621c6a8c8d787d79"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "cc71303e1bb6b80671eacaa9610adc6e34b4ef1e7ee3fffdf5bb3a1d5d1e1dcc"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "270d2238b25e5c9376e39874399ab210e31a43c28f5f99956712de2f8e86041b"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "7b66baa7c79e8a3f2de61a0eeab876892fcd73063a3c1e3100c4b44f1cbcff64"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "1158180d34f2ab700f5fbbafda549491cdeeeaee914fd8acf741175413a4d43c",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "2ee1fabf01d75cad646a00038c57fcc1acdf5297bb48eeb3280756c39353f657",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared all four concept-index destinations with their actual pages and core authority. The index adds no definition or empirical result; it distinguishes arrangement/activity, closure, structural recursion and conditional interactions.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared all four concept-index destinations with their actual pages and core authority. The index adds no definition or empirical result; it distinguishes arrangement/activity, closure, structural recursion and conditional interactions.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: An illustrative beginner explanation mapped to the original supplied RRG documents. No new experimental inputs, causal stages or equation-family requirement was introduced.",
+    "hypotheses": "Compared all four concept-index destinations with their actual pages and core authority. The index adds no definition or empirical result; it distinguishes arrangement/activity, closure, structural recursion and conditional interactions. Scientific role concept, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval.",
+    "evidenceDescriptions": "Compared all four concept-index destinations with their actual pages and core authority. The index adds no definition or empirical result; it distinguishes arrangement/activity, closure, structural recursion and conditional interactions. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary.",
+    "openQuestions": "Compared all four concept-index destinations with their actual pages and core authority. The index adds no definition or empirical result; it distinguishes arrangement/activity, closure, structural recursion and conditional interactions. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Editorial index of the four mapped concept explanations. No personal identity, rights, author-public-wording or release authorization is inferred.",
+    "sourceMappings": "Actual source → registry/exact raw line binding → both rendered bodies → explanatory Markdown → ZIP comparisons are recorded in docs/evidence/m6/reconciled/comparison-corpus.json. Full raw sources, all derived paragraphs and live directive dependencies were read. Rendered reading capture: comparison-rendered-readings.txt. The introduction mapping-only repair is recorded in comparison-notes.json and checked in final output. No decision issued to archived entries."
+  }
+}

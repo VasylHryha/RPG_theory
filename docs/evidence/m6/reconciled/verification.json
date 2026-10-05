@@ -1,0 +1,696 @@
+{
+  "schema": "unity-m6-reconciled-qualification/1",
+  "date": "2026-10-05T12:52:39.422Z",
+  "role": "implementer",
+  "state": "REVIEW_READY",
+  "availablePrivateChecks": "PASS_COMBINED_FRESH_AND_REUSED_EVIDENCE",
+  "completePublicM6": "INCOMPLETE",
+  "separateHighM6Acceptance": "PENDING",
+  "head": "2615299bfeef5beb3665337b7f3c5623a82cf4d0",
+  "currentSourceQualified": true,
+  "deployEligible": false,
+  "reviewStates": {
+    "accepted": 74,
+    "pending": 0,
+    "stale": 21,
+    "rejected": 0
+  },
+  "decisions": "33 genuinely compared current decisions plus 41 unchanged accepted; 21 archived stale retained",
+  "privateCurrentEntries": 74,
+  "archivedEntries": 21,
+  "publishedReadings": 0,
+  "artifacts": [
+    {
+      "base": "/",
+      "mode": "preview",
+      "files": 267,
+      "html": 103,
+      "artifactSha256": "d6d3ef130d5b44e7ae835cc9d3859180b5fc43071e2ca0b5819752d8428b07aa",
+      "inputsSha256": "6c2b1e0ac00a8236ef8094342b732c0996eddd6e539d0e9620c0161c5793a98d",
+      "publicationManifestSha256": "b99940031bae453055ed7469a8cb49f36805e258998739170b96680cfaaa1536",
+      "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "inventorySeal": "caaa7691bde318f188dcecf45950b05b5c0cdcc2cff9770474522395b67c8139",
+      "unchangedAfterChecks": true,
+      "currentSourceQualified": true,
+      "deployEligible": false,
+      "browser": {
+        "mainPassing": 26,
+        "mainFailed": 1,
+        "targetedRepairedPassing": 1,
+        "additionalAccessibilityPassing": 1,
+        "passingCoverage": 28,
+        "freshMonolithicPassingRun": false
+      },
+      "integration": {
+        "status": "PASS",
+        "browserSmoke": [
+          {
+            "engine": "chromium",
+            "version": "153.0.8010.12",
+            "status": "PASS",
+            "actual": "navigation/math/pending search",
+            "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+          },
+          {
+            "engine": "firefox",
+            "version": "155.0",
+            "status": "PASS",
+            "actual": "navigation/math/pending search",
+            "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+          },
+          {
+            "engine": "webkit",
+            "version": "26.6",
+            "status": "PASS",
+            "actual": "navigation/math/pending search",
+            "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+          }
+        ],
+        "stress": {
+          "status": "PASS",
+          "documents": 100,
+          "records": 100,
+          "syntheticReferences": 100,
+          "indexedReadings": 200,
+          "elapsedMs": 12938,
+          "maxRSSKiB": 661440,
+          "runner": "local; CI NOT_RUN",
+          "checks": "shared corpus validation → render 200 bodies incl 10000-word/20-equation/wide-table/long-title controls → native Pagefind build",
+          "fixtureOnly": true
+        },
+        "performance": [
+          {
+            "route": "/",
+            "status": "PASS",
+            "ownedColdGzipEquivalentBytes": 7118,
+            "initialJSGzipBytes": 0,
+            "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression",
+            "assetCount": 2
+          },
+          {
+            "route": "/math/",
+            "status": "PASS",
+            "ownedColdGzipEquivalentBytes": 151336,
+            "initialJSGzipBytes": 0,
+            "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression",
+            "assetCount": 10
+          }
+        ],
+        "lighthouse": [
+          {
+            "route": "/",
+            "version": "13.5.0",
+            "LCPms": 752.1627000000001,
+            "CLS": 0,
+            "performance": 1,
+            "accessibility": 1,
+            "profile": "mobile 375×812; simulated throttling; local Chromium; diagnostic only"
+          },
+          {
+            "route": "/math/",
+            "version": "13.5.0",
+            "LCPms": 4204.13685,
+            "CLS": 0,
+            "performance": 0.76,
+            "accessibility": 1,
+            "profile": "mobile 375×812; simulated throttling; local Chromium; diagnostic only"
+          }
+        ]
+      }
+    },
+    {
+      "base": "/unity-theory/",
+      "mode": "preview",
+      "files": 267,
+      "html": 103,
+      "artifactSha256": "7c4116188719cbade793f7faadd5575e222e5082ae72babd5047a6ee93ef5e8e",
+      "inputsSha256": "6c2b1e0ac00a8236ef8094342b732c0996eddd6e539d0e9620c0161c5793a98d",
+      "publicationManifestSha256": "b99940031bae453055ed7469a8cb49f36805e258998739170b96680cfaaa1536",
+      "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "inventorySeal": "caaa7691bde318f188dcecf45950b05b5c0cdcc2cff9770474522395b67c8139",
+      "unchangedAfterChecks": true,
+      "currentSourceQualified": true,
+      "deployEligible": false,
+      "browser": {
+        "mainPassing": 26,
+        "mainFailed": 1,
+        "targetedRepairedPassing": 1,
+        "additionalAccessibilityPassing": 1,
+        "passingCoverage": 28,
+        "freshMonolithicPassingRun": false
+      },
+      "integration": {
+        "status": "PASS",
+        "browserSmoke": [
+          {
+            "engine": "chromium",
+            "version": "153.0.8010.12",
+            "status": "PASS",
+            "actual": "navigation/math/pending search",
+            "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+          },
+          {
+            "engine": "firefox",
+            "version": "155.0",
+            "status": "PASS",
+            "actual": "navigation/math/pending search",
+            "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+          },
+          {
+            "engine": "webkit",
+            "version": "26.6",
+            "status": "PASS",
+            "actual": "navigation/math/pending search",
+            "synthetic": "five topic queries, base URLs, scoped snippets, empty/nonsense/navigation-exclusion/missing-bundle controls"
+          }
+        ],
+        "stress": {
+          "status": "PASS",
+          "documents": 100,
+          "records": 100,
+          "syntheticReferences": 100,
+          "indexedReadings": 200,
+          "elapsedMs": 10277,
+          "maxRSSKiB": 647536,
+          "runner": "local; CI NOT_RUN",
+          "checks": "shared corpus validation → render 200 bodies incl 10000-word/20-equation/wide-table/long-title controls → native Pagefind build",
+          "fixtureOnly": true
+        },
+        "performance": [
+          {
+            "route": "/unity-theory/",
+            "status": "PASS",
+            "ownedColdGzipEquivalentBytes": 7139,
+            "initialJSGzipBytes": 0,
+            "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression",
+            "assetCount": 2
+          },
+          {
+            "route": "/unity-theory/math/",
+            "status": "PASS",
+            "ownedColdGzipEquivalentBytes": 151375,
+            "initialJSGzipBytes": 0,
+            "accounting": "fresh browser context, local no-store production-output server; gzip each received owned response body (including CSS embedded fonts); no third-party assets; equivalent gzip budget, not on-wire compression",
+            "assetCount": 10
+          }
+        ],
+        "lighthouse": "Root home/math diagnostic only; no duplicate subpath run"
+      }
+    }
+  ],
+  "checks": {
+    "astro": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "sources": {
+      "currentFiles": 24,
+      "predecessorFiles": 13,
+      "unchanged": true
+    },
+    "contracts": {
+      "mainTests": 23,
+      "mainPassed": 21,
+      "mainFailed": 2,
+      "additionalTargetedInitialFailure": 1,
+      "targetedRepairedTests": 3,
+      "targetedRepairedPassed": 3,
+      "passingCoverage": 24,
+      "freshMonolithicPassingRun": false
+    },
+    "chromiumPassingCoverage": 56,
+    "rawExtractionBodyExportZIPComparison": "PASS",
+    "postBrowserArtifactIntegrity": "PASS",
+    "preservation": "PASS_TASK_SCOPE_WITH_RUNTIME_PROVENANCE_NOTE"
+  },
+  "reused": {
+    "implementation": "docs/evidence/source-reconciliation/implementation/verification.json",
+    "mainContentPasses": 118,
+    "targetedRepairedPasses": 2,
+    "focusedBrowserPasses": 14,
+    "boundedMigrationAcceptance": "docs/evidence/source-reconciliation/acceptance/verification.json",
+    "acceptanceInventoriesRehashed": "retained-integrity.json",
+    "cleanInstall": "Unchanged pinned-lock and installed version identity; publication-selection.json",
+    "fullSuiteRepeated": false
+  },
+  "commands": [
+    {
+      "stage": "comparison-builds",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/build.ts",
+        "--mode",
+        "preview",
+        "--config",
+        "config/site.json",
+        "--output",
+        "dist/m6-reconciled/comparison-root"
+      ],
+      "log": "docs/evidence/m6/reconciled/comparison-build-root.log",
+      "exitCode": 0,
+      "elapsedSeconds": 12.09
+    },
+    {
+      "stage": "comparison-builds",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/build.ts",
+        "--mode",
+        "preview",
+        "--config",
+        "tests/fixtures/site-subpath.json",
+        "--output",
+        "dist/m6-reconciled/comparison-subpath"
+      ],
+      "log": "docs/evidence/m6/reconciled/comparison-build-subpath.log",
+      "exitCode": 0,
+      "elapsedSeconds": 11.35
+    },
+    {
+      "stage": "final-builds",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/build.ts",
+        "--mode",
+        "preview",
+        "--config",
+        "config/site.json",
+        "--output",
+        "dist/m6-reconciled/root"
+      ],
+      "log": "docs/evidence/m6/reconciled/build-root.log",
+      "exitCode": 0,
+      "elapsedSeconds": 16.11
+    },
+    {
+      "stage": "final-builds",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/build.ts",
+        "--mode",
+        "preview",
+        "--config",
+        "tests/fixtures/site-subpath.json",
+        "--output",
+        "dist/m6-reconciled/subpath"
+      ],
+      "log": "docs/evidence/m6/reconciled/build-subpath.log",
+      "exitCode": 0,
+      "elapsedSeconds": 15.81
+    },
+    {
+      "stage": "browser-root",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/test-e2e.ts",
+        "--output",
+        "dist/m6-reconciled/root"
+      ],
+      "log": "docs/evidence/m6/reconciled/browser-root.log",
+      "exitCode": 1,
+      "elapsedSeconds": 0.09
+    },
+    {
+      "stage": "static",
+      "command": [
+        "npm",
+        "run",
+        "check"
+      ],
+      "log": "docs/evidence/m6/reconciled/astro.log",
+      "exitCode": 0,
+      "elapsedSeconds": 10.24
+    },
+    {
+      "stage": "static",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/check-sources.ts",
+        "--scope",
+        "history"
+      ],
+      "log": "docs/evidence/m6/reconciled/history.log",
+      "exitCode": 0,
+      "elapsedSeconds": 0.46
+    },
+    {
+      "stage": "static",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/check-sources.ts",
+        "--scope",
+        "current"
+      ],
+      "log": "docs/evidence/m6/reconciled/sources.log",
+      "exitCode": 0,
+      "elapsedSeconds": 3.56
+    },
+    {
+      "stage": "static",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/check-content.ts"
+      ],
+      "log": "docs/evidence/m6/reconciled/content.log",
+      "exitCode": 0,
+      "elapsedSeconds": 5.59
+    },
+    {
+      "stage": "static",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/check-publication.ts"
+      ],
+      "log": "docs/evidence/m6/reconciled/publication.log",
+      "exitCode": 0,
+      "elapsedSeconds": 8.21
+    },
+    {
+      "stage": "static",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/audit-output.ts",
+        "--dir",
+        "dist/m6-reconciled/root"
+      ],
+      "log": "docs/evidence/m6/reconciled/audit-root.log",
+      "exitCode": 0,
+      "elapsedSeconds": 26.52
+    },
+    {
+      "stage": "static",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/audit-output.ts",
+        "--dir",
+        "dist/m6-reconciled/subpath"
+      ],
+      "log": "docs/evidence/m6/reconciled/audit-subpath.log",
+      "exitCode": 0,
+      "elapsedSeconds": 17.17
+    },
+    {
+      "stage": "contracts",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "--test",
+        "tests/content/m6.test.ts",
+        "tests/content/website-fidelity.test.ts",
+        "tests/content/source-reconciliation.test.ts",
+        "tests/content/m3.test.ts"
+      ],
+      "log": "docs/evidence/m6/reconciled/affected-contracts.log",
+      "exitCode": 1,
+      "elapsedSeconds": 132.78
+    },
+    {
+      "stage": "browser-root",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/test-e2e.ts",
+        "--output",
+        "dist/m6-reconciled/root"
+      ],
+      "log": "docs/evidence/m6/reconciled/browser-root-1791203658392899000.log",
+      "exitCode": 1,
+      "elapsedSeconds": 133.95
+    },
+    {
+      "stage": "remaining",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/test-e2e.ts",
+        "--output",
+        "dist/m6-reconciled/subpath"
+      ],
+      "log": "docs/evidence/m6/reconciled/browser-subpath.log",
+      "exitCode": 1,
+      "elapsedSeconds": 141.26
+    },
+    {
+      "stage": "additional-accessibility",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/test-e2e.ts",
+        "--output",
+        "dist/m6-reconciled/root",
+        "--grep",
+        "reconciled source reading layouts pass M6 accessibility"
+      ],
+      "log": "docs/evidence/m6/reconciled/additional-root.log",
+      "exitCode": 0,
+      "elapsedSeconds": 43.78
+    },
+    {
+      "stage": "browser-repairs",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/test-e2e.ts",
+        "--output",
+        "dist/m6-reconciled/root",
+        "--grep",
+        "M2 complete reading journey works without JavaScript"
+      ],
+      "log": "docs/evidence/m6/reconciled/repaired-root.log",
+      "exitCode": 0,
+      "elapsedSeconds": 3.72
+    },
+    {
+      "stage": "browser-repairs",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/test-e2e.ts",
+        "--output",
+        "dist/m6-reconciled/subpath",
+        "--grep",
+        "M2 complete reading journey works without JavaScript"
+      ],
+      "log": "docs/evidence/m6/reconciled/repaired-subpath.log",
+      "exitCode": 0,
+      "elapsedSeconds": 4
+    },
+    {
+      "stage": "additional-accessibility",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/test-e2e.ts",
+        "--output",
+        "dist/m6-reconciled/subpath",
+        "--grep",
+        "reconciled source reading layouts pass M6 accessibility"
+      ],
+      "log": "docs/evidence/m6/reconciled/additional-subpath.log",
+      "exitCode": 0,
+      "elapsedSeconds": 44.98
+    },
+    {
+      "stage": "integration",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/check-m6-integration.ts",
+        "--dir",
+        "dist/m6-reconciled/root",
+        "--evidence-dir",
+        "docs/evidence/m6/reconciled",
+        "--lighthouse",
+        "true"
+      ],
+      "log": "docs/evidence/m6/reconciled/integration-root.log",
+      "exitCode": 0,
+      "elapsedSeconds": 89.96
+    },
+    {
+      "stage": "integration",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/check-m6-integration.ts",
+        "--dir",
+        "dist/m6-reconciled/subpath",
+        "--evidence-dir",
+        "docs/evidence/m6/reconciled",
+        "--lighthouse",
+        "false"
+      ],
+      "log": "docs/evidence/m6/reconciled/integration-subpath.log",
+      "exitCode": 0,
+      "elapsedSeconds": 49.2
+    },
+    {
+      "stage": "targeted-contract-repair",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-name-pattern",
+        "M3 preserves issued decisions|current source downloads preserve exact bytes",
+        "tests/content/m3.test.ts",
+        "tests/content/source-reconciliation.test.ts"
+      ],
+      "log": "docs/evidence/m6/reconciled/contracts-repaired.log",
+      "exitCode": 0,
+      "recordedAt": "2026-10-05T12:52:34.371723+00:00",
+      "basis": "Actual completed tool exit and preserved test output"
+    },
+    {
+      "stage": "targeted-contract-repair",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-name-pattern",
+        "M2 rendering changes invalidate preserved predecessor decisions",
+        "tests/content/m2.test.ts"
+      ],
+      "log": "docs/evidence/m6/reconciled/m2-removal-control-before.log",
+      "exitCode": 1,
+      "recordedAt": "2026-10-05T12:52:34.371951+00:00",
+      "basis": "Actual completed tool exit and preserved test output"
+    },
+    {
+      "stage": "targeted-contract-repair",
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-name-pattern",
+        "M2 rendering changes invalidate preserved predecessor decisions",
+        "tests/content/m2.test.ts"
+      ],
+      "log": "docs/evidence/m6/reconciled/m2-removal-control-repaired.log",
+      "exitCode": 0,
+      "recordedAt": "2026-10-05T12:52:34.372051+00:00",
+      "basis": "Actual completed tool exit and preserved test output"
+    }
+  ],
+  "qualificationRefusal": {
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/build.ts",
+      "--mode",
+      "qualification",
+      "--config",
+      "config/site.json",
+      "--output",
+      "dist/m6-reconciled/qualification-refused"
+    ],
+    "exitCode": 1,
+    "status": "EXPECTED_REFUSAL",
+    "diagnostic": "CURRENT_SOURCE_NOT_QUALIFIED",
+    "actualUnmetPrerequisite": "No published launch selection: all 74 current entries remain drafts, historicalIds is empty. Current website fidelity is qualified; the selector uses this diagnostic for an empty intended selection too.",
+    "outputExists": false,
+    "publicAction": false
+  },
+  "remainingGates": [
+    {
+      "gate": "PUBLISHED_LAUNCH_SELECTION",
+      "state": "NOT_SELECTED",
+      "reason": "All 74 current entries are drafts; selecting the private qualification corpus is not an author-approved public launch set."
+    },
+    {
+      "gate": "ACTUAL_TARGET_BASE",
+      "state": "NOT_SUPPLIED",
+      "reason": "Local remote exists; site/policy target, public origin/base and Pages authorization are not configured."
+    },
+    {
+      "gate": "AUTHOR_PUBLIC_WORDING",
+      "state": "PENDING",
+      "reason": "No author approval of first-public introduction/core wording supplied."
+    },
+    {
+      "gate": "IDENTITY_CONTACT_ORCID_PERMANENT_URL",
+      "state": "PENDING",
+      "reason": "No approved credit/contact/ORCID/permanent URL supplied."
+    },
+    {
+      "gate": "SCOPED_RIGHTS_PRIVACY_LEGAL_CONTENT_RELEASE",
+      "state": "PENDING",
+      "reason": "No owner decisions for code/research/data rights, public file/history/privacy/legal/content/release approval supplied."
+    },
+    {
+      "gate": "PLATFORM_PROTECTIONS_PRIVATE_CAPTURE",
+      "state": "NOT_CONFIGURED",
+      "reason": "Real Pages branch/environment protections and approved durable private receipt capture not demonstrated."
+    },
+    {
+      "gate": "SCREEN_READER_MATHML",
+      "state": "NOT_TESTED",
+      "reason": "No actual assistive-technology session; MathML/font/keyboard tests cannot substitute."
+    },
+    {
+      "gate": "CURRENT_RENDERED_READ_ALOUD_LISTENING",
+      "state": "NOT_RUN",
+      "reason": "Predecessor transcript does not qualify revised current wording; no current listening session claimed."
+    },
+    {
+      "gate": "HUMAN_COMPREHENSION",
+      "state": "NOT_TESTED",
+      "reason": "No two-non-specialist study or actual participant answers."
+    },
+    {
+      "gate": "REMOTE_CI_CHOSEN_RUNNER_STRESS",
+      "state": "NOT_RUN",
+      "reason": "Local synthetic stress completed; selected remote runner unavailable."
+    },
+    {
+      "gate": "FIELD_CWV_ACTUAL_TARGET_TRANSFER",
+      "state": "NOT_MEASURED",
+      "reason": "Local cold gzip equivalents/Lighthouse diagnostic only; math diagnostic LCP about 4.2 seconds retained."
+    },
+    {
+      "gate": "FULL_GPT_LIBRARY_ORIGINAL_PACKAGE_PROVENANCE",
+      "state": "UNVERIFIED",
+      "reason": "Repository files and downloads are pinned; complete original package not available for comparison."
+    }
+  ],
+  "scientificCertification": false,
+  "scientificAdjudication": "NOT_PERFORMED",
+  "historicalExperiments": "NOT_SELECTED / NOT_RUN",
+  "m7WorkBegun": false,
+  "commitPushDeployDnsLicenseActions": false
+}

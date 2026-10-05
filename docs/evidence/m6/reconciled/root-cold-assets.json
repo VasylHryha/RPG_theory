@@ -1,0 +1,101 @@
+{
+  "method": "Fresh browser context per route, local no-store HTTP server; observed successful owned response bodies compressed individually at gzip level 9; headers excluded. This is a lab inventory, not a Lighthouse or field CWV result.",
+  "observations": [
+    {
+      "route": "/",
+      "emptyBrowserCache": true,
+      "viewport": 375,
+      "resources": [
+        {
+          "url": "/",
+          "bytes": 10449,
+          "gzipBytes": 3850
+        },
+        {
+          "url": "/_astro/ReadingLayout.B_EPQKDX.css",
+          "bytes": 10860,
+          "gzipBytes": 3265
+        }
+      ],
+      "totalGzipBytes": 7115,
+      "javascriptBytes": 0
+    },
+    {
+      "route": "/start/",
+      "emptyBrowserCache": true,
+      "viewport": 375,
+      "resources": [
+        {
+          "url": "/start/",
+          "bytes": 11373,
+          "gzipBytes": 4370
+        },
+        {
+          "url": "/_astro/ReadingLayout.B_EPQKDX.css",
+          "bytes": 10860,
+          "gzipBytes": 3265
+        }
+      ],
+      "totalGzipBytes": 7635,
+      "javascriptBytes": 0
+    },
+    {
+      "route": "/examples/string/",
+      "emptyBrowserCache": true,
+      "viewport": 375,
+      "resources": [
+        {
+          "url": "/examples/string/",
+          "bytes": 8830,
+          "gzipBytes": 3397
+        },
+        {
+          "url": "/_astro/ReadingLayout.B_EPQKDX.css",
+          "bytes": 10860,
+          "gzipBytes": 3265
+        }
+      ],
+      "totalGzipBytes": 6662,
+      "javascriptBytes": 0
+    },
+    {
+      "route": "/concepts/effective-interactions/",
+      "emptyBrowserCache": true,
+      "viewport": 375,
+      "resources": [
+        {
+          "url": "/concepts/effective-interactions/",
+          "bytes": 15310,
+          "gzipBytes": 4409
+        },
+        {
+          "url": "/_astro/katex.min.BNLSuGWh.css",
+          "bytes": 28865,
+          "gzipBytes": 7831
+        },
+        {
+          "url": "/_astro/ReadingLayout.B_EPQKDX.css",
+          "bytes": 10860,
+          "gzipBytes": 3265
+        },
+        {
+          "url": "/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+          "bytes": 16440,
+          "gzipBytes": 16468
+        },
+        {
+          "url": "/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+          "bytes": 26272,
+          "gzipBytes": 26300
+        },
+        {
+          "url": "/_astro/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+          "bytes": 6908,
+          "gzipBytes": 6931
+        }
+      ],
+      "totalGzipBytes": 65204,
+      "javascriptBytes": 0
+    }
+  ]
+}

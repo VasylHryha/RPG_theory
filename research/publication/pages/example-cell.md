@@ -4,18 +4,18 @@
   "route": "/examples/cell/",
   "title": "Cell: organization through exchange",
   "description": "Maintaining an organization while its components remain active.",
-  "revision": 1,
+  "revision": 3,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
-    "R-CURRENT-WORLD",
-    "R-CURRENT-SCIENCE"
+    "R-CURRENT-SCIENCE",
+    "R-CURRENT-WORLD"
   ],
   "dependsOn": [
     "UT-D04",
@@ -26,7 +26,8 @@
   ],
   "related": [],
   "bibRefs": [
-    "BIB-0063"
+    "BIB-0063",
+    "BIB-0092"
   ],
   "contentOrigin": "authored",
   "sourceBinding": null,
@@ -34,7 +35,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "World \u00a7\u00a78\u201310; framework \u00a78 and \u00a713; core \u00a7\u00a74\u20139. OpenStax supplements membrane transport; no origin-of-life or complete artificial-cell claim.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§8–10; framework §8 and §13; core §§4–9. OpenStax supplements membrane transport; no origin-of-life or complete artificial-cell claim.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null
@@ -57,3 +58,7 @@ Keeping one cell organized, templating a molecular structure and reproducing a b
 A cell may also participate in a larger organization while its internal activity remains. This illustrates the whole-as-part question; the historical route from prebiotic chemistry to the first life remains unresolved in the supplied framework.
 
 [All examples](/examples/) · [Start with the idea](/start/)
+
+## Energy-dependent transport
+
+[OpenStax active transport](/references/#BIB-0092) gives a direct account of energy-dependent membrane transport. It supplements the passive-transport explanation, which already discusses maintained gradients. Both links are textbook background.

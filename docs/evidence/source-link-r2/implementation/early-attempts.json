@@ -1,0 +1,42 @@
+{
+  "attempts": [
+    {
+      "step": "Initial adapted inventory check",
+      "outcome": "FAIL",
+      "reason": "Further-reading records store doi, not url; corrected lookup to construct DOI URL."
+    },
+    {
+      "step": "Initial five-case focused contracts",
+      "passed": 3,
+      "failed": 2,
+      "reason": "F01 url assumption and an incorrect test wording assertion; no all-green run claimed."
+    },
+    {
+      "step": "Initial Astro check",
+      "outcome": "FAIL",
+      "log": "astro-1791211679831322000.log",
+      "reason": "Optional entry type narrowing in new checker; corrected with required lookup."
+    },
+    {
+      "step": "Initial browser listener",
+      "outcome": "BLOCKED",
+      "log": "browser-root-1791211816804292000.log",
+      "reason": "Sandbox EPERM on localhost; rerun after approved escalation."
+    },
+    {
+      "step": "First selected-output browser run",
+      "outcome": "FAIL",
+      "reason": "Known alternate BIB-0040 omitted by production publication selection; repaired shared publication/reference closure and fingerprint dependency closure."
+    },
+    {
+      "step": "Later selected-output contract/browser assertion",
+      "outcome": "FAIL",
+      "reason": "Test incorrectly required uncited BIB-0046/47 in this selected bibliography; corrected to actual selected publication IDs, retaining the canonical pair and checking its closure."
+    },
+    {
+      "step": "Combined accessibility loop",
+      "outcome": "TIMEOUT",
+      "reason": "Twenty page/width checks exceeded one 90s timeout in two runs; no reported axe violation. Split the same checks into independently bounded per-width contexts; no exemption or waived tag."
+    }
+  ]
+}

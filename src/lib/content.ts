@@ -1,3 +1,5 @@
+import { currentPackageMember, supportingPackageMember } from './source-paths.js';
+import { documentMarkdown } from './source-links.js';
 import { readFileSync } from 'node:fs';
 import { resolve, join } from 'node:path';
 import { parse } from 'yaml';
@@ -51,9 +53,11 @@ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; 
   for (const source of sources.values()) {
     if (resolve(root,source.path) !== join(root,source.path) || source.path.split('/').some(x=>x === '..') || /[\\\u0000]/.test(source.path)) fail('UNSAFE_SOURCE_PATH',source.path);
     const raw = readFileSync(resolve(root,source.path)); if (sha256(raw) !== source.sha256) fail('SOURCE_INTEGRITY_FAILURE',source.key);
-    if (source.declaredCurrent) { const file = input.record.files.find(f => `${input.record.directory}/${f.path}` === source.path); if (!file || file.sha256 !== source.sha256 || source.authorityNoticeOnly || source.edition!==admission.edition) fail('SOURCE_REGISTRY_FAILURE',source.key); }
+    const file = input.record.files.find(f => `${input.record.directory}/${f.path}` === source.path);
+    if (currentPackageMember(source,input.record.directory) && (!file || file.sha256!==source.sha256 || source.edition!==admission.edition)) fail('SOURCE_REGISTRY_FAILURE',source.key);
+    if (source.declaredCurrent && (!file || source.authorityNoticeOnly || supportingPackageMember(source,input.record.directory))) fail('SOURCE_REGISTRY_FAILURE',source.key);
   }
-  if(stableJSON([...sources.values()].filter(s=>s.declaredCurrent).map(s=>s.path).sort())!==stableJSON(input.record.files.map(f=>`${input.record.directory}/${f.path}`).sort())) fail('SOURCE_REGISTRY_FAILURE','Registry must cover exactly the admitted current package');
+  if(stableJSON([...sources.values()].filter(s=>currentPackageMember(s,input.record.directory)).map(s=>s.path).sort())!==stableJSON(input.record.files.map(f=>`${input.record.directory}/${f.path}`).sort())) fail('SOURCE_REGISTRY_FAILURE','Registry must cover exactly the admitted current package');
   for (const alias of aliases.values()) { if (!sources.has(alias.sourceKey) || !references.has(alias.bibliographyId)) fail('UNKNOWN_REFERENCE',alias.localCitationKey); }
   for (const reference of references.values()) {
     if (!reference.url.startsWith('https://') || new URL(reference.url).username || new URL(reference.url).password || !reference.identity || !reference.supportScope || !reference.verificationScope) fail('INVALID_REFERENCE',reference.id);
@@ -84,17 +88,18 @@ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; 
     if (entry.contentOrigin !== 'source-bound' && entry.sourceBinding) fail('SOURCE_BINDING_FAILURE',entry.id);
     if (entry.sourceRefs.some(key=>sources.get(key)?.authorityNoticeOnly) && entry.id.startsWith('UT-')) fail('SOURCE_NOTE_ONLY_MISUSE',entry.id);
     if (entry.id==='DOC-HOME' && entry.route!=='/' || entry.id==='DOC-START' && entry.route!=='/start/' || entry.route!=='/' && !entry.route.endsWith('/')) fail('INVALID_DOCUMENT_ROUTE',entry.id);
-    if (!['superseded','withdrawn'].includes(entry.publicationState) && entry.researchEdition!==admission.edition) fail('SOURCE_EDITION_MISMATCH',entry.id);
+    if (!['superseded','withdrawn','archived'].includes(entry.publicationState) && entry.researchEdition!==admission.edition) fail('SOURCE_EDITION_MISMATCH',entry.id);
     validDate(entry.updatedAt);
     if (entry.publishedAt && validDate(entry.updatedAt) < validDate(entry.publishedAt)) fail('INVALID_DATE',entry.id);
-    if (entry.publicationState !== 'draft' && !entry.publishedAt) fail('INVALID_PUBLICATION_STATE',entry.id);
+    if (!['draft','archived'].includes(entry.publicationState) && !entry.publishedAt) fail('INVALID_PUBLICATION_STATE',entry.id);
     if (entry.kind === 'article' && entry.publicationState === 'published' && (!entry.tags?.length || !entry.authorIdentity)) fail('ARTICLE_IDENTITY_REQUIRED',entry.id);
     for (const key of entry.sourceRefs) { if (!sources.has(key)) fail('UNKNOWN_SOURCE',key); }
     if (entry.contentOrigin === 'source-bound') {
       if (entry.statement !== null || !entry.sourceBinding) fail('SOURCE_BINDING_FAILURE',`Independent statement override: ${entry.id}`);
       const source = sources.get(entry.sourceBinding.sourceKey);
-      const historical=['superseded','withdrawn'].includes(entry.publicationState) && source?.role==='history_only' && source.path.startsWith('research/history/');
-      if ((!source?.declaredCurrent && !historical) || source?.authorityNoticeOnly || !source || !entry.sourceRefs.includes(source.key)) fail('SOURCE_NOTE_ONLY_MISUSE',entry.id);
+      const historical=['superseded','withdrawn','archived'].includes(entry.publicationState) && source?.role==='history_only' && source.path.startsWith('research/history/');
+      const supportDocument=source && entry.id.startsWith('DOC-') && currentPackageMember(source,input.record.directory) && supportingPackageMember(source,input.record.directory);
+      if ((!source?.declaredCurrent && !historical && !supportDocument) || source?.authorityNoticeOnly || !source || !entry.sourceRefs.includes(source.key)) fail('SOURCE_NOTE_ONLY_MISUSE',entry.id);
       if(historical) {
         if(source.edition!==entry.researchEdition || source.sha256!==entry.sourceBinding.sourceSha256) fail('SOURCE_EDITION_MISMATCH',entry.id);
         const file=source.path.split('/').pop()!;
@@ -117,7 +122,7 @@ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; 
     if (entry.kind === 'derivation' && (!entry.assumptions.length || !entry.testRefs.length || !entry.limits)) fail('DERIVATION_SCOPE_REQUIRED',entry.id);
     if (entry.kind === 'prediction' && (!entry.observables || !entry.conditions)) fail('PREDICTION_SCOPE_REQUIRED',entry.id);
     if (entry.kind === 'falsification' && (!entry.targetId || !entry.procedure || !entry.rejectionCriterion)) fail('FALSIFICATION_SCOPE_REQUIRED',entry.id);
-    if (['superseded','withdrawn'].includes(entry.publicationState) && (!entry.correctionRef || (entry.publicationState === 'superseded' && !entry.supersededBy) || (entry.publicationState === 'withdrawn' && !entry.withdrawalReason))) fail('CORRECTION_REQUIRED',entry.id);
+    if (['superseded','withdrawn','archived'].includes(entry.publicationState) && (!entry.correctionRef || (entry.publicationState === 'superseded' && !entry.supersededBy) || (entry.publicationState === 'withdrawn' && !entry.withdrawalReason) || (entry.publicationState === 'archived' && !entry.archiveReason))) fail('CORRECTION_REQUIRED',entry.id);
     if(entry.sourceBinding) {
       const urls=[...(entry.statement ?? '').matchAll(/https:\/\/[^\s<>\\]+/g)].map(m=>m[0].split(']')[0].replace(/[).,;`]+$/,''));
       for(const url of urls) {
@@ -130,14 +135,14 @@ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; 
     }
   }
   for (const entry of entries.values()) {
-    const tree = parseMarkdown(entry.body);
+    const tree = parseMarkdown(documentMarkdown(entry.body, {entries,sources,root}, entry));
     const extracted = expandDirectives(tree, { entries, references }); safeMarkdown()(tree);
     entry.dependsOn = [...new Set([...entry.dependsOn,...extracted.dependencies,...entry.assumptions,...(entry.targetId ? [entry.targetId] : [])])].sort();
     entry.bibRefs = [...new Set([...entry.bibRefs,...extracted.bibliography])].sort();
     for (const key of entry.bibRefs) if (!references.has(key)) fail('UNKNOWN_REFERENCE',key);
     for (const id of [...entry.dependsOn,...entry.related,...(entry.supersededBy ? [entry.supersededBy] : []),...(entry.supersedes ? [entry.supersedes] : [])]) if (!entries.has(id)) fail('UNKNOWN_DEPENDENCY',id);
     for (const text of [entry.plainLanguage, sourceDisplay(entry.statement ?? '',entry.adapter)]) {
-      const prose = parseMarkdown(text); const refs = expandDirectives(prose,{entries,references}); safeMarkdown()(prose);
+      const prose = parseMarkdown(documentMarkdown(text, {entries,sources,root}, entry)); const refs = expandDirectives(prose,{entries,references}); safeMarkdown()(prose);
       entry.dependsOn = [...new Set([...entry.dependsOn,...refs.dependencies])].sort();
       entry.bibRefs = [...new Set([...entry.bibRefs,...refs.bibliography])].sort();
     }
@@ -146,11 +151,11 @@ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; 
   // Bind the transitive rendering/selection policy and its pinned dependencies,
   // not just the entry renderer. A URL, schema, CSS or KaTeX dependency change
   // can change the reviewed presentation without changing source prose.
-  const rendererFiles=['content.ts','library.ts','publication-assets.ts','publication-policy.ts','zip.ts','build-identity.ts','website-review.ts','content-schema.ts','markdown.ts','markdown-safety.ts','markdown-tree.ts','directives.ts','source-display.ts','presentation.ts','publication.ts','search.ts','site-metadata.ts','source-admission.ts','site-config.ts','urls.ts','identity.ts','errors.ts'].map(path=>'src/lib/'+path)
+  const rendererFiles=['content.ts','library.ts','publication-assets.ts','publication-policy.ts','zip.ts','build-identity.ts','website-review.ts','content-schema.ts','markdown.ts','markdown-safety.ts','markdown-tree.ts','directives.ts','source-display.ts','source-links.ts','source-paths.ts','presentation.ts','publication.ts','search.ts','site-metadata.ts','source-admission.ts','site-config.ts','urls.ts','identity.ts','errors.ts'].map(path=>'src/lib/'+path)
     .concat(filesIn(resolve(root,'src')).filter(path=>path.endsWith('.astro') || path.endsWith('.css')).map(path=>'src/'+path),['astro.config.mjs','package-lock.json']).sort();
   const rendererSha256=sha256(stableJSON(rendererFiles.map(path=>[path,sha256(readFileSync(resolve(root,path)))])));
   const corpus = { entries, sources, references, evidence, aliases: new Map([...aliases].map(([k,a])=>[k,a.bibliographyId])), root, websiteReviews:(input.websiteReviews ?? []).map(r=>websiteReviewSchema.parse(r)), admission, rendererSha256 };
-  const bindings=[...entries.values()].filter(e=>e.contentOrigin==='source-bound' && sources.get(e.sourceBinding!.sourceKey)?.declaredCurrent).map(e=>{ const {sourceKey,...binding}=e.sourceBinding!;return {...binding,path:sources.get(sourceKey)!.path.slice(input.record.directory.length+1)}; });
+  const bindings=[...entries.values()].filter(e=>e.contentOrigin==='source-bound' && currentPackageMember(sources.get(e.sourceBinding!.sourceKey)!,input.record.directory)).map(e=>{ const {sourceKey,...binding}=e.sourceBinding!;return {...binding,path:sources.get(sourceKey)!.path.slice(input.record.directory.length+1)}; });
   if(stableJSON(bindings.map(b=>stableJSON(b)).sort())!==stableJSON(input.record.bindings.map(b=>stableJSON(b)).sort())) fail('SOURCE_BINDING_FAILURE','Corpus extraction membership differs from admitted bindings');
   for (const entry of entries.values()) {
     dependencyClosure(corpus,entry.id);
@@ -170,10 +175,15 @@ export function dependencyClosure(corpus: Corpus, id: string): string[] {
 }
 function normalized(value: unknown): unknown { if (typeof value==='string') return value.replace(/\r\n?/g,'\n'); if (Array.isArray(value)) return value.map(normalized); if (value && typeof value==='object') return Object.fromEntries(Object.entries(value).map(([k,v])=>[k,normalized(v)])); return value; }
 export function semanticDigest(entry: Entry) { return sha256(stableJSON(normalized(entry))); }
+export function bibliographyClosure(corpus: Pick<Corpus,'references'>, direct: string[]) {
+  const primary=[...new Set(direct.map(id=>corpus.references.get(id)?.primaryId ?? id))];
+  const alternates=[...corpus.references.values()].filter(ref=>ref.primaryId && primary.includes(ref.primaryId)).map(ref=>ref.id);
+  return [...new Set([...direct,...primary,...alternates])].sort();
+}
 export function reviewFingerprint(corpus: Corpus, id: string) {
   const entry = corpus.entries.get(id) ?? fail('UNKNOWN_DEPENDENCY',id); const relevant = [entry,...dependencyClosure(corpus,id).map(key=>corpus.entries.get(key)!)];
   const directBib = relevant.flatMap(e=>e.bibRefs.concat(e.testRefs.filter(key=>corpus.references.has(key))));
-  const bibKeys = [...new Set(directBib.concat(directBib.flatMap(key=>corpus.references.get(key)?.primaryId ?? [])))].sort();
+  const bibKeys = bibliographyClosure(corpus,directBib);
   const sourceKeys = [...new Set(relevant.flatMap(e=>e.sourceRefs.concat(e.testRefs.filter(key=>corpus.sources.has(key)))).concat(bibKeys.flatMap(key=>corpus.references.get(key)!.sourceRefs)))].sort();
   return sha256(stableJSON({ own: semanticDigest(entry), dependencies: relevant.slice(1).map(e=>[e.id,semanticDigest(e)]), sources: sourceKeys.map(key=>corpus.sources.get(key)), references: bibKeys.map(key=>corpus.references.get(key)), evidence: [...new Set(relevant.flatMap(e=>e.evidenceRefs.concat(e.testRefs.filter(key=>corpus.evidence.has(key)))))].sort().map(key=>corpus.evidence.get(key)), aliases: [...corpus.aliases].filter(([key,value])=>sourceKeys.includes(key.slice(0,key.lastIndexOf(':'))) && bibKeys.includes(value)).sort(), renderingPolicy, rendererSha256:corpus.rendererSha256 }));
 }
@@ -183,7 +193,7 @@ export function affectedEntries(corpus: Corpus,id: string) {
     const ids=[key,...dependencyClosure(corpus,key)];if(ids.includes(id)) return true;
     const relevant=ids.map(key=>corpus.entries.get(key)!);
     const refs=relevant.flatMap(e=>e.bibRefs.concat(e.testRefs.filter(key=>corpus.references.has(key))));
-    const bib=[...new Set(refs.concat(refs.flatMap(key=>corpus.references.get(key)?.primaryId ?? [])))];
+    const bib=bibliographyClosure(corpus,refs);
     return bib.includes(id) || bib.some(key=>corpus.references.get(key)!.sourceRefs.includes(id)) || relevant.some(e=>[...e.sourceRefs,...e.testRefs,...e.evidenceRefs].includes(id));
   }).sort();
 }
@@ -194,9 +204,9 @@ export function loadCanonicalCorpus(root = process.cwd()): Corpus {
   const pages = filesIn(join(folder,'pages')).filter(p=>p.endsWith('.md')).map(path=> { const raw = readFileSync(join(folder,'pages',path),'utf8'); const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(raw); if (!match) fail('INVALID_FRONTMATTER',path); return { ...parse(match[1]), body: match[2] }; });
   return validateCorpus({ entries: [...documents,...records,...pages], sources: readYAML(join(folder,'source-index.yaml')) as unknown[], references: readYAML(join(folder,'references.yaml')) as unknown[], aliases: readYAML(join(folder,'citation-aliases.yaml')) as unknown[], websiteReviews: readYAML(join(folder,'website-reviews.yaml')) as unknown[], evidence: readYAML(join(folder,'execution-evidence.yaml')) as unknown[], record, root });
 }
-export async function renderEntry(corpus: Corpus,entry: Entry,base='/') { return renderMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,base,corpus); }
+export async function renderEntry(corpus: Corpus,entry: Entry,base='/') { return renderMarkdown(documentMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,corpus,entry),base,corpus); }
 
-export function renderEntrySync(corpus: Corpus,entry: Entry,base='/') { return renderMarkdownSync(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,base,corpus); }
+export function renderEntrySync(corpus: Corpus,entry: Entry,base='/') { return renderMarkdownSync(documentMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,corpus,entry),base,corpus); }
 
 // Context-sensitive editorial diagnostics: flag candidates, never manufacture
 // semantic approval or reject a legitimate quotation/negation automatically.

@@ -1,0 +1,56 @@
+{
+  "reason": "Remove contradictory present-tense unchecked metadata language; preserve actual previously recorded inspection depth, not a new paper audit.",
+  "basis": "docs/evidence/source-link-r2/implementation/external-checks.json",
+  "changes": [
+    {
+      "id": "BIB-0003",
+      "prior": "Source-transcribed citation/link; bibliographic metadata has not been independently checked. Supplementary reference reported by the supplied documents. Representation/lineage relationship checked on 5 October 2026 against publisher, PubMed, author manuscript or arXiv metadata. This does not establish identity of every finding across versions or independence of study/data.",
+      "current": "Publisher title, authors and DOI checked on 5 October 2026; BIB-0040 is the publisher HTML destination for that DOI. No fresh full-paper, methods or data inspection; no extra independent study is inferred."
+    },
+    {
+      "id": "BIB-0040",
+      "prior": "Source-transcribed citation/link; bibliographic metadata has not been independently checked. Supplementary reference reported by the supplied documents. Representation/lineage relationship checked on 5 October 2026 against publisher, PubMed, author manuscript or arXiv metadata. This does not establish identity of every finding across versions or independence of study/data.",
+      "current": "Publisher title, authors and DOI checked on 5 October 2026 against BIB-0003. This is another access path to the same publication, not an additional independent study. No fresh full-paper or methods inspection."
+    },
+    {
+      "id": "BIB-0044",
+      "prior": "Source-transcribed citation/link; bibliographic metadata has not been independently checked. Supplementary reference reported by the supplied documents. Representation/lineage relationship checked on 5 October 2026 against publisher, PubMed, author manuscript or arXiv metadata. This does not establish identity of every finding across versions or independence of study/data.",
+      "current": "Author-institution publication metadata and arXiv submission/journal-reference metadata checked on 5 October 2026: ALIFE 2025, DOI 10.1162/ISAL.a.914, followed by January 2026 arXiv v1. Complete text/finding equivalence and methods were not inspected."
+    },
+    {
+      "id": "BIB-0045",
+      "prior": "Source-transcribed citation/link; bibliographic metadata has not been independently checked. Supplementary reference reported by the supplied documents. Representation/lineage relationship checked on 5 October 2026 against publisher, PubMed, author manuscript or arXiv metadata. This does not establish identity of every finding across versions or independence of study/data.",
+      "current": "arXiv v1 submission and journal-reference metadata compared with the author-institution ALIFE 2025 record on 5 October 2026. The relationship is a publication lineage; complete text/finding equivalence and independent study/data were not established."
+    },
+    {
+      "id": "BIB-0046",
+      "prior": "Source-transcribed citation/link; bibliographic metadata has not been independently checked. Supplementary reference reported by the supplied documents. Representation/lineage relationship checked on 5 October 2026 against publisher, PubMed, author manuscript or arXiv metadata. This does not establish identity of every finding across versions or independence of study/data.",
+      "current": "PubMed PMID, title, authors, DOI and explicit PMCID link checked on 5 October 2026. Direct PMC retrieval returned a CAPTCHA; no full manuscript, methods or data inspection is claimed."
+    },
+    {
+      "id": "BIB-0047",
+      "prior": "Source-transcribed citation/link; bibliographic metadata has not been independently checked. Supplementary reference reported by the supplied documents. Representation/lineage relationship checked on 5 October 2026 against publisher, PubMed, author manuscript or arXiv metadata. This does not establish identity of every finding across versions or independence of study/data.",
+      "current": "The PubMed record explicitly links PMC2652413; that metadata relationship was checked on 5 October 2026. Direct PMC retrieval returned a CAPTCHA; complete manuscript/version-text equivalence was not inspected."
+    },
+    {
+      "id": "BIB-0049",
+      "prior": "Source-transcribed citation/link; bibliographic metadata has not been independently checked. Supplementary reference reported by the supplied documents. Representation/lineage relationship checked on 5 October 2026 against publisher, PubMed, author manuscript or arXiv metadata. This does not establish identity of every finding across versions or independence of study/data.",
+      "current": "arXiv title and authors compared with the linked author manuscript on 5 October 2026. Publication lineage only; no equality of every version finding, proof or methods verification is claimed."
+    },
+    {
+      "id": "BIB-0050",
+      "prior": "Source-transcribed citation/link; bibliographic metadata has not been independently checked. Supplementary reference reported by the supplied documents. Representation/lineage relationship checked on 5 October 2026 against publisher, PubMed, author manuscript or arXiv metadata. This does not establish identity of every finding across versions or independence of study/data.",
+      "current": "Author-manuscript title, authors and opening abstract compared with arXiv metadata on 5 October 2026. No complete version-text equivalence or independent proof check is claimed."
+    },
+    {
+      "id": "BIB-0051",
+      "prior": "Source-transcribed citation/link; bibliographic metadata has not been independently checked. Supplementary reference reported by the supplied documents. Representation/lineage relationship checked on 5 October 2026 against publisher, PubMed, author manuscript or arXiv metadata. This does not establish identity of every finding across versions or independence of study/data.",
+      "current": "SIAM title, authors, DOI and abstract compared with arXiv title, authors and abstract on 5 October 2026. Publication lineage only; complete version-text equivalence and numerical reproduction were not established."
+    },
+    {
+      "id": "BIB-0052",
+      "prior": "Source-transcribed citation/link; bibliographic metadata has not been independently checked. Supplementary reference reported by the supplied documents. Representation/lineage relationship checked on 5 October 2026 against publisher, PubMed, author manuscript or arXiv metadata. This does not establish identity of every finding across versions or independence of study/data.",
+      "current": "arXiv title, authors and abstract compared with SIAM title, authors, DOI and abstract on 5 October 2026. Publication lineage only; complete version-text equivalence and numerical reproduction were not established."
+    }
+  ]
+}

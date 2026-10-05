@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O104",
+  "fingerprint": "75031ad0250f4d255c39bf69f6468133f464ed9e1713073ff640a622895b5fae",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T15:32:57.561Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/source-reconciliation/acceptance/decisions/UT-O104.json. Retained semantic finding: Compared UT-O104, Fundamental unification, to the exact O4 source claim. The complete statement remains open and source-bound, with no new result or required proof gate.",
+  "inputs": {
+    "fingerprint": "75031ad0250f4d255c39bf69f6468133f464ed9e1713073ff640a622895b5fae",
+    "ownRead": {
+      "id": "UT-O104",
+      "route": "/claims/UT-O104/",
+      "title": "Fundamental unification",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 1,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e",
+        "startLine": 43,
+        "endLine": 43,
+        "excerptSha256": "4b65dc8e45a6d5ac5149b1e867f3a183406a62c0a1e767faf3720fd53778a8d4"
+      },
+      "statement": "**O4 — Fundamental unification.** A deeper common generator might account for the known interactions. Existing synchronization, optical binding or effective-Hamiltonian results do not derive that claim. It remains part of the author’s ambition rather than being removed for lack of proof.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "",
+      "sourceMapping": "v0.2.1 open claim O4; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "7a7a003d5aeeb0bd7045f3ad47ee7cf603b3d81cafdd6c6569a549cb67d26d76",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "7a7a003d5aeeb0bd7045f3ad47ee7cf603b3d81cafdd6c6569a549cb67d26d76",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Open-claim terminology and ambition match the supplied O1-O8 registry. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "meaning": "Compared UT-O104, Fundamental unification, to the exact O4 source claim. The complete statement remains open and source-bound, with no new result or required proof gate. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "assumptions": "No extra enabling assumption or demonstrated mechanism is appended to this open claim. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "hypotheses": "Kind remains open-problem; evidenceState remains proposed. The source does not establish the ambition. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "evidenceDescriptions": "Source-reported evidence and check coverage remain distinct from website-run experiments, independent science certification and external-paper review. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "openQuestions": "**O4 — Fundamental unification.** A deeper common generator might account for the known interactions. Existing synchronization, optical binding or effective-Hamiltonian results do not derive that claim. It remains part of the author’s ambition rather than being removed for lack of proof.\n Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "attribution": "The selected v0.2.1 source and supporting/historical role are explicit; no author identity, public-wording approval, rights or peer review is inferred. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/source-reconciliation/acceptance/decisions/UT-O104.json. Retained semantic finding: Compared UT-O104, Fundamental unification, to the exact O4 source claim. The complete statement remains open and source-bound, with no new result or required proof gate. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision."
+  }
+}

@@ -1,0 +1,47 @@
+
+Running 2 tests using 1 worker
+
+(node:76587) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/e2e/source-link-r2.spec.ts:9:1 › R2 source connections keep distinct document labels, alternate targets and downloads without JavaScript (6.6s)
+(node:78348) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 tests/e2e/source-link-r2.spec.ts:33:1 › R2 affected readings preserve reflow and accessibility at four widths (44.8s)
+
+
+  1) tests/e2e/source-link-r2.spec.ts:9:1 › R2 source connections keep distinct document labels, alternate targets and downloads without JavaScript 
+
+    Error: expect(locator).toBeAttached() failed
+
+    Locator: locator('#BIB-0040')
+    Expected: attached
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeAttached" locator('#BIB-0040') with timeout 5000ms
+      - waiting for locator('#BIB-0040')
+
+
+      22 |   await expect(page.locator(':target')).toHaveText('Claim map');
+      23 |   await page.goto(base+'references/');
+    > 24 |   for(const id of ['BIB-0040','BIB-0045','BIB-0047','BIB-0050','BIB-0052'])await expect(page.locator('#'+id)).toBeAttached();
+         |                                                                                                               ^
+      25 |   await expect(page.locator('#BIB-0026')).toContainText('simulated interruption of feedback');
+      26 |   const exported=await page.request.get(base+'downloads/explanatory/DOC-SOURCE-LINKS.md');
+      27 |   expect(exported.status()).toBe(200);expect(await exported.text()).toContain('not endorsements');expect(await exported.text()).not.toContain('./DOC-ADDITIONAL-EVIDENCE.md');
+        at /Users/new/RiderProjects/RPG_theory/tests/e2e/source-link-r2.spec.ts:24:111
+
+    Error Context: docs/evidence/source-link-r2/implementation/browser-traces/root/source-link-r2-R2-source-c-5d329-ownloads-without-JavaScript/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/evidence/source-link-r2/implementation/browser-traces/root/source-link-r2-R2-source-c-5d329-ownloads-without-JavaScript/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/evidence/source-link-r2/implementation/browser-traces/root/source-link-r2-R2-source-c-5d329-ownloads-without-JavaScript/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/e2e/source-link-r2.spec.ts:9:1 › R2 source connections keep distinct document labels, alternate targets and downloads without JavaScript 
+  1 passed (1.2m)

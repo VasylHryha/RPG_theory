@@ -1,0 +1,3477 @@
+{
+  "status": "PASS",
+  "phase": "final",
+  "comparedIds": [
+    "DOC-CONCEPT-GEOMETRY",
+    "DOC-CORE",
+    "DOC-CONTROL",
+    "DOC-FRAMEWORK",
+    "DOC-MATH",
+    "DOC-OPEN-PROBLEMS",
+    "DOC-WORLD",
+    "UT-D01",
+    "UT-D02",
+    "UT-D03",
+    "UT-D04",
+    "UT-D05",
+    "UT-D06",
+    "UT-D07",
+    "UT-D08",
+    "UT-D09",
+    "UT-C01",
+    "UT-C02",
+    "DOC-ARTICLE-STRUCTURES",
+    "DOC-ARTICLE-UNIT",
+    "DOC-CONCEPT-INTERACTIONS",
+    "DOC-CONCEPT-RECURSION",
+    "DOC-CONCEPT-STABILITY",
+    "DOC-CONCEPTS",
+    "DOC-EXAMPLE-CELL",
+    "DOC-EXAMPLE-LIFE",
+    "DOC-EXAMPLE-MOLECULE",
+    "DOC-EXAMPLE-STAR",
+    "DOC-EXAMPLE-STRING",
+    "DOC-EXAMPLE-WATER",
+    "DOC-EXAMPLES",
+    "DOC-HOME",
+    "DOC-START"
+  ],
+  "sourceBindings": [
+    {
+      "id": "DOC-CORE",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 3,
+      "endLine": 170,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "71ce27e7514d9039bef52ddcd6884db7e24bcbb37ebf3aad022c66cdb516cfb1"
+    },
+    {
+      "id": "DOC-CONTROL",
+      "sourceKey": "R-CURRENT-CONTROL",
+      "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+      "startLine": 3,
+      "endLine": 57,
+      "sourceSha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a",
+      "excerptSha256": "7a54d1480c62eb51e1e677fd481c16b023fcea8658d689cc0c23e2f0ea1fee55"
+    },
+    {
+      "id": "DOC-FRAMEWORK",
+      "sourceKey": "R-CURRENT-SCIENCE",
+      "path": "research/RRG_CURRENT/02_scientific_framework.md",
+      "startLine": 3,
+      "endLine": 996,
+      "sourceSha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807",
+      "excerptSha256": "d836caa3ed6f47bf3803cbb81f25f50379596a77ff906558aab962ffc33b9159"
+    },
+    {
+      "id": "DOC-MATH",
+      "sourceKey": "R-CURRENT-MATH",
+      "path": "research/RRG_CURRENT/03_mathematical_core.md",
+      "startLine": 3,
+      "endLine": 1353,
+      "sourceSha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce",
+      "excerptSha256": "77d393b117b9df4472e9f9751dd8703c9cf608674d3deb04fb323a03dde8a90b"
+    },
+    {
+      "id": "DOC-OPEN-PROBLEMS",
+      "sourceKey": "R-CURRENT-CLAIMS",
+      "path": "research/RRG_CURRENT/08_claim_coverage.md",
+      "startLine": 35,
+      "endLine": 52,
+      "sourceSha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e",
+      "excerptSha256": "8aebe4d440176d490ddf17a42585bf172e61a4da0b459f2153267d3bb140b0ac"
+    },
+    {
+      "id": "DOC-WORLD",
+      "sourceKey": "R-CURRENT-WORLD",
+      "path": "research/RRG_CURRENT/01_world_explanation.md",
+      "startLine": 3,
+      "endLine": 699,
+      "sourceSha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f",
+      "excerptSha256": "196e74d06a1283ff4f90ad4f8791c2f7fd714411fe092d4f9c3db27c5dd7fe99"
+    },
+    {
+      "id": "UT-D01",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 6,
+      "endLine": 14,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "680c99c03b1ea11424b27fef2214ae09b72646cd103d2f025b5dc5c7a38c7e34"
+    },
+    {
+      "id": "UT-D02",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 16,
+      "endLine": 24,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "2a796e231760733d9076357e12a40973ea228e3a38d41c432dde2cb19f008c0e"
+    },
+    {
+      "id": "UT-D03",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 26,
+      "endLine": 43,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1"
+    },
+    {
+      "id": "UT-D04",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 45,
+      "endLine": 55,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "c6f7fe3e4ae4ad799503dfd266c8bba802d2e459bfc2c332ad8eebe6270b0414"
+    },
+    {
+      "id": "UT-D05",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 84,
+      "endLine": 96,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "7df4282e0cf099ff89d7eef30506f57f0e10cbf79eba8b25b1197bb0cbffa7a0"
+    },
+    {
+      "id": "UT-D06",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 57,
+      "endLine": 72,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "70d9e6d53a6d43c1a7410abfa801d650bd026f9da24e986c907b3151ea075286"
+    },
+    {
+      "id": "UT-D07",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 74,
+      "endLine": 82,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "70a9c9b21a7a9301abe5268e7e4b870ddeac3c4e6b07ccbbe52a04d10de675fb"
+    },
+    {
+      "id": "UT-D08",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 98,
+      "endLine": 112,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "e0d4d8d7cedc6d2ae92b2fe309339361c64a250f8a50ce13f7d11f28acb62791"
+    },
+    {
+      "id": "UT-D09",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 114,
+      "endLine": 126,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "6a0b719f6b5236c68fc8f6c9663e9c5d69f01a9621e54d8e9ade00ee9ad639e2"
+    },
+    {
+      "id": "UT-C01",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 128,
+      "endLine": 136,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "14296615f64ff7eab2b9866fd7a8ecadec3f84151fbe652e6209667383e8b5c1"
+    },
+    {
+      "id": "UT-C02",
+      "sourceKey": "R-CURRENT-CORE",
+      "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+      "startLine": 138,
+      "endLine": 140,
+      "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "excerptSha256": "69de818aad3845247d950f3f58629c917dd67d3a14689d3c7ea28fc6d38a5a48"
+    }
+  ],
+  "artifacts": [
+    {
+      "base": "/",
+      "inputsSha256": "6c2b1e0ac00a8236ef8094342b732c0996eddd6e539d0e9620c0161c5793a98d",
+      "currentSourceQualified": true,
+      "deployEligible": false,
+      "matchedBodies": 33,
+      "matchedExports": 33,
+      "zipMembers": 101,
+      "rows": [
+        {
+          "id": "DOC-CONCEPT-GEOMETRY",
+          "route": "/concepts/geometry-and-modes/",
+          "bodySha256": "026e67efb1aed254ed43d960e3505ebdf5909eb76a85f5497645b0cb577b8bdd",
+          "exportSha256": "cdd319707c2c4a8188a04f4cdca0cfba647d291de83d06c442fe480416aac0ee",
+          "linkCount": 6,
+          "headings": [
+            {
+              "id": "in-ordinary-words",
+              "text": "In ordinary words"
+            },
+            {
+              "id": "try-the-string-example",
+              "text": "Try the string example"
+            },
+            {
+              "id": "the-source-meanings",
+              "text": "The source meanings"
+            }
+          ],
+          "tex": [
+            "R=(G,M)",
+            "G",
+            "M"
+          ]
+        },
+        {
+          "id": "DOC-CORE",
+          "route": "/documents/locked-core/",
+          "bodySha256": "6e42af700b89730a116c477e5f2cd72968df821c42e63454457ed457dffbd0af",
+          "exportSha256": "7c733ec5d8b974ad9c5f053390f2122b87eb1d238dfd1b408dd723fcb19f022a",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "1-geometry-g",
+              "text": "1. Geometry GGG"
+            },
+            {
+              "id": "2-frequency--mode-structure-m",
+              "text": "2. Frequency / mode structure MMM"
+            },
+            {
+              "id": "3-resonant-geometry-r",
+              "text": "3. Resonant geometry RRR"
+            },
+            {
+              "id": "4-stability",
+              "text": "4. Stability"
+            },
+            {
+              "id": "5-higher-level-formation",
+              "text": "5. Higher-level formation"
+            },
+            {
+              "id": "6-variation",
+              "text": "6. Variation"
+            },
+            {
+              "id": "7-scale",
+              "text": "7. Scale"
+            },
+            {
+              "id": "8-recursion",
+              "text": "8. Recursion"
+            },
+            {
+              "id": "9-replication--recurrence",
+              "text": "9. Replication / recurrence"
+            },
+            {
+              "id": "10-interaction--force-status",
+              "text": "10. Interaction / force status"
+            },
+            {
+              "id": "11-background--possibility-space-status",
+              "text": "11. Background / possibility-space status"
+            },
+            {
+              "id": "12-what-counts-as-contradiction",
+              "text": "12. What counts as contradiction"
+            },
+            {
+              "id": "13-version-rule",
+              "text": "13. Version rule"
+            }
+          ],
+          "tex": [
+            "G",
+            "G=\\{\\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\\}.",
+            "M",
+            "M=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}.",
+            "R",
+            "\\boxed{R=(G,M)}.",
+            "\\boxed{G\\leftrightarrow M}.",
+            "\\boxed{G\\leftrightarrow M}.",
+            "\\boxed{\\{R_n^1,R_n^2,\\ldots,R_n^m\\}\\rightarrow R_{n+1}}.",
+            "\\boxed{\\text{same or related lower units}+\\text{different organization}\\rightarrow\\text{different }R_{n+1}}.",
+            "\\boxed{\\{R_n^i\\}\\rightarrow R_{n+1}\\rightarrow R_{n+2}\\rightarrow\\cdots}.",
+            "\\boxed{R_n=(G_n,M_n),\\qquad G_n\\leftrightarrow M_n}.",
+            "A\\rightarrow A+A\\rightarrow B",
+            "R=(G,M)"
+          ]
+        },
+        {
+          "id": "DOC-CONTROL",
+          "route": "/changes/",
+          "bodySha256": "a2f72e379a3de47e6ec18680068497c65e26aae435848edbb48c1975f8022439",
+          "exportSha256": "ec6c10d9a845b9a4b6ba0c9fe8ed29234aed16282e4ebd35f39f8319a3c7c600",
+          "linkCount": 1,
+          "headings": [
+            {
+              "id": "a-research-does-not-redefine-the-core",
+              "text": "A. Research does not redefine the core"
+            },
+            {
+              "id": "b-proof-gate-before-changing-a-definition",
+              "text": "B. Proof gate before changing a definition"
+            },
+            {
+              "id": "c-examples-never-become-definitions-automatically",
+              "text": "C. Examples never become definitions automatically"
+            },
+            {
+              "id": "d-mathematics-is-subordinate-to-the-locked-meaning",
+              "text": "D. Mathematics is subordinate to the locked meaning"
+            },
+            {
+              "id": "e-research-objective",
+              "text": "E. Research objective"
+            },
+            {
+              "id": "adopted-source-positions",
+              "text": "Adopted source positions"
+            }
+          ],
+          "tex": [
+            "\\Gamma"
+          ]
+        },
+        {
+          "id": "DOC-FRAMEWORK",
+          "route": "/framework/",
+          "bodySha256": "ded1836183667fad2e887105d757cb47bb788e2ac5cff6b8ae604fe7de26f7aa",
+          "exportSha256": "5db5ace10e946feebcff5b7f719282d412c9e7309355f6448539d98302dd8160",
+          "linkCount": 21,
+          "headings": [
+            {
+              "id": "1-research-status",
+              "text": "1. Research status"
+            },
+            {
+              "id": "evidence-labels-used-below",
+              "text": "Evidence labels used below"
+            },
+            {
+              "id": "2-definitions",
+              "text": "2. Definitions"
+            },
+            {
+              "id": "21-relational-geometry-g",
+              "text": "2.1 Relational geometry GGG"
+            },
+            {
+              "id": "22-temporal-mode-structure-m",
+              "text": "2.2 Temporal mode structure MMM"
+            },
+            {
+              "id": "23-resonant-dynamic-geometry-r",
+              "text": "2.3 Resonant dynamic geometry RRR"
+            },
+            {
+              "id": "24-stability",
+              "text": "2.4 Stability"
+            },
+            {
+              "id": "25-collapse--transformation",
+              "text": "2.5 Collapse / transformation"
+            },
+            {
+              "id": "26-scale",
+              "text": "2.6 Scale"
+            },
+            {
+              "id": "3-core-rrg-propositions",
+              "text": "3. Core RRG propositions"
+            },
+            {
+              "id": "proposition-1--geometry-and-mode-are-mutually-constraining",
+              "text": "Proposition 1 — Geometry and mode are mutually constraining"
+            },
+            {
+              "id": "proposition-2--stable-organization-is-dynamic-closure",
+              "text": "Proposition 2 — Stable organization is dynamic closure"
+            },
+            {
+              "id": "proposition-3--coupling-creates-new-degrees-of-freedom",
+              "text": "Proposition 3 — Coupling creates new degrees of freedom"
+            },
+            {
+              "id": "proposition-4--whole-and-parts-form-circular-causality",
+              "text": "Proposition 4 — Whole and parts form circular causality"
+            },
+            {
+              "id": "proposition-5--persistent-higher-structures-become-new-effective-units",
+              "text": "Proposition 5 — Persistent higher structures become new effective units"
+            },
+            {
+              "id": "proposition-6--variation-comes-primarily-from-arrangement-and-mode",
+              "text": "Proposition 6 — Variation comes primarily from arrangement and mode"
+            },
+            {
+              "id": "proposition-7--stability-compresses-complexity",
+              "text": "Proposition 7 — Stability compresses complexity"
+            },
+            {
+              "id": "proposition-8--new-stable-structures-can-open-new-possibility-spaces",
+              "text": "Proposition 8 — New stable structures can open new possibility spaces"
+            },
+            {
+              "id": "4-what-established-science-already-supports",
+              "text": "4. What established science already supports"
+            },
+            {
+              "id": "41-coupled-resonators-create-collective-modes--established",
+              "text": "4.1 Coupled resonators create collective modes — Established"
+            },
+            {
+              "id": "42-spatial-organization-and-synchronization-can-co-evolve--established",
+              "text": "4.2 Spatial organization and synchronization can co-evolve — Established"
+            },
+            {
+              "id": "43-scale-dependent-effective-degrees-of-freedom--established",
+              "text": "4.3 Scale-dependent effective degrees of freedom — Established"
+            },
+            {
+              "id": "44-whole-constraining-parts--established-as-a-complex-systems-pattern",
+              "text": "4.4 Whole constraining parts — Established as a complex-systems pattern"
+            },
+            {
+              "id": "45-geometry-changes-spectra-and-forces--established-in-specific-systems",
+              "text": "4.5 Geometry changes spectra and forces — Established in specific systems"
+            },
+            {
+              "id": "46-autocatalytic-closure-and-self-reproduction--established-research-framework",
+              "text": "4.6 Autocatalytic closure and self-reproduction — Established research framework"
+            },
+            {
+              "id": "47-neural-manifolds--established-research-framework",
+              "text": "4.7 Neural manifolds — Established research framework"
+            },
+            {
+              "id": "5-scale-and-time",
+              "text": "5. Scale and time"
+            },
+            {
+              "id": "6-chemistry-under-rrg",
+              "text": "6. Chemistry under RRG"
+            },
+            {
+              "id": "7-stars-and-increasing-chemical-possibility",
+              "text": "7. Stars and increasing chemical possibility"
+            },
+            {
+              "id": "8-life-under-rrg",
+              "text": "8. Life under RRG"
+            },
+            {
+              "id": "81-a-living-system-is-not-static-matter",
+              "text": "8.1 A living system is not static matter"
+            },
+            {
+              "id": "82-self-maintenance",
+              "text": "8.2 Self-maintenance"
+            },
+            {
+              "id": "83-replication",
+              "text": "8.3 Replication"
+            },
+            {
+              "id": "84-evolution",
+              "text": "8.4 Evolution"
+            },
+            {
+              "id": "9-mind-under-rrg",
+              "text": "9. Mind under RRG"
+            },
+            {
+              "id": "10-ai-under-rrg",
+              "text": "10. AI under RRG"
+            },
+            {
+              "id": "11-the-four-interactions-current-rrg-position",
+              "text": "11. The four interactions: current RRG position"
+            },
+            {
+              "id": "12-gravity-hardest-open-physics-problem-for-rrg",
+              "text": "12. Gravity: hardest open physics problem for RRG"
+            },
+            {
+              "id": "13-thermodynamics-constraint",
+              "text": "13. Thermodynamics constraint"
+            },
+            {
+              "id": "14-the-strongest-current-rrg-cycle",
+              "text": "14. The strongest current RRG cycle"
+            },
+            {
+              "id": "15-what-would-falsify-or-weaken-specific-rrg-claims",
+              "text": "15. What would falsify or weaken specific RRG claims"
+            },
+            {
+              "id": "core-level-contradiction-candidates",
+              "text": "Core-level contradiction candidates"
+            },
+            {
+              "id": "extension-level-failures",
+              "text": "Extension-level failures"
+            },
+            {
+              "id": "16-research-program",
+              "text": "16. Research program"
+            },
+            {
+              "id": "phase-a--minimal-self-consistency",
+              "text": "Phase A — Minimal self-consistency"
+            },
+            {
+              "id": "phase-b--spontaneous-stable-resonators",
+              "text": "Phase B — Spontaneous stable resonators"
+            },
+            {
+              "id": "phase-c--recursive-promotion",
+              "text": "Phase C — Recursive promotion"
+            },
+            {
+              "id": "phase-d--multiple-levels",
+              "text": "Phase D — Multiple levels"
+            },
+            {
+              "id": "phase-e--energy-and-dissipation",
+              "text": "Phase E — Energy and dissipation"
+            },
+            {
+              "id": "phase-f--replication-transition",
+              "text": "Phase F — Replication transition"
+            },
+            {
+              "id": "phase-g--ai-benchmark",
+              "text": "Phase G — AI benchmark"
+            },
+            {
+              "id": "phase-h--physics-constraints",
+              "text": "Phase H — Physics constraints"
+            },
+            {
+              "id": "17-references--closest-existing-frameworks",
+              "text": "17. References / closest existing frameworks"
+            },
+            {
+              "id": "v01a-addendum--scale-ladder-and-latent-interaction-channels",
+              "text": "v0.1a Addendum — Scale Ladder and Latent Interaction Channels"
+            },
+            {
+              "id": "18-corrected-observational-ladder",
+              "text": "18. Corrected observational ladder"
+            },
+            {
+              "id": "sources-for-the-ladder",
+              "text": "Sources for the ladder"
+            },
+            {
+              "id": "19-a-better-formulation-of-the-force-is-already-there-waiting",
+              "text": "19. A better formulation of “the force is already there waiting”"
+            },
+            {
+              "id": "known-examples",
+              "text": "Known examples"
+            },
+            {
+              "id": "qcd--strong-interaction",
+              "text": "QCD / strong interaction"
+            },
+            {
+              "id": "electroweak-interaction",
+              "text": "Electroweak interaction"
+            },
+            {
+              "id": "gravity",
+              "text": "Gravity"
+            },
+            {
+              "id": "20-rrg-unification-hypothesis-for-interactions",
+              "text": "20. RRG unification hypothesis for interactions"
+            },
+            {
+              "id": "crucial-open-question",
+              "text": "Crucial open question"
+            },
+            {
+              "id": "v01b-addendum--background-selection-scale-and-the-remaining-blockers",
+              "text": "v0.1b Addendum — Background Selection, Scale, and the Remaining Blockers"
+            },
+            {
+              "id": "21-background-selection-principle",
+              "text": "21. Background-selection principle"
+            },
+            {
+              "id": "established-analogues",
+              "text": "Established analogues"
+            },
+            {
+              "id": "22-scale-as-a-geometrymode-regime",
+              "text": "22. Scale as a geometry–mode regime"
+            },
+            {
+              "id": "23-what-remains-genuinely-unresolved",
+              "text": "23. What remains genuinely unresolved"
+            },
+            {
+              "id": "a-one-scale-closed-effective-action",
+              "text": "A. One scale-closed effective action"
+            },
+            {
+              "id": "b-automatic-composite-promotion",
+              "text": "B. Automatic composite promotion"
+            },
+            {
+              "id": "c-recover-known-fundamental-constraints",
+              "text": "C. Recover known fundamental constraints"
+            },
+            {
+              "id": "d-thermodynamics-and-open-systems",
+              "text": "D. Thermodynamics and open systems"
+            },
+            {
+              "id": "e-a-prediction-unique-to-rrg",
+              "text": "E. A prediction unique to RRG"
+            },
+            {
+              "id": "f-avoiding-triviality",
+              "text": "F. Avoiding triviality"
+            },
+            {
+              "id": "24-current-status",
+              "text": "24. Current status"
+            },
+            {
+              "id": "19-emergenteffective-interactions-from-lower-level-organization",
+              "text": "19. Emergent/effective interactions from lower-level organization"
+            },
+            {
+              "id": "191-phonon-mediated-attraction",
+              "text": "19.1 Phonon-mediated attraction"
+            },
+            {
+              "id": "192-spin-ice",
+              "text": "19.2 Spin ice"
+            },
+            {
+              "id": "193-background-state-and-interaction-regime",
+              "text": "19.3 Background state and interaction regime"
+            },
+            {
+              "id": "194-rrg-interpretation",
+              "text": "19.4 RRG interpretation"
+            }
+          ],
+          "tex": [
+            "\\boxed{\n\\text{relational geometry}\n\\leftrightarrow\n\\text{temporal mode structure}\n}",
+            "\\boxed{\n\\text{persistent coupled structures}\n\\rightarrow\n\\text{new effective unit at a higher scale}\n}",
+            "G",
+            "G=\n\\{\\text{components, positions, connectivity, order, orientation, boundaries, constraints}\\}",
+            "M",
+            "M=\n\\{\\omega,\\phi,A,\\psi(x),\\text{propagation},\\text{coupling},\\tau,\\ldots\\}",
+            "\\omega",
+            "\\phi",
+            "A",
+            "\\psi(x)",
+            "\\tau",
+            "R",
+            "\\boxed{R=(G,M)}",
+            "\\boxed{\nG\\rightarrow M\\rightarrow G\n}",
+            "R_A\\rightarrow R_B",
+            "R_A\\rightarrow\\{R_i\\}_{\\text{lower scale}}",
+            "\\boxed{\nG\\leftrightarrow M\n}",
+            "\\boxed{\nR=(G,M)\\text{ persists when }G\\text{ supports }M\\text{ and }M\\text{ reproduces/maintains }G\n}",
+            "\\boxed{\n\\{R_n^i\\}\n\\rightarrow\nR_{n+1}\n}",
+            "\\boxed{\n\\text{parts create collective order}\n\\leftrightarrow\n\\text{collective order constrains parts}\n}",
+            "R_{n+1}=\\mathcal C(\\{R_n\\})",
+            "\\mathcal C",
+            "\\text{same parts}+\n\\text{different }G,M\n\\rightarrow\n\\text{different effective object}",
+            "G\\rightarrow M\n\\quad\\text{and}\\quad\nM\\rightarrow G",
+            "\\text{parts}\\rightarrow\\text{whole}\\rightarrow\\text{parts}",
+            "\\text{geometry}\n\\rightarrow\n\\text{spectrum}\n\\rightarrow\n\\text{effective force}",
+            "\\tau_n",
+            "\\tau\\sim\n\\frac{L}{v_{\\text{effective}}}\n\\times\n(\\text{coordination complexity})",
+            "L",
+            "v_{\\text{effective}}",
+            "\\boxed{\n\\text{atomic resonant geometries}\n\\rightarrow\n\\text{molecular collective geometry/modes}\n}",
+            "\\text{existing structures}\n\\rightarrow\n\\text{stellar geometry}\n\\rightarrow\n\\text{new energetic conditions}\n\\rightarrow\n\\text{new stable nuclei}\n\\rightarrow\n\\text{larger chemical possibility space}",
+            "D(t)=(G(t),M(t))",
+            "D+\\text{resources/energy}\n\\rightarrow\nD+D'",
+            "D'\\approx D",
+            "\\text{variation}\n\\rightarrow\n\\text{persistence}\n\\rightarrow\n\\text{propagation}\n\\rightarrow\n\\text{new combinations}",
+            "\\boxed{\n\\text{mind} \\approx\n\\text{evolving multiscale neural geometry}\n}",
+            "\\boxed{\n\\text{dynamic modules}\n+\n\\text{adaptive geometry}\n+\n\\text{mode synchronization}\n+\n\\text{recursive coarse-graining}\n}",
+            "\\boxed{\n\\begin{aligned}\n&\\text{lower dynamic geometries}\\\\\n&\\downarrow \\text{variation + interaction}\\\\\n&\\text{coupling and constraint}\\\\\n&\\downarrow\\\\\n&\\text{collective geometry }G_{n+1}\\\\\n&\\leftrightarrow\\\\\n&\\text{collective mode structure }M_{n+1}\\\\\n&\\downarrow\\\\\n&\\text{persistent resonator }R_{n+1}\\\\\n&\\downarrow\\\\\n&\\text{new effective unit / new possibility space}\\\\\n&\\downarrow\\\\\n&\\text{repeat}\n\\end{aligned}\n}",
+            "R=(G,M)",
+            "G\\leftrightarrow M",
+            "R_0\\rightarrow R_1\\rightarrow R_2\\rightarrow R_3",
+            "HeH^+",
+            "10^5",
+            "3.8\\times10^5",
+            "k",
+            "\\boxed{\n\\Gamma_k[R]\n=\n\\Gamma_{0,k}[R]\n+\n\\sum_{\\alpha}g_\\alpha(k)\\,\\mathcal O_\\alpha[R]\n}",
+            "R=(G,M)",
+            "\\mathcal O_\\alpha",
+            "g_\\alpha(k)",
+            "\\boxed{\n\\frac{dg_\\alpha}{d\\ln k}\n=\n\\beta_\\alpha(\\{g\\})\n}",
+            "\\boxed{\n\\text{same underlying interaction}\n+\n\\text{different scale}\n\\rightarrow\n\\text{different effective geometry/objects}\n}",
+            "W",
+            "Z",
+            "\\boxed{\n\\text{The effective interactions visible at a scale are the active coupling channels of the scale-dependent resonant geometry.}\n}",
+            "\\text{force 1 = level 1, force 2 = level 2,\\ldots}",
+            "\\boxed{\n\\Gamma_k\n\\rightarrow\n\\{g_\\alpha(k),G_k,M_k\\}\n}",
+            "\\boxed{\nR_n\n\\rightarrow\n\\Gamma_{n+1}\n\\rightarrow\n\\text{new active channels / modes / interactions}.\n}",
+            "\\boxed{\n\\text{geometry/modes}\n\\rightarrow\n\\text{active interaction channels}\n\\rightarrow\n\\text{new stable geometry}\n\\rightarrow\n\\text{new scale-dependent action}\n\\rightarrow\n\\text{repeat}\n}",
+            "\\Gamma",
+            "\\boxed{\n\\Gamma_k[R;B(t)]\n}",
+            "B(t)",
+            "B",
+            "\\boxed{\n\\delta_R\\Gamma_k[R;B]=0\n}",
+            "B",
+            "\\boxed{\nB_1\\rightarrow B_2\n\\quad\\Rightarrow\\quad\n\\mathcal S(B_1)\\rightarrow\\mathcal S(B_2)\n}",
+            "\\boxed{\nR_n=(G_n,M_n;B_n)\n}",
+            "L_n,\\quad \\tau_n,\\quad \\Omega_n,\\quad \\{g_{\\alpha,n}\\}.",
+            "\\Gamma_k",
+            "\\boxed{\n\\Gamma_n\\xrightarrow{\\mathcal R}\\Gamma_{n+1}\n}",
+            "\\boxed{\n\\text{lattice geometry}\n\\rightarrow\n\\text{phonon mode}\n\\rightarrow\n\\text{effective attraction}\n\\rightarrow\n\\text{new collective state}\n}",
+            "W/Z",
+            "\\boxed{\nR_n=(G_n,M_n)\n\\rightarrow\n\\mathcal I_{n+1}^{\\rm eff}\n\\rightarrow\nR_{n+1}\n}"
+          ]
+        },
+        {
+          "id": "DOC-MATH",
+          "route": "/math/",
+          "bodySha256": "c20738d7383b87f75993baf96114bf7587e485dad2da836b6c6280baf45fc2ef",
+          "exportSha256": "a2d8807c9af125a40f2ca2ef23fb870d983fc9294f3e5a20d44ac73b80c4c524",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "1-goal",
+              "text": "1. Goal"
+            },
+            {
+              "id": "2-minimal-state-of-one-unit",
+              "text": "2. Minimal state of one unit"
+            },
+            {
+              "id": "3-one-interaction-should-control-both-geometry-and-phase",
+              "text": "3. One interaction should control both geometry and phase"
+            },
+            {
+              "id": "4-spatial-equation",
+              "text": "4. Spatial equation"
+            },
+            {
+              "id": "5-phase-equation",
+              "text": "5. Phase equation"
+            },
+            {
+              "id": "6-optional-amplitude-dynamics",
+              "text": "6. Optional amplitude dynamics"
+            },
+            {
+              "id": "7-geometry-as-a-graph-as-well-as-position",
+              "text": "7. Geometry as a graph as well as position"
+            },
+            {
+              "id": "8-geometry-determines-modes",
+              "text": "8. Geometry determines modes"
+            },
+            {
+              "id": "9-mode-determines-geometry",
+              "text": "9. Mode determines geometry"
+            },
+            {
+              "id": "10-stability-condition",
+              "text": "10. Stability condition"
+            },
+            {
+              "id": "101-fixed-point-test-candidate-test-not-the-definition-of-rrg-stability",
+              "text": "10.1 Fixed-point test (candidate test, not the definition of RRG stability)"
+            },
+            {
+              "id": "102-periodic-resonator-test",
+              "text": "10.2 Periodic-resonator test"
+            },
+            {
+              "id": "103-attractor-test",
+              "text": "10.3 Attractor test"
+            },
+            {
+              "id": "11-what-counts-as-a-new-resonator",
+              "text": "11. What counts as a new resonator?"
+            },
+            {
+              "id": "12-coarse-graining-a-stable-cluster",
+              "text": "12. Coarse-graining a stable cluster"
+            },
+            {
+              "id": "13-the-central-rrg-recursion-test",
+              "text": "13. The central RRG recursion test"
+            },
+            {
+              "id": "14-variation-same-lower-units-different-higher-structures",
+              "text": "14. Variation: same lower units, different higher structures"
+            },
+            {
+              "id": "15-energy",
+              "text": "15. Energy"
+            },
+            {
+              "id": "16-a-possible-resonant-closure-functional",
+              "text": "16. A possible “resonant closure” functional"
+            },
+            {
+              "id": "17-first-computational-experiment",
+              "text": "17. First computational experiment"
+            },
+            {
+              "id": "171-setup",
+              "text": "17.1 Setup"
+            },
+            {
+              "id": "172-phase-a--can-multiple-stable-shapes-emerge",
+              "text": "17.2 Phase A — Can multiple stable shapes emerge?"
+            },
+            {
+              "id": "173-phase-b--promote-stable-clusters",
+              "text": "17.3 Phase B — Promote stable clusters"
+            },
+            {
+              "id": "174-phase-c--apply-same-equation-family",
+              "text": "17.4 Phase C — Apply same equation family"
+            },
+            {
+              "id": "175-phase-d--seek-third-level",
+              "text": "17.5 Phase D — Seek third level"
+            },
+            {
+              "id": "18-metrics",
+              "text": "18. Metrics"
+            },
+            {
+              "id": "persistence",
+              "text": "Persistence"
+            },
+            {
+              "id": "coherence",
+              "text": "Coherence"
+            },
+            {
+              "id": "perturbation-recovery",
+              "text": "Perturbation recovery"
+            },
+            {
+              "id": "compression-ratio",
+              "text": "Compression ratio"
+            },
+            {
+              "id": "timescale-separation",
+              "text": "Timescale separation"
+            },
+            {
+              "id": "recursive-closure-error",
+              "text": "Recursive closure error"
+            },
+            {
+              "id": "19-strong-failure-conditions",
+              "text": "19. Strong failure conditions"
+            },
+            {
+              "id": "20-second-experiment-primitive-replication",
+              "text": "20. Second experiment: primitive replication"
+            },
+            {
+              "id": "21-third-experiment-rrg-ai-toy-model",
+              "text": "21. Third experiment: RRG AI toy model"
+            },
+            {
+              "id": "22-physics-program-after-the-toy-model",
+              "text": "22. Physics program after the toy model"
+            },
+            {
+              "id": "23-closest-mathematicalscientific-frameworks",
+              "text": "23. Closest mathematical/scientific frameworks"
+            },
+            {
+              "id": "24-minimal-mathematical-summary",
+              "text": "24. Minimal mathematical summary"
+            },
+            {
+              "id": "v01a-addendum--minimal-gamma-with-scale-activated-interaction-channels",
+              "text": "v0.1a Addendum — Minimal Γ\\GammaΓ with Scale-Activated Interaction Channels"
+            },
+            {
+              "id": "25-why-the-previous-minimal-model-was-not-enough",
+              "text": "25. Why the previous minimal model was not enough"
+            },
+            {
+              "id": "26-abstract-minimal-rrg-effective-action",
+              "text": "26. Abstract minimal RRG effective action"
+            },
+            {
+              "id": "27-geometrymode-closure",
+              "text": "27. Geometry↔mode closure"
+            },
+            {
+              "id": "28-force-and-frequency-emerge-from-the-same-effective-action",
+              "text": "28. Force and frequency emerge from the same effective action"
+            },
+            {
+              "id": "29-latent-interaction-channels",
+              "text": "29. Latent interaction channels"
+            },
+            {
+              "id": "30-when-a-new-geometry-appears",
+              "text": "30. When a new geometry appears"
+            },
+            {
+              "id": "31-functional-rg-supplies-the-scale-evolution",
+              "text": "31. Functional RG supplies the scale evolution"
+            },
+            {
+              "id": "32-the-rrg-recursion-with-interaction-channels",
+              "text": "32. The RRG recursion with interaction channels"
+            },
+            {
+              "id": "33-relation-to-known-forces",
+              "text": "33. Relation to known forces"
+            },
+            {
+              "id": "34-immediate-mathematical-target",
+              "text": "34. Immediate mathematical target"
+            },
+            {
+              "id": "v01b-addendum--background-dependent-recursive-action",
+              "text": "v0.1b Addendum — Background-Dependent Recursive Action"
+            },
+            {
+              "id": "35-add-the-evolving-background",
+              "text": "35. Add the evolving background"
+            },
+            {
+              "id": "36-background-dependent-stable-set",
+              "text": "36. Background-dependent stable set"
+            },
+            {
+              "id": "37-a-scale-is-an-effective-resonant-regime",
+              "text": "37. A scale is an effective resonant regime"
+            },
+            {
+              "id": "38-revised-rrg-closure-condition",
+              "text": "38. Revised RRG closure condition"
+            },
+            {
+              "id": "39-geometry-force-and-mode-remain-one-local-object",
+              "text": "39. Geometry, force, and mode remain one local object"
+            },
+            {
+              "id": "40-next-concrete-calculation",
+              "text": "40. Next concrete calculation"
+            }
+          ],
+          "tex": [
+            "\\boxed{\n\\text{geometry determines allowed modes,\nand modes determine/maintain geometry}\n}",
+            "\\boxed{\n\\text{stable lower-level resonators}\n\\rightarrow\n\\text{stable higher-level resonators}\n}",
+            "i",
+            "R_i=\n(\\mathbf x_i,z_i)",
+            "z_i=A_i e^{i\\theta_i}",
+            "\\mathbf x_i",
+            "A_i",
+            "\\theta_i",
+            "\\omega_i",
+            "\\boxed{\nV_{ij}(r_{ij},\\Delta\\theta_{ij})\n=\nU(r_{ij})\n-\nJ(r_{ij})\\cos(\\Delta\\theta_{ij})\n}",
+            "r_{ij}=|\\mathbf x_i-\\mathbf x_j|",
+            "\\Delta\\theta_{ij}=\\theta_i-\\theta_j.",
+            "U(r)",
+            "J(r)",
+            "\\cos(\\Delta\\theta)",
+            "\\boxed{\nr\\rightarrow\\text{phase coupling}\n\\quad\\text{and}\\quad\n\\Delta\\theta\\rightarrow\\text{spatial force}\n}",
+            "\\boxed{\nm_i\\ddot{\\mathbf x}_i\n+\n\\gamma_x\\dot{\\mathbf x}_i\n=\n-\\nabla_{\\mathbf x_i}\n\\sum_{j\\neq i}\nV_{ij}\n+\n\\boldsymbol\\xi_i(t)\n}",
+            "m_i",
+            "\\gamma_x",
+            "\\boldsymbol\\xi_i",
+            "\\boxed{\n\\dot{\\mathbf x}_i\n=\n-\\mu_x\n\\nabla_{\\mathbf x_i}\n\\sum_{j\\neq i}V_{ij}\n}",
+            "\\boxed{\n\\dot\\theta_i\n=\n\\omega_i\n-\n\\mu_\\theta\n\\frac{\\partial}{\\partial\\theta_i}\n\\sum_{j\\neq i}V_{ij}\n+\n\\eta_i(t)\n}",
+            "\\dot\\theta_i=\n\\omega_i\n+\n\\sum_{j\\neq i}\nK(r_{ij})\n\\sin(\\theta_j-\\theta_i)\n+\n\\eta_i(t)",
+            "K(r)",
+            "\\boxed{\n\\text{geometry controls synchronization}\n}",
+            "\\boxed{\n\\text{synchronization controls geometry}\n}",
+            "\\boxed{\n\\dot z_i\n=\n(\\alpha_i+i\\omega_i-\\beta_i|z_i|^2)z_i\n+\n\\sum_j K_{ij}(G)(z_j-z_i)\n}",
+            "\\alpha_i>0",
+            "g_{ij}\\in[0,1].",
+            "K_{ij}\n=\ng_{ij}K(r_{ij}).",
+            "\\boxed{\n\\dot g_{ij}\n=\n\\eta_g\n\\left[\nC_{ij}(R)-g_{ij}\n\\right]\n}",
+            "C_{ij}",
+            "C_{ij}\n=\n\\sigma\n\\left[\na\\cos(\\theta_i-\\theta_j)\n-b(r_{ij}-r_0)^2\n+cA_iA_j\n\\right]",
+            "\\sigma",
+            "\\boxed{\n\\text{mode changes topology}\n\\leftrightarrow\n\\text{topology changes mode}\n}",
+            "G",
+            "L=D-W",
+            "W=[g_{ij}]",
+            "D",
+            "\\boxed{\nLu_k=\\lambda_k u_k\n}",
+            "\\omega_k^2\\propto\\lambda_k.",
+            "\\boxed{\nG\\rightarrow\\{u_k,\\omega_k\\}.\n}",
+            "V_{ij}=V(r_{ij},\\Delta\\theta_{ij})",
+            "\\boxed{\nM\\rightarrow G'.\n}",
+            "\\boxed{\nR^*=(G^*,M^*)\n}",
+            "X=(\\mathbf x_1,\\ldots,\\theta_1,\\ldots,g_{ij},\\ldots).",
+            "\\dot X=F(X).",
+            "X^*",
+            "F(X^*)=0.",
+            "\\delta\\dot X=J(X^*)\\delta X.",
+            "\\boxed{\n\\mathrm{Re}(\\lambda_k(J))<0\n}",
+            "T",
+            "X(t+T)\\approx X(t),",
+            "\\mathcal A",
+            "\\mathcal A",
+            "C",
+            "\\boxed{\n\\rho_C=\n\\left|\n\\frac{1}{|C|}\n\\sum_{i\\in C}e^{i\\theta_i}\n\\right|\n}",
+            "P_C=\nw_1\\rho_C\n+w_2S_{\\text{geometry}}\n+w_3S_{\\text{return}}\n+w_4S_{\\text{lifetime}}\n-w_5S_{\\text{fragmentation}}.",
+            "C",
+            "\\boxed{\nZ_C=\n\\frac{\\sum_{i\\in C}w_i z_i}\n{\\sum_{i\\in C}w_i}\n}",
+            "A_C=|Z_C|.",
+            "\\Theta_C=\\arg Z_C.",
+            "\\boxed{\n\\Omega_C=\n\\frac{d\\Theta_C}{dt}.\n}",
+            "\\boxed{\n\\mathbf X_C=\n\\frac{\\sum_{i\\in C}m_i\\mathbf x_i}\n{\\sum_{i\\in C}m_i}\n}",
+            "\\boxed{\ng_{CD}\n=\n\\mathcal A\n\\left(\n\\{g_{ij}: i\\in C,\\;j\\in D\\}\n\\right)\n}",
+            "\\mathcal A",
+            "R_C=(\\mathbf X_C,Z_C,g_{C*},\\ldots)",
+            "\\Phi_t.",
+            "\\mathcal R.",
+            "\\boxed{\n\\mathcal R\\circ\\Phi_t\n\\approx\n\\Phi'_t\\circ\\mathcal R\n}",
+            "\\Phi'_t",
+            "\\lambda\\rightarrow\\lambda'.",
+            "\\{R_i\\}\n\\rightarrow\nR_A,\\;R_B,\\;R_C,\\ldots",
+            "E=\n\\sum_i \\frac12m_i|\\dot{\\mathbf x}_i|^2\n+\n\\sum_i E_{\\text{osc},i}\n+\n\\sum_{i<j}V_{ij}.",
+            "\\boxed{\n\\frac{dE}{dt}\n=\nP_{\\text{in}}\n-\nP_{\\text{diss}}\n}",
+            "P_{\\text{in}}>0.",
+            "\\boxed{\n\\mathcal Q(R)\n=\n-\\alpha\\|\\dot G-\\mathcal F_G(M,G)\\|^2\n-\\beta\\|\\dot M-\\mathcal F_M(G,M)\\|^2\n-\\gamma E_{\\text{escape}}\n+\\delta P_{\\text{return}}\n}",
+            "\\mathcal Q",
+            "\\mathcal Q",
+            "\\omega_i",
+            "V(r,\\Delta\\theta)",
+            "g_{ij}",
+            "R_0\\rightarrow R_1\\rightarrow R_2\\rightarrow R_3.",
+            "T_{\\text{life}}/\\tau_{\\text{internal}}",
+            "\\rho_C",
+            "\\frac{\\text{number of lower degrees of freedom}}\n{\\text{number of effective higher degrees of freedom}}",
+            "\\frac{\\tau_{n+1}}{\\tau_n}",
+            "\\boxed{\n\\epsilon_R\n=\n\\left\\|\n\\mathcal R(\\Phi_t(X))\n-\n\\Phi'_t(\\mathcal R(X))\n\\right\\|\n}",
+            "\\epsilon_R",
+            "R+\\text{resources}\n\\rightarrow\nR+R'.",
+            "n",
+            "R_n=(G_n,M_n).",
+            "\\dot R_n=F(R_n;\\lambda_n).",
+            "R_n\\in\\mathcal A_n",
+            "\\mathcal A_n",
+            "R_{n+1}=\\mathcal R(\\{R_n\\}).",
+            "\\boxed{\n\\mathcal R\\circ F_{\\lambda_n}\n\\approx\nF_{\\lambda_{n+1}}\\circ\\mathcal R.\n}",
+            "R=(G,M)",
+            "G\\leftrightarrow M",
+            "\\Gamma",
+            "V(r,\\Delta\\theta)",
+            "R=(D,\\Psi)",
+            "D",
+            "\\Psi",
+            "\\boxed{\n\\Gamma_k[D,\\Psi]\n=\n\\Gamma_{\\mathrm{geom},k}[D]\n+\n\\langle\\Psi,\\mathcal K_k(D)\\Psi\\rangle\n+\nU_k[\\Psi]\n+\n\\sum_\\alpha g_\\alpha(k)\\mathcal O_\\alpha[D,\\Psi]\n}",
+            "\\Gamma_{\\mathrm{geom},k}[D]",
+            "\\langle\\Psi,\\mathcal K_k(D)\\Psi\\rangle",
+            "U_k[\\Psi]",
+            "g_\\alpha(k)\\mathcal O_\\alpha",
+            "\\boxed{\\frac{\\delta\\Gamma_k}{\\delta\\Psi}=0}",
+            "\\boxed{\\frac{\\delta\\Gamma_k}{\\delta D}=0}",
+            "q",
+            "\\boxed{F_q=-\\frac{\\partial\\Gamma_k}{\\partial q}}",
+            "\\boxed{\\frac{\\partial\\Gamma_k}{\\partial q}=0}",
+            "\\Gamma_k(q)\\approx\\Gamma_k(q_*)+\\frac12(q-q_*)^T H_k(q-q_*)",
+            "\\boxed{H_k=\\frac{\\partial^2\\Gamma_k}{\\partial q^2}}",
+            "\\boxed{H_k u_n=\\lambda_n u_n}",
+            "M_q",
+            "\\boxed{\\omega_n^2=\\operatorname{eig}(M_q^{-1}H_k)}",
+            "\\boxed{\\Gamma_k\\Rightarrow\\{G_k,F_k,\\Omega_k\\}}",
+            "\\boxed{\\Gamma_k=\\Gamma_{0,k}+\\sum_\\alpha g_\\alpha(k)\\mathcal O_\\alpha}",
+            "\\boxed{k\\frac{dg_\\alpha}{dk}=\\beta_\\alpha(\\{g\\})}",
+            "\\Gamma_k^{(2)}",
+            "\\alpha",
+            "\\boxed{\\lambda_{\\min}^{(\\alpha)}(k)\\rightarrow0}",
+            "\\lambda_{\\min}^{(\\alpha)}<0",
+            "\\boxed{\\langle\\Phi_\\alpha\\rangle\\neq0}",
+            "\\boxed{\n\\text{old geometry}\n\\rightarrow\n\\text{soft resonant mode}\n\\rightarrow\n\\text{reorganization}\n\\rightarrow\n\\text{new stable geometry}\n}",
+            "\\boxed{\nk\\partial_k\\Gamma_k\n=\n\\frac12\\operatorname{STr}\n\\left[(\\Gamma_k^{(2)}+R_k)^{-1}k\\partial_kR_k\\right]\n}",
+            "n",
+            "\\Gamma_n\\Rightarrow(G_n,M_n,\\{g_{\\alpha,n}\\}).",
+            "\\lambda_{\\min}^{(\\alpha)}\\rightarrow0\\rightarrow\\Phi_\\alpha\\neq0.",
+            "R_{n+1}",
+            "\\Gamma_n\\rightarrow\\Gamma_{n+1}.",
+            "\\Gamma_{n+1}\\Rightarrow(G_{n+1},M_{n+1},\\{g_{\\alpha,n+1}\\}).",
+            "\\boxed{\n\\Gamma_n\n\\rightarrow\n\\text{stable resonant geometry}\n\\rightarrow\n\\text{composite promotion}\n\\rightarrow\n\\Gamma_{n+1}\n\\rightarrow\\cdots\n}",
+            "W/Z",
+            "\\Gamma_k=\\Gamma_{\\rm base}+g_1(k)\\mathcal O_1+g_2(k)\\mathcal O_2+U_k.",
+            "g_1",
+            "R_1",
+            "R_1",
+            "g_2",
+            "R_2",
+            "k",
+            "B(t)",
+            "\\boxed{\n\\Gamma_k[D,\\Psi;B(t)]\n}",
+            "\\boxed{\n\\Gamma_k\n=\n\\Gamma_{\\mathrm{geom},k}[D;B]\n+\n\\langle\\Psi,\\mathcal K_k(D;B)\\Psi\\rangle\n+\nU_k[\\Psi;B]\n+\n\\sum_\\alpha g_\\alpha(k,B)\\mathcal O_\\alpha[D,\\Psi;B].\n}",
+            "\\boxed{\n\\mathcal S_{k,B}\n=\n\\left\\{\nR=(D,\\Psi):\n\\frac{\\delta\\Gamma_k}{\\delta R}=0,\n\\;\\sigma(\\Gamma_k^{(2)})\\;\\text{is stable}\n\\right\\}.\n}",
+            "B",
+            "\\boxed{\n\\mathcal S_{k,B_1}\\neq\\mathcal S_{k,B_2}\n}",
+            "R_n",
+            "\\boxed{\n\\mathcal L_n=\n\\{L_n,\\tau_n,\\Omega_n,\\{g_{\\alpha,n}\\},B_n\\}.\n}",
+            "\\Phi_{k,B}^t",
+            "\\Gamma_k[\\cdot;B]",
+            "\\mathcal R",
+            "\\boxed{\n\\mathcal R\\!\\left(\\Phi_{k,B}^t(R)\\right)\n\\approx\n\\Phi_{k',B'}^t\\!\\left(\\mathcal R(R)\\right)\n}",
+            "\\Phi_{k',B'}",
+            "\\boxed{\n(\\Gamma_n,B_n)\n\\rightarrow\nR_n\n\\rightarrow\n\\mathcal R\n\\rightarrow\n(\\Gamma_{n+1},B_{n+1})\n\\rightarrow\nR_{n+1}.\n}",
+            "q",
+            "\\boxed{\n\\frac{\\partial\\Gamma}{\\partial q}=0\n}",
+            "\\boxed{\nF_q=-\\frac{\\partial\\Gamma}{\\partial q}\n}",
+            "\\boxed{\n\\omega_n^2\n=\n\\operatorname{eig}\\!\\left(M_q^{-1}\\frac{\\partial^2\\Gamma}{\\partial q^2}\\right)\n}",
+            "\\boxed{\n\\Gamma_k\n\\Rightarrow\n\\{G_k,F_k,M_k\\}\n}",
+            "\\Gamma_k",
+            "B",
+            "g_1\\mathcal O_1",
+            "g_2\\mathcal O_2",
+            "B=B_0",
+            "B",
+            "k"
+          ]
+        },
+        {
+          "id": "DOC-OPEN-PROBLEMS",
+          "route": "/open-problems/",
+          "bodySha256": "d2ca4841594e728a8fdcb404405cce010f93494de0a5722ca056ab2e64cf597f",
+          "exportSha256": "f6799abf33d59d18e86fc147298599342f5a423788d6eb8be7c6d93cbea79eba",
+          "linkCount": 8,
+          "headings": [
+            {
+              "id": "open-claim-registry",
+              "text": "Open-claim registry"
+            },
+            {
+              "id": "read-individual-questions",
+              "text": "Read individual questions"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-WORLD",
+          "route": "/documents/world-explanation/",
+          "bodySha256": "6701cddaa6ee3aa84faea691079d431ab38c2a5cb5f4975170b6021f9315fa58",
+          "exportSha256": "a0310290634f8dd7f2b0d41106aa2d34c914993325d5b9a705a02176d4f27217",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "1-start-from-one-simple-idea",
+              "text": "1. Start from one simple idea"
+            },
+            {
+              "id": "2-a-resonator-explains-the-idea",
+              "text": "2. A resonator explains the idea"
+            },
+            {
+              "id": "3-stability-does-not-mean-stillness",
+              "text": "3. Stability does not mean stillness"
+            },
+            {
+              "id": "4-the-key-recursion-complexity-becomes-a-new-simple-unit",
+              "text": "4. The key recursion: complexity becomes a new simple unit"
+            },
+            {
+              "id": "5-the-same-lower-pieces-can-create-different-higher-objects",
+              "text": "5. The same lower pieces can create different higher objects"
+            },
+            {
+              "id": "6-a-molecule-is-more-than-a-bag-of-atoms",
+              "text": "6. A molecule is more than a bag of atoms"
+            },
+            {
+              "id": "7-new-levels-open-new-possibilities",
+              "text": "7. New levels open new possibilities"
+            },
+            {
+              "id": "8-persistence-acts-like-physical-memory",
+              "text": "8. Persistence acts like physical memory"
+            },
+            {
+              "id": "9-recurrence-and-replication-are-possible-propagation-mechanisms",
+              "text": "9. Recurrence and replication are possible propagation mechanisms"
+            },
+            {
+              "id": "10-life-is-a-maintained-dynamic-geometry",
+              "text": "10. Life is a maintained dynamic geometry"
+            },
+            {
+              "id": "11-the-brain-makes-the-geometry-idea-easier-to-see",
+              "text": "11. The brain makes the geometry idea easier to see"
+            },
+            {
+              "id": "12-mind-interacting-with-world-geometry-modelling-geometry",
+              "text": "12. Mind interacting with world: geometry modelling geometry"
+            },
+            {
+              "id": "13-ai-may-be-using-an-indirect-route",
+              "text": "13. AI may be using an indirect route"
+            },
+            {
+              "id": "14-the-entire-rrg-cycle-in-one-picture",
+              "text": "14. The entire RRG cycle in one picture"
+            },
+            {
+              "id": "15-what-this-explanation-is-not-saying",
+              "text": "15. What this explanation is not saying"
+            },
+            {
+              "id": "v01a-addendum--the-observable-ladder-of-increasing-organization",
+              "text": "v0.1a Addendum — The Observable Ladder of Increasing Organization"
+            },
+            {
+              "id": "a-corrected-cosmic-to-life-sequence",
+              "text": "A corrected cosmic-to-life sequence"
+            },
+            {
+              "id": "the-rrg-interpretation-of-the-ladder",
+              "text": "The RRG interpretation of the ladder"
+            },
+            {
+              "id": "v01b-addendum--the-universe-changes-which-possibilities-are-reachable",
+              "text": "v0.1b Addendum — The Universe Changes Which Possibilities Are Reachable"
+            }
+          ],
+          "tex": [
+            "\\boxed{\\text{shape / relations} \\leftrightarrow \\text{temporal mode}}",
+            "\\boxed{\\text{resonant dynamic geometry}}",
+            "\\text{geometry} \\rightarrow \\text{mode}",
+            "\\text{mode} \\rightarrow \\text{dynamic shape}",
+            "\\boxed{\nG\\rightarrow M\\rightarrow G\n}",
+            "\\boxed{\n\\text{stable}=\n\\text{dynamic organization that persists}\n}",
+            "\\text{stable}=\\text{nothing changes}",
+            "\\boxed{\n\\text{many lower-level resonators}\n\\rightarrow\n\\text{one higher-level resonator}\n}",
+            "\\boxed{\n\\text{simple units}\n\\rightarrow\n\\text{complex interaction}\n\\rightarrow\n\\text{stable whole}\n\\rightarrow\n\\text{new simple unit}\n}",
+            "\\boxed{\n\\text{identity at a higher scale}\n=\n\\text{components}\n+\n\\text{relational geometry}\n+\n\\text{mode structure}\n}",
+            "\\boxed{\n\\text{parts create whole}\n\\leftrightarrow\n\\text{whole constrains parts}\n}",
+            "\\boxed{\n\\text{persistent structure}\n\\rightarrow\n\\text{new environment}\n\\rightarrow\n\\text{new possible stable structures}\n}",
+            "\\boxed{\n\\text{stability compresses complexity}\n}",
+            "\\boxed{\nD+\\text{material}+\\text{energy}\n\\rightarrow\nD+D'\n}",
+            "D'",
+            "D",
+            "\\boxed{\n\\text{organism geometry}\n\\leftrightarrow\n\\text{coordinated temporal organization}\n}",
+            "\\boxed{\n\\text{neural geometry}\n\\leftrightarrow\n\\text{neural dynamics}\n}",
+            "\\boxed{\n\\text{world geometry}\n\\rightarrow\n\\text{sensory coupling}\n\\rightarrow\n\\text{internal geometry}\n\\rightarrow\n\\text{action}\n\\rightarrow\n\\text{world geometry}\n}",
+            "\\boxed{\n\\begin{aligned}\n&\\text{lower resonant geometries}\\\\\n&\\downarrow\\\\\n&\\text{variation + interaction}\\\\\n&\\downarrow\\\\\n&\\text{some combinations become self-consistent}\\\\\n&\\downarrow\\\\\n&\\text{persistent collective geometry}\\\\\n&\\leftrightarrow\\\\\n&\\text{collective temporal mode}\\\\\n&\\downarrow\\\\\n&\\text{new effective unit}\\\\\n&\\downarrow\\\\\n&\\text{new combinations / new environment}\\\\\n&\\downarrow\\\\\n&\\text{next scale}\n\\end{aligned}\n}",
+            "\\boxed{\n\\text{resonance}\n\\leftrightarrow\n\\text{geometry}\n\\rightarrow\n\\text{stable resonator}\n\\rightarrow\n\\text{collective resonator}\n\\rightarrow\n\\text{new resonant geometry}\n\\rightarrow\\cdots\n}",
+            "\\boxed{\n\\text{hot quantum fields / particle plasma}\n\\rightarrow\n\\text{hadrons}\n\\rightarrow\n\\text{light nuclei}\n\\rightarrow\n\\text{early molecules and neutral atoms}\n\\rightarrow\n\\text{stars}\n\\rightarrow\n\\text{heavy elements}\n\\rightarrow\n\\text{planets + rich chemistry}\n\\rightarrow\n\\text{prebiotic networks}\n\\rightarrow\n\\text{cells}\n\\rightarrow\n\\text{multicellular organisms}\n\\rightarrow\n\\text{nervous systems}\n\\rightarrow\n\\text{humans}\n\\rightarrow\n\\text{technology / AI}\n}",
+            "HeH^+",
+            "\\text{H/He gas}\n\\rightarrow\n\\text{gravitational star}\n\\rightarrow\n\\text{high pressure/temperature}\n\\rightarrow\n\\text{new nuclei}",
+            "\\text{complex chemistry}\n\\rightarrow\n\\text{self-maintaining / self-templating networks}\n\\rightarrow\n\\text{cells}",
+            "\\boxed{\n\\text{existing stable units}\n\\rightarrow\n\\text{new organization}\n\\rightarrow\n\\text{new stable unit}\n\\rightarrow\n\\text{new possibility space}\n}",
+            "\\boxed{\n\\text{global/background geometry}\n\\rightarrow\n\\text{accessible local modes/geometries}\n}",
+            "\\boxed{\n\\text{local resonant geometries}\n\\rightarrow\n\\text{new collective geometry}\n\\rightarrow\n\\text{new local environment}\n}",
+            "\\boxed{\n\\text{background}\n\\rightarrow\n\\text{possible stable geometries}\n\\rightarrow\n\\text{persistent structure}\n\\rightarrow\n\\text{changed local background}\n\\rightarrow\n\\text{new possibilities}\n}"
+          ]
+        },
+        {
+          "id": "UT-D01",
+          "route": "/claims/UT-D01/",
+          "bodySha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+          "exportSha256": "0f22edd0dc33a7d0fb94e739bf4c97e210876ceebb4198db7a3465b299c6086a",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "1-geometry-g",
+              "text": "1. Geometry GGG"
+            }
+          ],
+          "tex": [
+            "G",
+            "G=\\{\\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\\}."
+          ]
+        },
+        {
+          "id": "UT-D02",
+          "route": "/claims/UT-D02/",
+          "bodySha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+          "exportSha256": "02e31c5ecc6a2a0ecc8137f8321069fe2f43b88485351396e387155fcaf493ca",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "2-frequency--mode-structure-m",
+              "text": "2. Frequency / mode structure MMM"
+            }
+          ],
+          "tex": [
+            "M",
+            "M=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}."
+          ]
+        },
+        {
+          "id": "UT-D03",
+          "route": "/claims/UT-D03/",
+          "bodySha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+          "exportSha256": "e078f2aaf2bdf6f527f4aff5a8e46557242f9e4a3959f765a0fda16e794fab58",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "3-resonant-geometry-r",
+              "text": "3. Resonant geometry RRR"
+            }
+          ],
+          "tex": [
+            "R",
+            "\\boxed{R=(G,M)}.",
+            "\\boxed{G\\leftrightarrow M}."
+          ]
+        },
+        {
+          "id": "UT-D04",
+          "route": "/claims/UT-D04/",
+          "bodySha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+          "exportSha256": "8cb27b4341159a753db4cf42c84a5e135598c8dbe32f98e87cb587da03a1f71d",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "4-stability",
+              "text": "4. Stability"
+            }
+          ],
+          "tex": [
+            "\\boxed{G\\leftrightarrow M}."
+          ]
+        },
+        {
+          "id": "UT-D05",
+          "route": "/claims/UT-D05/",
+          "bodySha256": "04ca8a61e328226812a0005821bfce03799e14179256786a58688a92e3cb2cdc",
+          "exportSha256": "2754e2a31bf616e8a0f50571aec99edc39fc0e77fa5dfe5a1fd92c1a5c998830",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "7-scale",
+              "text": "7. Scale"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "UT-D06",
+          "route": "/claims/UT-D06/",
+          "bodySha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+          "exportSha256": "ec57ec1fcbec1f340b77bb0697db49a967ed7b006a4742ad3ac532fbd783ac95",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "5-higher-level-formation",
+              "text": "5. Higher-level formation"
+            }
+          ],
+          "tex": [
+            "\\boxed{\\{R_n^1,R_n^2,\\ldots,R_n^m\\}\\rightarrow R_{n+1}}."
+          ]
+        },
+        {
+          "id": "UT-D07",
+          "route": "/claims/UT-D07/",
+          "bodySha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+          "exportSha256": "110db81b2f06b7f64f15ff9e1c1f38d038ce9067ab2acb1c94fe87a810b185cd",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "6-variation",
+              "text": "6. Variation"
+            }
+          ],
+          "tex": [
+            "\\boxed{\\text{same or related lower units}+\\text{different organization}\\rightarrow\\text{different }R_{n+1}}."
+          ]
+        },
+        {
+          "id": "UT-D08",
+          "route": "/claims/UT-D08/",
+          "bodySha256": "5a7ad5b619436603525e7f1e74fc2343bc03f90fad34189f26eae92447acb2df",
+          "exportSha256": "214d7f396138b28a61e80c00678e149db499669ba90b57c8776905ca636fe799",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "8-recursion",
+              "text": "8. Recursion"
+            }
+          ],
+          "tex": [
+            "\\boxed{\\{R_n^i\\}\\rightarrow R_{n+1}\\rightarrow R_{n+2}\\rightarrow\\cdots}.",
+            "\\boxed{R_n=(G_n,M_n),\\qquad G_n\\leftrightarrow M_n}."
+          ]
+        },
+        {
+          "id": "UT-D09",
+          "route": "/claims/UT-D09/",
+          "bodySha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+          "exportSha256": "511beea9eaa5224bf88340d6199aef7addb668823e236947e8c2cdf190ae258c",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "9-replication--recurrence",
+              "text": "9. Replication / recurrence"
+            }
+          ],
+          "tex": [
+            "A\\rightarrow A+A\\rightarrow B"
+          ]
+        },
+        {
+          "id": "UT-C01",
+          "route": "/claims/UT-C01/",
+          "bodySha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+          "exportSha256": "0b51ff33d353d314eee7c1c4c231a03a2c068988554e1608a76a04eade0e407d",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "10-interaction--force-status",
+              "text": "10. Interaction / force status"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "UT-C02",
+          "route": "/claims/UT-C02/",
+          "bodySha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+          "exportSha256": "2113148a4bcf6ddb82eb8d56d71d6c7e86b16ab8e70b232ba08be9a2c9ae66ad",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "11-background--possibility-space-status",
+              "text": "11. Background / possibility-space status"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-ARTICLE-STRUCTURES",
+          "route": "/articles/how-existing-structures-make-new-organization-possible/",
+          "bodySha256": "f027362c22aa06133093e5385b73639b6ead09f37ad25f19f4b5a58439e301b2",
+          "exportSha256": "3c0cf83c85f88cb432ea929a4219e8135f09a76df3d5e5567cf9a68564778a38",
+          "linkCount": 12,
+          "headings": [
+            {
+              "id": "explanation-conditions-belong-in-the-story",
+              "text": "Explanation: conditions belong in the story"
+            },
+            {
+              "id": "proposal-recursive-formation-and-changed-surroundings",
+              "text": "Proposal: recursive formation and changed surroundings"
+            },
+            {
+              "id": "actual-results-what-is-available-here",
+              "text": "Actual results: what is available here"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-ARTICLE-UNIT",
+          "route": "/articles/when-can-a-whole-be-treated-as-one-useful-unit/",
+          "bodySha256": "5e62a7fcad8899e8919239c10c7d8c7bd573fc36b985de77546631c739931a38",
+          "exportSha256": "35be74af987142e880e5466e9979f8f350882630e05e8393e5d109632bb6d2e8",
+          "linkCount": 12,
+          "headings": [
+            {
+              "id": "explanation-a-useful-description-depends-on-the-question",
+              "text": "Explanation: a useful description depends on the question"
+            },
+            {
+              "id": "proposal-collective-organization-becomes-reusable",
+              "text": "Proposal: collective organization becomes reusable"
+            },
+            {
+              "id": "actual-results-a-description-is-not-an-execution-receipt",
+              "text": "Actual results: a description is not an execution receipt"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-CONCEPT-INTERACTIONS",
+          "route": "/concepts/effective-interactions/",
+          "bodySha256": "7bda23e798ce8fdf0c3f7b85430eb5c0d314172cf514feb45da1646cf589b1f7",
+          "exportSha256": "c1357e7b90306f51a5efcfa718062e5d9cd749e2075d0433e2f3df582a50699d",
+          "linkCount": 5,
+          "headings": [
+            {
+              "id": "in-ordinary-words",
+              "text": "In ordinary words"
+            },
+            {
+              "id": "two-distinct-source-reported-cases",
+              "text": "Two distinct source-reported cases"
+            },
+            {
+              "id": "the-proposed-relation",
+              "text": "The proposed relation"
+            },
+            {
+              "id": "what-remains-open",
+              "text": "What remains open"
+            }
+          ],
+          "tex": [
+            "R_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}."
+          ]
+        },
+        {
+          "id": "DOC-CONCEPT-RECURSION",
+          "route": "/concepts/recursion/",
+          "bodySha256": "33ec81d2d8454f3cd1693e4fc3c90bf79050cd9e40f4e576eabc14f92a090a5c",
+          "exportSha256": "0ebf482e784d61a7441d485b85981c4e409c0d359f73149d0eaa32ddc7800d5a",
+          "linkCount": 8,
+          "headings": [
+            {
+              "id": "in-ordinary-words",
+              "text": "In ordinary words"
+            },
+            {
+              "id": "a-concrete-example",
+              "text": "A concrete example"
+            },
+            {
+              "id": "the-source-definitions",
+              "text": "The source definitions"
+            },
+            {
+              "id": "copying-is-one-possible-mechanism",
+              "text": "Copying is one possible mechanism"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-CONCEPT-STABILITY",
+          "route": "/concepts/stability/",
+          "bodySha256": "01dc34fee23953cc47ca4eac2452d920fe8f0ab56b2897b285172e6ff9ec95ce",
+          "exportSha256": "d5f62ed7a0b58f5c7f3a01985633648e7fd301e0a20baf99270913aff5773f08",
+          "linkCount": 4,
+          "headings": [
+            {
+              "id": "in-ordinary-words",
+              "text": "In ordinary words"
+            },
+            {
+              "id": "compare-the-questions",
+              "text": "Compare the questions"
+            },
+            {
+              "id": "the-source-definition",
+              "text": "The source definition"
+            },
+            {
+              "id": "4-stability",
+              "text": "4. Stability"
+            },
+            {
+              "id": "continue-the-question",
+              "text": "Continue the question"
+            }
+          ],
+          "tex": [
+            "\\boxed{G\\leftrightarrow M}.",
+            "G",
+            "M"
+          ]
+        },
+        {
+          "id": "DOC-CONCEPTS",
+          "route": "/concepts/",
+          "bodySha256": "1158180d34f2ab700f5fbbafda549491cdeeeaee914fd8acf741175413a4d43c",
+          "exportSha256": "b5bde0aff7f0f88207dec68e9ab312b976fbe1fe17673e1b534a94a4548da771",
+          "linkCount": 7,
+          "headings": [
+            {
+              "id": "begin-with-arrangement-and-activity",
+              "text": "Begin with arrangement and activity"
+            },
+            {
+              "id": "ask-what-it-means-to-persist",
+              "text": "Ask what it means to persist"
+            },
+            {
+              "id": "follow-a-whole-into-further-organization",
+              "text": "Follow a whole into further organization"
+            },
+            {
+              "id": "connect-organization-to-interactions",
+              "text": "Connect organization to interactions"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-CELL",
+          "route": "/examples/cell/",
+          "bodySha256": "f445239c950392fd43a51817a2e40217f57c8b662eaccfcbe0fb69fda8f869c5",
+          "exportSha256": "ac6131b17cbcb424c23f3ec89af0e79c83d84e804093eabb0acc5ff147b8972d",
+          "linkCount": 4,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "maintenance-copying-and-reproduction",
+              "text": "Maintenance, copying and reproduction"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-LIFE",
+          "route": "/examples/life-environment/",
+          "bodySha256": "1433ad797d4d9b01d87fc4ae4ed04c78108ef360c8fbee7769d27683c552a312",
+          "exportSha256": "b60dd429375876928217fef2f94b2d1c477ceaf4fa35376658d70f9bcca5858a",
+          "linkCount": 6,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "conditions-rather-than-a-guaranteed-ladder",
+              "text": "Conditions, rather than a guaranteed ladder"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-MOLECULE",
+          "route": "/examples/molecule/",
+          "bodySha256": "a675212f36690b38bb9dd0d4fed9f7d10492faf0809bb96a61960ae2371f93e9",
+          "exportSha256": "e1c160a97c0a8fd160f4df6b9fcea174e42783f620c38afd80609f8aa8ee4d39",
+          "linkCount": 4,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "from-whole-to-useful-unit",
+              "text": "From whole to useful unit"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-STAR",
+          "route": "/examples/star/",
+          "bodySha256": "e4aafc0237a82aac9319b68ce803f6293f02e0aeda0a25ae79626d35b8ca6e2a",
+          "exportSha256": "8c3b60a4662f49897fb19e82542c464a849e15bd7c4835453d6607d153fee130",
+          "linkCount": 4,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "where-the-interpretation-stops",
+              "text": "Where the interpretation stops"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-STRING",
+          "route": "/examples/string/",
+          "bodySha256": "84e28c0b6f415df74db855e31a094cfda68ba0405ce1b55726c08ec4037c5f90",
+          "exportSha256": "64e91c9d5d99504406d6c1962df179c7927c637c39b9bad9879e470d43504813",
+          "linkCount": 5,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "connect-to-the-definition",
+              "text": "Connect to the definition"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-WATER",
+          "route": "/examples/water/",
+          "bodySha256": "3473a91eee1b0b1d44e27574527f676f42503c0fbf46c9a575bae209fa561d75",
+          "exportSha256": "094883e4fd267c7758ee0544fba2b550e341fdaa45c76a6c8a4d481f7d27d1f7",
+          "linkCount": 5,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "ask-the-next-question",
+              "text": "Ask the next question"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLES",
+          "route": "/examples/",
+          "bodySha256": "7eb6e365e2bfda16c3b25b75c4983c1ed387eda80a3e816fbfae50c73b0bda74",
+          "exportSha256": "92bb58f36225fdc7aab2ef65dffe865563d7f5735584cfcf2343966eec7f6394",
+          "linkCount": 8,
+          "headings": [
+            {
+              "id": "patterns-and-constraints",
+              "text": "Patterns and constraints"
+            },
+            {
+              "id": "organization-changes-the-possibilities",
+              "text": "Organization changes the possibilities"
+            },
+            {
+              "id": "connect-the-examples",
+              "text": "Connect the examples"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-HOME",
+          "route": "/",
+          "bodySha256": "7d3ecb1a3d441ac50c0b89d78aed5363692b0d65427f5fbab681efc4fc2c0868",
+          "exportSha256": "b1b02fe5e99f0779828ea75707949ac075dc4679bb5c49e16ceafe9a591d27d4",
+          "linkCount": 4,
+          "headings": [
+            {
+              "id": "begin-with-a-wave",
+              "text": "Begin with a wave"
+            },
+            {
+              "id": "arrangement-and-activity-belong-together",
+              "text": "Arrangement and activity belong together"
+            },
+            {
+              "id": "a-whole-can-become-a-part",
+              "text": "A whole can become a part"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-START",
+          "route": "/start/",
+          "bodySha256": "99d03f16d778df689e92fef3c08666e5df5905891eef79d1fef45ff20b768401",
+          "exportSha256": "fbacc7e0d9ca1d286cb19867aff9314fbd24965223050d86c627589b1451111a",
+          "linkCount": 12,
+          "headings": [
+            {
+              "id": "a-pattern-and-its-parts",
+              "text": "A pattern and its parts"
+            },
+            {
+              "id": "arrangement-changes-what-can-happen",
+              "text": "Arrangement changes what can happen"
+            },
+            {
+              "id": "activity-changes-the-organization",
+              "text": "Activity changes the organization"
+            },
+            {
+              "id": "a-whole-can-become-a-part",
+              "text": "A whole can become a part"
+            },
+            {
+              "id": "existing-structures-change-the-conditions",
+              "text": "Existing structures change the conditions"
+            },
+            {
+              "id": "which-interactions-become-possible",
+              "text": "Which interactions become possible?"
+            },
+            {
+              "id": "what-remains-to-be-tested",
+              "text": "What remains to be tested"
+            }
+          ],
+          "tex": []
+        }
+      ]
+    },
+    {
+      "base": "/unity-theory/",
+      "inputsSha256": "6c2b1e0ac00a8236ef8094342b732c0996eddd6e539d0e9620c0161c5793a98d",
+      "currentSourceQualified": true,
+      "deployEligible": false,
+      "matchedBodies": 33,
+      "matchedExports": 33,
+      "zipMembers": 101,
+      "rows": [
+        {
+          "id": "DOC-CONCEPT-GEOMETRY",
+          "route": "/concepts/geometry-and-modes/",
+          "bodySha256": "c137385cc01a9d53420586f8bc98aa576b7ce5a57c818caf3568df3ef3c25205",
+          "exportSha256": "4e1b25c368ab4b9370966a0152a2f23b8c344cd4252fbf6e4662bd96ba57b31e",
+          "linkCount": 6,
+          "headings": [
+            {
+              "id": "in-ordinary-words",
+              "text": "In ordinary words"
+            },
+            {
+              "id": "try-the-string-example",
+              "text": "Try the string example"
+            },
+            {
+              "id": "the-source-meanings",
+              "text": "The source meanings"
+            }
+          ],
+          "tex": [
+            "R=(G,M)",
+            "G",
+            "M"
+          ]
+        },
+        {
+          "id": "DOC-CORE",
+          "route": "/documents/locked-core/",
+          "bodySha256": "6e42af700b89730a116c477e5f2cd72968df821c42e63454457ed457dffbd0af",
+          "exportSha256": "a18ffaabb71991f92819326c5aa6997d858352ae59a40d994e36a89f75347e70",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "1-geometry-g",
+              "text": "1. Geometry GGG"
+            },
+            {
+              "id": "2-frequency--mode-structure-m",
+              "text": "2. Frequency / mode structure MMM"
+            },
+            {
+              "id": "3-resonant-geometry-r",
+              "text": "3. Resonant geometry RRR"
+            },
+            {
+              "id": "4-stability",
+              "text": "4. Stability"
+            },
+            {
+              "id": "5-higher-level-formation",
+              "text": "5. Higher-level formation"
+            },
+            {
+              "id": "6-variation",
+              "text": "6. Variation"
+            },
+            {
+              "id": "7-scale",
+              "text": "7. Scale"
+            },
+            {
+              "id": "8-recursion",
+              "text": "8. Recursion"
+            },
+            {
+              "id": "9-replication--recurrence",
+              "text": "9. Replication / recurrence"
+            },
+            {
+              "id": "10-interaction--force-status",
+              "text": "10. Interaction / force status"
+            },
+            {
+              "id": "11-background--possibility-space-status",
+              "text": "11. Background / possibility-space status"
+            },
+            {
+              "id": "12-what-counts-as-contradiction",
+              "text": "12. What counts as contradiction"
+            },
+            {
+              "id": "13-version-rule",
+              "text": "13. Version rule"
+            }
+          ],
+          "tex": [
+            "G",
+            "G=\\{\\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\\}.",
+            "M",
+            "M=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}.",
+            "R",
+            "\\boxed{R=(G,M)}.",
+            "\\boxed{G\\leftrightarrow M}.",
+            "\\boxed{G\\leftrightarrow M}.",
+            "\\boxed{\\{R_n^1,R_n^2,\\ldots,R_n^m\\}\\rightarrow R_{n+1}}.",
+            "\\boxed{\\text{same or related lower units}+\\text{different organization}\\rightarrow\\text{different }R_{n+1}}.",
+            "\\boxed{\\{R_n^i\\}\\rightarrow R_{n+1}\\rightarrow R_{n+2}\\rightarrow\\cdots}.",
+            "\\boxed{R_n=(G_n,M_n),\\qquad G_n\\leftrightarrow M_n}.",
+            "A\\rightarrow A+A\\rightarrow B",
+            "R=(G,M)"
+          ]
+        },
+        {
+          "id": "DOC-CONTROL",
+          "route": "/changes/",
+          "bodySha256": "101e12580a506e047ff1e4346d7907dd8020229195964de73b92e03a0a82a865",
+          "exportSha256": "c81bbb522519ced50b59433b27451524b555ef57c0755bc81eefd2efd3bdeeb5",
+          "linkCount": 1,
+          "headings": [
+            {
+              "id": "a-research-does-not-redefine-the-core",
+              "text": "A. Research does not redefine the core"
+            },
+            {
+              "id": "b-proof-gate-before-changing-a-definition",
+              "text": "B. Proof gate before changing a definition"
+            },
+            {
+              "id": "c-examples-never-become-definitions-automatically",
+              "text": "C. Examples never become definitions automatically"
+            },
+            {
+              "id": "d-mathematics-is-subordinate-to-the-locked-meaning",
+              "text": "D. Mathematics is subordinate to the locked meaning"
+            },
+            {
+              "id": "e-research-objective",
+              "text": "E. Research objective"
+            },
+            {
+              "id": "adopted-source-positions",
+              "text": "Adopted source positions"
+            }
+          ],
+          "tex": [
+            "\\Gamma"
+          ]
+        },
+        {
+          "id": "DOC-FRAMEWORK",
+          "route": "/framework/",
+          "bodySha256": "ded1836183667fad2e887105d757cb47bb788e2ac5cff6b8ae604fe7de26f7aa",
+          "exportSha256": "07466a9d45cda44cce13a774b9e4edd102ec7bcef7a0293e0fe7a880f6bb2771",
+          "linkCount": 21,
+          "headings": [
+            {
+              "id": "1-research-status",
+              "text": "1. Research status"
+            },
+            {
+              "id": "evidence-labels-used-below",
+              "text": "Evidence labels used below"
+            },
+            {
+              "id": "2-definitions",
+              "text": "2. Definitions"
+            },
+            {
+              "id": "21-relational-geometry-g",
+              "text": "2.1 Relational geometry GGG"
+            },
+            {
+              "id": "22-temporal-mode-structure-m",
+              "text": "2.2 Temporal mode structure MMM"
+            },
+            {
+              "id": "23-resonant-dynamic-geometry-r",
+              "text": "2.3 Resonant dynamic geometry RRR"
+            },
+            {
+              "id": "24-stability",
+              "text": "2.4 Stability"
+            },
+            {
+              "id": "25-collapse--transformation",
+              "text": "2.5 Collapse / transformation"
+            },
+            {
+              "id": "26-scale",
+              "text": "2.6 Scale"
+            },
+            {
+              "id": "3-core-rrg-propositions",
+              "text": "3. Core RRG propositions"
+            },
+            {
+              "id": "proposition-1--geometry-and-mode-are-mutually-constraining",
+              "text": "Proposition 1 — Geometry and mode are mutually constraining"
+            },
+            {
+              "id": "proposition-2--stable-organization-is-dynamic-closure",
+              "text": "Proposition 2 — Stable organization is dynamic closure"
+            },
+            {
+              "id": "proposition-3--coupling-creates-new-degrees-of-freedom",
+              "text": "Proposition 3 — Coupling creates new degrees of freedom"
+            },
+            {
+              "id": "proposition-4--whole-and-parts-form-circular-causality",
+              "text": "Proposition 4 — Whole and parts form circular causality"
+            },
+            {
+              "id": "proposition-5--persistent-higher-structures-become-new-effective-units",
+              "text": "Proposition 5 — Persistent higher structures become new effective units"
+            },
+            {
+              "id": "proposition-6--variation-comes-primarily-from-arrangement-and-mode",
+              "text": "Proposition 6 — Variation comes primarily from arrangement and mode"
+            },
+            {
+              "id": "proposition-7--stability-compresses-complexity",
+              "text": "Proposition 7 — Stability compresses complexity"
+            },
+            {
+              "id": "proposition-8--new-stable-structures-can-open-new-possibility-spaces",
+              "text": "Proposition 8 — New stable structures can open new possibility spaces"
+            },
+            {
+              "id": "4-what-established-science-already-supports",
+              "text": "4. What established science already supports"
+            },
+            {
+              "id": "41-coupled-resonators-create-collective-modes--established",
+              "text": "4.1 Coupled resonators create collective modes — Established"
+            },
+            {
+              "id": "42-spatial-organization-and-synchronization-can-co-evolve--established",
+              "text": "4.2 Spatial organization and synchronization can co-evolve — Established"
+            },
+            {
+              "id": "43-scale-dependent-effective-degrees-of-freedom--established",
+              "text": "4.3 Scale-dependent effective degrees of freedom — Established"
+            },
+            {
+              "id": "44-whole-constraining-parts--established-as-a-complex-systems-pattern",
+              "text": "4.4 Whole constraining parts — Established as a complex-systems pattern"
+            },
+            {
+              "id": "45-geometry-changes-spectra-and-forces--established-in-specific-systems",
+              "text": "4.5 Geometry changes spectra and forces — Established in specific systems"
+            },
+            {
+              "id": "46-autocatalytic-closure-and-self-reproduction--established-research-framework",
+              "text": "4.6 Autocatalytic closure and self-reproduction — Established research framework"
+            },
+            {
+              "id": "47-neural-manifolds--established-research-framework",
+              "text": "4.7 Neural manifolds — Established research framework"
+            },
+            {
+              "id": "5-scale-and-time",
+              "text": "5. Scale and time"
+            },
+            {
+              "id": "6-chemistry-under-rrg",
+              "text": "6. Chemistry under RRG"
+            },
+            {
+              "id": "7-stars-and-increasing-chemical-possibility",
+              "text": "7. Stars and increasing chemical possibility"
+            },
+            {
+              "id": "8-life-under-rrg",
+              "text": "8. Life under RRG"
+            },
+            {
+              "id": "81-a-living-system-is-not-static-matter",
+              "text": "8.1 A living system is not static matter"
+            },
+            {
+              "id": "82-self-maintenance",
+              "text": "8.2 Self-maintenance"
+            },
+            {
+              "id": "83-replication",
+              "text": "8.3 Replication"
+            },
+            {
+              "id": "84-evolution",
+              "text": "8.4 Evolution"
+            },
+            {
+              "id": "9-mind-under-rrg",
+              "text": "9. Mind under RRG"
+            },
+            {
+              "id": "10-ai-under-rrg",
+              "text": "10. AI under RRG"
+            },
+            {
+              "id": "11-the-four-interactions-current-rrg-position",
+              "text": "11. The four interactions: current RRG position"
+            },
+            {
+              "id": "12-gravity-hardest-open-physics-problem-for-rrg",
+              "text": "12. Gravity: hardest open physics problem for RRG"
+            },
+            {
+              "id": "13-thermodynamics-constraint",
+              "text": "13. Thermodynamics constraint"
+            },
+            {
+              "id": "14-the-strongest-current-rrg-cycle",
+              "text": "14. The strongest current RRG cycle"
+            },
+            {
+              "id": "15-what-would-falsify-or-weaken-specific-rrg-claims",
+              "text": "15. What would falsify or weaken specific RRG claims"
+            },
+            {
+              "id": "core-level-contradiction-candidates",
+              "text": "Core-level contradiction candidates"
+            },
+            {
+              "id": "extension-level-failures",
+              "text": "Extension-level failures"
+            },
+            {
+              "id": "16-research-program",
+              "text": "16. Research program"
+            },
+            {
+              "id": "phase-a--minimal-self-consistency",
+              "text": "Phase A — Minimal self-consistency"
+            },
+            {
+              "id": "phase-b--spontaneous-stable-resonators",
+              "text": "Phase B — Spontaneous stable resonators"
+            },
+            {
+              "id": "phase-c--recursive-promotion",
+              "text": "Phase C — Recursive promotion"
+            },
+            {
+              "id": "phase-d--multiple-levels",
+              "text": "Phase D — Multiple levels"
+            },
+            {
+              "id": "phase-e--energy-and-dissipation",
+              "text": "Phase E — Energy and dissipation"
+            },
+            {
+              "id": "phase-f--replication-transition",
+              "text": "Phase F — Replication transition"
+            },
+            {
+              "id": "phase-g--ai-benchmark",
+              "text": "Phase G — AI benchmark"
+            },
+            {
+              "id": "phase-h--physics-constraints",
+              "text": "Phase H — Physics constraints"
+            },
+            {
+              "id": "17-references--closest-existing-frameworks",
+              "text": "17. References / closest existing frameworks"
+            },
+            {
+              "id": "v01a-addendum--scale-ladder-and-latent-interaction-channels",
+              "text": "v0.1a Addendum — Scale Ladder and Latent Interaction Channels"
+            },
+            {
+              "id": "18-corrected-observational-ladder",
+              "text": "18. Corrected observational ladder"
+            },
+            {
+              "id": "sources-for-the-ladder",
+              "text": "Sources for the ladder"
+            },
+            {
+              "id": "19-a-better-formulation-of-the-force-is-already-there-waiting",
+              "text": "19. A better formulation of “the force is already there waiting”"
+            },
+            {
+              "id": "known-examples",
+              "text": "Known examples"
+            },
+            {
+              "id": "qcd--strong-interaction",
+              "text": "QCD / strong interaction"
+            },
+            {
+              "id": "electroweak-interaction",
+              "text": "Electroweak interaction"
+            },
+            {
+              "id": "gravity",
+              "text": "Gravity"
+            },
+            {
+              "id": "20-rrg-unification-hypothesis-for-interactions",
+              "text": "20. RRG unification hypothesis for interactions"
+            },
+            {
+              "id": "crucial-open-question",
+              "text": "Crucial open question"
+            },
+            {
+              "id": "v01b-addendum--background-selection-scale-and-the-remaining-blockers",
+              "text": "v0.1b Addendum — Background Selection, Scale, and the Remaining Blockers"
+            },
+            {
+              "id": "21-background-selection-principle",
+              "text": "21. Background-selection principle"
+            },
+            {
+              "id": "established-analogues",
+              "text": "Established analogues"
+            },
+            {
+              "id": "22-scale-as-a-geometrymode-regime",
+              "text": "22. Scale as a geometry–mode regime"
+            },
+            {
+              "id": "23-what-remains-genuinely-unresolved",
+              "text": "23. What remains genuinely unresolved"
+            },
+            {
+              "id": "a-one-scale-closed-effective-action",
+              "text": "A. One scale-closed effective action"
+            },
+            {
+              "id": "b-automatic-composite-promotion",
+              "text": "B. Automatic composite promotion"
+            },
+            {
+              "id": "c-recover-known-fundamental-constraints",
+              "text": "C. Recover known fundamental constraints"
+            },
+            {
+              "id": "d-thermodynamics-and-open-systems",
+              "text": "D. Thermodynamics and open systems"
+            },
+            {
+              "id": "e-a-prediction-unique-to-rrg",
+              "text": "E. A prediction unique to RRG"
+            },
+            {
+              "id": "f-avoiding-triviality",
+              "text": "F. Avoiding triviality"
+            },
+            {
+              "id": "24-current-status",
+              "text": "24. Current status"
+            },
+            {
+              "id": "19-emergenteffective-interactions-from-lower-level-organization",
+              "text": "19. Emergent/effective interactions from lower-level organization"
+            },
+            {
+              "id": "191-phonon-mediated-attraction",
+              "text": "19.1 Phonon-mediated attraction"
+            },
+            {
+              "id": "192-spin-ice",
+              "text": "19.2 Spin ice"
+            },
+            {
+              "id": "193-background-state-and-interaction-regime",
+              "text": "19.3 Background state and interaction regime"
+            },
+            {
+              "id": "194-rrg-interpretation",
+              "text": "19.4 RRG interpretation"
+            }
+          ],
+          "tex": [
+            "\\boxed{\n\\text{relational geometry}\n\\leftrightarrow\n\\text{temporal mode structure}\n}",
+            "\\boxed{\n\\text{persistent coupled structures}\n\\rightarrow\n\\text{new effective unit at a higher scale}\n}",
+            "G",
+            "G=\n\\{\\text{components, positions, connectivity, order, orientation, boundaries, constraints}\\}",
+            "M",
+            "M=\n\\{\\omega,\\phi,A,\\psi(x),\\text{propagation},\\text{coupling},\\tau,\\ldots\\}",
+            "\\omega",
+            "\\phi",
+            "A",
+            "\\psi(x)",
+            "\\tau",
+            "R",
+            "\\boxed{R=(G,M)}",
+            "\\boxed{\nG\\rightarrow M\\rightarrow G\n}",
+            "R_A\\rightarrow R_B",
+            "R_A\\rightarrow\\{R_i\\}_{\\text{lower scale}}",
+            "\\boxed{\nG\\leftrightarrow M\n}",
+            "\\boxed{\nR=(G,M)\\text{ persists when }G\\text{ supports }M\\text{ and }M\\text{ reproduces/maintains }G\n}",
+            "\\boxed{\n\\{R_n^i\\}\n\\rightarrow\nR_{n+1}\n}",
+            "\\boxed{\n\\text{parts create collective order}\n\\leftrightarrow\n\\text{collective order constrains parts}\n}",
+            "R_{n+1}=\\mathcal C(\\{R_n\\})",
+            "\\mathcal C",
+            "\\text{same parts}+\n\\text{different }G,M\n\\rightarrow\n\\text{different effective object}",
+            "G\\rightarrow M\n\\quad\\text{and}\\quad\nM\\rightarrow G",
+            "\\text{parts}\\rightarrow\\text{whole}\\rightarrow\\text{parts}",
+            "\\text{geometry}\n\\rightarrow\n\\text{spectrum}\n\\rightarrow\n\\text{effective force}",
+            "\\tau_n",
+            "\\tau\\sim\n\\frac{L}{v_{\\text{effective}}}\n\\times\n(\\text{coordination complexity})",
+            "L",
+            "v_{\\text{effective}}",
+            "\\boxed{\n\\text{atomic resonant geometries}\n\\rightarrow\n\\text{molecular collective geometry/modes}\n}",
+            "\\text{existing structures}\n\\rightarrow\n\\text{stellar geometry}\n\\rightarrow\n\\text{new energetic conditions}\n\\rightarrow\n\\text{new stable nuclei}\n\\rightarrow\n\\text{larger chemical possibility space}",
+            "D(t)=(G(t),M(t))",
+            "D+\\text{resources/energy}\n\\rightarrow\nD+D'",
+            "D'\\approx D",
+            "\\text{variation}\n\\rightarrow\n\\text{persistence}\n\\rightarrow\n\\text{propagation}\n\\rightarrow\n\\text{new combinations}",
+            "\\boxed{\n\\text{mind} \\approx\n\\text{evolving multiscale neural geometry}\n}",
+            "\\boxed{\n\\text{dynamic modules}\n+\n\\text{adaptive geometry}\n+\n\\text{mode synchronization}\n+\n\\text{recursive coarse-graining}\n}",
+            "\\boxed{\n\\begin{aligned}\n&\\text{lower dynamic geometries}\\\\\n&\\downarrow \\text{variation + interaction}\\\\\n&\\text{coupling and constraint}\\\\\n&\\downarrow\\\\\n&\\text{collective geometry }G_{n+1}\\\\\n&\\leftrightarrow\\\\\n&\\text{collective mode structure }M_{n+1}\\\\\n&\\downarrow\\\\\n&\\text{persistent resonator }R_{n+1}\\\\\n&\\downarrow\\\\\n&\\text{new effective unit / new possibility space}\\\\\n&\\downarrow\\\\\n&\\text{repeat}\n\\end{aligned}\n}",
+            "R=(G,M)",
+            "G\\leftrightarrow M",
+            "R_0\\rightarrow R_1\\rightarrow R_2\\rightarrow R_3",
+            "HeH^+",
+            "10^5",
+            "3.8\\times10^5",
+            "k",
+            "\\boxed{\n\\Gamma_k[R]\n=\n\\Gamma_{0,k}[R]\n+\n\\sum_{\\alpha}g_\\alpha(k)\\,\\mathcal O_\\alpha[R]\n}",
+            "R=(G,M)",
+            "\\mathcal O_\\alpha",
+            "g_\\alpha(k)",
+            "\\boxed{\n\\frac{dg_\\alpha}{d\\ln k}\n=\n\\beta_\\alpha(\\{g\\})\n}",
+            "\\boxed{\n\\text{same underlying interaction}\n+\n\\text{different scale}\n\\rightarrow\n\\text{different effective geometry/objects}\n}",
+            "W",
+            "Z",
+            "\\boxed{\n\\text{The effective interactions visible at a scale are the active coupling channels of the scale-dependent resonant geometry.}\n}",
+            "\\text{force 1 = level 1, force 2 = level 2,\\ldots}",
+            "\\boxed{\n\\Gamma_k\n\\rightarrow\n\\{g_\\alpha(k),G_k,M_k\\}\n}",
+            "\\boxed{\nR_n\n\\rightarrow\n\\Gamma_{n+1}\n\\rightarrow\n\\text{new active channels / modes / interactions}.\n}",
+            "\\boxed{\n\\text{geometry/modes}\n\\rightarrow\n\\text{active interaction channels}\n\\rightarrow\n\\text{new stable geometry}\n\\rightarrow\n\\text{new scale-dependent action}\n\\rightarrow\n\\text{repeat}\n}",
+            "\\Gamma",
+            "\\boxed{\n\\Gamma_k[R;B(t)]\n}",
+            "B(t)",
+            "B",
+            "\\boxed{\n\\delta_R\\Gamma_k[R;B]=0\n}",
+            "B",
+            "\\boxed{\nB_1\\rightarrow B_2\n\\quad\\Rightarrow\\quad\n\\mathcal S(B_1)\\rightarrow\\mathcal S(B_2)\n}",
+            "\\boxed{\nR_n=(G_n,M_n;B_n)\n}",
+            "L_n,\\quad \\tau_n,\\quad \\Omega_n,\\quad \\{g_{\\alpha,n}\\}.",
+            "\\Gamma_k",
+            "\\boxed{\n\\Gamma_n\\xrightarrow{\\mathcal R}\\Gamma_{n+1}\n}",
+            "\\boxed{\n\\text{lattice geometry}\n\\rightarrow\n\\text{phonon mode}\n\\rightarrow\n\\text{effective attraction}\n\\rightarrow\n\\text{new collective state}\n}",
+            "W/Z",
+            "\\boxed{\nR_n=(G_n,M_n)\n\\rightarrow\n\\mathcal I_{n+1}^{\\rm eff}\n\\rightarrow\nR_{n+1}\n}"
+          ]
+        },
+        {
+          "id": "DOC-MATH",
+          "route": "/math/",
+          "bodySha256": "c20738d7383b87f75993baf96114bf7587e485dad2da836b6c6280baf45fc2ef",
+          "exportSha256": "a3da7abd0bb314c1b130c4ab0d22f3df362a3096a91e94dd64a787aa8b8657ad",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "1-goal",
+              "text": "1. Goal"
+            },
+            {
+              "id": "2-minimal-state-of-one-unit",
+              "text": "2. Minimal state of one unit"
+            },
+            {
+              "id": "3-one-interaction-should-control-both-geometry-and-phase",
+              "text": "3. One interaction should control both geometry and phase"
+            },
+            {
+              "id": "4-spatial-equation",
+              "text": "4. Spatial equation"
+            },
+            {
+              "id": "5-phase-equation",
+              "text": "5. Phase equation"
+            },
+            {
+              "id": "6-optional-amplitude-dynamics",
+              "text": "6. Optional amplitude dynamics"
+            },
+            {
+              "id": "7-geometry-as-a-graph-as-well-as-position",
+              "text": "7. Geometry as a graph as well as position"
+            },
+            {
+              "id": "8-geometry-determines-modes",
+              "text": "8. Geometry determines modes"
+            },
+            {
+              "id": "9-mode-determines-geometry",
+              "text": "9. Mode determines geometry"
+            },
+            {
+              "id": "10-stability-condition",
+              "text": "10. Stability condition"
+            },
+            {
+              "id": "101-fixed-point-test-candidate-test-not-the-definition-of-rrg-stability",
+              "text": "10.1 Fixed-point test (candidate test, not the definition of RRG stability)"
+            },
+            {
+              "id": "102-periodic-resonator-test",
+              "text": "10.2 Periodic-resonator test"
+            },
+            {
+              "id": "103-attractor-test",
+              "text": "10.3 Attractor test"
+            },
+            {
+              "id": "11-what-counts-as-a-new-resonator",
+              "text": "11. What counts as a new resonator?"
+            },
+            {
+              "id": "12-coarse-graining-a-stable-cluster",
+              "text": "12. Coarse-graining a stable cluster"
+            },
+            {
+              "id": "13-the-central-rrg-recursion-test",
+              "text": "13. The central RRG recursion test"
+            },
+            {
+              "id": "14-variation-same-lower-units-different-higher-structures",
+              "text": "14. Variation: same lower units, different higher structures"
+            },
+            {
+              "id": "15-energy",
+              "text": "15. Energy"
+            },
+            {
+              "id": "16-a-possible-resonant-closure-functional",
+              "text": "16. A possible “resonant closure” functional"
+            },
+            {
+              "id": "17-first-computational-experiment",
+              "text": "17. First computational experiment"
+            },
+            {
+              "id": "171-setup",
+              "text": "17.1 Setup"
+            },
+            {
+              "id": "172-phase-a--can-multiple-stable-shapes-emerge",
+              "text": "17.2 Phase A — Can multiple stable shapes emerge?"
+            },
+            {
+              "id": "173-phase-b--promote-stable-clusters",
+              "text": "17.3 Phase B — Promote stable clusters"
+            },
+            {
+              "id": "174-phase-c--apply-same-equation-family",
+              "text": "17.4 Phase C — Apply same equation family"
+            },
+            {
+              "id": "175-phase-d--seek-third-level",
+              "text": "17.5 Phase D — Seek third level"
+            },
+            {
+              "id": "18-metrics",
+              "text": "18. Metrics"
+            },
+            {
+              "id": "persistence",
+              "text": "Persistence"
+            },
+            {
+              "id": "coherence",
+              "text": "Coherence"
+            },
+            {
+              "id": "perturbation-recovery",
+              "text": "Perturbation recovery"
+            },
+            {
+              "id": "compression-ratio",
+              "text": "Compression ratio"
+            },
+            {
+              "id": "timescale-separation",
+              "text": "Timescale separation"
+            },
+            {
+              "id": "recursive-closure-error",
+              "text": "Recursive closure error"
+            },
+            {
+              "id": "19-strong-failure-conditions",
+              "text": "19. Strong failure conditions"
+            },
+            {
+              "id": "20-second-experiment-primitive-replication",
+              "text": "20. Second experiment: primitive replication"
+            },
+            {
+              "id": "21-third-experiment-rrg-ai-toy-model",
+              "text": "21. Third experiment: RRG AI toy model"
+            },
+            {
+              "id": "22-physics-program-after-the-toy-model",
+              "text": "22. Physics program after the toy model"
+            },
+            {
+              "id": "23-closest-mathematicalscientific-frameworks",
+              "text": "23. Closest mathematical/scientific frameworks"
+            },
+            {
+              "id": "24-minimal-mathematical-summary",
+              "text": "24. Minimal mathematical summary"
+            },
+            {
+              "id": "v01a-addendum--minimal-gamma-with-scale-activated-interaction-channels",
+              "text": "v0.1a Addendum — Minimal Γ\\GammaΓ with Scale-Activated Interaction Channels"
+            },
+            {
+              "id": "25-why-the-previous-minimal-model-was-not-enough",
+              "text": "25. Why the previous minimal model was not enough"
+            },
+            {
+              "id": "26-abstract-minimal-rrg-effective-action",
+              "text": "26. Abstract minimal RRG effective action"
+            },
+            {
+              "id": "27-geometrymode-closure",
+              "text": "27. Geometry↔mode closure"
+            },
+            {
+              "id": "28-force-and-frequency-emerge-from-the-same-effective-action",
+              "text": "28. Force and frequency emerge from the same effective action"
+            },
+            {
+              "id": "29-latent-interaction-channels",
+              "text": "29. Latent interaction channels"
+            },
+            {
+              "id": "30-when-a-new-geometry-appears",
+              "text": "30. When a new geometry appears"
+            },
+            {
+              "id": "31-functional-rg-supplies-the-scale-evolution",
+              "text": "31. Functional RG supplies the scale evolution"
+            },
+            {
+              "id": "32-the-rrg-recursion-with-interaction-channels",
+              "text": "32. The RRG recursion with interaction channels"
+            },
+            {
+              "id": "33-relation-to-known-forces",
+              "text": "33. Relation to known forces"
+            },
+            {
+              "id": "34-immediate-mathematical-target",
+              "text": "34. Immediate mathematical target"
+            },
+            {
+              "id": "v01b-addendum--background-dependent-recursive-action",
+              "text": "v0.1b Addendum — Background-Dependent Recursive Action"
+            },
+            {
+              "id": "35-add-the-evolving-background",
+              "text": "35. Add the evolving background"
+            },
+            {
+              "id": "36-background-dependent-stable-set",
+              "text": "36. Background-dependent stable set"
+            },
+            {
+              "id": "37-a-scale-is-an-effective-resonant-regime",
+              "text": "37. A scale is an effective resonant regime"
+            },
+            {
+              "id": "38-revised-rrg-closure-condition",
+              "text": "38. Revised RRG closure condition"
+            },
+            {
+              "id": "39-geometry-force-and-mode-remain-one-local-object",
+              "text": "39. Geometry, force, and mode remain one local object"
+            },
+            {
+              "id": "40-next-concrete-calculation",
+              "text": "40. Next concrete calculation"
+            }
+          ],
+          "tex": [
+            "\\boxed{\n\\text{geometry determines allowed modes,\nand modes determine/maintain geometry}\n}",
+            "\\boxed{\n\\text{stable lower-level resonators}\n\\rightarrow\n\\text{stable higher-level resonators}\n}",
+            "i",
+            "R_i=\n(\\mathbf x_i,z_i)",
+            "z_i=A_i e^{i\\theta_i}",
+            "\\mathbf x_i",
+            "A_i",
+            "\\theta_i",
+            "\\omega_i",
+            "\\boxed{\nV_{ij}(r_{ij},\\Delta\\theta_{ij})\n=\nU(r_{ij})\n-\nJ(r_{ij})\\cos(\\Delta\\theta_{ij})\n}",
+            "r_{ij}=|\\mathbf x_i-\\mathbf x_j|",
+            "\\Delta\\theta_{ij}=\\theta_i-\\theta_j.",
+            "U(r)",
+            "J(r)",
+            "\\cos(\\Delta\\theta)",
+            "\\boxed{\nr\\rightarrow\\text{phase coupling}\n\\quad\\text{and}\\quad\n\\Delta\\theta\\rightarrow\\text{spatial force}\n}",
+            "\\boxed{\nm_i\\ddot{\\mathbf x}_i\n+\n\\gamma_x\\dot{\\mathbf x}_i\n=\n-\\nabla_{\\mathbf x_i}\n\\sum_{j\\neq i}\nV_{ij}\n+\n\\boldsymbol\\xi_i(t)\n}",
+            "m_i",
+            "\\gamma_x",
+            "\\boldsymbol\\xi_i",
+            "\\boxed{\n\\dot{\\mathbf x}_i\n=\n-\\mu_x\n\\nabla_{\\mathbf x_i}\n\\sum_{j\\neq i}V_{ij}\n}",
+            "\\boxed{\n\\dot\\theta_i\n=\n\\omega_i\n-\n\\mu_\\theta\n\\frac{\\partial}{\\partial\\theta_i}\n\\sum_{j\\neq i}V_{ij}\n+\n\\eta_i(t)\n}",
+            "\\dot\\theta_i=\n\\omega_i\n+\n\\sum_{j\\neq i}\nK(r_{ij})\n\\sin(\\theta_j-\\theta_i)\n+\n\\eta_i(t)",
+            "K(r)",
+            "\\boxed{\n\\text{geometry controls synchronization}\n}",
+            "\\boxed{\n\\text{synchronization controls geometry}\n}",
+            "\\boxed{\n\\dot z_i\n=\n(\\alpha_i+i\\omega_i-\\beta_i|z_i|^2)z_i\n+\n\\sum_j K_{ij}(G)(z_j-z_i)\n}",
+            "\\alpha_i>0",
+            "g_{ij}\\in[0,1].",
+            "K_{ij}\n=\ng_{ij}K(r_{ij}).",
+            "\\boxed{\n\\dot g_{ij}\n=\n\\eta_g\n\\left[\nC_{ij}(R)-g_{ij}\n\\right]\n}",
+            "C_{ij}",
+            "C_{ij}\n=\n\\sigma\n\\left[\na\\cos(\\theta_i-\\theta_j)\n-b(r_{ij}-r_0)^2\n+cA_iA_j\n\\right]",
+            "\\sigma",
+            "\\boxed{\n\\text{mode changes topology}\n\\leftrightarrow\n\\text{topology changes mode}\n}",
+            "G",
+            "L=D-W",
+            "W=[g_{ij}]",
+            "D",
+            "\\boxed{\nLu_k=\\lambda_k u_k\n}",
+            "\\omega_k^2\\propto\\lambda_k.",
+            "\\boxed{\nG\\rightarrow\\{u_k,\\omega_k\\}.\n}",
+            "V_{ij}=V(r_{ij},\\Delta\\theta_{ij})",
+            "\\boxed{\nM\\rightarrow G'.\n}",
+            "\\boxed{\nR^*=(G^*,M^*)\n}",
+            "X=(\\mathbf x_1,\\ldots,\\theta_1,\\ldots,g_{ij},\\ldots).",
+            "\\dot X=F(X).",
+            "X^*",
+            "F(X^*)=0.",
+            "\\delta\\dot X=J(X^*)\\delta X.",
+            "\\boxed{\n\\mathrm{Re}(\\lambda_k(J))<0\n}",
+            "T",
+            "X(t+T)\\approx X(t),",
+            "\\mathcal A",
+            "\\mathcal A",
+            "C",
+            "\\boxed{\n\\rho_C=\n\\left|\n\\frac{1}{|C|}\n\\sum_{i\\in C}e^{i\\theta_i}\n\\right|\n}",
+            "P_C=\nw_1\\rho_C\n+w_2S_{\\text{geometry}}\n+w_3S_{\\text{return}}\n+w_4S_{\\text{lifetime}}\n-w_5S_{\\text{fragmentation}}.",
+            "C",
+            "\\boxed{\nZ_C=\n\\frac{\\sum_{i\\in C}w_i z_i}\n{\\sum_{i\\in C}w_i}\n}",
+            "A_C=|Z_C|.",
+            "\\Theta_C=\\arg Z_C.",
+            "\\boxed{\n\\Omega_C=\n\\frac{d\\Theta_C}{dt}.\n}",
+            "\\boxed{\n\\mathbf X_C=\n\\frac{\\sum_{i\\in C}m_i\\mathbf x_i}\n{\\sum_{i\\in C}m_i}\n}",
+            "\\boxed{\ng_{CD}\n=\n\\mathcal A\n\\left(\n\\{g_{ij}: i\\in C,\\;j\\in D\\}\n\\right)\n}",
+            "\\mathcal A",
+            "R_C=(\\mathbf X_C,Z_C,g_{C*},\\ldots)",
+            "\\Phi_t.",
+            "\\mathcal R.",
+            "\\boxed{\n\\mathcal R\\circ\\Phi_t\n\\approx\n\\Phi'_t\\circ\\mathcal R\n}",
+            "\\Phi'_t",
+            "\\lambda\\rightarrow\\lambda'.",
+            "\\{R_i\\}\n\\rightarrow\nR_A,\\;R_B,\\;R_C,\\ldots",
+            "E=\n\\sum_i \\frac12m_i|\\dot{\\mathbf x}_i|^2\n+\n\\sum_i E_{\\text{osc},i}\n+\n\\sum_{i<j}V_{ij}.",
+            "\\boxed{\n\\frac{dE}{dt}\n=\nP_{\\text{in}}\n-\nP_{\\text{diss}}\n}",
+            "P_{\\text{in}}>0.",
+            "\\boxed{\n\\mathcal Q(R)\n=\n-\\alpha\\|\\dot G-\\mathcal F_G(M,G)\\|^2\n-\\beta\\|\\dot M-\\mathcal F_M(G,M)\\|^2\n-\\gamma E_{\\text{escape}}\n+\\delta P_{\\text{return}}\n}",
+            "\\mathcal Q",
+            "\\mathcal Q",
+            "\\omega_i",
+            "V(r,\\Delta\\theta)",
+            "g_{ij}",
+            "R_0\\rightarrow R_1\\rightarrow R_2\\rightarrow R_3.",
+            "T_{\\text{life}}/\\tau_{\\text{internal}}",
+            "\\rho_C",
+            "\\frac{\\text{number of lower degrees of freedom}}\n{\\text{number of effective higher degrees of freedom}}",
+            "\\frac{\\tau_{n+1}}{\\tau_n}",
+            "\\boxed{\n\\epsilon_R\n=\n\\left\\|\n\\mathcal R(\\Phi_t(X))\n-\n\\Phi'_t(\\mathcal R(X))\n\\right\\|\n}",
+            "\\epsilon_R",
+            "R+\\text{resources}\n\\rightarrow\nR+R'.",
+            "n",
+            "R_n=(G_n,M_n).",
+            "\\dot R_n=F(R_n;\\lambda_n).",
+            "R_n\\in\\mathcal A_n",
+            "\\mathcal A_n",
+            "R_{n+1}=\\mathcal R(\\{R_n\\}).",
+            "\\boxed{\n\\mathcal R\\circ F_{\\lambda_n}\n\\approx\nF_{\\lambda_{n+1}}\\circ\\mathcal R.\n}",
+            "R=(G,M)",
+            "G\\leftrightarrow M",
+            "\\Gamma",
+            "V(r,\\Delta\\theta)",
+            "R=(D,\\Psi)",
+            "D",
+            "\\Psi",
+            "\\boxed{\n\\Gamma_k[D,\\Psi]\n=\n\\Gamma_{\\mathrm{geom},k}[D]\n+\n\\langle\\Psi,\\mathcal K_k(D)\\Psi\\rangle\n+\nU_k[\\Psi]\n+\n\\sum_\\alpha g_\\alpha(k)\\mathcal O_\\alpha[D,\\Psi]\n}",
+            "\\Gamma_{\\mathrm{geom},k}[D]",
+            "\\langle\\Psi,\\mathcal K_k(D)\\Psi\\rangle",
+            "U_k[\\Psi]",
+            "g_\\alpha(k)\\mathcal O_\\alpha",
+            "\\boxed{\\frac{\\delta\\Gamma_k}{\\delta\\Psi}=0}",
+            "\\boxed{\\frac{\\delta\\Gamma_k}{\\delta D}=0}",
+            "q",
+            "\\boxed{F_q=-\\frac{\\partial\\Gamma_k}{\\partial q}}",
+            "\\boxed{\\frac{\\partial\\Gamma_k}{\\partial q}=0}",
+            "\\Gamma_k(q)\\approx\\Gamma_k(q_*)+\\frac12(q-q_*)^T H_k(q-q_*)",
+            "\\boxed{H_k=\\frac{\\partial^2\\Gamma_k}{\\partial q^2}}",
+            "\\boxed{H_k u_n=\\lambda_n u_n}",
+            "M_q",
+            "\\boxed{\\omega_n^2=\\operatorname{eig}(M_q^{-1}H_k)}",
+            "\\boxed{\\Gamma_k\\Rightarrow\\{G_k,F_k,\\Omega_k\\}}",
+            "\\boxed{\\Gamma_k=\\Gamma_{0,k}+\\sum_\\alpha g_\\alpha(k)\\mathcal O_\\alpha}",
+            "\\boxed{k\\frac{dg_\\alpha}{dk}=\\beta_\\alpha(\\{g\\})}",
+            "\\Gamma_k^{(2)}",
+            "\\alpha",
+            "\\boxed{\\lambda_{\\min}^{(\\alpha)}(k)\\rightarrow0}",
+            "\\lambda_{\\min}^{(\\alpha)}<0",
+            "\\boxed{\\langle\\Phi_\\alpha\\rangle\\neq0}",
+            "\\boxed{\n\\text{old geometry}\n\\rightarrow\n\\text{soft resonant mode}\n\\rightarrow\n\\text{reorganization}\n\\rightarrow\n\\text{new stable geometry}\n}",
+            "\\boxed{\nk\\partial_k\\Gamma_k\n=\n\\frac12\\operatorname{STr}\n\\left[(\\Gamma_k^{(2)}+R_k)^{-1}k\\partial_kR_k\\right]\n}",
+            "n",
+            "\\Gamma_n\\Rightarrow(G_n,M_n,\\{g_{\\alpha,n}\\}).",
+            "\\lambda_{\\min}^{(\\alpha)}\\rightarrow0\\rightarrow\\Phi_\\alpha\\neq0.",
+            "R_{n+1}",
+            "\\Gamma_n\\rightarrow\\Gamma_{n+1}.",
+            "\\Gamma_{n+1}\\Rightarrow(G_{n+1},M_{n+1},\\{g_{\\alpha,n+1}\\}).",
+            "\\boxed{\n\\Gamma_n\n\\rightarrow\n\\text{stable resonant geometry}\n\\rightarrow\n\\text{composite promotion}\n\\rightarrow\n\\Gamma_{n+1}\n\\rightarrow\\cdots\n}",
+            "W/Z",
+            "\\Gamma_k=\\Gamma_{\\rm base}+g_1(k)\\mathcal O_1+g_2(k)\\mathcal O_2+U_k.",
+            "g_1",
+            "R_1",
+            "R_1",
+            "g_2",
+            "R_2",
+            "k",
+            "B(t)",
+            "\\boxed{\n\\Gamma_k[D,\\Psi;B(t)]\n}",
+            "\\boxed{\n\\Gamma_k\n=\n\\Gamma_{\\mathrm{geom},k}[D;B]\n+\n\\langle\\Psi,\\mathcal K_k(D;B)\\Psi\\rangle\n+\nU_k[\\Psi;B]\n+\n\\sum_\\alpha g_\\alpha(k,B)\\mathcal O_\\alpha[D,\\Psi;B].\n}",
+            "\\boxed{\n\\mathcal S_{k,B}\n=\n\\left\\{\nR=(D,\\Psi):\n\\frac{\\delta\\Gamma_k}{\\delta R}=0,\n\\;\\sigma(\\Gamma_k^{(2)})\\;\\text{is stable}\n\\right\\}.\n}",
+            "B",
+            "\\boxed{\n\\mathcal S_{k,B_1}\\neq\\mathcal S_{k,B_2}\n}",
+            "R_n",
+            "\\boxed{\n\\mathcal L_n=\n\\{L_n,\\tau_n,\\Omega_n,\\{g_{\\alpha,n}\\},B_n\\}.\n}",
+            "\\Phi_{k,B}^t",
+            "\\Gamma_k[\\cdot;B]",
+            "\\mathcal R",
+            "\\boxed{\n\\mathcal R\\!\\left(\\Phi_{k,B}^t(R)\\right)\n\\approx\n\\Phi_{k',B'}^t\\!\\left(\\mathcal R(R)\\right)\n}",
+            "\\Phi_{k',B'}",
+            "\\boxed{\n(\\Gamma_n,B_n)\n\\rightarrow\nR_n\n\\rightarrow\n\\mathcal R\n\\rightarrow\n(\\Gamma_{n+1},B_{n+1})\n\\rightarrow\nR_{n+1}.\n}",
+            "q",
+            "\\boxed{\n\\frac{\\partial\\Gamma}{\\partial q}=0\n}",
+            "\\boxed{\nF_q=-\\frac{\\partial\\Gamma}{\\partial q}\n}",
+            "\\boxed{\n\\omega_n^2\n=\n\\operatorname{eig}\\!\\left(M_q^{-1}\\frac{\\partial^2\\Gamma}{\\partial q^2}\\right)\n}",
+            "\\boxed{\n\\Gamma_k\n\\Rightarrow\n\\{G_k,F_k,M_k\\}\n}",
+            "\\Gamma_k",
+            "B",
+            "g_1\\mathcal O_1",
+            "g_2\\mathcal O_2",
+            "B=B_0",
+            "B",
+            "k"
+          ]
+        },
+        {
+          "id": "DOC-OPEN-PROBLEMS",
+          "route": "/open-problems/",
+          "bodySha256": "980777bc8ee46737662b8c510e500a7b9311575452669139d8d48fd993dbbac8",
+          "exportSha256": "8a2b4f938905975bb7dae7526c8053888e2a306886df61add686a94abc4f36ed",
+          "linkCount": 8,
+          "headings": [
+            {
+              "id": "open-claim-registry",
+              "text": "Open-claim registry"
+            },
+            {
+              "id": "read-individual-questions",
+              "text": "Read individual questions"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-WORLD",
+          "route": "/documents/world-explanation/",
+          "bodySha256": "6701cddaa6ee3aa84faea691079d431ab38c2a5cb5f4975170b6021f9315fa58",
+          "exportSha256": "a5d6c415378e70a4ac6b70b491caaf432aafedf0a91f87ab545edc5dbdeda47f",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "1-start-from-one-simple-idea",
+              "text": "1. Start from one simple idea"
+            },
+            {
+              "id": "2-a-resonator-explains-the-idea",
+              "text": "2. A resonator explains the idea"
+            },
+            {
+              "id": "3-stability-does-not-mean-stillness",
+              "text": "3. Stability does not mean stillness"
+            },
+            {
+              "id": "4-the-key-recursion-complexity-becomes-a-new-simple-unit",
+              "text": "4. The key recursion: complexity becomes a new simple unit"
+            },
+            {
+              "id": "5-the-same-lower-pieces-can-create-different-higher-objects",
+              "text": "5. The same lower pieces can create different higher objects"
+            },
+            {
+              "id": "6-a-molecule-is-more-than-a-bag-of-atoms",
+              "text": "6. A molecule is more than a bag of atoms"
+            },
+            {
+              "id": "7-new-levels-open-new-possibilities",
+              "text": "7. New levels open new possibilities"
+            },
+            {
+              "id": "8-persistence-acts-like-physical-memory",
+              "text": "8. Persistence acts like physical memory"
+            },
+            {
+              "id": "9-recurrence-and-replication-are-possible-propagation-mechanisms",
+              "text": "9. Recurrence and replication are possible propagation mechanisms"
+            },
+            {
+              "id": "10-life-is-a-maintained-dynamic-geometry",
+              "text": "10. Life is a maintained dynamic geometry"
+            },
+            {
+              "id": "11-the-brain-makes-the-geometry-idea-easier-to-see",
+              "text": "11. The brain makes the geometry idea easier to see"
+            },
+            {
+              "id": "12-mind-interacting-with-world-geometry-modelling-geometry",
+              "text": "12. Mind interacting with world: geometry modelling geometry"
+            },
+            {
+              "id": "13-ai-may-be-using-an-indirect-route",
+              "text": "13. AI may be using an indirect route"
+            },
+            {
+              "id": "14-the-entire-rrg-cycle-in-one-picture",
+              "text": "14. The entire RRG cycle in one picture"
+            },
+            {
+              "id": "15-what-this-explanation-is-not-saying",
+              "text": "15. What this explanation is not saying"
+            },
+            {
+              "id": "v01a-addendum--the-observable-ladder-of-increasing-organization",
+              "text": "v0.1a Addendum — The Observable Ladder of Increasing Organization"
+            },
+            {
+              "id": "a-corrected-cosmic-to-life-sequence",
+              "text": "A corrected cosmic-to-life sequence"
+            },
+            {
+              "id": "the-rrg-interpretation-of-the-ladder",
+              "text": "The RRG interpretation of the ladder"
+            },
+            {
+              "id": "v01b-addendum--the-universe-changes-which-possibilities-are-reachable",
+              "text": "v0.1b Addendum — The Universe Changes Which Possibilities Are Reachable"
+            }
+          ],
+          "tex": [
+            "\\boxed{\\text{shape / relations} \\leftrightarrow \\text{temporal mode}}",
+            "\\boxed{\\text{resonant dynamic geometry}}",
+            "\\text{geometry} \\rightarrow \\text{mode}",
+            "\\text{mode} \\rightarrow \\text{dynamic shape}",
+            "\\boxed{\nG\\rightarrow M\\rightarrow G\n}",
+            "\\boxed{\n\\text{stable}=\n\\text{dynamic organization that persists}\n}",
+            "\\text{stable}=\\text{nothing changes}",
+            "\\boxed{\n\\text{many lower-level resonators}\n\\rightarrow\n\\text{one higher-level resonator}\n}",
+            "\\boxed{\n\\text{simple units}\n\\rightarrow\n\\text{complex interaction}\n\\rightarrow\n\\text{stable whole}\n\\rightarrow\n\\text{new simple unit}\n}",
+            "\\boxed{\n\\text{identity at a higher scale}\n=\n\\text{components}\n+\n\\text{relational geometry}\n+\n\\text{mode structure}\n}",
+            "\\boxed{\n\\text{parts create whole}\n\\leftrightarrow\n\\text{whole constrains parts}\n}",
+            "\\boxed{\n\\text{persistent structure}\n\\rightarrow\n\\text{new environment}\n\\rightarrow\n\\text{new possible stable structures}\n}",
+            "\\boxed{\n\\text{stability compresses complexity}\n}",
+            "\\boxed{\nD+\\text{material}+\\text{energy}\n\\rightarrow\nD+D'\n}",
+            "D'",
+            "D",
+            "\\boxed{\n\\text{organism geometry}\n\\leftrightarrow\n\\text{coordinated temporal organization}\n}",
+            "\\boxed{\n\\text{neural geometry}\n\\leftrightarrow\n\\text{neural dynamics}\n}",
+            "\\boxed{\n\\text{world geometry}\n\\rightarrow\n\\text{sensory coupling}\n\\rightarrow\n\\text{internal geometry}\n\\rightarrow\n\\text{action}\n\\rightarrow\n\\text{world geometry}\n}",
+            "\\boxed{\n\\begin{aligned}\n&\\text{lower resonant geometries}\\\\\n&\\downarrow\\\\\n&\\text{variation + interaction}\\\\\n&\\downarrow\\\\\n&\\text{some combinations become self-consistent}\\\\\n&\\downarrow\\\\\n&\\text{persistent collective geometry}\\\\\n&\\leftrightarrow\\\\\n&\\text{collective temporal mode}\\\\\n&\\downarrow\\\\\n&\\text{new effective unit}\\\\\n&\\downarrow\\\\\n&\\text{new combinations / new environment}\\\\\n&\\downarrow\\\\\n&\\text{next scale}\n\\end{aligned}\n}",
+            "\\boxed{\n\\text{resonance}\n\\leftrightarrow\n\\text{geometry}\n\\rightarrow\n\\text{stable resonator}\n\\rightarrow\n\\text{collective resonator}\n\\rightarrow\n\\text{new resonant geometry}\n\\rightarrow\\cdots\n}",
+            "\\boxed{\n\\text{hot quantum fields / particle plasma}\n\\rightarrow\n\\text{hadrons}\n\\rightarrow\n\\text{light nuclei}\n\\rightarrow\n\\text{early molecules and neutral atoms}\n\\rightarrow\n\\text{stars}\n\\rightarrow\n\\text{heavy elements}\n\\rightarrow\n\\text{planets + rich chemistry}\n\\rightarrow\n\\text{prebiotic networks}\n\\rightarrow\n\\text{cells}\n\\rightarrow\n\\text{multicellular organisms}\n\\rightarrow\n\\text{nervous systems}\n\\rightarrow\n\\text{humans}\n\\rightarrow\n\\text{technology / AI}\n}",
+            "HeH^+",
+            "\\text{H/He gas}\n\\rightarrow\n\\text{gravitational star}\n\\rightarrow\n\\text{high pressure/temperature}\n\\rightarrow\n\\text{new nuclei}",
+            "\\text{complex chemistry}\n\\rightarrow\n\\text{self-maintaining / self-templating networks}\n\\rightarrow\n\\text{cells}",
+            "\\boxed{\n\\text{existing stable units}\n\\rightarrow\n\\text{new organization}\n\\rightarrow\n\\text{new stable unit}\n\\rightarrow\n\\text{new possibility space}\n}",
+            "\\boxed{\n\\text{global/background geometry}\n\\rightarrow\n\\text{accessible local modes/geometries}\n}",
+            "\\boxed{\n\\text{local resonant geometries}\n\\rightarrow\n\\text{new collective geometry}\n\\rightarrow\n\\text{new local environment}\n}",
+            "\\boxed{\n\\text{background}\n\\rightarrow\n\\text{possible stable geometries}\n\\rightarrow\n\\text{persistent structure}\n\\rightarrow\n\\text{changed local background}\n\\rightarrow\n\\text{new possibilities}\n}"
+          ]
+        },
+        {
+          "id": "UT-D01",
+          "route": "/claims/UT-D01/",
+          "bodySha256": "d6d6f138ea35b904b44852fb91071b29a8f6aea08187206f86542e6acf31a5e5",
+          "exportSha256": "1a787cccdc666e749a11495b756f289fda079378dc598df644977156d81ba78a",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "1-geometry-g",
+              "text": "1. Geometry GGG"
+            }
+          ],
+          "tex": [
+            "G",
+            "G=\\{\\text{components, arrangement, relations, connectivity, order, orientation, boundaries, constraints}\\}."
+          ]
+        },
+        {
+          "id": "UT-D02",
+          "route": "/claims/UT-D02/",
+          "bodySha256": "9ef78fd2b9e46b080fdd876c629b3b8139d12594b806fc8ab19dd5864b2f61f2",
+          "exportSha256": "aa17fa761df119f340cdf9c4616aafb8beb2801ee480fe843fbb64a9740771ba",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "2-frequency--mode-structure-m",
+              "text": "2. Frequency / mode structure MMM"
+            }
+          ],
+          "tex": [
+            "M",
+            "M=\\{\\omega,\\phi,A,\\psi,\\text{propagation, coupling, characteristic timescales, response}\\}."
+          ]
+        },
+        {
+          "id": "UT-D03",
+          "route": "/claims/UT-D03/",
+          "bodySha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+          "exportSha256": "12d52e611aecbc78e91863a89c9b3f66ebf08b0015398f7decbc3f7a8ddea43c",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "3-resonant-geometry-r",
+              "text": "3. Resonant geometry RRR"
+            }
+          ],
+          "tex": [
+            "R",
+            "\\boxed{R=(G,M)}.",
+            "\\boxed{G\\leftrightarrow M}."
+          ]
+        },
+        {
+          "id": "UT-D04",
+          "route": "/claims/UT-D04/",
+          "bodySha256": "21cbffad0829b7948012cb08285a011955ed0a1e525e8e4ee1a298151c221017",
+          "exportSha256": "54c22fbf52f4c01ac8d3bef9185ce8be95360aed89e7da34e2436c802f171323",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "4-stability",
+              "text": "4. Stability"
+            }
+          ],
+          "tex": [
+            "\\boxed{G\\leftrightarrow M}."
+          ]
+        },
+        {
+          "id": "UT-D05",
+          "route": "/claims/UT-D05/",
+          "bodySha256": "04ca8a61e328226812a0005821bfce03799e14179256786a58688a92e3cb2cdc",
+          "exportSha256": "794c6118225defa55fff9b4ed5a8fd3c09e607541e70a20236c811105792ea4e",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "7-scale",
+              "text": "7. Scale"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "UT-D06",
+          "route": "/claims/UT-D06/",
+          "bodySha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+          "exportSha256": "f2fdd2f581d520bf10f98851e1fadbee40b1dd2f5a66de3b7fd8ccaa0adfa005",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "5-higher-level-formation",
+              "text": "5. Higher-level formation"
+            }
+          ],
+          "tex": [
+            "\\boxed{\\{R_n^1,R_n^2,\\ldots,R_n^m\\}\\rightarrow R_{n+1}}."
+          ]
+        },
+        {
+          "id": "UT-D07",
+          "route": "/claims/UT-D07/",
+          "bodySha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+          "exportSha256": "ed4f61b78fa5e358c38ab95c1bdafdd6792b9b9b331caecbeaea1ccadfb640f7",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "6-variation",
+              "text": "6. Variation"
+            }
+          ],
+          "tex": [
+            "\\boxed{\\text{same or related lower units}+\\text{different organization}\\rightarrow\\text{different }R_{n+1}}."
+          ]
+        },
+        {
+          "id": "UT-D08",
+          "route": "/claims/UT-D08/",
+          "bodySha256": "5a7ad5b619436603525e7f1e74fc2343bc03f90fad34189f26eae92447acb2df",
+          "exportSha256": "08e8de459ed793c9f9b7a1a3530e14fde6e545f4b20ac622fdad5ba982a3b0d9",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "8-recursion",
+              "text": "8. Recursion"
+            }
+          ],
+          "tex": [
+            "\\boxed{\\{R_n^i\\}\\rightarrow R_{n+1}\\rightarrow R_{n+2}\\rightarrow\\cdots}.",
+            "\\boxed{R_n=(G_n,M_n),\\qquad G_n\\leftrightarrow M_n}."
+          ]
+        },
+        {
+          "id": "UT-D09",
+          "route": "/claims/UT-D09/",
+          "bodySha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+          "exportSha256": "ec58fc16fb7660553cc941622e37092722a81df8312468992c2bffdc00c2acc5",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "9-replication--recurrence",
+              "text": "9. Replication / recurrence"
+            }
+          ],
+          "tex": [
+            "A\\rightarrow A+A\\rightarrow B"
+          ]
+        },
+        {
+          "id": "UT-C01",
+          "route": "/claims/UT-C01/",
+          "bodySha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+          "exportSha256": "cacfda7312937b688ff173406f117a239c9563183a76c4bdb5c432f066110a78",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "10-interaction--force-status",
+              "text": "10. Interaction / force status"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "UT-C02",
+          "route": "/claims/UT-C02/",
+          "bodySha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+          "exportSha256": "31d891c93a5b50f7edfc49011eba001a363bef34b0b8f562207e388181136cad",
+          "linkCount": 0,
+          "headings": [
+            {
+              "id": "11-background--possibility-space-status",
+              "text": "11. Background / possibility-space status"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-ARTICLE-STRUCTURES",
+          "route": "/articles/how-existing-structures-make-new-organization-possible/",
+          "bodySha256": "8ce5e9fad25cc8bef0f9af3817a23452534619af909a31d954231931e173f0a8",
+          "exportSha256": "6af30d346429c9e29fc7a9837417ef042ba6b60a79fa46036045ad236a88cce3",
+          "linkCount": 12,
+          "headings": [
+            {
+              "id": "explanation-conditions-belong-in-the-story",
+              "text": "Explanation: conditions belong in the story"
+            },
+            {
+              "id": "proposal-recursive-formation-and-changed-surroundings",
+              "text": "Proposal: recursive formation and changed surroundings"
+            },
+            {
+              "id": "actual-results-what-is-available-here",
+              "text": "Actual results: what is available here"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-ARTICLE-UNIT",
+          "route": "/articles/when-can-a-whole-be-treated-as-one-useful-unit/",
+          "bodySha256": "faf6ce21bab2d93c7a84e74c213094f6d50ecedb02b125d1a70f500b080d29a1",
+          "exportSha256": "0a0fecdca080749d0d578a905a1de35931f4df941981e170dddd56f86c07d49f",
+          "linkCount": 12,
+          "headings": [
+            {
+              "id": "explanation-a-useful-description-depends-on-the-question",
+              "text": "Explanation: a useful description depends on the question"
+            },
+            {
+              "id": "proposal-collective-organization-becomes-reusable",
+              "text": "Proposal: collective organization becomes reusable"
+            },
+            {
+              "id": "actual-results-a-description-is-not-an-execution-receipt",
+              "text": "Actual results: a description is not an execution receipt"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-CONCEPT-INTERACTIONS",
+          "route": "/concepts/effective-interactions/",
+          "bodySha256": "ffcc58c676549a37d089b8fd3d45da45241f7c4bdc7ab54e92d04478aae154a3",
+          "exportSha256": "0b9421024eb9a16d269e82fe5f750a86960e15fe116903a89affec667041d175",
+          "linkCount": 5,
+          "headings": [
+            {
+              "id": "in-ordinary-words",
+              "text": "In ordinary words"
+            },
+            {
+              "id": "two-distinct-source-reported-cases",
+              "text": "Two distinct source-reported cases"
+            },
+            {
+              "id": "the-proposed-relation",
+              "text": "The proposed relation"
+            },
+            {
+              "id": "what-remains-open",
+              "text": "What remains open"
+            }
+          ],
+          "tex": [
+            "R_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}."
+          ]
+        },
+        {
+          "id": "DOC-CONCEPT-RECURSION",
+          "route": "/concepts/recursion/",
+          "bodySha256": "1fc42ccb8d1272855f18ec6b9d0fbd518c00ce078bbbf57b04f233fb6ba12b07",
+          "exportSha256": "a390b77f322e1d5981399a33850c400d95ab99dcbf21cf3fc23f4be2b31efb6a",
+          "linkCount": 8,
+          "headings": [
+            {
+              "id": "in-ordinary-words",
+              "text": "In ordinary words"
+            },
+            {
+              "id": "a-concrete-example",
+              "text": "A concrete example"
+            },
+            {
+              "id": "the-source-definitions",
+              "text": "The source definitions"
+            },
+            {
+              "id": "copying-is-one-possible-mechanism",
+              "text": "Copying is one possible mechanism"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-CONCEPT-STABILITY",
+          "route": "/concepts/stability/",
+          "bodySha256": "233aa4b09d862ad48bef24380acf9d92af7fabd0e77ffd43a08f8c4cab14b0eb",
+          "exportSha256": "db5767623759e1736951a490ebad092c446d2ac6ca72fbfd0380d02f2814e47c",
+          "linkCount": 4,
+          "headings": [
+            {
+              "id": "in-ordinary-words",
+              "text": "In ordinary words"
+            },
+            {
+              "id": "compare-the-questions",
+              "text": "Compare the questions"
+            },
+            {
+              "id": "the-source-definition",
+              "text": "The source definition"
+            },
+            {
+              "id": "4-stability",
+              "text": "4. Stability"
+            },
+            {
+              "id": "continue-the-question",
+              "text": "Continue the question"
+            }
+          ],
+          "tex": [
+            "\\boxed{G\\leftrightarrow M}.",
+            "G",
+            "M"
+          ]
+        },
+        {
+          "id": "DOC-CONCEPTS",
+          "route": "/concepts/",
+          "bodySha256": "2ee1fabf01d75cad646a00038c57fcc1acdf5297bb48eeb3280756c39353f657",
+          "exportSha256": "7e28b0bffc3e261f7f89e76d0bf794c4e648024585c68c74d13bf6d25f38f632",
+          "linkCount": 7,
+          "headings": [
+            {
+              "id": "begin-with-arrangement-and-activity",
+              "text": "Begin with arrangement and activity"
+            },
+            {
+              "id": "ask-what-it-means-to-persist",
+              "text": "Ask what it means to persist"
+            },
+            {
+              "id": "follow-a-whole-into-further-organization",
+              "text": "Follow a whole into further organization"
+            },
+            {
+              "id": "connect-organization-to-interactions",
+              "text": "Connect organization to interactions"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-CELL",
+          "route": "/examples/cell/",
+          "bodySha256": "7b95ae3e7a0a237a5a10c1ed72c56e5e295c40c3771f11e39518c026698ab400",
+          "exportSha256": "bc001951191700a39ecbcfa29e7e0c86806f3242947e25554fa4feb567590391",
+          "linkCount": 4,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "maintenance-copying-and-reproduction",
+              "text": "Maintenance, copying and reproduction"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-LIFE",
+          "route": "/examples/life-environment/",
+          "bodySha256": "5d302ab140216cd9113711fef7910e7a6f5a69198b65f707eefbbc4812e515d2",
+          "exportSha256": "3bee5691ce9a7541f6124e67eb6e77deec558b8167c01ff21da64d23ae9b439d",
+          "linkCount": 6,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "conditions-rather-than-a-guaranteed-ladder",
+              "text": "Conditions, rather than a guaranteed ladder"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-MOLECULE",
+          "route": "/examples/molecule/",
+          "bodySha256": "c9cd2dacddbbc11106a8d6c0167d0d4064bf3aa0c5142696cfc8659d55403fdb",
+          "exportSha256": "826773b658837e91182e5fb1400aa0fd3d6140076e78b0738bf2546f50cc4671",
+          "linkCount": 4,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "from-whole-to-useful-unit",
+              "text": "From whole to useful unit"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-STAR",
+          "route": "/examples/star/",
+          "bodySha256": "e1335e4b94dd01ab6b937af8cb23613473bc0bcda1f918e4cf8ff470ec01e714",
+          "exportSha256": "77c14df6cbf026a04e0fa6c90892a0be401515472201118140b4bf023398692d",
+          "linkCount": 4,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "where-the-interpretation-stops",
+              "text": "Where the interpretation stops"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-STRING",
+          "route": "/examples/string/",
+          "bodySha256": "f69331d110b75eaa5d1a4d17d124b66b7af55dce792af0f2cebd8d0e678dddcd",
+          "exportSha256": "a0a360a520780c613b4cea805da4dcc1834ce8b65e76b4e33c355fb059a5753a",
+          "linkCount": 5,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "connect-to-the-definition",
+              "text": "Connect to the definition"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLE-WATER",
+          "route": "/examples/water/",
+          "bodySha256": "8c600e57915ee470dc99eee775d0a683404456e5e18e8ad4bfe7d4beb5ea845e",
+          "exportSha256": "ab344e26326d969b5f8e8e8e02a1b2e89fa986d214b9f48750cc7a1d499b1fed",
+          "linkCount": 5,
+          "headings": [
+            {
+              "id": "what-to-notice",
+              "text": "What to notice"
+            },
+            {
+              "id": "what-this-illustrates",
+              "text": "What this illustrates"
+            },
+            {
+              "id": "ask-the-next-question",
+              "text": "Ask the next question"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-EXAMPLES",
+          "route": "/examples/",
+          "bodySha256": "82713ccf63d605cd35e2f3fe0093669ff028e4c16c83d4691c5fb213234c0243",
+          "exportSha256": "ea723553197329eb79ab0c7a6abf9298b99d517740e0e8e1db325d540ec2b103",
+          "linkCount": 8,
+          "headings": [
+            {
+              "id": "patterns-and-constraints",
+              "text": "Patterns and constraints"
+            },
+            {
+              "id": "organization-changes-the-possibilities",
+              "text": "Organization changes the possibilities"
+            },
+            {
+              "id": "connect-the-examples",
+              "text": "Connect the examples"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-HOME",
+          "route": "/",
+          "bodySha256": "0d9f79e1b5085edd438eb797d381894f1e04e0609ad38a48d793803e01cbbf20",
+          "exportSha256": "ebafa3918f7ac8bdb8cebcd55dc102d9523a8096f56a9f5db47dc7e2cdc98a7e",
+          "linkCount": 4,
+          "headings": [
+            {
+              "id": "begin-with-a-wave",
+              "text": "Begin with a wave"
+            },
+            {
+              "id": "arrangement-and-activity-belong-together",
+              "text": "Arrangement and activity belong together"
+            },
+            {
+              "id": "a-whole-can-become-a-part",
+              "text": "A whole can become a part"
+            }
+          ],
+          "tex": []
+        },
+        {
+          "id": "DOC-START",
+          "route": "/start/",
+          "bodySha256": "5ecc213fe3f32e5d8ff146493c6db290cdd26b33b450d74526ee0f1f96dbb417",
+          "exportSha256": "b50bda0794db9284871c31b32c6b5e64e5698c8ecca4cf297a78c434242e27e6",
+          "linkCount": 12,
+          "headings": [
+            {
+              "id": "a-pattern-and-its-parts",
+              "text": "A pattern and its parts"
+            },
+            {
+              "id": "arrangement-changes-what-can-happen",
+              "text": "Arrangement changes what can happen"
+            },
+            {
+              "id": "activity-changes-the-organization",
+              "text": "Activity changes the organization"
+            },
+            {
+              "id": "a-whole-can-become-a-part",
+              "text": "A whole can become a part"
+            },
+            {
+              "id": "existing-structures-change-the-conditions",
+              "text": "Existing structures change the conditions"
+            },
+            {
+              "id": "which-interactions-become-possible",
+              "text": "Which interactions become possible?"
+            },
+            {
+              "id": "what-remains-to-be-tested",
+              "text": "What remains to be tested"
+            }
+          ],
+          "tex": []
+        }
+      ]
+    }
+  ],
+  "semanticFindings": "docs/evidence/m6/reconciled/material-comparison.md"
+}

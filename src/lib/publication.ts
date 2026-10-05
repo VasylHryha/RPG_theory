@@ -1,6 +1,7 @@
 import { ContractError } from './errors.js';
 import type { BuildMode, SiteConfig } from './site-config.js';
 import { searchable } from './search.js';
+import { currentPackageMember } from './source-paths.js';
 import { publicationPolicy, assertDeploymentAllowed } from './publication-policy.js';
 
 export function assertBuildAllowed(mode: BuildMode, config: SiteConfig, source: { currentSourceQualified: boolean; corpusScope: string }) {
@@ -13,13 +14,13 @@ export function assertBuildAllowed(mode: BuildMode, config: SiteConfig, source: 
 
 import { readFileSync } from 'node:fs';
 import { websiteReviewState as reviewState, qualifyWebsiteCorpus } from './website-review.js';
-import { loadCanonicalCorpus, reviewFingerprint, dependencyClosure, validDate, type Corpus } from './content.js';
+import { bibliographyClosure, loadCanonicalCorpus, reviewFingerprint, dependencyClosure, validDate, type Corpus } from './content.js';
 import { sha256, stableJSON } from './identity.js';
 import type { Entry } from './content-schema.js';
 import { z } from 'astro/zod';
 import { artifactPaths, publicationCredit, citationGates } from './publication-assets.js';
 export interface ReleaseSelection { releaseId: string; releaseAt: string; historicalIds: string[]; rights?: { id: string; outcome: 'approved'; entryIds: string[]; evidenceRef: string }[] }
-export function isHistorical(entry: Pick<Entry,'publicationState'>) { return ['superseded','withdrawn'].includes(entry.publicationState); }
+export function isHistorical(entry: Pick<Entry,'publicationState'>) { return ['superseded','withdrawn','archived'].includes(entry.publicationState); }
 const releaseSchema=z.object({releaseId:z.string().min(1),releaseAt:z.string(),historicalIds:z.array(z.string()),rights:z.array(z.object({id:z.string().min(1),outcome:z.literal('approved'),entryIds:z.array(z.string()).min(1),evidenceRef:z.string().min(1)}).strict()).optional()}).strict();
 export function withdrawnTombstone(entry: Entry): Entry {
   return { id:entry.id,route:entry.route,title:`${entry.id} — withdrawn record`,description:'This record has been withdrawn. The correction history is retained.',revision:entry.revision,kind:entry.kind,lang:entry.lang,audience:entry.audience,researchEdition:entry.researchEdition,publicationState:'withdrawn',publishedAt:entry.publishedAt,updatedAt:entry.updatedAt,sourceRefs:[],dependsOn:[],related:[],bibRefs:[],contentOrigin:'authored',sourceBinding:null,statement:null,plainLanguage:'',scope:'',evidenceState:'not-applicable',body:'',sourceMapping:'',adapter:'markdown/1',assumptions:[],testRefs:[],evidenceRefs:[],limits:'',rightsRef:entry.rightsRef,correctionRef:entry.correctionRef,withdrawalReason:entry.withdrawalReason };
@@ -30,9 +31,9 @@ export function selectPublication(corpus: Corpus, config: SiteConfig, release: R
   if (!release.releaseId || new Set(release.historicalIds).size !== release.historicalIds.length) throw new ContractError('INVALID_RELEASE', 'Explicit release identity/history selection required');
   for (const id of release.historicalIds) {
     if (!corpus.entries.has(id)) throw new ContractError('UNKNOWN_DEPENDENCY',id);
-    if(!['superseded','withdrawn'].includes(corpus.entries.get(id)!.publicationState)) throw new ContractError('INVALID_RELEASE',`${id} is not historical`);
+    if(!['superseded','withdrawn','archived'].includes(corpus.entries.get(id)!.publicationState)) throw new ContractError('INVALID_RELEASE',`${id} is not historical`);
   }
-  const intended = [...corpus.entries.values()].filter(e => mode === 'preview' || e.publicationState === 'published' || (['superseded','withdrawn'].includes(e.publicationState) && release.historicalIds.includes(e.id)));
+  const intended = [...corpus.entries.values()].filter(e => mode === 'preview' || e.publicationState === 'published' || (['superseded','withdrawn','archived'].includes(e.publicationState) && release.historicalIds.includes(e.id)));
   const admission={...corpus.admission,currentSourceQualified:qualifyWebsiteCorpus(corpus,mode==='preview'?undefined:intended.map(e=>e.id))};
   if (mode !== 'preview') {
     if (!admission.bytesVerified || admission.corpusScope !== 'current' || !intended.length) throw new ContractError('CURRENT_SOURCE_NOT_QUALIFIED','Actual current byte integrity and website source-fidelity review required');
@@ -61,10 +62,10 @@ export function selectPublication(corpus: Corpus, config: SiteConfig, release: R
   const entries = intended.map(e => e.publicationState === 'withdrawn' ? withdrawnTombstone(e) : e);
   const discovery = entries.filter(e=>e.publicationState === 'published' || mode === 'preview' && e.publicationState === 'draft');
   const directReferences=entries.filter(e=>e.publicationState!=='withdrawn').flatMap(e=>e.bibRefs);
-  const referenceIds = [...new Set(directReferences.concat(directReferences.flatMap(id=>corpus.references.get(id)?.primaryId ?? [])))].sort();
-  const exportIds=entries.filter(e=>e.publicationState!=='withdrawn' && (mode==='preview' || e.publicationState==='published' || release.historicalIds.includes(e.id))).map(e=>e.id);
-  const sourceDownloadKeys=[...new Set(entries.filter(e=>exportIds.includes(e.id)).flatMap(e=>e.sourceRefs))].filter(key=>corpus.sources.get(key)?.declaredCurrent).sort();
-  const downloads=artifactPaths(exportIds,sourceDownloadKeys,release.releaseId,mode==='preview');
+  const referenceIds = bibliographyClosure(corpus,directReferences);
+  const exportIds=entries.filter(e=>!['withdrawn','archived'].includes(e.publicationState) && (mode==='preview' || e.publicationState==='published' || release.historicalIds.includes(e.id))).map(e=>e.id);
+  const sourceDownloadKeys=[...new Set(entries.filter(e=>exportIds.includes(e.id)).flatMap(e=>e.sourceRefs))].filter(key=>currentPackageMember(corpus.sources.get(key)!)).sort();
+  const downloads=artifactPaths(exportIds,sourceDownloadKeys,release.releaseId,mode==='preview',corpus.sources);
   if(!citationGates(credit).length)downloads.push('/downloads/CITATION.cff');
   const manifest = { schema:'unity-publication/1', mode, deployEligible:false, releaseId:release.releaseId, releaseAt:release.releaseAt, inventorySeal:corpus.admission.inventorySeal,
     entries:entries.map(e=>({ id:e.id,route:e.route,publicationState:e.publicationState,digest:sha256(stableJSON(e)),reviewState:reviewState(corpus,e.id),fingerprint:reviewFingerprint(corpus,e.id) })),

@@ -36,7 +36,8 @@ export function validateContributionWorkflow(root=process.cwd()) {
   if(stableJSON(workflows)!==stableJSON(['site.yml']))throw new ContractError('COMPETING_PUBLICATION_WORKFLOW',workflows.join(', '));
   const path=resolve(root,'.github/workflows/site.yml'),raw=readFileSync(path,'utf8'),w=parse(raw);
   const fail=(message:string)=>{throw new ContractError('UNSAFE_PUBLICATION_WORKFLOW',message);};
-  if(Object.keys(w.on).some(k=>!['pull_request','workflow_dispatch'].includes(k)) || !('pull_request' in w.on) || !('workflow_dispatch' in w.on))fail('Only PR verification and manual dispatch allowed');
+  if(Object.keys(w.on).some(k=>!['pull_request','push','workflow_dispatch'].includes(k)) || !('pull_request' in w.on) || !('workflow_dispatch' in w.on))fail('Only PR/main verification and manual dispatch allowed');
+  if(w.on.push && stableJSON(w.on.push)!==stableJSON({branches:['main']}))fail('Push verification must be limited to main');
   if(stableJSON(w.permissions)!==stableJSON({contents:'read'}) || /secrets\.|pull_request_target|workflow_run/.test(raw))fail('Read-only default; no secrets or privileged PR trigger');
   if(stableJSON(Object.keys(w.jobs).sort())!==stableJSON(['deploy','prepare','verify']))fail('Single verify → prepare → deploy chain required');
   const {verify,prepare,deploy}=w.jobs;

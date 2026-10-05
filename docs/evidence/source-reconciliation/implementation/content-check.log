@@ -1,0 +1,24 @@
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts --evidence-dir docs/evidence/source-reconciliation/implementation
+
+node:net:1987
+      const error = new UVExceptionWithHostPort(rval, 'listen', address, port);
+                    ^
+
+Error: listen EPERM: operation not permitted /var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/tsx-501/87460.pipe
+    at Server.setupListenHandle [as _listen2] (node:net:1987:21)
+    at listenInCluster (node:net:2066:12)
+    at Server.listen (node:net:2188:5)
+    at file:///Users/new/RiderProjects/RPG_theory/node_modules/tsx/dist/cli.mjs:53:32174
+    at new Promise (<anonymous>)
+    at createIpcServer (file:///Users/new/RiderProjects/RPG_theory/node_modules/tsx/dist/cli.mjs:53:32152)
+    at async file:///Users/new/RiderProjects/RPG_theory/node_modules/tsx/dist/cli.mjs:55:542 {
+  code: 'EPERM',
+  errno: -1,
+  syscall: 'listen',
+  address: '/var/folders/4y/hgpkn41s2790bvj08tkc9b000000gn/T/tsx-501/87460.pipe',
+  port: -1
+}
+
+Node.js v24.18.0

@@ -30,13 +30,13 @@ test('each additional-evidence mapping declares every core clause named by its a
 
 test('the actual start explanation tracks emergent evidence, its support metadata and current status', () => {
   const corpus = loadCanonicalCorpus();
-  for (const dependency of ['UT-E10','UT-E11','UT-E12','DOC-STATUS']) assert.ok(dependencyClosure(corpus,'DOC-START').includes(dependency));
-  assert.ok(affectedEntries(corpus,'R-CURRENT-INTERACTIONS').includes('DOC-START'));
-  assert.ok(affectedEntries(corpus,'BIB-0016').includes('DOC-START'));
+  for (const dependency of ['UT-E118','UT-E119','DOC-STATUS']) assert.ok(dependencyClosure(corpus,'DOC-START').includes(dependency));
+  assert.ok(affectedEntries(corpus,'R-CURRENT-CATALOGUE').includes('DOC-START'));
+  const bibliography=corpus.aliases.get('R-CURRENT-CATALOGUE:https://doi.org/10.1038/ncomms8460')!;assert.ok(affectedEntries(corpus,bibliography).includes('DOC-START'));
   installSyntheticReview(corpus,'DOC-START');
   assert.equal(websiteReviewState(corpus,'DOC-START'),'accepted');
   const before = reviewFingerprint(corpus,'DOC-START');
-  corpus.references.get('BIB-0016')!.supportScope += ' Isolated changed citation support.';
+  corpus.references.get(bibliography)!.supportScope += ' Isolated changed citation support.';
   assert.notEqual(reviewFingerprint(corpus,'DOC-START'),before);
   assert.equal(websiteReviewState(corpus,'DOC-START'),'stale');
 });

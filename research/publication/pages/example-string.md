@@ -4,18 +4,18 @@
   "route": "/examples/string/",
   "title": "String: boundaries shape motion",
   "description": "An illustration of constrained motion, with material properties kept in view.",
-  "revision": 1,
+  "revision": 2,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
-    "R-CURRENT-WORLD",
-    "R-CURRENT-SCIENCE"
+    "R-CURRENT-SCIENCE",
+    "R-CURRENT-WORLD"
   ],
   "dependsOn": [
     "UT-D01",
@@ -32,7 +32,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "World explanation \u00a72; core \u00a7\u00a71\u20133. OpenStax supplements the ideal fixed-end string model and its physical parameters.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World explanation §2; core §§1–3. OpenStax supplements the ideal fixed-end string model and its physical parameters.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null

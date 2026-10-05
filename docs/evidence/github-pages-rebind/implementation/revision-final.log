@@ -1,0 +1,49 @@
+✔ real revision CLI validates preserved editions and reports pending dependants; it cannot write approvals (14173.617334ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 07_audit_report.md (8827.961792ms)
+✔ real revision CLI accounts for both rename paths without inventing a core-byte change: 00_LOCKED_CORE.md (8896.752625ms)
+✖ real revision CLI accounts for both rename paths without inventing a core-byte change: foundations/ERRATA.md (3720.987708ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 3
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21590.524833
+
+✖ failing tests:
+
+test at tests/content/revision-inventory-cli.test.ts:1:549
+✖ real revision CLI accounts for both rename paths without inventing a core-byte change: foundations/ERRATA.md (3720.987708ms)
+  AssertionError [ERR_ASSERTION]: /Users/new/RiderProjects/RPG_theory/src/lib/source-revision.ts:18
+    if (new Set(change.affectedFiles).size!==change.affectedFiles.length || paths.join('\n')!==[...change.affectedFiles].sort().join('\n') || !paths.length || changed.some(s=>!change.priorSnapshot.some(p=>p.path===s.path && p.sha256===s.sha256))) throw new ContractError('SOURCE_REVISION_FAILURE','Exact changed/added/removed membership and prior snapshots required');
+                                                                                                                                                                                                                                                             ^
+  
+  ContractError: SOURCE_REVISION_FAILURE: Exact changed/added/removed membership and prior snapshots required
+      at validateSourceRevision (/Users/new/RiderProjects/RPG_theory/src/lib/source-revision.ts:18:252)
+      at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/check-source-revision.ts:25:14)
+      at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+      at async node:internal/modules/esm/loader:643:26
+      at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+    code: 'SOURCE_REVISION_FAILURE'
+  }
+  
+  Node.js v24.18.0
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/revision-inventory-cli.test.ts:63:36)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

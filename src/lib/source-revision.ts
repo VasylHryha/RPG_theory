@@ -1,3 +1,4 @@
+import { currentPackageMember } from './source-paths.js';
 import { z } from 'astro/zod';
 import { ContractError } from './errors.js';
 import { sha256 } from './identity.js';
@@ -7,8 +8,8 @@ const schema = z.object({ changeId:z.string().trim().min(1), category:z.enum(['w
 export function validateSourceRevision(input: unknown, prior: Corpus, next: Corpus) {
   const change=schema.parse(input);
   if (change.predecessorEdition !== prior.admission.edition || change.predecessorSeal !== prior.admission.inventorySeal || change.resultEdition !== next.admission.edition || change.resultSeal !== next.admission.inventorySeal || change.priorSnapshot.some(file=>sha256(file.raw)!==file.sha256)) throw new ContractError('SOURCE_REVISION_FAILURE','Edition/snapshot identity mismatch');
-  const oldSources=[...prior.sources.values()].filter(s=>s.declaredCurrent);
-  const newSources=[...next.sources.values()].filter(s=>s.declaredCurrent);
+  const oldSources=[...prior.sources.values()].filter(s=>currentPackageMember(s));
+  const newSources=[...next.sources.values()].filter(s=>currentPackageMember(s));
   const newCurrent=new Map(newSources.map(s=>[s.key,s]));
   const oldCurrent=new Map(oldSources.map(s=>[s.key,s]));
   const changed=oldSources.filter(s=>s.sha256!==newCurrent.get(s.key)?.sha256 || s.path!==newCurrent.get(s.key)?.path);

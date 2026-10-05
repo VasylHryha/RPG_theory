@@ -17,6 +17,8 @@ import {loadCanonicalCorpus,validateCorpus,renderEntrySync} from '../../src/lib/
 import {selectPublication,publicationFor} from '../../src/lib/publication.js';
 import {loadSiteConfig} from '../../src/lib/site-config.js';
 import {publicationAssets,verifyArchive,explanatoryMarkdown,rssXML,citationCFF,citationGates,publicationCredit} from '../../src/lib/publication-assets.js';
+import {rawPath} from '../../src/lib/source-paths.js';
+import {documentMarkdown} from '../../src/lib/source-links.js';
 import {sourceDisplay} from '../../src/lib/source-display.js';
 import {parseMarkdown} from '../../src/lib/markdown-tree.js';
 import {makeZip} from '../../src/lib/zip.js';
@@ -26,8 +28,8 @@ const config=loadSiteConfig(),corpus=loadCanonicalCorpus(),release=JSON.parse(re
 function input(){return {entries:[...corpus.entries.values()].map(e=>({...structuredClone(e),statement:e.contentOrigin==='source-bound'?null:e.statement})),sources:[...corpus.sources.values()],references:[...corpus.references.values()],aliases:JSON.parse(readFileSync('research/publication/citation-aliases.yaml','utf8')),record:readAdmission()!};}
 function approvedMechanics(){
   const c=loadCanonicalCorpus(),definition=structuredClone(c.entries.get('UT-D01')!),article=structuredClone(c.entries.get('DOC-ARTICLE-UNIT')!);
-  definition.publicationState='published';definition.publishedAt='2026-10-01';definition.rightsRef='FIXTURE-RIGHTS';
-  article.publicationState='published';article.publishedAt='2026-10-04';article.authorIdentity='Synthetic organization';article.rightsRef='FIXTURE-RIGHTS';article.dependsOn=[];article.body='Synthetic article control.';
+  definition.updatedAt='2026-10-01';definition.publicationState='published';definition.publishedAt='2026-10-01';definition.rightsRef='FIXTURE-RIGHTS';
+  article.updatedAt='2026-10-04';article.publicationState='published';article.publishedAt='2026-10-04';article.authorIdentity='Synthetic organization';article.rightsRef='FIXTURE-RIGHTS';article.dependsOn=[];article.body='Synthetic article control.';
   c.entries=new Map([[definition.id,definition],[article.id,article]]);
   installSyntheticReview(c,definition.id);installSyntheticReview(c,article.id);
   writeFileSync(join(c.root,'research/publication/metadata.json'),JSON.stringify({...publicationCredit(),approvedCredit:{name:'Synthetic organization',evidenceRef:'Synthetic mechanics only'},permanentUrl:'https://example.org/research/',rights:{statement:'Synthetic rights only',evidenceRef:'Synthetic fixture'}}));
@@ -37,10 +39,10 @@ function approvedMechanics(){
 test('M4 explanatory exports mirror canonical parsed statements, retain adapters and have usable destinations at both bases',()=>{
  for(const basePath of ['/','/unity-theory/']) {
   const s=publicationFor('preview',{...config,basePath}),assets=publicationAssets(s,{...config,basePath});
-  for(const e of s.entries){const text=assets.files.get(`/downloads/explanatory/${e.id}.md`)!.toString();assert.equal(text,explanatoryMarkdown(corpus,e,{...config,basePath}));assert.doesNotMatch(text,/(?<!\w):{1,2}(?:claim|cite)(?:\[|\{)/);
+  for(const e of s.entries.filter(e=>s.manifest.exportIds.includes(e.id))){const text=assets.files.get(`/downloads/explanatory/${e.id}.md`)!.toString();assert.equal(text,explanatoryMarkdown(corpus,e,{...config,basePath}));assert.doesNotMatch(text,/(?<!\w):{1,2}(?:claim|cite)(?:\[|\{)/);
     // HTML generated from exported source/body preserves actual canonical rendering,
     // apart from the expected absolute URL spelling and export framing.
-    const body=sourceDisplay(e.statement ?? '',e.adapter);if(e.sourceBinding)assert.ok(text.includes(body.trim()),e.id);
+    const body=documentMarkdown(sourceDisplay(e.statement ?? '',e.adapter),corpus,e);if(e.sourceBinding){const values=(value:string)=>{const result:string[]=[];function collect(n:any){if(n.value)result.push(n.value);n.children?.forEach(collect);}collect(parseMarkdown(value));return result.join('|');};assert.ok(values(text).includes(values(body)),e.id);}
     function visit(n:any){if(n.url)assert.match(n.url,/^(?:https:\/\/|#|\.\.?\/)/);n.children?.forEach(visit);}visit(parseMarkdown(text));
   }
   const math=assets.files.get('/downloads/explanatory/DOC-MATH.md')!.toString();assert.match(math,/F_q=-\\frac/);assert.match(math,/defines the restoring\/driving interaction/);assert.doesNotMatch(renderEntrySync(corpus,corpus.entries.get('DOC-MATH')!),/katex-error/);
@@ -49,7 +51,7 @@ test('M4 explanatory exports mirror canonical parsed statements, retain adapters
 test('M4 ZIP manifests preserve original bytes and exclude administrative evidence/history; tampered members fail',()=>{
  const s=publicationFor('preview',config),a=publicationAssets(s,config),members=verifyArchive(a.files.get(a.zipPath)!);
  assert.deepEqual([...members.keys()].sort(),[...a.members.keys()].sort());
- for(const key of s.manifest.sourceDownloadKeys){const src=corpus.sources.get(key)!;assert.ok(src.declaredCurrent);assert.ok(members.get(`original/${key}.md`)!.equals(readFileSync(src.path)));}
+ for(const key of s.manifest.sourceDownloadKeys){const src=corpus.sources.get(key)!;assert.ok(src.path.startsWith('research/RRG_CURRENT/'));assert.ok(members.get(rawPath(key,src.path).slice('/downloads/'.length))!.equals(readFileSync(src.path)));}
  for(const path of members.keys())assert.doesNotMatch(path,/^(?:docs|research|history|\.git|\.env|public)\//);
  assert.match(members.get('README.md')!.toString(),/PRIVATE PREVIEW/);assert.equal(a.identity.workspaceDirty,true);assert.equal(a.identity.commitDescribesInputs,false);
  const corrupted=new Map(members);corrupted.set('explanatory/UT-D01.md',Buffer.from('wrong statement'));assert.throws(()=>verifyArchive(makeZip(corrupted)),/ARCHIVE_HASH_FAILURE/);
@@ -61,7 +63,7 @@ test('M4 ZIP manifests preserve original bytes and exclude administrative eviden
   const html=String(unified().use(remarkParse).use(remarkMath).use(remarkGfm).use(remarkRehype).use(rehypeSlug).use(rehypeStringify).processSync(raw.toString()));
   const $=load(html);ids.set(path,new Set($('[id]').toArray().map(el=>$(el).attr('id')!)));
  }
- for(const [path,raw] of members)if(path.endsWith('.md')){
+ for(const [path,raw] of members)if(path.endsWith('.md') && !path.startsWith('original/')){
   function walk(n:any){
    if(n.url && !n.url.startsWith('https://')){const [dest,fragment]=n.url.split('#');const target=dest?posix.normalize(posix.join(posix.dirname(path),dest)):path;assert.ok(members.has(target),`${path}: ${n.url}`);if(fragment)assert.ok(ids.get(target)?.has(decodeURIComponent(fragment)),`${path}: ${n.url}`);}
    n.children?.forEach(walk);

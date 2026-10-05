@@ -1,0 +1,23 @@
+{
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/build.ts",
+    "--mode",
+    "qualification",
+    "--config",
+    "config/site.json",
+    "--output",
+    "dist/source-link-r2-accepted/qualification-refusal"
+  ],
+  "exitCode": 1,
+  "elapsedSeconds": 3.62,
+  "diagnostic": "CURRENT_SOURCE_NOT_QUALIFIED",
+  "outputCreated": false,
+  "publishedSelection": 0,
+  "currentSourceQualified": true,
+  "cause": "Empty intended published selection; current private website fidelity is accepted.",
+  "publicTarget": "NOT_AUTHORIZED_OR_CONFIGURED",
+  "status": "EXPECTED_REFUSAL"
+}

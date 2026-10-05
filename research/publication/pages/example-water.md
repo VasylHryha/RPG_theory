@@ -4,18 +4,18 @@
   "route": "/examples/water/",
   "title": "Water: follow a pattern",
   "description": "A warm-up about local motion and a collective pattern.",
-  "revision": 1,
+  "revision": 2,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
-    "R-CURRENT-WORLD",
-    "R-CURRENT-SCIENCE"
+    "R-CURRENT-SCIENCE",
+    "R-CURRENT-WORLD"
   ],
   "dependsOn": [
     "UT-D01",
@@ -32,7 +32,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Supplementary NOAA surface-wave explanation. RRG core \u00a7\u00a71\u20134 supplies the questions, not a claim that every wave is a stable new unit.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Supplementary NOAA surface-wave explanation. RRG core §§1–4 supplies the questions, not a claim that every wave is a stable new unit.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null

@@ -1,0 +1,121 @@
+{
+  "state": "ACCEPTED_BOUNDED",
+  "ids": [
+    "DOC-STATUS",
+    "DOC-CLAIM-COVERAGE",
+    "DOC-SOURCE-CHANGES",
+    "DOC-BACKGROUND",
+    "DOC-ILLUSTRATIONS",
+    "DOC-CATALOGUE",
+    "DOC-READING-GUIDE",
+    "DOC-AUTHORITY",
+    "DOC-FOUNDATION-ERRATA",
+    "DOC-EVIDENCE",
+    "DOC-LIBRARY",
+    "UT-E101",
+    "UT-E102",
+    "UT-E103",
+    "UT-E104",
+    "UT-E105",
+    "UT-E106",
+    "UT-E107",
+    "UT-E108",
+    "UT-E109",
+    "UT-E110",
+    "UT-E111",
+    "UT-E112",
+    "UT-E113",
+    "UT-E114",
+    "UT-E115",
+    "UT-E116",
+    "UT-E117",
+    "UT-E118",
+    "UT-E119",
+    "UT-E120",
+    "UT-E121",
+    "UT-E122",
+    "UT-O101",
+    "UT-O102",
+    "UT-O103",
+    "UT-O104",
+    "UT-O105",
+    "UT-O106",
+    "UT-O107",
+    "UT-O108"
+  ],
+  "reviewedAt": "2026-10-05T12:08:15.325Z",
+  "reviewStates": {
+    "accepted": 41,
+    "pending": 1,
+    "stale": 53,
+    "rejected": 0
+  },
+  "currentSourceQualified": false,
+  "scientificCertification": false,
+  "publicActions": false,
+  "freshChecks": {
+    "historyIdentityComparison": "PASS",
+    "sharedContentAndFidelityValidator": "PASS",
+    "affectedPreviewBuilds": "PASS",
+    "sharedOutputAudits": "PASS",
+    "renderedBodyDecisionSnapshotAndArchiveNoteChecks": "PASS",
+    "sourceAndDownloadByteParity": "PASS",
+    "preservation": "PASS",
+    "diffCheck": "PASS"
+  },
+  "artifacts": [
+    {
+      "base": "/",
+      "files": 267,
+      "inputsSha256": "89664be4547e415aba94a9af2593c64ea8b65a12800316352abc10b43dac72b6",
+      "artifactSha256": "bbf54d3957f0c899622d40433f5e7e6055508a9971c58dba33d8f85f4180d82f",
+      "matchedAcceptedBodies": 41,
+      "unchangedScientificStatus": 41,
+      "archiveNotes": 4,
+      "originalDownloads": 18,
+      "zipMembers": 101,
+      "deployEligible": false,
+      "htmlFiles": 103
+    },
+    {
+      "base": "/unity-theory/",
+      "files": 267,
+      "inputsSha256": "89664be4547e415aba94a9af2593c64ea8b65a12800316352abc10b43dac72b6",
+      "artifactSha256": "77ba82afe66ffef4afc7848b44b0c9ec7f4e8af9b8378711c8da7d6a630b79c8",
+      "matchedAcceptedBodies": 41,
+      "unchangedScientificStatus": 41,
+      "archiveNotes": 4,
+      "originalDownloads": 18,
+      "zipMembers": 101,
+      "deployEligible": false,
+      "htmlFiles": 103
+    }
+  ],
+  "reusedChecks": {
+    "implementationReceipt": "docs/evidence/source-reconciliation/implementation/verification.json",
+    "contentCoverage": {
+      "mainPassed": 118,
+      "targetedRepairedPassed": 2,
+      "freshMonolithicRun": false
+    },
+    "browserPassingCoverage": 14,
+    "freshBrowserCampaign": false,
+    "astroDiagnostics": "reused unchanged zero errors/warnings/hints"
+  },
+  "fullM6Qualification": "NOT_BEGUN",
+  "remainingGates": [
+    "53 stale and DOC-WORLD pending website-fidelity decisions; reviewed publication selection",
+    "Final current-corpus M6 integration and actual-target/base qualification",
+    "Applicable cross-browser/accessibility/MathML/performance checks and human comprehension",
+    "Author public wording, identity/contact, rights/privacy and release authorization",
+    "Platform protections and approved private receipt capture",
+    "Complete GPT Library original-package provenance where unavailable"
+  ],
+  "repairs": [
+    "DOC-BACKGROUND",
+    "DOC-ILLUSTRATIONS",
+    "DOC-CATALOGUE",
+    "DOC-FOUNDATION-ERRATA"
+  ],
+  "commitPushDeployDnsLicenseActions": false
+}

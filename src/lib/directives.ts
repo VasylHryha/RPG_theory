@@ -1,10 +1,11 @@
+import { documentMarkdown, type SourceLinkOwner } from './source-links.js';
 import { parseMarkdown } from './markdown-tree.js';
 import { safeMarkdown } from './markdown-safety.js';
 import { sourceDisplay } from './source-display.js';
 import type { Entry } from './content-schema.js';
 import { ContractError } from './errors.js';
 import { withBase } from './urls.js';
-export interface DirectiveOwner { entries: Map<string, { route: string; statement: string | null; plainLanguage: string; adapter?: Entry['adapter']; publicationState?: Entry['publicationState'] }>; references: Map<string, unknown> }
+export interface DirectiveOwner { root?: string; sources?: SourceLinkOwner['sources']; entries: Map<string, { id?: string; sourceBinding?: Entry['sourceBinding']; route: string; statement: string | null; plainLanguage: string; adapter?: Entry['adapter']; publicationState?: Entry['publicationState'] }>; references: Map<string, unknown> }
 interface Node { type: string; value?: string; url?: string; children?: Node[]; position?: {start:{offset?:number};end:{offset?:number}} }
 const syntax = /::claim\{id="(UT-[DARCEPFO][0-9]{2,})" view="(plainLanguage|statement)"\}|:claim\[(UT-[DARCEPFO][0-9]{2,})\]|:cite\[(BIB-[0-9]{4,})\]/g;
 export function expandDirectives(tree: Node, corpus: DirectiveOwner, base = '/', ancestors: string[] = []) {
@@ -15,7 +16,7 @@ export function expandDirectives(tree: Node, corpus: DirectiveOwner, base = '/',
     if(entry.publicationState==='withdrawn') throw new ContractError('WITHDRAWN_EXCERPT',id);
     const text=view==='statement' ? sourceDisplay(entry.statement ?? '',entry.adapter) : entry.plainLanguage;
     if(!text) throw new ContractError('INVALID_DIRECTIVE',`Empty ${view} for ${id}`);
-    const parsed=parseMarkdown(text) as Node;
+    const parsed=parseMarkdown(documentMarkdown(text,corpus as SourceLinkOwner,entry as Entry)) as Node;
     const nested=expandDirectives(parsed,corpus,base,ancestors.concat(id));
     dependencies.add(id); nested.dependencies.forEach(key=>dependencies.add(key)); nested.bibliography.forEach(key=>bibliography.add(key));
     safeMarkdown()(parsed);

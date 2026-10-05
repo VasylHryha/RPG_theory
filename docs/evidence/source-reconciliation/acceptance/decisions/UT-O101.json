@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O101",
+  "fingerprint": "575d33bc200dab9bdfd7023ecb64544e887b251c155336a7863a0d5e8b648972",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T12:08:15.325Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared UT-O101, Recursive physical construction, to the exact O1 source claim. The complete statement remains open and source-bound, with no new result or required proof gate.",
+  "inputs": {
+    "fingerprint": "575d33bc200dab9bdfd7023ecb64544e887b251c155336a7863a0d5e8b648972",
+    "ownRead": {
+      "id": "UT-O101",
+      "route": "/claims/UT-O101/",
+      "title": "Recursive physical construction",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 1,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e",
+        "startLine": 37,
+        "endLine": 37,
+        "excerptSha256": "968d20459a39ea673aacd1ef7ebabe324337ffddfae8d852a991edf91217d206"
+      },
+      "statement": "**O1 — Recursive physical construction.** One formed organization causes conditions for another distinct persistent organization, and this repeats. A useful contribution could document even two causally connected stages in one system. No such full universal chain is established by this catalogue.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "",
+      "sourceMapping": "v0.2.1 open claim O1; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "664f567e0117075fe1f8bf038367bb154062a156ca633b0a60cce58cd1fb9534",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "664f567e0117075fe1f8bf038367bb154062a156ca633b0a60cce58cd1fb9534",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Open-claim terminology and ambition match the supplied O1-O8 registry.",
+    "meaning": "Compared UT-O101, Recursive physical construction, to the exact O1 source claim. The complete statement remains open and source-bound, with no new result or required proof gate.",
+    "assumptions": "No extra enabling assumption or demonstrated mechanism is appended to this open claim.",
+    "hypotheses": "Kind remains open-problem; evidenceState remains proposed. The source does not establish the ambition.",
+    "evidenceDescriptions": "Source-reported evidence and check coverage remain distinct from website-run experiments, independent science certification and external-paper review.",
+    "openQuestions": "**O1 — Recursive physical construction.** One formed organization causes conditions for another distinct persistent organization, and this repeats. A useful contribution could document even two causally connected stages in one system. No such full universal chain is established by this catalogue.\n",
+    "attribution": "The selected v0.2.1 source and supporting/historical role are explicit; no author identity, public-wording approval, rights or peer review is inferred.",
+    "sourceMappings": "Raw excerpt/binding and dependency/source snapshots are retained below. Actual bodies were compared at both bases; representative source-document/section/original/history journeys reuse implementation browser evidence. Comparison evidence: docs/evidence/source-reconciliation/acceptance/comparison.json; history-check.json. Four archive-note repairs were checked in affected final output. No acceptance is issued to unseen entries or dependencies."
+  }
+}

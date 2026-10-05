@@ -1,0 +1,118 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-C01",
+  "fingerprint": "37a3434b94167c72630a031005e772fd2b9ec0ebe6e7b013c6a919196463ca45",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T15:32:57.561Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-C01.json. Retained semantic finding: Compared core §10, including the quoted statement explicitly NOT established. Four forces equated to frequencies/scales remain an extension to be proven. Kind conjecture, evidence proposed and no-unification limit remain distinct from a fidelity decision.",
+  "inputs": {
+    "fingerprint": "37a3434b94167c72630a031005e772fd2b9ec0ebe6e7b013c6a919196463ca45",
+    "ownRead": {
+      "id": "UT-C01",
+      "route": "/claims/UT-C01/",
+      "title": "Fundamental interaction extension",
+      "description": "An open downstream extension, distinct from the minimal locked definitions.",
+      "revision": 3,
+      "kind": "conjecture",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 128,
+        "endLine": 136,
+        "excerptSha256": "14296615f64ff7eab2b9866fd7a8ecadec3f84151fbe652e6209667383e8b5c1"
+      },
+      "statement": "## 10. Interaction / force status\n\nThe following is **NOT locked as established fact**:\n\n> known forces are identical to resonant frequencies or correspond one-to-one with scales.\n\nThe locked core only says that interactions occur within and between resonant geometries and can participate in forming higher-level geometries.\n\nThe stronger claim that gravity, electromagnetism, weak, and strong interactions are scale-dependent manifestations of deeper resonant geometry is an **RRG extension to be proven**, not a definition.\n",
+      "plainLanguage": "",
+      "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+      "evidenceState": "proposed",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §10",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "No universal derivation or force unification is supplied.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "622d51b22ae01652baccf4ef808fe1596f66824a6562f2b5bc09939735f941a4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "e63119326f25862de27d3cf265a6af8b71e6a587a8357c2a61f6d18cdda3d1e7"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ba24845b313aacf063d30c124d5fa4aef773cba1e32c5f1a54b1812906960b4b"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §10, including the quoted statement explicitly NOT established. Four forces equated to frequencies/scales remain an extension to be proven. Kind conjecture, evidence proposed and no-unification limit remain distinct from a fidelity decision. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §10, including the quoted statement explicitly NOT established. Four forces equated to frequencies/scales remain an extension to be proven. Kind conjecture, evidence proposed and no-unification limit remain distinct from a fidelity decision. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: An open downstream extension, distinct from the minimal locked definitions. No new experimental inputs, causal stages or equation-family requirement was introduced. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "hypotheses": "Compared core §10, including the quoted statement explicitly NOT established. Four forces equated to frequencies/scales remain an extension to be proven. Kind conjecture, evidence proposed and no-unification limit remain distinct from a fidelity decision. Scientific role conjecture, evidence proposed, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "evidenceDescriptions": "Compared core §10, including the quoted statement explicitly NOT established. Four forces equated to frequencies/scales remain an extension to be proven. Kind conjecture, evidence proposed and no-unification limit remain distinct from a fidelity decision. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "openQuestions": "Compared core §10, including the quoted statement explicitly NOT established. Four forces equated to frequencies/scales remain an extension to be proven. Kind conjecture, evidence proposed and no-unification limit remain distinct from a fidelity decision. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. 00_LOCKED_CORE.md §10 No personal identity, rights, author-public-wording or release authorization is inferred. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/UT-C01.json. Retained semantic finding: Compared core §10, including the quoted statement explicitly NOT established. Four forces equated to frequencies/scales remain an extension to be proven. Kind conjecture, evidence proposed and no-unification limit remain distinct from a fidelity decision. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision."
+  }
+}

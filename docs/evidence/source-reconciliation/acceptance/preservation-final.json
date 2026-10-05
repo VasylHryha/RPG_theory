@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "head": "2615299bfeef5beb3665337b7f3c5623a82cf4d0",
+  "baselineFiles": 2979,
+  "changedBaselineFiles": [
+    "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+    "research/publication/canonical-documents.yaml",
+    "research/publication/website-reviews.yaml"
+  ],
+  "missingBaselineFiles": [],
+  "unrelatedBaselineFilesUnchanged": true,
+  "currentAndHistoricalSourcesUnchanged": true,
+  "priorIssuedReceiptFilesUnchanged": true,
+  "implementationEvidenceUnchanged": true,
+  "m1DefaultAuditInventoryRestoredExactly": true,
+  "stagedBaselineUnchanged": true,
+  "diffCheck": "PASS",
+  "statusAfter": " M README.md\n M START_HERE.md\n M config/research-source.json\n M docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md\n M research/publication/canonical-documents.yaml\n M research/publication/citation-aliases.yaml\n M research/publication/pages/article-how-existing-structures-make-new-organization-possible.md\n M research/publication/pages/article-when-can-a-whole-be-treated-as-one-useful-unit.md\n M research/publication/pages/concept-interactions.md\n M research/publication/pages/concept-recursion.md\n M research/publication/pages/concept-stability.md\n M research/publication/pages/concepts.md\n M research/publication/pages/evidence.md\n M research/publication/pages/example-cell.md\n M research/publication/pages/example-life-environment.md\n M research/publication/pages/example-molecule.md\n M research/publication/pages/example-star.md\n M research/publication/pages/example-string.md\n M research/publication/pages/example-water.md\n M research/publication/pages/examples.md\n M research/publication/pages/home.md\n M research/publication/pages/start.md\n M research/publication/pages/technical-documents.md\n M research/publication/records.yaml\n M research/publication/references.yaml\n M research/publication/source-index.yaml\n M research/publication/website-reviews.yaml\n M src/lib/content-schema.ts\n M src/lib/content.ts\n M src/lib/directives.ts\n M src/lib/library.ts\n M src/lib/presentation.ts\n M src/lib/publication-assets.ts\n M src/lib/publication.ts\n M src/lib/source-display.ts\n M src/lib/website-review.ts\n M tests/content/contracts.test.ts\n M tests/content/m1-review.test.ts\n M tests/content/m1.test.ts\n M tests/content/m2.test.ts\n M tests/content/m3.test.ts\n M tests/content/m4.test.ts\n M tests/content/revision-cli.test.ts\n M tests/content/revision-inventory-cli.test.ts\n M tests/content/website-fidelity.test.ts\n M tests/e2e/integration.spec.ts\n M tests/e2e/reading.spec.ts\n M tests/e2e/technical.spec.ts\n?? docs/evidence/source-reconciliation/acceptance/\n?? docs/evidence/source-reconciliation/implementation/\n?? docs/evidence/source-reconciliation/r4-plan-reconciliation.md\n?? research/publication/evidence-identities.json\n?? src/lib/source-links.ts\n?? src/lib/source-paths.ts\n?? tests/content/source-reconciliation.test.ts\n?? tests/e2e/source-reconciliation.spec.ts\n"
+}

@@ -4,23 +4,23 @@
   "route": "/concepts/",
   "title": "The concepts, in ordinary words",
   "description": "From organization and activity to the source definitions.",
-  "revision": 1,
+  "revision": 2,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-WORLD"
   ],
   "dependsOn": [
     "DOC-CONCEPT-GEOMETRY",
-    "DOC-CONCEPT-STABILITY",
+    "DOC-CONCEPT-INTERACTIONS",
     "DOC-CONCEPT-RECURSION",
-    "DOC-CONCEPT-INTERACTIONS"
+    "DOC-CONCEPT-STABILITY"
   ],
   "related": [],
   "bibRefs": [],
@@ -30,7 +30,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Editorial index of the four mapped concept explanations.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Editorial index of the four mapped concept explanations.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null

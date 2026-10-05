@@ -1,0 +1,12 @@
+
+Running 5 tests using 1 worker
+
+(node:16318) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/source-link-r2.spec.ts:10:1 › R2 source connections keep distinct document labels, alternate targets and downloads without JavaScript (1.2s)
+  ✓  2 tests/e2e/source-link-r2.spec.ts:38:39 › R2 affected readings preserve reflow and accessibility at 320px (10.6s)
+  ✓  3 tests/e2e/source-link-r2.spec.ts:38:39 › R2 affected readings preserve reflow and accessibility at 375px (11.2s)
+  ✓  4 tests/e2e/source-link-r2.spec.ts:38:39 › R2 affected readings preserve reflow and accessibility at 768px (11.8s)
+  ✓  5 tests/e2e/source-link-r2.spec.ts:38:39 › R2 affected readings preserve reflow and accessibility at 1280px (11.6s)
+
+  5 passed (1.3m)

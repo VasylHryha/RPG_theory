@@ -3,6 +3,10 @@ import { ContractError } from './errors.js';
 
 export function sourceDisplay(raw: string, adapter: Entry['adapter'] = 'markdown/1') {
   let text = raw;
+  // Exact malformed arrow escapes in the promoted conceptual companion.
+  // Display-only repair; raw source/download bytes remain unchanged.
+  if (adapter === 'rrg-document/1') text = text.replace(/\\nightarrow/g, '\\rightarrow');
+  if (adapter === 'rrg-evidence-document/1') text = text.replace(/^<a id="e\d+"><\/a>\r?\n/gm, '');
   if (adapter === 'rrg-math-document/1') {
     // Exact supplied §39 formatting defect: a missing display close, not a
     // mathematical correction. Sidecar context discloses this display repair.
@@ -18,6 +22,6 @@ export function sourceDisplay(raw: string, adapter: Entry['adapter'] = 'markdown
   if (adapter === 'rrg-proof-table/1') text = text.replace(/(\|[^\n]+\|)\n(?:\s*\n)+(?=\|)/g,'$1\n');
   // Retained addenda have source-level titles. The website already supplies
   // the document's h1; keep the addenda text and order as section headings.
-  if (adapter === 'rrg-document/1' || adapter === 'rrg-math-document/1') text = text.replace(/^# /gm,'## ');
+  if (adapter === 'rrg-document/1' || adapter === 'rrg-math-document/1' || adapter === 'rrg-evidence-document/1') text = text.replace(/^# /gm,'## ');
   return text.replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_match,tex) => '\n$$\n'+tex+'\n$$\n').replace(/\\\((.*?)\\\)/g, (_match,tex) => '$'+tex+'$');
 }

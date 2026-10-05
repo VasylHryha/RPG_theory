@@ -1,0 +1,104 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-GEOMETRY",
+  "fingerprint": "e64867625e109d91042d8c57a725e1cf1f2e7831f80ecaed180433df548c1acb",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T12:32:15.645Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared core §§1–3 and world §§1–2 with the full body and UT-D01–03 plain-language expansions. Organization is relational, full modes exceed scalar frequency, neither is universally first, and the string still needs tension/material conditions.",
+  "inputs": {
+    "fingerprint": "e64867625e109d91042d8c57a725e1cf1f2e7831f80ecaed180433df548c1acb",
+    "ownRead": {
+      "id": "DOC-CONCEPT-GEOMETRY",
+      "route": "/concepts/geometry-and-modes/",
+      "title": "Geometry and mode structure",
+      "description": "Relationships, constraints and organized activity, before the formal RRG meanings.",
+      "revision": 4,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Beginner concept explanation mapped to original core §§1–3 and world §§1–2.",
+      "evidenceState": "not-applicable",
+      "body": "## In ordinary words\n\nGeometry describes how parts are arranged and related. Mode structure describes how they change and respond together. In RRG, both belong to the description of one organized system.\n\n## Try the string example\n\nA string's length and fixed ends constrain possible motion. Its tension and mass per unit length also matter. Arrangement and constraints do not magically provide the physical law. Read the [string illustration](/examples/string/).\n\nMode structure includes patterns, relative timing, responses and characteristic times. It is wider than a periodic vibration or one number in hertz. Activity can maintain an arrangement, transform it or destroy it.\n\n## The source meanings\n\n::claim{id=\"UT-D01\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D02\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D03\" view=\"plainLanguage\"}\n\nThe basic source object is $R=(G,M)$: $G$ denotes organization and $M$ its temporal mode structure. This is the framework's definition, not an extra independently established physical law.\n\nContinue with [stability](/concepts/stability/) or [all concepts](/concepts/).\n",
+      "sourceMapping": "Core §§1–3; world §§1–2. Material and force conditions remain necessary for the string illustration.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "622d51b22ae01652baccf4ef808fe1596f66824a6562f2b5bc09939735f941a4"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "026e67efb1aed254ed43d960e3505ebdf5909eb76a85f5497645b0cb577b8bdd",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "c137385cc01a9d53420586f8bc98aa576b7ce5a57c818caf3568df3ef3c25205",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §§1–3 and world §§1–2 with the full body and UT-D01–03 plain-language expansions. Organization is relational, full modes exceed scalar frequency, neither is universally first, and the string still needs tension/material conditions.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §§1–3 and world §§1–2 with the full body and UT-D01–03 plain-language expansions. Organization is relational, full modes exceed scalar frequency, neither is universally first, and the string still needs tension/material conditions.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: Beginner concept explanation mapped to original core §§1–3 and world §§1–2. No new experimental inputs, causal stages or equation-family requirement was introduced.",
+    "hypotheses": "Compared core §§1–3 and world §§1–2 with the full body and UT-D01–03 plain-language expansions. Organization is relational, full modes exceed scalar frequency, neither is universally first, and the string still needs tension/material conditions. Scientific role concept, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval.",
+    "evidenceDescriptions": "Compared core §§1–3 and world §§1–2 with the full body and UT-D01–03 plain-language expansions. Organization is relational, full modes exceed scalar frequency, neither is universally first, and the string still needs tension/material conditions. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary.",
+    "openQuestions": "Compared core §§1–3 and world §§1–2 with the full body and UT-D01–03 plain-language expansions. Organization is relational, full modes exceed scalar frequency, neither is universally first, and the string still needs tension/material conditions. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Core §§1–3; world §§1–2. Material and force conditions remain necessary for the string illustration. No personal identity, rights, author-public-wording or release authorization is inferred.",
+    "sourceMappings": "Actual source → registry/exact raw line binding → both rendered bodies → explanatory Markdown → ZIP comparisons are recorded in docs/evidence/m6/reconciled/comparison-corpus.json. Full raw sources, all derived paragraphs and live directive dependencies were read. Rendered reading capture: comparison-rendered-readings.txt. The introduction mapping-only repair is recorded in comparison-notes.json and checked in final output. No decision issued to archived entries."
+  }
+}

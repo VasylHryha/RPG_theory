@@ -4,26 +4,26 @@
   "route": "/concepts/recursion/",
   "title": "Recursion and scale",
   "description": "A whole can become a useful part while its components stay active.",
-  "revision": 1,
+  "revision": 2,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
-    "R-CURRENT-WORLD",
-    "R-CURRENT-SCIENCE"
+    "R-CURRENT-SCIENCE",
+    "R-CURRENT-WORLD"
   ],
   "dependsOn": [
+    "UT-C02",
     "UT-D05",
     "UT-D06",
     "UT-D08",
     "UT-D09",
-    "UT-C02",
-    "UT-O04"
+    "UT-O102"
   ],
   "related": [],
   "bibRefs": [],
@@ -33,7 +33,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Core \u00a7\u00a75\u20139, 11; world \u00a7\u00a74, 8\u20139, 14 and background addendum; framework \u00a7\u00a73, 15\u201316, 22\u201323.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§5–9, 11; world §§4, 8–9, 14 and background addendum; framework §§3, 15–16, 22–23.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null

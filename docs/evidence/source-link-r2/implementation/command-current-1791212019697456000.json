@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/check-sources.ts",
+    "--scope",
+    "current"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 3.64,
+  "log": "docs/evidence/source-link-r2/implementation/current-1791212019697456000.log"
+}

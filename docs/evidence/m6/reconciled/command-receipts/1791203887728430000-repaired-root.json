@@ -1,0 +1,16 @@
+{
+  "stage": "browser-repairs",
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/test-e2e.ts",
+    "--output",
+    "dist/m6-reconciled/root",
+    "--grep",
+    "M2 complete reading journey works without JavaScript"
+  ],
+  "log": "docs/evidence/m6/reconciled/repaired-root.log",
+  "exitCode": 0,
+  "elapsedSeconds": 3.72
+}

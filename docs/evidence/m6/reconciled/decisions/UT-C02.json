@@ -1,0 +1,122 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-C02",
+  "fingerprint": "22461ba0a987e058ab1f21a8675fecb443db82155d2de587ed3fc66a4646bab5",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T12:32:15.645Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared core §11 exact single-paragraph extension and rendered card. Environmental/cosmological selection of accessible geometries is compatible with the core but outside the minimal definition; no new cosmological derivation is implied.",
+  "inputs": {
+    "fingerprint": "22461ba0a987e058ab1f21a8675fecb443db82155d2de587ed3fc66a4646bab5",
+    "ownRead": {
+      "id": "UT-C02",
+      "route": "/claims/UT-C02/",
+      "title": "Background and possibility-space extension",
+      "description": "An open downstream extension, distinct from the minimal locked definitions.",
+      "revision": 3,
+      "kind": "conjecture",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D05",
+        "UT-D07"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 138,
+        "endLine": 140,
+        "excerptSha256": "69de818aad3845247d950f3f58629c917dd67d3a14689d3c7ea28fc6d38a5a48"
+      },
+      "statement": "## 11. Background / possibility-space status\n\nThe idea that global cosmological/environmental conditions change which resonant geometries are accessible is an **extension compatible with the core**, not part of the minimal definition.\n",
+      "plainLanguage": "",
+      "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+      "evidenceState": "proposed",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §11",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "No universal derivation or force unification is supplied.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "622d51b22ae01652baccf4ef808fe1596f66824a6562f2b5bc09939735f941a4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "e63119326f25862de27d3cf265a6af8b71e6a587a8357c2a61f6d18cdda3d1e7"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ba24845b313aacf063d30c124d5fa4aef773cba1e32c5f1a54b1812906960b4b"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "7e15e280cd724c78444744ec618d0142aaf577b2865aae76bb26b2be36921358"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared core §11 exact single-paragraph extension and rendered card. Environmental/cosmological selection of accessible geometries is compatible with the core but outside the minimal definition; no new cosmological derivation is implied.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared core §11 exact single-paragraph extension and rendered card. Environmental/cosmological selection of accessible geometries is compatible with the core but outside the minimal definition; no new cosmological derivation is implied.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: An open downstream extension, distinct from the minimal locked definitions. No new experimental inputs, causal stages or equation-family requirement was introduced.",
+    "hypotheses": "Compared core §11 exact single-paragraph extension and rendered card. Environmental/cosmological selection of accessible geometries is compatible with the core but outside the minimal definition; no new cosmological derivation is implied. Scientific role conjecture, evidence proposed, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval.",
+    "evidenceDescriptions": "Compared core §11 exact single-paragraph extension and rendered card. Environmental/cosmological selection of accessible geometries is compatible with the core but outside the minimal definition; no new cosmological derivation is implied. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary.",
+    "openQuestions": "Compared core §11 exact single-paragraph extension and rendered card. Environmental/cosmological selection of accessible geometries is compatible with the core but outside the minimal definition; no new cosmological derivation is implied. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. 00_LOCKED_CORE.md §11 No personal identity, rights, author-public-wording or release authorization is inferred.",
+    "sourceMappings": "Actual source → registry/exact raw line binding → both rendered bodies → explanatory Markdown → ZIP comparisons are recorded in docs/evidence/m6/reconciled/comparison-corpus.json. Full raw sources, all derived paragraphs and live directive dependencies were read. Rendered reading capture: comparison-rendered-readings.txt. The introduction mapping-only repair is recorded in comparison-notes.json and checked in final output. No decision issued to archived entries."
+  }
+}

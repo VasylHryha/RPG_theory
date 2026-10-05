@@ -25,13 +25,15 @@ export function renderHomeHeading(title: string) {
 }
 export function renderStatus(corpus: Corpus,entry: Entry) {
   if(entry.audience==='general' && ['concept','example'].includes(entry.kind)) return `<p class="record-status record-status-compact reading-note">${entry.kind==='example'?'Illustrative example':'Concept explanation'} · ${escapeHTML(renderEditorialState(corpus,entry))}</p>`;
-  const pairs=[['Scientific role',roles[entry.kind] ?? 'Research document'],['Evidence',evidence[entry.evidenceState]],['Source fidelity',reviewLabel(corpus,entry.id)],['Publication',entry.publicationState==='draft'?'Draft · private preview':entry.publicationState]];
-  return `<dl class="record-status">${pairs.map(([label,value])=>`<div><dt>${label}</dt><dd>${escapeHTML(value)}</dd></div>`).join('')}</dl>`;
+  const archived=entry.publicationState==='archived';
+  const pairs=[['Scientific role',roles[entry.kind] ?? 'Research document'],['Evidence',evidence[entry.evidenceState]],['Source fidelity',reviewLabel(corpus,entry.id)],['Publication',archived?'Historical source · previous edition':entry.publicationState==='draft'?'Draft · private preview':entry.publicationState]];
+  return `${archived?'<p class="reading-note">This is a preserved historical reading. It is not the current source edition or a retraction of the cited study.</p>':''}<dl class="record-status">${pairs.map(([label,value])=>`<div><dt>${label}</dt><dd>${escapeHTML(value)}</dd></div>`).join('')}</dl>`;
 }
 function link(route: string,label: string,base: string) { return `<a href="${escapeHTML(withBase(route,base))}">${escapeHTML(label)}</a>`; }
 export function renderRecordDetails(corpus: Corpus,entry: Entry,base='/') {
   if(entry.publicationState==='withdrawn') return `<aside class="prose"><h2>Withdrawn record</h2><p>${escapeHTML(entry.withdrawalReason ?? '')}</p><p>Change record: ${escapeHTML(entry.correctionRef ?? '')}</p></aside>`;
   let html='';
+  if(entry.publicationState==='archived') html+=`<aside class="prose"><h2>Historical source · previous edition</h2><p>${escapeHTML(entry.archiveReason ?? '')}</p>${link('/documents/','Read the current document library',base)}</aside>`;
   if(entry.contentOrigin==='proposed') html+=`<aside class="prose"><h2>Proposal · not adopted into the current theory</h2><p>${escapeHTML(entry.proposalProvenance ?? '')}</p></aside>`;
   if(entry.publicationState==='superseded') html+=`<aside class="prose"><h2>Historical record · corrected</h2><p>Change record: ${escapeHTML(entry.correctionRef ?? '')}</p>${link(corpus.entries.get(entry.supersededBy!)!.route,`Read replacement ${entry.supersededBy}`,base)}</aside>`;
   if(entry.plainLanguage && !isTechnicalDocument(entry)) html+=`<section class="prose"><h2>In plain language</h2><p class="reading-note">Source fidelity: ${escapeHTML(reviewLabel(corpus,entry.id))}</p>${renderMarkdownSync(entry.plainLanguage,base,corpus)}</section>`;
@@ -47,7 +49,7 @@ export function renderRecordDetails(corpus: Corpus,entry: Entry,base='/') {
   if(entry.dependsOn.length) html+=`<h3>Depends on</h3><ul>${entry.dependsOn.map(id=>`<li>${link(corpus.entries.get(id)!.route,`${id} — ${corpus.entries.get(id)!.title}`,base)}</li>`).join('')}</ul>`;
   const refs=[...new Set(entry.bibRefs.map(id=>corpus.references.get(id)!.primaryId ?? id))];
   if(refs.length) html+=`<h3>${entry.contentOrigin==='source-bound'?'References reported by this source':'References and further reading'}</h3><ul>${refs.map(id=>`<li><a href="${withBase('/references/',base)}#${id}">${escapeHTML(corpus.references.get(id)!.title)}</a></li>`).join('')}</ul>`;
-  if(entry.id==='DOC-STATUS') html+=`<p>${link(corpus.entries.get('DOC-PROOF')!.route,'Read the claim and evidence matrix',base)}</p>`;
+  if(entry.id==='DOC-STATUS') html+=`<p>${link(corpus.entries.get('DOC-CLAIM-COVERAGE')!.route,'Read claims, evidence limits and open questions',base)}</p>`;
   html+='</section>';
   if(compact) {
     const limit=entry.limits && entry.limits!==entry.scope?`<p class="reading-note">${escapeHTML(entry.limits)}</p>`:'';
@@ -63,14 +65,14 @@ export function renderReferences(references: Reference[],entries: Entry[],base='
   }).join('')}</ol>`;
 }
 export function renderHomeStatus(corpus: Corpus,entry: Entry,base='/') {
-  // A small source projection, not an independently authored completion list.
-  // These anchors are specific to the inspected 04 format and fail on drift.
+  // A small projection of the selected audit's remaining gaps, not an
+  // independently authored completion list or a fresh scientific verdict.
   const text=sourceDisplay(entry.statement ?? '',entry.adapter),nodes=parseMarkdown(text).children;
-  const index=nodes.findIndex(node=>node.type==='heading' && node.depth===2 && node.children.some(child=>child.type==='text' && child.value==='Open extensions to prove — not definitions'));
+  const index=nodes.findIndex(node=>node.type==='heading' && node.depth===2 && node.children.some(child=>child.type==='text' && child.value==='7. Remaining gaps and publication boundary'));
   const heading=nodes[index];
   const next=nodes.slice(index+1).find(node=>node.type==='heading');
-  if(index<0 || !heading?.position || !next?.position) throw new ContractError('SOURCE_ADAPTER_FAILURE','Current status summary anchors changed; rereview the projection');
-  return renderMarkdownSync(text.slice(heading.position.start.offset,next.position.start.offset),base,corpus);
+  if(index<0 || !heading?.position) throw new ContractError('SOURCE_ADAPTER_FAILURE','Current status summary anchors changed; rereview the projection');
+  return renderMarkdownSync(text.slice(heading.position.start.offset,next?.position?.start.offset ?? text.length),base,corpus);
 }
 export function renderNavigation(selection: { entries: Entry[]; manifest: {navigationIds:string[];routes:string[]} },route:string,base='/') {
   const navigation=[['DOC-START','Start'],['DOC-FRAMEWORK','Framework'],['DOC-STATUS','Research'],['DOC-LIBRARY','Documents']].flatMap(([id,label])=>{
@@ -84,7 +86,7 @@ export function renderNavigation(selection: { entries: Entry[]; manifest: {navig
 }
 
 export function isTechnicalDocument(entry: Entry) {
-  return entry.id.startsWith('DOC-') && entry.audience==='technical' && !['superseded','withdrawn'].includes(entry.publicationState);
+  return entry.id.startsWith('DOC-') && entry.audience==='technical' && !['superseded','withdrawn','archived'].includes(entry.publicationState);
 }
 
 // Long source readings share a selected-route guide and a TOC taken from the
@@ -134,7 +136,7 @@ export function renderBeginnerDiagram(id: string) {
     shapes=`<text x="180" y="35">Conditional RRG extension</text><g class="diagram-node"><rect x="28" y="60" width="304" height="57" rx="8"/><text x="180" y="94">Existing organization</text></g><path class="diagram-link" d="M180 117 V149"/><path class="diagram-arrowhead" d="m175 143 5 6 5-6"/>
       <g class="diagram-node"><rect x="28" y="153" width="304" height="57" rx="8"/><text x="180" y="187">Effective interaction channel</text></g><path class="diagram-link" d="M180 210 V242"/><path class="diagram-arrowhead" d="m175 236 5 6 5-6"/>
       <g class="diagram-node"><rect x="28" y="246" width="304" height="57" rx="8"/><text x="180" y="280">Possible further organization</text></g><text class="diagram-subtitle" x="180" y="337">when the system's conditions support it</text>`;
-    caption='A source-bound illustration of the open extension. The reported crystal, spin-ice and background-field cases have different mechanisms and conditions; the arrows are not a derived universal law.';
+    caption='A source-bound illustration of the open extension. The reported optical-binding and random-light cases have different supplied conditions; the arrows are not a derived universal law.';
   }
   return `<figure class="beginner-diagram" data-beginner-diagram="${id}"><svg viewBox="0 0 360 370" role="img" aria-labelledby="${title} ${description}"><title id="${title}">${heading}</title><desc id="${description}">${equivalent}</desc>${shapes}</svg><figcaption>${caption}</figcaption></figure>`;
 }

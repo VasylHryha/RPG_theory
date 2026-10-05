@@ -1,0 +1,23 @@
+{
+  "os": "macOS 26.6.2 (25G83)",
+  "platform": "darwin",
+  "arch": "arm64",
+  "node": "v24.18.0",
+  "npm": "11.16.0",
+  "browserCache": "node_modules/.cache/ms-playwright",
+  "browserVersions": {
+    "chromium": "153.0.8010.12",
+    "firefox": "155.0",
+    "webkit": "26.6"
+  },
+  "dependencyVersions": {
+    "astro": "7.3.5",
+    "katex": "0.18.10",
+    "@playwright/test": "1.63.0",
+    "@axe-core/playwright": "4.13.0",
+    "pagefind": "1.5.2",
+    "lighthouse": "13.5.0"
+  },
+  "hardwareModel": "NOT_RECORDED: optional sysctl metadata query denied by sandbox; no performance claim on an identified CI runner",
+  "performanceProfile": "local no-store static output; cold browser contexts and per-body gzip equivalence; Lighthouse mobile 375×812 simulated throttling; field data absent"
+}

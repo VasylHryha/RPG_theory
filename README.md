@@ -22,13 +22,13 @@ The original owner-supplied `RRG_CURRENT.zip` remains preserved as provenance. I
 
 The repository is public, but **the website is not yet publicly qualified or deployed**.
 
-The source replacement intentionally invalidated website source keys, source-bound records, citation mappings and fidelity fingerprints that referenced the superseded 04/06/07/08 documents. They must be rebound to v0.2.1 before M6/public qualification.
+The v0.2.1 website migration is implemented locally and **REVIEW_READY**. Current documents have readable HTML pages; source links open the corresponding readings and sections. Original files and explanatory exports are labelled separately. The current catalogue contains 22 evidence cases and eight open questions; predecessor records keep their identities and explicit historical status. Source/display fidelity decisions remain pending or stale.
 
 Do not interpret an old successful preview/build receipt as qualification of the promoted source set. See the sole forward plan:
 
 [docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md)
 
-Current next action is the remaining §0.39 rebind: update publication source keys/records/citations, resolve evidence-ID namespace collisions, rebuild affected pages/downloads, then perform one fresh bounded fidelity/M6 qualification pass.
+Next is bounded separate High acceptance of the package-authority and GitHub Pages target changes in §0.45, then public M6 qualification with an approved launch selection. Earlier migration/R2 acceptance remains preserved. Current implementation evidence is in [the Pages rebind receipt](docs/evidence/github-pages-rebind/implementation/receipt.md).
 
 ## Local development
 
@@ -40,16 +40,16 @@ npx playwright install chromium
 npm run dev
 ```
 
-The local site is normally served at `http://127.0.0.1:4321/`.
+The local site is normally served at `http://127.0.0.1:4321/RPG_theory/`.
 
 ```sh
 npm run check
-npm run check:sources
+npm run check:sources -- --scope current
 npm run check:content -- --changed <entry-id>
 npm run verify
 ```
 
-During the v0.2.1 rebind, source/content verification is expected to expose stale predecessor mappings until they are migrated. Do not silence those failures by restoring old files as current or manufacturing accepted review decisions.
+Source and content validation now load the selected edition. Pending/stale source-fidelity decisions continue to block public qualification; a successful preview does not refresh those decisions.
 
 ## Source and publication layout
 
@@ -66,4 +66,4 @@ Current source admission verifies bytes only. It does not certify the theory or 
 
 Public repository visibility is not the same as a qualified research release.
 
-Pages deployment remains blocked until the selected v0.2.1 content is rebound/reviewed and the remaining identity, attribution, scoped-rights, privacy/public-content, target and accessibility gates are closed. No project-wide licence is selected merely because the repository is public.
+Pages deployment remains blocked until the selected v0.2.1 content is reviewed and the remaining identity, attribution, scoped-rights, privacy/public-content and accessibility gates are closed. No project-wide licence is selected merely because the repository is public.

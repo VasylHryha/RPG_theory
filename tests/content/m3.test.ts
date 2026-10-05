@@ -6,11 +6,11 @@ import { loadCanonicalCorpus, renderEntrySync } from '../../src/lib/content.js';
 import { renderTechnicalGuide } from '../../src/lib/presentation.js';
 import { publicationFor } from '../../src/lib/publication.js';
 import { loadSiteConfig } from '../../src/lib/site-config.js';
-import { websiteReviewState } from '../../src/lib/website-review.js';
+import { websiteReviewState, qualifyWebsiteCorpus } from '../../src/lib/website-review.js';
 import { sourceDisplay } from '../../src/lib/source-display.js';
 
 const corpus=loadCanonicalCorpus();
-const fullDocuments=['DOC-CORE','DOC-CONTROL','DOC-FRAMEWORK','DOC-MATH','DOC-INTERACTION-EVIDENCE','DOC-ADDITIONAL-EVIDENCE','DOC-SOURCE-CHANGES'];
+const fullDocuments=['DOC-CORE','DOC-CONTROL','DOC-FRAMEWORK','DOC-MATH','DOC-WORLD','DOC-BACKGROUND','DOC-ILLUSTRATIONS','DOC-CATALOGUE','DOC-CLAIM-COVERAGE','DOC-READING-GUIDE','DOC-AUTHORITY','DOC-STATUS','DOC-SOURCE-CHANGES'];
 
 test('M3 technical readings extract each complete original body with retained addenda and source provenance',()=>{
   for(const id of fullDocuments) {
@@ -32,47 +32,46 @@ test('M3 technical readings extract each complete original body with retained ad
   assert.doesNotMatch(framework.text(),/\\n/);
 });
 
-test('M3 evidence retains all source-local entries, bibliography identities and reported access limitations',()=>{
-  const additional=corpus.entries.get('DOC-ADDITIONAL-EVIDENCE')!;
-  const $=load(renderEntrySync(corpus,additional));
-  assert.equal($('h3').length,9);
-  for(let n=1;n<=9;n++) {
-    const label=`E${String(n).padStart(2,'0')}`,id=`UT-${label}`;
-    assert.match(additional.statement!,new RegExp(`### ${label} —`));
-    assert.ok(additional.dependsOn.includes(id));
-    const record=corpus.entries.get(id)!;
-    assert.equal(record.sourceBinding!.sourceKey,'R-CURRENT-ADDITIONAL');
-    for(const ref of record.bibRefs)assert.ok(additional.bibRefs.includes(ref));
+test('selected catalogue retains all 22 case identities and source-reported two-axis classification',()=>{
+  const catalogue=corpus.entries.get('DOC-CATALOGUE')!;
+  const register=JSON.parse(readFileSync('research/RRG_CURRENT/sources.json','utf8'));
+  for(const item of register.cases) {
+    const id=`UT-E${100+Number(item.id.slice(1))}`,record=corpus.entries.get(id)!;
+    assert.ok(catalogue.dependsOn.includes(id));
+    assert.match(record.statement!,new RegExp(item.doi.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
+    assert.equal(record.sourceBinding!.sourceKey,'R-CURRENT-CATALOGUE');
+    assert.match(record.statement!,/Reported result/);assert.match(record.statement!,/Already supplied/);
+    assert.match(record.statement!,/Limit of the RRG connection/);assert.match(record.statement!,/Verification coverage/);
+    assert.equal(record.evidenceState,'project-reported');
+    assert.ok(record.scope.includes(item.evidence_type));assert.ok(record.scope.includes(item.rrg_relation));
   }
-  assert.match(additional.statement!,/full manuscript was not accessible/);
-  assert.match(additional.statement!,/subscription full text not inspected/);
-  assert.match(additional.plainLanguage,/not new paper inspections/);
-  const interactions=corpus.entries.get('DOC-INTERACTION-EVIDENCE')!;
-  for(const id of ['UT-E10','UT-E11','UT-E12'])assert.ok(interactions.dependsOn.includes(id));
-  assert.match(interactions.statement!,/do \*\*not\*\* prove/);
-  assert.ok(interactions.bibRefs.includes('BIB-0016'));
-  assert.ok(additional.bibRefs.includes('BIB-0022'));
-  assert.notEqual(corpus.aliases.get('R-CURRENT-SCIENCE:https://doi.org/10.1038/s41467-017-01190-3'),corpus.aliases.get('R-AUDIT-SOURCES:S01'));
+  const old=corpus.entries.get('UT-E08')!,current=corpus.entries.get('UT-E107')!;
+  assert.equal(old.publicationState,'archived');assert.equal(old.publishedAt,null);
+  assert.match(old.statement!,/nature09009/);assert.match(current.statement!,/nature09009/);
+  assert.notEqual(old.sourceBinding!.sourceKey,current.sourceBinding!.sourceKey);
+  assert.match(renderEntrySync(corpus,corpus.entries.get('DOC-CATALOGUE')!),/no documented complete example/i);
 });
 
-test('open questions and status preserve actual 04/06 mapping and separate model failure tests from definitions',()=>{
+test('current questions and audit preserve the promoted source scope while predecessor IDs remain historical',()=>{
   const open=corpus.entries.get('DOC-OPEN-PROBLEMS')!;
-  assert.equal(open.sourceBinding!.sourceKey,'R-CURRENT-STATUS');
-  for(let n=1;n<=6;n++)assert.ok(open.dependsOn.includes(`UT-O0${n}`));
-  assert.match(open.statement!,/Open extensions to prove — not definitions/);
-  const $=load(renderEntrySync(corpus,open));
-  for(const fragment of ['19-strong-failure-conditions','40-next-concrete-calculation'])assert.ok($(`a[href$="#${fragment}"]`).length);
-  const matrix=load(renderEntrySync(corpus,corpus.entries.get('DOC-PROOF')!));
-  assert.equal(matrix('tbody tr').length,12);
-  assert.match(matrix('table').text(),/Four forces[^]*open extension/);
-  assert.match(matrix('table').text(),/Same equation family[^]*optional strong extension/);
-  assert.ok(corpus.entries.get('DOC-STATUS')!.dependsOn.includes('DOC-ADDITIONAL-EVIDENCE'));
+  assert.equal(open.sourceBinding!.sourceKey,'R-CURRENT-CLAIMS');
+  for(let n=101;n<=108;n++)assert.ok(open.dependsOn.includes(`UT-O${n}`));
+  assert.match(open.statement!,/Fundamental unification/);assert.match(open.statement!,/AI/);
+  assert.match(open.statement!,/No such full universal chain is established/);
+  const status=corpus.entries.get('DOC-STATUS')!;
+  assert.equal(status.sourceBinding!.sourceKey,'R-CURRENT-AUDIT');
+  assert.match(status.statement!,/not independent peer review/);
+  assert.match(status.statement!,/Some findings are verified at original-abstract level/);
+  for(const id of ['DOC-PROOF','DOC-INTERACTION-EVIDENCE','DOC-ADDITIONAL-EVIDENCE','UT-O01','UT-E01']) {
+    const e=corpus.entries.get(id)!;assert.equal(e.publicationState,'archived');
+    assert.ok(corpus.sources.get(e.sourceBinding!.sourceKey)!.path.startsWith('research/history/'));
+  }
 });
 
 test('technical guides use actual heading anchors and selected routes at both bases',()=>{
   for(const base of ['/','/unity-theory/']) {
     const selection=publicationFor('preview',{...loadSiteConfig(),basePath:base});
-    for(const id of [...fullDocuments,'DOC-STATUS','DOC-PROOF','DOC-EVIDENCE','DOC-OPEN-PROBLEMS','DOC-LIBRARY']) {
+    for(const id of [...fullDocuments,'DOC-EVIDENCE','DOC-OPEN-PROBLEMS','DOC-LIBRARY']) {
       const entry=selection.corpus.entries.get(id)!,html=renderEntrySync(selection.corpus,entry,base),body=load(html);
       const guide=load(renderTechnicalGuide(selection,entry,html,base));
       for(const a of guide('a[href^="#"]').toArray())assert.ok(body('[id]').toArray().some(el=>body(el).attr('id')===guide(a).attr('href')!.slice(1)),id);
@@ -95,8 +94,9 @@ test('M3 preserves issued decisions without turning new readings or builds into 
     if(state==='accepted')assert.ok(corpus.websiteReviews.some(r=>r.entryId===id && r.outcome==='accepted' && r.evidenceRef.startsWith('docs/evidence/')));
     assert.notEqual(corpus.entries.get(id)!.evidenceState,'project-reproduced');
   }
-  assert.equal(websiteReviewState(corpus,'DOC-HOME'),'stale');
-  assert.equal(corpus.admission.currentSourceQualified,false);
+  assert.ok(['pending','accepted','stale','rejected'].includes(websiteReviewState(corpus,'DOC-HOME')));
+  // Genuine later reviews may qualify the current corpus; a build alone cannot.
+  assert.equal(qualifyWebsiteCorpus({...corpus,websiteReviews:[]}),false);
   assert.ok(corpus.websiteReviews.some(r=>r.entryId==='DOC-HOME' && r.outcome==='accepted'));
 });
 

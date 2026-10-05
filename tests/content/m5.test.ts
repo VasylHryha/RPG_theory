@@ -13,7 +13,7 @@ import {loadSiteConfig} from '../../src/lib/site-config.js';
 import {sha256} from '../../src/lib/identity.js';
 
 test('M5 actual identity stays pending and every rights surface preserves separate scope and lawful exceptions',()=>{
- const c=publicationCredit();assert.equal(c.approvedCredit,null);assert.equal(c.approvedContact,null);assert.equal(c.approvedRepository,null);assert.equal(c.approvedOrcid,null);
+ const c=publicationCredit();assert.equal(c.approvedCredit,null);assert.equal(c.approvedContact,null);assert.equal(c.approvedRepository?.owner,'VasylHryha');assert.equal(c.approvedRepository?.name,'RPG_theory');assert.equal(c.approvedOrcid,null);
  for(const base of ['/','/unity-theory/']) {
   const about=load(renderAbout(c,base)),legal=load(renderLegal(c,base)),footer=load(renderFooter(base,c));
   assert.match(about.text(),/no personal identity inferred/);assert.match(legal.text(),/Website code: selection pending/);assert.match(legal.text(),/Research prose and figures: selection pending/);assert.match(legal.text(),/Data and evidence: selection pending/);assert.match(legal.text(),/lawful exceptions/);assert.match(legal.text(),/not retroactively removed/);assert.match(footer.text(),/No additional license/);
@@ -57,10 +57,12 @@ test('M5 targeted legal-copy control flags the faux any-use royalty claim; a par
 });
 test('M5 actual workflow is read-only for PRs and manual artifact-bound for deploy; privileged PR mutation refuses',()=>{
  assert.equal(validateContributionWorkflow().status,'PASS');
+ const actual=parse(readFileSync('.github/workflows/site.yml','utf8'));assert.deepEqual(actual.on.push,{branches:['main']});
  const root=mkdtempSync(join(tmpdir(),'unity-m5-workflow-'));
  try {
   cpSync('.github',join(root,'.github'),{recursive:true});const path=join(root,'.github/workflows/site.yml'),w=parse(readFileSync(path,'utf8'));
   w.jobs.deploy.if="github.event_name == 'pull_request'";writeFileSync(path,stringify(w));assert.throws(()=>validateContributionWorkflow(root),/UNSAFE_PUBLICATION_WORKFLOW/);
+  w.jobs.deploy.if=actual.jobs.deploy.if;w.on.push={tags:['*']};writeFileSync(path,stringify(w));assert.throws(()=>validateContributionWorkflow(root),/UNSAFE_PUBLICATION_WORKFLOW/);
  }finally{rmSync(root,{recursive:true,force:true});}
 });
 test('M5 public repository screen refuses private/history paths and reports secret locations without values',()=>{

@@ -4,18 +4,18 @@
   "route": "/examples/life-environment/",
   "title": "Life changes its environment",
   "description": "An organization can alter conditions for other organisms and reactions.",
-  "revision": 1,
+  "revision": 2,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
-    "R-CURRENT-WORLD",
-    "R-CURRENT-SCIENCE"
+    "R-CURRENT-SCIENCE",
+    "R-CURRENT-WORLD"
   ],
   "dependsOn": [
     "UT-C02",
@@ -33,7 +33,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Added beginner photosynthesis illustration mapped to world \u00a710 and background addendum, framework \u00a7\u00a78, 13, 21 and core \u00a711. Factual background is supplementary; oxygenation is not certified as a universal RRG ladder.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Added beginner photosynthesis illustration mapped to world §10 and background addendum, framework §§8, 13, 21 and core §11. Factual background is supplementary; oxygenation is not certified as a universal RRG ladder.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null

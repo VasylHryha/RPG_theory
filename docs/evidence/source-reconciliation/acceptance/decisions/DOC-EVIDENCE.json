@@ -1,0 +1,295 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EVIDENCE",
+  "fingerprint": "0a3205ad9524ee8f2fb7a92f218058239ada9816c1a901cc12f721df90957d6b",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T12:08:15.325Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the complete 22-row derived table to the catalogue case index and cards. E04/E09 simulation, E14/E21 theory, E17 mixed report/constraint, E22 nonresonant comparator, all other result types and roles match. Old UT-E IDs stay explicitly historical.",
+  "inputs": {
+    "fingerprint": "0a3205ad9524ee8f2fb7a92f218058239ada9816c1a901cc12f721df90957d6b",
+    "ownRead": {
+      "id": "DOC-EVIDENCE",
+      "route": "/evidence/",
+      "title": "Evidence and its scope",
+      "description": "Source-reported support, mapped claims and the questions that remain open.",
+      "revision": 2,
+      "kind": "research-status",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-REGISTER",
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [
+        "DOC-CATALOGUE",
+        "DOC-CLAIM-COVERAGE",
+        "UT-E101",
+        "UT-E102",
+        "UT-E103",
+        "UT-E104",
+        "UT-E105",
+        "UT-E106",
+        "UT-E107",
+        "UT-E108",
+        "UT-E109",
+        "UT-E110",
+        "UT-E111",
+        "UT-E112",
+        "UT-E113",
+        "UT-E114",
+        "UT-E115",
+        "UT-E116",
+        "UT-E117",
+        "UT-E118",
+        "UT-E119",
+        "UT-E120",
+        "UT-E121",
+        "UT-E122"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Source-reported support, mapped claims and the questions that remain open.",
+      "evidenceState": "not-applicable",
+      "body": "## Read the evidence in context\n\nThe [current catalogue](/evidence/catalogue/) contains 22 cases. It distinguishes **result type** from **RRG relation**. Each reports what happened, what apparatus or conditions were supplied, what remains open and what the source audit inspected. These are source-reported checks, not experiments or independent paper reviews performed by this website.\n\nThe [claims and boundaries](/research-status/claims/) explain why separate examples do not automatically form a demonstrated universal causal chain. The [optional mathematics](/math/illustrations/) remains conditional illustration.\n\n## Current case records\n\n| Source case | Web reading | Result type | RRG relation |\n|---|---|---|---|\n| v0.2.1:E01 | :claim[UT-E101] — Mechanical synchronization | experiment | component / constraint |\n| v0.2.1:E02 | :claim[UT-E102] — Chladni particle manipulation | experiment | component |\n| v0.2.1:E03 | :claim[UT-E103] — Acoustic microparticle trapping | experiment | component |\n| v0.2.1:E04 | :claim[UT-E104] — Noise-assisted patterning model | simulation | component |\n| v0.2.1:E05 | :claim[UT-E105] — Stationary Turing patterns | experiment | component / comparator |\n| v0.2.1:E06 | :claim[UT-E106] — Forced chemical patterns | experiment | partial bridge |\n| v0.2.1:E07 | :claim[UT-E107] — Atom–cavity self-organization | experiment | partial bridge |\n| v0.2.1:E08 | :claim[UT-E108] — Colloidal swarmalators | experiment | partial bridge |\n| v0.2.1:E09 | :claim[UT-E109] — Simulated resonance selection | simulation | partial bridge |\n| v0.2.1:E10 | :claim[UT-E110] — Replicating chemical spots | experiment | partial bridge |\n| v0.2.1:E11 | :claim[UT-E111] — Replicating suspension holes | experiment | partial bridge |\n| v0.2.1:E12 | :claim[UT-E112] — Driven magnetic assembly | experiment | partial bridge |\n| v0.2.1:E13 | :claim[UT-E113] — Cooperative RNA networks | experiment | structural analogue / partial bridge |\n| v0.2.1:E14 | :claim[UT-E114] — Collective reduction and memory | theory / mathematical derivation | partial bridge |\n| v0.2.1:E15 | :claim[UT-E115] — Engineered lattice dynamics | experiment | partial bridge |\n| v0.2.1:E16 | :claim[UT-E116] — Confinement-dependent packing | experiment and simulation | component / comparator |\n| v0.2.1:E17 | :claim[UT-E117] — Low-absorption selection | simulation; published report also includes experimental evidence | constraint |\n| v0.2.1:E18 | :claim[UT-E118] — Optical binding | experiment | partial bridge |\n| v0.2.1:E19 | :claim[UT-E119] — Random-light interactions | experiment and theory | partial bridge |\n| v0.2.1:E20 | :claim[UT-E120] — Replicating granular bands | experiment | partial bridge |\n| v0.2.1:E21 | :claim[UT-E121] — Controlled amplitude approximation | theory / mathematical derivation | partial bridge |\n| v0.2.1:E22 | :claim[UT-E122] — Nonresonant granular transport | experiment | constraint / comparator |\n\n## Previous edition\n\nEarlier UT-E01–UT-E12 identify different predecessor records. Their IDs and source citations remain in explicitly historical readings; they are not renumbered into this catalogue or counted as additional confirmations. [Browse the document library](/documents/).\n",
+      "sourceMapping": "Selected v0.2.1 companion, evidence catalogue and claim coverage; source-reported findings and limits.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "DOC-CATALOGUE",
+        "semanticDigest": "e3ff7506c19e4c17afc19191a645cf5fe81ecab631b221257dab1249939c2155"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "5242ca4a4d3c1d38e93e6b3ee073bdb251defd04965095d3cc7d528ef0e10820"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "508f72a1c032925d89f0579aa7e4ccf8d6d26d95cc58af1c547c9477ce4e494f"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "622d51b22ae01652baccf4ef808fe1596f66824a6562f2b5bc09939735f941a4"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "e63119326f25862de27d3cf265a6af8b71e6a587a8357c2a61f6d18cdda3d1e7"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ba24845b313aacf063d30c124d5fa4aef773cba1e32c5f1a54b1812906960b4b"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "7e15e280cd724c78444744ec618d0142aaf577b2865aae76bb26b2be36921358"
+      },
+      {
+        "entryId": "UT-E101",
+        "semanticDigest": "cfc6c7104a9060364995738f0cb88fa07dd4b278b7cd0e27eeb143b45d4d85ae"
+      },
+      {
+        "entryId": "UT-E102",
+        "semanticDigest": "0e6fab84653b2a3bf777a7dc40fdfd575886af7b72ca5da2e9a229562a65e270"
+      },
+      {
+        "entryId": "UT-E103",
+        "semanticDigest": "15992c5fea816f04e87b6ca4300577d62e9795945ca78d7916f9aad30f359431"
+      },
+      {
+        "entryId": "UT-E104",
+        "semanticDigest": "771f5e83f2b84237e115df9d968512306f09ccec4c3467dbe4bb8db4c90af7e2"
+      },
+      {
+        "entryId": "UT-E105",
+        "semanticDigest": "8600e428a7b8d3dfb33d19543da59abf8e1e32c845966159351ad84a13f84cfb"
+      },
+      {
+        "entryId": "UT-E106",
+        "semanticDigest": "f1090bc811b0b908e4c4601940cdc71c015dfe47359db03ea5e5f49ae5f8ad98"
+      },
+      {
+        "entryId": "UT-E107",
+        "semanticDigest": "f98acd0315a2a720c2e8476e9ebd91b40910bb4eadb20fc6543230601a9c6d8f"
+      },
+      {
+        "entryId": "UT-E108",
+        "semanticDigest": "410dfa82dfc95c231f93307ed92adb5c058dc2e66cd36af4fdbc7628ea523060"
+      },
+      {
+        "entryId": "UT-E109",
+        "semanticDigest": "8367ccaf05d77f46baf24ebaf91e7b61349f865fe8eb1170e61882c021423e3a"
+      },
+      {
+        "entryId": "UT-E110",
+        "semanticDigest": "696a9ec18f9a396c5f9c8f962a423461e82d277a118e802c7b2753cfe5d51bd0"
+      },
+      {
+        "entryId": "UT-E111",
+        "semanticDigest": "4ee4b25977357ef6c24d845199c692c7e1a85d4ca2b87607810f6d3ce25c8d5a"
+      },
+      {
+        "entryId": "UT-E112",
+        "semanticDigest": "73f98f0cd9725e2f220800fc5fb960a48f900a7baafbe5f80e3e52ba794bd671"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "d93022d33a569251b71d4c64a71491c5da91b28d54e7efae585f43a7cc14f0b5"
+      },
+      {
+        "entryId": "UT-E114",
+        "semanticDigest": "317374a7a68a3d82498feb0ff9d7182d48a479a8d36cfe0688de70b64e0c5fed"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "3c48a5e677a03869ac8054b4237788250b4b7f4094d68f81679149081464bbef"
+      },
+      {
+        "entryId": "UT-E116",
+        "semanticDigest": "dec8de62880896a38099619d1f540e0e021774e171a18d698f338f135977dc6f"
+      },
+      {
+        "entryId": "UT-E117",
+        "semanticDigest": "4f9fa08590eac02cf23ff10fbc4a136fe25424faea30feb36a369ee50423e556"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "eaf4c5d0ff0913accb36958eaad2146bfaa77ec54c877c96a2ea85e921f87af7"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "f2be6fb0151e271d463cde645c7fe5c5639a3188fb877394093fbb39ac97279b"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "46fb36a2d13cb4391f258d701aa0cf2f26bf9a0092ba75503ba7324ed9343ccf"
+      },
+      {
+        "entryId": "UT-E121",
+        "semanticDigest": "ab266a2f355c5b6a493016752b967c8b2dbdba32262c2bad8432b5c105c601e2"
+      },
+      {
+        "entryId": "UT-E122",
+        "semanticDigest": "aa49fda3ec9aebc4e127027fe70b33dda4317564e13f5fadee0f964ea1f27f1a"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "1a99799b4c21eb65ca852bc1e787807345a5da687ba0404d84fe7943d1fe07a6"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "fb2aa10ba1ff413353de69ec869f163484aff4f45ce5c587deae009cfb6e5d63"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "87de2300d3d3fc087531f41d91dc2ca02bcc48cee4a01017fc5c43613ad90a1c"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "0874087b77845d60b23f7f74d7f6b2956167fdb03b3a984a4b9275fc174615e9"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "c5c09eb7ffd5408c02477198d66d1f816c14fed5ca9a2fdc621c6a8c8d787d79"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "cc71303e1bb6b80671eacaa9610adc6e34b4ef1e7ee3fffdf5bb3a1d5d1e1dcc"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "270d2238b25e5c9376e39874399ab210e31a43c28f5f99956712de2f8e86041b"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "7b66baa7c79e8a3f2de61a0eeab876892fcd73063a3c1e3100c4b44f1cbcff64"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "a7e2977480e846f0524be15a51430c2ecdc39528f05718b3cb04818efe797515",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "6f1bbe22ab73a3d3e3dafca0e45221524031e296bbce5c446b6d5a3e30556d3f",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Source terminology, full mode/geometry/background meanings and the role of this reading match the supplied text and reading context.",
+    "meaning": "Compared the complete 22-row derived table to the catalogue case index and cards. E04/E09 simulation, E14/E21 theory, E17 mixed report/constraint, E22 nonresonant comparator, all other result types and roles match. Old UT-E IDs stay explicitly historical.",
+    "assumptions": "Conditional model assumptions and scope qualifiers remain supplied-source assertions; presentation notes identify optional models and current versus historical roles.",
+    "hypotheses": "The universal recursive chain and stronger branch claims retain their source-reported hypothesis boundaries; no fidelity badge is a science approval.",
+    "evidenceDescriptions": "Source-reported evidence and check coverage remain distinct from website-run experiments, independent science certification and external-paper review.",
+    "openQuestions": "Compared the source’s outstanding questions and stated limits. Universal chain, metric expansion, force derivation and unconstrained engineering remain open where addressed.",
+    "attribution": "The selected v0.2.1 source and supporting/historical role are explicit; no author identity, public-wording approval, rights or peer review is inferred.",
+    "sourceMappings": "Raw excerpt/binding and dependency/source snapshots are retained below. Actual bodies were compared at both bases; representative source-document/section/original/history journeys reuse implementation browser evidence. Comparison evidence: docs/evidence/source-reconciliation/acceptance/comparison.json; history-check.json. Four archive-note repairs were checked in affected final output. No acceptance is issued to unseen entries or dependencies."
+  }
+}

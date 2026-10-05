@@ -1,0 +1,95 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E110",
+  "fingerprint": "d0ca20d1bd63c9987f54d3c95126903e65cdfa2b5f328e0aebcd89ae0e68e3c4",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T15:32:57.561Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/source-reconciliation/acceptance/decisions/UT-E110.json. Retained semantic finding: Compared UT-E110, Replicating chemical spots, to its complete source-scoped case card. experiment; partial bridge; source-reported C5. Supplied conditions, reported finding, verification coverage and study citation are preserved; limit: Pattern duplication is not automatically reproduction with heredity, or a new organizational level. Do not infer a resonant microscopic mechanism merely from the shared shape of the process.",
+  "inputs": {
+    "fingerprint": "d0ca20d1bd63c9987f54d3c95126903e65cdfa2b5f328e0aebcd89ae0e68e3c4",
+    "ownRead": {
+      "id": "UT-E110",
+      "route": "/claims/UT-E110/",
+      "title": "Replicating chemical spots",
+      "description": "Chemical spots grow and split repeatedly in a laboratory reaction–diffusion system.",
+      "revision": 1,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [
+        "BIB-0073"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "sourceSha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc",
+        "startLine": 197,
+        "endLine": 210,
+        "excerptSha256": "aaf60bfe675edac5e4b8bc6fa224a05f5540adefd19e5764b69561fad9d1cf44"
+      },
+      "statement": "## E10 — Experimental observation of self-replicating spots in a reaction–diffusion system\n\n**experiment · partial bridge · claims C5.**\n\n**Reported result:** Chemical spots grow and split repeatedly in a laboratory reaction–diffusion system.\n\n**Already supplied:** Reactive chemicals and nonequilibrium experimental conditions are supplied.\n\n**Limit of the RRG connection:** Pattern duplication is not automatically reproduction with heredity, or a new organizational level. Do not infer a resonant microscopic mechanism merely from the shared shape of the process.\n\n**Source:** Lee, McCormick, Pearson & Swinney (1994), *Nature 369, 215–218*. [DOI: 10.1038/369215a0](https://doi.org/10.1038/369215a0).\n\n**Verification coverage:** Publisher abstract and bibliographic record. Checked 2026-10-02.\n\n",
+      "plainLanguage": "",
+      "scope": "experiment; partial bridge; source-reported C5.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "v0.2.1:E10 → UT-E110; source-local ID retains its edition; predecessor UT-E IDs are historical.",
+      "adapter": "rrg-evidence-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "Pattern duplication is not automatically reproduction with heredity, or a new organizational level. Do not infer a resonant microscopic mechanism merely from the shared shape of the process.",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "394e8c9db44b72de50df118f652e2017540aff1796075645a82b4a3935778cc0",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "394e8c9db44b72de50df118f652e2017540aff1796075645a82b4a3935778cc0",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "The source's independent labels remain experiment; partial bridge; source-reported C5. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "meaning": "Compared UT-E110, Replicating chemical spots, to its complete source-scoped case card. experiment; partial bridge; source-reported C5. Supplied conditions, reported finding, verification coverage and study citation are preserved; limit: Pattern duplication is not automatically reproduction with heredity, or a new organizational level. Do not infer a resonant microscopic mechanism merely from the shared shape of the process. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "assumptions": "Compared the card’s Already supplied paragraph; apparatus, driving, chosen model or mathematical regime is retained. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "hypotheses": "The universal recursive chain and stronger branch claims retain their source-reported hypothesis boundaries; no fidelity badge is a science approval. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "evidenceDescriptions": "Reported result, result type, relation, limitations and verification-depth paragraphs match the raw case card; evidenceState remains project-reported. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "openQuestions": "Pattern duplication is not automatically reproduction with heredity, or a new organizational level. Do not infer a resonant microscopic mechanism merely from the shared shape of the process. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "attribution": "Source-scoped R-CURRENT-CATALOGUE, DOI/bibliography alias and title match the case; preprint/journal versions are not counted twice. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/source-reconciliation/acceptance/decisions/UT-E110.json. Retained semantic finding: Compared UT-E110, Replicating chemical spots, to its complete source-scoped case card. experiment; partial bridge; source-reported C5. Supplied conditions, reported finding, verification coverage and study citation are preserved; limit: Pattern duplication is not automatically reproduction with heredity, or a new organizational level. Do not infer a resonant microscopic mechanism merely from the shared shape of the process. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision."
+  }
+}

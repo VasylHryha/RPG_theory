@@ -7,7 +7,7 @@ import {installSyntheticReview} from './fidelity-fixture.js';
 import {renderRecordDetails} from '../../src/lib/presentation.js';
 import {selectPublication} from '../../src/lib/publication.js';
 import {loadSiteConfig} from '../../src/lib/site-config.js';
-import {websiteReviewState} from '../../src/lib/website-review.js';
+import {websiteReviewState,qualifyWebsiteCorpus} from '../../src/lib/website-review.js';
 const corpus=loadCanonicalCorpus();
 test('M2 examples and concepts use the admitted source edition and explicit original-source mappings',()=>{
   const ids=['DOC-EXAMPLES','DOC-CONCEPTS',...['WATER','STRING','MOLECULE','STAR','LIFE','CELL'].map(s=>'DOC-EXAMPLE-'+s),...['GEOMETRY','STABILITY','RECURSION','INTERACTIONS'].map(s=>'DOC-CONCEPT-'+s)];
@@ -17,7 +17,7 @@ test('M2 examples and concepts use the admitted source edition and explicit orig
     assert.equal(entry.researchEdition,corpus.admission.edition);assert.equal(entry.publicationState,'draft');
     assert.ok(entry.sourceMapping);assert.ok(entry.sourceRefs.includes('R-CURRENT-CORE'));
   }
-  assert.ok(dependencyClosure(corpus,'DOC-CONCEPT-INTERACTIONS').includes('UT-E12'));
+  assert.ok(dependencyClosure(corpus,'DOC-CONCEPT-INTERACTIONS').includes('UT-E119'));
   assert.ok(dependencyClosure(corpus,'DOC-START').includes('UT-C02'));
   const start=corpus.entries.get('DOC-START')!.body;
   const words=start.split(/\s+/).filter(Boolean).length;assert.ok(words>=650 && words<=950,`Introduction word diagnostic: ${words}`);
@@ -72,5 +72,5 @@ test('M2 rendering changes invalidate preserved predecessor decisions independen
   const c=loadCanonicalCorpus();
   c.websiteReviews=c.websiteReviews.filter(review=>!['DOC-EXAMPLE-WATER','DOC-CONCEPT-INTERACTIONS'].includes(review.entryId));
   for(const id of ['DOC-EXAMPLE-WATER','DOC-CONCEPT-INTERACTIONS'])assert.equal(websiteReviewState(c,id),'pending');
-  assert.equal(c.admission.currentSourceQualified,false);
+  assert.equal(qualifyWebsiteCorpus(c),false);
 });

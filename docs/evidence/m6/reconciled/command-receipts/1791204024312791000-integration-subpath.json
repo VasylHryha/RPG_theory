@@ -1,0 +1,18 @@
+{
+  "stage": "integration",
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/check-m6-integration.ts",
+    "--dir",
+    "dist/m6-reconciled/subpath",
+    "--evidence-dir",
+    "docs/evidence/m6/reconciled",
+    "--lighthouse",
+    "false"
+  ],
+  "log": "docs/evidence/m6/reconciled/integration-subpath.log",
+  "exitCode": 0,
+  "elapsedSeconds": 49.2
+}

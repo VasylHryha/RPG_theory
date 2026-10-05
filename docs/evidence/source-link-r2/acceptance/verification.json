@@ -1,0 +1,245 @@
+{
+  "schema": "unity-source-link-r2-bounded-high-acceptance/1",
+  "date": "2026-10-05T15:58:59.193Z",
+  "role": "separate High reviewer",
+  "decision": "ACCEPTED_BOUNDED_R2_AND_APPLICABLE_PRIVATE_M6",
+  "completePublicM6": "INCOMPLETE",
+  "M7": "NOT_AUTHORIZED_NOT_BEGUN",
+  "head": "2615299bfeef5beb3665337b7f3c5623a82cf4d0",
+  "inputs": {
+    "inputsSha256": "6a7ee40c85448581ca970bfee2f0334a4f69f4993c89b772fde8094892ff53ad",
+    "lockfileSha256": "bed1c6ee69510c10ef2c541f561d26536fd5415e4df351a8d4f8c1d8e1e36cb0",
+    "contentSha256": "0aca03146b9b379ebc995f5be9966001331d6728f0920d499663ad4ecdee304a"
+  },
+  "reviewStates": {
+    "accepted": 75,
+    "pending": 0,
+    "stale": 21,
+    "rejected": 0
+  },
+  "currentEntries": 75,
+  "archivedEntries": 21,
+  "currentSourceQualified": true,
+  "deployEligible": false,
+  "scientificCertification": false,
+  "authorApproval": "PENDING",
+  "artifacts": [
+    {
+      "base": "/",
+      "dir": "dist/source-link-r2-accepted/root",
+      "mode": "preview",
+      "files": 269,
+      "html": 104,
+      "artifactSha256": "5a47c705871f253b361427b0a5dce64ca1ebdcab5fbc8d97e4c6010c217daa64",
+      "inputsSha256": "6a7ee40c85448581ca970bfee2f0334a4f69f4993c89b772fde8094892ff53ad",
+      "publicationManifestSha256": "2b1b2494cdfda528621cc34f9eedc30e2e51c87084364b584d6dacb017a0b9a9",
+      "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "currentSourceQualified": true,
+      "deployEligible": false,
+      "publishedReadings": 0,
+      "unchangedAfterChecks": true,
+      "browser": {
+        "startTime": "2026-10-05T15:42:42.149Z",
+        "duration": 2561.13,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "base": "/unity-theory/",
+      "dir": "dist/source-link-r2-accepted/subpath",
+      "mode": "preview",
+      "files": 269,
+      "html": 104,
+      "artifactSha256": "5dc967a14a9cdbd9113c4f64a6b1d926c97f9f46d4edc03b4d9f20e3713eaadd",
+      "inputsSha256": "6a7ee40c85448581ca970bfee2f0334a4f69f4993c89b772fde8094892ff53ad",
+      "publicationManifestSha256": "2b1b2494cdfda528621cc34f9eedc30e2e51c87084364b584d6dacb017a0b9a9",
+      "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "currentSourceQualified": true,
+      "deployEligible": false,
+      "publishedReadings": 0,
+      "unchangedAfterChecks": true,
+      "browser": {
+        "startTime": "2026-10-05T15:53:13.496Z",
+        "duration": 2213.183,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    }
+  ],
+  "checks": {
+    "freshAffectedContent": 17,
+    "freshNoJSJourneys": 2,
+    "actualCorpusComparison": "final-corpus.json",
+    "rawRelevantSources": 21,
+    "sourceBindings": 56,
+    "matchedBodiesAndExportsPerBase": 75,
+    "selectedBibliographyRepresentations": 81,
+    "zipMembers": 102,
+    "coldReading": [
+      {
+        "route": "/evidence/source-links/",
+        "status": "PASS",
+        "ownedColdGzipEquivalentBytes": 74947,
+        "initialJSGzipBytes": 0,
+        "assets": [
+          {
+            "url": "http://127.0.0.1:55479/evidence/source-links/",
+            "gzipBytes": 20960,
+            "resource": "document"
+          },
+          {
+            "url": "http://127.0.0.1:55479/_astro/katex.min.BNLSuGWh.css",
+            "gzipBytes": 7952,
+            "resource": "stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:55479/_astro/ReadingLayout.B_EPQKDX.css",
+            "gzipBytes": 3267,
+            "resource": "stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:55479/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+            "gzipBytes": 16468,
+            "resource": "font"
+          },
+          {
+            "url": "http://127.0.0.1:55479/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+            "gzipBytes": 26300,
+            "resource": "font"
+          }
+        ],
+        "browserVersion": "153.0.8010.12",
+        "accounting": "Same M6 accounting: fresh browser context, local no-store output server; gzip of owned received bodies including embedded CSS fonts, not on-wire compression. Technical-reading budget 750 KiB; initial JS 15 KiB."
+      },
+      {
+        "route": "/unity-theory/evidence/source-links/",
+        "status": "PASS",
+        "ownedColdGzipEquivalentBytes": 75188,
+        "initialJSGzipBytes": 0,
+        "assets": [
+          {
+            "url": "http://127.0.0.1:55482/unity-theory/evidence/source-links/",
+            "gzipBytes": 21181,
+            "resource": "document"
+          },
+          {
+            "url": "http://127.0.0.1:55482/unity-theory/_astro/katex.min.CdFUmFPj.css",
+            "gzipBytes": 7972,
+            "resource": "stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:55482/unity-theory/_astro/ReadingLayout.B_EPQKDX.css",
+            "gzipBytes": 3267,
+            "resource": "stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:55482/unity-theory/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+            "gzipBytes": 16468,
+            "resource": "font"
+          },
+          {
+            "url": "http://127.0.0.1:55482/unity-theory/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+            "gzipBytes": 26300,
+            "resource": "font"
+          }
+        ],
+        "browserVersion": "153.0.8010.12",
+        "accounting": "Same M6 accounting: fresh browser context, local no-store output server; gzip of owned received bodies including embedded CSS fonts, not on-wire compression. Technical-reading budget 750 KiB; initial JS 15 KiB."
+      }
+    ],
+    "qualification": {
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/build.ts",
+        "--mode",
+        "qualification",
+        "--config",
+        "config/site.json",
+        "--output",
+        "dist/source-link-r2-accepted/qualification-refusal"
+      ],
+      "exitCode": 1,
+      "elapsedSeconds": 3.62,
+      "diagnostic": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false,
+      "publishedSelection": 0,
+      "currentSourceQualified": true,
+      "cause": "Empty intended published selection; current private website fidelity is accepted.",
+      "publicTarget": "NOT_AUTHORIZED_OR_CONFIGURED",
+      "status": "EXPECTED_REFUSAL"
+    },
+    "sandboxListenerFailure": "browser-root.log",
+    "freshMonolithicVerification": false
+  },
+  "semanticReuse": {
+    "unchanged": 68,
+    "changedOrNew": 7,
+    "changedDependenciesExplicitlyCompared": [
+      "DOC-START",
+      "DOC-EXAMPLES"
+    ],
+    "basis": "comparison-corpus.json; material-comparison.md"
+  },
+  "technicalReuse": {
+    "r2Implementation": "24 main content passes plus one targeted repaired assertion; ten focused Chromium passes at four widths",
+    "reconciledM6": "dated engine/search/correction/stress/Lighthouse/layout/clean-install evidence for unchanged mechanics",
+    "identityEvidence": "reuse-identities.json",
+    "freshFullEngineStressLighthouseInstallRun": false
+  },
+  "remainingGates": [
+    "Author first-public wording and published launch selection",
+    "Approved identity/contact/ORCID/permanent URL",
+    "Scoped code/research/data rights, privacy/legal/content/release approval",
+    "Actual authorized target/origin/base",
+    "Platform protections/private capture",
+    "Chosen CI/remote qualification",
+    "Actual screen-reader/MathML",
+    "Current read-aloud listening",
+    "Human comprehension",
+    "Complete original GPT/Library package provenance",
+    "Field CWV unmeasured; scoped Fu full Methods/manual seed and version-text equivalence unestablished"
+  ],
+  "preservation": {
+    "status": "PASS_TASK_SCOPE_WITH_RUNTIME_PROVENANCE_NOTE",
+    "head": "2615299bfeef5beb3665337b7f3c5623a82cf4d0",
+    "stagedBaselineUnchanged": true,
+    "baselineFiles": 3397,
+    "changedBaselineFiles": [
+      {
+        "path": "research/publication/references.yaml",
+        "priorSha256": "b7d0967992f59016729e9fa87eabb496a72fb2c78a1953c92953e3196086fcc0",
+        "currentSha256": "a46d3d01d0cfb918dbfcae2a9cd97b2efabd3a761ce37f69edb028d66d9cf739",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "research/publication/website-reviews.yaml",
+        "priorSha256": "09ab7e76d3b10999e2107e98286fe7879cb2d3bfda0ea6919728aabe8a4d6431",
+        "currentSha256": "e09c3f9ced3700d8b7c996229e4f9e2ef7c14e27f0da93b0b91a97ea9ba0337e",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+        "priorSha256": "27b466434b920768192e4e260eb7b5cf950fe3e253c103bfbfc71247db56d55f",
+        "currentSha256": "86b23adb82b033f1f4230ac3f2a114e03cada3773d7b126f760cd6f9203a20a5",
+        "ownership": "task-owned"
+      },
+      {
+        "path": ".idea/.idea.RPG_theory/.idea/workspace.xml",
+        "priorSha256": "5e64b2b61cb90189e847d12b9155fb1da03b5574c1ffcf9298c7f552fb7ff55d",
+        "currentSha256": "3a3e7cadb1c09f64e7c52db6aa7501b3f8ee517370fc1aec92f92cc85c3816f5",
+        "ownership": "unowned Rider runtime; origin unestablished; no task write/restore"
+      }
+    ],
+    "missing": [],
+    "priorEvidenceFilesVerifiedUnchanged": 3145,
+    "scientificAndHistoryFilesVerifiedUnchanged": 53,
+    "noCommitPushDeployDNSLicenseM7": true
+  }
+}

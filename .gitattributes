@@ -2,3 +2,11 @@ research/RRG_CURRENT/** -text
 research/history/** -text
 research/project-notes/** -text
 *.zip -text
+
+# Preserve captured evidence and supplied Markdown bytes, including hard breaks.
+docs/evidence/source-reconciliation/implementation/** whitespace=-blank-at-eol,-blank-at-eof
+docs/evidence/source-reconciliation/acceptance/** whitespace=-blank-at-eol,-blank-at-eof
+docs/evidence/source-link-r2/** whitespace=-blank-at-eol,-blank-at-eof
+docs/evidence/m6/reconciled/** whitespace=-blank-at-eol,-blank-at-eof
+docs/evidence/github-pages-rebind/** whitespace=-blank-at-eol,-blank-at-eof
+docs/handoffs/** whitespace=-blank-at-eol,-blank-at-eof

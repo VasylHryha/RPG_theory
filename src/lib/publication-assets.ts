@@ -1,3 +1,6 @@
+import { documentMarkdown } from './source-links.js';
+import { exportPath, rawPath } from './source-paths.js';
+export { exportPath, rawPath } from './source-paths.js';
 import { readFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { stringify } from 'yaml';
@@ -27,11 +30,9 @@ export function workspaceIdentity() {
   try { sourceCommit=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();dirty=Boolean(execFileSync('git',['status','--porcelain','--untracked-files=normal'],{encoding:'utf8'}).trim()); } catch { /* A source archive may have no Git identity. */ }
   return {sourceCommit,workspaceDirty:dirty,workspaceInputsSha256:buildInputs().inputsSha256,commitDescribesInputs:!dirty && sourceCommit!==null};
 }
-export const exportPath=(id:string)=>`/downloads/explanatory/${id}.md`;
-export const rawPath=(key:string)=>`/downloads/original/${key}.md`;
-export function artifactPaths(exportIds:string[],sourceKeys:string[],releaseId:string,preview:boolean) {
+export function artifactPaths(exportIds:string[],sourceKeys:string[],releaseId:string,preview:boolean,sources?:Corpus['sources']) {
   if(!/^[a-zA-Z0-9][a-zA-Z0-9.-]*$/.test(releaseId))throw new ContractError('INVALID_RELEASE','Unsafe release filename');
-  return [...exportIds.map(exportPath),...sourceKeys.map(rawPath),'/downloads/release.json','/downloads/SHA256SUMS','/downloads/THIRD-PARTY-NOTICES.txt',`/downloads/unity-theory-publication-${releaseId}${preview?'-preview':''}.zip`];
+  return [...exportIds.map(exportPath),...sourceKeys.map(key=>rawPath(key,sources?.get(key)?.path)),'/downloads/release.json','/downloads/SHA256SUMS','/downloads/THIRD-PARTY-NOTICES.txt',`/downloads/unity-theory-publication-${releaseId}${preview?'-preview':''}.zip`];
 }
 type Selection={corpus:Corpus;entries:Entry[];references:any[];manifest:{mode:string;releaseId:string;releaseAt:string;exportIds:string[];sourceDownloadKeys:string[];feedIds:string[];[key:string]:unknown};manifestSha256:string};
 
@@ -40,20 +41,22 @@ type Selection={corpus:Corpus;entries:Entry[];references:any[];manifest:{mode:st
 const markdownTitle=(title:string)=>title.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/[\\`*_\[\]#]/g,'\\$&');
 const exportHeadingIds=new WeakMap<Entry,Set<string>>();
 function headingIds(corpus:Corpus,e:Entry){
- let ids=exportHeadingIds.get(e);if(!ids){const $=load(renderMarkdownSync(`# ${markdownTitle(e.title)}\n\n${sourceDisplay(e.statement ?? '',e.adapter)}\n\n${e.body}`,'/',corpus));ids=new Set($('[id]').toArray().map(el=>$(el).attr('id')!));exportHeadingIds.set(e,ids);}return ids;
+ let ids=exportHeadingIds.get(e);if(!ids){const $=load(renderMarkdownSync(documentMarkdown(`# ${markdownTitle(e.title)}\n\n${sourceDisplay(e.statement ?? '',e.adapter)}\n\n${e.body}`,corpus,e),'/',corpus));ids=new Set($('[id]').toArray().map(el=>$(el).attr('id')!));exportHeadingIds.set(e,ids);}return ids;
 }
 export function explanatoryMarkdown(corpus:Corpus,entry:Entry,config:SiteConfig,selectedEntries=[...corpus.entries.values()]) {
   if(entry.publicationState==='withdrawn')throw new ContractError('WITHDRAWN_EXCERPT',entry.id);
-  let text=exportDirectiveMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter)+'\n\n'+entry.body,corpus);
+  let text=exportDirectiveMarkdown(documentMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter)+'\n\n'+entry.body,corpus,entry),corpus);
   const tree=parseMarkdown(text);
   const edits:{start:number;end:number;value:string}[]=[];
   function walk(node:any) {
     if(['code','inlineCode','math','inlineMath'].includes(node.type))return;
     if(node.url?.startsWith('/') && node.position) {
       const fragment=node.url.indexOf('#');const route=fragment<0?node.url:node.url.slice(0,fragment);
-      const target=selectedEntries.find(e=>e.route===route && e.publicationState!=='withdrawn');
+      // Archived readings can exist in a private HTML preview, but they are
+      // excluded from explanatory downloads. Keep those as website links.
+      const target=selectedEntries.find(e=>e.route===route && !['withdrawn','archived'].includes(e.publicationState));
       const targetFragment=fragment<0?'':decodeURIComponent(node.url.slice(fragment+1));
-      const absolute=target?`./${target.id}.md${targetFragment && headingIds(corpus,target).has(targetFragment)?'#'+targetFragment:''}`:route==='/references/'?`../bibliography.md${fragment<0?'':node.url.slice(fragment).toLowerCase()}`:route==='/cite/'?'../CITATION-AND-RIGHTS.md':['/documents/','/articles/'].includes(route)?'../README.md':canonicalURL(route,config)+(fragment<0?'':node.url.slice(fragment));
+      const absolute=target?`./${target.id}.md${targetFragment && headingIds(corpus,target).has(targetFragment)?'#'+targetFragment:''}`:route.startsWith('/downloads/original/')?`../original/${route.split('/').pop()}`:route==='/references/'?`../bibliography.md${fragment<0?'':node.url.slice(fragment).toLowerCase()}`:route==='/cite/'?'../CITATION-AND-RIGHTS.md':['/documents/','/articles/'].includes(route)?'../README.md':canonicalURL(route,config)+(fragment<0?'':node.url.slice(fragment));
       const start=node.position.start.offset,end=node.position.end.offset,raw=text.slice(start,end);
       // Destination spelling comes from the same parsed node; never rewrite prose.
       const offset=raw.lastIndexOf(node.url);
@@ -85,7 +88,7 @@ export function publicationAssets(selection:Selection,config:SiteConfig) {
   for(const key of selection.manifest.sourceDownloadKeys) {
     const s=selection.corpus.sources.get(key)!;
     const raw=readFileSync(`${selection.corpus.root}/${s.path}`);if(sha256(raw)!==s.sha256)throw new ContractError('SOURCE_INTEGRITY_FAILURE',key);
-    files.set(rawPath(key),raw);
+    files.set(rawPath(key,s.path),raw);
   }
   const members=new Map<string,Buffer>([...files].map(([p,b])=>[p.slice('/downloads/'.length),b]));
   members.set('source-provenance.json',Buffer.from(JSON.stringify(selection.manifest.sourceDownloadKeys.map(key=>selection.corpus.sources.get(key)),null,2)+'\n'));

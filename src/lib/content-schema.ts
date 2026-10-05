@@ -4,14 +4,14 @@ export const entrySchema = z.object({
   id: z.string(), route: z.string(), title: z.string(), description: z.string(), revision: z.number().int().positive(),
   kind: z.enum(['definition','assumption','derivation','conjecture','evidence','prediction','falsification','open-problem','intro','concept','example','framework','mathematics','research-status','open-problems','article','about','contribute','library','licensing']),
   lang: z.enum(['en']), audience: z.enum(['general','technical']), researchEdition: z.string(),
-  publicationState: z.enum(['draft','published','superseded','withdrawn']), publishedAt: z.string().nullable(), updatedAt: z.string(),
+  publicationState: z.enum(['draft','published','superseded','withdrawn','archived']), publishedAt: z.string().nullable(), updatedAt: z.string(),
   sourceRefs: z.array(z.string()), dependsOn: z.array(z.string()), related: z.array(z.string()).default([]), bibRefs: z.array(z.string()).default([]),
   contentOrigin: z.enum(['source-bound','proposed','authored']), sourceBinding: bindingSchema.nullable(), statement: z.string().nullable(),
   plainLanguage: z.string().default(''), scope: z.string(), evidenceState: z.enum(['not-applicable','external-supported','project-reported','project-reproduced','proposed','contested']),
-  body: z.string().default(''), sourceMapping: z.string().default(''), adapter: z.enum(['markdown/1','rrg-escaped-addendum/1','rrg-proof-table/1','rrg-document/1','rrg-math-document/1']).default('markdown/1'),
+  body: z.string().default(''), sourceMapping: z.string().default(''), adapter: z.enum(['markdown/1','rrg-escaped-addendum/1','rrg-proof-table/1','rrg-document/1','rrg-math-document/1','rrg-evidence-document/1']).default('markdown/1'),
   assumptions: z.array(z.string()).default([]), testRefs: z.array(z.string()).default([]), evidenceRefs: z.array(z.string()).default([]), limits: z.string().default(''),
   observables: z.string().optional(), conditions: z.string().optional(), targetId: z.string().optional(), procedure: z.string().optional(), rejectionCriterion: z.string().optional(),
-  proposalProvenance: z.string().optional(), adopted: z.literal(false).optional(), correctionRef: z.string().optional(), supersedes: z.string().optional(), supersededBy: z.string().optional(), withdrawalReason: z.string().optional(),
+  proposalProvenance: z.string().optional(), adopted: z.literal(false).optional(), correctionRef: z.string().optional(), supersedes: z.string().optional(), supersededBy: z.string().optional(), withdrawalReason: z.string().optional(), archiveReason: z.string().optional(),
   tags: z.array(z.string()).optional(), authorIdentity: z.string().optional(), rightsRef: z.string().nullable().default(null)
 }).strict();
 export type Entry = z.infer<typeof entrySchema>;

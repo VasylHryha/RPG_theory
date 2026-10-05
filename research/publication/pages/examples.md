@@ -4,25 +4,25 @@
   "route": "/examples/",
   "title": "Six ways into the question",
   "description": "Patterns, constraints, reusable wholes and changing conditions.",
-  "revision": 1,
+  "revision": 2,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-WORLD"
   ],
   "dependsOn": [
-    "DOC-EXAMPLE-WATER",
-    "DOC-EXAMPLE-STRING",
+    "DOC-EXAMPLE-CELL",
+    "DOC-EXAMPLE-LIFE",
     "DOC-EXAMPLE-MOLECULE",
     "DOC-EXAMPLE-STAR",
-    "DOC-EXAMPLE-LIFE",
-    "DOC-EXAMPLE-CELL"
+    "DOC-EXAMPLE-STRING",
+    "DOC-EXAMPLE-WATER"
   ],
   "related": [],
   "bibRefs": [],
@@ -32,7 +32,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Editorial index of six separately mapped illustrations; no additional scientific claim.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Editorial index of six separately mapped illustrations; no additional scientific claim.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null

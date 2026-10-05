@@ -1,0 +1,87 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O102",
+  "fingerprint": "961f2bcb184a9b07e62bd439ad359639b079d0ef0b7642963b0b3ff1677ac7cc",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T12:08:15.325Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared UT-O102, Same principle across levels, to the exact O2 source claim. The complete statement remains open and source-bound, with no new result or required proof gate.",
+  "inputs": {
+    "fingerprint": "961f2bcb184a9b07e62bd439ad359639b079d0ef0b7642963b0b3ff1677ac7cc",
+    "ownRead": {
+      "id": "UT-O102",
+      "route": "/claims/UT-O102/",
+      "title": "Same principle across levels",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 1,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e",
+        "startLine": 39,
+        "endLine": 39,
+        "excerptSha256": "885f365a2b7179690bc5b20a348edf5e27aa4151c5dfecb0a75dfdc061044451"
+      },
+      "statement": "**O2 — Same principle across levels.** The author proposes the repeated geometry–mode/background relation. Approximate invariance of an equation family is a stronger optional formalization; identical microscopic mechanisms across chemistry, matter and life are stronger still. These should not be silently conflated.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "",
+      "sourceMapping": "v0.2.1 open claim O2; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "84616943eca6e9b6f74ea5107d5dc25f0b9b814b573d966278fd3bf282dbefe3",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "84616943eca6e9b6f74ea5107d5dc25f0b9b814b573d966278fd3bf282dbefe3",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Open-claim terminology and ambition match the supplied O1-O8 registry.",
+    "meaning": "Compared UT-O102, Same principle across levels, to the exact O2 source claim. The complete statement remains open and source-bound, with no new result or required proof gate.",
+    "assumptions": "No extra enabling assumption or demonstrated mechanism is appended to this open claim.",
+    "hypotheses": "Kind remains open-problem; evidenceState remains proposed. The source does not establish the ambition.",
+    "evidenceDescriptions": "Source-reported evidence and check coverage remain distinct from website-run experiments, independent science certification and external-paper review.",
+    "openQuestions": "**O2 — Same principle across levels.** The author proposes the repeated geometry–mode/background relation. Approximate invariance of an equation family is a stronger optional formalization; identical microscopic mechanisms across chemistry, matter and life are stronger still. These should not be silently conflated.\n",
+    "attribution": "The selected v0.2.1 source and supporting/historical role are explicit; no author identity, public-wording approval, rights or peer review is inferred.",
+    "sourceMappings": "Raw excerpt/binding and dependency/source snapshots are retained below. Actual bodies were compared at both bases; representative source-document/section/original/history journeys reuse implementation browser evidence. Comparison evidence: docs/evidence/source-reconciliation/acceptance/comparison.json; history-check.json. Four archive-note repairs were checked in affected final output. No acceptance is issued to unseen entries or dependencies."
+  }
+}

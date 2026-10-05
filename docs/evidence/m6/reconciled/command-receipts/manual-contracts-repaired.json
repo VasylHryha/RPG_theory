@@ -1,0 +1,17 @@
+{
+  "stage": "targeted-contract-repair",
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "--test",
+    "--test-name-pattern",
+    "M3 preserves issued decisions|current source downloads preserve exact bytes",
+    "tests/content/m3.test.ts",
+    "tests/content/source-reconciliation.test.ts"
+  ],
+  "log": "docs/evidence/m6/reconciled/contracts-repaired.log",
+  "exitCode": 0,
+  "recordedAt": "2026-10-05T12:52:34.371723+00:00",
+  "basis": "Actual completed tool exit and preserved test output"
+}

@@ -1,0 +1,19 @@
+
+> unity-theory@0.0.1 check
+> astro check
+
+17:48:04 [content] Syncing content
+17:48:07 [content] Synced content
+17:48:07 [types] Generated 4.29s
+17:48:07 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+[96mscripts/current-catalogue-check.ts[0m:[93m46[0m:[93m51[0m - [91merror[0m[90m ts(2345): [0mArgument of type '{ id: string; route: string; title: string; description: string; revision: number; kind: "definition" | "article" | "assumption" | "derivation" | "conjecture" | "evidence" | "prediction" | ... 12 more ... | "licensing"; ... 37 more ...; authorIdentity?: string | undefined; } | undefined' is not assignable to parameter of type '{ id: string; route: string; title: string; description: string; revision: number; kind: "definition" | "article" | "assumption" | "derivation" | "conjecture" | "evidence" | "prediction" | ... 12 more ... | "licensing"; ... 37 more ...; authorIdentity?: string | undefined; }'.
+  Type 'undefined' is not assignable to type '{ id: string; route: string; title: string; description: string; revision: number; kind: "definition" | "article" | "assumption" | "derivation" | "conjecture" | "evidence" | "prediction" | ... 12 more ... | "licensing"; ... 37 more ...; authorIdentity?: string | undefined; }'.
+
+[7m46[0m       const target = load(renderEntrySync(corpus, entry));
+[7m  [0m [91m                                                  ~~~~~[0m
+
+Result (95 files): 
+- 1 error
+- 0 warnings
+- 0 hints
+

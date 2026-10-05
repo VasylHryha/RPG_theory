@@ -114,7 +114,7 @@ test('stale decisions retain internally coherent dates, source excerpts, depende
  try {
   for(const [id,mutate] of [
    ['UT-D01',(d:any)=>{d.inputs.ownRead.publishedAt='not-a-date';}],
-   ['UT-D01',(d:any)=>{d.inputs.ownRead.publishedAt='2026-10-03';}],
+   ['UT-D01',(d:any)=>{d.inputs.ownRead.publishedAt='2099-10-03';}],
    ['UT-D01',(d:any)=>{d.inputs.ownRead.publicationState='published';}],
    ['DOC-HOME',(d:any)=>{d.inputs.materialUpdatedAt='2026-10-01';}],
    ['UT-D01',(d:any)=>{d.inputs.sourceReads=[];}],

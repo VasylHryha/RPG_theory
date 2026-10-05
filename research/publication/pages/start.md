@@ -4,44 +4,41 @@
   "route": "/start/",
   "title": "Start with the idea",
   "description": "From a familiar pattern to the question of persistent and further organization.",
-  "revision": 4,
+  "revision": 6,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
+    "R-CURRENT-CATALOGUE",
     "R-CURRENT-CORE",
-    "R-CURRENT-WORLD",
     "R-CURRENT-SCIENCE",
-    "R-CURRENT-INTERACTIONS",
-    "R-CURRENT-ADDITIONAL"
+    "R-CURRENT-WORLD"
   ],
   "dependsOn": [
+    "DOC-CONCEPT-INTERACTIONS",
+    "DOC-EXAMPLE-CELL",
+    "DOC-EXAMPLE-LIFE",
+    "DOC-EXAMPLE-MOLECULE",
+    "DOC-EXAMPLE-STAR",
+    "DOC-EXAMPLE-STRING",
+    "DOC-STATUS",
+    "UT-C01",
+    "UT-C02",
     "UT-D01",
     "UT-D02",
     "UT-D03",
+    "UT-D04",
     "UT-D05",
     "UT-D06",
     "UT-D08",
-    "UT-C01",
-    "UT-C02",
-    "UT-O04",
-    "UT-O05",
-    "UT-E10",
-    "UT-E11",
-    "UT-E12",
-    "DOC-STATUS",
-    "UT-D04",
     "UT-D09",
-    "DOC-EXAMPLE-STRING",
-    "DOC-EXAMPLE-MOLECULE",
-    "DOC-EXAMPLE-STAR",
-    "DOC-EXAMPLE-LIFE",
-    "DOC-EXAMPLE-CELL",
-    "DOC-CONCEPT-INTERACTIONS"
+    "UT-O102",
+    "UT-E118",
+    "UT-E119"
   ],
   "related": [],
   "bibRefs": [],
@@ -51,7 +48,7 @@
   "plainLanguage": "",
   "scope": "Complete beginner introduction to the source framework; illustrations and stronger open extensions remain distinct.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Core \u00a7\u00a71\u201311; world \u00a7\u00a72\u201310 and background addendum; framework \u00a7\u00a71\u20133, 7\u20138, 11, 15, 21\u201324; proof matrix; interaction addendum \u00a7\u00a71\u20135; additional-evidence introduction and scope conventions.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion. Core §§1–11; world §§2–10 and background addendum; framework §§1–3, 7–8, 11, 15, 21–24; current evidence catalogue E18–E19 and its scope conventions; current audit/status and claim coverage H06, H12–H13, O1–O4, O7. Water is a supplementary illustration, not a source-reported RRG result.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null
@@ -93,7 +90,7 @@ The source framework treats the broader question of environmental possibilities 
 
 ## Which interactions become possible?
 
-An **effective interaction** is an interaction used in a description of a collective system. The supplied evidence documents describe crystal vibrations mediating electron attraction, collective magnetic excitations in spin ice, and a background field changing an interaction regime. These are distinct physical cases, with different conditions.
+An **effective interaction** is an interaction used in a description of a collective system. The selected catalogue describes light-mediated binding between microspheres and interactions produced by controlled random light fields. The light, particles and apparatus are already supplied. These are distinct physical cases, with different conditions.
 
 RRG asks when lower-level organization can enable such an interaction, and when that interaction can help another organization persist. The [deeper interaction concept](/concepts/effective-interactions/) explains the source's examples and proposed relation. They do not establish that the four fundamental forces are four successive RRG levels.
 

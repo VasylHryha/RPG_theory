@@ -1,5 +1,5 @@
 import { readFileSync, writeFileSync, mkdirSync, cpSync } from 'node:fs';
-import { resolve, join } from 'node:path';
+import { resolve, join, dirname } from 'node:path';
 import { gzipSync } from 'node:zlib';
 import { performance } from 'node:perf_hooks';
 import assert from 'node:assert/strict';
@@ -12,6 +12,7 @@ import { searchAttributes } from '../src/lib/search.js';
 import { escapeHTML } from '../src/lib/presentation.js';
 import { sha256 } from '../src/lib/identity.js';
 import { publicationFor } from '../src/lib/publication.js';
+import { websiteReviewState } from '../src/lib/website-review.js';
 import type { Entry } from '../src/lib/content-schema.js';
 
 const options=args(['dir','evidence-dir','lighthouse']);
@@ -30,7 +31,7 @@ try {
   entries[0].title='Synthetic long title: '+('bounded engineering stress '.repeat(12));
   entries[0].body+='\n\n'+('Synthetic bounded technical explanation. '.repeat(2500))+'\n\n'+Array.from({length:20},(_,i)=>`$$\nE_${i}=mc^2\n$$`).join('\n\n')+'\n\n|'+Array.from({length:20},(_,i)=>`column ${i}`).join('|')+'|\n|'+Array(20).fill('---').join('|')+'|\n|'+Array(20).fill('synthetic').join('|')+'|';
   const stress=validateCorpus({entries:[...[...corpus.entries.values()].map(e=>({...structuredClone(e),...(e.contentOrigin==='source-bound'?{statement:null}:{})})),...entries],evidence:[...corpus.evidence.values()],sources:[...corpus.sources.values()],references:[...corpus.references.values(),...syntheticReferences],aliases:JSON.parse(readFileSync('research/publication/citation-aliases.yaml','utf8')),record:readAdmission()!});
-  const fixtureDir=resolve(`dist/m6/synthetic-search-${suffix}`);cpSync(dir,fixtureDir,{recursive:true});
+  const fixtureDir=join(dirname(dir),`synthetic-search-${suffix}`);cpSync(dir,fixtureDir,{recursive:true});
   const indexedEntries=entries.map(e=>stress.entries.get(e.id)!).map(e=>({...e,publicationState:'published' as const,publishedAt:'2026-10-05'}));
   for(const e of indexedEntries) {
     const path=join(fixtureDir,e.route.slice(1),'index.html');mkdirSync(join(path,'..'),{recursive:true});
@@ -93,7 +94,9 @@ try {
       }
     }finally{chrome.kill();}
   } else summary.lighthouse='Root home/math diagnostic only; no duplicate subpath run';
-  const actualSelection=publicationFor('preview',actual.info.config);assert.deepEqual(actualSelection.manifest.searchIds,[]);summary.actualIndex={publishedReadings:0,staleDecisions:57,qualified:false,deployEligible:false};
+  const actualSelection=publicationFor('preview',actual.info.config);assert.deepEqual(actualSelection.manifest.searchIds,[]);
+  const reviewStates=Object.fromEntries(['accepted','pending','stale','rejected'].map(state=>[state,[...actualSelection.corpus.entries.values()].filter(e=>websiteReviewState(actualSelection.corpus,e.id)===state).length]));
+  summary.actualIndex={publishedReadings:actualSelection.manifest.searchIds.length,reviewStates,qualified:actualSelection.admission.currentSourceQualified,deployEligible:actual.info.deployEligible};
   summary.status='PASS';
 } catch(error) {summary.status='FAIL';summary.error=String(error);throw error;}
 finally {actual.server.close();writeFileSync(join(evidence,`${suffix}-integration.json`),JSON.stringify(summary,null,2)+'\n');}

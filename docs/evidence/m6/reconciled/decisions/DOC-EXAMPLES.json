@@ -1,0 +1,173 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLES",
+  "fingerprint": "4c1f962f46348d485ab16c523c62c290c7abecf23b538129f914b09f1854f459",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T12:32:15.645Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the six links to their complete live pages and core/world scope. Patterns/constraints and changed enabling conditions remain different jobs, not six demonstrations of a universal mechanism. The index adds no empirical claim.",
+  "inputs": {
+    "fingerprint": "4c1f962f46348d485ab16c523c62c290c7abecf23b538129f914b09f1854f459",
+    "ownRead": {
+      "id": "DOC-EXAMPLES",
+      "route": "/examples/",
+      "title": "Six ways into the question",
+      "description": "Patterns, constraints, reusable wholes and changing conditions.",
+      "revision": 2,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-EXAMPLE-CELL",
+        "DOC-EXAMPLE-LIFE",
+        "DOC-EXAMPLE-MOLECULE",
+        "DOC-EXAMPLE-STAR",
+        "DOC-EXAMPLE-STRING",
+        "DOC-EXAMPLE-WATER"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "Each example has one job. Begin with something familiar, then ask what the parts are doing, what constrains them, and what the collective description adds. The examples illustrate different aspects of RRG; they are not six demonstrations of one universal mechanism.\n\n## Patterns and constraints\n\n- [Water: follow a pattern](/examples/water/) — distinguish the moving pattern from its material parts.\n- [String: boundaries shape motion](/examples/string/) — see how arrangement and physical conditions constrain supported modes.\n- [Molecule: the whole constrains its parts](/examples/molecule/) — explore collective behaviour and retained internal structure.\n\n## Organization changes the possibilities\n\n- [Star: new reaction conditions](/examples/star/) — distinguish physical evolution from changing the level of description.\n- [Life and environment: conditions for other life](/examples/life-environment/) — follow biological effects without a guaranteed ladder of complexity.\n- [Cell: organization through exchange](/examples/cell/) — separate ongoing maintenance, copying and reproduction.\n\n## Connect the examples\n\nThe [concepts](/concepts/) explain geometry, mode structure, stability, recursion and the conditional effective-interaction question. For a continuous reading path, [start with the idea](/start/).\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Editorial index of six separately mapped illustrations; no additional scientific claim.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "DOC-EXAMPLE-CELL",
+        "semanticDigest": "f127555f05d3a2fd43f338b099e51bbd6c32a3bf325ca1251d78f26f8018649d"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "7da5ab38dff3d0ca69b59adcab10c180e9ac03540c54709d7f46639c94251645"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-MOLECULE",
+        "semanticDigest": "12fc039e9e9d62628fb0f585f8b8d3adf88392310b4f8d857b33851e726a7451"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STAR",
+        "semanticDigest": "2c49085afccd67a7c78a5908a056d799a994ea15224d35660d4cb54b075628fa"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STRING",
+        "semanticDigest": "b5588ad260e441141c37ee2206148b1921ca65821f0dd051528ac3052d5591af"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-WATER",
+        "semanticDigest": "5c593b6afa8138904d0bdec58b3c7398b85810680d369e5cb819631a25bc50e0"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "cc43afaa476536dc62e441dd19017fc8b993b796c2c54b350fe3f973c0a56a33"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "508f72a1c032925d89f0579aa7e4ccf8d6d26d95cc58af1c547c9477ce4e494f"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "2127f94e29d672451ea37793c0f08600d7380cfe51589cc6c4cd2907558c58d6"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "7e59b5300365ad8a0e87b0a5bfdd672c20b124168f6153bf98c42c7f92745fde"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "622d51b22ae01652baccf4ef808fe1596f66824a6562f2b5bc09939735f941a4"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "f2dfe9b807107e6fb0604d4c0c8d7ff9284c9425aeda2181a3e810e5f1bcaf09"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "e63119326f25862de27d3cf265a6af8b71e6a587a8357c2a61f6d18cdda3d1e7"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "ba24845b313aacf063d30c124d5fa4aef773cba1e32c5f1a54b1812906960b4b"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "7e15e280cd724c78444744ec618d0142aaf577b2865aae76bb26b2be36921358"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "ec4d1caf6bdc8ed162f3f87b995e8424bed1550d736d6304bc2b7dc96c29d868"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "2bac621293330f7ad6a4d761f4b851d8e5f7f6a5926386a4e6e2cde648e91c75"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "7eb6e365e2bfda16c3b25b75c4983c1ed387eda80a3e816fbfae50c73b0bda74",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "82713ccf63d605cd35e2f3fe0093669ff028e4c16c83d4691c5fb213234c0243",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the six links to their complete live pages and core/world scope. Patterns/constraints and changed enabling conditions remain different jobs, not six demonstrations of a universal mechanism. The index adds no empirical claim.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared the six links to their complete live pages and core/world scope. Patterns/constraints and changed enabling conditions remain different jobs, not six demonstrations of a universal mechanism. The index adds no empirical claim.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: An illustrative beginner explanation mapped to the original supplied RRG documents. No new experimental inputs, causal stages or equation-family requirement was introduced.",
+    "hypotheses": "Compared the six links to their complete live pages and core/world scope. Patterns/constraints and changed enabling conditions remain different jobs, not six demonstrations of a universal mechanism. The index adds no empirical claim. Scientific role example, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval.",
+    "evidenceDescriptions": "Compared the six links to their complete live pages and core/world scope. Patterns/constraints and changed enabling conditions remain different jobs, not six demonstrations of a universal mechanism. The index adds no empirical claim. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary.",
+    "openQuestions": "Compared the six links to their complete live pages and core/world scope. Patterns/constraints and changed enabling conditions remain different jobs, not six demonstrations of a universal mechanism. The index adds no empirical claim. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Editorial index of six separately mapped illustrations; no additional scientific claim. No personal identity, rights, author-public-wording or release authorization is inferred.",
+    "sourceMappings": "Actual source → registry/exact raw line binding → both rendered bodies → explanatory Markdown → ZIP comparisons are recorded in docs/evidence/m6/reconciled/comparison-corpus.json. Full raw sources, all derived paragraphs and live directive dependencies were read. Rendered reading capture: comparison-rendered-readings.txt. The introduction mapping-only repair is recorded in comparison-notes.json and checked in final output. No decision issued to archived entries."
+  }
+}

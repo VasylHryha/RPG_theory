@@ -4,7 +4,7 @@ import { z } from 'astro/zod';
 import { entrySchema } from './content-schema.js';
 import { ContractError } from './errors.js';
 import { sha256, stableJSON } from './identity.js';
-import { dependencyClosure, reviewFingerprint, semanticDigest, renderEntrySync, validDate, type Corpus } from './content.js';
+import { bibliographyClosure, dependencyClosure, reviewFingerprint, semanticDigest, renderEntrySync, validDate, type Corpus } from './content.js';
 import { renderMarkdownSync } from './markdown.js';
 import { withdrawnTombstone } from './publication.js';
 import { renderHomeStatus } from './presentation.js';
@@ -46,7 +46,7 @@ const decisionSchema=z.object({
     const binding=ownRead.sourceBinding,source=sourceReads.find(s=>s.sourceKey===binding?.sourceKey);
     if(!binding || ownRead.statement===null || binding.endLine<binding.startLine || (ownRead.statement.match(/[^\n]*\n|[^\n]+$/g)??[]).length!==binding.endLine-binding.startLine+1 || !ownRead.sourceRefs.includes(binding.sourceKey) || source?.sha256!==binding.sourceSha256 || sha256(ownRead.statement)!==binding.excerptSha256) invalid('Snapshot excerpt or source identity differs');
   } else if(ownRead.sourceBinding!==null) invalid('Non-source-bound snapshot has an extraction binding');
-  const homeProjection=ownRead.id==='DOC-HOME' && !['superseded','withdrawn'].includes(ownRead.publicationState);
+  const homeProjection=ownRead.id==='DOC-HOME' && !['superseded','withdrawn','archived'].includes(ownRead.publicationState);
   if(renderedBodies.some(r=>homeProjection ? r.sourceProjectionSha256===null : r.sourceProjectionSha256!==null)) invalid('Snapshot projection coverage differs');
 });
 
@@ -56,7 +56,7 @@ export function websiteReviewInputs(corpus: Corpus,id: string) {
   if(!entry) throw new ContractError('UNKNOWN_DEPENDENCY',id);
   const dependencies=dependencyClosure(corpus,id),relevant=[entry,...dependencies.map(key=>corpus.entries.get(key)!)];
   const directBib=relevant.flatMap(e=>e.bibRefs.concat(e.testRefs.filter(key=>corpus.references.has(key))));
-  const bibliography=[...new Set(directBib.concat(directBib.flatMap(key=>corpus.references.get(key)?.primaryId ?? [])))];
+  const bibliography=bibliographyClosure(corpus,directBib);
   const sources=[...new Set(relevant.flatMap(e=>e.sourceRefs.concat(e.testRefs.filter(key=>corpus.sources.has(key)))).concat(bibliography.flatMap(key=>corpus.references.get(key)!.sourceRefs)))].sort();
   const displayed=entry.publicationState==='withdrawn'?withdrawnTombstone(entry):entry;
   return {
@@ -66,7 +66,7 @@ export function websiteReviewInputs(corpus: Corpus,id: string) {
     sourceReads:sources.map(key=>({sourceKey:key,path:corpus.sources.get(key)!.path,sha256:corpus.sources.get(key)!.sha256})),
     renderedBodies:(['/','/unity-theory/'] as const).map(base=>({base,sha256:sha256(renderEntrySync(corpus,displayed,base)),
       plainLanguageSha256:sha256(renderMarkdownSync(displayed.plainLanguage,base,corpus)),
-      sourceProjectionSha256:entry.id==='DOC-HOME' && !['superseded','withdrawn'].includes(entry.publicationState)?sha256(renderHomeStatus(corpus,corpus.entries.get('DOC-STATUS')!,base)):null}))
+      sourceProjectionSha256:entry.id==='DOC-HOME' && !['superseded','withdrawn','archived'].includes(entry.publicationState)?sha256(renderHomeStatus(corpus,corpus.entries.get('DOC-STATUS')!,base)):null}))
   };
 }
 export function validateWebsiteReviews(corpus: Corpus, root=corpus.root, entryIds=corpus.websiteReviews.map(r=>r.entryId)) {
@@ -88,7 +88,7 @@ export function validateWebsiteReviews(corpus: Corpus, root=corpus.root, entryId
     } catch { throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',path); }
     for(const key of ['purpose','entryId','fingerprint','outcome','reviewerKind','reviewedAt'] as const) if(decision[key]!==review[key]) throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',review.entryId);
     const own=decision.inputs.ownRead,updatedAt=validDate(own.updatedAt),materialAt=validDate(decision.inputs.materialUpdatedAt);
-    if((own.publishedAt!==null && validDate(own.publishedAt)>updatedAt) || (own.publicationState!=='draft' && own.publishedAt===null) || materialAt<updatedAt) throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',review.entryId);
+    if((own.publishedAt!==null && validDate(own.publishedAt)>updatedAt) || (!['draft','archived'].includes(own.publicationState) && own.publishedAt===null) || materialAt<updatedAt) throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',review.entryId);
     if(materialAt>validDate(review.reviewedAt)) throw new ContractError('REVIEW_PREDATES_MATERIAL',review.entryId);
     // Validate stale receipts structurally too; a changed genuine snapshot remains stale.
     if(review.fingerprint===reviewFingerprint(corpus,review.entryId) && stableJSON(decision.inputs)!==stableJSON(websiteReviewInputs(corpus,review.entryId))) throw new ContractError('WEBSITE_REVIEW_EVIDENCE_REQUIRED',review.entryId);
@@ -100,7 +100,7 @@ export function websiteReviewState(corpus: Corpus,id: string) {
   return !review?'pending':review.fingerprint!==reviewFingerprint(corpus,id)?'stale':review.outcome;
 }
 // Default: complete current M1 coverage. Selection passes its exact intended IDs plus dependency closure.
-export function qualifyWebsiteCorpus(corpus: Corpus,entryIds=[...corpus.entries.values()].filter(e=>!['superseded','withdrawn'].includes(e.publicationState)).map(e=>e.id)) {
+export function qualifyWebsiteCorpus(corpus: Corpus,entryIds=[...corpus.entries.values()].filter(e=>!['superseded','withdrawn','archived'].includes(e.publicationState)).map(e=>e.id)) {
   const ids=[...new Set(entryIds.flatMap(id=>[id,...dependencyClosure(corpus,id)]))].sort();
   validateWebsiteReviews(corpus,corpus.root,ids);
   const entries=ids.map(id=>corpus.entries.get(id)!);

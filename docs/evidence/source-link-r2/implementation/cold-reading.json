@@ -1,0 +1,72 @@
+[
+  {
+    "route": "/evidence/source-links/",
+    "status": "PASS",
+    "ownedColdGzipEquivalentBytes": 74930,
+    "initialJSGzipBytes": 0,
+    "assets": [
+      {
+        "url": "http://127.0.0.1:53127/evidence/source-links/",
+        "gzipBytes": 20943,
+        "resource": "document"
+      },
+      {
+        "url": "http://127.0.0.1:53127/_astro/katex.min.BNLSuGWh.css",
+        "gzipBytes": 7952,
+        "resource": "stylesheet"
+      },
+      {
+        "url": "http://127.0.0.1:53127/_astro/ReadingLayout.B_EPQKDX.css",
+        "gzipBytes": 3267,
+        "resource": "stylesheet"
+      },
+      {
+        "url": "http://127.0.0.1:53127/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+        "gzipBytes": 26300,
+        "resource": "font"
+      },
+      {
+        "url": "http://127.0.0.1:53127/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+        "gzipBytes": 16468,
+        "resource": "font"
+      }
+    ],
+    "browserVersion": "153.0.8010.12",
+    "accounting": "Same M6 accounting: fresh browser context, local no-store output server; gzip of owned received bodies including embedded CSS fonts, not on-wire compression. Technical-reading budget 750 KiB; initial JS 15 KiB."
+  },
+  {
+    "route": "/unity-theory/evidence/source-links/",
+    "status": "PASS",
+    "ownedColdGzipEquivalentBytes": 75171,
+    "initialJSGzipBytes": 0,
+    "assets": [
+      {
+        "url": "http://127.0.0.1:53130/unity-theory/evidence/source-links/",
+        "gzipBytes": 21164,
+        "resource": "document"
+      },
+      {
+        "url": "http://127.0.0.1:53130/unity-theory/_astro/katex.min.CdFUmFPj.css",
+        "gzipBytes": 7972,
+        "resource": "stylesheet"
+      },
+      {
+        "url": "http://127.0.0.1:53130/unity-theory/_astro/ReadingLayout.B_EPQKDX.css",
+        "gzipBytes": 3267,
+        "resource": "stylesheet"
+      },
+      {
+        "url": "http://127.0.0.1:53130/unity-theory/_astro/KaTeX_Math-Italic.t53AETM-.woff2",
+        "gzipBytes": 16468,
+        "resource": "font"
+      },
+      {
+        "url": "http://127.0.0.1:53130/unity-theory/_astro/KaTeX_Main-Regular.B22Nviop.woff2",
+        "gzipBytes": 26300,
+        "resource": "font"
+      }
+    ],
+    "browserVersion": "153.0.8010.12",
+    "accounting": "Same M6 accounting: fresh browser context, local no-store output server; gzip of owned received bodies including embedded CSS fonts, not on-wire compression. Technical-reading budget 750 KiB; initial JS 15 KiB."
+  }
+]

@@ -1,0 +1,103 @@
+
+Running 27 tests using 1 worker
+
+(node:87519) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/e2e/integration.spec.ts:4:1 › M6 published-only search has an honest empty state, keyboard controls and no-JS browsing (560ms)
+  ✓   2 tests/e2e/integration.spec.ts:15:39 › M6 representative layouts pass reflow and WCAG axe at 320px (11.5s)
+  ✓   3 tests/e2e/integration.spec.ts:15:39 › M6 representative layouts pass reflow and WCAG axe at 375px (12.5s)
+  ✓   4 tests/e2e/integration.spec.ts:15:39 › M6 representative layouts pass reflow and WCAG axe at 768px (11.0s)
+  ✓   5 tests/e2e/integration.spec.ts:15:39 › M6 representative layouts pass reflow and WCAG axe at 1280px (10.8s)
+  ✓   6 tests/e2e/integration.spec.ts:23:1 › M6 search focus, doubled text, reduced motion and dark mode remain usable (608ms)
+  ✓   7 tests/e2e/introduction.spec.ts:10:1 › M2 beginner layouts reflow at 320, 375 and 1280 in light and dark with ordered headings and accessible schematics (19.5s)
+  ✘   8 tests/e2e/introduction.spec.ts:36:1 › M2 complete reading journey works without JavaScript and makes question, uncertainty and sources findable (5.7s)
+(node:88200) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 tests/e2e/introduction.spec.ts:72:1 › beginner pages retain reflow with doubled text size (905ms)
+  ✓  10 tests/e2e/introduction.spec.ts:81:1 › the real interaction equation scrolls locally by keyboard and retains loaded mathematical fonts (5.2s)
+  ✓  11 tests/e2e/introduction.spec.ts:95:1 › cold home and real math reading meet owned asset budgets without loading math on plain pages (2.7s)
+  ✓  12 tests/e2e/publication-policy.spec.ts:4:1 › M5 pending About/legal/identity journey works without JavaScript and dependency notice is downloadable (409ms)
+  ✓  13 tests/e2e/publication-policy.spec.ts:16:1 › M5 policy pages and expanded footer reflow at 320px with no axe violations (1.5s)
+  ✓  14 tests/e2e/publication.spec.ts:8:1 › M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing (12.9s)
+  ✓  15 tests/e2e/publication.spec.ts:24:1 › M4 new pages reflow at 320px and technical print retains equations, status, revision and citation targets (5.1s)
+  ✓  16 tests/e2e/reading.spec.ts:16:1 › home and start read without JavaScript, navigate by keyboard and show source state (429ms)
+  ✓  17 tests/e2e/reading.spec.ts:39:1 › home, nested reading and math pass automated accessibility and 320px reflow (1.9s)
+  ✓  18 tests/e2e/reading.spec.ts:66:1 › dark-mode reading remains accessible (733ms)
+  ✓  19 tests/e2e/reading.spec.ts:73:1 › unknown routes return real 404 and nested assets use the configured base (266ms)
+  ✓  20 tests/e2e/reading.spec.ts:88:1 › M1 consumers retain source roles and reported evidence independently of website fidelity (1.2s)
+  ✓  21 tests/e2e/reading.spec.ts:125:1 › M1 claims, concepts, status, matrix and bibliography pass axe and 320px reflow (4.3s)
+  ✓  22 tests/e2e/reading.spec.ts:139:1 › literature has source-backed DOI identities and usable source extraction details without JS (3.3s)
+  ✓  23 tests/e2e/source-reconciliation.spec.ts:8:1 › source reconciliation reading and section journeys work without JavaScript (1.1s)
+  ✓  24 tests/e2e/source-reconciliation.spec.ts:38:1 › source reconciliation current readings keep usable mobile layout and document destinations (1.0s)
+  ✓  25 tests/e2e/technical.spec.ts:7:1 › M3 technical reading and source discovery work without JavaScript (2.4s)
+  ✓  26 tests/e2e/technical.spec.ts:26:1 › M3 equations and technical readings remain accessible at 320px in dark mode (19.1s)
+  ✓  27 tests/e2e/technical.spec.ts:54:1 › M3 evidence attribution, scope and open tests remain visible beside the actual sources (382ms)
+
+
+  1) tests/e2e/introduction.spec.ts:36:1 › M2 complete reading journey works without JavaScript and makes question, uncertainty and sources findable 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('[data-canonical-body]')
+    Timeout: 5000ms
+    - Expected substring  -  1
+    + Received string     + 14
+
+    - four successive RRG levels
+    + In ordinary words
+    + An effective interaction is part of a description of a collective system. Existing organization, fields and boundaries can change which interactions are available. RRG asks whether such changes can help further organization persist.
+    + Two distinct source-reported cases
+    +
+    + Optical binding: illuminated microspheres show light-mediated interactions and bound arrangements. The light, particles and medium are already supplied. UT-E118
+    + Controlled random light: an artificially generated random optical field produces measured attractive interactions between small spheres. Random does not mean broadband white noise, and the experiment does not create the spheres. UT-E119
+    +
+    + These are component connections in specified systems, not a complete autonomous sequence of new levels. The catalogue preserves the reported observations, supplied conditions, result types and inspection limits.
+    + The proposed relation
+    + The conditional proposal can be written schematically:
+    + Rn=(Gn,Mn)  →  In+1eff  →  Rn+1.R_n=(G_n,M_n)\;\rightarrow\;\mathcal I^{\rm eff}_{n+1}\;\rightarrow\;R_{n+1}.Rn​=(Gn​,Mn​)→In+1eff​→Rn+1​.
+    + Organization can change a background; that background can change which interactions and arrangements persist. The recursive background companion preserves this proposed connection. Physical environmental change differs from our coarse-graining a description.
+    + What remains open
+    + The selected claim coverage retains fundamental unification, recursive construction, cosmology, life and AI as open claims or analogies. Controlled effective behavior does not establish arbitrary replacement of fundamental laws. No experiment or paper audit was performed by this website.
+
+    Call log:
+      - Expect "toContainText" locator('[data-canonical-body]') with timeout 5000ms
+      - waiting for locator('[data-canonical-body]')
+        14 × locator resolved to <div class="prose" data-canonical-body="DOC-CONCEPT-INTERACTIONS">…</div>
+           - unexpected value "In ordinary words
+    An effective interaction is part of a description of a collective system. Existing organization, fields and boundaries can change which interactions are available. RRG asks whether such changes can help further organization persist.
+    Two distinct source-reported cases
+    
+    Optical binding: illuminated microspheres show light-mediated interactions and bound arrangements. The light, particles and medium are already supplied. UT-E118
+    Controlled random light: an artificially generated random optical field produces measured attractive interactions between small spheres. Random does not mean broadband white noise, and the experiment does not create the spheres. UT-E119
+    
+    These are component connections in specified systems, not a complete autonomous sequence of new levels. The catalogue preserves the reported observations, supplied conditions, result types and inspection limits.
+    The proposed relation
+    The conditional proposal can be written schematically:
+    Rn=(Gn,Mn)  →  In+1eff  →  Rn+1.R_n=(G_n,M_n)\;\rightarrow\;\mathcal I^{\rm eff}_{n+1}\;\rightarrow\;R_{n+1}.Rn​=(Gn​,Mn​)→In+1eff​→Rn+1​.
+    Organization can change a background; that background can change which interactions and arrangements persist. The recursive background companion preserves this proposed connection. Physical environmental change differs from our coarse-graining a description.
+    What remains open
+    The selected claim coverage retains fundamental unification, recursive construction, cosmology, life and AI as open claims or analogies. Controlled effective behavior does not establish arbitrary replacement of fundamental laws. No experiment or paper audit was performed by this website."
+
+
+      63 |     await expect(page.locator('[data-canonical-body]')).toContainText('not an independently established universal stability theorem');
+      64 |     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/effective-interactions/');
+    > 65 |     await expect(page.locator('[data-canonical-body]')).toContainText('four successive RRG levels');
+         |                                                         ^
+      66 |     await expect(page.locator('math')).not.toHaveCount(0);
+      67 |     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'framework/');
+      68 |     await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Framework',exact:true})).toHaveAttribute('aria-current','page');
+        at /Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts:65:57
+
+    Error Context: docs/evidence/m6/reconciled/browser-traces/subpath/introduction-M2-complete-r-a94ef-tainty-and-sources-findable/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/evidence/m6/reconciled/browser-traces/subpath/introduction-M2-complete-r-a94ef-tainty-and-sources-findable/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/evidence/m6/reconciled/browser-traces/subpath/introduction-M2-complete-r-a94ef-tainty-and-sources-findable/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/e2e/introduction.spec.ts:36:1 › M2 complete reading journey works without JavaScript and makes question, uncertainty and sources findable 
+  26 passed (2.3m)

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/test-e2e.ts",
+    "--output",
+    "dist/source-link-r2/subpath",
+    "--grep",
+    "R2 "
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 52.77,
+  "log": "docs/evidence/source-link-r2/implementation/browser-subpath-1791212704272199000.log"
+}

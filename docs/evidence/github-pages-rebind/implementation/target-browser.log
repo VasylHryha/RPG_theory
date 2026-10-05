@@ -1,0 +1,14 @@
+
+> unity-theory@0.0.1 test:e2e
+> tsx scripts/test-e2e.ts --output dist/github-pages-rebind/preview-target --grep no-JS|published-only search|fonts|print|build identity
+
+
+Running 3 tests using 1 worker
+
+(node:40368) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/integration.spec.ts:4:1 › M6 published-only search has an honest empty state, keyboard controls and no-JS browsing (922ms)
+  ✓  2 tests/e2e/introduction.spec.ts:82:1 › the real interaction equation scrolls locally by keyboard and retains loaded mathematical fonts (347ms)
+  ✓  3 tests/e2e/publication.spec.ts:24:1 › M4 new pages reflow at 320px and technical print retains equations, status, revision and citation targets (4.2s)
+
+  3 passed (9.9s)

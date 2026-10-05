@@ -1,0 +1,27 @@
+# Promoted-source website migration and document cleanup
+
+**5 October 2026 · REVIEW_READY.** R4 §0.39 implemented against local HEAD `2615299`, with uncommitted task-owned changes. Separate High acceptance remains pending. This receipt supersedes the pre-implementation website state in the plan-repair receipt; it preserves that receipt as dated evidence.
+
+Delivered the complete 24-file current source registry and repaired intake bindings. Added HTML readings for promoted 04–08, the world explanation, reading guide, source authority and older-foundation errata. Existing core/framework/math/change-control readings remain available. The document library uses descriptive reading titles, with original source files and explanatory Markdown labelled separately.
+
+One shared source-to-reading map resolves inline/reference-style links, real catalogue sections and both URL bases in HTML, source disclosures and explanatory exports. Supporting JSON/Python downloads retain their file types; unavailable archive material becomes an honest availability note. Original downloads retain exact bytes. Private administrative files remain outside publication output. Display adapters repair two malformed arrow escapes in 04 and map catalogue anchors to visible headings; these are disclosed presentation changes, with no scientific rewrite.
+
+Current catalogue E01–E22 maps to **UT-E101–UT-E122**; current O1–O8 maps to **UT-O101–UT-O108**. The previous 18 record IDs and three predecessor document routes remain explicitly archived, with original source excerpts, study/DOI identities and dependencies. They are outside current discovery and exports. `research/publication/evidence-identities.json` records the namespaces. Updated evidence, status, open questions, interaction explanation, beginner/article links, references, library and generated downloads. No evidence result is promoted to scientific acceptance.
+
+Actual checks and evidence:
+
+- Source validator PASS: **24 files**, **77 bound entries**. Intake metadata/seal outside the changed bindings, all current bytes and all 13 predecessor files are unchanged; see `source-preservation.json` and `source-check-final-retry.log`.
+- Shared content validator PASS: **95 entries; 57 stale / 38 pending / 0 accepted / 0 rejected**. `content-check-retry.log` and generated binding/fingerprint receipts.
+- Astro PASS: zero errors, warnings or hints (`astro-check.log`).
+- **120 content tests have passing coverage:** stable main run passed 118/120; two outdated fixture assumptions were repaired and passed focused reruns. See `contracts-final.log`, `revision-cli-final.log`, `output-contract-repaired.log`. The whole suite was not repeated after test-only fixes. Earlier interrupted/invalidated fixture evidence remains in `contracts.log` and `affected-contracts.log`; it is not counted as a full passing run.
+- Both private builds PASS: **103 pages / 267 files per base**. Shared output audits PASS; exact inventories/hashes in `root-artifact.json` and `subpath-artifact.json`.
+- **14 focused browser checks passed**, seven per base: no-JS document/section/download/history journeys, current evidence/open questions, mobile layout, dark mode, automated accessibility and keyboard equation/table scrolling. Root coverage combines four repaired reading checks in `root-browser.json` with three unchanged passing checks in `root-affected/root-browser.json`; subpath is a fresh seven-test PASS in `subpath-affected/subpath-browser.json`. Early obsolete-label failures remain in trace/log evidence. Desktop conceptual reading and mobile library/catalogue/claim-table captures were inspected.
+- Sandbox IPC/localhost denials were retried with approval and kept separately. `git diff --check` passed. Scientific sources/history, issued decisions and the dependency lockfile have no tracked changes.
+
+Machine-readable scope/check accounting: `verification.json`. Original input/output identities are preserved in build receipts. The project remains one Astro root and one lockfile; cleanup removes obsolete active mappings and confusing links while retaining original/history material.
+
+**Remaining:** bounded separate High source/display acceptance through the shared website fidelity validator, then final M6 qualification of the stable selected corpus. `currentSourceQualified=false`, `deployEligible=false`. Full M6/Lighthouse, human comprehension/assistive-technology and live hosting checks were not run here. Author/identity/rights/target gates remain as recorded. Complete GPT Library original-package parity remains unverified. No scientific adjudication, experiment, approval write, commit, push, deployment, DNS change or licence grant occurred.
+
+Next-session handoff:
+
+> Read AGENTS.md and R4 §0.27, §0.40 and §8. Perform one bounded separate High acceptance of the delivered §0.39 migration and document reading/link/download scope. Compare actual selected RRG_CURRENT excerpts and source-reported status with rendered pages; preserve all source bytes, archival study identities and issued decisions. Use website-reviews.yaml and the shared fidelity validator for genuinely compared scope only. Reuse unchanged verification.json/artifact evidence; repair concrete material defects and run affected checks. Do not resume scientific adjudication or publish. Record the bounded decision and remaining gates in the sole R4 tracker; final M6 qualification is the next distinct gate.

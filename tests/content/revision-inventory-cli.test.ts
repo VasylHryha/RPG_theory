@@ -6,7 +6,7 @@ import {tmpdir} from 'node:os';
 import {spawnSync} from 'node:child_process';
 import {sha256,stableJSON} from '../../src/lib/identity.js';
 
-for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`real revision CLI accounts for both rename paths without inventing a core-byte change: ${member}`,()=>{
+for(const member of ['07_audit_report.md','00_LOCKED_CORE.md','foundations/ERRATA.md']) test(`real revision CLI accounts for both rename paths without inventing a core-byte change: ${member}`,()=>{
  const temp=mkdtempSync(join(tmpdir(),'unity-revision-rename-'));
  const prior=join(temp,'prior'),next=join(temp,'next');
  const originalReviews=readFileSync('research/publication/reviews.yaml');
@@ -20,7 +20,7 @@ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`rea
    const record=read(root,'config/research-source.json');record.corpusScope='synthetic';write(root,'config/research-source.json',record);
   }
   const old=read(prior,'config/research-source.json'),record=read(next,'config/research-source.json');
-  const destination='renamed-'+member,changeId='SYNTHETIC-RENAME-CONTROL';
+  const destination=member.replace(/([^/]+)$/,'renamed-$1'),changeId='SYNTHETIC-RENAME-CONTROL';
   renameSync(join(next,record.directory,member),join(next,record.directory,destination));
   const manifest=join(next,record.directory,record.manifestPath);
   writeFileSync(manifest,readFileSync(manifest,'utf8').replaceAll(member,destination));
@@ -39,7 +39,7 @@ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`rea
   write(next,'config/research-source.json',record);
   const sources=read(next,'research/publication/source-index.yaml');
   const changedKeys:string[]=[];
-  for(const source of sources) if(source.declaredCurrent) {
+  for(const source of sources) if(source.path.startsWith(record.directory+'/')) {
    const name=source.path.slice(record.directory.length+1),path=name===member?destination:name;
    const file=record.files.find((f:any)=>f.path===path)!;
    if(path!==name || source.sha256!==file.sha256) changedKeys.push(source.key);
@@ -47,7 +47,7 @@ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`rea
   }
   write(next,'research/publication/source-index.yaml',sources);
   const revise=(e:any)=>{
-   e.researchEdition=record.edition;if(e.sourceRefs.some((k:string)=>changedKeys.includes(k))) e.revision++;
+   if(e.publicationState==='archived') return e;e.researchEdition=record.edition;if(e.sourceRefs.some((k:string)=>changedKeys.includes(k))) e.revision++;
    if(e.sourceBinding){const source=sources.find((s:any)=>s.key===e.sourceBinding.sourceKey),raw=readFileSync(join(next,source.path)),lines=raw.toString('utf8').match(/[^\n]*\n|[^\n]+$/g)??[];e.sourceBinding.sourceSha256=sha256(raw);e.sourceBinding.excerptSha256=sha256(lines.slice(e.sourceBinding.startLine-1,e.sourceBinding.endLine).join(''));}
    return e;
   };
@@ -56,12 +56,14 @@ for(const member of ['04_status_and_blockers.md','00_LOCKED_CORE.md']) test(`rea
    const path=join(next,`research/publication/pages/${name}`),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(readFileSync(path,'utf8'))!;
    writeFileSync(path,`---\n${JSON.stringify(revise(JSON.parse(match[1])))}\n---\n${match[2]}`);
   }
-  const predecessorFiles=[member,'CURRENT_MANIFEST.md','CHANGELOG.md'];
+  // Supporting directories are listed as directories, so renaming an erratum
+  // does not change the manifest bytes. Account only for the actual transition.
+  const predecessorFiles=member.startsWith('foundations/')?[member,'CHANGELOG.md']:[member,'CURRENT_MANIFEST.md','CHANGELOG.md'];
   const change={changeId,category:'format',predecessorEdition:old.edition,predecessorSeal:old.inventorySeal,resultEdition:record.edition,resultSeal:record.inventorySeal,sourceChangeRef:`${record.directory}/CHANGELOG.md`,affectedFiles:[...predecessorFiles,destination].map(p=>`${record.directory}/${p}`),affectedClaimIds:[],problem:'isolated rename accounting',before:member,after:destination,rationale:'exercise current source inventory transitions',permissionBasis:'synthetic engineering test only',priorSnapshot:predecessorFiles.map(path=>({path:`${record.directory}/${path}`,sha256:old.files.find((f:any)=>f.path===path)!.sha256}))};
   const changePath=join(temp,'change.json');
   const invoke=(value:unknown)=>{writeFileSync(changePath,JSON.stringify(value));return spawnSync(process.execPath,['--import',resolve('node_modules/tsx/dist/loader.mjs'),resolve('scripts/check-source-revision.ts'),'--prior-root',prior,'--change',changePath,'--evidence-dir',join(temp,'evidence')],{cwd:next,encoding:'utf8'});};
   let result=invoke(change);assert.equal(result.status,0,result.stdout+result.stderr);
-  const receipt=read(temp,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`);assert.equal(receipt.reviewOutcome,'pending');assert.ok(receipt.affected.some((e:any)=>e.entryId==='DOC-HOME'));assert.deepEqual(readFileSync(join(next,'research/publication/reviews.yaml')),originalReviews);
+  const receipt=read(temp,`evidence/source-revision-${sha256(readFileSync(changePath))}.json`);assert.equal(receipt.reviewOutcome,'pending');assert.ok(receipt.affected.some((e:any)=>e.entryId===(member.startsWith('foundations/')?'DOC-FOUNDATION-ERRATA':'DOC-HOME')));assert.deepEqual(readFileSync(join(next,'research/publication/reviews.yaml')),originalReviews);
   // Neither old-only nor new-only accounting can hide a path transition.
   for(const omit of [member,destination]) {
    result=invoke({...change,affectedFiles:change.affectedFiles.filter(p=>p!==`${record.directory}/${omit}`)});

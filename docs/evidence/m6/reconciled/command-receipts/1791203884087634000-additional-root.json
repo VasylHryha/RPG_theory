@@ -1,0 +1,16 @@
+{
+  "stage": "additional-accessibility",
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/test-e2e.ts",
+    "--output",
+    "dist/m6-reconciled/root",
+    "--grep",
+    "reconciled source reading layouts pass M6 accessibility"
+  ],
+  "log": "docs/evidence/m6/reconciled/additional-root.log",
+  "exitCode": 0,
+  "elapsedSeconds": 43.78
+}

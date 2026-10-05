@@ -2,9 +2,12 @@ import { loadCanonicalCorpus, reviewFingerprint, affectedEntries, renderEntrySyn
 import { websiteReviewState, websiteReviewInputs } from '../src/lib/website-review.js';
 import { args } from './args.js';
 import { mkdirSync, writeFileSync } from 'node:fs';
+import { checkCurrentCatalogue } from './current-catalogue-check.js';
 const options=args(['changed','evidence-dir']);
 const corpus=loadCanonicalCorpus();
+const catalogueCheck=checkCurrentCatalogue(corpus);
 const entries=[...corpus.entries.values()].map(entry=>{ renderEntrySync(corpus,entry); return { entryId:entry.id, route:entry.route, sourceBinding:entry.sourceBinding, sourceMapping:entry.sourceMapping, dependencies:dependencyClosure(corpus,entry.id), bibliography:entry.bibRefs, fingerprint:reviewFingerprint(corpus,entry.id), reviewState:websiteReviewState(corpus,entry.id), reviewInputs:websiteReviewInputs(corpus,entry.id), evidenceState:entry.evidenceState, publicationState:entry.publicationState, editorialDiagnostics:{wordCount:entry.body.split(/\s+/).filter(Boolean).length,wordingCandidates:beginnerWordingCandidates(entry)} }; });
 const receipt={schema:'unity-content-check/1',status:'PASS',date:new Date().toISOString(),admission:corpus.admission,entries,affected:options.changed ? affectedEntries(corpus,options.changed):[],reviewPurpose:'website-source-fidelity/1',scientificCertification:'out-of-scope',acceptedReviews:entries.filter(e=>e.reviewState==='accepted').length,reviewStates:Object.fromEntries(['accepted','pending','stale','rejected'].map(state=>[state,entries.filter(e=>e.reviewState===state).length]))};
 const evidence=options['evidence-dir'] ?? process.env.UNITY_EVIDENCE_DIR ?? 'docs/evidence/m1';mkdirSync(evidence,{recursive:true});writeFileSync(`${evidence}/content-bindings.json`,JSON.stringify(receipt,null,2)+'\n');
-console.log(JSON.stringify({...receipt,entries:entries.length}));
+writeFileSync(`${evidence}/current-catalogue-check.json`,JSON.stringify(catalogueCheck,null,2)+'\n');
+console.log(JSON.stringify({...receipt,catalogueCheck,entries:entries.length}));

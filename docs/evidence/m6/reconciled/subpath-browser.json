@@ -1,0 +1,1086 @@
+{
+  "config": {
+    "argv": [
+      "/Users/new/.local/node/bin/node",
+      "/Users/new/RiderProjects/RPG_theory/node_modules/@playwright/test/cli.js",
+      "test"
+    ],
+    "configFile": "/Users/new/RiderProjects/RPG_theory/playwright.config.ts",
+    "rootDir": "/Users/new/RiderProjects/RPG_theory/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m6/reconciled/browser-traces/subpath",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/new/RiderProjects/RPG_theory/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/m6/reconciled/subpath-browser.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "integration.spec.ts",
+      "file": "integration.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M6 published-only search has an honest empty state, keyboard controls and no-JS browsing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 560,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:35:19.946Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-fa33162a173aa7c200f4",
+          "file": "integration.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "M6 representative layouts pass reflow and WCAG axe at 320px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11481,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:35:20.711Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-42ffe858e2449a5d898e",
+          "file": "integration.spec.ts",
+          "line": 15,
+          "column": 39
+        },
+        {
+          "title": "M6 representative layouts pass reflow and WCAG axe at 375px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12524,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:35:32.200Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-071827e615c0cf5aae3d",
+          "file": "integration.spec.ts",
+          "line": 15,
+          "column": 39
+        },
+        {
+          "title": "M6 representative layouts pass reflow and WCAG axe at 768px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11029,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:35:44.736Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-457dc9691ac68d69f684",
+          "file": "integration.spec.ts",
+          "line": 15,
+          "column": 39
+        },
+        {
+          "title": "M6 representative layouts pass reflow and WCAG axe at 1280px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10804,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:35:55.774Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-53fb9386794e581ac42c",
+          "file": "integration.spec.ts",
+          "line": 15,
+          "column": 39
+        },
+        {
+          "title": "M6 search focus, doubled text, reduced motion and dark mode remain usable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 608,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:36:06.589Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c8f7e420cc033ba00ea-32f08d6ba794e80a24d8",
+          "file": "integration.spec.ts",
+          "line": 23,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "introduction.spec.ts",
+      "file": "introduction.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M2 beginner layouts reflow at 320, 375 and 1280 in light and dark with ordered headings and accessible schematics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19519,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:36:07.218Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6a019d5877a81a201b07-de0aeeb4a7bb516bd9d0",
+          "file": "introduction.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "M2 complete reading journey works without JavaScript and makes question, uncertainty and sources findable",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5690,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-canonical-body]')\nTimeout: 5000ms\n\u001b[32m- Expected substring  -  1\u001b[39m\n\u001b[31m+ Received string     + 14\u001b[39m\n\n\u001b[32m- four successive RRG levels\u001b[39m\n\u001b[31m+ In ordinary words\u001b[39m\n\u001b[31m+ An effective interaction is part of a description of a collective system. Existing organization, fields and boundaries can change which interactions are available. RRG asks whether such changes can help further organization persist.\u001b[39m\n\u001b[31m+ Two distinct source-reported cases\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+ Optical binding: illuminated microspheres show light-mediated interactions and bound arrangements. The light, particles and medium are already supplied. UT-E118\u001b[39m\n\u001b[31m+ Controlled random light: an artificially generated random optical field produces measured attractive interactions between small spheres. Random does not mean broadband white noise, and the experiment does not create the spheres. UT-E119\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+ These are component connections in specified systems, not a complete autonomous sequence of new levels. The catalogue preserves the reported observations, supplied conditions, result types and inspection limits.\u001b[39m\n\u001b[31m+ The proposed relation\u001b[39m\n\u001b[31m+ The conditional proposal can be written schematically:\u001b[39m\n\u001b[31m+ Rn=(Gn,Mn)  →  In+1eff  →  Rn+1.R_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}.Rn​=(Gn​,Mn​)→In+1eff​→Rn+1​.\u001b[39m\n\u001b[31m+ Organization can change a background; that background can change which interactions and arrangements persist. The recursive background companion preserves this proposed connection. Physical environmental change differs from our coarse-graining a description.\u001b[39m\n\u001b[31m+ What remains open\u001b[39m\n\u001b[31m+ The selected claim coverage retains fundamental unification, recursive construction, cosmology, life and AI as open claims or analogies. Controlled effective behavior does not establish arbitrary replacement of fundamental laws. No experiment or paper audit was performed by this website.\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('[data-canonical-body]') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-canonical-body]')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"prose\" data-canonical-body=\"DOC-CONCEPT-INTERACTIONS\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"In ordinary words\u001b[22m\n\u001b[2mAn effective interaction is part of a description of a collective system. Existing organization, fields and boundaries can change which interactions are available. RRG asks whether such changes can help further organization persist.\u001b[22m\n\u001b[2mTwo distinct source-reported cases\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2mOptical binding: illuminated microspheres show light-mediated interactions and bound arrangements. The light, particles and medium are already supplied. UT-E118\u001b[22m\n\u001b[2mControlled random light: an artificially generated random optical field produces measured attractive interactions between small spheres. Random does not mean broadband white noise, and the experiment does not create the spheres. UT-E119\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2mThese are component connections in specified systems, not a complete autonomous sequence of new levels. The catalogue preserves the reported observations, supplied conditions, result types and inspection limits.\u001b[22m\n\u001b[2mThe proposed relation\u001b[22m\n\u001b[2mThe conditional proposal can be written schematically:\u001b[22m\n\u001b[2mRn=(Gn,Mn)  →  In+1eff  →  Rn+1.R_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}.Rn​=(Gn​,Mn​)→In+1eff​→Rn+1​.\u001b[22m\n\u001b[2mOrganization can change a background; that background can change which interactions and arrangements persist. The recursive background companion preserves this proposed connection. Physical environmental change differs from our coarse-graining a description.\u001b[22m\n\u001b[2mWhat remains open\u001b[22m\n\u001b[2mThe selected claim coverage retains fundamental unification, recursive construction, cosmology, life and AI as open claims or analogies. Controlled effective behavior does not establish arbitrary replacement of fundamental laws. No experiment or paper audit was performed by this website.\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-canonical-body]')\nTimeout: 5000ms\n\u001b[32m- Expected substring  -  1\u001b[39m\n\u001b[31m+ Received string     + 14\u001b[39m\n\n\u001b[32m- four successive RRG levels\u001b[39m\n\u001b[31m+ In ordinary words\u001b[39m\n\u001b[31m+ An effective interaction is part of a description of a collective system. Existing organization, fields and boundaries can change which interactions are available. RRG asks whether such changes can help further organization persist.\u001b[39m\n\u001b[31m+ Two distinct source-reported cases\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+ Optical binding: illuminated microspheres show light-mediated interactions and bound arrangements. The light, particles and medium are already supplied. UT-E118\u001b[39m\n\u001b[31m+ Controlled random light: an artificially generated random optical field produces measured attractive interactions between small spheres. Random does not mean broadband white noise, and the experiment does not create the spheres. UT-E119\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+ These are component connections in specified systems, not a complete autonomous sequence of new levels. The catalogue preserves the reported observations, supplied conditions, result types and inspection limits.\u001b[39m\n\u001b[31m+ The proposed relation\u001b[39m\n\u001b[31m+ The conditional proposal can be written schematically:\u001b[39m\n\u001b[31m+ Rn=(Gn,Mn)  →  In+1eff  →  Rn+1.R_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}.Rn​=(Gn​,Mn​)→In+1eff​→Rn+1​.\u001b[39m\n\u001b[31m+ Organization can change a background; that background can change which interactions and arrangements persist. The recursive background companion preserves this proposed connection. Physical environmental change differs from our coarse-graining a description.\u001b[39m\n\u001b[31m+ What remains open\u001b[39m\n\u001b[31m+ The selected claim coverage retains fundamental unification, recursive construction, cosmology, life and AI as open claims or analogies. Controlled effective behavior does not establish arbitrary replacement of fundamental laws. No experiment or paper audit was performed by this website.\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('[data-canonical-body]') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-canonical-body]')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"prose\" data-canonical-body=\"DOC-CONCEPT-INTERACTIONS\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"In ordinary words\u001b[22m\n\u001b[2mAn effective interaction is part of a description of a collective system. Existing organization, fields and boundaries can change which interactions are available. RRG asks whether such changes can help further organization persist.\u001b[22m\n\u001b[2mTwo distinct source-reported cases\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2mOptical binding: illuminated microspheres show light-mediated interactions and bound arrangements. The light, particles and medium are already supplied. UT-E118\u001b[22m\n\u001b[2mControlled random light: an artificially generated random optical field produces measured attractive interactions between small spheres. Random does not mean broadband white noise, and the experiment does not create the spheres. UT-E119\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2mThese are component connections in specified systems, not a complete autonomous sequence of new levels. The catalogue preserves the reported observations, supplied conditions, result types and inspection limits.\u001b[22m\n\u001b[2mThe proposed relation\u001b[22m\n\u001b[2mThe conditional proposal can be written schematically:\u001b[22m\n\u001b[2mRn=(Gn,Mn)  →  In+1eff  →  Rn+1.R_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}.Rn​=(Gn​,Mn​)→In+1eff​→Rn+1​.\u001b[22m\n\u001b[2mOrganization can change a background; that background can change which interactions and arrangements persist. The recursive background companion preserves this proposed connection. Physical environmental change differs from our coarse-graining a description.\u001b[22m\n\u001b[2mWhat remains open\u001b[22m\n\u001b[2mThe selected claim coverage retains fundamental unification, recursive construction, cosmology, life and AI as open claims or analogies. Controlled effective behavior does not establish arbitrary replacement of fundamental laws. No experiment or paper audit was performed by this website.\"\u001b[22m\n\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts:65:57",
+                    "location": {
+                      "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts",
+                      "column": 57,
+                      "line": 65
+                    },
+                    "snippet": "  63 |     await expect(page.locator('[data-canonical-body]')).toContainText('not an independently established universal stability theorem');\n  64 |     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/effective-interactions/');\n> 65 |     await expect(page.locator('[data-canonical-body]')).toContainText('four successive RRG levels');\n     |                                                         ^\n  66 |     await expect(page.locator('math')).not.toHaveCount(0);\n  67 |     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'framework/');\n  68 |     await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Framework',exact:true})).toHaveAttribute('aria-current','page');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts",
+                        "column": 57,
+                        "line": 65
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-canonical-body]')\nTimeout: 5000ms\n\u001b[32m- Expected substring  -  1\u001b[39m\n\u001b[31m+ Received string     + 14\u001b[39m\n\n\u001b[32m- four successive RRG levels\u001b[39m\n\u001b[31m+ In ordinary words\u001b[39m\n\u001b[31m+ An effective interaction is part of a description of a collective system. Existing organization, fields and boundaries can change which interactions are available. RRG asks whether such changes can help further organization persist.\u001b[39m\n\u001b[31m+ Two distinct source-reported cases\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+ Optical binding: illuminated microspheres show light-mediated interactions and bound arrangements. The light, particles and medium are already supplied. UT-E118\u001b[39m\n\u001b[31m+ Controlled random light: an artificially generated random optical field produces measured attractive interactions between small spheres. Random does not mean broadband white noise, and the experiment does not create the spheres. UT-E119\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+ These are component connections in specified systems, not a complete autonomous sequence of new levels. The catalogue preserves the reported observations, supplied conditions, result types and inspection limits.\u001b[39m\n\u001b[31m+ The proposed relation\u001b[39m\n\u001b[31m+ The conditional proposal can be written schematically:\u001b[39m\n\u001b[31m+ Rn=(Gn,Mn)  →  In+1eff  →  Rn+1.R_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}.Rn​=(Gn​,Mn​)→In+1eff​→Rn+1​.\u001b[39m\n\u001b[31m+ Organization can change a background; that background can change which interactions and arrangements persist. The recursive background companion preserves this proposed connection. Physical environmental change differs from our coarse-graining a description.\u001b[39m\n\u001b[31m+ What remains open\u001b[39m\n\u001b[31m+ The selected claim coverage retains fundamental unification, recursive construction, cosmology, life and AI as open claims or analogies. Controlled effective behavior does not establish arbitrary replacement of fundamental laws. No experiment or paper audit was performed by this website.\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('[data-canonical-body]') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-canonical-body]')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"prose\" data-canonical-body=\"DOC-CONCEPT-INTERACTIONS\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"In ordinary words\u001b[22m\n\u001b[2mAn effective interaction is part of a description of a collective system. Existing organization, fields and boundaries can change which interactions are available. RRG asks whether such changes can help further organization persist.\u001b[22m\n\u001b[2mTwo distinct source-reported cases\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2mOptical binding: illuminated microspheres show light-mediated interactions and bound arrangements. The light, particles and medium are already supplied. UT-E118\u001b[22m\n\u001b[2mControlled random light: an artificially generated random optical field produces measured attractive interactions between small spheres. Random does not mean broadband white noise, and the experiment does not create the spheres. UT-E119\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2mThese are component connections in specified systems, not a complete autonomous sequence of new levels. The catalogue preserves the reported observations, supplied conditions, result types and inspection limits.\u001b[22m\n\u001b[2mThe proposed relation\u001b[22m\n\u001b[2mThe conditional proposal can be written schematically:\u001b[22m\n\u001b[2mRn=(Gn,Mn)  →  In+1eff  →  Rn+1.R_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}.Rn​=(Gn​,Mn​)→In+1eff​→Rn+1​.\u001b[22m\n\u001b[2mOrganization can change a background; that background can change which interactions and arrangements persist. The recursive background companion preserves this proposed connection. Physical environmental change differs from our coarse-graining a description.\u001b[22m\n\u001b[2mWhat remains open\u001b[22m\n\u001b[2mThe selected claim coverage retains fundamental unification, recursive construction, cosmology, life and AI as open claims or analogies. Controlled effective behavior does not establish arbitrary replacement of fundamental laws. No experiment or paper audit was performed by this website.\"\u001b[22m\n\n\n  63 |     await expect(page.locator('[data-canonical-body]')).toContainText('not an independently established universal stability theorem');\n  64 |     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/effective-interactions/');\n> 65 |     await expect(page.locator('[data-canonical-body]')).toContainText('four successive RRG levels');\n     |                                                         ^\n  66 |     await expect(page.locator('math')).not.toHaveCount(0);\n  67 |     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'framework/');\n  68 |     await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Framework',exact:true})).toHaveAttribute('aria-current','page');\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts:65:57"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:36:26.756Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m6/reconciled/browser-traces/subpath/introduction-M2-complete-r-a94ef-tainty-and-sources-findable/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/m6/reconciled/browser-traces/subpath/introduction-M2-complete-r-a94ef-tainty-and-sources-findable/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/introduction.spec.ts",
+                    "column": 57,
+                    "line": 65
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6a019d5877a81a201b07-bc505bafaf28c5b6a5b0",
+          "file": "introduction.spec.ts",
+          "line": 36,
+          "column": 1
+        },
+        {
+          "title": "beginner pages retain reflow with doubled text size",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 905,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:36:33.124Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6a019d5877a81a201b07-c526cfcc6f993b6c4c50",
+          "file": "introduction.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "the real interaction equation scrolls locally by keyboard and retains loaded mathematical fonts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5240,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:36:34.254Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6a019d5877a81a201b07-77e9ceb4c061a257ed29",
+          "file": "introduction.spec.ts",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "cold home and real math reading meet owned asset budgets without loading math on plain pages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2685,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:36:39.508Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6a019d5877a81a201b07-720f344feeac55370c1d",
+          "file": "introduction.spec.ts",
+          "line": 95,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "publication-policy.spec.ts",
+      "file": "publication-policy.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M5 pending About/legal/identity journey works without JavaScript and dependency notice is downloadable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 409,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:36:42.210Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c554ef38fc6eb2ad358e-06e6fd1477642388cce4",
+          "file": "publication-policy.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "M5 policy pages and expanded footer reflow at 320px with no axe violations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1516,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:36:42.628Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c554ef38fc6eb2ad358e-11a9d5296a05ccf8bf39",
+          "file": "publication-policy.spec.ts",
+          "line": 16,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "publication.spec.ts",
+      "file": "publication.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12876,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:36:44.828Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "196bb43e3280bf0d8039-93e9a1745ed3924aa196",
+          "file": "publication.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "M4 new pages reflow at 320px and technical print retains equations, status, revision and citation targets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5107,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:36:57.715Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "196bb43e3280bf0d8039-46bdeca68368cebcc9be",
+          "file": "publication.spec.ts",
+          "line": 24,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "reading.spec.ts",
+      "file": "reading.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "home and start read without JavaScript, navigate by keyboard and show source state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 429,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:02.846Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-34a22171ff679132a9bb",
+          "file": "reading.spec.ts",
+          "line": 16,
+          "column": 1
+        },
+        {
+          "title": "home, nested reading and math pass automated accessibility and 320px reflow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1854,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:03.288Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-84f3e9a983094c077fdb",
+          "file": "reading.spec.ts",
+          "line": 39,
+          "column": 1
+        },
+        {
+          "title": "dark-mode reading remains accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 733,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:05.152Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-b97c71468e68d1b5ec86",
+          "file": "reading.spec.ts",
+          "line": 66,
+          "column": 1
+        },
+        {
+          "title": "unknown routes return real 404 and nested assets use the configured base",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 266,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:05.898Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-27df15f68d44623424f6",
+          "file": "reading.spec.ts",
+          "line": 73,
+          "column": 1
+        },
+        {
+          "title": "M1 consumers retain source roles and reported evidence independently of website fidelity",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1175,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:06.175Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-82c6da5c5880d4b95e7c",
+          "file": "reading.spec.ts",
+          "line": 88,
+          "column": 1
+        },
+        {
+          "title": "M1 claims, concepts, status, matrix and bibliography pass axe and 320px reflow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4307,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:07.355Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-5e4c9c083109ee1a79bb",
+          "file": "reading.spec.ts",
+          "line": 125,
+          "column": 1
+        },
+        {
+          "title": "literature has source-backed DOI identities and usable source extraction details without JS",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3321,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:11.668Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-306c558a61d151dd1f76",
+          "file": "reading.spec.ts",
+          "line": 139,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "source-reconciliation.spec.ts",
+      "file": "source-reconciliation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "source reconciliation reading and section journeys work without JavaScript",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1096,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:15.003Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e2423da2b08a516a8161-f02f0eba7150f81b00b6",
+          "file": "source-reconciliation.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "source reconciliation current readings keep usable mobile layout and document destinations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1004,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:16.115Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e2423da2b08a516a8161-a958c7b8f123f9744912",
+          "file": "source-reconciliation.spec.ts",
+          "line": 38,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "technical.spec.ts",
+      "file": "technical.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M3 technical reading and source discovery work without JavaScript",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2421,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:17.134Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f9ec34fa5d3770304f3-7459dd190ee691fc18da",
+          "file": "technical.spec.ts",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "M3 equations and technical readings remain accessible at 320px in dark mode",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19070,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:19.561Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f9ec34fa5d3770304f3-8737f3452cffff8a3b15",
+          "file": "technical.spec.ts",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "M3 evidence attribution, scope and open tests remain visible beside the actual sources",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 382,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T12:37:38.637Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f9ec34fa5d3770304f3-1c248c4d624cad2c7ada",
+          "file": "technical.spec.ts",
+          "line": 54,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-05T12:35:18.675Z",
+    "duration": 140449.89299999998,
+    "expected": 26,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

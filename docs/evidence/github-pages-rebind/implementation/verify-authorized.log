@@ -1,0 +1,298 @@
+
+> unity-theory@0.0.1 verify
+> tsx scripts/verify.ts --output-root dist/github-pages-rebind --evidence-dir docs/evidence/github-pages-rebind/implementation/verify
+
+
+Running npm run check
+
+> unity-theory@0.0.1 check
+> astro check
+
+19:48:45 [content] Syncing content
+19:48:48 [content] Synced content
+19:48:48 [types] Generated 3.98s
+19:48:48 [check] Getting diagnostics for Astro files in /Users/new/RiderProjects/RPG_theory...
+Result (95 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+Running npm run check:sources -- --scope history
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope history
+
+{"status":"PASS","historicalFiles":14,"noticeTranscriptions":2,"authorityNoticeOnly":true}
+
+Running npm run check:sources -- --scope current
+
+> unity-theory@0.0.1 check:sources
+> tsx scripts/check-sources.ts --scope current
+
+{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"qualificationBasis":"website-source-fidelity/1","files":24,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"caaa7691bde318f188dcecf45950b05b5c0cdcc2cff9770474522395b67c8139","edition":"RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05","sourceBoundEntries":77,"websiteFidelity":"pending","scientificCertification":"out-of-scope"}
+
+Running npm run check:content
+
+> unity-theory@0.0.1 check:content
+> tsx scripts/check-content.ts
+
+{"schema":"unity-content-check/1","status":"PASS","date":"2026-10-05T16:49:28.519Z","admission":{"availability":"AVAILABLE_BYTES_VERIFIED","bytesVerified":true,"corpusScope":"current","currentSourceQualified":false,"qualificationBasis":"website-source-fidelity/1","files":24,"coreSha256":"b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1","inventorySeal":"caaa7691bde318f188dcecf45950b05b5c0cdcc2cff9770474522395b67c8139","edition":"RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05"},"entries":96,"affected":[],"reviewPurpose":"website-source-fidelity/1","scientificCertification":"out-of-scope","acceptedReviews":0,"reviewStates":{"accepted":0,"pending":0,"stale":96,"rejected":0},"catalogueCheck":{"status":"PASS","scope":"selected repository inventory and editorial mapping; not original-bundle validation or scientific reproduction","primaryCases":22,"furtherReading":3,"documentQualifiedLabels":79,"caseEdges":31}}
+
+Running npm run check:publication
+
+> unity-theory@0.0.1 check:publication
+> tsx scripts/check-publication.ts
+
+{"status":"PASS","publicReady":false,"repositorySelection":"NOT_SELECTED","privateOrUnapprovedPaths":3422,"screenFindings":0,"deploymentGates":["MANUAL_MAIN_DEPLOYMENT_REQUIRED","PUBLIC_TARGET_NOT_AUTHORIZED","PUBLIC_CREDIT_DECISION_REQUIRED","PERMANENT_URL_REQUIRED","RIGHTS_DECISION_REQUIRED","SCOPED_RIGHTS_REVIEW_REQUIRED","PUBLIC_CONTENT_APPROVAL_REQUIRED","PUBLIC_REPOSITORY_PRIVACY_REVIEW_REQUIRED","CURRENT_SOURCE_NOT_QUALIFIED","M6_RELEASE_QUALIFICATION_REQUIRED","DEPLOYMENT_DISABLED"],"platformProtections":"NOT_CONFIGURED"}
+
+Running npm run build -- --mode preview --config tests/fixtures/site-root.json --output dist/github-pages-rebind/preview-root
+
+> unity-theory@0.0.1 build
+> tsx scripts/build.ts --mode preview --config tests/fixtures/site-root.json --output dist/github-pages-rebind/preview-root
+
+19:49:47 [content] Syncing content
+19:49:47 [content] Astro config changed
+19:49:47 [content] Clearing content store
+19:49:50 [content] Synced content
+19:49:50 [types] Generated 3.92s
+19:49:50 [build] output: "static"
+19:49:50 [build] mode: "static"
+19:49:50 [build] directory: /Users/new/RiderProjects/RPG_theory/dist/github-pages-rebind/preview-root/
+19:49:50 [build] Collecting build info...
+19:49:50 [build] ✓ Completed in 3.95s.
+19:49:50 [build] Building static entrypoints...
+19:49:51 [vite] ✓ built in 1.55s
+19:49:51 [vite] ✓ built in 93ms
+19:49:51 [build] Rearranging server assets...
+
+ generating static routes 
+19:49:57   ├─ /404.html (+18ms) 
+19:49:57   ├─ /about/index.html (+4ms) 
+19:49:57   ├─ /articles/index.html (+4ms) 
+19:49:57   ├─ /cite/index.html (+2.48s) 
+19:50:00   ├─ /downloads/THIRD-PARTY-NOTICES.txt/ (+7ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-STATUS.md/ (+8ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-CONCEPT-GEOMETRY.md/ (+4ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-CORE.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-CONTROL.md/ (+4ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-FRAMEWORK.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-MATH.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-OPEN-PROBLEMS.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-SOURCE-CHANGES.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-WORLD.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-BACKGROUND.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-ILLUSTRATIONS.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-CATALOGUE.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-CLAIM-COVERAGE.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-READING-GUIDE.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-AUTHORITY.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-FOUNDATION-ERRATA.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-D01.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/UT-D02.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/UT-D03.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-D04.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-D05.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-D06.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-D07.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-D08.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-D09.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-C01.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-C02.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E101.md/ (+4ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E102.md/ (+4ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E103.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E104.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E105.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E106.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E107.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E108.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E109.md/ (+3ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E110.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E111.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E112.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E113.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E114.md/ (+0ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E115.md/ (+30ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E116.md/ (+19ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E117.md/ (+7ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E118.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E119.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E120.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E121.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/UT-E122.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/UT-O101.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-O102.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/UT-O103.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/UT-O104.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/UT-O105.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-O106.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/UT-O107.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/UT-O108.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-ARTICLE-STRUCTURES.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-ARTICLE-UNIT.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-CONCEPT-INTERACTIONS.md/ (+2ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-CONCEPT-RECURSION.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-CONCEPT-STABILITY.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-CONCEPTS.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-EVIDENCE.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-EXAMPLE-CELL.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-EXAMPLE-LIFE.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-EXAMPLE-MOLECULE.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-EXAMPLE-STAR.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-EXAMPLE-STRING.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-EXAMPLE-WATER.md/ (+1ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-EXAMPLES.md/ (+28ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-HOME.md/ (+5ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-SOURCE-LINKS.md/ (+13ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-START.md/ (+3ms) 
+19:50:00   ├─ /downloads/explanatory/DOC-LIBRARY.md/ (+2ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-AUDIT.md/ (+2ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-AUTHORITY.md/ (+5ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-BACKGROUND.md/ (+3ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-CATALOGUE.md/ (+3ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-CHANGELOG.md/ (+1ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON.json/ (+1ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON.json/ (+2ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY.py/ (+2ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-CLAIMS.md/ (+2ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-CONTROL.md/ (+1ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-CORE.md/ (+1ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-FOUNDATIONS-ERRATA-MD.md/ (+1ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-GUIDE.md/ (+1ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-ILLUSTRATIONS.md/ (+0ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-MATH.md/ (+0ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-REGISTER.json/ (+0ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-SCIENCE.md/ (+0ms) 
+19:50:00   ├─ /downloads/original/R-CURRENT-WORLD.md/ (+1ms) 
+19:50:00   ├─ /downloads/release.json/ (+1ms) 
+19:50:00   ├─ /downloads/SHA256SUMS/ (+1ms) 
+19:50:00   ├─ /downloads/unity-theory-publication-site-2026.10.05-m6-private-preview.zip/ (+2ms) 
+19:50:00   ├─ /fixtures/math/index.html (+7ms) 
+19:50:00   ├─ /legal/index.html (+3ms) 
+19:50:00   ├─ /references/index.html (+7ms) 
+19:50:00   ├─ /rss.xml (+2ms) 
+19:50:00   ├─ /search/index.html (+3ms) 
+19:50:00   ├─ /sitemap.xml (+1ms) 
+19:50:00   ├─ /start/index.html (+11ms) 
+19:50:00   ├─ /index.html (+64ms) 
+19:50:00   ├─ /research-status/index.html (+156ms) 
+19:50:00   ├─ /research-status/proof-matrix/index.html (+10ms) 
+19:50:00   ├─ /concepts/geometry-and-modes/index.html (+7ms) 
+19:50:00   ├─ /documents/locked-core/index.html (+24ms) 
+19:50:00   ├─ /changes/index.html (+100ms) 
+19:50:00   ├─ /framework/index.html (+477ms) 
+19:50:01   ├─ /math/index.html (+872ms) 
+19:50:02   ├─ /evidence/interactions/index.html (+66ms) 
+19:50:02   ├─ /evidence/additional/index.html (+59ms) 
+19:50:02   ├─ /open-problems/index.html (+14ms) 
+19:50:02   ├─ /changes/source-history/index.html (+24ms) 
+19:50:02   ├─ /documents/world-explanation/index.html (+265ms) 
+19:50:02   ├─ /framework/recursive-background/index.html (+676ms) 
+19:50:03   ├─ /math/illustrations/index.html (+211ms) 
+19:50:03   ├─ /evidence/catalogue/index.html (+180ms) 
+19:50:03   ├─ /research-status/claims/index.html (+14ms) 
+19:50:03   ├─ /documents/reading-guide/index.html (+17ms) 
+19:50:03   ├─ /documents/source-authority/index.html (+8ms) 
+19:50:03   ├─ /documents/foundation-errata/index.html (+10ms) 
+19:50:03   ├─ /claims/UT-D01/index.html (+4ms) 
+19:50:03   ├─ /claims/UT-D02/index.html (+5ms) 
+19:50:03   ├─ /claims/UT-D03/index.html (+10ms) 
+19:50:03   ├─ /claims/UT-D04/index.html (+11ms) 
+19:50:03   ├─ /claims/UT-D05/index.html (+9ms) 
+19:50:03   ├─ /claims/UT-D06/index.html (+78ms) 
+19:50:03   ├─ /claims/UT-D07/index.html (+12ms) 
+19:50:03   ├─ /claims/UT-D08/index.html (+8ms) 
+19:50:03   ├─ /claims/UT-D09/index.html (+8ms) 
+19:50:03   ├─ /claims/UT-C01/index.html (+6ms) 
+19:50:03   ├─ /claims/UT-C02/index.html (+4ms) 
+19:50:03   ├─ /claims/UT-O01/index.html (+5ms) 
+19:50:03   ├─ /claims/UT-O02/index.html (+38ms) 
+19:50:03   ├─ /claims/UT-O03/index.html (+14ms) 
+19:50:03   ├─ /claims/UT-O04/index.html (+24ms) 
+19:50:03   ├─ /claims/UT-O05/index.html (+8ms) 
+19:50:03   ├─ /claims/UT-O06/index.html (+3ms) 
+19:50:03   ├─ /claims/UT-E01/index.html (+5ms) 
+19:50:03   ├─ /claims/UT-E02/index.html (+6ms) 
+19:50:03   ├─ /claims/UT-E03/index.html (+5ms) 
+19:50:03   ├─ /claims/UT-E04/index.html (+12ms) 
+19:50:03   ├─ /claims/UT-E05/index.html (+6ms) 
+19:50:03   ├─ /claims/UT-E06/index.html (+7ms) 
+19:50:03   ├─ /claims/UT-E07/index.html (+35ms) 
+19:50:03   ├─ /claims/UT-E08/index.html (+7ms) 
+19:50:03   ├─ /claims/UT-E09/index.html (+8ms) 
+19:50:03   ├─ /claims/UT-E10/index.html (+12ms) 
+19:50:03   ├─ /claims/UT-E11/index.html (+14ms) 
+19:50:03   ├─ /claims/UT-E12/index.html (+6ms) 
+19:50:03   ├─ /claims/UT-E101/index.html (+3ms) 
+19:50:03   ├─ /claims/UT-E102/index.html (+4ms) 
+19:50:03   ├─ /claims/UT-E103/index.html (+15ms) 
+19:50:03   ├─ /claims/UT-E104/index.html (+5ms) 
+19:50:04   ├─ /claims/UT-E105/index.html (+7ms) 
+19:50:04   ├─ /claims/UT-E106/index.html (+6ms) 
+19:50:04   ├─ /claims/UT-E107/index.html (+36ms) 
+19:50:04   ├─ /claims/UT-E108/index.html (+22ms) 
+19:50:04   ├─ /claims/UT-E109/index.html (+4ms) 
+19:50:04   ├─ /claims/UT-E110/index.html (+4ms) 
+19:50:04   ├─ /claims/UT-E111/index.html (+4ms) 
+19:50:04   ├─ /claims/UT-E112/index.html (+4ms) 
+19:50:04   ├─ /claims/UT-E113/index.html (+9ms) 
+19:50:04   ├─ /claims/UT-E114/index.html (+5ms) 
+19:50:04   ├─ /claims/UT-E115/index.html (+3ms) 
+19:50:04   ├─ /claims/UT-E116/index.html (+4ms) 
+19:50:04   ├─ /claims/UT-E117/index.html (+24ms) 
+19:50:04   ├─ /claims/UT-E118/index.html (+28ms) 
+19:50:04   ├─ /claims/UT-E119/index.html (+10ms) 
+19:50:04   ├─ /claims/UT-E120/index.html (+8ms) 
+19:50:04   ├─ /claims/UT-E121/index.html (+10ms) 
+19:50:04   ├─ /claims/UT-E122/index.html (+5ms) 
+19:50:04   ├─ /claims/UT-O101/index.html (+6ms) 
+19:50:04   ├─ /claims/UT-O102/index.html (+6ms) 
+19:50:04   ├─ /claims/UT-O103/index.html (+7ms) 
+19:50:04   ├─ /claims/UT-O104/index.html (+6ms) 
+19:50:04   ├─ /claims/UT-O105/index.html (+3ms) 
+19:50:04   ├─ /claims/UT-O106/index.html (+4ms) 
+19:50:04   ├─ /claims/UT-O107/index.html (+4ms) 
+19:50:04   ├─ /claims/UT-O108/index.html (+5ms) 
+19:50:04   ├─ /articles/how-existing-structures-make-new-organization-possible/index.html (+5ms) 
+19:50:04   ├─ /articles/when-can-a-whole-be-treated-as-one-useful-unit/index.html (+5ms) 
+19:50:04   ├─ /concepts/effective-interactions/index.html (+6ms) 
+19:50:04   ├─ /concepts/recursion/index.html (+8ms) 
+19:50:04   ├─ /concepts/stability/index.html (+22ms) 
+19:50:04   ├─ /concepts/index.html (+14ms) 
+19:50:04   ├─ /evidence/index.html (+79ms) 
+19:50:04   ├─ /examples/cell/index.html (+13ms) 
+19:50:04   ├─ /examples/life-environment/index.html (+6ms) 
+19:50:04   ├─ /examples/molecule/index.html (+13ms) 
+19:50:04   ├─ /examples/star/index.html (+5ms) 
+19:50:04   ├─ /examples/string/index.html (+6ms) 
+19:50:04   ├─ /examples/water/index.html (+5ms) 
+19:50:04   ├─ /examples/index.html (+4ms) 
+19:50:04   ├─ /evidence/source-links/index.html (+116ms) 
+19:50:04   ├─ /documents/index.html (+77ms) 
+19:50:04 ✓ Completed in 12.73s.
+
+19:50:04 [build] ✓ Completed in 14.44s.
+19:50:04 [build] 104 page(s) built in 18.39s
+19:50:04 [build] Complete!
+preview artifact: /Users/new/RiderProjects/RPG_theory/dist/github-pages-rebind/preview-root; deployEligible=false
+
+Running npm run audit:output -- --dir dist/github-pages-rebind/preview-root --evidence-dir docs/evidence/github-pages-rebind/implementation/verify/root
+
+> unity-theory@0.0.1 audit:output
+> tsx scripts/audit-output.ts --dir dist/github-pages-rebind/preview-root --evidence-dir docs/evidence/github-pages-rebind/implementation/verify/root
+
+/Users/new/RiderProjects/RPG_theory/scripts/args.ts:7
+    if (!key?.startsWith('--') || !allowed.includes(key.slice(2)) || !value || value.startsWith('--') || result[key.slice(2)] !== undefined) throw new ContractError('INVALID_ARGUMENT', argv.join(' '));
+                                                                                                                                                   ^
+
+ContractError: INVALID_ARGUMENT: --dir dist/github-pages-rebind/preview-root --evidence-dir docs/evidence/github-pages-rebind/implementation/verify/root
+    at args (/Users/new/RiderProjects/RPG_theory/scripts/args.ts:7:148)
+    at <anonymous> (/Users/new/RiderProjects/RPG_theory/scripts/audit-output.ts:216:19)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'INVALID_ARGUMENT'
+}
+
+Node.js v24.18.0

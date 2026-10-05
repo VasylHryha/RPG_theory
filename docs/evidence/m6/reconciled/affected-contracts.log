@@ -1,0 +1,77 @@
+✔ M3 technical readings extract each complete original body with retained addenda and source provenance (897.605875ms)
+✔ selected catalogue retains all 22 case identities and source-reported two-axis classification (45.074875ms)
+✔ current questions and audit preserve the promoted source scope while predecessor IDs remain historical (0.506125ms)
+✔ technical guides use actual heading anchors and selected routes at both bases (11402.690208ms)
+✖ M3 preserves issued decisions without turning new readings or builds into approvals (10.877959ms)
+✔ the disclosed section 39 display repair preserves three separate formulas and refuses a changed boundary (9.919959ms)
+✔ M6 real drafts never enter search/sitemap; private utility metadata invents no author or institution (5159.005625ms)
+✔ M6 correction transaction invalidates dependants, requires explicit synthetic rereview and excludes the replaced route (3465.19475ms)
+✔ M6 missing search body and misleading scope fail before indexing (3108.989875ms)
+✔ M6 stale search identity and added source-map/private assets are refused in the actual artifact auditor (9637.643708ms)
+✔ document links, reference-style links and case sections resolve to real HTML at both bases (93.236375ms)
+✖ current source downloads preserve exact bytes and correct file types; historical drafts stay outside exports and navigation (5509.962667ms)
+✔ intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate (3796.7345ms)
+✔ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (3245.337375ms)
+✔ bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision (3314.506583ms)
+✔ complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it (2950.192875ms)
+✔ null, primitive and incomplete stale evidence fail with the intended typed diagnostic (2887.570708ms)
+✔ review dates cannot predate the reviewed material, including dependency updates (2916.209ms)
+✔ receipt paths reject traversal, symlink files and symlink ancestors (2812.664541ms)
+✔ review inputs independently capture rendered plain language and the actual home projection without aliasing (2809.367167ms)
+✔ stale decisions retain internally coherent dates, source excerpts, dependencies and projection reads (63961.214584ms)
+✔ receipt paths reject control characters even when a matching regular file exists (7252.190542ms)
+✔ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (36119.066375ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 21
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 132734.909667
+
+✖ failing tests:
+
+test at tests/content/m3.test.ts:1:5376
+✖ M3 preserves issued decisions without turning new readings or builds into approvals (10.877959ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'accepted'
+  - 'stale'
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/m3.test.ts:97:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'accepted',
+    expected: 'stale',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/content/source-reconciliation.test.ts:1:2036
+✖ current source downloads preserve exact bytes and correct file types; historical drafts stay outside exports and navigation (5509.962667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/source-reconciliation.test.ts:53:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

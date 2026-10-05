@@ -11,7 +11,11 @@ if (mode === 'release') {
   const config=loadSiteConfig(options.config);
   assertBuildAllowed(mode,config,publicationFor(mode,config).admission);
 }
-const configurations = options.config ? [options.config] : ['config/site.json', 'tests/fixtures/site-subpath.json'];
+const configurations = options.config ? [options.config] : ['tests/fixtures/site-root.json', 'tests/fixtures/site-subpath.json', 'config/site.json'];
+const suffixFor = (path: string) => {
+  const base = loadSiteConfig(path).basePath;
+  return base === '/' ? 'root' : base === '/unity-theory/' ? 'subpath' : 'target';
+};
 const commands = [
   ['run', 'check'],
   ['run', 'check:sources', '--', '--scope', 'history'],
@@ -19,7 +23,7 @@ const commands = [
   ['run', 'check:content'],
   ['run', 'check:publication'],
   ...configurations.flatMap(config => {
-    const suffix = loadSiteConfig(config).basePath === '/' ? 'root' : 'subpath';
+    const suffix = suffixFor(config);
     const output = `${options['output-root'] ?? 'dist'}/${mode}-${suffix}`;
     return [
       ['run', 'build', '--', '--mode', mode, '--config', config, '--output', output],
@@ -28,16 +32,20 @@ const commands = [
   }),
   ['run', 'test:content'],
   ...configurations.flatMap(config=>{
-    const suffix=loadSiteConfig(config).basePath==='/'?'root':'subpath',output=`${options['output-root']??'dist'}/${mode}-${suffix}`;
-    return [['run','test:e2e','--','--output',output],['run','check:m6','--','--dir',output,'--evidence-dir',options['evidence-dir']??'docs/evidence/m6/implementation','--lighthouse',suffix==='root'?'true':'false']];
+    const suffix=suffixFor(config),output=`${options['output-root']??'dist'}/${mode}-${suffix}`;
+    return [['run','test:e2e','--','--output',output],['run','check:m6','--','--dir',output,'--evidence-dir',`${options['evidence-dir']??'docs/evidence/m6/implementation'}/${suffix}`,'--lighthouse',suffix==='root'?'true':'false']];
   })
 ];
 const receipts: { command: string; exitCode: number | null }[] = [];
 for (const command of commands) {
   console.log(`\nRunning npm ${command.join(' ')}`);
-  const subpathConfig=configurations.find(path=>loadSiteConfig(path).basePath!=='/')??configurations[0];
-  const contractOutput=`${options['output-root']??'dist'}/${mode}-${loadSiteConfig(subpathConfig).basePath==='/'?'root':'subpath'}`;
-  const result = spawnSync('npm', command, { stdio: 'inherit', env: { ...process.env, ASTRO_TELEMETRY_DISABLED: '1', UNITY_CONTRACT_OUTPUT:resolve(contractOutput), UNITY_EVIDENCE_DIR: options['evidence-dir'] ?? 'docs/evidence/m6/implementation' } });
+  // Contract mutations intentionally use the legacy regression base. Give an
+  // explicit target-only run its own independently built contract fixture.
+  const subpathConfig=configurations.find(path=>loadSiteConfig(path).basePath==='/unity-theory/');
+  const contractOutput=subpathConfig?`${options['output-root']??'dist'}/${mode}-${suffixFor(subpathConfig)}`:undefined;
+  const artifactOutput=command[1]==='test:e2e'?command[command.indexOf('--output')+1]:command[1]==='audit:output'?command[command.indexOf('--dir')+1]:undefined;
+  const artifactSuffix=artifactOutput?.split('/').pop()?.replace(`${mode}-`,'');
+  const result = spawnSync('npm', command, { stdio: 'inherit', env: { ...process.env, ASTRO_TELEMETRY_DISABLED: '1', ...(contractOutput?{UNITY_CONTRACT_OUTPUT:resolve(contractOutput)}:{}), UNITY_EVIDENCE_DIR: `${options['evidence-dir'] ?? 'docs/evidence/m6/implementation'}${artifactSuffix?'/'+artifactSuffix:''}` } });
   receipts.push({ command: 'npm ' + command.join(' '), exitCode: result.status });
   if (result.status !== 0) break;
 }

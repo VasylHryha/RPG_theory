@@ -1,0 +1,16 @@
+{
+  "stage": "additional-accessibility",
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "scripts/test-e2e.ts",
+    "--output",
+    "dist/m6-reconciled/subpath",
+    "--grep",
+    "reconciled source reading layouts pass M6 accessibility"
+  ],
+  "log": "docs/evidence/m6/reconciled/additional-subpath.log",
+  "exitCode": 0,
+  "elapsedSeconds": 44.98
+}

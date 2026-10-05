@@ -14,7 +14,7 @@ test('M6 published-only search has an honest empty state, keyboard controls and 
 });
 for(const width of [320,375,768,1280])test(`M6 representative layouts pass reflow and WCAG axe at ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:900});
- for(const route of ['', 'start/','examples/string/','concepts/geometry-and-modes/','framework/','math/','research-status/proof-matrix/','articles/how-existing-structures-make-new-organization-possible/','documents/','legal/','search/']) {
+ for(const route of ['', 'start/','examples/string/','concepts/geometry-and-modes/','framework/','math/','research-status/claims/','articles/how-existing-structures-make-new-organization-possible/','documents/','legal/','search/']) {
   await page.goto(base+route);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route).toBe(true);
   const audit=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();expect(audit.violations,route+JSON.stringify(audit.violations)).toEqual([]);
  }

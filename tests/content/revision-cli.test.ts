@@ -24,7 +24,7 @@ test('real revision CLI validates preserved editions and reports pending dependa
     }
     const predecessor=read(prior,'config/research-source.json'),record=read(next,'config/research-source.json');
     const changeId='SYNTHETIC-ENGINEERING-TRANSACTION';
-    const changed=['04_status_and_blockers.md','CHANGELOG.md'];
+    const changed=['07_audit_report.md','CHANGELOG.md'];
     for(const name of changed) {
       const path=join(next,'research/RRG_CURRENT',name);
       writeFileSync(path,readFileSync(path,'utf8')+`\n\n${changeId}: isolated test annotation; not a scientific revision or approval.\n`);
@@ -32,13 +32,14 @@ test('real revision CLI validates preserved editions and reports pending dependa
     record.edition='Synthetic authoring control, not a research edition';
     record.files=record.files.map((f:{path:string;bytes:number;sha256:string})=>{const raw=readFileSync(join(next,record.directory,f.path));return {...f,bytes:raw.length,sha256:sha256(raw)};});
     record.inventorySeal=sha256(stableJSON(record.files));
-    record.bindings=record.bindings.map((b:{path:string;sourceSha256:string})=>({...b,sourceSha256:record.files.find((f:{path:string})=>f.path===b.path).sha256}));
+    const refreshed=(b:any)=>{const lines=readFileSync(join(next,record.directory,b.path),'utf8').match(/[^\n]*\n|[^\n]+$/g) ?? [];return {...b,sourceSha256:record.files.find((f:any)=>f.path===b.path).sha256,excerptSha256:sha256(lines.slice(b.startLine-1,b.endLine).join(''))};};
+    record.bindings=record.bindings.map(refreshed);
     write(next,'config/research-source.json',record);
     const sources=read(next,'research/publication/source-index.yaml');
     const changedKeys=sources.filter((s:{path:string})=>changed.some(name=>s.path===`research/RRG_CURRENT/${name}`)).map((s:{key:string})=>s.key);
-    for(const source of sources) if(source.declaredCurrent) {source.edition=record.edition;source.sha256=record.files.find((f:{path:string})=>`${record.directory}/${f.path}`===source.path).sha256;}
+    for(const source of sources) if(source.path.startsWith(record.directory+'/')) {source.edition=record.edition;source.sha256=record.files.find((f:{path:string})=>`${record.directory}/${f.path}`===source.path).sha256;}
     write(next,'research/publication/source-index.yaml',sources);
-    const revise=(e:any)=>{e.researchEdition=record.edition;if(e.sourceRefs.some((key:string)=>changedKeys.includes(key))) e.revision+=1;if(e.sourceBinding)e.sourceBinding.sourceSha256=sources.find((s:any)=>s.key===e.sourceBinding.sourceKey).sha256;return e;};
+    const revise=(e:any)=>{if(e.publicationState==='archived') return e;e.researchEdition=record.edition;if(e.sourceRefs.some((key:string)=>changedKeys.includes(key))) e.revision+=1;if(e.sourceBinding){const source=sources.find((s:any)=>s.key===e.sourceBinding.sourceKey),path=source.path.replace(record.directory+'/', '');if(source.path.startsWith(record.directory+'/')){const refreshedBinding=refreshed({...e.sourceBinding,path});e.sourceBinding.sourceSha256=refreshedBinding.sourceSha256;e.sourceBinding.excerptSha256=refreshedBinding.excerptSha256;}}return e;};
     for(const name of ['records','canonical-documents']) write(next,`research/publication/${name}.yaml`,read(next,`research/publication/${name}.yaml`).map(revise));
     for(const name of readdirSync(join(next,'research/publication/pages')).filter(name=>name.endsWith('.md'))) {
       const path=join(next,`research/publication/pages/${name}`),raw=readFileSync(path,'utf8');
@@ -61,17 +62,17 @@ test('real revision CLI validates preserved editions and reports pending dependa
     writeFileSync(corePath,readFileSync(corePath,'utf8')+'\nSynthetic core-change control; no actual source authoring.\n');
     record.coreSha256=sha256(readFileSync(corePath));
     const manifestPath=join(next,'research/RRG_CURRENT/CURRENT_MANIFEST.md');
-    writeFileSync(manifestPath,readFileSync(manifestPath,'utf8').replace(predecessor.coreSha256,record.coreSha256));
+    writeFileSync(manifestPath,readFileSync(manifestPath,'utf8').replace(predecessor.coreSha256,record.coreSha256)+`\nSynthetic revised core hash: ${record.coreSha256}\n`);
     record.manifestSha256=sha256(readFileSync(manifestPath));
     record.priorCoreSha256=predecessor.coreSha256;
     record.revision={category:'wording',predecessor:predecessor.edition,problem:'synthetic CLI gate control',before:'preserved fixture bytes',after:'isolated appended annotation',rationale:'exercise explicit revision validation',permissionBasis:'isolated engineering test only',dependentReviewHashes:[sha256('not a scientific approval')]};
     record.files=record.files.map((f:any)=>{const raw=readFileSync(join(next,record.directory,f.path));return {...f,bytes:raw.length,sha256:sha256(raw)};});
     record.inventorySeal=sha256(stableJSON(record.files));
-    record.bindings=record.bindings.map((b:any)=>({...b,sourceSha256:record.files.find((f:any)=>f.path===b.path).sha256}));
+    record.bindings=record.bindings.map(refreshed);
     write(next,'config/research-source.json',record);
-    for(const source of sources) if(source.declaredCurrent) source.sha256=record.files.find((f:any)=>`${record.directory}/${f.path}`===source.path).sha256;
+    for(const source of sources) if(source.path.startsWith(record.directory+'/')) source.sha256=record.files.find((f:any)=>`${record.directory}/${f.path}`===source.path).sha256;
     write(next,'research/publication/source-index.yaml',sources);
-    const reviseCore=(e:any)=>{if(e.sourceRefs.includes('R-CURRENT-CORE')) e.revision+=1;if(e.sourceBinding)e.sourceBinding.sourceSha256=sources.find((s:any)=>s.key===e.sourceBinding.sourceKey).sha256;return e;};
+    const reviseCore=(e:any)=>{if(e.sourceRefs.includes('R-CURRENT-CORE')) e.revision+=1;if(e.sourceBinding){const source=sources.find((s:any)=>s.key===e.sourceBinding.sourceKey),path=source.path.replace(record.directory+'/', '');if(source.path.startsWith(record.directory+'/')){const refreshedBinding=refreshed({...e.sourceBinding,path});e.sourceBinding.sourceSha256=refreshedBinding.sourceSha256;e.sourceBinding.excerptSha256=refreshedBinding.excerptSha256;}}return e;};
     for(const name of ['records','canonical-documents']) write(next,`research/publication/${name}.yaml`,read(next,`research/publication/${name}.yaml`).map(reviseCore));
     for(const name of readdirSync(join(next,'research/publication/pages')).filter(name=>name.endsWith('.md'))) {
       const path=join(next,`research/publication/pages/${name}`),match=/^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(readFileSync(path,'utf8'))!;

@@ -101,8 +101,9 @@ test('root, subpath, file endpoints and path collisions use the same URL owner',
   for (const path of ['/../private', '/%2e%2e/private', '/%252e%252e/private', '//external.invalid', '/a//b', '/a\\b']) assert.throws(() => withBase(path), /UNSAFE_ROUTE/);
 });
 test('release with fixture host or unqualified scientific corpus fails closed', () => {
-  const config = loadSiteConfig();
+  const config = loadSiteConfig('tests/fixtures/site-root.json');
   assert.throws(() => assertBuildAllowed('release', config, { currentSourceQualified: false, corpusScope: 'current' }), /PUBLIC_TARGET_REQUIRED/);
+  assert.throws(() => assertBuildAllowed('release', loadSiteConfig(), { currentSourceQualified: false, corpusScope: 'current' }), /CURRENT_SOURCE_NOT_QUALIFIED/);
   const real = { ...config, origin: 'https://example.org', repository: { owner: 'synthetic-owner', name: 'synthetic-repo' } };
   assert.throws(() => assertBuildAllowed('release', real, { currentSourceQualified: false, corpusScope: 'current' }), /CURRENT_SOURCE_NOT_QUALIFIED/);
   assert.throws(() => assertBuildAllowed('release', real, { currentSourceQualified: true, corpusScope: 'synthetic' }), /CURRENT_SOURCE_NOT_QUALIFIED/);
@@ -217,7 +218,7 @@ test('output audit binds bibliography text, destinations, support limits, status
     ['references/index.html','Formation of optical supramolecular structures','Fabricated paper title','BIBLIOGRAPHY_PARITY_FAILURE'],
     ['references/index.html','Supplementary reference reported by the supplied documents.','Scientific support accepted.','BIBLIOGRAPHY_PARITY_FAILURE'],
     ['claims/UT-E01/index.html',`<dd>${reviewLabel(activePublication().corpus,'UT-E01')}</dd>`,'<dd>Fabricated review label</dd>','CONTENT_METADATA_PARITY_FAILURE'],
-    ['index.html','Whether the four known fundamental interactions','All four fundamental interactions have been proved','CONTENT_PARITY_FAILURE'],
+    ['index.html','The full source-to-repeated-level causal sequence is not established','The full recursive causal sequence is proved','CONTENT_PARITY_FAILURE'],
     ['index.html','How do parts become<br class="desktop-break" /> a <em>whole?</em>','All interactions proved.','CONTENT_METADATA_PARITY_FAILURE'],
     ['start/index.html','Publication: Draft · private preview.','Publication: published.','CONTENT_METADATA_PARITY_FAILURE'],
     ['start/index.html',`Source fidelity: ${reviewLabel(activePublication().corpus,'DOC-START')}.`,'Source fidelity: Fabricated review label.','CONTENT_METADATA_PARITY_FAILURE'],

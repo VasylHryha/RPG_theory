@@ -102,7 +102,7 @@ test('M1 consumers retain source roles and reported evidence independently of we
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'claims/UT-E05/');
   await expect(page.locator('.record-status')).toContainText('Evidence reported by the supplied documents');
   await expect(page.locator('.record-status')).toContainText(fidelity('UT-E05'));
-  await expect(page.locator('.record-status')).toContainText('Draft');
+  await expect(page.locator('.record-status')).toContainText('Historical source');
   await expect(page.locator('[data-canonical-body]')).toContainText('potassium clamping suppresses');
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'claims/UT-E01/');
   await page.locator('a[href*="references/#BIB-"]').first().click();
@@ -112,23 +112,23 @@ test('M1 consumers retain source roles and reported evidence independently of we
   await expect(page.locator('.record-status')).toContainText(fidelity('DOC-CONCEPT-GEOMETRY'));
   await expect(page.locator('.record-status')).toContainText('Draft');
   await page.goto(process.env.UNITY_TEST_ORIGIN+base+'research-status/');
-  await expect(page.locator('[data-canonical-body]')).toContainText('Open extensions to prove');
-  await expect(page.locator('[data-canonical-body]')).toContainText('does not close the claim');
+  await expect(page.locator('[data-canonical-body]')).toContainText('Remaining gaps and publication boundary');
+  await expect(page.locator('[data-canonical-body]')).toContainText('full source-to-repeated-level causal sequence is not established');
   await page.screenshot({path:`${evidence}/${suffix}-research-status.png`,fullPage:true});
-  await page.getByRole('link',{name:'Read the claim and evidence matrix'}).click();
+  await page.getByRole('link',{name:'Read claims, evidence limits and open questions'}).click();
   await expect(page.locator('table')).toHaveCount(1);
-  await expect(page.locator('table')).toContainText('Lower-level organization can generate an effective higher-level interaction channel');
-  await expect(page.locator('table').first()).toContainText('open extension');
+  await expect(page.locator('table')).toContainText('Persistent combinations become new effective units');
+  await expect(page.locator('table').first()).toContainText('Proposed hierarchy');
   await context.close();
 });
 
 test('M1 claims, concepts, status, matrix and bibliography pass axe and 320px reflow',async({page})=>{
-  for(const route of ['claims/UT-D01/','claims/UT-E01/','concepts/geometry-and-modes/','research-status/','research-status/proof-matrix/','references/']) {
+  for(const route of ['claims/UT-D01/','claims/UT-E01/','concepts/geometry-and-modes/','research-status/','research-status/claims/','references/']) {
     await page.setViewportSize({width:320,height:800});await page.goto(base+route);
     const audit=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();
     expect(audit.violations,JSON.stringify(audit.violations,null,2)).toEqual([]);
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
-    if(route.includes('proof-matrix')) {
+    if(route.includes('research-status/claims')) {
       await page.locator('table').first().focus(); await page.keyboard.press('ArrowRight');
       await expect.poll(()=>page.locator('table').first().evaluate(el=>el.scrollLeft)).toBeGreaterThan(0);
       await page.screenshot({path:`${evidence}/${suffix}-proof-matrix-mobile.png`,fullPage:true});

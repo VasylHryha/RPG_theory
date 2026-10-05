@@ -1,0 +1,25 @@
+✔ selected current cases use their actual inventory; document-scoped C1 and E labels retain distinct meanings (2492.457291ms)
+✔ adapted check exposes duplicate cases/DOIs, unknown claims and incomplete selected inventory (4291.568708ms)
+✔ adapted check rejects label collisions, wrong editions and case-to-paper substitutions (2208.534375ms)
+✔ version/access links retain every BIB target without displaying independent duplicate publications (738.34175ms)
+✔ a displayed alternate is bound to its parent user review and remains local to that publication (2.671666ms)
+✔ HTML, explanatory downloads and ZIP preserve scoped findings and original bytes at both bases (5441.587125ms)
+✔ intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate (1613.218792ms)
+✔ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (754.051083ms)
+✔ bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision (698.166375ms)
+✔ complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it (634.149375ms)
+✔ null, primitive and incomplete stale evidence fail with the intended typed diagnostic (632.519583ms)
+✔ review dates cannot predate the reviewed material, including dependency updates (705.561791ms)
+✔ receipt paths reject traversal, symlink files and symlink ancestors (605.826209ms)
+✔ review inputs independently capture rendered plain language and the actual home projection without aliasing (672.193666ms)
+✔ stale decisions retain internally coherent dates, source excerpts, dependencies and projection reads (11378.347875ms)
+✔ receipt paths reject control characters even when a matching regular file exists (979.166541ms)
+✔ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (19121.305667ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 38656.995209

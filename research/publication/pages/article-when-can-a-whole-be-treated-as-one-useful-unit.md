@@ -4,27 +4,27 @@
   "route": "/articles/when-can-a-whole-be-treated-as-one-useful-unit/",
   "title": "When can a whole be treated as one useful unit?",
   "description": "An explanatory reading of the supplied RRG documents, with proposal and results kept separate.",
-  "revision": 1,
+  "revision": 3,
   "kind": "article",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
+    "R-CURRENT-CATALOGUE",
+    "R-CURRENT-CLAIMS",
     "R-CURRENT-CORE",
-    "R-CURRENT-WORLD",
-    "R-CURRENT-SCIENCE",
     "R-CURRENT-MATH",
-    "R-CURRENT-STATUS",
-    "R-CURRENT-INTERACTIONS"
+    "R-CURRENT-SCIENCE",
+    "R-CURRENT-WORLD"
   ],
   "dependsOn": [
     "UT-D03",
     "UT-D04",
-    "UT-D06",
     "UT-D05",
+    "UT-D06",
     "UT-D08"
   ],
   "related": [],
@@ -35,7 +35,7 @@
   "plainLanguage": "",
   "scope": "Explanatory article; universal claims and quantitative tests remain open.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Derivative explanation of the supplied current core and world explanation; no new scientific result or definition.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Derivative explanation of the supplied current core and world explanation; no new scientific result or definition.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null,
@@ -47,7 +47,7 @@
 ---
 ## Explanation: a useful description depends on the question
 
-A molecule contains atoms with internal activity, yet a description at another scale can treat the molecule as a participant in a reaction or as a rotating object. That useful simplification does not erase the atoms. It selects the collective properties relevant to an interaction. The supplied [world explanation](/concepts/geometry-and-modes/) discusses this packaging of complexity, and the [molecule example](/examples/molecule/) illustrates how collective constraints coexist with active parts.
+A molecule contains atoms with internal activity, yet a description at another scale can treat the molecule as a participant in a reaction or as a rotating object. That useful simplification does not erase the atoms. It selects the collective properties relevant to an interaction. The supplied [world explanation](/documents/world-explanation/) discusses this packaging of complexity, and the [molecule example](/examples/molecule/) illustrates how collective constraints coexist with active parts.
 
 A whole is not automatically a useful unit just because we can draw a boundary around it. The question is whether the organization persists in the circumstances of interest and supports a collective response that the next description can use. A description useful for one timescale or perturbation can be inadequate for another. When a molecule dissociates, continuing to treat it as the same intact participant would hide a material change.
 

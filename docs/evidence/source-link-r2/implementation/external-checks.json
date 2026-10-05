@@ -1,0 +1,92 @@
+{
+  "observedAt": "2026-10-05",
+  "mechanism": "web tool returned primary/indexed primary records; cached retrieval is not an on-wire endpoint census",
+  "checks": [
+    {
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2004248",
+      "scope": "Primary abstract, Results and captions for Figures 1\u20134; supplied culture/buffer conditions and harmful feedback.",
+      "bibliography": "BIB-0089"
+    },
+    {
+      "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.108.1175",
+      "scope": "Primary abstract and identity; conditional phonon attraction; no derivation reproduction.",
+      "bibliography": "BIB-0090"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-019-1090-x",
+      "scope": "Primary abstract/metadata/Figure 1 caption; NGC 7027 detection, not direct primordial formation.",
+      "bibliography": "BIB-0091"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+      "scope": "Section destination and introductory text; supplementary textbook explanation.",
+      "bibliography": "BIB-0092"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-017-01190-3",
+      "scope": "Publisher title/authors/DOI; same access lineage, no new methods audit.",
+      "bibliography": "BIB-0003/0040"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.06143",
+      "scope": "v1/submission and ALIFE journal-reference metadata, matched author-institution ALIFE 2025 metadata.",
+      "bibliography": "BIB-0044/0045"
+    },
+    {
+      "url": "https://researchportal.vub.be/en/publications/emergent-complexity-in-nuclear-reaction-networks-a-study-of-stell/",
+      "scope": "Author-institution metadata: publication 1 October 2025, DOI 10.1162/ISAL.a.914; no full-text equivalence claim.",
+      "bibliography": "BIB-0044/0045"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19131595/",
+      "scope": "PubMed PMID/PMCID/DOI/author metadata explicitly links PMC2652413; direct PMC tool fetch returned CAPTCHA.",
+      "bibliography": "BIB-0046/0047"
+    },
+    {
+      "url": "https://arxiv.org/abs/1102.2950",
+      "scope": "Title/authors compared with the existing author manuscript; no equality of every version finding assumed.",
+      "bibliography": "BIB-0049/0050"
+    },
+    {
+      "url": "https://motion.me.ucsb.edu/pdf/2011d-db.pdf",
+      "scope": "Title/authors and opening abstract, author manuscript relationship only.",
+      "bibliography": "BIB-0049/0050"
+    },
+    {
+      "url": "https://arxiv.org/abs/1810.08175",
+      "scope": "Title/authors/abstract compared with SIAM title/authors/DOI/abstract; publication lineage only.",
+      "bibliography": "BIB-0051/0052"
+    },
+    {
+      "url": "https://epubs.siam.org/doi/10.1137/18M1222533",
+      "scope": "Title/authors/DOI/abstract; no complete version equivalence or numerical reproduction.",
+      "bibliography": "BIB-0051/0052"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-019-13746-6.pdf",
+      "scope": "Primary PDF Results/Elementary diversity/addition-removal and captions for Figures 1,3,5; nested assembly, acoustic attraction, competing repulsion, noise-spike incorporation.",
+      "bibliography": "BIB-0022"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41567-023-02058-8",
+      "scope": "Indexed primary publisher result/caption text, Figure 3 and Extended Data Figure 6: geometry feedback vs simulated interruption. Direct HTML/PDF/full Methods retrieval failed. Phenomenological coupling also retained in archived source; manually seeded displacement not independently verified this session.",
+      "bibliography": "BIB-0026"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-025-66830-5.pdf",
+      "scope": "Primary PDF hydrodynamic-coupling text and Figure 5e\u2013f: synchronization-dependent lateral forces.",
+      "bibliography": "BIB-0002"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-024-55876-y.pdf",
+      "scope": "Primary PDF Results/Figures 2\u20135: splitting, annihilation, flow response and regimes without bands.",
+      "bibliography": "BIB-0083"
+    }
+  ],
+  "limits": [
+    "No exhaustive endpoint/retraction/method audit",
+    "No experiment, supplementary media or dataset reproduced",
+    "Earlier Crossref metadata receipts and source-reported inspection dates remain earlier events",
+    "R2 supporting crosswalk/recheck JSON files were not supplied in Downloads; report treated as recommendations, not an approval manifest"
+  ]
+}

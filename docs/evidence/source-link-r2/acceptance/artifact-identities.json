@@ -1,0 +1,55 @@
+{
+  "inputs": {
+    "inputsSha256": "6a7ee40c85448581ca970bfee2f0334a4f69f4993c89b772fde8094892ff53ad",
+    "lockfileSha256": "bed1c6ee69510c10ef2c541f561d26536fd5415e4df351a8d4f8c1d8e1e36cb0",
+    "contentSha256": "0aca03146b9b379ebc995f5be9966001331d6728f0920d499663ad4ecdee304a"
+  },
+  "artifacts": [
+    {
+      "base": "/",
+      "dir": "dist/source-link-r2-accepted/root",
+      "mode": "preview",
+      "files": 269,
+      "html": 104,
+      "artifactSha256": "5a47c705871f253b361427b0a5dce64ca1ebdcab5fbc8d97e4c6010c217daa64",
+      "inputsSha256": "6a7ee40c85448581ca970bfee2f0334a4f69f4993c89b772fde8094892ff53ad",
+      "publicationManifestSha256": "2b1b2494cdfda528621cc34f9eedc30e2e51c87084364b584d6dacb017a0b9a9",
+      "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "currentSourceQualified": true,
+      "deployEligible": false,
+      "publishedReadings": 0,
+      "unchangedAfterChecks": true,
+      "browser": {
+        "startTime": "2026-10-05T15:42:42.149Z",
+        "duration": 2561.13,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "base": "/unity-theory/",
+      "dir": "dist/source-link-r2-accepted/subpath",
+      "mode": "preview",
+      "files": 269,
+      "html": 104,
+      "artifactSha256": "5dc967a14a9cdbd9113c4f64a6b1d926c97f9f46d4edc03b4d9f20e3713eaadd",
+      "inputsSha256": "6a7ee40c85448581ca970bfee2f0334a4f69f4993c89b772fde8094892ff53ad",
+      "publicationManifestSha256": "2b1b2494cdfda528621cc34f9eedc30e2e51c87084364b584d6dacb017a0b9a9",
+      "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+      "currentSourceQualified": true,
+      "deployEligible": false,
+      "publishedReadings": 0,
+      "unchangedAfterChecks": true,
+      "browser": {
+        "startTime": "2026-10-05T15:53:13.496Z",
+        "duration": 2213.183,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    }
+  ]
+}

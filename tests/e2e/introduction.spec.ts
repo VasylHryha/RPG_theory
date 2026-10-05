@@ -62,7 +62,8 @@ test('M2 complete reading journey works without JavaScript and makes question, u
     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/stability/');
     await expect(page.locator('[data-canonical-body]')).toContainText('not an independently established universal stability theorem');
     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'concepts/effective-interactions/');
-    await expect(page.locator('[data-canonical-body]')).toContainText('four successive RRG levels');
+    await expect(page.locator('[data-canonical-body]')).toContainText('fundamental unification, recursive construction, cosmology, life and AI as open claims or analogies');
+    await expect(page.locator('[data-canonical-body]')).toContainText('Controlled effective behavior does not establish arbitrary replacement of fundamental laws');
     await expect(page.locator('math')).not.toHaveCount(0);
     await page.goto(process.env.UNITY_TEST_ORIGIN+base+'framework/');
     await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Framework',exact:true})).toHaveAttribute('aria-current','page');

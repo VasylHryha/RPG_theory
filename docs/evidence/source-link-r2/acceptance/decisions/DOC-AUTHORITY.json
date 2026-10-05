@@ -1,0 +1,93 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-AUTHORITY",
+  "fingerprint": "b6b2dc977be6d61206957ce67eba17b7ff7812153cea61a9044586645455c58e",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T15:32:57.561Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/source-reconciliation/acceptance/decisions/DOC-AUTHORITY.json. Retained semantic finding: Compared authority order and replacement boundary: unchanged minimal core/change control/repository 01-03; promoted 04-08 companions; supporting foundations/checks; explicitly historical predecessor. Promotion does not imply validation or release authorization.",
+  "inputs": {
+    "fingerprint": "b6b2dc977be6d61206957ce67eba17b7ff7812153cea61a9044586645455c58e",
+    "ownRead": {
+      "id": "DOC-AUTHORITY",
+      "route": "/documents/source-authority/",
+      "title": "Source authority and edition",
+      "description": "How the selected v0.2.1 companions, carried-forward minimal core and repository foundations, and historical materials relate.",
+      "revision": 1,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-AUTHORITY",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-AUTHORITY",
+        "sourceSha256": "5bbec0436a67a9200745eeba85c8484f67fc845f67980267f57fab14fc5b343e",
+        "startLine": 3,
+        "endLine": 29,
+        "excerptSha256": "a85bd147e19e3129704f87df09f41be761250d8870b9f91661218f3737cab0b8"
+      },
+      "statement": "**Current repository edition:** RRG v0.2.1 repository current  \n**Promoted:** 2026-10-05  \n**Audited companion source:** RRG v0.2.1, 2026-10-02\n\nThe owner has explicitly selected the audited v0.2.1 documents to replace the prior active publication/research set in this repository.\n\n## Authority order\n\n1. `00_LOCKED_CORE.md` remains the minimal normative core and is carried forward unchanged from the prior repository edition.\n2. `05_CHANGE_CONTROL.md` remains the core-change protocol and is carried forward unchanged.\n3. `01_world_explanation.md`, `02_scientific_framework.md`, and `03_mathematical_core.md` remain the repository's carried-forward current foundation documents until explicitly revised. The v0.2.1 package's byte-preserved older foundation snapshots are retained separately under `foundations/` for provenance and comparison; they do not replace the newer repository foundation documents.\n4. `04_recursive_background_generation.md`, `05_mathematical_source_model.md`, `06_evidence_catalog.md`, `07_audit_report.md`, `08_claim_coverage.md`, `README.md`, `CHANGELOG.md`, and `sources.json` are the promoted audited v0.2.1 publication/evidence companion.\n5. Files under `foundations/` and `checks/` are supporting provenance/audit material, not additional normative definitions. The audited package's internal archive remains preserved in GPT Library rather than duplicated into the active source tree.\n\n## Replacement boundary\n\nThe predecessor repository-current set from 2026-10-01 is preserved under:\n\n`research/history/repository-current-2026-10-01/`\n\nIts former active status/proof/evidence files are superseded by the v0.2.1 current companions. They must not be used as current authority merely because older website mappings still reference them.\n\n## Website state after replacement\n\nThis source promotion intentionally invalidates source-bound website fingerprints and mappings that refer to the superseded files. Public qualification remains blocked until publication records, source keys, evidence IDs, citations and dependent pages are rebound to this edition and reviewed once against the stabilized corpus.\n\nThe source replacement does not itself grant scientific validation, publication rights, a license, or Pages deployment approval.\n",
+      "plainLanguage": "How the selected v0.2.1 companions, carried-forward minimal core and repository foundations, and historical materials relate.",
+      "scope": "How the selected v0.2.1 companions, carried-forward minimal core and repository foundations, and historical materials relate.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "SOURCE_AUTHORITY.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-AUTHORITY",
+        "path": "research/RRG_CURRENT/SOURCE_AUTHORITY.md",
+        "sha256": "5bbec0436a67a9200745eeba85c8484f67fc845f67980267f57fab14fc5b343e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "2770c3974eb6a6105d4f753d9667d3e6a3faa065dbb317df636b401f7cf9b914",
+        "plainLanguageSha256": "67331244f32b92d46f13cbff7b69e9d85c243d9f4f7ad6c264ef7ad33b0ef746",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "2770c3974eb6a6105d4f753d9667d3e6a3faa065dbb317df636b401f7cf9b914",
+        "plainLanguageSha256": "67331244f32b92d46f13cbff7b69e9d85c243d9f4f7ad6c264ef7ad33b0ef746",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Source terminology, full mode/geometry/background meanings and the role of this reading match the supplied text and reading context. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "meaning": "Compared authority order and replacement boundary: unchanged minimal core/change control/repository 01-03; promoted 04-08 companions; supporting foundations/checks; explicitly historical predecessor. Promotion does not imply validation or release authorization. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "assumptions": "Conditional model assumptions and scope qualifiers remain supplied-source assertions; presentation notes identify optional models and current versus historical roles. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "hypotheses": "The universal recursive chain and stronger branch claims retain their source-reported hypothesis boundaries; no fidelity badge is a science approval. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "evidenceDescriptions": "Source-reported evidence and check coverage remain distinct from website-run experiments, independent science certification and external-paper review. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "openQuestions": "Compared the source’s outstanding questions and stated limits. Universal chain, metric expansion, force derivation and unconstrained engineering remain open where addressed. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "attribution": "The selected v0.2.1 source and supporting/historical role are explicit; no author identity, public-wording approval, rights or peer review is inferred. Renewal basis: docs/evidence/source-link-r2/acceptance/material-comparison.md; current source/binding/body/export/ZIP and selected bibliography comparison in comparison-corpus.json. Bibliography inspection depth was checked against the preserved recorded reads; ten contradictory verification statements were repaired with no new full-method claim. Website fidelity only; no science, author, human, rights or release approval.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/source-reconciliation/acceptance/decisions/DOC-AUTHORITY.json. Retained semantic finding: Compared authority order and replacement boundary: unchanged minimal core/change control/repository 01-03; promoted 04-08 companions; supporting foundations/checks; explicitly historical predecessor. Promotion does not imply validation or release authorization. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision."
+  }
+}

@@ -1,0 +1,209 @@
+[
+  {
+    "stage": "comparison-builds",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/build.ts",
+      "--mode",
+      "preview",
+      "--config",
+      "config/site.json",
+      "--output",
+      "dist/m6-reconciled/comparison-root"
+    ],
+    "log": "docs/evidence/m6/reconciled/comparison-build-root.log",
+    "exitCode": 0,
+    "elapsedSeconds": 12.09
+  },
+  {
+    "stage": "comparison-builds",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/build.ts",
+      "--mode",
+      "preview",
+      "--config",
+      "tests/fixtures/site-subpath.json",
+      "--output",
+      "dist/m6-reconciled/comparison-subpath"
+    ],
+    "log": "docs/evidence/m6/reconciled/comparison-build-subpath.log",
+    "exitCode": 0,
+    "elapsedSeconds": 11.35
+  },
+  {
+    "stage": "final-builds",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/build.ts",
+      "--mode",
+      "preview",
+      "--config",
+      "config/site.json",
+      "--output",
+      "dist/m6-reconciled/root"
+    ],
+    "log": "docs/evidence/m6/reconciled/build-root.log",
+    "exitCode": 0,
+    "elapsedSeconds": 16.11
+  },
+  {
+    "stage": "final-builds",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/build.ts",
+      "--mode",
+      "preview",
+      "--config",
+      "tests/fixtures/site-subpath.json",
+      "--output",
+      "dist/m6-reconciled/subpath"
+    ],
+    "log": "docs/evidence/m6/reconciled/build-subpath.log",
+    "exitCode": 0,
+    "elapsedSeconds": 15.81
+  },
+  {
+    "stage": "browser-root",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/test-e2e.ts",
+      "--output",
+      "dist/m6-reconciled/root"
+    ],
+    "log": "docs/evidence/m6/reconciled/browser-root.log",
+    "exitCode": 1,
+    "elapsedSeconds": 0.09
+  },
+  {
+    "stage": "static",
+    "command": [
+      "npm",
+      "run",
+      "check"
+    ],
+    "log": "docs/evidence/m6/reconciled/astro.log",
+    "exitCode": 0,
+    "elapsedSeconds": 10.24
+  },
+  {
+    "stage": "static",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/check-sources.ts",
+      "--scope",
+      "history"
+    ],
+    "log": "docs/evidence/m6/reconciled/history.log",
+    "exitCode": 0,
+    "elapsedSeconds": 0.46
+  },
+  {
+    "stage": "static",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/check-sources.ts",
+      "--scope",
+      "current"
+    ],
+    "log": "docs/evidence/m6/reconciled/sources.log",
+    "exitCode": 0,
+    "elapsedSeconds": 3.56
+  },
+  {
+    "stage": "static",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/check-content.ts"
+    ],
+    "log": "docs/evidence/m6/reconciled/content.log",
+    "exitCode": 0,
+    "elapsedSeconds": 5.59
+  },
+  {
+    "stage": "static",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/check-publication.ts"
+    ],
+    "log": "docs/evidence/m6/reconciled/publication.log",
+    "exitCode": 0,
+    "elapsedSeconds": 8.21
+  },
+  {
+    "stage": "static",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/audit-output.ts",
+      "--dir",
+      "dist/m6-reconciled/root"
+    ],
+    "log": "docs/evidence/m6/reconciled/audit-root.log",
+    "exitCode": 0,
+    "elapsedSeconds": 26.52
+  },
+  {
+    "stage": "static",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/audit-output.ts",
+      "--dir",
+      "dist/m6-reconciled/subpath"
+    ],
+    "log": "docs/evidence/m6/reconciled/audit-subpath.log",
+    "exitCode": 0,
+    "elapsedSeconds": 17.17
+  },
+  {
+    "stage": "contracts",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "--test",
+      "tests/content/m6.test.ts",
+      "tests/content/website-fidelity.test.ts",
+      "tests/content/source-reconciliation.test.ts",
+      "tests/content/m3.test.ts"
+    ],
+    "log": "docs/evidence/m6/reconciled/affected-contracts.log",
+    "exitCode": 1,
+    "elapsedSeconds": 132.78
+  },
+  {
+    "stage": "browser-root",
+    "command": [
+      "node",
+      "--import",
+      "tsx",
+      "scripts/test-e2e.ts",
+      "--output",
+      "dist/m6-reconciled/root"
+    ],
+    "log": "docs/evidence/m6/reconciled/browser-root-1791203658392899000.log",
+    "exitCode": 1,
+    "elapsedSeconds": 133.95
+  }
+]

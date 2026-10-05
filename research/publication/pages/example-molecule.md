@@ -4,18 +4,18 @@
   "route": "/examples/molecule/",
   "title": "Molecule: the whole constrains its parts",
   "description": "Connections and collective behaviour, beyond an inventory of atoms.",
-  "revision": 1,
+  "revision": 3,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2 locked + evidence updates; promoted 2026-10-01",
+  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "draft",
   "publishedAt": null,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "sourceRefs": [
     "R-CURRENT-CORE",
-    "R-CURRENT-WORLD",
-    "R-CURRENT-SCIENCE"
+    "R-CURRENT-SCIENCE",
+    "R-CURRENT-WORLD"
   ],
   "dependsOn": [
     "UT-D01",
@@ -26,7 +26,9 @@
   ],
   "related": [],
   "bibRefs": [
-    "BIB-0065"
+    "BIB-0013",
+    "BIB-0065",
+    "BIB-0091"
   ],
   "contentOrigin": "authored",
   "sourceBinding": null,
@@ -34,7 +36,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "World \u00a7\u00a75\u20136; framework \u00a76; core \u00a7\u00a75\u20138. OpenStax supplies supplementary molecular-structure background.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§5–6; framework §6; core §§5–8. OpenStax supplies supplementary molecular-structure background.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": null
@@ -55,3 +57,7 @@ This is a quantum chemical system. Atoms are not classical miniature solar syste
 The [recursion concept](/concepts/recursion/) explains how RRG treats a persistent collective system as a potential component of further organization. The mechanisms can change between levels; one microscopic equation is not required everywhere.
 
 [All examples](/examples/) · [Start with the idea](/start/)
+
+## An observed molecule and its setting
+
+The [helium hydride detection paper](/references/#BIB-0091) reports an observation in planetary nebula NGC 7027. It is a research link alongside the broader [NASA SOFIA introduction](/references/#BIB-0013); it does not directly observe the first molecule forming in the early Universe.

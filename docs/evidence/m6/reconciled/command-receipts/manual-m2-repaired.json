@@ -1,0 +1,16 @@
+{
+  "stage": "targeted-contract-repair",
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "--test",
+    "--test-name-pattern",
+    "M2 rendering changes invalidate preserved predecessor decisions",
+    "tests/content/m2.test.ts"
+  ],
+  "log": "docs/evidence/m6/reconciled/m2-removal-control-repaired.log",
+  "exitCode": 0,
+  "recordedAt": "2026-10-05T12:52:34.372051+00:00",
+  "basis": "Actual completed tool exit and preserved test output"
+}

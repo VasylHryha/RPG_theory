@@ -1,0 +1,93 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-SOURCE-CHANGES",
+  "fingerprint": "9ad2b586a9be33359eb284314161723531ea399cd4f086df2aaf8d25c05b5e06",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-05T12:08:15.325Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared promotion and v0.2.1 change history: carried-forward minimal core and repository foundations, archived predecessor and source-reported work not performed remain explicit.",
+  "inputs": {
+    "fingerprint": "9ad2b586a9be33359eb284314161723531ea399cd4f086df2aaf8d25c05b5e06",
+    "ownRead": {
+      "id": "DOC-SOURCE-CHANGES",
+      "route": "/changes/source-history/",
+      "title": "Source-reported changes",
+      "description": "The current source changelog: adopted drift repairs and its evidence-only update.",
+      "revision": 2,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "draft",
+      "publishedAt": null,
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CHANGELOG",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CHANGELOG",
+        "sourceSha256": "dec67818d2027ded9d161b88e6c4dad17d2c0d95f3c962168ea857e31c765b2a",
+        "startLine": 3,
+        "endLine": 30,
+        "excerptSha256": "7704d0360bfdc572fb313b06458f87500ecdf47ce619702f874ff039716cafd4"
+      },
+      "statement": "## Repository promotion — 2026-10-05\n\n**Owner decision:** replace the prior active repository publication/research companion with the audited RRG v0.2.1 set from 2 October 2026.\n\n**Promoted:** current 04–08 companions, README, source register and audit/check material. The minimal `00_LOCKED_CORE.md`, repository 01–03 foundation documents and `05_CHANGE_CONTROL.md` are carried forward unchanged.\n\n**Archived:** the complete predecessor `RRG_CURRENT` set is preserved under `research/history/repository-current-2026-10-01/`; the exact audited v0.2.1 README/CHANGELOG before repository-specific promotion notes are preserved under `research/history/v0.2.1-audited/`.\n\n**Qualification state:** existing website source bindings/reviews that refer to superseded 04/06/07/08 documents are stale by construction. Public qualification remains blocked until mappings are rebuilt and reviewed against this edition.\n\n\n## v0.2.1 — 2026-10-02: publication/evidence audit\n\n**Preserved:** \\(R=(G,M)\\), full mode definition, source-direction recursion, environment feedback, persistence, competition/coexistence, repeated effective levels, life analogy, expansion conjecture, effective-law engineering, speculative “magic,” and AI possibility.\n\n**Changed:** proof-first priorities are now optional contributor directions. Physical formation and descriptive coarse-graining are explicit separate steps. A common abstract principle is not silently equated with an identical equation family.\n\n**Reworked 04:** retained the long conceptual companion; corrected selected claims, repaired the malformed `\\neq` equation, and replaced the duplicate old bibliography with the active evidence map.\n\n**Rebuilt 05:** conditional mathematical illustrations replace the claimed general source proof. Corrected finite-domain spectrum, scalar/radial noise, stability interpretation, constant-intensity assumption, candidate-mode threshold, scale-growth assumption and error-bound logic. Added an explicitly limited noise-filter illustration. Nine deterministic check groups are provided.\n\n**Rebuilt 06:** 22 primary case cards with independent labels for result type and relevance, supplied conditions, limits, source identifiers and verification depth. Three further-reading records remain separate. Added optical binding, random-light interactions, granular band replication, a slow-amplitude result and a nonresonant comparator.\n\n**Added:** current README; 07 audit report; 08 claim/session coverage; foundation errata; `sources.json`; validation scripts/results; provenance manifest and checksums.\n\n**Archived:** original 04–06, old README and two original numerical bundles. Foundation 01–03 snapshots remain byte-identical, in their own folder. A known mathematical display defect is recorded rather than silently changing history.\n\n**Not performed:** external publishing or Library overwrite; autonomous monitoring; full-paper/data replication; rerun of the archived 32-cell simulation; exhaustive literature/retraction audit; independent peer review; proof of universal RRG.",
+      "plainLanguage": "The supplied v0.2.1 changelog records publication and scope corrections. The minimal repository core and repository foundation documents remain carried forward; older snapshots are history.",
+      "scope": "The current source protocol for distinguishing evidence, tests, extensions and definition changes.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "CHANGELOG.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": null
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CHANGELOG",
+        "path": "research/RRG_CURRENT/CHANGELOG.md",
+        "sha256": "dec67818d2027ded9d161b88e6c4dad17d2c0d95f3c962168ea857e31c765b2a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "66d76bde3f22591b24c7150f245a92c9df67ac9355143bc8a7726d26424c33e7",
+        "plainLanguageSha256": "2f6ef2a64d72383fb02bcf39cd8b3a8d6d1d842127dcadf20fadbaf5a1738af6",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "66d76bde3f22591b24c7150f245a92c9df67ac9355143bc8a7726d26424c33e7",
+        "plainLanguageSha256": "2f6ef2a64d72383fb02bcf39cd8b3a8d6d1d842127dcadf20fadbaf5a1738af6",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Source terminology, full mode/geometry/background meanings and the role of this reading match the supplied text and reading context.",
+    "meaning": "Compared promotion and v0.2.1 change history: carried-forward minimal core and repository foundations, archived predecessor and source-reported work not performed remain explicit.",
+    "assumptions": "Conditional model assumptions and scope qualifiers remain supplied-source assertions; presentation notes identify optional models and current versus historical roles.",
+    "hypotheses": "The universal recursive chain and stronger branch claims retain their source-reported hypothesis boundaries; no fidelity badge is a science approval.",
+    "evidenceDescriptions": "Source-reported evidence and check coverage remain distinct from website-run experiments, independent science certification and external-paper review.",
+    "openQuestions": "Compared the source’s outstanding questions and stated limits. Universal chain, metric expansion, force derivation and unconstrained engineering remain open where addressed.",
+    "attribution": "The selected v0.2.1 source and supporting/historical role are explicit; no author identity, public-wording approval, rights or peer review is inferred.",
+    "sourceMappings": "Raw excerpt/binding and dependency/source snapshots are retained below. Actual bodies were compared at both bases; representative source-document/section/original/history journeys reuse implementation browser evidence. Comparison evidence: docs/evidence/source-reconciliation/acceptance/comparison.json; history-check.json. Four archive-note repairs were checked in affected final output. No acceptance is issued to unseen entries or dependencies."
+  }
+}

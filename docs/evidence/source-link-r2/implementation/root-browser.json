@@ -1,0 +1,201 @@
+{
+  "config": {
+    "argv": [
+      "/Users/new/.local/node/bin/node",
+      "/Users/new/RiderProjects/RPG_theory/node_modules/@playwright/test/cli.js",
+      "test",
+      "--grep",
+      "R2 "
+    ],
+    "configFile": "/Users/new/RiderProjects/RPG_theory/playwright.config.ts",
+    "rootDir": "/Users/new/RiderProjects/RPG_theory/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/new/RiderProjects/RPG_theory/docs/evidence/source-link-r2/implementation/browser-traces/root",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/new/RiderProjects/RPG_theory/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/source-link-r2/implementation/root-browser.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "source-link-r2.spec.ts",
+      "file": "source-link-r2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "R2 source connections keep distinct document labels, alternate targets and downloads without JavaScript",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30003,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "/Users/new/RiderProjects/RPG_theory/tests/e2e/source-link-r2.spec.ts",
+                        "column": 111,
+                        "line": 24
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeAttached\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#BIB-0047')\nExpected: attached\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeAttached\" locator('#BIB-0047') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#BIB-0047')\u001b[22m\n\n\n  22 |   await expect(page.locator(':target')).toHaveText('Claim map');\n  23 |   await page.goto(base+'references/');\n> 24 |   for(const id of ['BIB-0040','BIB-0045','BIB-0047','BIB-0050','BIB-0052'])await expect(page.locator('#'+id)).toBeAttached();\n     |                                                                                                               ^\n  25 |   await expect(page.locator('#BIB-0026')).toContainText('simulated interruption of feedback');\n  26 |   const exported=await page.request.get(base+'downloads/explanatory/DOC-SOURCE-LINKS.md');\n  27 |   expect(exported.status()).toBe(200);expect(await exported.text()).toContain('not endorsements');expect(await exported.text()).not.toContain('./DOC-ADDITIONAL-EVIDENCE.md');\n    at /Users/new/RiderProjects/RPG_theory/tests/e2e/source-link-r2.spec.ts:24:111"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T14:55:49.690Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/source-link-r2/implementation/browser-traces/root/source-link-r2-R2-source-c-5d329-ownloads-without-JavaScript/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/source-link-r2/implementation/browser-traces/root/source-link-r2-R2-source-c-5d329-ownloads-without-JavaScript/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "83bfe7240b97e3450d97-751fb41fb34e5598833b",
+          "file": "source-link-r2.spec.ts",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "R2 affected readings preserve reflow and accessibility at four widths",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 96184,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 90000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 90000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 90000ms exceeded.\u001b[39m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T14:56:32.882Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/source-link-r2/implementation/browser-traces/root/source-link-r2-R2-affected-bdf3a-ccessibility-at-four-widths/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/new/RiderProjects/RPG_theory/docs/evidence/source-link-r2/implementation/browser-traces/root/source-link-r2-R2-affected-bdf3a-ccessibility-at-four-widths/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "83bfe7240b97e3450d97-a9aa49fe149e45055188",
+          "file": "source-link-r2.spec.ts",
+          "line": 33,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-05T14:55:47.418Z",
+    "duration": 146567.145,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

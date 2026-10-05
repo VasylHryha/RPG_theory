@@ -1,0 +1,97 @@
+{
+  "state": "REVIEW_READY",
+  "date": "2026-10-05",
+  "head": "2615299bfeef5beb3665337b7f3c5623a82cf4d0",
+  "sources": {
+    "status": "PASS",
+    "files": 24,
+    "sourceBoundEntries": 77,
+    "bytesUnchanged": true
+  },
+  "content": {
+    "status": "PASS",
+    "entries": 95,
+    "reviewStates": {
+      "accepted": 0,
+      "pending": 38,
+      "stale": 57,
+      "rejected": 0
+    }
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "contracts": {
+    "passingCoverage": 120,
+    "stableSuite": {
+      "tests": 120,
+      "passed": 118,
+      "failed": 2,
+      "log": "contracts-final.log"
+    },
+    "targetedRepairs": [
+      {
+        "tests": 1,
+        "passed": 1,
+        "log": "revision-cli-final.log"
+      },
+      {
+        "tests": 1,
+        "passed": 1,
+        "log": "output-contract-repaired.log"
+      }
+    ],
+    "fullSuiteRepeatedAfterRepairs": false,
+    "initialAttempt": "contracts.log: obsolete fixtures and a build invalidated during edits; not counted as passing coverage"
+  },
+  "browser": {
+    "passingCoverage": 14,
+    "root": {
+      "tests": 7,
+      "evidence": [
+        "root-browser.json",
+        "root-affected/root-browser.json"
+      ],
+      "reuse": "four repaired document/reading tests plus three unchanged passing mobile/technical checks from affected run"
+    },
+    "subpath": {
+      "tests": 7,
+      "passed": 7,
+      "evidence": "subpath-affected/subpath-browser.json"
+    },
+    "screenshotsInspected": [
+      "root-conceptual-reading.png",
+      "root-library-mobile.png",
+      "root-affected/root-evidence-catalogue-mobile.png",
+      "root-affected/root-proof-matrix-mobile.png"
+    ]
+  },
+  "builds": [
+    {
+      "base": "/",
+      "mode": "preview",
+      "status": "PASS",
+      "pages": 103,
+      "files": 267,
+      "artifactSha256": "8bb905f34f2a8e25438a16c425bda0064854e781aabda95d1583cd2945477f6d",
+      "inputsSha256": "24d6552fb35b99bf2a4266d0c29db99a0a60d580e76b237fd534c9f032cbefaa"
+    },
+    {
+      "base": "/unity-theory/",
+      "mode": "preview",
+      "status": "PASS",
+      "pages": 103,
+      "files": 267,
+      "artifactSha256": "55fd6418964b2e53e63ec3184b283b950cc6df6d903f3be431435d7f7039368e",
+      "inputsSha256": "24d6552fb35b99bf2a4266d0c29db99a0a60d580e76b237fd534c9f032cbefaa"
+    }
+  ],
+  "currentSourceQualified": false,
+  "deployEligible": false,
+  "scientificCertification": "OUT_OF_SCOPE",
+  "fullM6Qualification": "NOT_RUN",
+  "separateHighAcceptance": "PENDING",
+  "publicActions": false
+}

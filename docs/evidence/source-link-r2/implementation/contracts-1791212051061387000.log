@@ -1,0 +1,55 @@
+✔ M4 explanatory exports mirror canonical parsed statements, retain adapters and have usable destinations at both bases (21606.031875ms)
+✔ M4 ZIP manifests preserve original bytes and exclude administrative evidence/history; tampered members fail (9137.207583ms)
+✔ M4 approved selection filters draft/history/withdrawn downloads and emits dated article RSS at both bases (1717.253167ms)
+✔ M4 duplicate article routes and stale source numbers refuse; document source rename does not rename its route (4022.28925ms)
+✔ M4 citation remains inactive for actual missing decisions; prepared CFF uses only supplied approved metadata (5542.511458ms)
+✔ M4 print CSS admits page layout and literal citation targets while refusing resource-bearing attr forms (33.744917ms)
+✔ selected current cases use their actual inventory; document-scoped C1 and E labels retain distinct meanings (7820.183791ms)
+✔ adapted check exposes duplicate cases/DOIs, unknown claims and incomplete selected inventory (13357.222875ms)
+✔ adapted check rejects label collisions, wrong editions and case-to-paper substitutions (7742.349209ms)
+✖ version/access links retain every BIB target without displaying independent duplicate publications (2070.506875ms)
+✔ HTML, explanatory downloads and ZIP preserve scoped findings and original bytes at both bases (14237.039833ms)
+✔ document links, reference-style links and case sections resolve to real HTML at both bases (243.996208ms)
+✔ current source downloads preserve exact bytes and correct file types; historical drafts stay outside exports and navigation (7022.572041ms)
+✔ intake contentReview accepted cannot qualify actual or synthetic bytes; historical approvals stay separate (2787.468792ms)
+✔ hashed exact fidelity evidence is required; scientific approval or request-only data cannot substitute (2186.940125ms)
+✔ bounded fidelity decisions need no linked scientific acceptance; dependency changes still stale the decision (2453.3355ms)
+✔ complete isolated fidelity inventory derives qualification, while synthetic scope and missing reviews refuse it (2209.955416ms)
+✔ null, primitive and incomplete stale evidence fail with the intended typed diagnostic (1530.78475ms)
+✔ review dates cannot predate the reviewed material, including dependency updates (2077.403791ms)
+✔ receipt paths reject traversal, symlink files and symlink ancestors (2065.112042ms)
+✔ review inputs independently capture rendered plain language and the actual home projection without aliasing (2019.679208ms)
+✔ stale decisions retain internally coherent dates, source excerpts, dependencies and projection reads (33170.791875ms)
+✔ receipt paths reject control characters even when a matching regular file exists (1851.76525ms)
+✔ a real loader roundtrip validates hashed decisions and qualifies only the reviewed selection, ignoring unrelated drafts and historical scientific registry bytes (46898.04325ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 23
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 100866.217167
+
+✖ failing tests:
+
+test at tests/content/source-link-r2.test.ts:1:3396
+✖ version/access links retain every BIB target without displaying independent duplicate publications (2070.506875ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(html.includes(`id="${id(alt)}"`))
+  
+      at TestContext.<anonymous> (/Users/new/RiderProjects/RPG_theory/tests/content/source-link-r2.test.ts:48:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

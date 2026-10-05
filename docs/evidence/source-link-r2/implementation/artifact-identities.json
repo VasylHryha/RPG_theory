@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "inputs": {
+    "inputsSha256": "fbec95ea7cb1e65d0e2c1af46e44afa1b66f1b0a6fccfdff86bdc4511961aceb",
+    "lockfileSha256": "bed1c6ee69510c10ef2c541f561d26536fd5415e4df351a8d4f8c1d8e1e36cb0",
+    "contentSha256": "f4bbb54ccf0522744f4bdb8026aed06847f79783948894b8b60ce9b80ea73386"
+  },
+  "artifacts": [
+    {
+      "suffix": "root",
+      "dir": "dist/source-link-r2/root",
+      "files": 269,
+      "html": 104,
+      "artifactSha256": "d3c8d174d55bd4b6ab6460c84dac95064f95f590a57c7a9948f9e285ded81299",
+      "inputsSha256": "fbec95ea7cb1e65d0e2c1af46e44afa1b66f1b0a6fccfdff86bdc4511961aceb",
+      "publicationManifestSha256": "3181cda5f2d4dd490bba66f0f2be20535f4fa78cbdf07bf1d2a96c76031c3a5f",
+      "currentSourceQualified": false,
+      "deployEligible": false
+    },
+    {
+      "suffix": "subpath",
+      "dir": "dist/source-link-r2/subpath",
+      "files": 269,
+      "html": 104,
+      "artifactSha256": "2332e9c76c0a1fa5926a309209af8e3762c1d0b34edf95fd73a7ad1715c9d4df",
+      "inputsSha256": "fbec95ea7cb1e65d0e2c1af46e44afa1b66f1b0a6fccfdff86bdc4511961aceb",
+      "publicationManifestSha256": "3181cda5f2d4dd490bba66f0f2be20535f4fa78cbdf07bf1d2a96c76031c3a5f",
+      "currentSourceQualified": false,
+      "deployEligible": false
+    }
+  ],
+  "reviewStates": {
+    "accepted": 0,
+    "stale": 95,
+    "pending": 1,
+    "rejected": 0
+  },
+  "currentEntries": 75,
+  "currentSourceQualified": false,
+  "deployEligible": false,
+  "scientificCertification": false,
+  "decisionsChanged": false
+}

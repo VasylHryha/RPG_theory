@@ -1,0 +1,92 @@
+{
+  "status": "PASS_TASK_SCOPE_WITH_RUNTIME_PROVENANCE_NOTE",
+  "head": "2615299bfeef5beb3665337b7f3c5623a82cf4d0",
+  "stagedBaselineUnchanged": true,
+  "baselineFiles": 3057,
+  "changedBaselineFiles": [
+    {
+      "path": "research/publication/website-reviews.yaml",
+      "priorSha256": "c1e63c60e66be224f108cd7a1dd70e9ecec2a095d62e90bb6a603c41d7eda913",
+      "currentSha256": "09ab7e76d3b10999e2107e98286fe7879cb2d3bfda0ea6919728aabe8a4d6431",
+      "ownership": "task-owned"
+    },
+    {
+      "path": "research/publication/pages/article-when-can-a-whole-be-treated-as-one-useful-unit.md",
+      "priorSha256": "e918f017a3944b03251bc869044742465f09a1fb07ee712d05b907d242671d79",
+      "currentSha256": "5e12959c8f2bcebd0f9b7135ab22c6fab98f040ee4a7ae5f98880c6a7cb8d629",
+      "ownership": "task-owned"
+    },
+    {
+      "path": "research/publication/pages/start.md",
+      "priorSha256": "c54edae76875d7fce5d577eb6a6a3b9354aa9bbba7a09f5503bc23c66235cb0a",
+      "currentSha256": "151478fea073ad372f07a4e6e9f83062598d4a26ba6dac1673bc1cdec9bf31a9",
+      "ownership": "task-owned"
+    },
+    {
+      "path": "research/publication/pages/article-how-existing-structures-make-new-organization-possible.md",
+      "priorSha256": "ab530cd20dbce909f594b1548d4feae9dbe68721b67d2f3acc27ee150597714f",
+      "currentSha256": "936ae6591c5cd18b55ff4d86a93f7b401f15c1d02adad6acb7bcb8f9f84a7da6",
+      "ownership": "task-owned"
+    },
+    {
+      "path": "tests/content/source-reconciliation.test.ts",
+      "priorSha256": "c5a44f35d70238bcbda1b6da08c6bf126e76cc62d4392f27e92f621a21e609eb",
+      "currentSha256": "485893275a839539bebe797c99bc7d27a23a5bcdda3d7e25f3002cb3c446f9d8",
+      "ownership": "task-owned"
+    },
+    {
+      "path": "tests/content/m3.test.ts",
+      "priorSha256": "20657128213133e433d102d216b58d2c18666cc91ae3e1d0da52d3ee5ec750cd",
+      "currentSha256": "b79ecf38ab9d7e2e8dc8f9057a55d18f81aca8fd453b5bab3f4ad0bd6f6b4e63",
+      "ownership": "task-owned"
+    },
+    {
+      "path": "tests/content/m2.test.ts",
+      "priorSha256": "793c932ab8873bbf82f84e3c44990f433fed2730227dfc65a61c743b9c290411",
+      "currentSha256": "393b3576f6af83449c1e53acbaa1e9a280ea4776f4768942453de0d6404e7407",
+      "ownership": "task-owned"
+    },
+    {
+      "path": "tests/e2e/introduction.spec.ts",
+      "priorSha256": "a1e503c9495a586cc021838ed24d989754dcee5117cc9d17d1fbaea45e89c20b",
+      "currentSha256": "0085e3fd7f377e05b73734c51bd3f1d456c6be7f1269279e64448700abc2efb4",
+      "ownership": "task-owned"
+    },
+    {
+      "path": "tests/e2e/source-reconciliation.spec.ts",
+      "priorSha256": "475328065d9c69832b95d6bba2a21d37944235b9f8c4b6e563956e3f8c5656cb",
+      "currentSha256": "dc6428c56328bdafd90a08d24d1e16b17f8df198f45e61e322be2698cd86ad0e",
+      "ownership": "task-owned"
+    },
+    {
+      "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+      "priorSha256": "9f2938b5a808954cb398cd165ca8f32e713f732d15bcb432021a7e1e93fbd3ca",
+      "currentSha256": "497b3d74fd6ec9ca14aeaa775a0b7697881886eb20777dfe418d688fa29d6aa5",
+      "ownership": "task-owned"
+    },
+    {
+      "path": "scripts/check-m6-integration.ts",
+      "priorSha256": "f500bca599f75a3c62358bb5d29635d41b99b357e9340408d3746ceab0c56326",
+      "currentSha256": "d7287e9105a4a075aa4fa2514c3d57e46d7b5956fa245f4e76f1db354343169d",
+      "ownership": "task-owned"
+    },
+    {
+      "path": ".idea/.idea.RPG_theory/.idea/workspace.xml",
+      "priorSha256": "94b1dd2068e472c3126d4329dc0421095e0505e79bfa4bbed5042493df9092df",
+      "currentSha256": "8fa7edf99f702c970c8a46f7a85f41a6fbf9f206d25981e27605e32cc88ee0f6",
+      "ownership": "UNOWNED_RUNTIME_ORIGIN_UNESTABLISHED"
+    }
+  ],
+  "missingBaselineFiles": [],
+  "unexpectedChanges": [],
+  "currentScientificSourcesUnchanged": true,
+  "historicalScientificSourcesUnchanged": true,
+  "scientificRegistryUnchanged": true,
+  "allPriorEvidenceUnchanged": true,
+  "soleLockfileUnchanged": true,
+  "suppliedZIPsAndHandoffUnchanged": true,
+  "riderSolutionUnchanged": true,
+  "runtimeNote": "No task command wrote or restored workspace.xml. Its observed change has unestablished origin; baseline and final observed hashes are recorded and current bytes are left in place.",
+  "diffCheck": "PASS",
+  "statusAfter": " M README.md\n M START_HERE.md\n M config/research-source.json\n M docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md\n M research/publication/canonical-documents.yaml\n M research/publication/citation-aliases.yaml\n M research/publication/pages/article-how-existing-structures-make-new-organization-possible.md\n M research/publication/pages/article-when-can-a-whole-be-treated-as-one-useful-unit.md\n M research/publication/pages/concept-interactions.md\n M research/publication/pages/concept-recursion.md\n M research/publication/pages/concept-stability.md\n M research/publication/pages/concepts.md\n M research/publication/pages/evidence.md\n M research/publication/pages/example-cell.md\n M research/publication/pages/example-life-environment.md\n M research/publication/pages/example-molecule.md\n M research/publication/pages/example-star.md\n M research/publication/pages/example-string.md\n M research/publication/pages/example-water.md\n M research/publication/pages/examples.md\n M research/publication/pages/home.md\n M research/publication/pages/start.md\n M research/publication/pages/technical-documents.md\n M research/publication/records.yaml\n M research/publication/references.yaml\n M research/publication/source-index.yaml\n M research/publication/website-reviews.yaml\n M scripts/check-m6-integration.ts\n M src/lib/content-schema.ts\n M src/lib/content.ts\n M src/lib/directives.ts\n M src/lib/library.ts\n M src/lib/presentation.ts\n M src/lib/publication-assets.ts\n M src/lib/publication.ts\n M src/lib/source-display.ts\n M src/lib/website-review.ts\n M tests/content/contracts.test.ts\n M tests/content/m1-review.test.ts\n M tests/content/m1.test.ts\n M tests/content/m2.test.ts\n M tests/content/m3.test.ts\n M tests/content/m4.test.ts\n M tests/content/revision-cli.test.ts\n M tests/content/revision-inventory-cli.test.ts\n M tests/content/website-fidelity.test.ts\n M tests/e2e/integration.spec.ts\n M tests/e2e/introduction.spec.ts\n M tests/e2e/reading.spec.ts\n M tests/e2e/technical.spec.ts\n?? docs/evidence/m6/reconciled/\n?? docs/evidence/source-reconciliation/acceptance/\n?? docs/evidence/source-reconciliation/implementation/\n?? docs/evidence/source-reconciliation/r4-plan-reconciliation.md\n?? research/publication/evidence-identities.json\n?? src/lib/source-links.ts\n?? src/lib/source-paths.ts\n?? tests/content/source-reconciliation.test.ts\n?? tests/e2e/source-reconciliation.spec.ts\n"
+}

@@ -1,0 +1,234 @@
+{
+  "schema": "unity-source-link-r2-implementation/1",
+  "status": "REVIEW_READY",
+  "separateHighAcceptance": "PENDING",
+  "scope": "bounded website source/link repairs; scientific sources and catalogue unchanged",
+  "artifacts": {
+    "status": "PASS",
+    "inputs": {
+      "inputsSha256": "fbec95ea7cb1e65d0e2c1af46e44afa1b66f1b0a6fccfdff86bdc4511961aceb",
+      "lockfileSha256": "bed1c6ee69510c10ef2c541f561d26536fd5415e4df351a8d4f8c1d8e1e36cb0",
+      "contentSha256": "f4bbb54ccf0522744f4bdb8026aed06847f79783948894b8b60ce9b80ea73386"
+    },
+    "artifacts": [
+      {
+        "suffix": "root",
+        "dir": "dist/source-link-r2/root",
+        "files": 269,
+        "html": 104,
+        "artifactSha256": "d3c8d174d55bd4b6ab6460c84dac95064f95f590a57c7a9948f9e285ded81299",
+        "inputsSha256": "fbec95ea7cb1e65d0e2c1af46e44afa1b66f1b0a6fccfdff86bdc4511961aceb",
+        "publicationManifestSha256": "3181cda5f2d4dd490bba66f0f2be20535f4fa78cbdf07bf1d2a96c76031c3a5f",
+        "currentSourceQualified": false,
+        "deployEligible": false
+      },
+      {
+        "suffix": "subpath",
+        "dir": "dist/source-link-r2/subpath",
+        "files": 269,
+        "html": 104,
+        "artifactSha256": "2332e9c76c0a1fa5926a309209af8e3762c1d0b34edf95fd73a7ad1715c9d4df",
+        "inputsSha256": "fbec95ea7cb1e65d0e2c1af46e44afa1b66f1b0a6fccfdff86bdc4511961aceb",
+        "publicationManifestSha256": "3181cda5f2d4dd490bba66f0f2be20535f4fa78cbdf07bf1d2a96c76031c3a5f",
+        "currentSourceQualified": false,
+        "deployEligible": false
+      }
+    ],
+    "reviewStates": {
+      "accepted": 0,
+      "stale": 95,
+      "pending": 1,
+      "rejected": 0
+    },
+    "currentEntries": 75,
+    "currentSourceQualified": false,
+    "deployEligible": false,
+    "scientificCertification": false,
+    "decisionsChanged": false
+  },
+  "checks": {
+    "astro": "0 errors,0 warnings,0 hints",
+    "currentSource": "PASS bytes/bindings; fidelity remains false",
+    "historicalIntegrity": "PASS",
+    "content": "PASS including actual current-inventory/qualified-label check",
+    "publication": "PASS private readiness; public gates unresolved",
+    "contractCoverage": {
+      "distinctCases": 25,
+      "mainPasses": 24,
+      "mainFailures": 1,
+      "targetedRepairedPasses": 1,
+      "mainLog": "docs/evidence/source-link-r2/implementation/contracts-1791212202407346000.log",
+      "monolithicFreshPass": false
+    },
+    "browser": {
+      "root": {
+        "stats": {
+          "startTime": "2026-10-05T15:03:48.358Z",
+          "duration": 75902.395,
+          "expected": 5,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "result": "docs/evidence/source-link-r2/implementation/browser-widths/root-browser.json"
+      },
+      "subpath": {
+        "stats": {
+          "startTime": "2026-10-05T15:05:05.459Z",
+          "duration": 51563.27,
+          "expected": 5,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "result": "docs/evidence/source-link-r2/implementation/browser-widths/subpath-browser.json"
+      }
+    },
+    "coldReading": [
+      {
+        "route": "/evidence/source-links/",
+        "status": "PASS",
+        "ownedColdGzipEquivalentBytes": 74930,
+        "initialJSGzipBytes": 0,
+        "browserVersion": "153.0.8010.12",
+        "accounting": "Same M6 accounting: fresh browser context, local no-store output server; gzip of owned received bodies including embedded CSS fonts, not on-wire compression. Technical-reading budget 750 KiB; initial JS 15 KiB."
+      },
+      {
+        "route": "/unity-theory/evidence/source-links/",
+        "status": "PASS",
+        "ownedColdGzipEquivalentBytes": 75171,
+        "initialJSGzipBytes": 0,
+        "browserVersion": "153.0.8010.12",
+        "accounting": "Same M6 accounting: fresh browser context, local no-store output server; gzip of owned received bodies including embedded CSS fonts, not on-wire compression. Technical-reading budget 750 KiB; initial JS 15 KiB."
+      }
+    ],
+    "qualification": {
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/build.ts",
+        "--mode",
+        "qualification",
+        "--config",
+        "config/site.json",
+        "--output",
+        "dist/source-link-r2/qualification-refusal"
+      ],
+      "exitCode": 1,
+      "status": "EXPECTED_REFUSAL",
+      "diagnostic": "CURRENT_SOURCE_NOT_QUALIFIED",
+      "outputCreated": false,
+      "publicQualification": false
+    }
+  },
+  "reuse": "Prior migration118 main +2 targeted content passes,14 focused browser passes; prior reconciled M6 engine/search/stress/Lighthouse and lock-install evidence are unchanged dated behavioral evidence, not a fresh monolithic run or current fidelity approval.",
+  "remainingGates": [
+    "75 current-entry genuine fidelity comparisons/decisions and separate bounded High acceptance",
+    "Author public wording and published launch selection",
+    "Identity/contact/ORCID/permanent URL",
+    "Scoped code/research/data rights,privacy,legal/content/release approval",
+    "Actual authorized public target/origin/base",
+    "Platform protections and private capture",
+    "Chosen CI runner/remote qualification",
+    "Actual screen-reader/MathML and current read-aloud listening",
+    "Human comprehension",
+    "Complete original-package provenance",
+    "Scoped unestablished Fu full Methods/manual-seed detail and version-text equivalence; no new factual assertions made"
+  ],
+  "preservation": {
+    "status": "PASS_TASK_SCOPE_WITH_RUNTIME_PROVENANCE_NOTE",
+    "head": "2615299bfeef5beb3665337b7f3c5623a82cf4d0",
+    "stagedBaselineUnchanged": true,
+    "baselineFiles": 3255,
+    "changedBaselineFiles": [
+      {
+        "path": ".idea/.idea.RPG_theory/.idea/workspace.xml",
+        "priorSha256": "675bd3ff760c495a21421e29c60a667cbb37734edce7251447cecc114057cabf",
+        "currentSha256": "9d01e2464ea6fda1d269b3105a42f2380cb5e6360a7b69b14d82815fc5f638e8",
+        "ownership": "unowned Rider runtime; origin unestablished"
+      },
+      {
+        "path": "docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md",
+        "priorSha256": "497b3d74fd6ec9ca14aeaa775a0b7697881886eb20777dfe418d688fa29d6aa5",
+        "currentSha256": "27b466434b920768192e4e260eb7b5cf950fe3e253c103bfbfc71247db56d55f",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "research/publication/canonical-documents.yaml",
+        "priorSha256": "b2974c9640fcd8bf764f5430bd291609672201099ec4319d6309a035fec0f9b7",
+        "currentSha256": "a261b789843f1b1bab5508d6d28da5c449e037c7a066f283b93bd63ef4567122",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "research/publication/pages/evidence.md",
+        "priorSha256": "1f5e4a695911a47f3f025c8139c320ad4b6ca146f62cfd1f15a0791395c49ec9",
+        "currentSha256": "274e0dcd4362ab4c7b1ac504922f7668b9f8b9e893655c99f186ec5c0bb56cef",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "research/publication/pages/example-cell.md",
+        "priorSha256": "74a432b6be998e86059c5a7e5f083225927cf2c669ce20d4e0154d12c645a657",
+        "currentSha256": "9cf885784e932ed66144aaa5a62de6ace60d4110792910ea6fa71c13ebbe3a82",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "research/publication/pages/example-molecule.md",
+        "priorSha256": "4c1f1eb471cbed5377f29a3066413b1357c9e6ed3f2ec1fc4b652419a74b91db",
+        "currentSha256": "c4163edc28b2776f13879799ab00b87dba3cf696a5e69fd49d4f36433f174fbf",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "research/publication/pages/technical-documents.md",
+        "priorSha256": "269904b225aeafaa7a1333d2fcfa31223e775f271623789d3dc23330ec518944",
+        "currentSha256": "86b4614fa097da248281e8663bf7701d6d827ec4fd5d6cb28d60543914da379e",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "research/publication/references.yaml",
+        "priorSha256": "2c42db0102f63fcde99042da2c4f7752565bef106359c7c9019ca8815c824bdc",
+        "currentSha256": "b7d0967992f59016729e9fa87eabb496a72fb2c78a1953c92953e3196086fcc0",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "scripts/check-content.ts",
+        "priorSha256": "ad841a81477491c14ad4ff1d3a53e51c97c7e1c113c1f5fc1ade8fa8237b1555",
+        "currentSha256": "43443dbec08f3219d3dc324e0c6c65764d2b60f1188118016267dbe73e6d8f40",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "src/lib/content.ts",
+        "priorSha256": "738ed3de71d03bd136ba0c68e5d435bdbee9b265bdba4424c09ea99fa4e0f4f5",
+        "currentSha256": "664823f753745683279c029dac8b7862d973e4549e62270fb3de7754e2a341fd",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "src/lib/publication-assets.ts",
+        "priorSha256": "c1ebc9a0cca66ef7e48681084d6a1728d7f2f48c59f0ff818c8a4036c88603da",
+        "currentSha256": "b463c057521b98e8950f867e14c2bc343a960e3d051d66d575d2fbeae3461ea6",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "src/lib/publication.ts",
+        "priorSha256": "160d1a7efd33af504b9666ce8724449901ebad28610155d438a887e7ff0bc1da",
+        "currentSha256": "29f7c75e7b5cbc9ff1a9d44980c37def1e2ada0c8a2fbb1876d8b3212db6b525",
+        "ownership": "task-owned"
+      },
+      {
+        "path": "src/lib/website-review.ts",
+        "priorSha256": "921ab2dabfb71db4a3df6784ce029f85d1e5fb00dc6b8fd3b61714663f00f26e",
+        "currentSha256": "108cceffac175f63b31bd6144095dd6b574aa7684b9cb95c81ecebd377f10054",
+        "ownership": "task-owned"
+      }
+    ],
+    "missing": [],
+    "unexpected": [],
+    "priorEvidenceFilesVerifiedUnchanged": 3008,
+    "scientificAndHistoryFilesVerifiedUnchanged": 53,
+    "websiteReviewsUnchanged": true,
+    "downloadedReportUnchanged": true,
+    "reportSha256": "7c7dcb95291f3c5bae757ef7d60ce932f97967773422ecda271c80cb4e8e20d1",
+    "runtimeNote": "workspace.xml changed; no task write/restore; origin unestablished and current bytes retained",
+    "noCommitPushDeployDNSLicenseM7": true
+  }
+}
