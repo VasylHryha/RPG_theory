@@ -4,14 +4,14 @@ doc_type: implementation_plan
 program: unity_theory_publication_site
 revision: 4
 updated: 2026-10-05
-status: M7_PREPARATION_ACCEPTED
+status: M7_PREPARATION_ACCEPTED_SOURCE_RECONCILIATION_REQUIRED
 current_milestone: M7
-execution_model: "Normal development with proportionate checks and separate bounded High acceptance under section 0.27"
-repository: "Local Git implementation: /Users/new/RiderProjects/RPG_theory; main branch; no remote configured"
+execution_model: "Normal development with proportionate checks and separate bounded High acceptance under section 0.27; source-authority reconciliation in section 0.39 is required before public qualification/release"
+repository: "Public GitHub repository https://github.com/VasylHryha/RPG_theory on main; prior local-only/no-remote statements are historical receipts"
 replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
 planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
-source_baseline: "Actual owner-supplied RRG_CURRENT installed locally on 2026-10-01; all 34 reached M1 website-fidelity representations requalified by separate review on 2026-10-02"
-publication: "Local implementation first; named and authorized public repository / Pages release later"
+source_baseline: "Project-wide RRG_CURRENT installed from owner-supplied bytes on 2026-10-01 remains the admitted repository baseline; GPT/Library audited publication companion v0.2.1 dated 2026-10-02 surfaced during the 2026-10-05 recheck and must be reconciled under section 0.39 before final public qualification; it does not automatically replace the separately locked core or source-authority manifest"
+publication: "Repository is already public; website/Pages release remains unqualified and must not proceed until section 0.39 plus normal identity/rights/target gates are closed"
 ---
 
 # Unity Theory — website implementation plan · Revision 4
@@ -26,25 +26,27 @@ This is the sole execution plan for the website, research-document publication, 
 
 **The website implements a research publication, not a new theory.** The broad project asks how geometry/relationships and dynamics can organize persistent systems, how these become components of further systems, and how existing organization can change the conditions for later organization. The shared update additionally identifies the question of lower-level geometry/modes enabling an effective interaction regime and further organization. Restricted model-reduction work is supporting historical research, not an automatic replacement for that question. Neither ambition nor a successful website makes the theory established physics.
 
+**5 October 2026 source-authority correction.** A fresh comparison of the public repository with the GPT Project source record and the user's Library surfaced an audited **RRG v0.2.1 publication companion dated 2 October 2026**. Its own `CURRENT.md` explicitly says that it is the latest audited session-document set and **does not automatically replace** a separately locked project-wide core, website source-authority manifest or repository. Therefore do not overwrite `research/RRG_CURRENT/` wholesale. Section 0.39 now requires a bounded reconciliation: retain the project-wide minimal locked core, preserve v0.2.1 byte-for-byte as an audited companion/provenance input, resolve terminology and evidence-ID conflicts, adopt justified corrections through ordinary source revision/change control, rebuild affected mappings, and only then refresh website-fidelity reviews and public qualification.
+
 **Read route:** §0.27 first → current status in §0 → §§1–4 → current milestone in §8 → §9 proportionate verification → §10 operating prompts. The complete architecture and all eight milestones remain selected. START_HERE is an index, not another tracker. Raw receipts are evidence, not additional plans. §0.27 supersedes mandatory repeated review/repair cycles and disproportionate checking; normal affected checks remain part of development.
 
 ## 0. Current execution and authority
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | **M7 / ACCEPTED — local release preparation only** at §0.38; actual public release NOT_STARTED and prerequisite-blocked. M2–M6 remain ACCEPTED for their bounded private scopes; complete public qualification remains incomplete |
-| Website repository / implementation | One-root local Astro implementation in `/Users/new/RiderProjects/RPG_theory`; local Git on main initialized by owner request (§0.11); original Rider files preserved; no remote/public target |
-| Last engineering acceptance | §0.38 accepts M7 local preparation with bounded review repairs. M2–M6 private acceptances remain preserved; actual-corpus public qualification remains open |
-| Changed here | Bounded M7 preparation acceptance; live search now selects destinations, local browser-cache lookup matches existing tooling, and private receipt capture remains an explicit public-run prerequisite. No fidelity/rights approval or public action |
-| Declared active scientific authority | **RRG_CURRENT**, identified by the shared current-package note [P-CURRENT-NOTE] |
-| Actual current package | **AVAILABLE_CURRENT_BYTES** in local execution on 1 October 2026; owner-supplied ZIP unpacked into `research/RRG_CURRENT/` |
-| Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; shared validator checks the declared pin |
-| Available historical research | Fourteen unchanged v0.1b / v0.2-audit files, preserved as history only |
+| Current milestone / state | **M7 local preparation remains ACCEPTED for its demonstrated engineering scope, but public qualification/release is now additionally blocked by the §0.39 source-authority reconciliation gate.** Prior M2–M6 bounded engineering acceptances remain historical evidence for the corpus they actually tested; do not treat them as qualification of reconciled content |
+| Website repository / implementation | One-root Astro implementation on public GitHub repository `VasylHryha/RPG_theory`, main branch. Prior receipts that say “no remote/public target” describe the earlier local state, not current repository visibility |
+| Last engineering acceptance | §0.38 accepts M7 local preparation with bounded review repairs. This plan-only update does not revoke that engineering result; it reopens the scientific/content input gate before final qualification because newer audited companion material was surfaced |
+| Changed here | Plan-only source-authority correction after comparing GitHub with the GPT Project source record and Library v0.2.1. No scientific source byte, evidence card, website review, rights decision or deployment setting is changed by this update |
+| Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
+| Audited companion / repository package | Owner-supplied 1 October `research/RRG_CURRENT/` remains the admitted repository package; GPT/Library **RRG v0.2.1 · 2 Oct 2026** is a distinct audited publication/evidence companion and correction source that must be reconciled rather than copied over the repository wholesale |
+| Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; it identifies the currently admitted edition. Any adopted scientific revision must create a new edition/hash with predecessor/change records rather than silently moving the pin |
+| Evidence namespace / history | Preserve all predecessor/history packages. **Conflict found:** v0.2.1 uses `E01…E22` for one catalogue while repository `08_ADDITIONAL_PRIMARY_EVIDENCE.md` already uses overlapping `E01…E08` for different studies; globally stable/namespaced IDs with legacy aliases are mandatory before merge/publication |
 | Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
-| Website/browser/a11y/live evidence | §0.35: clean install, zero Astro diagnostics, contracts with targeted repairs, 25 Chromium cases per base, Firefox/WebKit search/math smoke, axe/reflow, cold budgets, local stress, Lighthouse and 204-file/65-HTML audits per base. Screen reader/human comprehension NOT_TESTED; remote CI NOT_RUN, platform protections NOT_CONFIGURED, live hosting NOT_RUN |
-| Shared-source mutation | Original scientific bytes and issued decisions/receipts preserved. Shared validator confirms 57 stale / 0 pending / 0 accepted / 0 rejected, currentSourceQualified=false, deployEligible=false. No new decision manufactured; bounded M2–M5 acceptance preserved |
-| External publication authority | No public repository creation, push, visibility change, Pages/DNS action, license grant or purchase performed |
-| Next action | Stop this acceptance session. Close genuine qualification and target/owner/platform/private-receipt-capture prerequisites only when available and authorized; public release remains blocked |
+| Website/browser/a11y/live evidence | §0.35 and §0.38 engineering evidence remains valid for the source/configuration actually tested. Screen reader/human comprehension remain NOT_TESTED; reconciled-content qualification, live hosting and actual-target checks remain open |
+| Shared-source mutation | None in this plan-only update. Existing validator state was 57 stale / 0 pending / 0 accepted / 0 rejected, currentSourceQualified=false, deployEligible=false; do **not** refresh these decisions until §0.39 reconciliation stabilizes the corpus |
+| External publication state | The GitHub repository is already public. This requested plan update is the only public repository mutation in this batch. No Pages deployment, DNS change, release tag, license grant, rights approval or scientific-source publication action is performed here |
+| Next action | Execute §0.39 as one bounded source-reconciliation batch: preserve/import the audited companion as provenance, map authority layers, resolve lock terminology and evidence IDs, adopt justified corrections/evidence through versioned source transactions, rebuild affected website/source mappings, then run one final website-fidelity/public-qualification pass against the reconciled selection |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -54,8 +56,8 @@ This is the sole execution plan for the website, research-document publication, 
 | M3 | Current framework/math/status/proof/evidence documents rendered; bounded supplementary research where selected | M1–M2 + admitted current corpus | ACCEPTED — separate bounded High §0.30, including same-session equation stylesheet repair; historical supplement NOT_SELECTED / NOT_RUN |
 | M4 | Articles, document library, source-faithful exports and citation | M3 | ACCEPTED — separate bounded High §0.32; demonstrated private scope, qualification/publication gates remain |
 | M5 | Contribution, identity, rights and controlled publication workflow | M4 | ACCEPTED — separate bounded High §0.34; demonstrated private engineering, external decisions/platform setup pending |
-| M6 | Whole-site qualification against the actual current corpus and both URL modes | M5; qualified current sources for public qualification | ACCEPTED — bounded private engineering at §0.36; complete public qualification INCOMPLETE, actual content/owner/AT/CI gates remain |
-| M7 | Owner-authorized deployment of qualified artifact; optional domain | M6 + actual access/authorization | ACCEPTED — local preparation only at §0.38; complete M7 INCOMPLETE, public release NOT_STARTED / BLOCKED by qualification and target prerequisites |
+| M6 | Whole-site qualification against the actual current corpus and both URL modes | M5; **§0.39 source-authority reconciliation complete**; reconciled current sources qualified for public publication | ACCEPTED — bounded private engineering at §0.36 for the predecessor corpus; **final public qualification must be rerun once after §0.39 stabilizes the reconciled publication selection** |
+| M7 | Owner-authorized deployment of qualified artifact; optional domain | Requalified M6 + actual access/authorization | ACCEPTED — local preparation only at §0.38; complete M7 INCOMPLETE, public release NOT_STARTED / BLOCKED by §0.39 reconciliation, refreshed qualification, rights/identity and target prerequisites |
 
 States: `NOT_STARTED → ACTIVE → REVIEW_READY → ACCEPTED`. Under §0.27, separate High acceptance and affected checks are proportionate to delivered scope; full-site verification remains M6. Same-session review repairs may be accepted by the separate reviewer after inspecting affected behavior; no automatic second review cycle. Interim acceptance is not final qualification. A missing prerequisite blocks its affected scope, not unrelated local code. Fixture-based checks cannot satisfy actual-current-content acceptance. **Agent review is not author approval, legal approval, external scientific peer review or a human user study.**
 
@@ -516,9 +518,46 @@ Reused the clean install/zero Astro diagnostics and initial **104/113** contract
 
 **Remaining gates / stop:** genuine current-corpus M6 qualification, reviewed published selection, public-wording/identity/contact/ORCID/scoped-rights/privacy/legal/content/release approvals, named repository/Pages access and authorized target, configured platform protections and approved private receipt capture remain unavailable/open and may wait. Screen-reader/MathML and human comprehension **NOT_TESTED**; successful genuine public sealing, hosted HTTP/Chromium/search, remote CI/chosen-runner stress, tagging and live recovery **NOT_RUN**. Deployment remains disabled and policy qualification null. Scientific sources/ZIPs/handoff/history/Rider solution/sole lockfile/issued reviews and all predecessor evidence/artifacts preserved. Rider runtime workspace.xml changed again during acceptance; origin remains unestablished, no task write/restore, initial and final observed hashes retained and current bytes left untouched. §39 adapter/addenda/literal-backslash handling and matching KaTeX stylesheet preserved; no scientific adjudication, rewriting, SF-01–06 or paper audit; historical calculations **NOT_SELECTED / NOT_RUN**. Stop after this bounded decision: no commit, push, repository creation, deployment, DNS, release tag, license grant or public action.
 
+
+### 0.39 Source-authority reconciliation required before public qualification — 5 October 2026
+
+**Decision: REQUIRED PRE-RELEASE CORRECTION BATCH. This does not revoke prior bounded engineering acceptance and does not itself change scientific source bytes.** A recheck compared the current public GitHub repository with the GPT Project source record and the user's persisted audited documents. The GPT-side record identifies **RRG v0.2.1, dated 2 October 2026**, as the latest audited session-document set. Its own `CURRENT.md` explicitly limits that authority: the set is current publication guidance for that audited session and does **not** automatically replace a separately locked project-wide core, website source-authority manifest or repository. Therefore the correct action is reconciliation, not wholesale replacement of `research/RRG_CURRENT/`.
+
+**Authority layers selected for reconciliation.**
+
+1. **Minimal normative core:** keep `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its version/change-control rule as the project-wide minimal definition layer unless a deliberate core revision passes the recorded source-change process.
+2. **Current research extensions:** keep source-direction/background recursion, effective-interaction generation, possibility-space, fundamental-interaction/gravity/cosmology, engineering and AI hypotheses as versioned research extensions unless explicitly promoted into the minimal core.
+3. **Audited publication companion:** preserve the complete v0.2.1 package byte-for-byte as an audited publication/evidence/correction input. Its 01–03 `foundations/` are byte-preserved older snapshots with explicit errata and **must not overwrite** newer admitted repository 01–03 merely because the package is dated later.
+4. **Website/publication layer:** rebuild it only from the reconciled authority map. A website explanation cannot decide which scientific layer wins.
+
+**Concrete conflicts/gaps to resolve.**
+
+- **Core/extension wording:** v0.2.1 correctly says it does not rewrite the already locked definitions, but parts of its publication wording call `R=(G,M)`, `G↔M` and `B_n→R_n→B_{n+1}` “the core”; its later “Locked conceptual statements from this session” also lock the background-recursion branch. Repository `00_LOCKED_CORE.md` instead treats background/possibility-space as compatible extensions. Preserve the idea while separating the labels: **minimal locked core** versus **versioned source-direction/branch commitments**. Do not silently promote or delete either.
+- **Evidence identifiers:** v0.2.1 `06_evidence_catalog.md` uses `E01…E22` for one set of cases, while repository `08_ADDITIONAL_PRIMARY_EVIDENCE.md` already uses overlapping `E01…E08` for different papers. Before merging, assign globally unique stable evidence IDs (or namespaces) and preserve a legacy-alias table so old citations remain traceable and cannot resolve to the wrong study.
+- **Evidence coverage:** retain the v0.2.1 two-axis evidence taxonomy (result type separately from RRG relation/role) and its explicit limitations. Also retain repository-only emergent-interaction material such as mediated/effective-interaction examples when still supported. Absence from one catalogue is not deletion or falsification of the other.
+- **Mathematics:** v0.2.1 documents useful corrections/limits for finite-domain spectra, signed versus radial stochastic variables, noise residence, implicit background feedback, candidate-mode thresholds, assumed scale growth and error-bound interpretation. Compare each correction to current repository mathematics and adopt only the justified correction/scope change. Do not replace independent current models wholesale or turn optional illustrations into the normative core.
+- **Publication priority:** preserve the v0.2.1 publication/evidence-first direction: explain the proposal, show categorized evidence/limits and invite contributions; universal proof is not a prerequisite for sharing a clearly labelled hypothesis. Proofs, derivations and experiments remain welcome contributions rather than a gate invented by the website lane.
+- **Repository/public status:** the repository now exists publicly at `VasylHryha/RPG_theory`. Earlier “no remote/public target” statements remain historical receipts. Public repository visibility is not equivalent to a qualified Pages release, approved rights, or final scientific publication.
+
+**Execution order — one coherent batch, not repeated review churn.**
+
+1. Preserve/import the exact audited v0.2.1 package into a clearly versioned provenance/release area without rewriting its bytes; record hashes and source role. Do not place historical/archive material into active website output by default.
+2. Produce one source-role/edition mapping that explicitly relates the minimal core, current extensions, v0.2.1 companion, repository current documents and website derivative content. There must be one answer for “what is definition / extension / audited evidence / history / presentation.”
+3. Resolve ambiguous “core”/“locked” terminology in the **adopted current/publication layer** while preserving historical v0.2.1 bytes. If the owner intentionally wants background recursion promoted into the minimal core, use the full core-change/version process rather than accomplishing that promotion through editorial wording.
+4. Resolve evidence-ID collisions with globally stable IDs plus legacy aliases; merge/adopt evidence and claim mappings without double-counting the same study or losing repository-only cases. Update machine-readable source/citation registries together.
+5. Apply justified mathematical/factual corrections through a versioned source revision transaction when they affect authoritative current science; preserve predecessor bytes and update status/manifest/bindings/dependencies together. Presentation-only clarifications stay in publication sidecars/pages.
+6. Rebuild affected canonical records, source bindings, claim/evidence pages, downloads, citation aliases and publication selection. Do not manufacture accepted fidelity decisions during this step.
+7. Once source/content/renderer/target inputs are stable, invalidate only actually affected review fingerprints and perform **one final bounded website-fidelity review/qualification pass** over the selected publication and dependency closure. Do not spend effort accepting the current 57 stale reviews before this reconciliation.
+8. Qualify the actual Pages/custom-domain target after it is selected. Keep `/` and `/unity-theory/` as useful fixtures/regression modes; use the real target base as release evidence. GitHub Pages project sites normally include the repository name in the default project-site path unless a custom-domain configuration changes the served URL, so derive rather than assume the production base.
+9. Only after reconciled content qualification close remaining author wording, attribution/identity/contact/ORCID, scoped rights/licensing, privacy/legal/public-content approval, repository protection/private-receipt-capture and assistive-technology/human-comprehension gates as applicable; then run the existing M7 exact-artifact release workflow.
+
+**Acceptance for §0.39.** The batch is complete when (a) v0.2.1 is preserved with explicit non-overwrite provenance, (b) one source-role map unambiguously separates minimal core from extensions and publication companion, (c) no evidence ID maps to two different studies, (d) adopted mathematical/evidence corrections have explicit provenance and predecessor history, (e) the website corpus and download/citation mappings point only at the reconciled roles, and (f) the final selected publication is ready for a single fresh M6 content/fidelity qualification. A passing code build alone cannot satisfy this correction batch.
+
+**Stop boundary.** This section authorizes the source-reconciliation work requested by the owner, including justified current-source revisions under §0.3/§4.5 and preservation/import of the audited companion. It does **not** by itself authorize a Pages deployment, DNS change, license selection/grant, fabricated identity, deletion of historical packages, or silent rewrite of the minimal locked core.
+
 ## 1. Review findings and chosen repairs
 
-**R4 scope:** clarify the user's permission for necessary, justified source/core changes and recheck source visibility. R3 already mentioned a legitimate revised core, but its repeated “preserve bytes” and read-only presentation wording did not clearly distinguish the editable current source from immutable historical snapshots. R4 selects that distinction explicitly, supplies a revision path, and carries it through intake, records, milestones and both agent prompts. No scientific text is revised here and no fresh scientific literature audit is claimed.
+**R4 scope, extended by the 5 October 2026 plan update:** clarify the user's permission for necessary, justified source/core changes, recheck source visibility, and now reconcile the surfaced audited v0.2.1 publication companion with the repository's already-admitted RRG_CURRENT without silent replacement. R3 already mentioned a legitimate revised core, but its repeated “preserve bytes” and read-only presentation wording did not clearly distinguish the editable current source from immutable historical snapshots. R4 selects that distinction explicitly, supplies a revision path, and carries it through intake, records, milestones and both agent prompts. The §0.39 addition is a planning/source-authority correction only: no scientific text is revised by this commit and no fresh scientific literature audit is claimed.
 
 The following table records the **retained earlier R2-to-R3 repairs**, not findings newly discovered or executed in R4.
 
@@ -563,14 +602,15 @@ The broad geometry–dynamics/recursive-organization question stays visible. The
 
 | Decision | Authority / treatment |
 |---|---|
-| Declared active scientific package | Shared current-package declaration identifies RRG_CURRENT; it does not supply the missing contents |
-| Core meanings and intended scope | Actual current core plus the owner's later instructions; justified source/core revisions follow §0.3 and §4.5. No substitution from old drafts or website convenience |
-| Exact current document membership/edition | Actual `CURRENT_MANIFEST.md` and the inspected package; listed main filenames in the note are a minimum expected inventory, not proof of completeness |
-| Status of particular claims and supporting work | Actual current status, proof matrix and evidence documents; inspect arguments/sources before assigning stronger scientific labels |
-| Mathematical or factual error | Identify the error and support; correct the authoritative current source when revision is in scope, with explicit before/after meaning and affected dependencies. Review-only findings stay findings |
-| Old audit's alternative descriptor/objective | Historical proposal unless the actual current sources or an explicit owner decision adopt it; no automatic priority merely because it says v0.2 |
-| Website explanation | Must map back to current source meanings and be reviewed; clear wording is not permission to narrow or enlarge the theory |
-| Missing current input or unresolved source-to-display conflict | Block affected website fidelity/publication; keep private drafts and independent code work moving without inventing current text |
+| Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` and its explicit version/change-control boundary. This layer owns the minimal definitions unless an intentional versioned core revision is made |
+| Current research extensions | The admitted RRG_CURRENT framework/status/proof/evidence plus later justified revisions. Background/source recursion and stronger unification/cosmology/engineering claims remain extensions unless explicitly promoted through core change control |
+| Audited publication/evidence companion | RRG v0.2.1 (2 Oct 2026) is the latest surfaced audited session-document set. Preserve its bytes and audit record; use it as a reconciliation input/correction source, **not** an automatic replacement for the separately locked core or repository source manifest |
+| Exact current document membership/edition | `CURRENT_MANIFEST.md`, `config/research-source.json`, the inspected repository package, and any completed §0.39 source-revision transaction together. Do not derive authority from filename recency alone |
+| Status of particular claims and supporting work | Use the reconciled status/claim registry/evidence documents. Preserve the v0.2.1 distinction between result type and RRG relevance, plus repository evidence that is not present in that catalogue |
+| Mathematical or factual error | Identify the error and support; where v0.2.1 documents a correction, compare it to the current repository text/model rather than copying blindly. Adopt a correction into authoritative source only through explicit before/after meaning, predecessor preservation and affected dependency updates |
+| Session-level “locked” statements | Treat as versioned branch/publication commitments, not as an automatic enlargement of the project-wide minimal locked core. Rename or qualify their displayed status during reconciliation so both lock layers cannot be confused |
+| Website explanation | Must map to the reconciled source roles and reviewed meanings; clear wording is not permission to narrow, enlarge or silently promote an extension to core |
+| Missing/unresolved source-to-display conflict | Block affected website fidelity/publication; keep independent engineering work moving without manufacturing an authority decision |
 
 The owner controls intended definitions, scope and publication; evidence controls whether a claimed result is demonstrated. Neither a newer filename nor owner preference proves a scientific proposition. Preserving the baseline means preventing silent reinterpretation while permitting justified, recorded revisions—not freezing its bytes forever or treating every conjecture as established fact.
 
@@ -1291,7 +1331,7 @@ All listed deliverables remain selected. Under §0.27, implement pages/features 
 
 **Why / result.** The whole authored site, not merely isolated components, meets the reading, publication, accessibility and technical contracts.
 
-**Requires.** M5 engineering accepted; pending external publication decisions are visible. All required authored launch content is available for qualification; a mandatory missing technical page is not relabelled optional.
+**Requires.** M5 engineering accepted; **§0.39 source-authority reconciliation completed and the reconciled publication selection/source seal stabilized**; pending external publication decisions are visible. All required authored launch content is available for qualification; a mandatory missing technical page is not relabelled optional.
 
 **Implement in order.**
 
@@ -1303,7 +1343,7 @@ All listed deliverables remain selected. Under §0.27, implement pages/features 
 6. Run axe with WCAG 2.2 AA-relevant tags and resolve applicable issues; do not exempt all moderate findings merely because they are not labelled critical. Manually review keyboard/focus, contrast, semantic headings, zoom/reflow, reduced motion, tables and MathML with an actual screen reader where available. Record tool/browser/assistive-technology details.
 7. Check adopted asset/JS budgets and actual cold loading. Run the declared stress corpus locally/CI and ensure it cannot enter release output. Perform the recorded Lighthouse diagnostic without turning it into a certificate.
 8. Qualify a correction transaction end to end: change a definition/evidence fixture → stale dependant detected → explicit rereview → new output → old public route carries the correct history/replacement. Restore the real content afterwards.
-9. Complete both root and project-subpath qualification from a clean install and isolated output directories. Add real-target qualification when supplied; changing target config requires affected output/URL checks again.
+9. Complete root and fixture-subpath qualification from a clean install and isolated output directories, then qualify the **actual selected public target/base path**. The existing `/unity-theory/` fixture remains regression coverage only; it is not production evidence for a differently named GitHub project site. For GitHub Pages, derive the real base from the actual repository/Pages/custom-domain configuration and rerun affected output/URL/review inputs when that target changes.
 
 **Verify.** Use the complete §9 matrix and actual production-output server, not only Astro's dev server. All required technical checks need real receipts. No fixture is published; no absent check is called passed. A real assistive-technology limitation remains named until the required accessibility check is performed; independent code work may continue.
 
@@ -1317,11 +1357,11 @@ All listed deliverables remain selected. Under §0.27, implement pages/features 
 
 **Why / result.** Publish the reviewed artifact at a real stable URL without turning the final step into an uncontrolled rebuild or a new theory edit.
 
-**Requires.** M6 accepted against the actual admitted current corpus; recorded raw core hash and coherent current-manifest seal; named repository and Pages access; author approval of public introductory/core wording; identity/rights/privacy state; owner authorization for the actual publication. The domain is not required.
+**Requires.** §0.39 reconciliation complete; M6 freshly accepted against the reconciled actual admitted corpus and selected publication set; recorded raw core/version hash and coherent current-manifest/source-role seal; the existing named repository and required Pages access; author approval of public introductory/core wording; identity/rights/privacy state; owner authorization for the actual publication. The domain is not required.
 
 **Implement in order.**
 
-1. Inspect/create the owner-authorized repository using available GitHub tools and local workflow rules. Reconcile actual branch/settings/history; do not overwrite another repository or infer the target from Astelia. Use the matching connected tool for live GitHub actions when available.
+1. Use the existing owner-provided public repository `VasylHryha/RPG_theory`; inspect its actual branch/settings/history/Pages state before release. Do not recreate or replace the repository. Derive the Pages origin/base from the real repository or approved custom domain rather than assuming the historical `/unity-theory/` fixture path.
 2. Configure Pages publishing from GitHub Actions and real origin/base. Confirm the actual account permits the chosen Pages/environment setup. Do not invent a configured approval feature.
 3. Build and qualify the exact release commit through the single chain with the real target. Review generated metadata, document downloads and the content/privacy/rights manifest.
 4. Owner-controlled dispatch/protection releases that exact uploaded artifact; no deploy-time source rewrite or rebuild. Record artifact ID/source SHA/config digest and the environment decision.
