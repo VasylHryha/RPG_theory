@@ -13,7 +13,7 @@ preparation and deployment skipped. This is hosted timing for that exact commit.
 Concrete improvements: include existing math-font/keyboard-scroll and real
 404/nested-asset tests; use stable `@routine` tags instead of title fragments;
 cancel superseded same-branch routine jobs. Qualify/publish have separate
-concurrency groups and cancel-in-progress=false; release permissions, manual
+unique run-ID concurrency groups and cancel-in-progress=false; release permissions, manual
 main/owner-variable checks and same-run artifact dependencies remain intact.
 
 Affected checks: Playwright discovers exactly six tagged tests in five files.
@@ -33,3 +33,9 @@ time remains outside the ten-minute job runtime cap. The 24-case predecessor
 full-suite failure result remains failed; only the separately recorded ambient
 event test repair is established. Scientific sources, ZIPs, history, Rider files,
 fidelity decisions and publication switches remain unchanged.
+
+Concurrency includes a unique run ID for full verification because GitHub can
+replace an already-pending member of a shared group even when running-job
+cancellation is disabled. Thus new routine jobs replace obsolete routine jobs;
+qualification/publication verification cannot replace each other's queued runs.
+The separately preserved deployment serialization policy remains unchanged.

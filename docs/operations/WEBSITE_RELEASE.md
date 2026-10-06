@@ -20,7 +20,7 @@ regressions, legacy URL fixture, full browser suite and M6 campaign remain in
 `npm run verify`, selected explicitly with operation `qualify` or required by
 `publish`. A routine PASS never counts as full qualification.
 Newer routine checks cancel superseded checks of the same branch; manual
-qualification and publication use separate groups and are never automatically
+qualification and publication verification use unique run-ID groups and are never automatically
 cancelled by this rule.
 
 For this checkout, `git config core.hooksPath .githooks` enables the tracked

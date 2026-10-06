@@ -16,7 +16,7 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     concurrency:
-      group: website-verify-${{ github.head_ref || github.ref }}-${{ inputs.operation || 'verify' }}
+      group: website-verify-${{ inputs.operation || 'verify' }}-${{ github.event_name == 'workflow_dispatch' && inputs.operation != 'verify' && github.run_id || github.head_ref || github.ref }}
       cancel-in-progress: ${{ github.event_name != 'workflow_dispatch' || inputs.operation == 'verify' }}
     timeout-minutes: ${{ github.event_name == 'workflow_dispatch' && inputs.operation != 'verify' && 30 || 10 }}
     env:
