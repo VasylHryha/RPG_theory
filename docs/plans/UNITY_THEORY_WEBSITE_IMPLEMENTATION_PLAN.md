@@ -716,6 +716,24 @@ retained; Git whitespace PASS. No build, full regression, live campaign or
 deployment repeated for these changes. Commit/push uses `[skip ci]` to avoid an
 unnecessary new routine run; the served artifact remains the recorded release.
 
+### 0.57 Downloaded handoff completion check and documentation repair — 6 October 2026
+
+Read the complete `docs/handoffs/RRG_GITHUB_PAGES_REBIND_DEPLOY_HANDOFF_2026-10-05.md`
+against preserved §§0.41–0.56 evidence. Its source-key/package-role, namespace,
+bibliography, living catalogue, reviewed selection, actual target and same-artifact
+manual publication work is delivered. Original full-suite PASS remains incomplete;
+first-test publication followed the later explicit owner authorization and recorded
+bounded scope, without relabelling failed/unavailable checks. Custom DNS/domain
+is intentionally deferred. The handoff itself does not request a homepage redesign;
+the simple introductory experience remains a R4 §2.4 requirement.
+
+Found a concrete §12 documentation omission: README and START_HERE still described
+the predecessor empty selection and disabled/undeployed site. Corrected both to
+the actual live URL, 75 accepted/selected current pages, preserved 21 archived stale
+entries, release receipt and monthly maintenance rule. Whitespace and pre-push
+syntax checks only; no site build, new fidelity decision, audit campaign or
+redeployment for these documentation changes. Preserve old receipts unchanged.
+
 ## 1. Review findings and chosen repairs
 
 **R4 scope, reconciled with the 5 October 2026 promotion:** retain the justified source-revision rules and preserved history, and implement website fidelity to the owner-selected v0.2.1 repository current. §0.39 now records completed source selection, the concrete registry/binding blocker and the remaining web-page/link migration; it does not instruct website agents to adjudicate scientific corrections. The plan repair itself changed no scientific source or website code; §0.40 records the subsequent website implementation. Neither issues content acceptance or release authorization.

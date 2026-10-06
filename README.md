@@ -20,15 +20,16 @@ The original owner-supplied `RRG_CURRENT.zip` remains preserved as provenance. I
 
 ## Website status
 
-The repository is public, but **the website is not yet publicly qualified or deployed**.
+**The first public research-draft edition is live:**
+[vasylhryha.github.io/RPG_theory](https://vasylhryha.github.io/RPG_theory/).
 
-The v0.2.1 website migration and package-authority/Pages target implementation have **bounded separate High acceptance** (R4 §0.47). Current documents have readable HTML pages; source links open the corresponding readings and sections. Original files and explanatory exports are labelled separately. The current catalogue contains 22 evidence cases and eight open questions; predecessor records keep their identities and explicit historical status. All 75 current private source/display fidelity decisions are accepted; 21 archived decisions remain stale. The launch selection is empty and publication remains disabled.
+The v0.2.1 migration and repaired first-test candidate have **bounded separate High acceptance** (R4 §§0.47/0.51). Current documents have readable HTML pages; source links open the corresponding readings and sections. Original files and explanatory exports are labelled separately. The current catalogue contains 22 evidence cases and eight open questions; predecessor records keep their identities and explicit historical status. All 75 current source/display fidelity decisions are accepted and selected for publication; 21 archived decisions remain stale and excluded. The owner-authorized manual Pages run deployed the same sealed release artifact from main commit `89b5a07`; served-file, search and real 404 checks passed.
 
 Do not interpret an old successful preview/build receipt as qualification of the promoted source set. See the sole forward plan:
 
 [docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md)
 
-Next is the approved launch/public decision packet and remaining M6 human/AT/provenance/platform/CI qualification. Earlier migration/R2 acceptance remains preserved. Current evidence is in [the bounded Pages acceptance receipt](docs/evidence/github-pages-rebind/acceptance/receipt.md).
+Current evidence is in [the first public release receipt](docs/evidence/first-public-release/receipt.md). Human comprehension/listening, screen-reader observations, original-package provenance and a fully passing broad regression campaign remain incomplete; they are not reported as passed. Earlier migration/R2 acceptance remains preserved. Custom domain/DNS is deferred until project approval.
 
 ## Local development
 
@@ -46,10 +47,15 @@ The local site is normally served at `http://127.0.0.1:4321/RPG_theory/`.
 npm run check
 npm run check:sources -- --scope current
 npm run check:content -- --changed <entry-id>
-npm run verify
+npm run verify:ci
 ```
 
 Source and content validation now load the selected edition. Pending/stale source-fidelity decisions continue to block public qualification; a successful preview does not refresh those decisions.
+
+Heavy source/history/full-regression and exhaustive live checks run monthly.
+Use `npm run verify` or manual workflow operation `qualify` for that explicit
+campaign; reuse passing results for 30 days on unchanged relevant inputs and
+check changed features narrowly. The monthly reminder does not block deployment.
 
 ## Source and publication layout
 
@@ -66,4 +72,10 @@ Current source admission verifies bytes only. It does not certify the theory or 
 
 Public repository visibility is not the same as a qualified research release.
 
-Pages deployment remains blocked until the selected v0.2.1 content is reviewed and the remaining identity, attribution, scoped-rights, privacy/public-content and accessibility gates are closed. No project-wide licence is selected merely because the repository is public.
+The selected 75-page first test edition has recorded fidelity, identity, rights,
+scoped privacy and explicit owner publication authorization. The existing
+main-only manual workflow builds, audits and seals the selected output, then
+deploys that uploaded artifact. Further releases retain those shared controls;
+there is no full audit on every push. Research prose/original figures have the
+declared CC BY-NC-SA 4.0 grant and additional CC BY 4.0 from 1 January 2033 UTC;
+website code and separately distributed data remain all rights reserved.
