@@ -17,7 +17,7 @@ test('home and start read without JavaScript, navigate by keyboard and keep sour
   const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 1440, height: 1000 } });
   const page = await context.newPage();
   await page.goto(process.env.UNITY_TEST_ORIGIN + base);
-  await expect(page.locator('h1')).toContainText('become a whole?');
+  await expect(page.locator('h1')).toHaveText('How can organization make further organization possible?');
   await expect(page.locator('.pathway-grid > a')).toHaveCount(3);
   await expect(page.locator('.hero [data-editorial-state]')).toHaveCount(0);
   await expect(page.locator('[data-source-projection]')).not.toBeVisible();
@@ -97,7 +97,7 @@ test('unknown routes return real 404 and nested assets use the configured base',
   expect(response?.status()).toBe(404);
   await expect(page.locator('h1')).toContainText('return to the question');
   await page.getByRole('link', { name: 'Return home', exact: true }).click();
-  await expect(page.locator('h1')).toContainText('become a whole?');
+  await expect(page.locator('h1')).toHaveText('How can organization make further organization possible?');
   expect((await request.get(base + 'favicon.svg')).status()).toBe(200);
   if (base !== '/') expect((await request.get('/favicon.svg')).status()).toBe(404);
   const info = await (await request.get(base + 'build-info.json')).json();

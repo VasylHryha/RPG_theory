@@ -1,7 +1,7 @@
 import { publicationAssets,rssXML,verifyArchive } from '../src/lib/publication-assets.js';
 import {renderLibrary,renderHistory,renderDownloadTools,renderArticles,renderCite,renderSourceBacklinks} from '../src/lib/library.js';
 import { publicationFor, isHistorical, assertBuildAllowed } from '../src/lib/publication.js';
-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderEditorialState, renderBeginnerDiagram, renderTechnicalGuide } from '../src/lib/presentation.js';
+import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderHomeContext, renderEditorialState, renderBeginnerDiagram, renderTechnicalGuide } from '../src/lib/presentation.js';
 import { renderEntrySync } from '../src/lib/content.js';
 import { readFileSync, existsSync, statSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve, join, dirname } from 'node:path';
@@ -158,6 +158,7 @@ export function auditOutput(directory: string) {
     const diagrams=$('[data-beginner-diagram]');
     if(expectedDiagram ? diagrams.length!==1 || normalizedHTML(diagrams.toArray().map(el=>$.html(el)).join(''))!==normalizedHTML(expectedDiagram) : diagrams.length!==0) throw new ContractError('DIAGRAM_PARITY_FAILURE',file);
     const generatedRegions:[string,string][]=[];
+    if(entry?.id==='DOC-HOME' && !isHistorical(entry))generatedRegions.push(['data-home-context',renderHomeContext(selected.corpus,entry,info.config.basePath)]);
     if(entry && !['DOC-HOME','DOC-START'].includes(entry.id))generatedRegions.push(['data-download-tools',renderDownloadTools(selected,entry,info.config.basePath)]);
     if(entry?.id==='DOC-LIBRARY')generatedRegions.push(['data-document-library',renderLibrary(selected,info.config.basePath)]);
     if(entry?.id==='DOC-CONTROL')generatedRegions.push(['data-website-history',renderHistory(selected,info.config.basePath)]);

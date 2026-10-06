@@ -35,19 +35,19 @@ This is the sole execution plan for the website, research-document publication, 
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | First test edition ACCEPTED and DEPLOYED. §0.58 homepage clarity/name/contact accepted; §0.59 exact lowercase repository/Pages target ACCEPTED and live, with same-run checks PASS |
+| Current milestone / state | §0.60 whole public presentation rework REVIEW_READY after focused affected checks. Previous first-test edition remains ACCEPTED and live under §0.59 |
 | Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/rrg_theory`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
 | Last engineering acceptance | §0.59 bounded exact prior source/display comparison for the address correction: 75 unchanged accepted reads, 21 archives preserved. Homepage acceptance §0.58 and earlier scoped evidence retained |
-| Latest execution receipt | §0.59: `docs/evidence/rrg-theory-address/receipt.md` and `verification.json`; successful lowercase-target release, same-artifact capture and live smoke |
+| Latest execution receipt | §0.60: `docs/evidence/public-rework/receipt.md`, comparison and verification; implemented private candidate. §0.59 deployed receipt remains preserved |
 | Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
 | Selected repository package | **RRG v0.2.1 repository current**, explicitly promoted on 5 October: selected audited companions plus carried-forward minimal core/repository 01–03/change control. The 1 October set is historical under `research/history/repository-current-2026-10-01/`; bundled `foundations/` and `checks/` are supporting material |
 | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; it identifies the currently admitted edition. Any adopted scientific revision must create a new edition/hash with predecessor/change records rather than silently moving the pin |
 | Evidence namespace / history | §0.43 qualifies 79 local E/C/H/O/F labels by document AND edition, including the two different current C1 meanings. Stable BIB/page IDs remain; current 06 E07 and predecessor 08 E08 share BIB-0036. Supplementary recovery does not restore predecessor authority or change the scientific case inventory |
 | Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
 | Website/browser/a11y/live evidence | §0.59 clean actual-target build/shared audit/seal, seven Chromium release checks and Pages deploy PASS; seven live responses match captured artifact. Prior broad evidence reused where unchanged. Human/listening/AT and fully passing broad regression remain incomplete |
-| Current validation / decisions | **75 accepted current / 21 preserved archived stale / 0 pending / 0 rejected** through the shared fidelity validator. Selected current qualification true; owner-authorized release deployEligible=true. Prior genuine decisions, source bytes and excluded archive entries preserved |
+| Current validation / decisions | Reworked workspace: **0 accepted / 96 stale / 0 pending / 0 rejected**. The 75 genuine prior current decisions and 21 archived stale decisions are unchanged; new explanations/shared presentation need independent comparison. Actual candidate qualification refuses REVIEW_REQUIRED. Earlier live artifact remains qualified for its preserved inputs |
 | External publication state | Existing public repository `VasylHryha/rrg_theory` (ID preserved); Actions Pages/HTTPS/main policy enabled. Run 37440216559 succeeded from clean main 534350e. Live: `https://vasylhryha.github.io/rrg_theory/`; exact artifact captured privately |
-| Next action | §0.59 is ACCEPTED and live; no deployment blocker remains. Maintain/polish the same 75-page first test edition with focused affected checks. Heavy campaigns monthly; no automatic acceptance cycle. Domain/DNS deferred |
+| Next action | One bounded independent High review of §0.60: seven changed authored records plus shared presentation across 75 current entries, using genuine prior receipts and prepared requests. Fix/accept material repairs in that same session; no new full campaign or automatic second cycle. Then owner-controlled main publication. Human/AT/off-machine backup gaps remain honest; domain/DNS deferred |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -808,6 +808,45 @@ the privately captured artifact ID `11401205903`. Identity:
 Shared fidelity validator: 75 accepted current / 21 archived stale preserved;
 actual source/display comparisons unchanged. No deployment blocker remains.
 Human/AT/provenance/full broad-regression limitations remain incomplete and honest.
+
+### 0.60 Owner-authorized whole public presentation rework — 6 October 2026
+
+**REVIEW_READY.** Implemented the owner-approved downloaded rework reference,
+preserved exactly under `docs/handoffs/`; R4 remains the sole forward tracker.
+Home now leads with organization enabling further organization, three steps,
+balanced cases and open questions. Start/Concepts/Evidence and a clearly authored
+Research overview precede original technical material. Six primary choices,
+regrouped Documents, human reference labels, citation-first presentation,
+short About/rights/footer and current contributor instructions replace the dense
+workflow-led reading. Shared explanatory exports now include the visible authored
+context; raw sources, routes, 22-case membership, archives and legal texts remain.
+
+**Actual checks:** Astro 96 files, zero diagnostics; shared admission/content and
+catalogue checks PASS; root and actual-target private builds/shared output audits
+PASS, 348 files each. Nine focused Chromium checks at each base PASS; two affected
+checks at each base rerun after the headline wrapping repair PASS. Five focused
+export/ZIP/credit/rights contracts PASS. Matched prior-deployment and candidate
+captures inspected. The runner now accepts browser/evidence options and uses one
+reusable `npm run test:e2e` approval. No fresh full regression/cross-engine/Lighthouse
+campaign is claimed. Short receipt and exact scope: `docs/evidence/public-rework/`.
+
+**Fidelity and publication:** genuine preserved prior receipts were read and hashed
+for all 75 current entries. Seven own records changed; 68 own records, all 75
+original statements and bindings, the registry and 21 archived stale entries are
+unchanged. Shared presentation changed. Prepared comparison requests are not
+approvals: workspace has 0 accepted / 96 stale; actual qualification refuses
+`REVIEW_REQUIRED: DOC-STATUS: stale`. One independent bounded High review remains
+under §0.27/AGENTS; its reviewer may fix and accept material repairs in that session.
+No automatic second review or renewed full campaign. New candidate is not deployed;
+§0.59 remains the live first edition. Indexing remains explicitly owner-approved.
+
+**Available provenance completed:** found and privately captured the exact original
+complete handoff, SHA-256 `ee17c961c8e198a520b2750442a4f33179cc360827afc0fd92f00c0c280449d4`.
+Ten audited current scientific files match. Inner checksums and 23 manifest members
+match; the original outer list has an invalid self-checksum (other 29 entries
+match), preserved unchanged and disclosed. Human comprehension and real screen-reader
+checks NOT_PERFORMED; independent off-machine backup NOT_VERIFIED. These are not
+invented passes. Prior source-admission/provenance identities remain unchanged.
 
 ## 1. Review findings and chosen repairs
 
@@ -1868,4 +1907,4 @@ The following external-source decisions are **retained from R2**, whose record s
 | W10 | WIPO copyright protection: `https://www.wipo.int/en/web/copyright/protection` | Copyright's expression/idea distinction; not jurisdiction-specific legal advice or a royalty contract |
 | W11 | Creative Commons BY-NC-SA 4.0: `https://creativecommons.org/licenses/by-nc-sa/4.0/` | Example of a non-commercial attribution/share-alike option and retained valid permissions; no license has been selected or granted here |
 
-**End of sole forward implementation plan.** §§0.27/0.56 govern proportionate development and monthly heavy checks. §0.51 ACCEPTS the repaired owner-approved 75-page first research edition; 21 archived stale decisions preserved. §§0.55–0.56 record explicit owner authorization, completed scoped privacy/release preparation, actual clean-commit CI/build/seal/browser checks, successful Pages deployment and privately captured/live-verified artifact. **§0.58 accepts the corrected RRG homepage/name/contact; §0.59 deploys the exact lowercase target https://vasylhryha.github.io/rrg_theory/; no deployment blocker remains.** Broad regressions, human/listening/AT and original-package provenance remain incomplete, not claimed passed. Initial CC BY-NC-SA 4.0 is active; the additional CC BY 4.0 grant starts 1 January 2033 UTC. Code/data remain all rights reserved. Domain/DNS deferred; historical calculations NOT_SELECTED / NOT_RUN. No further automatic acceptance session or full audit is required for unchanged delivered scope.
+**End of sole forward implementation plan.** §§0.27/0.56 govern proportionate development and monthly heavy checks. §0.51 ACCEPTS the repaired owner-approved 75-page first research edition; 21 archived stale decisions preserved. §§0.55–0.56 record explicit owner authorization, completed scoped privacy/release preparation, actual clean-commit CI/build/seal/browser checks, successful Pages deployment and privately captured/live-verified artifact. **§0.59 remains the live exact lowercase target https://vasylhryha.github.io/rrg_theory/. §0.60 implements the subsequent whole-site public presentation rework at REVIEW_READY; its changed candidate awaits one independent bounded High fidelity review before publication.** Broad regressions and human/listening/AT remain incomplete, not claimed passed. The exact original bundle is now captured and compared; off-machine backup remains unverified. Initial CC BY-NC-SA 4.0 is active; the additional CC BY 4.0 grant starts 1 January 2033 UTC. Code/data remain all rights reserved. Domain/DNS deferred; historical calculations NOT_SELECTED / NOT_RUN. No further automatic acceptance session or full audit is required for unchanged delivered scope.

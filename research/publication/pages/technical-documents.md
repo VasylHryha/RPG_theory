@@ -2,16 +2,16 @@
 {
   "id": "DOC-LIBRARY",
   "route": "/documents/",
-  "title": "Documents and reading library",
-  "description": "Read the current research edition and its definition and change-control authorities.",
-  "revision": 4,
+  "title": "Technical documents and exact sources",
+  "description": "Inspect the current scientific edition, its authority and provenance, and clearly labelled original and explanatory downloads.",
+  "revision": 5,
   "kind": "library",
   "lang": "en",
   "audience": "technical",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-CONTROL",
@@ -41,24 +41,12 @@
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## Read the idea, then inspect its boundaries
+## Inspect the exact edition
 
-- [Reading guide](/documents/reading-guide/) — the selected edition and reading paths.
-- [Recursive background and organization](/framework/recursive-background/) — the full conceptual companion.
-- [Evidence catalogue](/evidence/catalogue/) — reported cases, conditions and limits.
-- [Claims and session coverage](/research-status/claims/) — retained ambitions and open connections.
-- [Optional mathematical illustrations](/math/illustrations/) — conditional calculations.
-- [Research status and source-reported audit](/research-status/) — what the supplied audit did and did not check.
+This library is for reading the original technical documents and checking their authority, conditions and provenance. For the conceptual journey, [start with the idea](/start/), [explore concepts](/concepts/) or [examine evidence](/evidence/).
 
-## Definition and source authority
+The current edition combines the project-wide minimal core and carried-forward foundations with the selected audited v0.2.1 companions. [Source authority](/documents/source-authority/) explains that boundary; the [reading guide](/documents/reading-guide/) describes the roles.
 
-- [Minimal locked core](/documents/locked-core/) — normative definitions.
-- [World explanation](/documents/world-explanation/), [framework](/framework/) and [candidate mathematics](/math/) — carried-forward repository foundations.
-- [Source authority](/documents/source-authority/) and [change control](/changes/) — the boundary between current definitions, branch commitments and supporting history.
-- [Source changelog](/changes/source-history/) and [older-foundation errata](/documents/foundation-errata/) — version and provenance context.
+**Original source** downloads preserve exact bytes. **Explanatory Markdown** is a generated reading export with disclosed adapters. The **publication ZIP** is the selected website bundle, not an assertion that it is the complete original RRG_CURRENT archive.
 
-Reading links open web pages. Original source files and generated explanatory Markdown are separately labelled downloads below each reading. Original files retain their exact bytes. Supporting audit files are labelled original files rather than presented as extra theory pages.
-
-## Source connections and local labels
-
-[Sources, local labels and limited connections](/evidence/source-links/) — current case/claim crosswalk, recovered physical examples, optional methods and original-package limits.
+[Download and cite this edition](/cite/). The grouped library below keeps governance and provenance separate from the scientific reading path.

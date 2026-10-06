@@ -39,13 +39,18 @@ type Selection={corpus:Corpus;entries:Entry[];references:any[];manifest:{mode:st
 // Reuse the display adapter and directive parser. Only destinations in parsed
 // link nodes are normalized; code/math and scientific text remain intact.
 const markdownTitle=(title:string)=>title.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/[\\`*_\[\]#]/g,'\\$&');
+function readingMarkdown(entry:Entry) {
+  const context=entry.plainLanguage?`## Website reading context\n\n${entry.plainLanguage}\n\n`:'';
+  const original=sourceDisplay(entry.statement ?? '',entry.adapter)+'\n\n'+entry.body;
+  return entry.id==='DOC-HOME'?original+'\n\n'+context:context+original;
+}
 const exportHeadingIds=new WeakMap<Entry,Set<string>>();
 function headingIds(corpus:Corpus,e:Entry){
- let ids=exportHeadingIds.get(e);if(!ids){const $=load(renderMarkdownSync(documentMarkdown(`# ${markdownTitle(e.title)}\n\n${sourceDisplay(e.statement ?? '',e.adapter)}\n\n${e.body}`,corpus,e),'/',corpus));ids=new Set($('[id]').toArray().map(el=>$(el).attr('id')!));exportHeadingIds.set(e,ids);}return ids;
+ let ids=exportHeadingIds.get(e);if(!ids){const $=load(renderMarkdownSync(documentMarkdown(`# ${markdownTitle(e.title)}\n\n${readingMarkdown(e)}`,corpus,e),'/',corpus));ids=new Set($('[id]').toArray().map(el=>$(el).attr('id')!));exportHeadingIds.set(e,ids);}return ids;
 }
 export function explanatoryMarkdown(corpus:Corpus,entry:Entry,config:SiteConfig,selectedEntries=[...corpus.entries.values()]) {
   if(entry.publicationState==='withdrawn')throw new ContractError('WITHDRAWN_EXCERPT',entry.id);
-  let text=exportDirectiveMarkdown(documentMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter)+'\n\n'+entry.body,corpus,entry),corpus);
+  let text=exportDirectiveMarkdown(documentMarkdown(readingMarkdown(entry),corpus,entry),corpus);
   const tree=parseMarkdown(text);
   const edits:{start:number;end:number;value:string}[]=[];
   function walk(node:any) {
@@ -98,7 +103,7 @@ export function publicationAssets(selection:Selection,config:SiteConfig) {
   members.set('publication-manifest.json',Buffer.from(JSON.stringify(selection.manifest,null,2)+'\n'));
   members.set('CITATION-AND-RIGHTS.md',Buffer.from(`# Citation and rights\n\n${credit.approvedCredit?.name ?? 'Public credit decision pending.'}\n\n${credit.permanentUrl ?? 'Permanent URL pending.'}\n\n${rightsSummary(credit)}\n\nCode, research prose/figures and data/evidence have separate rights decisions. Third-party rights and lawful exceptions remain applicable. The dependency notice in THIRD-PARTY-NOTICES.txt applies only to the named KaTeX and Pagefind dependencies, not the project.\n\nResearch edition: ${identity.researchEdition}\nWebsite release: ${identity.websiteRelease}\nSource commit: ${identity.sourceCommit ?? 'unavailable'}\nWorkspace dirty: ${identity.workspaceDirty}\nInput digest: ${identity.workspaceInputsSha256}\nDocument manifest: ${identity.documentManifestSha256}\n`));
   const cff=citationCFF(identity,credit);if(cff)members.set('CITATION.cff',Buffer.from(cff));
-  members.set('README.md',Buffer.from(`# ${credit.title} — ${preview?'PRIVATE PREVIEW':'selected publication'}\n\n${preview?'This is a local generated mirror of selected private drafts. It is not an approved publication and carries no release or license authorization.':'This package uses the validated approved document selection; deployment remains disabled.'}\n\nExplanatory Markdown is transformed from canonical parsed content. Original downloads retain exact source bytes; this partial selection is not the complete RRG_CURRENT package. Original provenance is recorded in the explanatory documents and publication manifest. Bibliography metadata is supplied; journal PDFs, evidence, private history and administrative files are excluded. No evidence has been approved for distribution.\n\nLocal web URLs use the configured base path. Reserved .invalid preview URLs are placeholders, not permanent identifiers. Consult release.json for edition, commit, dirty input digest and citation gates. Verify SHA256SUMS from the package root (the manifest excludes itself).\n`));
+  members.set('README.md',Buffer.from(`# ${credit.title} — ${preview?'PRIVATE PREVIEW':'selected publication'}\n\n${preview?'This is a local generated mirror of the private website candidate. It is not an approved public release and cannot create additional permissions over the original content.':release?'This is the owner-authorized website publication bundle for the exact release identified in release.json.':'This package uses the reviewed selection for private qualification; it is not a hosted public release.'}\n\nExplanatory Markdown includes authored website reading context and the disclosed source-display adapters. Original downloads retain exact source bytes; this partial selection is not the complete RRG_CURRENT package. Original provenance is recorded in the explanatory documents and publication manifest. Bibliography metadata is supplied; journal PDFs, private history and administrative evidence are excluded.\n\nLocal web URLs use the configured base path. Reserved .invalid preview URLs are placeholders, not permanent identifiers. Consult release.json for edition, commit, dirty input digest and citation gates. Verify SHA256SUMS from the package root (the manifest excludes itself).\n`));
   const sums=[...members].sort(([a],[b])=>a.localeCompare(b)).map(([p,b])=>`${sha256(b)}  ${p}\n`).join('');
   members.set('SHA256SUMS',Buffer.from(sums));
   const zipPath=`/downloads/unity-theory-publication-${identity.websiteRelease}${preview?'-preview':''}.zip`;

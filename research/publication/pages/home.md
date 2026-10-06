@@ -2,9 +2,9 @@
 {
   "id": "DOC-HOME",
   "route": "/",
-  "title": "How do parts become a whole?",
-  "description": "A research idea about how parts work together, form lasting structures, and make new structures possible.",
-  "revision": 5,
+  "title": "How can organization make further organization possible?",
+  "description": "RRG explores how arrangement and activity form persistent wholes, how those wholes become useful parts, and how existing organization changes the conditions for what can form next.",
+  "revision": 6,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
@@ -13,12 +13,16 @@
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-06",
   "sourceRefs": [
+    "R-CURRENT-AUDIT",
+    "R-CURRENT-BACKGROUND",
     "R-CURRENT-CATALOGUE",
     "R-CURRENT-CORE",
     "R-CURRENT-SCIENCE",
     "R-CURRENT-WORLD"
   ],
   "dependsOn": [
+    "DOC-BACKGROUND",
+    "DOC-EVIDENCE",
     "DOC-EXAMPLE-WATER",
     "DOC-STATUS",
     "UT-C01",
@@ -29,6 +33,10 @@
     "UT-D05",
     "UT-D06",
     "UT-D08",
+    "UT-E107",
+    "UT-E117",
+    "UT-E119",
+    "UT-E120",
     "UT-O102"
   ],
   "related": [],
@@ -38,27 +46,21 @@
   "contentOrigin": "authored",
   "sourceBinding": null,
   "statement": null,
-  "plainLanguage": "",
-  "scope": "Compact introduction to the source research question, with one familiar warm-up and links to deeper examples.",
+  "plainLanguage": "## What evidence do we have?\n\nRRG is not established by one decisive experiment. The current catalogue reports component mechanisms and partial bridges under specific conditions:\n\n- **Arrangement and activity act together:** [atom\u2013cavity self-organization](/claims/UT-E107/) uses a supplied cavity and laser pump.\n- **A field changes interactions:** [random-light interactions](/claims/UT-E119/) use pre-existing particles and an externally generated optical field.\n- **Patterns multiply:** [granular bands](/claims/UT-E120/) reproduce under continued shaking; this is not yet a chain of new scales.\n- **A constraint matters:** [low-absorption selection](/claims/UT-E117/) limits the idea that strongest resonance must always win.\n\n[Explore the evidence and its limits](/evidence/).\n\n## What remains open?\n\nA connected, repeated causal chain; a distinctive quantitative prediction; a universal recursive law; and the stronger fundamental or cosmological extensions. Different local mechanisms do not establish all of these together.\n\n[See what would change confidence](/research-status/).\n\n## Follow the question\n\n[Understand the concepts](/concepts/) \u00b7 [Examine the evidence](/evidence/) \u00b7 [See the research questions](/research-status/) \u00b7 [Inspect the technical documents](/documents/)\n",
+  "scope": "Plain-language orientation to the proposed organizing relation, balanced evidence examples and open questions.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§1–3, 5, 7–11; world explanation §§2, 4, 6–7, 10 and background addendum. The water warm-up is supplementary NOAA physics, not a new RRG claim.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core \u00a7\u00a71\u20133, 5, 7\u201311; world explanation \u00a7\u00a72, 4, 6\u20137, 10 and background addendum. The water warm-up is supplementary NOAA physics, not a new RRG claim. Website orientation: companion 04 \u00a7\u00a70\u20132 and 06 E07/E17/E19/E20, with 07 \u00a77 boundaries. Local mechanisms remain distinct; no universal chain is asserted.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## Begin with a wave
+## The idea in three steps
 
-Watch a ripple cross water. The crest travels across the surface while the water moves locally. The moving pattern and the water carrying it are two ways to describe the same event. [Explore the wave](/examples/water/).
+**Active parts form a persistent whole.** Its arrangement shapes the activity it can support; that activity may maintain or rebuild the arrangement. The parts stay active inside the whole.
 
-## Parts, connections and motion
+**A whole can become a useful part.** A molecule participates in further interactions. A cell keeps its organization while exchanging material with its surroundings, and can participate in a larger system.
 
-A string's fixed ends shape the ways it can move. A molecule's connections shape what its atoms can do together. A cell keeps its organization while exchanging material and energy with its surroundings.
+**Existing organization changes conditions.** A star creates conditions for new reactions. Living systems change their chemical surroundings. Those changes may make further organization possible.
 
-Recursive Resonant Geometry (**RRG**) asks how connections and activity can help a whole persist while its parts remain active.
-
-## A whole can become a part
-
-That whole may become part of something larger. It can also change what happens around it: a star creates conditions for new reactions, and living systems change their chemical surroundings.
-
-[Read the introduction](/start/) for the idea and its limits, or [explore the concepts](/concepts/) in more detail.
+This is a **proposed organizing relation**, not a guaranteed universal sequence. A familiar [water wave](/examples/water/) is a warm-up about patterns and their parts; it does not prove the recursive proposal.

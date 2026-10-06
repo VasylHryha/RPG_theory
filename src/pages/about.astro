@@ -4,6 +4,6 @@ import { publicationCredit, renderAbout } from '../lib/publication-policy';
 import { activeConfig } from '../lib/site-config';
 const html=renderAbout(publicationCredit(),activeConfig().basePath);
 ---
-<ReadingLayout title="About and contact" description="Project credit, contact and contribution information, with pending owner decisions shown explicitly." route="/about/">
+<ReadingLayout title="About and contact" description="What RRG explores, who maintains it and how to ask a question or contribute." route="/about/">
   <article class="article shell"><h1>About and contact</h1><div class="prose" data-about set:html={html} /></article>
 </ReadingLayout>

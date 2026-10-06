@@ -18,7 +18,7 @@ test('M5 owner credit and dated research grant reach every rights surface while 
   const about=load(renderAbout(c,base)),legal=load(renderLegal(c,base)),footer=load(renderFooter(base,c));
   assert.match(about.text(),/Approved public credit: Vasyl Hryha/);assert.match(legal.text(),/Website code: no additional license granted/);assert.match(legal.text(),/Research prose and figures: CC BY-NC-SA 4.0/);assert.match(legal.text(),/Data and evidence: no additional license granted/);assert.match(legal.text(),/lawful exceptions/);assert.match(legal.text(),/not retroactively removed/);
   for(const text of [legal.text(),footer.text()]){assert.match(text,/1 January 2033 at 00:00 UTC/);assert.match(text,/additionally licensed under CC BY 4.0/);assert.match(text,/first public website release/);assert.match(text,/Third-party material retains its own rights/);}
-  assert.equal(footer('a').first().attr('href'),base+'about/');assert.equal(legal('a').last().attr('href'),base+'downloads/THIRD-PARTY-NOTICES.txt');
+  assert.equal(footer('nav a').filter((_,el)=>footer(el).text()==='About and contact').attr('href'),base+'about/');assert.equal(legal('a').last().attr('href'),base+'downloads/THIRD-PARTY-NOTICES.txt');
  }
  assert.equal(parse(citationCFF({websiteRelease:'synthetic',releaseAt:'2026-10-04'})!).authors[0].name,'Vasyl Hryha');
  assert.deepEqual(citationGates(),[]);

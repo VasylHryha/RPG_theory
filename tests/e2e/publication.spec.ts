@@ -11,7 +11,8 @@ test('M4 library, article and citation journeys work without JavaScript, with re
  await page.goto(base+'articles/');await expect(page.locator('[data-article-index] h2')).toHaveCount(2);
  await page.locator('[data-article-index]').getByRole('link',{name:'When can a whole be treated as one useful unit?',exact:true}).click();
  await expect(page.locator('[data-canonical-body]')).toContainText('No new result is derived or reproduced here.');
- await page.goto(base+'documents/');for(const name of ['Start','Framework','Mathematics / Results','Research Questions','Historical Sources'])await expect(page.locator('[data-document-library]').getByRole('heading',{name,exact:true})).toBeVisible();
+ await page.goto(base+'documents/');for(const name of ['Current scientific edition','Governance and provenance','Downloads'])await expect(page.locator('[data-document-library]').getByRole('heading',{name,exact:true})).toBeVisible();
+ const history=page.locator('[data-document-library] details').filter({has:page.locator('summary',{hasText:'Historical editions'})});await expect(history).not.toHaveAttribute('open','');
  await page.goto(base+'cite/');await expect(page.locator('[data-citation]')).toContainText(info.workspaceDirty?'Dirty; the commit alone does not describe this build.':'Clean.');await expect(page.locator('[data-citation] a[href$="CITATION.cff"]')).toBeVisible();
  const [download]=await Promise.all([page.waitForEvent('download'),page.getByRole('link',{name:info.mode==='preview'?'Private preview publication ZIP':'Selected publication ZIP',exact:true}).click()]);
  const dest=`${evidence}/${suffix}-download.zip`;await download.saveAs(dest);const raw=readFileSync(dest);expect(raw.equals(a.files.get(a.zipPath)!)).toBe(true);const members=verifyArchive(raw);expect(members.size).toBe(a.members.size);

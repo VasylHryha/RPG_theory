@@ -37,7 +37,7 @@ test('M2 complete reading journey works without JavaScript and makes question, u
   const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:375,height:900}}),page=await context.newPage();
   try {
     await page.goto(process.env.UNITY_TEST_ORIGIN+base);
-    await expect(page.getByRole('heading',{level:1})).toHaveText('How do parts become a whole?');
+    await expect(page.getByRole('heading',{level:1})).toHaveText('How can organization make further organization possible?');
     await expect(page.locator('main')).toContainText('whether a useful, predictive organizing principle connects them');
     expect(await page.locator('[data-canonical-body] h2').first().evaluate(el=>el.getBoundingClientRect().top)).toBeLessThan(900);
     expect(await page.locator('[data-canonical-body]').evaluate(el=>!!(el.compareDocumentPosition(document.querySelector('[data-beginner-diagram]')!) & Node.DOCUMENT_POSITION_FOLLOWING))).toBe(true);

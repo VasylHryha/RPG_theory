@@ -21,13 +21,14 @@ export function renderEditorialState(corpus: Corpus,entry: Entry) {
 export function renderHomeHeading(title: string) {
   const words=title.trim().split(/\s+/);
   if(words.length<=4) return escapeHTML(title);
-  return `${words.slice(0,4).map(escapeHTML).join(' ')}<br class="desktop-break" /> ${words.slice(4,-1).map(escapeHTML).join(' ')} <em>${escapeHTML(words.at(-1)!)}</em>`;
+  return `${words.slice(0,-1).map(escapeHTML).join(' ')} <em>${escapeHTML(words.at(-1)!)}</em>`;
 }
 export function renderStatus(corpus: Corpus,entry: Entry) {
-  if(entry.audience==='general' && ['concept','example'].includes(entry.kind)) return `<p class="record-status record-status-compact reading-note">${entry.kind==='example'?'Illustrative example':'Concept explanation'} · ${escapeHTML(renderEditorialState(corpus,entry))}</p>`;
   const archived=entry.publicationState==='archived';
+  const publication=archived?'Historical':entry.publicationState==='published'?'Current research draft':entry.publicationState==='draft'?'Private draft':entry.publicationState;
+  const role=entry.kind==='example'?'Illustrative example':entry.kind==='concept'?'Concept explanation':entry.kind==='evidence'?'Evidence case':entry.kind==='conjecture'?'Open hypothesis':roles[entry.kind] ?? 'Research document';
   const pairs=[['Scientific role',roles[entry.kind] ?? 'Research document'],['Evidence',evidence[entry.evidenceState]],['Source fidelity',reviewLabel(corpus,entry.id)],['Publication',archived?'Historical source · previous edition':entry.publicationState==='draft'?'Draft · private preview':entry.publicationState]];
-  return `${archived?'<p class="reading-note">This is a preserved historical reading. It is not the current source edition or a retraction of the cited study.</p>':''}<dl class="record-status">${pairs.map(([label,value])=>`<div><dt>${label}</dt><dd>${escapeHTML(value)}</dd></div>`).join('')}</dl>`;
+  return `${archived?'<p class="reading-note">This is a preserved historical reading. It is not the current source edition or a retraction of the cited study.</p>':''}<div class="record-status"><p><strong>${escapeHTML(role)}</strong> · ${escapeHTML(publication)}</p>${entry.evidenceState==='not-applicable'?'':`<p class="reading-note">${escapeHTML(evidence[entry.evidenceState])}</p>`}<details><summary>Source fidelity and publication details</summary><dl>${pairs.map(([label,value])=>`<div><dt>${label}</dt><dd>${escapeHTML(value)}</dd></div>`).join('')}</dl></details></div>`;
 }
 function link(route: string,label: string,base: string) { return `<a href="${escapeHTML(withBase(route,base))}">${escapeHTML(label)}</a>`; }
 export function renderRecordDetails(corpus: Corpus,entry: Entry,base='/') {
@@ -46,22 +47,22 @@ export function renderRecordDetails(corpus: Corpus,entry: Entry,base='/') {
     const b=entry.sourceBinding;const source=corpus.sources.get(b.sourceKey)!;
     html+=`<details><summary>Source extraction details</summary><p class="binding-receipt">Extracted from ${escapeHTML(source.path.split('/').pop()!)}; edition ${escapeHTML(source.edition)}, lines ${b.startLine}–${b.endLine}.</p><p class="binding-receipt">Raw excerpt SHA-256: <code>${b.excerptSha256}</code></p></details>`;
   }
-  if(entry.dependsOn.length) html+=`<h3>Depends on</h3><ul>${entry.dependsOn.map(id=>`<li>${link(corpus.entries.get(id)!.route,`${id} — ${corpus.entries.get(id)!.title}`,base)}</li>`).join('')}</ul>`;
+  if(entry.dependsOn.length) html+=`<h3>Related definitions and readings</h3><ul>${entry.dependsOn.map(id=>`<li>${link(corpus.entries.get(id)!.route,corpus.entries.get(id)!.title,base)}</li>`).join('')}</ul>`;
   const refs=[...new Set(entry.bibRefs.map(id=>corpus.references.get(id)!.primaryId ?? id))];
   if(refs.length) html+=`<h3>${entry.contentOrigin==='source-bound'?'References reported by this source':'References and further reading'}</h3><ul>${refs.map(id=>`<li><a href="${withBase('/references/',base)}#${id}">${escapeHTML(corpus.references.get(id)!.title)}</a></li>`).join('')}</ul>`;
   if(entry.id==='DOC-STATUS') html+=`<p>${link(corpus.entries.get('DOC-CLAIM-COVERAGE')!.route,'Read claims, evidence limits and open questions',base)}</p>`;
-  html+='</section>';
+  html+=`<details><summary>Stable record identity</summary><p>${escapeHTML(entry.id)} · revision ${entry.revision} · updated ${escapeHTML(entry.updatedAt)}</p></details></section>`;
   if(compact) {
     const limit=entry.limits && entry.limits!==entry.scope?`<p class="reading-note">${escapeHTML(entry.limits)}</p>`:'';
     return `${context}${limit}<details class="source-details"><summary>Sources and related definitions</summary>${html}</details>`;
   }
-  return context+html;
+  return context+`<details class="source-details"><summary>Scope, sources and record details</summary>${html}</details>`;
 }
 export function renderReferences(references: Reference[],entries: Entry[],base='/') {
   return `<ol>${references.filter(r=>!r.primaryId).map(ref=>{
     const alternates=references.filter(r=>r.primaryId===ref.id);
     const users=entries.filter(e=>e.bibRefs.some(id=>id===ref.id || alternates.some(r=>r.id===id)));
-    return `<li id="${ref.id}"><h2>${escapeHTML(ref.title)}</h2><p>${escapeHTML((ref.authors ?? []).join(', '))}${ref.publication?` · ${escapeHTML(ref.publication)}`:''}${ref.year?` (${ref.year})`:''}</p><p><a href="${escapeHTML(ref.url)}">${escapeHTML(ref.doi?`DOI: ${ref.doi}`:'Read the institutional source')}</a></p>${alternates.map(alt=>`<p id="${alt.id}"><a href="${escapeHTML(alt.url)}">${escapeHTML(alt.linkRole ?? 'Alternate source')}</a></p>`).join('')}<p>${escapeHTML(ref.supportScope)}</p><p>${escapeHTML(ref.verificationScope)}</p><p>Used by: ${users.map(e=>link(e.route,e.id,base)).join(', ')}</p></li>`;
+    return `<li id="${ref.id}"><h2>${escapeHTML(ref.title)}</h2><p>${escapeHTML((ref.authors ?? []).join(', '))}${ref.publication?` · ${escapeHTML(ref.publication)}`:''}${ref.year?` (${ref.year})`:''}</p><p><a href="${escapeHTML(ref.url)}">${escapeHTML(ref.doi?`DOI: ${ref.doi}`:'Read the institutional source')}</a></p><p><strong>Why it is here:</strong> ${escapeHTML(ref.supportScope)}</p><p><strong>What was checked:</strong> ${escapeHTML(ref.verificationScope)}</p><p><strong>Used in RRG pages:</strong> ${users.length?users.map(e=>link(e.route,e.title,base)).join(' · '):'Background or method context in the selected reading map.'}</p><details><summary>Stable identity and alternate sources</summary><p>${escapeHTML(ref.id)}</p>${alternates.map(alt=>`<p id="${alt.id}"><a href="${escapeHTML(alt.url)}">${escapeHTML(alt.linkRole ?? 'Alternate source')}</a></p>`).join('')}</details></li>`;
   }).join('')}</ol>`;
 }
 export function renderHomeStatus(corpus: Corpus,entry: Entry,base='/') {
@@ -74,13 +75,13 @@ export function renderHomeStatus(corpus: Corpus,entry: Entry,base='/') {
   if(index<0 || !heading?.position) throw new ContractError('SOURCE_ADAPTER_FAILURE','Current status summary anchors changed; rereview the projection');
   return renderMarkdownSync(text.slice(heading.position.start.offset,next?.position?.start.offset ?? text.length),base,corpus);
 }
+export function renderHomeContext(corpus: Corpus,entry: Entry,base='/') {
+  return renderMarkdownSync(entry.plainLanguage,base,corpus);
+}
 export function renderNavigation(selection: { entries: Entry[]; manifest: {navigationIds:string[];routes:string[]} },route:string,base='/') {
-  const navigation=[['DOC-START','Start'],['DOC-FRAMEWORK','Framework'],['DOC-STATUS','Research'],['DOC-LIBRARY','Documents']].flatMap(([id,label])=>{
+  const navigation=[['DOC-START','Start'],['DOC-CONCEPTS','Concepts'],['DOC-EVIDENCE','Evidence'],['DOC-STATUS','Research'],['DOC-LIBRARY','Documents']].flatMap(([id,label])=>{
     const entry=selection.entries.find(e=>e.id===id);return entry && selection.manifest.navigationIds.includes(id)?[{route:entry.route,label}]:[];
   });
-  if(selection.manifest.routes.includes('/articles/'))navigation.push({route:'/articles/',label:'Articles'});
-  if(selection.manifest.routes.includes('/cite/'))navigation.push({route:'/cite/',label:'Cite'});
-  if(selection.manifest.routes.includes('/references/')) navigation.push({route:'/references/',label:'Sources'});
   if(selection.manifest.routes.includes('/search/')) navigation.push({route:'/search/',label:'Search'});
   return navigation.map(item=>`<a href="${escapeHTML(withBase(item.route,base))}"${route===item.route?' aria-current="page"':''}>${item.label}</a>`).join('');
 }
@@ -100,7 +101,7 @@ export function renderTechnicalGuide(selection: {corpus: Corpus; entries: Entry[
   const headings=$('h2[id]').toArray().map(el=>({id:$(el).attr('id')!,text:$(el).text()}));
   const source=entry.sourceBinding?selection.corpus.sources.get(entry.sourceBinding.sourceKey):undefined;
   const simpler=[['DOC-START','Start'],['DOC-EXAMPLES','Examples'],['DOC-CONCEPTS','Concepts']].flatMap(([id,label])=>{const item=available(id);return item?[link(item.route,label,base)]:[];}).join(' · ');
-  const context=entry.plainLanguage?`<aside class="technical-callout prose" aria-label="Reading context"><h2>Before reading</h2>${renderMarkdownSync(entry.plainLanguage,base,selection.corpus)}</aside>`:'';
+  const context=entry.plainLanguage?`<aside class="technical-callout prose" aria-label="${entry.id==='DOC-STATUS'?'Research overview':'Reading context'}"><h2>${entry.id==='DOC-STATUS'?'Research overview':'Before reading'}</h2>${renderMarkdownSync(entry.plainLanguage,base,selection.corpus)}</aside>`:'';
   const toc=headings.length?`<details class="technical-toc"><summary>On this page (${headings.length} sections)</summary><ol>${headings.map(h=>`<li><a href="#${escapeHTML(h.id)}">${escapeHTML(h.text)}</a></li>`).join('')}</ol></details>`:'';
   return `<nav class="technical-navigation" aria-label="Technical reading">${navigation}</nav><p class="reading-note">${source?`Source: ${escapeHTML(source.path.split('/').pop()!)}. `:''}Edition: ${escapeHTML(entry.researchEdition)}.</p>${simpler?`<p class="reading-note">Simpler reading: ${simpler}.</p>`:''}${context}${toc}`;
 }

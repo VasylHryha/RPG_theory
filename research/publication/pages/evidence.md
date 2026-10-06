@@ -3,23 +3,27 @@
   "id": "DOC-EVIDENCE",
   "route": "/evidence/",
   "title": "Evidence and its scope",
-  "description": "Source-reported support, mapped claims and the questions that remain open.",
-  "revision": 3,
+  "description": "Begin with local mechanisms, partial bridges and comparison cases, then inspect all 22 audited source cases.",
+  "revision": 4,
   "kind": "research-status",
   "lang": "en",
-  "audience": "technical",
+  "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
+    "R-CURRENT-AUDIT",
+    "R-CURRENT-BACKGROUND",
     "R-CURRENT-CATALOGUE",
-    "R-CURRENT-REGISTER",
-    "R-CURRENT-CLAIMS"
+    "R-CURRENT-CLAIMS",
+    "R-CURRENT-REGISTER"
   ],
   "dependsOn": [
+    "DOC-BACKGROUND",
     "DOC-CATALOGUE",
     "DOC-CLAIM-COVERAGE",
+    "DOC-SOURCE-LINKS",
     "UT-E101",
     "UT-E102",
     "UT-E103",
@@ -57,43 +61,97 @@
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## Read the evidence in context
+## What would evidence for RRG look like?
 
-The [current catalogue](/evidence/catalogue/) contains 22 cases. It distinguishes **result type** from **RRG relation**. Each reports what happened, what apparatus or conditions were supplied, what remains open and what the source audit inspected. These are source-reported checks, not experiments or independent paper reviews performed by this website.
+Two questions belong together: **what did a study actually do?** And **how far does that result connect to the RRG proposal?** Experiment, simulation and mathematical derivation describe different kinds of result. The connection to RRG is a separate question.
 
-The [claims and boundaries](/research-status/claims/) explain why separate examples do not automatically form a demonstrated universal causal chain. The [optional mathematics](/math/illustrations/) remains conditional illustration.
+- **Component:** one relevant operation is demonstrated.
+- **Partial bridge:** relevant operations are causally connected within a particular system.
+- **A stronger bridge to look for:** formed organization changes conditions so a distinct further organization becomes possible.
+- **Recursive evidence to look for:** connected stages repeat across levels under stated dynamics; it is not enough to collect unrelated examples.
+- **Discriminating evidence to look for:** a specified RRG model makes a quantitative prediction that distinguishes it from alternatives.
 
-## Current case records
+The last three describe research goals, not additional achieved ratings. The source catalogue uses component, partial bridge, constraint/comparator and analogy alongside its result types. A supplied apparatus, drive, control rule or selected description remains part of each result.
+
+## Start with these cases
+
+### Arrangement and activity act together
+
+[Atom–cavity self-organization](/claims/UT-E107/) is an **experiment / partial bridge** with mutually coupled matter organization and optical-field dynamics. Atoms, cavity and laser pumping are supplied.
+
+[Colloidal swarmalators](/claims/UT-E108/) are an **experiment / partial bridge** in which phases and positions co-evolve. Feedback control and hydrodynamic coupling are essential context.
+
+### A field changes effective interactions
+
+[Optical binding](/claims/UT-E118/) is an **experiment / partial bridge**: illuminated microspheres form light-mediated bound configurations in an existing medium.
+
+[Random-light interactions](/claims/UT-E119/) combine **experiment and theory / partial bridge**. Measured attraction uses pre-existing spheres and a laser-generated random field. Random does not mean broadband white noise or spontaneous creation of the particles.
+
+### Patterns multiply
+
+[Replicating granular bands](/claims/UT-E120/) are an **experiment / partial bridge** under continued horizontal shaking. Pattern multiplication does not by itself establish successive independent scales. [Chemical spots](/claims/UT-E110/) and [suspension holes](/claims/UT-E111/) offer different physical cases.
+
+### Constraints and alternative mechanisms
+
+[Low-absorption selection](/claims/UT-E117/) is a **constraint** on “strongest resonance always dominates.” The catalogue's simulation account is complemented by experimental evidence in the published report; that portion was not separately method-audited there.
+
+[Nonresonant granular transport](/claims/UT-E122/) is an **experiment / constraint and comparator**. Motion on a driven, nonresonating plate is not automatically evidence for resonance.
+
+### Useful descriptions at another scale
+
+[Collective reduction and memory](/claims/UT-E114/) is a **mathematical derivation / partial bridge**, with microscopic dynamics and resolved variables already chosen. Changing description does not physically create a new medium.
+
+[Controlled amplitude approximation](/claims/UT-E121/) is a **mathematical derivation / partial bridge** near onset for a specified equation. Its environmental heterogeneity is supplied; the result is not an unlimited hierarchy of new physical levels.
+
+## Related cases outside the audited 22
+
+The [source reading map](/evidence/source-links/) also retains supplementary and recovered literature:
+
+- He's optical assemblies: nested pulse organization in a designed, pumped laser; optical molecules are not chemical molecules.
+- Fu's liposomes: protein–membrane feedback with supplied materials and ATP; the simulated interruption is not an experimental ablation.
+- Godino's Min/liposome work: protein patterns and deformation in synthetic compartments, not a complete reproducing organism.
+- Prindle and Liu's biofilms: distinct electrical/metabolic coordination studies, not one combined experiment or fusion into an organism.
+- Staged DNA assembly: designed assemblies become later building units; no full temporal-mode hierarchy is measured.
+- Ratzke and Gore's pH feedback: facilitation, inhibition and harmful outcomes in supplied cultures.
+- BCS and spin ice: distinct theory and material-platform contexts for effective interactions; no derivation of all fundamental forces.
+
+These enrich the reading map. **They do not increase the official v0.2.1 catalogue beyond 22 cases.** Follow the map for the paper, exact connection, supplied conditions and recorded read depth; this website has not performed a fresh paper audit.
+
+## What is not established
+
+There is no demonstrated universal recursive chain, derivation of the Standard Model or gravity, RRG calculation of cosmological expansion, RRG-specific AI benchmark, arbitrary-law engineering or universal monotonic complexity rule. Local successes and finite hierarchies still deserve their stated credit.
+
+[Research status](/research-status/) explains which missing connections and predictions could change confidence. [Claims and their boundaries](/research-status/claims/) preserves the wider proposal.
+
+## Full audited catalogue
+
+The complete table retains all **22 source cases** and their two separate classifications. Use the named reading to inspect its finding, supplied conditions, limitation and original source. Source case labels belong to the current 06 document; earlier same-looking labels may refer to different studies.
 
 | Source case | Web reading | Result type | RRG relation |
 |---|---|---|---|
-| v0.2.1:E01 | :claim[UT-E101] — Mechanical synchronization | experiment | component / constraint |
-| v0.2.1:E02 | :claim[UT-E102] — Chladni particle manipulation | experiment | component |
-| v0.2.1:E03 | :claim[UT-E103] — Acoustic microparticle trapping | experiment | component |
-| v0.2.1:E04 | :claim[UT-E104] — Noise-assisted patterning model | simulation | component |
-| v0.2.1:E05 | :claim[UT-E105] — Stationary Turing patterns | experiment | component / comparator |
-| v0.2.1:E06 | :claim[UT-E106] — Forced chemical patterns | experiment | partial bridge |
-| v0.2.1:E07 | :claim[UT-E107] — Atom–cavity self-organization | experiment | partial bridge |
-| v0.2.1:E08 | :claim[UT-E108] — Colloidal swarmalators | experiment | partial bridge |
-| v0.2.1:E09 | :claim[UT-E109] — Simulated resonance selection | simulation | partial bridge |
-| v0.2.1:E10 | :claim[UT-E110] — Replicating chemical spots | experiment | partial bridge |
-| v0.2.1:E11 | :claim[UT-E111] — Replicating suspension holes | experiment | partial bridge |
-| v0.2.1:E12 | :claim[UT-E112] — Driven magnetic assembly | experiment | partial bridge |
-| v0.2.1:E13 | :claim[UT-E113] — Cooperative RNA networks | experiment | structural analogue / partial bridge |
-| v0.2.1:E14 | :claim[UT-E114] — Collective reduction and memory | theory / mathematical derivation | partial bridge |
-| v0.2.1:E15 | :claim[UT-E115] — Engineered lattice dynamics | experiment | partial bridge |
-| v0.2.1:E16 | :claim[UT-E116] — Confinement-dependent packing | experiment and simulation | component / comparator |
-| v0.2.1:E17 | :claim[UT-E117] — Low-absorption selection | simulation; published report also includes experimental evidence | constraint |
-| v0.2.1:E18 | :claim[UT-E118] — Optical binding | experiment | partial bridge |
-| v0.2.1:E19 | :claim[UT-E119] — Random-light interactions | experiment and theory | partial bridge |
-| v0.2.1:E20 | :claim[UT-E120] — Replicating granular bands | experiment | partial bridge |
-| v0.2.1:E21 | :claim[UT-E121] — Controlled amplitude approximation | theory / mathematical derivation | partial bridge |
-| v0.2.1:E22 | :claim[UT-E122] — Nonresonant granular transport | experiment | constraint / comparator |
+| v0.2.1:E01 | [Mechanical synchronization](/claims/UT-E101/) | experiment | component / constraint |
+| v0.2.1:E02 | [Chladni particle manipulation](/claims/UT-E102/) | experiment | component |
+| v0.2.1:E03 | [Acoustic microparticle trapping](/claims/UT-E103/) | experiment | component |
+| v0.2.1:E04 | [Noise-assisted patterning model](/claims/UT-E104/) | simulation | component |
+| v0.2.1:E05 | [Stationary Turing patterns](/claims/UT-E105/) | experiment | component / comparator |
+| v0.2.1:E06 | [Forced chemical patterns](/claims/UT-E106/) | experiment | partial bridge |
+| v0.2.1:E07 | [Atom–cavity self-organization](/claims/UT-E107/) | experiment | partial bridge |
+| v0.2.1:E08 | [Colloidal swarmalators](/claims/UT-E108/) | experiment | partial bridge |
+| v0.2.1:E09 | [Simulated resonance selection](/claims/UT-E109/) | simulation | partial bridge |
+| v0.2.1:E10 | [Replicating chemical spots](/claims/UT-E110/) | experiment | partial bridge |
+| v0.2.1:E11 | [Replicating suspension holes](/claims/UT-E111/) | experiment | partial bridge |
+| v0.2.1:E12 | [Driven magnetic assembly](/claims/UT-E112/) | experiment | partial bridge |
+| v0.2.1:E13 | [Cooperative RNA networks](/claims/UT-E113/) | experiment | structural analogue / partial bridge |
+| v0.2.1:E14 | [Collective reduction and memory](/claims/UT-E114/) | theory / mathematical derivation | partial bridge |
+| v0.2.1:E15 | [Engineered lattice dynamics](/claims/UT-E115/) | experiment | partial bridge |
+| v0.2.1:E16 | [Confinement-dependent packing](/claims/UT-E116/) | experiment and simulation | component / comparator |
+| v0.2.1:E17 | [Low-absorption selection](/claims/UT-E117/) | simulation; published report also includes experimental evidence | constraint |
+| v0.2.1:E18 | [Optical binding](/claims/UT-E118/) | experiment | partial bridge |
+| v0.2.1:E19 | [Random-light interactions](/claims/UT-E119/) | experiment and theory | partial bridge |
+| v0.2.1:E20 | [Replicating granular bands](/claims/UT-E120/) | experiment | partial bridge |
+| v0.2.1:E21 | [Controlled amplitude approximation](/claims/UT-E121/) | theory / mathematical derivation | partial bridge |
+| v0.2.1:E22 | [Nonresonant granular transport](/claims/UT-E122/) | experiment | constraint / comparator |
 
-## Previous edition
+## Continue from the evidence
 
-Earlier UT-E01–UT-E12 identify different predecessor records. Their IDs and source citations remain in explicitly historical readings; they are not renumbered into this catalogue or counted as additional confirmations. [Browse the document library](/documents/).
-
-## Follow particular source connections
-
-The [source and label reading map](/evidence/source-links/) qualifies local labels by document and edition, reconnects useful predecessor papers, and separates exact findings, partial-claim connections, methods and constraints. Its supplementary pH and BCS links do not change the scientific catalogue.
+[Inspect the exact catalogue](/evidence/catalogue/) · [Follow a source connection](/evidence/source-links/) · [Explore open questions](/open-problems/) · [Return to the concepts](/concepts/)

@@ -1,0 +1,107 @@
+{
+  "schema": "rrg-public-rework-verification/1",
+  "recordedAt": "2026-10-06T10:59:43.159433+00:00",
+  "implementationStatus": "REVIEW_READY",
+  "astroDiagnostics": {
+    "files": 96,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0,
+    "log": "docs/evidence/m7/runtime/public-rework/astro-check.log"
+  },
+  "content": {
+    "status": "PASS",
+    "sourceAdmissionBytesVerified": true,
+    "entries": 96,
+    "catalogueCases": 22,
+    "log": "docs/evidence/m7/runtime/public-rework/content-check.log"
+  },
+  "outputAudits": [
+    {
+      "status": "PASS",
+      "mode": "preview",
+      "basePath": "/",
+      "deployEligible": false,
+      "files": 348,
+      "artifactSha256": "81e9d96c0d0ca1793f80ad9132047770b04a1dfeb16d25c3c28137e44c660fae"
+    },
+    {
+      "status": "PASS",
+      "mode": "preview",
+      "basePath": "/rrg_theory/",
+      "deployEligible": false,
+      "files": 348,
+      "artifactSha256": "acd35c4b2a5d3f4944b71899f9dc9cfdff45a9328fc636d3d20b0ab8278fce69"
+    }
+  ],
+  "browser": {
+    "uniqueFocusedChecksPerBase": 9,
+    "bases": [
+      "/",
+      "/rrg_theory/"
+    ],
+    "initialRuns": "PASS: nine per base",
+    "headlineRepairAffectedReruns": "PASS: two per base",
+    "runnerOptionsCheck": "PASS: one no-JS journey using reusable npm approval",
+    "scope": "12 routes; 1440/1024/768/390/320; light/dark axe; keyboard/no-JS; search; ZIP/RSS; real 404; MathML",
+    "originalLogs": [
+      "docs/evidence/m7/runtime/public-rework/browser-root.log",
+      "docs/evidence/m7/runtime/public-rework/browser-target.log"
+    ],
+    "repairLogs": [
+      "docs/evidence/m7/runtime/public-rework/browser-root-after-repair.log",
+      "docs/evidence/m7/runtime/public-rework/browser-target-after-repair.log"
+    ],
+    "notClaimed": "Fresh full-suite, cross-engine, Lighthouse or human/AT pass"
+  },
+  "focusedContracts": {
+    "status": "PASS",
+    "tests": 5,
+    "elapsedSeconds": 12.47,
+    "command": "node --import tsx --test --test-name-pattern='M4 explanatory exports|M4 ZIP manifests|M5 owner credit|M5 explicit synthetic credit|M5 ZIP carries' tests/content/m4.test.ts tests/content/m5.test.ts",
+    "scope": "Both-base exports, exact original ZIP bytes/manifests and scoped credit/rights; unchanged results reused"
+  },
+  "preservation": {
+    "protectedTrackedPathsUnchanged": true,
+    "reviewRegistrySha256": "eda86ce36af7b42a8623daec22ace94233ae903bb735b42e06a3158c7378ec82",
+    "priorAcceptedDecisionFilesUnchanged": true,
+    "archivedStaleEntriesPreserved": 21,
+    "currentOwnStatementsAndBindingsUnchanged": 75,
+    "currentOwnRecordsUnchanged": 68
+  },
+  "qualification": {
+    "status": "REFUSED",
+    "diagnostic": "REVIEW_REQUIRED: DOC-STATUS: stale; required c24188094e700213808ade0c896f00f8126fe011fe133c9c1609c9dea3e86321"
+  },
+  "deployment": "NOT_RUN for the reworked candidate; existing deployed edition preserved",
+  "limitations": {
+    "independentHighFidelityAcceptance": "REQUIRED for changed candidate; not performed by its implementer",
+    "humanComprehension": "NOT_PERFORMED",
+    "realScreenReader": "NOT_PERFORMED",
+    "originalAuditedBundle": "Exact private capture and comparison complete; original checksum-list self-entry defect preserved",
+    "independentOffMachineArchive": "NOT_VERIFIED",
+    "freshBroadRegressionAndCI": "NOT_RUN in this acceptance record; unchanged evidence reused where applicable"
+  },
+  "prePush": {
+    "status": "PASS",
+    "checks": [
+      "JSON syntax",
+      "Git whitespace"
+    ],
+    "receipt": "docs/evidence/m7/runtime/public-rework/pre-push/verification.json"
+  },
+  "environmentAttempts": [
+    {
+      "command": "initial local Chromium preview invocation",
+      "result": "REFUSED before tests",
+      "diagnostic": "listen EPERM: operation not permitted 127.0.0.1",
+      "resolution": "Outside-sandbox browser runs passed; reusable npm run test:e2e approval saved."
+    },
+    {
+      "command": "initial npm run verify:push invocation",
+      "result": "REFUSED before checks",
+      "diagnostic": "listen EPERM for tsx local IPC socket",
+      "resolution": "Outside-sandbox retry passed; reusable npm run verify:push approval saved."
+    }
+  ]
+}

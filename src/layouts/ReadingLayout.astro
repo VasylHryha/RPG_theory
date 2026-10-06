@@ -44,11 +44,7 @@ const source = {...selected.admission,errorCode:null};
     </header>
     <main id="main" tabindex="-1"><slot /></main>
     <aside class="source-note shell" aria-label="Source availability">
-      {route==='/' ? <details><summary>About the source documents</summary><p><strong>{source.bytesVerified ? 'Current sources available' : 'Current sources unavailable'}</strong></p><p>{source.bytesVerified ? `${source.files} supplied files checked against the recorded edition. ${source.currentSourceQualified ? 'Website explanations reviewed against the supplied documents.' : 'Website explanations are drafts.'}` : `Source intake requires attention (${source.errorCode}). No historical document is used as a current substitute.`}</p></details> : <>
-      <span class="status-dot" aria-hidden="true"></span>
-      <div><strong>{source.bytesVerified ? 'Current sources available' : 'Current sources unavailable'}</strong>
-      <p>{source.bytesVerified ? `${source.files} supplied files checked against the recorded edition. ${source.currentSourceQualified ? 'Website explanations reviewed against the supplied documents.' : 'Website explanations are drafts.'}` : `Source intake requires attention (${source.errorCode}). No historical document is used as a current substitute.`}</p></div>
-      </>}
+      <details><summary>About the source documents</summary><p><strong>{source.bytesVerified ? 'Current sources available' : 'Current sources unavailable'}</strong></p><p>{source.bytesVerified ? `${source.files} supplied files checked against the recorded edition. ${source.currentSourceQualified ? 'Website explanations reviewed against the supplied documents.' : 'Website explanations are drafts.'}` : `Source intake requires attention (${source.errorCode}). No historical document is used as a current substitute.`}</p></details>
     </aside>
     <footer class="site-footer shell" data-publication-footer set:html={renderFooter(config.basePath)} />
   </body>

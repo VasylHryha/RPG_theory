@@ -8,8 +8,8 @@ const selection=activePublication();
 const { references,entries } = selection;
 const html=renderReferences(references,entries,activeConfig().basePath);
 ---
-<ReadingLayout title="Literature and sources" description="References transcribed from the selected current source records, with their review limits." route="/references/">
-  <article class="article shell"><header><p class="eyebrow">Source registry · Private draft</p><h1>Literature and sources</h1><p class="article-lede">These identities are transcribed from the current sources. A listed reference is not a scientific approval.</p></header>
+<ReadingLayout title="Literature and sources" description="Current-edition and supplementary reading-map sources, with their specific support and recorded inspection limits." route="/references/">
+  <article class="article shell"><header><p class="eyebrow">Literature and reading map</p><h1>Literature and sources</h1><p class="article-lede">Literature cited by the current RRG edition and supplementary reading-map sources. A paper may support a local mechanism, offer a method or act as a comparator; inclusion does not mean it proves RRG.</p></header>
     <div class="prose" data-bibliography set:html={html} />
     <div data-source-backlinks set:html={renderSourceBacklinks(selection,activeConfig().basePath)} />
   </article>

@@ -20,7 +20,7 @@ const diagram=isHistorical(entry)?'':renderBeginnerDiagram(entry.id);
 const earlyDiagram=entry.id==='DOC-EXAMPLE-STRING';
 ---
 <ReadingLayout title={entry.title} description={entry.description} route={entry.route} math={requiresMathStyles(html + details)}>
-  <article class="article shell" id="print-reading"><header><p class="eyebrow">{entry.id} · Revision {entry.revision}</p><h1>{entry.title}</h1><p class="article-lede">{entry.description}</p></header>
+  <article class="article shell" id="print-reading"><header><p class="eyebrow">{isHistorical(entry)?'Historical reading':'Current research draft'} · Revision {entry.revision}</p><h1>{entry.title}</h1><p class="article-lede">{entry.description}</p></header>
   <RecordStatus entry={entry} corpus={corpus} />
   {guide && <div data-technical-guide={entry.id} set:html={guide} />}
   {earlyDiagram && <Fragment set:html={diagram} />}

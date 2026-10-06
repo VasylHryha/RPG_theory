@@ -4,14 +4,14 @@
   "route": "/start/",
   "title": "Start with the idea",
   "description": "From a familiar pattern to the question of persistent and further organization.",
-  "revision": 6,
+  "revision": 7,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
     "R-CURRENT-CATALOGUE",
     "R-CURRENT-CORE",
@@ -48,7 +48,7 @@
   "plainLanguage": "",
   "scope": "Complete beginner introduction to the source framework; illustrations and stronger open extensions remain distinct.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion. Core §§1–11; world §§2–10 and background addendum; framework §§1–3, 7–8, 11, 15, 21–24; current evidence catalogue E18–E19 and its scope conventions; current audit/status and claim coverage H06, H12–H13, O1–O4, O7. Water is a supplementary illustration, not a source-reported RRG result.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion. Core \u00a7\u00a71\u201311; world \u00a7\u00a72\u201310 and background addendum; framework \u00a7\u00a71\u20133, 7\u20138, 11, 15, 21\u201324; current evidence catalogue E18\u2013E19 and its scope conventions; current audit/status and claim coverage H06, H12\u2013H13, O1\u2013O4, O7. Water is a supplementary illustration, not a source-reported RRG result.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -58,7 +58,7 @@
 
 Imagine a ripple crossing a quiet patch of water. You can follow its crest with your eyes, even though the water moves locally as the disturbance passes. The pattern and the parts carrying it are different descriptions of the same event. This familiar observation is a useful place to begin, without requiring equations. The [water example](/examples/water/) explains the distinction and links to its physics source.
 
-Unity Theory asks a broader question: **how do arrangement and activity support an organized whole, and how can that whole make further organization possible?** Its working framework is called Recursive Resonant Geometry, or RRG. The examples help us understand the question. Establishing a general principle that makes useful predictions is the research still to do.
+Recursive Resonant Geometry (**RRG**) asks: **how do arrangement and activity support an organized whole, and how can that whole make further organization possible?** The examples help us understand the question. Establishing a general principle that makes useful predictions is the research still to do.
 
 ## Arrangement changes what can happen
 
@@ -87,6 +87,12 @@ A [star](/examples/star/) creates temperature and pressure conditions in which n
 [Life changing its environment](/examples/life-environment/) brings the idea closer to home. Oxygen-producing organisms alter their surroundings, changing conditions for other organisms and reactions. Those consequences depend on resources, chemical processes and history. There is no purpose-driven guarantee that every change creates a more complex next stage.
 
 The source framework treats the broader question of environmental possibilities as an extension compatible with its core. A useful explanation must keep that status visible alongside the positive idea.
+
+## Keep the organizing question in view
+
+**Parts + relationships + activity → a persistent whole → a useful unit or changed conditions → possible further organization.**
+
+Each step needs a mechanism and suitable conditions. Making a whole useful in a larger description and physically changing its surroundings are related possibilities, not the same operation. Replication can help some systems; it is not required by the definition.
 
 ## Which interactions become possible?
 
