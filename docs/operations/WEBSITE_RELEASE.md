@@ -1,6 +1,6 @@
 # Website release and recovery
 
-This is an operator procedure for plan M7, not a second milestone tracker or release authorization. The sole tracker is `docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md`. The owner-authorized 75-page first test edition is live at https://vasylhryha.github.io/RPG_theory/; see R4 §0.56 and `docs/evidence/first-public-release/receipt.md`. Earlier private acceptance remains scoped to its tested inputs.
+This is an operator procedure for plan M7, not a second milestone tracker or release authorization. The sole tracker is `docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md`. The owner-authorized 75-page first test edition was deployed at R4 §0.56; §0.58 corrects the homepage and RRG name/contact/address to https://vasylhryha.github.io/RRG/. See `docs/evidence/homepage-clarity/receipt.md` for the current operation and preserved `docs/evidence/first-public-release/receipt.md` for the predecessor. Earlier acceptance remains scoped to its tested inputs.
 
 ## Before a public run
 
@@ -11,9 +11,10 @@ Set the authorized target in the shared `config/site.json`, publication credit/r
 ## Qualify and publish the selected commit
 
 Routine pushes and manual `verify` use `npm run verify:ci`: Astro diagnostics, root/actual-target builds
-and output audits, and six Chromium journeys per base selected by `@routine`.
+and output audits, and seven Chromium journeys per base selected by `@routine`.
 These cover search, ZIP/RSS, rights/contact/citation, mobile axe/reflow,
-math fonts/keyboard scrolling and 404/base-path behavior. CI has a ten-minute job
+math fonts/keyboard scrolling, 404/base-path behavior and the concise homepage's
+no-JS/optional-source/mobile accessibility journey. CI has a ten-minute job
 limit; five minutes is the target, not a measured guarantee. The full content
 regressions, legacy URL fixture, full browser suite and M6 campaign remain in
 `npm run verify`, selected explicitly with operation `qualify` for monthly maintenance.

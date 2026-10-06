@@ -16,7 +16,7 @@ test('M4 library, article and citation journeys work without JavaScript, with re
  const [download]=await Promise.all([page.waitForEvent('download'),page.getByRole('link',{name:info.mode==='preview'?'Private preview publication ZIP':'Selected publication ZIP',exact:true}).click()]);
  const dest=`${evidence}/${suffix}-download.zip`;await download.saveAs(dest);const raw=readFileSync(dest);expect(raw.equals(a.files.get(a.zipPath)!)).toBe(true);const members=verifyArchive(raw);expect(members.size).toBe(a.members.size);
  const rss=await page.request.get(base+'rss.xml');expect(rss.status()).toBe(200);expect(await rss.text()).toBe(rssXML(s,info.config));
- const parsed=await page.evaluate(xml=>{const doc=new DOMParser().parseFromString(xml,'application/xml');return {errors:doc.querySelectorAll('parsererror').length,items:doc.querySelectorAll('item').length,title:doc.querySelector('channel > title')?.textContent};},await rss.text());expect(parsed).toEqual({errors:0,items:s.manifest.feedIds.length,title:'Unity Theory / RRG'});
+ const parsed=await page.evaluate(xml=>{const doc=new DOMParser().parseFromString(xml,'application/xml');return {errors:doc.querySelectorAll('parsererror').length,items:doc.querySelectorAll('item').length,title:doc.querySelector('channel > title')?.textContent};},await rss.text());expect(parsed).toEqual({errors:0,items:s.manifest.feedIds.length,title:'Recursive Resonant Geometry (RRG)'});
  writeFileSync(`${evidence}/${suffix}-download-check.json`,JSON.stringify({status:'PASS',members:members.size,zipBytes:raw.length,rss:parsed,sourceCommit:a.identity.sourceCommit,workspaceDirty:a.identity.workspaceDirty},null,2));
  await context.close();
 });
