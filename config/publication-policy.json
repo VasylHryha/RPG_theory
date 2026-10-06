@@ -9,7 +9,7 @@
     "evidenceRef": "docs/evidence/rrg-theory-address/owner-direction.md"
   },
   "publicContentApproval": {
-    "evidenceRef": "docs/evidence/github-pages-rebind/first-release/owner-decisions.md"
+    "evidenceRef": "docs/evidence/fidelity-v03/owner-authorization.md"
   },
   "privacyApproval": {
     "evidenceRef": "docs/evidence/first-public-release/privacy-review.md"
@@ -18,7 +18,7 @@
     "evidenceRef": "docs/evidence/github-pages-rebind/first-release/acceptance/rights-privacy-review.md"
   },
   "qualification": {
-    "evidenceRef": "docs/evidence/first-public-release/qualification.md"
+    "evidenceRef": "docs/evidence/fidelity-v03/recheck/qualification.md"
   },
   "repositoryFiles": [
     ".github/ISSUE_TEMPLATE/scientific-correction.yml",
@@ -67,8 +67,10 @@
     "src/lib/build-identity.ts",
     "src/lib/content-schema.ts",
     "src/lib/content.ts",
+    "src/lib/contents.ts",
     "src/lib/directives.ts",
     "src/lib/errors.ts",
+    "src/lib/home.ts",
     "src/lib/identity.ts",
     "src/lib/library.ts",
     "src/lib/live-release.ts",
@@ -96,6 +98,8 @@
     "src/pages/about.astro",
     "src/pages/articles.astro",
     "src/pages/cite.astro",
+    "src/pages/contact.astro",
+    "src/pages/contents.astro",
     "src/pages/downloads/[...asset].ts",
     "src/pages/fixtures/[fixture].astro",
     "src/pages/index.astro",

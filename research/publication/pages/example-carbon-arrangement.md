@@ -4,7 +4,7 @@
   "route": "/examples/carbon-arrangement/",
   "title": "Same atoms, different arrangement",
   "description": "Carbon shows why knowing the ingredients is only part of knowing what a whole will do.",
-  "revision": 1,
+  "revision": 2,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -35,7 +35,7 @@
   "scope": "Source-mapped illustration of variation through arrangement, with supplementary diamond–graphite background and no quantitative RRG prediction.",
   "evidenceState": "not-applicable",
   "adapter": "markdown/1",
-  "rightsRef": null,
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033",
   "related": [
     "DOC-EXAMPLE-MOLECULE",
     "DOC-EXAMPLE-FIRST-STRUCTURES"

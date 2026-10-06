@@ -995,3 +995,26 @@ the generated list sits above. Reworded.
   bases (Claude); 108 Contents readings.
 - **Next:** fidelity re-review against v0.3 (separate Codex reviewer session)
   → merge to `main` → publish workflow → live checks.
+
+## 18. Fidelity re-review against v0.3 — accepted (7 Oct 2026)
+
+- **Process:** an independent Codex reviewer session → one recheck → Claude
+  spot-check acceptance.
+- **Result:** 80 current readings accepted (69 unchanged, 11 repaired then
+  accepted); 0 rejected, 0 pending. The 21 archived entries stay excluded.
+  `currentSourceQualified=true`.
+- **Repairs:**
+  - outdated v0.2.1 context on 4 technical readings;
+  - bundle-parity disclosures (5);
+  - the O9 open question added to Open problems;
+  - "owner" removed from public text;
+  - claim-map heading H01–H28;
+  - Cite status;
+  - the policy list includes the home renderer.
+- **Release selection:** `site-2026.10.06-v03`, 80 readings, existing rights
+  terms; the prior selection is preserved.
+- **Claude checks:**
+  - spot-checked individual findings (home, start, glossary, background);
+  - smoke e2e 7/7 on both qualification builds.
+- **Next:** merge to `main`, push, routine CI, manual publish workflow, then
+  live checks.

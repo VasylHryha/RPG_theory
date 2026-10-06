@@ -4,7 +4,7 @@
   "route": "/examples/brain/",
   "title": "Brain: wiring and activity shape each other",
   "description": "A brain’s connections constrain activity, while activity and learning change those connections.",
-  "revision": 1,
+  "revision": 2,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -34,7 +34,7 @@
   "scope": "Source-mapped illustration of neural wiring/activity feedback and an intuitive trajectory reading, without a consciousness claim.",
   "evidenceState": "not-applicable",
   "adapter": "markdown/1",
-  "rightsRef": null,
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033",
   "related": [
     "DOC-EXAMPLE-CELL",
     "DOC-EXAMPLE-LIFE",

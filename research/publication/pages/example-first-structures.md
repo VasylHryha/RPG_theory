@@ -4,7 +4,7 @@
   "route": "/examples/first-structures/",
   "title": "First lasting structures: from quantum activity to atoms",
   "description": "Cooling makes lasting particles, light nuclei and atoms available for the first steps of chemistry.",
-  "revision": 1,
+  "revision": 2,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -37,7 +37,7 @@
   "scope": "Source-mapped illustration of early lasting building blocks, separating cosmological history from the proposed RRG formation pattern.",
   "evidenceState": "not-applicable",
   "adapter": "markdown/1",
-  "rightsRef": null,
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033",
   "related": [
     "DOC-CONCEPT-GEOMETRY",
     "DOC-CONCEPT-STABILITY",

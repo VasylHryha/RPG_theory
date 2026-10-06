@@ -4,7 +4,7 @@
   "route": "/evidence/source-links/",
   "title": "Sources, local labels and limited connections",
   "description": "Document-qualified labels, useful physical connections and their stated limits.",
-  "revision": 7,
+  "revision": 9,
   "kind": "research-status",
   "lang": "en",
   "audience": "technical",
@@ -47,7 +47,7 @@ The H connections below are **proposed editorial links to parts of the claims in
 - [Current experimental and mathematical cases](#current-case-connections) — findings, supplied conditions and specific gaps.
 - [Membrane feedback, biofilms and staged assemblies](#recovered-predecessor-papers) — useful supplementary studies with their own settings.
 - [Environmental feedback and effective interactions](#environmental-feedback-and-effective-interactions) — the pH example and distinct interaction contexts.
-- [A claim-to-source reading path](#reverse-reading-map-for-08-h01h23) — trace the narrower connections and missing stronger results.
+- [A claim-to-source reading path](#reverse-reading-map-for-08-h01h28) — trace the narrower connections and missing stronger results.
 - [Resolve a source-local label](#document-and-edition-qualified-labels) — use the source document and edition to distinguish matching labels.
 
 ## Current case connections
@@ -438,7 +438,7 @@ The original Bardeen–Cooper–Schrieffer **theory** provides a conditional pho
 
 Spin ice provides distinct theoretical quasiparticle context (:cite[BIB-0017]), bulk-material measurement (:cite[BIB-0018]) and artificial-kagome observation (:cite[BIB-0019]). These platforms and their evidence types remain separate; they do not derive all fundamental interactions. CERN's background-state explanations (:cite[BIB-0020], :cite[BIB-0021]) concern spectra and interaction regimes, rather than the identical mechanism as material-mediated attraction.
 
-## Reverse reading map for 08 H01–H23
+## Reverse reading map for 08 H01–H28
 
 These are navigation suggestions. Unfilled stronger results stay unfilled; analogy and method context do not fill empirical gaps. All H labels in this table belong to **08_claim_coverage.md in RRG v0.3**. All unqualified E labels in this table belong to **06_evidence_catalog.md retained unchanged in RRG v0.3**. He, Fu, Weng, DNA, Godino, Prindle, Liu and Pecora refer to the recovered papers above.
 
@@ -578,6 +578,6 @@ The catalogue's F01 is orientation, F02 is optional effective-Hamiltonian theory
 
 The copied package validator and package_validation.json describe the **original audited bundle**. They do not certify this adapted CURRENT directory. Its archive paths and foundation baselines refer to original-package members absent here; the old script is preserved and has not been rerun or relabelled as a fresh pass. The website's current-source, content, output and download checks concern the actual selected repository corpus. Its publication ZIP is a partial website mirror, not the complete original bundle.
 
-Code-formatted `archive/` paths in 04, 05, 06 and foundation errata retain their original meaning. Those files are unavailable on this website and are excluded from its ZIP. The owner-supplied original bundle has been captured and compared privately: its ten audited scientific files match this edition and its inner checks pass. Its original outer checksum list has an invalid self-entry, preserved without alteration; independent off-machine backup remains unverified. [Documents](/documents/) gives the original bundle identity. The predecessor repository readings are separate history, not substitutes for original-bundle members excluded from this website.
+Code-formatted `archive/` paths in 04, 05, 06 and foundation errata retain their original meaning. Those files are unavailable on this website and are excluded from its ZIP. The supplied original v0.2.1 bundle has been captured and compared privately: its audited companion documents, source registry and foundation snapshots match the preserved v0.2.1 predecessor, and its inner package checks pass. The current v0.3 edition adds author clarifications; it does not claim current byte identity with that bundle or a new evidence audit. Its original outer checksum list has an invalid self-entry, preserved without alteration; independent off-machine backup remains unverified. [Documents](/documents/) gives the original bundle identity. The predecessor repository readings are separate history, not substitutes for original-bundle members excluded from this website.
 
 Current 02 §23 preserves candidate-model obligations, including same-family closure and automatic promotion. These are optional model-specific research tasks. Read them with [08 H23 and open claims](/research-status/claims/) and [04 §40's publication direction](/framework/recursive-background/). They do not reinstate a universal-proof prerequisite for sharing the hypothesis.

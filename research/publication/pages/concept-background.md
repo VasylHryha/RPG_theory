@@ -4,7 +4,7 @@
   "route": "/concepts/background/",
   "title": "Background and new possibilities",
   "description": "Lasting structures change the conditions in which other structures can form, opening some possibilities and closing others.",
-  "revision": 1,
+  "revision": 2,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
@@ -38,7 +38,7 @@
   "scope": "Source-mapped explanation of the core-compatible background extension and physical change distinct from descriptive reduction.",
   "evidenceState": "not-applicable",
   "adapter": "markdown/1",
-  "rightsRef": null,
+  "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033",
   "related": [
     "DOC-EXAMPLE-LIFE",
     "DOC-CONCEPT-INTERACTIONS",
