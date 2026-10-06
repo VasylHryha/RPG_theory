@@ -1,0 +1,253 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-BACKGROUND",
+  "fingerprint": "af5eb360605bd54b1b36806eb9aa48a096eb13665bca4d42c920715e14cb7e5c",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the entire new concept against README, 01 §§7–7.1 and the changing-valleys addendum, 04 §§2–4/11–13 and core §11. Background includes inherited activity/material/constraints; valleys describe accessibility rather than pre-existing finished objects or guaranteed growth. Physical stellar change is distinguished from descriptive reduction, the environmental role remains a core-compatible extension, and supplementary stellar/reaction-network sources are not presented as a completed RRG chain. Recheck of DOC-CONCEPT-BACKGROUND: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "af5eb360605bd54b1b36806eb9aa48a096eb13665bca4d42c920715e14cb7e5c",
+    "ownRead": {
+      "id": "DOC-CONCEPT-BACKGROUND",
+      "route": "/concepts/background/",
+      "title": "Background and new possibilities",
+      "description": "Lasting structures change the conditions in which other structures can form, opening some possibilities and closing others.",
+      "revision": 2,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-GUIDE",
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD",
+        "R-CURRENT-BACKGROUND"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-CONCEPT-RECURSION",
+        "DOC-CORE",
+        "DOC-EXAMPLE-STAR",
+        "DOC-GLOSSARY",
+        "DOC-WORLD"
+      ],
+      "related": [
+        "DOC-EXAMPLE-LIFE",
+        "DOC-CONCEPT-INTERACTIONS",
+        "DOC-ARTICLE-STRUCTURES"
+      ],
+      "bibRefs": [
+        "BIB-0014",
+        "BIB-0044"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Source-mapped explanation of the core-compatible background extension and physical change distinct from descriptive reduction.",
+      "evidenceState": "not-applicable",
+      "body": "## A star changes what can happen\n\nGas gathers into a star. Its heat and pressure allow nuclear reactions that were unavailable in the earlier setting. The star changes the conditions for what can form next. [See the star example](/examples/star/).\n\nRRG calls the surrounding activity and conditions a [background](/glossary/#background). It includes available material, energy exchange, boundaries and interactions, as well as activity too detailed to follow individually. At the proposed beginning, it is fluctuating activity without a lasting organizing rhythm standing out. At later levels, it already contains structures and their history.\n\n## From background to structure to changed background\n\nIn RRG’s proposal, temporary arrangements appear within that setting. An arrangement whose shape and activity support each other can last as a [resonator](/glossary/#resonator). It then becomes part of the conditions experienced by other things.\n\nThe shorthand is **Bₙ → Rₙ → Bₙ₊₁**. B means background; R means resonator; n marks the level being considered. Read it as the current setting, a lasting organization, then the setting inherited by the next step. Earlier structures and their activity continue underneath.\n\nA lasting thing may become a [building block](/glossary/#building-block) in a larger whole. Separately, it may create [changed surroundings](/glossary/#changed-surroundings). This page follows the second role. Changing conditions can make similar things more likely, or make new things possible or impossible.\n\n## A landscape of valleys\n\nPicture a landscape whose valleys represent possible lasting combinations of shape and activity. The surroundings determine which valleys exist, how deep they are and which paths can reach them. A path represents a route by which an organization could form.\n\nWhen conditions change, a previously unreachable valley may become accessible. Another may disappear. This is why the question is what can form and last under the conditions now available. The next structure need not already exist as a finished object. Opening one route can close another.\n\n## Changing the world and changing our description\n\nA star physically changes temperature, pressure and composition. Those effects occur whether anyone describes them.\n\nWe can also describe a complicated system using fewer details, treating a lasting whole as one useful unit. That changes our description. It does not itself create a new physical structure. A proposed next-level object must actually form and persist; giving it a simpler description is insufficient.\n\n## Status and further reading\n\nThe locked core calls background and possibility-space change an **extension compatible with the core**. It is outside the minimal definition. The effect depends on interactions, energy and available material; another level is possible, not inevitable.\n\n[Read the full background argument](/framework/recursive-background/). [NASA’s first-stars overview](/references/#BIB-0014) provides stellar context; the [stellar reaction-network study](/references/#BIB-0044) is related theory, not a demonstration of the whole RRG cycle.\n",
+      "sourceMapping": "RRG v0.3 README §The name states the rules: inherited material, constraints and unresolved activity; 01 §§7–7.1: stellar conditions and environmental enabling separate from building blocks; v0.1b Addendum — The Universe Changes Which Possibilities Are Reachable: valleys, changed accessibility and local stellar conditions. 04 §2: B_n → R_n → B_{n+1}; §§3–4: fluctuating activity and persistent structures changing background; §11: physical change versus change of description; §§12–13: repetition and accessible possibilities gaining or losing organizations. Unchanged core §11: core-compatible extension, not minimal definition. BIB-0014 provides stellar background; BIB-0044 is related reaction-network theory only, with no new finding or independent verification claimed.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CONCEPT-RECURSION",
+        "semanticDigest": "1a1f4577435ee5f2a87402e94e66065d52ecb94e6cf1ec349e41ffd6eb78c955"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "4174465de8b6e9c80edaf11c7c201cd4e716539e0fcda022ebc064cf7b18d4c3"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STAR",
+        "semanticDigest": "6079dc9eb32536aa945a714619743897128b55bd71fbfcd8ed82e492a51c1d33"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "75917455798224b8367606473bba07229683ea5de9d79ac7b2e9e67adb44a815"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "f257c0b8f0e527bf228749288ee7584276207d744e826429354c9c56b955c5c1"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "b9e65f8cc4081520ec7741108a78e72d930b711619fde6b39aeda125d9b11b91"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "8f366db7224259268d872c14f69c5130b9f640fc9a635e11059c62e954f52057"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "77c75f8464c7f03f65dd1911562d46ce07a414fc3601884071b42fa18af6fbe5"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "8158a1694b1c72fb3552578e71b9cdb5ad2f6bae350d57e206009c43eebaf1f7"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "2fc0544d4bf00f07e1eeade0824330e46ef73ba68528bbcaf9e6bf3bd26f4252"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "057ba2b8414f5f1f45fa0e49fd2a9b67895538447892c74d340142b1ca0de605"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "d622a6fea6153f23603e84a41ef0457ab2c87c839e27a64add5fd7ae03a89b9c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-GUIDE",
+        "path": "research/RRG_CURRENT/README.md",
+        "sha256": "9c7b8f940b33570ed7307f04fdc24ed5cc40d183aa8e07334766bd47d94f809d"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "65929e4811c2ba1888683dc3225bf16077a54cfea9e8f9b69fb7ed060d7af400"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "261968bf95d2181d06663fb6d4dc6dbcddd752fee2383bd113c86f25be712a4e",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "018097056074754c2b60b66fe077d36075dc167e81f25ab7638e922adc88a619",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the entire new concept against README, 01 §§7–7.1 and the changing-valleys addendum, 04 §§2–4/11–13 and core §11. Background includes inherited activity/material/constraints; valleys describe accessibility rather than pre-existing finished objects or guaranteed growth. Physical stellar change is distinguished from descriptive reduction, the environmental role remains a core-compatible extension, and supplementary stellar/reaction-network sources are not presented as a completed RRG chain. Terminology compared with RRG v0.3 README §The name states the rules: inherited material, constraints and unresolved activity; 01 §§7–7.1: stellar conditions and environmental enabling separate from building blocks; v0.1b Addendum — The Universe Changes Which Possibilities Are Reachable: valleys, changed accessibility and local stellar conditions. 04 §2: B_n → R_n → B_{n+1}; §§3–4: fluctuating activity and persistent structures changing background; §11: physical change versus change of description; §§12–13: repetition and accessible possibilities gaining or losing organizations. Unchanged core §11: core-compatible extension, not minimal definition. BIB-0014 provides stellar background; BIB-0044 is related reaction-network theory only, with no new finding or independent verification claimed. Recheck of DOC-CONCEPT-BACKGROUND: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the entire new concept against README, 01 §§7–7.1 and the changing-valleys addendum, 04 §§2–4/11–13 and core §11. Background includes inherited activity/material/constraints; valleys describe accessibility rather than pre-existing finished objects or guaranteed growth. Physical stellar change is distinguished from descriptive reduction, the environmental role remains a core-compatible extension, and supplementary stellar/reaction-network sources are not presented as a completed RRG chain. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-CONCEPT-BACKGROUND: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the entire new concept against README, 01 §§7–7.1 and the changing-valleys addendum, 04 §§2–4/11–13 and core §11. Background includes inherited activity/material/constraints; valleys describe accessibility rather than pre-existing finished objects or guaranteed growth. Physical stellar change is distinguished from descriptive reduction, the environmental role remains a core-compatible extension, and supplementary stellar/reaction-network sources are not presented as a completed RRG chain. Supplied conditions and model scope retained: Source-mapped explanation of the core-compatible background extension and physical change distinct from descriptive reduction.   Recheck of DOC-CONCEPT-BACKGROUND: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the entire new concept against README, 01 §§7–7.1 and the changing-valleys addendum, 04 §§2–4/11–13 and core §11. Background includes inherited activity/material/constraints; valleys describe accessibility rather than pre-existing finished objects or guaranteed growth. Physical stellar change is distinguished from descriptive reduction, the environmental role remains a core-compatible extension, and supplementary stellar/reaction-network sources are not presented as a completed RRG chain. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-CONCEPT-BACKGROUND: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the entire new concept against README, 01 §§7–7.1 and the changing-valleys addendum, 04 §§2–4/11–13 and core §11. Background includes inherited activity/material/constraints; valleys describe accessibility rather than pre-existing finished objects or guaranteed growth. Physical stellar change is distinguished from descriptive reduction, the environmental role remains a core-compatible extension, and supplementary stellar/reaction-network sources are not presented as a completed RRG chain. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-CONCEPT-BACKGROUND: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the entire new concept against README, 01 §§7–7.1 and the changing-valleys addendum, 04 §§2–4/11–13 and core §11. Background includes inherited activity/material/constraints; valleys describe accessibility rather than pre-existing finished objects or guaranteed growth. Physical stellar change is distinguished from descriptive reduction, the environmental role remains a core-compatible extension, and supplementary stellar/reaction-network sources are not presented as a completed RRG chain. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-CONCEPT-BACKGROUND: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the entire new concept against README, 01 §§7–7.1 and the changing-valleys addendum, 04 §§2–4/11–13 and core §11. Background includes inherited activity/material/constraints; valleys describe accessibility rather than pre-existing finished objects or guaranteed growth. Physical stellar change is distinguished from descriptive reduction, the environmental role remains a core-compatible extension, and supplementary stellar/reaction-network sources are not presented as a completed RRG chain. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0014, BIB-0044. Recheck of DOC-CONCEPT-BACKGROUND: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the entire new concept against README, 01 §§7–7.1 and the changing-valleys addendum, 04 §§2–4/11–13 and core §11. Background includes inherited activity/material/constraints; valleys describe accessibility rather than pre-existing finished objects or guaranteed growth. Physical stellar change is distinguished from descriptive reduction, the environmental role remains a core-compatible extension, and supplementary stellar/reaction-network sources are not presented as a completed RRG chain. Verified RRG v0.3 README §The name states the rules: inherited material, constraints and unresolved activity; 01 §§7–7.1: stellar conditions and environmental enabling separate from building blocks; v0.1b Addendum — The Universe Changes Which Possibilities Are Reachable: valleys, changed accessibility and local stellar conditions. 04 §2: B_n → R_n → B_{n+1}; §§3–4: fluctuating activity and persistent structures changing background; §11: physical change versus change of description; §§12–13: repetition and accessible possibilities gaining or losing organizations. Unchanged core §11: core-compatible extension, not minimal definition. BIB-0014 provides stellar background; BIB-0044 is related reaction-network theory only, with no new finding or independent verification claimed.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-CONCEPT-BACKGROUND: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

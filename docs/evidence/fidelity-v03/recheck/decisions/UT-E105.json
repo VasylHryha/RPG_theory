@@ -1,0 +1,95 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E105",
+  "fingerprint": "3a58845d31a55df5ab5019ab5c924820c95d9f08f66e9cf5e71fbdb1a8a0207e",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read this individual source-bound card and its scoped metadata against current 06 E05 and the corresponding sources.json record. Turing patterns remain stationary spatial states in supplied chemistry, gel/diffusion and reagent conditions; deterministic instability is not automatically noise-induced order or temporal self-maintenance. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Recheck of UT-E105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "3a58845d31a55df5ab5019ab5c924820c95d9f08f66e9cf5e71fbdb1a8a0207e",
+    "ownRead": {
+      "id": "UT-E105",
+      "route": "/claims/UT-E105/",
+      "title": "Stationary Turing patterns",
+      "description": "A chemically supplied reaction–diffusion experiment produces stationary patterned states from a uniform regime.",
+      "revision": 2,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [
+        "BIB-0070"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "sourceSha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc",
+        "startLine": 122,
+        "endLine": 135,
+        "excerptSha256": "1ed4549b01c18caa7f7a2c4bac56c7ac1d49eb14b5502c551a0fdb61b6291f37"
+      },
+      "statement": "## E05 — Transition from a uniform state to hexagonal and striped Turing patterns\n\n**experiment · component / comparator · claims C0.**\n\n**Reported result:** A chemically supplied reaction–diffusion experiment produces stationary patterned states from a uniform regime.\n\n**Already supplied:** Specific reactions, diffusion, gel geometry and reagent supply are provided.\n\n**Limit of the RRG connection:** A stationary spatial mode is not automatically a temporal oscillation or a self-maintaining resonator. Uniform-state instability is not identical to noise-induced ordering.\n\n**Source:** Ouyang & Swinney (1991), *Nature 352, 610–612*. [DOI: 10.1038/352610a0](https://doi.org/10.1038/352610a0).\n\n**Verification coverage:** Publisher abstract and bibliographic record. Checked 2026-10-02.\n\n",
+      "plainLanguage": "",
+      "scope": "experiment; component / comparator; source-reported C0.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "v0.2.1:E05 → UT-E105; source-local ID retains its edition; predecessor UT-E IDs are historical.",
+      "adapter": "rrg-evidence-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "A stationary spatial mode is not automatically a temporal oscillation or a self-maintaining resonator. Uniform-state instability is not identical to noise-induced ordering.",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "883ffca7833986de560e9cb3716f602ee72f59dcd802b5afb290127e4810f5f1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "883ffca7833986de560e9cb3716f602ee72f59dcd802b5afb290127e4810f5f1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read this individual source-bound card and its scoped metadata against current 06 E05 and the corresponding sources.json record. Turing patterns remain stationary spatial states in supplied chemistry, gel/diffusion and reagent conditions; deterministic instability is not automatically noise-induced order or temporal self-maintenance. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Terminology compared with v0.2.1:E05 → UT-E105; source-local ID retains its edition; predecessor UT-E IDs are historical. Recheck of UT-E105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read this individual source-bound card and its scoped metadata against current 06 E05 and the corresponding sources.json record. Turing patterns remain stationary spatial states in supplied chemistry, gel/diffusion and reagent conditions; deterministic instability is not automatically noise-induced order or temporal self-maintenance. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-E105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read this individual source-bound card and its scoped metadata against current 06 E05 and the corresponding sources.json record. Turing patterns remain stationary spatial states in supplied chemistry, gel/diffusion and reagent conditions; deterministic instability is not automatically noise-induced order or temporal self-maintenance. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Supplied conditions and model scope retained: experiment; component / comparator; source-reported C0. A stationary spatial mode is not automatically a temporal oscillation or a self-maintaining resonator. Uniform-state instability is not identical to noise-induced ordering.  Recheck of UT-E105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read this individual source-bound card and its scoped metadata against current 06 E05 and the corresponding sources.json record. Turing patterns remain stationary spatial states in supplied chemistry, gel/diffusion and reagent conditions; deterministic instability is not automatically noise-induced order or temporal self-maintenance. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-E105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read this individual source-bound card and its scoped metadata against current 06 E05 and the corresponding sources.json record. Turing patterns remain stationary spatial states in supplied chemistry, gel/diffusion and reagent conditions; deterministic instability is not automatically noise-induced order or temporal self-maintenance. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-E105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read this individual source-bound card and its scoped metadata against current 06 E05 and the corresponding sources.json record. Turing patterns remain stationary spatial states in supplied chemistry, gel/diffusion and reagent conditions; deterministic instability is not automatically noise-induced order or temporal self-maintenance. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-E105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read this individual source-bound card and its scoped metadata against current 06 E05 and the corresponding sources.json record. Turing patterns remain stationary spatial states in supplied chemistry, gel/diffusion and reagent conditions; deterministic instability is not automatically noise-induced order or temporal self-maintenance. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0070. Recheck of UT-E105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read this individual source-bound card and its scoped metadata against current 06 E05 and the corresponding sources.json record. Turing patterns remain stationary spatial states in supplied chemistry, gel/diffusion and reagent conditions; deterministic instability is not automatically noise-induced order or temporal self-maintenance. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Verified v0.2.1:E05 → UT-E105; source-local ID retains its edition; predecessor UT-E IDs are historical.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-E105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

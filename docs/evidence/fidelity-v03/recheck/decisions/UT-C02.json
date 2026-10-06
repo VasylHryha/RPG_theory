@@ -1,0 +1,150 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-C02",
+  "fingerprint": "170b50d6ac7816da6cc6530089ed90c98d2184bf5f0b01a09a59096e4de9d7bd",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read core §11 and the individual environmental-feedback explanation against 01 §7.1, 04 §11 and 08 O1. Only edition/source-fingerprint context changed; the own meaning remains unaffected and the mapped section still classifies background accessibility as a compatible extension. Controlled-culture acidity is a bounded example, not repeated construction, origin of life or a universal complexity increase. Recheck of UT-C02: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "170b50d6ac7816da6cc6530089ed90c98d2184bf5f0b01a09a59096e4de9d7bd",
+    "ownRead": {
+      "id": "UT-C02",
+      "route": "/claims/UT-C02/",
+      "title": "Background and possibility-space extension",
+      "description": "An open downstream extension, distinct from the minimal locked definitions.",
+      "revision": 6,
+      "kind": "conjecture",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-BACKGROUND"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "UT-D03",
+        "UT-D05",
+        "UT-D07"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0089"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 138,
+        "endLine": 140,
+        "excerptSha256": "69de818aad3845247d950f3f58629c917dd67d3a14689d3c7ea28fc6d38a5a48"
+      },
+      "statement": "## 11. Background / possibility-space status\n\nThe idea that global cosmological/environmental conditions change which resonant geometries are accessible is an **extension compatible with the core**, not part of the minimal definition.\n",
+      "plainLanguage": "Can an existing organization change which later organizations its surroundings support? [Bacterial changes to acidity](/references/#BIB-0089) make one environmental effect concrete. The source's broader extension asks how such effects connect across stages, including the origin of units. This remains a research proposal beyond the minimal definitions.",
+      "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+      "evidenceState": "proposed",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §11",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "Environmental feedback in a specified system does not establish repeated physical construction or a universal increase in complexity. The proposed background recursion is an extension beyond the minimal core.",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "8158a1694b1c72fb3552578e71b9cdb5ad2f6bae350d57e206009c43eebaf1f7"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+        "plainLanguageSha256": "a887ecec50f7132ab69dce85982efabbdbb2153a358cfa85b7af3b344c051271",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "fcb5872861a5138efda47d69a12c29cf16900006740fdc9d8bc263866b85e4d5",
+        "plainLanguageSha256": "d909561a586b19e7687c91fbfaa128964cf1178f3557b74f76f5e23e1f05ef4f",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read core §11 and the individual environmental-feedback explanation against 01 §7.1, 04 §11 and 08 O1. Only edition/source-fingerprint context changed; the own meaning remains unaffected and the mapped section still classifies background accessibility as a compatible extension. Controlled-culture acidity is a bounded example, not repeated construction, origin of life or a universal complexity increase. Terminology compared with 00_LOCKED_CORE.md §11 Recheck of UT-C02: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read core §11 and the individual environmental-feedback explanation against 01 §7.1, 04 §11 and 08 O1. Only edition/source-fingerprint context changed; the own meaning remains unaffected and the mapped section still classifies background accessibility as a compatible extension. Controlled-culture acidity is a bounded example, not repeated construction, origin of life or a universal complexity increase. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-C02: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read core §11 and the individual environmental-feedback explanation against 01 §7.1, 04 §11 and 08 O1. Only edition/source-fingerprint context changed; the own meaning remains unaffected and the mapped section still classifies background accessibility as a compatible extension. Controlled-culture acidity is a bounded example, not repeated construction, origin of life or a universal complexity increase. Supplied conditions and model scope retained: An open downstream extension, distinct from the minimal locked definitions. Environmental feedback in a specified system does not establish repeated physical construction or a universal increase in complexity. The proposed background recursion is an extension beyond the minimal core.  Recheck of UT-C02: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read core §11 and the individual environmental-feedback explanation against 01 §7.1, 04 §11 and 08 O1. Only edition/source-fingerprint context changed; the own meaning remains unaffected and the mapped section still classifies background accessibility as a compatible extension. Controlled-culture acidity is a bounded example, not repeated construction, origin of life or a universal complexity increase. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-C02: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read core §11 and the individual environmental-feedback explanation against 01 §7.1, 04 §11 and 08 O1. Only edition/source-fingerprint context changed; the own meaning remains unaffected and the mapped section still classifies background accessibility as a compatible extension. Controlled-culture acidity is a bounded example, not repeated construction, origin of life or a universal complexity increase. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-C02: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read core §11 and the individual environmental-feedback explanation against 01 §7.1, 04 §11 and 08 O1. Only edition/source-fingerprint context changed; the own meaning remains unaffected and the mapped section still classifies background accessibility as a compatible extension. Controlled-culture acidity is a bounded example, not repeated construction, origin of life or a universal complexity increase. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-C02: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read core §11 and the individual environmental-feedback explanation against 01 §7.1, 04 §11 and 08 O1. Only edition/source-fingerprint context changed; the own meaning remains unaffected and the mapped section still classifies background accessibility as a compatible extension. Controlled-culture acidity is a bounded example, not repeated construction, origin of life or a universal complexity increase. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0089. Recheck of UT-C02: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read core §11 and the individual environmental-feedback explanation against 01 §7.1, 04 §11 and 08 O1. Only edition/source-fingerprint context changed; the own meaning remains unaffected and the mapped section still classifies background accessibility as a compatible extension. Controlled-culture acidity is a bounded example, not repeated construction, origin of life or a universal complexity increase. Verified 00_LOCKED_CORE.md §11; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-C02: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

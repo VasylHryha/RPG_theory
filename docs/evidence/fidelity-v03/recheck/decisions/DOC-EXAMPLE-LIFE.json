@@ -1,0 +1,204 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-LIFE",
+  "fingerprint": "e46a60412ede3941c8a007b58d782cd1b8b578741d6370429e9fc675639a2ea4",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared controlled bacterial pH feedback with the retained BIB-0089 support and 01 §§7.1/9–10.1/15.1, 04 §§4/13–14 and 08 H06/H09/H13/H17/H27. Facilitation, inhibition and harmful outcomes remain possible under supplied culture conditions; photosynthesis and atmospheric context stay supplementary and oxygen production is not equated with inevitable accumulation. The page explicitly distinguishes feedback from measured resonance, a new species, origin of life and a full repeated chain, without adding an uncited Great Oxidation case. Recheck of DOC-EXAMPLE-LIFE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "e46a60412ede3941c8a007b58d782cd1b8b578741d6370429e9fc675639a2ea4",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-LIFE",
+      "route": "/examples/life-environment/",
+      "title": "Life changes its environment",
+      "description": "Bacteria change acidity, and those changed conditions can help or hinder another population.",
+      "revision": 10,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-GLOSSARY",
+        "DOC-SOURCE-LINKS",
+        "DOC-WORLD",
+        "UT-C02",
+        "UT-D01",
+        "UT-D02"
+      ],
+      "related": [
+        "DOC-EXAMPLE-BRAIN",
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [
+        "BIB-0062",
+        "BIB-0064",
+        "BIB-0089"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nTwo bacterial populations live in a supplied liquid culture. Their growth depends on its acidity, measured as pH. As one population changes that acidity, it can make conditions more favourable—or less favourable—for another.\n\nRatzke and Gore report facilitation, inhibition and harmful outcomes through this feedback, using controlled cultures and a qualitative model. The organisms change the chemical surroundings, and those surroundings affect growth. Both directions matter: the population influences its setting and experiences the result.\n\nOxygen-producing photosynthesis is another existing illustration. It converts light energy into chemical energy and releases oxygen; plants, algae and cyanobacteria participate. Oxygen production alone does not guarantee atmospheric accumulation. Consumption, exchanges, resources and history also matter.\n\n## How RRG reads it\n\nRRG asks what an existing organization makes possible next. Here [changed surroundings](/glossary/#changed-surroundings) are physical: the liquid’s chemistry changes. This differs from simply choosing to describe several organisms as one object.\n\nThe **Recursive** rule follows the possible next step: a lasting system alters conditions, and those conditions change which further organizations can persist. The culture result supplies a local biological connection to that proposal.\n\n## What you can see here\n\nThe clearest outward role is **changed surroundings**. A change can help another population or harm it. More organization is not the inevitable outcome.\n\nFavourable conditions can support growth, but growth alone does not establish RRG’s full [spreading](/glossary/#spreading) hypothesis across scales. The culture example also does not measure physical [resonance](/glossary/#resonance) or a new collective [resonator](/glossary/#resonator). The [cell example](/examples/cell/) follows internal maintenance and the separate [building-block](/glossary/#building-block) role; neither role automatically establishes the other.\n\n## Where the interpretation stops\n\nThe experiment begins with existing organisms and supplied conditions. It observes neither a new species nor the origin of life. Environmental feedback is the finding; reading it as part of one universal recursive pattern is RRG’s interpretation. A full repeated chain remains an [open question](/claims/UT-C02/).\n\n## Evidence and sources\n\n[The pH study](/references/#BIB-0089) supplies the culture results. [OpenStax’s photosynthesis overview](/references/#BIB-0062) explains the process, and [NASA’s oxygen-history report](/references/#BIB-0064) provides atmospheric context. The [source connections](/evidence/source-links/) place these bounded relationships beside the broader proposal.\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3 01 §§7.1, 9–10.1, 15–15.1: changed surroundings separate from building blocks, conditional spreading, life and reachable feedback tests. Current 04 §§4, 13–14, 21 and 08 H06/H09/H13/H17/H27: physical environmental enabling and its limits; unchanged core §11 extension. BIB-0089 retains controlled-culture pH/growth feedback and qualitative model; BIB-0062/0064 retains supplementary photosynthesis and atmospheric context without adding an oxygen-history case or new catalogue evidence.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "f161128c55ffb647acc8f4161509ecaa55f2c77d37f0af1709990910bc8796d4"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "77c75f8464c7f03f65dd1911562d46ce07a414fc3601884071b42fa18af6fbe5"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "8158a1694b1c72fb3552578e71b9cdb5ad2f6bae350d57e206009c43eebaf1f7"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "3383a6127f8cafd100ea77d7b88c0530643e57e1203e23ac79153e93b29cadda",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e9ed51e56cce2e0cba817b064f563651b95ec8081734ed941fdf5da5073fa881",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared controlled bacterial pH feedback with the retained BIB-0089 support and 01 §§7.1/9–10.1/15.1, 04 §§4/13–14 and 08 H06/H09/H13/H17/H27. Facilitation, inhibition and harmful outcomes remain possible under supplied culture conditions; photosynthesis and atmospheric context stay supplementary and oxygen production is not equated with inevitable accumulation. The page explicitly distinguishes feedback from measured resonance, a new species, origin of life and a full repeated chain, without adding an uncited Great Oxidation case. Terminology compared with RRG v0.3 01 §§7.1, 9–10.1, 15–15.1: changed surroundings separate from building blocks, conditional spreading, life and reachable feedback tests. Current 04 §§4, 13–14, 21 and 08 H06/H09/H13/H17/H27: physical environmental enabling and its limits; unchanged core §11 extension. BIB-0089 retains controlled-culture pH/growth feedback and qualitative model; BIB-0062/0064 retains supplementary photosynthesis and atmospheric context without adding an oxygen-history case or new catalogue evidence. Recheck of DOC-EXAMPLE-LIFE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Compared controlled bacterial pH feedback with the retained BIB-0089 support and 01 §§7.1/9–10.1/15.1, 04 §§4/13–14 and 08 H06/H09/H13/H17/H27. Facilitation, inhibition and harmful outcomes remain possible under supplied culture conditions; photosynthesis and atmospheric context stay supplementary and oxygen production is not equated with inevitable accumulation. The page explicitly distinguishes feedback from measured resonance, a new species, origin of life and a full repeated chain, without adding an uncited Great Oxidation case. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-EXAMPLE-LIFE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Compared controlled bacterial pH feedback with the retained BIB-0089 support and 01 §§7.1/9–10.1/15.1, 04 §§4/13–14 and 08 H06/H09/H13/H17/H27. Facilitation, inhibition and harmful outcomes remain possible under supplied culture conditions; photosynthesis and atmospheric context stay supplementary and oxygen production is not equated with inevitable accumulation. The page explicitly distinguishes feedback from measured resonance, a new species, origin of life and a full repeated chain, without adding an uncited Great Oxidation case. Supplied conditions and model scope retained: An illustrative beginner explanation mapped to the original supplied RRG documents.   Recheck of DOC-EXAMPLE-LIFE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Compared controlled bacterial pH feedback with the retained BIB-0089 support and 01 §§7.1/9–10.1/15.1, 04 §§4/13–14 and 08 H06/H09/H13/H17/H27. Facilitation, inhibition and harmful outcomes remain possible under supplied culture conditions; photosynthesis and atmospheric context stay supplementary and oxygen production is not equated with inevitable accumulation. The page explicitly distinguishes feedback from measured resonance, a new species, origin of life and a full repeated chain, without adding an uncited Great Oxidation case. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-EXAMPLE-LIFE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Compared controlled bacterial pH feedback with the retained BIB-0089 support and 01 §§7.1/9–10.1/15.1, 04 §§4/13–14 and 08 H06/H09/H13/H17/H27. Facilitation, inhibition and harmful outcomes remain possible under supplied culture conditions; photosynthesis and atmospheric context stay supplementary and oxygen production is not equated with inevitable accumulation. The page explicitly distinguishes feedback from measured resonance, a new species, origin of life and a full repeated chain, without adding an uncited Great Oxidation case. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-EXAMPLE-LIFE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Compared controlled bacterial pH feedback with the retained BIB-0089 support and 01 §§7.1/9–10.1/15.1, 04 §§4/13–14 and 08 H06/H09/H13/H17/H27. Facilitation, inhibition and harmful outcomes remain possible under supplied culture conditions; photosynthesis and atmospheric context stay supplementary and oxygen production is not equated with inevitable accumulation. The page explicitly distinguishes feedback from measured resonance, a new species, origin of life and a full repeated chain, without adding an uncited Great Oxidation case. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-EXAMPLE-LIFE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Compared controlled bacterial pH feedback with the retained BIB-0089 support and 01 §§7.1/9–10.1/15.1, 04 §§4/13–14 and 08 H06/H09/H13/H17/H27. Facilitation, inhibition and harmful outcomes remain possible under supplied culture conditions; photosynthesis and atmospheric context stay supplementary and oxygen production is not equated with inevitable accumulation. The page explicitly distinguishes feedback from measured resonance, a new species, origin of life and a full repeated chain, without adding an uncited Great Oxidation case. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0062, BIB-0064, BIB-0089. Recheck of DOC-EXAMPLE-LIFE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Compared controlled bacterial pH feedback with the retained BIB-0089 support and 01 §§7.1/9–10.1/15.1, 04 §§4/13–14 and 08 H06/H09/H13/H17/H27. Facilitation, inhibition and harmful outcomes remain possible under supplied culture conditions; photosynthesis and atmospheric context stay supplementary and oxygen production is not equated with inevitable accumulation. The page explicitly distinguishes feedback from measured resonance, a new species, origin of life and a full repeated chain, without adding an uncited Great Oxidation case. Verified RRG v0.3 01 §§7.1, 9–10.1, 15–15.1: changed surroundings separate from building blocks, conditional spreading, life and reachable feedback tests. Current 04 §§4, 13–14, 21 and 08 H06/H09/H13/H17/H27: physical environmental enabling and its limits; unchanged core §11 extension. BIB-0089 retains controlled-culture pH/growth feedback and qualitative model; BIB-0062/0064 retains supplementary photosynthesis and atmospheric context without adding an oxygen-history case or new catalogue evidence.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-EXAMPLE-LIFE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

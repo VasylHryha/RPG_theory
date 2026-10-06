@@ -1,0 +1,179 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-MOLECULE",
+  "fingerprint": "fd41a4106bff7138a20b1bed66c30f47b72fa958b8d19e338fb03e360ab4bc5d",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the authored molecular account with 01 §§4–7.2, framework §6 and core §§1–3/5–8. Collective vibrations, restricted bond geometry and electron reorganization retain active lower-level parts and require quantum chemistry, rather than classical solar-system atoms or geometry alone. Intact-unit usefulness is conditional on the question and dissociation; the NGC 7027 detection is not direct primordial formation, and no complete recursive ladder is claimed. Recheck of DOC-EXAMPLE-MOLECULE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "fd41a4106bff7138a20b1bed66c30f47b72fa958b8d19e338fb03e360ab4bc5d",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-MOLECULE",
+      "route": "/examples/molecule/",
+      "title": "Molecule: the whole constrains its parts",
+      "description": "Atoms keep their internal activity while bonds give a molecule constraints and motion of its own.",
+      "revision": 12,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D01",
+        "UT-D02",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [
+        "DOC-EXAMPLE-FIRST-STRUCTURES",
+        "DOC-EXAMPLE-CARBON-ARRANGEMENT"
+      ],
+      "bibRefs": [
+        "BIB-0013",
+        "BIB-0065",
+        "BIB-0091"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nAtoms form a molecule, but an inventory of atoms does not yet describe it. We also need to know which atoms are bonded, how they are arranged and how they move together.\n\nBonds restrict distances and angles. Electron states reorganize, and the molecule has collective vibrations, rotation and deformation. The atoms retain internal activity while participating in the whole.\n\n## How RRG reads it\n\nRRG calls the arrangement and constraints [geometry](/glossary/#geometry-shape). The whole’s organized activity belongs to its [mode structure](/glossary/#mode). Parts help form the whole, and the whole constrains its parts.\n\n**Resonant** concerns the organized activity; **Geometry** concerns the arrangement that supports it. Where they hold together, RRG reads the whole as a [resonator](/glossary/#resonator). Its [inner resonance](/glossary/#inner-resonance) means compatible internal activity, rather than an extra force holding the atoms.\n\n## What you can see here\n\nThe main outward role is [building block](/glossary/#building-block). An intact molecule can participate as one unit in a larger chemical arrangement while its internal structure remains active. That opens the **Recursive** question: can a lasting whole become a part of another lasting whole?\n\nTreating the molecule as one unit is useful while unresolved internal details do not change the answer to the question being asked. If it breaks apart, the intact-unit description no longer fits. This role is separate from physically changing the surroundings; a simpler description alone creates no new material organization.\n\n## Where the interpretation stops\n\nMolecular bonding needs quantum chemistry, its interaction laws, energy and conditions. Atoms are not tiny classical solar systems. The shared RRG description identifies an organizational relationship; it does not replace the mechanisms of bonding or demonstrate an entire repeated ladder.\n\n## Evidence and sources\n\n[OpenStax’s molecular-structure explanation](/references/#BIB-0065) supplies the chemical background. The [helium hydride paper](/references/#BIB-0091) reports detection in planetary nebula NGC 7027; [NASA’s SOFIA introduction](/references/#BIB-0013) gives broader context. That detection is not a direct observation of the first molecule forming in the early universe.\n\n[Read when a whole can be one useful unit](/articles/when-can-a-whole-be-treated-as-one-useful-unit/).\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3 01 §§4–6: collective modes, arrangement and molecular constraints; §§6.1–7.2: forces/fit, building-block role and inherited conditions; §15: quantum/classical boundary. Unchanged core §§1–3, 5–8 and retained framework §6 supplies geometry, activity, active parts and useful units. BIB-0065: molecular structure; BIB-0091: helium hydride observation in NGC 7027; BIB-0013: SOFIA context, not a direct observation of primordial formation.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "2fc0544d4bf00f07e1eeade0824330e46ef73ba68528bbcaf9e6bf3bd26f4252"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "dc6929fec14b56c74266a6c197da1b72cd7502f4d39ccad2d709dc24ad6bc00c",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "a8a68c4f3f0944a5c906852d3519e23db36c8ebad1ce14c43a7dc66e9e87fe8c",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the authored molecular account with 01 §§4–7.2, framework §6 and core §§1–3/5–8. Collective vibrations, restricted bond geometry and electron reorganization retain active lower-level parts and require quantum chemistry, rather than classical solar-system atoms or geometry alone. Intact-unit usefulness is conditional on the question and dissociation; the NGC 7027 detection is not direct primordial formation, and no complete recursive ladder is claimed. Terminology compared with RRG v0.3 01 §§4–6: collective modes, arrangement and molecular constraints; §§6.1–7.2: forces/fit, building-block role and inherited conditions; §15: quantum/classical boundary. Unchanged core §§1–3, 5–8 and retained framework §6 supplies geometry, activity, active parts and useful units. BIB-0065: molecular structure; BIB-0091: helium hydride observation in NGC 7027; BIB-0013: SOFIA context, not a direct observation of primordial formation. Recheck of DOC-EXAMPLE-MOLECULE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Compared the authored molecular account with 01 §§4–7.2, framework §6 and core §§1–3/5–8. Collective vibrations, restricted bond geometry and electron reorganization retain active lower-level parts and require quantum chemistry, rather than classical solar-system atoms or geometry alone. Intact-unit usefulness is conditional on the question and dissociation; the NGC 7027 detection is not direct primordial formation, and no complete recursive ladder is claimed. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-EXAMPLE-MOLECULE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Compared the authored molecular account with 01 §§4–7.2, framework §6 and core §§1–3/5–8. Collective vibrations, restricted bond geometry and electron reorganization retain active lower-level parts and require quantum chemistry, rather than classical solar-system atoms or geometry alone. Intact-unit usefulness is conditional on the question and dissociation; the NGC 7027 detection is not direct primordial formation, and no complete recursive ladder is claimed. Supplied conditions and model scope retained: An illustrative beginner explanation mapped to the original supplied RRG documents.   Recheck of DOC-EXAMPLE-MOLECULE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Compared the authored molecular account with 01 §§4–7.2, framework §6 and core §§1–3/5–8. Collective vibrations, restricted bond geometry and electron reorganization retain active lower-level parts and require quantum chemistry, rather than classical solar-system atoms or geometry alone. Intact-unit usefulness is conditional on the question and dissociation; the NGC 7027 detection is not direct primordial formation, and no complete recursive ladder is claimed. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-EXAMPLE-MOLECULE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Compared the authored molecular account with 01 §§4–7.2, framework §6 and core §§1–3/5–8. Collective vibrations, restricted bond geometry and electron reorganization retain active lower-level parts and require quantum chemistry, rather than classical solar-system atoms or geometry alone. Intact-unit usefulness is conditional on the question and dissociation; the NGC 7027 detection is not direct primordial formation, and no complete recursive ladder is claimed. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-EXAMPLE-MOLECULE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Compared the authored molecular account with 01 §§4–7.2, framework §6 and core §§1–3/5–8. Collective vibrations, restricted bond geometry and electron reorganization retain active lower-level parts and require quantum chemistry, rather than classical solar-system atoms or geometry alone. Intact-unit usefulness is conditional on the question and dissociation; the NGC 7027 detection is not direct primordial formation, and no complete recursive ladder is claimed. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-EXAMPLE-MOLECULE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Compared the authored molecular account with 01 §§4–7.2, framework §6 and core §§1–3/5–8. Collective vibrations, restricted bond geometry and electron reorganization retain active lower-level parts and require quantum chemistry, rather than classical solar-system atoms or geometry alone. Intact-unit usefulness is conditional on the question and dissociation; the NGC 7027 detection is not direct primordial formation, and no complete recursive ladder is claimed. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0013, BIB-0065, BIB-0091. Recheck of DOC-EXAMPLE-MOLECULE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Compared the authored molecular account with 01 §§4–7.2, framework §6 and core §§1–3/5–8. Collective vibrations, restricted bond geometry and electron reorganization retain active lower-level parts and require quantum chemistry, rather than classical solar-system atoms or geometry alone. Intact-unit usefulness is conditional on the question and dissociation; the NGC 7027 detection is not direct primordial formation, and no complete recursive ladder is claimed. Verified RRG v0.3 01 §§4–6: collective modes, arrangement and molecular constraints; §§6.1–7.2: forces/fit, building-block role and inherited conditions; §15: quantum/classical boundary. Unchanged core §§1–3, 5–8 and retained framework §6 supplies geometry, activity, active parts and useful units. BIB-0065: molecular structure; BIB-0091: helium hydride observation in NGC 7027; BIB-0013: SOFIA context, not a direct observation of primordial formation.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-EXAMPLE-MOLECULE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

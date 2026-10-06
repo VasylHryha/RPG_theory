@@ -1,0 +1,160 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-STRING",
+  "fingerprint": "cc40b856da5d3f2107c9b762c950f27ede057fb97a7562ad52d9082bfcd10469",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the ideal fixed-end standing-wave illustration with 01 §2, core §§1–4 and the recorded OpenStax parameter scope. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The supplied supports are explicitly not maintained by the wave in this example; outward roles and a recursive next level remain questions rather than measured results. Recheck of DOC-EXAMPLE-STRING: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "cc40b856da5d3f2107c9b762c950f27ede057fb97a7562ad52d9082bfcd10469",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-STRING",
+      "route": "/examples/string/",
+      "title": "String: boundaries shape motion",
+      "description": "A string’s boundaries constrain its waves; each supported wave has a moving shape.",
+      "revision": 9,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0061"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nA stretched string fixed at both ends can support standing waves. In the simplest pattern, one arch lies between the ends. Another pattern has two arches and a stationary point between them. The ends stay at rest in the ideal model while other regions move.\n\nLength and fixed ends constrain which patterns fit. Tension and mass per unit length set the wave speed. Both the arrangement and the physical properties matter. The drawing shows possible shapes at one instant, rather than a measured amplitude.\n\n## How RRG reads it\n\nThe string is a simple picture for two words in the name. **Resonant** points to [resonance](/glossary/#resonance), organized motion with a rhythm. **Geometry** points to [shape and constraints](/glossary/#geometry-shape): the supported motion has a spatial pattern, and the string’s boundaries restrict that pattern.\n\nIts [mode](/glossary/#mode) includes how different regions move together, rather than just one frequency. RRG asks a wider question: when can shape and activity support each other well enough for a whole to persist as a [resonator](/glossary/#resonator)?\n\n## What you can see here\n\nYou can see resonance and shape together. Change the string’s length or tension and its supported motions change; excite a supported wave and its moving shape becomes visible. This makes the relation easy to picture.\n\nThis is a **Basics** example: it introduces the shape–activity relationship. The next questions concern the two outward roles. Could the lasting whole become a [building block](/glossary/#building-block), or could its activity create [changed surroundings](/glossary/#changed-surroundings) that support related organization? Those steps need a further system to examine.\n\n## Where the interpretation stops\n\nThe fixed supports are supplied. The wave does not demonstrate that its motion maintains those supports. A model of that stronger feedback would need to show which activity preserves which constraint, and for how long. The physical string model also needs tension and material properties; naming geometry does not supply them.\n\n## Evidence and sources\n\n[OpenStax’s standing-wave model](/references/#BIB-0061) explains the ideal fixed-end string and its parameters. The [geometry and modes page](/concepts/geometry-and-modes/) develops the RRG terms, while the [molecule example](/examples/molecule/) follows a whole that can become a useful part.\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "3581d7116523ed1f14d348f5ab62ba04c4541a1a3f80c4a79babd47623ce63a1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "458247c742f4a95c3c39e67c02ee5d4db4744b2f71103ae944c14601108ac149",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the ideal fixed-end standing-wave illustration with 01 §2, core §§1–4 and the recorded OpenStax parameter scope. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The supplied supports are explicitly not maintained by the wave in this example; outward roles and a recursive next level remain questions rather than measured results. Terminology compared with RRG v0.3 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level. Recheck of DOC-EXAMPLE-STRING: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Compared the ideal fixed-end standing-wave illustration with 01 §2, core §§1–4 and the recorded OpenStax parameter scope. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The supplied supports are explicitly not maintained by the wave in this example; outward roles and a recursive next level remain questions rather than measured results. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-EXAMPLE-STRING: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Compared the ideal fixed-end standing-wave illustration with 01 §2, core §§1–4 and the recorded OpenStax parameter scope. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The supplied supports are explicitly not maintained by the wave in this example; outward roles and a recursive next level remain questions rather than measured results. Supplied conditions and model scope retained: An illustrative beginner explanation mapped to the original supplied RRG documents.   Recheck of DOC-EXAMPLE-STRING: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Compared the ideal fixed-end standing-wave illustration with 01 §2, core §§1–4 and the recorded OpenStax parameter scope. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The supplied supports are explicitly not maintained by the wave in this example; outward roles and a recursive next level remain questions rather than measured results. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-EXAMPLE-STRING: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Compared the ideal fixed-end standing-wave illustration with 01 §2, core §§1–4 and the recorded OpenStax parameter scope. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The supplied supports are explicitly not maintained by the wave in this example; outward roles and a recursive next level remain questions rather than measured results. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-EXAMPLE-STRING: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Compared the ideal fixed-end standing-wave illustration with 01 §2, core §§1–4 and the recorded OpenStax parameter scope. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The supplied supports are explicitly not maintained by the wave in this example; outward roles and a recursive next level remain questions rather than measured results. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-EXAMPLE-STRING: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Compared the ideal fixed-end standing-wave illustration with 01 §2, core §§1–4 and the recorded OpenStax parameter scope. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The supplied supports are explicitly not maintained by the wave in this example; outward roles and a recursive next level remain questions rather than measured results. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0061. Recheck of DOC-EXAMPLE-STRING: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Compared the ideal fixed-end standing-wave illustration with 01 §2, core §§1–4 and the recorded OpenStax parameter scope. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The supplied supports are explicitly not maintained by the wave in this example; outward roles and a recursive next level remain questions rather than measured results. Verified RRG v0.3 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-EXAMPLE-STRING: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

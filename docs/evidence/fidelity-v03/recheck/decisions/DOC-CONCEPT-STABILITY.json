@@ -1,0 +1,163 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-STABILITY",
+  "fingerprint": "6bc152122fb31f7fe3e0fc44e53f2d987f995cfd275aae988cb03a9b0f56b6fe",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the full explanation with core §4, 01 §§3–3.1 and framework §§2.4/13. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. Passive bound structures and actively maintained cells have distinct energy requirements, and the page neither promises permanence nor invents a universal lifetime threshold or stability theorem. Recheck of DOC-CONCEPT-STABILITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "6bc152122fb31f7fe3e0fc44e53f2d987f995cfd275aae988cb03a9b0f56b6fe",
+    "ownRead": {
+      "id": "DOC-CONCEPT-STABILITY",
+      "route": "/concepts/stability/",
+      "title": "Stability: what persists?",
+      "description": "Stability means lasting for a time; persistence, recovery and attraction ask different questions.",
+      "revision": 7,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D03",
+        "UT-D04"
+      ],
+      "related": [
+        "DOC-EXAMPLE-FIRST-STRUCTURES"
+      ],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## Lasting while things change\n\nA cell exchanges material and keeps working. A molecule retains an organization while its parts remain active. Both make [stability](/glossary/#stability) easier to picture: what lasts is an organization, rather than a motionless set of ingredients.\n\nRRG asks whether shape and activity support a lasting whole—a [resonator](/glossary/#resonator)—over the interval being considered. That interval may be short or long.\n\n## Energy and time\n\nA living cell needs ongoing resources and energy flow. A passively persistent bound structure can hold without continuous outside power. Each system needs an energetic state compatible with its organization; having energy available alone does not ensure that it lasts.\n\n[Read the energy-and-time explanation](/documents/world-explanation/#31-energy-and-time). RRG’s broad wording connects energy with activity, while a physical model still distinguishes motion, stored energy and energy transfer.\n\n## Three different measurements\n\nImagine disturbing a specified organized state. Does it remain within limits? Does it leave those limits and return? Do nearby states approach it?\n\n- **Persistence** measures whether the chosen organization remains within stated bounds over an interval.\n- **Recovery** measures whether it returns after a disturbance.\n- **Attraction** measures whether nearby states tend toward it.\n\nThese tests answer different questions. A state can persist over the observed interval without having been shown to recover. Choose the test, conditions and limits that match the physical system.\n\n## The precise definition\n\nThe locked core defines stability as self-consistent closure between [geometry](/glossary/#geometry-shape), the organization and constraints, and [mode structure](/glossary/#mode), its full activity and response:\n\n$$\nG\\leftrightarrow M.\n$$\n\nHere $G$ and $M$ name those two aspects of the same whole. Stability promises no permanence. A model supplies its own conditions and numerical limits; the definition alone gives no universal stability theorem.\n\nThe [stability definition](/claims/UT-D04/) also lists specialist measurements such as Lyapunov stability, decay width and metastability. Like lifetime and perturbation recovery, these test particular systems; they do not replace the core meaning.\n\nCompare the [cell example](/examples/cell/) with [recursion and scale](/concepts/recursion/), where a lasting whole becomes a useful part.\n",
+      "sourceMapping": "RRG v0.3 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "51dc7c3014072a11082ec2e760e85ddfcb4556d8f4c3b14fa609ced3b780caf0"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "fb13d98a62ed44ccf4871c047d77c66bdf47346071572a317910b7267f40b7f1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "7fcecd5fc8722de3046c2900718a8cc56e4aeaf9cebcb8c87c5ed369fe67d697",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the full explanation with core §4, 01 §§3–3.1 and framework §§2.4/13. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. Passive bound structures and actively maintained cells have distinct energy requirements, and the page neither promises permanence nor invents a universal lifetime threshold or stability theorem. Terminology compared with RRG v0.3 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition. Recheck of DOC-CONCEPT-STABILITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Compared the full explanation with core §4, 01 §§3–3.1 and framework §§2.4/13. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. Passive bound structures and actively maintained cells have distinct energy requirements, and the page neither promises permanence nor invents a universal lifetime threshold or stability theorem. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-CONCEPT-STABILITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Compared the full explanation with core §4, 01 §§3–3.1 and framework §§2.4/13. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. Passive bound structures and actively maintained cells have distinct energy requirements, and the page neither promises permanence nor invents a universal lifetime threshold or stability theorem. Supplied conditions and model scope retained: An illustrative beginner explanation mapped to the original supplied RRG documents.   Recheck of DOC-CONCEPT-STABILITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Compared the full explanation with core §4, 01 §§3–3.1 and framework §§2.4/13. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. Passive bound structures and actively maintained cells have distinct energy requirements, and the page neither promises permanence nor invents a universal lifetime threshold or stability theorem. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-CONCEPT-STABILITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Compared the full explanation with core §4, 01 §§3–3.1 and framework §§2.4/13. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. Passive bound structures and actively maintained cells have distinct energy requirements, and the page neither promises permanence nor invents a universal lifetime threshold or stability theorem. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-CONCEPT-STABILITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Compared the full explanation with core §4, 01 §§3–3.1 and framework §§2.4/13. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. Passive bound structures and actively maintained cells have distinct energy requirements, and the page neither promises permanence nor invents a universal lifetime threshold or stability theorem. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-CONCEPT-STABILITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Compared the full explanation with core §4, 01 §§3–3.1 and framework §§2.4/13. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. Passive bound structures and actively maintained cells have distinct energy requirements, and the page neither promises permanence nor invents a universal lifetime threshold or stability theorem. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of DOC-CONCEPT-STABILITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Compared the full explanation with core §4, 01 §§3–3.1 and framework §§2.4/13. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. Passive bound structures and actively maintained cells have distinct energy requirements, and the page neither promises permanence nor invents a universal lifetime threshold or stability theorem. Verified RRG v0.3 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-CONCEPT-STABILITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

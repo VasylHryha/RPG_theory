@@ -1,0 +1,119 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O101",
+  "fingerprint": "a19bb6b5458e856888677727e3824e8e8483f24852c34e209f7d9e949021b96f",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the individual exact excerpt and complete authored contribution passage against current 08 O1, with 04’s model/testing boundaries. The missing result is a connected physical sequence in one system, with supplied/observed/modelled stages separately identified; unrelated examples do not fill the gap. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Recheck of UT-O101: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "a19bb6b5458e856888677727e3824e8e8483f24852c34e209f7d9e949021b96f",
+    "ownRead": {
+      "id": "UT-O101",
+      "route": "/claims/UT-O101/",
+      "title": "Recursive physical construction",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 4,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861",
+        "startLine": 44,
+        "endLine": 44,
+        "excerptSha256": "968d20459a39ea673aacd1ef7ebabe324337ffddfae8d852a991edf91217d206"
+      },
+      "statement": "**O1 — Recursive physical construction.** One formed organization causes conditions for another distinct persistent organization, and this repeats. A useful contribution could document even two causally connected stages in one system. No such full universal chain is established by this catalogue.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "## Investigate one part\n\nThe missing link is a connected physical sequence, rather than similar examples drawn from different systems. A useful contribution would identify the supplied background, the formed unit, its effect on later conditions and a subsequent organization in the same system. Mark observed, modelled and assumed stages separately. Current companion §34 describes the staged investigation.\n\nBring a source passage, model, result or objection to [the contribution route](/about/#contribute). You can address this question without accepting the entire proposal. Read [all open questions](/open-problems/) for the surrounding programme.\n",
+      "sourceMapping": "v0.2.1 open claim O1; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "817f0701afcaf80c6c16e441630bedcf44ae8898659c5cc1d2c66f265c302827",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "f8bf441240045b730f60c38e23fe29f465e8d97f3e4ade7010389872b942aca0",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the individual exact excerpt and complete authored contribution passage against current 08 O1, with 04’s model/testing boundaries. The missing result is a connected physical sequence in one system, with supplied/observed/modelled stages separately identified; unrelated examples do not fill the gap. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Terminology compared with v0.2.1 open claim O1; predecessor UT-O IDs remain historical. Recheck of UT-O101: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the individual exact excerpt and complete authored contribution passage against current 08 O1, with 04’s model/testing boundaries. The missing result is a connected physical sequence in one system, with supplied/observed/modelled stages separately identified; unrelated examples do not fill the gap. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-O101: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O1, with 04’s model/testing boundaries. The missing result is a connected physical sequence in one system, with supplied/observed/modelled stages separately identified; unrelated examples do not fill the gap. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Supplied conditions and model scope retained: Source-reported open claim, not a demonstrated result or a required proof before publication.   Recheck of UT-O101: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the individual exact excerpt and complete authored contribution passage against current 08 O1, with 04’s model/testing boundaries. The missing result is a connected physical sequence in one system, with supplied/observed/modelled stages separately identified; unrelated examples do not fill the gap. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-O101: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O1, with 04’s model/testing boundaries. The missing result is a connected physical sequence in one system, with supplied/observed/modelled stages separately identified; unrelated examples do not fill the gap. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-O101: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O1, with 04’s model/testing boundaries. The missing result is a connected physical sequence in one system, with supplied/observed/modelled stages separately identified; unrelated examples do not fill the gap. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-O101: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the individual exact excerpt and complete authored contribution passage against current 08 O1, with 04’s model/testing boundaries. The missing result is a connected physical sequence in one system, with supplied/observed/modelled stages separately identified; unrelated examples do not fill the gap. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of UT-O101: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the individual exact excerpt and complete authored contribution passage against current 08 O1, with 04’s model/testing boundaries. The missing result is a connected physical sequence in one system, with supplied/observed/modelled stages separately identified; unrelated examples do not fill the gap. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Verified v0.2.1 open claim O1; predecessor UT-O IDs remain historical.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-O101: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

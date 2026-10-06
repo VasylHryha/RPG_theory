@@ -1,0 +1,99 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D03",
+  "fingerprint": "4cd31e79308df3ff7150e131f1bbc69180e5e34a0e7933e4b420a598ce545570",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §3. R=(G,M) and reciprocal G↔M remain intact, with organization and activity constraining/changing one another and neither universally first. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Recheck of UT-D03: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "4cd31e79308df3ff7150e131f1bbc69180e5e34a0e7933e4b420a598ce545570",
+    "ownRead": {
+      "id": "UT-D03",
+      "route": "/claims/UT-D03/",
+      "title": "Resonant geometry",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 3,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 26,
+        "endLine": 43,
+        "excerptSha256": "f2d2e7341394b76de1b27d5ff9af8e650ea0969306565ce1f3df52a96f5970a1"
+      },
+      "statement": "## 3. Resonant geometry \\(R\\)\n\nThe basic RRG object is:\n\n\\[\n\\boxed{R=(G,M)}.\n\\]\n\nGeometry and mode structure are inseparable aspects of one organized system:\n\n\\[\n\\boxed{G\\leftrightarrow M}.\n\\]\n\n- Geometry constrains/supports which modes can exist.\n- The active mode structure supports, maintains, transforms, or destroys the geometry.\n\nNeither side is defined as universally \"first\".\n",
+      "plainLanguage": "RRG considers organization and mode structure together. Each constrains or changes the other.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+        "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e4a36764feff9dae43267b8891f661a43d01451d2ba7b718a525a2fff988d3f6",
+        "plainLanguageSha256": "f562aa15d2b9a510520e96b126796c20a6218d9063343b0afd8dfe10484eb57f",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §3. R=(G,M) and reciprocal G↔M remain intact, with organization and activity constraining/changing one another and neither universally first. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Terminology compared with 00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID. Recheck of UT-D03: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §3. R=(G,M) and reciprocal G↔M remain intact, with organization and activity constraining/changing one another and neither universally first. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-D03: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §3. R=(G,M) and reciprocal G↔M remain intact, with organization and activity constraining/changing one another and neither universally first. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Supplied conditions and model scope retained: A locked RRG meaning; a definition is not an experimental finding.   Recheck of UT-D03: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §3. R=(G,M) and reciprocal G↔M remain intact, with organization and activity constraining/changing one another and neither universally first. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-D03: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §3. R=(G,M) and reciprocal G↔M remain intact, with organization and activity constraining/changing one another and neither universally first. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-D03: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §3. R=(G,M) and reciprocal G↔M remain intact, with organization and activity constraining/changing one another and neither universally first. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-D03: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §3. R=(G,M) and reciprocal G↔M remain intact, with organization and activity constraining/changing one another and neither universally first. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of UT-D03: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §3. R=(G,M) and reciprocal G↔M remain intact, with organization and activity constraining/changing one another and neither universally first. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Verified 00_LOCKED_CORE.md §3; new navigation ID, source has no UT ID.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-D03: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

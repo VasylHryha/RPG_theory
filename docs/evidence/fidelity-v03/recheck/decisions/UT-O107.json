@@ -1,0 +1,109 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O107",
+  "fingerprint": "8c8909352f20c7439f9aba9b0399ac39d4ec5fbd79428690ac8771b936032c39",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the individual exact excerpt and complete authored contribution passage against current 08 O7, with 04’s model/testing boundaries. The v0.3 excerpt adds H27’s separate survival/environment/spread/join observables without intent or a universal ranking; the authored chemical-to-biological investigation remains a narrower optional missing-transition task. The source statement changed in v0.3 and its new meaning is explicitly reflected here. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Recheck of UT-O107: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "8c8909352f20c7439f9aba9b0399ac39d4ec5fbd79428690ac8771b936032c39",
+    "ownRead": {
+      "id": "UT-O107",
+      "route": "/claims/UT-O107/",
+      "title": "Life and evolution",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 4,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [
+        "UT-E113",
+        "UT-E120"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861",
+        "startLine": 56,
+        "endLine": 56,
+        "excerptSha256": "3f28db3e4d86cf8c4b22a20c85596e5620c2fdba764defea35cdc2d59e1ae45c"
+      },
+      "statement": "**O7 — Life and evolution.** H27 makes success explicit as survival plus favourable environmental change, spread and possible joining (01 §10.1). These are separate observables, not a universal ranking or a claim that life intends domination. Chemical cooperative organization and nonliving pattern duplication supply informative analogies. Biological heredity, evolutionary dynamics and planetary environmental change are not reduced to one measured resonant mechanism here. The universal relation is a hypothesis about organizational form, not an assertion that all systems are living or intentional.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "## Investigate one part\n\nSeparate chemical persistence, multiplication and cooperation from heredity and open-ended biological evolution. The selected catalytic-network and driven granular cases report particular mechanisms; they do not establish the transition between all these roles. A contribution could investigate one missing transition in a specified chemical model or experiment.\n\nBring a source passage, model, result or objection to [the contribution route](/about/#contribute). You can address this question without accepting the entire proposal. Read [all open questions](/open-problems/) for the surrounding programme.\n",
+      "sourceMapping": "v0.2.1 open claim O7; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "d07b50c7d1a68cd1cad2d00ff6554a0e0ab0dc6a444e5e1faa225bb303fe5967"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "59e188574217a96685350acb7f2c2e9bb53e8408cdce69f6cf5294eeed62f27e"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "5bf62bac5848c161bdc56a2ad377bfb061a984085e08b8837fabb5c2d8913bca",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "16c1ed80012b12ac1328939f14077e3e89f074ef835bb189c9ac960f2c285a20",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the individual exact excerpt and complete authored contribution passage against current 08 O7, with 04’s model/testing boundaries. The v0.3 excerpt adds H27’s separate survival/environment/spread/join observables without intent or a universal ranking; the authored chemical-to-biological investigation remains a narrower optional missing-transition task. The source statement changed in v0.3 and its new meaning is explicitly reflected here. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Terminology compared with v0.2.1 open claim O7; predecessor UT-O IDs remain historical. Recheck of UT-O107: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the individual exact excerpt and complete authored contribution passage against current 08 O7, with 04’s model/testing boundaries. The v0.3 excerpt adds H27’s separate survival/environment/spread/join observables without intent or a universal ranking; the authored chemical-to-biological investigation remains a narrower optional missing-transition task. The source statement changed in v0.3 and its new meaning is explicitly reflected here. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-O107: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O7, with 04’s model/testing boundaries. The v0.3 excerpt adds H27’s separate survival/environment/spread/join observables without intent or a universal ranking; the authored chemical-to-biological investigation remains a narrower optional missing-transition task. The source statement changed in v0.3 and its new meaning is explicitly reflected here. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Supplied conditions and model scope retained: Source-reported open claim, not a demonstrated result or a required proof before publication.   Recheck of UT-O107: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the individual exact excerpt and complete authored contribution passage against current 08 O7, with 04’s model/testing boundaries. The v0.3 excerpt adds H27’s separate survival/environment/spread/join observables without intent or a universal ranking; the authored chemical-to-biological investigation remains a narrower optional missing-transition task. The source statement changed in v0.3 and its new meaning is explicitly reflected here. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-O107: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O7, with 04’s model/testing boundaries. The v0.3 excerpt adds H27’s separate survival/environment/spread/join observables without intent or a universal ranking; the authored chemical-to-biological investigation remains a narrower optional missing-transition task. The source statement changed in v0.3 and its new meaning is explicitly reflected here. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-O107: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O7, with 04’s model/testing boundaries. The v0.3 excerpt adds H27’s separate survival/environment/spread/join observables without intent or a universal ranking; the authored chemical-to-biological investigation remains a narrower optional missing-transition task. The source statement changed in v0.3 and its new meaning is explicitly reflected here. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-O107: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the individual exact excerpt and complete authored contribution passage against current 08 O7, with 04’s model/testing boundaries. The v0.3 excerpt adds H27’s separate survival/environment/spread/join observables without intent or a universal ranking; the authored chemical-to-biological investigation remains a narrower optional missing-transition task. The source statement changed in v0.3 and its new meaning is explicitly reflected here. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of UT-O107: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the individual exact excerpt and complete authored contribution passage against current 08 O7, with 04’s model/testing boundaries. The v0.3 excerpt adds H27’s separate survival/environment/spread/join observables without intent or a universal ranking; the authored chemical-to-biological investigation remains a narrower optional missing-transition task. The source statement changed in v0.3 and its new meaning is explicitly reflected here. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Verified v0.2.1 open claim O7; predecessor UT-O IDs remain historical.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-O107: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

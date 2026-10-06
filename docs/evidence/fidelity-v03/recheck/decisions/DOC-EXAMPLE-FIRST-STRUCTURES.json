@@ -1,0 +1,187 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-FIRST-STRUCTURES",
+  "fingerprint": "f47d562c37307fbda1376ea4ceac1417bdafa04af49d6b3e75acb1b321176c09",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the authored early-history account against the 01 Observable Ladder, §§1.1/4/7.1–7.3, 04 §§3–4 and core §§2–5/10. Quark confinement, light nuclei, neutral atoms and possible pre-stellar HeH+ are attributed to cosmological background, without asserting a relative neutral-atom/HeH+ chronology or measured primordial noise spectrum. The HeH+ observation is explicitly in NGC 7027, the RRG formation reading is a proposal, and force origins remain speculative; no uncited candidate shell or orbital example is imported. Recheck of DOC-EXAMPLE-FIRST-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "f47d562c37307fbda1376ea4ceac1417bdafa04af49d6b3e75acb1b321176c09",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-FIRST-STRUCTURES",
+      "route": "/examples/first-structures/",
+      "title": "First lasting structures: from quantum activity to atoms",
+      "description": "Cooling makes lasting particles, light nuclei and atoms available for the first steps of chemistry.",
+      "revision": 2,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-GUIDE",
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD",
+        "R-CURRENT-BACKGROUND"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-CORE",
+        "DOC-EXAMPLE-MOLECULE",
+        "DOC-GLOSSARY",
+        "DOC-WORLD"
+      ],
+      "related": [
+        "DOC-CONCEPT-GEOMETRY",
+        "DOC-CONCEPT-STABILITY",
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [
+        "BIB-0011",
+        "BIB-0091"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Source-mapped illustration of early lasting building blocks, separating cosmological history from the proposed RRG formation pattern.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nLong before ordinary atoms existed, the early universe contained a hot mixture of quarks and gluons, called a quark–gluon plasma. As it cooled, quarks became bound into particles such as protons and neutrons.\n\nProtons and neutrons became ingredients for light nuclei. Early nuclear reactions produced mostly hydrogen and helium nuclei, with traces of other light nuclei. Further cooling allowed neutral hydrogen and helium atoms to form. The early chemical story also includes helium hydride, HeH⁺, the first known type of molecule, which could form before the first stars.\n\nThere are now lasting pieces that can take part in later organization. The next step can use what already holds together.\n\n## How RRG reads it\n\nRRG proposes a common pattern beneath these transitions. In fluctuating activity, temporary shapes and rhythms appear by chance. Most vanish. Sometimes an arrangement and its activity keep each other going. RRG calls that lasting pair a [resonator](/glossary/#resonator).\n\n**Resonant** names the organized activity; **Geometry** names the arrangement that supports it. Rhythm and shape hold each other; neither comes first. Here “rhythm” includes quantum activity. A [mode](/glossary/#mode) describes activity, relationships and response, without requiring a visible beat.\n\n## What you can see here\n\nThe main outward role is [building block](/glossary/#building-block). Protons and neutrons participate in nuclei; atoms become available for chemistry. The lower pieces keep their internal activity when a larger whole forms.\n\nThis opens the **Recursive** question: can a lasting whole become a part of another lasting whole? Becoming a part and changing the surrounding conditions are separate roles. Neither guarantees that another level will form.\n\n## Where the interpretation stops\n\nRRG’s reading of particle formation is a proposal, not derived physics. Its noise picture supplies no measured account of the primordial activity. The established history needs its physical interactions and conditions. The idea that fundamental forces themselves arose through earlier levels is speculative; no sequence of force origins has been demonstrated here.\n\n## Evidence and sources\n\n[NASA’s universe overview](/references/#BIB-0011) provides the cosmological background. The [helium hydride paper](/references/#BIB-0091) reports detection in planetary nebula NGC 7027, rather than direct observation of primordial formation.\n\nNext, [see how a molecule constrains its parts](/examples/molecule/).\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3 README §The name states the rules; 01 §1.1: chance, fluctuating activity and mutually supporting shape/rhythm; §§4, 7.1–7.2: internally active building blocks and inherited conditions; §7.3: speculative force origins; v0.1a Addendum — The Observable Ladder of Increasing Organization, §A corrected cosmic-to-life sequence: quark–gluon plasma, confinement into hadrons, light nuclei, neutral atoms and HeH+ before stars. 04 §§3–4: transient configurations, persistence and changed background. Unchanged core §§2–5, 10: full modes, interval stability, formation and force limits. BIB-0011 is standard cosmological background; BIB-0091 reports detection in NGC 7027, not primordial formation. No exact timing or relative ordering of neutral-atom and HeH+ formation is asserted.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-MOLECULE",
+        "semanticDigest": "8089ae8123cb1722f95b00c1fa02d159727286977909bb72951c5db62efd3a3d"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "2fc0544d4bf00f07e1eeade0824330e46ef73ba68528bbcaf9e6bf3bd26f4252"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-GUIDE",
+        "path": "research/RRG_CURRENT/README.md",
+        "sha256": "9c7b8f940b33570ed7307f04fdc24ed5cc40d183aa8e07334766bd47d94f809d"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "a5100bcbf9467743f40e6c6460f352edf24abff476f329fe3200abe3d1adafc4",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "56587b8becd8a76c8fbd1db9fccb5994037dedf965ef34f3ce1b25c9596897c6",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the authored early-history account against the 01 Observable Ladder, §§1.1/4/7.1–7.3, 04 §§3–4 and core §§2–5/10. Quark confinement, light nuclei, neutral atoms and possible pre-stellar HeH+ are attributed to cosmological background, without asserting a relative neutral-atom/HeH+ chronology or measured primordial noise spectrum. The HeH+ observation is explicitly in NGC 7027, the RRG formation reading is a proposal, and force origins remain speculative; no uncited candidate shell or orbital example is imported. Terminology compared with RRG v0.3 README §The name states the rules; 01 §1.1: chance, fluctuating activity and mutually supporting shape/rhythm; §§4, 7.1–7.2: internally active building blocks and inherited conditions; §7.3: speculative force origins; v0.1a Addendum — The Observable Ladder of Increasing Organization, §A corrected cosmic-to-life sequence: quark–gluon plasma, confinement into hadrons, light nuclei, neutral atoms and HeH+ before stars. 04 §§3–4: transient configurations, persistence and changed background. Unchanged core §§2–5, 10: full modes, interval stability, formation and force limits. BIB-0011 is standard cosmological background; BIB-0091 reports detection in NGC 7027, not primordial formation. No exact timing or relative ordering of neutral-atom and HeH+ formation is asserted. Recheck of DOC-EXAMPLE-FIRST-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the authored early-history account against the 01 Observable Ladder, §§1.1/4/7.1–7.3, 04 §§3–4 and core §§2–5/10. Quark confinement, light nuclei, neutral atoms and possible pre-stellar HeH+ are attributed to cosmological background, without asserting a relative neutral-atom/HeH+ chronology or measured primordial noise spectrum. The HeH+ observation is explicitly in NGC 7027, the RRG formation reading is a proposal, and force origins remain speculative; no uncited candidate shell or orbital example is imported. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-EXAMPLE-FIRST-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the authored early-history account against the 01 Observable Ladder, §§1.1/4/7.1–7.3, 04 §§3–4 and core §§2–5/10. Quark confinement, light nuclei, neutral atoms and possible pre-stellar HeH+ are attributed to cosmological background, without asserting a relative neutral-atom/HeH+ chronology or measured primordial noise spectrum. The HeH+ observation is explicitly in NGC 7027, the RRG formation reading is a proposal, and force origins remain speculative; no uncited candidate shell or orbital example is imported. Supplied conditions and model scope retained: Source-mapped illustration of early lasting building blocks, separating cosmological history from the proposed RRG formation pattern.   Recheck of DOC-EXAMPLE-FIRST-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the authored early-history account against the 01 Observable Ladder, §§1.1/4/7.1–7.3, 04 §§3–4 and core §§2–5/10. Quark confinement, light nuclei, neutral atoms and possible pre-stellar HeH+ are attributed to cosmological background, without asserting a relative neutral-atom/HeH+ chronology or measured primordial noise spectrum. The HeH+ observation is explicitly in NGC 7027, the RRG formation reading is a proposal, and force origins remain speculative; no uncited candidate shell or orbital example is imported. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-EXAMPLE-FIRST-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the authored early-history account against the 01 Observable Ladder, §§1.1/4/7.1–7.3, 04 §§3–4 and core §§2–5/10. Quark confinement, light nuclei, neutral atoms and possible pre-stellar HeH+ are attributed to cosmological background, without asserting a relative neutral-atom/HeH+ chronology or measured primordial noise spectrum. The HeH+ observation is explicitly in NGC 7027, the RRG formation reading is a proposal, and force origins remain speculative; no uncited candidate shell or orbital example is imported. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-EXAMPLE-FIRST-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the authored early-history account against the 01 Observable Ladder, §§1.1/4/7.1–7.3, 04 §§3–4 and core §§2–5/10. Quark confinement, light nuclei, neutral atoms and possible pre-stellar HeH+ are attributed to cosmological background, without asserting a relative neutral-atom/HeH+ chronology or measured primordial noise spectrum. The HeH+ observation is explicitly in NGC 7027, the RRG formation reading is a proposal, and force origins remain speculative; no uncited candidate shell or orbital example is imported. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-EXAMPLE-FIRST-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the authored early-history account against the 01 Observable Ladder, §§1.1/4/7.1–7.3, 04 §§3–4 and core §§2–5/10. Quark confinement, light nuclei, neutral atoms and possible pre-stellar HeH+ are attributed to cosmological background, without asserting a relative neutral-atom/HeH+ chronology or measured primordial noise spectrum. The HeH+ observation is explicitly in NGC 7027, the RRG formation reading is a proposal, and force origins remain speculative; no uncited candidate shell or orbital example is imported. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0011, BIB-0091. Recheck of DOC-EXAMPLE-FIRST-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the authored early-history account against the 01 Observable Ladder, §§1.1/4/7.1–7.3, 04 §§3–4 and core §§2–5/10. Quark confinement, light nuclei, neutral atoms and possible pre-stellar HeH+ are attributed to cosmological background, without asserting a relative neutral-atom/HeH+ chronology or measured primordial noise spectrum. The HeH+ observation is explicitly in NGC 7027, the RRG formation reading is a proposal, and force origins remain speculative; no uncited candidate shell or orbital example is imported. Verified RRG v0.3 README §The name states the rules; 01 §1.1: chance, fluctuating activity and mutually supporting shape/rhythm; §§4, 7.1–7.2: internally active building blocks and inherited conditions; §7.3: speculative force origins; v0.1a Addendum — The Observable Ladder of Increasing Organization, §A corrected cosmic-to-life sequence: quark–gluon plasma, confinement into hadrons, light nuclei, neutral atoms and HeH+ before stars. 04 §§3–4: transient configurations, persistence and changed background. Unchanged core §§2–5, 10: full modes, interval stability, formation and force limits. BIB-0011 is standard cosmological background; BIB-0091 reports detection in NGC 7027, not primordial formation. No exact timing or relative ordering of neutral-atom and HeH+ formation is asserted.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-EXAMPLE-FIRST-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

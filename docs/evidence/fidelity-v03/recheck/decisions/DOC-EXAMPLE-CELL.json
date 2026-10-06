@@ -1,0 +1,219 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-CELL",
+  "fingerprint": "4dca9324a55e350c2604be8486a66a808260cb123fbf2feae7f47e7b3255f6ca",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the membrane/maintenance explanation against 01 §§3.1/6.1–7.1/9–10.1, framework §§8/13 and core §§1–9. Passive and active transport preserve their concentration/mechanism/energy distinctions, and maintenance requires resources and energy flow. This begins with an existing cell, separates internal maintenance, environmental effects and reproduction, and does not claim first life, a complete artificial cell or a new universal resonance mechanism. Recheck of DOC-EXAMPLE-CELL: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "4dca9324a55e350c2604be8486a66a808260cb123fbf2feae7f47e7b3255f6ca",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-CELL",
+      "route": "/examples/cell/",
+      "title": "Cell: organization through exchange",
+      "description": "A cell’s boundary regulates exchange, while ongoing processes help maintain its organization.",
+      "revision": 12,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-EXAMPLE-LIFE",
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D01",
+        "UT-D02",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08",
+        "UT-D09"
+      ],
+      "related": [
+        "DOC-EXAMPLE-BRAIN"
+      ],
+      "bibRefs": [
+        "BIB-0063",
+        "BIB-0092"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nA substance reaches a cell membrane. Whether and how it crosses depends on the substance and the transport mechanism. Some passage follows a concentration difference; transport against such a difference requires an appropriate mechanism and energy.\n\nThe membrane separates conditions inside from those outside and regulates exchange. Internal reactions and transport take place within that setting. Their activity helps maintain the conditions the cell needs as material enters, leaves and is replaced. A list of ingredients misses the boundary and this continuing work.\n\n## How RRG reads it\n\nThe boundary and internal relationships are part of the cell’s [geometry](/glossary/#geometry-shape). Its [mode structure](/glossary/#mode) includes coordinated processes and their timescales, rather than one vibration frequency. The arrangement constrains activity, and activity helps maintain the arrangement.\n\nHere **Resonant** concerns coordinated activity and **Geometry** concerns the arrangement that supports it. RRG reads their maintained whole as a [resonator](/glossary/#resonator). Its [inner resonance](/glossary/#inner-resonance) names compatible activity within the cell; [outer resonance](/glossary/#outer-resonance) concerns its coupling to other things and shared surroundings.\n\n## What you can see here\n\nA cell shows persistence through exchange. Its organization can remain recognizable while its components remain active and material changes. Maintaining that organization requires resources and energy flow.\n\nIt also opens two outward questions. A cell can become a [building block](/glossary/#building-block) in a larger organization. Separately, exchanges can create [changed surroundings](/glossary/#changed-surroundings). The [life and environment example](/examples/life-environment/) follows the second role. Maintaining a cell, copying a molecular pattern and reproducing a cell are distinct processes. Reproduction is one route to [spreading](/glossary/#spreading), while [recursion](/glossary/#recursion--recursive) concerns the broader cycle.\n\n## Where the interpretation stops\n\nThis example begins with an existing cell. It does not explain the first life or demonstrate a complete artificial cell. The RRG reading brings maintenance and organization together; the actual biochemical mechanisms and energy accounting still explain how the processes work.\n\n## Evidence and sources\n\n[OpenStax’s passive transport](/references/#BIB-0063) and [active transport](/references/#BIB-0092) explain the concentration and energy distinctions. [Read stability](/concepts/stability/) for the persistence question and [recursion](/concepts/recursion/) for the whole becoming a part.\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3 01 §§10–10.1: maintained life, environmental change and joining; §§3–3.1: interval stability and energy flow; §§6.1–7.1: inner/outer resonance and separate roles; §9: copying as a late form, not a requirement. Retained framework §§8, 13; unchanged core §§1–9. BIB-0063/0092 retains passive/active transport, concentration differences, mechanisms and energy; this begins with an existing cell and makes no origin-of-life claim.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "76a01e2e8d1eb304eecbe39f451235e4bf01c651e474fa439811cd1351bad669"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "f161128c55ffb647acc8f4161509ecaa55f2c77d37f0af1709990910bc8796d4"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "77c75f8464c7f03f65dd1911562d46ce07a414fc3601884071b42fa18af6fbe5"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "51dc7c3014072a11082ec2e760e85ddfcb4556d8f4c3b14fa609ced3b780caf0"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "8158a1694b1c72fb3552578e71b9cdb5ad2f6bae350d57e206009c43eebaf1f7"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "2fc0544d4bf00f07e1eeade0824330e46ef73ba68528bbcaf9e6bf3bd26f4252"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "057ba2b8414f5f1f45fa0e49fd2a9b67895538447892c74d340142b1ca0de605"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "bc65c9b355783fca07dc598c574652146ce18ad256d3d1cba18ec40731ef6973",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "675da019c57c713006616fa7916d9640d54a12cd447d1496c487aaca5dd61b97",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the membrane/maintenance explanation against 01 §§3.1/6.1–7.1/9–10.1, framework §§8/13 and core §§1–9. Passive and active transport preserve their concentration/mechanism/energy distinctions, and maintenance requires resources and energy flow. This begins with an existing cell, separates internal maintenance, environmental effects and reproduction, and does not claim first life, a complete artificial cell or a new universal resonance mechanism. Terminology compared with RRG v0.3 01 §§10–10.1: maintained life, environmental change and joining; §§3–3.1: interval stability and energy flow; §§6.1–7.1: inner/outer resonance and separate roles; §9: copying as a late form, not a requirement. Retained framework §§8, 13; unchanged core §§1–9. BIB-0063/0092 retains passive/active transport, concentration differences, mechanisms and energy; this begins with an existing cell and makes no origin-of-life claim. Recheck of DOC-EXAMPLE-CELL: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the membrane/maintenance explanation against 01 §§3.1/6.1–7.1/9–10.1, framework §§8/13 and core §§1–9. Passive and active transport preserve their concentration/mechanism/energy distinctions, and maintenance requires resources and energy flow. This begins with an existing cell, separates internal maintenance, environmental effects and reproduction, and does not claim first life, a complete artificial cell or a new universal resonance mechanism. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-EXAMPLE-CELL: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the membrane/maintenance explanation against 01 §§3.1/6.1–7.1/9–10.1, framework §§8/13 and core §§1–9. Passive and active transport preserve their concentration/mechanism/energy distinctions, and maintenance requires resources and energy flow. This begins with an existing cell, separates internal maintenance, environmental effects and reproduction, and does not claim first life, a complete artificial cell or a new universal resonance mechanism. Supplied conditions and model scope retained: An illustrative beginner explanation mapped to the original supplied RRG documents.   Recheck of DOC-EXAMPLE-CELL: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the membrane/maintenance explanation against 01 §§3.1/6.1–7.1/9–10.1, framework §§8/13 and core §§1–9. Passive and active transport preserve their concentration/mechanism/energy distinctions, and maintenance requires resources and energy flow. This begins with an existing cell, separates internal maintenance, environmental effects and reproduction, and does not claim first life, a complete artificial cell or a new universal resonance mechanism. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-EXAMPLE-CELL: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the membrane/maintenance explanation against 01 §§3.1/6.1–7.1/9–10.1, framework §§8/13 and core §§1–9. Passive and active transport preserve their concentration/mechanism/energy distinctions, and maintenance requires resources and energy flow. This begins with an existing cell, separates internal maintenance, environmental effects and reproduction, and does not claim first life, a complete artificial cell or a new universal resonance mechanism. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-EXAMPLE-CELL: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the membrane/maintenance explanation against 01 §§3.1/6.1–7.1/9–10.1, framework §§8/13 and core §§1–9. Passive and active transport preserve their concentration/mechanism/energy distinctions, and maintenance requires resources and energy flow. This begins with an existing cell, separates internal maintenance, environmental effects and reproduction, and does not claim first life, a complete artificial cell or a new universal resonance mechanism. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-EXAMPLE-CELL: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the membrane/maintenance explanation against 01 §§3.1/6.1–7.1/9–10.1, framework §§8/13 and core §§1–9. Passive and active transport preserve their concentration/mechanism/energy distinctions, and maintenance requires resources and energy flow. This begins with an existing cell, separates internal maintenance, environmental effects and reproduction, and does not claim first life, a complete artificial cell or a new universal resonance mechanism. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0063, BIB-0092. Recheck of DOC-EXAMPLE-CELL: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the membrane/maintenance explanation against 01 §§3.1/6.1–7.1/9–10.1, framework §§8/13 and core §§1–9. Passive and active transport preserve their concentration/mechanism/energy distinctions, and maintenance requires resources and energy flow. This begins with an existing cell, separates internal maintenance, environmental effects and reproduction, and does not claim first life, a complete artificial cell or a new universal resonance mechanism. Verified RRG v0.3 01 §§10–10.1: maintained life, environmental change and joining; §§3–3.1: interval stability and energy flow; §§6.1–7.1: inner/outer resonance and separate roles; §9: copying as a late form, not a requirement. Retained framework §§8, 13; unchanged core §§1–9. BIB-0063/0092 retains passive/active transport, concentration differences, mechanisms and energy; this begins with an existing cell and makes no origin-of-life claim.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-EXAMPLE-CELL: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

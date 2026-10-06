@@ -1,0 +1,182 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-STAR",
+  "fingerprint": "9c4782281200d4e4d536f979d5b34b6e7a453031173d508f8f733cd44abea952",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the star page against 01 §§3.1/6.1/7–7.3 and the corrected stellar chain, plus framework §7 and core §§4–5/10–11. Gravity gathers and holds, stellar conditions enable nuclear transformations, and later dispersal changes material possibilities. Environmental enabling is separate from putting an intact star inside a molecule; the universal RRG reading remains proposed, with gravity underived and later stages not inevitable. Recheck of DOC-EXAMPLE-STAR: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "9c4782281200d4e4d536f979d5b34b6e7a453031173d508f8f733cd44abea952",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-STAR",
+      "route": "/examples/star/",
+      "title": "Star: new reaction conditions",
+      "description": "A star’s heat and pressure allow new nuclei; dispersed elements make richer chemistry possible.",
+      "revision": 10,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-C01",
+        "UT-C02",
+        "UT-D05"
+      ],
+      "related": [
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [
+        "BIB-0014"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nGas gathers under gravity and forms a star. Its internal temperature and pressure make nuclear reactions possible. Stellar evolution and the dispersal of many heavier elements then expand the material available for later chemistry.\n\nHere an existing structure changes the setting for later transformations. The new nuclei and dispersed elements are the results to follow.\n\n## How RRG reads it\n\nA star’s [geometry](/glossary/#geometry-shape) includes its organization and internal constraints; its activity evolves within that setting. RRG reads the lasting pair as a [resonator](/glossary/#resonator). **Geometry** concerns the arrangement, and **Resonant** concerns its activity. [Stability](/glossary/#stability) means persistence over an interval, during which the star can keep changing.\n\nGravity provides the gathering and holding. The broader proposal that [resonance](/glossary/#resonance) explains which arrangements fit and persist is RRG’s interpretation of such systems.\n\n## What you can see here\n\nThe main outward role is [changed surroundings](/glossary/#changed-surroundings): **lasting organization → changed conditions → new possibilities**. Conditions inside the star permit nuclear transformations; later dispersal opens material possibilities for chemistry. Breaking down and scattering belong to the story alongside formation.\n\nThis illustrates the **Recursive** rule through inherited material and conditions. Later organization uses what earlier organization made available. The star’s environmental role is distinct from the [building-block](/glossary/#building-block) role: treating it as one object in a description does not put the intact star inside a later molecule.\n\n## Where the interpretation stops\n\nStellar history has established physical explanations. Reading it as a turn of one common RRG cycle is the proposal. This example neither derives gravity from resonance nor makes every next structure inevitable. The origin of forces and the broader [question of which structures become possible](/claims/UT-C02/) remain open.\n\n## Evidence and sources\n\n[NASA’s first-stars explanation](/references/#BIB-0014) provides supplementary background. The [world explanation’s stellar chain](/documents/world-explanation/#72-each-level-needs-the-ones-before-it) connects this step to the inherited material and conditions used later in the ladder.\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3 01 §§7–7.3: stellar reaction conditions, changed surroundings, corrected ancestry and open force origins; §§3–3.1: evolving maintained organization; §6.1: gravity and force-fit; cosmic/background addenda: enriched material and later chemistry. Retained framework §7; unchanged core §§4–5, 10–11. BIB-0014 remains supplementary first-star background, not evidence that RRG derives gravity. Established stellar history is separate from the proposed common cycle.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "8f366db7224259268d872c14f69c5130b9f640fc9a635e11059c62e954f52057"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "77c75f8464c7f03f65dd1911562d46ce07a414fc3601884071b42fa18af6fbe5"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "8158a1694b1c72fb3552578e71b9cdb5ad2f6bae350d57e206009c43eebaf1f7"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "416f1cace9317ce9cae7c9b687fcaf6c420d7b76bd5850aad73fa22843842767",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "eda032afd9aeabe9425e1bb36bea48527830aa1d8ab4daa40acd0e1a81ac62b7",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the star page against 01 §§3.1/6.1/7–7.3 and the corrected stellar chain, plus framework §7 and core §§4–5/10–11. Gravity gathers and holds, stellar conditions enable nuclear transformations, and later dispersal changes material possibilities. Environmental enabling is separate from putting an intact star inside a molecule; the universal RRG reading remains proposed, with gravity underived and later stages not inevitable. Terminology compared with RRG v0.3 01 §§7–7.3: stellar reaction conditions, changed surroundings, corrected ancestry and open force origins; §§3–3.1: evolving maintained organization; §6.1: gravity and force-fit; cosmic/background addenda: enriched material and later chemistry. Retained framework §7; unchanged core §§4–5, 10–11. BIB-0014 remains supplementary first-star background, not evidence that RRG derives gravity. Established stellar history is separate from the proposed common cycle. Recheck of DOC-EXAMPLE-STAR: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the star page against 01 §§3.1/6.1/7–7.3 and the corrected stellar chain, plus framework §7 and core §§4–5/10–11. Gravity gathers and holds, stellar conditions enable nuclear transformations, and later dispersal changes material possibilities. Environmental enabling is separate from putting an intact star inside a molecule; the universal RRG reading remains proposed, with gravity underived and later stages not inevitable. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-EXAMPLE-STAR: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the star page against 01 §§3.1/6.1/7–7.3 and the corrected stellar chain, plus framework §7 and core §§4–5/10–11. Gravity gathers and holds, stellar conditions enable nuclear transformations, and later dispersal changes material possibilities. Environmental enabling is separate from putting an intact star inside a molecule; the universal RRG reading remains proposed, with gravity underived and later stages not inevitable. Supplied conditions and model scope retained: An illustrative beginner explanation mapped to the original supplied RRG documents.   Recheck of DOC-EXAMPLE-STAR: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the star page against 01 §§3.1/6.1/7–7.3 and the corrected stellar chain, plus framework §7 and core §§4–5/10–11. Gravity gathers and holds, stellar conditions enable nuclear transformations, and later dispersal changes material possibilities. Environmental enabling is separate from putting an intact star inside a molecule; the universal RRG reading remains proposed, with gravity underived and later stages not inevitable. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-EXAMPLE-STAR: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the star page against 01 §§3.1/6.1/7–7.3 and the corrected stellar chain, plus framework §7 and core §§4–5/10–11. Gravity gathers and holds, stellar conditions enable nuclear transformations, and later dispersal changes material possibilities. Environmental enabling is separate from putting an intact star inside a molecule; the universal RRG reading remains proposed, with gravity underived and later stages not inevitable. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-EXAMPLE-STAR: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the star page against 01 §§3.1/6.1/7–7.3 and the corrected stellar chain, plus framework §7 and core §§4–5/10–11. Gravity gathers and holds, stellar conditions enable nuclear transformations, and later dispersal changes material possibilities. Environmental enabling is separate from putting an intact star inside a molecule; the universal RRG reading remains proposed, with gravity underived and later stages not inevitable. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-EXAMPLE-STAR: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the star page against 01 §§3.1/6.1/7–7.3 and the corrected stellar chain, plus framework §7 and core §§4–5/10–11. Gravity gathers and holds, stellar conditions enable nuclear transformations, and later dispersal changes material possibilities. Environmental enabling is separate from putting an intact star inside a molecule; the universal RRG reading remains proposed, with gravity underived and later stages not inevitable. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0014. Recheck of DOC-EXAMPLE-STAR: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the star page against 01 §§3.1/6.1/7–7.3 and the corrected stellar chain, plus framework §7 and core §§4–5/10–11. Gravity gathers and holds, stellar conditions enable nuclear transformations, and later dispersal changes material possibilities. Environmental enabling is separate from putting an intact star inside a molecule; the universal RRG reading remains proposed, with gravity underived and later stages not inevitable. Verified RRG v0.3 01 §§7–7.3: stellar reaction conditions, changed surroundings, corrected ancestry and open force origins; §§3–3.1: evolving maintained organization; §6.1: gravity and force-fit; cosmic/background addenda: enriched material and later chemistry. Retained framework §7; unchanged core §§4–5, 10–11. BIB-0014 remains supplementary first-star background, not evidence that RRG derives gravity. Established stellar history is separate from the proposed common cycle.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-EXAMPLE-STAR: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

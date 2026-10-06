@@ -1,0 +1,106 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D07",
+  "fingerprint": "1a599f895a613994bf639c3c61247aeb85d31c0b421f1085e51527f3e66f7995",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §6. Counts, composition, arrangement, phases and environment can vary the higher whole from related lower blocks; variation is compatible with the core. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Recheck of UT-D07: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "1a599f895a613994bf639c3c61247aeb85d31c0b421f1085e51527f3e66f7995",
+    "ownRead": {
+      "id": "UT-D07",
+      "route": "/claims/UT-D07/",
+      "title": "Variation",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 3,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D06"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 74,
+        "endLine": 82,
+        "excerptSha256": "70a9c9b21a7a9301abe5268e7e4b870ddeac3c4e6b07ccbbe52a04d10de675fb"
+      },
+      "statement": "## 6. Variation\n\nDifferent counts, arrangements, compositions, orientations, connections, phases, and environments may create different higher-level resonant geometries from the same lower-level building blocks.\n\n\\[\n\\boxed{\\text{same or related lower units}+\\text{different organization}\\rightarrow\\text{different }R_{n+1}}.\n\\]\n\nVariation is therefore fully compatible with the core and requires no new principle.\n",
+      "plainLanguage": "Related building blocks can participate in different organizations under different arrangements and conditions.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §6; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+        "plainLanguageSha256": "5d3eec48abad1726f1fb8bb0668ea574a70cd8dc5de02df96c663b51351b76cf",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "5a0ff058bf26d7da6327cdc22041ead28f596ec73ffcf08b8d1f4a1c5b3327ba",
+        "plainLanguageSha256": "5d3eec48abad1726f1fb8bb0668ea574a70cd8dc5de02df96c663b51351b76cf",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §6. Counts, composition, arrangement, phases and environment can vary the higher whole from related lower blocks; variation is compatible with the core. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Terminology compared with 00_LOCKED_CORE.md §6; new navigation ID, source has no UT ID. Recheck of UT-D07: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §6. Counts, composition, arrangement, phases and environment can vary the higher whole from related lower blocks; variation is compatible with the core. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-D07: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §6. Counts, composition, arrangement, phases and environment can vary the higher whole from related lower blocks; variation is compatible with the core. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Supplied conditions and model scope retained: A locked RRG meaning; a definition is not an experimental finding.   Recheck of UT-D07: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §6. Counts, composition, arrangement, phases and environment can vary the higher whole from related lower blocks; variation is compatible with the core. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-D07: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §6. Counts, composition, arrangement, phases and environment can vary the higher whole from related lower blocks; variation is compatible with the core. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-D07: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §6. Counts, composition, arrangement, phases and environment can vary the higher whole from related lower blocks; variation is compatible with the core. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-D07: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §6. Counts, composition, arrangement, phases and environment can vary the higher whole from related lower blocks; variation is compatible with the core. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of UT-D07: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §6. Counts, composition, arrangement, phases and environment can vary the higher whole from related lower blocks; variation is compatible with the core. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Verified 00_LOCKED_CORE.md §6; new navigation ID, source has no UT ID.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-D07: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

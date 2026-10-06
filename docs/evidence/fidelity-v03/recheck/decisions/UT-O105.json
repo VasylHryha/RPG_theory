@@ -1,0 +1,119 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O105",
+  "fingerprint": "2eb841ca455499cf1047a3a5418d47332cdff8de26714a0c630f15748c1948b4",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the individual exact excerpt and complete authored contribution passage against current 08 O5, with 04’s model/testing boundaries. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Recheck of UT-O105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "2eb841ca455499cf1047a3a5418d47332cdff8de26714a0c630f15748c1948b4",
+    "ownRead": {
+      "id": "UT-O105",
+      "route": "/claims/UT-O105/",
+      "title": "Cosmological connection",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 4,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861",
+        "startLine": 52,
+        "endLine": 52,
+        "excerptSha256": "873a06a333d72fab2e199154da309daac813833b01937dda9b873e5be0f1b5d3"
+      },
+      "statement": "**O5 — Cosmological connection.** The author’s conjecture is that continued formation of scales and organization could connect to the universe’s spatial expansion. Domain growth, increasing organizational depth, increasing accessible configurations and spacetime metric expansion are four different claims. The last is not proved by the first three. This release does not advance a new cosmological calculation or fresh observational cosmology review.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "## Investigate one part\n\nThe companion distinguishes growth of available states, effective degrees of freedom, changed local background and cosmological metric expansion. Identify which meaning your argument addresses before comparing it with observations or a model. Relating the first three to metric expansion is an open step, not something established by using the same word.\n\nBring a source passage, model, result or objection to [the contribution route](/about/#contribute). You can address this question without accepting the entire proposal. Read [all open questions](/open-problems/) for the surrounding programme.\n",
+      "sourceMapping": "v0.2.1 open claim O5; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "5da08c4075bb92cf080221a51353e0bce2224847814af8ce8ad8546f02304955",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "0d924fb65f7fe855a7a83753a1a8635ec629478a7f1a20ad953042a17212724e",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the individual exact excerpt and complete authored contribution passage against current 08 O5, with 04’s model/testing boundaries. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Terminology compared with v0.2.1 open claim O5; predecessor UT-O IDs remain historical. Recheck of UT-O105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the individual exact excerpt and complete authored contribution passage against current 08 O5, with 04’s model/testing boundaries. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-O105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O5, with 04’s model/testing boundaries. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Supplied conditions and model scope retained: Source-reported open claim, not a demonstrated result or a required proof before publication.   Recheck of UT-O105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the individual exact excerpt and complete authored contribution passage against current 08 O5, with 04’s model/testing boundaries. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-O105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O5, with 04’s model/testing boundaries. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-O105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O5, with 04’s model/testing boundaries. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-O105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the individual exact excerpt and complete authored contribution passage against current 08 O5, with 04’s model/testing boundaries. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of UT-O105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the individual exact excerpt and complete authored contribution passage against current 08 O5, with 04’s model/testing boundaries. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Verified v0.2.1 open claim O5; predecessor UT-O IDs remain historical.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-O105: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

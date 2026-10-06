@@ -1,0 +1,224 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-ARTICLE-UNIT",
+  "fingerprint": "97c37e85057aca6e99516de78ac6e0ebfc5fb227a958ca94d5a70034da52b5ab",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the intact/dissociating molecule argument with core §§3–8, 01 §§4–6/8, 03 §§12–13/38 and 04 §§11/23–25. Its own meaning is unaffected by the v0.3 edition/binding update; the mapped sections still distinguish useful reduced variables from physically making a new level. Error-controlled prediction, internal activity and circumstances remain necessary, same-family closure remains optional, and no calculation is reported as executed here. Recheck of DOC-ARTICLE-UNIT: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "97c37e85057aca6e99516de78ac6e0ebfc5fb227a958ca94d5a70034da52b5ab",
+    "ownRead": {
+      "id": "DOC-ARTICLE-UNIT",
+      "route": "/articles/when-can-a-whole-be-treated-as-one-useful-unit/",
+      "title": "When can a whole be treated as one useful unit?",
+      "description": "When does a collective description answer the question, and when must we return to the parts?",
+      "revision": 7,
+      "kind": "article",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CORE",
+        "R-CURRENT-MATH",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-EXAMPLE-MOLECULE",
+        "DOC-MATH",
+        "UT-D03",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Explanatory article; universal claims and quantitative tests remain open.",
+      "evidenceState": "not-applicable",
+      "body": "## Start with an intact molecule\n\nA molecule contains atoms, electron states and collective motion. Yet another chemical description can treat it as one participant. We have not erased its parts; we have chosen the properties relevant to a particular interaction. The [molecule example](/examples/molecule/) traces this back to the supplied world explanation.\n\nNow change the question. If the molecule dissociates, continuing to count one intact participant hides a material change. A useful unit is therefore not simply whatever we can draw a boundary around. Its usefulness depends on the circumstances and the response we need to describe.\n\n## What can remain unresolved?\n\nRRG asks which collective organization persists while its parts remain active. A later description may track an intact whole's motion, relationships or response without tracking every lower-level detail. If those hidden details affect the answer, the description needs to retain more of them.\n\nThis does not mean that all useful reductions are simple averages. The current [background companion](/framework/recursive-background/) explains that correlations, mode patterns, coupling and memory may matter. Reducing everything to one number can discard the very relation that made a whole useful.\n\n## Organization and activity belong together\n\nThe registered RRG object is :claim[UT-D03]. Its geometry includes relationships, boundaries and constraints. Its mode structure includes phases, coupling, responses and characteristic times, beyond one frequency.\n\nThe [stability definition](/claims/UT-D04/) concerns self-consistent geometry–mode organization over an interval. It is not permanence, and it does not prescribe one lifetime threshold for molecules, cells and every other system.\n\nThe [scale definition](/claims/UT-D05/) asks when a collective organization functions as an effective unit in further interactions. Parts can differ and remain internally active. The [recursion definition](/claims/UT-D08/) permits further combination without requiring an identical microscopic mechanism or compulsory copying at every step.\n\n## A mathematical question with a stated scope\n\nThe [candidate mathematics](/math/) compares two routes: evolve the detailed system and then reduce it, or reduce it and predict the collective evolution. A useful comparison needs stated variables, maps, conditions and an error measure.\n\nThat is a model-specific research test. It does not establish that a new physical level formed, or require every scale to obey the same equation family. The stronger same-family question remains optional. No such calculation is executed in this article.\n\n## The whole has another possible role\n\nA cell may be one participant in a larger organization while continuing its internal exchanges. Its activity may also change its surroundings. Treating the cell as a unit and measuring that environmental change answer different questions.\n\n[How existing structures make new organization possible](/articles/how-existing-structures-make-new-organization-possible/) follows the second role. Read the two together without assuming that success at one operation proves the complete recursive proposal.\n\nThe question to take into a concrete model is: **for this interaction and interval, which collective properties suffice, and what would require us to describe the parts again?** [Explore recursion and scale](/concepts/recursion/) for the shorter definition-led path.\n",
+      "sourceMapping": "Core §§3–8; world §§4–6, 8; framework §§2.6, 3, 15; current 04 §§11, 23–25; 03 §§12–13 and 38. Authored discussion of useful collective descriptions; reduction maps do not physically create a level and same-family closure is optional.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "tags": [
+        "organization",
+        "research-explanation"
+      ],
+      "authorIdentity": "Vasyl Hryha",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "4174465de8b6e9c80edaf11c7c201cd4e716539e0fcda022ebc064cf7b18d4c3"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-MOLECULE",
+        "semanticDigest": "8089ae8123cb1722f95b00c1fa02d159727286977909bb72951c5db62efd3a3d"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "75917455798224b8367606473bba07229683ea5de9d79ac7b2e9e67adb44a815"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "f257c0b8f0e527bf228749288ee7584276207d744e826429354c9c56b955c5c1"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "b9e65f8cc4081520ec7741108a78e72d930b711619fde6b39aeda125d9b11b91"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "51dc7c3014072a11082ec2e760e85ddfcb4556d8f4c3b14fa609ced3b780caf0"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "2fc0544d4bf00f07e1eeade0824330e46ef73ba68528bbcaf9e6bf3bd26f4252"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "65929e4811c2ba1888683dc3225bf16077a54cfea9e8f9b69fb7ed060d7af400"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "79ee4f57a97e75f2fcda2cf74fb58306dc94e1ebc875b6454ccd5af1f2608705",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "58c815465bdf97ef95e45da96d410aa9945f711235bbde9456ed521964601100",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the intact/dissociating molecule argument with core §§3–8, 01 §§4–6/8, 03 §§12–13/38 and 04 §§11/23–25. Its own meaning is unaffected by the v0.3 edition/binding update; the mapped sections still distinguish useful reduced variables from physically making a new level. Error-controlled prediction, internal activity and circumstances remain necessary, same-family closure remains optional, and no calculation is reported as executed here. Terminology compared with Core §§3–8; world §§4–6, 8; framework §§2.6, 3, 15; current 04 §§11, 23–25; 03 §§12–13 and 38. Authored discussion of useful collective descriptions; reduction maps do not physically create a level and same-family closure is optional. Recheck of DOC-ARTICLE-UNIT: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Compared the intact/dissociating molecule argument with core §§3–8, 01 §§4–6/8, 03 §§12–13/38 and 04 §§11/23–25. Its own meaning is unaffected by the v0.3 edition/binding update; the mapped sections still distinguish useful reduced variables from physically making a new level. Error-controlled prediction, internal activity and circumstances remain necessary, same-family closure remains optional, and no calculation is reported as executed here. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-ARTICLE-UNIT: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Compared the intact/dissociating molecule argument with core §§3–8, 01 §§4–6/8, 03 §§12–13/38 and 04 §§11/23–25. Its own meaning is unaffected by the v0.3 edition/binding update; the mapped sections still distinguish useful reduced variables from physically making a new level. Error-controlled prediction, internal activity and circumstances remain necessary, same-family closure remains optional, and no calculation is reported as executed here. Supplied conditions and model scope retained: Explanatory article; universal claims and quantitative tests remain open.   Recheck of DOC-ARTICLE-UNIT: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Compared the intact/dissociating molecule argument with core §§3–8, 01 §§4–6/8, 03 §§12–13/38 and 04 §§11/23–25. Its own meaning is unaffected by the v0.3 edition/binding update; the mapped sections still distinguish useful reduced variables from physically making a new level. Error-controlled prediction, internal activity and circumstances remain necessary, same-family closure remains optional, and no calculation is reported as executed here. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-ARTICLE-UNIT: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Compared the intact/dissociating molecule argument with core §§3–8, 01 §§4–6/8, 03 §§12–13/38 and 04 §§11/23–25. Its own meaning is unaffected by the v0.3 edition/binding update; the mapped sections still distinguish useful reduced variables from physically making a new level. Error-controlled prediction, internal activity and circumstances remain necessary, same-family closure remains optional, and no calculation is reported as executed here. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-ARTICLE-UNIT: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Compared the intact/dissociating molecule argument with core §§3–8, 01 §§4–6/8, 03 §§12–13/38 and 04 §§11/23–25. Its own meaning is unaffected by the v0.3 edition/binding update; the mapped sections still distinguish useful reduced variables from physically making a new level. Error-controlled prediction, internal activity and circumstances remain necessary, same-family closure remains optional, and no calculation is reported as executed here. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-ARTICLE-UNIT: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Compared the intact/dissociating molecule argument with core §§3–8, 01 §§4–6/8, 03 §§12–13/38 and 04 §§11/23–25. Its own meaning is unaffected by the v0.3 edition/binding update; the mapped sections still distinguish useful reduced variables from physically making a new level. Error-controlled prediction, internal activity and circumstances remain necessary, same-family closure remains optional, and no calculation is reported as executed here. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of DOC-ARTICLE-UNIT: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Compared the intact/dissociating molecule argument with core §§3–8, 01 §§4–6/8, 03 §§12–13/38 and 04 §§11/23–25. Its own meaning is unaffected by the v0.3 edition/binding update; the mapped sections still distinguish useful reduced variables from physically making a new level. Error-controlled prediction, internal activity and circumstances remain necessary, same-family closure remains optional, and no calculation is reported as executed here. Verified Core §§3–8; world §§4–6, 8; framework §§2.6, 3, 15; current 04 §§11, 23–25; 03 §§12–13 and 38. Authored discussion of useful collective descriptions; reduction maps do not physically create a level and same-family closure is optional.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-ARTICLE-UNIT: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

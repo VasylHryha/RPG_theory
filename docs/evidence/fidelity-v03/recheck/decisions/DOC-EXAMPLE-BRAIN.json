@@ -1,0 +1,270 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-BRAIN",
+  "fingerprint": "dd01da534759a34d7f7b7484d753dc1b5ab500a9baf9a27b715dc95511df6d6d",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared every paragraph with 01 §§11–12, core §§1–4 and the supplementary neural-manifold reference scope. Wiring constrains activity and learning alters effective relationships, with mode structure broader than one visible beat. Thought-as-trajectory is clearly an intuitive reading; the page claims neither consciousness explained nor an RRG experiment, benchmark gain or complete cross-scale cycle. Recheck of DOC-EXAMPLE-BRAIN: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "dd01da534759a34d7f7b7484d753dc1b5ab500a9baf9a27b715dc95511df6d6d",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-BRAIN",
+      "route": "/examples/brain/",
+      "title": "Brain: wiring and activity shape each other",
+      "description": "A brain’s connections constrain activity, while activity and learning change those connections.",
+      "revision": 2,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-CONCEPT-GEOMETRY",
+        "DOC-CONCEPT-RECURSION",
+        "DOC-CORE",
+        "DOC-GLOSSARY",
+        "DOC-WORLD"
+      ],
+      "related": [
+        "DOC-EXAMPLE-CELL",
+        "DOC-EXAMPLE-LIFE",
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [
+        "BIB-0001"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Source-mapped illustration of neural wiring/activity feedback and an intuitive trajectory reading, without a consciousness claim.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nA brain is a physical network. Its connections constrain which patterns of activity can occur. Activity changes from moment to moment, while learning changes the wiring and the effective relationships between its parts. The network shapes what can happen, and what happens can reshape the network.\n\nNeuroscience also studies coordinated activity across populations of neurons. One approach describes that activity within a **neural manifold**: a constrained space of possible collective states. Each state describes what the population is doing together at a moment. A trajectory follows how that collective activity changes over time.\n\n## How RRG reads it\n\nRRG calls the connections and constraints [geometry](/glossary/#geometry-shape). The changing patterns of activity belong to its [mode structure](/glossary/#mode), which includes timing, relationships and response. It need not be one repeating beat.\n\n**Geometry** concerns the network’s arrangement; **Resonant** concerns its coordinated activity. RRG reads their relationship in both directions: wiring shapes activity, and activity helps change the relationships that shape future activity. Its term [inner resonance](/glossary/#inner-resonance) names compatible activity within an organization.\n\nIn this intuitive picture, a thought can be imagined as a trajectory through changing internal relationships. Learning reshapes those relationships and the paths future activity can follow.\n\n## What you can see here\n\nThe clearest feature is **shape and activity affecting each other**. Learning changes which future patterns are easier or harder to follow. A recognizable organization can persist while its internal relationships change.\n\nThe main focus is internal organization. Perception and action connect it to the world: sensory interactions shape internal activity, and actions change the outside world. RRG reads this as an internal organization modelling useful relationships in its surroundings. Becoming a building block or enabling another lasting organization would be a further question.\n\n## Where the interpretation stops\n\nThe trajectory picture does not explain consciousness or establish what a thought feels like. The neural-manifold approach is related scientific work; it does not demonstrate RRG’s common cycle across scales.\n\n## Evidence and sources\n\n[Perich, Narain and Gallego’s neural manifold view](/references/#BIB-0001) supplies the related neuroscience background. The [world explanation’s brain section](/documents/world-explanation/#11-the-brain-makes-the-geometry-idea-easier-to-see) gives the RRG reading.\n\nThis ends the present examples ladder. Continue with [recursion and scale](/concepts/recursion/) to connect the examples.\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3 01 §11: physical neural network, wiring constraining activity, activity/learning changing wiring and effective relationships, neural manifolds and the intuitive thought-as-trajectory reading; §12: sensory coupling, internal modelling and action; §§1, 3, 6.1: full activity, persistence and inner resonance. Unchanged core §§1–4: geometry/mode relationship without a required visible beat. BIB-0001 (Perich, Narain & Gallego 2025) is supplementary neural-manifold background, not an RRG experiment or an explanation of consciousness.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CONCEPT-GEOMETRY",
+        "semanticDigest": "c512c59d3fcc53003ac3e06168c4dfd0fa45f3b94d3811d6366c82d838bf3b03"
+      },
+      {
+        "entryId": "DOC-CONCEPT-RECURSION",
+        "semanticDigest": "1a1f4577435ee5f2a87402e94e66065d52ecb94e6cf1ec349e41ffd6eb78c955"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "4174465de8b6e9c80edaf11c7c201cd4e716539e0fcda022ebc064cf7b18d4c3"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-CELL",
+        "semanticDigest": "f1a1e0b6823085f0ab8659371c99f7fe7d9748e44c7d9a97e508c52a53d4b51a"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "76a01e2e8d1eb304eecbe39f451235e4bf01c651e474fa439811cd1351bad669"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STRING",
+        "semanticDigest": "b20e362d0156114460ac7475fae0611f1c05d1f442195d8ee4b5ab7ecb1f1aee"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "75917455798224b8367606473bba07229683ea5de9d79ac7b2e9e67adb44a815"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "f257c0b8f0e527bf228749288ee7584276207d744e826429354c9c56b955c5c1"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "b9e65f8cc4081520ec7741108a78e72d930b711619fde6b39aeda125d9b11b91"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "f161128c55ffb647acc8f4161509ecaa55f2c77d37f0af1709990910bc8796d4"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "77c75f8464c7f03f65dd1911562d46ce07a414fc3601884071b42fa18af6fbe5"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "51dc7c3014072a11082ec2e760e85ddfcb4556d8f4c3b14fa609ced3b780caf0"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "8158a1694b1c72fb3552578e71b9cdb5ad2f6bae350d57e206009c43eebaf1f7"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "2fc0544d4bf00f07e1eeade0824330e46ef73ba68528bbcaf9e6bf3bd26f4252"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "057ba2b8414f5f1f45fa0e49fd2a9b67895538447892c74d340142b1ca0de605"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "d622a6fea6153f23603e84a41ef0457ab2c87c839e27a64add5fd7ae03a89b9c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "65929e4811c2ba1888683dc3225bf16077a54cfea9e8f9b69fb7ed060d7af400"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "df23e11ce89e951cd0d5decc58246229a496a2a37b03b58a8e8f0ccf9a83001e",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "cfc6f9ec5e514b06cbdb1dcd1a27cf91ab1fbd688d67c253dff3177e8c4bbba9",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared every paragraph with 01 §§11–12, core §§1–4 and the supplementary neural-manifold reference scope. Wiring constrains activity and learning alters effective relationships, with mode structure broader than one visible beat. Thought-as-trajectory is clearly an intuitive reading; the page claims neither consciousness explained nor an RRG experiment, benchmark gain or complete cross-scale cycle. Terminology compared with RRG v0.3 01 §11: physical neural network, wiring constraining activity, activity/learning changing wiring and effective relationships, neural manifolds and the intuitive thought-as-trajectory reading; §12: sensory coupling, internal modelling and action; §§1, 3, 6.1: full activity, persistence and inner resonance. Unchanged core §§1–4: geometry/mode relationship without a required visible beat. BIB-0001 (Perich, Narain & Gallego 2025) is supplementary neural-manifold background, not an RRG experiment or an explanation of consciousness. Recheck of DOC-EXAMPLE-BRAIN: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Compared every paragraph with 01 §§11–12, core §§1–4 and the supplementary neural-manifold reference scope. Wiring constrains activity and learning alters effective relationships, with mode structure broader than one visible beat. Thought-as-trajectory is clearly an intuitive reading; the page claims neither consciousness explained nor an RRG experiment, benchmark gain or complete cross-scale cycle. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-EXAMPLE-BRAIN: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Compared every paragraph with 01 §§11–12, core §§1–4 and the supplementary neural-manifold reference scope. Wiring constrains activity and learning alters effective relationships, with mode structure broader than one visible beat. Thought-as-trajectory is clearly an intuitive reading; the page claims neither consciousness explained nor an RRG experiment, benchmark gain or complete cross-scale cycle. Supplied conditions and model scope retained: Source-mapped illustration of neural wiring/activity feedback and an intuitive trajectory reading, without a consciousness claim.   Recheck of DOC-EXAMPLE-BRAIN: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Compared every paragraph with 01 §§11–12, core §§1–4 and the supplementary neural-manifold reference scope. Wiring constrains activity and learning alters effective relationships, with mode structure broader than one visible beat. Thought-as-trajectory is clearly an intuitive reading; the page claims neither consciousness explained nor an RRG experiment, benchmark gain or complete cross-scale cycle. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-EXAMPLE-BRAIN: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Compared every paragraph with 01 §§11–12, core §§1–4 and the supplementary neural-manifold reference scope. Wiring constrains activity and learning alters effective relationships, with mode structure broader than one visible beat. Thought-as-trajectory is clearly an intuitive reading; the page claims neither consciousness explained nor an RRG experiment, benchmark gain or complete cross-scale cycle. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-EXAMPLE-BRAIN: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Compared every paragraph with 01 §§11–12, core §§1–4 and the supplementary neural-manifold reference scope. Wiring constrains activity and learning alters effective relationships, with mode structure broader than one visible beat. Thought-as-trajectory is clearly an intuitive reading; the page claims neither consciousness explained nor an RRG experiment, benchmark gain or complete cross-scale cycle. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-EXAMPLE-BRAIN: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Compared every paragraph with 01 §§11–12, core §§1–4 and the supplementary neural-manifold reference scope. Wiring constrains activity and learning alters effective relationships, with mode structure broader than one visible beat. Thought-as-trajectory is clearly an intuitive reading; the page claims neither consciousness explained nor an RRG experiment, benchmark gain or complete cross-scale cycle. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0001. Recheck of DOC-EXAMPLE-BRAIN: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Compared every paragraph with 01 §§11–12, core §§1–4 and the supplementary neural-manifold reference scope. Wiring constrains activity and learning alters effective relationships, with mode structure broader than one visible beat. Thought-as-trajectory is clearly an intuitive reading; the page claims neither consciousness explained nor an RRG experiment, benchmark gain or complete cross-scale cycle. Verified RRG v0.3 01 §11: physical neural network, wiring constraining activity, activity/learning changing wiring and effective relationships, neural manifolds and the intuitive thought-as-trajectory reading; §12: sensory coupling, internal modelling and action; §§1, 3, 6.1: full activity, persistence and inner resonance. Unchanged core §§1–4: geometry/mode relationship without a required visible beat. BIB-0001 (Perich, Narain & Gallego 2025) is supplementary neural-manifold background, not an RRG experiment or an explanation of consciousness.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-EXAMPLE-BRAIN: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

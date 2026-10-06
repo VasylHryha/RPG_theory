@@ -1,0 +1,115 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D09",
+  "fingerprint": "226b229219b96355774d83e985e1fc69e950fe7345a8089b01025c293e2d2e15",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §9. Replication, autocatalysis, aggregation and other formation routes remain possible mechanisms, with copying explicitly optional at every level. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Recheck of UT-D09: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "226b229219b96355774d83e985e1fc69e950fe7345a8089b01025c293e2d2e15",
+    "ownRead": {
+      "id": "UT-D09",
+      "route": "/claims/UT-D09/",
+      "title": "Replication and recurrence",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 3,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 114,
+        "endLine": 126,
+        "excerptSha256": "6a0b719f6b5236c68fc8f6c9663e9c5d69f01a9621e54d8e9ade00ee9ad639e2"
+      },
+      "statement": "## 9. Replication / recurrence\n\nReplication, duplication, autocatalysis, reproduction, aggregation, differentiation, self-assembly, and symmetry breaking are **possible mechanisms of higher-level formation or propagation**, not mandatory steps in the core recursion.\n\nRRG never requires:\n\n\\[\nA\\rightarrow A+A\\rightarrow B\n\\]\n\nat every level.\n\nBiological replication is therefore an example, not the definition of recursion.\n",
+      "plainLanguage": "Replication is one possible way to form or propagate organization; it is not required at every level.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §9; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "2fc0544d4bf00f07e1eeade0824330e46ef73ba68528bbcaf9e6bf3bd26f4252"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+        "plainLanguageSha256": "714e8089403fe8d565914e8fa98f6afd5a55c94affe8a74a6ce3b06cff247df0",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "1b123b9f36a0fc13f8395c26238ad9b4fc7bd3c3e0d96cab4fbc61d689da2255",
+        "plainLanguageSha256": "714e8089403fe8d565914e8fa98f6afd5a55c94affe8a74a6ce3b06cff247df0",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §9. Replication, autocatalysis, aggregation and other formation routes remain possible mechanisms, with copying explicitly optional at every level. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Terminology compared with 00_LOCKED_CORE.md §9; new navigation ID, source has no UT ID. Recheck of UT-D09: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §9. Replication, autocatalysis, aggregation and other formation routes remain possible mechanisms, with copying explicitly optional at every level. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-D09: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §9. Replication, autocatalysis, aggregation and other formation routes remain possible mechanisms, with copying explicitly optional at every level. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Supplied conditions and model scope retained: A locked RRG meaning; a definition is not an experimental finding.   Recheck of UT-D09: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §9. Replication, autocatalysis, aggregation and other formation routes remain possible mechanisms, with copying explicitly optional at every level. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-D09: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §9. Replication, autocatalysis, aggregation and other formation routes remain possible mechanisms, with copying explicitly optional at every level. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-D09: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §9. Replication, autocatalysis, aggregation and other formation routes remain possible mechanisms, with copying explicitly optional at every level. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-D09: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §9. Replication, autocatalysis, aggregation and other formation routes remain possible mechanisms, with copying explicitly optional at every level. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of UT-D09: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §9. Replication, autocatalysis, aggregation and other formation routes remain possible mechanisms, with copying explicitly optional at every level. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Verified 00_LOCKED_CORE.md §9; new navigation ID, source has no UT ID.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-D09: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

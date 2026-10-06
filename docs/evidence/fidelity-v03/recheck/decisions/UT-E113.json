@@ -1,0 +1,95 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E113",
+  "fingerprint": "2f2633bf2d6afcc0ba69e3f0a8cbb03c4e55d45634597d847fdd2040eb9fce03",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read this individual source-bound card and its scoped metadata against current 06 E13 and the corresponding sources.json record. Cooperative RNA networks retain selected fragments/sequences and controlled chemistry; graph closure alone does not establish kinetics, subscription methods were not inspected, and the dated Figure 1 correction is disclosed. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Recheck of UT-E113: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "2f2633bf2d6afcc0ba69e3f0a8cbb03c4e55d45634597d847fdd2040eb9fce03",
+    "ownRead": {
+      "id": "UT-E113",
+      "route": "/claims/UT-E113/",
+      "title": "Cooperative RNA networks",
+      "description": "RNA fragments assemble into catalytic networks; tested cooperative networks have growth advantages over competing autocatalytic cycles.",
+      "revision": 2,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [
+        "BIB-0076"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "sourceSha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc",
+        "startLine": 242,
+        "endLine": 255,
+        "excerptSha256": "276b219f5c8e8fb734f926f3553bb776230e40c6e6dd617019e8c473c8e7b481"
+      },
+      "statement": "## E13 — Spontaneous network formation among cooperative RNA replicators\n\n**experiment · structural analogue / partial bridge · claims C5, C4.**\n\n**Reported result:** RNA fragments assemble into catalytic networks; tested cooperative networks have growth advantages over competing autocatalytic cycles.\n\n**Already supplied:** Selected RNA sequences, fragments and controlled chemical conditions are supplied.\n\n**Limit of the RRG connection:** This supports chemical organizational feedback and cooperation, not an identical acoustic or fundamental-particle mechanism. A formal catalytic graph alone does not establish sustained kinetics.\n\n**Source:** Vaidya, Manapat, Chen, Xulvi-Brunet, Hayden & Lehman (2012), *Nature 491, 72–77*. [DOI: 10.1038/nature11549](https://doi.org/10.1038/nature11549).\n\n**Verification coverage:** Publisher abstract and change history; full subscription methods not inspected. Checked 2026-10-02. Publisher reports a minor Figure 1 typo corrected on 31 October 2012. No claim here depends on the corrected figure.\n\n",
+      "plainLanguage": "",
+      "scope": "experiment; structural analogue / partial bridge; source-reported C5, C4.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "v0.2.1:E13 → UT-E113; source-local ID retains its edition; predecessor UT-E IDs are historical.",
+      "adapter": "rrg-evidence-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "This supports chemical organizational feedback and cooperation, not an identical acoustic or fundamental-particle mechanism. A formal catalytic graph alone does not establish sustained kinetics.",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "59ede6c449dd71931bf33e4fa4ffc9c570cce9821563fb7900690a94582e132a",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "59ede6c449dd71931bf33e4fa4ffc9c570cce9821563fb7900690a94582e132a",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read this individual source-bound card and its scoped metadata against current 06 E13 and the corresponding sources.json record. Cooperative RNA networks retain selected fragments/sequences and controlled chemistry; graph closure alone does not establish kinetics, subscription methods were not inspected, and the dated Figure 1 correction is disclosed. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Terminology compared with v0.2.1:E13 → UT-E113; source-local ID retains its edition; predecessor UT-E IDs are historical. Recheck of UT-E113: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read this individual source-bound card and its scoped metadata against current 06 E13 and the corresponding sources.json record. Cooperative RNA networks retain selected fragments/sequences and controlled chemistry; graph closure alone does not establish kinetics, subscription methods were not inspected, and the dated Figure 1 correction is disclosed. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-E113: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read this individual source-bound card and its scoped metadata against current 06 E13 and the corresponding sources.json record. Cooperative RNA networks retain selected fragments/sequences and controlled chemistry; graph closure alone does not establish kinetics, subscription methods were not inspected, and the dated Figure 1 correction is disclosed. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Supplied conditions and model scope retained: experiment; structural analogue / partial bridge; source-reported C5, C4. This supports chemical organizational feedback and cooperation, not an identical acoustic or fundamental-particle mechanism. A formal catalytic graph alone does not establish sustained kinetics.  Recheck of UT-E113: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read this individual source-bound card and its scoped metadata against current 06 E13 and the corresponding sources.json record. Cooperative RNA networks retain selected fragments/sequences and controlled chemistry; graph closure alone does not establish kinetics, subscription methods were not inspected, and the dated Figure 1 correction is disclosed. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-E113: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read this individual source-bound card and its scoped metadata against current 06 E13 and the corresponding sources.json record. Cooperative RNA networks retain selected fragments/sequences and controlled chemistry; graph closure alone does not establish kinetics, subscription methods were not inspected, and the dated Figure 1 correction is disclosed. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-E113: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read this individual source-bound card and its scoped metadata against current 06 E13 and the corresponding sources.json record. Cooperative RNA networks retain selected fragments/sequences and controlled chemistry; graph closure alone does not establish kinetics, subscription methods were not inspected, and the dated Figure 1 correction is disclosed. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-E113: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read this individual source-bound card and its scoped metadata against current 06 E13 and the corresponding sources.json record. Cooperative RNA networks retain selected fragments/sequences and controlled chemistry; graph closure alone does not establish kinetics, subscription methods were not inspected, and the dated Figure 1 correction is disclosed. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0076. Recheck of UT-E113: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read this individual source-bound card and its scoped metadata against current 06 E13 and the corresponding sources.json record. Cooperative RNA networks retain selected fragments/sequences and controlled chemistry; graph closure alone does not establish kinetics, subscription methods were not inspected, and the dated Figure 1 correction is disclosed. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Verified v0.2.1:E13 → UT-E113; source-local ID retains its edition; predecessor UT-E IDs are historical.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-E113: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

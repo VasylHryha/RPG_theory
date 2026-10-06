@@ -1,0 +1,95 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E106",
+  "fingerprint": "8dd5413fa8936919816961bca69beadfffbeb5d60c950ba78c7a27487acf91a2",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read this individual source-bound card and its scoped metadata against current 06 E06 and the corresponding sources.json record. Photosensitive chemical patterns retain periodic optical drive and reaction medium; forced response/spatial changes do not establish spontaneous drive origin or new fundamental laws. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Recheck of UT-E106: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "8dd5413fa8936919816961bca69beadfffbeb5d60c950ba78c7a27487acf91a2",
+    "ownRead": {
+      "id": "UT-E106",
+      "route": "/claims/UT-E106/",
+      "title": "Forced chemical patterns",
+      "description": "Periodic illumination of a photosensitive chemical oscillator locks responses to the forcing and changes the spatial pattern.",
+      "revision": 2,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [
+        "BIB-0071"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "sourceSha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc",
+        "startLine": 137,
+        "endLine": 150,
+        "excerptSha256": "f5dd6bbbb74284e2e17dc8fcf3213b0276d577e800d9232b42bdc39172ac46b2"
+      },
+      "statement": "## E06 — Resonant pattern formation in a chemical system\n\n**experiment · partial bridge · claims C2, C3.**\n\n**Reported result:** Periodic illumination of a photosensitive chemical oscillator locks responses to the forcing and changes the spatial pattern.\n\n**Already supplied:** The reaction medium and periodic optical drive are supplied externally.\n\n**Limit of the RRG connection:** The experiment links temporal forcing and spatial organization, not the spontaneous origin of the drive or new fundamental laws.\n\n**Source:** Petrov, Ouyang & Swinney (1997), *Nature 388, 655–657*. [DOI: 10.1038/41732](https://doi.org/10.1038/41732).\n\n**Verification coverage:** Publisher abstract and record. Checked 2026-10-02.\n\n",
+      "plainLanguage": "",
+      "scope": "experiment; partial bridge; source-reported C2, C3.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "v0.2.1:E06 → UT-E106; source-local ID retains its edition; predecessor UT-E IDs are historical.",
+      "adapter": "rrg-evidence-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "The experiment links temporal forcing and spatial organization, not the spontaneous origin of the drive or new fundamental laws.",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "7633693ed4cec59d38e95f9899061fd86b7af01b708ca12160015054134160ae",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "7633693ed4cec59d38e95f9899061fd86b7af01b708ca12160015054134160ae",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read this individual source-bound card and its scoped metadata against current 06 E06 and the corresponding sources.json record. Photosensitive chemical patterns retain periodic optical drive and reaction medium; forced response/spatial changes do not establish spontaneous drive origin or new fundamental laws. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Terminology compared with v0.2.1:E06 → UT-E106; source-local ID retains its edition; predecessor UT-E IDs are historical. Recheck of UT-E106: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read this individual source-bound card and its scoped metadata against current 06 E06 and the corresponding sources.json record. Photosensitive chemical patterns retain periodic optical drive and reaction medium; forced response/spatial changes do not establish spontaneous drive origin or new fundamental laws. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-E106: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read this individual source-bound card and its scoped metadata against current 06 E06 and the corresponding sources.json record. Photosensitive chemical patterns retain periodic optical drive and reaction medium; forced response/spatial changes do not establish spontaneous drive origin or new fundamental laws. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Supplied conditions and model scope retained: experiment; partial bridge; source-reported C2, C3. The experiment links temporal forcing and spatial organization, not the spontaneous origin of the drive or new fundamental laws.  Recheck of UT-E106: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read this individual source-bound card and its scoped metadata against current 06 E06 and the corresponding sources.json record. Photosensitive chemical patterns retain periodic optical drive and reaction medium; forced response/spatial changes do not establish spontaneous drive origin or new fundamental laws. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-E106: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read this individual source-bound card and its scoped metadata against current 06 E06 and the corresponding sources.json record. Photosensitive chemical patterns retain periodic optical drive and reaction medium; forced response/spatial changes do not establish spontaneous drive origin or new fundamental laws. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-E106: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read this individual source-bound card and its scoped metadata against current 06 E06 and the corresponding sources.json record. Photosensitive chemical patterns retain periodic optical drive and reaction medium; forced response/spatial changes do not establish spontaneous drive origin or new fundamental laws. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-E106: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read this individual source-bound card and its scoped metadata against current 06 E06 and the corresponding sources.json record. Photosensitive chemical patterns retain periodic optical drive and reaction medium; forced response/spatial changes do not establish spontaneous drive origin or new fundamental laws. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0071. Recheck of UT-E106: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read this individual source-bound card and its scoped metadata against current 06 E06 and the corresponding sources.json record. Photosensitive chemical patterns retain periodic optical drive and reaction medium; forced response/spatial changes do not establish spontaneous drive origin or new fundamental laws. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Verified v0.2.1:E06 → UT-E106; source-local ID retains its edition; predecessor UT-E IDs are historical.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-E106: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

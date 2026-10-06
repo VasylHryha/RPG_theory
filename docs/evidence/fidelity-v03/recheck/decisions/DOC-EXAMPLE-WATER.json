@@ -1,0 +1,164 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-WATER",
+  "fingerprint": "3b0ecdc3ddda2efbbfce4887a85473038d159ecb5d5a0a77a4878bbd3020df53",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the travelling crest/local material motion distinction against its recorded NOAA scope and core §§1–4, 01 §§1.1/3.1/7.1/9. The wave is a collective picture with propagating energy, not one intact parcel crossing the surface or a demonstrated persistent resonator. Physical resonance needs a test, propagation is not itself a complete recursive step, and no self-maintaining higher-level unit is claimed. Recheck of DOC-EXAMPLE-WATER: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "3b0ecdc3ddda2efbbfce4887a85473038d159ecb5d5a0a77a4878bbd3020df53",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-WATER",
+      "route": "/examples/water/",
+      "title": "Water: follow a pattern",
+      "description": "A wave carries a pattern across water while the water itself moves locally.",
+      "revision": 10,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D01",
+        "UT-D02",
+        "UT-D04"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0060"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nA small wave crosses a patch of water. Its crest reaches one place and then another. The water moves locally as energy passes through it; the crest is a pattern travelling across the surface, rather than one parcel of water travelling intact.\n\nTry following the two separately: where is the crest now, and what is the water at that place doing? Describing the wave requires both the material motion and the changing relationships between neighbouring regions. A list of water’s ingredients alone misses the pattern.\n\n## How RRG reads it\n\nRRG considers [geometry](/glossary/#geometry-shape) and activity together. Here geometry includes the relationships between neighbouring regions, while a [mode](/glossary/#mode) describes their organized motion and response. The visible wave makes the collective pattern easier to imagine.\n\n**Geometry** names the shape associated with that activity. **Resonant** asks which organized motions the setting can support. RRG uses [resonance](/glossary/#resonance) broadly for motion that has fallen into rhythm; a travelling wave gives us a picture of organized motion, but physical resonance needs its own test.\n\n## What you can see here\n\nYou can see a moving shape that belongs to many regions of water together. Following the whole pattern gives a different description from following one region. The parts and their collective activity both matter.\n\nThe wave also helps clarify [spreading](/glossary/#spreading). Its shape reaches successive regions as the disturbance travels. That is the influence visible here. To follow the rest of RRG’s cycle, we would need to track a lasting whole becoming a building block, or changed conditions supporting a distinct next organization.\n\n## Where the interpretation stops\n\nThe passing ripple illustrates a collective pattern, rather than a persistent, self-maintaining [resonator](/glossary/#resonator). Its physical model supplies the forces, material properties and propagation conditions. For a proposed [stable](/glossary/#stability) whole, specify what persists, for how long and under which conditions.\n\n## Evidence and sources\n\n[NOAA’s wave explanation](/references/#BIB-0060) distinguishes the travelling pattern from local water motion. The [string example](/examples/string/) makes boundaries explicit; the [cell example](/examples/cell/) asks how activity helps maintain the organization supporting it.\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3 01 §§1–1.1: geometry, full activity and resonance distinguished from undifferentiated motion; §§3–3.1: interval stability; §7.1: outward roles; §9: spreading versus recurrence. Unchanged core §§1–4 supplies the questions, not a claim that every wave is a resonator. BIB-0060 retains the NOAA surface-wave explanation of local material motion and propagating energy.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "51dc7c3014072a11082ec2e760e85ddfcb4556d8f4c3b14fa609ced3b780caf0"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "810f0c873824be77ea0b1ac44c9d0c4a43f4dbd129faf8c174fbaf09f1f4e100",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "3b94cd4f8166870804d9cad7192e620e3508213d534c3ba8eeb35601eb4f4bc2",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the travelling crest/local material motion distinction against its recorded NOAA scope and core §§1–4, 01 §§1.1/3.1/7.1/9. The wave is a collective picture with propagating energy, not one intact parcel crossing the surface or a demonstrated persistent resonator. Physical resonance needs a test, propagation is not itself a complete recursive step, and no self-maintaining higher-level unit is claimed. Terminology compared with RRG v0.3 01 §§1–1.1: geometry, full activity and resonance distinguished from undifferentiated motion; §§3–3.1: interval stability; §7.1: outward roles; §9: spreading versus recurrence. Unchanged core §§1–4 supplies the questions, not a claim that every wave is a resonator. BIB-0060 retains the NOAA surface-wave explanation of local material motion and propagating energy. Recheck of DOC-EXAMPLE-WATER: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the travelling crest/local material motion distinction against its recorded NOAA scope and core §§1–4, 01 §§1.1/3.1/7.1/9. The wave is a collective picture with propagating energy, not one intact parcel crossing the surface or a demonstrated persistent resonator. Physical resonance needs a test, propagation is not itself a complete recursive step, and no self-maintaining higher-level unit is claimed. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-EXAMPLE-WATER: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the travelling crest/local material motion distinction against its recorded NOAA scope and core §§1–4, 01 §§1.1/3.1/7.1/9. The wave is a collective picture with propagating energy, not one intact parcel crossing the surface or a demonstrated persistent resonator. Physical resonance needs a test, propagation is not itself a complete recursive step, and no self-maintaining higher-level unit is claimed. Supplied conditions and model scope retained: An illustrative beginner explanation mapped to the original supplied RRG documents.   Recheck of DOC-EXAMPLE-WATER: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the travelling crest/local material motion distinction against its recorded NOAA scope and core §§1–4, 01 §§1.1/3.1/7.1/9. The wave is a collective picture with propagating energy, not one intact parcel crossing the surface or a demonstrated persistent resonator. Physical resonance needs a test, propagation is not itself a complete recursive step, and no self-maintaining higher-level unit is claimed. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-EXAMPLE-WATER: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the travelling crest/local material motion distinction against its recorded NOAA scope and core §§1–4, 01 §§1.1/3.1/7.1/9. The wave is a collective picture with propagating energy, not one intact parcel crossing the surface or a demonstrated persistent resonator. Physical resonance needs a test, propagation is not itself a complete recursive step, and no self-maintaining higher-level unit is claimed. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-EXAMPLE-WATER: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the travelling crest/local material motion distinction against its recorded NOAA scope and core §§1–4, 01 §§1.1/3.1/7.1/9. The wave is a collective picture with propagating energy, not one intact parcel crossing the surface or a demonstrated persistent resonator. Physical resonance needs a test, propagation is not itself a complete recursive step, and no self-maintaining higher-level unit is claimed. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-EXAMPLE-WATER: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the travelling crest/local material motion distinction against its recorded NOAA scope and core §§1–4, 01 §§1.1/3.1/7.1/9. The wave is a collective picture with propagating energy, not one intact parcel crossing the surface or a demonstrated persistent resonator. Physical resonance needs a test, propagation is not itself a complete recursive step, and no self-maintaining higher-level unit is claimed. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0060. Recheck of DOC-EXAMPLE-WATER: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the travelling crest/local material motion distinction against its recorded NOAA scope and core §§1–4, 01 §§1.1/3.1/7.1/9. The wave is a collective picture with propagating energy, not one intact parcel crossing the surface or a demonstrated persistent resonator. Physical resonance needs a test, propagation is not itself a complete recursive step, and no self-maintaining higher-level unit is claimed. Verified RRG v0.3 01 §§1–1.1: geometry, full activity and resonance distinguished from undifferentiated motion; §§3–3.1: interval stability; §7.1: outward roles; §9: spreading versus recurrence. Unchanged core §§1–4 supplies the questions, not a claim that every wave is a resonator. BIB-0060 retains the NOAA surface-wave explanation of local material motion and propagating energy.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-EXAMPLE-WATER: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

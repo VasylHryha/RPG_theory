@@ -1,0 +1,221 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-ARTICLE-STRUCTURES",
+  "fingerprint": "ad26ffc76a69ef9f95338a006465b00d6d5fdf10ac67ddba494e1b6aa3ac8399",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the article against 04 §§2–4/11/13–14/37, 08 H06/H09/H11/H13/O1 and the controlled-culture acidity support. Its explanatory scientific meaning is unaffected by v0.3; edition/revision/related-navigation and binding context changed, while the argument still distinguishes physical pH changes from naming an effective unit. Supplied organisms, harmful outcomes, stellar enabling and the missing connected repeated sequence remain explicit; the verified mapped sections still support these claims. Recheck of DOC-ARTICLE-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "ad26ffc76a69ef9f95338a006465b00d6d5fdf10ac67ddba494e1b6aa3ac8399",
+    "ownRead": {
+      "id": "DOC-ARTICLE-STRUCTURES",
+      "route": "/articles/how-existing-structures-make-new-organization-possible/",
+      "title": "How existing structures make new organization possible",
+      "description": "Follow bacterial pH feedback and stellar conditions to separate physical environmental change from treating a whole as a unit.",
+      "revision": 8,
+      "kind": "article",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-EXAMPLE-LIFE",
+        "DOC-EXAMPLE-STAR",
+        "DOC-SOURCE-LINKS",
+        "UT-C02",
+        "UT-O101"
+      ],
+      "related": [
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [
+        "BIB-0089"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Explanatory article; universal claims and quantitative tests remain open.",
+      "evidenceState": "not-applicable",
+      "body": "## A population changes the next population's chances\n\nBegin with bacteria in a liquid culture. Their growth can change its acidity. That change can help another population grow, inhibit it or harm the population that caused the change. Ratzke and Gore report these different outcomes in a [controlled pH-feedback study](/references/#BIB-0089).\n\nThe useful question is causal: **what existed, what did it change, and what became possible afterward?** The culture and organisms were supplied. The result is environmental feedback between existing populations, not a new species or an origin-of-life experiment.\n\n## Conditions are part of the mechanism\n\nAn inventory of ingredients leaves out the conditions under which they interact. A structure can contribute a boundary, maintain a gradient or change its chemical surroundings. The later system then encounters a different setting.\n\nThe source's star example develops this in another physical setting. A gravitationally organized star establishes temperature, pressure and reaction conditions; stellar evolution and dispersal of many heavier elements change the material available for later chemistry. The [star reading](/examples/star/) keeps the mechanism and its limits visible.\n\nThese are different physical processes. Juxtaposing them does not demonstrate that they obey an identical microscopic equation. What they make intelligible is the question RRG wants to investigate: can the formation of a unit and its effect on later conditions be studied together?\n\n## Changing a background is different from naming a unit\n\nA molecule can be treated as an intact participant in a later description. That reduces the details we track. Bacterial pH changes alter the environment itself, whether or not we change our description. One operation is descriptive; the other is physical.\n\nThe current [recursive-background companion](/framework/recursive-background/) proposes a connection between them: a background supports organization; that organization changes the conditions inherited by what follows. It also asks where the first units arise, beginning with transient arrangements in an active background rather than a completed inventory of building blocks.\n\n## What would connect the stages?\n\nThe [recursive physical construction question](/claims/UT-O101/) calls for causally connected stages in one system. To discuss such a case, identify the initial conditions, the formed organization, its environmental effect and the subsequent organization. Say which stages were observed and which were supplied or inferred.\n\nA population growing after a pH change provides one bounded connection. It does not supply the whole source-to-repeated-level chain. Similarity between different examples can motivate a model; it cannot replace that missing causal connection.\n\n## A change can close possibilities too\n\nThe harmful and inhibitory culture outcomes matter. RRG's proposal is conditional: suitable coupling, resources and dynamics matter, and a process can stop, coexist, branch or destroy an organization. It is not a law that every change makes something larger or more complex.\n\nThe next useful question is therefore specific: **which organization changes which conditions, for which subsequent process?** [Follow life and environmental change](/examples/life-environment/) or [inspect the source connections](/evidence/source-links/) to trace a case with its actual support and limits.\n",
+      "sourceMapping": "Current 04 §§2–4, 11, 13–14, 37; current 08 H06/H09/H11/H13 and O1; core §§5–11; world §7 and background addendum. BIB-0089 provides the bounded supplied-culture pH/growth finding. Stellar context follows the separately mapped star reading. No new experiment, universal criterion or catalogue member.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "tags": [
+        "organization",
+        "research-explanation"
+      ],
+      "authorIdentity": "Vasyl Hryha",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "76a01e2e8d1eb304eecbe39f451235e4bf01c651e474fa439811cd1351bad669"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STAR",
+        "semanticDigest": "6079dc9eb32536aa945a714619743897128b55bd71fbfcd8ed82e492a51c1d33"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "f161128c55ffb647acc8f4161509ecaa55f2c77d37f0af1709990910bc8796d4"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "8f366db7224259268d872c14f69c5130b9f640fc9a635e11059c62e954f52057"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "77c75f8464c7f03f65dd1911562d46ce07a414fc3601884071b42fa18af6fbe5"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "8158a1694b1c72fb3552578e71b9cdb5ad2f6bae350d57e206009c43eebaf1f7"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "e5707e2821cf76d2410fd0b34793d8fe3d519bae3aa370f6895b550161f27384"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "106d808ebe795774fe28166b8e02b1ffb2558f1e337ca05efedb3c2f34f5d363"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "4bca2e54c508278f9e7f46c8ebda815def917d8c565907a83dc4f4481cb11308",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "2efc98ea40da166c4cf237e7c13d05ca7898c51bfa7880cc5f140ae42301660a",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the article against 04 §§2–4/11/13–14/37, 08 H06/H09/H11/H13/O1 and the controlled-culture acidity support. Its explanatory scientific meaning is unaffected by v0.3; edition/revision/related-navigation and binding context changed, while the argument still distinguishes physical pH changes from naming an effective unit. Supplied organisms, harmful outcomes, stellar enabling and the missing connected repeated sequence remain explicit; the verified mapped sections still support these claims. Terminology compared with Current 04 §§2–4, 11, 13–14, 37; current 08 H06/H09/H11/H13 and O1; core §§5–11; world §7 and background addendum. BIB-0089 provides the bounded supplied-culture pH/growth finding. Stellar context follows the separately mapped star reading. No new experiment, universal criterion or catalogue member. Recheck of DOC-ARTICLE-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the article against 04 §§2–4/11/13–14/37, 08 H06/H09/H11/H13/O1 and the controlled-culture acidity support. Its explanatory scientific meaning is unaffected by v0.3; edition/revision/related-navigation and binding context changed, while the argument still distinguishes physical pH changes from naming an effective unit. Supplied organisms, harmful outcomes, stellar enabling and the missing connected repeated sequence remain explicit; the verified mapped sections still support these claims. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-ARTICLE-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the article against 04 §§2–4/11/13–14/37, 08 H06/H09/H11/H13/O1 and the controlled-culture acidity support. Its explanatory scientific meaning is unaffected by v0.3; edition/revision/related-navigation and binding context changed, while the argument still distinguishes physical pH changes from naming an effective unit. Supplied organisms, harmful outcomes, stellar enabling and the missing connected repeated sequence remain explicit; the verified mapped sections still support these claims. Supplied conditions and model scope retained: Explanatory article; universal claims and quantitative tests remain open.   Recheck of DOC-ARTICLE-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the article against 04 §§2–4/11/13–14/37, 08 H06/H09/H11/H13/O1 and the controlled-culture acidity support. Its explanatory scientific meaning is unaffected by v0.3; edition/revision/related-navigation and binding context changed, while the argument still distinguishes physical pH changes from naming an effective unit. Supplied organisms, harmful outcomes, stellar enabling and the missing connected repeated sequence remain explicit; the verified mapped sections still support these claims. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-ARTICLE-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the article against 04 §§2–4/11/13–14/37, 08 H06/H09/H11/H13/O1 and the controlled-culture acidity support. Its explanatory scientific meaning is unaffected by v0.3; edition/revision/related-navigation and binding context changed, while the argument still distinguishes physical pH changes from naming an effective unit. Supplied organisms, harmful outcomes, stellar enabling and the missing connected repeated sequence remain explicit; the verified mapped sections still support these claims. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-ARTICLE-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the article against 04 §§2–4/11/13–14/37, 08 H06/H09/H11/H13/O1 and the controlled-culture acidity support. Its explanatory scientific meaning is unaffected by v0.3; edition/revision/related-navigation and binding context changed, while the argument still distinguishes physical pH changes from naming an effective unit. Supplied organisms, harmful outcomes, stellar enabling and the missing connected repeated sequence remain explicit; the verified mapped sections still support these claims. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-ARTICLE-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the article against 04 §§2–4/11/13–14/37, 08 H06/H09/H11/H13/O1 and the controlled-culture acidity support. Its explanatory scientific meaning is unaffected by v0.3; edition/revision/related-navigation and binding context changed, while the argument still distinguishes physical pH changes from naming an effective unit. Supplied organisms, harmful outcomes, stellar enabling and the missing connected repeated sequence remain explicit; the verified mapped sections still support these claims. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0089. Recheck of DOC-ARTICLE-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the article against 04 §§2–4/11/13–14/37, 08 H06/H09/H11/H13/O1 and the controlled-culture acidity support. Its explanatory scientific meaning is unaffected by v0.3; edition/revision/related-navigation and binding context changed, while the argument still distinguishes physical pH changes from naming an effective unit. Supplied organisms, harmful outcomes, stellar enabling and the missing connected repeated sequence remain explicit; the verified mapped sections still support these claims. Verified Current 04 §§2–4, 11, 13–14, 37; current 08 H06/H09/H11/H13 and O1; core §§5–11; world §7 and background addendum. BIB-0089 provides the bounded supplied-culture pH/growth finding. Stellar context follows the separately mapped star reading. No new experiment, universal criterion or catalogue member.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-ARTICLE-STRUCTURES: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its source-links dependency changes only the reviewed heading/self-link range to H28. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

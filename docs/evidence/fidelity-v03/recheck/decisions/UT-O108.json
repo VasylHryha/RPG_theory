@@ -1,0 +1,164 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O108",
+  "fingerprint": "cc318a036a970b2b1143721de5be7732bbcc32f79675e33c229b49249b590451",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the individual exact excerpt and complete authored contribution passage against current 08 O8, with 04’s model/testing boundaries. AI modules/relations remain a possible architecture with no benchmarked gain; the contribution requires task, learning/prediction measures and comparison, since stable activity alone can be unhelpful. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Recheck of UT-O108: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "cc318a036a970b2b1143721de5be7732bbcc32f79675e33c229b49249b590451",
+    "ownRead": {
+      "id": "UT-O108",
+      "route": "/claims/UT-O108/",
+      "title": "AI",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 4,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [
+        "DOC-MATH"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861",
+        "startLine": 58,
+        "endLine": 58,
+        "excerptSha256": "1aecd88e262b354a4d5ea22d39ae1cee65d8adf544b0dca20c5c7d70ba9206f2"
+      },
+      "statement": "**O8 — AI.** Persistent dynamic modules and activity-dependent relations suggest a possible architecture. In this release no RRG AI model is benchmarked and no gain in intelligence, transfer or efficiency is established. A later contribution should distinguish stable activity from useful prediction or learning. This proposal remains available without becoming a proof requirement for the physics framework.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "## Investigate one part\n\nA stable pattern can still be computationally unhelpful. The mathematical programme proposes specific model experiments, while the general AI application remains open. A contribution should state its task, prediction or learning measure and comparison, and distinguish useful performance from persistence alone. No project benchmark result is claimed here.\n\nBring a source passage, model, result or objection to [the contribution route](/about/#contribute). You can address this question without accepting the entire proposal. Read [all open questions](/open-problems/) for the surrounding programme.\n",
+      "sourceMapping": "v0.2.1 open claim O8; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "4174465de8b6e9c80edaf11c7c201cd4e716539e0fcda022ebc064cf7b18d4c3"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "75917455798224b8367606473bba07229683ea5de9d79ac7b2e9e67adb44a815"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "f257c0b8f0e527bf228749288ee7584276207d744e826429354c9c56b955c5c1"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "b9e65f8cc4081520ec7741108a78e72d930b711619fde6b39aeda125d9b11b91"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "65929e4811c2ba1888683dc3225bf16077a54cfea9e8f9b69fb7ed060d7af400"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "8a8f6076c55b67e7be586f34679d7675bb58c19ed10d6a952ae71588401d9a6c",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "3ff7d29d2073659361b0e124fd151cbaf15178b4a111c09b3323fc28eda12412",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the individual exact excerpt and complete authored contribution passage against current 08 O8, with 04’s model/testing boundaries. AI modules/relations remain a possible architecture with no benchmarked gain; the contribution requires task, learning/prediction measures and comparison, since stable activity alone can be unhelpful. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Terminology compared with v0.2.1 open claim O8; predecessor UT-O IDs remain historical. Recheck of UT-O108: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the individual exact excerpt and complete authored contribution passage against current 08 O8, with 04’s model/testing boundaries. AI modules/relations remain a possible architecture with no benchmarked gain; the contribution requires task, learning/prediction measures and comparison, since stable activity alone can be unhelpful. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-O108: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O8, with 04’s model/testing boundaries. AI modules/relations remain a possible architecture with no benchmarked gain; the contribution requires task, learning/prediction measures and comparison, since stable activity alone can be unhelpful. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Supplied conditions and model scope retained: Source-reported open claim, not a demonstrated result or a required proof before publication.   Recheck of UT-O108: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the individual exact excerpt and complete authored contribution passage against current 08 O8, with 04’s model/testing boundaries. AI modules/relations remain a possible architecture with no benchmarked gain; the contribution requires task, learning/prediction measures and comparison, since stable activity alone can be unhelpful. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-O108: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O8, with 04’s model/testing boundaries. AI modules/relations remain a possible architecture with no benchmarked gain; the contribution requires task, learning/prediction measures and comparison, since stable activity alone can be unhelpful. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-O108: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the individual exact excerpt and complete authored contribution passage against current 08 O8, with 04’s model/testing boundaries. AI modules/relations remain a possible architecture with no benchmarked gain; the contribution requires task, learning/prediction measures and comparison, since stable activity alone can be unhelpful. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-O108: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the individual exact excerpt and complete authored contribution passage against current 08 O8, with 04’s model/testing boundaries. AI modules/relations remain a possible architecture with no benchmarked gain; the contribution requires task, learning/prediction measures and comparison, since stable activity alone can be unhelpful. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of UT-O108: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the individual exact excerpt and complete authored contribution passage against current 08 O8, with 04’s model/testing boundaries. AI modules/relations remain a possible architecture with no benchmarked gain; the contribution requires task, learning/prediction measures and comparison, since stable activity alone can be unhelpful. Only edition/revision/source-hash or line binding changed in v0.3; the own scientific meaning is unaffected, and the mapped source still supports the claim. It remains a source-reported open question, not a completed result or a proof prerequisite for hypothesis publication. Verified v0.2.1 open claim O8; predecessor UT-O IDs remain historical.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-O108: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

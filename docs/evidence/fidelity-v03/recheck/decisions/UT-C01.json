@@ -1,0 +1,118 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-C01",
+  "fingerprint": "f8b389433b6b46229be2db4624c167115c44e4f04127647ea80448373e05606a",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the exact core §10 extension and the individual authored explanation against current 01 §§6.1/7.3 and 08 O4/O9. Only edition/source-fingerprint context changed; the own meaning is unaffected, and core §10 still explicitly rejects established one-force/one-frequency/one-scale identities. Fundamental unification remains an open extension, with collective interaction examples providing neither its derivation nor force-history proof. Recheck of UT-C01: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "f8b389433b6b46229be2db4624c167115c44e4f04127647ea80448373e05606a",
+    "ownRead": {
+      "id": "UT-C01",
+      "route": "/claims/UT-C01/",
+      "title": "Fundamental interaction extension",
+      "description": "An open downstream extension, distinct from the minimal locked definitions.",
+      "revision": 6,
+      "kind": "conjecture",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D05",
+        "UT-D06"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 128,
+        "endLine": 136,
+        "excerptSha256": "14296615f64ff7eab2b9866fd7a8ecadec3f84151fbe652e6209667383e8b5c1"
+      },
+      "statement": "## 10. Interaction / force status\n\nThe following is **NOT locked as established fact**:\n\n> known forces are identical to resonant frequencies or correspond one-to-one with scales.\n\nThe locked core only says that interactions occur within and between resonant geometries and can participate in forming higher-level geometries.\n\nThe stronger claim that gravity, electromagnetism, weak, and strong interactions are scale-dependent manifestations of deeper resonant geometry is an **RRG extension to be proven**, not a definition.\n",
+      "plainLanguage": "Can the familiar fundamental interactions be related through a deeper scale-dependent organization? This is the source's open extension. The definitions of geometry, modes and effective units do not derive such a relation. Reported collective interaction cases concern specified systems; they do not supply force unification.",
+      "scope": "An open downstream extension, distinct from the minimal locked definitions.",
+      "evidenceState": "proposed",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §10",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "No universal derivation or force unification is supplied.",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+        "plainLanguageSha256": "757d12af46e20a74c7344900dcace905e0a33527a008ce7dadeb828cce3364f0",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "be27b1eb650dd6d0e72032a217844c75b2e40b3d8595205994909e456d66a019",
+        "plainLanguageSha256": "757d12af46e20a74c7344900dcace905e0a33527a008ce7dadeb828cce3364f0",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the exact core §10 extension and the individual authored explanation against current 01 §§6.1/7.3 and 08 O4/O9. Only edition/source-fingerprint context changed; the own meaning is unaffected, and core §10 still explicitly rejects established one-force/one-frequency/one-scale identities. Fundamental unification remains an open extension, with collective interaction examples providing neither its derivation nor force-history proof. Terminology compared with 00_LOCKED_CORE.md §10 Recheck of UT-C01: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the exact core §10 extension and the individual authored explanation against current 01 §§6.1/7.3 and 08 O4/O9. Only edition/source-fingerprint context changed; the own meaning is unaffected, and core §10 still explicitly rejects established one-force/one-frequency/one-scale identities. Fundamental unification remains an open extension, with collective interaction examples providing neither its derivation nor force-history proof. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-C01: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the exact core §10 extension and the individual authored explanation against current 01 §§6.1/7.3 and 08 O4/O9. Only edition/source-fingerprint context changed; the own meaning is unaffected, and core §10 still explicitly rejects established one-force/one-frequency/one-scale identities. Fundamental unification remains an open extension, with collective interaction examples providing neither its derivation nor force-history proof. Supplied conditions and model scope retained: An open downstream extension, distinct from the minimal locked definitions. No universal derivation or force unification is supplied.  Recheck of UT-C01: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the exact core §10 extension and the individual authored explanation against current 01 §§6.1/7.3 and 08 O4/O9. Only edition/source-fingerprint context changed; the own meaning is unaffected, and core §10 still explicitly rejects established one-force/one-frequency/one-scale identities. Fundamental unification remains an open extension, with collective interaction examples providing neither its derivation nor force-history proof. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-C01: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the exact core §10 extension and the individual authored explanation against current 01 §§6.1/7.3 and 08 O4/O9. Only edition/source-fingerprint context changed; the own meaning is unaffected, and core §10 still explicitly rejects established one-force/one-frequency/one-scale identities. Fundamental unification remains an open extension, with collective interaction examples providing neither its derivation nor force-history proof. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-C01: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the exact core §10 extension and the individual authored explanation against current 01 §§6.1/7.3 and 08 O4/O9. Only edition/source-fingerprint context changed; the own meaning is unaffected, and core §10 still explicitly rejects established one-force/one-frequency/one-scale identities. Fundamental unification remains an open extension, with collective interaction examples providing neither its derivation nor force-history proof. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-C01: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the exact core §10 extension and the individual authored explanation against current 01 §§6.1/7.3 and 08 O4/O9. Only edition/source-fingerprint context changed; the own meaning is unaffected, and core §10 still explicitly rejects established one-force/one-frequency/one-scale identities. Fundamental unification remains an open extension, with collective interaction examples providing neither its derivation nor force-history proof. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of UT-C01: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the exact core §10 extension and the individual authored explanation against current 01 §§6.1/7.3 and 08 O4/O9. Only edition/source-fingerprint context changed; the own meaning is unaffected, and core §10 still explicitly rejects established one-force/one-frequency/one-scale identities. Fundamental unification remains an open extension, with collective interaction examples providing neither its derivation nor force-history proof. Verified 00_LOCKED_CORE.md §10; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-C01: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

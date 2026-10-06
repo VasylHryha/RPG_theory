@@ -1,0 +1,95 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E118",
+  "fingerprint": "da70231134f3e2fd4a5bc3332be780c9a3f582337226c181787311d77875c6bd",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read this individual source-bound card and its scoped metadata against current 06 E18 and the corresponding sources.json record. Optical binding retains illuminated microspheres and existing field/medium; bound configurations and field-scattering feedback remain a partial bridge rather than a recursively reproducing hierarchy. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Recheck of UT-E118: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "da70231134f3e2fd4a5bc3332be780c9a3f582337226c181787311d77875c6bd",
+    "ownRead": {
+      "id": "UT-E118",
+      "route": "/claims/UT-E118/",
+      "title": "Optical binding",
+      "description": "Illuminated microspheres display light-mediated interactions and bound configurations.",
+      "revision": 2,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [
+        "BIB-0081"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "sourceSha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc",
+        "startLine": 317,
+        "endLine": 330,
+        "excerptSha256": "878d6c2697bff9e6f0074da969785182905750ae3b355921ebbf87173ec26140"
+      },
+      "statement": "## E18 — Optical binding\n\n**experiment · partial bridge · claims C3, C4.**\n\n**Reported result:** Illuminated microspheres display light-mediated interactions and bound configurations.\n\n**Already supplied:** An external optical field, microspheres and surrounding medium already exist.\n\n**Limit of the RRG connection:** Field scattering and particle arrangement interact, but a bound pair is not yet a recursively reproducing hierarchy.\n\n**Source:** Burns, Fournier & Golovchenko (1989), *Physical Review Letters 63, 1233–1236*. [DOI: 10.1103/PhysRevLett.63.1233](https://doi.org/10.1103/PhysRevLett.63.1233).\n\n**Verification coverage:** Original-paper abstract and record on APS. Checked 2026-10-02.\n\n",
+      "plainLanguage": "",
+      "scope": "experiment; partial bridge; source-reported C3, C4.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "v0.2.1:E18 → UT-E118; source-local ID retains its edition; predecessor UT-E IDs are historical.",
+      "adapter": "rrg-evidence-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "Field scattering and particle arrangement interact, but a bound pair is not yet a recursively reproducing hierarchy.",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "759b1c2c8c83191582e678f6f6579551787f25135ba26dc5f5bffcb011fb9a14",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "759b1c2c8c83191582e678f6f6579551787f25135ba26dc5f5bffcb011fb9a14",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read this individual source-bound card and its scoped metadata against current 06 E18 and the corresponding sources.json record. Optical binding retains illuminated microspheres and existing field/medium; bound configurations and field-scattering feedback remain a partial bridge rather than a recursively reproducing hierarchy. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Terminology compared with v0.2.1:E18 → UT-E118; source-local ID retains its edition; predecessor UT-E IDs are historical. Recheck of UT-E118: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read this individual source-bound card and its scoped metadata against current 06 E18 and the corresponding sources.json record. Optical binding retains illuminated microspheres and existing field/medium; bound configurations and field-scattering feedback remain a partial bridge rather than a recursively reproducing hierarchy. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-E118: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read this individual source-bound card and its scoped metadata against current 06 E18 and the corresponding sources.json record. Optical binding retains illuminated microspheres and existing field/medium; bound configurations and field-scattering feedback remain a partial bridge rather than a recursively reproducing hierarchy. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Supplied conditions and model scope retained: experiment; partial bridge; source-reported C3, C4. Field scattering and particle arrangement interact, but a bound pair is not yet a recursively reproducing hierarchy.  Recheck of UT-E118: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read this individual source-bound card and its scoped metadata against current 06 E18 and the corresponding sources.json record. Optical binding retains illuminated microspheres and existing field/medium; bound configurations and field-scattering feedback remain a partial bridge rather than a recursively reproducing hierarchy. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-E118: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read this individual source-bound card and its scoped metadata against current 06 E18 and the corresponding sources.json record. Optical binding retains illuminated microspheres and existing field/medium; bound configurations and field-scattering feedback remain a partial bridge rather than a recursively reproducing hierarchy. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-E118: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read this individual source-bound card and its scoped metadata against current 06 E18 and the corresponding sources.json record. Optical binding retains illuminated microspheres and existing field/medium; bound configurations and field-scattering feedback remain a partial bridge rather than a recursively reproducing hierarchy. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-E118: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read this individual source-bound card and its scoped metadata against current 06 E18 and the corresponding sources.json record. Optical binding retains illuminated microspheres and existing field/medium; bound configurations and field-scattering feedback remain a partial bridge rather than a recursively reproducing hierarchy. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0081. Recheck of UT-E118: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read this individual source-bound card and its scoped metadata against current 06 E18 and the corresponding sources.json record. Optical binding retains illuminated microspheres and existing field/medium; bound configurations and field-scattering feedback remain a partial bridge rather than a recursively reproducing hierarchy. Only edition/revision/source-fingerprint context changed in v0.3; the own meaning and exact inherited card are unaffected, and the mapped source still says what this page claims. Authors, DOI, result type, supplied conditions and dated October 2 inspection limits remain source-reported, with no fresh paper audit or universal confirmation. Verified v0.2.1:E18 → UT-E118; source-local ID retains its edition; predecessor UT-E IDs are historical.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-E118: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

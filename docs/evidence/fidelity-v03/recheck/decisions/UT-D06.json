@@ -1,0 +1,102 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D06",
+  "fingerprint": "7dbc784bf20353d17b6317dda0d9594bf7388eded6072348853f5ea5343783de",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §5. Compatible differing lower systems may form a collective whole, retain internal activity and take distinct roles without identical duplication. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Recheck of UT-D06: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "7dbc784bf20353d17b6317dda0d9594bf7388eded6072348853f5ea5343783de",
+    "ownRead": {
+      "id": "UT-D06",
+      "route": "/claims/UT-D06/",
+      "title": "Higher-level formation",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 3,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 57,
+        "endLine": 72,
+        "excerptSha256": "70d9e6d53a6d43c1a7410abfa801d650bd026f9da24e986c907b3151ea075286"
+      },
+      "statement": "## 5. Higher-level formation\n\nA higher-level resonant geometry may be formed from any compatible collection of lower-level resonant geometries:\n\n\\[\n\\boxed{\\{R_n^1,R_n^2,\\ldots,R_n^m\\}\\rightarrow R_{n+1}}.\n\\]\n\nThe lower-level members:\n\n- do not need to be identical;\n- do not need to duplicate first;\n- can have different roles and internal modes;\n- remain internally active after the higher-level structure forms.\n\nThe higher level introduces new collective constraints and a new collective mode structure while containing the lower levels.\n",
+      "plainLanguage": "Compatible lower-level systems may form a higher-level organization while retaining internal activity. Their components may differ.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §5; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+        "plainLanguageSha256": "1d53ce6a0cf1c5ebc6e0fe7c1564a5002bd190ddc0f6de11846968b875fcff80",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+        "plainLanguageSha256": "1d53ce6a0cf1c5ebc6e0fe7c1564a5002bd190ddc0f6de11846968b875fcff80",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §5. Compatible differing lower systems may form a collective whole, retain internal activity and take distinct roles without identical duplication. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Terminology compared with 00_LOCKED_CORE.md §5; new navigation ID, source has no UT ID. Recheck of UT-D06: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §5. Compatible differing lower systems may form a collective whole, retain internal activity and take distinct roles without identical duplication. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of UT-D06: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §5. Compatible differing lower systems may form a collective whole, retain internal activity and take distinct roles without identical duplication. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Supplied conditions and model scope retained: A locked RRG meaning; a definition is not an experimental finding.   Recheck of UT-D06: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §5. Compatible differing lower systems may form a collective whole, retain internal activity and take distinct roles without identical duplication. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of UT-D06: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §5. Compatible differing lower systems may form a collective whole, retain internal activity and take distinct roles without identical duplication. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of UT-D06: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §5. Compatible differing lower systems may form a collective whole, retain internal activity and take distinct roles without identical duplication. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of UT-D06: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §5. Compatible differing lower systems may form a collective whole, retain internal activity and take distinct roles without identical duplication. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of UT-D06: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the individual excerpt, plain-language summary and mapping against unchanged locked core §5. Compatible differing lower systems may form a collective whole, retain internal activity and take distinct roles without identical duplication. Only edition/source-fingerprint context changed in v0.3; the own meaning and exact source statement are unaffected and still verified against that mapped section. Attribution remains an RRG definition, not an experimental finding or a new scientific approval. Verified 00_LOCKED_CORE.md §5; new navigation ID, source has no UT ID.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of UT-D06: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

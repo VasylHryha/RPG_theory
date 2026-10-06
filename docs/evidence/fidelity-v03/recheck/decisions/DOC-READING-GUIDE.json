@@ -1,0 +1,153 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-READING-GUIDE",
+  "fingerprint": "88c465de6c08e9bbba8fbc653923b37e5196d2635bfad5ce63f27027476097da",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Read the complete current README against the three-rule opening, scope paragraphs and history/check boundaries. Repaired the obsolete claim that a final pending-name paragraph was still present, and restored the actual v0.3 world-first reading route and unchanged-core/detailed-evidence roles. The October 2 audit and supporting foundations remain historical scoped evidence; the source makes no new licence/deployment decision, while current website citation and rights have separate entrances. Recheck of DOC-READING-GUIDE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "88c465de6c08e9bbba8fbc653923b37e5196d2635bfad5ce63f27027476097da",
+    "ownRead": {
+      "id": "DOC-READING-GUIDE",
+      "route": "/documents/reading-guide/",
+      "title": "Reading guide and source roles",
+      "description": "Read the conceptual companion, the evidence and claim boundaries, then optional mathematics. The older bundled foundations are supporting history; carried-forward repository foundations remain current.",
+      "revision": 6,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-AUDIT",
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-CHANGELOG",
+        "R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON",
+        "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "R-CURRENT-GUIDE",
+        "R-CURRENT-ILLUSTRATIONS",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-GUIDE",
+        "sourceSha256": "9c7b8f940b33570ed7307f04fdc24ed5cc40d183aa8e07334766bd47d94f809d",
+        "startLine": 3,
+        "endLine": 82,
+        "excerptSha256": "ea83092e2910f948634cd25d13730f3aebbf26251a6ce2f9435659b9a498520c"
+      },
+      "statement": "\n- **Resonant → resonance:** motion falls into rhythm.\n- **Geometry → shape:** rhythm and shape hold each other, so it lasts.\n- **Recursive → resonator:** it spreads and joins into bigger shapes with a new resonance; the same rules repeat at each new scale.\n\nEverything moves. Most motion is chaos. Sometimes a piece of motion falls into a rhythm that keeps its own shape, and that shape keeps the rhythm going. It lasts: that is a resonator. Its rhythm reaches out. It makes nearby things move with it, stick to it, or take a similar shape. So more resonators appear, they join into bigger shapes with a new rhythm of their own, and the same thing happens again at the next level.\n\n**RRG v0.3 — author-clarified edition, 2026-10-06**\n**Author:** Vasyl Hryha. **Status:** a unifying framework, not yet proven.\n\nThe paragraph gives RRG's proposed common pattern. Spreading and joining need suitable conditions; neither happens at every level. “Recursive” means both the lasting resonator's role and the whole cycle repeating at a new scale. Rhythm and shape hold each other; neither comes first. The full plain-language explanation is [01 §§0–15](01_world_explanation.md#0-the-name-states-the-rules).\n\nIn compact technical form:\n\n\\[\nB_n\\rightarrow R_n\\rightarrow B_{n+1},\\qquad\nR_n=(G_n,M_n),\\qquad G_n\\leftrightarrow M_n.\n\\]\n\n**Resonant** concerns the mode structure \\(M_n\\). **Geometry** concerns the organization \\(G_n\\) and their mutual support \\(G_n\\leftrightarrow M_n\\). **Recursive** concerns the lasting pair \\(R_n\\), its possible role in larger pairs, and its contribution to the next background \\(B_{n+1}\\). That background includes inherited material, constraints and unresolved activity; it need not be literal white noise.\n\nIn plain words, resonance is motion that has fallen into rhythm, rather than undifferentiated chaotic motion. Technically, a mode includes frequency, phase, amplitude, spatial pattern, coupling and timescale—not just a number in hertz. A visible periodic oscillation is not required by the [unchanged core §§2–4, 12](00_LOCKED_CORE.md).\n\n**RRG's energy-and-time reading:**\n\n> Everything moves, and energy is what keeps things moving: vibrating, rotating, resonating. Every resonator lasts for a time. Some hold on their own for billions of years; others last only while energy keeps flowing through them.\n\nSee [01 §3.1](01_world_explanation.md#31-energy-and-time) for motion, energy, supply and lifetime. This edition clarifies the explanations and sharpens open hypotheses. It leaves the normative core definitions unchanged and adds no evidence cases or literature verification.\n\nThe project explains and shares this proposed connection, collects well-described cases and invites independent development. A universal proof is not required before sharing a labelled hypothesis. Small derivations, observations and objections can improve particular claims.\n\n## Reading paths\n\n**First read the idea:** [01 — World explanation](01_world_explanation.md), including its [Common questions](01_world_explanation.md#16-common-questions). **Then follow the argument:** [04 — Full conceptual companion](04_recursive_background_generation.md). It preserves the whole session: source background, feedback, scale, persistence, propagation, coexistence, life, new effective rules, expansion and possible engineering implications.\n\n**Then inspect the examples:** [06 — Evidence catalogue](06_evidence_catalog.md). There are 22 primary case cards, with separate labels for result type and relevance. Every card identifies the reported result, what was supplied, what it does not demonstrate, its DOI and verification coverage.\n\n**Check the boundaries without losing the ambition:** [08 — Claims and session coverage](08_claim_coverage.md). This distinguishes the author’s broad hypotheses from local evidence and avoids silently dropping life, cosmic expansion, AI or “magic” from the discussion.\n\n**Optional mathematics:** [05 — Mathematical illustrations](05_mathematical_source_model.md). These are small calculations under explicit assumptions, not proof that a single equation generates the universe. There is no requirement that the author adopt this model.\n\n**See what changed and what was previously audited:** [07 — Audit report](07_audit_report.md) and [CHANGELOG](CHANGELOG.md).\n\n## A clear public evidence format\n\nFor each example, state **what was observed**, **how RRG interprets it**, **what was already provided**, and **what remains open**. Show result type separately: experiment, simulation or mathematical/theoretical derivation. Do not present an analogy as a measured mechanism, a review as an independent experiment, or a computation as an observation in nature.\n\nMany standard theories already explain the reported effects. Showing compatibility with RRG is different from distinguishing RRG from those theories. A collection of separately supported connections is not automatically a demonstrated causal chain.\n\nA useful entry point into the evidence is E19 for interactions induced by a random field, E07 for coupled matter–field organization, E20 for vibrationally maintained pattern multiplication, and E14 for unresolved dynamics in a collective description. Their limitations matter as much as the resemblance to the idea.\n\n## What is maintained, and what remains conjectural\n\nThe central source-direction idea is unchanged. So is the ambition that new stable organizations could help explain successive effective “worlds.” The publication does not silently replace that ambition with a claim merely about sand on a plate.\n\nThe extensions to all physical scales, the origin of fundamental interactions, cosmic expansion and deliberately designed domains are retained as **open conjectures**. Engineering selected effective dynamics is a narrower claim than rewriting fundamental laws. Life and AI are possible applications or analogies, not confirmations of a shared microscopic mechanism.\n\nOne further distinction is essential: **structures physically changing their environment** is different from **our coarse-graining a system’s description**. RRG proposes a relationship between the two, but a mathematical reduction by itself does not demonstrate that a new level physically formed.\n\n## History and file authority\n\nThe files in `foundations/` are byte-preserved snapshots of 01–03. They preserve the terminology and prior development; they have **not** received a complete fresh source audit. Some contain older proof-first priorities, stronger mathematical assertions and a known formatting issue. [Foundation errata](foundations/ERRATA.md) records the compatibility corrections. They are not the current public evidence catalogue.\n\nThe former 04–06 text companions, old README and earlier numerical bundles remain preserved in the owner’s audited GPT Library release; the predecessor GitHub current set is separately preserved under `research/history/repository-current-2026-10-01/`. They are not duplicated inside the active `RRG_CURRENT` tree and do not define current publication guidance. The current README, revised 01, and 04–08 state this edition’s explanatory scope. The exact v0.2.1 repository current promoted on 5 October 2026 is preserved under `research/history/repository-current-v0.2.1-promoted-2026-10-05/`. Where an earlier mathematical implementation is more restrictive than the conceptual proposal, treat it as an optional stronger branch rather than silently redefining the theory.\n\nThe predecessor audited package originated as a conversation/Library artifact and was **explicitly promoted by the owner to replace the prior active repository companion on 5 October 2026**. The predecessor repository source set is preserved under `research/history/repository-current-2026-10-01/`. This source promotion does not by itself qualify the website, grant a licence, or authorize a Pages deployment.\n\n## What was checked\n\nThe 2 October 2026 v0.2.1 audit checked those companions for conceptual consistency, verified targeted primary-source metadata and reported findings, corrected selected mathematics and ran nine groups of deterministic spot checks. See [check results](checks/verification_results.json), [source register](sources.json) and [package validation](checks/package_validation.json).\n\nThis is not independent peer review, a systematic review of all literature, formal verification, or an independent replication of the experiments. Some case cards are abstract-level checks. The earlier 32-cell simulation was not rerun. These limitations are recorded per source instead of hidden behind a numerical quality score.\n\n## Contributions and release practice\n\nUseful contributions include simpler explanations, missing cases, counterexamples, corrected citations and optional derivations. Each change should identify which claim it affects. The author need not perform every proof personally; neither should unavailable proof be replaced by a statement of certainty.\n\nReviews occur when undertaken by the project; no automatic monitoring is running. Keep source dates, revisions and old interpretations so later readers can reconstruct changes. Use original source pages for videos and figures, and check reuse rights before embedding them. A citation is not a licence.\n\nAuthor attribution is Vasyl Hryha. Existing repository rights remain as recorded separately; this source revision makes no licence grant or publication/deployment decision. Third-party citations do not assign reuse rights or guarantee a venue’s acceptance.\n",
+      "plainLanguage": "This is the current v0.3 source guide. Start with the three name-rules and the world explanation, then follow the background argument, evidence catalogue, claim boundaries and optional mathematics. The core remains unchanged, and the evidence audit remains dated 2 October 2026.\n\nThe older bundled foundations and checks are supporting provenance, not newly audited definitions or v0.3 scientific results. This source revision makes no licence or deployment decision; [Cite](/cite/) and [Rights](/legal/) record the website’s current attribution and reuse terms.",
+      "scope": "The v0.3 source reading guide, with unchanged core, dated evidence and historical support kept distinct.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "README.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-AUDIT",
+        "path": "research/RRG_CURRENT/07_audit_report.md",
+        "sha256": "222487df50faa457b85d5748a846f728f2c4fd9845b4a33ffac181d6e45ebfa7"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHANGELOG",
+        "path": "research/RRG_CURRENT/CHANGELOG.md",
+        "sha256": "9805e5fa91a28e4c91afe7a6cf9f341cc6d09ffd6ebcb56466f64a8802eef522"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON",
+        "path": "research/RRG_CURRENT/checks/package_validation.json",
+        "sha256": "08119204887af30f804c7b8a6a7031a90f5be43ce8ba03f68601b72f75136353"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-GUIDE",
+        "path": "research/RRG_CURRENT/README.md",
+        "sha256": "9c7b8f940b33570ed7307f04fdc24ed5cc40d183aa8e07334766bd47d94f809d"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "a1ed0bdce2266529dddb05143c6608f83c0424af3840e464809c7d0d377b0bee",
+        "plainLanguageSha256": "8dfaeade865885a4e3652976b7489b62178ca7c62a0e5a40d22e23c705b58b74",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "05df47bb39185a207e92f03d646d66d1224e3d75267c96fc5746536bf1ae124b",
+        "plainLanguageSha256": "2dd98f61cb2088307da3393863f96d128c2742265329bfb1744dafdfff785ada",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the complete current README against the three-rule opening, scope paragraphs and history/check boundaries. Repaired the obsolete claim that a final pending-name paragraph was still present, and restored the actual v0.3 world-first reading route and unchanged-core/detailed-evidence roles. The October 2 audit and supporting foundations remain historical scoped evidence; the source makes no new licence/deployment decision, while current website citation and rights have separate entrances. Terminology compared with README.md; exact raw excerpt, with disclosed presentation adapters. Recheck of DOC-READING-GUIDE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Read the complete current README against the three-rule opening, scope paragraphs and history/check boundaries. Repaired the obsolete claim that a final pending-name paragraph was still present, and restored the actual v0.3 world-first reading route and unchanged-core/detailed-evidence roles. The October 2 audit and supporting foundations remain historical scoped evidence; the source makes no new licence/deployment decision, while current website citation and rights have separate entrances. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-READING-GUIDE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Read the complete current README against the three-rule opening, scope paragraphs and history/check boundaries. Repaired the obsolete claim that a final pending-name paragraph was still present, and restored the actual v0.3 world-first reading route and unchanged-core/detailed-evidence roles. The October 2 audit and supporting foundations remain historical scoped evidence; the source makes no new licence/deployment decision, while current website citation and rights have separate entrances. Supplied conditions and model scope retained: The v0.3 source reading guide, with unchanged core, dated evidence and historical support kept distinct.   Recheck of DOC-READING-GUIDE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Read the complete current README against the three-rule opening, scope paragraphs and history/check boundaries. Repaired the obsolete claim that a final pending-name paragraph was still present, and restored the actual v0.3 world-first reading route and unchanged-core/detailed-evidence roles. The October 2 audit and supporting foundations remain historical scoped evidence; the source makes no new licence/deployment decision, while current website citation and rights have separate entrances. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-READING-GUIDE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Read the complete current README against the three-rule opening, scope paragraphs and history/check boundaries. Repaired the obsolete claim that a final pending-name paragraph was still present, and restored the actual v0.3 world-first reading route and unchanged-core/detailed-evidence roles. The October 2 audit and supporting foundations remain historical scoped evidence; the source makes no new licence/deployment decision, while current website citation and rights have separate entrances. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-READING-GUIDE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Read the complete current README against the three-rule opening, scope paragraphs and history/check boundaries. Repaired the obsolete claim that a final pending-name paragraph was still present, and restored the actual v0.3 world-first reading route and unchanged-core/detailed-evidence roles. The October 2 audit and supporting foundations remain historical scoped evidence; the source makes no new licence/deployment decision, while current website citation and rights have separate entrances. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-READING-GUIDE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Read the complete current README against the three-rule opening, scope paragraphs and history/check boundaries. Repaired the obsolete claim that a final pending-name paragraph was still present, and restored the actual v0.3 world-first reading route and unchanged-core/detailed-evidence roles. The October 2 audit and supporting foundations remain historical scoped evidence; the source makes no new licence/deployment decision, while current website citation and rights have separate entrances. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of DOC-READING-GUIDE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Read the complete current README against the three-rule opening, scope paragraphs and history/check boundaries. Repaired the obsolete claim that a final pending-name paragraph was still present, and restored the actual v0.3 world-first reading route and unchanged-core/detailed-evidence roles. The October 2 audit and supporting foundations remain historical scoped evidence; the source makes no new licence/deployment decision, while current website citation and rights have separate entrances. Verified README.md; exact raw excerpt, with disclosed presentation adapters.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-READING-GUIDE: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

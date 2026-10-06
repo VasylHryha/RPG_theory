@@ -1,0 +1,93 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-AUTHORITY",
+  "fingerprint": "f489b9b6344c89d76d33456d6e77fa814d47bc81a0ad3d2d5e18a4039fa66527",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the exact current SOURCE_AUTHORITY with its website context. Repaired the false description of this v0.3 record as an already-completed historical migration note; it now states the current author-directed revision, unchanged core/control, retained dated evidence and preserved predecessor correctly. The source’s separate website-review requirement remains visible and acceptance is supplied only by this actual review, without claiming scientific, rights or deployment approval from source identity. Recheck of DOC-AUTHORITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "f489b9b6344c89d76d33456d6e77fa814d47bc81a0ad3d2d5e18a4039fa66527",
+    "ownRead": {
+      "id": "DOC-AUTHORITY",
+      "route": "/documents/source-authority/",
+      "title": "Source authority and edition",
+      "description": "How the current v0.3 author clarifications, unchanged core, dated evidence and preserved v0.2.1 predecessor relate.",
+      "revision": 4,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-AUTHORITY",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-AUTHORITY",
+        "sourceSha256": "75d3e1a0c2f8cdc0e177f7f29c6a0e1df41a5c84a46a567af67ba9c0546cc7bd",
+        "startLine": 3,
+        "endLine": 25,
+        "excerptSha256": "eba9d3fc596e524c46dcc3d5e4693477c94d807d612e497115f8dd51f023e48a"
+      },
+      "statement": "**Current repository edition:** RRG v0.3 — author-clarified edition, 2026-10-06\n**Author:** Vasyl Hryha\n**Predecessor:** RRG v0.2.1 repository current; audited 2026-10-02, promoted 2026-10-05.\n\nThis is an explicitly directed source revision. It integrates the author's clarified meaning into the actual documents. No separate clarification source is added. The semantic record is CHANGELOG change `RRG-2026-10-06-V03-AUTHOR-CLARIFIED` under the existing R4 §0.3/§4.5 revision procedure.\n\n## Authority order\n\n1. `00_LOCKED_CORE.md` remains the minimal normative core, byte-for-byte unchanged. Its v0.2 heading identifies the retained core, not the whole package's edition.\n2. `05_CHANGE_CONTROL.md` remains the unchanged core-change protocol. No failing definition or core revision is proposed.\n3. `01_world_explanation.md` is the v0.3 main plain-language explanation. Its clarifications explain the core or label downstream hypotheses. `02_scientific_framework.md` and `03_mathematical_core.md` retain their arguments and candidate models, with necessary cross-references distinguishing latent interaction channels from the speculative origin of forces.\n4. `04_recursive_background_generation.md` retains the audited argument with minimal v0.3 links and labelled extensions. README and 08 supply the entry point, current hypothesis status and common-question route. Optional mathematics (05), evidence cases (06) and the dated audit (07) remain carried-forward work; their old dates do not report a v0.3 audit.\n5. `sources.json` carries the same case/reading evidence register with v0.3 edition metadata. `foundations/` and `checks/` are unchanged supporting provenance/audit material, not new current definitions or new execution results.\n\n## Predecessor provenance\n\nThe complete v0.2.1 repository current promoted on 5 October 2026 is preserved byte-for-byte under `research/history/repository-current-v0.2.1-promoted-2026-10-05/`. The earlier repository set remains at `research/history/repository-current-2026-10-01/`; audited package history and supplied ZIPs remain untouched. These are historical editions, not competing current sources.\n\nThe inventory seal and manifest hash in `config/research-source.json` identify the resulting edition. Its revision record identifies the predecessor seal and exact affected membership. A new identity never upgrades an old approval.\n\n## Website consequences\n\nSource-bound website bindings are updated mechanically to the new exact source edition and excerpts. Authored website text is outside this source-revision batch. Previous source-dependent website decisions remain issued evidence and become stale; missing decisions remain pending. This revision grants no website fidelity acceptance, scientific certification, licence, commit, public publication or deployment authorization. The website must follow the revised sources in its separate work.\n",
+      "plainLanguage": "This is the current authority record for the v0.3 author-clarified source revision. The minimal core and its change-control protocol remain byte-identical. The revised world explanation, necessary framework/mathematics links and sharpened claim coverage coexist with the carried-forward optional calculations, evidence catalogue and dated audit.\n\nThe exact v0.2.1 predecessor and older foundation snapshots are preserved as history. A new source identity does not renew an old website approval or establish new scientific evidence. The source record requires a separate website fidelity review; the reading decisions describe that review, while [Cite](/cite/) identifies this website selection and [Rights](/legal/) records permissions. Original downloads retain exact source bytes.",
+      "scope": "How the current v0.3 author clarifications, unchanged core, dated evidence and preserved v0.2.1 predecessor relate.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "SOURCE_AUTHORITY.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-AUTHORITY",
+        "path": "research/RRG_CURRENT/SOURCE_AUTHORITY.md",
+        "sha256": "75d3e1a0c2f8cdc0e177f7f29c6a0e1df41a5c84a46a567af67ba9c0546cc7bd"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "9a1f358fc366428c6e5dc9d63bcfe56294e1879ffdc5245ba7f60528bbfdf352",
+        "plainLanguageSha256": "6916c8bf43e30111526c17e20be4c6a656e0fbcb705c1277a6c544cd35bf98c0",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "9a1f358fc366428c6e5dc9d63bcfe56294e1879ffdc5245ba7f60528bbfdf352",
+        "plainLanguageSha256": "2236e07f6dd3aaa66acc7de93f7bcc55f2de4889f46daed37a322c586f256a1c",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the exact current SOURCE_AUTHORITY with its website context. Repaired the false description of this v0.3 record as an already-completed historical migration note; it now states the current author-directed revision, unchanged core/control, retained dated evidence and preserved predecessor correctly. The source’s separate website-review requirement remains visible and acceptance is supplied only by this actual review, without claiming scientific, rights or deployment approval from source identity. Terminology compared with SOURCE_AUTHORITY.md; exact raw excerpt, with disclosed presentation adapters. Recheck of DOC-AUTHORITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Compared the exact current SOURCE_AUTHORITY with its website context. Repaired the false description of this v0.3 record as an already-completed historical migration note; it now states the current author-directed revision, unchanged core/control, retained dated evidence and preserved predecessor correctly. The source’s separate website-review requirement remains visible and acceptance is supplied only by this actual review, without claiming scientific, rights or deployment approval from source identity. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-AUTHORITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Compared the exact current SOURCE_AUTHORITY with its website context. Repaired the false description of this v0.3 record as an already-completed historical migration note; it now states the current author-directed revision, unchanged core/control, retained dated evidence and preserved predecessor correctly. The source’s separate website-review requirement remains visible and acceptance is supplied only by this actual review, without claiming scientific, rights or deployment approval from source identity. Supplied conditions and model scope retained: How the current v0.3 author clarifications, unchanged core, dated evidence and preserved v0.2.1 predecessor relate.   Recheck of DOC-AUTHORITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Compared the exact current SOURCE_AUTHORITY with its website context. Repaired the false description of this v0.3 record as an already-completed historical migration note; it now states the current author-directed revision, unchanged core/control, retained dated evidence and preserved predecessor correctly. The source’s separate website-review requirement remains visible and acceptance is supplied only by this actual review, without claiming scientific, rights or deployment approval from source identity. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-AUTHORITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Compared the exact current SOURCE_AUTHORITY with its website context. Repaired the false description of this v0.3 record as an already-completed historical migration note; it now states the current author-directed revision, unchanged core/control, retained dated evidence and preserved predecessor correctly. The source’s separate website-review requirement remains visible and acceptance is supplied only by this actual review, without claiming scientific, rights or deployment approval from source identity. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-AUTHORITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Compared the exact current SOURCE_AUTHORITY with its website context. Repaired the false description of this v0.3 record as an already-completed historical migration note; it now states the current author-directed revision, unchanged core/control, retained dated evidence and preserved predecessor correctly. The source’s separate website-review requirement remains visible and acceptance is supplied only by this actual review, without claiming scientific, rights or deployment approval from source identity. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-AUTHORITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Compared the exact current SOURCE_AUTHORITY with its website context. Repaired the false description of this v0.3 record as an already-completed historical migration note; it now states the current author-directed revision, unchanged core/control, retained dated evidence and preserved predecessor correctly. The source’s separate website-review requirement remains visible and acceptance is supplied only by this actual review, without claiming scientific, rights or deployment approval from source identity. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of DOC-AUTHORITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Compared the exact current SOURCE_AUTHORITY with its website context. Repaired the false description of this v0.3 record as an already-completed historical migration note; it now states the current author-directed revision, unchanged core/control, retained dated evidence and preserved predecessor correctly. The source’s separate website-review requirement remains visible and acceptance is supplied only by this actual review, without claiming scientific, rights or deployment approval from source identity. Verified SOURCE_AUTHORITY.md; exact raw excerpt, with disclosed presentation adapters.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-AUTHORITY: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-INTERACTIONS",
+  "fingerprint": "c2b9eec18ad25d059f1aea335a8fa56ec549fe3cf1a386482f46e7b702b521cb",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T21:14:52.926Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared the optical-binding and random-field descriptions with 06 E18/E19 and the broader interpretation with 01 §§6.1–7.3, core §§10–11 and 08 H24–H26/O9. Microspheres, light and medium are supplied; a random optical field is not ideal white noise or sphere creation. The effective-interaction arrows and force-fit/inner/outer language remain conditional, with fundamental-force origins explicitly speculative and no new experiment or universal derivation claimed. Recheck of DOC-CONCEPT-INTERACTIONS: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. The shared Cite renderer now accurately distinguishes completed private fidelity qualification from preview and public release; this utility copy change renews the shared renderer fingerprint without changing this reading.",
+  "inputs": {
+    "fingerprint": "c2b9eec18ad25d059f1aea335a8fa56ec549fe3cf1a386482f46e7b702b521cb",
+    "ownRead": {
+      "id": "DOC-CONCEPT-INTERACTIONS",
+      "route": "/concepts/effective-interactions/",
+      "title": "When organization changes interactions",
+      "description": "Supplied light can mediate particle interactions; RRG asks how organization changes what can fit and last.",
+      "revision": 10,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-CLAIM-COVERAGE",
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-C01",
+        "UT-E118",
+        "UT-E119"
+      ],
+      "related": [
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Deeper explanation of source-reported interaction evidence and the conditional higher-organization extension.",
+      "evidenceState": "not-applicable",
+      "body": "## Light changes how particles interact\n\nTiny spheres, called microspheres, in a supplied optical field can interact through the light and form bound arrangements. The particles, light and medium all matter. Their arrangement can affect the field-mediated interaction, so the explanation needs more than an inventory of particles.\n\nAn **effective interaction** is the interaction relevant to this collective setting. It describes how the parts affect one another under those conditions. Changing that setting can change their collective behaviour without replacing the fundamental laws.\n\n## What the reported cases show\n\nTwo existing cases make the distinction concrete:\n\n- [Optical binding](/claims/UT-E118/): illuminated microspheres show light-mediated interactions and bound arrangements, with light, particles and medium supplied.\n- [Random-light interactions](/claims/UT-E119/): an artificially generated random optical field produces measured attraction between small spheres. Random here does not mean ideal broadband white noise; the experiment does not create the spheres.\n\nThe [catalogue](/evidence/catalogue/) retains each result’s supplied conditions, type and inspection limits. These are local component connections, rather than a complete autonomous sequence of new levels.\n\n## Forces, fit and resonance\n\nA molecule’s bonds and a star’s gravity illustrate different holding mechanisms. RRG’s broader proposal is: **forces gather and hold; [resonance](/glossary/#resonance) decides what fits and lasts**. “Decides” means physical compatibility.\n\n[Inner resonance](/glossary/#inner-resonance) names compatible activity within a thing. [Outer resonance](/glossary/#outer-resonance) names compatible coupling to other things and shared surroundings. These terms add no holding force and require neither identical frequencies nor phases. [Read forces and fit](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts).\n\n## From changed conditions to further organization\n\nAn existing organization may create [changed surroundings](/glossary/#changed-surroundings), allowing interactions that help a next organization last. In technical shorthand:\n\n$$\nR_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}.\n$$\n\n$R$ is a [resonator](/glossary/#resonator), $G$ its [geometry](/glossary/#geometry-shape), $M$ its [mode structure](/glossary/#mode), and $\\mathcal I^{\\rm eff}$ the relevant effective interaction. The arrows express a conditional proposal. Physically changing the surroundings differs from our choosing a simpler description. [Read the background explanation](/framework/recursive-background/).\n\n## Where the interpretation stops\n\nNew ways to interact do not demonstrate new fundamental forces. RRG’s suggestion that forces themselves may have appeared through earlier levels is speculative and may never be directly confirmed. [Read that hypothesis](/documents/world-explanation/#73-new-levels-bring-new-ways-to-interact).\n\nThe [claims discussion](/research-status/claims/) retains force unification, recursive construction, cosmology, life and AI as open claims or analogies. Controlled effective behaviour establishes its tested setting. The website reports the existing sources; it has not performed these experiments or a new paper audit.\n",
+      "sourceMapping": "RRG v0.3 01 §§6.1–7.3: established forces versus proposed resonance-fit, inner/outer resonance, changed surroundings and effective interactions versus speculative force origin; §§15–15.1: limits and reachable tests. Current catalogue E18/E19 retains supplied optical-field conditions, reported arrangements/attraction and component scope; 04 §§4, 11, 15, 29 and 08 H24–H26/O9 retains conditional background/interaction relation. Unchanged core §§10–11 extensions, not force derivation or replacement of physical laws.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "71846cbc39e1d70980f5cb51de5000ef988692a1d1c819cb96da115dcdc23171"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "7a58d79407900bc258a99df3606c05a776bb5641cf96a192296b26bec7095543"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "4174465de8b6e9c80edaf11c7c201cd4e716539e0fcda022ebc064cf7b18d4c3"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "ab33f95ff6349d30ddfd0eafec649e0af09d39709ff98087d5c39db1eff056da"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "75917455798224b8367606473bba07229683ea5de9d79ac7b2e9e67adb44a815"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "8e6fbd94e6628d5703c58bc875b37b78cb97eff0c5612a0de9c85fea0441fd54"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "f257c0b8f0e527bf228749288ee7584276207d744e826429354c9c56b955c5c1"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "b9e65f8cc4081520ec7741108a78e72d930b711619fde6b39aeda125d9b11b91"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "ed8c5f67d512efde32ba1bb3c08992b4999297c6df93f130e940cda1e0a01857"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "8f366db7224259268d872c14f69c5130b9f640fc9a635e11059c62e954f52057"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "d9a7c78e29b96b0ce7b2d88d317b9091c2b1417978d610c92a8c896e6d56e1f3"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "8f364d9f172572b6e25eae2e5e838b3848a66108d4100bb85fdc8a3685659719"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "6706bfeaf380f472118198f7bddbd6b31e8c092c0e299506f634d551d8a298ad"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "0691139ea1e8fbbce0d89f163dd3882eb6a928a2b9c3ae848ec6bc08a762d968"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "abbe5f049a4159ab82e363596077873d641043f0cb8ec2516e5c1c4fb29e181a"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "d07b50c7d1a68cd1cad2d00ff6554a0e0ab0dc6a444e5e1faa225bb303fe5967"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "b80d233058ca217927f60ed64e17b29ad082c793510c9e858fb17dbc6eb80b2c"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "6e4b5c0644dbc509129e0a1628aa22e61154584bae1b6adecb23a9d150e181fb"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "be40b10e19928989aa3b39e673e6b1cc479655a5e0bb57b456057790011ec73f"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "59e188574217a96685350acb7f2c2e9bb53e8408cdce69f6cf5294eeed62f27e"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "e5707e2821cf76d2410fd0b34793d8fe3d519bae3aa370f6895b550161f27384"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "d622a6fea6153f23603e84a41ef0457ab2c87c839e27a64add5fd7ae03a89b9c"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "da9b16c7f24536da0064cdf8cfa8ab3c4f44f00cf8951e4cdb093f432b388e40"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "f759903492bc79d995518b2c445470e4a7d320c1aaa01f28d95768e92bfa07b6"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "a3b1dd2cc38cc1d9bcbe0957615485bfc475984adc035c5d1019b118c4b4d8f9"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "0bdcfd6dd9e8a93969b3d62a9adf7add566931ff47ee8d44b8a3620d9537b976"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "f2f4a8d2817d84f385b1c10e2dd31bacbca833ab9e2cff4a1ff45a3715b2992b"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "62559a277a6a14d9bbf7d9d0da1afb3288cdb0cda8418925fa2942a46a62c91d"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "65929e4811c2ba1888683dc3225bf16077a54cfea9e8f9b69fb7ed060d7af400"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "4b3e1a10bb8555b188934d12651df9581fbc781cd0b02ab3d3e1166ace9c3fa5"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "dbbbaaed01bce72625289142b812ada54a8ac6c49d0e3a0ce750973dc0c6cc2a"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "7d59e0c54a71de202c958daa1ffc511bd4878f0d6d83d5400dde8066d508da04",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "329649e4f476a5db500f7fcf42b279fe3308964e3615abcbe40be5f913c36313",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the optical-binding and random-field descriptions with 06 E18/E19 and the broader interpretation with 01 §§6.1–7.3, core §§10–11 and 08 H24–H26/O9. Microspheres, light and medium are supplied; a random optical field is not ideal white noise or sphere creation. The effective-interaction arrows and force-fit/inner/outer language remain conditional, with fundamental-force origins explicitly speculative and no new experiment or universal derivation claimed. Terminology compared with RRG v0.3 01 §§6.1–7.3: established forces versus proposed resonance-fit, inner/outer resonance, changed surroundings and effective interactions versus speculative force origin; §§15–15.1: limits and reachable tests. Current catalogue E18/E19 retains supplied optical-field conditions, reported arrangements/attraction and component scope; 04 §§4, 11, 15, 29 and 08 H24–H26/O9 retains conditional background/interaction relation. Unchanged core §§10–11 extensions, not force derivation or replacement of physical laws. Recheck of DOC-CONCEPT-INTERACTIONS: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "meaning": "Compared the optical-binding and random-field descriptions with 06 E18/E19 and the broader interpretation with 01 §§6.1–7.3, core §§10–11 and 08 H24–H26/O9. Microspheres, light and medium are supplied; a random optical field is not ideal white noise or sphere creation. The effective-interaction arrows and force-fit/inner/outer language remain conditional, with fundamental-force origins explicitly speculative and no new experiment or universal derivation claimed. Read own authored body, summary and exact statement with its mapped v0.3 sections. Recheck of DOC-CONCEPT-INTERACTIONS: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "assumptions": "Compared the optical-binding and random-field descriptions with 06 E18/E19 and the broader interpretation with 01 §§6.1–7.3, core §§10–11 and 08 H24–H26/O9. Microspheres, light and medium are supplied; a random optical field is not ideal white noise or sphere creation. The effective-interaction arrows and force-fit/inner/outer language remain conditional, with fundamental-force origins explicitly speculative and no new experiment or universal derivation claimed. Supplied conditions and model scope retained: Deeper explanation of source-reported interaction evidence and the conditional higher-organization extension.   Recheck of DOC-CONCEPT-INTERACTIONS: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "hypotheses": "Compared the optical-binding and random-field descriptions with 06 E18/E19 and the broader interpretation with 01 §§6.1–7.3, core §§10–11 and 08 H24–H26/O9. Microspheres, light and medium are supplied; a random optical field is not ideal white noise or sphere creation. The effective-interaction arrows and force-fit/inner/outer language remain conditional, with fundamental-force origins explicitly speculative and no new experiment or universal derivation claimed. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Recheck of DOC-CONCEPT-INTERACTIONS: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "evidenceDescriptions": "Compared the optical-binding and random-field descriptions with 06 E18/E19 and the broader interpretation with 01 §§6.1–7.3, core §§10–11 and 08 H24–H26/O9. Microspheres, light and medium are supplied; a random optical field is not ideal white noise or sphere creation. The effective-interaction arrows and force-fit/inner/outer language remain conditional, with fundamental-force origins explicitly speculative and no new experiment or universal derivation claimed. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Recheck of DOC-CONCEPT-INTERACTIONS: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "openQuestions": "Compared the optical-binding and random-field descriptions with 06 E18/E19 and the broader interpretation with 01 §§6.1–7.3, core §§10–11 and 08 H24–H26/O9. Microspheres, light and medium are supplied; a random optical field is not ideal white noise or sphere creation. The effective-interaction arrows and force-fit/inner/outer language remain conditional, with fundamental-force origins explicitly speculative and no new experiment or universal derivation claimed. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Recheck of DOC-CONCEPT-INTERACTIONS: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "attribution": "Compared the optical-binding and random-field descriptions with 06 E18/E19 and the broader interpretation with 01 §§6.1–7.3, core §§10–11 and 08 H24–H26/O9. Microspheres, light and medium are supplied; a random optical field is not ideal white noise or sphere creation. The effective-interaction arrows and force-fit/inner/outer language remain conditional, with fundamental-force origins explicitly speculative and no new experiment or universal derivation claimed. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Recheck of DOC-CONCEPT-INTERACTIONS: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful.",
+    "sourceMappings": "Compared the optical-binding and random-field descriptions with 06 E18/E19 and the broader interpretation with 01 §§6.1–7.3, core §§10–11 and 08 H24–H26/O9. Microspheres, light and medium are supplied; a random optical field is not ideal white noise or sphere creation. The effective-interaction arrows and force-fit/inner/outer language remain conditional, with fundamental-force origins explicitly speculative and no new experiment or universal derivation claimed. Verified RRG v0.3 01 §§6.1–7.3: established forces versus proposed resonance-fit, inner/outer resonance, changed surroundings and effective interactions versus speculative force origin; §§15–15.1: limits and reachable tests. Current catalogue E18/E19 retains supplied optical-field conditions, reported arrangements/attraction and component scope; 04 §§4, 11, 15, 29 and 08 H24–H26/O9 retains conditional background/interaction relation. Unchanged core §§10–11 extensions, not force derivation or replacement of physical laws.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Recheck of DOC-CONCEPT-INTERACTIONS: its own material, all mapped source identities and both rendered reading bodies are identical to the individually accepted v0.3 version. Reused that specific source comparison; no new scientific assertion or evidence status is introduced. Its scientific dependency snapshots are unchanged. Compared the affected renderer status wording; source-reported scientific status and the prior eight-check finding remain faithful."
+  }
+}
