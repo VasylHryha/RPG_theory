@@ -829,6 +829,10 @@ export/ZIP/credit/rights contracts PASS. Matched prior-deployment and candidate
 captures inspected. The runner now accepts browser/evidence options and uses one
 reusable `npm run test:e2e` approval. No fresh full regression/cross-engine/Lighthouse
 campaign is claimed. Short receipt and exact scope: `docs/evidence/public-rework/`.
+Implementation committed/pushed on main as `3b4dd1b`; clean-commit routine
+[CI 37454086734](https://github.com/VasylHryha/rrg_theory/actions/runs/37454086734)
+PASS at root/actual target. Subsequent receipt-only update preserves tested website
+inputs and skips redundant CI. No new qualification or deployment dispatched.
 
 **Fidelity and publication:** genuine preserved prior receipts were read and hashed
 for all 75 current entries. Seven own records changed; 68 own records, all 75

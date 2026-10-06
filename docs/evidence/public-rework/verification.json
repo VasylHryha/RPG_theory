@@ -80,7 +80,7 @@
     "realScreenReader": "NOT_PERFORMED",
     "originalAuditedBundle": "Exact private capture and comparison complete; original checksum-list self-entry defect preserved",
     "independentOffMachineArchive": "NOT_VERIFIED",
-    "freshBroadRegressionAndCI": "NOT_RUN in this acceptance record; unchanged evidence reused where applicable"
+    "freshBroadRegressionAndCI": "Fresh broad regression NOT_RUN; clean-commit routine CI PASS for 3b4dd1b"
   },
   "prePush": {
     "status": "PASS",
@@ -103,5 +103,12 @@
       "diagnostic": "listen EPERM for tsx local IPC socket",
       "resolution": "Outside-sandbox retry passed; reusable npm run verify:push approval saved."
     }
-  ]
+  ],
+  "routineCI": {
+    "status": "PASS",
+    "runId": 37454086734,
+    "sourceCommit": "3b4dd1b83c213bdf5b510b5aab9a01a608db8426",
+    "url": "https://github.com/VasylHryha/rrg_theory/actions/runs/37454086734",
+    "scope": "Routine root/actual-target diagnostics, builds, output audits and short browser journeys; no qualification or deployment"
+  }
 }

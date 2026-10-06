@@ -30,6 +30,8 @@ Quick syntax/whitespace check PASS. Initial sandbox socket refusals occurred bef
 checks ran; approved reruns passed and are separate from those attempts. Exact
 counts, commands, output identities and limitations: `verification.json`.
 
+Committed/pushed implementation `3b4dd1b` on main. Clean-commit [routine CI](https://github.com/VasylHryha/rrg_theory/actions/runs/37454086734) PASS for root and actual target. No qualification or deployment was dispatched. The subsequent receipt-only commit preserves the tested website inputs.
+
 Matching before/after captures use the **actual privately captured deployment**
 from main `534350e3e2ecb7e130ccc5af716f44410df9f636`, not invented fixture content.
 Six principal prior pages were captured at 1440×1000 light / 390×900 dark;
