@@ -1,0 +1,131 @@
+{
+  "changeId": "RRG-2026-10-06-V03-AUTHOR-CLARIFIED",
+  "category": "wording",
+  "predecessorEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+  "predecessorSeal": "caaa7691bde318f188dcecf45950b05b5c0cdcc2cff9770474522395b67c8139",
+  "sourceChangeRef": "research/RRG_CURRENT/CHANGELOG.md",
+  "affectedFiles": [
+    "research/RRG_CURRENT/01_world_explanation.md",
+    "research/RRG_CURRENT/02_scientific_framework.md",
+    "research/RRG_CURRENT/03_mathematical_core.md",
+    "research/RRG_CURRENT/04_recursive_background_generation.md",
+    "research/RRG_CURRENT/08_claim_coverage.md",
+    "research/RRG_CURRENT/CHANGELOG.md",
+    "research/RRG_CURRENT/CURRENT_MANIFEST.md",
+    "research/RRG_CURRENT/README.md",
+    "research/RRG_CURRENT/SOURCE_AUTHORITY.md",
+    "research/RRG_CURRENT/sources.json"
+  ],
+  "affectedClaimIds": [
+    "DOC-ARTICLE-STRUCTURES",
+    "DOC-ARTICLE-UNIT",
+    "DOC-AUTHORITY",
+    "DOC-BACKGROUND",
+    "DOC-CLAIM-COVERAGE",
+    "DOC-CONCEPT-GEOMETRY",
+    "DOC-CONCEPT-INTERACTIONS",
+    "DOC-CONCEPT-RECURSION",
+    "DOC-CONCEPT-STABILITY",
+    "DOC-CONCEPTS",
+    "DOC-EVIDENCE",
+    "DOC-EXAMPLE-CELL",
+    "DOC-EXAMPLE-LIFE",
+    "DOC-EXAMPLE-MOLECULE",
+    "DOC-EXAMPLE-STAR",
+    "DOC-EXAMPLE-STRING",
+    "DOC-EXAMPLE-WATER",
+    "DOC-EXAMPLES",
+    "DOC-FRAMEWORK",
+    "DOC-HOME",
+    "DOC-LIBRARY",
+    "DOC-MATH",
+    "DOC-OPEN-PROBLEMS",
+    "DOC-READING-GUIDE",
+    "DOC-SOURCE-CHANGES",
+    "DOC-SOURCE-LINKS",
+    "DOC-START",
+    "DOC-STATUS",
+    "DOC-WORLD",
+    "UT-C01",
+    "UT-C02",
+    "UT-E101",
+    "UT-E102",
+    "UT-E103",
+    "UT-E104",
+    "UT-E105",
+    "UT-E106",
+    "UT-E107",
+    "UT-E108",
+    "UT-E109",
+    "UT-E110",
+    "UT-E111",
+    "UT-E112",
+    "UT-E113",
+    "UT-E114",
+    "UT-E115",
+    "UT-E116",
+    "UT-E117",
+    "UT-E118",
+    "UT-E119",
+    "UT-E120",
+    "UT-E121",
+    "UT-E122",
+    "UT-O101",
+    "UT-O102",
+    "UT-O103",
+    "UT-O104",
+    "UT-O105",
+    "UT-O106",
+    "UT-O107",
+    "UT-O108"
+  ],
+  "problem": "Reader questions about the three rules, chance/noise, force/fit, environmental roles, stellar ancestry, evolution and force history need direct answers.",
+  "before": "Core-consistent source-direction framework with less explicit plain-language meaning.",
+  "after": "Author-clarified entry/main explanation, labelled extensions and common questions; normative core and empirical evidence unchanged.",
+  "rationale": "Integrate clarified meaning into one actual current edition with exact predecessor provenance.",
+  "permissionBasis": "Vasyl Hryha’s direction of 6 October 2026 to refine the source documents into v0.3 under R4 §§0.3/4.5; no new approval fabricated.",
+  "resultEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+  "resultSeal": "dd38bd32095925941cf0c18199052767747e59c14d40ef298f900a52cab352b1",
+  "priorSnapshot": [
+    {
+      "path": "research/RRG_CURRENT/01_world_explanation.md",
+      "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+    },
+    {
+      "path": "research/RRG_CURRENT/02_scientific_framework.md",
+      "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+    },
+    {
+      "path": "research/RRG_CURRENT/03_mathematical_core.md",
+      "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+    },
+    {
+      "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+      "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+    },
+    {
+      "path": "research/RRG_CURRENT/08_claim_coverage.md",
+      "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+    },
+    {
+      "path": "research/RRG_CURRENT/CHANGELOG.md",
+      "sha256": "dec67818d2027ded9d161b88e6c4dad17d2c0d95f3c962168ea857e31c765b2a"
+    },
+    {
+      "path": "research/RRG_CURRENT/CURRENT_MANIFEST.md",
+      "sha256": "5a24b17fabc570d2f6586d430f08fbcb26d245bba5224a1fba746545e8c07fab"
+    },
+    {
+      "path": "research/RRG_CURRENT/README.md",
+      "sha256": "0fbfb13da4e1abe21e8c1aff8b97b993076a0ba8e67c3fc5bc5dc5a8879ea4fb"
+    },
+    {
+      "path": "research/RRG_CURRENT/SOURCE_AUTHORITY.md",
+      "sha256": "5bbec0436a67a9200745eeba85c8484f67fc845f67980267f57fab14fc5b343e"
+    },
+    {
+      "path": "research/RRG_CURRENT/sources.json",
+      "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+    }
+  ]
+}

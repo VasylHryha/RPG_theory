@@ -724,6 +724,9 @@ This ladder is evidence for repeated emergence of new effective units, but it do
 - NASA Webb, *What were the first stars like?*: https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-were-the-first-stars-like/
 - Nature Index, *Prebiotic Chemistry and Origins of Life*: https://www.nature.com/nature-index/topics/l4/prebiotic-chemistry-and-origins-of-life
 
+The author-clarified plain-language interaction reading is [01 §6.1](01_world_explanation.md#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts). The additional speculation that fundamental forces may themselves have appeared with scale and time is [01 §7.3](01_world_explanation.md#73-new-levels-bring-new-ways-to-interact). The latent-channel account below is a narrower possible model; it does not settle that origin question or require forces to have existed unchanged from the start.
+
+
 ## 19. A better formulation of “the force is already there waiting”
 
 The conversational intuition was:

@@ -1,0 +1,9 @@
+---
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { readingPages } from '../lib/contents';
+import { renderContact } from '../lib/publication-policy';
+import { activeConfig } from '../lib/site-config';
+---
+<ReadingLayout {...readingPages['/contact/']} route="/contact/">
+  <article class="article shell"><h1>Contact the author</h1><div class="prose" data-contact set:html={renderContact(undefined,activeConfig().basePath)} /></article>
+</ReadingLayout>

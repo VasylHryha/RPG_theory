@@ -4,11 +4,11 @@
   "route": "/examples/molecule/",
   "title": "Molecule: the whole constrains its parts",
   "description": "Connections and collective behaviour, beyond an inventory of atoms.",
-  "revision": 4,
+  "revision": 9,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-06",
@@ -36,7 +36,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§5–6; framework §6; core §§5–8. OpenStax supplies supplementary molecular-structure background.",
+  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. World §§5–6; framework §6; core §§5–8. OpenStax supplies supplementary molecular-structure background.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -65,3 +65,5 @@ This is the useful-unit question behind [recursion and scale](/concepts/recursio
 The [helium hydride detection paper](/references/#BIB-0091) reports an observation in planetary nebula NGC 7027. The [NASA SOFIA introduction](/references/#BIB-0013) supplies broader context. Detection there is not a direct observation of the first molecule forming in the early Universe.
 
 [When is a whole one useful unit?](/articles/when-can-a-whole-be-treated-as-one-useful-unit/) · [All examples](/examples/)
+
+Questions or ideas? [Contact the author](/contact/).

@@ -1,0 +1,12 @@
+---
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { activePublication } from '../lib/publication';
+import { activeConfig } from '../lib/site-config';
+import { readingPages, renderContents } from '../lib/contents';
+const metadata=readingPages['/contents/'];
+---
+<ReadingLayout {...metadata} route="/contents/">
+  <article class="article shell book-contents"><header><h1>{metadata.title}</h1><p class="article-lede">{metadata.description}</p></header>
+    <div data-book-contents set:html={renderContents(activePublication(),activeConfig().basePath)} />
+  </article>
+</ReadingLayout>

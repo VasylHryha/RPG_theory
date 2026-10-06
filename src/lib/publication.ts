@@ -69,7 +69,7 @@ export function selectPublication(corpus: Corpus, config: SiteConfig, release: R
   if(!citationGates(credit).length)downloads.push('/downloads/CITATION.cff');
   const manifest = { schema:'unity-publication/1', mode, deployEligible:false, releaseId:release.releaseId, releaseAt:release.releaseAt, inventorySeal:corpus.admission.inventorySeal,
     entries:entries.map(e=>({ id:e.id,route:e.route,publicationState:e.publicationState,digest:sha256(stableJSON(e)),reviewState:reviewState(corpus,e.id),fingerprint:reviewFingerprint(corpus,e.id) })),
-    routes:entries.map(e=>e.route).concat(['/articles/','/cite/','/about/','/legal/','/search/','/rss.xml','/sitemap.xml','/search-manifest.json','/search-client.js','/references/','/404.html',...downloads],mode==='release'?[]:['/fixtures/math/']),
+    routes:entries.map(e=>e.route).concat(['/contents/','/articles/','/cite/','/about/','/contact/','/legal/','/search/','/rss.xml','/sitemap.xml','/search-manifest.json','/search-client.js','/references/','/404.html',...downloads],mode==='release'?[]:['/fixtures/math/']),
     navigationIds:discovery.map(e=>e.id), searchIds:entries.filter(searchable).map(e=>e.id), sitemapIds:entries.filter(searchable).map(e=>e.id), feedIds:discovery.filter(e=>e.kind==='article' && e.publicationState==='published').map(e=>e.id), exportIds, sourceDownloadKeys, downloads, referenceIds };
   return { admission, entries, references:referenceIds.map(id=>corpus.references.get(id)!), manifest, manifestSha256:sha256(stableJSON(manifest)) };
 }

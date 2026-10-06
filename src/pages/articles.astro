@@ -1,10 +1,11 @@
 ---
 import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { readingPages } from '../lib/contents';
 import {activePublication} from '../lib/publication';
 import {activeConfig} from '../lib/site-config';
 import {renderArticles} from '../lib/library';
 const html=renderArticles(activePublication(),activeConfig().basePath);
 ---
-<ReadingLayout title="Articles" description="Explanatory articles with research proposals and actual results kept distinct." route="/articles/">
+<ReadingLayout {...readingPages['/articles/']} route="/articles/">
 <article class="article shell"><h1>Articles</h1><div class="prose" data-article-index set:html={html}/></article>
 </ReadingLayout>

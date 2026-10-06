@@ -1,26 +1,39 @@
 # Recursive Resonant Geometry
-## A source-first hypothesis, with an inspectable evidence map
+## The name states the rules
 
-**Publication companion v0.2.1 · audited 2 October 2026 · promoted to repository CURRENT 5 October 2026**
+- **Resonant → resonance:** motion falls into rhythm.
+- **Geometry → shape:** rhythm and shape hold each other, so it lasts.
+- **Recursive → resonator:** it spreads and joins into bigger shapes with a new resonance; the same rules repeat at each new scale.
 
-> **Repository authority note.** The owner has explicitly replaced the prior active publication/research companion with this audited v0.2.1 set. The project-wide minimal `00_LOCKED_CORE.md`, current repository 01–03 foundation documents, and `05_CHANGE_CONTROL.md` are carried forward unchanged; see `SOURCE_AUTHORITY.md` and `CURRENT_MANIFEST.md`.
+Everything moves. Most motion is chaos. Sometimes a piece of motion falls into a rhythm that keeps its own shape, and that shape keeps the rhythm going. It lasts: that is a resonator. Its rhythm reaches out. It makes nearby things move with it, stick to it, or take a similar shape. So more resonators appear, they join into bigger shapes with a new rhythm of their own, and the same thing happens again at the next level.
 
-RRG asks whether the same organizing process can repeat across scales: fluctuations produce temporary arrangements; some arrangements support activity that helps them persist; those persistent structures change their surroundings; the resulting environment offers conditions for further organization.
+**RRG v0.3 — author-clarified edition, 2026-10-06**
+**Author:** Vasyl Hryha. **Status:** a unifying framework, not yet proven.
 
-What is organized at one level can become the material, constraints and unresolved activity of the next. In the project’s notation:
+The paragraph gives RRG's proposed common pattern. Spreading and joining need suitable conditions; neither happens at every level. “Recursive” means both the lasting resonator's role and the whole cycle repeating at a new scale. Rhythm and shape hold each other; neither comes first. The full plain-language explanation is [01 §§0–15](01_world_explanation.md#0-the-name-states-the-rules).
+
+In compact technical form:
 
 \[
 B_n\rightarrow R_n\rightarrow B_{n+1},\qquad
 R_n=(G_n,M_n),\qquad G_n\leftrightarrow M_n.
 \]
 
-Here **geometry** means spatial and relational organization. **Mode** includes frequency, phase, amplitude, spatial pattern, coupling and timescale—not just a number in hertz. **Background** includes inherited structures and dynamics; it need not be literal white noise.
+**Resonant** concerns the mode structure \(M_n\). **Geometry** concerns the organization \(G_n\) and their mutual support \(G_n\leftrightarrow M_n\). **Recursive** concerns the lasting pair \(R_n\), its possible role in larger pairs, and its contribution to the next background \(B_{n+1}\). That background includes inherited material, constraints and unresolved activity; it need not be literal white noise.
 
-**The project’s current purpose is to explain and share this proposed connection, collect well-described cases, and invite independent development. A universal proof is not required before publication.** Small derivations, observations and objections can improve the framework without proving or refuting all of it at once.
+In plain words, resonance is motion that has fallen into rhythm, rather than undifferentiated chaotic motion. Technically, a mode includes frequency, phase, amplitude, spatial pattern, coupling and timescale—not just a number in hertz. A visible periodic oscillation is not required by the [unchanged core §§2–4, 12](00_LOCKED_CORE.md).
+
+**RRG's energy-and-time reading:**
+
+> Everything moves, and energy is what keeps things moving: vibrating, rotating, resonating. Every resonator lasts for a time. Some hold on their own for billions of years; others last only while energy keeps flowing through them.
+
+See [01 §3.1](01_world_explanation.md#31-energy-and-time) for motion, energy, supply and lifetime. This edition clarifies the explanations and sharpens open hypotheses. It leaves the normative core definitions unchanged and adds no evidence cases or literature verification.
+
+The project explains and shares this proposed connection, collects well-described cases and invites independent development. A universal proof is not required before sharing a labelled hypothesis. Small derivations, observations and objections can improve particular claims.
 
 ## Reading paths
 
-**First read the idea:** [04 — Full conceptual companion](04_recursive_background_generation.md). It preserves the whole session: source background, feedback, scale, persistence, propagation, coexistence, life, new effective rules, expansion and possible engineering implications.
+**First read the idea:** [01 — World explanation](01_world_explanation.md), including its [Common questions](01_world_explanation.md#16-common-questions). **Then follow the argument:** [04 — Full conceptual companion](04_recursive_background_generation.md). It preserves the whole session: source background, feedback, scale, persistence, propagation, coexistence, life, new effective rules, expansion and possible engineering implications.
 
 **Then inspect the examples:** [06 — Evidence catalogue](06_evidence_catalog.md). There are 22 primary case cards, with separate labels for result type and relevance. Every card identifies the reported result, what was supplied, what it does not demonstrate, its DOI and verification coverage.
 
@@ -28,7 +41,7 @@ Here **geometry** means spatial and relational organization. **Mode** includes f
 
 **Optional mathematics:** [05 — Mathematical illustrations](05_mathematical_source_model.md). These are small calculations under explicit assumptions, not proof that a single equation generates the universe. There is no requirement that the author adopt this model.
 
-**See what was repaired:** [07 — Audit report](07_audit_report.md) and [CHANGELOG](CHANGELOG.md).
+**See what changed and what was previously audited:** [07 — Audit report](07_audit_report.md) and [CHANGELOG](CHANGELOG.md).
 
 ## A clear public evidence format
 
@@ -50,13 +63,13 @@ One further distinction is essential: **structures physically changing their env
 
 The files in `foundations/` are byte-preserved snapshots of 01–03. They preserve the terminology and prior development; they have **not** received a complete fresh source audit. Some contain older proof-first priorities, stronger mathematical assertions and a known formatting issue. [Foundation errata](foundations/ERRATA.md) records the compatibility corrections. They are not the current public evidence catalogue.
 
-The former 04–06 text companions, old README and earlier numerical bundles remain preserved in the owner’s audited GPT Library release; the predecessor GitHub current set is separately preserved under `research/history/repository-current-2026-10-01/`. They are not duplicated inside the active `RRG_CURRENT` tree and do not define current publication guidance. The current README and audited 04–08 state this release’s publication scope. Where an earlier mathematical implementation is more restrictive than the conceptual proposal, treat it as an optional stronger branch rather than silently redefining the theory.
+The former 04–06 text companions, old README and earlier numerical bundles remain preserved in the owner’s audited GPT Library release; the predecessor GitHub current set is separately preserved under `research/history/repository-current-2026-10-01/`. They are not duplicated inside the active `RRG_CURRENT` tree and do not define current publication guidance. The current README, revised 01, and 04–08 state this edition’s explanatory scope. The exact v0.2.1 repository current promoted on 5 October 2026 is preserved under `research/history/repository-current-v0.2.1-promoted-2026-10-05/`. Where an earlier mathematical implementation is more restrictive than the conceptual proposal, treat it as an optional stronger branch rather than silently redefining the theory.
 
-This audited package originated as a conversation/Library artifact and was **explicitly promoted by the owner to replace the prior active repository companion on 5 October 2026**. The predecessor repository source set is preserved under `research/history/repository-current-2026-10-01/`. This source promotion does not by itself qualify the website, grant a licence, or authorize a Pages deployment.
+The predecessor audited package originated as a conversation/Library artifact and was **explicitly promoted by the owner to replace the prior active repository companion on 5 October 2026**. The predecessor repository source set is preserved under `research/history/repository-current-2026-10-01/`. This source promotion does not by itself qualify the website, grant a licence, or authorize a Pages deployment.
 
 ## What was checked
 
-The audit checked the current companions for conceptual consistency, verified targeted primary-source metadata and reported findings, corrected selected mathematics and ran nine groups of deterministic spot checks. See [check results](checks/verification_results.json), [source register](sources.json) and [package validation](checks/package_validation.json).
+The 2 October 2026 v0.2.1 audit checked those companions for conceptual consistency, verified targeted primary-source metadata and reported findings, corrected selected mathematics and ran nine groups of deterministic spot checks. See [check results](checks/verification_results.json), [source register](sources.json) and [package validation](checks/package_validation.json).
 
 This is not independent peer review, a systematic review of all literature, formal verification, or an independent replication of the experiments. Some case cards are abstract-level checks. The earlier 32-cell simulation was not rerun. These limitations are recorded per source instead of hidden behind a numerical quality score.
 
@@ -66,4 +79,4 @@ Useful contributions include simpler explanations, missing cases, counterexample
 
 Reviews occur when undertaken by the project; no automatic monitoring is running. Keep source dates, revisions and old interpretations so later readers can reconstruct changes. Use original source pages for videos and figures, and check reuse rights before embedding them. A citation is not a licence.
 
-Before external publication, choose author attribution and a licence for the project’s own text/code. This package does not invent a real author name, assign third-party rights, select a software licence or guarantee a venue’s acceptance.
+Author attribution is Vasyl Hryha. Existing repository rights remain as recorded separately; this source revision makes no licence grant or publication/deployment decision. Third-party citations do not assign reuse rights or guarantee a venue’s acceptance.

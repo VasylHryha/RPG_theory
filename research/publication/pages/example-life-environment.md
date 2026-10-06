@@ -4,11 +4,11 @@
   "route": "/examples/life-environment/",
   "title": "Life changes its environment",
   "description": "An organization can alter conditions for other organisms and reactions.",
-  "revision": 3,
+  "revision": 7,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-06",
@@ -67,3 +67,5 @@ Organisms can alter conditions for other organisms and reactions. Oxygen product
 The [cell example](/examples/cell/) follows internal maintenance and exchange. Here we follow environmental change. Both matter to RRG's proposed connection, but neither automatically establishes the other or the complete recursive chain. The broader relation remains an [open extension](/claims/UT-C02/).
 
 [Follow the source connections](/evidence/source-links/) · [All examples](/examples/)
+
+Questions or ideas? [Contact the author](/contact/).

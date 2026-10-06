@@ -1,10 +1,11 @@
 ---
 import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { readingPages } from '../lib/contents';
 import {activePublication} from '../lib/publication';
 import {activeConfig} from '../lib/site-config';
 import {renderCite} from '../lib/library';
 const html=renderCite(activePublication(),activeConfig());
 ---
-<ReadingLayout title="Cite this edition" description="Cite RRG, its current research edition and explanatory articles; download citation metadata and inspect release identity." route="/cite/">
+<ReadingLayout {...readingPages['/cite/']} route="/cite/">
 <article class="article shell"><h1>Cite this edition</h1><div data-citation set:html={html}/></article>
 </ReadingLayout>

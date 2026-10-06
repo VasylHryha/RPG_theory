@@ -49,7 +49,9 @@ try {
       const browser=await engine.launch();
       try {
         const page=await browser.newPage({viewport:{width:375,height:900}}),errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`);});
-        await page.goto(actual.origin+actual.base);await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Framework',exact:true}).click();
+        await page.goto(actual.origin+actual.base);await page.getByRole('navigation',{name:'Main navigation'}).locator('a[href$="research-status/"]').click();
+        assert(new URL(page.url()).pathname===actual.base+'research-status/');
+        await page.goto(actual.origin+actual.base+'framework/');
         assert(await page.locator('math').count()>0);await page.goto(actual.origin+actual.base+'math/');assert(await page.locator('math').count()>50);
         assert(await page.locator('.fbox').first().evaluate(el=>el.getBoundingClientRect().width)>20);
         await page.goto(actual.origin+actual.base+'search/');await page.locator('#search-query').fill('geometry');await page.locator('button[type="submit"]').click();await page.locator('#search-results li').first().waitFor();
@@ -96,7 +98,9 @@ try {
       }
     }finally{chrome.kill();}
   } else summary.lighthouse='Root home/math diagnostic only; no duplicate subpath run';
-  const actualSelection=publicationFor('preview',actual.info.config);assert.equal(actualSelection.manifest.searchIds.length,68);
+  const actualSelection=publicationFor('preview',actual.info.config);
+  const actualSearch=JSON.parse(readFileSync(join(dir,'search-manifest.json'),'utf8'));
+  assert.deepEqual(actualSearch.inputs.map((input:{id:string})=>input.id),actualSelection.manifest.searchIds);
   const reviewStates=Object.fromEntries(['accepted','pending','stale','rejected'].map(state=>[state,[...actualSelection.corpus.entries.values()].filter(e=>websiteReviewState(actualSelection.corpus,e.id)===state).length]));
   summary.actualIndex={publishedReadings:actualSelection.manifest.searchIds.length,reviewStates,qualified:actualSelection.admission.currentSourceQualified,deployEligible:actual.info.deployEligible};
   summary.status='PASS';

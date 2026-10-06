@@ -1,14 +1,26 @@
-# RRG v0.2 — World Explanation
+# RRG v0.3 — World Explanation
+
+**Author-clarified edition · 2026-10-06 · Vasyl Hryha**
 
 > **NON-NORMATIVE:** examples explain the locked core; they do not define it. See `00_LOCKED_CORE.md`.
+
+## 0. The name states the rules
+
+- **Resonant → resonance:** motion falls into rhythm.
+- **Geometry → shape:** rhythm and shape hold each other, so it lasts.
+- **Recursive → resonator:** it spreads and joins into bigger shapes with a new resonance; the same rules repeat at each new scale.
+
+“Recursive” has two intended meanings: the lasting resonator opens further organization, and the whole cycle repeats in a different form at a new scale. We start the explanation with motion because everything moves. This is a reading order, not a claim that motion precedes shape. **Rhythm and shape hold each other; neither comes first** (core §3).
+
+The plain story is: chaotic motion → resonance ↔ shape → lasting resonator → possible spreading and changed surroundings → building blocks → new collective resonance → repeat. Life is a late, visible instance of this proposed pattern, not its starting point. Sections below explain the conditions and limits before giving the technical form.
 
 ## 1. Start from one simple idea
 
 We normally imagine a thing as a **shape that exists**, and then something happens to it.
 
-RRG reverses that picture.
+RRG treats shape and activity together, rather than making either universally first.
 
-A physical thing is better imagined as a **shape that exists because a pattern of activity is able to keep that shape coherent**.
+A physical thing is better imagined as a **shape and a pattern of activity that keep each other coherent**.
 
 The shape and the activity are not two unrelated objects.
 
@@ -33,6 +45,20 @@ The simplest RRG object is therefore:
 \[
 \boxed{\text{resonant dynamic geometry}}
 \]
+
+---
+
+### 1.1 Motion starts as noise; order appears by chance
+
+**RRG's source hypothesis:**
+
+> Chaotic motion is like noise, with every rhythm mixed together and none standing out. Shapes and rhythms appear in it by chance, and most vanish. Now and then one holds: its shape and its rhythm keep each other going. It has become a resonator. If it lasts long enough, it starts to change and order its surroundings, and that order spreads. Nothing chooses it. Chance creates the opportunity, and what holds is what remains. *(Rhythm and shape hold each other; neither comes first.)*
+
+Here **resonance** is motion that has fallen into rhythm. All motion is not already organized resonance. This is RRG’s broad explanatory use of the word; the evidence catalogue keeps each effect’s own physical meaning and tests. Organized or vibrating material alone does not establish physical resonance (06 E22). The chaotic background is fluctuating activity with no persistent organizing rhythm singled out. “Every rhythm mixed together” is a plain-language picture, not a claim about a measured primordial spectrum or mathematically ideal white noise.
+
+A system does not pick a rhythm or have a goal. Fluctuations create opportunities. The actual dynamics, geometry, interactions, losses and available resources determine which arrangements persist. A lasting geometry–mode closure is what RRG calls a resonator. The full mode description remains the broader one in core §2: stationary states are not excluded merely because they have no visible beat.
+
+See [04 §§2–4, 18](04_recursive_background_generation.md) for the argument and [08 H01–H03](08_claim_coverage.md) for its status. Noise-assisted order in particular systems is a component precedent, not evidence that the origin of all matter has been derived.
 
 ---
 
@@ -109,6 +135,22 @@ A higher-level structure can look static simply because its natural timescale is
 Very fast lower-level processes can blur into what looks like noise or a stable material.
 
 Very slow higher-level processes can look frozen during a human lifetime.
+
+---
+
+### 3.1 Energy and time
+
+**RRG's plain-language reading:**
+
+> Everything moves, and energy is what keeps things moving: vibrating, rotating, resonating. Every resonator lasts for a time. Some hold on their own for billions of years; others last only while energy keeps flowing through them.
+
+Motion and energy are inseparable in the author's picture: motion carries energy, and energy participates in keeping activity going. This wording is not a new physical identity equating every kind of energy with visible motion. A scientific model still distinguishes motion, stored energy and energy transfer, and must obey thermodynamics (02 §13).
+
+Every resonator needs an energetic state compatible with its organization. It does **not** necessarily need a continuous external supply. A passively persistent bound structure can hold without ongoing power; a cell, a star or a driven pattern needs energy flow to maintain its active organization. Available energy does not guarantee persistence or spreading.
+
+Nothing in RRG guarantees that a resonator lasts forever. Stability means self-consistent closure for an interval (core §4), not a universal assertion that every atom must eventually decay. Lifetime is a property to measure for each system.
+
+The author's intended nuclear trend concerns **more protons and neutrons**, not density. Toward sufficiently heavy nuclei, adding nucleons tends to make long-lived stability harder. This is a general trend, not “every heavier nucleus lives less long”: composition and arrangement also matter. No isotope lifetimes, shell numbers or new nuclear evidence are asserted in this edition; the candidate nuclear example awaits citation in 08.
 
 ---
 
@@ -220,6 +262,20 @@ This is central to RRG.
 
 ---
 
+### 6.1 Forces gather and hold; resonance decides what fits and lasts
+
+Forces bring parts together and provide the interactions that hold them. RRG's proposed reading is that **resonance decides which arrangements fit together and stay stable**. “Decides” means physical compatibility, not a choice by the system.
+
+At the broad scales discussed here, the strong interaction does most of the holding within nuclei; electromagnetism underlies atoms, chemistry and life; gravity gathers stars, planets and galaxies. These are dominant roles, not one force assigned exclusively to each level. The weak interaction also matters in transformations and decay. The framework's account of a common resonance-fit principle across all these settings remains a hypothesis.
+
+**Inner resonance** names the compatible activity within a thing that keeps it organized as itself. **Outer resonance** names compatible coupling with other things and their shared surroundings. The same system can have both. Inner resonance is not an extra holding force, and outer resonance need not mean identical frequencies or phases. These terms explain the core's full mode/coupling language; they add no new normative definitions.
+
+Gravity supplies astronomical gathering and holding. RRG has not derived gravity from rhythm. Whether any of the four fundamental interactions are themselves forms of a deeper resonance is open (core §10; 02 §§11–12). The force-fit proposal is not a claim that all attraction is ordinary resonant excitation.
+
+Existing E01, E07, E18 and E19 in [06](06_evidence_catalog.md) show particular coupling or field–matter links under supplied conditions. They do not establish this universal proposal. See [08 H24–H25, O9](08_claim_coverage.md).
+
+---
+
 ## 7. New levels open new possibilities
 
 A higher-level structure does not merely contain lower-level structures.
@@ -259,6 +315,34 @@ This is one way complexity can accumulate without requiring a goal or intention.
 
 ---
 
+### 7.1 Two separate roles: building blocks and changed surroundings
+
+A lasting thing can open the next step in **two ways**. It can become a building block inside a larger organization. It can also change the conditions in which other organizations form. These are separate roles: one describes membership in a whole; the other describes an effect on the surroundings. One thing may do both, or only one.
+
+**A resonator changes its surroundings: this can make similar things more likely, or make new things possible (or impossible).** The effect depends on coupling, energy/resources and the actual environment; a lasting thing does not guarantee that another level forms. Environmental enabling is the core-compatible extension in core §11, developed in 04 §§4, 11 and 13. Physical change is distinct from an observer simply changing the scale of description.
+
+### 7.2 Each level needs the ones before it
+
+A new level uses the material and conditions made available by earlier levels. It does not appear independently of them, and it does not erase them. This means dependence on the relevant earlier steps, not a compulsory march through every branch or every mathematically possible structure.
+
+The simplified cosmic-to-life chain is:
+
+hydrogen and helium → earlier generations of stars forge and scatter heavier elements → our Sun and planets form from that enriched material → water and energy from the Sun → conditions for life on Earth.
+
+Earlier stellar generations supplied Earth's heavy-element material. **Our Sun did not forge and then scatter the elements from which Earth formed.** The Sun and planets formed from already enriched material; the Sun supplies energy to the later environment. Stellar breakdown and dispersal belong to this history, not outside the cycle. The established stellar/chemical history is distinct from RRG's interpretation of it as recursive environmental enabling. See the ladder below and 02 §§7, 18 and its existing source list.
+
+In the author's reading, life as we know it is likely impossible without this earlier material and environmental chain. This is not a proof that every conceivable form of life needs exactly the same route. Simpler levels continue underneath later ones; steps may branch, stop or break down.
+
+### 7.3 New levels bring new ways to interact
+
+Nuclei provide a setting for nuclear organization; atoms provide a setting for chemical bonds. New combinations bring collective interactions and constraints that were unavailable in the earlier organization. Effective interaction regimes can change without a fundamental force being newly created.
+
+**Speculative RRG hypothesis:** the fundamental forces themselves may have appeared as scale and time changed, created by earlier levels. They need not, in this conjecture, all have existed in their present form from the start. This is an open proposal, not established cosmic history or a consequence of the locked core. It may never be directly confirmed. It assigns neither one force per scale nor a demonstrated chronological sequence to the four forces.
+
+The effective-law discussion in [04 §§15, 29](04_recursive_background_generation.md) and the latent-channel model in 02 §19/03 §29 address narrower possibilities; neither derives the origin of the fundamental interactions. See [08 H26, O4](08_claim_coverage.md). Examples of force separation await citations before new evidential use here.
+
+---
+
 ## 8. Persistence acts like physical memory
 
 Suppose a difficult structure forms and remains stable.
@@ -289,9 +373,13 @@ The details remain inside, but the next scale can operate with a simpler descrip
 
 ---
 
-## 9. Recurrence and replication are possible propagation mechanisms
+## 9. Spreading: a strong tendency, not a required step
 
-RRG allows a broad concept of **pattern propagation**, but propagation/duplication is not required for every scale transition.
+**A resonator's rhythm reaches out and tends to make more of the same, when it can couple to its surroundings and has energy.** This is RRG's spreading hypothesis, not something that happens every time. Life's copying is the elaborate late form. Neither spreading nor reproduction is required at every level (core §9).
+
+Without life, a resonator can influence other rhythms, recruit compatible material or catalyse related organization. Independent recurrence under repeated conditions is a separate possibility: seeing the same pattern twice does not show that one instance caused the other. The scale-specific forms are explained below.
+
+E01/E02 illustrate coupling and mode-shaped matter; E10/E11/E20 report nonliving pattern multiplication. Their supplied conditions and limitations remain in 06. They support component possibilities, not a general claim that all resonators multiply (08 H28).
 
 At a simple physical level, the same stable configuration may appear repeatedly whenever the same conditions occur.
 
@@ -366,6 +454,18 @@ When that higher-level organization can no longer be maintained, the organism-le
 
 ---
 
+### 10.1 Evolution follows the same rules: survive, shape, spread and join
+
+**RRG's evolutionary reading:** surviving comes first, but surviving is not enough to explain success. The most successful life acts as a true resonator: it shapes its environment for itself and spreads as far as it can, adapting to almost any place. This is the author’s broad reading of life’s expanding frontier, not a claim that every organism can live everywhere. Adaptation still needs workable resources and conditions. “For itself” means changes that favour its persistence and propagation, not a conscious plan.
+
+It behaves as if it tries to dominate, though no intention is needed: **what holds and spreads becomes more common**. Domination is a possible outcome, not the only outcome or a moral goal. Compatible organizations can coexist. Life can also secure itself by joining: cells became bodies, and organisms participate in ecosystems. Joining need not make every ecosystem one proven resonator; that identification needs a specified collective organization and test.
+
+Success in this reading means sustained organization **together with favourable environmental change and propagation**, rather than reproduction count alone. To test it, measure persistence, environmental effects and spread separately under stated resources and conditions. No universal numerical success score or law saying the most stable thing wins is supplied (04 §10; 08 H27/O7).
+
+The frontier can grow more complex while simpler levels continue underneath. No individual lineage is guaranteed to adapt everywhere, increase complexity or survive. RRG does not replace heredity, mutation, natural selection or ecological feedback with a new microscopic mechanism. It asks whether life invented this logic or is a visible late version of an older pattern (04 §§17, 30).
+
+---
+
 ## 11. The brain makes the geometry idea easier to see
 
 The brain is a physical network.
@@ -434,7 +534,15 @@ This is a research interpretation, not an established definition of intelligence
 
 ---
 
+### 12.1 Humans are a striking recent cycle
+
+In RRG's reading, humans are the most striking example of life as a true resonator: we reshape our world with tools, cities and waves we create and control, and have spread across the planet. Those activities are visible; interpreting them as another turn of the same universal cycle is RRG's proposal. They do not establish a new fundamental force or prove a shared microscopic mechanism.
+
+---
+
 ## 13. AI may be using an indirect route
+
+**AI may begin a new cycle. This is open and speculative.** It extends the human/tool-making story in §12.1; it is not a claim that current AI has become a self-maintaining new physical scale or that an RRG architecture has been validated.
 
 Modern AI is implemented mostly through numerical matrix operations.
 
@@ -473,66 +581,78 @@ This is a hypothesis to test, not a claim that transformers are fundamentally wr
 
 ## 14. The entire RRG cycle in one picture
 
-\[
-\boxed{
-\begin{aligned}
-&\text{lower resonant geometries}\\
-&\downarrow\\
-&\text{variation + interaction}\\
-&\downarrow\\
-&\text{some combinations become self-consistent}\\
-&\downarrow\\
-&\text{persistent collective geometry}\\
-&\leftrightarrow\\
-&\text{collective temporal mode}\\
-&\downarrow\\
-&\text{new effective unit}\\
-&\downarrow\\
-&\text{new combinations / new environment}\\
-&\downarrow\\
-&\text{next scale}
-\end{aligned}
-}
-\]
+Read the picture as a proposed process, not as a guaranteed timetable:
 
-Then repeat.
+```text
+chaotic motion: most arrangements vanish
+                 ↓ chance gives opportunities
+        resonance ↔ shape
+                 ↓ mutual support lasts for a time
+             RESONATOR
+                 ↓ may spread / change surroundings
+        building blocks + changed conditions
+                 ↓ compatible parts may join
+       bigger shape ↔ new collective resonance
+                 ↓
+       repeat at a new scale, if conditions allow
+```
 
-The shorter version is:
+The building-block role and environmental role are separate (§7.1). Neither rhythm nor shape comes first. Breakdowns return material and change conditions; steps can stop, branch or fail. Lower levels remain active while later ones form. Life and human organization are late readings of this cycle; AI is a possible further cycle.
+
+For readers who want the technical shorthand:
 
 \[
-\boxed{
-\text{resonance}
-\leftrightarrow
-\text{geometry}
-\rightarrow
-\text{stable resonator}
-\rightarrow
-\text{collective resonator}
-\rightarrow
-\text{new resonant geometry}
-\rightarrow\cdots
-}
+B_n\rightarrow R_n\rightarrow B_{n+1},\qquad
+R_n=(G_n,M_n),\qquad G_n\leftrightarrow M_n.
 \]
+
+Here \(B_n\) is the inherited background; \(G_n\) is organization; \(M_n\) is its full mode structure; and \(R_n\) is their lasting pair. The changed background may make the next pair possible. The three name-rules map to these symbols in README. [04 Rule 0](04_recursive_background_generation.md) gives the longer source-direction argument.
 
 ---
 
 ## 15. What this explanation is **not** saying
 
-It is not saying:
+**RRG is a unifying framework, not yet proven, with a few sharp hypotheses that can be updated over time.** It asks whether the geometry–mode relation and recursive formation describe a common organizing process across scales. It is not a proved universal law or a completed theory of everything.
 
-- an atom is literally a miniature solar system;
-- every structure has one magic frequency;
-- every higher-scale process is slower without exception;
-- the universe consciously seeks complexity;
-- biological reproduction and particle formation use the same chemical mechanism;
-- gravity has already been derived from resonance;
-- all current physics has been replaced.
+Keep three kinds of statement apart:
 
-It says something narrower:
+- **Established science / reported results:** the scale-specific mechanisms and histories, and the limited findings attributed to cases in 06. Each card states what was supplied and checked.
+- **RRG's reading:** those different mechanisms may share the organizational pattern explained here. Compatibility with that reading does not distinguish it from standard explanations.
+- **Speculation:** a common origin of fundamental forces, their possible appearance with scale/time, cosmological recursion and a new AI cycle. No derivation or confirmation is claimed.
 
-> **Across many systems, spatial organization constrains temporal modes; temporal modes maintain or transform spatial organization; persistent coupled systems can become effective units with new collective modes at a larger scale. RRG asks whether this recursion is a universal organizing principle.**
+This explanation does not equate an atom with a tiny solar system, assign one magic frequency or one force to each scale, require reproduction at every step, or make complexity a universal goal. It neither derives gravity nor replaces established physics. Its plain-language terms explain the unchanged core; the broader spreading, environmental and force-fit claims are downstream hypotheses, not new core definitions.
 
-That is the idea the scientific and mathematical documents will try to test rather than assume.
+### 15.1 Where RRG can be checked
+
+RRG can be checked where we can reach. Life changes its local conditions, including oxygen availability and acidity; such chemical feedback is established science. Reading it as a turn of one universal recursive pattern is RRG’s interpretation. Simple existing cases show rhythms synchronizing, modes shaping suitable matter and nonliving patterns multiplying (06 E01/E02/E10/E11/E20). Their mechanisms and supplied energy matter. This edition adds no new oxygen-history case or experimental claim; candidate examples await citation in 08.
+
+The strongest accessible proposed test is **the full step happening twice in one system**: a lasting organization changes the background, a distinct next organization becomes possible, and that operation repeats. [04 §34, Experiments 5–6](04_recursive_background_generation.md) describes the staircase; 04 §35 distinguishes compatibility from discriminating evidence. No complete repeated construction has been demonstrated by the present catalogue. Keeping the same equation family, as proposed in 04 Experiment 6, is a stronger model-specific test. The common organizational cycle does not require an identical microscopic mechanism or equation at every physical scale (core §§7–8; 04 §25).
+
+A specified implementation needs measurable conditions, predictions and failure criteria. A model that fails addresses that model; a counterexample to a precise universal claim addresses that claim. If every outcome can be made to fit, the explanation has not yet supplied a useful discriminating test (02 §15; 04 §37).
+
+The very beginning and the origin of forces may stay beyond direct evidence. That does not make the reachable steps untestable, or turn an inaccessible conjecture into a fact. Repeated local success would strengthen its tested scope, not prove every scale.
+
+---
+
+## 16. Common questions
+
+1. **What are the two ways a lasting thing opens the next step?** It can become a building block, and it can change the conditions. These are separate roles; it may do either or both. [§7.1](#71-two-separate-roles-building-blocks-and-changed-surroundings).
+2. **Is all motion resonance? What is the background?** In this plain-language explanation, resonance is motion that has fallen into rhythm. Chaotic motion is the fluctuating background; it is not assumed to be ideal white noise. The technical mode includes more than visible periodic motion. [§1.1](#11-motion-starts-as-noise-order-appears-by-chance), core §§2, 12.
+3. **Does a system pick its rhythm?** No. Shapes and rhythms appear by chance. Their mutual support, actual interactions, losses and resources determine what persists; nothing chooses it. [§1.1](#11-motion-starts-as-noise-order-appears-by-chance).
+4. **Which comes first, shape or rhythm?** Neither. They are mutually supporting aspects of one organization. Starting the story with motion is a reading order. [§0](#0-the-name-states-the-rules), core §3.
+5. **How does the name map to the rules?** Resonant → resonance; Geometry → shape; Recursive → resonator. Recursive also means that the whole cycle repeats at a new scale. [§0](#0-the-name-states-the-rules), [§14](#14-the-entire-rrg-cycle-in-one-picture).
+6. **Must every resonator spread or reproduce?** No. Spreading is a strong conditional tendency in RRG's reading. Without life it can mean coupling rhythms, recruiting material, catalysis or recurrence under repeated conditions; these are not all copying. [§9](#9-spreading-a-strong-tendency-not-a-required-step), core §9.
+7. **Do resonance or forces hold things? What are inner and outer resonance?** Forces gather and hold. Resonance-fit is RRG's proposed account of which organizations fit and last. Inner concerns activity within a thing; outer concerns its coupling to others. Gravity holds astronomical structures; its origin is still open in RRG. [§6.1](#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts).
+8. **Are motion and energy the same? Does everything need power or last forever?** They are inseparable in the author's picture; the phrase is not a universal physical identity. Some bound structures need no continuous external power; actively maintained ones need flow. Stability is for an interval and promises no permanence. [§3.1](#31-energy-and-time).
+9. **Do heavier nuclei last less long?** More protons/neutrons eventually tend to make long-lived stability harder, but lifetime is not a monotonic function of nucleon count. Composition and arrangement matter. Specific nuclei and shell claims await evidence; no new case is supplied. [§3.1](#31-energy-and-time), [08 candidate list](08_claim_coverage.md#candidate-examples-pending-citation).
+10. **Were fundamental forces present from the start?** RRG leaves open that they may have appeared with scale and time, created by earlier levels. That is speculative, may never be directly confirmed, and has no demonstrated four-force chronology. [§7.3](#73-new-levels-bring-new-ways-to-interact).
+11. **Does each level need the earlier ones? Which stars made Earth's elements?** It needs the relevant inherited material and conditions. Earlier generations of stars forged and scattered the heavy elements; our Sun and planets formed from enriched material. The Sun supplies later energy. [§7.2](#72-each-level-needs-the-ones-before-it), ladder below.
+12. **Is RRG testable?** Reachable components and specified repeated construction can be tested. The strongest proposed local test repeats the full step in one system. The very beginning and force origin may stay beyond direct evidence. [§15.1](#151-where-rrg-can-be-checked), 04 §34.
+13. **What drives life, and what is success?** Survival comes first; success in this reading also includes favourable environmental change, spread and joining. Measure these separately, not by reproduction alone. No intention or universal domination law is needed. [§10.1](#101-evolution-follows-the-same-rules-survive-shape-spread-and-join).
+14. **Where do humans and AI fit?** Humans visibly reshape their environment and spread; RRG reads this as a recent cycle. AI may begin another, but this remains open speculation. [§12.1](#121-humans-are-a-striking-recent-cycle), §13.
+15. **Is RRG proven, or a theory of everything?** It is a unifying framework, not yet proven. Established mechanisms, RRG's common-pattern reading and speculation remain distinct. [§15](#15-what-this-explanation-is-not-saying), 08.
+16. **Must complexity always grow?** No. The frontier may grow while simple levels continue, but individual steps can stop, branch, simplify or break down. [§7.2](#72-each-level-needs-the-ones-before-it), [§10.1](#101-evolution-follows-the-same-rules-survive-shape-spread-and-join), [§14](#14-the-entire-rrg-cycle-in-one-picture); 04 §§9–14, 28.
+17. **Does this change the locked core?** No. Core §§1–13 and the change-control protocol are carried forward byte-for-byte. These are non-normative explanations and labelled extensions; the core's full mode definition and optional replication still govern. [§15](#15-what-this-explanation-is-not-saying), [00](00_LOCKED_CORE.md), [SOURCE_AUTHORITY](SOURCE_AUTHORITY.md).
 
 ---
 
@@ -590,7 +710,7 @@ Important corrections:
 
 ## The RRG interpretation of the ladder
 
-At every stage, the new level is made from structures already available at earlier levels.
+At every stage, the new level is made from structures already available at earlier levels. The corrected stellar ancestry and the distinction between material and energy are explained in [§7.2](#72-each-level-needs-the-ones-before-it).
 
 But a higher-level structure can create **new conditions** that were previously unavailable.
 
@@ -606,7 +726,7 @@ Example:
 \text{new nuclei}
 \]
 
-The new nuclei enlarge the chemical possibility space.
+The new nuclei enlarge the chemical possibility space. Earlier stellar generations forged and scattered the enriched material from which our Sun and planets formed. The Sun supplies energy to Earth; it did not make and scatter Earth’s heavy-element building material before Earth formed.
 
 Later:
 

@@ -4,11 +4,11 @@
   "route": "/examples/water/",
   "title": "Water: follow a pattern",
   "description": "A warm-up about local motion and a collective pattern.",
-  "revision": 3,
+  "revision": 8,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-06",
@@ -32,7 +32,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Supplementary NOAA surface-wave explanation. RRG core §§1–4 supplies the questions, not a claim that every wave is a stable new unit.",
+  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. Supplementary NOAA surface-wave explanation. RRG core §§1–4 supplies the questions, not a claim that every wave is a stable new unit.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -57,3 +57,5 @@ A [string fixed at its ends](/examples/string/) makes the constraints explicit: 
 For any proposed persistent state, specify the interval and conditions before applying RRG's [meaning of stability](/concepts/stability/).
 
 [All examples](/examples/) · [Follow the introduction](/start/)
+
+Questions or ideas? [Contact the author](/contact/).

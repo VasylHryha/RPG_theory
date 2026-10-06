@@ -1,12 +1,13 @@
 ---
 import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { readingPages } from '../lib/contents';
 import { activeConfig } from '../lib/site-config';
 import { activePublication } from '../lib/publication';
 import { renderSearchFallback } from '../lib/search';
 import { withBase } from '../lib/urls';
 const config=activeConfig(),selection=activePublication();
 ---
-<ReadingLayout title="Search and browse" description="Search published readings, or browse concepts, examples and original documents." route="/search/">
+<ReadingLayout {...readingPages['/search/']} route="/search/">
   <article class="article shell"><h1>Search and browse</h1>
   <div class="prose"><p>Search published readings. Each result retains its source-reported status and limits.</p>
   <form data-search-form data-base={config.basePath} data-bundle={withBase('/pagefind/pagefind.js',config.basePath)} data-count={selection.manifest.searchIds.length}>

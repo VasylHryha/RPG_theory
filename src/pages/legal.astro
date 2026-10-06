@@ -1,9 +1,10 @@
 ---
 import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { readingPages } from '../lib/contents';
 import { publicationCredit, renderLegal } from '../lib/publication-policy';
 import { activeConfig } from '../lib/site-config';
 const html=renderLegal(publicationCredit(),activeConfig().basePath);
 ---
-<ReadingLayout title="Rights and reuse" description="Separate rights states for website code, research prose and figures, data and third-party dependencies." route="/legal/">
+<ReadingLayout {...readingPages['/legal/']} route="/legal/">
   <article class="article shell"><h1>Rights and reuse</h1><div class="prose" data-legal set:html={html} /></article>
 </ReadingLayout>

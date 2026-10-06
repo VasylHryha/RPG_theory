@@ -8,6 +8,7 @@ import { activeConfig } from '../lib/site-config';
 import { renderRecordDetails, renderBeginnerDiagram, renderTechnicalGuide } from '../lib/presentation';
 import { requiresMathStyles } from '../lib/markdown';
 import { searchAttributes } from '../lib/search';
+import { renderSectionIndex } from '../lib/contents';
 const { id } = Astro.props as { id: string };
 const selection = activePublication();
 const { corpus,entries } = selection;
@@ -18,10 +19,12 @@ const details=renderRecordDetails(corpus,entry,activeConfig().basePath);
 const guide=renderTechnicalGuide(selection,entry,html,activeConfig().basePath);
 const diagram=isHistorical(entry)?'':renderBeginnerDiagram(entry.id);
 const earlyDiagram=entry.id==='DOC-EXAMPLE-STRING';
+const sectionIndex=renderSectionIndex(selection,entry.route,activeConfig().basePath);
 ---
 <ReadingLayout title={entry.title} description={entry.description} route={entry.route} math={requiresMathStyles(html + details)}>
   <article class="article shell" id="print-reading"><header><p class="eyebrow">{isHistorical(entry)?'Historical reading':'Current research draft'} · Revision {entry.revision}</p><h1>{entry.title}</h1><p class="article-lede">{entry.description}</p></header>
   <RecordStatus entry={entry} corpus={corpus} />
+  {sectionIndex && <div data-book-section-index set:html={sectionIndex} />}
   {guide && <div data-technical-guide={entry.id} set:html={guide} />}
   {earlyDiagram && <Fragment set:html={diagram} />}
   <div class="prose" data-canonical-body={entry.id} {...searchAttributes(entry)} set:html={html} />

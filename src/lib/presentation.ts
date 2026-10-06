@@ -79,11 +79,15 @@ export function renderHomeContext(corpus: Corpus,entry: Entry,base='/') {
   return renderMarkdownSync(entry.plainLanguage,base,corpus);
 }
 export function renderNavigation(selection: { entries: Entry[]; manifest: {navigationIds:string[];routes:string[]} },route:string,base='/') {
-  const navigation=[['DOC-START','Start'],['DOC-CONCEPTS','Concepts'],['DOC-EVIDENCE','Evidence'],['DOC-STATUS','Research'],['DOC-LIBRARY','Documents']].flatMap(([id,label])=>{
+  const navigation=[['DOC-START','Understand'],['DOC-EXAMPLES','Examples'],['DOC-EVIDENCE','Evidence'],['DOC-STATUS','Research']].flatMap(([id,label])=>{
     const entry=selection.entries.find(e=>e.id===id);return entry && selection.manifest.navigationIds.includes(id)?[{route:entry.route,label}]:[];
   });
-  if(selection.manifest.routes.includes('/search/')) navigation.push({route:'/search/',label:'Search'});
+  if(selection.manifest.routes.includes('/contents/'))navigation.push({route:'/contents/',label:'Contents'});
   return navigation.map(item=>`<a href="${escapeHTML(withBase(item.route,base))}"${route===item.route?' aria-current="page"':''}>${item.label}</a>`).join('');
+}
+
+export function renderHeaderTools(route:string,base='/') {
+  return [['/contact/','Contact'],['/search/','Search']].map(([path,label])=>`<a href="${escapeHTML(withBase(path,base))}"${route===path?' aria-current="page"':''}>${label}</a>`).join('');
 }
 
 export function isTechnicalDocument(entry: Entry) {
@@ -109,7 +113,7 @@ export function renderTechnicalGuide(selection: {corpus: Corpus; entries: Entry[
 // Authored schematics are shared by the page and output auditor. Their bytes are
 // part of the rendering-policy fingerprint; no external images or scripts load.
 export function renderBeginnerDiagram(id: string) {
-  const type = ['DOC-HOME','DOC-START','DOC-CONCEPT-RECURSION'].includes(id) ? 'organization'
+  const type = ['DOC-START','DOC-CONCEPT-RECURSION'].includes(id) ? 'organization'
     : id==='DOC-EXAMPLE-STRING' ? 'string' : id==='DOC-CONCEPT-INTERACTIONS' ? 'interaction' : null;
   if(!type)return '';
   const prefix=`diagram-${id}`,title=`${prefix}-title`,description=`${prefix}-description`;

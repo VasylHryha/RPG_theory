@@ -1,6 +1,8 @@
 # 08 — Claim registry and full-session coverage
 
-**RRG v0.2.1 · 2 October 2026**
+**RRG v0.3 — author-clarified edition · 2026-10-06**
+
+H01–H23 and O1–O8 retain their identities. H24–H28 and O9 sharpen the author’s explanations; none records a new verified case.
 
 This map prevents two kinds of drift: losing the author’s bigger idea when tightening scientific language, and turning a proposed connection into a verified fact. “Preserved” means the idea remains in the publication, not that it has been established.
 
@@ -29,8 +31,13 @@ This map prevents two kinds of drift: losing the author’s bigger idea when tig
 | H19 | Work forward from the source rather than merely reinterpreting finished structures | 04 §§2–4, 40–41 | Methodological preference. Existing observations and reverse constraints can still test the proposal. |
 | H20 | Control modes to control organization and effective behavior—“magic” | 04 §§31–32; O6 below | Retained speculative engineering vision. E15 supports selected effective dynamics, not unlimited control. |
 | H21 | Information might specify a useful mode/geometry/state | 04 §32 | Open engineering idea. A frequency alone is not a universal shape code. |
-| H22 | The idea may inform AI, learning and abstraction | AI note below; foundation 01 §AI and 02 §10 | Retained application hypothesis. Useful intelligence or learning does not follow from persistence alone. |
+| H22 | The idea may inform AI, learning and abstraction | 01 §13; O8 below; 02 §10 | Retained application hypothesis, including the speculative possibility of a new AI cycle. No RRG-specific benchmark or gain follows from persistence alone. Human organization has its explanatory home in 01 §12.1. |
 | H23 | Publish, collect cases, review and update; proofs welcome but optional | README; 04 §40; 06 update practice | Current project workflow. No autonomous monitoring or proof-before-publication gate. |
+| H24 | Forces gather and hold; resonance-fit decides which arrangements connect and last | 01 §6.1; 04 §§15, 29; O9 | Sharpened cross-scale hypothesis. E01/E07/E18/E19 are limited components/bridges, not a derivation of all forces or all binding. |
+| H25 | Inner resonance maintains a thing as itself; outer resonance links it to others | 01 §6.1; O9 | Explanatory distinction within geometry–mode/coupling language. No extra force, single frequency or new core definition is established. |
+| H26 | Fundamental forces may have appeared with scale and time, created by earlier levels | 01 §7.3; 04 §§15, 29; O4 | Speculative; possibly never directly testable. Not established cosmic chronology, one force per scale or the ordinary emergence of effective interactions. |
+| H27 | Success includes surviving, shaping favourable surroundings, spreading and joining | 01 §10.1; 04 §§10, 17, 30; O7 | Evolutionary interpretation/hypothesis. No intention, universal dominance metric or guaranteed adaptation/complexity growth; measure persistence, effect and spread separately. |
+| H28 | Spreading is a resonator's strong tendency when it can couple and has energy | 01 §9; 04 §§8–10 | Conditional propagation hypothesis, not a mandatory step. E10/E11/E20 report nonliving pattern multiplication; E01/E02 are coupling/pattern components. Recurrence alone is not causal reproduction. |
 
 ## Open-claim registry
 
@@ -40,15 +47,31 @@ This map prevents two kinds of drift: losing the author’s bigger idea when tig
 
 **O3 — Scale, lifetime and possibility-space growth.** Later levels may often be larger, slower or capable of different organization. Whether any measure grows monotonically is unproved. Levels can coexist; an implementation may stop, branch, shrink or lose stability. New effective coordinates do not automatically add fundamental microscopic dimensions.
 
-**O4 — Fundamental unification.** A deeper common generator might account for the known interactions. Existing synchronization, optical binding or effective-Hamiltonian results do not derive that claim. It remains part of the author’s ambition rather than being removed for lack of proof.
+**O4 — Fundamental unification.** H26 adds the speculative possibility that forces appeared with scale and time, created by earlier levels. No chronology or derivation is supplied, and the earliest origin may stay beyond direct confirmation. This is separate from changed effective laws. A deeper common generator might account for the known interactions. Existing synchronization, optical binding or effective-Hamiltonian results do not derive that claim. It remains part of the author’s ambition rather than being removed for lack of proof.
 
 **O5 — Cosmological connection.** The author’s conjecture is that continued formation of scales and organization could connect to the universe’s spatial expansion. Domain growth, increasing organizational depth, increasing accessible configurations and spacetime metric expansion are four different claims. The last is not proved by the first three. This release does not advance a new cosmological calculation or fresh observational cosmology review.
 
 **O6 — Engineered domains.** Speculative “magic” means advanced control of effective physical behavior through organization and mode structure, not a claim of demonstrated supernatural effects. Controllable effective dynamics are real in selected settings (E15); a self-propagating domain with an arbitrarily selected rule set is an open extrapolation.
 
-**O7 — Life and evolution.** Chemical cooperative organization and nonliving pattern duplication supply informative analogies. Biological heredity, evolutionary dynamics and planetary environmental change are not reduced to one measured resonant mechanism here. The universal relation is a hypothesis about organizational form, not an assertion that all systems are living or intentional.
+**O7 — Life and evolution.** H27 makes success explicit as survival plus favourable environmental change, spread and possible joining (01 §10.1). These are separate observables, not a universal ranking or a claim that life intends domination. Chemical cooperative organization and nonliving pattern duplication supply informative analogies. Biological heredity, evolutionary dynamics and planetary environmental change are not reduced to one measured resonant mechanism here. The universal relation is a hypothesis about organizational form, not an assertion that all systems are living or intentional.
 
 **O8 — AI.** Persistent dynamic modules and activity-dependent relations suggest a possible architecture. In this release no RRG AI model is benchmarked and no gain in intelligence, transfer or efficiency is established. A later contribution should distinguish stable activity from useful prediction or learning. This proposal remains available without becoming a proof requirement for the physics framework.
+
+**O9 — Resonance-fit within and between organizations.** H24–H25 propose a common compatibility principle while forces provide holding interactions. It needs a specified system, inner/outer observables and predictions that distinguish the proposal from the standard mechanism. Existing coupled-oscillator and optical-field cases supply partial connections only. Gravity remains the hardest open case (02 §12); the core does not equate forces with frequencies.
+
+## Candidate examples pending citation
+
+These are topics for possible later source work, **not factual assertions, evidence cards or support admitted by v0.3**. A published primary citation, the actual finding, supplied conditions and its limits must be checked before use:
+
+- Magic-number nuclei / proposed standing-wave-shell reading.
+- Orbital resonances.
+- Great Oxidation Event.
+- Electroweak separation as a historical example.
+- Casimir / van der Waals force examples.
+- Proton mass from internal motion.
+- Spore survival in space.
+
+No factual details from the clarification draft are imported for these topics. Existing narrower cited discussion in 02/03 remains its prior scoped discussion, not a newly checked case or evidence for H26. The general nuclear trend in 01 §3.1 adds no isotope or shell specifics.
 
 ## How evidence changes a claim
 

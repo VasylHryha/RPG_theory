@@ -4,11 +4,11 @@
   "route": "/evidence/source-links/",
   "title": "Sources, local labels and limited connections",
   "description": "Document-qualified labels, useful physical connections and their stated limits.",
-  "revision": 4,
+  "revision": 7,
   "kind": "research-status",
   "lang": "en",
   "audience": "technical",
-  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-06",
@@ -29,7 +29,7 @@
   "plainLanguage": "",
   "scope": "Supplementary editorial reading map. Current scientific sources and historical authority remain unchanged.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Current 04/06/08 and sources.json; recovered predecessor 08 cases by original DOI. Proposed navigation edges are distinct from source claims.",
+  "sourceMapping": "Accepted RRG v0.3 04/06/08 and sources.json, including 08 H24–H28/O9; recovered predecessor 08 cases by original DOI. Proposed navigation edges are distinct from source claims.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033",
@@ -40,7 +40,7 @@
 
 The source-direction question remains $B_n \to R_n \to B_{n+1} \to R_{n+1}$, with $R=(G,M)$. This reading map connects particular operations to sources under stated conditions. It supplements the [current catalogue](/evidence/catalogue/); it does not add cases to that scientific document or promote the predecessor edition back to current authority.
 
-The H connections below are **proposed editorial links to parts of the claims in 08_claim_coverage.md v0.2.1**, not endorsements of each entire compound statement. Result type and relevance are independent labels. A paper, a publication version, a dataset, and a project case interpretation are different units. Multiple URLs are not independent confirmations, and one DOI does not guarantee independent study/data. Linked manuscripts can differ from the publication; findings are not merged merely because their lineage matches.
+The H connections below are **proposed editorial links to parts of the claims in 08_claim_coverage.md in RRG v0.3**, not endorsements of each entire compound statement. Result type and relevance are independent labels. A paper, a publication version, a dataset, and a project case interpretation are different units. Multiple URLs are not independent confirmations, and one DOI does not guarantee independent study/data. Linked manuscripts can differ from the publication; findings are not merged merely because their lineage matches.
 
 ## Choose a connection
 
@@ -440,7 +440,7 @@ Spin ice provides distinct theoretical quasiparticle context (:cite[BIB-0017]), 
 
 ## Reverse reading map for 08 H01–H23
 
-These are navigation suggestions. Unfilled stronger results stay unfilled; analogy and method context do not fill empirical gaps. All H labels in this table belong to **08_claim_coverage.md v0.2.1**. All unqualified E labels in this table belong to **06_evidence_catalog.md v0.2.1**. He, Fu, Weng, DNA, Godino, Prindle, Liu and Pecora refer to the recovered papers above.
+These are navigation suggestions. Unfilled stronger results stay unfilled; analogy and method context do not fill empirical gaps. All H labels in this table belong to **08_claim_coverage.md in RRG v0.3**. All unqualified E labels in this table belong to **06_evidence_catalog.md retained unchanged in RRG v0.3**. He, Fu, Weng, DNA, Godino, Prindle, Liu and Pecora refer to the recovered papers above.
 
 | Current claim | Useful connections to retain or recover | Scope / missing stronger result |
 |---|---|---|
@@ -467,6 +467,11 @@ These are navigation suggestions. Unfilled stronger results stay unfilled; analo
 | H21 — information specifies useful states | Controlled examples as motivation | No universal frequency-only code or general inverse construction demonstrated |
 | H22 — AI application | Existing neural-manifold/physical-computation literature | Related work, no RRG-specific benchmark gain |
 | H23 — publication/evidence-first workflow | Current README/04 §40 | Authorial project direction, not a scientific evidence score |
+| H24 — force/fit compatibility | E01/E07/E18/E19 as limited components and bridges | No derivation of all forces or all binding; see current 01 §6.1 and 08 O9 |
+| H25 — inner/outer resonance | Same limited coupling and field examples | No additional force or single-frequency definition established |
+| H26 — possible force history | Current 01 §7.3 and 08 O4 retain the question | Speculative, with no demonstrated chronology or one force per scale |
+| H27 — survival, environment, spread and joining | Environmental pH; E13 as a chemical partial bridge | Evolutionary interpretation, not a universal dominance or adaptation measure |
+| H28 — conditional spreading | E10/E11/E20 pattern multiplication; E01/E02 components | Recurrence alone does not establish causal reproduction or full recursion |
 
 ## Document and edition qualified labels
 
@@ -474,28 +479,28 @@ Use the source document, its edition and its local label together. In particular
 
 | Source document and edition | Local label | Meaning / reading | Bibliography |
 |---|---|---|---|
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E01 | [Experimental Study of the Triplet Synchronization of Coupled Nonidentical Mechanical Metronomes](/claims/UT-E101/#e01--experimental-study-of-the-triplet-synchronization-of-coupled-nonidentical-mechanical-metronomes) | :cite[BIB-0066] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E02 | [Controlling the motion of multiple objects on a Chladni plate](/claims/UT-E102/#e02--controlling-the-motion-of-multiple-objects-on-a-chladni-plate) | :cite[BIB-0067] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E03 | [Independent trapping and manipulation of microparticles using dexterous acoustic tweezers](/claims/UT-E103/#e03--independent-trapping-and-manipulation-of-microparticles-using-dexterous-acoustic-tweezers) | :cite[BIB-0068] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E04 | [Noise-induced spatial periodicity in excitable chemical media](/claims/UT-E104/#e04--noise-induced-spatial-periodicity-in-excitable-chemical-media) | :cite[BIB-0069] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E05 | [Transition from a uniform state to hexagonal and striped Turing patterns](/claims/UT-E105/#e05--transition-from-a-uniform-state-to-hexagonal-and-striped-turing-patterns) | :cite[BIB-0070] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E06 | [Resonant pattern formation in a chemical system](/claims/UT-E106/#e06--resonant-pattern-formation-in-a-chemical-system) | :cite[BIB-0071] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E07 | [Dicke quantum phase transition with a superfluid gas in an optical cavity](/claims/UT-E107/#e07--dicke-quantum-phase-transition-with-a-superfluid-gas-in-an-optical-cavity) | :cite[BIB-0036] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E08 | [Tunable colloidal swarmalators with hydrodynamic coupling](/claims/UT-E108/#e08--tunable-colloidal-swarmalators-with-hydrodynamic-coupling) | :cite[BIB-0002] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E09 | [Self-Organized Resonance during Search of a Diverse Chemical Space](/claims/UT-E109/#e09--self-organized-resonance-during-search-of-a-diverse-chemical-space) | :cite[BIB-0072] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E10 | [Experimental observation of self-replicating spots in a reaction–diffusion system](/claims/UT-E110/#e10--experimental-observation-of-self-replicating-spots-in-a-reactiondiffusion-system) | :cite[BIB-0073] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E11 | [Self-Replicating Holes in a Vertically Vibrated Dense Suspension](/claims/UT-E111/#e11--self-replicating-holes-in-a-vertically-vibrated-dense-suspension) | :cite[BIB-0074] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E12 | [Dynamic self-assembly of magnetized, millimetre-sized objects rotating at a liquid–air interface](/claims/UT-E112/#e12--dynamic-self-assembly-of-magnetized-millimetre-sized-objects-rotating-at-a-liquidair-interface) | :cite[BIB-0075] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E13 | [Spontaneous network formation among cooperative RNA replicators](/claims/UT-E113/#e13--spontaneous-network-formation-among-cooperative-rna-replicators) | :cite[BIB-0076] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E14 | [Transport, Collective Motion, and Brownian Motion](/claims/UT-E114/#e14--transport-collective-motion-and-brownian-motion) | :cite[BIB-0077] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E15 | [Realization of the Hofstadter Hamiltonian with Ultracold Atoms in Optical Lattices](/claims/UT-E115/#e15--realization-of-the-hofstadter-hamiltonian-with-ultracold-atoms-in-optical-lattices) | :cite[BIB-0078] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E16 | [A colloidal viewpoint on the sausage catastrophe and the finite sphere packing problem](/claims/UT-E116/#e16--a-colloidal-viewpoint-on-the-sausage-catastrophe-and-the-finite-sphere-packing-problem) | :cite[BIB-0079] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E17 | [Drive-specific selection in multistable mechanical networks](/claims/UT-E117/#e17--drive-specific-selection-in-multistable-mechanical-networks) | :cite[BIB-0080] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E18 | [Optical binding](/claims/UT-E118/#e18--optical-binding) | :cite[BIB-0081] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E19 | [Controlling dispersion forces between small particles with artificially created random light fields](/claims/UT-E119/#e19--controlling-dispersion-forces-between-small-particles-with-artificially-created-random-light-fields) | :cite[BIB-0082] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E20 | [Self-replicating segregation patterns in horizontally vibrated binary mixture of granules](/claims/UT-E120/#e20--self-replicating-segregation-patterns-in-horizontally-vibrated-binary-mixture-of-granules) | :cite[BIB-0083] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E21 | [Pattern formation in a Swift-Hohenberg equation with spatially periodic coefficients](/claims/UT-E121/#e21--pattern-formation-in-a-swift-hohenberg-equation-with-spatially-periodic-coefficients) | :cite[BIB-0084] |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | E22 | [Thermodynamics of bouncing grains](/claims/UT-E122/#e22--thermodynamics-of-bouncing-grains) | :cite[BIB-0085] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E01 | [Experimental Study of the Triplet Synchronization of Coupled Nonidentical Mechanical Metronomes](/claims/UT-E101/#e01--experimental-study-of-the-triplet-synchronization-of-coupled-nonidentical-mechanical-metronomes) | :cite[BIB-0066] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E02 | [Controlling the motion of multiple objects on a Chladni plate](/claims/UT-E102/#e02--controlling-the-motion-of-multiple-objects-on-a-chladni-plate) | :cite[BIB-0067] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E03 | [Independent trapping and manipulation of microparticles using dexterous acoustic tweezers](/claims/UT-E103/#e03--independent-trapping-and-manipulation-of-microparticles-using-dexterous-acoustic-tweezers) | :cite[BIB-0068] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E04 | [Noise-induced spatial periodicity in excitable chemical media](/claims/UT-E104/#e04--noise-induced-spatial-periodicity-in-excitable-chemical-media) | :cite[BIB-0069] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E05 | [Transition from a uniform state to hexagonal and striped Turing patterns](/claims/UT-E105/#e05--transition-from-a-uniform-state-to-hexagonal-and-striped-turing-patterns) | :cite[BIB-0070] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E06 | [Resonant pattern formation in a chemical system](/claims/UT-E106/#e06--resonant-pattern-formation-in-a-chemical-system) | :cite[BIB-0071] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E07 | [Dicke quantum phase transition with a superfluid gas in an optical cavity](/claims/UT-E107/#e07--dicke-quantum-phase-transition-with-a-superfluid-gas-in-an-optical-cavity) | :cite[BIB-0036] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E08 | [Tunable colloidal swarmalators with hydrodynamic coupling](/claims/UT-E108/#e08--tunable-colloidal-swarmalators-with-hydrodynamic-coupling) | :cite[BIB-0002] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E09 | [Self-Organized Resonance during Search of a Diverse Chemical Space](/claims/UT-E109/#e09--self-organized-resonance-during-search-of-a-diverse-chemical-space) | :cite[BIB-0072] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E10 | [Experimental observation of self-replicating spots in a reaction–diffusion system](/claims/UT-E110/#e10--experimental-observation-of-self-replicating-spots-in-a-reactiondiffusion-system) | :cite[BIB-0073] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E11 | [Self-Replicating Holes in a Vertically Vibrated Dense Suspension](/claims/UT-E111/#e11--self-replicating-holes-in-a-vertically-vibrated-dense-suspension) | :cite[BIB-0074] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E12 | [Dynamic self-assembly of magnetized, millimetre-sized objects rotating at a liquid–air interface](/claims/UT-E112/#e12--dynamic-self-assembly-of-magnetized-millimetre-sized-objects-rotating-at-a-liquidair-interface) | :cite[BIB-0075] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E13 | [Spontaneous network formation among cooperative RNA replicators](/claims/UT-E113/#e13--spontaneous-network-formation-among-cooperative-rna-replicators) | :cite[BIB-0076] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E14 | [Transport, Collective Motion, and Brownian Motion](/claims/UT-E114/#e14--transport-collective-motion-and-brownian-motion) | :cite[BIB-0077] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E15 | [Realization of the Hofstadter Hamiltonian with Ultracold Atoms in Optical Lattices](/claims/UT-E115/#e15--realization-of-the-hofstadter-hamiltonian-with-ultracold-atoms-in-optical-lattices) | :cite[BIB-0078] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E16 | [A colloidal viewpoint on the sausage catastrophe and the finite sphere packing problem](/claims/UT-E116/#e16--a-colloidal-viewpoint-on-the-sausage-catastrophe-and-the-finite-sphere-packing-problem) | :cite[BIB-0079] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E17 | [Drive-specific selection in multistable mechanical networks](/claims/UT-E117/#e17--drive-specific-selection-in-multistable-mechanical-networks) | :cite[BIB-0080] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E18 | [Optical binding](/claims/UT-E118/#e18--optical-binding) | :cite[BIB-0081] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E19 | [Controlling dispersion forces between small particles with artificially created random light fields](/claims/UT-E119/#e19--controlling-dispersion-forces-between-small-particles-with-artificially-created-random-light-fields) | :cite[BIB-0082] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E20 | [Self-replicating segregation patterns in horizontally vibrated binary mixture of granules](/claims/UT-E120/#e20--self-replicating-segregation-patterns-in-horizontally-vibrated-binary-mixture-of-granules) | :cite[BIB-0083] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E21 | [Pattern formation in a Swift-Hohenberg equation with spatially periodic coefficients](/claims/UT-E121/#e21--pattern-formation-in-a-swift-hohenberg-equation-with-spatially-periodic-coefficients) | :cite[BIB-0084] |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | E22 | [Thermodynamics of bouncing grains](/claims/UT-E122/#e22--thermodynamics-of-bouncing-grains) | :cite[BIB-0085] |
 | 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E01 | Formation of optical supramolecular structures in a fibre laser by tailoring long-range soliton interactions (historical reading excluded from this edition) | :cite[BIB-0022] |
 | 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E02 | Heteronuclear soliton molecules in optical microresonators (historical reading excluded from this edition) | :cite[BIB-0024] |
 | 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E03 | Mechanochemical feedback loop drives persistent motion of liposomes (historical reading excluded from this edition) | :cite[BIB-0026] |
@@ -505,54 +510,60 @@ Use the source document, its edition and its local label together. In particular
 | 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E07 | Fractal assembly of micrometre-scale DNA origami arrays with arbitrary patterns (historical reading excluded from this edition) | :cite[BIB-0034] |
 | 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E08 | Dicke quantum phase transition with a superfluid gas in an optical cavity (historical reading excluded from this edition) | :cite[BIB-0036] |
 | 08_ADDITIONAL_PRIMARY_EVIDENCE.md · repository-current-2026-10-01 | E09 | Cluster synchronization and isolated desynchronization in complex networks with symmetries (historical reading excluded from this edition) | :cite[BIB-0038] |
-| 04_recursive_background_generation.md · v0.2.1 repository current, promoted 2026-10-05 | C1 | [Possibility-space growth](/framework/recursive-background/#c1--possibility-space-growth) | Claim label, not a bibliographic alias |
-| 04_recursive_background_generation.md · v0.2.1 repository current, promoted 2026-10-05 | C2 | [Timescale hierarchy](/framework/recursive-background/#c2--timescale-hierarchy) | Claim label, not a bibliographic alias |
-| 04_recursive_background_generation.md · v0.2.1 repository current, promoted 2026-10-05 | C3 | [Recursive persistence generates apparent directionality](/framework/recursive-background/#c3--recursive-persistence-generates-apparent-directionality) | Claim label, not a bibliographic alias |
-| 04_recursive_background_generation.md · v0.2.1 repository current, promoted 2026-10-05 | C4 | [Effective-law hierarchy](/framework/recursive-background/#c4--effective-law-hierarchy) | Claim label, not a bibliographic alias |
-| 04_recursive_background_generation.md · v0.2.1 repository current, promoted 2026-10-05 | C5 | [Spacetime connection](/framework/recursive-background/#c5--spacetime-connection) | Claim label, not a bibliographic alias |
-| 04_recursive_background_generation.md · v0.2.1 repository current, promoted 2026-10-05 | C6 | [Engineering inversion](/framework/recursive-background/#c6--engineering-inversion) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | C0 | [Fluctuations or a uniform starting regime can participate in pattern formation or interaction.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | C1 | [Geometry and mode structure constrain or affect one another.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | C2 | [Coupled oscillators can develop collective phase/frequency relationships.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | C3 | [A driven field or vibration can reorganize material.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | C4 | [An organization, boundary or interaction changes what its surroundings can do.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | C5 | [A nonliving pattern or chemical organization can propagate or multiply.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | C6 | [Lower-level dynamics admit useful collective variables and an effective background description.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | C7 | [Controlled conditions can implement selected effective dynamics.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H01 | [Start with fluctuating activity, not pre-built resonators](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H02 | [Transient arrangements appear; some become persistent](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H03 | [Geometry and frequency/mode form a feedback loop](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H04 | [Oscillators influence one another through a shared medium](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H05 | [Vibration can rearrange suitable material](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H06 | [A formed structure reshapes the background around it](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H07 | [Longer persistence gives more opportunity to influence](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H08 | [Repeated compatible arrangements can appear without a copying command](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H09 | [Domains compete, dominate or coexist](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H10 | [Lower-level organization becomes noise-like substrate to the next level](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H11 | [The same abstract operation repeats in different effective worlds](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H12 | [Persistent combinations become new effective units](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H13 | [Stable units enable new organizational possibilities](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H14 | [A level creates available stable organizations before later combinations become feasible](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H15 | [New geometry/background defines new effective rules](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H16 | [One source may ultimately account for the fundamental interactions](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H17 | [Life is a visible later instance of organization reconstructing itself](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H18 | [New scales may relate to the expansion and evolution of the universe](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H19 | [Work forward from the source rather than merely reinterpreting finished structures](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H20 | [Control modes to control organization and effective behavior—“magic”](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H21 | [Information might specify a useful mode/geometry/state](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H22 | [The idea may inform AI, learning and abstraction](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | H23 | [Publish, collect cases, review and update; proofs welcome but optional](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | O1 | [Recursive physical construction](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | O2 | [Same principle across levels](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | O3 | [Scale, lifetime and possibility-space growth](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | O4 | [Fundamental unification](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | O5 | [Cosmological connection](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | O6 | [Engineered domains](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | O7 | [Life and evolution](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
-| 08_claim_coverage.md · v0.2.1 repository current, promoted 2026-10-05 | O8 | [AI](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | F01 | [Spatiotemporal order out of noise](/evidence/catalogue/#further-reading-kept-separate-from-primary-case-cards) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | F02 | [Engineering precise and robust effective Hamiltonians](/evidence/catalogue/#further-reading-kept-separate-from-primary-case-cards) | Claim label, not a bibliographic alias |
-| 06_evidence_catalog.md · v0.2.1 repository current, promoted 2026-10-05 | F03 | [Validity of the stochastic Ginzburg-Landau approximation in higher space dimensions: A Wiener algebra approach](/evidence/catalogue/#further-reading-kept-separate-from-primary-case-cards) | Claim label, not a bibliographic alias |
+| 04_recursive_background_generation.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C1 | [Possibility-space growth](/framework/recursive-background/#c1--possibility-space-growth) | Claim label, not a bibliographic alias |
+| 04_recursive_background_generation.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C2 | [Timescale hierarchy](/framework/recursive-background/#c2--timescale-hierarchy) | Claim label, not a bibliographic alias |
+| 04_recursive_background_generation.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C3 | [Recursive persistence generates apparent directionality](/framework/recursive-background/#c3--recursive-persistence-generates-apparent-directionality) | Claim label, not a bibliographic alias |
+| 04_recursive_background_generation.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C4 | [Effective-law hierarchy](/framework/recursive-background/#c4--effective-law-hierarchy) | Claim label, not a bibliographic alias |
+| 04_recursive_background_generation.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C5 | [Spacetime connection](/framework/recursive-background/#c5--spacetime-connection) | Claim label, not a bibliographic alias |
+| 04_recursive_background_generation.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C6 | [Engineering inversion](/framework/recursive-background/#c6--engineering-inversion) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C0 | [Fluctuations or a uniform starting regime can participate in pattern formation or interaction.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C1 | [Geometry and mode structure constrain or affect one another.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C2 | [Coupled oscillators can develop collective phase/frequency relationships.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C3 | [A driven field or vibration can reorganize material.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C4 | [An organization, boundary or interaction changes what its surroundings can do.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C5 | [A nonliving pattern or chemical organization can propagate or multiply.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C6 | [Lower-level dynamics admit useful collective variables and an effective background description.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | C7 | [Controlled conditions can implement selected effective dynamics.](/evidence/catalogue/#claim-map) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H01 | [Start with fluctuating activity, not pre-built resonators](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H02 | [Transient arrangements appear; some become persistent](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H03 | [Geometry and frequency/mode form a feedback loop](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H04 | [Oscillators influence one another through a shared medium](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H05 | [Vibration can rearrange suitable material](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H06 | [A formed structure reshapes the background around it](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H07 | [Longer persistence gives more opportunity to influence](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H08 | [Repeated compatible arrangements can appear without a copying command](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H09 | [Domains compete, dominate or coexist](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H10 | [Lower-level organization becomes noise-like substrate to the next level](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H11 | [The same abstract operation repeats in different effective worlds](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H12 | [Persistent combinations become new effective units](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H13 | [Stable units enable new organizational possibilities](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H14 | [A level creates available stable organizations before later combinations become feasible](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H15 | [New geometry/background defines new effective rules](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H16 | [One source may ultimately account for the fundamental interactions](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H17 | [Life is a visible later instance of organization reconstructing itself](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H18 | [New scales may relate to the expansion and evolution of the universe](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H19 | [Work forward from the source rather than merely reinterpreting finished structures](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H20 | [Control modes to control organization and effective behavior—“magic”](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H21 | [Information might specify a useful mode/geometry/state](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H22 | [The idea may inform AI, learning and abstraction](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H23 | [Publish, collect cases, review and update; proofs welcome but optional](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H24 | [Forces gather and hold; resonance-fit decides which arrangements connect and last](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H25 | [Inner resonance maintains a thing as itself; outer resonance links it to others](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H26 | [Fundamental forces may have appeared with scale and time, created by earlier levels](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H27 | [Success includes surviving, shaping favourable surroundings, spreading and joining](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | H28 | [Spreading is a resonator's strong tendency when it can couple and has energy](/research-status/claims/#session-coverage) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | O1 | [Recursive physical construction](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | O2 | [Same principle across levels](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | O3 | [Scale, lifetime and possibility-space growth](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | O4 | [Fundamental unification](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | O5 | [Cosmological connection](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | O6 | [Engineered domains](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | O7 | [Life and evolution](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | O8 | [AI](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
+| 08_claim_coverage.md · RRG v0.3 — author-clarified edition, 2026-10-06 | O9 | [Resonance-fit within and between organizations](/research-status/claims/#open-claim-registry) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | F01 | [Spatiotemporal order out of noise](/evidence/catalogue/#further-reading-kept-separate-from-primary-case-cards) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | F02 | [Engineering precise and robust effective Hamiltonians](/evidence/catalogue/#further-reading-kept-separate-from-primary-case-cards) | Claim label, not a bibliographic alias |
+| 06_evidence_catalog.md · RRG v0.3 — author-clarified edition, 2026-10-06 | F03 | [Validity of the stochastic Ginzburg-Landau approximation in higher space dimensions: A Wiener algebra approach](/evidence/catalogue/#further-reading-kept-separate-from-primary-case-cards) | Claim label, not a bibliographic alias |
 
 
 ## Methods, background and optional applications

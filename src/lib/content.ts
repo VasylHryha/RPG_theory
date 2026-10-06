@@ -11,9 +11,10 @@ import { ContractError } from './errors.js';
 import { readAdmission, qualifyCurrentSource, validateBinding, filesIn, type AdmissionRecord } from './source-admission.js';
 import { sha256, stableJSON } from './identity.js';
 import { assertUniqueRoutes } from './urls.js';
-import { safeMarkdown, renderMarkdown, renderMarkdownSync } from './markdown.js';
+import { safeMarkdown, renderMarkdownSync } from './markdown.js';
 import { expandDirectives } from './directives.js';
 import { load } from 'cheerio';
+import { renderHomeBody } from './home.js';
 
 import { websiteReviewSchema, validateWebsiteReviews, qualifyWebsiteCorpus, type WebsiteReview } from './website-review.js';
 
@@ -151,7 +152,7 @@ export function validateCorpus(input: { entries: unknown[]; sources: unknown[]; 
   // Bind the transitive rendering/selection policy and its pinned dependencies,
   // not just the entry renderer. A URL, schema, CSS or KaTeX dependency change
   // can change the reviewed presentation without changing source prose.
-  const rendererFiles=['content.ts','library.ts','publication-assets.ts','publication-policy.ts','zip.ts','build-identity.ts','website-review.ts','content-schema.ts','markdown.ts','markdown-safety.ts','markdown-tree.ts','directives.ts','source-display.ts','source-links.ts','source-paths.ts','presentation.ts','publication.ts','search.ts','site-metadata.ts','source-admission.ts','site-config.ts','urls.ts','identity.ts','errors.ts'].map(path=>'src/lib/'+path)
+  const rendererFiles=['content.ts','contents.ts','home.ts','library.ts','publication-assets.ts','publication-policy.ts','zip.ts','build-identity.ts','website-review.ts','content-schema.ts','markdown.ts','markdown-safety.ts','markdown-tree.ts','directives.ts','source-display.ts','source-links.ts','source-paths.ts','presentation.ts','publication.ts','search.ts','site-metadata.ts','source-admission.ts','site-config.ts','urls.ts','identity.ts','errors.ts'].map(path=>'src/lib/'+path)
     .concat(filesIn(resolve(root,'src')).filter(path=>path.endsWith('.astro') || path.endsWith('.css')).map(path=>'src/'+path),['astro.config.mjs','package-lock.json']).sort();
   const rendererSha256=sha256(stableJSON(rendererFiles.map(path=>[path,sha256(readFileSync(resolve(root,path)))])));
   const corpus = { entries, sources, references, evidence, aliases: new Map([...aliases].map(([k,a])=>[k,a.bibliographyId])), root, websiteReviews:(input.websiteReviews ?? []).map(r=>websiteReviewSchema.parse(r)), admission, rendererSha256 };
@@ -204,9 +205,12 @@ export function loadCanonicalCorpus(root = process.cwd()): Corpus {
   const pages = filesIn(join(folder,'pages')).filter(p=>p.endsWith('.md')).map(path=> { const raw = readFileSync(join(folder,'pages',path),'utf8'); const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(raw); if (!match) fail('INVALID_FRONTMATTER',path); return { ...parse(match[1]), body: match[2] }; });
   return validateCorpus({ entries: [...documents,...records,...pages], sources: readYAML(join(folder,'source-index.yaml')) as unknown[], references: readYAML(join(folder,'references.yaml')) as unknown[], aliases: readYAML(join(folder,'citation-aliases.yaml')) as unknown[], websiteReviews: readYAML(join(folder,'website-reviews.yaml')) as unknown[], evidence: readYAML(join(folder,'execution-evidence.yaml')) as unknown[], record, root });
 }
-export async function renderEntry(corpus: Corpus,entry: Entry,base='/') { return renderMarkdown(documentMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,corpus,entry),base,corpus); }
+export async function renderEntry(corpus: Corpus,entry: Entry,base='/') { return renderEntrySync(corpus,entry,base); }
 
-export function renderEntrySync(corpus: Corpus,entry: Entry,base='/') { return renderMarkdownSync(documentMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,corpus,entry),base,corpus); }
+export function renderEntrySync(corpus: Corpus,entry: Entry,base='/') {
+  const html=renderMarkdownSync(documentMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,corpus,entry),base,corpus);
+  return entry.id==='DOC-HOME' && !['archived','superseded','withdrawn'].includes(entry.publicationState) ? renderHomeBody(html,base) : html;
+}
 
 // Context-sensitive editorial diagnostics: flag candidates, never manufacture
 // semantic approval or reject a legitimate quotation/negation automatically.

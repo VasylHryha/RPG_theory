@@ -4,14 +4,14 @@
   "route": "/examples/string/",
   "title": "String: boundaries shape motion",
   "description": "An illustration of constrained motion, with material properties kept in view.",
-  "revision": 2,
+  "revision": 7,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-SCIENCE",
@@ -32,7 +32,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World explanation §2; core §§1–3. OpenStax supplements the ideal fixed-end string model and its physical parameters.",
+  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. World explanation §2; core §§1–3. OpenStax supplements the ideal fixed-end string model and its physical parameters.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -55,3 +55,5 @@ The string illustration does not itself demonstrate that motion maintains its fi
 In the [geometry and modes concept](/concepts/geometry-and-modes/), the physical constraints are described before the formal RRG definitions. A [molecule](/examples/molecule/) illustrates how a collective organization can add restrictions while lower-level structure remains.
 
 [All examples](/examples/) · [Start with the idea](/start/)
+
+Questions or ideas? [Contact the author](/contact/).

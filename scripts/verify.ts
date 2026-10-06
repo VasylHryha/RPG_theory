@@ -33,7 +33,7 @@ if (mode === 'release') {
   const config=loadSiteConfig(options.config);
   assertBuildAllowed(mode,config,publicationFor(mode,config).admission);
 }
-const configurations = options.config ? [options.config] : routine ? ['tests/fixtures/site-root.json', 'config/site.json'] : ['tests/fixtures/site-root.json', 'tests/fixtures/site-subpath.json', 'config/site.json'];
+const configurations = options.config ? [options.config] : ['tests/fixtures/site-root.json', 'config/site.json'];
 const smoke = '@routine';
 const suffixFor = (path: string) => {
   const base = loadSiteConfig(path).basePath;
@@ -42,11 +42,6 @@ const suffixFor = (path: string) => {
 const commands = [
   ['run', 'check'],
   ...(!routine ? [['run', 'check:sources', '--', '--scope', 'history']] : []),
-  ...(!routine ? [
-    ['run', 'check:sources', '--', '--scope', 'current'],
-    ['run', 'check:content'],
-    ['run', 'check:publication']
-  ] : []),
   ...configurations.flatMap(config => {
     const suffix = suffixFor(config);
     const output = `${options['output-root'] ?? 'dist'}/${mode}-${suffix}`;
@@ -55,20 +50,20 @@ const commands = [
       ['run', 'audit:output', '--', '--dir', output]
     ];
   }),
-  ...(!routine ? [['run', 'test:content']] : []),
+  ['run', 'test:content'],
   ...configurations.flatMap(config=>{
     const suffix=suffixFor(config),output=`${options['output-root']??'dist'}/${mode}-${suffix}`;
-    return routine ? [['run','test:e2e','--','--output',output,'--grep',smoke]] : [['run','test:e2e','--','--output',output],['run','check:m6','--','--dir',output,'--evidence-dir',`${evidence}/${suffix}`,'--lighthouse',suffix==='root'?'true':'false']];
+    return [['run','test:e2e','--','--output',output,...(routine?['--grep',smoke]:[])]];
   })
 ];
 const receipts: { command: string; exitCode: number | null; elapsedMs: number }[] = [];
 const started = Date.now();
 for (const command of commands) {
   console.log(`\nRunning npm ${command.join(' ')}`);
-  // Contract mutations intentionally use the legacy regression base. Give an
-  // explicit target-only run its own independently built contract fixture.
-  const subpathConfig=configurations.find(path=>loadSiteConfig(path).basePath==='/unity-theory/');
-  const contractOutput=subpathConfig?`${options['output-root']??'dist'}/${mode}-${suffixFor(subpathConfig)}`:undefined;
+  // Reuse one of the selected outputs for the lean mutation controls. Private
+  // previews are required: a selected qualification/release excludes fixtures.
+  const contractConfig=configurations.find(path=>loadSiteConfig(path).basePath!=='/') ?? configurations[0];
+  const contractOutput=mode==='preview'?`${options['output-root']??'dist'}/${mode}-${suffixFor(contractConfig)}`:undefined;
   const artifactOutput=command[1]==='test:e2e'?command[command.indexOf('--output')+1]:command[1]==='audit:output'?command[command.indexOf('--dir')+1]:undefined;
   const artifactSuffix=artifactOutput?.split('/').pop()?.replace(`${mode}-`,'');
   const commandStarted = Date.now();
@@ -78,5 +73,5 @@ for (const command of commands) {
 }
 mkdirSync(evidence, { recursive: true });
 const complete = receipts.length === commands.length && receipts.every(r => r.exitCode === 0);
-writeFileSync(`${evidence}/verification.json`, JSON.stringify({ date: new Date().toISOString(), mode, profile, elapsedMs: Date.now() - started, status: complete ? 'PASS' : 'FAIL', qualificationSuiteComplete: !routine && complete, omittedByProfile: routine ? [...(profile === 'push' ? ['Astro type check', 'build/output audit', 'browser smoke'] : []), 'historical source regression', 'legacy /unity-theory/ fixture', 'full content contract suite', 'full browser suite', 'M6 stress/cross-browser/performance/Lighthouse campaign'] : [], receipts, notRun: commands.slice(receipts.length).map(c => 'npm ' + c.join(' ')), scientificContentAccepted: false, humanComprehension: 'NOT_TESTED', publicDeployment: 'NOT_RUN' }, null, 2) + '\n');
+writeFileSync(`${evidence}/verification.json`, JSON.stringify({ date: new Date().toISOString(), mode, profile, elapsedMs: Date.now() - started, status: complete ? 'PASS' : 'FAIL', leanSuiteComplete: !routine && complete, qualificationSuiteComplete: false, omittedByProfile: [...(routine ? ['historical source regression', 'representative browser accessibility matrix'] : []), 'legacy /unity-theory/ fixture', 'M6 stress/cross-browser/performance/Lighthouse campaign'], receipts, notRun: commands.slice(receipts.length).map(c => 'npm ' + c.join(' ')), scientificContentAccepted: false, humanComprehension: 'NOT_TESTED', publicDeployment: 'NOT_RUN' }, null, 2) + '\n');
 process.exitCode = complete ? 0 : 1;

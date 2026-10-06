@@ -4,11 +4,11 @@
   "route": "/start/",
   "title": "How can one structure make another possible?",
   "description": "Start with bacteria changing their surroundings, then follow the question from a cell to other physical systems.",
-  "revision": 8,
+  "revision": 11,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-06",
@@ -116,3 +116,5 @@ Instead of asking only “What is this made of?”, RRG asks:
 You can examine a case, question a connection, or contribute a model. The proposal is being published so those questions can be explored—not because every answer is already known.
 
 [Return to the research question](/#research-question)
+
+Questions or ideas? [Contact the author](/contact/).

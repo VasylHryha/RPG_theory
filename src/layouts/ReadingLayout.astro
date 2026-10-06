@@ -2,10 +2,11 @@
 import '../styles/global.css';
 import { activeConfig, activeMode } from '../lib/site-config';
 import { canonicalURL, withBase } from '../lib/urls';
-import { renderNavigation } from '../lib/presentation';
+import { renderNavigation, renderHeaderTools } from '../lib/presentation';
 import { activePublication } from '../lib/publication';
 import { renderFooter } from '../lib/publication-policy';
 import { pageMetadata, metadataJSON } from '../lib/site-metadata';
+import { renderBreadcrumb, renderPageTurn, renderRelated } from '../lib/contents';
 // Use the stylesheet belonging to rehype-katex's lockfile-pinned renderer.
 // The separately installed root KaTeX version emits different box markup.
 import mathStylesheet from '../../node_modules/rehype-katex/node_modules/katex/dist/katex.min.css?url';
@@ -15,6 +16,8 @@ const config = activeConfig();
 const url = (path: string) => withBase(path, config.basePath);
 const selected=activePublication();
 const source = {...selected.admission,errorCode:null};
+const breadcrumb=renderBreadcrumb(selected,route,config.basePath);
+const related=breadcrumb?renderRelated(selected,route,config.basePath):'';
 ---
 <!doctype html>
 <html lang="en">
@@ -41,8 +44,14 @@ const source = {...selected.admission,errorCode:null};
     <header class="site-header shell">
       <a class="brand" href={url('/')} aria-label="RRG home"><span class="brand-mark" aria-hidden="true">↔</span> RRG</a>
       <nav aria-label="Main navigation" data-publication-navigation set:html={renderNavigation(selected,route,config.basePath)} />
+      <nav aria-label="Contact and search" class="header-tools" data-header-tools set:html={renderHeaderTools(route,config.basePath)} />
     </header>
-    <main id="main" tabindex="-1"><slot /></main>
+    <main id="main" tabindex="-1">
+      {breadcrumb && <nav class="breadcrumb shell" aria-label="Breadcrumb" data-book-breadcrumb set:html={breadcrumb} />}
+      <slot />
+      {related && <aside class="related-readings shell" aria-label="Related readings" data-book-related set:html={related} />}
+      {breadcrumb && route!=='/contents/' && <nav class="page-turn shell" aria-label="Page navigation" data-book-page-turn set:html={renderPageTurn(selected,route,config.basePath)} />}
+    </main>
     <aside class="source-note shell" aria-label="Source availability">
       <details><summary>About the source documents</summary><p><strong>{source.bytesVerified ? 'Current sources available' : 'Current sources unavailable'}</strong></p><p>{source.bytesVerified ? `${source.files} supplied files checked against the recorded edition. ${source.currentSourceQualified ? 'Website explanations reviewed against the supplied documents.' : 'Website explanations are drafts.'}` : `Source intake requires attention (${source.errorCode}). No historical document is used as a current substitute.`}</p></details>
     </aside>

@@ -4,14 +4,14 @@
   "route": "/examples/star/",
   "title": "Star: new reaction conditions",
   "description": "Existing organization can open possibilities for later transformations.",
-  "revision": 2,
+  "revision": 7,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-SCIENCE",
@@ -32,7 +32,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity.",
+  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -53,3 +53,5 @@ A star physically evolves. Treating it as one object in a larger description is 
 This example does not derive gravity from a universal resonance law or make every possible next structure inevitable. The broader [background-selection extension](/claims/UT-C02/) and force-unification question remain open in the original sources.
 
 [Life changing its environment](/examples/life-environment/) explores another way an existing organization changes conditions. [All examples](/examples/)
+
+Questions or ideas? [Contact the author](/contact/).

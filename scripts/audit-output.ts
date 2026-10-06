@@ -1,8 +1,9 @@
 import { publicationAssets,rssXML,verifyArchive } from '../src/lib/publication-assets.js';
 import {renderLibrary,renderHistory,renderDownloadTools,renderArticles,renderCite,renderSourceBacklinks} from '../src/lib/library.js';
 import { publicationFor, isHistorical, assertBuildAllowed } from '../src/lib/publication.js';
-import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHomeStatus, renderHomeContext, renderEditorialState, renderBeginnerDiagram, renderTechnicalGuide } from '../src/lib/presentation.js';
+import { renderStatus, renderRecordDetails, renderReferences, renderNavigation, renderHeaderTools, renderHomeStatus, renderHomeContext, renderEditorialState, renderBeginnerDiagram, renderTechnicalGuide } from '../src/lib/presentation.js';
 import { renderEntrySync } from '../src/lib/content.js';
+import { renderContents, renderBreadcrumb, renderPageTurn, renderRelated, renderSectionIndex } from '../src/lib/contents.js';
 import { readFileSync, existsSync, statSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve, join, dirname } from 'node:path';
 import { createRequire } from 'node:module';
@@ -16,7 +17,7 @@ import { buildInputs, syntheticRoutes } from '../src/lib/build-identity.js';
 import { buildMode } from '../src/lib/site-config.js';
 import { cssResourceURLs } from './css-resources.js';
 import { requiresMathStyles } from '../src/lib/markdown.js';
-import { renderFooter,renderAbout,renderLegal,publicationCredit } from '../src/lib/publication-policy.js';
+import { renderFooter,renderAbout,renderContact,renderLegal,publicationCredit } from '../src/lib/publication-policy.js';
 import { renderSearchFallback, searchInputs, searchIdentity, searchable } from '../src/lib/search.js';
 import { pageMetadata, metadataJSON, sitemapXML } from '../src/lib/site-metadata.js';
 
@@ -158,6 +159,19 @@ export function auditOutput(directory: string) {
     const diagrams=$('[data-beginner-diagram]');
     if(expectedDiagram ? diagrams.length!==1 || normalizedHTML(diagrams.toArray().map(el=>$.html(el)).join(''))!==normalizedHTML(expectedDiagram) : diagrams.length!==0) throw new ContractError('DIAGRAM_PARITY_FAILURE',file);
     const generatedRegions:[string,string][]=[];
+    // Every book region is checked for both expected bytes and absence when
+    // inapplicable; empty relationships must never grow invented links.
+    const breadcrumb=renderBreadcrumb(selected,route,info.config.basePath);
+    for(const [attr,expected] of [
+      ['data-book-breadcrumb',breadcrumb],
+      ['data-book-page-turn',breadcrumb && route!=='/contents/'?renderPageTurn(selected,route,info.config.basePath):''],
+      ['data-book-related',breadcrumb?renderRelated(selected,route,info.config.basePath):''],
+      ['data-book-section-index',renderSectionIndex(selected,route,info.config.basePath)],
+      ['data-book-contents',route==='/contents/'?renderContents(selected,info.config.basePath):'']
+    ]) {
+      const region=$(`[${attr}]`);
+      if(expected?region.length!==1 || normalizedHTML(region.html() ?? '')!==normalizedHTML(expected):region.length!==0)throw new ContractError('CONTENTS_PARITY_FAILURE',`${file}: ${attr}`);
+    }
     if(entry?.id==='DOC-HOME' && !isHistorical(entry))generatedRegions.push(['data-home-context',renderHomeContext(selected.corpus,entry,info.config.basePath)]);
     if(entry && !['DOC-HOME','DOC-START'].includes(entry.id))generatedRegions.push(['data-download-tools',renderDownloadTools(selected,entry,info.config.basePath)]);
     if(entry?.id==='DOC-LIBRARY')generatedRegions.push(['data-document-library',renderLibrary(selected,info.config.basePath)]);
@@ -166,9 +180,11 @@ export function auditOutput(directory: string) {
     if(route==='/cite/')generatedRegions.push(['data-citation',renderCite(selected,info.config)]);
     if(route==='/references/')generatedRegions.push(['data-source-backlinks',renderSourceBacklinks(selected,info.config.basePath)]);
     if(route==='/about/')generatedRegions.push(['data-about',renderAbout(publicationCredit(),info.config.basePath)]);
+    if(route==='/contact/')generatedRegions.push(['data-contact',renderContact(publicationCredit(),info.config.basePath)]);
     if(route==='/legal/')generatedRegions.push(['data-legal',renderLegal(publicationCredit(),info.config.basePath)]);
     if(route==='/search/')generatedRegions.push(['data-search-fallback',renderSearchFallback(selected,info.config.basePath)]);
     generatedRegions.push(['data-publication-footer',renderFooter(info.config.basePath)]);
+    generatedRegions.push(['data-header-tools',renderHeaderTools(route,info.config.basePath)]);
     for(const [attr,expected] of generatedRegions)if($(`[${attr}]`).length!==1 || normalizedHTML($(`[${attr}]`).html() ?? '')!==normalizedHTML(expected))throw new ContractError('LIBRARY_PARITY_FAILURE',`${file}: ${attr}`);
     if(route==='/references/') {
       if($('[data-bibliography]').length!==1 || normalizedHTML($('[data-bibliography]').html() ?? '')!==normalizedHTML(renderReferences(selected.references,selected.entries,info.config.basePath))) throw new ContractError('BIBLIOGRAPHY_PARITY_FAILURE','Literature text/destinations/scope/users');

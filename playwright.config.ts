@@ -1,6 +1,6 @@
 import { defineConfig } from '@playwright/test';
 const suffix = process.env.UNITY_TEST_BASE === '/' ? 'root' : 'subpath';
-const evidence = process.env.UNITY_EVIDENCE_DIR ?? 'docs/evidence/m1';
+const evidence = process.env.UNITY_EVIDENCE_DIR ?? 'docs/evidence/test-suite-proportionate/browser';
 export default defineConfig({
   testDir: './tests/e2e', workers: 1, retries: 0,
   reporter: [['list'], ['json', { outputFile: `${evidence}/${suffix}-browser.json` }]],

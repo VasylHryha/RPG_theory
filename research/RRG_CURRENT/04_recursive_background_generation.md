@@ -1,7 +1,8 @@
-# RRG v0.2.1 — Recursive Source, Background Generation, Scale Growth, and Evidence Map
+# RRG v0.3 — Recursive Source, Background Generation, Scale Growth, and Evidence Map
 
 **Status:** full conceptual companion / proposed framework with explicit evidence boundaries  
-**Date:** 2026-10-02  
+**Edition date:** 2026-10-06; audited argument carried forward from 2026-10-02.
+**Revision scope:** author-clarified cross-references and labelled extensions; no new evidence or repeated scientific audit.
 **Definition history:** unchanged snapshots in `foundations/01_world_explanation.md`, `foundations/02_scientific_framework.md`, and `foundations/03_mathematical_core.md`. Current publication scope is set by README and this audited companion.  
 **Purpose:** capture the full source-direction mechanism developed in the 2026-10-02 session, including the simplest physical examples, the recursive hierarchy, the relation to life, effective laws, expansion, and the engineering implications — without rewriting the already locked RRG definitions.
 
@@ -13,7 +14,7 @@
 
 The core remains \(R=(G,M)\), \(G\leftrightarrow M\), and \(B_n\to R_n\to B_{n+1}\). The stronger possibility of one form-invariant equation family is an additional mathematical conjecture, not a new definition of the author’s idea. “Locked” means changes must be explicit and versioned; it does not mean empirically established.
 
-Empirical examples are documented in [06 — Evidence catalogue](06_evidence_catalog.md). [05](05_mathematical_source_model.md) is optional. [08 — Claim and session coverage](08_claim_coverage.md) preserves the full set of ideas and distinguishes them from current evidence. Sections 7, 8, 11, 13–14, 24–25 and 33–43 have explicit audit corrections. Earlier text is preserved in `archive/`.
+Empirical examples are documented in [06 — Evidence catalogue](06_evidence_catalog.md). [05](05_mathematical_source_model.md) is optional. [08 — Claim and session coverage](08_claim_coverage.md) preserves the full set of ideas and distinguishes them from current evidence. Sections 7, 8, 11, 13–14, 24–25 and 33–43 have explicit audit corrections. Earlier text is preserved in the audited Library archive; the exact prior repository edition is now preserved under `research/history/repository-current-v0.2.1-promoted-2026-10-05/`. The v0.3 plain-language reading is in [01](01_world_explanation.md); this document retains the audited argument.
 
 ---
 
@@ -110,6 +111,8 @@ This document adds the explicit recursive background object \(B_n\) and makes th
 ---
 
 # 2. Rule 0 — the source-direction statement
+
+Plain-language reading: [01 §0](01_world_explanation.md#0-the-name-states-the-rules), [§1.1](01_world_explanation.md#11-motion-starts-as-noise-order-appears-by-chance) and [§14](01_world_explanation.md#14-the-entire-rrg-cycle-in-one-picture). Shape and rhythm are mutually supporting; the arrows do not make either universally first. The two separate roles are explained in [01 §7.1](01_world_explanation.md#71-two-separate-roles-building-blocks-and-changed-surroundings).
 
 The candidate source rule is:
 
@@ -595,6 +598,8 @@ A better statement is:
 
 > **Persistence and propagation can increase a structure’s contribution to its later environment; their importance depends on coupling, resources and the kind of influence being measured. This is not a universal ranking of structures.**
 
+**Success in the author's RRG reading:** surviving comes first, but success also includes shaping favourable conditions and spreading when possible. Joining compatible organizations is another route. No intention or single dominance metric is implied; persistence, environmental effect and propagation must be measured separately. See [01 §10.1](01_world_explanation.md#101-evolution-follows-the-same-rules-survive-shape-spread-and-join) for the biological reading and [§9](01_world_explanation.md#9-spreading-a-strong-tendency-not-a-required-step) for the conditional spreading tendency. This sharpens differential persistence rather than replacing the resource/coupling limits above.
+
 That background is history made physical.
 
 ---
@@ -799,6 +804,8 @@ This is the proposed interpretation behind the phrase; the equation names an int
 
 # 15. Effective laws: a new background can create a new effective world
 
+**Author-clarified hypothesis:** forces gather and hold; resonance-fit describes which arrangements connect and persist, with inner organization and outer coupling distinguished ([01 §6.1](01_world_explanation.md#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts); 08 H24–H25). The further possibility that fundamental forces appeared with scale and time, created by earlier levels, is speculative and may never be directly confirmed ([01 §7.3](01_world_explanation.md#73-new-levels-bring-new-ways-to-interact); 08 H26). Neither proposal follows from merely changing effective laws.
+
 The phrase **"new laws"** must be handled carefully.
 
 RRG does not yet claim that each new level rewrites the deepest underlying law.
@@ -884,6 +891,8 @@ It means that **the realized background created by history becomes part of the e
 ---
 
 # 17. Life as a visible late-stage realization of the same abstract pattern
+
+The plain-language evolutionary question and survival/shape/spread/join reading are in [01 §10.1](01_world_explanation.md#101-evolution-follows-the-same-rules-survive-shape-spread-and-join). The dependence on earlier material and conditions is in [01 §7.2](01_world_explanation.md#72-each-level-needs-the-ones-before-it).
 
 Life is useful to RRG because it runs on humanly observable timescales and leaves a recoverable history.
 
@@ -1285,6 +1294,8 @@ The claim is only that recursive stable-unit formation creates a mechanism by wh
 
 # 29. "New laws" as emergent constraints of a new resonant background
 
+**Author-clarified hypothesis:** forces gather and hold; resonance-fit describes which arrangements connect and persist, with inner organization and outer coupling distinguished ([01 §6.1](01_world_explanation.md#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts); 08 H24–H25). The further possibility that fundamental forces appeared with scale and time, created by earlier levels, is speculative and may never be directly confirmed ([01 §7.3](01_world_explanation.md#73-new-levels-bring-new-ways-to-interact); 08 H26). Neither proposal follows from merely changing effective laws.
+
 When level \(n\) is established, level \(n+1\) does not encounter raw \(B_0\).
 
 It encounters:
@@ -1323,6 +1334,8 @@ That is a much more restrictive and testable claim.
 ---
 
 # 30. Life, evolution, and the same abstract architecture
+
+See [01 §10.1](01_world_explanation.md#101-evolution-follows-the-same-rules-survive-shape-spread-and-join) for the author-clarified meaning of success, conditional spreading and joining, and [§§12.1–13](01_world_explanation.md#121-humans-are-a-striking-recent-cycle) for humans and a possible AI cycle. None requires intention or an inevitable rise in complexity.
 
 Under this view, biological evolution is not used as proof of the physics.
 

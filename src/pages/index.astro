@@ -2,7 +2,7 @@
 import CanonicalPage from '../components/CanonicalPage.astro';
 import { publicationEntry, isHistorical } from '../lib/publication';
 import { renderEntry } from '../lib/content';
-import { renderHomeStatus, renderHomeContext, renderHomeHeading, renderEditorialState, renderBeginnerDiagram } from '../lib/presentation';
+import { renderHomeStatus, renderHomeContext, renderHomeHeading, renderEditorialState } from '../lib/presentation';
 import ReadingLayout from '../layouts/ReadingLayout.astro';
 import { activeConfig } from '../lib/site-config';
 import { withBase } from '../lib/urls';
@@ -16,13 +16,13 @@ const statusHTML = status?renderHomeStatus(corpus,status,activeConfig().basePath
 
 ---
 {historical ? <CanonicalPage id={entry.id} /> : <ReadingLayout title={entry.title} description={entry.description} route="/" math={requiresMathStyles(html + statusHTML)}>
-  <section class="hero shell" aria-labelledby="research-question">
-    <div><p class="eyebrow">Recursive Resonant Geometry (RRG) · A proposed scientific framework</p>
+  <section class="hero home-hero shell" aria-labelledby="research-question">
+    <div><p class="eyebrow">Recursive Resonant Geometry (RRG)</p>
       <h1 id="research-question" set:html={renderHomeHeading(entry.title)} />
       <div class="prose home-narrative" data-canonical-body={entry.id} {...searchAttributes(entry)} set:html={html} />
     </div>
   </section>
   <section class="reader-context shell"><div class="prose" data-home-context set:html={renderHomeContext(corpus,entry,activeConfig().basePath)} />
-    <details class="source-details"><summary>Source notes</summary><p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} /><Fragment set:html={renderBeginnerDiagram(entry.id)} /><div class="prose" data-source-projection={status!.id} set:html={statusHTML} /><p><a href={withBase('/references/',activeConfig().basePath)}>Browse the references</a></p></details>
+    <details class="source-details"><summary>Source notes</summary><p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} /><div class="prose" data-source-projection={status!.id} set:html={statusHTML} /><p><a href={withBase('/references/',activeConfig().basePath)}>Browse the references</a></p></details>
   </section>
 </ReadingLayout>}

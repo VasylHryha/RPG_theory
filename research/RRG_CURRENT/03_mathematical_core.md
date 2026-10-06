@@ -1034,6 +1034,8 @@ Therefore stable geometry, restoring interaction, and resonant frequencies are t
 
 ## 29. Latent interaction channels
 
+This is a candidate effective-channel model, not a conclusion that all fundamental forces were already present from the start. The author-clarified, speculative origin question is [01 §7.3](01_world_explanation.md#73-new-levels-bring-new-ways-to-interact); the force/fit distinction is [01 §6.1](01_world_explanation.md#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts).
+
 Write:
 
 \[

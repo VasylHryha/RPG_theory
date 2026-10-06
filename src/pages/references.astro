@@ -3,12 +3,13 @@ import {renderSourceBacklinks} from '../lib/library';
 import { renderReferences } from '../lib/presentation';
 import { activeConfig } from '../lib/site-config';
 import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { readingPages } from '../lib/contents';
 import { activePublication } from '../lib/publication';
 const selection=activePublication();
 const { references,entries } = selection;
 const html=renderReferences(references,entries,activeConfig().basePath);
 ---
-<ReadingLayout title="Literature and sources" description="Current-edition and supplementary reading-map sources, with their specific support and recorded inspection limits." route="/references/">
+<ReadingLayout {...readingPages['/references/']} route="/references/">
   <article class="article shell"><header><p class="eyebrow">Literature and reading map</p><h1>Literature and sources</h1><p class="article-lede">Literature cited by the current RRG edition and supplementary reading-map sources. A paper may support a local mechanism, offer a method or act as a comparator; inclusion does not mean it proves RRG.</p></header>
     <div class="prose" data-bibliography set:html={html} />
     <div data-source-backlinks set:html={renderSourceBacklinks(selection,activeConfig().basePath)} />

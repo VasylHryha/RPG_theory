@@ -4,11 +4,11 @@
   "route": "/examples/cell/",
   "title": "Cell: organization through exchange",
   "description": "Maintaining an organization while its components remain active.",
-  "revision": 4,
+  "revision": 9,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-06",
@@ -38,7 +38,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§8–10; framework §8 and §13; core §§4–9. OpenStax supplements membrane transport; no origin-of-life or complete artificial-cell claim.",
+  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. World §§8–10; framework §8 and §13; core §§4–9. OpenStax supplements membrane transport; no origin-of-life or complete artificial-cell claim.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -65,3 +65,5 @@ The same cell can participate as a unit in a larger organization while reactions
 Keeping one cell organized, copying a molecular pattern and reproducing a cell are different processes. Replication is optional in the locked core's general account of [recursion](/concepts/recursion/). This example begins with an existing cell; it does not resolve how the first life arose.
 
 [Explore stability](/concepts/stability/) · [All examples](/examples/)
+
+Questions or ideas? [Contact the author](/contact/).
