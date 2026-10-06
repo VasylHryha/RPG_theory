@@ -8,11 +8,11 @@ status: FIRST_PUBLIC_TEST_DEPLOYED
 reconciliation_state: PRIOR_MIGRATION_R2_ACCEPTANCE_PRESERVED_PACKAGE_AUTHORITY_AND_PAGES_TARGET_BOUNDED_HIGH_ACCEPTED
 current_milestone: M7
 execution_model: "Normal development with proportionate checks and separate bounded High acceptance under section 0.27; source-authority reconciliation in section 0.39 is required before public qualification/release"
-repository: "Existing public GitHub repository renamed to https://github.com/VasylHryha/RRG on main under the owner's naming correction; historical RPG_theory targets remain preserved in earlier receipts"
+repository: "Existing public GitHub repository renamed to https://github.com/VasylHryha/rrg_theory on main under the owner's naming correction; historical RPG_theory targets remain preserved in earlier receipts"
 replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
 planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
 source_baseline: "Owner explicitly promoted the audited GPT/Library RRG v0.2.1 companion dated 2026-10-02 to repository CURRENT on 2026-10-05; predecessor current bytes are archived, the minimal locked core/repository 01-03/change control are carried forward unchanged, and website migration has bounded separate High acceptance at section 0.41; private current-corpus fidelity and applicable M6 scope have bounded separate High acceptance at section 0.44; complete public qualification remains incomplete"
-publication: "First public test edition ACCEPTED at section 0.51 and deployed at section 0.56. Section 0.58 accepts and deploys the corrected RRG homepage/name/contact at https://vasylhryha.github.io/RRG/. Broad regression/human/AT/provenance work remains incomplete. Heavy campaigns run monthly."
+publication: "First public test edition ACCEPTED at section 0.51 and deployed at section 0.56. Section 0.58 accepts and deploys the corrected RRG homepage/name/contact at https://vasylhryha.github.io/rrg_theory/. Broad regression/human/AT/provenance work remains incomplete. Heavy campaigns run monthly."
 ---
 
 # Recursive Resonant Geometry (RRG) — website implementation plan · Revision 4
@@ -36,7 +36,7 @@ This is the sole execution plan for the website, research-document publication, 
 | Field | Current record |
 |---|---|
 | Current milestone / state | First test edition accepted/deployed at §§0.51/0.56. §0.58 ACCEPTS and deploys homepage clarity and RRG name/address/contact; actual same-run build/browser/live checks PASS |
-| Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/RRG`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
+| Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/rrg_theory`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
 | Last engineering acceptance | §0.58 bounded homepage/source-display acceptance and same-session RSS assertion repair; seven selected-release browser checks PASS. §§0.51/0.54 earlier acceptance and §0.55 owner publication authority preserved |
 | Latest execution receipt | §0.58: `docs/evidence/homepage-clarity/receipt.md` and `verification.json`; actual RRG publication run/commit/artifact, seven browser checks and live smoke. Earlier first-release receipt preserved |
 | Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
@@ -46,8 +46,8 @@ This is the sole execution plan for the website, research-document publication, 
 | Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
 | Website/browser/a11y/live evidence | §0.58 actual /RRG/ clean build/shared audit/seal and seven Chromium release journeys PASS; same-artifact Pages deployment and seven-response live identity/availability/contact/CFF/404 smoke PASS. Predecessor §0.56 exhaustive comparison preserved, not rerun. Human/listening, screen-reader/MathML and fully passing broad regression remain incomplete |
 | Current validation / decisions | **75 accepted current / 21 preserved archived stale / 0 pending / 0 rejected** through the shared fidelity validator. Selected current qualification true; owner-authorized release deployEligible=true. Prior genuine decisions, source bytes and excluded archive entries preserved |
-| External publication state | Existing public repository renamed `VasylHryha/RRG`, GitHub Actions Pages, HTTPS enforced, github-pages main policy and deployment variable enabled. Run 37435395184 succeeded from clean main e4ce19d. Live: `https://vasylhryha.github.io/RRG/`; exact uploaded artifact captured privately |
-| Next action | §0.58 is ACCEPTED and live at /RRG/; no deployment blocker remains. No full monthly campaign or automatic second acceptance cycle. Maintain/polish the same 75-page test edition with focused affected checks; domain/DNS deferred |
+| External publication state | Existing public repository renamed `VasylHryha/rrg_theory`, GitHub Actions Pages, HTTPS enforced, github-pages main policy and deployment variable enabled. Run 37435395184 succeeded from clean main e4ce19d. Live: `https://vasylhryha.github.io/rrg_theory/`; exact uploaded artifact captured privately |
+| Next action | §0.58 is ACCEPTED and live at /RRG/; §0.59 corrects the exact path to /rrg_theory/ and awaits its release. No full monthly campaign or automatic second acceptance cycle. Maintain/polish the same 75-page test edition with focused affected checks; domain/DNS deferred |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -782,6 +782,19 @@ Artifact ID `11399086477`; identity
 Recovery ZIP/seal retained privately. Human/listening/AT, complete original-package
 provenance and full broad regression remain incomplete; no invented PASS or new
 automatic acceptance cycle. Summary: `docs/evidence/homepage-clarity/verification.json`.
+
+### 0.59 Exact repository/Pages name — 6 October 2026
+
+The owner supplies **rrg_theory** as the exact repository name after §0.58.
+Rename the same repository to **VasylHryha/rrg_theory** (ID 1405464880 retained),
+with Pages URL **https://vasylhryha.github.io/rrg_theory/**. Display name remains
+Recursive Resonant Geometry (RRG); contact and rights are unchanged. Config,
+approved target, permanent citation URL, Git remotes and current instructions
+move together. Preserve historical target receipts and local Rider workspace.
+Evidence: `docs/evidence/rrg-theory-address/`. Reuse genuine unchanged source/display
+acceptance, compare the preceding accepted reads with current reads through the
+shared fidelity validator, and check the actual target through the short release
+pipeline. No full monthly campaign or new automatic review cycle.
 
 ## 1. Review findings and chosen repairs
 

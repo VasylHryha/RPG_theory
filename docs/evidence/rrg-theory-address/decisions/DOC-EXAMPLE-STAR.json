@@ -1,0 +1,137 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-STAR",
+  "fingerprint": "fe95eb1ede49f8c4038f62befab17c395b7ca17f879d47c18c21666e7c6e9f56",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T09:01:43.873Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+  "inputs": {
+    "fingerprint": "fe95eb1ede49f8c4038f62befab17c395b7ca17f879d47c18c21666e7c6e9f56",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-STAR",
+      "route": "/examples/star/",
+      "title": "Star: new reaction conditions",
+      "description": "Existing organization can open possibilities for later transformations.",
+      "revision": 2,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-C01",
+        "UT-C02",
+        "UT-D05"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0014"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What to notice\n\nThe source world explanation follows gas becoming a gravitationally organized star. Its internal temperature and pressure allow nuclear reactions to produce new nuclei. Stellar evolution and the dispersal of many heavier elements expand the material available for later chemistry. NASA's first-star explanation provides supplementary background: [NASA's first-stars explanation](/references/#BIB-0014).\n\n## What this illustrates\n\nThe important connection is existing organization → changed conditions → further physical possibilities. The original documents use the star to illustrate their wider question about which structures become accessible in an environment.\n\nA star physically evolves. Treating it as one object in a larger description is a different act: it changes what we track, rather than creating a new star by naming a level. Both ideas matter, and they should not be conflated.\n\n## Where the interpretation stops\n\nThis example does not derive gravity from a universal resonance law or make every possible next structure inevitable. The broader [background-selection extension](/claims/UT-C02/) and force-unification question remain open in the original sources.\n\n[Life changing its environment](/examples/life-environment/) explores another way an existing organization changes conditions. [All examples](/examples/)\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "9fad979d74d5458a1b65e9625bd772ef5b1f35e4ca515bcbd8faf7b9e552d9e7"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "f6bea956a0abd13bef21e484914ccbaa42ed74a69c316688643047976fd651f2"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e4aafc0237a82aac9319b68ce803f6293f02e0aeda0a25ae79626d35b8ca6e2a",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e1335e4b94dd01ab6b937af8cb23613473bc0bcda1f918e4cf8ff470ec01e714",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EXAMPLE-STAR.json, SHA-256 f34943e1dbfcd7cfbe2020ff573bf8fa170945ce32c766bf2c6e489ea4a048bf, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EXAMPLE-STAR.json, SHA-256 f34943e1dbfcd7cfbe2020ff573bf8fa170945ce32c766bf2c6e489ea4a048bf, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: An illustrative beginner explanation mapped to the original supplied RRG documents. No new experimental inputs, causal stages or equation-family requirement was introduced. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EXAMPLE-STAR.json, SHA-256 f34943e1dbfcd7cfbe2020ff573bf8fa170945ce32c766bf2c6e489ea4a048bf, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "hypotheses": "Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Scientific role example, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EXAMPLE-STAR.json, SHA-256 f34943e1dbfcd7cfbe2020ff573bf8fa170945ce32c766bf2c6e489ea4a048bf, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "evidenceDescriptions": "Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EXAMPLE-STAR.json, SHA-256 f34943e1dbfcd7cfbe2020ff573bf8fa170945ce32c766bf2c6e489ea4a048bf, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "openQuestions": "Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EXAMPLE-STAR.json, SHA-256 f34943e1dbfcd7cfbe2020ff573bf8fa170945ce32c766bf2c6e489ea4a048bf, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity. No personal identity, rights, author-public-wording or release authorization is inferred. Current review: The owner-approved author, dedicated project contact and citation URL are recorded; source-role, edition and supplementary attribution remain unchanged. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EXAMPLE-STAR.json, SHA-256 f34943e1dbfcd7cfbe2020ff573bf8fa170945ce32c766bf2c6e489ea4a048bf, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/DOC-EXAMPLE-STAR.json. Retained semantic finding: Compared world §7/cosmic/background addenda and framework §7. Stellar pressure/temperature and later chemical possibilities are source illustrations; physical formation differs from descriptive coarse-graining. Gravity derivation and inevitable next structures remain unclaimed; NASA is supplementary. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EXAMPLE-STAR.json, SHA-256 f34943e1dbfcd7cfbe2020ff573bf8fa170945ce32c766bf2c6e489ea4a048bf, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification."
+  }
+}

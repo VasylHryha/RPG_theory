@@ -21,7 +21,7 @@ The original owner-supplied `RRG_CURRENT.zip` remains preserved as provenance. I
 ## Website status
 
 **The first public research-draft edition is live:**
-[vasylhryha.github.io/RRG](https://vasylhryha.github.io/RRG/).
+[vasylhryha.github.io/rrg_theory](https://vasylhryha.github.io/rrg_theory/).
 
 The v0.2.1 migration and repaired first-test candidate have **bounded separate High acceptance** (R4 §§0.47/0.51). Current documents have readable HTML pages; source links open the corresponding readings and sections. Original files and explanatory exports are labelled separately. The current catalogue contains 22 evidence cases and eight open questions; predecessor records keep their identities and explicit historical status. All 75 current source/display fidelity decisions are accepted and selected for publication; 21 archived decisions remain stale and excluded. The current owner-authorized manual Pages run deployed the corrected RRG homepage/name/contact from main commit `e4ce19d`; seven release browser checks and live availability/identity/404 checks passed. The earlier first-release artifact and evidence remain preserved.
 
@@ -41,7 +41,7 @@ npx playwright install chromium
 npm run dev
 ```
 
-The local site is normally served at `http://127.0.0.1:4321/RRG/`.
+The local site is normally served at `http://127.0.0.1:4321/rrg_theory/`.
 
 ```sh
 npm run check

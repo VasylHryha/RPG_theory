@@ -1,0 +1,464 @@
+{
+  "status": "PASS",
+  "reviewedAt": "2026-10-06T09:01:43.873Z",
+  "scope": "Owner-requested repository/Pages address correction only",
+  "comparisons": [
+    {
+      "entryId": "DOC-CONCEPT-GEOMETRY",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-CONCEPT-GEOMETRY.json",
+      "priorSha256": "5d8d5ffd478a1e5bc221da639a6193cb98ff2d208085766878eed3de3a629e43",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-HOME",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-HOME.json",
+      "priorSha256": "743adc183583c61a6d328cc6a754688fe7f9e87d5fb93b64ae580f87accb1e89",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-START",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-START.json",
+      "priorSha256": "639d9809cad7615711319f3c3accbfec277cd2f381336a46fddb3a08a37aa559",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-EXAMPLES",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-EXAMPLES.json",
+      "priorSha256": "e3bfccd2f0441544c6c2bbf464cc5e9f6ea586357a6430fb8a467b285275d872",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-CONCEPTS",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-CONCEPTS.json",
+      "priorSha256": "ceb2006712d3bd4f45ce850cc913372e22c0dee7c983bdf5ad6f97e477a2f94e",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-EXAMPLE-WATER",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-EXAMPLE-WATER.json",
+      "priorSha256": "960e51f5a61574b718039420252dfd7809d8cc693f10169087389b0408d431e0",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-EXAMPLE-STRING",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-EXAMPLE-STRING.json",
+      "priorSha256": "0afd681b250cab1ae13cffd439c645afbc8d48395d5ad4931d3f8953e45afeb2",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-EXAMPLE-MOLECULE",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-EXAMPLE-MOLECULE.json",
+      "priorSha256": "2d7485c2101c5f09e8d69dc18fd6939b027638299bf76de2f373a13b88f9efc1",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-EXAMPLE-STAR",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-EXAMPLE-STAR.json",
+      "priorSha256": "a3541c3cf01e24ddbe0f293f956c688884c8edbebee8aab3eafe904132df1d05",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-EXAMPLE-LIFE",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-EXAMPLE-LIFE.json",
+      "priorSha256": "41d7f145e03c539deac7136954e3477a008f073d7b9bff5062e00297f425ebc3",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-EXAMPLE-CELL",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-EXAMPLE-CELL.json",
+      "priorSha256": "df3a7b78ffe3929b38f84447cfff6d5cc6dc24265ac17502f0b3c3f349c6676f",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-CONCEPT-STABILITY",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-CONCEPT-STABILITY.json",
+      "priorSha256": "1a2b0c6ad49778d3efb1548fb05643a6c3071d3577037722b1b9e18b26fcab12",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-CONCEPT-RECURSION",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-CONCEPT-RECURSION.json",
+      "priorSha256": "4398e81ff92a3aaa296b367568c8ba263191647aca572c215fe9ecce386e0d4b",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-CONCEPT-INTERACTIONS",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-CONCEPT-INTERACTIONS.json",
+      "priorSha256": "785646f7fdaad3fe0d131b74f9d16672442cd293169be7e2a8548c472cd94653",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-CORE",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-CORE.json",
+      "priorSha256": "393f381d0862babe2a3fc5cbcfece2ddc24bf78a34d4885f1d53a7fb688980aa",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-CONTROL",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-CONTROL.json",
+      "priorSha256": "3a21c3a8400aeae2e70cdfa4398056ac90ff222e244178ba42277f9f2fd37efd",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-FRAMEWORK",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-FRAMEWORK.json",
+      "priorSha256": "7accc10b73d038c407fb5d49f989480e120c68c5a3620b0316ead51dc7048396",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-MATH",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-MATH.json",
+      "priorSha256": "54b3fb5111e45f14fbebcc442ad7150d4271d3422f684d1fc01c6236b6b8aa74",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-STATUS",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-STATUS.json",
+      "priorSha256": "1b88ebd9168cfce199d6f9ea2e58c53a52ef9991ff247682d0cc5889fe8a61bb",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-OPEN-PROBLEMS",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-OPEN-PROBLEMS.json",
+      "priorSha256": "b8216fa9d3dd1fd55a527c5e57882d30397883ed9e557a45297d0345731c21ac",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-SOURCE-CHANGES",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-SOURCE-CHANGES.json",
+      "priorSha256": "a5a972c3e9675935ec53e75b42197d959342ad9685c8594d55f51c24ddae38ab",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-EVIDENCE",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-EVIDENCE.json",
+      "priorSha256": "486ff6b91dfb5045fe62a95230ed1a21936fe0ff41beb793361ba9bc5256e1b0",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-LIBRARY",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-LIBRARY.json",
+      "priorSha256": "2f342288b6a8a73dca8f670d07d503602c032e3f12f8a25eb6339029a6fb30d6",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-D01",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-D01.json",
+      "priorSha256": "0618a33525584624a49fb6e13d5efd5b582793695aa266c5d3c1d7835804efc6",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-D02",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-D02.json",
+      "priorSha256": "a45cbec559b77a67a4f7ee64dd3458acf0b831cecc238c6754835501314a34b1",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-D03",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-D03.json",
+      "priorSha256": "f44ad673c6f1dd4ff1bef60beb8e0edcb1f36e9976c7046248a826da972f07fe",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-D04",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-D04.json",
+      "priorSha256": "8a2d72fab2516d8488f72ee3b68fdc752dda2548ee1af57748067d3190f9083c",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-D05",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-D05.json",
+      "priorSha256": "032a4036b3bd484b0046cee96e8ab1d72fd7ea73ce28994298ddf58c5b69331a",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-D06",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-D06.json",
+      "priorSha256": "3671efdebf79dbac6b130485d7cf11ae097fe3a977a4e345791ab00847f95a74",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-D07",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-D07.json",
+      "priorSha256": "984fc5a98fd748888beca36adeb56e1e1d72ffc1f210feeb9dcdbc3c43da90f7",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-D08",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-D08.json",
+      "priorSha256": "59648ff6870b672d7f402e48f094d30fde8638ab741c50951d8ce942c5ed46d9",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-D09",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-D09.json",
+      "priorSha256": "3ff1eb57ed7a859146d7dfa9533ad0e85a3dfb28926b96625ab66538dc7759de",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-C01",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-C01.json",
+      "priorSha256": "207dbd1eeb8f40ec491e3375305c675b38846e5d6433cce1384c9fd6aaa860a6",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-C02",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-C02.json",
+      "priorSha256": "a256b2b1b2f4a8c1ee77586a61a68bcc88bbb84bfabc9e1ebe2de2230c87b675",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-ARTICLE-STRUCTURES",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-ARTICLE-STRUCTURES.json",
+      "priorSha256": "bbd9808a57e57b3cbf333a2be6c3f02549772fe247613bef8fcbc5889b2b5292",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-ARTICLE-UNIT",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-ARTICLE-UNIT.json",
+      "priorSha256": "0026576ad76b9e23b38b2db5410ebe4858a8bfca00491069be7b634bd0d413cf",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-CLAIM-COVERAGE",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-CLAIM-COVERAGE.json",
+      "priorSha256": "f4411a243a437ca31b0b46ad75d83d378d1a5c66dcc2ea28406ef444eb52466c",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-BACKGROUND",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-BACKGROUND.json",
+      "priorSha256": "11afa2b3f98dcab0459062dadf444ec75ac1388461548bbfff76a908d0a98928",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-ILLUSTRATIONS",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-ILLUSTRATIONS.json",
+      "priorSha256": "90b9ba293b06847b1c28fba4202c7e15d8c407b91d206ea4dc16620a32f73f46",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-CATALOGUE",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-CATALOGUE.json",
+      "priorSha256": "b555e5c1a89c402dff3b71c9e20e7da31214c3b8b5449374004510eb0954d7ee",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-READING-GUIDE",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-READING-GUIDE.json",
+      "priorSha256": "bcf9f4e7244303f4d6357c35be226b37cf5cd748ccc8326a7ab0cfec60cc0107",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-AUTHORITY",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-AUTHORITY.json",
+      "priorSha256": "d3e0c784e6423798f5ccdcb1e01fc0d06025b2127967630a9116f28c296eef44",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-FOUNDATION-ERRATA",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-FOUNDATION-ERRATA.json",
+      "priorSha256": "17dbee5bef63ec88429522676d6f78a27937058ecdcd657bc0fe35dd4885408b",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E101",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E101.json",
+      "priorSha256": "804eaab66190439f439712f00e34c7af6cc7c1d1307dbd6b7a3647b57d3885ec",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E102",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E102.json",
+      "priorSha256": "74eaa1342c73a6d529eed051c3f0e3cf4c45427666fc574525cd3ccd1e2ef6b2",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E103",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E103.json",
+      "priorSha256": "f423575a75cdebc3beed78625ec494dc72a11cfa4070aad4512c8df4447e580f",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E104",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E104.json",
+      "priorSha256": "95f2e224bd3c6f350c9fb0101c83bc6c82c88892ac9fc1f615b1d326c4090a00",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E105",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E105.json",
+      "priorSha256": "d4b08291cb9ea501df6679470b96dcd78228668804e957aa9538ed72d8ff72d7",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E106",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E106.json",
+      "priorSha256": "7c37f0321577a145b66dee168ebd3b0cde29c1a0c0c97e48c5f9d008f7c17c7e",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E107",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E107.json",
+      "priorSha256": "4e38808a1c04c5bd0e61c461705fe8f2dc516cd7322dec8e938200c8324e69e3",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E108",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E108.json",
+      "priorSha256": "ddb449940581d0dc9fc803bb299c4b81a02e5ebc4ef6899305c5059255fdae7b",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E109",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E109.json",
+      "priorSha256": "b860ee688ae1294191ee609b79b2f86e9e5cc634e1bd54019b15ddf5f34ae24b",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E110",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E110.json",
+      "priorSha256": "a727ecde625bcc04e2a36e935a49d3b1e526de54afd4ff4010785d7e3072066b",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E111",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E111.json",
+      "priorSha256": "d5f4383d21c6913a07954fa7411104bf24fc210746ce8c3825cf3844e501b3e6",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E112",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E112.json",
+      "priorSha256": "b71d4ba66091edee4e7c552f557c037914f889f5becc78eef93002cc09b51399",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E113",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E113.json",
+      "priorSha256": "4e2cb7acfd91ddd2cffe5fa20a8316917c9ddf3ee43a3b3a3635e9643b318b0f",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E114",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E114.json",
+      "priorSha256": "e2491d059f9181c6e05cc8d51764cdd38e25df39e10114d4fb00116a459f378e",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E115",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E115.json",
+      "priorSha256": "820e5545db558c38f6f5086fe3f982e6e904a004165d3537114f5515c8b20370",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E116",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E116.json",
+      "priorSha256": "bbbce610f4a4c281014fe0a364c9274bb30dde05e4550fb49373aee654b6fb77",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E117",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E117.json",
+      "priorSha256": "3f7fb730c4aa571a57e9d4fa525e96a7f119da830a776319eda6f5e2ed6c5b50",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E118",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E118.json",
+      "priorSha256": "395a979d0ccaadb2b1f3c13799b22873548a3bcbb17c5bd906ae6a9277c86109",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E119",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E119.json",
+      "priorSha256": "079f4dbe4a9a7c949775e1c5ad8657c78175d61d127fc19f46db061c9ed4ac3c",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E120",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E120.json",
+      "priorSha256": "2644187e557ebf2dd18251a870e2af73b5c409213463dfaabb699344fe6c9d79",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E121",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E121.json",
+      "priorSha256": "9a4fdedc30fe7da29c224101b0b345f670ed477526648a20e07d91ffc8aae08e",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-E122",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-E122.json",
+      "priorSha256": "f849480bcfe1cf00eeb4754ddb27ed103d088aa74c9ec60ab606b4df1faa322d",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-O101",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-O101.json",
+      "priorSha256": "4b57599e2ff8f6f1b3593b3514a8e9444744701b124a3d070c4521f40708530c",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-O102",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-O102.json",
+      "priorSha256": "59700a1820743761942818458410597c45f3b6c4f51ebd6e166e01ed122733a3",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-O103",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-O103.json",
+      "priorSha256": "b75d1cb3355e706fce16c1bcf5e5cbf0f06051137ddf57a573279833bafb5cd9",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-O104",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-O104.json",
+      "priorSha256": "ff21ec422c95074b257f89eb436617537b8411fb9869f8a0c24ebf4d1b8cc724",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-O105",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-O105.json",
+      "priorSha256": "3c75c3f038667c27cfff330934460dcff90854ee63cc73a3973476730ef09ef4",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-O106",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-O106.json",
+      "priorSha256": "fbf97dc124cf6807a92b13614bc5f5ae4ef9332adf7d239ee87b8858a23fc20d",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-O107",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-O107.json",
+      "priorSha256": "e1ebc91095e61b5b5a3896df583a69e50ba105b3b5f4fc112ef34703bf290377",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "UT-O108",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/UT-O108.json",
+      "priorSha256": "b055e7678f769b91407ce87fa59dce2d5050d70e70e234bd7a504d64b3037bd4",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-WORLD",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-WORLD.json",
+      "priorSha256": "f98e1eac01dda547b26c62c448e47dc18be56c5cf6b8dea643a01adf3b2c6872",
+      "sourceAndDisplayUnchanged": true
+    },
+    {
+      "entryId": "DOC-SOURCE-LINKS",
+      "priorEvidence": "docs/evidence/homepage-clarity/decisions/DOC-SOURCE-LINKS.json",
+      "priorSha256": "148aa45a2540671b366abe47d679d9b8a51ed9cc6c4bcd2d583a23c138fd224e",
+      "sourceAndDisplayUnchanged": true
+    }
+  ],
+  "archivedEntriesPreserved": 21,
+  "states": {
+    "accepted": 75,
+    "stale": 21,
+    "pending": 0,
+    "rejected": 0
+  }
+}

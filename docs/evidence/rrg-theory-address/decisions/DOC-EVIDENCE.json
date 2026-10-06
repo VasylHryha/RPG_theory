@@ -1,0 +1,295 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EVIDENCE",
+  "fingerprint": "70475311ff0b52cc678fda8ac72a3ce67155a17c6be8abf070877a86d0819c51",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T09:01:43.873Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+  "inputs": {
+    "fingerprint": "70475311ff0b52cc678fda8ac72a3ce67155a17c6be8abf070877a86d0819c51",
+    "ownRead": {
+      "id": "DOC-EVIDENCE",
+      "route": "/evidence/",
+      "title": "Evidence and its scope",
+      "description": "Source-reported support, mapped claims and the questions that remain open.",
+      "revision": 3,
+      "kind": "research-status",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-REGISTER",
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [
+        "DOC-CATALOGUE",
+        "DOC-CLAIM-COVERAGE",
+        "UT-E101",
+        "UT-E102",
+        "UT-E103",
+        "UT-E104",
+        "UT-E105",
+        "UT-E106",
+        "UT-E107",
+        "UT-E108",
+        "UT-E109",
+        "UT-E110",
+        "UT-E111",
+        "UT-E112",
+        "UT-E113",
+        "UT-E114",
+        "UT-E115",
+        "UT-E116",
+        "UT-E117",
+        "UT-E118",
+        "UT-E119",
+        "UT-E120",
+        "UT-E121",
+        "UT-E122"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Source-reported support, mapped claims and the questions that remain open.",
+      "evidenceState": "not-applicable",
+      "body": "## Read the evidence in context\n\nThe [current catalogue](/evidence/catalogue/) contains 22 cases. It distinguishes **result type** from **RRG relation**. Each reports what happened, what apparatus or conditions were supplied, what remains open and what the source audit inspected. These are source-reported checks, not experiments or independent paper reviews performed by this website.\n\nThe [claims and boundaries](/research-status/claims/) explain why separate examples do not automatically form a demonstrated universal causal chain. The [optional mathematics](/math/illustrations/) remains conditional illustration.\n\n## Current case records\n\n| Source case | Web reading | Result type | RRG relation |\n|---|---|---|---|\n| v0.2.1:E01 | :claim[UT-E101] — Mechanical synchronization | experiment | component / constraint |\n| v0.2.1:E02 | :claim[UT-E102] — Chladni particle manipulation | experiment | component |\n| v0.2.1:E03 | :claim[UT-E103] — Acoustic microparticle trapping | experiment | component |\n| v0.2.1:E04 | :claim[UT-E104] — Noise-assisted patterning model | simulation | component |\n| v0.2.1:E05 | :claim[UT-E105] — Stationary Turing patterns | experiment | component / comparator |\n| v0.2.1:E06 | :claim[UT-E106] — Forced chemical patterns | experiment | partial bridge |\n| v0.2.1:E07 | :claim[UT-E107] — Atom–cavity self-organization | experiment | partial bridge |\n| v0.2.1:E08 | :claim[UT-E108] — Colloidal swarmalators | experiment | partial bridge |\n| v0.2.1:E09 | :claim[UT-E109] — Simulated resonance selection | simulation | partial bridge |\n| v0.2.1:E10 | :claim[UT-E110] — Replicating chemical spots | experiment | partial bridge |\n| v0.2.1:E11 | :claim[UT-E111] — Replicating suspension holes | experiment | partial bridge |\n| v0.2.1:E12 | :claim[UT-E112] — Driven magnetic assembly | experiment | partial bridge |\n| v0.2.1:E13 | :claim[UT-E113] — Cooperative RNA networks | experiment | structural analogue / partial bridge |\n| v0.2.1:E14 | :claim[UT-E114] — Collective reduction and memory | theory / mathematical derivation | partial bridge |\n| v0.2.1:E15 | :claim[UT-E115] — Engineered lattice dynamics | experiment | partial bridge |\n| v0.2.1:E16 | :claim[UT-E116] — Confinement-dependent packing | experiment and simulation | component / comparator |\n| v0.2.1:E17 | :claim[UT-E117] — Low-absorption selection | simulation; published report also includes experimental evidence | constraint |\n| v0.2.1:E18 | :claim[UT-E118] — Optical binding | experiment | partial bridge |\n| v0.2.1:E19 | :claim[UT-E119] — Random-light interactions | experiment and theory | partial bridge |\n| v0.2.1:E20 | :claim[UT-E120] — Replicating granular bands | experiment | partial bridge |\n| v0.2.1:E21 | :claim[UT-E121] — Controlled amplitude approximation | theory / mathematical derivation | partial bridge |\n| v0.2.1:E22 | :claim[UT-E122] — Nonresonant granular transport | experiment | constraint / comparator |\n\n## Previous edition\n\nEarlier UT-E01–UT-E12 identify different predecessor records. Their IDs and source citations remain in explicitly historical readings; they are not renumbered into this catalogue or counted as additional confirmations. [Browse the document library](/documents/).\n\n## Follow particular source connections\n\nThe [source and label reading map](/evidence/source-links/) qualifies local labels by document and edition, reconnects useful predecessor papers, and separates exact findings, partial-claim connections, methods and constraints. Its supplementary pH and BCS links do not change the scientific catalogue.\n",
+      "sourceMapping": "Selected v0.2.1 companion, evidence catalogue and claim coverage; source-reported findings and limits.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "DOC-CATALOGUE",
+        "semanticDigest": "42249821eb725b59d2f8a330945f09ebc121db7697d91024481b24e6276853ac"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "f19f30d66953552dba483a18521f145f595ef6b5ecf1e076e87726d7b7a08c98"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "f6bea956a0abd13bef21e484914ccbaa42ed74a69c316688643047976fd651f2"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      },
+      {
+        "entryId": "UT-E101",
+        "semanticDigest": "0e9df2b644023f9f6582af718513e4e3f26f400b926b721f8abcc2d33153e768"
+      },
+      {
+        "entryId": "UT-E102",
+        "semanticDigest": "28f048e37e47db7be8ca8fa5d00f9cbb1b1594dd0dba01474e779dcaea64e4f9"
+      },
+      {
+        "entryId": "UT-E103",
+        "semanticDigest": "b5cb528ef993cb6e6f04cb8ba3e7e0e5cd15835b417497cb065c5a065230feb3"
+      },
+      {
+        "entryId": "UT-E104",
+        "semanticDigest": "842e58652b263a1c169c3aef99e5d023ba4fcec2693244c534856a2900083250"
+      },
+      {
+        "entryId": "UT-E105",
+        "semanticDigest": "50e17d5fb207a94bc945d79f097fdd735002aea3a5aa3e36bf860f85662b9c7f"
+      },
+      {
+        "entryId": "UT-E106",
+        "semanticDigest": "fd5d5035510fc1983bbd60444653b24e60c4a2bb206fe0370c3a0246933181af"
+      },
+      {
+        "entryId": "UT-E107",
+        "semanticDigest": "3386d5b0f9c0798a8d0926ea2ce16f238e28342eef8dc843d049d44b95aced78"
+      },
+      {
+        "entryId": "UT-E108",
+        "semanticDigest": "9d4b6cab0b82b272bd7c434a0870a819bd044fcbd8a795ef24a5cd7f1a8d47a0"
+      },
+      {
+        "entryId": "UT-E109",
+        "semanticDigest": "100cfc0f8de703859f470688f14c0d28a73f7203a177a30a8e7c1cdc8319a3a7"
+      },
+      {
+        "entryId": "UT-E110",
+        "semanticDigest": "23124295ec8c8b2592e2b1d3d498a8527f2b6a8c7a953998b0a9799fa85aa4fd"
+      },
+      {
+        "entryId": "UT-E111",
+        "semanticDigest": "66c80b47f13c2d3935246ffc17f6dc8c4663acd40419bc6265c55f8809639ff9"
+      },
+      {
+        "entryId": "UT-E112",
+        "semanticDigest": "9d8531ecc3cd3991dfbbc81d8f1a605a5651bc4f1b71010e95583e2e5ade02ce"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "f3d9c2742ff7560aca297bc6251bd3d0411bc5402e640030462138f7bea49fc1"
+      },
+      {
+        "entryId": "UT-E114",
+        "semanticDigest": "99549b367dbd70c1985d6f09e685bfa5cd1a99582893a93418cc7d0830145efe"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "b56cce0161cf4eb7c0c1d51330046d40f7260a6f80bde5a684b206ec3634ac3f"
+      },
+      {
+        "entryId": "UT-E116",
+        "semanticDigest": "f4ee9d31590ea9e6586d601106f04043237b0d0f8885a7da0984d601e64e7496"
+      },
+      {
+        "entryId": "UT-E117",
+        "semanticDigest": "5d588a9dcd040232edccaaead30962cfbb2ca3c7e8439a555eeecb87346ed083"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "bb90d22786c14366d3e16aa6ce520a7f3d98c944408c4e8f7dd114003adeaeb8"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "1c05c58c8d43e95831721fad3cbfa65c52517f085238ac13dec747850076a7e5"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "6237265792cca23f27a6b3df93a922b15782796d7db186f9a0e78b439f25f09c"
+      },
+      {
+        "entryId": "UT-E121",
+        "semanticDigest": "e9881ae203dd96b8623603c2dfb0546b82af7564c56e97eeb9ae864f90fec8ed"
+      },
+      {
+        "entryId": "UT-E122",
+        "semanticDigest": "13445b560d9749f7fa544634442fc77df07a12fcd013e73e185b29763b4bde2b"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "85af6060a57bd5ea57bce55ac38f74ad71fa2dc22bbc6c2850b38d9f8233a30d"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "697f22c36e9bea025f0a33d9b3e55d9e22080c97c05d9e57fe8e0dc8c9da35ef"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "f2f9fe3db8ab9435d079bda66c420ba4a245cfbcd68d2b50b1c6fd3c7876b821"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "a159e8ae55d70b73da958743d9f4703905a345589d787583ac49dfc6ddce6ee1"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "7f6d2721bd76dd6cb65e35f1aed8b9b2eab20148c9df602ba2e6918bef3c510a"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "242009393226964b6a642674d016007472531dbbf31c8436aa8184f0f1370e80"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "42efd51f43c0f6de8d510aef0ba1b4f7e681ee72627c37174db0e88794fe30d6"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "5f093402ffbccfd67476c962a962d0eec59228f5c3649f0a1f3b2db402f4550c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "b5d5a494357f265e774cf9d5ad88abb489d20e59a53f9c8694bd85298ba7ab38",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "5ef4e9cc19a48617f7cabe90a3c4bf2bec63e1fb45f2bba9f153d3d3f4f2907c",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared the added reading-map paragraph and destination with the entire actual 22-case table and current claim coverage. Supplementary pH/BCS connections do not change scientific case membership; result type and RRG relation remain separate. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EVIDENCE.json, SHA-256 3320bfca707864f49656d55b901a52e6329d6efece2f45210b632035e74590be, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "meaning": "Compared the added reading-map paragraph and destination with the entire actual 22-case table and current claim coverage. Supplementary pH/BCS connections do not change scientific case membership; result type and RRG relation remain separate. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EVIDENCE.json, SHA-256 3320bfca707864f49656d55b901a52e6329d6efece2f45210b632035e74590be, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "assumptions": "Compared the added reading-map paragraph and destination with the entire actual 22-case table and current claim coverage. Supplementary pH/BCS connections do not change scientific case membership; result type and RRG relation remain separate. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EVIDENCE.json, SHA-256 3320bfca707864f49656d55b901a52e6329d6efece2f45210b632035e74590be, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "hypotheses": "Compared the added reading-map paragraph and destination with the entire actual 22-case table and current claim coverage. Supplementary pH/BCS connections do not change scientific case membership; result type and RRG relation remain separate. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EVIDENCE.json, SHA-256 3320bfca707864f49656d55b901a52e6329d6efece2f45210b632035e74590be, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "evidenceDescriptions": "Compared the added reading-map paragraph and destination with the entire actual 22-case table and current claim coverage. Supplementary pH/BCS connections do not change scientific case membership; result type and RRG relation remain separate. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EVIDENCE.json, SHA-256 3320bfca707864f49656d55b901a52e6329d6efece2f45210b632035e74590be, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "openQuestions": "Compared the added reading-map paragraph and destination with the entire actual 22-case table and current claim coverage. Supplementary pH/BCS connections do not change scientific case membership; result type and RRG relation remain separate. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EVIDENCE.json, SHA-256 3320bfca707864f49656d55b901a52e6329d6efece2f45210b632035e74590be, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "attribution": "Compared the added reading-map paragraph and destination with the entire actual 22-case table and current claim coverage. Supplementary pH/BCS connections do not change scientific case membership; result type and RRG relation remain separate. Current review: The owner-approved author, dedicated project contact and citation URL are recorded; source-role, edition and supplementary attribution remain unchanged. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EVIDENCE.json, SHA-256 3320bfca707864f49656d55b901a52e6329d6efece2f45210b632035e74590be, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification.",
+    "sourceMappings": "Compared the added reading-map paragraph and destination with the entire actual 22-case table and current claim coverage. Supplementary pH/BCS connections do not change scientific case membership; result type and RRG relation remain separate. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-EVIDENCE.json, SHA-256 3320bfca707864f49656d55b901a52e6329d6efece2f45210b632035e74590be, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification. This address-only review compared the actual current ownRead, raw source hashes, dependency digests, rendered bodies/plain-language/status projections and dates with the preserved accepted predecessor: all unchanged. Inspected the coherent selected target VasylHryha/rrg_theory, /rrg_theory/ URL base and permanent citation URL. RRG display name, author, new contact and rights are unchanged; actual target release audit and short browser checks cover generated links/metadata. No scientific certification."
+  }
+}

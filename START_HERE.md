@@ -12,7 +12,7 @@ Read in this order:
 The previous repository-current source set is preserved under `research/history/repository-current-2026-10-01/`; it is no longer active authority.
 
 **The source replacement, accepted website migration and first public test deployment are complete.**
-Open [the website](https://vasylhryha.github.io/RRG/).
+Open [the website](https://vasylhryha.github.io/rrg_theory/).
 All 75 current fidelity decisions are accepted and selected; 21 archived decisions
 remain stale and excluded. The manual Pages release and served artifact checks
 passed. Homepage clarity, RRG name/address and the new public contact are deployed;
