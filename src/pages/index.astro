@@ -18,24 +18,24 @@ const start = withBase('/start/', activeConfig().basePath);
 ---
 {historical ? <CanonicalPage id={entry.id} /> : <ReadingLayout title={entry.title} description={entry.description} route="/" math={requiresMathStyles(html + statusHTML)}>
   <section class="hero shell" aria-labelledby="research-question">
-    <div><p class="eyebrow">A question about organization</p>
+    <div><p class="eyebrow">Recursive Resonant Geometry · Research proposal</p>
       <h1 id="research-question" set:html={renderHomeHeading(entry.title)} />
       <p class="hero-lede">{entry.description}</p>
       <a class="button" href={start}>Start with the idea <span aria-hidden="true">→</span></a>
       <p class="reading-note">A short introduction · No technical background needed</p>
-      <p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} />
     </div>
   </section>
   <section class="reading-section shell"><div class="margin-label"><span>01 / The idea</span><p>From something familiar<br />to a research question.</p></div><div class="prose"><div data-canonical-body={entry.id} {...searchAttributes(entry)} set:html={html} /><Fragment set:html={renderBeginnerDiagram(entry.id)} /></div></section>
   <section class="pathways shell" aria-labelledby="explore-title">
-    <div class="section-heading"><p class="eyebrow">Choose your depth</p><h2 id="explore-title">Follow the question.</h2></div>
+    <div class="section-heading"><p class="eyebrow">Three examples</p><h2 id="explore-title">Explore the idea.</h2></div>
     <div class="pathway-grid">
-      <a class="pathway" href={withBase('/examples/string/',activeConfig().basePath)}><span class="pathway-number">01 / Constraints</span><h3>A string's possible motion <span aria-hidden="true">↗</span></h3><p>Fixed ends, physical conditions and the patterns they support.</p><span class="pathway-state">Explore the string</span></a>
-      <a class="pathway" href={withBase('/examples/molecule/',activeConfig().basePath)}><span class="pathway-number">02 / A whole</span><h3>More than a bag of atoms <span aria-hidden="true">↗</span></h3><p>Connections constrain collective behaviour while the parts remain active.</p><span class="pathway-state">Explore the molecule</span></a>
-      <a class="pathway" href={withBase('/examples/life-environment/',activeConfig().basePath)}><span class="pathway-number">03 / Possibilities</span><h3>Life changes conditions <span aria-hidden="true">↗</span></h3><p>An existing organization can change what becomes possible around it.</p><span class="pathway-state">Explore life and environment</span></a>
+      <a class="pathway" href={withBase('/examples/string/',activeConfig().basePath)}><span class="pathway-number">01 / A string</span><h3>How can a string move? <span aria-hidden="true">↗</span></h3><p>Its ends, tension and material shape the patterns it can make.</p><span class="pathway-state">Explore the string</span></a>
+      <a class="pathway" href={withBase('/examples/molecule/',activeConfig().basePath)}><span class="pathway-number">02 / A molecule</span><h3>What can atoms do together? <span aria-hidden="true">↗</span></h3><p>Their connections shape how the whole molecule behaves.</p><span class="pathway-state">Explore the molecule</span></a>
+      <a class="pathway" href={withBase('/examples/life-environment/',activeConfig().basePath)}><span class="pathway-number">03 / Life</span><h3>How does life change its surroundings? <span aria-hidden="true">↗</span></h3><p>Living systems can change the conditions for what happens next.</p><span class="pathway-state">Explore life and environment</span></a>
     </div>
-    <p class="reading-note"><a href={withBase('/examples/',activeConfig().basePath)}>All six examples</a> · <a href={withBase('/concepts/',activeConfig().basePath)}>Explore the source meanings</a></p>
+    <p class="reading-note"><a href={withBase('/examples/',activeConfig().basePath)}>All six examples</a></p>
   </section>
-  <section class="open-question shell"><p class="eyebrow">The work ahead</p><h2>A framework to investigate.</h2><div class="prose" data-source-projection={status!.id} set:html={statusHTML} /><p><a href={withBase(status!.route,activeConfig().basePath)}>Read current research status</a></p></section>
-  <section class="shell edition-note"><p class="eyebrow">The current edition</p><p>Core definitions, source-reported evidence and open extensions remain distinct. <a href={withBase('/references/',activeConfig().basePath)}>Find the sources</a> and <a href={withBase('/research-status/',activeConfig().basePath)}>follow the current status</a>.</p><p class="reading-note">Public introduction: author approval pending.</p></section>
+  <section class="open-question shell"><p class="eyebrow">Research in progress</p><h2>An idea to investigate.</h2><p>These examples use different physical mechanisms. They help explain the question; they do not establish one universal theory. RRG remains a proposal with evidence to examine and open questions to test.</p><p><a href={withBase(status!.route,activeConfig().basePath)}>Read the evidence and open questions</a></p>
+    <details class="source-details"><summary>Source notes</summary><p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} /><div class="prose" data-source-projection={status!.id} set:html={statusHTML} /><p><a href={withBase('/references/',activeConfig().basePath)}>Browse the references</a></p></details>
+  </section>
 </ReadingLayout>}

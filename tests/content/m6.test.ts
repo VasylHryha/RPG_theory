@@ -73,7 +73,7 @@ test('M6 stale search identity and added source-map/private assets are refused i
   manifest.inputsSha256='0'.repeat(64);writeFileSync(manifestPath,JSON.stringify(manifest));assert.throws(()=>auditOutput(root),/STALE_SEARCH_INDEX/);
   writeFileSync(manifestPath,raw);
   const aboutPath=join(root,'about/index.html'),about=readFileSync(aboutPath,'utf8');
-  for(const injected of ['<a href="mailto:unapproved@example.org">Unapproved contact</a>','<img src="mailto:vasylhryha.rpg@gmail.com" alt="Invalid resource">']) {
+  for(const injected of ['<a href="mailto:unapproved@example.org">Unapproved contact</a>','<img src="mailto:vasylhryha.rrg@gmail.com" alt="Invalid resource">']) {
    writeFileSync(aboutPath,about.replace('</body>',injected+'</body>'));assert.throws(()=>auditOutput(root),/UNSAFE_OUTPUT_URL/);
   }
   writeFileSync(aboutPath,about);writeFileSync(join(root,'_astro/private.js.map'),'DRAFT_SENTINEL');assert.throws(()=>auditOutput(root),/UNEXPECTED_OUTPUT/);

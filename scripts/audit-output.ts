@@ -135,7 +135,7 @@ export function auditOutput(directory: string) {
       const guide=renderTechnicalGuide(selected,entry,expectedContent,info.config.basePath);
       const actualGuide=$('[data-technical-guide]');
       if(guide ? actualGuide.length!==1 || actualGuide.attr('data-technical-guide')!==entry.id || normalizedHTML(actualGuide.html() ?? '')!==normalizedHTML(guide) : actualGuide.length!==0) throw new ContractError('CONTENT_PARITY_FAILURE',`${entry.id}: technical guide`);
-      if($('head > title').length!==1 || $('head > title').text()!==`${entry.title} · Unity Theory` || $('head > meta[name="description"]').length!==1 || $('head > meta[name="description"]').attr('content')!==entry.description) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
+      if($('head > title').length!==1 || $('head > title').text()!==`${entry.title} · RRG` || $('head > meta[name="description"]').length!==1 || $('head > meta[name="description"]').attr('content')!==entry.description) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
       if($('h1').length!==1 || $('h1').text().replace(/\s+/g,' ').trim()!==entry.title.replace(/\s+/g,' ').trim()) throw new ContractError('CONTENT_METADATA_PARITY_FAILURE',entry.id);
       if(['DOC-HOME','DOC-START'].includes(entry.id) && !isHistorical(entry)) {
         const state=$('[data-editorial-state]').filter((_i,el)=>$(el).attr('data-editorial-state')===entry.id);
@@ -178,7 +178,7 @@ export function auditOutput(directory: string) {
     if ($('h1').length !== 1 || robots.length!==1 || robots.attr('content')!==(noindex?'noindex, nofollow':'index, follow')) throw new ContractError('INVALID_PRIVATE_PAGE',file);
     const canonical=$('head > link[rel="canonical"]');
     if (canonical.length!==1 || canonical.attr('href') !== info.config.origin + from) throw new ContractError('CANONICAL_PARITY_FAILURE',file);
-    const socialTitle=entry?.title??$('head > title').text().replace(/ · Unity Theory$/,'');
+    const socialTitle=entry?.title??$('head > title').text().replace(/ · RRG$/,'');
     const metadata=$('head > script[data-site-metadata]');
     if(metadata.length!==1 || metadata.attr('type')!=='application/ld+json' || metadata.html()!==metadataJSON(pageMetadata(socialTitle,$('head > meta[name="description"]').attr('content')??'',route,info.config,entry)))throw new ContractError('STRUCTURED_METADATA_PARITY_FAILURE',file);
     const indexBodies=$('[data-pagefind-body]');

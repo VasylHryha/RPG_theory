@@ -25,7 +25,7 @@ independent use of scientific ideas is asserted.
 
 Commercial permissions or agreements, where needed, require a separate agreement
 with the relevant rights holder. The approved project contact for questions and
-commercial discussions is [vasylhryha.rpg@gmail.com](mailto:vasylhryha.rpg@gmail.com).
+commercial discussions is [vasylhryha.rrg@gmail.com](mailto:vasylhryha.rrg@gmail.com).
 Permissions already validly granted under a Creative Commons license are not
 retroactively removed by later license choices.
 

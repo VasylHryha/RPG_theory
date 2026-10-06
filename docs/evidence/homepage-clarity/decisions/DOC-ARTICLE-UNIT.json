@@ -1,0 +1,151 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-ARTICLE-UNIT",
+  "fingerprint": "815a7e5e625c57a92d710e4c88037af883a27b1b9081574aafd633630e71df58",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T07:59:31.643Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Accepted unchanged source/display material by exact comparison with the preserved genuine predecessor read, after inspection of the bounded shared RRG naming/target/layout changes. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification.",
+  "inputs": {
+    "fingerprint": "815a7e5e625c57a92d710e4c88037af883a27b1b9081574aafd633630e71df58",
+    "ownRead": {
+      "id": "DOC-ARTICLE-UNIT",
+      "route": "/articles/when-can-a-whole-be-treated-as-one-useful-unit/",
+      "title": "When can a whole be treated as one useful unit?",
+      "description": "An explanatory reading of the supplied RRG documents, with proposal and results kept separate.",
+      "revision": 3,
+      "kind": "article",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-MATH",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-D03",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Explanatory article; universal claims and quantitative tests remain open.",
+      "evidenceState": "not-applicable",
+      "body": "## Explanation: a useful description depends on the question\n\nA molecule contains atoms with internal activity, yet a description at another scale can treat the molecule as a participant in a reaction or as a rotating object. That useful simplification does not erase the atoms. It selects the collective properties relevant to an interaction. The supplied [world explanation](/documents/world-explanation/) discusses this packaging of complexity, and the [molecule example](/examples/molecule/) illustrates how collective constraints coexist with active parts.\n\nA whole is not automatically a useful unit just because we can draw a boundary around it. The question is whether the organization persists in the circumstances of interest and supports a collective response that the next description can use. A description useful for one timescale or perturbation can be inadequate for another. When a molecule dissociates, continuing to treat it as the same intact participant would hide a material change.\n\nRRG's geometry includes relations, connectivity, boundaries and constraints, as well as arrangement. Its mode structure includes phase, amplitude, coupling, propagation and characteristic times. One frequency number cannot stand in for all of that organization. The [string example](/examples/string/) makes the limitation concrete: supported patterns depend on boundaries, tension and mass per unit length. A standing-wave analogy is not itself proof of a self-maintaining higher-level object.\n\n## Proposal: collective organization becomes reusable\n\nThe registered resonant geometry is :claim[UT-D03]. The locked stability meaning, :claim[UT-D04], concerns a self-consistent geometry–mode organization. It does not mean permanence. Lifetimes and perturbation recovery are system-specific measurements of this meaning, rather than replacement definitions.\n\n::claim{id=\"UT-D05\" view=\"plainLanguage\"}\n\nThis scale definition anchors the useful-unit question. In higher-level formation (:claim[UT-D06]), parts can be different, retain internal activity and play different roles. Their collective organization can then participate in another combination. The structural recursion (:claim[UT-D08]) does not require identical microscopic mechanisms at every step or a perfectly regular ladder of sizes and times.\n\nTo assess a candidate whole, a model needs to specify what counts as its organization, which interactions are relevant and when the collective description stops working. The [mathematical programme](/math/) proposes tests and strong failure conditions. This article does not turn those proposed tests into a general theorem. The [stability concept](/concepts/stability/) offers a shorter reading of the same boundary.\n\n## Actual results: a description is not an execution receipt\n\nNo new result is derived or reproduced here. Familiar molecules and cells are explanatory examples, while the original documents report particular external and project evidence with their own scope. [Research status](/research-status/) and [the evidence index](/evidence/) distinguish those reports from conjectures and unperformed work.\n\nTreating a cell as a unit in an organism does not imply that all cells or all organisms follow a proved universal equation. Likewise, reported effective interactions do not establish unification of fundamental forces. Whether the organizing principle can be made quantitatively predictive across systems remains open.\n\nA useful next question is concrete: for this interaction and interval, which collective properties suffice, and what observation would force us to describe the parts again? That question preserves the hidden complexity while making the proposed abstraction testable. The separate historical cavity and response calculations remain NOT_SELECTED / NOT_RUN.\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Derivative explanation of the supplied current core and world explanation; no new scientific result or definition.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "tags": [
+        "organization",
+        "research-explanation"
+      ],
+      "authorIdentity": "Vasyl Hryha",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "6ebf7586c6c9b273a876e4b411da204fac0b89e6c08c7579d841741bd1067fee"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "5e62a7fcad8899e8919239c10c7d8c7bd573fc36b985de77546631c739931a38",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "faf6ce21bab2d93c7a84e74c213094f6d50ecedb02b125d1a70f500b080d29a1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Compared every paragraph and UT-D03–06/08 expansion with core §§3–5/7–8, world §§4/6/8 and candidate mathematics. Useful collective descriptions are interval/question dependent; dissociation, internal activity, non-permanent closure and optional equation-family tests remain explicit. Repaired the world-explanation destination. Historical calculations remain not selected/not run. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-ARTICLE-UNIT.json, SHA-256 9c20e8bcf26b88dc64d905ca344af4928338e60e4b920d7d1f78780e2abdbb35, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification.",
+    "meaning": "Read the supplied source sections and entire displayed body; comparison: Compared every paragraph and UT-D03–06/08 expansion with core §§3–5/7–8, world §§4/6/8 and candidate mathematics. Useful collective descriptions are interval/question dependent; dissociation, internal activity, non-permanent closure and optional equation-family tests remain explicit. Repaired the world-explanation destination. Historical calculations remain not selected/not run. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-ARTICLE-UNIT.json, SHA-256 9c20e8bcf26b88dc64d905ca344af4928338e60e4b920d7d1f78780e2abdbb35, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification.",
+    "assumptions": "Compared the specified physical/model conditions and optional stronger hypotheses described above. Preserved scope: Explanatory article; universal claims and quantitative tests remain open. No new experimental inputs, causal stages or equation-family requirement was introduced. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-ARTICLE-UNIT.json, SHA-256 9c20e8bcf26b88dc64d905ca344af4928338e60e4b920d7d1f78780e2abdbb35, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification.",
+    "hypotheses": "Compared every paragraph and UT-D03–06/08 expansion with core §§3–5/7–8, world §§4/6/8 and candidate mathematics. Useful collective descriptions are interval/question dependent; dissociation, internal activity, non-permanent closure and optional equation-family tests remain explicit. Repaired the world-explanation destination. Historical calculations remain not selected/not run. Scientific role article, evidence not-applicable, publication draft remain separate. This receipt establishes source fidelity only, not scientific truth or author approval. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-ARTICLE-UNIT.json, SHA-256 9c20e8bcf26b88dc64d905ca344af4928338e60e4b920d7d1f78780e2abdbb35, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification.",
+    "evidenceDescriptions": "Compared every paragraph and UT-D03–06/08 expansion with core §§3–5/7–8, world §§4/6/8 and candidate mathematics. Useful collective descriptions are interval/question dependent; dissociation, internal activity, non-permanent closure and optional equation-family tests remain explicit. Repaired the world-explanation destination. Historical calculations remain not selected/not run. Reported examples and source-stated check coverage remain attributed; this session performed no experiment or external-paper adjudication. Supplementary background remains supplementary. Current review: Publishing metadata and the author research-draft banner do not promote hypotheses, analogies or source-reported results to scientific certification. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-ARTICLE-UNIT.json, SHA-256 9c20e8bcf26b88dc64d905ca344af4928338e60e4b920d7d1f78780e2abdbb35, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification.",
+    "openQuestions": "Compared every paragraph and UT-D03–06/08 expansion with core §§3–5/7–8, world §§4/6/8 and candidate mathematics. Useful collective descriptions are interval/question dependent; dissociation, internal activity, non-permanent closure and optional equation-family tests remain explicit. Repaired the world-explanation destination. Historical calculations remain not selected/not run. Universal recursion, force unification, metric expansion, monotonic growth and useful AI remain open where addressed; operational tests do not replace definitions. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-ARTICLE-UNIT.json, SHA-256 9c20e8bcf26b88dc64d905ca344af4928338e60e4b920d7d1f78780e2abdbb35, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification.",
+    "attribution": "Compared source roles, edition and mappings to the actual source index/binding. Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Derivative explanation of the supplied current core and world explanation; no new scientific result or definition. No personal identity, rights, author-public-wording or release authorization is inferred. Current review: The owner-approved author, dedicated project contact and citation URL are recorded; source-role, edition and supplementary attribution remain unchanged. Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-ARTICLE-UNIT.json, SHA-256 9c20e8bcf26b88dc64d905ca344af4928338e60e4b920d7d1f78780e2abdbb35, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification.",
+    "sourceMappings": "Renewed actual source/body/export comparison; exact ownRead, source hashes and rendered body/prose/projection at both bases match the genuine prior decision docs/evidence/m6/reconciled/decisions/DOC-ARTICLE-UNIT.json. Retained semantic finding: Compared every paragraph and UT-D03–06/08 expansion with core §§3–5/7–8, world §§4/6/8 and candidate mathematics. Useful collective descriptions are interval/question dependent; dissociation, internal activity, non-permanent closure and optional equation-family tests remain explicit. Repaired the world-explanation destination. Historical calculations remain not selected/not run. Actual source → registry/exact binding → both page bodies/bibliography → explanatory Markdown/ZIP checks: docs/evidence/source-link-r2/acceptance/comparison-corpus.json. Final repaired bibliography and qualified artifact closure are required in final-corpus.json. Prior evidence remains preserved. Archived material receives no renewed decision. Current review: Body rendering remains byte-identical to the accepted predecessor. The Cite utility now accurately describes the intended published selection and actual private build mode. Independent review confirmed the exact predecessor source bytes, scientific entry fields, dependency closure and body/plain-language/home-projection comparisons, with the recorded link-only exception. Publication changes () implement the recorded 75-page first test edition, author Vasyl Hryha and scoped first-release rights; they add no scientific result. The visible research-draft banner retains review/revision status. See docs/evidence/github-pages-rebind/first-release/acceptance/repair-comparison.json and rights-privacy-review.md. Prior decision docs/evidence/github-pages-rebind/first-release/acceptance/decisions/DOC-ARTICLE-UNIT.json, SHA-256 9c20e8bcf26b88dc64d905ca344af4928338e60e4b920d7d1f78780e2abdbb35, remains preserved. Historical pending-author wording describes the predecessor only; the owner now approves this first test edition. Other human/AT/provenance/release requirements remain open. This bounded review independently compared exact ownRead, source reads, dependency digests and rendered bodies with the cited prior accepted decision: unchanged. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification."
+  }
+}

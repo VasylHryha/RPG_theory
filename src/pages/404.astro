@@ -3,6 +3,6 @@ import ReadingLayout from '../layouts/ReadingLayout.astro';
 import { withBase } from '../lib/urls';
 import { activeConfig } from '../lib/site-config';
 ---
-<ReadingLayout title="Page not found" description="Return to the Unity Theory introduction." route="/404.html">
+<ReadingLayout title="Page not found" description="Return to the RRG introduction." route="/404.html">
   <section class="article shell"><p class="eyebrow">404 / Page not found</p><h1>Let’s return to the question.</h1><p>This page is unavailable. <a href={withBase('/', activeConfig().basePath)}>Return home</a> or <a href={withBase('/start/', activeConfig().basePath)}>start with the idea</a>.</p></section>
 </ReadingLayout>

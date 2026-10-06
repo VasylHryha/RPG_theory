@@ -13,7 +13,7 @@ import {loadSiteConfig} from '../../src/lib/site-config.js';
 import {sha256} from '../../src/lib/identity.js';
 
 test('M5 owner credit and dated research grant reach every rights surface while code and data remain reserved',()=>{
- const c=publicationCredit();assert.equal(c.approvedCredit?.name,'Vasyl Hryha');assert.equal(c.approvedContact?.url,'mailto:vasylhryha.rpg@gmail.com');assert.equal(c.approvedRepository?.owner,'VasylHryha');assert.equal(c.approvedRepository?.name,'RPG_theory');assert.equal(c.approvedOrcid,null);
+ const c=publicationCredit();assert.equal(c.approvedCredit?.name,'Vasyl Hryha');assert.equal(c.approvedContact?.url,'mailto:vasylhryha.rrg@gmail.com');assert.equal(c.approvedRepository?.owner,'VasylHryha');assert.equal(c.approvedRepository?.name,'RRG');assert.equal(c.approvedOrcid,null);
  for(const base of ['/','/unity-theory/']) {
   const about=load(renderAbout(c,base)),legal=load(renderLegal(c,base)),footer=load(renderFooter(base,c));
   assert.match(about.text(),/Approved public credit: Vasyl Hryha/);assert.match(legal.text(),/Website code: no additional license granted/);assert.match(legal.text(),/Research prose and figures: CC BY-NC-SA 4.0/);assert.match(legal.text(),/Data and evidence: no additional license granted/);assert.match(legal.text(),/lawful exceptions/);assert.match(legal.text(),/not retroactively removed/);

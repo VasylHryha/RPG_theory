@@ -3,15 +3,15 @@
   "id": "DOC-HOME",
   "route": "/",
   "title": "How do parts become a whole?",
-  "description": "Unity Theory asks how arrangement and activity support persistent organization—and make further organization possible.",
-  "revision": 4,
+  "description": "A research idea about how parts work together, form lasting structures, and make new structures possible.",
+  "revision": 5,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
     "R-CURRENT-CATALOGUE",
     "R-CURRENT-CORE",
@@ -49,18 +49,16 @@
 ---
 ## Begin with a wave
 
-Watch a ripple cross water. A crest moves across the surface as the water moves locally. The visible pattern and the material carrying it give us two ways to describe one event. [Explore the wave](/examples/water/); the background physics is explained by [NOAA's wave explanation](/references/#BIB-0060).
+Watch a ripple cross water. The crest travels across the surface while the water moves locally. The moving pattern and the water carrying it are two ways to describe the same event. [Explore the wave](/examples/water/).
 
-## Arrangement and activity belong together
+## Parts, connections and motion
 
-A string's fixed ends constrain its motion. A molecule's connections constrain its collective behaviour. A cell keeps its organization through ongoing exchanges with its surroundings.
+A string's fixed ends shape the ways it can move. A molecule's connections shape what its atoms can do together. A cell keeps its organization while exchanging material and energy with its surroundings.
 
-Recursive Resonant Geometry, or **RRG**, asks how relationships and activity support one another. Its **geometry** means components, connections, boundaries and constraints. Its **mode structure** means the organized ways those parts change and respond over time.
+Recursive Resonant Geometry (**RRG**) asks how connections and activity can help a whole persist while its parts remain active.
 
 ## A whole can become a part
 
-In the RRG proposal, compatible active parts may form a persistent whole. That whole can participate in another organization while activity continues inside it. Existing structures can also change the conditions for what happens next: a star makes new reaction conditions; living systems change their chemical surroundings.
+That whole may become part of something larger. It can also change what happens around it: a star creates conditions for new reactions, and living systems change their chemical surroundings.
 
-The wave introduces a distinction, rather than proving this entire cycle. The examples have different physical mechanisms. The research question is whether a useful, predictive organizing principle connects them.
-
-[Read the full introduction](/start/) or [explore the concepts](/concepts/).
+[Read the introduction](/start/) for the idea and its limits, or [explore the concepts](/concepts/) in more detail.

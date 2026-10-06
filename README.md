@@ -1,6 +1,6 @@
-# Unity Theory / Recursive Resonant Geometry
+# Recursive Resonant Geometry (RRG)
 
-Public repository for the Unity Theory / Recursive Resonant Geometry (RRG) research publication website and its versioned source documents.
+Public repository for the Recursive Resonant Geometry (RRG) research publication website and its versioned source documents.
 
 ## Current scientific source
 
@@ -21,7 +21,7 @@ The original owner-supplied `RRG_CURRENT.zip` remains preserved as provenance. I
 ## Website status
 
 **The first public research-draft edition is live:**
-[vasylhryha.github.io/RPG_theory](https://vasylhryha.github.io/RPG_theory/).
+[vasylhryha.github.io/RRG](https://vasylhryha.github.io/RRG/).
 
 The v0.2.1 migration and repaired first-test candidate have **bounded separate High acceptance** (R4 §§0.47/0.51). Current documents have readable HTML pages; source links open the corresponding readings and sections. Original files and explanatory exports are labelled separately. The current catalogue contains 22 evidence cases and eight open questions; predecessor records keep their identities and explicit historical status. All 75 current source/display fidelity decisions are accepted and selected for publication; 21 archived decisions remain stale and excluded. The owner-authorized manual Pages run deployed the same sealed release artifact from main commit `89b5a07`; served-file, search and real 404 checks passed.
 
@@ -41,7 +41,7 @@ npx playwright install chromium
 npm run dev
 ```
 
-The local site is normally served at `http://127.0.0.1:4321/RPG_theory/`.
+The local site is normally served at `http://127.0.0.1:4321/RRG/`.
 
 ```sh
 npm run check

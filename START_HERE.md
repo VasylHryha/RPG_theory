@@ -12,7 +12,7 @@ Read in this order:
 The previous repository-current source set is preserved under `research/history/repository-current-2026-10-01/`; it is no longer active authority.
 
 **The source replacement, accepted website migration and first public test deployment are complete.**
-Open [the website](https://vasylhryha.github.io/RPG_theory/).
+Open [the website](https://vasylhryha.github.io/RRG/).
 All 75 current fidelity decisions are accepted and selected; 21 archived decisions
 remain stale and excluded. The manual Pages release and served artifact checks
 passed. See [the release receipt](docs/evidence/first-public-release/receipt.md).

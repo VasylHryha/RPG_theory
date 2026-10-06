@@ -1,0 +1,339 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-HOME",
+  "fingerprint": "cf0db05a6d2267ada58881dc6f10431089fc45f6040be594e2239c319c381cf8",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T07:59:31.643Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Genuine bounded homepage fidelity review after the requested clarity repair; retained source meanings and status, simplified reader-facing explanation and optional notes. Inspected shared RRG header/title/credit and the /RRG/ URL configuration, homepage-only optional source disclosure, and retained exact status projection. Actual target output auditing/browser checks cover generated links and metadata. No scientific certification.",
+  "inputs": {
+    "fingerprint": "cf0db05a6d2267ada58881dc6f10431089fc45f6040be594e2239c319c381cf8",
+    "ownRead": {
+      "id": "DOC-HOME",
+      "route": "/",
+      "title": "How do parts become a whole?",
+      "description": "A research idea about how parts work together, form lasting structures, and make new structures possible.",
+      "revision": 5,
+      "kind": "intro",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-EXAMPLE-WATER",
+        "DOC-STATUS",
+        "UT-C01",
+        "UT-C02",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08",
+        "UT-O102"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0060"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Compact introduction to the source research question, with one familiar warm-up and links to deeper examples.",
+      "evidenceState": "not-applicable",
+      "body": "## Begin with a wave\n\nWatch a ripple cross water. The crest travels across the surface while the water moves locally. The moving pattern and the water carrying it are two ways to describe the same event. [Explore the wave](/examples/water/).\n\n## Parts, connections and motion\n\nA string's fixed ends shape the ways it can move. A molecule's connections shape what its atoms can do together. A cell keeps its organization while exchanging material and energy with its surroundings.\n\nRecursive Resonant Geometry (**RRG**) asks how connections and activity can help a whole persist while its parts remain active.\n\n## A whole can become a part\n\nThat whole may become part of something larger. It can also change what happens around it: a star creates conditions for new reactions, and living systems change their chemical surroundings.\n\n[Read the introduction](/start/) for the idea and its limits, or [explore the concepts](/concepts/) in more detail.\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§1–3, 5, 7–11; world explanation §§2, 4, 6–7, 10 and background addendum. The water warm-up is supplementary NOAA physics, not a new RRG claim.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-CATALOGUE",
+        "semanticDigest": "42249821eb725b59d2f8a330945f09ebc121db7697d91024481b24e6276853ac"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "f19f30d66953552dba483a18521f145f595ef6b5ecf1e076e87726d7b7a08c98"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "b01cb5c229d290e266f231b32de6086b0b730c9174ba07c9cb73459ce6e8c00b"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-WATER",
+        "semanticDigest": "b83731626200783445f35a682e938ce1a450614279a634ab2a46e24ada0fa613"
+      },
+      {
+        "entryId": "DOC-STATUS",
+        "semanticDigest": "f8fe077097a1d98efdb5f14aeeec3394c198bd164841f30c1ac2036a58bdbf59"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "9fad979d74d5458a1b65e9625bd772ef5b1f35e4ca515bcbd8faf7b9e552d9e7"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "f6bea956a0abd13bef21e484914ccbaa42ed74a69c316688643047976fd651f2"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "6ebf7586c6c9b273a876e4b411da204fac0b89e6c08c7579d841741bd1067fee"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      },
+      {
+        "entryId": "UT-E101",
+        "semanticDigest": "0e9df2b644023f9f6582af718513e4e3f26f400b926b721f8abcc2d33153e768"
+      },
+      {
+        "entryId": "UT-E102",
+        "semanticDigest": "28f048e37e47db7be8ca8fa5d00f9cbb1b1594dd0dba01474e779dcaea64e4f9"
+      },
+      {
+        "entryId": "UT-E103",
+        "semanticDigest": "b5cb528ef993cb6e6f04cb8ba3e7e0e5cd15835b417497cb065c5a065230feb3"
+      },
+      {
+        "entryId": "UT-E104",
+        "semanticDigest": "842e58652b263a1c169c3aef99e5d023ba4fcec2693244c534856a2900083250"
+      },
+      {
+        "entryId": "UT-E105",
+        "semanticDigest": "50e17d5fb207a94bc945d79f097fdd735002aea3a5aa3e36bf860f85662b9c7f"
+      },
+      {
+        "entryId": "UT-E106",
+        "semanticDigest": "fd5d5035510fc1983bbd60444653b24e60c4a2bb206fe0370c3a0246933181af"
+      },
+      {
+        "entryId": "UT-E107",
+        "semanticDigest": "3386d5b0f9c0798a8d0926ea2ce16f238e28342eef8dc843d049d44b95aced78"
+      },
+      {
+        "entryId": "UT-E108",
+        "semanticDigest": "9d4b6cab0b82b272bd7c434a0870a819bd044fcbd8a795ef24a5cd7f1a8d47a0"
+      },
+      {
+        "entryId": "UT-E109",
+        "semanticDigest": "100cfc0f8de703859f470688f14c0d28a73f7203a177a30a8e7c1cdc8319a3a7"
+      },
+      {
+        "entryId": "UT-E110",
+        "semanticDigest": "23124295ec8c8b2592e2b1d3d498a8527f2b6a8c7a953998b0a9799fa85aa4fd"
+      },
+      {
+        "entryId": "UT-E111",
+        "semanticDigest": "66c80b47f13c2d3935246ffc17f6dc8c4663acd40419bc6265c55f8809639ff9"
+      },
+      {
+        "entryId": "UT-E112",
+        "semanticDigest": "9d8531ecc3cd3991dfbbc81d8f1a605a5651bc4f1b71010e95583e2e5ade02ce"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "f3d9c2742ff7560aca297bc6251bd3d0411bc5402e640030462138f7bea49fc1"
+      },
+      {
+        "entryId": "UT-E114",
+        "semanticDigest": "99549b367dbd70c1985d6f09e685bfa5cd1a99582893a93418cc7d0830145efe"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "b56cce0161cf4eb7c0c1d51330046d40f7260a6f80bde5a684b206ec3634ac3f"
+      },
+      {
+        "entryId": "UT-E116",
+        "semanticDigest": "f4ee9d31590ea9e6586d601106f04043237b0d0f8885a7da0984d601e64e7496"
+      },
+      {
+        "entryId": "UT-E117",
+        "semanticDigest": "5d588a9dcd040232edccaaead30962cfbb2ca3c7e8439a555eeecb87346ed083"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "bb90d22786c14366d3e16aa6ce520a7f3d98c944408c4e8f7dd114003adeaeb8"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "1c05c58c8d43e95831721fad3cbfa65c52517f085238ac13dec747850076a7e5"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "6237265792cca23f27a6b3df93a922b15782796d7db186f9a0e78b439f25f09c"
+      },
+      {
+        "entryId": "UT-E121",
+        "semanticDigest": "e9881ae203dd96b8623603c2dfb0546b82af7564c56e97eeb9ae864f90fec8ed"
+      },
+      {
+        "entryId": "UT-E122",
+        "semanticDigest": "13445b560d9749f7fa544634442fc77df07a12fcd013e73e185b29763b4bde2b"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "85af6060a57bd5ea57bce55ac38f74ad71fa2dc22bbc6c2850b38d9f8233a30d"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "697f22c36e9bea025f0a33d9b3e55d9e22080c97c05d9e57fe8e0dc8c9da35ef"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "f2f9fe3db8ab9435d079bda66c420ba4a245cfbcd68d2b50b1c6fd3c7876b821"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "a159e8ae55d70b73da958743d9f4703905a345589d787583ac49dfc6ddce6ee1"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "7f6d2721bd76dd6cb65e35f1aed8b9b2eab20148c9df602ba2e6918bef3c510a"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "242009393226964b6a642674d016007472531dbbf31c8436aa8184f0f1370e80"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "42efd51f43c0f6de8d510aef0ba1b4f7e681ee72627c37174db0e88794fe30d6"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "5f093402ffbccfd67476c962a962d0eec59228f5c3649f0a1f3b2db402f4550c"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-AUDIT",
+        "path": "research/RRG_CURRENT/07_audit_report.md",
+        "sha256": "222487df50faa457b85d5748a846f728f2c4fd9845b4a33ffac181d6e45ebfa7"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON",
+        "path": "research/RRG_CURRENT/checks/package_validation.json",
+        "sha256": "08119204887af30f804c7b8a6a7031a90f5be43ce8ba03f68601b72f75136353"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "bb388eaa36cbd82e317d34924239cf893ae95c8d21109b6f398b363d600367be",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": "c6dedc9423210d6f8d416340efe508faee8054374a4a85d11caa4254d866e3dc"
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "c682cf1e1d215f4ab3deea5e13dbe637ae42639743277219ef1a16972201b8a1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": "c6dedc9423210d6f8d416340efe508faee8054374a4a85d11caa4254d866e3dc"
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Read the shorter RRG opening against original core §§1–3, 5–8 and world explanation §§1–4. Connections and activity are ordinary-language introductions; formal geometry/mode definitions stay on deeper pages.",
+    "meaning": "Parts stay internally active while a whole persists and may participate at another scale; existing structures change surrounding conditions. Compared the new text with the preserved genuine HOME read and those original passages.",
+    "assumptions": "Wave is a familiar warm-up, not proof of a persistent higher unit. String card names ends, tension and material; no geometry-alone inference. Molecule/cell examples remain scoped illustrations.",
+    "hypotheses": "Visible status expressly calls RRG a proposal and refuses an established universal theory. Conditional higher-level formation remains may, not guaranteed.",
+    "evidenceDescriptions": "Examples use different mechanisms and explain the question rather than proving one common law. Exact original audit projection remains accessible through optional Source notes and the full status link.",
+    "openQuestions": "One concise visible note points to research status/evidence/open questions. Collapsing the audit projection does not remove or alter its source text.",
+    "attribution": "Recursive Resonant Geometry (RRG), Vasyl Hryha credit, approved contact and unchanged research/code/data rights remain distinct. Repository/address follows the recorded RRG naming correction.",
+    "sourceMappings": "Current source/dependency/excerpt identities and exact HOME status projection match the genuine prior receipt. Only HOME authored explanation/description/revision/date changed; raw scientific sources are untouched."
+  }
+}

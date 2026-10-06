@@ -5,7 +5,7 @@ test('M5 approved About/contact and scoped research rights journey works without
  const context=await browser.newContext({javaScriptEnabled:false}),page=await context.newPage();
  await page.goto(base);await page.locator('[data-publication-footer]').getByRole('link',{name:'About and contact'}).click();
  await expect(page.locator('[data-about]')).toContainText('Approved public credit: Vasyl Hryha');
- await expect(page.locator('[data-about] a[href="mailto:vasylhryha.rpg@gmail.com"]')).toBeVisible();
+ await expect(page.locator('[data-about] a[href="mailto:vasylhryha.rrg@gmail.com"]')).toBeVisible();
  await page.locator('[data-about]').getByRole('link',{name:'Rights and reuse'}).click();
  for(const scope of ['Website code','Data and evidence'])await expect(page.locator('[data-legal]')).toContainText(scope+': no additional license granted');
  await expect(page.locator('[data-legal]')).toContainText('Research prose and figures: CC BY-NC-SA 4.0');

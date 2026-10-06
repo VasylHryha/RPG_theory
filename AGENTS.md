@@ -53,6 +53,9 @@ Preserve source fidelity, existing validators/evidence, pending/stale decisions
 and release protections. Private implementation may continue while qualification
 is pending. Never fabricate approvals. The owner-authorized first test edition
 is deployed under R4 §§0.55–0.56; this does not authorize unrelated publication.
+The owner's subsequent naming correction uses Recursive Resonant Geometry (RRG),
+the existing repository renamed to VasylHryha/RRG and default Pages path /RRG/;
+see §0.58. Keep the local workspace path and historical sources/receipts intact.
 
 Preserve the supplied ZIPs, handoff snapshot, historical sources, original Rider
 solution and unrelated work. Source builds/intake preserve raw bytes. Necessary

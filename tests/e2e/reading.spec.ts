@@ -13,27 +13,49 @@ const base = process.env.UNITY_TEST_BASE ?? '/';
 const suffix = base === '/' ? 'root' : 'subpath';
 const evidence = process.env.UNITY_EVIDENCE_DIR ?? 'docs/evidence/m1';
 
-test('home and start read without JavaScript, navigate by keyboard and show source state', async ({ browser }) => {
+test('home and start read without JavaScript, navigate by keyboard and keep source notes optional', {tag:'@routine'}, async ({ browser, page: accessiblePage }) => {
   const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 1440, height: 1000 } });
   const page = await context.newPage();
   await page.goto(process.env.UNITY_TEST_ORIGIN + base);
   await expect(page.locator('h1')).toContainText('become a whole?');
+  await expect(page.locator('.pathway-grid > a')).toHaveCount(3);
+  await expect(page.locator('.hero [data-editorial-state]')).toHaveCount(0);
+  await expect(page.locator('[data-source-projection]')).not.toBeVisible();
+  await expect(page.getByText('Public introduction: author approval pending.', {exact:true})).toHaveCount(0);
+  const introductionWords=(await page.locator('[data-canonical-body="DOC-HOME"]').innerText()).split(/\s+/).filter(Boolean).length;
+  expect(introductionWords).toBeLessThan(200);
+  await page.screenshot({ path: `${evidence}/${suffix}-home-desktop.png`, fullPage: true });
+  await page.getByText('About the source documents',{exact:true}).click();
   await expect(page.getByText('Current sources available', { exact: true })).toBeVisible();
+  await page.getByText('Source notes',{exact:true}).click();
   await expect(page.locator('[data-editorial-state="DOC-HOME"]')).toContainText(`Source fidelity: ${fidelity('DOC-HOME')}.`);
-  await expect(page.locator('[data-editorial-state="DOC-HOME"]')).toContainText('Draft · private preview');
+  const homeState=artifact.publicationManifest.entries.find((e:{id:string})=>e.id==='DOC-HOME').publicationState;
+  await expect(page.locator('[data-editorial-state="DOC-HOME"]')).toContainText(`Publication: ${homeState==='draft'?'Draft · private preview':homeState}.`);
+  await page.getByText('Source notes',{exact:true}).click();
+  await page.getByText('About the source documents',{exact:true}).click();
+  await page.reload();
   await page.keyboard.press('Tab');
   await expect(page.getByRole('link', { name: 'Skip to content' })).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.locator('main')).toBeFocused();
-  await page.screenshot({ path: `${evidence}/${suffix}-home-desktop.png`, fullPage: false });
   await page.getByRole('link', { name: 'Start with the idea', exact: false }).click();
   await expect(page).toHaveURL(new RegExp(base + 'start/'));
   await expect(page.locator('h1')).toHaveText('Start with the idea');
   await expect(page.locator('[data-editorial-state="DOC-START"]')).toContainText(`Source fidelity: ${fidelity('DOC-START')}.`);
-  await expect(page.locator('[data-editorial-state="DOC-START"]')).toContainText('Draft · private preview');
+  const startState=artifact.publicationManifest.entries.find((e:{id:string})=>e.id==='DOC-START').publicationState;
+  await expect(page.locator('[data-editorial-state="DOC-START"]')).toContainText(`Publication: ${startState==='draft'?'Draft · private preview':startState}.`);
   await page.getByRole('link', { name: 'Return to the research question' }).click();
   await expect(page.locator('#research-question')).toBeVisible();
+  await page.setViewportSize({width:320,height:800});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
   await context.close();
+  // axe's frame scanner needs scripting; the reading journey above runs without it.
+  await accessiblePage.setViewportSize({width:320,height:800});
+  await accessiblePage.goto(base);
+  expect(await accessiblePage.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+  const accessibility=await new AxeBuilder({page:accessiblePage}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();
+  expect(accessibility.violations,JSON.stringify(accessibility.violations,null,2)).toEqual([]);
+  await accessiblePage.screenshot({path:`${evidence}/${suffix}-home-mobile.png`,fullPage:true});
 });
 
 test('home, nested reading and math pass automated accessibility and 320px reflow', async ({ page }) => {

@@ -1,5 +1,5 @@
 ---
-title: "Unity Theory / RRG — Public Research Website"
+title: "Recursive Resonant Geometry (RRG) — Public Research Website"
 doc_type: implementation_plan
 program: unity_theory_publication_site
 revision: 4
@@ -8,11 +8,11 @@ status: FIRST_PUBLIC_TEST_DEPLOYED
 reconciliation_state: PRIOR_MIGRATION_R2_ACCEPTANCE_PRESERVED_PACKAGE_AUTHORITY_AND_PAGES_TARGET_BOUNDED_HIGH_ACCEPTED
 current_milestone: M7
 execution_model: "Normal development with proportionate checks and separate bounded High acceptance under section 0.27; source-authority reconciliation in section 0.39 is required before public qualification/release"
-repository: "Public GitHub repository https://github.com/VasylHryha/RPG_theory on main; prior local-only/no-remote statements are historical receipts"
+repository: "Existing public GitHub repository renamed to https://github.com/VasylHryha/RRG on main under the owner's naming correction; historical RPG_theory targets remain preserved in earlier receipts"
 replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
 planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
 source_baseline: "Owner explicitly promoted the audited GPT/Library RRG v0.2.1 companion dated 2026-10-02 to repository CURRENT on 2026-10-05; predecessor current bytes are archived, the minimal locked core/repository 01-03/change control are carried forward unchanged, and website migration has bounded separate High acceptance at section 0.41; private current-corpus fidelity and applicable M6 scope have bounded separate High acceptance at section 0.44; complete public qualification remains incomplete"
-publication: "First public test edition ACCEPTED at section 0.51 and DEPLOYED at section 0.56 to https://vasylhryha.github.io/RPG_theory/ under explicit owner authorization. Broad regression/human/AT/provenance work remains incomplete and is not claimed passed. Heavy campaigns run monthly, with focused checks for changed inputs."
+publication: "First public test edition ACCEPTED at section 0.51 and deployed at section 0.56. Section 0.58 corrects homepage clarity and RRG naming and prepares the same manual pipeline for https://vasylhryha.github.io/RRG/. Broad regression/human/AT/provenance work remains incomplete. Heavy campaigns run monthly."
 ---
 
 # Unity Theory — website implementation plan · Revision 4
@@ -35,8 +35,8 @@ This is the sole execution plan for the website, research-document publication, 
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | **ACCEPTED and DEPLOYED: first public test edition (§§0.51/0.56).** Owner-approved 75 current pages, source-faithful bodies and research-draft status. Live Pages release and served artifact verification PASS |
-| Website repository / implementation | One-root Astro implementation on public GitHub repository `VasylHryha/RPG_theory`, main branch. Prior receipts that say “no remote/public target” describe the earlier local state, not current repository visibility |
+| Current milestone / state | First test edition accepted/deployed at §§0.51/0.56. §0.58 delivers the missing homepage clarity and RRG name/address correction; affected source/display comparison and checks recorded separately |
+| Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/RRG`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
 | Last engineering acceptance | §0.51 final bounded High acceptance of the repaired candidate; §0.54 routine CI recheck accepted. Earlier scoped acceptances remain preserved. Owner explicitly authorized first-test publication at §0.55 |
 | Latest execution receipt | §0.56: `docs/evidence/first-public-release/receipt.md`; actual publication run, source/artifact identity, served checks and monthly frequency rule. Earlier receipts remain preserved |
 | Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
@@ -47,7 +47,7 @@ This is the sole execution plan for the website, research-document publication, 
 | Website/browser/a11y/live evidence | §0.56 clean release build/audit/seal and six actual-release Chromium journeys PASS; deployed 326 files match served bytes, real 404/no-JS math/five search journeys PASS. §0.54 hosted routine CI PASS in 4m15s. Reuse unchanged scoped evidence. Human/listening, screen-reader/MathML and fully passing broad regression campaign remain unavailable/incomplete |
 | Current validation / decisions | **75 accepted current / 21 preserved archived stale / 0 pending / 0 rejected** through the shared fidelity validator. Selected current qualification true; owner-authorized release deployEligible=true. Prior genuine decisions, source bytes and excluded archive entries preserved |
 | External publication state | Public `VasylHryha/RPG_theory`, GitHub Actions Pages, HTTPS enforced, github-pages environment restricted to main; policy and UNITY_DEPLOY_ENABLED enabled. Run 37427672654 succeeded. Live: `https://vasylhryha.github.io/RPG_theory/`; exact uploaded artifact captured privately |
-| Next action | Maintain and polish the live 75-page test edition. Heavy source/history/full-regression/browser/performance/live-file campaigns monthly; reuse passing evidence for 30 days on unchanged relevant inputs, focused checks after actual changes. No new automatic acceptance session or deployment for documentation/check-frequency edits. Domain/DNS deferred |
+| Next action | Complete §0.58's affected homepage browser inspection and publish the corrected RRG site through the existing manual pipeline. No full monthly campaign or automatic second acceptance cycle. Maintain/polish the same 75-page test edition with focused affected checks; domain/DNS deferred |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -733,6 +733,43 @@ the actual live URL, 75 accepted/selected current pages, preserved 21 archived s
 entries, release receipt and monthly maintenance rule. Whitespace and pre-push
 syntax checks only; no site build, new fidelity decision, audit campaign or
 redeployment for these documentation changes. Preserve old receipts unchanged.
+
+### 0.58 Homepage clarity and RRG name/address correction — 6 October 2026
+
+The owner identifies the missed simple/clear homepage work and repeatedly corrects
+the research name to Recursive Resonant Geometry (RRG). Correct the existing
+repository/address to VasylHryha/RRG and https://vasylhryha.github.io/RRG/; preserve
+its history and the local workspace path. Direction/interpretation is recorded in
+`docs/evidence/homepage-clarity/owner-direction.md`. No new repository, DNS or
+scientific-source rewrite.
+The owner reaffirmed “RRG is the name” and supplied the replacement public inbox
+`vasylhryha.rrg@gmail.com`; current contact metadata/rights copy and affected checks
+use that address. Earlier contact evidence remains historical and preserved.
+
+Delivered concise homepage opening/body, ordinary example cards, one visible
+proposal/evidence boundary, optional exact source/status notes and removal of the
+outdated author-approval-pending copy. Header, page title suffix, metadata/footer/
+CFF identity use RRG; the shared auditor checks the exact new title. Source notes
+on deeper pages retain their existing presentation. The current target/policy/
+permanent citation URL change together; old issued receipts stay intact.
+
+Genuine source/display comparison against the immediately preceding accepted
+reads: 74 non-home ownRead/bodies unchanged, all 75 source/dependency identities
+and the exact HOME audit projection unchanged. Read the shorter HOME explanation
+against original core/world definitions and reviewed limits. Recorded the bounded
+decisions through the shared validator: 75 accepted current / 21 archived stale,
+archive registry entries unchanged, no scientific certification. New snapshots
+and comparison are in `docs/evidence/homepage-clarity/`; previous decisions remain
+preserved. Astro 0 diagnostics, two focused rights/workflow contracts PASS,
+actual /RRG/ qualification build/shared audit PASS (327 files), and focused
+no-JS/keyboard/optional-note/mobile-reflow/axe journey PASS; desktop/mobile
+captures inspected. An initial axe-in-no-JS timeout is preserved; the scanner
+was separated from the no-JS journey and the affected check passed. The auditor's
+legacy default receipt write was retained privately and the earlier issued
+receipt restored exactly. Existing repository rename is confirmed, including
+unchanged repository ID/main/history and Pages workflow/HTTPS/variable/environment
+controls. Short receipt: `docs/evidence/homepage-clarity/receipt.md`. Actual manual
+publication outcome is recorded after it completes; no full regression PASS.
 
 ## 1. Review findings and chosen repairs
 
