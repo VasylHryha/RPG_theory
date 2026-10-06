@@ -4,14 +4,14 @@
   "route": "/examples/molecule/",
   "title": "Molecule: the whole constrains its parts",
   "description": "Connections and collective behaviour, beyond an inventory of atoms.",
-  "revision": 3,
+  "revision": 4,
   "kind": "example",
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-SCIENCE",
@@ -42,22 +42,26 @@
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## What to notice
+## What changes when atoms form a molecule?
 
-Knowing which atoms are present does not tell us everything about a molecule. Connections and spatial arrangement matter. Bond distances and angles are constrained; the whole has collective motions. The supplied world explanation describes electron-state reorganization, vibrations and rotations in this example. Basic relationships between bonding, arrangement and properties are explained by [OpenStax's molecular-structure explanation](/references/#BIB-0065).
+Begin with the difference between an inventory and a connected system. Naming the atoms tells us which components are present. It does not tell us their bonding, arrangement or collective motion. [OpenStax's molecular-structure explanation](/references/#BIB-0065) supplies the chemical background.
 
-## What this illustrates
+In the supplied world explanation, a molecule restricts bond distances and angles, reorganizes electron states, and supports vibrations, rotation and deformation of the whole. The atoms retain internal degrees of freedom. They participate in a collective organization rather than disappearing into a featureless object.
 
-The source uses a molecule to explain a two-way relation: parts participate in a whole, while the whole constrains its parts. The atoms retain internal structure. A molecule can then participate in a larger arrangement, so the level of description changes without the lower-level activity disappearing.
+## The RRG connection
 
-This is a quantum chemical system. Atoms are not classical miniature solar systems, and molecular behaviour is not inferred from visible shape alone. Its interactions and physical conditions must be specified.
+Parts participate in forming a whole; the whole introduces constraints on the parts. RRG describes the relationships as geometry and the collective activity as mode structure. Both require an actual physical model: this is quantum chemistry, and atoms are not miniature classical solar systems.
 
-## From whole to useful unit
+The arrangement alone does not provide the interaction law, energy or conditions needed for bonding. Different systems require their own mechanisms.
 
-The [recursion concept](/concepts/recursion/) explains how RRG treats a persistent collective system as a potential component of further organization. The mechanisms can change between levels; one microscopic equation is not required everywhere.
+## When can the whole become a useful part?
 
-[All examples](/examples/) · [Start with the idea](/start/)
+A later chemical description can treat an intact molecule as a participant while leaving some internal details unresolved. That is useful only while those details do not change the answer to the question being asked. If the molecule breaks apart, treating it as the same intact unit becomes inadequate.
 
-## An observed molecule and its setting
+This is the useful-unit question behind [recursion and scale](/concepts/recursion/). It is distinct from the molecule physically changing its environment; choosing a simpler description does not itself create another level of matter.
 
-The [helium hydride detection paper](/references/#BIB-0091) reports an observation in planetary nebula NGC 7027. It is a research link alongside the broader [NASA SOFIA introduction](/references/#BIB-0013); it does not directly observe the first molecule forming in the early Universe.
+## An observation with a specific setting
+
+The [helium hydride detection paper](/references/#BIB-0091) reports an observation in planetary nebula NGC 7027. The [NASA SOFIA introduction](/references/#BIB-0013) supplies broader context. Detection there is not a direct observation of the first molecule forming in the early Universe.
+
+[When is a whole one useful unit?](/articles/when-can-a-whole-be-treated-as-one-useful-unit/) · [All examples](/examples/)

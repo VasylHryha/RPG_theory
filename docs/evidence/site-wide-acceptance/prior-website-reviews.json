@@ -1,0 +1,962 @@
+[
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONCEPT-GEOMETRY",
+    "fingerprint": "4609ff5cdbf73c91a0cf7f0e3a126a29bc710264144781a93c4a8199370c37ca",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-CONCEPT-GEOMETRY.json",
+    "evidenceSha256": "6f1ede348e00dbf8784c761d74601b06e545ea1ccc8f045058e036575f21a4d6"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-HOME",
+    "fingerprint": "cf0db05a6d2267ada58881dc6f10431089fc45f6040be594e2239c319c381cf8",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-HOME.json",
+    "evidenceSha256": "b8ad7b7cd848b0b4c517570a08751ab16989afbf40ce04443fd1fe2aad1e0f32"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-START",
+    "fingerprint": "9e246432f5189f28ce048c42cae40580f4a0991ca77a2a366e43b897d28a1322",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-START.json",
+    "evidenceSha256": "d183b64e774bb0383f9801ba3defadd4fc87c842dc4f9273236fd772577a8e09"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLES",
+    "fingerprint": "6ec4a80b8d55c823da40f310c1e89716e2092ad24a137efdc9ba6652cea37878",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-EXAMPLES.json",
+    "evidenceSha256": "bec55481d9cfb2fa33f4bb146bf00317bcf5b9f9bf56a4fe87c52381ba4716c4"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONCEPTS",
+    "fingerprint": "cf2676f674108fd9671a83b930275fe51f589a9463b8cff4e674c44de4d38063",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-CONCEPTS.json",
+    "evidenceSha256": "0d8e4e5723d50f8a6350cadf3fc432f29568c8325a43e3113cd50f797beb182f"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-WATER",
+    "fingerprint": "89e807fe7101a9fbe30d30d3a5844bf0b141d0f73c426ea54f861692ff2a397d",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-EXAMPLE-WATER.json",
+    "evidenceSha256": "f63b46934108ca5f1e2202b48c9d9e182ddbf7bf7973c77f384818504a89c05b"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-STRING",
+    "fingerprint": "607c5a86d7d7aedf87b806c397514c4a18141ec7993595afaca217b4af171165",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-EXAMPLE-STRING.json",
+    "evidenceSha256": "cd348a7c155c4a712a3ce76e44e330ce77d623682139d747f42b6a84fc32c1ef"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-MOLECULE",
+    "fingerprint": "54fa563c1a88f260d28151f34c18714fe6a4116c51b5ae1958fb07f5e31fab12",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-EXAMPLE-MOLECULE.json",
+    "evidenceSha256": "6ff172f65e989429581ca191076e8cf9d437933a85a8cec2595e339631234977"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-STAR",
+    "fingerprint": "fe95eb1ede49f8c4038f62befab17c395b7ca17f879d47c18c21666e7c6e9f56",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-EXAMPLE-STAR.json",
+    "evidenceSha256": "b4622eefb24d9fc3402bfc9cfcfb543368b86962da3ab611f3dd10649825d4af"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-LIFE",
+    "fingerprint": "da3edd71a1f49df1f18724a259a8a9da3f0c6f43a5e50d9fd5fcf4ef20edc8d0",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-EXAMPLE-LIFE.json",
+    "evidenceSha256": "b71ae8a4ad749bf314a01c2b3644a20ea92311ca5e9755b61b6ea056b086559a"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EXAMPLE-CELL",
+    "fingerprint": "99bd0ee744d55169d1503a4b652a9420740513e2b9cf9c96efe29c0babc66bdc",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-EXAMPLE-CELL.json",
+    "evidenceSha256": "b66cdc4970b91376d2d106c330a01d0e23cbfd6d608d55b5a9e43eef2d850ad0"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONCEPT-STABILITY",
+    "fingerprint": "a391e88eeff4371da70cdadaf3f813d89d23e1fa8f21ca67e6dd9e392e8e8aaa",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-CONCEPT-STABILITY.json",
+    "evidenceSha256": "b551cbc48c826fe12a1630c1b059147a660fd8e2af6b1c3b7c58b93bb27537fc"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONCEPT-RECURSION",
+    "fingerprint": "be4507fa97d2b277a6c36c49dbc11d2d444dc399be9e4834fd9aebcd8d6da920",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-CONCEPT-RECURSION.json",
+    "evidenceSha256": "a7b5d5bb8851ff9a3c01f48e1a9e06d79beff5362d354c1761f68affe799eb80"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONCEPT-INTERACTIONS",
+    "fingerprint": "4672089137b77dc5fe510a989fcbc779ebe6bc30cc5c5cb2fd24974fdfff3cfe",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-CONCEPT-INTERACTIONS.json",
+    "evidenceSha256": "f6085c735417f009a3804521d6b168a631a09393f8f83a1001b409b21a13b3e6"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CORE",
+    "fingerprint": "ad9eefdc00c285545bc04b0c4da65b16bf3f4e6bdc20eb25473b4af485ecfbd9",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-CORE.json",
+    "evidenceSha256": "c09e09d45258600fda89655cd8de1ea993cf7b7d4a2ee14cb83f2b5d62ef0858"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CONTROL",
+    "fingerprint": "82dfbc4d94567702ec560d0619536381ce7110d4fa7a5b4ab2ef4d725ed0e187",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-CONTROL.json",
+    "evidenceSha256": "a7d459c3a32e30b654ee34ce2a45ec120876a2457fa7e508c2756c34b417a572"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-FRAMEWORK",
+    "fingerprint": "b0dcffef54b0ef5b99e24e659144333cdc8e97f6cb529d9fcc3c5ab4a98a2446",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-FRAMEWORK.json",
+    "evidenceSha256": "049466113bbc3fc15aea24d4540cbbf4244b8048e87399d1ec70f9252827c177"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-MATH",
+    "fingerprint": "179105bc6651e67ad1c3cec0e1870fdcd3ce50d8338d83f410cc0c043d97b27a",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-MATH.json",
+    "evidenceSha256": "b6a3e8f8de9b0b2f46b9d9387470f21c5bfcb1943776740ee9d99c64ec9eca0c"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-STATUS",
+    "fingerprint": "9f2f8bd254d26afc5e782ea69c066715bf2aad0dc15affd41c0ffeb5bf38889d",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-STATUS.json",
+    "evidenceSha256": "56e898e7bb67df1317e536185df54629ac8723c6c2419e28d10335a66b57cd21"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-PROOF",
+    "fingerprint": "913b253cbef35411666380e15eea820f4ce707434cf7e10774e4f3a7d12595f4",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-PROOF.json",
+    "evidenceSha256": "473265903f9e092ce70a29bdcb0edbf595056ef998a55f57db792977b10a260b"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-INTERACTION-EVIDENCE",
+    "fingerprint": "51f4c7cb362bb0ae97485dca4e93b28468321add02423e0c2fe4ea1b34ed25be",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-INTERACTION-EVIDENCE.json",
+    "evidenceSha256": "c5d4ea13fe1646610c22f44e41b581741664453527e134af7ab8c40b250a91f7"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-ADDITIONAL-EVIDENCE",
+    "fingerprint": "b34114d4efef11dc314fd41841dddb1ee7ddb7ec8553c73d11daac2adbfabe60",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/DOC-ADDITIONAL-EVIDENCE.json",
+    "evidenceSha256": "83b1286313050df32f0225e24a1cdafdc347cb81d8d255a5be21147fd037a820"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-OPEN-PROBLEMS",
+    "fingerprint": "2a2d4c58f984b19c06f76dd19f01c0afec452f11515388e9ec0e3e0ee68016fa",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-OPEN-PROBLEMS.json",
+    "evidenceSha256": "f0920416f06c7d4b35f5315333565be027e0755dd103b267d1d787a5f3d4b531"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-SOURCE-CHANGES",
+    "fingerprint": "dc4b1bb578a20f9085c8f571f141392da7b291ce77e95d2c66954e30c2aa0770",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-SOURCE-CHANGES.json",
+    "evidenceSha256": "0ecd188c89aee45750133b0847d99ed54085b0ac8b16238a95f0212c630fed0e"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-EVIDENCE",
+    "fingerprint": "70475311ff0b52cc678fda8ac72a3ce67155a17c6be8abf070877a86d0819c51",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-EVIDENCE.json",
+    "evidenceSha256": "cc5a74e124c299a0ec67d9175270221924d174419f09ec982428c8114b805cbc"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-LIBRARY",
+    "fingerprint": "bbdf080cd6ed0d966381b0ee5d9997df83b4876863ae3230e964d3de15097cb5",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-LIBRARY.json",
+    "evidenceSha256": "a21b6febbd63471c89259666bf7a38009b12ee42b386ef4b6da085e709f1c6b8"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D01",
+    "fingerprint": "797055784a1e56a028ca5687cb8a8e40f9efeb2c2e17cc1b83222b4ab8e4e4d3",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-D01.json",
+    "evidenceSha256": "140a5a3e58a709c4eeeb2a82ee2267c3fdc8369e9b5a75c999f477babbbd6329"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D02",
+    "fingerprint": "ed63c0fa2d32c3f57fa75149283a4e4d00d6913a89e922b89f318cf546f690ed",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-D02.json",
+    "evidenceSha256": "457f151e101c4d7ad1c2fb36c18f85aa2ed5ee4b781d88e2b7b88901409896f5"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D03",
+    "fingerprint": "538d3cf58b6518d9047d054add78f0775cd11db989e275ebdf1409badff94947",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-D03.json",
+    "evidenceSha256": "4300f2349da6be7127e434392a6edecea3e29dec274515c728c8630a25a8912a"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D04",
+    "fingerprint": "b28511f30e0c2b5b18cf70d725471b4517700c5a6c753ff913f211978763e50b",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-D04.json",
+    "evidenceSha256": "ae9e83394dc0c08ca39150c088ced1f378a5e5e8cc5edec0f05a1a6a5fda7fdc"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D05",
+    "fingerprint": "18502e292b1eefeee220aaffea1c6a1a230a3bc1615236a4205ea9eab70c9938",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-D05.json",
+    "evidenceSha256": "ee48c3f83bc51584f81072f072a6fb86dbfa27237a4cf9159ba58f58dce802f5"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D06",
+    "fingerprint": "fb4df0714a95d7b7e788dd48df7cc339ff6137f9bb233e8d4877a24ec8bec110",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-D06.json",
+    "evidenceSha256": "2e9bd080bc58bb5b130c56c3ab6c500ff95a47cdd9ddb30638db5e6964d9046a"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D07",
+    "fingerprint": "d026e13f6f0857a13e2100d4a7100cf6dc157a8bcd9d240549ff06906c75712d",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-D07.json",
+    "evidenceSha256": "f1fddfe401b01eaf02e2ead44a18d6604481bce325840241fe86a013e1356325"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D08",
+    "fingerprint": "6763e404f078ad05b04bc18e6f6c848d6a5938cab5c45a0a2253326c78c9561b",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-D08.json",
+    "evidenceSha256": "64fea69715d9ffa92d8b5ed6d3c534b827f79e2c3cc8bdba71f9aff1f7cb9a8b"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-D09",
+    "fingerprint": "f7da2d724161353070e39249ab779e2575dcbacd89728ec469e87cacfdf3cd9d",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-D09.json",
+    "evidenceSha256": "33f0755cb2f9a37123003619f488aa20bb8f09ab21eff4b5689a9a7385f7478f"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-C01",
+    "fingerprint": "ee889aec1b3f1e80be466b115cce25fd2b94c3fbe8fc2095c01146b28b5a7114",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-C01.json",
+    "evidenceSha256": "9d559edefcf4373c58b8186bb1fb18b8063d4c565d7ef4e22bd5ac5a2562d147"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-C02",
+    "fingerprint": "68a00b6f4e07513485cda8261cde77be17895b00af239e04c772aeb134f7e44e",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-C02.json",
+    "evidenceSha256": "f7e0820de02790b09d633ea40edfa1b570b4b792116d481d3d575dc0b56a1e99"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O01",
+    "fingerprint": "2f2565009d7b12ec51d2aadbfbc172fd402e3a4d579f6fad2d926ec7ffe3b07c",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O01.json",
+    "evidenceSha256": "a704b7ea24abdef0627d0a57aa824008c98ccad44c319166906af85e90210915"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O02",
+    "fingerprint": "69aeddb19d9a9bd364c39ca8310d605b1f79760624f608f1e88defc6cdbdfc0b",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O02.json",
+    "evidenceSha256": "17503ceddab5de23299b9d659a932f66829f35016470070d565a831813bd29b1"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O03",
+    "fingerprint": "9c0d7e619b1a73b710160c68fa5209472959e0f1a21c4dd3f0ba7f3daa8a9cd8",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O03.json",
+    "evidenceSha256": "7aefee1c6c4548db314bd4bb217288f2176302d9bed39d09a0cb3117dac0c63b"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O04",
+    "fingerprint": "7313eef7f077b5ce6938d31cbb916a050f28e238efbda9ec2af802e5ba9b6fc4",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O04.json",
+    "evidenceSha256": "edda9fcb6ef0f807ab97f08ba198643414267b38ab0425df7514cf0517d87f09"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O05",
+    "fingerprint": "5fff9d59e702d60ef4b81bc44718bd14b2eb9fb6b176886e447512e46e2a0b46",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O05.json",
+    "evidenceSha256": "735fc8e58a6064e7d62b5aad7a3897470989a615a134248a4c01f6f3a3d4771e"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O06",
+    "fingerprint": "eb0fdc026ddbf410fa18624755f3fa986ac9aafae42c4fc5aef0c1850a52a52c",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-O06.json",
+    "evidenceSha256": "e9e925d08a9204dceb18f7ec1b22fcafdfa002dd65cf5d2f561247175cfe33cb"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E01",
+    "fingerprint": "2572e7e2ab35d3aca0e3c3f98d348f3dbe460a2734f7fe447a4f6e19b7abfb63",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E01.json",
+    "evidenceSha256": "802006a1fa8f5436007779e4d6ddcd5f863dd4cdacd4dff3d64cc45d68a0eebc"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E02",
+    "fingerprint": "5cc53048b81fabb6904d7b29f9123a2724f1cc595fca6d7b8e848b5550bf6ed7",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E02.json",
+    "evidenceSha256": "d452361f9cba9fc656280a13f3fc2a4782488e07ea1f2101ce4be2c51482082e"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E03",
+    "fingerprint": "37c225d171ff60677aa362860976531b02267da604aa7364576087861cfb3e87",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E03.json",
+    "evidenceSha256": "3b0a20770cdea6ba0ed4bc5bd6be0902942b5fc65ee38700f10f5908781b6a15"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E04",
+    "fingerprint": "e4718eaab4497ba2b795b36485e7f6e1c8841d213421c40fb4ad0f85954d3bc6",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E04.json",
+    "evidenceSha256": "3c1df5083525af398787b6165900feac7f31f5a7323650663cb7387e805dc1e3"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E05",
+    "fingerprint": "f3261504c8ec8f353545dcd2b914ff98e82ca7c80d99a55180f16f90add74aa0",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E05.json",
+    "evidenceSha256": "fcf7e90f298d772ca6cf2dada391305e1cd73bd2e794607dcc3814544cfc8ad6"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E06",
+    "fingerprint": "bdbce5498fe6c672b42c8a16a5079ded339256cf4dc096aa994f488ccf4abad7",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E06.json",
+    "evidenceSha256": "45ad6472cead78a5f897c77d01786fba641803c58ef60385830f7ac7e1ed5cef"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E07",
+    "fingerprint": "ade82cd5d1a7d5239ad40ebbcda69d9652597185334e150e009c62146804ed30",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E07.json",
+    "evidenceSha256": "60c43c14c1525e6a7fd68818cf775b7deb7cccdd27a6e33dd4da9e53ef35122d"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E08",
+    "fingerprint": "e8f31b3a68d649a4329988f99e16a6e3bd831431efd4dc9c42384dad53dd15cb",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E08.json",
+    "evidenceSha256": "cff099e2d96579bde960e7d394e65bfefec54bf62fa9b757760e8a07e1ca1009"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E09",
+    "fingerprint": "949c4253446b1be4f79f35bcc292d04cd58cbb96544203faa77d419679850c44",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E09.json",
+    "evidenceSha256": "542874a2ec443c93dcef198710928a4d7b923df2261bbd87f3163d593640e642"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E10",
+    "fingerprint": "7b2026defd84c84a34d098f9885e63ec0ab30994361c50c3f799675687dd1f0f",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E10.json",
+    "evidenceSha256": "b943079e88c3ae43b5baeed1e0d15ed0a20db76a83f0938fd1bb61cf59d44190"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E11",
+    "fingerprint": "0be13e0fdf6d272f00ee49e7dbce79abc8971c5a01945835f0eb25f5ca4bb0ef",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E11.json",
+    "evidenceSha256": "47fc9dd132980c924933940b93cb17dfc5881bce80a1f1dd6f9752ed455bdfd3"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E12",
+    "fingerprint": "17313976f123edcd4eec28cb99de1f6a9355258d8c36437f30d40a3a6211dcc8",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-04",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/m3/acceptance/decisions-final/UT-E12.json",
+    "evidenceSha256": "69ee16a24a42290996fd698a91066a32de89f20662683bbf390ae495b531f3e9"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-ARTICLE-STRUCTURES",
+    "fingerprint": "32bcbe439249e9bd60cb25dc61111e26d2e7239a78939bb0f4869f35430447f1",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-ARTICLE-STRUCTURES.json",
+    "evidenceSha256": "e85bcd3a039bd03b39825496635e5c89b832d2e75481535d5a20120bc24b822c"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-ARTICLE-UNIT",
+    "fingerprint": "815a7e5e625c57a92d710e4c88037af883a27b1b9081574aafd633630e71df58",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-ARTICLE-UNIT.json",
+    "evidenceSha256": "108ae8a978e4de95772cb42795e940293dcf02df49061018f3b6ac27e531dfc4"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CLAIM-COVERAGE",
+    "fingerprint": "c263bf40db8c537f844deef2dc5e309877dca105c2c7a5b91446fb5100d29bcf",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-CLAIM-COVERAGE.json",
+    "evidenceSha256": "1a14709dc86e2562988ef973f4d05f3a0ae35a64777eac100dcd158da7a2dc87"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-BACKGROUND",
+    "fingerprint": "0a4489a7c4c6bef10b2b0de7534edea41a4fe11e70d03df956f542c1fad7db69",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-BACKGROUND.json",
+    "evidenceSha256": "32cc0c899f7af8dabce6aa964eb240bb7d9aa432984f56122bb5aec244d48c64"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-ILLUSTRATIONS",
+    "fingerprint": "9331f51f6659d8fb7748f590159a97898e8362e12b7a668fab2bc56c7db5c9d8",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-ILLUSTRATIONS.json",
+    "evidenceSha256": "9e38c3dbfa81a5783708b00999a71af2444bed924fe638680cf6e6f1d77806f8"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-CATALOGUE",
+    "fingerprint": "d8ef28035a131834ac8d505422eda3263775b9219e2371eb1fee978a2f4c2192",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-CATALOGUE.json",
+    "evidenceSha256": "e4c027688796ce16d599c4b110a00a172f857f3552db50ee076755a1fde4c833"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-READING-GUIDE",
+    "fingerprint": "46efed4125f6081634aaf915da2f8fe82352d1e92ec747be04612fe8058a1223",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-READING-GUIDE.json",
+    "evidenceSha256": "7ce8949e63366f565cf4b4fa3740824e9e4bba97057be1533bf52e996d5cfe7e"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-AUTHORITY",
+    "fingerprint": "f3f6df4737579d1bfb8d76290c9d68308c4896e3e08f18d33ee3b13a53724718",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-AUTHORITY.json",
+    "evidenceSha256": "b0ec883ae9abca535bef8a187575258e020c44610debba4440e04efbfc595420"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-FOUNDATION-ERRATA",
+    "fingerprint": "41820a089b8ca7afe9328740de688c3d9d583d17508e680a7ff603ec9abf7f44",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-FOUNDATION-ERRATA.json",
+    "evidenceSha256": "2cc8672da02946c097a8362616267c9ea6d9aa5cec90d31c412dd618df291db5"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E101",
+    "fingerprint": "d9e1f764aeb30193ae7569c8bd87c1d6aad2448617e6abbc3448857fbd70ac24",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E101.json",
+    "evidenceSha256": "46d890c74e40151532797e37d970c5383da828e873e82a7b4141305bffb18bae"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E102",
+    "fingerprint": "379763f20bb7d74987c15575ea5a2642d530914f44312d5e91b2f0b7b5814bff",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E102.json",
+    "evidenceSha256": "8ef9b6fc91e86f1ff5905d7716e140376c0dd24ac7942486b727b1b6a8b53192"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E103",
+    "fingerprint": "33702248fe613be29019df75c9945dc15a53b419a6b943eae0fe794a90b33c12",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E103.json",
+    "evidenceSha256": "5566de74270a1fd9c295deb26b6822bb846a2d84c285d8136177fee3f96d3ba7"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E104",
+    "fingerprint": "bd53962dcafa7c2aab4f6fdd00a2f2cb8549f0e734b6d8bbe2be794b47457bce",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E104.json",
+    "evidenceSha256": "b2e504635a08feec3e02769e444f8d635478d0f60d6eecf50264681d4df105c4"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E105",
+    "fingerprint": "3778ee2cf667139e8a88f8608668a9a275fd8505117f27ce12d3a154d21f1b67",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E105.json",
+    "evidenceSha256": "0b6e36ec2b311386054dd046f29cf345325a8c6b0d24f3e0721dc208424e9020"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E106",
+    "fingerprint": "2ad52985dd84b86ae89af134c54c48f1a196a6ed7ab6bcae7c6794b223b7b4a5",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E106.json",
+    "evidenceSha256": "3da8b81468a92c65bda5fcc29a451cace4efa0f450c63ae21d777b5230081cee"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E107",
+    "fingerprint": "e96a625222712d2cf315e7ae95a26b6acd794aabb6401347edf90cc1387fd3d1",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E107.json",
+    "evidenceSha256": "1a6d2f8b206ca980a354da9d6a3f911e7c5e9d7fbd553d04bc848b25aecc94f3"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E108",
+    "fingerprint": "29fc32b81e98002d315860bb431fd57049d0659bf93cf456ec0666da02dfa820",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E108.json",
+    "evidenceSha256": "8665d3ba2a4ecff579f3d0ff04e7d7036af3443d12000e8a995e6a84f86960b1"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E109",
+    "fingerprint": "8d0aa457d1514f9045c15fed357c71cc5c4aaffdbfd5fa83a456ea12865a37b0",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E109.json",
+    "evidenceSha256": "15bf798541e6b382ea7daf0ba7387297b98268a3142d11f63d186ccdc1b7cf09"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E110",
+    "fingerprint": "d70653b201ae25fa26cdd60564ac00f24926e943d28a9bd5f8ace0103e342f3a",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E110.json",
+    "evidenceSha256": "34c1b4795efec91571fe79635f21f2675f54a8fdce678579a520951179483332"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E111",
+    "fingerprint": "f6525e3f61e8057989f96e842300881ab13794dc75cd61afa05f88f167f2d1fa",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E111.json",
+    "evidenceSha256": "98b4695dc09b158c8e00cec885cae4ab2953bf57f6b5a34f99b2c5ecd0531760"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E112",
+    "fingerprint": "eafb0fe90d2ad289371cf815c1bf4d3887a6851f03ccd053d23b95b650e36486",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E112.json",
+    "evidenceSha256": "75ba7fbaf0597c71472bd0b3497a37b06bfec3f79a8df0ea910fd4d7b91b8e8d"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E113",
+    "fingerprint": "e3ab32536250e990cd3625889cb9d404e2f425a7aeeb4138344572cc9b4aa0ad",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E113.json",
+    "evidenceSha256": "288f86d19820c1a2aea29d7c6fbc9a8554ae41156b238c046dff51d680fd7810"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E114",
+    "fingerprint": "17b91ea5c272ad5d4cc6ea2ad2fad64e07cc5f58385e70a99ce6831418a4fc6f",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E114.json",
+    "evidenceSha256": "ff27d920d0d0be1bc7d19593fd6287f33a0c430d32d910bac0c1c0ff874a3683"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E115",
+    "fingerprint": "92bd2378ace54d4bcfa5f551036eb88b8cdeca2754d728684e1dfd8bd75c32f9",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E115.json",
+    "evidenceSha256": "db5bd8dbbce531e458db25334962e0053c49b74180292fab80af093e67b4a831"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E116",
+    "fingerprint": "d33bf6eaff213a7c95511c7491d4912208b93e285f53b93d9fce050e238b5361",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E116.json",
+    "evidenceSha256": "b95e45ac17dddf6ee567ac5aa2bc8283466a37c5b1f510246150bac0c81f2514"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E117",
+    "fingerprint": "c0296933538248b14c11b1778844d489e9c3e334a2645f4ede29e7ff0a49349f",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E117.json",
+    "evidenceSha256": "200cd25af3b2c70fda84f0dbf605398da9f36c197d150ab05f6046b9a757f3ec"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E118",
+    "fingerprint": "1387d2c9d160cc0d76095dceacf72ff504387619467772006d6e30c698555505",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E118.json",
+    "evidenceSha256": "bf79f12a78ff540be7e15842c44bd3b637f9ae056e8086c22bc580cd94054917"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E119",
+    "fingerprint": "e167b41509be44006a65ce426cde30b16d8ac825a7949cde0cf7e20e62203d2f",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E119.json",
+    "evidenceSha256": "93237339a06682b1e4da64f53a047fd6a9a82921c7b54f7700d968609f035774"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E120",
+    "fingerprint": "4595d97e33bdce2daca8080fb8b7b9326c2fc93e6d1cf4d382afe7b1695c69a1",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E120.json",
+    "evidenceSha256": "9658df0b933acb0d9504731556e5f8563a1bad0134af76bb35d162b49b851262"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E121",
+    "fingerprint": "612d175a66cf5d3fae3dde781468c7dbcbb0edc170e9733cddd8d8ff4ca6d8c2",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E121.json",
+    "evidenceSha256": "11a11d848834c9122258d6d3ad04acb5168fbc9ac2d87970d3114e8e56626f37"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-E122",
+    "fingerprint": "49ef619dfb54179682e15132190d02b96e3d1e30aa145f65440ff476f57b4d9a",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-E122.json",
+    "evidenceSha256": "bdf82238c2ca2f2654544609e0d5219ae6855e0e5da58bdcd219bc87b6069fda"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O101",
+    "fingerprint": "196299eb266a748af7a339308cda4b3515443d2c02511f219d283643fda37005",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-O101.json",
+    "evidenceSha256": "0fe17e3edbf0742beaa8d5fcd159b4f5ab3936c112cec89312e767fbcde08896"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O102",
+    "fingerprint": "f269b98aab12071eabd449644b363c12171a57e68790b13e0272fa0e1c0e8a15",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-O102.json",
+    "evidenceSha256": "0aede406e1675b6023f9e29643f5b648c158834310f456755d9daa1d66d99e69"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O103",
+    "fingerprint": "58bd55c8f451768e5c41a1c8129dce48d230c07485602c7ac870878beaf65add",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-O103.json",
+    "evidenceSha256": "12ab473bbd0d46b9502ec697df46556e650521a54eea1fcc63247c01cc42938c"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O104",
+    "fingerprint": "bd09ba8607beaba767b000bac9296b4fd9c349359f28d119640d04967f0b2c72",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-O104.json",
+    "evidenceSha256": "bcbdd83cf037865cd3703059942c07cb5a5e6b42caa35936272d4c094bff34e6"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O105",
+    "fingerprint": "e4e27cd1d25644c8793d23287aeae9360fac7c2b14b8faf3e66537e3666ebc64",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-O105.json",
+    "evidenceSha256": "37a15794dd9c273e74add3a57c91e4a61db01e929daf5eaf46fa94caedb0bf1d"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O106",
+    "fingerprint": "55b42770c7aa0deba83239a415a2f23670684d543d36cf3dd97dcc7d8dd8eb40",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-O106.json",
+    "evidenceSha256": "24ed51c87dfb8a589085ce2606601e148a6a5e8a05e5b800c24fa4b7d8dfc1ba"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O107",
+    "fingerprint": "63a045b8e6effe09a84bfd014bd065d6619e5601738deeb4812b6146b308e5a1",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-O107.json",
+    "evidenceSha256": "259d9eb1886de472fc6176de408b574470ae411affaef852d3c99497e2a45870"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "UT-O108",
+    "fingerprint": "6e7a5026f1d297f7dc45000dddd2d6cbb11ce206be72cfefa9e2bad6b2edfd42",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/UT-O108.json",
+    "evidenceSha256": "652a55b70be3af72e6d7bfdcd5ba374137c8618aa23788c4dfcb8f4c5548b615"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-WORLD",
+    "fingerprint": "4754e270f21f1289cf9938da3250429c320a98e89e8fd8fac91a09984a09504f",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-WORLD.json",
+    "evidenceSha256": "6a5b9a8b4b27477fe8a1cdb73e7b89fd26bb22888e3b4ff59f41e53ceabf1698"
+  },
+  {
+    "purpose": "website-source-fidelity/1",
+    "entryId": "DOC-SOURCE-LINKS",
+    "fingerprint": "d2eab7a3b5de43b4a52be8c3d87a77c38232a85c01d734fd60344301045bfe54",
+    "reviewerKind": "agent",
+    "reviewedAt": "2026-10-06T09:01:43.873Z",
+    "outcome": "accepted",
+    "evidenceRef": "docs/evidence/rrg-theory-address/decisions/DOC-SOURCE-LINKS.json",
+    "evidenceSha256": "a331c286cd4632bdabb2abd910f0fa4a35373b36fb061d884a50ddc50d9fb6a4"
+  }
+]

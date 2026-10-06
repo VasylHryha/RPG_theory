@@ -1,0 +1,198 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-CELL",
+  "fingerprint": "3c85cb7756ec19ab497f40c3cef2e906bf56ee693af1068d8d05a32d0ae6525e",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Boundary, passive versus active transport, energy and maintenance are developed together; existing-cell assumptions and unresolved origin of life remain explicit.",
+  "inputs": {
+    "fingerprint": "3c85cb7756ec19ab497f40c3cef2e906bf56ee693af1068d8d05a32d0ae6525e",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-CELL",
+      "route": "/examples/cell/",
+      "title": "Cell: organization through exchange",
+      "description": "Maintaining an organization while its components remain active.",
+      "revision": 4,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-EXAMPLE-LIFE",
+        "UT-D01",
+        "UT-D02",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08",
+        "UT-D09"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0063",
+        "BIB-0092"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## Follow a substance across a boundary\n\nA cell is surrounded by a membrane. Substances do not all cross that boundary in the same way. Some passage follows a concentration difference; moving material against such a difference needs an appropriate transport mechanism and energy. [Passive transport](/references/#BIB-0063) and [active transport](/references/#BIB-0092) explain the textbook distinction.\n\nNow consider what the boundary changes. It separates conditions inside from those outside and regulates exchange. Internal reactions and transport act within that setting; their activity helps maintain the conditions on which the cell depends. A list of ingredients misses the boundary, the exchanges and the continuing work.\n\n## Arrangement and activity act on one another\n\nThe supplied world explanation treats life as maintained organization. The membrane and internal relationships constrain what processes can happen. Those processes, in turn, participate in maintaining the living system as material enters, leaves and is replaced.\n\nThis is the inward connection RRG describes through geometry and mode structure. Geometry includes the boundary and relationships. Mode structure includes coordinated processes and their timescales; it is not one vibration frequency.\n\nMaintenance requires resources and energy flow. RRG's description does not replace the actual biochemical mechanisms or the thermodynamic accounting.\n\n## Two outward questions\n\nThe same cell can participate as a unit in a larger organization while reactions continue inside it. Separately, its exchanges can change its surroundings. [Life changing its environment](/examples/life-environment/) follows that second role with a controlled culture example.\n\nKeeping one cell organized, copying a molecular pattern and reproducing a cell are different processes. Replication is optional in the locked core's general account of [recursion](/concepts/recursion/). This example begins with an existing cell; it does not resolve how the first life arose.\n\n[Explore stability](/concepts/stability/) · [All examples](/examples/)\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§8–10; framework §8 and §13; core §§4–9. OpenStax supplements membrane transport; no origin-of-life or complete artificial-cell claim.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "8460996a6375cc289374fee044373b73889abe9802fec2bf9ec6205e3db6e0a5"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "a78d6722af299dce6a2ac2a7f656f4572f1171923f57745ce636edb7036b54ed"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "aa7f510a90e4363747ca4259df60abf905299ff6187de1a036e135b10a20554f"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "42287668a89338314b920cec1136b3e05762ee5065cb262d77456f9becb62ae7"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "6ebf7586c6c9b273a876e4b411da204fac0b89e6c08c7579d841741bd1067fee"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "866bef808a3a25bc58d6255643b1cbe7b3ef23cdeb2acd8208add8f7818723b7"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "9210c4dd263c0f2df118c7e46237111b04b47f9bf2e6546f35b392fa682434a2",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "eb43a14aa95f076dd363fd8552df3f8cba510519d6e5acf863349cc16f6a51ae",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Boundary, passive versus active transport, energy and maintenance are developed together; existing-cell assumptions and unresolved origin of life remain explicit. Compared terminology with Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§8–10; framework §8 and §13; core §§4–9. OpenStax supplements membrane transport; no origin-of-life or complete artificial-cell claim.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-EXAMPLE-CELL.json; Boundary, passive versus active transport, energy and maintenance are developed together; existing-cell assumptions and unresolved origin of life remain explicit.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: An illustrative beginner explanation mapped to the original supplied RRG documents. ",
+    "hypotheses": "Boundary, passive versus active transport, energy and maintenance are developed together; existing-cell assumptions and unresolved origin of life remain explicit. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Boundary, passive versus active transport, energy and maintenance are developed together; existing-cell assumptions and unresolved origin of life remain explicit. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Boundary, passive versus active transport, energy and maintenance are developed together; existing-cell assumptions and unresolved origin of life remain explicit. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References BIB-0063, BIB-0092 retain registered verification scope.",
+    "sourceMappings": "Compared Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§8–10; framework §8 and §13; core §§4–9. OpenStax supplements membrane transport; no origin-of-life or complete artificial-cell claim.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

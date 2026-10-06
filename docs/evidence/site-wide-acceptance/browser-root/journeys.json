@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "method": "Independent agent Chromium engineering observation; JavaScript disabled. Not a human study or real AT observation.",
+  "mode": "qualification",
+  "inputsSha256": "03e41bb727d332486f6151fa4916fee0bf89be4854f3457b70db0af452e392fc",
+  "buildInfoSha256": "bfdfea64ad0185ead353bc00c22aebd1f351fac4aef065a81f60e3b01d6e2b74",
+  "base": "/",
+  "journeys": [
+    {
+      "name": "Home → Start → example",
+      "paths": [
+        "/",
+        "/start/",
+        "/examples/cell/"
+      ],
+      "finding": "Connected internal maintenance explanation and supplied resources remain explicit.",
+      "status": "PASS",
+      "humanObservation": "NOT_PERFORMED",
+      "realAT": "NOT_PERFORMED"
+    },
+    {
+      "name": "Concept → exact definition",
+      "paths": [
+        "/concepts/",
+        "/concepts/geometry-and-modes/",
+        "/claims/UT-D02/"
+      ],
+      "finding": "Exact full-mode core definition is reachable without JavaScript.",
+      "status": "PASS",
+      "humanObservation": "NOT_PERFORMED",
+      "realAT": "NOT_PERFORMED"
+    },
+    {
+      "name": "Evidence → case → cited source",
+      "paths": [
+        "/evidence/",
+        "/claims/UT-E119/",
+        "/references/#BIB-0082"
+      ],
+      "finding": "Reported attraction, imposed field conditions, original DOI and recorded inspection depth remain connected; external paper not freshly fetched.",
+      "status": "PASS",
+      "humanObservation": "NOT_PERFORMED",
+      "realAT": "NOT_PERFORMED"
+    },
+    {
+      "name": "Research → open question → contribution",
+      "paths": [
+        "/research-status/",
+        "/open-problems/",
+        "/claims/UT-O101/",
+        "/about/#contribute"
+      ],
+      "finding": "Open connected-stage question has a bounded contribution path and approved contact.",
+      "status": "PASS",
+      "humanObservation": "NOT_PERFORMED",
+      "realAT": "NOT_PERFORMED"
+    },
+    {
+      "name": "Technical reading → mathematics → limits",
+      "paths": [
+        "/framework/",
+        "/math/",
+        "/documents/foundation-errata/"
+      ],
+      "finding": "Assumption issue is visible before equations and traces to exact source errata; no scientific correction inferred.",
+      "status": "PASS",
+      "humanObservation": "NOT_PERFORMED",
+      "realAT": "NOT_PERFORMED"
+    },
+    {
+      "name": "Documents → download → citation/history",
+      "paths": [
+        "/documents/",
+        "/documents/locked-core/",
+        "/downloads/original/R-CURRENT-CORE.md",
+        "/cite/",
+        "/changes/"
+      ],
+      "finding": "Original core download matches exact bytes; website selection identity and separate scientific history are findable.",
+      "status": "PASS",
+      "humanObservation": "NOT_PERFORMED",
+      "realAT": "NOT_PERFORMED"
+    }
+  ],
+  "affectedDisclosuresAndExports": 3,
+  "real404": "PASS"
+}

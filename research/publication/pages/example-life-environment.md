@@ -4,20 +4,24 @@
   "route": "/examples/life-environment/",
   "title": "Life changes its environment",
   "description": "An organization can alter conditions for other organisms and reactions.",
-  "revision": 2,
+  "revision": 3,
   "kind": "example",
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
+    "R-CURRENT-BACKGROUND",
+    "R-CURRENT-CLAIMS",
     "R-CURRENT-CORE",
     "R-CURRENT-SCIENCE",
     "R-CURRENT-WORLD"
   ],
   "dependsOn": [
+    "DOC-BACKGROUND",
+    "DOC-SOURCE-LINKS",
     "UT-C02",
     "UT-D01",
     "UT-D02"
@@ -25,7 +29,8 @@
   "related": [],
   "bibRefs": [
     "BIB-0062",
-    "BIB-0064"
+    "BIB-0064",
+    "BIB-0089"
   ],
   "contentOrigin": "authored",
   "sourceBinding": null,
@@ -33,26 +38,32 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Added beginner photosynthesis illustration mapped to world §10 and background addendum, framework §§8, 13, 21 and core §11. Factual background is supplementary; oxygenation is not certified as a universal RRG ladder.",
+  "sourceMapping": "Current 04 §§4, 13–14 and 08 H06/H09/H13/H17; world §10 and background addendum; framework §§8, 13, 21; core §11. BIB-0089 supplies bounded pH/growth feedback in controlled cultures; BIB-0062/0064 supply supplementary photosynthesis and oxygen-history context. Neither is a new audited catalogue case or universal ladder.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## What to notice
+## An existing population changes the next one's conditions
 
-Oxygen-producing photosynthesis converts light energy into chemical energy and releases oxygen. Plants, algae and cyanobacteria participate in this process; [OpenStax's photosynthesis overview](/references/#BIB-0062) explains the basic biology. Earth's atmosphere has not always had its present oxygen composition. NASA's report on early oxygen evidence is supplementary historical context: [NASA's oxygen-history report](/references/#BIB-0064).
+Picture two bacterial populations in a supplied liquid culture. Their growth depends on the acidity of that liquid. As one population changes the pH, it can make conditions more favourable—or less favourable—for another population.
 
-## What this illustrates
+Ratzke and Gore report facilitation, inhibition and harmful outcomes through this feedback. [Their pH study](/references/#BIB-0089) is a controlled-culture experiment with a qualitative model. It begins with existing organisms and a supplied environment; it does not observe a new species or the origin of life.
 
-Living systems do more than occupy their surroundings. Their activity can change chemical conditions, making some processes more accessible and others less so. Oxygen can support organisms using it in respiration, while changing the conditions faced by organisms adapted to low-oxygen settings.
+## What acts on what?
 
-The original world explanation describes specialized biological environments and a wider landscape of reachable organizations. This page uses photosynthesis as an added beginner illustration of that environmental question; it is not presented as a named example from the locked core.
+The organisms change the chemical surroundings. Those changed surroundings affect growth. This is a physical feedback relation, rather than simply our choosing to describe a collection as one object.
 
-## Conditions, rather than a guaranteed ladder
+RRG's background proposal asks how an existing organization changes what can happen next. This experiment supplies a bounded biological connection to that question. It does not measure one universal resonance mechanism shared by every physical scale.
 
-Oxygen production does not by itself guarantee atmospheric accumulation or inevitable greater complexity. Chemical consumption, resources, exchanges and history matter. There is no purpose-driven guarantee of a next level, and this page does not infer a single cause for the emergence of complex life.
+## A broader example: oxygen-producing life
 
-The broad environmental interpretation is an [open extension](/claims/UT-C02/). A [cell](/examples/cell/) lets us examine maintained organization and exchange at a smaller scale.
+Oxygen-producing photosynthesis converts light energy into chemical energy and releases oxygen. Plants, algae and cyanobacteria participate; [OpenStax's photosynthesis overview](/references/#BIB-0062) explains the process. [NASA's oxygen-history report](/references/#BIB-0064) supplies historical context about Earth's changing atmosphere.
 
-[All examples](/examples/) · [Start with the idea](/start/)
+Organisms can alter conditions for other organisms and reactions. Oxygen production alone does not guarantee atmospheric accumulation: consumption, exchanges, resources and history matter. A change can open some possibilities and close others; it does not guarantee a ladder of greater complexity.
+
+## Follow the two roles separately
+
+The [cell example](/examples/cell/) follows internal maintenance and exchange. Here we follow environmental change. Both matter to RRG's proposed connection, but neither automatically establishes the other or the complete recursive chain. The broader relation remains an [open extension](/claims/UT-C02/).
+
+[Follow the source connections](/evidence/source-links/) · [All examples](/examples/)

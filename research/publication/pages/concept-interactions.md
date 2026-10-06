@@ -4,14 +4,14 @@
   "route": "/concepts/effective-interactions/",
   "title": "When organization changes interactions",
   "description": "The source-reported cases and the conditional question about further organization.",
-  "revision": 3,
+  "revision": 4,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-BACKGROUND",
@@ -38,9 +38,11 @@
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## In ordinary words
+## Begin with illuminated particles
 
-An effective interaction is part of a description of a collective system. Existing organization, fields and boundaries can change which interactions are available. RRG asks whether such changes can help further organization persist.
+Microspheres in a supplied optical field can display light-mediated interactions and bound arrangements. The light, particles and medium all belong to the explanation. The arrangement can matter to the field-mediated interaction, rather than only identifying which particles were initially present.
+
+An **effective interaction** describes the interaction relevant to this collective setting. It does not mean that the underlying fundamental laws have been replaced. RRG asks whether organization can help establish such a channel, and whether the channel can help a further organization persist.
 
 ## Two distinct source-reported cases
 

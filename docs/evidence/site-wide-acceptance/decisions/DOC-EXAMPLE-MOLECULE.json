@@ -1,0 +1,128 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-MOLECULE",
+  "fingerprint": "3b03422291b569369b1d39defb86d461deb56ffbb0253634ffe90efce7b63d56",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Bonds, constraints and collective motion retain internal degrees of freedom and quantum-chemical scope; useful intact units differ from physical creation. Nebular detection is not primordial formation.",
+  "inputs": {
+    "fingerprint": "3b03422291b569369b1d39defb86d461deb56ffbb0253634ffe90efce7b63d56",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-MOLECULE",
+      "route": "/examples/molecule/",
+      "title": "Molecule: the whole constrains its parts",
+      "description": "Connections and collective behaviour, beyond an inventory of atoms.",
+      "revision": 4,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0013",
+        "BIB-0065",
+        "BIB-0091"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What changes when atoms form a molecule?\n\nBegin with the difference between an inventory and a connected system. Naming the atoms tells us which components are present. It does not tell us their bonding, arrangement or collective motion. [OpenStax's molecular-structure explanation](/references/#BIB-0065) supplies the chemical background.\n\nIn the supplied world explanation, a molecule restricts bond distances and angles, reorganizes electron states, and supports vibrations, rotation and deformation of the whole. The atoms retain internal degrees of freedom. They participate in a collective organization rather than disappearing into a featureless object.\n\n## The RRG connection\n\nParts participate in forming a whole; the whole introduces constraints on the parts. RRG describes the relationships as geometry and the collective activity as mode structure. Both require an actual physical model: this is quantum chemistry, and atoms are not miniature classical solar systems.\n\nThe arrangement alone does not provide the interaction law, energy or conditions needed for bonding. Different systems require their own mechanisms.\n\n## When can the whole become a useful part?\n\nA later chemical description can treat an intact molecule as a participant while leaving some internal details unresolved. That is useful only while those details do not change the answer to the question being asked. If the molecule breaks apart, treating it as the same intact unit becomes inadequate.\n\nThis is the useful-unit question behind [recursion and scale](/concepts/recursion/). It is distinct from the molecule physically changing its environment; choosing a simpler description does not itself create another level of matter.\n\n## An observation with a specific setting\n\nThe [helium hydride detection paper](/references/#BIB-0091) reports an observation in planetary nebula NGC 7027. The [NASA SOFIA introduction](/references/#BIB-0013) supplies broader context. Detection there is not a direct observation of the first molecule forming in the early Universe.\n\n[When is a whole one useful unit?](/articles/when-can-a-whole-be-treated-as-one-useful-unit/) · [All examples](/examples/)\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§5–6; framework §6; core §§5–8. OpenStax supplies supplementary molecular-structure background.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "f29928c061b8e7196c4f2b3e3d346ddcfa47cbec2712be8571224fdad5c7af41",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "a47f711fceb298f6c7f8ac716127fc43905e7a4d593bafa1a2e7975bcfd49738",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Bonds, constraints and collective motion retain internal degrees of freedom and quantum-chemical scope; useful intact units differ from physical creation. Nebular detection is not primordial formation. Compared terminology with Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§5–6; framework §6; core §§5–8. OpenStax supplies supplementary molecular-structure background.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-EXAMPLE-MOLECULE.json; Bonds, constraints and collective motion retain internal degrees of freedom and quantum-chemical scope; useful intact units differ from physical creation. Nebular detection is not primordial formation.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: An illustrative beginner explanation mapped to the original supplied RRG documents. ",
+    "hypotheses": "Bonds, constraints and collective motion retain internal degrees of freedom and quantum-chemical scope; useful intact units differ from physical creation. Nebular detection is not primordial formation. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Bonds, constraints and collective motion retain internal degrees of freedom and quantum-chemical scope; useful intact units differ from physical creation. Nebular detection is not primordial formation. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Bonds, constraints and collective motion retain internal degrees of freedom and quantum-chemical scope; useful intact units differ from physical creation. Nebular detection is not primordial formation. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References BIB-0013, BIB-0065, BIB-0091 retain registered verification scope.",
+    "sourceMappings": "Compared Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World §§5–6; framework §6; core §§5–8. OpenStax supplies supplementary molecular-structure background.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

@@ -4,18 +4,19 @@
   "route": "/concepts/recursion/",
   "title": "Recursion and scale",
   "description": "A whole can become a useful part while its components stay active.",
-  "revision": 2,
+  "revision": 3,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-SCIENCE",
-    "R-CURRENT-WORLD"
+    "R-CURRENT-WORLD",
+    "R-CURRENT-BACKGROUND"
   ],
   "dependsOn": [
     "UT-C02",
@@ -23,7 +24,8 @@
     "UT-D06",
     "UT-D08",
     "UT-D09",
-    "UT-O102"
+    "UT-O102",
+    "DOC-BACKGROUND"
   ],
   "related": [],
   "bibRefs": [],
@@ -33,7 +35,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§5–9, 11; world §§4, 8–9, 14 and background addendum; framework §§3, 15–16, 22–23.",
+  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§5–9, 11; world §§4, 8–9, 14 and background addendum; framework §§3, 15–16, 22–23. Current 04 §§2–4, 11–12: source emergence, physical environmental change and descriptive reduction are separate.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -58,6 +60,12 @@ The [molecule example](/examples/molecule/) begins with atoms and their connecti
 ::claim{id="UT-D08" view="plainLanguage"}
 
 The proposed cycle is compatible parts → collective organization → a useful unit → further combinations. Its environment can also change which combinations are accessible. The cycle illustration represents a research proposal, not a measurement or guaranteed history.
+
+## A unit and a changed background are different roles
+
+Treating a molecule as one participant changes our description. A living population changing a culture's acidity changes the physical conditions. Neither operation automatically establishes the other.
+
+The current [background proposal](/framework/recursive-background/) asks how these roles can connect. It also asks where the first units come from: transient arrangements arise in an active background; some may persist through feedback. This is a source hypothesis, not an observed universal history or a fixed upward ladder.
 
 ## Copying is one possible mechanism
 

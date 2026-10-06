@@ -1,0 +1,74 @@
+{
+  "schema": "rrg-intro-rewrite-comparison/1",
+  "recordedAt": "2026-10-06T12:08:46.423Z",
+  "baseline": "1f10c562234ba50d159567f1eebf4987c8249198",
+  "purpose": "Implementation comparison and future review inputs; no approval issued",
+  "currentEntries": 75,
+  "ownChangedEntries": [
+    "DOC-HOME",
+    "DOC-START"
+  ],
+  "ownStatementsAndBindingsUnchanged": 75,
+  "registryUnchanged": true,
+  "registrySha256": "eda86ce36af7b42a8623daec22ace94233ae903bb735b42e06a3158c7378ec82",
+  "archivedEntriesPreserved": 21,
+  "reviewStates": {
+    "accepted": 0,
+    "pending": 0,
+    "stale": 96,
+    "rejected": 0
+  },
+  "qualification": {
+    "status": "REFUSED",
+    "diagnostic": "ContractError: REVIEW_REQUIRED: DOC-STATUS: stale; required 4556912b5c660716dd920001b986ac26e83606794bf1433c7cd3d61eba5d7424"
+  },
+  "comparisons": [
+    {
+      "entryId": "DOC-HOME",
+      "route": "/",
+      "priorRequest": "docs/evidence/m7/runtime/public-rework/review-requests/DOC-HOME.json",
+      "ownChangedFields": [
+        "title",
+        "description",
+        "revision",
+        "sourceRefs",
+        "dependsOn",
+        "bibRefs",
+        "plainLanguage",
+        "scope",
+        "body",
+        "sourceMapping"
+      ],
+      "priorRenderedOutput": "dist/public-rework-target/index.html",
+      "priorRenderedFileSha256": "da702f7e70781bce537324008ab24c942f1ed840935f7b76e3ab465d46742c37",
+      "currentRenderedOutput": "dist/intro-rewrite-target/index.html",
+      "currentRenderedFileSha256": "a4aa462b8023be36990ee021ebc1b9dfe5e62b2fc2687bd6e7b9b9797fdd9a33",
+      "currentInputs": "docs/evidence/m7/runtime/intro-rewrite/DOC-HOME-inputs.json",
+      "currentInputsSha256": "a16215d79c23e490cf3103a322ddc826293b3ba07e3d623367ac59428f89dce0",
+      "state": "stale"
+    },
+    {
+      "entryId": "DOC-START",
+      "route": "/start/",
+      "priorRequest": "docs/evidence/m7/runtime/public-rework/review-requests/DOC-START.json",
+      "ownChangedFields": [
+        "title",
+        "description",
+        "revision",
+        "sourceRefs",
+        "dependsOn",
+        "bibRefs",
+        "scope",
+        "body",
+        "sourceMapping"
+      ],
+      "priorRenderedOutput": "dist/public-rework-target/start/index.html",
+      "priorRenderedFileSha256": "e372ea905d0ea261f427493eec1524954ce380997e72d34632e2f70a0208f2b6",
+      "currentRenderedOutput": "dist/intro-rewrite-target/start/index.html",
+      "currentRenderedFileSha256": "9e2d44d408485bfb8137c77f10da5aa10f0b5089d3d5ce3cc2c422131b26c7e1",
+      "currentInputs": "docs/evidence/m7/runtime/intro-rewrite/DOC-START-inputs.json",
+      "currentInputsSha256": "598c311ddacf2d80f5d533e56bdec8770a674820cd88cf75d929870aeba55224",
+      "state": "stale"
+    }
+  ]
+}

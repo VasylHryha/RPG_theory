@@ -1,0 +1,202 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-ARTICLE-STRUCTURES",
+  "fingerprint": "1301c21ff24da16b74e94c64d321a180b417d18908dde5b621b9be4baaa476d3",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "The argument follows causal conditions from pH feedback to the missing connected-stage question, distinguishing supplied populations, physical background changes and descriptive units.",
+  "inputs": {
+    "fingerprint": "1301c21ff24da16b74e94c64d321a180b417d18908dde5b621b9be4baaa476d3",
+    "ownRead": {
+      "id": "DOC-ARTICLE-STRUCTURES",
+      "route": "/articles/how-existing-structures-make-new-organization-possible/",
+      "title": "How existing structures make new organization possible",
+      "description": "Follow bacterial pH feedback and stellar conditions to separate physical environmental change from treating a whole as a unit.",
+      "revision": 4,
+      "kind": "article",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-EXAMPLE-LIFE",
+        "DOC-EXAMPLE-STAR",
+        "DOC-SOURCE-LINKS",
+        "UT-C02",
+        "UT-O101"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0089"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Explanatory article; universal claims and quantitative tests remain open.",
+      "evidenceState": "not-applicable",
+      "body": "## A population changes the next population's chances\n\nBegin with bacteria in a liquid culture. Their growth can change its acidity. That change can help another population grow, inhibit it or harm the population that caused the change. Ratzke and Gore report these different outcomes in a [controlled pH-feedback study](/references/#BIB-0089).\n\nThe useful question is causal: **what existed, what did it change, and what became possible afterward?** The culture and organisms were supplied. The result is environmental feedback between existing populations, not a new species or an origin-of-life experiment.\n\n## Conditions are part of the mechanism\n\nAn inventory of ingredients leaves out the conditions under which they interact. A structure can contribute a boundary, maintain a gradient or change its chemical surroundings. The later system then encounters a different setting.\n\nThe source's star example develops this in another physical setting. A gravitationally organized star establishes temperature, pressure and reaction conditions; stellar evolution and dispersal of many heavier elements change the material available for later chemistry. The [star reading](/examples/star/) keeps the mechanism and its limits visible.\n\nThese are different physical processes. Juxtaposing them does not demonstrate that they obey an identical microscopic equation. What they make intelligible is the question RRG wants to investigate: can the formation of a unit and its effect on later conditions be studied together?\n\n## Changing a background is different from naming a unit\n\nA molecule can be treated as an intact participant in a later description. That reduces the details we track. Bacterial pH changes alter the environment itself, whether or not we change our description. One operation is descriptive; the other is physical.\n\nThe current [recursive-background companion](/framework/recursive-background/) proposes a connection between them: a background supports organization; that organization changes the conditions inherited by what follows. It also asks where the first units arise, beginning with transient arrangements in an active background rather than a completed inventory of building blocks.\n\n## What would connect the stages?\n\nThe [recursive physical construction question](/claims/UT-O101/) calls for causally connected stages in one system. To discuss such a case, identify the initial conditions, the formed organization, its environmental effect and the subsequent organization. Say which stages were observed and which were supplied or inferred.\n\nA population growing after a pH change provides one bounded connection. It does not supply the whole source-to-repeated-level chain. Similarity between different examples can motivate a model; it cannot replace that missing causal connection.\n\n## A change can close possibilities too\n\nThe harmful and inhibitory culture outcomes matter. RRG's proposal is conditional: suitable coupling, resources and dynamics matter, and a process can stop, coexist, branch or destroy an organization. It is not a law that every change makes something larger or more complex.\n\nThe next useful question is therefore specific: **which organization changes which conditions, for which subsequent process?** [Follow life and environmental change](/examples/life-environment/) or [inspect the source connections](/evidence/source-links/) to trace a case with its actual support and limits.\n",
+      "sourceMapping": "Current 04 §§2–4, 11, 13–14, 37; current 08 H06/H09/H11/H13 and O1; core §§5–11; world §7 and background addendum. BIB-0089 provides the bounded supplied-culture pH/growth finding. Stellar context follows the separately mapped star reading. No new experiment, universal criterion or catalogue member.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "tags": [
+        "organization",
+        "research-explanation"
+      ],
+      "authorIdentity": "Vasyl Hryha",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "8460996a6375cc289374fee044373b73889abe9802fec2bf9ec6205e3db6e0a5"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "a78d6722af299dce6a2ac2a7f656f4572f1171923f57745ce636edb7036b54ed"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STAR",
+        "semanticDigest": "9c17cbd7778f8141e2380e2b60871ff46f8268ee3775c81f9a3fabd1145f22ac"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "aa7f510a90e4363747ca4259df60abf905299ff6187de1a036e135b10a20554f"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "eb1cf2ad9ad70a01644e946e49ad309cf201d47b17b2d941516d3bb83f91b3c0"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "42287668a89338314b920cec1136b3e05762ee5065cb262d77456f9becb62ae7"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "60431299a359df33ca05e73ee4792c9712add8b1d72dd09add609e9deb13ddeb"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "4bca2e54c508278f9e7f46c8ebda815def917d8c565907a83dc4f4481cb11308",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "2efc98ea40da166c4cf237e7c13d05ca7898c51bfa7880cc5f140ae42301660a",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "The argument follows causal conditions from pH feedback to the missing connected-stage question, distinguishing supplied populations, physical background changes and descriptive units. Compared terminology with Current 04 §§2–4, 11, 13–14, 37; current 08 H06/H09/H11/H13 and O1; core §§5–11; world §7 and background addendum. BIB-0089 provides the bounded supplied-culture pH/growth finding. Stellar context follows the separately mapped star reading. No new experiment, universal criterion or catalogue member.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-ARTICLE-STRUCTURES.json; The argument follows causal conditions from pH feedback to the missing connected-stage question, distinguishing supplied populations, physical background changes and descriptive units.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: Explanatory article; universal claims and quantitative tests remain open. ",
+    "hypotheses": "The argument follows causal conditions from pH feedback to the missing connected-stage question, distinguishing supplied populations, physical background changes and descriptive units. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "The argument follows causal conditions from pH feedback to the missing connected-stage question, distinguishing supplied populations, physical background changes and descriptive units. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "The argument follows causal conditions from pH feedback to the missing connected-stage question, distinguishing supplied populations, physical background changes and descriptive units. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References BIB-0089 retain registered verification scope.",
+    "sourceMappings": "Compared Current 04 §§2–4, 11, 13–14, 37; current 08 H06/H09/H11/H13 and O1; core §§5–11; world §7 and background addendum. BIB-0089 provides the bounded supplied-culture pH/growth finding. Stellar context follows the separately mapped star reading. No new experiment, universal criterion or catalogue member.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

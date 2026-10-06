@@ -1,0 +1,24 @@
+{
+  "requirements": "docs/handoffs/RRG_INTRO_REVIEW_AND_REWRITE_2026-10-06.md",
+  "sha256": "283425d95d3438c5f63411b3129208d5f4ae20c02a1e2247f2d508ccdb030317",
+  "reviewedBaseline": "1f10c562234ba50d159567f1eebf4987c8249198",
+  "ownerAuthorization": "Check the downloaded review and implement if clear and justified. No more tests until the complete implementation batch is finished.",
+  "candidate": "A: life-first narrative, selected editorially; not reader-tested",
+  "tracker": "R4 \u00a70.61; no separate forward plan",
+  "scope": [
+    "DOC-HOME",
+    "DOC-START",
+    "their rendering and affected test expectations",
+    "source/dependency/bibliography mappings",
+    "neutral reader-feedback protocol"
+  ],
+  "preserved": [
+    "scientific originals",
+    "22-case membership",
+    "navigation and support-page work",
+    "rights",
+    "indexability",
+    "manual release guards",
+    "prior fidelity decisions"
+  ]
+}

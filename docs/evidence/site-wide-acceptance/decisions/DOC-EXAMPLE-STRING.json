@@ -1,0 +1,112 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-STRING",
+  "fingerprint": "13f2b62da29f8207d4e4755e59e44c27f893e3910f1b924d50302e3bc7cf5ae0",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Ideal fixed endpoints, second-pattern central node, tension and density are correct within the registered illustration. It does not demonstrate maintained supports or self-created boundaries.",
+  "inputs": {
+    "fingerprint": "13f2b62da29f8207d4e4755e59e44c27f893e3910f1b924d50302e3bc7cf5ae0",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-STRING",
+      "route": "/examples/string/",
+      "title": "String: boundaries shape motion",
+      "description": "An illustration of constrained motion, with material properties kept in view.",
+      "revision": 2,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0061"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What to notice\n\nA stretched string fixed at both ends can support particular standing-wave patterns. In the ideal model, the ends stay at rest while other regions move. The simplest pattern has one arch; another has two arches and a stationary point between them. The diagram shows possible shapes at one instant, not a measured amplitude.\n\nLength and end conditions constrain the patterns. Tension and mass per unit length set the wave speed. Geometry alone does not fix those material and force conditions. The elementary standing-wave model is described by [the OpenStax string model](/references/#BIB-0061).\n\n## What this illustrates\n\nThe original world explanation uses the guitar string to introduce how organization constrains modes, and how a mode has a spatial expression. It then asks whether persistent physical structures can be understood through a geometry–mode loop.\n\nThe string illustration does not itself demonstrate that motion maintains its fixed supports or a self-maintaining boundary. That stronger question requires a system and model in which the feedback is actually specified.\n\n## Connect to the definition\n\nIn the [geometry and modes concept](/concepts/geometry-and-modes/), the physical constraints are described before the formal RRG definitions. A [molecule](/examples/molecule/) illustrates how a collective organization can add restrictions while lower-level structure remains.\n\n[All examples](/examples/) · [Start with the idea](/start/)\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World explanation §2; core §§1–3. OpenStax supplements the ideal fixed-end string model and its physical parameters.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "84e28c0b6f415df74db855e31a094cfda68ba0405ce1b55726c08ec4037c5f90",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "f69331d110b75eaa5d1a4d17d124b66b7af55dce792af0f2cebd8d0e678dddcd",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Ideal fixed endpoints, second-pattern central node, tension and density are correct within the registered illustration. It does not demonstrate maintained supports or self-created boundaries. Compared terminology with Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World explanation §2; core §§1–3. OpenStax supplements the ideal fixed-end string model and its physical parameters.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-EXAMPLE-STRING.json; Ideal fixed endpoints, second-pattern central node, tension and density are correct within the registered illustration. It does not demonstrate maintained supports or self-created boundaries.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: An illustrative beginner explanation mapped to the original supplied RRG documents. ",
+    "hypotheses": "Ideal fixed endpoints, second-pattern central node, tension and density are correct within the registered illustration. It does not demonstrate maintained supports or self-created boundaries. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Ideal fixed endpoints, second-pattern central node, tension and density are correct within the registered illustration. It does not demonstrate maintained supports or self-created boundaries. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Ideal fixed endpoints, second-pattern central node, tension and density are correct within the registered illustration. It does not demonstrate maintained supports or self-created boundaries. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References BIB-0061 retain registered verification scope.",
+    "sourceMappings": "Compared Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. World explanation §2; core §§1–3. OpenStax supplements the ideal fixed-end string model and its physical parameters.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

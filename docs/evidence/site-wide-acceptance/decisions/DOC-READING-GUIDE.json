@@ -1,0 +1,153 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-READING-GUIDE",
+  "fingerprint": "9e38f48ff2614faf89e97c2ebc53080266a5d94d60d588cbd9ef8c3c10ebd53f",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Source-role distinctions remain; the dated pending name/licence paragraph is explicitly contextualized with current Cite/Legal entrances rather than rewritten.",
+  "inputs": {
+    "fingerprint": "9e38f48ff2614faf89e97c2ebc53080266a5d94d60d588cbd9ef8c3c10ebd53f",
+    "ownRead": {
+      "id": "DOC-READING-GUIDE",
+      "route": "/documents/reading-guide/",
+      "title": "Reading guide and source roles",
+      "description": "Read the conceptual companion, the evidence and claim boundaries, then optional mathematics. The older bundled foundations are supporting history; carried-forward repository foundations remain current.",
+      "revision": 2,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-AUDIT",
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-CHANGELOG",
+        "R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON",
+        "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "R-CURRENT-GUIDE",
+        "R-CURRENT-ILLUSTRATIONS",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-GUIDE",
+        "sourceSha256": "0fbfb13da4e1abe21e8c1aff8b97b993076a0ba8e67c3fc5bc5dc5a8879ea4fb",
+        "startLine": 3,
+        "endLine": 69,
+        "excerptSha256": "ba825f0554f210704fab1f59059e5b2f085c2a5ab301adb03c8f7f88dce99eb5"
+      },
+      "statement": "\n**Publication companion v0.2.1 · audited 2 October 2026 · promoted to repository CURRENT 5 October 2026**\n\n> **Repository authority note.** The owner has explicitly replaced the prior active publication/research companion with this audited v0.2.1 set. The project-wide minimal `00_LOCKED_CORE.md`, current repository 01–03 foundation documents, and `05_CHANGE_CONTROL.md` are carried forward unchanged; see `SOURCE_AUTHORITY.md` and `CURRENT_MANIFEST.md`.\n\nRRG asks whether the same organizing process can repeat across scales: fluctuations produce temporary arrangements; some arrangements support activity that helps them persist; those persistent structures change their surroundings; the resulting environment offers conditions for further organization.\n\nWhat is organized at one level can become the material, constraints and unresolved activity of the next. In the project’s notation:\n\n\\[\nB_n\\rightarrow R_n\\rightarrow B_{n+1},\\qquad\nR_n=(G_n,M_n),\\qquad G_n\\leftrightarrow M_n.\n\\]\n\nHere **geometry** means spatial and relational organization. **Mode** includes frequency, phase, amplitude, spatial pattern, coupling and timescale—not just a number in hertz. **Background** includes inherited structures and dynamics; it need not be literal white noise.\n\n**The project’s current purpose is to explain and share this proposed connection, collect well-described cases, and invite independent development. A universal proof is not required before publication.** Small derivations, observations and objections can improve the framework without proving or refuting all of it at once.\n\n## Reading paths\n\n**First read the idea:** [04 — Full conceptual companion](04_recursive_background_generation.md). It preserves the whole session: source background, feedback, scale, persistence, propagation, coexistence, life, new effective rules, expansion and possible engineering implications.\n\n**Then inspect the examples:** [06 — Evidence catalogue](06_evidence_catalog.md). There are 22 primary case cards, with separate labels for result type and relevance. Every card identifies the reported result, what was supplied, what it does not demonstrate, its DOI and verification coverage.\n\n**Check the boundaries without losing the ambition:** [08 — Claims and session coverage](08_claim_coverage.md). This distinguishes the author’s broad hypotheses from local evidence and avoids silently dropping life, cosmic expansion, AI or “magic” from the discussion.\n\n**Optional mathematics:** [05 — Mathematical illustrations](05_mathematical_source_model.md). These are small calculations under explicit assumptions, not proof that a single equation generates the universe. There is no requirement that the author adopt this model.\n\n**See what was repaired:** [07 — Audit report](07_audit_report.md) and [CHANGELOG](CHANGELOG.md).\n\n## A clear public evidence format\n\nFor each example, state **what was observed**, **how RRG interprets it**, **what was already provided**, and **what remains open**. Show result type separately: experiment, simulation or mathematical/theoretical derivation. Do not present an analogy as a measured mechanism, a review as an independent experiment, or a computation as an observation in nature.\n\nMany standard theories already explain the reported effects. Showing compatibility with RRG is different from distinguishing RRG from those theories. A collection of separately supported connections is not automatically a demonstrated causal chain.\n\nA useful entry point into the evidence is E19 for interactions induced by a random field, E07 for coupled matter–field organization, E20 for vibrationally maintained pattern multiplication, and E14 for unresolved dynamics in a collective description. Their limitations matter as much as the resemblance to the idea.\n\n## What is maintained, and what remains conjectural\n\nThe central source-direction idea is unchanged. So is the ambition that new stable organizations could help explain successive effective “worlds.” The publication does not silently replace that ambition with a claim merely about sand on a plate.\n\nThe extensions to all physical scales, the origin of fundamental interactions, cosmic expansion and deliberately designed domains are retained as **open conjectures**. Engineering selected effective dynamics is a narrower claim than rewriting fundamental laws. Life and AI are possible applications or analogies, not confirmations of a shared microscopic mechanism.\n\nOne further distinction is essential: **structures physically changing their environment** is different from **our coarse-graining a system’s description**. RRG proposes a relationship between the two, but a mathematical reduction by itself does not demonstrate that a new level physically formed.\n\n## History and file authority\n\nThe files in `foundations/` are byte-preserved snapshots of 01–03. They preserve the terminology and prior development; they have **not** received a complete fresh source audit. Some contain older proof-first priorities, stronger mathematical assertions and a known formatting issue. [Foundation errata](foundations/ERRATA.md) records the compatibility corrections. They are not the current public evidence catalogue.\n\nThe former 04–06 text companions, old README and earlier numerical bundles remain preserved in the owner’s audited GPT Library release; the predecessor GitHub current set is separately preserved under `research/history/repository-current-2026-10-01/`. They are not duplicated inside the active `RRG_CURRENT` tree and do not define current publication guidance. The current README and audited 04–08 state this release’s publication scope. Where an earlier mathematical implementation is more restrictive than the conceptual proposal, treat it as an optional stronger branch rather than silently redefining the theory.\n\nThis audited package originated as a conversation/Library artifact and was **explicitly promoted by the owner to replace the prior active repository companion on 5 October 2026**. The predecessor repository source set is preserved under `research/history/repository-current-2026-10-01/`. This source promotion does not by itself qualify the website, grant a licence, or authorize a Pages deployment.\n\n## What was checked\n\nThe audit checked the current companions for conceptual consistency, verified targeted primary-source metadata and reported findings, corrected selected mathematics and ran nine groups of deterministic spot checks. See [check results](checks/verification_results.json), [source register](sources.json) and [package validation](checks/package_validation.json).\n\nThis is not independent peer review, a systematic review of all literature, formal verification, or an independent replication of the experiments. Some case cards are abstract-level checks. The earlier 32-cell simulation was not rerun. These limitations are recorded per source instead of hidden behind a numerical quality score.\n\n## Contributions and release practice\n\nUseful contributions include simpler explanations, missing cases, counterexamples, corrected citations and optional derivations. Each change should identify which claim it affects. The author need not perform every proof personally; neither should unavailable proof be replaced by a statement of certainty.\n\nReviews occur when undertaken by the project; no automatic monitoring is running. Keep source dates, revisions and old interpretations so later readers can reconstruct changes. Use original source pages for videos and figures, and check reuse rights before embedding them. A citation is not a licence.\n\nBefore external publication, choose author attribution and a licence for the project’s own text/code. This package does not invent a real author name, assign third-party rights, select a software licence or guarantee a venue’s acceptance.",
+      "plainLanguage": "Read the conceptual companion, the evidence and claim boundaries, then optional mathematics. The older bundled foundations are supporting history; carried-forward repository foundations remain current.\n\nThis is the supplied guide from the audited companion, preserved as original text. Its final paragraph still describes name, website and licence decisions as pending at that time. The public project is now Recursive Resonant Geometry (RRG); use [Cite](/cite/) for current attribution and [Legal](/legal/) for the recorded reuse terms. That dated paragraph is not the current publication status.",
+      "scope": "Read the conceptual companion, the evidence and claim boundaries, then optional mathematics. The older bundled foundations are supporting history; carried-forward repository foundations remain current.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "README.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-AUDIT",
+        "path": "research/RRG_CURRENT/07_audit_report.md",
+        "sha256": "222487df50faa457b85d5748a846f728f2c4fd9845b4a33ffac181d6e45ebfa7"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHANGELOG",
+        "path": "research/RRG_CURRENT/CHANGELOG.md",
+        "sha256": "dec67818d2027ded9d161b88e6c4dad17d2c0d95f3c962168ea857e31c765b2a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON",
+        "path": "research/RRG_CURRENT/checks/package_validation.json",
+        "sha256": "08119204887af30f804c7b8a6a7031a90f5be43ce8ba03f68601b72f75136353"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-GUIDE",
+        "path": "research/RRG_CURRENT/README.md",
+        "sha256": "0fbfb13da4e1abe21e8c1aff8b97b993076a0ba8e67c3fc5bc5dc5a8879ea4fb"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "eca4bfdf72d8e58615fc5ae92c97b6abeae8ad3f37a5ed94fb1ee40542ee7d17",
+        "plainLanguageSha256": "cd96e1e9e6209334289cf153b9f54bb3c76d512e1be2fda7df4ba81917ec1cad",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "0941635ab53b0b6ef5ab3baf78bbea687dbf270ef15946ca78181f679b0c26c4",
+        "plainLanguageSha256": "45c3a3dbd3f649053e5d77b83e5edeb402e6f6ab4198c45ff4fe9c43b3fa61c5",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Source-role distinctions remain; the dated pending name/licence paragraph is explicitly contextualized with current Cite/Legal entrances rather than rewritten. Compared terminology with README.md; exact raw excerpt, with disclosed presentation adapters.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-READING-GUIDE.json; Source-role distinctions remain; the dated pending name/licence paragraph is explicitly contextualized with current Cite/Legal entrances rather than rewritten.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: Read the conceptual companion, the evidence and claim boundaries, then optional mathematics. The older bundled foundations are supporting history; carried-forward repository foundations remain current. ",
+    "hypotheses": "Source-role distinctions remain; the dated pending name/licence paragraph is explicitly contextualized with current Cite/Legal entrances rather than rewritten. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Source-role distinctions remain; the dated pending name/licence paragraph is explicitly contextualized with current Cite/Legal entrances rather than rewritten. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Source-role distinctions remain; the dated pending name/licence paragraph is explicitly contextualized with current Cite/Legal entrances rather than rewritten. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; source-bound. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared README.md; exact raw excerpt, with disclosed presentation adapters.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

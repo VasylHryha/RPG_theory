@@ -12,7 +12,7 @@ repository: "Existing public GitHub repository renamed to https://github.com/Vas
 replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
 planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
 source_baseline: "Owner explicitly promoted the audited GPT/Library RRG v0.2.1 companion dated 2026-10-02 to repository CURRENT on 2026-10-05; predecessor current bytes are archived, the minimal locked core/repository 01-03/change control are carried forward unchanged, and website migration has bounded separate High acceptance at section 0.41; private current-corpus fidelity and applicable M6 scope have bounded separate High acceptance at section 0.44; complete public qualification remains incomplete"
-publication: "First public test edition ACCEPTED and deployed; section 0.58 repaired homepage clarity/name/contact and section 0.59 deploys the exact lowercase target https://vasylhryha.github.io/rrg_theory/. Broad regression/human/AT/provenance work remains incomplete. Heavy campaigns run monthly."
+publication: "First public test edition ACCEPTED and deployed; section 0.58 repaired homepage clarity/name/contact and section 0.59 deploys the exact lowercase target https://vasylhryha.github.io/rrg_theory/. Broad regression/human/AT/off-machine-backup work remains incomplete; original bundle capture/comparison is complete. §0.63 ACCEPTS the combined §§0.60–0.62 presentation with 75 current fidelity decisions and fresh selected root/target qualification; revised work remains local and not deployed. Heavy campaigns run monthly."
 ---
 
 # Recursive Resonant Geometry (RRG) — website implementation plan · Revision 4
@@ -35,19 +35,19 @@ This is the sole execution plan for the website, research-document publication, 
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | §0.60 whole public presentation rework REVIEW_READY after focused affected checks. Previous first-test edition remains ACCEPTED and live under §0.59 |
+| Current milestone / state | §0.63 ACCEPTED: combined §§0.60–0.62 website fidelity/editorial scope, same-session disclosure repairs and actual selected private qualification. Revised work remains local and undeployed; §0.59 remains the live accepted first-test edition |
 | Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/rrg_theory`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
-| Last engineering acceptance | §0.59 bounded exact prior source/display comparison for the address correction: 75 unchanged accepted reads, 21 archives preserved. Homepage acceptance §0.58 and earlier scoped evidence retained |
-| Latest execution receipt | §0.60: `docs/evidence/public-rework/receipt.md`, comparison and verification; implemented private candidate. §0.59 deployed receipt remains preserved |
+| Last engineering acceptance | §0.63 independent bounded High acceptance of all 75 readings and shared/output scope; 75 current decisions accepted, 21 archived stale decisions preserved. Earlier issued acceptance/evidence retained for its own inputs |
+| Latest execution receipt | §0.63: `docs/evidence/site-wide-acceptance/receipt.md`, individual decisions/finding notes and actual qualification/reader-journey records. §§0.60–0.62 implementation and §0.59 deployed receipts preserved unchanged |
 | Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
 | Selected repository package | **RRG v0.2.1 repository current**, explicitly promoted on 5 October: selected audited companions plus carried-forward minimal core/repository 01–03/change control. The 1 October set is historical under `research/history/repository-current-2026-10-01/`; bundled `foundations/` and `checks/` are supporting material |
 | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; it identifies the currently admitted edition. Any adopted scientific revision must create a new edition/hash with predecessor/change records rather than silently moving the pin |
 | Evidence namespace / history | §0.43 qualifies 79 local E/C/H/O/F labels by document AND edition, including the two different current C1 meanings. Stable BIB/page IDs remain; current 06 E07 and predecessor 08 E08 share BIB-0036. Supplementary recovery does not restore predecessor authority or change the scientific case inventory |
 | Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
 | Website/browser/a11y/live evidence | §0.59 clean actual-target build/shared audit/seal, seven Chromium release checks and Pages deploy PASS; seven live responses match captured artifact. Prior broad evidence reused where unchanged. Human/listening/AT and fully passing broad regression remain incomplete |
-| Current validation / decisions | Reworked workspace: **0 accepted / 96 stale / 0 pending / 0 rejected**. The 75 genuine prior current decisions and 21 archived stale decisions are unchanged; new explanations/shared presentation need independent comparison. Actual candidate qualification refuses REVIEW_REQUIRED. Earlier live artifact remains qualified for its preserved inputs |
+| Current validation / decisions | **75 accepted / 21 stale / 0 pending / 0 rejected**, `currentSourceQualified=true`. Fresh selected qualification at root/actual target PASS (327 files each). Private dirty artifacts remain `deployEligible=false`; no full M6/full-suite PASS claimed |
 | External publication state | Existing public repository `VasylHryha/rrg_theory` (ID preserved); Actions Pages/HTTPS/main policy enabled. Run 37440216559 succeeded from clean main 534350e. Live: `https://vasylhryha.github.io/rrg_theory/`; exact artifact captured privately |
-| Next action | One bounded independent High review of §0.60: seven changed authored records plus shared presentation across 75 current entries, using genuine prior receipts and prepared requests. Fix/accept material repairs in that same session; no new full campaign or automatic second cycle. Then owner-controlled main publication. Human/AT/off-machine backup gaps remain honest; domain/DNS deferred |
+| Next action | Separate authorized scoped commit/push and existing owner-controlled manual main publication of the accepted presentation, with clean exact-release build/audit/seal/short smoke and post-deployment availability/nested/404 checks. No further acceptance session unless changed material or a concrete unresolved material defect requires one. Human/real AT, off-machine backup and prior full-regression gaps remain honest; heavy campaigns monthly; domain/DNS deferred |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -852,6 +852,78 @@ match), preserved unchanged and disclosed. Human comprehension and real screen-r
 checks NOT_PERFORMED; independent off-machine backup NOT_VERIFIED. These are not
 invented passes. Prior source-admission/provenance identities remain unchanged.
 
+### 0.61 Owner-selected example-led intro replacement — 6 October 2026
+
+**REVIEW_READY.** The owner requested implementation of
+`RRG_INTRO_REVIEW_AND_REWRITE_2026-10-06.md` from Downloads if clear and justified,
+and requested no more tests until the implementation is fully finished. This
+reference supersedes the introductory advice in §0.60, not R4 or its unrelated
+completed navigation/support work. Exact handoff and intake preserved.
+
+Home now follows bacterial pH changes inward to cell activity and outward to the
+proposed connection, with one primary Start link; its short narrative replaces
+example cards and miniature evidence/status sections. Start follows the same
+situation, explains geometry–mode reciprocity, separates unit-as-part from physical
+environment change, retains the fluctuating-background hypothesis and the broader
+open ambition. Essential text stays in the canonical Markdown and exports. Stable
+IDs/routes and homepage research-question anchor preserved. Diagrams and technical
+status remain optional disclosures; shared diagrams and validators are unchanged.
+
+Home revision 7 / Start revision 8: source/dependency mappings now follow actual
+04/08/core and cell/concept/recursion/connection readings. BIB-0089 supports pH;
+BIB-0026 supports the supplied lipid/protein/ATP feedback example. Removed the
+obsolete water-only Home citation and unused direct mappings. No catalogue case,
+scientific source, rights/indexing or release-control change. Candidate A chosen
+editorially; independent reader/AT observations NOT_PERFORMED. Neutral formative
+protocol/template prepared under `docs/evidence/intro-rewrite/`.
+
+**Actual checks after the complete implementation batch:** Astro 96 files, zero
+diagnostics; shared content/admission and catalogue PASS; private root/actual-target
+builds and output audits PASS, 348 files each. Three focused Chromium checks per
+base PASS. First target journey exposed a lost Start→Home return link; restored
+it and reran only that failed journey after affected builds/audits. Kept failed
+evidence distinct. Desktop and 320px Home captures inspected. Full regressions,
+broad browser/performance checks and human/AT observations NOT_PERFORMED.
+Short receipt and exact results: `docs/evidence/intro-rewrite/receipt.md`.
+
+Compared genuine prior Home/Start inputs and actual retained rendered outputs.
+Only their own records changed; all 75 original statements/bindings and the review
+registry remain unchanged. Current shared-validator inputs are NOT_REVIEWED.
+Qualification refuses REVIEW_REQUIRED; no fingerprints refreshed as approvals.
+Reused unchanged §0.60 evidence. This intro update is
+folded into the same pending independent High review of §0.60. It creates no
+second acceptance session or automatic review/repair cycle; source/display
+fingerprints alone are not approvals. New candidate not deployed.
+
+### 0.62 Expanded whole-site rework completed — 6 October 2026
+
+**REVIEW_READY — implementation/editorial coverage complete.** The owner explicitly requested finishing the expanded brief copied exactly from Downloads to `docs/handoffs/RRG_SITE_WIDE_REVIEW_AND_REWORK_SCOPE_2026-10-06.md`. Reviewed the actual 75 current readings individually, all 92 bibliography support/inspection records, utilities, repository entry documents and generated outputs. Dispositions: 47 Keep, 16 Edit, 9 Rework, 2 Merge/reposition, 1 Source issue. Earlier Home/Start replacements are retained in this combined candidate; 26 further own readings changed in this batch. Source-bound statements/bindings, all 21 archived sidecars, review registries and 3,735 protected tracked source/history/evidence/handoff/Rider/ZIP/lock paths remain unchanged.
+
+Delivered developed cell/environment/molecule/water mechanisms, a reordered example path, two distinct question-led articles, geometry/recursion/interaction context, all eight contribution-oriented open questions, a relevant background-extension limit, separate outward diagram roles, richer technical context and findings-first source connections. README/START_HERE/operator guidance distinguish live acceptance from revised local work. Final rendered review also removed internal search labels, exposed the actual contact address and corrected a diagram label crossing its connector. Original mathematics remains exact; the action/potential/kinetic assumption issue already identified by current 04 §24 and foundation errata is visible and separately recorded for future versioned scientific work.
+
+No tests during editing. Final affected diagnostics PASS (97 files, zero errors/warnings/hints), content/bindings/current-catalogue PASS (24 source files, 22 cases, 79 qualified labels), both preview builds and shared audits PASS (348 files each). Thirteen unique browser checks per base pass with explicitly recorded reuse and affected reruns: initial new-test capitalization failure corrected without changing original text; search/About checks rerun at both bases after actual copy repairs; target shared-family mobile/dark diagram check rerun after spacing repair. No fresh monolithic/full-regression campaign or scientific adjudication. Actual source/display comparisons use retained prior request inputs and `dist/public-rework-target` / `dist/intro-rewrite-target`; current shared-validator requests are NOT_REVIEWED, never approvals.
+
+Receipt: `docs/evidence/site-wide-rework/receipt.md`; 75 individual dispositions in coverage.md/coverage.json, all 348 generated files in outputs.json, 103 actual ZIP members, source-support/issue notes, 92 reference records and verification/comparison JSON. Candidate: dirty main baseline `1f10c562234ba50d159567f1eebf4987c8249198`, inputs `cf0fd59c7467851415366dfe3f09a1d24160864a2c1c7a8664b0246b95b9c08b`. Target preview artifact `7d5914602b1feb2a8eb2f000596ce50f3ac1009398c68fff9ae2fe50fc6bd121`; root `a55dde06c5a353caab601d82c538c4ea1491a81833ed3ec43bc31363a11bea6b`.
+
+Actual selected qualification refuses `REVIEW_REQUIRED: DOC-STATUS: stale`; 0 accepted/96 stale current validator states, preserved earlier outcomes and archived entries. No qualification output is generated or relabelled. One already pending independent bounded High fidelity review of the stable combined §§0.60–0.62 candidate remains required by AGENTS/§0.27; no automatic additional cycle. Six neutral reader journeys and an empty observation template are prepared; human/real AT observations NOT_PERFORMED, off-machine backup unverified, broad regression failures retained. Available implementation work is complete. This batch is local, not committed/pushed/deployed; §0.59 remains the live edition at https://vasylhryha.github.io/rrg_theory/. No DNS or license changes.
+
+
+### 0.63 Final independent bounded High presentation acceptance — 6 October 2026
+
+**ACCEPTED for combined §§0.60–0.62 website fidelity/editorial scope, including justified same-session repairs.** Verified actual HEAD `1f10c562234ba50d159567f1eebf4987c8249198` and recorded input digest `cf0fd59c7467851415366dfe3f09a1d24160864a2c1c7a8664b0246b95b9c08b` before evidence reuse. Reviewed all 75 readings individually against mapped originals and genuine prior requests/displays, retained Keep decisions, 92 scoped support records, diagrams, technical context, eight contribution paths, utilities, metadata/search/exports/citation/rights and repository entrances. Source/display identities and 225 retained rendered pages match. Existing literature inspection limits remain unchanged; this is not scientific adjudication or a fresh paper audit.
+
+**Material repair:** Source links, Catalogue and Foundation errata still said original-package parity was unverified, contradicting the genuine completed provenance receipt and adjacent disclosures. Repaired the three authored disclosures/revisions to state the captured-bundle comparison, preserved outer self-hash exception and unverified off-machine backup. Original source statements/bindings, raw sources and downloads remain exact. The mathematical action-versus-potential/kinetic assumption issue is accurately disclosed before the unchanged equations and traces to current 04 §24/foundation errata; a versioned scientific correction remains separate work.
+
+**Fidelity and actual qualification:** issued 75 justified current decisions through `website-reviews.yaml` and the shared validator: **75 accepted / 21 stale / 0 pending / 0 rejected**, `currentSourceQualified=true`. Preserved all earlier receipts/requests and prior registry snapshot; 21 archived sidecars/decisions and historical scientific registry unchanged. Preserved the first-test release selection and selected `site-2026.10.06-presentation` with actual current timestamp, rather than backdating reviews or relabelling previews. Fresh root/actual-target qualification builds and shared audits PASS: **327 files each**, 75 accepted readings and 21 archives excluded. Final input digest `03e41bb727d332486f6151fa4916fee0bf89be4854f3457b70db0af452e392fc`; target artifact `b77d0a8b52bce913b2cc73cbee2a54cd9a73ed01a7042a8a3231c56fb7baaadb`, root `3681882944d4b41df00cf82016338eea59bba3d25ec1ff3451f925a9b0a4cbaa`.
+
+**Focused checks:** affected content/catalogue PASS; all six connected engineering journeys PASS at each base, three repaired disclosure/export checks, exact original core download and real 404. Two existing selected-ZIP/citation/RSS and search checks per base PASS, actual ZIP 103 members. Unchanged diagnostics and representative layout/mobile/dark/axe/keyboard/math evidence reused. Sandbox, missing-browser-path and inspector-selector failures preserved separately; no failed attempt counts as PASS. Preservation snapshot matches all 3,761 protected files. No monthly source/history/literature/performance/full-regression campaign or full-suite PASS claimed.
+
+Receipt: `docs/evidence/site-wide-acceptance/receipt.md`; individual findings/decisions, prior snapshots, qualification identity and actual journey/check outputs in that directory. **Available acceptance work is complete; no additional automatic review cycle.** Both actual qualification artifacts remain dirty, `commitDescribesInputs=false`, `deployEligible=false`. Separate publication needs an authorized scoped commit/push and the existing clean exact-main CI/release-build/audit/seal/short-smoke/manual same-artifact operation, then availability/nested/404 checks. No content-fidelity blocker remains. Human comprehension/real AT NOT_PERFORMED, off-machine backup NOT_VERIFIED and prior full-regression failures remain open for complete M6; existing draft-edition scope is preserved without invented observations or waived guards. No commit, push, deployment, DNS or licence change in this session; recorded live §0.59 edition remains `534350e3e2ecb7e130ccc5af716f44410df9f636`.
+
+### 0.64 Owner-authorized accepted presentation commit/push and cleanup — 6 October 2026
+
+The owner requested committing the accepted work, cleanup and pushing to the existing `VasylHryha/rrg_theory` repository. Scope is the combined §§0.60–0.63 presentation, same-session repairs, current fidelity registry, all 75 hash-bound decisions and durable implementation/acceptance evidence. Parent and fetched `origin/main` both match `1f10c562234ba50d159567f1eebf4987c8249198`; index initially empty. Exclude generated acceptance ZIP copies, screenshots and the redundant content-bindings snapshot from Git, retaining all local bytes. Preserve original sources/ZIPs, Rider files, historical decisions/receipts and failed attempts. Reuse the accepted affected checks; run only the existing syntax/whitespace pre-push profile and staged evidence-reference closure. Git records the resulting commit and remote identity. Push triggers routine CI; manual publication remains separate and is not requested. The §0.63 qualification outputs keep their issued dirty-input identities; a clean exact-commit release build must create its own artifact before deployment.
+
 ## 1. Review findings and chosen repairs
 
 **R4 scope, reconciled with the 5 October 2026 promotion:** retain the justified source-revision rules and preserved history, and implement website fidelity to the owner-selected v0.2.1 repository current. §0.39 now records completed source selection, the concrete registry/binding blocker and the remaining web-page/link migration; it does not instruct website agents to adjudicate scientific corrections. The plan repair itself changed no scientific source or website code; §0.40 records the subsequent website implementation. Neither issues content acceptance or release authorization.
@@ -1474,7 +1546,7 @@ Preserve real implementation, meaningful IDs and valid independent evidence. Arc
 
 ## 8. Complete implementation milestones
 
-All listed deliverables remain selected. **Migration and R2 private acceptance at §§0.41/0.44 remain preserved for their tested inputs. The GitHub Pages rebind has separate bounded High acceptance at §0.47. §0.51 ACCEPTS the repaired 75-page candidate; §§0.55–0.56 record the owner's explicit first-test authorization and successful public deployment/live verification. Wider human/AT/provenance and fully passing broad regressions remain incomplete; earlier acceptance stays scoped to its tested corpus.** Under §§0.27/0.56, use focused affected checks and reuse valid unchanged evidence. Heavy campaigns are monthly, not prerequisites to every push/deployment. Verify/Negative controls/Review focus paragraphs guide relevant checks, not a mandatory exhaustive audit at every milestone. Do not grow unrelated campaigns. §0 records actual checks/acceptance; no unrun check is reported as passing.
+All listed deliverables remain selected. **Migration and R2 private acceptance at §§0.41/0.44 remain preserved for their tested inputs. The GitHub Pages rebind has separate bounded High acceptance at §0.47. §0.51 ACCEPTS the repaired 75-page candidate; §§0.55–0.56 record the owner's explicit first-test authorization and successful public deployment/live verification. Wider human/AT/provenance and fully passing broad regressions remain incomplete; earlier acceptance stays scoped to its tested corpus.** Under §§0.27/0.56, use focused affected checks and reuse valid unchanged evidence. Heavy campaigns are monthly, not prerequisites to every push/deployment. §0.63 additionally ACCEPTS the combined presentation and actual selected private qualification; wider complete-M6 gaps remain explicit. Verify/Negative controls/Review focus paragraphs guide relevant checks, not a mandatory exhaustive audit at every milestone. Do not grow unrelated campaigns. §0 records actual checks/acceptance; no unrun check is reported as passing.
 
 ### M0 — Real static slice and source-preserving foundation
 
@@ -1658,7 +1730,7 @@ All listed deliverables remain selected. **Migration and R2 private acceptance a
 
 **Implement in order.**
 
-1. Use the existing owner-provided public repository, now renamed `VasylHryha/RRG` under §0.58; inspect its actual branch/settings/history/Pages state before release. Do not recreate or replace the repository. Derive the Pages origin/base from the real repository or approved custom domain rather than assuming the historical `/unity-theory/` fixture path.
+1. Use the existing owner-provided public repository, now named `VasylHryha/rrg_theory` under the exact-name correction in §0.59; inspect its actual branch/settings/history/Pages state before release. Do not recreate or replace the repository. Derive the Pages origin/base from the real repository or approved custom domain rather than assuming the historical `/unity-theory/` fixture path.
 2. Configure Pages publishing from GitHub Actions and real origin/base. Confirm the actual account permits the chosen Pages/environment setup. Do not invent a configured approval feature.
 3. Build and qualify the exact release commit through the single chain with the real target. Review generated metadata, document downloads and the content/privacy/rights manifest.
 4. Owner-controlled dispatch/protection releases that exact uploaded artifact; no deploy-time source rewrite or rebuild. Record artifact ID/source SHA/config digest and the environment decision.
@@ -1911,4 +1983,4 @@ The following external-source decisions are **retained from R2**, whose record s
 | W10 | WIPO copyright protection: `https://www.wipo.int/en/web/copyright/protection` | Copyright's expression/idea distinction; not jurisdiction-specific legal advice or a royalty contract |
 | W11 | Creative Commons BY-NC-SA 4.0: `https://creativecommons.org/licenses/by-nc-sa/4.0/` | Example of a non-commercial attribution/share-alike option and retained valid permissions; no license has been selected or granted here |
 
-**End of sole forward implementation plan.** §§0.27/0.56 govern proportionate development and monthly heavy checks. §0.51 ACCEPTS the repaired owner-approved 75-page first research edition; 21 archived stale decisions preserved. §§0.55–0.56 record explicit owner authorization, completed scoped privacy/release preparation, actual clean-commit CI/build/seal/browser checks, successful Pages deployment and privately captured/live-verified artifact. **§0.59 remains the live exact lowercase target https://vasylhryha.github.io/rrg_theory/. §0.60 implements the subsequent whole-site public presentation rework at REVIEW_READY; its changed candidate awaits one independent bounded High fidelity review before publication.** Broad regressions and human/listening/AT remain incomplete, not claimed passed. The exact original bundle is now captured and compared; off-machine backup remains unverified. Initial CC BY-NC-SA 4.0 is active; the additional CC BY 4.0 grant starts 1 January 2033 UTC. Code/data remain all rights reserved. Domain/DNS deferred; historical calculations NOT_SELECTED / NOT_RUN. No further automatic acceptance session or full audit is required for unchanged delivered scope.
+**End of sole forward implementation plan.** §§0.27/0.56 govern proportionate development and monthly heavy checks. §0.51 ACCEPTS the repaired owner-approved 75-page first research edition; 21 archived stale decisions preserved. §§0.55–0.56 record explicit owner authorization, completed scoped privacy/release preparation, actual clean-commit CI/build/seal/browser checks, successful Pages deployment and privately captured/live-verified artifact. **§0.59 remains the live exact lowercase target https://vasylhryha.github.io/rrg_theory/. §§0.60–0.62 retain their issued implementation receipts; §0.63 ACCEPTS their combined 75-reading presentation with same-session repairs and preserved history. §0.63 completes that one independent bounded High fidelity/editorial acceptance and actual selected root/target qualification; the revised presentation remains local and undeployed.** Broad regressions and human/listening/AT remain incomplete, not claimed passed. The exact original bundle is now captured and compared; off-machine backup remains unverified. Initial CC BY-NC-SA 4.0 is active; the additional CC BY 4.0 grant starts 1 January 2033 UTC. Code/data remain all rights reserved. Domain/DNS deferred; historical calculations NOT_SELECTED / NOT_RUN. No further automatic acceptance session or full audit is required for unchanged delivered scope.

@@ -1,0 +1,119 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O101",
+  "fingerprint": "7dc7388eb86aacf1784ed3c86fae28cde0797a5f09036993e52bd8bbeed8698d",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Exact current 08 open claim and added contribution path agree: Connected stages in one system, with supplied/observed/modelled links separated, follow companion §34.",
+  "inputs": {
+    "fingerprint": "7dc7388eb86aacf1784ed3c86fae28cde0797a5f09036993e52bd8bbeed8698d",
+    "ownRead": {
+      "id": "UT-O101",
+      "route": "/claims/UT-O101/",
+      "title": "Recursive physical construction",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 2,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e",
+        "startLine": 37,
+        "endLine": 37,
+        "excerptSha256": "968d20459a39ea673aacd1ef7ebabe324337ffddfae8d852a991edf91217d206"
+      },
+      "statement": "**O1 — Recursive physical construction.** One formed organization causes conditions for another distinct persistent organization, and this repeats. A useful contribution could document even two causally connected stages in one system. No such full universal chain is established by this catalogue.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "## Investigate one part\n\nThe missing link is a connected physical sequence, rather than similar examples drawn from different systems. A useful contribution would identify the supplied background, the formed unit, its effect on later conditions and a subsequent organization in the same system. Mark observed, modelled and assumed stages separately. Current companion §34 describes the staged investigation.\n\nBring a source passage, model, result or objection to [the contribution route](/about/#contribute). You can address this question without accepting the entire proposal. Read [all open questions](/open-problems/) for the surrounding programme.\n",
+      "sourceMapping": "v0.2.1 open claim O1; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "8460996a6375cc289374fee044373b73889abe9802fec2bf9ec6205e3db6e0a5"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "817f0701afcaf80c6c16e441630bedcf44ae8898659c5cc1d2c66f265c302827",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "f8bf441240045b730f60c38e23fe29f465e8d97f3e4ade7010389872b942aca0",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Exact current 08 open claim and added contribution path agree: Connected stages in one system, with supplied/observed/modelled links separated, follow companion §34. Compared terminology with v0.2.1 open claim O1; predecessor UT-O IDs remain historical.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/UT-O101.json; Exact current 08 open claim and added contribution path agree: Connected stages in one system, with supplied/observed/modelled links separated, follow companion §34.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: Source-reported open claim, not a demonstrated result or a required proof before publication. ",
+    "hypotheses": "Exact current 08 open claim and added contribution path agree: Connected stages in one system, with supplied/observed/modelled links separated, follow companion §34. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Exact current 08 open claim and added contribution path agree: Connected stages in one system, with supplied/observed/modelled links separated, follow companion §34. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Exact current 08 open claim and added contribution path agree: Connected stages in one system, with supplied/observed/modelled links separated, follow companion §34. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; source-bound. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared v0.2.1 open claim O1; predecessor UT-O IDs remain historical.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

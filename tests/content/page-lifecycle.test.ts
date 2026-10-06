@@ -44,7 +44,7 @@ test('real home/start emit withdrawal tombstones through the shared consumer and
    const raw=readFileSync(join(root,'dist/control',file),'utf8'),$=load(raw);
    assert.equal($('h1').text(),`${id} — withdrawn record`);assert.equal($(`[data-record-details="${id}"]`).length,1);
    assert.doesNotMatch(raw,/OLD_(?:TITLE|DESCRIPTION|BODY)_SENTINEL/);
-   assert.doesNotMatch(raw,/How does a collection|Start with the idea/);
+   assert.doesNotMatch(raw,/What exists can change|Follow the explanation/);
   }
  } finally {rmSync(root,{recursive:true,force:true});}
 });

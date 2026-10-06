@@ -4,14 +4,14 @@
   "route": "/examples/water/",
   "title": "Water: follow a pattern",
   "description": "A warm-up about local motion and a collective pattern.",
-  "revision": 2,
+  "revision": 3,
   "kind": "example",
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-SCIENCE",
@@ -38,18 +38,22 @@
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## What to notice
+## Follow the crest, then follow the water
 
-A wave crest can travel across water as the water moves locally. Following the crest and following a small region of water give different descriptions. Ordinary waves transfer energy through their medium; [NOAA's wave explanation](/references/#BIB-0060) explains this background physics.
+Imagine a small wave crossing a patch of water. The crest reaches one place and then another. The water carrying it moves locally as energy passes through the medium; the crest is not one parcel of water travelling intact across the surface. [NOAA's wave explanation](/references/#BIB-0060) describes this distinction.
 
-## What this illustrates
+There are two things to track: the material motion and the collective pattern. To describe the wave, an inventory of water alone is insufficient. We also need the changing relationships between neighbouring regions and the physical conditions that support propagation.
 
-The visible pattern belongs to the collective behaviour. This gives us a first way to ask about parts, relationships and activity together, before trying to identify a persistent object.
+## The question RRG takes from this
 
-A passing ripple is a warm-up, not proof that a persistent higher-level unit has formed. The next example, a [string with fixed ends](/examples/string/), makes the role of constraints clearer.
+RRG asks us to describe organization and activity together. Here the wave makes a collective pattern easy to picture. It is a first illustration of why the description of a whole can differ from the description of each part.
 
-## Ask the next question
+A passing ripple does not yet supply a persistent, self-maintaining unit for a higher organization. Nor does naming its shape explain the forces and material properties responsible for its motion. Those belong to the physical model.
 
-Which physical conditions support the pattern? How long does it last? Those questions matter when we move from noticing a collective pattern to investigating the source's [meaning of stability](/concepts/stability/).
+## Change the question
 
-[All examples](/examples/) · [Start with the idea](/start/)
+A [string fixed at its ends](/examples/string/) makes the constraints explicit: which motion can fit those boundaries? A [cell](/examples/cell/) asks the stronger maintenance question: which activity helps preserve the organization that supports it?
+
+For any proposed persistent state, specify the interval and conditions before applying RRG's [meaning of stability](/concepts/stability/).
+
+[All examples](/examples/) · [Follow the introduction](/start/)

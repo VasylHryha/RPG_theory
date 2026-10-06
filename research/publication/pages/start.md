@@ -2,9 +2,9 @@
 {
   "id": "DOC-START",
   "route": "/start/",
-  "title": "Start with the idea",
-  "description": "From a familiar pattern to the question of persistent and further organization.",
-  "revision": 7,
+  "title": "How can one structure make another possible?",
+  "description": "Start with bacteria changing their surroundings, then follow the question from a cell to other physical systems.",
+  "revision": 8,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
@@ -13,97 +13,106 @@
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-06",
   "sourceRefs": [
-    "R-CURRENT-CATALOGUE",
-    "R-CURRENT-CORE",
-    "R-CURRENT-SCIENCE",
-    "R-CURRENT-WORLD"
+    "R-CURRENT-BACKGROUND",
+    "R-CURRENT-CLAIMS",
+    "R-CURRENT-CORE"
   ],
   "dependsOn": [
-    "DOC-CONCEPT-INTERACTIONS",
+    "DOC-BACKGROUND",
+    "DOC-CLAIM-COVERAGE",
+    "DOC-CONCEPTS",
+    "DOC-CONCEPT-RECURSION",
+    "DOC-EVIDENCE",
     "DOC-EXAMPLE-CELL",
-    "DOC-EXAMPLE-LIFE",
     "DOC-EXAMPLE-MOLECULE",
-    "DOC-EXAMPLE-STAR",
-    "DOC-EXAMPLE-STRING",
-    "DOC-STATUS",
-    "UT-C01",
-    "UT-C02",
-    "UT-D01",
-    "UT-D02",
-    "UT-D03",
-    "UT-D04",
-    "UT-D05",
-    "UT-D06",
-    "UT-D08",
-    "UT-D09",
-    "UT-O102",
-    "UT-E118",
-    "UT-E119"
+    "DOC-SOURCE-LINKS",
+    "DOC-STATUS"
   ],
   "related": [],
-  "bibRefs": [],
+  "bibRefs": [
+    "BIB-0026",
+    "BIB-0089"
+  ],
   "contentOrigin": "authored",
   "sourceBinding": null,
   "statement": null,
   "plainLanguage": "",
-  "scope": "Complete beginner introduction to the source framework; illustrations and stronger open extensions remain distinct.",
+  "scope": "Authored example-led introduction: local geometry–mode feedback, whole-as-unit and physical environment change, with the broader recursive/source-origin proposal explicitly open.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion. Core \u00a7\u00a71\u201311; world \u00a7\u00a72\u201310 and background addendum; framework \u00a7\u00a71\u20133, 7\u20138, 11, 15, 21\u201324; current evidence catalogue E18\u2013E19 and its scope conventions; current audit/status and claim coverage H06, H12\u2013H13, O1\u2013O4, O7. Water is a supplementary illustration, not a source-reported RRG result.",
+  "sourceMapping": "Minimal core §§1–9: geometry, full mode structure, reciprocal support, interval stability, internally active units and recursion without mandatory replication; current 04 §§0–4: fluctuating background and source direction; current 08 H01–H03/H06/H11–H13/H17/H19 and O1–O5/O7: proposed hierarchy, boundaries and ambition. Cell/molecule explanations provide mapped illustrations. BIB-0089 is supplementary pH-growth context in supplied cultures, not a new catalogue case or origin-of-life result. BIB-0026 supplies the bounded lipid/protein/ATP feedback example; no simulated loop interruption is called experimental ablation. A whole-as-unit and physical change of surroundings are separate roles.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## A pattern and its parts
+## Start with a change you can follow
 
-Imagine a ripple crossing a quiet patch of water. You can follow its crest with your eyes, even though the water moves locally as the disturbance passes. The pattern and the parts carrying it are different descriptions of the same event. This familiar observation is a useful place to begin, without requiring equations. The [water example](/examples/water/) explains the distinction and links to its physics source.
+Picture two bacterial populations in a liquid. The acidity that suits one may not suit the other. As the first population grows, it can change that acidity and make survival possible for the second under conditions it previously could not tolerate. This relationship has been observed in controlled cultures. [Read the source](/references/#BIB-0089).
 
-Recursive Resonant Geometry (**RRG**) asks: **how do arrangement and activity support an organized whole, and how can that whole make further organization possible?** The examples help us understand the question. Establishing a general principle that makes useful predictions is the research still to do.
+The important change is not that new ingredients suddenly appeared. The conditions changed because something living was already there.
 
-## Arrangement changes what can happen
+That is one doorway into Recursive Resonant Geometry—RRG. The proposal asks how organized systems arise, how their activity helps them persist, and how their presence can change what forms next.
 
-Consider a [stretched string](/examples/string/). Its length and fixed ends restrict the motions it can support. Its tension and mass per unit length matter too: changing a material or physical condition changes the result. The shape of the string alone does not supply its physical law.
+## Now look inside the cell
 
-RRG calls a system's organization **geometry**. Here that word includes parts, connections, ordering, boundaries and constraints, beyond a visible outline. Two systems with similar ingredients can behave differently because their parts relate differently. A [molecule](/examples/molecule/) gives another example: its bonds and arrangement constrain how the group can respond while the atoms retain internal structure.
+A cell is not just a bag of ingredients. Its membrane regulates exchange, and its internal organization constrains where and how processes occur. Chemical reactions and transport, in turn, help maintain conditions within the cell. This activity requires resources and energy; the organization does not supply those for free. [Explore the cell example](/examples/cell/).
 
-## Activity changes the organization
+RRG looks at both sides together: **the arrangement shapes the activity, and the activity acts back on the arrangement.**
 
-The other aspect is **mode structure**: the organized ways a system moves, changes or responds over time. A repeating vibration is one example, but coordinated responses, relative timing and processes operating at different speeds also matter. One frequency number cannot describe every organized system.
+It calls the arrangement and relationships **geometry**. This includes connections, boundaries and constraints—not only an object's outline.
 
-A string shows how arrangement constrains motion. Living systems make the reverse direction easier to see: chemical activity and exchanges with the surroundings help maintain their organization. RRG considers these aspects together. Activity can also transform or destroy an arrangement. The proposal does not make either side universally first.
+It calls the organized patterns of activity **mode structure**. Vibrations are one example. Relative timing, coupling and responses also matter. One frequency number is not enough to describe the system.
 
-## A whole can become a part
+The “resonant geometry” at the centre of RRG is the organization and its mode structure considered together. For a persistent state, the question is whether they support a self-consistent organization. That does not mean it must last forever. [Read the concepts](/concepts/).
 
-A [cell](/examples/cell/) contains many interacting components. Its organization can remain recognizable while material enters, leaves and is replaced. That same cell can participate in a larger organization. The lower-level activity continues inside the higher-level description.
+## This is a physical question, not only a biological one
 
-RRG uses **scale** for a level at which an organized whole can function as a useful unit in further interactions. Scale involves the relationships and processes that matter to the description, as well as size. Mechanisms and characteristic times can change between levels.
+In a laboratory study of tiny artificial membrane sacs, protein patterns changed the membrane's shape, while the changed geometry affected the protein patterns. Their coupling supported persistent motion with supplied lipids, proteins and ATP. [See the liposome study](/references/#BIB-0026).
 
-**Recursive organization** means that a whole can participate as a part in further organization. It does not require identical components or compulsory copying at every step. Biological reproduction is one particular mechanism; it is not the definition of the general pattern. The [recursion concept](/concepts/recursion/) follows this distinction back to the source definitions.
+This is a concrete example of geometry and activity acting back on one another. It is not a complete living cell or a demonstration of RRG's entire proposed hierarchy. [Follow the source connections](/evidence/source-links/).
 
-## Existing structures change the conditions
+## A whole can have two different roles
 
-A [star](/examples/star/) creates temperature and pressure conditions in which nuclear reactions can make new nuclei. The original world explanation uses this to illustrate how an existing organization can expand the possibilities for later chemistry.
+**It can become a part.** A molecule contains interacting atoms, yet it can participate as a unit in another process. The atoms and their internal activity have not disappeared. A larger description uses properties of the whole. [Explore the molecule example](/examples/molecule/).
 
-[Life changing its environment](/examples/life-environment/) brings the idea closer to home. Oxygen-producing organisms alter their surroundings, changing conditions for other organisms and reactions. Those consequences depend on resources, chemical processes and history. There is no purpose-driven guarantee that every change creates a more complex next stage.
+**It can change the conditions.** Return to the bacteria and their chemical surroundings. Here the important effect is not simply that we choose a different description. The organisms physically change the environment.
 
-The source framework treats the broader question of environmental possibilities as an extension compatible with its core. A useful explanation must keep that status visible alongside the positive idea.
+RRG asks when these roles connect: can an organized system both persist as a useful unit and help establish conditions for further organization?
 
-## Keep the organizing question in view
+The examples show different pieces of that question. Joining their descriptions is not the same as observing the entire chain in one system.
 
-**Parts + relationships + activity → a persistent whole → a useful unit or changed conditions → possible further organization.**
+## Why “recursive”?
 
-Each step needs a mechanism and suitable conditions. Making a whole useful in a larger description and physically changing its surroundings are related possibilities, not the same operation. Replication can help some systems; it is not required by the definition.
+RRG proposes that the relationship may repeat: internally active parts form a whole; that whole can participate in a further organization; the resulting system has its own collective relationships and activity.
 
-## Which interactions become possible?
+Its current background proposal adds that existing systems can also reshape the conditions inherited by what follows.
 
-An **effective interaction** is an interaction used in a description of a collective system. The selected catalogue describes light-mediated binding between microspheres and interactions produced by controlled random light fields. The light, particles and apparatus are already supplied. These are distinct physical cases, with different conditions.
+This is not a fixed ladder on which everything becomes larger, better or more complex. A change can close possibilities as well as open them. A process can branch, stop or lose stability. Reproduction is one possible mechanism—not a requirement at every level. [Follow recursion and scale](/concepts/recursion/).
 
-RRG asks when lower-level organization can enable such an interaction, and when that interaction can help another organization persist. The [deeper interaction concept](/concepts/effective-interactions/) explains the source's examples and proposed relation. They do not establish that the four fundamental forces are four successive RRG levels.
+## Where would the first units come from?
 
-## What remains to be tested
+The broader source-direction idea does not simply assume an inventory of finished building blocks.
 
-The original documents separate their core definitions, illustrative examples, particular reported evidence and stronger open extensions. The common organizing principle needs useful mathematical criteria and predictions beyond descriptions of results already known. Specific experiments can test specific models; an analogy cannot do that work on its own.
+It starts from a changing background in which temporary arrangements arise. RRG proposes that some arrangements may persist when the activity they support acts back to maintain, restore or recreate them. Those structures then contribute to the conditions in which other structures may form.
 
-You can [choose an example](/examples/), [read the concepts](/concepts/) or see the original [current research status](/research-status/). No technical background is needed to find the question, the uncertainty or a source.
+That is a hypothesis to work through in specific physical systems, not a demonstrated account of the primordial universe. The full [recursive-background companion](/framework/recursive-background/) develops it.
 
-[Return to the research question](/#research-question).
+## What is RRG trying to add?
+
+The individual examples already have scientific explanations. RRG is not claiming to have discovered membrane transport or organisms changing their environments.
+
+Its proposed contribution is to study the formation of units and the transformation of their backgrounds together, working forward from conditions and activity rather than only describing completed structures.
+
+Whether this becomes a useful general framework depends on specifying mechanisms, limits and testable consequences. Similarity between examples is a reason to investigate; it is not a substitute for that work. The more ambitious connections to fundamental interactions and cosmology remain open hypotheses.
+
+## The question to take with you
+
+Instead of asking only “What is this made of?”, RRG asks:
+
+**What arrangement and activity keep it organized—and what does its existence change for what can happen next?**
+
+[See the evidence and where it stops →](/evidence/)
+
+You can examine a case, question a connection, or contribute a model. The proposal is being published so those questions can be explored—not because every answer is already known.
+
+[Return to the research question](/#research-question)

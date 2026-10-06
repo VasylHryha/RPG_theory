@@ -2,9 +2,9 @@
 {
   "id": "DOC-HOME",
   "route": "/",
-  "title": "How can organization make further organization possible?",
-  "description": "RRG explores how arrangement and activity form persistent wholes, how those wholes become useful parts, and how existing organization changes the conditions for what can form next.",
-  "revision": 6,
+  "title": "What exists can change what becomes possible.",
+  "description": "Follow a cell inward and outward: how its structure and activity work together, and how its presence changes its surroundings.",
+  "revision": 7,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
@@ -13,54 +13,52 @@
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-06",
   "sourceRefs": [
-    "R-CURRENT-AUDIT",
     "R-CURRENT-BACKGROUND",
-    "R-CURRENT-CATALOGUE",
-    "R-CURRENT-CORE",
-    "R-CURRENT-SCIENCE",
-    "R-CURRENT-WORLD"
+    "R-CURRENT-CLAIMS",
+    "R-CURRENT-CORE"
   ],
   "dependsOn": [
     "DOC-BACKGROUND",
+    "DOC-CLAIM-COVERAGE",
+    "DOC-CONCEPTS",
     "DOC-EVIDENCE",
-    "DOC-EXAMPLE-WATER",
-    "DOC-STATUS",
-    "UT-C01",
-    "UT-C02",
-    "UT-D01",
-    "UT-D02",
-    "UT-D03",
-    "UT-D05",
-    "UT-D06",
-    "UT-D08",
-    "UT-E107",
-    "UT-E117",
-    "UT-E119",
-    "UT-E120",
-    "UT-O102"
+    "DOC-EXAMPLE-CELL",
+    "DOC-SOURCE-LINKS",
+    "DOC-START",
+    "DOC-STATUS"
   ],
   "related": [],
   "bibRefs": [
-    "BIB-0060"
+    "BIB-0089"
   ],
   "contentOrigin": "authored",
   "sourceBinding": null,
   "statement": null,
-  "plainLanguage": "## What evidence do we have?\n\nRRG is not established by one decisive experiment. The current catalogue reports component mechanisms and partial bridges under specific conditions:\n\n- **Arrangement and activity act together:** [atom\u2013cavity self-organization](/claims/UT-E107/) uses a supplied cavity and laser pump.\n- **A field changes interactions:** [random-light interactions](/claims/UT-E119/) use pre-existing particles and an externally generated optical field.\n- **Patterns multiply:** [granular bands](/claims/UT-E120/) reproduce under continued shaking; this is not yet a chain of new scales.\n- **A constraint matters:** [low-absorption selection](/claims/UT-E117/) limits the idea that strongest resonance must always win.\n\n[Explore the evidence and its limits](/evidence/).\n\n## What remains open?\n\nA connected, repeated causal chain; a distinctive quantitative prediction; a universal recursive law; and the stronger fundamental or cosmological extensions. Different local mechanisms do not establish all of these together.\n\n[See what would change confidence](/research-status/).\n\n## Follow the question\n\n[Understand the concepts](/concepts/) \u00b7 [Examine the evidence](/evidence/) \u00b7 [See the research questions](/research-status/) \u00b7 [Inspect the technical documents](/documents/)\n",
-  "scope": "Plain-language orientation to the proposed organizing relation, balanced evidence examples and open questions.",
+  "plainLanguage": "",
+  "scope": "Authored example-led introduction: local geometry–mode feedback, whole-as-unit and physical environment change, with the broader recursive/source-origin proposal explicitly open.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core \u00a7\u00a71\u20133, 5, 7\u201311; world explanation \u00a7\u00a72, 4, 6\u20137, 10 and background addendum. The water warm-up is supplementary NOAA physics, not a new RRG claim. Website orientation: companion 04 \u00a7\u00a70\u20132 and 06 E07/E17/E19/E20, with 07 \u00a77 boundaries. Local mechanisms remain distinct; no universal chain is asserted.",
+  "sourceMapping": "Minimal core §§1–9: geometry, full mode structure, reciprocal support, interval stability, internally active units and recursion without mandatory replication; current 04 §§0–4: fluctuating background and source direction; current 08 H01–H03/H06/H11–H13/H17/H19 and O1–O5/O7: proposed hierarchy, boundaries and ambition. Cell/molecule explanations provide mapped illustrations. BIB-0089 is supplementary pH-growth context in supplied cultures, not a new catalogue case or origin-of-life result.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## The idea in three steps
+Some bacteria change the acidity of the liquid around them. That change can let another population grow—or prevent it. Living things do not only respond to their surroundings. They change them. [See the experiment](/references/#BIB-0089).
 
-**Active parts form a persistent whole.** Its arrangement shapes the activity it can support; that activity may maintain or rebuild the arrangement. The parts stay active inside the whole.
+**RRG asks whether nature repeatedly builds through a related process: active parts form an organized whole, and that whole can become a building block or change the conditions for other structures to form.**
 
-**A whole can become a useful part.** A molecule participates in further interactions. A cell keeps its organization while exchanging material with its surroundings, and can participate in a larger system.
+## Look inside, then look around
 
-**Existing organization changes conditions.** A star creates conditions for new reactions. Living systems change their chemical surroundings. Those changes may make further organization possible.
+Inside a cell, its membrane and internal organization shape what its chemical processes can do. Those processes, in turn, help maintain the cell. Its structure and activity work together. [Explore the cell example](/examples/cell/).
 
-This is a **proposed organizing relation**, not a guaranteed universal sequence. A familiar [water wave](/examples/water/) is a warm-up about patterns and their parts; it does not prove the recursive proposal.
+Now look outward. The cell can participate in a larger system and alter its surroundings. RRG connects these questions: **what keeps a whole organized, and what does that whole make possible next?**
+
+The broader proposal is that this relationship may recur across different levels of physical organization. It does not require those levels to use the same mechanism.
+
+## Follow the idea
+
+Start with the cell, then follow the proposed connection to other physical systems and to the question of how new structures arise.
+
+[Follow the explanation →](/start/)
+
+RRG is a research proposal. The examples illustrate specific relationships; they do not establish a universal law. [Examine the evidence](/evidence/) and decide how far the connection goes.

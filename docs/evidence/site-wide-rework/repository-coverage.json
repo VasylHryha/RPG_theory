@@ -1,0 +1,54 @@
+{
+  "candidateCommit": "1f10c562234ba50d159567f1eebf4987c8249198",
+  "candidateDirty": true,
+  "rows": [
+    {
+      "file": "README.md",
+      "disposition": "Rework",
+      "reason": "Explain RRG and reader routes first; distinguish live accepted edition, changed local candidate and provenance/observation status.",
+      "editorialReview": "READ",
+      "humanObservation": "NOT_PERFORMED",
+      "assistiveTechnologyObservation": "NOT_PERFORMED"
+    },
+    {
+      "file": "START_HERE.md",
+      "disposition": "Rework",
+      "reason": "Reader-first examples/evidence/documents entrance, then separate developer authority and sole R4 tracker.",
+      "editorialReview": "READ",
+      "humanObservation": "NOT_PERFORMED",
+      "assistiveTechnologyObservation": "NOT_PERFORMED"
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "disposition": "Edit",
+      "reason": "Retain scoped contributions and proportionate workflow; clarify acceptance belongs to the live edition and revised candidate needs its existing review.",
+      "editorialReview": "READ",
+      "humanObservation": "NOT_PERFORMED",
+      "assistiveTechnologyObservation": "NOT_PERFORMED"
+    },
+    {
+      "file": "docs/operations/WEBSITE_RELEASE.md",
+      "disposition": "Edit",
+      "reason": "Retain current release/recovery procedure; add actual combined-candidate status without creating another workflow.",
+      "editorialReview": "READ",
+      "humanObservation": "NOT_PERFORMED",
+      "assistiveTechnologyObservation": "NOT_PERFORMED"
+    },
+    {
+      "file": "RIGHTS.md and licenses/",
+      "disposition": "Keep",
+      "reason": "Approved identity, exact scoped license files and 2033 additional grant remain unchanged; shared validator binds website/footer/legal/CFF/ZIP.",
+      "editorialReview": "READ",
+      "humanObservation": "NOT_PERFORMED",
+      "assistiveTechnologyObservation": "NOT_PERFORMED"
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/",
+      "disposition": "Keep",
+      "reason": "Existing four contribution forms match About/CONTRIBUTING scopes; no credentials or endorsements invented.",
+      "editorialReview": "READ",
+      "humanObservation": "NOT_PERFORMED",
+      "assistiveTechnologyObservation": "NOT_PERFORMED"
+    }
+  ]
+}

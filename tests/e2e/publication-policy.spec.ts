@@ -4,7 +4,7 @@ const base=process.env.UNITY_TEST_BASE ?? '/',evidence=process.env.UNITY_EVIDENC
 test('M5 approved About/contact and scoped research rights journey works without JavaScript and dependency notice is downloadable',{tag:'@routine'},async({browser})=>{
  const context=await browser.newContext({javaScriptEnabled:false}),page=await context.newPage();
  await page.goto(base);await page.locator('[data-publication-footer]').getByRole('link',{name:'About and contact'}).click();
- await expect(page.locator('[data-about]')).toContainText('Approved public credit: Vasyl Hryha');
+ await expect(page.locator('[data-about]')).toContainText('Maintained by Vasyl Hryha');
  await expect(page.locator('[data-about] a[href="mailto:vasylhryha.rrg@gmail.com"]')).toBeVisible();
  await page.locator('[data-about]').getByRole('link',{name:'Rights and reuse'}).click();
  for(const scope of ['Website code','Data and evidence'])await expect(page.locator('[data-legal]')).toContainText(scope+': no additional license granted');

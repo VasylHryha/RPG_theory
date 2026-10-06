@@ -1,0 +1,152 @@
+{
+  "schema": "rrg-site-wide-verification/1",
+  "recordedAt": "2026-10-06T12:46:16.129129+00:00",
+  "implementationStatus": "REVIEW_READY",
+  "timing": "No tests during editing. One focused final pass; only affected checks rerun after concrete test/copy/diagram repairs. No full regression or new audit campaign.",
+  "astro": {
+    "files": 97,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0,
+    "logs": [
+      "docs/evidence/m7/runtime/site-wide-rework/astro-check.log",
+      "docs/evidence/m7/runtime/site-wide-rework/astro-final.log"
+    ],
+    "latestCoordinateRepair": "SVG coordinates only; no additional type-check campaign"
+  },
+  "content": {
+    "status": "PASS",
+    "entries": 96,
+    "sourceFilesByteVerified": 24,
+    "currentCases": 22,
+    "documentQualifiedLabels": 79,
+    "caseEdges": 31,
+    "receipt": "docs/evidence/m7/runtime/site-wide-rework/content/current-catalogue-check.json",
+    "bindings": "docs/evidence/m7/runtime/site-wide-rework/content/content-bindings.json",
+    "reuse": "Own records/source bindings unchanged after content PASS; shared artifact audits load and verify final corpus."
+  },
+  "outputAudits": [
+    {
+      "status": "PASS",
+      "mode": "preview",
+      "basePath": "/rrg_theory/",
+      "deployEligible": false,
+      "files": 348,
+      "artifactSha256": "7d5914602b1feb2a8eb2f000596ce50f3ac1009398c68fff9ae2fe50fc6bd121"
+    },
+    {
+      "status": "PASS",
+      "mode": "preview",
+      "basePath": "/",
+      "deployEligible": false,
+      "files": 348,
+      "artifactSha256": "a55dde06c5a353caab601d82c538c4ea1491a81833ed3ec43bc31363a11bea6b"
+    }
+  ],
+  "browser": {
+    "uniqueChecksPerBase": 13,
+    "finalStatus": "PASS_WITH_AFFECTED_RECHECKS_AND_UNCHANGED_EVIDENCE_REUSE",
+    "reports": {
+      "targetInitial": {
+        "path": "docs/evidence/m7/runtime/site-wide-rework/browser-target/subpath-browser.json",
+        "stats": {
+          "startTime": "2026-10-06T12:37:19.239Z",
+          "duration": 42072.848,
+          "expected": 12,
+          "skipped": 0,
+          "unexpected": 1,
+          "flaky": 0
+        }
+      },
+      "rootInitial": {
+        "path": "docs/evidence/m7/runtime/site-wide-rework/browser-root/root-browser.json",
+        "stats": {
+          "startTime": "2026-10-06T12:37:50.318Z",
+          "duration": 41528.24800000001,
+          "expected": 12,
+          "skipped": 0,
+          "unexpected": 1,
+          "flaky": 0
+        }
+      },
+      "targetTestCorrection": {
+        "path": "docs/evidence/m7/runtime/site-wide-rework/browser-target-repair/subpath-browser.json",
+        "stats": {
+          "startTime": "2026-10-06T12:38:38.572Z",
+          "duration": 1724.663,
+          "expected": 1,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      },
+      "rootTestCorrection": {
+        "path": "docs/evidence/m7/runtime/site-wide-rework/browser-root-repair/root-browser.json",
+        "stats": {
+          "startTime": "2026-10-06T12:39:32.353Z",
+          "duration": 1858.542,
+          "expected": 1,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      },
+      "targetCopyRepair": {
+        "path": "docs/evidence/m7/runtime/site-wide-rework/browser-target-final/subpath-browser.json",
+        "stats": {
+          "startTime": "2026-10-06T12:39:47.410Z",
+          "duration": 4945.210999999999,
+          "expected": 4,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      },
+      "rootCopyRepair": {
+        "path": "docs/evidence/m7/runtime/site-wide-rework/browser-root-final/root-browser.json",
+        "stats": {
+          "startTime": "2026-10-06T12:42:02.126Z",
+          "duration": 4183.85,
+          "expected": 4,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      },
+      "targetDiagramSpacing": {
+        "path": "docs/evidence/m7/runtime/site-wide-rework/browser-diagram-final/subpath-browser.json",
+        "stats": {
+          "startTime": "2026-10-06T12:43:23.048Z",
+          "duration": 4269.746,
+          "expected": 1,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      }
+    },
+    "initialFailure": "New test expected capitalized Mode structure inside an original heading with lowercase mode structure; fixed to case-insensitive matcher. No production defect at this failure.",
+    "realRepairs": [
+      "Search internal not-applicable labels replaced with reader roles; About now displays maintained-by credit and actual email. Rebuilt both artifacts, reran affected search/About/contribution checks at both bases.",
+      "Diagram label crossed connector line in actual mobile screenshot; moved below the role boxes. Rebuilt/audited both artifacts and reran shared-family mobile/dark check at target."
+    ],
+    "reuse": "Initial passing checks not affected by copy/diagram coordinates are reused. Target mobile diagram checks rerun; root diagram uses the identical shared SVG whose exact output was audited. No claim of a fresh monolithic 26-test run on final bytes."
+  },
+  "screenshotsInspected": [
+    "docs/evidence/m7/runtime/site-wide-rework/browser-target/target-two-roles-mobile.png",
+    "docs/evidence/m7/runtime/site-wide-rework/browser-target/target-examples-cell--mobile.png",
+    "docs/evidence/m7/runtime/site-wide-rework/browser-target/target-concepts-geometry-and-modes--mobile.png",
+    "docs/evidence/m7/runtime/site-wide-rework/browser-target/target-articles-how-existing-structures-make-new-organization-possible--mobile.png",
+    "docs/evidence/m7/runtime/site-wide-rework/browser-diagram-final/target-two-roles-mobile.png"
+  ],
+  "humanReaderObservations": "NOT_PERFORMED",
+  "realAssistiveTechnologyObservations": "NOT_PERFORMED",
+  "scientificAdjudication": "NOT_PERFORMED_OUT_OF_SCOPE",
+  "externalPaperRefresh": "NOT_PERFORMED_UNCHANGED_SCOPED_CHECKS_REUSED",
+  "deployment": "NOT_PERFORMED",
+  "broadRegression": "NOT_RUN; prior unresolved failures remain recorded in earlier receipts",
+  "sandboxAttempts": [
+    "tsx check:content and build refused local IPC before running; rerun with tool-approved privileges passed."
+  ],
+  "whitespace": "git diff --check PASS"
+}

@@ -1,0 +1,216 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-ARTICLE-UNIT",
+  "fingerprint": "7b4924b9f12959e717ccb517dd5d0c2acf03c0bb0b14987f8adfa14261f11c44",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Dissociation makes the useful-unit boundary concrete; reduction, internal activity and prediction error remain distinct from physically forming a new level or same-family proof.",
+  "inputs": {
+    "fingerprint": "7b4924b9f12959e717ccb517dd5d0c2acf03c0bb0b14987f8adfa14261f11c44",
+    "ownRead": {
+      "id": "DOC-ARTICLE-UNIT",
+      "route": "/articles/when-can-a-whole-be-treated-as-one-useful-unit/",
+      "title": "When can a whole be treated as one useful unit?",
+      "description": "When does a collective description answer the question, and when must we return to the parts?",
+      "revision": 4,
+      "kind": "article",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CORE",
+        "R-CURRENT-MATH",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-EXAMPLE-MOLECULE",
+        "DOC-MATH",
+        "UT-D03",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Explanatory article; universal claims and quantitative tests remain open.",
+      "evidenceState": "not-applicable",
+      "body": "## Start with an intact molecule\n\nA molecule contains atoms, electron states and collective motion. Yet another chemical description can treat it as one participant. We have not erased its parts; we have chosen the properties relevant to a particular interaction. The [molecule example](/examples/molecule/) traces this back to the supplied world explanation.\n\nNow change the question. If the molecule dissociates, continuing to count one intact participant hides a material change. A useful unit is therefore not simply whatever we can draw a boundary around. Its usefulness depends on the circumstances and the response we need to describe.\n\n## What can remain unresolved?\n\nRRG asks which collective organization persists while its parts remain active. A later description may track an intact whole's motion, relationships or response without tracking every lower-level detail. If those hidden details affect the answer, the description needs to retain more of them.\n\nThis does not mean that all useful reductions are simple averages. The current [background companion](/framework/recursive-background/) explains that correlations, mode patterns, coupling and memory may matter. Reducing everything to one number can discard the very relation that made a whole useful.\n\n## Organization and activity belong together\n\nThe registered RRG object is :claim[UT-D03]. Its geometry includes relationships, boundaries and constraints. Its mode structure includes phases, coupling, responses and characteristic times, beyond one frequency.\n\nThe [stability definition](/claims/UT-D04/) concerns self-consistent geometry–mode organization over an interval. It is not permanence, and it does not prescribe one lifetime threshold for molecules, cells and every other system.\n\nThe [scale definition](/claims/UT-D05/) asks when a collective organization functions as an effective unit in further interactions. Parts can differ and remain internally active. The [recursion definition](/claims/UT-D08/) permits further combination without requiring an identical microscopic mechanism or compulsory copying at every step.\n\n## A mathematical question with a stated scope\n\nThe [candidate mathematics](/math/) compares two routes: evolve the detailed system and then reduce it, or reduce it and predict the collective evolution. A useful comparison needs stated variables, maps, conditions and an error measure.\n\nThat is a model-specific research test. It does not establish that a new physical level formed, or require every scale to obey the same equation family. The stronger same-family question remains optional. No such calculation is executed in this article.\n\n## The whole has another possible role\n\nA cell may be one participant in a larger organization while continuing its internal exchanges. Its activity may also change its surroundings. Treating the cell as a unit and measuring that environmental change answer different questions.\n\n[How existing structures make new organization possible](/articles/how-existing-structures-make-new-organization-possible/) follows the second role. Read the two together without assuming that success at one operation proves the complete recursive proposal.\n\nThe question to take into a concrete model is: **for this interaction and interval, which collective properties suffice, and what would require us to describe the parts again?** [Explore recursion and scale](/concepts/recursion/) for the shorter definition-led path.\n",
+      "sourceMapping": "Core §§3–8; world §§4–6, 8; framework §§2.6, 3, 15; current 04 §§11, 23–25; 03 §§12–13 and 38. Authored discussion of useful collective descriptions; reduction maps do not physically create a level and same-family closure is optional.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "tags": [
+        "organization",
+        "research-explanation"
+      ],
+      "authorIdentity": "Vasyl Hryha",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "8460996a6375cc289374fee044373b73889abe9802fec2bf9ec6205e3db6e0a5"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "b50c72eba7e1a1cca702d56418a006597b92fed390c0aed220ac83a78d519dad"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "b01cb5c229d290e266f231b32de6086b0b730c9174ba07c9cb73459ce6e8c00b"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-MOLECULE",
+        "semanticDigest": "be761a9d6230514ed4d9bfb837142a68126f135e5695e37eb5b8e68c512807e4"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "06ac4174776842953f509565a54f1c9a8cc772d12639887764ed898e69f1274f"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "baaa09af201d41784717aea75bfbbbeb3dde31e75cabba8923cebc551aa467f0"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "105fc34759b8befd8dd92c8314efb6208cdd0b0ca29a5d392a0c9ee8be28e179"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "6ebf7586c6c9b273a876e4b411da204fac0b89e6c08c7579d841741bd1067fee"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "79ee4f57a97e75f2fcda2cf74fb58306dc94e1ebc875b6454ccd5af1f2608705",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "58c815465bdf97ef95e45da96d410aa9945f711235bbde9456ed521964601100",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Dissociation makes the useful-unit boundary concrete; reduction, internal activity and prediction error remain distinct from physically forming a new level or same-family proof. Compared terminology with Core §§3–8; world §§4–6, 8; framework §§2.6, 3, 15; current 04 §§11, 23–25; 03 §§12–13 and 38. Authored discussion of useful collective descriptions; reduction maps do not physically create a level and same-family closure is optional.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-ARTICLE-UNIT.json; Dissociation makes the useful-unit boundary concrete; reduction, internal activity and prediction error remain distinct from physically forming a new level or same-family proof.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: Explanatory article; universal claims and quantitative tests remain open. ",
+    "hypotheses": "Dissociation makes the useful-unit boundary concrete; reduction, internal activity and prediction error remain distinct from physically forming a new level or same-family proof. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Dissociation makes the useful-unit boundary concrete; reduction, internal activity and prediction error remain distinct from physically forming a new level or same-family proof. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Dissociation makes the useful-unit boundary concrete; reduction, internal activity and prediction error remain distinct from physically forming a new level or same-family proof. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared Core §§3–8; world §§4–6, 8; framework §§2.6, 3, 15; current 04 §§11, 23–25; 03 §§12–13 and 38. Authored discussion of useful collective descriptions; reduction maps do not physically create a level and same-family closure is optional.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

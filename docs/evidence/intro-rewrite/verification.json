@@ -1,0 +1,112 @@
+{
+  "schema": "rrg-intro-rewrite-verification/1",
+  "recordedAt": "2026-10-06T12:10:00.258324+00:00",
+  "implementationStatus": "REVIEW_READY",
+  "timing": "No tests ran during implementation. Focused final checks followed the completed batch; the lost return link was repaired and its affected journey rerun.",
+  "astroDiagnostics": {
+    "files": 96,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0,
+    "log": "docs/evidence/m7/runtime/intro-rewrite/astro-check.log"
+  },
+  "content": {
+    "status": "PASS",
+    "sourceFilesByteVerified": 24,
+    "currentCases": 22,
+    "entries": 96,
+    "logs": [
+      "docs/evidence/m7/runtime/intro-rewrite/content.log",
+      "docs/evidence/m7/runtime/intro-rewrite/start-content.log"
+    ],
+    "finalInputs": "comparison.json: current shared-validator inputs recorded after return-link repair"
+  },
+  "outputAudits": [
+    {
+      "status": "PASS",
+      "mode": "preview",
+      "basePath": "/",
+      "deployEligible": false,
+      "files": 348,
+      "artifactSha256": "4f6375ba35364edbb8b5f0a60809cd25f6ee12afe8e596b3a1c452c88060a50f"
+    },
+    {
+      "status": "PASS",
+      "mode": "preview",
+      "basePath": "/rrg_theory/",
+      "deployEligible": false,
+      "files": 348,
+      "artifactSha256": "d26f62d8afdf23aa2fae9263353053fe742209d43fe1cb2870759ddd9d27fbd3"
+    }
+  ],
+  "browser": {
+    "finalUniqueChecksPerBase": 3,
+    "scope": "Home/Start no-JS, keyboard, citation/export links, 320px reflow, light/dark axe and real 404",
+    "reports": {
+      "targetInitial": {
+        "startTime": "2026-10-06T12:00:56.324Z",
+        "duration": 33227.14,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "targetRepair": {
+        "startTime": "2026-10-06T12:06:30.370Z",
+        "duration": 2110.78,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "rootFinal": {
+        "startTime": "2026-10-06T12:06:31.801Z",
+        "duration": 2759.551,
+        "expected": 3,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    "targetReuse": "The two initial passing dark/404 checks are unchanged by the return-link repair. Only the failed Home/Start journey was rerun.",
+    "repair": "Restored Start \u2192 /#research-question after the first journey timed out. Initial failed report/trace preserved.",
+    "logs": [
+      "docs/evidence/m7/runtime/intro-rewrite/browser-target/subpath-browser.json",
+      "docs/evidence/m7/runtime/intro-rewrite/browser-target-repair.log",
+      "docs/evidence/m7/runtime/intro-rewrite/browser-root.log"
+    ]
+  },
+  "screenshotsInspected": [
+    "docs/evidence/m7/runtime/intro-rewrite/browser-target-repair/subpath-home-desktop.png",
+    "docs/evidence/m7/runtime/intro-rewrite/browser-root/root-home-mobile.png"
+  ],
+  "preservation": {
+    "protectedTrackedPathsUnchanged": true,
+    "ownStatementsAndBindingsUnchanged": 75,
+    "ownRecordsChanged": [
+      "DOC-HOME",
+      "DOC-START"
+    ],
+    "reviewRegistryUnchanged": true,
+    "reviewRegistrySha256": "eda86ce36af7b42a8623daec22ace94233ae903bb735b42e06a3158c7378ec82",
+    "archivedEntriesPreserved": 21
+  },
+  "qualification": {
+    "status": "REFUSED",
+    "diagnostic": "ContractError: REVIEW_REQUIRED: DOC-STATUS: stale; required 4556912b5c660716dd920001b986ac26e83606794bf1433c7cd3d61eba5d7424"
+  },
+  "deployment": "NOT_RUN; earlier deployed first edition retained",
+  "reusedEvidence": "Unchanged \u00a70.60 support-page/navigation/rights/source ZIP checks and prior source evidence remain valid for their recorded inputs; not claimed as fresh tests.",
+  "notPerformed": [
+    "Full regression suite",
+    "Broad browser/performance campaign",
+    "Human reader observations",
+    "Real assistive-technology observation",
+    "Independent fidelity acceptance of the reworked candidate"
+  ],
+  "nextScope": {
+    "reference": "docs/handoffs/RRG_SITE_WIDE_REVIEW_AND_REWORK_SCOPE_2026-10-06.md",
+    "status": "COPIED_AND_READ; whole-site implementation NOT_STARTED",
+    "sha256": "3e7db6b55cb03c870a024772f7cb215fbe23aceff4c61660628d195921fe3ea9"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E107",
+  "fingerprint": "01bd188ca1a905d8f0430c849dea8111be5715594ab6cd617baf4090e4766f98",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Exact current 06 case and scoped reference agree: Atom–cavity feedback retains atoms, cavity and pumping; no autonomous apparatus or repeated levels.",
+  "inputs": {
+    "fingerprint": "01bd188ca1a905d8f0430c849dea8111be5715594ab6cd617baf4090e4766f98",
+    "ownRead": {
+      "id": "UT-E107",
+      "route": "/claims/UT-E107/",
+      "title": "Atom–cavity self-organization",
+      "description": "A pumped atom–cavity system undergoes a collective transition with mutually coupled matter organization and optical-field dynamics.",
+      "revision": 1,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [
+        "BIB-0036"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "sourceSha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc",
+        "startLine": 152,
+        "endLine": 165,
+        "excerptSha256": "bd2151e1bbbf4bccae29165ec8c42d77c1be108d5d963504a7fdb147a124b199"
+      },
+      "statement": "## E07 — Dicke quantum phase transition with a superfluid gas in an optical cavity\n\n**experiment · partial bridge · claims C1, C3, C4.**\n\n**Reported result:** A pumped atom–cavity system undergoes a collective transition with mutually coupled matter organization and optical-field dynamics.\n\n**Already supplied:** Atoms, cavity boundaries and laser pumping are given.\n\n**Limit of the RRG connection:** This is a close geometry–field feedback example, but not unstructured matter producing its own complete apparatus or successive autonomous levels.\n\n**Source:** Baumann, Guerlin, Brennecke & Esslinger (2010), *Nature 464, 1301–1306*. [DOI: 10.1038/nature09009](https://doi.org/10.1038/nature09009).\n\n**Verification coverage:** Publisher abstract and article record. Checked 2026-10-02.\n\n",
+      "plainLanguage": "",
+      "scope": "experiment; partial bridge; source-reported C1, C3, C4.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "v0.2.1:E07 → UT-E107; source-local ID retains its edition; predecessor UT-E IDs are historical.",
+      "adapter": "rrg-evidence-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "This is a close geometry–field feedback example, but not unstructured matter producing its own complete apparatus or successive autonomous levels.",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "c2bddc061d888f1845bd293111a29faffeef186743ecaec0f9f89ee8478187d5",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "c2bddc061d888f1845bd293111a29faffeef186743ecaec0f9f89ee8478187d5",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Exact current 06 case and scoped reference agree: Atom–cavity feedback retains atoms, cavity and pumping; no autonomous apparatus or repeated levels. Compared terminology with v0.2.1:E07 → UT-E107; source-local ID retains its edition; predecessor UT-E IDs are historical.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/UT-E107.json; Exact current 06 case and scoped reference agree: Atom–cavity feedback retains atoms, cavity and pumping; no autonomous apparatus or repeated levels.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: experiment; partial bridge; source-reported C1, C3, C4. This is a close geometry–field feedback example, but not unstructured matter producing its own complete apparatus or successive autonomous levels.",
+    "hypotheses": "Exact current 06 case and scoped reference agree: Atom–cavity feedback retains atoms, cavity and pumping; no autonomous apparatus or repeated levels. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Exact current 06 case and scoped reference agree: Atom–cavity feedback retains atoms, cavity and pumping; no autonomous apparatus or repeated levels. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Exact current 06 case and scoped reference agree: Atom–cavity feedback retains atoms, cavity and pumping; no autonomous apparatus or repeated levels. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; source-bound. References BIB-0036 retain registered verification scope.",
+    "sourceMappings": "Compared v0.2.1:E07 → UT-E107; source-local ID retains its edition; predecessor UT-E IDs are historical.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

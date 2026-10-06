@@ -115,16 +115,17 @@ export function renderBeginnerDiagram(id: string) {
   const prefix=`diagram-${id}`,title=`${prefix}-title`,description=`${prefix}-description`;
   let heading='',equivalent='',shapes='',caption='';
   if(type==='organization') {
-    heading='Parts, a whole, and further organization';
-    equivalent='Compatible active parts can couple into a collective organization. A persistent whole may become a useful unit in further combinations. The surroundings constrain the process, and existing organization may change those surroundings. This is the RRG research proposal, not a guaranteed sequence.';
-    shapes=`<rect class="diagram-environment" x="14" y="14" width="332" height="342" rx="22"/><text x="180" y="42">Surroundings &amp; conditions</text>
-      <g class="diagram-node"><rect x="57" y="64" width="246" height="56" rx="8"/><text x="180" y="89">Compatible active parts</text><text class="diagram-subtitle" x="180" y="109">different parts can play different roles</text></g>
-      <path class="diagram-link" d="M180 120 V147"/><path class="diagram-arrowhead" d="m175 142 5 6 5-6"/>
-      <g class="diagram-node"><rect x="57" y="151" width="246" height="68" rx="8"/><text x="180" y="178">Collective organization</text><text class="diagram-subtitle" x="180" y="200">arrangement ↔ activity</text></g>
-      <path class="diagram-link" d="M180 219 V245"/><path class="diagram-arrowhead" d="m175 240 5 6 5-6"/>
-      <g class="diagram-node"><rect x="57" y="249" width="246" height="60" rx="8"/><text x="180" y="276">A useful unit</text><text class="diagram-subtitle" x="180" y="297">in further combinations</text></g>
-      <path class="diagram-feedback" d="M303 277 C333 277 333 84 303 84"/><path class="diagram-arrowhead" d="m309 79-6 5 6 5"/><text class="diagram-subtitle" x="180" y="337">organization can change conditions</text>`;
-    caption='A proposed cycle: active parts → collective organization → a useful unit for further combinations. Conditions affect formation; existing organization may change conditions. Illustration, not a measurement.';
+    heading='Feedback inside a whole and two possible outward roles';
+    equivalent='Within an organization, arrangement constrains activity and activity may maintain or change arrangement. A persistent whole may be treated as a useful unit in a further description. It may also physically change its surroundings. These are distinct possible roles, neither automatic; formation, stopping, branching and disruption depend on conditions. The background need not start with completed units.';
+    shapes=`<rect class="diagram-environment" x="14" y="14" width="332" height="342" rx="22"/><text x="180" y="42">Background &amp; conditions</text>
+      <text class="diagram-subtitle" x="180" y="68">formation may begin with transient arrangements</text>
+      <g class="diagram-node"><rect x="40" y="88" width="280" height="77" rx="8"/><text x="180" y="116">An organization</text><text x="180" y="144">arrangement ↔ activity</text></g>
+      <path class="diagram-link" d="M180 165 V196 H98 V207 M180 196 H262 V207"/><path class="diagram-arrowhead" d="m93 201 5 6 5-6 m154 0 5 6 5-6"/>
+      <text class="diagram-subtitle" x="180" y="321">may have distinct outward roles</text>
+      <g class="diagram-node"><rect x="27" y="211" width="142" height="91" rx="8"/><text x="98" y="238">Useful unit</text><text class="diagram-subtitle" x="98" y="260">in a further</text><text class="diagram-subtitle" x="98" y="280">description</text></g>
+      <g class="diagram-node"><rect x="191" y="211" width="142" height="91" rx="8"/><text x="262" y="238">Changed conditions</text><text class="diagram-subtitle" x="262" y="260">in the physical</text><text class="diagram-subtitle" x="262" y="280">surroundings</text></g>
+      <text class="diagram-subtitle" x="180" y="345">neither role guarantees a further organization</text>`;
+    caption='Arrangement and activity can support one another. A useful descriptive unit and a physical change to surroundings are distinct possibilities. This illustrates the source proposal; outcomes depend on the system and may stop, branch or fail.';
   } else if(type==='string') {
     heading='Two supported modes with fixed ends';
     equivalent='Both string ends are fixed. One illustrated mode has one arch between the ends. Another has two arches and an additional stationary point at the centre. The endpoints are stationary in both patterns. Tension and mass per unit length matter as well as length and boundaries.';

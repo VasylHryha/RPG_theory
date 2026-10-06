@@ -1,0 +1,428 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-HOME",
+  "fingerprint": "713670069a9461f66c00a747249b6505650967428ad34fbd9f9b847445bf798b",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Concrete supplied-culture pH finding opens the page; inward cell feedback and distinct outward roles lead to one primary Start link. The universal connection remains a proposal.",
+  "inputs": {
+    "fingerprint": "713670069a9461f66c00a747249b6505650967428ad34fbd9f9b847445bf798b",
+    "ownRead": {
+      "id": "DOC-HOME",
+      "route": "/",
+      "title": "What exists can change what becomes possible.",
+      "description": "Follow a cell inward and outward: how its structure and activity work together, and how its presence changes its surroundings.",
+      "revision": 7,
+      "kind": "intro",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-CLAIM-COVERAGE",
+        "DOC-CONCEPTS",
+        "DOC-EVIDENCE",
+        "DOC-EXAMPLE-CELL",
+        "DOC-SOURCE-LINKS",
+        "DOC-START",
+        "DOC-STATUS"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0089"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Authored example-led introduction: local geometry–mode feedback, whole-as-unit and physical environment change, with the broader recursive/source-origin proposal explicitly open.",
+      "evidenceState": "not-applicable",
+      "body": "Some bacteria change the acidity of the liquid around them. That change can let another population grow—or prevent it. Living things do not only respond to their surroundings. They change them. [See the experiment](/references/#BIB-0089).\n\n**RRG asks whether nature repeatedly builds through a related process: active parts form an organized whole, and that whole can become a building block or change the conditions for other structures to form.**\n\n## Look inside, then look around\n\nInside a cell, its membrane and internal organization shape what its chemical processes can do. Those processes, in turn, help maintain the cell. Its structure and activity work together. [Explore the cell example](/examples/cell/).\n\nNow look outward. The cell can participate in a larger system and alter its surroundings. RRG connects these questions: **what keeps a whole organized, and what does that whole make possible next?**\n\nThe broader proposal is that this relationship may recur across different levels of physical organization. It does not require those levels to use the same mechanism.\n\n## Follow the idea\n\nStart with the cell, then follow the proposed connection to other physical systems and to the question of how new structures arise.\n\n[Follow the explanation →](/start/)\n\nRRG is a research proposal. The examples illustrate specific relationships; they do not establish a universal law. [Examine the evidence](/evidence/) and decide how far the connection goes.\n",
+      "sourceMapping": "Minimal core §§1–9: geometry, full mode structure, reciprocal support, interval stability, internally active units and recursion without mandatory replication; current 04 §§0–4: fluctuating background and source direction; current 08 H01–H03/H06/H11–H13/H17/H19 and O1–O5/O7: proposed hierarchy, boundaries and ambition. Cell/molecule explanations provide mapped illustrations. BIB-0089 is supplementary pH-growth context in supplied cultures, not a new catalogue case or origin-of-life result.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "8460996a6375cc289374fee044373b73889abe9802fec2bf9ec6205e3db6e0a5"
+      },
+      {
+        "entryId": "DOC-CATALOGUE",
+        "semanticDigest": "4a8a3cdccd24d0345bb4ecd6d584ee46d149991a98354f7b8cd414e65c03ecee"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "f19f30d66953552dba483a18521f145f595ef6b5ecf1e076e87726d7b7a08c98"
+      },
+      {
+        "entryId": "DOC-CONCEPT-GEOMETRY",
+        "semanticDigest": "cd3fab0d954873cfca1ec8732771828212a3c74de638f89e685a8bd5314fbd8e"
+      },
+      {
+        "entryId": "DOC-CONCEPT-INTERACTIONS",
+        "semanticDigest": "b37574649d5e6f6d5a8eaea4a0e3a7ffc546b2455b130708fd2d40668ccaa9e4"
+      },
+      {
+        "entryId": "DOC-CONCEPT-RECURSION",
+        "semanticDigest": "2bcfe2db7a3acf322b04b5810479e3dc48d07b34885a6c745a67716be9930ee4"
+      },
+      {
+        "entryId": "DOC-CONCEPT-STABILITY",
+        "semanticDigest": "587a07dfe8ce21b7ed11645cb1da4dc04e2c20f5ad8233d0e2a4db77c7f89cac"
+      },
+      {
+        "entryId": "DOC-CONCEPTS",
+        "semanticDigest": "92f2f2da60006d30457b24f4457df3a736814e2800266491e723da7a2f92d847"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "b50c72eba7e1a1cca702d56418a006597b92fed390c0aed220ac83a78d519dad"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "b01cb5c229d290e266f231b32de6086b0b730c9174ba07c9cb73459ce6e8c00b"
+      },
+      {
+        "entryId": "DOC-EVIDENCE",
+        "semanticDigest": "ce417e4dc0fc9fa7c0591771162870063d4c00ec4ba853c72ae51a405fc88694"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-CELL",
+        "semanticDigest": "bec0fd77f6f6ed7166ad8f02e2163830955925015617d501b044851c0116827d"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "a78d6722af299dce6a2ac2a7f656f4572f1171923f57745ce636edb7036b54ed"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-MOLECULE",
+        "semanticDigest": "be761a9d6230514ed4d9bfb837142a68126f135e5695e37eb5b8e68c512807e4"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STRING",
+        "semanticDigest": "a590283cbbed9659761fde5efdfcef7287eaff7b9c713154a798078264417c7f"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "06ac4174776842953f509565a54f1c9a8cc772d12639887764ed898e69f1274f"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "baaa09af201d41784717aea75bfbbbeb3dde31e75cabba8923cebc551aa467f0"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "105fc34759b8befd8dd92c8314efb6208cdd0b0ca29a5d392a0c9ee8be28e179"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "aa7f510a90e4363747ca4259df60abf905299ff6187de1a036e135b10a20554f"
+      },
+      {
+        "entryId": "DOC-START",
+        "semanticDigest": "4cbda490e1b694ad6bd84ee1af175c2891bf583302bc483f52c2f8f01945970d"
+      },
+      {
+        "entryId": "DOC-STATUS",
+        "semanticDigest": "cfaa0e09a75bb61e89d9f2df77733e95a0aef53936cd51ece5bdce3b26b9a28c"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "eb1cf2ad9ad70a01644e946e49ad309cf201d47b17b2d941516d3bb83f91b3c0"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "42287668a89338314b920cec1136b3e05762ee5065cb262d77456f9becb62ae7"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "6ebf7586c6c9b273a876e4b411da204fac0b89e6c08c7579d841741bd1067fee"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "866bef808a3a25bc58d6255643b1cbe7b3ef23cdeb2acd8208add8f7818723b7"
+      },
+      {
+        "entryId": "UT-E101",
+        "semanticDigest": "0e9df2b644023f9f6582af718513e4e3f26f400b926b721f8abcc2d33153e768"
+      },
+      {
+        "entryId": "UT-E102",
+        "semanticDigest": "28f048e37e47db7be8ca8fa5d00f9cbb1b1594dd0dba01474e779dcaea64e4f9"
+      },
+      {
+        "entryId": "UT-E103",
+        "semanticDigest": "b5cb528ef993cb6e6f04cb8ba3e7e0e5cd15835b417497cb065c5a065230feb3"
+      },
+      {
+        "entryId": "UT-E104",
+        "semanticDigest": "842e58652b263a1c169c3aef99e5d023ba4fcec2693244c534856a2900083250"
+      },
+      {
+        "entryId": "UT-E105",
+        "semanticDigest": "50e17d5fb207a94bc945d79f097fdd735002aea3a5aa3e36bf860f85662b9c7f"
+      },
+      {
+        "entryId": "UT-E106",
+        "semanticDigest": "fd5d5035510fc1983bbd60444653b24e60c4a2bb206fe0370c3a0246933181af"
+      },
+      {
+        "entryId": "UT-E107",
+        "semanticDigest": "3386d5b0f9c0798a8d0926ea2ce16f238e28342eef8dc843d049d44b95aced78"
+      },
+      {
+        "entryId": "UT-E108",
+        "semanticDigest": "9d4b6cab0b82b272bd7c434a0870a819bd044fcbd8a795ef24a5cd7f1a8d47a0"
+      },
+      {
+        "entryId": "UT-E109",
+        "semanticDigest": "100cfc0f8de703859f470688f14c0d28a73f7203a177a30a8e7c1cdc8319a3a7"
+      },
+      {
+        "entryId": "UT-E110",
+        "semanticDigest": "23124295ec8c8b2592e2b1d3d498a8527f2b6a8c7a953998b0a9799fa85aa4fd"
+      },
+      {
+        "entryId": "UT-E111",
+        "semanticDigest": "66c80b47f13c2d3935246ffc17f6dc8c4663acd40419bc6265c55f8809639ff9"
+      },
+      {
+        "entryId": "UT-E112",
+        "semanticDigest": "9d8531ecc3cd3991dfbbc81d8f1a605a5651bc4f1b71010e95583e2e5ade02ce"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "f3d9c2742ff7560aca297bc6251bd3d0411bc5402e640030462138f7bea49fc1"
+      },
+      {
+        "entryId": "UT-E114",
+        "semanticDigest": "99549b367dbd70c1985d6f09e685bfa5cd1a99582893a93418cc7d0830145efe"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "b56cce0161cf4eb7c0c1d51330046d40f7260a6f80bde5a684b206ec3634ac3f"
+      },
+      {
+        "entryId": "UT-E116",
+        "semanticDigest": "f4ee9d31590ea9e6586d601106f04043237b0d0f8885a7da0984d601e64e7496"
+      },
+      {
+        "entryId": "UT-E117",
+        "semanticDigest": "5d588a9dcd040232edccaaead30962cfbb2ca3c7e8439a555eeecb87346ed083"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "bb90d22786c14366d3e16aa6ce520a7f3d98c944408c4e8f7dd114003adeaeb8"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "1c05c58c8d43e95831721fad3cbfa65c52517f085238ac13dec747850076a7e5"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "6237265792cca23f27a6b3df93a922b15782796d7db186f9a0e78b439f25f09c"
+      },
+      {
+        "entryId": "UT-E121",
+        "semanticDigest": "e9881ae203dd96b8623603c2dfb0546b82af7564c56e97eeb9ae864f90fec8ed"
+      },
+      {
+        "entryId": "UT-E122",
+        "semanticDigest": "13445b560d9749f7fa544634442fc77df07a12fcd013e73e185b29763b4bde2b"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "60431299a359df33ca05e73ee4792c9712add8b1d72dd09add609e9deb13ddeb"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "d56befc995151bba55ff6b82a32318160486dde1f019e7091019248803290d6f"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "b7f18296a330666e96e23f44df042f8acd4ea75cf1192752d96c80c25c16419d"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "7fb61ae775157efe7cca0e6115c2f38b8dc46fa70c07e02029d31fd50def0c82"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "76ecc2bed1fa6803cb991bcc5d462bc71199cc3b4d02c92f3ecbc056a75d3aeb"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "6efa4aa4cc5553fff7c29962d996b335994e36f97a8c4a2dd1deeb8ef064ad13"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "4c73509c56d1dacd53a609cf106353650a215335a38e489f6857c93f62448eed"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "179cf3525c1a8d515091fbf761c8d2a874520211f8de4e3523a7e370695b2ec9"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-AUDIT",
+        "path": "research/RRG_CURRENT/07_audit_report.md",
+        "sha256": "222487df50faa457b85d5748a846f728f2c4fd9845b4a33ffac181d6e45ebfa7"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON",
+        "path": "research/RRG_CURRENT/checks/package_validation.json",
+        "sha256": "08119204887af30f804c7b8a6a7031a90f5be43ce8ba03f68601b72f75136353"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "1ef412b75f45e58fc9162349b74813b2b303ea7c52ab15f53f193fb152892374",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": "c6dedc9423210d6f8d416340efe508faee8054374a4a85d11caa4254d866e3dc"
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "3655e1a7dd9b06b5ac028db8d16a2c72f0b8dc07b291080dfcafe4835c655009",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": "c6dedc9423210d6f8d416340efe508faee8054374a4a85d11caa4254d866e3dc"
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Concrete supplied-culture pH finding opens the page; inward cell feedback and distinct outward roles lead to one primary Start link. The universal connection remains a proposal. Compared terminology with Minimal core §§1–9: geometry, full mode structure, reciprocal support, interval stability, internally active units and recursion without mandatory replication; current 04 §§0–4: fluctuating background and source direction; current 08 H01–H03/H06/H11–H13/H17/H19 and O1–O5/O7: proposed hierarchy, boundaries and ambition. Cell/molecule explanations provide mapped illustrations. BIB-0089 is supplementary pH-growth context in supplied cultures, not a new catalogue case or origin-of-life result.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-HOME.json; Concrete supplied-culture pH finding opens the page; inward cell feedback and distinct outward roles lead to one primary Start link. The universal connection remains a proposal.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: Authored example-led introduction: local geometry–mode feedback, whole-as-unit and physical environment change, with the broader recursive/source-origin proposal explicitly open. ",
+    "hypotheses": "Concrete supplied-culture pH finding opens the page; inward cell feedback and distinct outward roles lead to one primary Start link. The universal connection remains a proposal. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Concrete supplied-culture pH finding opens the page; inward cell feedback and distinct outward roles lead to one primary Start link. The universal connection remains a proposal. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Concrete supplied-culture pH finding opens the page; inward cell feedback and distinct outward roles lead to one primary Start link. The universal connection remains a proposal. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References BIB-0089 retain registered verification scope.",
+    "sourceMappings": "Compared Minimal core §§1–9: geometry, full mode structure, reciprocal support, interval stability, internally active units and recursion without mandatory replication; current 04 §§0–4: fluctuating background and source direction; current 08 H01–H03/H06/H11–H13/H17/H19 and O1–O5/O7: proposed hierarchy, boundaries and ambition. Cell/molecule explanations provide mapped illustrations. BIB-0089 is supplementary pH-growth context in supplied cultures, not a new catalogue case or origin-of-life result.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

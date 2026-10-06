@@ -1,0 +1,100 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONTROL",
+  "fingerprint": "806b4fc3c35b323245cfcee9c71d88c9864af59af210991c29de0b38f9d01e79",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Exact source change protocol is preserved; adopted source history and website history do not import historical reviewer suggestions as new scientific decisions.",
+  "inputs": {
+    "fingerprint": "806b4fc3c35b323245cfcee9c71d88c9864af59af210991c29de0b38f9d01e79",
+    "ownRead": {
+      "id": "DOC-CONTROL",
+      "route": "/changes/",
+      "title": "Research and change control",
+      "description": "The current source protocol for distinguishing evidence, tests, extensions and definition changes.",
+      "revision": 2,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CONTROL",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "DOC-CORE"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "sourceSha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a",
+        "startLine": 3,
+        "endLine": 57,
+        "excerptSha256": "7a54d1480c62eb51e1e677fd481c16b023fcea8658d689cc0c23e2f0ea1fee55"
+      },
+      "statement": "This document prevents theory drift.\n\n## A. Research does not redefine the core\n\nEvery new paper, example, analogy, equation, or simulation must be classified as one of:\n\n1. **Supports core** — example fits an existing locked statement.\n2. **Tests core** — provides a measurable way to challenge a locked statement.\n3. **Extension** — adds a hypothesis downstream of the core without modifying it.\n4. **Implementation** — one mathematical/mechanical realization of the core.\n5. **Counterexample candidate** — appears to conflict and must pass the proof gate below.\n6. **Rejected drift** — introduces a narrower or different definition without necessity.\n\n## B. Proof gate before changing a definition\n\nA core definition can change only if this template is completed:\n\n- **Locked statement:** exact quote.\n- **Counterexample:** exact physical/mathematical system.\n- **Why it fails:** demonstrate why the system cannot fit the current definition.\n- **Evidence:** primary literature, experiment, or derivation.\n- **Extension test:** show why adding a downstream condition cannot handle it.\n- **Minimal revision:** smallest possible edit.\n- **Regression analysis:** list every previous example/claim affected.\n- **Decision:** accept/reject, with version bump if accepted.\n\nNo completed proof gate = no core change.\n\n## C. Examples never become definitions automatically\n\nExamples such as atoms, molecules, stars, cells, DNA, organisms, brains, gravity, or AI illustrate the core. None of them may be used to narrow the core unless a proof-gate contradiction is established.\n\nFor example:\n\n- A multicellular organism made from differentiated cells is **not** an edge case because RRG never requires identical components.\n- A radioactive nucleus is **not** an edge case because RRG stability never meant permanence.\n- A stationary field configuration is **not** automatically an edge case because RRG mode structure is broader than a visible periodic motion.\n\n## D. Mathematics is subordinate to the locked meaning\n\nA mathematical model is a candidate realization, not a new definition.\n\n- Lyapunov/Floquet criteria may test a particular form of stability but do not redefine RRG stability.\n- A lifetime threshold may be useful operationally but cannot define existence or stability.\n- A coarse-graining threshold may identify useful effective units but cannot redefine \"scale\".\n- Requiring the same microscopic equation at every scale is an optional strong hypothesis, not the RRG core.\n- An effective action \\(\\Gamma\\), spectral operator, Koopman spectrum, RG flow, etc. may model parts of RRG but cannot become the ontology by default.\n\n## E. Research objective\n\nResearch should answer:\n\n> Does the locked geometry↔mode framework generate correct predictions, useful reductions, or new unifying relations across multiple domains?\n\nIt should **not** continuously rewrite the question until every example fits.\n",
+      "plainLanguage": "A new example or mathematical model can support, test or extend the core. It does not automatically redefine it. A claimed contradiction requires the source protocol’s complete proof gate. This page renders that protocol, rather than recording a new scientific decision.\n\nRead the [locked core](/documents/locked-core/) alongside the protocol.",
+      "scope": "The current source protocol for distinguishing evidence, tests, extensions and definition changes.",
+      "evidenceState": "not-applicable",
+      "body": "## Adopted source positions\n\nRead the [supplied current changelog](/changes/source-history/) for its recorded drift repairs and evidence-only update. This website preserves those positions and does not import historical reviewer proposals as new current definitions.\n",
+      "sourceMapping": "05_CHANGE_CONTROL.md, original current edition; source body is extracted, not independently authored.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "b01cb5c229d290e266f231b32de6086b0b730c9174ba07c9cb73459ce6e8c00b"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "a2f72e379a3de47e6ec18680068497c65e26aae435848edbb48c1975f8022439",
+        "plainLanguageSha256": "a7afa801a6dfdea668b8681f257590ac5f4b5abeefdc374eed66cc6b32c0bbdc",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "101e12580a506e047ff1e4346d7907dd8020229195964de73b92e03a0a82a865",
+        "plainLanguageSha256": "4aa0919c1d017784d2cff4beeaa192d20d7151e540634df8d52f9f5abfcc7d39",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Exact source change protocol is preserved; adopted source history and website history do not import historical reviewer suggestions as new scientific decisions. Compared terminology with 05_CHANGE_CONTROL.md, original current edition; source body is extracted, not independently authored.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-CONTROL.json; Exact source change protocol is preserved; adopted source history and website history do not import historical reviewer suggestions as new scientific decisions.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: The current source protocol for distinguishing evidence, tests, extensions and definition changes. ",
+    "hypotheses": "Exact source change protocol is preserved; adopted source history and website history do not import historical reviewer suggestions as new scientific decisions. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Exact source change protocol is preserved; adopted source history and website history do not import historical reviewer suggestions as new scientific decisions. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Exact source change protocol is preserved; adopted source history and website history do not import historical reviewer suggestions as new scientific decisions. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; source-bound. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared 05_CHANGE_CONTROL.md, original current edition; source body is extracted, not independently authored.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

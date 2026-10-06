@@ -1,0 +1,322 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPTS",
+  "fingerprint": "b4933d9b369c62658eddf1183c0bdb45efacd72d6d2159ae600738c0bb8828d5",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "The four questions have examples and exact-definition entrances; current branch commitments are distinguished from the minimal normative lock and empirical establishment.",
+  "inputs": {
+    "fingerprint": "b4933d9b369c62658eddf1183c0bdb45efacd72d6d2159ae600738c0bb8828d5",
+    "ownRead": {
+      "id": "DOC-CONCEPTS",
+      "route": "/concepts/",
+      "title": "The concepts, in ordinary words",
+      "description": "Four questions about organization, persistence, scale and changed conditions—with examples and source boundaries.",
+      "revision": 3,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-CONCEPT-GEOMETRY",
+        "DOC-CONCEPT-INTERACTIONS",
+        "DOC-CONCEPT-RECURSION",
+        "DOC-CONCEPT-STABILITY",
+        "DOC-CORE"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## Four questions to carry into the examples\n\n### Geometry and mode structure\n\n**Core definitions.** What is organized, and how does it move, change or respond? Geometry includes relationships and constraints; mode structure includes more than one frequency.\n\nA string's fixed ends restrict its supported motions, while tension and material also matter. [Explore geometry and modes](/concepts/geometry-and-modes/).\n\n### Stability\n\n**Core definition.** What lets an organization persist while its parts remain active? Persistence can involve maintaining, restoring or recreating the organized state. It is not a promise of permanence or a universal measurement of lifetime.\n\nA cell exchanges material while remaining recognizable. [Explore stability](/concepts/stability/).\n\n### Scale and recursion\n\n**Core definitions; open generalization.** When can a whole become a useful part of another description? A scale is an effective regime, not just a size. Recursion does not require identical parts or compulsory replication.\n\nA molecule can act as one unit in further interactions while retaining internal structure. [Explore recursion and scale](/concepts/recursion/).\n\n### Background and effective interactions\n\n**Current source-direction extension.** How can existing organization change the conditions or interactions available to later structures?\n\nLiving systems can change their chemical surroundings. Light-mediated particle interactions show narrower local mechanisms with externally supplied fields. [Explore effective interactions](/concepts/effective-interactions/) and the [recursive background companion](/framework/recursive-background/).\n\n## The minimal core and the current extension\n\nThe project-wide [minimal locked core](/documents/locked-core/) defines $R=(G,M)$ and $G\\leftrightarrow M$: organization and mode structure considered together.\n\nThe current companion centres the source-direction relation $B_n\\rightarrow R_n\\rightarrow B_{n+1}$: a background supports organization, and that organization may change the background available for what follows. This is a central commitment of the current branch; it does not silently amend the older project-wide lock boundary. “Locked” means explicit change control, not empirical proof.\n\nWhether one law works across repeated levels, or one mathematical equation family describes them all, remains a stronger open question. [Read the framework](/framework/) or [see the research status](/research-status/) when you want the technical distinctions.\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Editorial index of the four mapped concept explanations.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "8460996a6375cc289374fee044373b73889abe9802fec2bf9ec6205e3db6e0a5"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "f19f30d66953552dba483a18521f145f595ef6b5ecf1e076e87726d7b7a08c98"
+      },
+      {
+        "entryId": "DOC-CONCEPT-GEOMETRY",
+        "semanticDigest": "cd3fab0d954873cfca1ec8732771828212a3c74de638f89e685a8bd5314fbd8e"
+      },
+      {
+        "entryId": "DOC-CONCEPT-INTERACTIONS",
+        "semanticDigest": "b37574649d5e6f6d5a8eaea4a0e3a7ffc546b2455b130708fd2d40668ccaa9e4"
+      },
+      {
+        "entryId": "DOC-CONCEPT-RECURSION",
+        "semanticDigest": "2bcfe2db7a3acf322b04b5810479e3dc48d07b34885a6c745a67716be9930ee4"
+      },
+      {
+        "entryId": "DOC-CONCEPT-STABILITY",
+        "semanticDigest": "587a07dfe8ce21b7ed11645cb1da4dc04e2c20f5ad8233d0e2a4db77c7f89cac"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "b50c72eba7e1a1cca702d56418a006597b92fed390c0aed220ac83a78d519dad"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "b01cb5c229d290e266f231b32de6086b0b730c9174ba07c9cb73459ce6e8c00b"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-CELL",
+        "semanticDigest": "bec0fd77f6f6ed7166ad8f02e2163830955925015617d501b044851c0116827d"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "a78d6722af299dce6a2ac2a7f656f4572f1171923f57745ce636edb7036b54ed"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STRING",
+        "semanticDigest": "a590283cbbed9659761fde5efdfcef7287eaff7b9c713154a798078264417c7f"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "06ac4174776842953f509565a54f1c9a8cc772d12639887764ed898e69f1274f"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "baaa09af201d41784717aea75bfbbbeb3dde31e75cabba8923cebc551aa467f0"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "105fc34759b8befd8dd92c8314efb6208cdd0b0ca29a5d392a0c9ee8be28e179"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "aa7f510a90e4363747ca4259df60abf905299ff6187de1a036e135b10a20554f"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "eb1cf2ad9ad70a01644e946e49ad309cf201d47b17b2d941516d3bb83f91b3c0"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "42287668a89338314b920cec1136b3e05762ee5065cb262d77456f9becb62ae7"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "6ebf7586c6c9b273a876e4b411da204fac0b89e6c08c7579d841741bd1067fee"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "866bef808a3a25bc58d6255643b1cbe7b3ef23cdeb2acd8208add8f7818723b7"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "f3d9c2742ff7560aca297bc6251bd3d0411bc5402e640030462138f7bea49fc1"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "b56cce0161cf4eb7c0c1d51330046d40f7260a6f80bde5a684b206ec3634ac3f"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "bb90d22786c14366d3e16aa6ce520a7f3d98c944408c4e8f7dd114003adeaeb8"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "1c05c58c8d43e95831721fad3cbfa65c52517f085238ac13dec747850076a7e5"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "6237265792cca23f27a6b3df93a922b15782796d7db186f9a0e78b439f25f09c"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "60431299a359df33ca05e73ee4792c9712add8b1d72dd09add609e9deb13ddeb"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "d56befc995151bba55ff6b82a32318160486dde1f019e7091019248803290d6f"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "b7f18296a330666e96e23f44df042f8acd4ea75cf1192752d96c80c25c16419d"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "7fb61ae775157efe7cca0e6115c2f38b8dc46fa70c07e02029d31fd50def0c82"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "76ecc2bed1fa6803cb991bcc5d462bc71199cc3b4d02c92f3ecbc056a75d3aeb"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "6efa4aa4cc5553fff7c29962d996b335994e36f97a8c4a2dd1deeb8ef064ad13"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "4c73509c56d1dacd53a609cf106353650a215335a38e489f6857c93f62448eed"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "179cf3525c1a8d515091fbf761c8d2a874520211f8de4e3523a7e370695b2ec9"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "ad8ef89cf9b2867cb42958c77e91303e1875c4101840d93d639455ff4df212b5",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "dded3c5355eb99eab04030035f2cfafd5893f3cf979e82d64b566f152f7091dc",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "The four questions have examples and exact-definition entrances; current branch commitments are distinguished from the minimal normative lock and empirical establishment. Compared terminology with Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Editorial index of the four mapped concept explanations.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-CONCEPTS.json; The four questions have examples and exact-definition entrances; current branch commitments are distinguished from the minimal normative lock and empirical establishment.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: An illustrative beginner explanation mapped to the original supplied RRG documents. ",
+    "hypotheses": "The four questions have examples and exact-definition entrances; current branch commitments are distinguished from the minimal normative lock and empirical establishment. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "The four questions have examples and exact-definition entrances; current branch commitments are distinguished from the minimal normative lock and empirical establishment. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "The four questions have examples and exact-definition entrances; current branch commitments are distinguished from the minimal normative lock and empirical establishment. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Editorial index of the four mapped concept explanations.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

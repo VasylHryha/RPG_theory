@@ -1,0 +1,217 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-RECURSION",
+  "fingerprint": "74e6ba5894ab7352d99f160efc64aa3c08bd4b3d078fa67abd9b3b36e60ed702",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Active heterogeneous parts and scale-dependent mechanisms remain; descriptive reduction and physical environmental change are separate branches, with no mandatory replication or ladder.",
+  "inputs": {
+    "fingerprint": "74e6ba5894ab7352d99f160efc64aa3c08bd4b3d078fa67abd9b3b36e60ed702",
+    "ownRead": {
+      "id": "DOC-CONCEPT-RECURSION",
+      "route": "/concepts/recursion/",
+      "title": "Recursion and scale",
+      "description": "A whole can become a useful part while its components stay active.",
+      "revision": 3,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD",
+        "R-CURRENT-BACKGROUND"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "UT-C02",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08",
+        "UT-D09",
+        "UT-O102"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## In ordinary words\n\nAn organized whole can participate in another organization. Its internal activity continues even when the next description treats it as one useful unit. RRG calls this structural recursion.\n\n## A concrete example\n\nThe [molecule example](/examples/molecule/) begins with atoms and their connections. A molecule can enter a larger chemical arrangement. A [cell](/examples/cell/) can participate in a tissue while exchanges and reactions continue inside it. These systems have different mechanisms; the shared description does not require identical equations at every scale.\n\n**Scale** means a level at which a collective organization can function as an effective unit in further interactions. It involves characteristic times, dominant interactions and useful descriptions, as well as size. It is not a claim that all levels are equally spaced or every larger process is slower.\n\n## The source definitions\n\n::claim{id=\"UT-D05\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D06\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D08\" view=\"plainLanguage\"}\n\nThe proposed cycle is compatible parts → collective organization → a useful unit → further combinations. Its environment can also change which combinations are accessible. The cycle illustration represents a research proposal, not a measurement or guaranteed history.\n\n## A unit and a changed background are different roles\n\nTreating a molecule as one participant changes our description. A living population changing a culture's acidity changes the physical conditions. Neither operation automatically establishes the other.\n\nThe current [background proposal](/framework/recursive-background/) asks how these roles can connect. It also asks where the first units come from: transient arrangements arise in an active background; some may persist through feedback. This is a source hypothesis, not an observed universal history or a fixed upward ladder.\n\n## Copying is one possible mechanism\n\n::claim{id=\"UT-D09\" view=\"plainLanguage\"}\n\nReplication, aggregation and self-assembly can participate in formation or propagation. Duplication is optional in the locked core. The stronger questions of a predictive cross-domain criterion and spontaneous promotion remain open.\n\n[Explore effective interactions](/concepts/effective-interactions/) · [All concepts](/concepts/)\n",
+      "sourceMapping": "Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§5–9, 11; world §§4, 8–9, 14 and background addendum; framework §§3, 15–16, 22–23. Current 04 §§2–4, 11–12: source emergence, physical environmental change and descriptive reduction are separate.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "8460996a6375cc289374fee044373b73889abe9802fec2bf9ec6205e3db6e0a5"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "b50c72eba7e1a1cca702d56418a006597b92fed390c0aed220ac83a78d519dad"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "b01cb5c229d290e266f231b32de6086b0b730c9174ba07c9cb73459ce6e8c00b"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "06ac4174776842953f509565a54f1c9a8cc772d12639887764ed898e69f1274f"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "baaa09af201d41784717aea75bfbbbeb3dde31e75cabba8923cebc551aa467f0"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "105fc34759b8befd8dd92c8314efb6208cdd0b0ca29a5d392a0c9ee8be28e179"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "42287668a89338314b920cec1136b3e05762ee5065cb262d77456f9becb62ae7"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "866bef808a3a25bc58d6255643b1cbe7b3ef23cdeb2acd8208add8f7818723b7"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "d56befc995151bba55ff6b82a32318160486dde1f019e7091019248803290d6f"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "4eda1bb65b74ff7b0ac2f61dce1a5475318a2dc61acbac3fa1d63e54d282e569",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "10a0cc769060b62231182fc88feb718d01c6893f9f7af7c443a83c0fae6399b9",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Active heterogeneous parts and scale-dependent mechanisms remain; descriptive reduction and physical environmental change are separate branches, with no mandatory replication or ladder. Compared terminology with Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§5–9, 11; world §§4, 8–9, 14 and background addendum; framework §§3, 15–16, 22–23. Current 04 §§2–4, 11–12: source emergence, physical environmental change and descriptive reduction are separate.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-CONCEPT-RECURSION.json; Active heterogeneous parts and scale-dependent mechanisms remain; descriptive reduction and physical environmental change are separate branches, with no mandatory replication or ladder.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: An illustrative beginner explanation mapped to the original supplied RRG documents. ",
+    "hypotheses": "Active heterogeneous parts and scale-dependent mechanisms remain; descriptive reduction and physical environmental change are separate branches, with no mandatory replication or ladder. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Active heterogeneous parts and scale-dependent mechanisms remain; descriptive reduction and physical environmental change are separate branches, with no mandatory replication or ladder. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Active heterogeneous parts and scale-dependent mechanisms remain; descriptive reduction and physical environmental change are separate branches, with no mandatory replication or ladder. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared Carried-forward core/foundation meanings and owner-selected v0.2.1 companion; current evidence/status links migrated. Core §§5–9, 11; world §§4, 8–9, 14 and background addendum; framework §§3, 15–16, 22–23. Current 04 §§2–4, 11–12: source emergence, physical environmental change and descriptive reduction are separate.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

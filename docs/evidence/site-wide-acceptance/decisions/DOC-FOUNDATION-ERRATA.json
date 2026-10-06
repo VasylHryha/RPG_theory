@@ -1,0 +1,93 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-FOUNDATION-ERRATA",
+  "fingerprint": "da8ab872fc1e39aabbfdf7b05a31d11abe95ae4d39ce47f3d7e9d4aae52a240b",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "The exact action/potential and formatting errata are available from mathematics. Repaired obsolete package-parity context while retaining archive exclusion and unverified independent backup.",
+  "inputs": {
+    "fingerprint": "da8ab872fc1e39aabbfdf7b05a31d11abe95ae4d39ce47f3d7e9d4aae52a240b",
+    "ownRead": {
+      "id": "DOC-FOUNDATION-ERRATA",
+      "route": "/documents/foundation-errata/",
+      "title": "Errata for older foundation snapshots",
+      "description": "Compatibility notes for the older bundled foundation snapshots. They are source-reported notes, not changes to the carried-forward repository core or an independent mathematical review.",
+      "revision": 3,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-FOUNDATIONS-ERRATA-MD"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "sourceSha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f",
+        "startLine": 3,
+        "endLine": 18,
+        "excerptSha256": "884c6d44cc9e5cec49ebc39bf263d680e61a59633fd5f5b3edd4aa999a588cce"
+      },
+      "statement": "**2 October 2026 · accompanies RRG v0.2.1**\n\nFiles 01–03 in this folder are preserved byte-for-byte from the retrieved foundation snapshots. They are historical sources of terminology, not a newly recertified evidence publication. This note records known compatibility issues without silently rewriting them.\n\n| Location | Issue | Current treatment |\n|---|---|---|\n| 01–03: geometry and mode definitions | Core definitions need continuity | Retain \\(R=(G,M)\\) and full mode structure, not scalar frequency alone. |\n| 02 §23 and §24; 03 §40 | A proof-first model program and qualitative confidence labels are presented as project direction | Current direction is publication/evidence-first; model building remains optional. Qualitative self-assessment is not validation. |\n| 02 §23; 03 recursive-closure sections | Same-family mathematical closure is stronger than the author’s abstract recursive proposal | Retain as an optional stronger conjecture, not a publication prerequisite or proven identity. |\n| 03 §§7 and related adaptive-network examples | Compatibility is inserted into an edge-update law | It is an explicit model assumption, not a derivation that compatible structures necessarily reinforce one another. |\n| 03 §§27–28, 35–39 | Action, potential energy, stationary candidates, forces and frequency spectra are compressed into one notation | Specify the dynamical/variational setting. A general action cannot simply be treated as a static potential. Stability needs a separate dynamical test. See audited 04 §24. |\n| 03 §39 | A display equation is missing its closing `\\]` after the displayed force expression | Formatting defect retained in the immutable snapshot; insert the delimiter before “defines the restoring/driving interaction” in any newly typeset derivative edition. |\n| 02 cosmological chronology and citations; 03 recent fundamental-physics references | Not all source claims were freshly verified in this audit | Do not present these as part of the 22 audited case cards. A separate review is needed before reusing their detailed claims in a current public evidence section. |\n| Original README | Reading order stops at 03 | The new root README is the current index; the original is retained under `archive/`. |\n\nThe numerical source-model branch is corrected in current 05. No claim is made that these foundation snapshots, or their sources, were changed in the user’s Library or Project.\n",
+      "plainLanguage": "Compatibility notes for the older bundled foundation snapshots. They are source-reported notes, not changes to the carried-forward repository core or an independent mathematical review.",
+      "scope": "Compatibility notes for the older bundled foundation snapshots. They are source-reported notes, not changes to the carried-forward repository core or an independent mathematical review.",
+      "evidenceState": "not-applicable",
+      "body": "## Historical archive availability\n\nReferences to `archive/` in this source describe historical companion material. Those files are excluded from this website and its publication ZIP. The owner-supplied original bundle has been captured privately: its ten current scientific documents match the selected edition, and its inner package checks pass. The outer checksum manifest contains a self-hash discrepancy; off-machine backup is not verified. This is provenance comparison, not a new scientific approval. Repository predecessor readings remain explicitly historical in the [document library](/documents/).\n",
+      "sourceMapping": "ERRATA.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "10321c581bcdb331601315bee4672028997ac2602599909bf1c6283bc6019163",
+        "plainLanguageSha256": "3469b4dcee67f467e70dfedef02be4afb4d032cd7bbda80172065732b2cd7906",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "a1507cc872c52096f78b81300b3b6af42789a0653e9621b66906468c46e793b3",
+        "plainLanguageSha256": "3469b4dcee67f467e70dfedef02be4afb4d032cd7bbda80172065732b2cd7906",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "The exact action/potential and formatting errata are available from mathematics. Repaired obsolete package-parity context while retaining archive exclusion and unverified independent backup. Compared terminology with ERRATA.md; exact raw excerpt, with disclosed presentation adapters.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-FOUNDATION-ERRATA.json; The exact action/potential and formatting errata are available from mathematics. Repaired obsolete package-parity context while retaining archive exclusion and unverified independent backup.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: Compatibility notes for the older bundled foundation snapshots. They are source-reported notes, not changes to the carried-forward repository core or an independent mathematical review. ",
+    "hypotheses": "The exact action/potential and formatting errata are available from mathematics. Repaired obsolete package-parity context while retaining archive exclusion and unverified independent backup. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "The exact action/potential and formatting errata are available from mathematics. Repaired obsolete package-parity context while retaining archive exclusion and unverified independent backup. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "The exact action/potential and formatting errata are available from mathematics. Repaired obsolete package-parity context while retaining archive exclusion and unverified independent backup. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; source-bound. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared ERRATA.md; exact raw excerpt, with disclosed presentation adapters.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

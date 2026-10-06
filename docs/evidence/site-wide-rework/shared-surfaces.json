@@ -1,0 +1,48 @@
+{
+  "candidateCommit": "1f10c562234ba50d159567f1eebf4987c8249198",
+  "candidateDirty": true,
+  "candidateInputsSha256": "cf0fd59c7467851415366dfe3f09a1d24160864a2c1c7a8664b0246b95b9c08b",
+  "surfaces": [
+    {
+      "surface": "Main navigation and footer links",
+      "disposition": "Keep",
+      "reason": "Six primary choices and clear reader task names retain keyboard/no-JS paths at both bases; footer supplies About, deeper articles, Sources, Cite, Rights and Contribute."
+    },
+    {
+      "surface": "Research-draft banner and record roles",
+      "disposition": "Keep",
+      "reason": "Visible proposal/draft status is distinct from source fidelity; evidence, illustration, definition and open hypothesis retain local role and scope."
+    },
+    {
+      "surface": "Per-page title, description, canonical, social, structured metadata",
+      "disposition": "Edit",
+      "reason": "Changed entry titles/descriptions/revisions flow through shared metadata and audited selected identity; no stale head/social copy or relabelled preview."
+    },
+    {
+      "surface": "Indexing and sitemap",
+      "disposition": "Keep",
+      "reason": "Owner-selected live indexability retained; actual revised outputs are private previews with noindex/disallow identity. No deployment policy change."
+    },
+    {
+      "surface": "Search excerpts and status",
+      "disposition": "Edit",
+      "reason": "Changed bodies index with scoped result identities; reader roles replace internal not-applicable labels. 68 intended searchable readings; archives and seven library kinds excluded."
+    },
+    {
+      "surface": "Technical guides, TOCs and source details",
+      "disposition": "Edit",
+      "reason": "New reading context is visible before exact source; heading links come from actual source headings. Hashes/provenance remain optional and accessible."
+    },
+    {
+      "surface": "Footer rights / About / Legal / CFF / ZIP notices",
+      "disposition": "Keep",
+      "reason": "Approved RRG/Vasyl Hryha/contact, current and 2033 grants, reserved code/data and installed dependency notices remain bound to shared exact metadata."
+    },
+    {
+      "surface": "Responsive layout, math/table overflow and focus",
+      "disposition": "Keep",
+      "reason": "Existing local scroll/focus, loaded KaTeX fonts and five-width mobile/light/dark axe/reflow behavior pass affected representative checks; real AT observation not inferred."
+    }
+  ],
+  "observationScope": "Actual template/code and representative rendered pages read; all selected per-page metadata/output correspondence checked by shared auditor. Human/real AT observations NOT_PERFORMED. Independent acceptance pending."
+}

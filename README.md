@@ -1,6 +1,16 @@
 # Recursive Resonant Geometry (RRG)
 
-Public repository for the Recursive Resonant Geometry (RRG) research publication website and its versioned source documents.
+RRG asks how arrangement and activity support persistent wholes, how those
+wholes become useful units, and how existing organization changes the conditions
+for what can form next. A maintained cell boundary and bacterial changes to a
+culture's acidity give concrete starting points. The wider recursive, force and
+cosmology proposals remain open.
+
+Read [the public introduction](https://vasylhryha.github.io/rrg_theory/start/),
+[explore evidence](https://vasylhryha.github.io/rrg_theory/evidence/), or
+[inspect the original documents](https://vasylhryha.github.io/rrg_theory/documents/).
+Vasyl Hryha maintains the project; contact **vasylhryha.rrg@gmail.com**.
+This repository contains the website and versioned research sources.
 
 ## Current scientific source
 
@@ -23,13 +33,27 @@ The original owner-supplied `RRG_CURRENT.zip` remains preserved as provenance. I
 **The first public research-draft edition is live:**
 [vasylhryha.github.io/rrg_theory](https://vasylhryha.github.io/rrg_theory/).
 
-The v0.2.1 migration and repaired first-test candidate have **bounded separate High acceptance** (R4 §§0.47/0.51). Current documents have readable HTML pages; source links open the corresponding readings and sections. Original files and explanatory exports are labelled separately. The current catalogue contains 22 evidence cases and eight open questions; predecessor records keep their identities and explicit historical status. All 75 current source/display fidelity decisions are accepted and selected for publication; 21 archived decisions remain stale and excluded. The current owner-authorized manual Pages run deployed the corrected RRG homepage/name/contact from main commit `534350e`; seven release browser checks and live availability/identity/404 checks passed. The earlier first-release artifact and evidence remain preserved.
+The live first research-draft edition was deployed from main commit `534350e`
+at the lowercase target above. Its 75 current readings received scoped website
+fidelity acceptance; 21 archived entries remain excluded. The catalogue has
+22 evidence cases and eight open questions. Original files and explanatory
+exports are labelled separately. Prior acceptance is evidence for that edition.
 
-Do not interpret an old successful preview/build receipt as qualification of the promoted source set. See the sole forward plan:
+The expanded presentation in this checkout changes explanations, technical context
+and reading journeys. It received one independent bounded High website-fidelity
+and editorial acceptance at R4 §0.63, including same-session disclosure repairs
+and 75 current decisions. It is **not deployed**. See
+[the acceptance receipt](docs/evidence/site-wide-acceptance/receipt.md) for actual
+qualification, remaining limits and the sole
+[R4 tracker](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md), §§0.60–0.63.
+The [live release receipt](docs/evidence/rrg-theory-address/receipt.md) remains
+preserved alongside the earlier first-release evidence.
 
-[docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md)
-
-Current evidence is in [the RRG homepage and publication receipt](docs/evidence/rrg-theory-address/receipt.md); the [first public release receipt](docs/evidence/first-public-release/receipt.md) remains preserved. The corrected RRG homepage/name/contact and lowercase address were deployed from main commit `534350e` with seven release browser checks and a passing live smoke. Human comprehension/listening, screen-reader observations, original-package provenance and a fully passing broad regression campaign remain incomplete; they are not reported as passed. Earlier migration/R2 acceptance remains preserved. Custom domain/DNS is deferred until project approval.
+Human comprehension and screen-reader observations are not performed. The
+original supplied bundle has been captured and compared privately; an outer
+checksum self-hash discrepancy is recorded, and off-machine backup is unverified.
+Earlier broad regression failures are not reported as passed. Custom domain/DNS
+is deferred until project approval.
 
 ## Local development
 
@@ -72,7 +96,7 @@ Current source admission verifies bytes only. It does not certify the theory or 
 
 Public repository visibility is not the same as a qualified research release.
 
-The selected 75-page first test edition has recorded fidelity, identity, rights,
+The live 75-page first test edition has recorded fidelity, identity, rights,
 scoped privacy and explicit owner publication authorization. The existing
 main-only manual workflow builds, audits and seals the selected output, then
 deploys that uploaded artifact. Further releases retain those shared controls;

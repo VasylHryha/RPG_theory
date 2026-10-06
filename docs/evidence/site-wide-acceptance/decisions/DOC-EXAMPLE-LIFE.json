@@ -1,0 +1,182 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-LIFE",
+  "fingerprint": "4e9ca6e0bbf2c517c91b178fb6d6b4081e6a43fa5969dd9579854d19b4e72e0e",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Supplied cultures, pH facilitation/inhibition/harm and environmental feedback are explained; oxygen accumulation remains conditional. Neither is a new species or universal resonance demonstration.",
+  "inputs": {
+    "fingerprint": "4e9ca6e0bbf2c517c91b178fb6d6b4081e6a43fa5969dd9579854d19b4e72e0e",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-LIFE",
+      "route": "/examples/life-environment/",
+      "title": "Life changes its environment",
+      "description": "An organization can alter conditions for other organisms and reactions.",
+      "revision": 3,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-SOURCE-LINKS",
+        "UT-C02",
+        "UT-D01",
+        "UT-D02"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0062",
+        "BIB-0064",
+        "BIB-0089"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## An existing population changes the next one's conditions\n\nPicture two bacterial populations in a supplied liquid culture. Their growth depends on the acidity of that liquid. As one population changes the pH, it can make conditions more favourable—or less favourable—for another population.\n\nRatzke and Gore report facilitation, inhibition and harmful outcomes through this feedback. [Their pH study](/references/#BIB-0089) is a controlled-culture experiment with a qualitative model. It begins with existing organisms and a supplied environment; it does not observe a new species or the origin of life.\n\n## What acts on what?\n\nThe organisms change the chemical surroundings. Those changed surroundings affect growth. This is a physical feedback relation, rather than simply our choosing to describe a collection as one object.\n\nRRG's background proposal asks how an existing organization changes what can happen next. This experiment supplies a bounded biological connection to that question. It does not measure one universal resonance mechanism shared by every physical scale.\n\n## A broader example: oxygen-producing life\n\nOxygen-producing photosynthesis converts light energy into chemical energy and releases oxygen. Plants, algae and cyanobacteria participate; [OpenStax's photosynthesis overview](/references/#BIB-0062) explains the process. [NASA's oxygen-history report](/references/#BIB-0064) supplies historical context about Earth's changing atmosphere.\n\nOrganisms can alter conditions for other organisms and reactions. Oxygen production alone does not guarantee atmospheric accumulation: consumption, exchanges, resources and history matter. A change can open some possibilities and close others; it does not guarantee a ladder of greater complexity.\n\n## Follow the two roles separately\n\nThe [cell example](/examples/cell/) follows internal maintenance and exchange. Here we follow environmental change. Both matter to RRG's proposed connection, but neither automatically establishes the other or the complete recursive chain. The broader relation remains an [open extension](/claims/UT-C02/).\n\n[Follow the source connections](/evidence/source-links/) · [All examples](/examples/)\n",
+      "sourceMapping": "Current 04 §§4, 13–14 and 08 H06/H09/H13/H17; world §10 and background addendum; framework §§8, 13, 21; core §11. BIB-0089 supplies bounded pH/growth feedback in controlled cultures; BIB-0062/0064 supply supplementary photosynthesis and oxygen-history context. Neither is a new audited catalogue case or universal ladder.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "8460996a6375cc289374fee044373b73889abe9802fec2bf9ec6205e3db6e0a5"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "aa7f510a90e4363747ca4259df60abf905299ff6187de1a036e135b10a20554f"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "42287668a89338314b920cec1136b3e05762ee5065cb262d77456f9becb62ae7"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "6178bbacb30c51b8a23b3a1d2ae8d3d33b366640c38b1f981877034069626688",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "d9c86178a195ec6967a19c283a7eb386a64521afddcda02db8d8cd805c788c70",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Supplied cultures, pH facilitation/inhibition/harm and environmental feedback are explained; oxygen accumulation remains conditional. Neither is a new species or universal resonance demonstration. Compared terminology with Current 04 §§4, 13–14 and 08 H06/H09/H13/H17; world §10 and background addendum; framework §§8, 13, 21; core §11. BIB-0089 supplies bounded pH/growth feedback in controlled cultures; BIB-0062/0064 supply supplementary photosynthesis and oxygen-history context. Neither is a new audited catalogue case or universal ladder.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-EXAMPLE-LIFE.json; Supplied cultures, pH facilitation/inhibition/harm and environmental feedback are explained; oxygen accumulation remains conditional. Neither is a new species or universal resonance demonstration.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: An illustrative beginner explanation mapped to the original supplied RRG documents. ",
+    "hypotheses": "Supplied cultures, pH facilitation/inhibition/harm and environmental feedback are explained; oxygen accumulation remains conditional. Neither is a new species or universal resonance demonstration. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Supplied cultures, pH facilitation/inhibition/harm and environmental feedback are explained; oxygen accumulation remains conditional. Neither is a new species or universal resonance demonstration. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Supplied cultures, pH facilitation/inhibition/harm and environmental feedback are explained; oxygen accumulation remains conditional. Neither is a new species or universal resonance demonstration. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References BIB-0062, BIB-0064, BIB-0089 retain registered verification scope.",
+    "sourceMappings": "Compared Current 04 §§4, 13–14 and 08 H06/H09/H13/H17; world §10 and background addendum; framework §§8, 13, 21; core §11. BIB-0089 supplies bounded pH/growth feedback in controlled cultures; BIB-0062/0064 supply supplementary photosynthesis and oxygen-history context. Neither is a new audited catalogue case or universal ladder.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

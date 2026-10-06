@@ -69,8 +69,11 @@ own terms, and dependency licenses do not license the project.
 The existing repository is `VasylHryha/rrg_theory`. GitHub Pages uses Actions,
 HTTPS and the `github-pages` environment with a main-branch policy. The first
 owner-authorized public test edition was released on 6 October 2026. The selected
-75 current readings have scoped fidelity acceptance; 21 archived entries remain
-stale and excluded. Later changes can invalidate affected decisions.
+75 current readings had scoped fidelity acceptance for that edition; 21 archived
+entries remain stale and excluded. The combined presentation at R4 §§0.60–0.62 received its one independent bounded
+High website-fidelity/editorial acceptance in §0.63 and is not deployed. See
+`docs/evidence/site-wide-acceptance/receipt.md` for actual qualification and limits.
+Later changes can invalidate affected decisions.
 
 One workflow, `.github/workflows/site.yml`, has read-only PR checks and a manual
 main-only verify → prepare → deploy publication operation. Only the deploy job

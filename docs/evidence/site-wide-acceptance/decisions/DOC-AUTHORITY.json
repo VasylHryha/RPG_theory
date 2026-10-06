@@ -1,0 +1,93 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-AUTHORITY",
+  "fingerprint": "cbe0617a7be0f1a9bb61abbd91d18e92992870a9d9146f148640b84eaa0e0946",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Exact promotion record remains unchanged and its historic blocked-publication sentence is contextualized; current identity and live/candidate stages remain distinct.",
+  "inputs": {
+    "fingerprint": "cbe0617a7be0f1a9bb61abbd91d18e92992870a9d9146f148640b84eaa0e0946",
+    "ownRead": {
+      "id": "DOC-AUTHORITY",
+      "route": "/documents/source-authority/",
+      "title": "Source authority and edition",
+      "description": "How the selected v0.2.1 companions, carried-forward minimal core and repository foundations, and historical materials relate.",
+      "revision": 2,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-AUTHORITY",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-AUTHORITY",
+        "sourceSha256": "5bbec0436a67a9200745eeba85c8484f67fc845f67980267f57fab14fc5b343e",
+        "startLine": 3,
+        "endLine": 29,
+        "excerptSha256": "a85bd147e19e3129704f87df09f41be761250d8870b9f91661218f3737cab0b8"
+      },
+      "statement": "**Current repository edition:** RRG v0.2.1 repository current  \n**Promoted:** 2026-10-05  \n**Audited companion source:** RRG v0.2.1, 2026-10-02\n\nThe owner has explicitly selected the audited v0.2.1 documents to replace the prior active publication/research set in this repository.\n\n## Authority order\n\n1. `00_LOCKED_CORE.md` remains the minimal normative core and is carried forward unchanged from the prior repository edition.\n2. `05_CHANGE_CONTROL.md` remains the core-change protocol and is carried forward unchanged.\n3. `01_world_explanation.md`, `02_scientific_framework.md`, and `03_mathematical_core.md` remain the repository's carried-forward current foundation documents until explicitly revised. The v0.2.1 package's byte-preserved older foundation snapshots are retained separately under `foundations/` for provenance and comparison; they do not replace the newer repository foundation documents.\n4. `04_recursive_background_generation.md`, `05_mathematical_source_model.md`, `06_evidence_catalog.md`, `07_audit_report.md`, `08_claim_coverage.md`, `README.md`, `CHANGELOG.md`, and `sources.json` are the promoted audited v0.2.1 publication/evidence companion.\n5. Files under `foundations/` and `checks/` are supporting provenance/audit material, not additional normative definitions. The audited package's internal archive remains preserved in GPT Library rather than duplicated into the active source tree.\n\n## Replacement boundary\n\nThe predecessor repository-current set from 2026-10-01 is preserved under:\n\n`research/history/repository-current-2026-10-01/`\n\nIts former active status/proof/evidence files are superseded by the v0.2.1 current companions. They must not be used as current authority merely because older website mappings still reference them.\n\n## Website state after replacement\n\nThis source promotion intentionally invalidates source-bound website fingerprints and mappings that refer to the superseded files. Public qualification remains blocked until publication records, source keys, evidence IDs, citations and dependent pages are rebound to this edition and reviewed once against the stabilized corpus.\n\nThe source replacement does not itself grant scientific validation, publication rights, a license, or Pages deployment approval.\n",
+      "plainLanguage": "## Website context for this dated source record\n\nThe original authority record below describes the source promotion and the rebind work required at that time. That website migration and the first public release were completed on 6 October 2026. Its sentence about blocked publication is a preserved historical transition note, not the current deployment status.\n\nThe scientific authority boundary is unchanged: the minimal core and carried-forward foundations coexist with the selected audited companions. [Cite this website edition](/cite/) for current release identity; [read the rights](/legal/) for current permissions. The original source download retains its exact bytes.\n",
+      "scope": "How the selected v0.2.1 companions, carried-forward minimal core and repository foundations, and historical materials relate.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "SOURCE_AUTHORITY.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-AUTHORITY",
+        "path": "research/RRG_CURRENT/SOURCE_AUTHORITY.md",
+        "sha256": "5bbec0436a67a9200745eeba85c8484f67fc845f67980267f57fab14fc5b343e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "2770c3974eb6a6105d4f753d9667d3e6a3faa065dbb317df636b401f7cf9b914",
+        "plainLanguageSha256": "0a554dda4813d07aa1b86d1d630f1208df2c0980770aaa0b97c54d9d14366639",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "2770c3974eb6a6105d4f753d9667d3e6a3faa065dbb317df636b401f7cf9b914",
+        "plainLanguageSha256": "2f9483a2f8994dbf0377dc8768c85c3e3a24e6c59ee1570e45f99463acf3137c",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Exact promotion record remains unchanged and its historic blocked-publication sentence is contextualized; current identity and live/candidate stages remain distinct. Compared terminology with SOURCE_AUTHORITY.md; exact raw excerpt, with disclosed presentation adapters.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-AUTHORITY.json; Exact promotion record remains unchanged and its historic blocked-publication sentence is contextualized; current identity and live/candidate stages remain distinct.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: How the selected v0.2.1 companions, carried-forward minimal core and repository foundations, and historical materials relate. ",
+    "hypotheses": "Exact promotion record remains unchanged and its historic blocked-publication sentence is contextualized; current identity and live/candidate stages remain distinct. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Exact promotion record remains unchanged and its historic blocked-publication sentence is contextualized; current identity and live/candidate stages remain distinct. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Exact promotion record remains unchanged and its historic blocked-publication sentence is contextualized; current identity and live/candidate stages remain distinct. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; source-bound. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared SOURCE_AUTHORITY.md; exact raw excerpt, with disclosed presentation adapters.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

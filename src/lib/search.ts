@@ -11,8 +11,9 @@ export function searchable(entry: Entry) {
   return entry.publicationState === 'published' && !['library','about','contribute','licensing'].includes(entry.kind);
 }
 export function searchStatus(entry: Entry) {
-  const roles:Record<string,string>={definition:'Definition',conjecture:'Conjecture',evidence:'Source-reported evidence',prediction:'Prediction', 'open-problem':'Open question'};
-  return `${roles[entry.kind] ?? 'Website reading'}; ${entry.evidenceState === 'project-reproduced' ? 'recorded project reproduction' : entry.evidenceState === 'proposed' ? 'proposed; not established' : entry.evidenceState === 'project-reported' ? 'evidence reported by supplied sources' : entry.evidenceState}; ${entry.publicationState}`;
+  const roles:Record<string,string>={definition:'Definition',conjecture:'Open hypothesis',evidence:'Source-reported evidence',prediction:'Prediction','open-problem':'Open question',example:'Illustrative example',concept:'Concept explanation',article:'Explanatory article',framework:'Framework reading',mathematics:'Mathematical reading','research-status':'Research status'};
+  const states:Record<string,string>={'project-reproduced':'recorded project reproduction',proposed:'proposed; not established','project-reported':'evidence reported by supplied sources','external-supported':'external support within stated scope',contested:'contested evidence'};
+  return [roles[entry.kind] ?? 'Website reading',states[entry.evidenceState],entry.publicationState==='published'?'current research draft':entry.publicationState].filter(Boolean).join('; ');
 }
 export function searchAttributes(entry: Entry) {
   return searchable(entry) ? {'data-pagefind-body':'','data-pagefind-meta':'title[data-search-title], status[data-search-status], scope[data-search-scope]', 'data-search-title':entry.title,'data-search-status':searchStatus(entry),'data-search-scope':entry.limits || entry.scope} : {};

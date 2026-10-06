@@ -13,29 +13,16 @@ const historical=isHistorical(entry);
 const html = historical?'':await renderEntry(corpus,entry,activeConfig().basePath);
 const status = historical?undefined:publicationEntry('DOC-STATUS').entry;
 const statusHTML = status?renderHomeStatus(corpus,status,activeConfig().basePath):'';
-const start = withBase('/start/', activeConfig().basePath);
 
 ---
 {historical ? <CanonicalPage id={entry.id} /> : <ReadingLayout title={entry.title} description={entry.description} route="/" math={requiresMathStyles(html + statusHTML)}>
   <section class="hero shell" aria-labelledby="research-question">
-    <div><p class="eyebrow">Recursive Resonant Geometry (RRG) · Research proposal</p>
+    <div><p class="eyebrow">Recursive Resonant Geometry (RRG) · A proposed scientific framework</p>
       <h1 id="research-question" set:html={renderHomeHeading(entry.title)} />
-      <p class="hero-lede">{entry.description}</p>
-      <a class="button" href={start}>Start with the idea <span aria-hidden="true">→</span></a>
-      <p class="reading-note">A short introduction · No technical background needed</p>
+      <div class="prose home-narrative" data-canonical-body={entry.id} {...searchAttributes(entry)} set:html={html} />
     </div>
-  </section>
-  <section class="reading-section shell"><div class="margin-label"><span>01 / The idea</span><p>From something familiar<br />to a research question.</p></div><div class="prose"><div data-canonical-body={entry.id} {...searchAttributes(entry)} set:html={html} /><Fragment set:html={renderBeginnerDiagram(entry.id)} /></div></section>
-  <section class="pathways shell" aria-labelledby="explore-title">
-    <div class="section-heading"><p class="eyebrow">Three examples</p><h2 id="explore-title">Explore the idea.</h2></div>
-    <div class="pathway-grid">
-      <a class="pathway" href={withBase('/examples/string/',activeConfig().basePath)}><span class="pathway-number">01 / A string</span><h3>What can arrangement constrain? <span aria-hidden="true">↗</span></h3><p>Its ends, tension and material shape the motions it can support.</p><span class="pathway-state">Explore the string</span></a>
-      <a class="pathway" href={withBase('/examples/molecule/',activeConfig().basePath)}><span class="pathway-number">02 / A molecule</span><h3>When is a whole useful as a unit? <span aria-hidden="true">↗</span></h3><p>Connected atoms can act together while retaining internal structure.</p><span class="pathway-state">Explore the molecule</span></a>
-      <a class="pathway" href={withBase('/examples/life-environment/',activeConfig().basePath)}><span class="pathway-number">03 / Life</span><h3>How does organization change conditions? <span aria-hidden="true">↗</span></h3><p>Living systems alter their surroundings, changing what can happen next.</p><span class="pathway-state">Explore life and environment</span></a>
-    </div>
-    <p class="reading-note"><a href={withBase('/examples/',activeConfig().basePath)}>All six examples</a></p>
   </section>
   <section class="reader-context shell"><div class="prose" data-home-context set:html={renderHomeContext(corpus,entry,activeConfig().basePath)} />
-    <details class="source-details"><summary>Source notes</summary><p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} /><div class="prose" data-source-projection={status!.id} set:html={statusHTML} /><p><a href={withBase('/references/',activeConfig().basePath)}>Browse the references</a></p></details>
+    <details class="source-details"><summary>Source notes</summary><p class="reading-note" data-editorial-state={entry.id} set:html={renderEditorialState(corpus,entry)} /><Fragment set:html={renderBeginnerDiagram(entry.id)} /><div class="prose" data-source-projection={status!.id} set:html={statusHTML} /><p><a href={withBase('/references/',activeConfig().basePath)}>Browse the references</a></p></details>
   </section>
 </ReadingLayout>}

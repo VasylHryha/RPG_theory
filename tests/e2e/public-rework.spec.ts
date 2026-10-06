@@ -7,11 +7,11 @@ test('public rework reader journey keeps six primary choices, scoped evidence an
  const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:1440,height:1000}}),page=await context.newPage();
  await page.goto(base);
  await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link')).toHaveText(['Start','Concepts','Evidence','Research','Documents','Search']);
- await expect(page.locator('[data-home-context]')).toContainText('low-absorption selection');
+ await expect(page.locator('[data-canonical-body] p').first()).toContainText('Some bacteria change the acidity');
  await expect(page.locator('[data-source-projection]')).not.toBeVisible();
  await page.keyboard.press('Tab');await expect(page.getByRole('link',{name:'Skip to content'})).toBeFocused();
  await page.keyboard.press('Enter');await expect(page.locator('main')).toBeFocused();
- await page.getByRole('link',{name:'Start with the idea'}).click();
+ await page.getByRole('link',{name:'Follow the explanation',exact:false}).click();
  await expect(page.locator('[data-canonical-body]')).toContainText('Recursive Resonant Geometry');
  await expect(page.locator('main')).not.toContainText('Unity Theory');
  await expect(page.locator('main')).not.toContainText('author approval pending');

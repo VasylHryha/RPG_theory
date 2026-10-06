@@ -1,0 +1,104 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O104",
+  "fingerprint": "f8260b34033b1fc34d7e829efcd30af368662a939b8ea9341fc2587c171b2549",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Exact current 08 open claim and added contribution path agree: A specific candidate relation and constraints are requested; four-force unification remains absent.",
+  "inputs": {
+    "fingerprint": "f8260b34033b1fc34d7e829efcd30af368662a939b8ea9341fc2587c171b2549",
+    "ownRead": {
+      "id": "UT-O104",
+      "route": "/claims/UT-O104/",
+      "title": "Fundamental unification",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 2,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [
+        "DOC-CORE"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e",
+        "startLine": 43,
+        "endLine": 43,
+        "excerptSha256": "4b65dc8e45a6d5ac5149b1e867f3a183406a62c0a1e767faf3720fd53778a8d4"
+      },
+      "statement": "**O4 — Fundamental unification.** A deeper common generator might account for the known interactions. Existing synchronization, optical binding or effective-Hamiltonian results do not derive that claim. It remains part of the author’s ambition rather than being removed for lack of proof.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "## Investigate one part\n\nChoose one proposed relation to a fundamental interaction and state the equations and physical constraints it would need to satisfy. Existing collective interaction cases can motivate that work, but do not derive the four forces from RRG. The source leaves the broad unification question open; it supplies no completed universal calculation.\n\nBring a source passage, model, result or objection to [the contribution route](/about/#contribute). You can address this question without accepting the entire proposal. Read [all open questions](/open-problems/) for the surrounding programme.\n",
+      "sourceMapping": "v0.2.1 open claim O4; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "b01cb5c229d290e266f231b32de6086b0b730c9174ba07c9cb73459ce6e8c00b"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "2a6d06f894b8e87d5220b9309750345d7e7f2772929dafaf832978bcd8cec495",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "658642a74c9da853baec6f472c7647c9632cc6e07ecfcfa0602361dca4e3675f",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Exact current 08 open claim and added contribution path agree: A specific candidate relation and constraints are requested; four-force unification remains absent. Compared terminology with v0.2.1 open claim O4; predecessor UT-O IDs remain historical.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/UT-O104.json; Exact current 08 open claim and added contribution path agree: A specific candidate relation and constraints are requested; four-force unification remains absent.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: Source-reported open claim, not a demonstrated result or a required proof before publication. ",
+    "hypotheses": "Exact current 08 open claim and added contribution path agree: A specific candidate relation and constraints are requested; four-force unification remains absent. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Exact current 08 open claim and added contribution path agree: A specific candidate relation and constraints are requested; four-force unification remains absent. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Exact current 08 open claim and added contribution path agree: A specific candidate relation and constraints are requested; four-force unification remains absent. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; source-bound. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared v0.2.1 open claim O4; predecessor UT-O IDs remain historical.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-GEOMETRY",
+  "fingerprint": "d04270ab59f3a2fbc7ac753c322f19486632e457e38df7e9cacc11f387e811a6",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Fixed-end patterns retain tension and material conditions; cell reciprocity bridges to exact core definitions. Geometry is broader than shape and modes broader than scalar frequency.",
+  "inputs": {
+    "fingerprint": "d04270ab59f3a2fbc7ac753c322f19486632e457e38df7e9cacc11f387e811a6",
+    "ownRead": {
+      "id": "DOC-CONCEPT-GEOMETRY",
+      "route": "/concepts/geometry-and-modes/",
+      "title": "Geometry and mode structure",
+      "description": "Relationships, constraints and organized activity, before the formal RRG meanings.",
+      "revision": 5,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-EXAMPLE-CELL",
+        "DOC-EXAMPLE-STRING",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Beginner concept explanation mapped to original core §§1–3 and world §§1–2.",
+      "evidenceState": "not-applicable",
+      "body": "## What changes when you fix the ends?\n\nA string fixed at both ends cannot move in every possible pattern. Its length and boundaries constrain the motion; tension and mass per unit length help determine the response. One supported pattern has an arch between the ends; another has an additional stationary point in the middle. Read the [string illustration](/examples/string/).\n\nRRG calls the relevant organization **geometry**. It includes relationships, components and constraints, rather than only visible outline. The **mode structure** describes the organized activity: patterns, relative timing, responses and characteristic times. It is broader than one vibration frequency.\n\n## How the two descriptions connect\n\nA cell makes the reciprocal relation easier to see. Its membrane regulates exchange; ongoing activity helps maintain the membrane and chemical conditions. The arrangement affects activity, and activity can maintain or alter the arrangement. Read the [cell explanation](/examples/cell/).\n\nThis does not make geometry a replacement for physical laws. The string still needs its material and force conditions. Nor must every system vibrate visibly: mode structure may include relaxation, transport or coordinated processes.\n\n## The exact source meanings\n\n::claim{id=\"UT-D01\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D02\" view=\"plainLanguage\"}\n\n::claim{id=\"UT-D03\" view=\"plainLanguage\"}\n\nThe source writes $R=(G,M)$ for an organized system: $G$ denotes its geometry and $M$ its temporal mode structure. This is the framework's definition, not an extra independently established physical law. Neither side is defined as universally first.\n\nContinue with [stability](/concepts/stability/) to ask when an organization persists, or [all concepts](/concepts/) for the reading path.\n",
+      "sourceMapping": "Core §§1–3; world §§1–2. Material and force conditions remain necessary for the string illustration.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "8460996a6375cc289374fee044373b73889abe9802fec2bf9ec6205e3db6e0a5"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-CELL",
+        "semanticDigest": "bec0fd77f6f6ed7166ad8f02e2163830955925015617d501b044851c0116827d"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "a78d6722af299dce6a2ac2a7f656f4572f1171923f57745ce636edb7036b54ed"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STRING",
+        "semanticDigest": "a590283cbbed9659761fde5efdfcef7287eaff7b9c713154a798078264417c7f"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "aa7f510a90e4363747ca4259df60abf905299ff6187de1a036e135b10a20554f"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "42287668a89338314b920cec1136b3e05762ee5065cb262d77456f9becb62ae7"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "6ebf7586c6c9b273a876e4b411da204fac0b89e6c08c7579d841741bd1067fee"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8f58ef3ef64c5106ceac4530b7443fb97b52587acae4db5afbf862b6df278b46"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "866bef808a3a25bc58d6255643b1cbe7b3ef23cdeb2acd8208add8f7818723b7"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "b9b0dfa4a32ffa3c3c9ed8ba8aae9cf675e9c8bf061cf06fb2bac1374ad7ca5f"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "5206a961525d565a18aac4f84d418fadd43e5ac09f8fa3a05839870f7a835631",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "2343ebc0e4bb5a6152605498089a196eb8d48c33d8267f651462e4364c702d73",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Fixed-end patterns retain tension and material conditions; cell reciprocity bridges to exact core definitions. Geometry is broader than shape and modes broader than scalar frequency. Compared terminology with Core §§1–3; world §§1–2. Material and force conditions remain necessary for the string illustration.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-CONCEPT-GEOMETRY.json; Fixed-end patterns retain tension and material conditions; cell reciprocity bridges to exact core definitions. Geometry is broader than shape and modes broader than scalar frequency.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: Beginner concept explanation mapped to original core §§1–3 and world §§1–2. ",
+    "hypotheses": "Fixed-end patterns retain tension and material conditions; cell reciprocity bridges to exact core definitions. Geometry is broader than shape and modes broader than scalar frequency. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Fixed-end patterns retain tension and material conditions; cell reciprocity bridges to exact core definitions. Geometry is broader than shape and modes broader than scalar frequency. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Fixed-end patterns retain tension and material conditions; cell reciprocity bridges to exact core definitions. Geometry is broader than shape and modes broader than scalar frequency. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared Core §§1–3; world §§1–2. Material and force conditions remain necessary for the string illustration.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}

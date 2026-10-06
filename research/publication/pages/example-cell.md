@@ -4,20 +4,23 @@
   "route": "/examples/cell/",
   "title": "Cell: organization through exchange",
   "description": "Maintaining an organization while its components remain active.",
-  "revision": 3,
+  "revision": 4,
   "kind": "example",
   "lang": "en",
   "audience": "general",
   "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-SCIENCE",
     "R-CURRENT-WORLD"
   ],
   "dependsOn": [
+    "DOC-EXAMPLE-LIFE",
+    "UT-D01",
+    "UT-D02",
     "UT-D04",
     "UT-D05",
     "UT-D06",
@@ -41,24 +44,24 @@
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## What to notice
+## Follow a substance across a boundary
 
-A cell exchanges substances with its surroundings. Its membrane regulates passage, while reactions and transport help preserve conditions within it. Some transport follows concentration differences; other transport requires energy. This introductory membrane distinction is explained by [OpenStax's membrane transport explanation](/references/#BIB-0063).
+A cell is surrounded by a membrane. Substances do not all cross that boundary in the same way. Some passage follows a concentration difference; moving material against such a difference needs an appropriate transport mechanism and energy. [Passive transport](/references/#BIB-0063) and [active transport](/references/#BIB-0092) explain the textbook distinction.
 
-## What this illustrates
+Now consider what the boundary changes. It separates conditions inside from those outside and regulates exchange. Internal reactions and transport act within that setting; their activity helps maintain the conditions on which the cell depends. A list of ingredients misses the boundary, the exchanges and the continuing work.
 
-The source describes life as maintained organization, rather than a fixed inventory of atoms. Internal processes continue as materials enter, leave and are replaced. RRG treats the organization and coordinated activity as aspects of the same living system.
+## Arrangement and activity act on one another
 
-The source framework explicitly retains energy conservation and thermodynamic constraints. Active maintenance needs resources and energy flow; describing an organization does not supply them.
+The supplied world explanation treats life as maintained organization. The membrane and internal relationships constrain what processes can happen. Those processes, in turn, participate in maintaining the living system as material enters, leaves and is replaced.
 
-## Maintenance, copying and reproduction
+This is the inward connection RRG describes through geometry and mode structure. Geometry includes the boundary and relationships. Mode structure includes coordinated processes and their timescales; it is not one vibration frequency.
 
-Keeping one cell organized, templating a molecular structure and reproducing a biological cell are different processes. The core allows replication as a possible mechanism, rather than requiring duplication before every higher-level formation. The [recursion concept](/concepts/recursion/) keeps that distinction visible.
+Maintenance requires resources and energy flow. RRG's description does not replace the actual biochemical mechanisms or the thermodynamic accounting.
 
-A cell may also participate in a larger organization while its internal activity remains. This illustrates the whole-as-part question; the historical route from prebiotic chemistry to the first life remains unresolved in the supplied framework.
+## Two outward questions
 
-[All examples](/examples/) · [Start with the idea](/start/)
+The same cell can participate as a unit in a larger organization while reactions continue inside it. Separately, its exchanges can change its surroundings. [Life changing its environment](/examples/life-environment/) follows that second role with a controlled culture example.
 
-## Energy-dependent transport
+Keeping one cell organized, copying a molecular pattern and reproducing a cell are different processes. Replication is optional in the locked core's general account of [recursion](/concepts/recursion/). This example begins with an existing cell; it does not resolve how the first life arose.
 
-[OpenStax active transport](/references/#BIB-0092) gives a direct account of energy-dependent membrane transport. It supplements the passive-transport explanation, which already discusses maintained gradients. Both links are textbook background.
+[Explore stability](/concepts/stability/) · [All examples](/examples/)

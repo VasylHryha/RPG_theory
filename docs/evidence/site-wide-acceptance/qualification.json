@@ -1,0 +1,82 @@
+{
+  "status": "PASS_SELECTED_PRIVATE_QUALIFICATION",
+  "acceptance": "ACCEPTED",
+  "scientificCertification": false,
+  "completeM6Qualification": "INCOMPLETE: preserved full-regression failures and unavailable real AT observations; human comprehension and off-machine backup remain open",
+  "protectedFilesPreserved": 3761,
+  "archivedSidecarsAndDecisionsPreserved": 21,
+  "historicalScientificReviewRegistryPreserved": true,
+  "originalStatementsAndBindingsUnchanged": 75,
+  "artifacts": [
+    {
+      "base": "/rrg_theory/",
+      "output": "dist/site-wide-acceptance-target",
+      "mode": "qualification",
+      "currentSourceQualified": true,
+      "deployEligible": false,
+      "selected": 75,
+      "selectedReviewStates": [
+        "accepted"
+      ],
+      "inputsSha256": "03e41bb727d332486f6151fa4916fee0bf89be4854f3457b70db0af452e392fc",
+      "artifactSha256": "b77d0a8b52bce913b2cc73cbee2a54cd9a73ed01a7042a8a3231c56fb7baaadb",
+      "files": 327,
+      "websiteRelease": "site-2026.10.06-presentation",
+      "releaseAt": "2026-10-06T13:49:47.212Z",
+      "workspaceDirty": true,
+      "commitDescribesInputs": false,
+      "journeys": 6,
+      "additionalAffectedBrowserChecks": 2
+    },
+    {
+      "base": "/",
+      "output": "dist/site-wide-acceptance-root",
+      "mode": "qualification",
+      "currentSourceQualified": true,
+      "deployEligible": false,
+      "selected": 75,
+      "selectedReviewStates": [
+        "accepted"
+      ],
+      "inputsSha256": "03e41bb727d332486f6151fa4916fee0bf89be4854f3457b70db0af452e392fc",
+      "artifactSha256": "3681882944d4b41df00cf82016338eea59bba3d25ec1ff3451f925a9b0a4cbaa",
+      "files": 327,
+      "websiteRelease": "site-2026.10.06-presentation",
+      "releaseAt": "2026-10-06T13:49:47.212Z",
+      "workspaceDirty": true,
+      "commitDescribesInputs": false,
+      "journeys": 6,
+      "additionalAffectedBrowserChecks": 2
+    }
+  ],
+  "deployment": "NOT_PERFORMED",
+  "remainingDeploymentSteps": [
+    "Authorized scoped commit/push of final selected inputs (not requested in this session)",
+    "Clean exact-main CI/release build, audit, seal and short smoke checks via the existing manual owner-controlled publish operation",
+    "Same-artifact upload/deployment and post-deployment availability/nested/404 checks"
+  ],
+  "remainingObservations": {
+    "humanReaderObservations": "NOT_PERFORMED",
+    "realAssistiveTechnologyObservations": "NOT_PERFORMED",
+    "offMachineBackup": "NOT_VERIFIED"
+  },
+  "reusedEvidence": [
+    "docs/evidence/site-wide-rework/verification.json: 97-file zero diagnostics; representative Chromium layouts/mobile/dark/axe/keyboard/math checks with explicit affected reruns",
+    "docs/evidence/site-wide-rework/references.json: existing 92 scoped literature records, not a fresh methods audit",
+    "docs/evidence/public-rework/provenance.json: exact complete original bundle comparison with preserved self-hash exception"
+  ],
+  "failedAttemptsPreserved": [
+    "build-target.log: sandbox IPC refusal",
+    "journeys-target-initial.log: sandbox localhost refusal",
+    "journeys-target-approved.log: unavailable hardcoded browser path",
+    "journeys-selector-failure.log: inspected first download rather than explicitly selected core; corrected inspector only",
+    "Initial preservation bookkeeping expected all 21 archived records in records.yaml; actual split is 18 records plus 3 canonical documents. Corrected count; all original archived objects match."
+  ],
+  "monthlyCampaign": "NOT_RUN; no full-suite PASS claim",
+  "syntaxAndWhitespace": {
+    "status": "PASS",
+    "command": "npm run verify:push",
+    "sourceAudit": "NOT_RUN",
+    "receipt": "docs/evidence/site-wide-acceptance/push-verification.json"
+  }
+}

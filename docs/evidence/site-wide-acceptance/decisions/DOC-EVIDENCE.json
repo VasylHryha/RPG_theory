@@ -1,0 +1,372 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EVIDENCE",
+  "fingerprint": "fce433d81433362d664b2f194ebd5c238b3a2e9800b62f8105da0c8c9bda271d",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-06T13:49:16.666Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Local positive findings precede the full 22-case table. Result type and relation remain independent; E17 and E22 constraints and supplementary cases retain their limits.",
+  "inputs": {
+    "fingerprint": "fce433d81433362d664b2f194ebd5c238b3a2e9800b62f8105da0c8c9bda271d",
+    "ownRead": {
+      "id": "DOC-EVIDENCE",
+      "route": "/evidence/",
+      "title": "Evidence and its scope",
+      "description": "Begin with local mechanisms, partial bridges and comparison cases, then inspect all 22 audited source cases.",
+      "revision": 4,
+      "kind": "research-status",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.2.1 repository current; audited companion 2026-10-02; promoted 2026-10-05",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-AUDIT",
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-CATALOGUE",
+        "DOC-CLAIM-COVERAGE",
+        "DOC-SOURCE-LINKS",
+        "UT-E101",
+        "UT-E102",
+        "UT-E103",
+        "UT-E104",
+        "UT-E105",
+        "UT-E106",
+        "UT-E107",
+        "UT-E108",
+        "UT-E109",
+        "UT-E110",
+        "UT-E111",
+        "UT-E112",
+        "UT-E113",
+        "UT-E114",
+        "UT-E115",
+        "UT-E116",
+        "UT-E117",
+        "UT-E118",
+        "UT-E119",
+        "UT-E120",
+        "UT-E121",
+        "UT-E122"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Source-reported support, mapped claims and the questions that remain open.",
+      "evidenceState": "not-applicable",
+      "body": "## What would evidence for RRG look like?\n\nTwo questions belong together: **what did a study actually do?** And **how far does that result connect to the RRG proposal?** Experiment, simulation and mathematical derivation describe different kinds of result. The connection to RRG is a separate question.\n\n- **Component:** one relevant operation is demonstrated.\n- **Partial bridge:** relevant operations are causally connected within a particular system.\n- **A stronger bridge to look for:** formed organization changes conditions so a distinct further organization becomes possible.\n- **Recursive evidence to look for:** connected stages repeat across levels under stated dynamics; it is not enough to collect unrelated examples.\n- **Discriminating evidence to look for:** a specified RRG model makes a quantitative prediction that distinguishes it from alternatives.\n\nThe last three describe research goals, not additional achieved ratings. The source catalogue uses component, partial bridge, constraint/comparator and analogy alongside its result types. A supplied apparatus, drive, control rule or selected description remains part of each result.\n\n## Start with these cases\n\n### Arrangement and activity act together\n\n[Atom–cavity self-organization](/claims/UT-E107/) is an **experiment / partial bridge** with mutually coupled matter organization and optical-field dynamics. Atoms, cavity and laser pumping are supplied.\n\n[Colloidal swarmalators](/claims/UT-E108/) are an **experiment / partial bridge** in which phases and positions co-evolve. Feedback control and hydrodynamic coupling are essential context.\n\n### A field changes effective interactions\n\n[Optical binding](/claims/UT-E118/) is an **experiment / partial bridge**: illuminated microspheres form light-mediated bound configurations in an existing medium.\n\n[Random-light interactions](/claims/UT-E119/) combine **experiment and theory / partial bridge**. Measured attraction uses pre-existing spheres and a laser-generated random field. Random does not mean broadband white noise or spontaneous creation of the particles.\n\n### Patterns multiply\n\n[Replicating granular bands](/claims/UT-E120/) are an **experiment / partial bridge** under continued horizontal shaking. Pattern multiplication does not by itself establish successive independent scales. [Chemical spots](/claims/UT-E110/) and [suspension holes](/claims/UT-E111/) offer different physical cases.\n\n### Constraints and alternative mechanisms\n\n[Low-absorption selection](/claims/UT-E117/) is a **constraint** on “strongest resonance always dominates.” The catalogue's simulation account is complemented by experimental evidence in the published report; that portion was not separately method-audited there.\n\n[Nonresonant granular transport](/claims/UT-E122/) is an **experiment / constraint and comparator**. Motion on a driven, nonresonating plate is not automatically evidence for resonance.\n\n### Useful descriptions at another scale\n\n[Collective reduction and memory](/claims/UT-E114/) is a **mathematical derivation / partial bridge**, with microscopic dynamics and resolved variables already chosen. Changing description does not physically create a new medium.\n\n[Controlled amplitude approximation](/claims/UT-E121/) is a **mathematical derivation / partial bridge** near onset for a specified equation. Its environmental heterogeneity is supplied; the result is not an unlimited hierarchy of new physical levels.\n\n## Related cases outside the audited 22\n\nThe [source reading map](/evidence/source-links/) also retains supplementary and recovered literature:\n\n- He's optical assemblies: nested pulse organization in a designed, pumped laser; optical molecules are not chemical molecules.\n- Fu's liposomes: protein–membrane feedback with supplied materials and ATP; the simulated interruption is not an experimental ablation.\n- Godino's Min/liposome work: protein patterns and deformation in synthetic compartments, not a complete reproducing organism.\n- Prindle and Liu's biofilms: distinct electrical/metabolic coordination studies, not one combined experiment or fusion into an organism.\n- Staged DNA assembly: designed assemblies become later building units; no full temporal-mode hierarchy is measured.\n- Ratzke and Gore's pH feedback: facilitation, inhibition and harmful outcomes in supplied cultures.\n- BCS and spin ice: distinct theory and material-platform contexts for effective interactions; no derivation of all fundamental forces.\n\nThese enrich the reading map. **They do not increase the official v0.2.1 catalogue beyond 22 cases.** Follow the map for the paper, exact connection, supplied conditions and recorded read depth; this website has not performed a fresh paper audit.\n\n## What is not established\n\nThere is no demonstrated universal recursive chain, derivation of the Standard Model or gravity, RRG calculation of cosmological expansion, RRG-specific AI benchmark, arbitrary-law engineering or universal monotonic complexity rule. Local successes and finite hierarchies still deserve their stated credit.\n\n[Research status](/research-status/) explains which missing connections and predictions could change confidence. [Claims and their boundaries](/research-status/claims/) preserves the wider proposal.\n\n## Full audited catalogue\n\nThe complete table retains all **22 source cases** and their two separate classifications. Use the named reading to inspect its finding, supplied conditions, limitation and original source. Source case labels belong to the current 06 document; earlier same-looking labels may refer to different studies.\n\n| Source case | Web reading | Result type | RRG relation |\n|---|---|---|---|\n| v0.2.1:E01 | [Mechanical synchronization](/claims/UT-E101/) | experiment | component / constraint |\n| v0.2.1:E02 | [Chladni particle manipulation](/claims/UT-E102/) | experiment | component |\n| v0.2.1:E03 | [Acoustic microparticle trapping](/claims/UT-E103/) | experiment | component |\n| v0.2.1:E04 | [Noise-assisted patterning model](/claims/UT-E104/) | simulation | component |\n| v0.2.1:E05 | [Stationary Turing patterns](/claims/UT-E105/) | experiment | component / comparator |\n| v0.2.1:E06 | [Forced chemical patterns](/claims/UT-E106/) | experiment | partial bridge |\n| v0.2.1:E07 | [Atom–cavity self-organization](/claims/UT-E107/) | experiment | partial bridge |\n| v0.2.1:E08 | [Colloidal swarmalators](/claims/UT-E108/) | experiment | partial bridge |\n| v0.2.1:E09 | [Simulated resonance selection](/claims/UT-E109/) | simulation | partial bridge |\n| v0.2.1:E10 | [Replicating chemical spots](/claims/UT-E110/) | experiment | partial bridge |\n| v0.2.1:E11 | [Replicating suspension holes](/claims/UT-E111/) | experiment | partial bridge |\n| v0.2.1:E12 | [Driven magnetic assembly](/claims/UT-E112/) | experiment | partial bridge |\n| v0.2.1:E13 | [Cooperative RNA networks](/claims/UT-E113/) | experiment | structural analogue / partial bridge |\n| v0.2.1:E14 | [Collective reduction and memory](/claims/UT-E114/) | theory / mathematical derivation | partial bridge |\n| v0.2.1:E15 | [Engineered lattice dynamics](/claims/UT-E115/) | experiment | partial bridge |\n| v0.2.1:E16 | [Confinement-dependent packing](/claims/UT-E116/) | experiment and simulation | component / comparator |\n| v0.2.1:E17 | [Low-absorption selection](/claims/UT-E117/) | simulation; published report also includes experimental evidence | constraint |\n| v0.2.1:E18 | [Optical binding](/claims/UT-E118/) | experiment | partial bridge |\n| v0.2.1:E19 | [Random-light interactions](/claims/UT-E119/) | experiment and theory | partial bridge |\n| v0.2.1:E20 | [Replicating granular bands](/claims/UT-E120/) | experiment | partial bridge |\n| v0.2.1:E21 | [Controlled amplitude approximation](/claims/UT-E121/) | theory / mathematical derivation | partial bridge |\n| v0.2.1:E22 | [Nonresonant granular transport](/claims/UT-E122/) | experiment | constraint / comparator |\n\n## Continue from the evidence\n\n[Inspect the exact catalogue](/evidence/catalogue/) · [Follow a source connection](/evidence/source-links/) · [Explore open questions](/open-problems/) · [Return to the concepts](/concepts/)\n",
+      "sourceMapping": "Selected v0.2.1 companion, evidence catalogue and claim coverage; source-reported findings and limits.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-06",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "8460996a6375cc289374fee044373b73889abe9802fec2bf9ec6205e3db6e0a5"
+      },
+      {
+        "entryId": "DOC-CATALOGUE",
+        "semanticDigest": "4a8a3cdccd24d0345bb4ecd6d584ee46d149991a98354f7b8cd414e65c03ecee"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "f19f30d66953552dba483a18521f145f595ef6b5ecf1e076e87726d7b7a08c98"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "b50c72eba7e1a1cca702d56418a006597b92fed390c0aed220ac83a78d519dad"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "b01cb5c229d290e266f231b32de6086b0b730c9174ba07c9cb73459ce6e8c00b"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "06ac4174776842953f509565a54f1c9a8cc772d12639887764ed898e69f1274f"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "baaa09af201d41784717aea75bfbbbeb3dde31e75cabba8923cebc551aa467f0"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "105fc34759b8befd8dd92c8314efb6208cdd0b0ca29a5d392a0c9ee8be28e179"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "aa7f510a90e4363747ca4259df60abf905299ff6187de1a036e135b10a20554f"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "42287668a89338314b920cec1136b3e05762ee5065cb262d77456f9becb62ae7"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "3514e3a187bafc897f00e476bc08e0a819f1c7af27cbc553e750410b0654a161"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "e555b3534976f9d42f80dff75adb7a6d52b45a877a7165ef33fa38fe8f622874"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "be25f5f0c0835d1bb8c6cebb1e10575007fb0e012535fe061413db0fb136cd14"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "d250c446903b108e902df3b83c92291407d17ace9d37fa325cb802828c8776e4"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "2324b92fdaade7cc0c5624ec42eabbb0de4b12edbc99760c031551bd9e278940"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d64f124559a03061b1fa37533d2b72fb7b749b581074dfec7225f71d69344048"
+      },
+      {
+        "entryId": "UT-E101",
+        "semanticDigest": "0e9df2b644023f9f6582af718513e4e3f26f400b926b721f8abcc2d33153e768"
+      },
+      {
+        "entryId": "UT-E102",
+        "semanticDigest": "28f048e37e47db7be8ca8fa5d00f9cbb1b1594dd0dba01474e779dcaea64e4f9"
+      },
+      {
+        "entryId": "UT-E103",
+        "semanticDigest": "b5cb528ef993cb6e6f04cb8ba3e7e0e5cd15835b417497cb065c5a065230feb3"
+      },
+      {
+        "entryId": "UT-E104",
+        "semanticDigest": "842e58652b263a1c169c3aef99e5d023ba4fcec2693244c534856a2900083250"
+      },
+      {
+        "entryId": "UT-E105",
+        "semanticDigest": "50e17d5fb207a94bc945d79f097fdd735002aea3a5aa3e36bf860f85662b9c7f"
+      },
+      {
+        "entryId": "UT-E106",
+        "semanticDigest": "fd5d5035510fc1983bbd60444653b24e60c4a2bb206fe0370c3a0246933181af"
+      },
+      {
+        "entryId": "UT-E107",
+        "semanticDigest": "3386d5b0f9c0798a8d0926ea2ce16f238e28342eef8dc843d049d44b95aced78"
+      },
+      {
+        "entryId": "UT-E108",
+        "semanticDigest": "9d4b6cab0b82b272bd7c434a0870a819bd044fcbd8a795ef24a5cd7f1a8d47a0"
+      },
+      {
+        "entryId": "UT-E109",
+        "semanticDigest": "100cfc0f8de703859f470688f14c0d28a73f7203a177a30a8e7c1cdc8319a3a7"
+      },
+      {
+        "entryId": "UT-E110",
+        "semanticDigest": "23124295ec8c8b2592e2b1d3d498a8527f2b6a8c7a953998b0a9799fa85aa4fd"
+      },
+      {
+        "entryId": "UT-E111",
+        "semanticDigest": "66c80b47f13c2d3935246ffc17f6dc8c4663acd40419bc6265c55f8809639ff9"
+      },
+      {
+        "entryId": "UT-E112",
+        "semanticDigest": "9d8531ecc3cd3991dfbbc81d8f1a605a5651bc4f1b71010e95583e2e5ade02ce"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "f3d9c2742ff7560aca297bc6251bd3d0411bc5402e640030462138f7bea49fc1"
+      },
+      {
+        "entryId": "UT-E114",
+        "semanticDigest": "99549b367dbd70c1985d6f09e685bfa5cd1a99582893a93418cc7d0830145efe"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "b56cce0161cf4eb7c0c1d51330046d40f7260a6f80bde5a684b206ec3634ac3f"
+      },
+      {
+        "entryId": "UT-E116",
+        "semanticDigest": "f4ee9d31590ea9e6586d601106f04043237b0d0f8885a7da0984d601e64e7496"
+      },
+      {
+        "entryId": "UT-E117",
+        "semanticDigest": "5d588a9dcd040232edccaaead30962cfbb2ca3c7e8439a555eeecb87346ed083"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "bb90d22786c14366d3e16aa6ce520a7f3d98c944408c4e8f7dd114003adeaeb8"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "1c05c58c8d43e95831721fad3cbfa65c52517f085238ac13dec747850076a7e5"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "6237265792cca23f27a6b3df93a922b15782796d7db186f9a0e78b439f25f09c"
+      },
+      {
+        "entryId": "UT-E121",
+        "semanticDigest": "e9881ae203dd96b8623603c2dfb0546b82af7564c56e97eeb9ae864f90fec8ed"
+      },
+      {
+        "entryId": "UT-E122",
+        "semanticDigest": "13445b560d9749f7fa544634442fc77df07a12fcd013e73e185b29763b4bde2b"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "60431299a359df33ca05e73ee4792c9712add8b1d72dd09add609e9deb13ddeb"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "d56befc995151bba55ff6b82a32318160486dde1f019e7091019248803290d6f"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "b7f18296a330666e96e23f44df042f8acd4ea75cf1192752d96c80c25c16419d"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "7fb61ae775157efe7cca0e6115c2f38b8dc46fa70c07e02029d31fd50def0c82"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "76ecc2bed1fa6803cb991bcc5d462bc71199cc3b4d02c92f3ecbc056a75d3aeb"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "6efa4aa4cc5553fff7c29962d996b335994e36f97a8c4a2dd1deeb8ef064ad13"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "4c73509c56d1dacd53a609cf106353650a215335a38e489f6857c93f62448eed"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "179cf3525c1a8d515091fbf761c8d2a874520211f8de4e3523a7e370695b2ec9"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-AUDIT",
+        "path": "research/RRG_CURRENT/07_audit_report.md",
+        "sha256": "222487df50faa457b85d5748a846f728f2c4fd9845b4a33ffac181d6e45ebfa7"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e87a91d6ada03000bf231ebddc6eca0b4c6f31798b5588ebc79c904e69697f47"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "b63eaf69ec9f62085bdafb97536c642eb9d8ea8d2d5f09a377c4fbe28c04568e"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "fe6b33356b24c39e2c09183babee3781432d7775ed64c4c23db24030e28c00ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "f7a167a819063873ac8d6df3d9fb67aa7f4f1ef667c876b5c9531916b6d80d7b"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "b974dbed5e1de522494c645f799873161cd6b0f96666fbc0184df963e1adb807"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "a054dfbd604d53054195122d69c2ec5b8fa70e8fd0a1107d8316ce36e14a3b3a",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "0d5c72f612d99234ececaba07d346a562361eaf9921c0f75c8a203e6bbeb04e9",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Local positive findings precede the full 22-case table. Result type and relation remain independent; E17 and E22 constraints and supplementary cases retain their limits. Compared terminology with Selected v0.2.1 companion, evidence catalogue and claim coverage; source-reported findings and limits.",
+    "meaning": "Individually inspected own explanation/context and genuine prior request docs/evidence/m7/runtime/public-rework/review-requests/DOC-EVIDENCE.json; Local positive findings precede the full 22-case table. Result type and relation remain independent; E17 and E22 constraints and supplementary cases retain their limits.",
+    "assumptions": "Compared stated supplied conditions, scope and limits with mapped original and registered support: Source-reported support, mapped claims and the questions that remain open. ",
+    "hypotheses": "Local positive findings precede the full 22-case table. Result type and relation remain independent; E17 and E22 constraints and supplementary cases retain their limits. Definitions, authored illustrations and source-reported open hypotheses retain their distinct roles; no scientific certification.",
+    "evidenceDescriptions": "Local positive findings precede the full 22-case table. Result type and relation remain independent; E17 and E22 constraints and supplementary cases retain their limits. Unchanged literature inspection depths reused from references.json and the issued predecessor; no new paper-methods or numerical reproduction claimed.",
+    "openQuestions": "Local positive findings precede the full 22-case table. Result type and relation remain independent; E17 and E22 constraints and supplementary cases retain their limits. Compared core extension boundaries and current 08 H01–H23/O1–O8; contributions remain optional and model-specific.",
+    "attribution": "Compared source roles and dated original versus current authored context; authored. References available through source/dependency mappings retain registered verification scope.",
+    "sourceMappings": "Compared Selected v0.2.1 companion, evidence catalogue and claim coverage; source-reported findings and limits.; exact original statement/binding preserved against genuine prior request and source bytes. Final dependency/source closure is retained in inputs. Actual root/target retained displays compared; qualification audits verify resulting final presentation."
+  }
+}
