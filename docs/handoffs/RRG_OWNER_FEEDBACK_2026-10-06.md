@@ -1018,3 +1018,17 @@ the generated list sits above. Reworded.
   - smoke e2e 7/7 on both qualification builds.
 - **Next:** merge to `main`, push, routine CI, manual publish workflow, then
   live checks.
+
+## 19. Deployed (7 Oct 2026)
+
+- **What:** main `2ebebed`, release `site-2026.10.06-v03`, live at
+  https://vasylhryha.github.io/rrg_theory/.
+- **Runs:** routine CI 37534369042 passed; publish 37535094085 passed (verify,
+  prepare, deploy).
+- **Live checks:** home, nested pages, Contents and glossary return 200; a real
+  404 for unknown routes; served build is clean.
+- **Polishing is separate later work.** Open items:
+  - the owner's reader test;
+  - polishing the four new pages;
+  - possible pages: Experiments, Related scientific work, Questions critics ask,
+    What could RRG be useful for.
