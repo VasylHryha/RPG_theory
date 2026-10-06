@@ -20,10 +20,10 @@ Original files and explanatory website exports are distinct.
 For website development, use [README](README.md),
 [CONTRIBUTING](CONTRIBUTING.md) and the sole
 [R4 tracker](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md).
-Sections 0.60–0.63 describe the revised presentation and its bounded acceptance. The live edition
-is the earlier main commit `534350e`; its 75 current readings had scoped fidelity
-acceptance. The revised candidate is local and independently accepted for website fidelity
-and editorial scope; it has not been deployed. The 21 archived readings remain
+Sections 0.60–0.65 describe the revised presentation, bounded acceptance and deployment.
+The live presentation is main commit `1731bc5`; its 75 current readings have scoped
+website fidelity and editorial acceptance. The clean release build and live checks
+passed at §0.65. The 21 archived readings remain
 preserved and excluded from release.
 
 Human comprehension and assistive-technology observations are not performed.

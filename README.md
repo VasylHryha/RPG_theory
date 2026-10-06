@@ -33,7 +33,7 @@ The original owner-supplied `RRG_CURRENT.zip` remains preserved as provenance. I
 **The first public research-draft edition is live:**
 [vasylhryha.github.io/rrg_theory](https://vasylhryha.github.io/rrg_theory/).
 
-The live first research-draft edition was deployed from main commit `534350e`
+The live research-draft presentation was deployed from main commit `1731bc5`
 at the lowercase target above. Its 75 current readings received scoped website
 fidelity acceptance; 21 archived entries remain excluded. The catalogue has
 22 evidence cases and eight open questions. Original files and explanatory
@@ -42,11 +42,12 @@ exports are labelled separately. Prior acceptance is evidence for that edition.
 The expanded presentation in this checkout changes explanations, technical context
 and reading journeys. It received one independent bounded High website-fidelity
 and editorial acceptance at R4 §0.63, including same-session disclosure repairs
-and 75 current decisions. It is **not deployed**. See
+and 75 current decisions. It is **deployed**, with the clean release build and live
+checks recorded at R4 §0.65. See
 [the acceptance receipt](docs/evidence/site-wide-acceptance/receipt.md) for actual
 qualification, remaining limits and the sole
-[R4 tracker](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md), §§0.60–0.63.
-The [live release receipt](docs/evidence/rrg-theory-address/receipt.md) remains
+[R4 tracker](docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md), §§0.60–0.65.
+The [previous release receipt](docs/evidence/rrg-theory-address/receipt.md) remains
 preserved alongside the earlier first-release evidence.
 
 Human comprehension and screen-reader observations are not performed. The
@@ -95,6 +96,8 @@ Current source admission verifies bytes only. It does not certify the theory or 
 ## Publication boundary
 
 Public repository visibility is not the same as a qualified research release.
+
+To deploy an authorized update, open [the publication action](https://github.com/VasylHryha/rrg_theory/actions/workflows/site.yml), click **Run workflow**, select branch **main**, choose operation **publish**, then click **Run workflow**. Pushing runs routine checks; this manual action updates the live site. See [the release procedure](docs/operations/WEBSITE_RELEASE.md).
 
 The live 75-page first test edition has recorded fidelity, identity, rights,
 scoped privacy and explicit owner publication authorization. The existing
