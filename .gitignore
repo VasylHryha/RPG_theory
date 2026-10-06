@@ -6,6 +6,9 @@ playwright-report/
 .idea/
 .DS_Store
 .env*
+# New evidence stays local by default. Keep existing tracked evidence intact;
+# new validator-required decision/approval inputs must be explicitly added.
+/docs/evidence/
 docs/evidence/m7/runtime/
 
 # Local validation captures; retain receipts/decisions but exclude generated copies.
