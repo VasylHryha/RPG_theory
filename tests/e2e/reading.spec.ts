@@ -70,7 +70,7 @@ test('dark-mode reading remains accessible', async ({ page }) => {
   await page.screenshot({ path: `${evidence}/${suffix}-home-dark.png`, fullPage: true });
 });
 
-test('unknown routes return real 404 and nested assets use the configured base', async ({ page, request }) => {
+test('unknown routes return real 404 and nested assets use the configured base', {tag:'@routine'}, async ({ page, request }) => {
   const response = await page.goto(base + 'unknown-page/');
   expect(response?.status()).toBe(404);
   await expect(page.locator('h1')).toContainText('return to the question');

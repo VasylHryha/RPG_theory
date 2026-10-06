@@ -17,7 +17,7 @@ if (mode === 'release') {
   assertBuildAllowed(mode,config,publicationFor(mode,config).admission);
 }
 const configurations = profile === 'push' ? [] : options.config ? [options.config] : routine ? ['tests/fixtures/site-root.json', 'config/site.json'] : ['tests/fixtures/site-root.json', 'tests/fixtures/site-subpath.json', 'config/site.json'];
-const smoke = 'M6 launch search returns|M4 library, article and citation journeys|M5 approved About/contact|M5 policy pages and expanded footer';
+const smoke = '@routine';
 const suffixFor = (path: string) => {
   const base = loadSiteConfig(path).basePath;
   return base === '/' ? 'root' : base === '/unity-theory/' ? 'subpath' : 'target';

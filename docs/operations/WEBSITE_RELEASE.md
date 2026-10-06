@@ -12,11 +12,16 @@ Set the authorized target in the shared `config/site.json`, publication credit/r
 
 Routine pushes and manual `verify` use `npm run verify:ci`: shared current-source,
 content/fidelity and policy checks, Astro diagnostics, root/actual-target builds
-and output audits, and four Chromium journeys per base. CI has a ten-minute job
+and output audits, and six Chromium journeys per base selected by `@routine`.
+These cover search, ZIP/RSS, rights/contact/citation, mobile axe/reflow,
+math fonts/keyboard scrolling and 404/base-path behavior. CI has a ten-minute job
 limit; five minutes is the target, not a measured guarantee. The full content
 regressions, legacy URL fixture, full browser suite and M6 campaign remain in
 `npm run verify`, selected explicitly with operation `qualify` or required by
 `publish`. A routine PASS never counts as full qualification.
+Newer routine checks cancel superseded checks of the same branch; manual
+qualification and publication use separate groups and are never automatically
+cancelled by this rule.
 
 For this checkout, `git config core.hooksPath .githooks` enables the tracked
 pre-push hook. It runs `npm run verify:push` (current sources, content/fidelity

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 const base=process.env.UNITY_TEST_BASE??'/',suffix=base==='/'?'root':'subpath',evidence=process.env.UNITY_EVIDENCE_DIR??'docs/evidence/m6/implementation';
-test('M6 launch search returns real readings with keyboard controls and no-JS browsing',async({browser})=>{
+test('M6 launch search returns real readings with keyboard controls and no-JS browsing',{tag:'@routine'},async({browser})=>{
  const context=await browser.newContext({javaScriptEnabled:false}),page=await context.newPage();
  await page.goto(base+'search/');await expect(page.locator('[data-search-fallback] li')).toHaveCount(68);
  await page.locator('[data-search-fallback]').getByRole('link',{name:'concepts',exact:true}).click();await expect(page.locator('h1')).toContainText('concepts');await context.close();

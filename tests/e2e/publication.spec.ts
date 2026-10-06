@@ -5,7 +5,7 @@ import {publicationAssets,verifyArchive,rssXML} from '../../src/lib/publication-
 import AxeBuilder from '@axe-core/playwright';
 const base=process.env.UNITY_TEST_BASE ?? '/',suffix=base==='/'?'root':'subpath',evidence=process.env.UNITY_EVIDENCE_DIR ?? 'docs/evidence/m4/implementation';
 
-test('M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing',async({browser})=>{
+test('M4 library, article and citation journeys work without JavaScript, with real ZIP download and RSS parsing',{tag:'@routine'},async({browser})=>{
  const context=await browser.newContext({javaScriptEnabled:false,acceptDownloads:true}),page=await context.newPage();
  const info=JSON.parse(readFileSync(`${process.env.UNITY_TEST_OUTPUT}/build-info.json`,'utf8')),s=publicationFor(info.mode,info.config),a=publicationAssets(s,info.config);
  await page.goto(base+'articles/');await expect(page.locator('[data-article-index] h2')).toHaveCount(2);

@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 const base=process.env.UNITY_TEST_BASE ?? '/',evidence=process.env.UNITY_EVIDENCE_DIR ?? 'docs/evidence/m5/implementation',suffix=base==='/'?'root':'subpath';
-test('M5 approved About/contact and scoped research rights journey works without JavaScript and dependency notice is downloadable',async({browser})=>{
+test('M5 approved About/contact and scoped research rights journey works without JavaScript and dependency notice is downloadable',{tag:'@routine'},async({browser})=>{
  const context=await browser.newContext({javaScriptEnabled:false}),page=await context.newPage();
  await page.goto(base);await page.locator('[data-publication-footer]').getByRole('link',{name:'About and contact'}).click();
  await expect(page.locator('[data-about]')).toContainText('Approved public credit: Vasyl Hryha');
@@ -15,7 +15,7 @@ test('M5 approved About/contact and scoped research rights journey works without
  await page.locator('[data-publication-footer]').getByRole('link',{name:'Cite',exact:true}).click();await expect(page.locator('[data-citation] a[href$="CITATION.cff"]')).toBeVisible();
  await context.close();
 });
-test('M5 policy pages and expanded footer reflow at 320px with no axe violations',async({page})=>{
+test('M5 policy pages and expanded footer reflow at 320px with no axe violations',{tag:'@routine'},async({page})=>{
  await page.setViewportSize({width:320,height:800});
  for(const route of ['about/','legal/','cite/']){
   await page.goto(base+route);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),route).toBe(true);

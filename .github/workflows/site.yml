@@ -15,6 +15,9 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    concurrency:
+      group: website-verify-${{ github.head_ref || github.ref }}-${{ inputs.operation || 'verify' }}
+      cancel-in-progress: ${{ github.event_name != 'workflow_dispatch' || inputs.operation == 'verify' }}
     timeout-minutes: ${{ github.event_name == 'workflow_dispatch' && inputs.operation != 'verify' && 30 || 10 }}
     env:
       ASTRO_TELEMETRY_DISABLED: '1'

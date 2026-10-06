@@ -79,7 +79,7 @@ test('beginner pages retain reflow with doubled text size',async({page})=>{
   }
 });
 
-test('the real interaction equation scrolls locally by keyboard and retains loaded mathematical fonts',async({page})=>{
+test('the real interaction equation scrolls locally by keyboard and retains loaded mathematical fonts',{tag:'@routine'},async({page})=>{
   await page.setViewportSize({width:320,height:900});await page.goto(base+'concepts/effective-interactions/');
   await page.evaluate(()=>document.fonts.ready);
   const equation=page.locator('.katex-display');await expect(equation).toHaveCount(1);
