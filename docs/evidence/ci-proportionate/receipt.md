@@ -34,3 +34,9 @@ test-repair campaign or full-suite rerun. Revised hosted CI is not yet measured.
 No scientific sources, ZIPs, historical evidence, fidelity decisions or release
 authorization changed. Plan R4 §0.53 records this scope. Candidate §0.51 remains
 accepted; complete public qualification and deployment remain incomplete.
+
+First push pre-push checks PASS in 20.953 seconds. GitHub rejected run
+37420828091 before creating jobs: runner context is unavailable in job-level
+env. Corrected the browser path to a shared literal absolute path on the Ubuntu
+runner; same path used for install and checks. This orchestration failure is
+separate from the passing local checks and the earlier failed full regression.
