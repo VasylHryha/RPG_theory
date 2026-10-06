@@ -38,7 +38,7 @@ jobs:
       - name: Routine verification (root and actual target)
         if: github.event_name != 'workflow_dispatch' || inputs.operation == 'verify'
         run: npm run verify:ci -- --evidence-dir docs/evidence/m7/runtime/routine
-      - name: Current release inputs and authorization
+      - name: Quick input syntax and whitespace
         if: github.event_name == 'workflow_dispatch' && inputs.operation == 'publish'
         run: npm run verify:push -- --evidence-dir docs/evidence/m7/runtime/release-inputs
       - name: Install qualification browsers

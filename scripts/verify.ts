@@ -1,6 +1,6 @@
 import { resolve } from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { args } from './args.js';
 import { buildMode, loadSiteConfig } from '../src/lib/site-config.js';
 import { assertBuildAllowed, publicationFor } from '../src/lib/publication.js';
@@ -12,22 +12,41 @@ if (!['push', 'routine', 'full'].includes(profile)) throw new Error('Unknown ver
 if (profile !== 'full' && mode !== 'preview') throw new Error('Routine verification is preview-only; qualification/release requires the full profile');
 const routine = profile !== 'full';
 const evidence = options['evidence-dir'] ?? (routine ? `docs/evidence/m7/runtime/${profile}` : 'docs/evidence/m6/implementation');
+if (profile === 'push') {
+  const started = Date.now();
+  for (const path of ['package.json', 'package-lock.json', 'config/site.json', 'config/publication-policy.json']) {
+    JSON.parse(readFileSync(path, 'utf8'));
+  }
+  const result = spawnSync('git', ['diff', '--check', 'HEAD'], { stdio: 'inherit' });
+  const complete = result.status === 0;
+  mkdirSync(evidence, { recursive: true });
+  writeFileSync(`${evidence}/verification.json`, JSON.stringify({
+    date: new Date().toISOString(), mode, profile, elapsedMs: Date.now() - started,
+    status: complete ? 'PASS' : 'FAIL', checks: ['JSON syntax', 'Git whitespace'],
+    qualificationSuiteComplete: false, sourceAudit: 'NOT_RUN',
+    note: 'Reuse accepted evidence; shared build/output validators check the deployed selection.'
+  }, null, 2) + '\n');
+  console.log(complete ? 'PASS: JSON syntax and Git whitespace' : 'FAIL: Git whitespace');
+  process.exit(complete ? 0 : 1);
+}
 if (mode === 'release') {
   const config=loadSiteConfig(options.config);
   assertBuildAllowed(mode,config,publicationFor(mode,config).admission);
 }
-const configurations = profile === 'push' ? [] : options.config ? [options.config] : routine ? ['tests/fixtures/site-root.json', 'config/site.json'] : ['tests/fixtures/site-root.json', 'tests/fixtures/site-subpath.json', 'config/site.json'];
+const configurations = options.config ? [options.config] : routine ? ['tests/fixtures/site-root.json', 'config/site.json'] : ['tests/fixtures/site-root.json', 'tests/fixtures/site-subpath.json', 'config/site.json'];
 const smoke = '@routine';
 const suffixFor = (path: string) => {
   const base = loadSiteConfig(path).basePath;
   return base === '/' ? 'root' : base === '/unity-theory/' ? 'subpath' : 'target';
 };
 const commands = [
-  ...(profile !== 'push' ? [['run', 'check']] : []),
+  ['run', 'check'],
   ...(!routine ? [['run', 'check:sources', '--', '--scope', 'history']] : []),
-  ['run', 'check:sources', '--', '--scope', 'current'],
-  ['run', 'check:content'],
-  ['run', 'check:publication'],
+  ...(!routine ? [
+    ['run', 'check:sources', '--', '--scope', 'current'],
+    ['run', 'check:content'],
+    ['run', 'check:publication']
+  ] : []),
   ...configurations.flatMap(config => {
     const suffix = suffixFor(config);
     const output = `${options['output-root'] ?? 'dist'}/${mode}-${suffix}`;

@@ -13,6 +13,21 @@ progress on planned pages/features. Do not spend hours checking or hardening a
 tiny change. This supersedes earlier mandatory repeated repair/review cycles;
 it is not a blanket ban on tests or an instruction to defer every check to M6.
 
+The owner's 6 October 2026 frequency rule supersedes repeated release audits:
+heavy source/history audits, the full regression suite, broad browser/performance
+campaigns and exhaustive live-file comparisons run monthly, not on every push or
+deployment. Reuse passing evidence for 30 days while its relevant inputs remain
+unchanged. Changes get focused affected checks; they do not automatically require
+another full campaign. Thirty days is a maintenance reminder, not a deployment
+lock. Never describe failed or unavailable evidence as passing.
+
+Pre-push checks cover syntax and whitespace. Routine CI covers diagnostics,
+build/output validation and short browser journeys. Publication builds and seals
+the actual selected output and runs the short release smoke checks. Keep existing
+source-fidelity/build validators; do not repeat standalone source audits before
+that build. After deployment, check availability, a nested route and real 404
+behavior; the exhaustive live verifier is an explicit monthly/diagnostic tool.
+
 Use existing tools, validators and normal safeguards. Add work only when it
 delivers a planned feature, fixes a reproducible defect, or checks a concrete
 risk introduced by the change. No speculative bypass hunts, audit expansion,
@@ -36,7 +51,8 @@ material or concrete evidence, not by a desire for another general assurance pas
 Keep receipts short: features delivered, actual checks, blockers and next work.
 Preserve source fidelity, existing validators/evidence, pending/stale decisions
 and release protections. Private implementation may continue while qualification
-is pending. Never fabricate approvals; no public release is authorized here.
+is pending. Never fabricate approvals. The owner-authorized first test edition
+is deployed under R4 §§0.55–0.56; this does not authorize unrelated publication.
 
 Preserve the supplied ZIPs, handoff snapshot, historical sources, original Rider
 solution and unrelated work. Source builds/intake preserve raw bytes. Necessary

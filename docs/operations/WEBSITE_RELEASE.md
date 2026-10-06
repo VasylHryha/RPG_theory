@@ -1,45 +1,50 @@
 # Website release and recovery
 
-This is an operator procedure for plan M7, not a second milestone tracker or release authorization. The sole tracker is `docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md`. Deployment is disabled. A private M6 engineering acceptance does not approve the actual public corpus or target.
+This is an operator procedure for plan M7, not a second milestone tracker or release authorization. The sole tracker is `docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md`. The owner-authorized 75-page first test edition is live at https://vasylhryha.github.io/RPG_theory/; see R4 §0.56 and `docs/evidence/first-public-release/receipt.md`. Earlier private acceptance remains scoped to its tested inputs.
 
 ## Before a public run
 
-Use the owner's named repository, approved public file/history selection and actual Pages access. Do not push this whole local workspace: it includes private evidence, plans, historical sources and Rider files. Obtain the actual-corpus website-fidelity decisions, reviewed published launch selection, author approval of public wording, scoped rights/identity/privacy approvals and genuine M6 release qualification. Record outstanding assistive-technology, human, CI and platform checks honestly. Use the shared policy and content validators; do not fill an evidence reference with this guide or a synthetic test.
+Use the owner's named repository, approved public file/history selection and actual Pages access. Preserve private captures, source archives and Rider files. The first-test authorization, accepted fidelity/rights and scoped privacy/release decisions are recorded in `docs/evidence/first-public-release/`; reuse them while their inputs remain unchanged. Record outstanding assistive-technology, human and provenance work honestly. Use the shared policy and content validators; do not fill an evidence reference with this guide or a synthetic test.
 
 Set the authorized target in the shared `config/site.json`, publication credit/rights record and `config/publication-policy.json` together. A project Pages target uses its actual project base; an approved root target uses `/`. GitHub's [publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) describe selecting **GitHub Actions** in repository Settings → Pages. Check which environment and branch protections the actual account supports and configure/record them; an environment name in YAML is not proof of configured protection. Keep the current single pinned workflow. [GitHub's custom-workflow contract](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) describes its job dependencies, artifact and Pages/OIDC permissions.
 
 ## Qualify and publish the selected commit
 
-Routine pushes and manual `verify` use `npm run verify:ci`: shared current-source,
-content/fidelity and policy checks, Astro diagnostics, root/actual-target builds
+Routine pushes and manual `verify` use `npm run verify:ci`: Astro diagnostics, root/actual-target builds
 and output audits, and six Chromium journeys per base selected by `@routine`.
 These cover search, ZIP/RSS, rights/contact/citation, mobile axe/reflow,
 math fonts/keyboard scrolling and 404/base-path behavior. CI has a ten-minute job
 limit; five minutes is the target, not a measured guarantee. The full content
 regressions, legacy URL fixture, full browser suite and M6 campaign remain in
-`npm run verify`, selected explicitly with operation `qualify` or required by
-`publish`. A routine PASS never counts as full qualification.
+`npm run verify`, selected explicitly with operation `qualify` for monthly maintenance.
+They are not required on every push or `publish`. A routine PASS never counts as
+a full-suite PASS. Reuse passing evidence for 30 days while relevant inputs remain
+unchanged; changed inputs need focused checks. The 30-day reminder does not block
+deployment or create automatic review cycles.
 Newer routine checks cancel superseded checks of the same branch; manual
 qualification and publication verification use unique run-ID groups and are never automatically
 cancelled by this rule.
 
 For this checkout, `git config core.hooksPath .githooks` enables the tracked
-pre-push hook. It runs `npm run verify:push` (current sources, content/fidelity
-and policy, without builds or browsers). New checkouts must enable the hook
-explicitly; Git does not distribute local hook configuration. CI repeats the
-shared validators because it cannot rely on a local hook having run. Generated
+pre-push hook. It runs `npm run verify:push` (JSON syntax and Git whitespace,
+without source audits, builds or browsers). New checkouts must enable the hook
+explicitly; Git does not distribute local hook configuration. Shared build/output
+validators still check the actual selected source and accepted fidelity. Generated
 routine and pre-push receipts go under ignored `docs/evidence/m7/runtime/`.
 
 1. Review the exact proposed source/config/dependency changes and release timestamp. Use an authorized clean checkout of the selected main commit. Record the raw current-core hash, current inventory seal and publication-manifest digest. Never relabel old dirty previews as this release.
-2. Run the reached qualification chain on the intended current published corpus and real target. Store generated receipts under `docs/evidence/m7/runtime/`, which is narrowly ignored by Git so generated files do not dirty a release checkout. Existing issued evidence remains tracked and protected. A release qualification command is `npm run verify -- --mode release --config config/site.json --output-root dist/m7-qualification --evidence-dir docs/evidence/m7/runtime/qualification`. It verifies; it does not publish.
+2. Reuse accepted unchanged evidence and run focused checks for changed features. Store generated receipts under ignored `docs/evidence/m7/runtime/`; preserve issued tracked evidence. The full `qualify` campaign is monthly maintenance, not a prerequisite to every publication. Failed full-suite cases remain recorded failures until repaired.
 3. After actual owner authorization and platform setup, enable both the shared deployment policy and the repository's `UNITY_DEPLOY_ENABLED` variable coherently. Manually dispatch the single workflow on main with operation `publish`. PRs remain read-only. The preparation job checks publication, builds `dist/deploy` from that clean same-run commit, and seals it before upload; the separately privileged deployment job only invokes the pinned Pages action. Do not add a deploy-time rebuild or substitute another run's artifact.
 4. Preserve the **actual** GitHub run URL/ID, uploaded artifact ID, deployment URL and environment decision from the run. In the preparation job, `docs/evidence/m7/runtime/` receives `root-artifact.json` or `subpath-artifact.json` from the shared auditor and `deployment-manifest.json` from the sealer. These receipts are outside the uploaded website. Save these private files and the exact sealed artifact before the runner disappears, using an approved private evidence destination. The current workflow does not upload private evidence; do not assume it survives on GitHub.
 
-The Pages upload currently has **one-day retention**. Before enabling publication, configure the actual approved private capture destination and mechanism; the current ephemeral runner alone cannot retain these receipts after its job ends. Keep an approved private copy of the sealed directory and its audit/seal receipts for the desired recovery period; preserve its hashes, run and artifact identities. GitHub's [artifact retention documentation](https://docs.github.com/en/actions/tutorials/store-and-share-data) explains retention settings. An expired artifact is unavailable, not a successful rollback candidate.
+The Pages upload has **30-day retention**. The first release's exact artifact, audit/seal and live receipts are captured privately under `docs/evidence/m7/runtime/first-public-release/`. Runner-local files alone do not provide durable recovery. Preserve private copies and their hashes/run/artifact identities. GitHub's [artifact retention documentation](https://docs.github.com/en/actions/tutorials/store-and-share-data) explains retention settings. An expired artifact is unavailable, not a successful rollback candidate.
 
 ## Verify the site actually served
 
-Use the retained **same-run shared audit receipt and seal**, with the corresponding real site config:
+After a normal deployment, check the home page, one nested route and real 404
+behavior. Do not repeat an exhaustive live-file campaign. For explicit monthly
+maintenance or diagnosis of a concrete artifact mismatch, use the retained
+**same-run shared audit receipt and seal**, with the corresponding real site config:
 
 ```sh
 npm run verify:live -- --release docs/evidence/m7/runtime/root-artifact.json --seal docs/evidence/m7/runtime/deployment-manifest.json --config config/site.json --evidence-dir docs/evidence/m7/runtime/live
@@ -51,7 +56,7 @@ Fetch/status failures can reflect host, TLS or access trouble; hash/identity fai
 
 ## Recovery and rehearsal
 
-The selected recovery procedure is a **corrective release through the same gated workflow**. Preserve the faulty release and its receipts. Identify the prior reviewed content/config from retained history; prepare a normal corrective source change, correction references and a new website release timestamp without renaming the research edition merely for a hosting change. Requalify affected fidelity/rights/target inputs and the corrected artifact, obtain the applicable public authorization, dispatch the manual main-only pipeline, and run `verify:live` against its new same-run receipts. This creates a new explicit release; it does not claim to redeploy an old artifact unchanged.
+The selected recovery procedure is a **corrective release through the same workflow**. Preserve the faulty release and its receipts. Identify the prior reviewed content/config from retained history; prepare a normal corrective change without renaming the research edition merely for a hosting change. Check affected fidelity/rights/target inputs and the corrected artifact, dispatch the authorized manual main-only pipeline, and check the served home/nested/404 routes. Use the exhaustive live verifier only for a concrete byte-mismatch diagnosis or monthly maintenance. This creates a new explicit release; it does not claim to redeploy an old artifact unchanged.
 
 An approved rehearsal first inventories the retained prior/test artifact and its receipts offline, checks availability and hashes, and walks this corrective-release procedure. Record it as private mechanics if no genuine previous public release exists. Actual live rollback/recovery is NOT_RUN until specifically authorized and executed. Do not rerun an expired workflow, copy old dirty metadata into a new seal, reset shared history or disturb a live site as a rehearsal.
 

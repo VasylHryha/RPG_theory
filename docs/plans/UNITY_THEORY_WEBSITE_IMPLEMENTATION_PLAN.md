@@ -3,16 +3,16 @@ title: "Unity Theory / RRG — Public Research Website"
 doc_type: implementation_plan
 program: unity_theory_publication_site
 revision: 4
-updated: 2026-10-05
-status: M6_GITHUB_PAGES_REBIND_ACCEPTED_PRIVATE_PUBLIC_INCOMPLETE
+updated: 2026-10-06
+status: FIRST_PUBLIC_TEST_DEPLOYED
 reconciliation_state: PRIOR_MIGRATION_R2_ACCEPTANCE_PRESERVED_PACKAGE_AUTHORITY_AND_PAGES_TARGET_BOUNDED_HIGH_ACCEPTED
-current_milestone: M6
+current_milestone: M7
 execution_model: "Normal development with proportionate checks and separate bounded High acceptance under section 0.27; source-authority reconciliation in section 0.39 is required before public qualification/release"
 repository: "Public GitHub repository https://github.com/VasylHryha/RPG_theory on main; prior local-only/no-remote statements are historical receipts"
 replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
 planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
 source_baseline: "Owner explicitly promoted the audited GPT/Library RRG v0.2.1 companion dated 2026-10-02 to repository CURRENT on 2026-10-05; predecessor current bytes are archived, the minimal locked core/repository 01-03/change control are carried forward unchanged, and website migration has bounded separate High acceptance at section 0.41; private current-corpus fidelity and applicable M6 scope have bounded separate High acceptance at section 0.44; complete public qualification remains incomplete"
-publication: "First public test candidate REVIEW_READY at section 0.50: author, exact 75-page launch set, citation URL, dedicated contact and all scoped rights decisions supplied. Separate High review, privacy/rights review and remaining public M6/M7 prerequisites are open; publication disabled"
+publication: "First public test edition ACCEPTED at section 0.51 and DEPLOYED at section 0.56 to https://vasylhryha.github.io/RPG_theory/ under explicit owner authorization. Broad regression/human/AT/provenance work remains incomplete and is not claimed passed. Heavy campaigns run monthly, with focused checks for changed inputs."
 ---
 
 # Unity Theory — website implementation plan · Revision 4
@@ -35,19 +35,19 @@ This is the sole execution plan for the website, research-document publication, 
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | **REVIEW_READY: first public test candidate (§0.50).** Owner-approved 75 current pages selected, source-faithful bodies retained, visible research-draft status. Separate bounded High acceptance and complete public M6/M7 remain required; deployment disabled |
+| Current milestone / state | **ACCEPTED and DEPLOYED: first public test edition (§§0.51/0.56).** Owner-approved 75 current pages, source-faithful bodies and research-draft status. Live Pages release and served artifact verification PASS |
 | Website repository / implementation | One-root Astro implementation on public GitHub repository `VasylHryha/RPG_theory`, main branch. Prior receipts that say “no remote/public target” describe the earlier local state, not current repository visibility |
-| Last engineering acceptance | §0.47 separate bounded High accepts the package/authority/download/revision/manual-workflow scope and available private target M6 checks; §0.44 R2 acceptance is preserved. §0.38 local M7 preparation remains predecessor-scoped; no M7 authorization is inferred |
-| Latest execution receipt | §0.50 first-release preparation REVIEW_READY: `docs/evidence/github-pages-rebind/first-release/receipt.md`; includes §0.49 credit/license scope. §0.47 separate bounded High acceptance and earlier receipts remain preserved |
+| Last engineering acceptance | §0.51 final bounded High acceptance of the repaired candidate; §0.54 routine CI recheck accepted. Earlier scoped acceptances remain preserved. Owner explicitly authorized first-test publication at §0.55 |
+| Latest execution receipt | §0.56: `docs/evidence/first-public-release/receipt.md`; actual publication run, source/artifact identity, served checks and monthly frequency rule. Earlier receipts remain preserved |
 | Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
 | Selected repository package | **RRG v0.2.1 repository current**, explicitly promoted on 5 October: selected audited companions plus carried-forward minimal core/repository 01–03/change control. The 1 October set is historical under `research/history/repository-current-2026-10-01/`; bundled `foundations/` and `checks/` are supporting material |
 | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; it identifies the currently admitted edition. Any adopted scientific revision must create a new edition/hash with predecessor/change records rather than silently moving the pin |
 | Evidence namespace / history | §0.43 qualifies 79 local E/C/H/O/F labels by document AND edition, including the two different current C1 meanings. Stable BIB/page IDs remain; current 06 E07 and predecessor 08 E08 share BIB-0036. Supplementary recovery does not restore predecessor authority or change the scientific case inventory |
 | Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
-| Website/browser/a11y/live evidence | §0.47: three renewed builds/audits and 75 body/export comparisons per base; four fresh affected tests, no-JS supporting errata/backlink/download journey, actual-target Chromium/Firefox/WebKit search/math/navigation, isolated search/stress and home/math cold budgets PASS. Reuses §0.45 12 focused tests/11 Chromium checks and exact unchanged dated M6 evidence. Full verify remains incomplete; public corpus/CI/screen-reader/MathML/listening/human/live gates remain open |
-| Current validation / decisions | **0 accepted / 96 stale / 0 pending / 0 rejected** for the changed candidate: 75 selected current pages, 21 excluded archived pages; 68 searchable readings and two feed articles. All prior genuine decisions retained unchanged. Publication metadata and renderer changes require separate review; 75 scientific rendered bodies/source reads match accepted predecessors. Current qualification false and deployment disabled |
-| External publication state | §0.50 fresh read-only GitHub inspection: public `VasylHryha/RPG_theory`, main, admin access; `has_pages=false`, Pages endpoint 404, environments/variables empty. No remote write/deployment. Local target `https://vasylhryha.github.io/RPG_theory/`; release authorization remains disabled until required gates pass |
-| Next action | Give §0.50 one bounded separate High review, including exact revised fidelity decisions, scoped rights wording and proposed public repository/privacy review. Owner choices are supplied: Vasyl Hryha; all 75 current pages; existing target citation URL; research CC BY-NC-SA then additionally CC BY from 2033; code/data all rights reserved; contact `vasylhryha.rpg@gmail.com`. Complete remaining human/AT/provenance/private-capture/exact-commit qualification/CI prerequisites, then configure and use the authorized manual Pages pipeline. Keep publication disabled; custom domain/DNS deferred |
+| Website/browser/a11y/live evidence | §0.56 clean release build/audit/seal and six actual-release Chromium journeys PASS; deployed 326 files match served bytes, real 404/no-JS math/five search journeys PASS. §0.54 hosted routine CI PASS in 4m15s. Reuse unchanged scoped evidence. Human/listening, screen-reader/MathML and fully passing broad regression campaign remain unavailable/incomplete |
+| Current validation / decisions | **75 accepted current / 21 preserved archived stale / 0 pending / 0 rejected** through the shared fidelity validator. Selected current qualification true; owner-authorized release deployEligible=true. Prior genuine decisions, source bytes and excluded archive entries preserved |
+| External publication state | Public `VasylHryha/RPG_theory`, GitHub Actions Pages, HTTPS enforced, github-pages environment restricted to main; policy and UNITY_DEPLOY_ENABLED enabled. Run 37427672654 succeeded. Live: `https://vasylhryha.github.io/RPG_theory/`; exact uploaded artifact captured privately |
+| Next action | Maintain and polish the live 75-page test edition. Heavy source/history/full-regression/browser/performance/live-file campaigns monthly; reuse passing evidence for 30 days on unchanged relevant inputs, focused checks after actual changes. No new automatic acceptance session or deployment for documentation/check-frequency edits. Domain/DNS deferred |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -56,9 +56,9 @@ This is the sole execution plan for the website, research-document publication, 
 | M2 | Faithful complete beginner journey and example pages | M1 + reviewed current meanings | ACCEPTED — separate bounded High review §0.28; editorially checked and technically accepted for private implementation; author approval and final qualification remain pending |
 | M3 | Current framework/math/status/proof/evidence documents rendered; bounded supplementary research where selected | M1–M2 + admitted current corpus | ACCEPTED — separate bounded High §0.30, including same-session equation stylesheet repair; historical supplement NOT_SELECTED / NOT_RUN |
 | M4 | Articles, document library, source-faithful exports and citation | M3 | ACCEPTED — separate bounded High §0.32; demonstrated private scope, qualification/publication gates remain |
-| M5 | Contribution, identity, rights and controlled publication workflow | M4 | ACCEPTED — separate bounded High §0.34; demonstrated private engineering, external decisions/platform setup pending |
-| M6 | Whole-site qualification against the actual current corpus and both URL modes | M5; reconciled source and reviewed launch selection | §0.47 bounded private acceptance preserved; §0.50 candidate REVIEW_READY. Complete public qualification INCOMPLETE; current revised fidelity and external/human/AT/provenance/capture/CI gates remain |
-| M7 | Owner-authorized deployment of qualified artifact; optional domain | Requalified M6 + actual access/authorization | Local preparation accepted at §0.38; complete M7 INCOMPLETE. Public release NOT_STARTED; owner identity/launch/scoped-rights/contact decisions supplied at §0.50, deployment disabled pending qualification |
+| M5 | Contribution, identity, rights and controlled publication workflow | M4 | ACCEPTED — §§0.34/0.51; supplied identity/rights/contact and scoped privacy decisions recorded; actual Pages platform configured |
+| M6 | Whole-site qualification against the actual current corpus and both URL modes | M5; reconciled source and reviewed launch selection | First-test selected fidelity and technical release scope ACCEPTED (§§0.51/0.55). Broad regression/human/AT/provenance work remains incomplete and honestly separate; monthly maintenance governs further heavy campaigns |
+| M7 | Owner-authorized deployment of qualified artifact; optional domain | Accepted selected release scope + actual access/authorization | First public test edition DEPLOYED and live verified (§0.56), captured same-run artifact. Optional domain/DNS deferred; no further first-test deployment blocker |
 
 States: `NOT_STARTED → ACTIVE → REVIEW_READY → ACCEPTED`. Under §0.27, separate High acceptance and affected checks are proportionate to delivered scope; full-site verification remains M6. Same-session review repairs may be accepted by the separate reviewer after inspecting affected behavior; no automatic second review cycle. Interim acceptance is not final qualification. A missing prerequisite blocks its affected scope, not unrelated local code. Fixture-based checks cannot satisfy actual-current-content acceptance. **Agent review is not author approval, legal approval, external scientific peer review or a human user study.**
 
@@ -392,6 +392,8 @@ Final production inputs `79e577bfa7e07fa76866ebccb6b6c9f8dd7176e2a81ba0e38e24dc7
 
 **Latest owner clarification governs:** builds, tests, rechecks and separate High acceptance are useful normal development. The problem is their cost exceeding their benefit: hours of extra safeguards and repeated audits for tiny progress on an informational website. This is not a blanket test ban or a requirement to defer every test until the end. This rule overrides earlier mandatory repeated review/repair cycles while preserving sources, evidence and release protections.
 
+**6 October frequency clarification (§0.56) supersedes repeated release campaigns:** heavy source/history audits, full regression, broad browser/performance and exhaustive live-file checks run monthly. Reuse passing evidence for 30 days on unchanged relevant inputs; changes get focused affected checks. Thirty days is a maintenance reminder, not a deployment lock. Ordinary publication uses the selected build/output validators and short smoke checks, without a new full audit or automatic acceptance cycle.
+
 **Until the planned local website is complete:**
 
 - Prioritize substantial delivery of the pages/features in §8. Use existing tools, validators and normal safeguards. Additional work must deliver a planned feature, fix a reproducible defect or check a concrete risk introduced by the change. No speculative bypass hunts, approval-system redesign, unrelated audit expansion, paper audits or scientific adjudication.
@@ -676,6 +678,43 @@ Enabled this checkout's tracked pre-push hook: shared current-source/content/fid
 ### 0.55 Owner-authorized immediate first-test deployment — 6 October 2026
 
 The owner explicitly requests deploying the webpage now. This authorizes the existing GitHub Pages destination and accepted 75-page research-draft edition, superseding the prior no-deployment boundary for this operation. Implement the first-test release check scope in `docs/evidence/first-public-release/authorization.md`, `qualification.md` and `privacy-review.md`: preserve prior accepted fidelity/rights/selection, run bounded CI and fresh exact clean-commit release build/shared audit/seal/browser checks, deploy the same uploaded artifact, capture it locally and verify hosted bytes. No scientific-source edits, fake approvals, full-regression PASS or completed human/AT/provenance claims. Earlier full regression failures and unavailable human/provenance observations remain later review work for this explicitly requested draft edition. Complete M6 research qualification remains incomplete; first-test M7 operation is now authorized and ACTIVE. Pages already uses GitHub Actions, HTTPS and the github-pages environment restricted to main. Enable only this operation's recorded release controls. No domain/DNS change. Record actual deployment/served URL only after success.
+
+### 0.56 First public test edition deployed; monthly heavy checks — 6 October 2026
+
+**ACCEPTED candidate; DEPLOYED first test edition.** The explicitly authorized
+manual publication run [37427672654](https://github.com/VasylHryha/RPG_theory/actions/runs/37427672654)
+succeeded in about 3m25s on clean commit `89b5a07fabd53fa22823b58b641df564c27df0e3`.
+Selected release build/shared audit/seal and six release browser journeys PASS;
+75 current readings, 326 audited files. The same uploaded Pages artifact is live
+at **https://vasylhryha.github.io/RPG_theory/**. Private capture and full served
+verification completed PASS at 07:15:03 UTC: all file hashes/run/commit identity,
+real 404, no-JS home/math and five search journeys. Short receipt:
+`docs/evidence/first-public-release/receipt.md`. All 75 accepted current fidelity
+decisions and 21 archived stale entries remain preserved; no scientific sources
+were edited. Initial research grant is now active; code/data remain reserved.
+
+**No blocker remains to this first test edition: it is published.** Broad failed
+regressions, unavailable human/listening/AT observations and original-package
+provenance remain recorded later work, without fabricated PASS or scientific
+approval. This scoped release does not claim completion of those wider studies.
+
+**Owner's latest maintenance rule:** run heavy source/history/full-regression,
+wide browser/performance and exhaustive live-file campaigns monthly, reusing
+passing evidence for 30 days while its relevant inputs remain unchanged. Check
+changed features narrowly; never require another entire campaign for a tiny edit.
+Expiry is a maintenance reminder, not a deployment guard. Pre-push is JSON syntax
+and whitespace; ordinary CI is diagnostics, builds/audits and short browser
+journeys. Publication builds/seals/checks the selected output once; post-deploy
+smoke checks home, a nested route and real 404. Full manual `qualify` and
+`verify:live` remain explicit maintenance/diagnostic tools. No second acceptance
+cycle, fresh full-site campaign or redeployment for this policy/documentation
+update. Preserve issued evidence, private captures, history, ZIPs and Rider files.
+
+Affected checks for this frequency/documentation update: the fast push profile
+PASS in under one second; workflow YAML parses with preparation/deployment jobs
+retained; Git whitespace PASS. No build, full regression, live campaign or
+deployment repeated for these changes. Commit/push uses `[skip ci]` to avoid an
+unnecessary new routine run; the served artifact remains the recorded release.
 
 ## 1. Review findings and chosen repairs
 
@@ -1299,7 +1338,7 @@ Preserve real implementation, meaningful IDs and valid independent evidence. Arc
 
 ## 8. Complete implementation milestones
 
-All listed deliverables remain selected. **Migration and R2 private acceptance at §§0.41/0.44 remain preserved for their tested inputs. The GitHub Pages rebind has separate bounded High acceptance at §0.47, including renewed private fidelity and available actual-target M6 integration. The owner decision packet is supplied at §0.50; §0.51 ACCEPTS the repaired first-release candidate and its actual selected private qualification. The named public qualification inputs remain open. Complete public M6 remains INCOMPLETE; earlier M0–M7 acceptance stays scoped to its tested corpus.** Under §0.27, implement pages/features in coherent batches, use focused affected checks and bounded High acceptance. Verify/Negative controls/Review focus paragraphs guide relevant checks, not a mandatory exhaustive audit at every milestone. Do not grow new test campaigns for unrelated edge cases. Full-site integration belongs at M6. §0 records actual checks/acceptance; no unrun check is reported as passing.
+All listed deliverables remain selected. **Migration and R2 private acceptance at §§0.41/0.44 remain preserved for their tested inputs. The GitHub Pages rebind has separate bounded High acceptance at §0.47. §0.51 ACCEPTS the repaired 75-page candidate; §§0.55–0.56 record the owner's explicit first-test authorization and successful public deployment/live verification. Wider human/AT/provenance and fully passing broad regressions remain incomplete; earlier acceptance stays scoped to its tested corpus.** Under §§0.27/0.56, use focused affected checks and reuse valid unchanged evidence. Heavy campaigns are monthly, not prerequisites to every push/deployment. Verify/Negative controls/Review focus paragraphs guide relevant checks, not a mandatory exhaustive audit at every milestone. Do not grow unrelated campaigns. §0 records actual checks/acceptance; no unrun check is reported as passing.
 
 ### M0 — Real static slice and source-preserving foundation
 
@@ -1736,4 +1775,4 @@ The following external-source decisions are **retained from R2**, whose record s
 | W10 | WIPO copyright protection: `https://www.wipo.int/en/web/copyright/protection` | Copyright's expression/idea distinction; not jurisdiction-specific legal advice or a royalty contract |
 | W11 | Creative Commons BY-NC-SA 4.0: `https://creativecommons.org/licenses/by-nc-sa/4.0/` | Example of a non-commercial attribution/share-alike option and retained valid permissions; no license has been selected or granted here |
 
-**End of sole forward implementation plan.** §0.27 governs proportionate development. Earlier private acceptances remain preserved for their demonstrated inputs. §0.51 completes final bounded High acceptance of the repaired owner-approved 75-page first research edition: 75 current fidelity decisions accepted, 21 archived stale decisions preserved; actual selected root/target qualification passes. Complete public M6/M7 remain INCOMPLETE with exact repository/history privacy, human/listening, screen-reader/MathML, original-package provenance, durable private capture/recovery, clean release-commit qualification/CI and platform gates recorded in §0.51 and its evidence. Publication switches remain disabled; no public deployment occurred. Initial CC BY-NC-SA 4.0 activates on first public release and the same covered research is additionally CC BY 4.0 from 1 January 2033 UTC. Code/data remain all rights reserved. Custom domain/DNS deferred; historical calculations NOT_SELECTED / NOT_RUN. No further automatic general acceptance session is required for the delivered candidate.
+**End of sole forward implementation plan.** §§0.27/0.56 govern proportionate development and monthly heavy checks. §0.51 ACCEPTS the repaired owner-approved 75-page first research edition; 21 archived stale decisions preserved. §§0.55–0.56 record explicit owner authorization, completed scoped privacy/release preparation, actual clean-commit CI/build/seal/browser checks, successful Pages deployment and privately captured/live-verified artifact. **The first test edition is live at https://vasylhryha.github.io/RPG_theory/; no deployment blocker remains.** Broad regressions, human/listening/AT and original-package provenance remain incomplete, not claimed passed. Initial CC BY-NC-SA 4.0 is active; the additional CC BY 4.0 grant starts 1 January 2033 UTC. Code/data remain all rights reserved. Domain/DNS deferred; historical calculations NOT_SELECTED / NOT_RUN. No further automatic acceptance session or full audit is required for unchanged delivered scope.
