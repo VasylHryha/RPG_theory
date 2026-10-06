@@ -1,0 +1,38 @@
+{
+  "status": "ACCEPTED",
+  "deployment": "LIVE",
+  "url": "https://vasylhryha.github.io/rrg_theory/",
+  "repository": "VasylHryha/rrg_theory",
+  "repositoryId": 1405464880,
+  "displayName": "Recursive Resonant Geometry (RRG)",
+  "contact": "vasylhryha.rrg@gmail.com",
+  "sourceCommit": "534350e3e2ecb7e130ccc5af716f44410df9f636",
+  "runId": "37440216559",
+  "runUrl": "https://github.com/VasylHryha/rrg_theory/actions/runs/37440216559",
+  "runStartedAt": "2026-10-06T09:02:33Z",
+  "runCompletedAt": "2026-10-06T09:05:57Z",
+  "browserChecks": 7,
+  "artifactId": 11401205903,
+  "artifactSha256": "ce78c113f04a04f18eb23e68539ef921510cffc74dd2b029e317c1979860807b",
+  "archiveSha256": "a125f84d6c796391d8c4db314c960c1c8b88818a8999be1bf0d750381b9ab9ec",
+  "auditedFiles": 326,
+  "liveSmoke": {
+    "status": "PASS",
+    "checkedAt": "2026-10-06T09:16:15.341Z",
+    "responses": 7,
+    "matchesCapturedArtifact": true,
+    "scope": "Quick availability, homepage identity, contact, CFF and same-run release identity smoke; not exhaustive live-file verification"
+  },
+  "fidelity": {
+    "acceptedCurrent": 75,
+    "preservedArchivedStale": 21,
+    "sourceAndDisplayUnchanged": true
+  },
+  "blockers": [],
+  "unchangedIncompleteWork": [
+    "Human comprehension/listening observations",
+    "Screen-reader/MathML observations",
+    "Complete original-package provenance",
+    "Fully passing broad regression campaign"
+  ]
+}

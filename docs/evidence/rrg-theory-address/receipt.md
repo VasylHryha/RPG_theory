@@ -17,4 +17,20 @@ intact. See `comparison.json` and preserved predecessor evidence references.
 Affected approved-credit/rights contract PASS; Git whitespace PASS. The actual
 target build/shared audit/seal and seven routine browser checks run once in the
 authorized publication pipeline. No full monthly campaign or automatic second
-acceptance cycle. Actual publication/live result is recorded after completion.
+acceptance cycle.
+
+**ACCEPTED and live:** https://vasylhryha.github.io/rrg_theory/.
+Run [37440216559](https://github.com/VasylHryha/rrg_theory/actions/runs/37440216559)
+passed verification, actual target release build/shared audit/seal, seven routine
+Chromium checks and same-artifact Pages deployment in **3 minutes 24 seconds**
+(09:02:33–09:05:57 UTC), from clean main
+`534350e3e2ecb7e130ccc5af716f44410df9f636`.
+Live home/Start/About/CFF, lowercase canonical/base, contact, clean commit/run
+identity and true 404 PASS. These seven responses match the captured artifact;
+no exhaustive live-file campaign was repeated.
+Artifact ID `11401205903`; 326 audited files plus the seal. Artifact identity:
+`ce78c113f04a04f18eb23e68539ef921510cffc74dd2b029e317c1979860807b`.
+Exact uploaded ZIP and seal are retained privately under
+`docs/evidence/m7/runtime/rrg-theory-address/` for recovery. Summary:
+`verification.json`. No deployment blocker remains. Previous human/AT/provenance/
+broad-regression limitations remain incomplete, without invented passes.

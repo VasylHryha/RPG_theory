@@ -1,6 +1,6 @@
 # Website release and recovery
 
-This is an operator procedure for plan M7, not a second milestone tracker or release authorization. The sole tracker is `docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md`. The owner-authorized 75-page first test edition was deployed at R4 §0.56; §0.58 corrects the homepage and RRG name/contact; §0.59 supplies the exact repository/path https://vasylhryha.github.io/rrg_theory/. See `docs/evidence/homepage-clarity/receipt.md` for the current operation and preserved `docs/evidence/first-public-release/receipt.md` for the predecessor. Earlier acceptance remains scoped to its tested inputs.
+This is an operator procedure for plan M7, not a second milestone tracker or release authorization. The sole tracker is `docs/plans/UNITY_THEORY_WEBSITE_IMPLEMENTATION_PLAN.md`. The owner-authorized 75-page first test edition was deployed at R4 §0.56; §0.58 corrects the homepage and RRG name/contact; §0.59 supplies the exact repository/path https://vasylhryha.github.io/rrg_theory/. See `docs/evidence/rrg-theory-address/receipt.md` for the current operation and preserved `docs/evidence/first-public-release/receipt.md` for the predecessor. Earlier acceptance remains scoped to its tested inputs.
 
 ## Before a public run
 

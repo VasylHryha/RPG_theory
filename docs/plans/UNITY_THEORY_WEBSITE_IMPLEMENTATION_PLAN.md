@@ -12,7 +12,7 @@ repository: "Existing public GitHub repository renamed to https://github.com/Vas
 replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
 planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
 source_baseline: "Owner explicitly promoted the audited GPT/Library RRG v0.2.1 companion dated 2026-10-02 to repository CURRENT on 2026-10-05; predecessor current bytes are archived, the minimal locked core/repository 01-03/change control are carried forward unchanged, and website migration has bounded separate High acceptance at section 0.41; private current-corpus fidelity and applicable M6 scope have bounded separate High acceptance at section 0.44; complete public qualification remains incomplete"
-publication: "First public test edition ACCEPTED at section 0.51 and deployed at section 0.56. Section 0.58 accepts and deploys the corrected RRG homepage/name/contact at https://vasylhryha.github.io/rrg_theory/. Broad regression/human/AT/provenance work remains incomplete. Heavy campaigns run monthly."
+publication: "First public test edition ACCEPTED and deployed; section 0.58 repaired homepage clarity/name/contact and section 0.59 deploys the exact lowercase target https://vasylhryha.github.io/rrg_theory/. Broad regression/human/AT/provenance work remains incomplete. Heavy campaigns run monthly."
 ---
 
 # Recursive Resonant Geometry (RRG) — website implementation plan · Revision 4
@@ -35,19 +35,19 @@ This is the sole execution plan for the website, research-document publication, 
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | First test edition accepted/deployed at §§0.51/0.56. §0.58 ACCEPTS and deploys homepage clarity and RRG name/address/contact; actual same-run build/browser/live checks PASS |
+| Current milestone / state | First test edition ACCEPTED and DEPLOYED. §0.58 homepage clarity/name/contact accepted; §0.59 exact lowercase repository/Pages target ACCEPTED and live, with same-run checks PASS |
 | Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/rrg_theory`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
-| Last engineering acceptance | §0.58 bounded homepage/source-display acceptance and same-session RSS assertion repair; seven selected-release browser checks PASS. §§0.51/0.54 earlier acceptance and §0.55 owner publication authority preserved |
-| Latest execution receipt | §0.58: `docs/evidence/homepage-clarity/receipt.md` and `verification.json`; actual RRG publication run/commit/artifact, seven browser checks and live smoke. Earlier first-release receipt preserved |
+| Last engineering acceptance | §0.59 bounded exact prior source/display comparison for the address correction: 75 unchanged accepted reads, 21 archives preserved. Homepage acceptance §0.58 and earlier scoped evidence retained |
+| Latest execution receipt | §0.59: `docs/evidence/rrg-theory-address/receipt.md` and `verification.json`; successful lowercase-target release, same-artifact capture and live smoke |
 | Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
 | Selected repository package | **RRG v0.2.1 repository current**, explicitly promoted on 5 October: selected audited companions plus carried-forward minimal core/repository 01–03/change control. The 1 October set is historical under `research/history/repository-current-2026-10-01/`; bundled `foundations/` and `checks/` are supporting material |
 | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; it identifies the currently admitted edition. Any adopted scientific revision must create a new edition/hash with predecessor/change records rather than silently moving the pin |
 | Evidence namespace / history | §0.43 qualifies 79 local E/C/H/O/F labels by document AND edition, including the two different current C1 meanings. Stable BIB/page IDs remain; current 06 E07 and predecessor 08 E08 share BIB-0036. Supplementary recovery does not restore predecessor authority or change the scientific case inventory |
 | Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
-| Website/browser/a11y/live evidence | §0.58 actual /RRG/ clean build/shared audit/seal and seven Chromium release journeys PASS; same-artifact Pages deployment and seven-response live identity/availability/contact/CFF/404 smoke PASS. Predecessor §0.56 exhaustive comparison preserved, not rerun. Human/listening, screen-reader/MathML and fully passing broad regression remain incomplete |
+| Website/browser/a11y/live evidence | §0.59 clean actual-target build/shared audit/seal, seven Chromium release checks and Pages deploy PASS; seven live responses match captured artifact. Prior broad evidence reused where unchanged. Human/listening/AT and fully passing broad regression remain incomplete |
 | Current validation / decisions | **75 accepted current / 21 preserved archived stale / 0 pending / 0 rejected** through the shared fidelity validator. Selected current qualification true; owner-authorized release deployEligible=true. Prior genuine decisions, source bytes and excluded archive entries preserved |
-| External publication state | Existing public repository renamed `VasylHryha/rrg_theory`, GitHub Actions Pages, HTTPS enforced, github-pages main policy and deployment variable enabled. Run 37435395184 succeeded from clean main e4ce19d. Live: `https://vasylhryha.github.io/rrg_theory/`; exact uploaded artifact captured privately |
-| Next action | §0.58 is ACCEPTED and live at /RRG/; §0.59 corrects the exact path to /rrg_theory/ and awaits its release. No full monthly campaign or automatic second acceptance cycle. Maintain/polish the same 75-page test edition with focused affected checks; domain/DNS deferred |
+| External publication state | Existing public repository `VasylHryha/rrg_theory` (ID preserved); Actions Pages/HTTPS/main policy enabled. Run 37440216559 succeeded from clean main 534350e. Live: `https://vasylhryha.github.io/rrg_theory/`; exact artifact captured privately |
+| Next action | §0.59 is ACCEPTED and live; no deployment blocker remains. Maintain/polish the same 75-page first test edition with focused affected checks. Heavy campaigns monthly; no automatic acceptance cycle. Domain/DNS deferred |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -58,9 +58,10 @@ This is the sole execution plan for the website, research-document publication, 
 | M4 | Articles, document library, source-faithful exports and citation | M3 | ACCEPTED — separate bounded High §0.32; demonstrated private scope, qualification/publication gates remain |
 | M5 | Contribution, identity, rights and controlled publication workflow | M4 | ACCEPTED — §§0.34/0.51; supplied identity/rights/contact and scoped privacy decisions recorded; actual Pages platform configured |
 | M6 | Whole-site qualification against the actual current corpus and both URL modes | M5; reconciled source and reviewed launch selection | First-test selected fidelity and technical release scope ACCEPTED (§§0.51/0.55). Broad regression/human/AT/provenance work remains incomplete and honestly separate; monthly maintenance governs further heavy campaigns |
-| M7 | Owner-authorized deployment of qualified artifact; optional domain | Accepted selected release scope + actual access/authorization | First test edition DEPLOYED; corrected RRG homepage/name/contact deployed and live-smoke verified (§0.58), captured same-run artifact. Optional domain/DNS deferred; no deployment blocker |
+| M7 | Owner-authorized deployment of qualified artifact; optional domain | Accepted selected release scope + actual access/authorization | First test edition DEPLOYED; corrected RRG homepage/name/contact deployed and live-smoke verified (§0.59), captured same-run artifact. Optional domain/DNS deferred; no deployment blocker |
 
 States: `NOT_STARTED → ACTIVE → REVIEW_READY → ACCEPTED`. Under §0.27, separate High acceptance and affected checks are proportionate to delivered scope; full-site verification remains M6. Same-session review repairs may be accepted by the separate reviewer after inspecting affected behavior; no automatic second review cycle. Interim acceptance is not final qualification. A missing prerequisite blocks its affected scope, not unrelated local code. Fixture-based checks cannot satisfy actual-current-content acceptance. **Agent review is not author approval, legal approval, external scientific peer review or a human user study.**
+
 
 ### 0.1 Mandatory execution rules
 
@@ -795,6 +796,18 @@ Evidence: `docs/evidence/rrg-theory-address/`. Reuse genuine unchanged source/di
 acceptance, compare the preceding accepted reads with current reads through the
 shared fidelity validator, and check the actual target through the short release
 pipeline. No full monthly campaign or new automatic review cycle.
+
+**ACCEPTED and deployed:** manual run
+[37440216559](https://github.com/VasylHryha/rrg_theory/actions/runs/37440216559)
+passed clean target build/shared audit/seal, seven browser checks and same-artifact
+Pages deployment from main `534350e3e2ecb7e130ccc5af716f44410df9f636` in
+3 minutes 24 seconds (09:02:33–09:05:57 UTC). Live lowercase home/Start/About/CFF,
+contact, source/run identity and true 404 smoke PASS; seven served responses match
+the privately captured artifact ID `11401205903`. Identity:
+`ce78c113f04a04f18eb23e68539ef921510cffc74dd2b029e317c1979860807b`.
+Shared fidelity validator: 75 accepted current / 21 archived stale preserved;
+actual source/display comparisons unchanged. No deployment blocker remains.
+Human/AT/provenance/full broad-regression limitations remain incomplete and honest.
 
 ## 1. Review findings and chosen repairs
 
@@ -1855,4 +1868,4 @@ The following external-source decisions are **retained from R2**, whose record s
 | W10 | WIPO copyright protection: `https://www.wipo.int/en/web/copyright/protection` | Copyright's expression/idea distinction; not jurisdiction-specific legal advice or a royalty contract |
 | W11 | Creative Commons BY-NC-SA 4.0: `https://creativecommons.org/licenses/by-nc-sa/4.0/` | Example of a non-commercial attribution/share-alike option and retained valid permissions; no license has been selected or granted here |
 
-**End of sole forward implementation plan.** §§0.27/0.56 govern proportionate development and monthly heavy checks. §0.51 ACCEPTS the repaired owner-approved 75-page first research edition; 21 archived stale decisions preserved. §§0.55–0.56 record explicit owner authorization, completed scoped privacy/release preparation, actual clean-commit CI/build/seal/browser checks, successful Pages deployment and privately captured/live-verified artifact. **§0.58 accepts and deploys the corrected RRG homepage/name/contact at https://vasylhryha.github.io/RRG/; no deployment blocker remains.** Broad regressions, human/listening/AT and original-package provenance remain incomplete, not claimed passed. Initial CC BY-NC-SA 4.0 is active; the additional CC BY 4.0 grant starts 1 January 2033 UTC. Code/data remain all rights reserved. Domain/DNS deferred; historical calculations NOT_SELECTED / NOT_RUN. No further automatic acceptance session or full audit is required for unchanged delivered scope.
+**End of sole forward implementation plan.** §§0.27/0.56 govern proportionate development and monthly heavy checks. §0.51 ACCEPTS the repaired owner-approved 75-page first research edition; 21 archived stale decisions preserved. §§0.55–0.56 record explicit owner authorization, completed scoped privacy/release preparation, actual clean-commit CI/build/seal/browser checks, successful Pages deployment and privately captured/live-verified artifact. **§0.58 accepts the corrected RRG homepage/name/contact; §0.59 deploys the exact lowercase target https://vasylhryha.github.io/rrg_theory/; no deployment blocker remains.** Broad regressions, human/listening/AT and original-package provenance remain incomplete, not claimed passed. Initial CC BY-NC-SA 4.0 is active; the additional CC BY 4.0 grant starts 1 January 2033 UTC. Code/data remain all rights reserved. Domain/DNS deferred; historical calculations NOT_SELECTED / NOT_RUN. No further automatic acceptance session or full audit is required for unchanged delivered scope.
