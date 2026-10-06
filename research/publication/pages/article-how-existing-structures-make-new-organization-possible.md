@@ -4,7 +4,7 @@
   "route": "/articles/how-existing-structures-make-new-organization-possible/",
   "title": "How existing structures make new organization possible",
   "description": "Follow bacterial pH feedback and stellar conditions to separate physical environmental change from treating a whole as a unit.",
-  "revision": 7,
+  "revision": 8,
   "kind": "article",
   "lang": "en",
   "audience": "general",
@@ -27,7 +27,9 @@
     "UT-C02",
     "UT-O101"
   ],
-  "related": [],
+  "related": [
+    "DOC-CONCEPT-BACKGROUND"
+  ],
   "bibRefs": [
     "BIB-0089"
   ],

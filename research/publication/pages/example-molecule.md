@@ -4,7 +4,7 @@
   "route": "/examples/molecule/",
   "title": "Molecule: the whole constrains its parts",
   "description": "Atoms keep their internal activity while bonds give a molecule constraints and motion of its own.",
-  "revision": 11,
+  "revision": 12,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -26,7 +26,10 @@
     "DOC-WORLD",
     "DOC-GLOSSARY"
   ],
-  "related": [],
+  "related": [
+    "DOC-EXAMPLE-FIRST-STRUCTURES",
+    "DOC-EXAMPLE-CARBON-ARRANGEMENT"
+  ],
   "bibRefs": [
     "BIB-0013",
     "BIB-0065",

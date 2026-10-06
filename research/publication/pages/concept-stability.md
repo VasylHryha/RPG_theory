@@ -4,7 +4,7 @@
   "route": "/concepts/stability/",
   "title": "Stability: what persists?",
   "description": "Stability means lasting for a time; persistence, recovery and attraction ask different questions.",
-  "revision": 6,
+  "revision": 7,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
@@ -23,7 +23,9 @@
     "DOC-WORLD",
     "DOC-GLOSSARY"
   ],
-  "related": [],
+  "related": [
+    "DOC-EXAMPLE-FIRST-STRUCTURES"
+  ],
   "bibRefs": [],
   "contentOrigin": "authored",
   "sourceBinding": null,

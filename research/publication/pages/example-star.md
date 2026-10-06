@@ -4,7 +4,7 @@
   "route": "/examples/star/",
   "title": "Star: new reaction conditions",
   "description": "A star’s heat and pressure allow new nuclei; dispersed elements make richer chemistry possible.",
-  "revision": 9,
+  "revision": 10,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -24,7 +24,9 @@
     "DOC-WORLD",
     "DOC-GLOSSARY"
   ],
-  "related": [],
+  "related": [
+    "DOC-CONCEPT-BACKGROUND"
+  ],
   "bibRefs": [
     "BIB-0014"
   ],

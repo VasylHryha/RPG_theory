@@ -26,13 +26,13 @@ export type Part = { name: string; heading: string; route?: string; chapters: Ch
 const rules: { name: string; heading: string; route?: string; chapters: ChapterRule[] }[] = [
   { name: 'Understand', heading: 'Part I — Understand', route: '/start/', chapters: [
     { name: 'Start', routes: ['/start/'] },
-    { name: 'Concepts', routes: ['/concepts/', '/concepts/geometry-and-modes/', '/concepts/stability/', '/concepts/recursion/', '/concepts/effective-interactions/'], matches: p => p.route.startsWith('/concepts/') },
+    { name: 'Concepts', routes: ['/concepts/', '/concepts/geometry-and-modes/', '/concepts/stability/', '/concepts/recursion/', '/concepts/background/', '/concepts/effective-interactions/'], matches: p => p.route.startsWith('/concepts/') },
     { name: 'Longer explanations', routes: ['/articles/', '/articles/how-existing-structures-make-new-organization-possible/', '/articles/when-can-a-whole-be-treated-as-one-useful-unit/'], matches: p => p.route.startsWith('/articles/') }
   ] },
   { name: 'Examples', heading: 'Part II — Examples', route: '/examples/', chapters: [
     { name: 'Examples overview', routes: ['/examples/'] },
     { name: 'Basics', routes: ['/examples/string/', '/examples/water/'], front: false },
-    { name: 'Up the ladder, small to large', routes: ['/examples/molecule/', '/examples/star/', '/examples/cell/', '/examples/life-environment/'], matches: p => p.route.startsWith('/examples/'), front: false }
+    { name: 'Up the ladder, small to large', routes: ['/examples/first-structures/', '/examples/molecule/', '/examples/carbon-arrangement/', '/examples/star/', '/examples/cell/', '/examples/life-environment/', '/examples/brain/'], matches: p => p.route.startsWith('/examples/'), front: false }
   ] },
   { name: 'Evidence', heading: 'Part III — Evidence', route: '/evidence/', chapters: [
     { name: 'Evidence overview', routes: ['/evidence/'], matches: p => p.route.startsWith('/evidence/') },

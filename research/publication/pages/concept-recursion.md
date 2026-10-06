@@ -4,7 +4,7 @@
   "route": "/concepts/recursion/",
   "title": "Recursion and scale",
   "description": "Lasting wholes become parts or change conditions, and the shape–activity cycle can repeat at a new scale.",
-  "revision": 9,
+  "revision": 10,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
@@ -29,7 +29,9 @@
     "DOC-WORLD",
     "DOC-GLOSSARY"
   ],
-  "related": [],
+  "related": [
+    "DOC-CONCEPT-BACKGROUND"
+  ],
   "bibRefs": [],
   "contentOrigin": "authored",
   "sourceBinding": null,

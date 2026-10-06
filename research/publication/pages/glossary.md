@@ -4,7 +4,7 @@
   "route": "/glossary/",
   "title": "Glossary",
   "description": "Plain meanings of the key RRG terms, with links to their explanations and exact source sections.",
-  "revision": 1,
+  "revision": 3,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
@@ -24,7 +24,11 @@
     "DOC-CONCEPT-GEOMETRY",
     "DOC-CONCEPT-STABILITY",
     "DOC-CONCEPT-RECURSION",
-    "DOC-CONCEPT-INTERACTIONS"
+    "DOC-CONCEPT-INTERACTIONS",
+    "DOC-CONCEPT-BACKGROUND",
+    "DOC-EXAMPLE-CARBON-ARRANGEMENT",
+    "DOC-EXAMPLE-FIRST-STRUCTURES",
+    "DOC-EXAMPLE-BRAIN"
   ],
   "bibRefs": [],
   "contentOrigin": "authored",
@@ -47,35 +51,35 @@ These are RRG’s meanings: the locked core defines the central terms, while the
 
 ### Background
 
-In RRG’s proposal, background is the surrounding activity and conditions in which an organization can form, including fluctuating motion without a persistent organizing rhythm — [world explanation §1.1](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance).
+In RRG’s proposal, background is the surrounding activity and conditions in which an organization can form, including fluctuating motion without a persistent organizing rhythm — [background and new possibilities](/concepts/background/) and [world explanation §1.1](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance). See [first lasting structures](/examples/first-structures/) for the proposed early reading.
 
 ### Building block
 
-A building block is a lasting organization that can act as a part of a larger whole while remaining internally active — [world explanation §7.1](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings).
+A building block is a lasting organization that can act as a part of a larger whole while remaining internally active — [world explanation §7.1](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings). Examples: [first lasting structures](/examples/first-structures/) and [carbon arrangements](/examples/carbon-arrangement/).
 
 ## C
 
 ### Changed surroundings
 
-Changed surroundings are conditions altered by an organization, which may make similar or new organizations possible or impossible — [world explanation §7.1](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings).
+Changed surroundings are conditions altered by an organization, which may make similar or new organizations possible or impossible — [background and new possibilities](/concepts/background/) and [world explanation §7.1](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings).
 
 ## G
 
 ### Geometry (shape)
 
-Geometry is how a system’s parts are arranged, connected and constrained at a chosen scale, including more than its visible shape — [geometry and modes](/concepts/geometry-and-modes/) and [locked core §1](/documents/locked-core/#1-geometry-g).
+Geometry is how a system’s parts are arranged, connected and constrained at a chosen scale, including more than its visible shape — [geometry and modes](/concepts/geometry-and-modes/) and [locked core §1](/documents/locked-core/#1-geometry-g). See [carbon’s different arrangements](/examples/carbon-arrangement/) and [brain wiring and activity](/examples/brain/) for related examples.
 
 ## I
 
 ### Inner resonance
 
-Inner resonance names compatible activity within a thing that keeps it organized as itself, rather than an extra holding force — [world explanation §6.1](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts).
+Inner resonance names compatible activity within a thing that keeps it organized as itself, rather than an extra holding force — [world explanation §6.1](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts). See the [brain example](/examples/brain/) for a related reading.
 
 ## M
 
 ### Mode
 
-A mode describes a system’s organized activity and response, including rhythms, phases, amplitudes, coupling and characteristic times, rather than just one frequency — [geometry and modes](/concepts/geometry-and-modes/) and [locked core §2](/documents/locked-core/#2-frequency--mode-structure-m).
+A mode describes a system’s organized activity and response, including rhythms, phases, amplitudes, coupling and characteristic times, rather than just one frequency — [geometry and modes](/concepts/geometry-and-modes/) and [locked core §2](/documents/locked-core/#2-frequency--mode-structure-m). Examples: [carbon arrangements](/examples/carbon-arrangement/) and [brain activity](/examples/brain/).
 
 ## O
 
@@ -87,15 +91,15 @@ Outer resonance names compatible coupling between things and their shared surrou
 
 ### Recursion / recursive
 
-Recursion means lasting wholes can become parts of larger wholes and the geometry–mode cycle repeats at new scales, where the mechanisms may differ — [recursion and scale](/concepts/recursion/) and [world explanation §0](/documents/world-explanation/#0-the-name-states-the-rules).
+Recursion means lasting wholes can become parts of larger wholes and the geometry–mode cycle repeats at new scales, where the mechanisms may differ — [recursion and scale](/concepts/recursion/) and [world explanation §0](/documents/world-explanation/#0-the-name-states-the-rules). See [background and new possibilities](/concepts/background/) for the environmental role.
 
 ### Resonance
 
-In RRG’s broad explanatory language, resonance means motion that has fallen into rhythm, while each physical evidence case keeps its own meaning and tests — [world explanation §1.1](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance).
+In RRG’s broad explanatory language, resonance means motion that has fallen into rhythm, while each physical evidence case keeps its own meaning and tests — [world explanation §1.1](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance). See [first lasting structures](/examples/first-structures/) for RRG’s proposed reading.
 
 ### Resonator
 
-A resonator is a lasting organization whose geometry and mode structure support each other, even when it has no visible beat — [world explanation §1.1](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance) and [locked core §3](/documents/locked-core/#3-resonant-geometry-r).
+A resonator is a lasting organization whose geometry and mode structure support each other, even when it has no visible beat — [world explanation §1.1](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance) and [locked core §3](/documents/locked-core/#3-resonant-geometry-r). See [first lasting structures](/examples/first-structures/) for a related example.
 
 ## S
 
@@ -105,8 +109,8 @@ A scale is a level at which an organized whole can act as an effective unit in f
 
 ### Spreading
 
-Spreading is RRG’s proposed tendency for a resonator to influence or help form related organization when coupling, energy and surroundings allow it, and is neither guaranteed nor required at every level — [world explanation §9](/documents/world-explanation/#9-spreading-a-strong-tendency-not-a-required-step).
+Spreading is RRG’s proposed tendency for a resonator to influence or help form related organization when coupling, energy and surroundings allow it, and is neither guaranteed nor required at every level — [world explanation §9](/documents/world-explanation/#9-spreading-a-strong-tendency-not-a-required-step). See [background and new possibilities](/concepts/background/) for the role of surroundings.
 
 ### Stability
 
-Stability means geometry and mode structure support a self-consistent organization for an interval, without promising permanence or requiring continuous external power — [stability](/concepts/stability/) and [world explanation §3.1](/documents/world-explanation/#31-energy-and-time).
+Stability means geometry and mode structure support a self-consistent organization for an interval, without promising permanence or requiring continuous external power — [stability](/concepts/stability/) and [world explanation §3.1](/documents/world-explanation/#31-energy-and-time). Compare [first lasting structures](/examples/first-structures/) and the [brain example](/examples/brain/).

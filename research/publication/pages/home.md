@@ -4,7 +4,7 @@
   "route": "/",
   "title": "What holds together opens the next step.",
   "description": "The name is the rules: follow RRG from quantum activity to life and us, with a top-down picture and one carbon atom’s journey.",
-  "revision": 16,
+  "revision": 17,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
@@ -36,7 +36,12 @@
     "DOC-WORLD",
     "DOC-BACKGROUND"
   ],
-  "related": [],
+  "related": [
+    "DOC-EXAMPLE-FIRST-STRUCTURES",
+    "DOC-EXAMPLE-CARBON-ARRANGEMENT",
+    "DOC-EXAMPLE-BRAIN",
+    "DOC-CONCEPT-BACKGROUND"
+  ],
   "bibRefs": [
     "BIB-0089"
   ],
@@ -82,7 +87,7 @@ Rhythm and shape hold each other; neither comes first.
 
 Atoms join into [molecules](/examples/molecule/).
 
-### Changes its surroundings
+### [Changes its surroundings](/concepts/background/)
 
 A [star](/examples/star/)’s heat and pressure allow new elements; changed surroundings can make similar things more likely, or new things impossible.
 
@@ -92,25 +97,25 @@ What science knows is the history; reading it as one repeating step is RRG's pro
 
 ### Matter and cosmos
 
-#### Hot quantum fields / quark–gluon plasma
+#### [Hot quantum fields / quark–gluon plasma](/examples/first-structures/)
 
 Quarks and gluons fill the early universe.
 
 **Changes surroundings**
 
-#### Protons and neutrons
+#### [Protons and neutrons](/examples/first-structures/)
 
 Cooling binds quarks into protons and neutrons.
 
 **Building block**
 
-#### Light nuclei
+#### [Light nuclei](/examples/first-structures/)
 
 Protons and neutrons form light nuclei.
 
 **Building block**
 
-#### [Neutral atoms and the first molecule](/examples/molecule/)
+#### [Neutral atoms and the first molecule](/examples/first-structures/)
 
 Cooling allows atoms and helium hydride (HeH⁺).
 
@@ -156,7 +161,7 @@ Cells join into bodies.
 
 **Building block**
 
-#### Nervous systems
+#### [Nervous systems](/examples/brain/)
 
 Connected cells coordinate activity.
 
@@ -168,9 +173,9 @@ Humans create tools and AI.
 
 **Changes surroundings**
 
-### Same carbon, different arrangement
+### [Same carbon, different arrangement](/examples/carbon-arrangement/)
 
-The same carbon atoms, [arranged differently](/concepts/geometry-and-modes/), make different materials.
+The same carbon atoms, [arranged differently](/examples/carbon-arrangement/), make different materials.
 
 ## One carbon atom’s journey
 

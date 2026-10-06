@@ -4,7 +4,7 @@
   "route": "/examples/cell/",
   "title": "Cell: organization through exchange",
   "description": "A cell’s boundary regulates exchange, while ongoing processes help maintain its organization.",
-  "revision": 11,
+  "revision": 12,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -29,7 +29,9 @@
     "DOC-WORLD",
     "DOC-GLOSSARY"
   ],
-  "related": [],
+  "related": [
+    "DOC-EXAMPLE-BRAIN"
+  ],
   "bibRefs": [
     "BIB-0063",
     "BIB-0092"

@@ -4,7 +4,7 @@
   "route": "/concepts/effective-interactions/",
   "title": "When organization changes interactions",
   "description": "Supplied light can mediate particle interactions; RRG asks how organization changes what can fit and last.",
-  "revision": 9,
+  "revision": 10,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
@@ -27,7 +27,9 @@
     "DOC-WORLD",
     "DOC-GLOSSARY"
   ],
-  "related": [],
+  "related": [
+    "DOC-CONCEPT-BACKGROUND"
+  ],
   "bibRefs": [],
   "contentOrigin": "authored",
   "sourceBinding": null,

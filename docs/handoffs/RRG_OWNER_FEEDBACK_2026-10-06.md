@@ -976,3 +976,22 @@ the generated list sits above. Reworded.
 - Then the fidelity re-review session before any deployment.
 - Later ideas: the Experiments, Related scientific work and Questions critics ask
   pages.
+
+## 17. Phase 4 (four new pages) — accepted (6 Oct 2026)
+
+- **Owner:** approved all four drafts plus diamond/graphite with a citation;
+  polishing is separate later work; deploy after the work is made good.
+- **Added:**
+  - `/examples/first-structures/`, `/examples/carbon-arrangement/` (cites the
+    new BIB-0093, OpenStax Chemistry 2e §18.4, verified by Claude),
+    `/examples/brain/`, `/concepts/background/`;
+  - home-ladder, glossary and related links.
+- **Orders:**
+  - Examples: first structures → molecule → carbon → star → cell → life →
+    brain.
+  - Concepts: geometry and modes → stability → recursion and scale →
+    background → effective interactions.
+- **Checks:** content tests 21/21; builds and audits pass; smoke e2e 7/7 at both
+  bases (Claude); 108 Contents readings.
+- **Next:** fidelity re-review against v0.3 (separate Codex reviewer session)
+  → merge to `main` → publish workflow → live checks.

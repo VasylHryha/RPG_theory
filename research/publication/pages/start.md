@@ -4,7 +4,7 @@
   "route": "/start/",
   "title": "How can one structure make another possible?",
   "description": "Follow RRG from motion and lasting shapes to building blocks, changed surroundings, life and reachable tests.",
-  "revision": 13,
+  "revision": 14,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
@@ -36,7 +36,12 @@
     "DOC-EXAMPLE-STAR",
     "DOC-CATALOGUE"
   ],
-  "related": [],
+  "related": [
+    "DOC-EXAMPLE-FIRST-STRUCTURES",
+    "DOC-EXAMPLE-CARBON-ARRANGEMENT",
+    "DOC-EXAMPLE-BRAIN",
+    "DOC-CONCEPT-BACKGROUND"
+  ],
   "bibRefs": [
     "BIB-0026",
     "BIB-0089"
@@ -61,13 +66,13 @@ A passing ripple on water gives a simple picture of a shape that appears and fad
 
 Shapes and rhythms appear by chance. Most vanish. Sometimes the activity supports an arrangement, and the arrangement supports that activity, so the pair lasts. Chance creates the opportunity; what holds is what remains.
 
-RRG calls motion that has fallen into rhythm [resonance](/glossary/#resonance). Rhythm and shape hold each other; neither comes first. This is RRG’s proposed starting picture. The origin of the very first matter remains beyond the observations described here. [Read the source explanation](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance).
+RRG calls motion that has fallen into rhythm [resonance](/glossary/#resonance). Rhythm and shape hold each other; neither comes first. This is RRG’s proposed starting picture. The origin of the [very first matter](/examples/first-structures/) remains beyond the observations described here. [Read the source explanation](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance).
 
 ## Geometry: when shape and activity hold each other
 
 Pluck a [string](/examples/string/). Its length, fixed ends, tension and mass constrain the patterns it can support. A supported wave has its own moving shape. The string is a simple picture of shape and activity belonging together.
 
-RRG uses [geometry](/glossary/#geometry-shape) for the parts, their arrangement, connections and constraints. A [mode](/glossary/#mode) describes organized activity: its rhythm, timing, strength, spatial pattern and coupling—how the parts affect one another. One frequency number is not enough, and a visible beat is not required.
+RRG uses [geometry](/glossary/#geometry-shape) for the parts, [their arrangement](/examples/carbon-arrangement/), connections and constraints. A [mode](/glossary/#mode) describes organized activity: its rhythm, timing, strength, spatial pattern and coupling—how the parts affect one another. One frequency number is not enough, and a visible beat is not required.
 
 Together, resonance and shape can form a [resonator](/glossary/#resonator): a lasting whole whose organization and activity support each other.
 
@@ -116,6 +121,8 @@ A [cell](/examples/cell/) maintains itself through exchanges and ongoing process
 In RRG’s reading of evolution, survival comes first, but success also involves shaping conditions that favour its own persistence and spreading as far as those conditions allow. Life’s frontier adapts to new settings and can grow more complex while simpler forms continue. What holds and spreads becomes more common; no intention is needed.
 
 Joining is another route: cells form bodies, and organisms participate in ecosystems. For a particular population, measure persistence, environmental change and spreading separately, under stated resources and conditions. [Read the evolutionary interpretation](/documents/world-explanation/#101-evolution-follows-the-same-rules-survive-shape-spread-and-join).
+
+The [brain example](/examples/brain/) follows wiring and activity.
 
 Humans reshape the world with tools and cities and have spread across the planet. RRG reads this as a recent turn of the cycle. AI may begin another; that remains open speculation. [Read about humans](/documents/world-explanation/#121-humans-are-a-striking-recent-cycle) and [AI](/documents/world-explanation/#13-ai-may-be-using-an-indirect-route).
 

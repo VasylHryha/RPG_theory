@@ -52,7 +52,18 @@ test('Contents includes new pages, refuses missing metadata and navigates actual
   const exampleChapters=bookContents(actual).parts.find(p=>p.name==='Examples')!.chapters.filter(c=>c.pages.some(p=>p.route!=='/examples/'));
   assert.equal(groups.length,exampleChapters.length);
   groups.forEach((group,index)=>assert.deepEqual(hub(group).find('[data-contents-route]').toArray().map(row=>row.attribs['data-contents-route']),exampleChapters[index].pages.map(p=>p.route)));
-  assert.equal(hub('li').length,6);
+  const ladder=['first-structures','molecule','carbon-arrangement','star','cell','life-environment','brain'].map(slug=>`/examples/${slug}/`);
+  assert.deepEqual(exampleChapters[0].pages.map(p=>p.route),['/examples/string/','/examples/water/']);
+  assert.deepEqual(exampleChapters[1].pages.map(p=>p.route),ladder);
+  const contents=bookContents(actual);
+  assert.deepEqual(contents.parts[0].chapters[1].pages.map(p=>p.route),['/concepts/','/concepts/geometry-and-modes/','/concepts/stability/','/concepts/recursion/','/concepts/background/','/concepts/effective-interactions/']);
+  assert.equal(contents.home.length+contents.parts.flatMap(p=>p.chapters.flatMap(c=>c.pages)).length,108);
+  for(let i=0;i<ladder.length;i++) {
+    const turn=load(renderPageTurn(actual,ladder[i],'/rrg_theory/'));
+    if(i>0)assert.equal(turn('a[rel="prev"]').attr('href'),'/rrg_theory'+ladder[i-1]);
+    if(i+1<ladder.length)assert.equal(turn('a[rel="next"]').attr('href'),'/rrg_theory'+ladder[i+1]);
+  }
+  assert.equal(hub('li').length,9);
   assert.ok(hub('a').toArray().every(a=>a.attribs.href.startsWith('/rrg_theory/examples/')));
   const hrefs=(html:string)=>load(html)('a').toArray().map(a=>a.attribs.href);
   for(const route of ['/examples/water/','/examples/star/']) assert.deepEqual(hrefs(renderBreadcrumb(actual,route)),['/examples/']);

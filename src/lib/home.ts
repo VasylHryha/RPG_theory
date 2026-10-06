@@ -76,7 +76,7 @@ export function renderHomeBody(html: string, base = '/') {
   const branchHeading = ladder.find('h3').last();
   const branch = $('<aside class="ladder-branch"></aside>').append(branchHeading.nextUntil('h3').addBack());
   const branchTitle = branch.find('h3');
-  branchTitle.replaceWith($('<h5></h5>').attr('id',branchTitle.attr('id')!).text(branchTitle.text()));
+  branchTitle.replaceWith($('<h5></h5>').attr('id',branchTitle.attr('id')!).append(branchTitle.contents()));
   // Two arrangements of the same nine marks: a layered and a connected form.
   branch.prepend(`<svg viewBox="0 0 200 70" class="ladder-sketch" aria-hidden="true"><path class="ladder-outline" d="M12 16h64M12 35h64M12 54h64M127 15l-20 20 20 20 20-20Zm0 0 40 0 20 20-20 20-20-20"/>${[16,35,54].map(y=>[20,44,68].map(x=>`<circle cx="${x}" cy="${y}" r="3"/>`).join('')).join('')}${[[127,15],[147,15],[167,15],[107,35],[147,35],[187,35],[127,55],[147,55],[167,55]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="3"/>`).join('')}</svg>`);
   let step = 0;

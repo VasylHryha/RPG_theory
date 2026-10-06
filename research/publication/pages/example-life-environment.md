@@ -4,7 +4,7 @@
   "route": "/examples/life-environment/",
   "title": "Life changes its environment",
   "description": "Bacteria change acidity, and those changed conditions can help or hinder another population.",
-  "revision": 9,
+  "revision": 10,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -28,7 +28,10 @@
     "DOC-WORLD",
     "DOC-GLOSSARY"
   ],
-  "related": [],
+  "related": [
+    "DOC-EXAMPLE-BRAIN",
+    "DOC-CONCEPT-BACKGROUND"
+  ],
   "bibRefs": [
     "BIB-0062",
     "BIB-0064",

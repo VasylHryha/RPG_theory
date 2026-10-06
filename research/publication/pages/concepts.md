@@ -4,7 +4,7 @@
   "route": "/concepts/",
   "title": "The concepts, in ordinary words",
   "description": "Use a string, cell and molecule to understand shape, resonance, persistence and the repeating cycle.",
-  "revision": 9,
+  "revision": 10,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
@@ -27,7 +27,9 @@
     "DOC-WORLD",
     "DOC-GLOSSARY"
   ],
-  "related": [],
+  "related": [
+    "DOC-CONCEPT-BACKGROUND"
+  ],
   "bibRefs": [],
   "contentOrigin": "authored",
   "sourceBinding": null,
@@ -35,7 +37,7 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Editorial guide to the four existing concepts. RRG v0.3 README and 01 §0: Resonant/Geometry/Recursive name-rules; 01 §§1–3.1: full modes and stability; §§4–7.3: active parts, separate roles, force-fit and effective interactions; §9: conditional spreading; §§14–15.1: repeating cycle and evidence boundaries. Unchanged core §§1–9 defines geometry, modes, stability, scale and recursion; 04 §§2–4, 11, 15, 29 gives background and interaction detail.",
+  "sourceMapping": "Editorial guide to the five concepts. RRG v0.3 README and 01 §0: Resonant/Geometry/Recursive name-rules; 01 §§1–3.1: full modes and stability; §§4–7.3: active parts, separate roles, force-fit and effective interactions; §9: conditional spreading; §§14–15.1: repeating cycle and evidence boundaries. Unchanged core §§1–9 defines geometry, modes, stability, scale and recursion; 04 §§2–4, 11, 15, 29 gives background and interaction detail.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -57,7 +59,7 @@ A cell’s boundary regulates exchange, while internal activity helps maintain t
 
 A molecule can act as one chemical participant while its atoms remain active inside it. [Recursion](/glossary/#recursion--recursive) means a whole can become a part, and the shape–activity cycle can repeat at another [scale](/glossary/#scale).
 
-There are two outward roles: becoming a [building block](/glossary/#building-block) and creating [changed surroundings](/glossary/#changed-surroundings). Neither guarantees another level. [Recursion and scale](/concepts/recursion/) explains the distinction; [read the two roles in the source](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings).
+There are two outward roles: becoming a [building block](/glossary/#building-block) and creating [changed surroundings](/glossary/#changed-surroundings). Neither guarantees another level. [Recursion and scale](/concepts/recursion/) explains the distinction. [Background and new possibilities](/concepts/background/) follows how changed conditions open or close routes to organization; [read the two roles in the source](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings).
 
 ## How things fit and interact
 
