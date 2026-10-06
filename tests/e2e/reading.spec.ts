@@ -79,7 +79,7 @@ test('unknown routes return real 404 and nested assets use the configured base',
   expect((await request.get(base + 'favicon.svg')).status()).toBe(200);
   if (base !== '/') expect((await request.get('/favicon.svg')).status()).toBe(404);
   const info = await (await request.get(base + 'build-info.json')).json();
-  expect(info.deployEligible).toBe(false);
+  expect(info.deployEligible).toBe(artifact.mode === 'release');
   expect(info.currentSourceQualified).toBe(artifact.currentSourceQualified);
   expect(info.config.basePath).toBe(base);
 });

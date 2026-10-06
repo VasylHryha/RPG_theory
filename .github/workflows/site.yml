@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       operation:
-        description: Routine check, full qualification, or already authorized publication
+        description: Routine check, full regression campaign, or authorized test-edition publication
         type: choice
         options: [verify, qualify, publish]
         default: verify
@@ -18,7 +18,7 @@ jobs:
     concurrency:
       group: website-verify-${{ inputs.operation || 'verify' }}-${{ github.event_name == 'workflow_dispatch' && inputs.operation != 'verify' && github.run_id || github.head_ref || github.ref }}
       cancel-in-progress: ${{ github.event_name != 'workflow_dispatch' || inputs.operation == 'verify' }}
-    timeout-minutes: ${{ github.event_name == 'workflow_dispatch' && inputs.operation != 'verify' && 30 || 10 }}
+    timeout-minutes: ${{ github.event_name == 'workflow_dispatch' && inputs.operation == 'qualify' && 30 || 10 }}
     env:
       ASTRO_TELEMETRY_DISABLED: '1'
       PLAYWRIGHT_BROWSERS_PATH: /tmp/unity-playwright-browsers
@@ -38,16 +38,23 @@ jobs:
       - name: Routine verification (root and actual target)
         if: github.event_name != 'workflow_dispatch' || inputs.operation == 'verify'
         run: npm run verify:ci -- --evidence-dir docs/evidence/m7/runtime/routine
+      - name: Current release inputs and authorization
+        if: github.event_name == 'workflow_dispatch' && inputs.operation == 'publish'
+        run: npm run verify:push -- --evidence-dir docs/evidence/m7/runtime/release-inputs
       - name: Install qualification browsers
-        if: github.event_name == 'workflow_dispatch' && inputs.operation != 'verify'
+        if: github.event_name == 'workflow_dispatch' && inputs.operation == 'qualify'
         run: npx playwright install --with-deps chromium firefox webkit
       - name: Full qualification
-        if: github.event_name == 'workflow_dispatch' && inputs.operation != 'verify'
+        if: github.event_name == 'workflow_dispatch' && inputs.operation == 'qualify'
         run: npm run verify -- --evidence-dir docs/evidence/m7/runtime/qualification
   prepare:
     needs: verify
     if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.operation == 'publish' && vars.UNITY_DEPLOY_ENABLED == 'true'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+      PLAYWRIGHT_BROWSERS_PATH: /tmp/unity-playwright-browsers
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
@@ -58,16 +65,21 @@ jobs:
           cache: npm
       - run: npm install --global npm@11.16.0
       - run: npm ci
+      - run: npx playwright install --with-deps chromium
       - run: node --import tsx scripts/check-publication.ts --require-deploy true --evidence-dir docs/evidence/m7/runtime
       - run: npm run build -- --mode release --output dist/deploy
         env:
           ASTRO_TELEMETRY_DISABLED: '1'
       - run: node --import tsx scripts/seal-deployment.ts --dir dist/deploy --evidence-dir docs/evidence/m7/runtime
+      - name: Check the exact sealed release website
+        run: npm run test:e2e -- --output dist/deploy --grep @routine
+        env:
+          UNITY_EVIDENCE_DIR: docs/evidence/m7/runtime/release-browser
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
         with:
           name: github-pages
           path: dist/deploy
-          retention-days: 1
+          retention-days: 30
   deploy:
     needs: prepare
     if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.operation == 'publish' && vars.UNITY_DEPLOY_ENABLED == 'true'

@@ -21,6 +21,7 @@ const artifact=auditOutput(dir);
 if(!Boolean(artifact.deployEligible))throw new ContractError('M6_RELEASE_QUALIFICATION_REQUIRED','A private artifact cannot be uploaded for deployment');
 const seal=JSON.stringify({sourceCommit:head,artifactSha256:artifact.artifactSha256,inputsSha256:info.inputsSha256,documentManifestSha256:info.publicationManifestSha256,runId:process.env.GITHUB_RUN_ID,manifestSha256:sha256(stableJSON(artifact.files))},null,2)+'\n';
 writeFileSync(resolve(dir,'deployment-manifest.json'),seal);
+console.log(seal.trim());
 if(evidence) {
   mkdirSync(evidence,{recursive:true});
   writeFileSync(resolve(evidence,`${artifact.basePath==='/'?'root':'subpath'}-artifact.json`),JSON.stringify(artifact,null,2)+'\n');
