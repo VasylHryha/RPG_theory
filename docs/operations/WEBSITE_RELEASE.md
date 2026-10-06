@@ -10,6 +10,21 @@ Set the authorized target in the shared `config/site.json`, publication credit/r
 
 ## Qualify and publish the selected commit
 
+Routine pushes and manual `verify` use `npm run verify:ci`: shared current-source,
+content/fidelity and policy checks, Astro diagnostics, root/actual-target builds
+and output audits, and four Chromium journeys per base. CI has a ten-minute job
+limit; five minutes is the target, not a measured guarantee. The full content
+regressions, legacy URL fixture, full browser suite and M6 campaign remain in
+`npm run verify`, selected explicitly with operation `qualify` or required by
+`publish`. A routine PASS never counts as full qualification.
+
+For this checkout, `git config core.hooksPath .githooks` enables the tracked
+pre-push hook. It runs `npm run verify:push` (current sources, content/fidelity
+and policy, without builds or browsers). New checkouts must enable the hook
+explicitly; Git does not distribute local hook configuration. CI repeats the
+shared validators because it cannot rely on a local hook having run. Generated
+routine and pre-push receipts go under ignored `docs/evidence/m7/runtime/`.
+
 1. Review the exact proposed source/config/dependency changes and release timestamp. Use an authorized clean checkout of the selected main commit. Record the raw current-core hash, current inventory seal and publication-manifest digest. Never relabel old dirty previews as this release.
 2. Run the reached qualification chain on the intended current published corpus and real target. Store generated receipts under `docs/evidence/m7/runtime/`, which is narrowly ignored by Git so generated files do not dirty a release checkout. Existing issued evidence remains tracked and protected. A release qualification command is `npm run verify -- --mode release --config config/site.json --output-root dist/m7-qualification --evidence-dir docs/evidence/m7/runtime/qualification`. It verifies; it does not publish.
 3. After actual owner authorization and platform setup, enable both the shared deployment policy and the repository's `UNITY_DEPLOY_ENABLED` variable coherently. Manually dispatch the single workflow on main with operation `publish`. PRs remain read-only. The preparation job checks publication, builds `dist/deploy` from that clean same-run commit, and seals it before upload; the separately privileged deployment job only invokes the pinned Pages action. Do not add a deploy-time rebuild or substitute another run's artifact.

@@ -5,20 +5,26 @@ import { args } from './args.js';
 import { buildMode, loadSiteConfig } from '../src/lib/site-config.js';
 import { assertBuildAllowed, publicationFor } from '../src/lib/publication.js';
 
-const options = args(['mode', 'config', 'output-root', 'evidence-dir']);
+const options = args(['mode', 'config', 'output-root', 'evidence-dir', 'profile']);
 const mode = buildMode(options.mode ?? 'preview');
+const profile = options.profile ?? 'full';
+if (!['push', 'routine', 'full'].includes(profile)) throw new Error('Unknown verification profile');
+if (profile !== 'full' && mode !== 'preview') throw new Error('Routine verification is preview-only; qualification/release requires the full profile');
+const routine = profile !== 'full';
+const evidence = options['evidence-dir'] ?? (routine ? `docs/evidence/m7/runtime/${profile}` : 'docs/evidence/m6/implementation');
 if (mode === 'release') {
   const config=loadSiteConfig(options.config);
   assertBuildAllowed(mode,config,publicationFor(mode,config).admission);
 }
-const configurations = options.config ? [options.config] : ['tests/fixtures/site-root.json', 'tests/fixtures/site-subpath.json', 'config/site.json'];
+const configurations = profile === 'push' ? [] : options.config ? [options.config] : routine ? ['tests/fixtures/site-root.json', 'config/site.json'] : ['tests/fixtures/site-root.json', 'tests/fixtures/site-subpath.json', 'config/site.json'];
+const smoke = 'M6 launch search returns|M4 library, article and citation journeys|M5 approved About/contact|M5 policy pages and expanded footer';
 const suffixFor = (path: string) => {
   const base = loadSiteConfig(path).basePath;
   return base === '/' ? 'root' : base === '/unity-theory/' ? 'subpath' : 'target';
 };
 const commands = [
-  ['run', 'check'],
-  ['run', 'check:sources', '--', '--scope', 'history'],
+  ...(profile !== 'push' ? [['run', 'check']] : []),
+  ...(!routine ? [['run', 'check:sources', '--', '--scope', 'history']] : []),
   ['run', 'check:sources', '--', '--scope', 'current'],
   ['run', 'check:content'],
   ['run', 'check:publication'],
@@ -30,13 +36,14 @@ const commands = [
       ['run', 'audit:output', '--', '--dir', output]
     ];
   }),
-  ['run', 'test:content'],
+  ...(!routine ? [['run', 'test:content']] : []),
   ...configurations.flatMap(config=>{
     const suffix=suffixFor(config),output=`${options['output-root']??'dist'}/${mode}-${suffix}`;
-    return [['run','test:e2e','--','--output',output],['run','check:m6','--','--dir',output,'--evidence-dir',`${options['evidence-dir']??'docs/evidence/m6/implementation'}/${suffix}`,'--lighthouse',suffix==='root'?'true':'false']];
+    return routine ? [['run','test:e2e','--','--output',output,'--grep',smoke]] : [['run','test:e2e','--','--output',output],['run','check:m6','--','--dir',output,'--evidence-dir',`${evidence}/${suffix}`,'--lighthouse',suffix==='root'?'true':'false']];
   })
 ];
-const receipts: { command: string; exitCode: number | null }[] = [];
+const receipts: { command: string; exitCode: number | null; elapsedMs: number }[] = [];
+const started = Date.now();
 for (const command of commands) {
   console.log(`\nRunning npm ${command.join(' ')}`);
   // Contract mutations intentionally use the legacy regression base. Give an
@@ -45,12 +52,12 @@ for (const command of commands) {
   const contractOutput=subpathConfig?`${options['output-root']??'dist'}/${mode}-${suffixFor(subpathConfig)}`:undefined;
   const artifactOutput=command[1]==='test:e2e'?command[command.indexOf('--output')+1]:command[1]==='audit:output'?command[command.indexOf('--dir')+1]:undefined;
   const artifactSuffix=artifactOutput?.split('/').pop()?.replace(`${mode}-`,'');
-  const result = spawnSync('npm', command, { stdio: 'inherit', env: { ...process.env, ASTRO_TELEMETRY_DISABLED: '1', ...(contractOutput?{UNITY_CONTRACT_OUTPUT:resolve(contractOutput)}:{}), UNITY_EVIDENCE_DIR: `${options['evidence-dir'] ?? 'docs/evidence/m6/implementation'}${artifactSuffix?'/'+artifactSuffix:''}` } });
-  receipts.push({ command: 'npm ' + command.join(' '), exitCode: result.status });
+  const commandStarted = Date.now();
+  const result = spawnSync('npm', command, { stdio: 'inherit', env: { ...process.env, ASTRO_TELEMETRY_DISABLED: '1', ...(contractOutput?{UNITY_CONTRACT_OUTPUT:resolve(contractOutput)}:{}), UNITY_EVIDENCE_DIR: `${evidence}${artifactSuffix?'/'+artifactSuffix:''}` } });
+  receipts.push({ command: 'npm ' + command.join(' '), exitCode: result.status, elapsedMs: Date.now() - commandStarted });
   if (result.status !== 0) break;
 }
-const evidence = options['evidence-dir'] ?? 'docs/evidence/m6/implementation';
 mkdirSync(evidence, { recursive: true });
 const complete = receipts.length === commands.length && receipts.every(r => r.exitCode === 0);
-writeFileSync(`${evidence}/verification.json`, JSON.stringify({ date: new Date().toISOString(), mode, status: complete ? 'PASS' : 'FAIL', receipts, notRun: commands.slice(receipts.length).map(c => 'npm ' + c.join(' ')), scientificContentAccepted: false, humanComprehension: 'NOT_TESTED', publicDeployment: 'NOT_RUN' }, null, 2) + '\n');
+writeFileSync(`${evidence}/verification.json`, JSON.stringify({ date: new Date().toISOString(), mode, profile, elapsedMs: Date.now() - started, status: complete ? 'PASS' : 'FAIL', qualificationSuiteComplete: !routine && complete, omittedByProfile: routine ? [...(profile === 'push' ? ['Astro type check', 'build/output audit', 'browser smoke'] : []), 'historical source regression', 'legacy /unity-theory/ fixture', 'full content contract suite', 'full browser suite', 'M6 stress/cross-browser/performance/Lighthouse campaign'] : [], receipts, notRun: commands.slice(receipts.length).map(c => 'npm ' + c.join(' ')), scientificContentAccepted: false, humanComprehension: 'NOT_TESTED', publicDeployment: 'NOT_RUN' }, null, 2) + '\n');
 process.exitCode = complete ? 0 : 1;

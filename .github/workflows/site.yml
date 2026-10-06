@@ -6,15 +6,19 @@ on:
   workflow_dispatch:
     inputs:
       operation:
-        description: Verify privately, or request an already authorized publication
+        description: Routine check, full qualification, or already authorized publication
         type: choice
-        options: [verify, publish]
+        options: [verify, qualify, publish]
         default: verify
 permissions:
   contents: read
 jobs:
   verify:
     runs-on: ubuntu-latest
+    timeout-minutes: ${{ github.event_name == 'workflow_dispatch' && inputs.operation != 'verify' && 30 || 10 }}
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+      PLAYWRIGHT_BROWSERS_PATH: ${{ runner.temp }}/playwright-browsers
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
@@ -25,10 +29,18 @@ jobs:
           cache: npm
       - run: npm install --global npm@11.16.0
       - run: npm ci
-      - run: npx playwright install --with-deps chromium firefox webkit
-      - run: npm run verify
-        env:
-          ASTRO_TELEMETRY_DISABLED: '1'
+      - name: Install routine browser
+        if: github.event_name != 'workflow_dispatch' || inputs.operation == 'verify'
+        run: npx playwright install --with-deps chromium
+      - name: Routine verification (root and actual target)
+        if: github.event_name != 'workflow_dispatch' || inputs.operation == 'verify'
+        run: npm run verify:ci -- --evidence-dir docs/evidence/m7/runtime/routine
+      - name: Install qualification browsers
+        if: github.event_name == 'workflow_dispatch' && inputs.operation != 'verify'
+        run: npx playwright install --with-deps chromium firefox webkit
+      - name: Full qualification
+        if: github.event_name == 'workflow_dispatch' && inputs.operation != 'verify'
+        run: npm run verify -- --evidence-dir docs/evidence/m7/runtime/qualification
   prepare:
     needs: verify
     if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.operation == 'publish' && vars.UNITY_DEPLOY_ENABLED == 'true'

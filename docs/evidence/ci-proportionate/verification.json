@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-06T05:16:17.901Z",
+  "mode": "preview",
+  "profile": "routine",
+  "elapsedMs": 183275,
+  "status": "PASS",
+  "qualificationSuiteComplete": false,
+  "omittedByProfile": [
+    "historical source regression",
+    "legacy /unity-theory/ fixture",
+    "full content contract suite",
+    "full browser suite",
+    "M6 stress/cross-browser/performance/Lighthouse campaign"
+  ],
+  "receipts": [
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "elapsedMs": 13973
+    },
+    {
+      "command": "npm run check:sources -- --scope current",
+      "exitCode": 0,
+      "elapsedMs": 5122
+    },
+    {
+      "command": "npm run check:content",
+      "exitCode": 0,
+      "elapsedMs": 12882
+    },
+    {
+      "command": "npm run check:publication",
+      "exitCode": 0,
+      "elapsedMs": 13298
+    },
+    {
+      "command": "npm run build -- --mode preview --config tests/fixtures/site-root.json --output dist/ci-bounded/preview-root",
+      "exitCode": 0,
+      "elapsedMs": 27564
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/ci-bounded/preview-root",
+      "exitCode": 0,
+      "elapsedMs": 21102
+    },
+    {
+      "command": "npm run build -- --mode preview --config config/site.json --output dist/ci-bounded/preview-target",
+      "exitCode": 0,
+      "elapsedMs": 24116
+    },
+    {
+      "command": "npm run audit:output -- --dir dist/ci-bounded/preview-target",
+      "exitCode": 0,
+      "elapsedMs": 26635
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/ci-bounded/preview-root --grep M6 launch search returns|M4 library, article and citation journeys|M5 approved About/contact|M5 policy pages and expanded footer",
+      "exitCode": 0,
+      "elapsedMs": 17269
+    },
+    {
+      "command": "npm run test:e2e -- --output dist/ci-bounded/preview-target --grep M6 launch search returns|M4 library, article and citation journeys|M5 approved About/contact|M5 policy pages and expanded footer",
+      "exitCode": 0,
+      "elapsedMs": 21277
+    }
+  ],
+  "notRun": [],
+  "scientificContentAccepted": false,
+  "humanComprehension": "NOT_TESTED",
+  "publicDeployment": "NOT_RUN",
+  "note": "One measured local routine run; hosted revised workflow not yet run. One subsequent event-context contract and one affected citation browser journey passed. No full qualification PASS."
+}

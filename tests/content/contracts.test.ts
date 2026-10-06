@@ -108,7 +108,16 @@ test('release with fixture host or unqualified scientific corpus fails closed', 
   assert.throws(() => assertBuildAllowed('release', real, { currentSourceQualified: false, corpusScope: 'current' }), /CURRENT_SOURCE_NOT_QUALIFIED/);
   assert.throws(() => assertBuildAllowed('release', real, { currentSourceQualified: true, corpusScope: 'synthetic' }), /CURRENT_SOURCE_NOT_QUALIFIED/);
   assert.throws(() => assertBuildAllowed('release', real, { currentSourceQualified: true, corpusScope: 'current' }), /PUBLIC_AUTHORIZATION_REQUIRED/);
-  assert.throws(() => assertBuildAllowed('release', { ...real, publicAuthorization: true }, { currentSourceQualified: true, corpusScope: 'current' }), /MANUAL_MAIN_DEPLOYMENT_REQUIRED/);
+  const savedEvent=process.env.GITHUB_EVENT_NAME,savedRef=process.env.GITHUB_REF;
+  try {
+    process.env.GITHUB_EVENT_NAME='pull_request';process.env.GITHUB_REF='refs/heads/main';
+    assert.throws(() => assertBuildAllowed('release', { ...real, publicAuthorization: true }, { currentSourceQualified: true, corpusScope: 'current' }), /MANUAL_MAIN_DEPLOYMENT_REQUIRED/);
+    process.env.GITHUB_EVENT_NAME='workflow_dispatch';
+    assert.throws(() => assertBuildAllowed('release', { ...real, publicAuthorization: true }, { currentSourceQualified: true, corpusScope: 'current' }), /PUBLIC_TARGET_NOT_AUTHORIZED/);
+  } finally {
+    if(savedEvent===undefined)delete process.env.GITHUB_EVENT_NAME;else process.env.GITHUB_EVENT_NAME=savedEvent;
+    if(savedRef===undefined)delete process.env.GITHUB_REF;else process.env.GITHUB_REF=savedRef;
+  }
 });
 const contractOutput=process.env.UNITY_CONTRACT_OUTPUT ?? 'dist/m6-contract/preview-subpath';
 let productionFixtureReady=false;

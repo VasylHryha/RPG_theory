@@ -16,6 +16,8 @@
     "audit:output": "tsx scripts/audit-output.ts",
     "test:e2e": "tsx scripts/test-e2e.ts",
     "verify": "tsx scripts/verify.ts",
+    "verify:ci": "tsx scripts/verify.ts --profile routine",
+    "verify:push": "tsx scripts/verify.ts --profile push",
     "serve": "tsx scripts/serve.ts",
     "check:content": "tsx scripts/check-content.ts",
     "check:source-revision": "tsx scripts/check-source-revision.ts",

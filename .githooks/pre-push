@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+npm run verify:push -- --evidence-dir docs/evidence/m7/runtime/pre-push
