@@ -2,9 +2,9 @@
 {
   "id": "DOC-EXAMPLES",
   "route": "/examples/",
-  "title": "Six ways into the question",
-  "description": "Patterns, constraints, reusable wholes and changing conditions.",
-  "revision": 9,
+  "title": "Examples: from shapes to the next step",
+  "description": "Begin with string and water, then follow molecules, stars, cells and life changing its surroundings.",
+  "revision": 10,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -22,7 +22,9 @@
     "DOC-EXAMPLE-MOLECULE",
     "DOC-EXAMPLE-STAR",
     "DOC-EXAMPLE-STRING",
-    "DOC-EXAMPLE-WATER"
+    "DOC-EXAMPLE-WATER",
+    "DOC-WORLD",
+    "DOC-GLOSSARY"
   ],
   "related": [],
   "bibRefs": [],
@@ -32,16 +34,16 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. Editorial index of six separately mapped illustrations; no additional scientific claim.",
+  "sourceMapping": "Editorial index of the six existing illustrations, ordered with Contents. RRG v0.3 01 §§0–2: name-rules and string; §§5–7.2: molecules, separate roles and stellar ancestry; §§9–10.1: spreading and life. Unchanged core §§1–9 supplies the explanatory terms; each example retains its own source mapping and citations.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-Choose the question you want to follow. Each example explains an actual situation, the physical relationships that matter and the particular RRG connection it illustrates. They use different mechanisms.
+A string shows which motions fit a shape. Water lets you follow a moving pattern. Then the ladder takes you from atoms joining into molecules to stars, cells and life changing its surroundings.
 
-The wave and string introduce particular relationships; the cell and culture examples develop feedback. The reading list starts with string and water, then follows molecule → star → cell → life changing its environment; it is not a ranking of evidence or a history of inevitable levels.
+Each example follows the same questions: what happens, how RRG reads it, which rules and outward roles you can see, and where that reading stops. The mechanisms differ; the shared pattern is RRG’s proposal.
 
-[Learn the terms](/concepts/) or [examine reported findings](/evidence/). For the connected story, [follow the introduction](/start/).
+Read the examples in the order listed above, or use the [glossary](/glossary/) when a term is new. For the connected story, [read Start](/start/).
 
 Questions or ideas? [Contact the author](/contact/).

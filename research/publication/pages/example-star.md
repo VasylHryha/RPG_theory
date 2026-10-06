@@ -3,8 +3,8 @@
   "id": "DOC-EXAMPLE-STAR",
   "route": "/examples/star/",
   "title": "Star: new reaction conditions",
-  "description": "Existing organization can open possibilities for later transformations.",
-  "revision": 7,
+  "description": "A star’s heat and pressure allow new nuclei; dispersed elements make richer chemistry possible.",
+  "revision": 9,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -20,7 +20,9 @@
   "dependsOn": [
     "UT-C01",
     "UT-C02",
-    "UT-D05"
+    "UT-D05",
+    "DOC-WORLD",
+    "DOC-GLOSSARY"
   ],
   "related": [],
   "bibRefs": [
@@ -32,26 +34,36 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. World §7 and cosmic/background addenda; framework §7. NASA is supplementary background, not evidence that RRG derives gravity.",
+  "sourceMapping": "RRG v0.3 01 §§7–7.3: stellar reaction conditions, changed surroundings, corrected ancestry and open force origins; §§3–3.1: evolving maintained organization; §6.1: gravity and force-fit; cosmic/background addenda: enriched material and later chemistry. Retained framework §7; unchanged core §§4–5, 10–11. BIB-0014 remains supplementary first-star background, not evidence that RRG derives gravity. Established stellar history is separate from the proposed common cycle.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## What to notice
+## What happens
 
-The source world explanation follows gas becoming a gravitationally organized star. Its internal temperature and pressure allow nuclear reactions to produce new nuclei. Stellar evolution and the dispersal of many heavier elements expand the material available for later chemistry. NASA's first-star explanation provides supplementary background: [NASA's first-stars explanation](/references/#BIB-0014).
+Gas gathers under gravity and forms a star. Its internal temperature and pressure make nuclear reactions possible. Stellar evolution and the dispersal of many heavier elements then expand the material available for later chemistry.
 
-## What this illustrates
+Here an existing structure changes the setting for later transformations. The new nuclei and dispersed elements are the results to follow.
 
-The important connection is existing organization → changed conditions → further physical possibilities. The original documents use the star to illustrate their wider question about which structures become accessible in an environment.
+## How RRG reads it
 
-A star physically evolves. Treating it as one object in a larger description is a different act: it changes what we track, rather than creating a new star by naming a level. Both ideas matter, and they should not be conflated.
+A star’s [geometry](/glossary/#geometry-shape) includes its organization and internal constraints; its activity evolves within that setting. RRG reads the lasting pair as a [resonator](/glossary/#resonator). **Geometry** concerns the arrangement, and **Resonant** concerns its activity. [Stability](/glossary/#stability) means persistence over an interval, during which the star can keep changing.
+
+Gravity provides the gathering and holding. The broader proposal that [resonance](/glossary/#resonance) explains which arrangements fit and persist is RRG’s interpretation of such systems.
+
+## What you can see here
+
+The main outward role is [changed surroundings](/glossary/#changed-surroundings): **lasting organization → changed conditions → new possibilities**. Conditions inside the star permit nuclear transformations; later dispersal opens material possibilities for chemistry. Breaking down and scattering belong to the story alongside formation.
+
+This illustrates the **Recursive** rule through inherited material and conditions. Later organization uses what earlier organization made available. The star’s environmental role is distinct from the [building-block](/glossary/#building-block) role: treating it as one object in a description does not put the intact star inside a later molecule.
 
 ## Where the interpretation stops
 
-This example does not derive gravity from a universal resonance law or make every possible next structure inevitable. The broader [background-selection extension](/claims/UT-C02/) and force-unification question remain open in the original sources.
+Stellar history has established physical explanations. Reading it as a turn of one common RRG cycle is the proposal. This example neither derives gravity from resonance nor makes every next structure inevitable. The origin of forces and the broader [question of which structures become possible](/claims/UT-C02/) remain open.
 
-[Life changing its environment](/examples/life-environment/) explores another way an existing organization changes conditions. [All examples](/examples/)
+## Evidence and sources
+
+[NASA’s first-stars explanation](/references/#BIB-0014) provides supplementary background. The [world explanation’s stellar chain](/documents/world-explanation/#72-each-level-needs-the-ones-before-it) connects this step to the inherited material and conditions used later in the ladder.
 
 Questions or ideas? [Contact the author](/contact/).

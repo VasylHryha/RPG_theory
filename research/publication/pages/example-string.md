@@ -3,8 +3,8 @@
   "id": "DOC-EXAMPLE-STRING",
   "route": "/examples/string/",
   "title": "String: boundaries shape motion",
-  "description": "An illustration of constrained motion, with material properties kept in view.",
-  "revision": 7,
+  "description": "A string’s boundaries constrain its waves; each supported wave has a moving shape.",
+  "revision": 9,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -20,7 +20,9 @@
   "dependsOn": [
     "UT-D01",
     "UT-D02",
-    "UT-D03"
+    "UT-D03",
+    "DOC-WORLD",
+    "DOC-GLOSSARY"
   ],
   "related": [],
   "bibRefs": [
@@ -32,28 +34,36 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. World explanation §2; core §§1–3. OpenStax supplements the ideal fixed-end string model and its physical parameters.",
+  "sourceMapping": "RRG v0.3 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## What to notice
+## What happens
 
-A stretched string fixed at both ends can support particular standing-wave patterns. In the ideal model, the ends stay at rest while other regions move. The simplest pattern has one arch; another has two arches and a stationary point between them. The diagram shows possible shapes at one instant, not a measured amplitude.
+A stretched string fixed at both ends can support standing waves. In the simplest pattern, one arch lies between the ends. Another pattern has two arches and a stationary point between them. The ends stay at rest in the ideal model while other regions move.
 
-Length and end conditions constrain the patterns. Tension and mass per unit length set the wave speed. Geometry alone does not fix those material and force conditions. The elementary standing-wave model is described by [the OpenStax string model](/references/#BIB-0061).
+Length and fixed ends constrain which patterns fit. Tension and mass per unit length set the wave speed. Both the arrangement and the physical properties matter. The drawing shows possible shapes at one instant, rather than a measured amplitude.
 
-## What this illustrates
+## How RRG reads it
 
-The original world explanation uses the guitar string to introduce how organization constrains modes, and how a mode has a spatial expression. It then asks whether persistent physical structures can be understood through a geometry–mode loop.
+The string is a simple picture for two words in the name. **Resonant** points to [resonance](/glossary/#resonance), organized motion with a rhythm. **Geometry** points to [shape and constraints](/glossary/#geometry-shape): the supported motion has a spatial pattern, and the string’s boundaries restrict that pattern.
 
-The string illustration does not itself demonstrate that motion maintains its fixed supports or a self-maintaining boundary. That stronger question requires a system and model in which the feedback is actually specified.
+Its [mode](/glossary/#mode) includes how different regions move together, rather than just one frequency. RRG asks a wider question: when can shape and activity support each other well enough for a whole to persist as a [resonator](/glossary/#resonator)?
 
-## Connect to the definition
+## What you can see here
 
-In the [geometry and modes concept](/concepts/geometry-and-modes/), the physical constraints are described before the formal RRG definitions. A [molecule](/examples/molecule/) illustrates how a collective organization can add restrictions while lower-level structure remains.
+You can see resonance and shape together. Change the string’s length or tension and its supported motions change; excite a supported wave and its moving shape becomes visible. This makes the relation easy to picture.
 
-[All examples](/examples/) · [Start with the idea](/start/)
+This is a **Basics** example: it introduces the shape–activity relationship. The next questions concern the two outward roles. Could the lasting whole become a [building block](/glossary/#building-block), or could its activity create [changed surroundings](/glossary/#changed-surroundings) that support related organization? Those steps need a further system to examine.
+
+## Where the interpretation stops
+
+The fixed supports are supplied. The wave does not demonstrate that its motion maintains those supports. A model of that stronger feedback would need to show which activity preserves which constraint, and for how long. The physical string model also needs tension and material properties; naming geometry does not supply them.
+
+## Evidence and sources
+
+[OpenStax’s standing-wave model](/references/#BIB-0061) explains the ideal fixed-end string and its parameters. The [geometry and modes page](/concepts/geometry-and-modes/) develops the RRG terms, while the [molecule example](/examples/molecule/) follows a whole that can become a useful part.
 
 Questions or ideas? [Contact the author](/contact/).

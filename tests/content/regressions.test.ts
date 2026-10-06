@@ -10,7 +10,7 @@ import { loadCanonicalCorpus, renderEntrySync } from '../../src/lib/content.js';
 import { sourceDisplay } from '../../src/lib/source-display.js';
 import { withdrawnTombstone } from '../../src/lib/publication.js';
 import { renderRecordDetails } from '../../src/lib/presentation.js';
-import { bookContents, readingPages, renderBreadcrumb, renderPageTurn, renderRelated } from '../../src/lib/contents.js';
+import { bookContents, readingPages, renderBreadcrumb, renderPageTurn, renderRelated, renderSectionIndex } from '../../src/lib/contents.js';
 
 test('Markdown renders accessible math and base-aware links, and rejects executable input', async () => {
   const html = await renderMarkdown('[Start][link]\n\n[link]: /start/\n\n$$x^2+1$$', '/rrg_theory/');
@@ -47,6 +47,13 @@ test('Contents includes new pages, refuses missing metadata and navigates actual
   assert.throws(() => bookContents({ ...selection, manifest: { routes: [...selection.manifest.routes, '/unregistered/'] } }), /CONTENTS_MEMBERSHIP_FAILURE/);
   const entries=[...corpus.entries.values()];
   const actual={corpus,entries,manifest:{routes:[...entries.map(e=>e.route),...Object.keys(readingPages)]}};
+  const hub=load(renderSectionIndex(actual,'/examples/','/rrg_theory/'));
+  const groups=hub('section.section-reading-list > section').toArray();
+  const exampleChapters=bookContents(actual).parts.find(p=>p.name==='Examples')!.chapters.filter(c=>c.pages.some(p=>p.route!=='/examples/'));
+  assert.equal(groups.length,exampleChapters.length);
+  groups.forEach((group,index)=>assert.deepEqual(hub(group).find('[data-contents-route]').toArray().map(row=>row.attribs['data-contents-route']),exampleChapters[index].pages.map(p=>p.route)));
+  assert.equal(hub('li').length,6);
+  assert.ok(hub('a').toArray().every(a=>a.attribs.href.startsWith('/rrg_theory/examples/')));
   const hrefs=(html:string)=>load(html)('a').toArray().map(a=>a.attribs.href);
   for(const route of ['/examples/water/','/examples/star/']) assert.deepEqual(hrefs(renderBreadcrumb(actual,route)),['/examples/']);
   assert.deepEqual(hrefs(renderBreadcrumb(actual,'/about/')),[]);

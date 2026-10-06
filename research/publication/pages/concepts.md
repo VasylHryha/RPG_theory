@@ -3,8 +3,8 @@
   "id": "DOC-CONCEPTS",
   "route": "/concepts/",
   "title": "The concepts, in ordinary words",
-  "description": "Four questions about organization, persistence, scale and changed conditions—with examples and source boundaries.",
-  "revision": 7,
+  "description": "Use a string, cell and molecule to understand shape, resonance, persistence and the repeating cycle.",
+  "revision": 9,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
@@ -23,7 +23,9 @@
     "DOC-CONCEPT-INTERACTIONS",
     "DOC-CONCEPT-RECURSION",
     "DOC-CONCEPT-STABILITY",
-    "DOC-CORE"
+    "DOC-CORE",
+    "DOC-WORLD",
+    "DOC-GLOSSARY"
   ],
   "related": [],
   "bibRefs": [],
@@ -33,42 +35,36 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. Editorial index of the four mapped concept explanations.",
+  "sourceMapping": "Editorial guide to the four existing concepts. RRG v0.3 README and 01 §0: Resonant/Geometry/Recursive name-rules; 01 §§1–3.1: full modes and stability; §§4–7.3: active parts, separate roles, force-fit and effective interactions; §9: conditional spreading; §§14–15.1: repeating cycle and evidence boundaries. Unchanged core §§1–9 defines geometry, modes, stability, scale and recursion; 04 §§2–4, 11, 15, 29 gives background and interaction detail.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## Four questions to carry into the examples
+## Resonant: activity with a pattern
 
-### Geometry and mode structure
+A string fixed at both ends supports particular wave patterns. RRG calls organized motion that has fallen into rhythm [resonance](/glossary/#resonance). A [mode](/glossary/#mode) describes the pattern in more detail: timing, strength, spatial form, coupling and characteristic times. One frequency number is not enough.
 
-**Core definitions.** What is organized, and how does it move, change or respond? Geometry includes relationships and constraints; mode structure includes more than one frequency.
+[Geometry and modes](/concepts/geometry-and-modes/) explains those words through the string and cell. [Read the starting picture](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance) for the distinction between chaotic motion and organized resonance.
 
-A string's fixed ends restrict its supported motions, while tension and material also matter. [Explore geometry and modes](/concepts/geometry-and-modes/).
+## Geometry: shape and activity hold each other
 
-### Stability
+A cell’s boundary regulates exchange, while internal activity helps maintain the conditions the cell needs. [Geometry](/glossary/#geometry-shape) means its parts, arrangement, relationships and constraints. Where shape and activity support a lasting whole, RRG calls it a [resonator](/glossary/#resonator). Neither side comes first.
 
-**Core definition.** What lets an organization persist while its parts remain active? Persistence can involve maintaining, restoring or recreating the organized state. It is not a promise of permanence or a universal measurement of lifetime.
+[Stability](/concepts/stability/) asks what lasts and for how long. A cell needs ongoing energy flow; some bound structures persist without continuous outside power. [Read energy and time](/documents/world-explanation/#31-energy-and-time).
 
-A cell exchanges material while remaining recognizable. [Explore stability](/concepts/stability/).
+## Recursive: a whole opens the next step
 
-### Scale and recursion
+A molecule can act as one chemical participant while its atoms remain active inside it. [Recursion](/glossary/#recursion--recursive) means a whole can become a part, and the shape–activity cycle can repeat at another [scale](/glossary/#scale).
 
-**Core definitions; open generalization.** When can a whole become a useful part of another description? A scale is an effective regime, not just a size. Recursion does not require identical parts or compulsory replication.
+There are two outward roles: becoming a [building block](/glossary/#building-block) and creating [changed surroundings](/glossary/#changed-surroundings). Neither guarantees another level. [Recursion and scale](/concepts/recursion/) explains the distinction; [read the two roles in the source](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings).
 
-A molecule can act as one unit in further interactions while retaining internal structure. [Explore recursion and scale](/concepts/recursion/).
+## How things fit and interact
 
-### Background and effective interactions
+Illuminated particles can interact through supplied light. Their setting helps determine which arrangements hold. RRG proposes a broader relation: forces gather and hold; compatible activity helps explain what fits. [Inner resonance](/glossary/#inner-resonance) concerns activity within a thing, and [outer resonance](/glossary/#outer-resonance) concerns its coupling to others.
 
-**Current source-direction extension.** How can existing organization change the conditions or interactions available to later structures?
+[Effective interactions](/concepts/effective-interactions/) follows the reported optical cases and separates them from open claims about forces. [Spreading](/glossary/#spreading) is also conditional: related organization may form when the coupling, energy and surroundings allow it.
 
-Living systems can change their chemical surroundings. Light-mediated particle interactions show narrower local mechanisms with externally supplied fields. [Explore effective interactions](/concepts/effective-interactions/) and the [recursive background companion](/framework/recursive-background/).
+## Go deeper
 
-## The minimal core and the current extension
-
-The project-wide [minimal locked core](/documents/locked-core/) defines $R=(G,M)$ and $G\leftrightarrow M$: organization and mode structure considered together.
-
-The current companion centres the source-direction relation $B_n\rightarrow R_n\rightarrow B_{n+1}$: a background supports organization, and that organization may change the background available for what follows. This is a central commitment of the current branch; it does not silently amend the older project-wide lock boundary. “Locked” means explicit change control, not empirical proof.
-
-Whether one law works across repeated levels, or one mathematical equation family describes them all, remains a stronger open question. [Read the framework](/framework/) or [see the research status](/research-status/) when you want the technical distinctions.
+[Read the locked definitions](/documents/locked-core/) for precision, or the [background explanation](/framework/recursive-background/) for how lasting organization may change what forms next. The [world explanation’s boundaries](/documents/world-explanation/#15-what-this-explanation-is-not-saying) keep established mechanisms, RRG’s shared-pattern reading and speculation distinct.

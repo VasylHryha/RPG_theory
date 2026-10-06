@@ -3,8 +3,8 @@
   "id": "DOC-START",
   "route": "/start/",
   "title": "How can one structure make another possible?",
-  "description": "Start with bacteria changing their surroundings, then follow the question from a cell to other physical systems.",
-  "revision": 11,
+  "description": "Follow RRG from motion and lasting shapes to building blocks, changed surroundings, life and reachable tests.",
+  "revision": 13,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
@@ -15,7 +15,10 @@
   "sourceRefs": [
     "R-CURRENT-BACKGROUND",
     "R-CURRENT-CLAIMS",
-    "R-CURRENT-CORE"
+    "R-CURRENT-CORE",
+    "R-CURRENT-WORLD",
+    "R-CURRENT-GUIDE",
+    "R-CURRENT-CATALOGUE"
   ],
   "dependsOn": [
     "DOC-BACKGROUND",
@@ -26,7 +29,12 @@
     "DOC-EXAMPLE-CELL",
     "DOC-EXAMPLE-MOLECULE",
     "DOC-SOURCE-LINKS",
-    "DOC-STATUS"
+    "DOC-STATUS",
+    "DOC-WORLD",
+    "DOC-GLOSSARY",
+    "DOC-EXAMPLE-STRING",
+    "DOC-EXAMPLE-STAR",
+    "DOC-CATALOGUE"
   ],
   "related": [],
   "bibRefs": [
@@ -37,84 +45,92 @@
   "sourceBinding": null,
   "statement": null,
   "plainLanguage": "",
-  "scope": "Authored example-led introduction: local geometry–mode feedback, whole-as-unit and physical environment change, with the broader recursive/source-origin proposal explicitly open.",
+  "scope": "Full general-reader v0.3 story: noise and chance, mutual shape–activity support, separate outward roles, conditional spreading, forces/fit, repeated scales, life and reachable tests. The common pattern and speculative extremes retain their source-reported status.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Minimal core §§1–9: geometry, full mode structure, reciprocal support, interval stability, internally active units and recursion without mandatory replication; current 04 §§0–4: fluctuating background and source direction; current 08 H01–H03/H06/H11–H13/H17/H19 and O1–O5/O7: proposed hierarchy, boundaries and ambition. Cell/molecule explanations provide mapped illustrations. BIB-0089 is supplementary pH-growth context in supplied cultures, not a new catalogue case or origin-of-life result. BIB-0026 supplies the bounded lipid/protein/ATP feedback example; no simulated loop interruption is called experimental ablation. A whole-as-unit and physical change of surroundings are separate roles.",
+  "sourceMapping": "RRG v0.3 01 §0 and README name-rules; 01 §§1–1.1: noise, chance, resonance and mutual support; §2: string; §§3–3.1: interval stability and energy; §§6–6.1: molecular constraints, forces and inner/outer resonance; §§7–7.3: separate outward roles, corrected stellar ancestry and open force origins; §9: conditional spreading; §§10–10.1, 12.1, 13: life, evolution, humans and speculative AI; §§14–15.1: repeated cycle, boundaries and reachable repeated-construction test. Unchanged core §§1–9, 11–12 supplies geometry, full modes, stability, active units, recursion and optional reproduction. Current 04 §§2–4, 11, 13, 34–35 supplies background feedback and testing detail; 08 H24–H28/O9 preserves hypothesis status. BIB-0026: supplied lipid/protein/ATP shape–activity feedback, not a complete cell or experimental loop ablation. BIB-0089: controlled-culture acidity/growth, not origin-of-life evidence. Current 06 E10/E11/E20: supplied chemical spots, suspension holes and vibrated granular bands are bounded nonliving multiplication examples already referenced by 01 §9, not a shared microscopic resonance mechanism.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## Start with a change you can follow
+The home page shows the whole ladder. Here we follow the steps behind it: how an arrangement lasts, how it opens the next step, and why the three words **Resonant · Geometry · Recursive** belong together.
 
-Picture two bacterial populations in a liquid. The acidity that suits one may not suit the other. As the first population grows, it can change that acidity and make survival possible for the second under conditions it previously could not tolerate. This relationship has been observed in controlled cultures. [Read the source](/references/#BIB-0089).
+## Resonant: everything moves, some rhythms last
 
-The important change is not that new ingredients suddenly appeared. The conditions changed because something living was already there.
+A passing ripple on water gives a simple picture of a shape that appears and fades. RRG asks how lasting shapes could emerge from a restless [background](/glossary/#background). Its starting picture is motion like noise: rhythms are mixed together, with none holding a clear pattern for long.
 
-That is one doorway into Recursive Resonant Geometry—RRG. The proposal asks how organized systems arise, how their activity helps them persist, and how their presence can change what forms next.
+Shapes and rhythms appear by chance. Most vanish. Sometimes the activity supports an arrangement, and the arrangement supports that activity, so the pair lasts. Chance creates the opportunity; what holds is what remains.
 
-## Now look inside the cell
+RRG calls motion that has fallen into rhythm [resonance](/glossary/#resonance). Rhythm and shape hold each other; neither comes first. This is RRG’s proposed starting picture. The origin of the very first matter remains beyond the observations described here. [Read the source explanation](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance).
 
-A cell is not just a bag of ingredients. Its membrane regulates exchange, and its internal organization constrains where and how processes occur. Chemical reactions and transport, in turn, help maintain conditions within the cell. This activity requires resources and energy; the organization does not supply those for free. [Explore the cell example](/examples/cell/).
+## Geometry: when shape and activity hold each other
 
-RRG looks at both sides together: **the arrangement shapes the activity, and the activity acts back on the arrangement.**
+Pluck a [string](/examples/string/). Its length, fixed ends, tension and mass constrain the patterns it can support. A supported wave has its own moving shape. The string is a simple picture of shape and activity belonging together.
 
-It calls the arrangement and relationships **geometry**. This includes connections, boundaries and constraints—not only an object's outline.
+RRG uses [geometry](/glossary/#geometry-shape) for the parts, their arrangement, connections and constraints. A [mode](/glossary/#mode) describes organized activity: its rhythm, timing, strength, spatial pattern and coupling—how the parts affect one another. One frequency number is not enough, and a visible beat is not required.
 
-It calls the organized patterns of activity **mode structure**. Vibrations are one example. Relative timing, coupling and responses also matter. One frequency number is not enough to describe the system.
+Together, resonance and shape can form a [resonator](/glossary/#resonator): a lasting whole whose organization and activity support each other.
 
-The “resonant geometry” at the centre of RRG is the organization and its mode structure considered together. For a persistent state, the question is whether they support a self-consistent organization. That does not mean it must last forever. [Read the concepts](/concepts/).
+A laboratory study of tiny artificial membrane sacs makes the feedback concrete. Protein patterns changed the membrane’s shape, and that changed shape affected the protein patterns. Persistent motion depended on supplied lipids, proteins and chemical energy supplied as ATP. [Read the liposome study](/references/#BIB-0026). This shows shape and activity acting on each other; it begins with supplied components, rather than a complete living cell.
 
-## This is a physical question, not only a biological one
+For a resonator, [stability](/glossary/#stability) means lasting for a time. In RRG’s broad energy-and-time wording, energy keeps things moving: vibrating, rotating, resonating. Some bound structures persist without continuous outside power; actively maintained systems need energy flow. Lasting does not mean lasting forever. [Read about energy and time](/documents/world-explanation/#31-energy-and-time).
 
-In a laboratory study of tiny artificial membrane sacs, protein patterns changed the membrane's shape, while the changed geometry affected the protein patterns. Their coupling supported persistent motion with supplied lipids, proteins and ATP. [See the liposome study](/references/#BIB-0026).
+## Two ways a lasting thing opens the next step
 
-This is a concrete example of geometry and activity acting back on one another. It is not a complete living cell or a demonstration of RRG's entire proposed hierarchy. [Follow the source connections](/evidence/source-links/).
+Atoms join into a [molecule](/examples/molecule/). They retain internal activity, while bonds constrain their distances and angles and the whole has collective motion. In further chemical combinations, that intact molecule can act as one [building block](/glossary/#building-block): a lasting whole becomes a part.
 
-## A whole can have two different roles
+A [star](/examples/star/) shows the second role: [changed surroundings](/glossary/#changed-surroundings). Gravity gathers gas; the star’s internal heat and pressure allow nuclear reactions that make new nuclei. Later dispersal makes heavier elements available for richer chemistry.
 
-**It can become a part.** A molecule contains interacting atoms, yet it can participate as a unit in another process. The atoms and their internal activity have not disappeared. A larger description uses properties of the whole. [Explore the molecule example](/examples/molecule/).
+The same role appears much later in life. In controlled cultures, bacteria change acidity, which can help another population grow or make its conditions worse. [Read the acidity study](/references/#BIB-0089).
 
-**It can change the conditions.** Return to the bacteria and their chemical surroundings. Here the important effect is not simply that we choose a different description. The organisms physically change the environment.
+**Being part of a larger whole and changing the conditions are separate roles.** A thing may do either or both. Changed conditions can make similar things more likely, open new possibilities or close them. [Read about the two roles](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings).
 
-RRG asks when these roles connect: can an organized system both persist as a useful unit and help establish conditions for further organization?
+## Spreading depends on the setting
 
-The examples show different pieces of that question. Joining their descriptions is not the same as observing the entire chain in one system.
+Coupled rhythms can synchronize. Driven chemical spots, suspension holes and granular bands can multiply without life. The [evidence catalogue](/evidence/catalogue/) reports these different mechanisms and their supplied conditions.
 
-## Why “recursive”?
+RRG calls [spreading](/glossary/#spreading) a strong tendency: a resonator’s activity tends to help related organization appear when it can couple to suitable surroundings and has energy. It is not a required step. Seeing the same pattern twice also does not tell us whether one caused the other. Life’s copying is a later, more elaborate form. [Read about spreading](/documents/world-explanation/#9-spreading-a-strong-tendency-not-a-required-step).
 
-RRG proposes that the relationship may repeat: internally active parts form a whole; that whole can participate in a further organization; the resulting system has its own collective relationships and activity.
+## What holds things together?
 
-Its current background proposal adds that existing systems can also reshape the conditions inherited by what follows.
+Gravity gathers a star; electromagnetic interactions support molecular bonds. Forces provide the gathering and holding. RRG proposes that resonance decides which arrangements fit and last. Here “decides” means physical compatibility.
 
-This is not a fixed ladder on which everything becomes larger, better or more complex. A change can close possibilities as well as open them. A process can branch, stop or lose stability. Reproduction is one possible mechanism—not a requirement at every level. [Follow recursion and scale](/concepts/recursion/).
+[Inner resonance](/glossary/#inner-resonance) names compatible activity within a thing. [Outer resonance](/glossary/#outer-resonance) names its compatible coupling to other things and shared surroundings. Neither adds a force or requires identical frequencies.
 
-## Where would the first units come from?
+The strong interaction dominates nuclear binding; electromagnetism underlies atoms, chemistry and life; gravity gathers astronomical structures. These are dominant roles, rather than one force assigned to each level. The weak interaction also matters in transformations and decay.
 
-The broader source-direction idea does not simply assume an inventory of finished building blocks.
+Whether some forces are themselves a deeper resonance remains open. Their possible appearance through earlier levels is speculative and may never be directly confirmed. [Read about forces and fit](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts) and [new interactions](/documents/world-explanation/#73-new-levels-bring-new-ways-to-interact).
 
-It starts from a changing background in which temporary arrangements arise. RRG proposes that some arrangements may persist when the activity they support acts back to maintain, restore or recreate them. Those structures then contribute to the conditions in which other structures may form.
+## Recursive: the same rules at a new scale
 
-That is a hypothesis to work through in specific physical systems, not a demonstrated account of the primordial universe. The full [recursive-background companion](/framework/recursive-background/) develops it.
+Atoms form molecules; cells can become parts of bodies. The smaller parts remain active, while the larger whole develops a collective pattern of activity and constraints of its own. **Recursive** names both the lasting resonator’s role in opening further organization and the cycle repeating at another [scale](/glossary/#scale). This is [recursion](/glossary/#recursion--recursive); its physical mechanisms can differ at each level.
 
-## What is RRG trying to add?
+Each new level needs relevant earlier material and conditions. For Earth, the simplified chain is hydrogen and helium → earlier stars forge and scatter heavier elements → our Sun and planets form from enriched material → water and sunlight → conditions for life. Earlier stars supplied the heavy-element material; the Sun supplies later energy. [Read the corrected stellar chain](/documents/world-explanation/#72-each-level-needs-the-ones-before-it).
 
-The individual examples already have scientific explanations. RRG is not claiming to have discovered membrane transport or organisms changing their environments.
+The cycle can branch, stop or break down. Stellar dispersal belongs to it. Simpler levels continue underneath later ones; increasing complexity is a possibility, rather than a destination every system must reach.
 
-Its proposed contribution is to study the formation of units and the transformation of their backgrounds together, working forward from conditions and activity rather than only describing completed structures.
+## Life, evolution and humans
 
-Whether this becomes a useful general framework depends on specifying mechanisms, limits and testable consequences. Similarity between examples is a reason to investigate; it is not a substitute for that work. The more ambitious connections to fundamental interactions and cosmology remain open hypotheses.
+A [cell](/examples/cell/) maintains itself through exchanges and ongoing processes. Living populations can then change their surroundings, spread and join larger organizations.
+
+In RRG’s reading of evolution, survival comes first, but success also involves shaping conditions that favour its own persistence and spreading as far as those conditions allow. Life’s frontier adapts to new settings and can grow more complex while simpler forms continue. What holds and spreads becomes more common; no intention is needed.
+
+Joining is another route: cells form bodies, and organisms participate in ecosystems. For a particular population, measure persistence, environmental change and spreading separately, under stated resources and conditions. [Read the evolutionary interpretation](/documents/world-explanation/#101-evolution-follows-the-same-rules-survive-shape-spread-and-join).
+
+Humans reshape the world with tools and cities and have spread across the planet. RRG reads this as a recent turn of the cycle. AI may begin another; that remains open speculation. [Read about humans](/documents/world-explanation/#121-humans-are-a-striking-recent-cycle) and [AI](/documents/world-explanation/#13-ai-may-be-using-an-indirect-route).
+
+## What RRG adds, and where it can be checked
+
+The string, star and cell already have scientific explanations. RRG asks whether their different mechanisms share a pattern: shape and activity hold together, a lasting whole opens possibilities, and the cycle repeats.
+
+It is a unifying framework, not yet proven. Reported findings support particular connections; the common pattern is RRG’s interpretation. [Read that distinction](/documents/world-explanation/#15-what-this-explanation-is-not-saying).
+
+The strongest proposed reachable test would show the full step twice in one system: a lasting organization changes conditions so a distinct next organization can form, then that operation repeats. A specified test needs measurable conditions, predictions and a result that would count as failure. The present catalogue has not demonstrated that complete repeated construction. [Read where RRG can be checked](/documents/world-explanation/#151-where-rrg-can-be-checked).
 
 ## The question to take with you
 
-Instead of asking only “What is this made of?”, RRG asks:
+Look again at a molecule, a star or a cell: **what shape and activity keep it organized, and what does its existence make possible next?**
 
-**What arrangement and activity keep it organized—and what does its existence change for what can happen next?**
-
-[See the evidence and where it stops →](/evidence/)
-
-You can examine a case, question a connection, or contribute a model. The proposal is being published so those questions can be explored—not because every answer is already known.
-
-[Return to the research question](/#research-question)
+[Explore the examples](/examples/) or [check the evidence](/evidence/).
 
 Questions or ideas? [Contact the author](/contact/).

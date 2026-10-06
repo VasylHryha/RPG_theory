@@ -3,8 +3,8 @@
   "id": "DOC-EXAMPLE-LIFE",
   "route": "/examples/life-environment/",
   "title": "Life changes its environment",
-  "description": "An organization can alter conditions for other organisms and reactions.",
-  "revision": 7,
+  "description": "Bacteria change acidity, and those changed conditions can help or hinder another population.",
+  "revision": 9,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -24,7 +24,9 @@
     "DOC-SOURCE-LINKS",
     "UT-C02",
     "UT-D01",
-    "UT-D02"
+    "UT-D02",
+    "DOC-WORLD",
+    "DOC-GLOSSARY"
   ],
   "related": [],
   "bibRefs": [
@@ -38,34 +40,38 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Current 04 §§4, 13–14 and 08 H06/H09/H13/H17; world §10 and background addendum; framework §§8, 13, 21; core §11. BIB-0089 supplies bounded pH/growth feedback in controlled cultures; BIB-0062/0064 supply supplementary photosynthesis and oxygen-history context. Neither is a new audited catalogue case or universal ladder.",
+  "sourceMapping": "RRG v0.3 01 §§7.1, 9–10.1, 15–15.1: changed surroundings separate from building blocks, conditional spreading, life and reachable feedback tests. Current 04 §§4, 13–14, 21 and 08 H06/H09/H13/H17/H27: physical environmental enabling and its limits; unchanged core §11 extension. BIB-0089 retains controlled-culture pH/growth feedback and qualitative model; BIB-0062/0064 retains supplementary photosynthesis and atmospheric context without adding an oxygen-history case or new catalogue evidence.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## An existing population changes the next one's conditions
+## What happens
 
-Picture two bacterial populations in a supplied liquid culture. Their growth depends on the acidity of that liquid. As one population changes the pH, it can make conditions more favourable—or less favourable—for another population.
+Two bacterial populations live in a supplied liquid culture. Their growth depends on its acidity, measured as pH. As one population changes that acidity, it can make conditions more favourable—or less favourable—for another.
 
-Ratzke and Gore report facilitation, inhibition and harmful outcomes through this feedback. [Their pH study](/references/#BIB-0089) is a controlled-culture experiment with a qualitative model. It begins with existing organisms and a supplied environment; it does not observe a new species or the origin of life.
+Ratzke and Gore report facilitation, inhibition and harmful outcomes through this feedback, using controlled cultures and a qualitative model. The organisms change the chemical surroundings, and those surroundings affect growth. Both directions matter: the population influences its setting and experiences the result.
 
-## What acts on what?
+Oxygen-producing photosynthesis is another existing illustration. It converts light energy into chemical energy and releases oxygen; plants, algae and cyanobacteria participate. Oxygen production alone does not guarantee atmospheric accumulation. Consumption, exchanges, resources and history also matter.
 
-The organisms change the chemical surroundings. Those changed surroundings affect growth. This is a physical feedback relation, rather than simply our choosing to describe a collection as one object.
+## How RRG reads it
 
-RRG's background proposal asks how an existing organization changes what can happen next. This experiment supplies a bounded biological connection to that question. It does not measure one universal resonance mechanism shared by every physical scale.
+RRG asks what an existing organization makes possible next. Here [changed surroundings](/glossary/#changed-surroundings) are physical: the liquid’s chemistry changes. This differs from simply choosing to describe several organisms as one object.
 
-## A broader example: oxygen-producing life
+The **Recursive** rule follows the possible next step: a lasting system alters conditions, and those conditions change which further organizations can persist. The culture result supplies a local biological connection to that proposal.
 
-Oxygen-producing photosynthesis converts light energy into chemical energy and releases oxygen. Plants, algae and cyanobacteria participate; [OpenStax's photosynthesis overview](/references/#BIB-0062) explains the process. [NASA's oxygen-history report](/references/#BIB-0064) supplies historical context about Earth's changing atmosphere.
+## What you can see here
 
-Organisms can alter conditions for other organisms and reactions. Oxygen production alone does not guarantee atmospheric accumulation: consumption, exchanges, resources and history matter. A change can open some possibilities and close others; it does not guarantee a ladder of greater complexity.
+The clearest outward role is **changed surroundings**. A change can help another population or harm it. More organization is not the inevitable outcome.
 
-## Follow the two roles separately
+Favourable conditions can support growth, but growth alone does not establish RRG’s full [spreading](/glossary/#spreading) hypothesis across scales. The culture example also does not measure physical [resonance](/glossary/#resonance) or a new collective [resonator](/glossary/#resonator). The [cell example](/examples/cell/) follows internal maintenance and the separate [building-block](/glossary/#building-block) role; neither role automatically establishes the other.
 
-The [cell example](/examples/cell/) follows internal maintenance and exchange. Here we follow environmental change. Both matter to RRG's proposed connection, but neither automatically establishes the other or the complete recursive chain. The broader relation remains an [open extension](/claims/UT-C02/).
+## Where the interpretation stops
 
-[Follow the source connections](/evidence/source-links/) · [All examples](/examples/)
+The experiment begins with existing organisms and supplied conditions. It observes neither a new species nor the origin of life. Environmental feedback is the finding; reading it as part of one universal recursive pattern is RRG’s interpretation. A full repeated chain remains an [open question](/claims/UT-C02/).
+
+## Evidence and sources
+
+[The pH study](/references/#BIB-0089) supplies the culture results. [OpenStax’s photosynthesis overview](/references/#BIB-0062) explains the process, and [NASA’s oxygen-history report](/references/#BIB-0064) provides atmospheric context. The [source connections](/evidence/source-links/) place these bounded relationships beside the broader proposal.
 
 Questions or ideas? [Contact the author](/contact/).

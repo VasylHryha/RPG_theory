@@ -3,8 +3,8 @@
   "id": "DOC-EXAMPLE-WATER",
   "route": "/examples/water/",
   "title": "Water: follow a pattern",
-  "description": "A warm-up about local motion and a collective pattern.",
-  "revision": 8,
+  "description": "A wave carries a pattern across water while the water itself moves locally.",
+  "revision": 10,
   "kind": "example",
   "lang": "en",
   "audience": "general",
@@ -20,7 +20,9 @@
   "dependsOn": [
     "UT-D01",
     "UT-D02",
-    "UT-D04"
+    "UT-D04",
+    "DOC-WORLD",
+    "DOC-GLOSSARY"
   ],
   "related": [],
   "bibRefs": [
@@ -32,30 +34,36 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. Supplementary NOAA surface-wave explanation. RRG core §§1–4 supplies the questions, not a claim that every wave is a stable new unit.",
+  "sourceMapping": "RRG v0.3 01 §§1–1.1: geometry, full activity and resonance distinguished from undifferentiated motion; §§3–3.1: interval stability; §7.1: outward roles; §9: spreading versus recurrence. Unchanged core §§1–4 supplies the questions, not a claim that every wave is a resonator. BIB-0060 retains the NOAA surface-wave explanation of local material motion and propagating energy.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## Follow the crest, then follow the water
+## What happens
 
-Imagine a small wave crossing a patch of water. The crest reaches one place and then another. The water carrying it moves locally as energy passes through the medium; the crest is not one parcel of water travelling intact across the surface. [NOAA's wave explanation](/references/#BIB-0060) describes this distinction.
+A small wave crosses a patch of water. Its crest reaches one place and then another. The water moves locally as energy passes through it; the crest is a pattern travelling across the surface, rather than one parcel of water travelling intact.
 
-There are two things to track: the material motion and the collective pattern. To describe the wave, an inventory of water alone is insufficient. We also need the changing relationships between neighbouring regions and the physical conditions that support propagation.
+Try following the two separately: where is the crest now, and what is the water at that place doing? Describing the wave requires both the material motion and the changing relationships between neighbouring regions. A list of water’s ingredients alone misses the pattern.
 
-## The question RRG takes from this
+## How RRG reads it
 
-RRG asks us to describe organization and activity together. Here the wave makes a collective pattern easy to picture. It is a first illustration of why the description of a whole can differ from the description of each part.
+RRG considers [geometry](/glossary/#geometry-shape) and activity together. Here geometry includes the relationships between neighbouring regions, while a [mode](/glossary/#mode) describes their organized motion and response. The visible wave makes the collective pattern easier to imagine.
 
-A passing ripple does not yet supply a persistent, self-maintaining unit for a higher organization. Nor does naming its shape explain the forces and material properties responsible for its motion. Those belong to the physical model.
+**Geometry** names the shape associated with that activity. **Resonant** asks which organized motions the setting can support. RRG uses [resonance](/glossary/#resonance) broadly for motion that has fallen into rhythm; a travelling wave gives us a picture of organized motion, but physical resonance needs its own test.
 
-## Change the question
+## What you can see here
 
-A [string fixed at its ends](/examples/string/) makes the constraints explicit: which motion can fit those boundaries? A [cell](/examples/cell/) asks the stronger maintenance question: which activity helps preserve the organization that supports it?
+You can see a moving shape that belongs to many regions of water together. Following the whole pattern gives a different description from following one region. The parts and their collective activity both matter.
 
-For any proposed persistent state, specify the interval and conditions before applying RRG's [meaning of stability](/concepts/stability/).
+The wave also helps clarify [spreading](/glossary/#spreading). Its shape reaches successive regions as the disturbance travels. That is the influence visible here. To follow the rest of RRG’s cycle, we would need to track a lasting whole becoming a building block, or changed conditions supporting a distinct next organization.
 
-[All examples](/examples/) · [Follow the introduction](/start/)
+## Where the interpretation stops
+
+The passing ripple illustrates a collective pattern, rather than a persistent, self-maintaining [resonator](/glossary/#resonator). Its physical model supplies the forces, material properties and propagation conditions. For a proposed [stable](/glossary/#stability) whole, specify what persists, for how long and under which conditions.
+
+## Evidence and sources
+
+[NOAA’s wave explanation](/references/#BIB-0060) distinguishes the travelling pattern from local water motion. The [string example](/examples/string/) makes boundaries explicit; the [cell example](/examples/cell/) asks how activity helps maintain the organization supporting it.
 
 Questions or ideas? [Contact the author](/contact/).

@@ -3,8 +3,8 @@
   "id": "DOC-CONCEPT-RECURSION",
   "route": "/concepts/recursion/",
   "title": "Recursion and scale",
-  "description": "A whole can become a useful part while its components stay active.",
-  "revision": 7,
+  "description": "Lasting wholes become parts or change conditions, and the shape–activity cycle can repeat at a new scale.",
+  "revision": 9,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
@@ -25,7 +25,9 @@
     "UT-D08",
     "UT-D09",
     "UT-O102",
-    "DOC-BACKGROUND"
+    "DOC-BACKGROUND",
+    "DOC-WORLD",
+    "DOC-GLOSSARY"
   ],
   "related": [],
   "bibRefs": [],
@@ -35,42 +37,38 @@
   "plainLanguage": "",
   "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Accepted RRG v0.3 explanations with the unchanged core and retained foundations/evidence; current evidence/status links migrated. Core §§5–9, 11; world §§4, 8–9, 14 and background addendum; framework §§3, 15–16, 22–23. Current 04 §§2–4, 11–12: source emergence, physical environmental change and descriptive reduction are separate.",
+  "sourceMapping": "RRG v0.3 01 §0 and §§4–9, 14: both meanings of recursive, collective activity, active inherited parts, separate roles, corrected stellar chain, conditional spreading and branching/breakdown; §§15–15.1: common pattern versus identical-equation tests. Unchanged core §§5–9, 11; retained framework §§3, 15–16, 22–23; current 04 §§2–4, 11–12: background emergence and physical environmental change distinct from descriptive reduction. Predictive cross-domain criteria and spontaneous promotion remain open.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-## In ordinary words
+## A whole becomes a part
 
-An organized whole can participate in another organization. Its internal activity continues even when the next description treats it as one useful unit. RRG calls this structural recursion.
+A molecule joins a larger chemical arrangement while its atoms remain active inside it. A cell can participate in a tissue while reactions and exchanges continue. The whole becomes a useful participant without losing its internal organization.
 
-## A concrete example
+RRG calls this lasting whole a [resonator](/glossary/#resonator). **Recursive** names its role in opening further organization, and the cycle repeating at a new [scale](/glossary/#scale): compatible parts join, shape and activity support a lasting whole, and that whole opens further possibilities. [Read the meaning of recursion](/glossary/#recursion--recursive).
 
-The [molecule example](/examples/molecule/) begins with atoms and their connections. A molecule can enter a larger chemical arrangement. A [cell](/examples/cell/) can participate in a tissue while exchanges and reactions continue inside it. These systems have different mechanisms; the shared description does not require identical equations at every scale.
+## Scale means more than size
 
-**Scale** means a level at which a collective organization can function as an effective unit in further interactions. It involves characteristic times, dominant interactions and useful descriptions, as well as size. It is not a claim that all levels are equally spaced or every larger process is slower.
+For a chemical question, an intact molecule may be a useful unit. For a question about one of its internal processes, that same description may hide too much.
 
-## The source definitions
+A scale is a level at which a collective organization functions as an effective unit in further interactions. Characteristic times, dominant interactions and useful descriptions matter alongside size. Levels need not be equally spaced, and a larger process need not always be slower. [Read the scale definition](/claims/UT-D05/).
 
-::claim{id="UT-D05" view="plainLanguage"}
+## Active parts and the repeating cycle
 
-::claim{id="UT-D06" view="plainLanguage"}
+In a molecule, the atoms remain active while the whole develops collective motion and constraints. Lower-level parts can differ and take different roles; compatibility matters when they join. [Read the higher-level formation definition](/claims/UT-D06/).
 
-::claim{id="UT-D08" view="plainLanguage"}
+**Resonant** names organized activity; **Geometry** names its mutually supporting arrangement; **Recursive** names the lasting whole and repetition of the relationship. The mechanisms can change at each scale, so repeating the pattern does not require identical microscopic equations. [Read the recursion definition](/claims/UT-D08/).
 
-The proposed cycle is compatible parts → collective organization → a useful unit → further combinations. Its environment can also change which combinations are accessible. The cycle illustration represents a research proposal, not a measurement or guaranteed history.
+## Building blocks and changed surroundings
 
-## A unit and a changed background are different roles
+A molecule can become a [building block](/glossary/#building-block). A bacterial population can change a culture’s acidity. [Changed surroundings](/glossary/#changed-surroundings) are a second role: an organization physically alters conditions for what follows. Treating something as one unit in our description is separate from such a physical change.
 
-Treating a molecule as one participant changes our description. A living population changing a culture's acidity changes the physical conditions. Neither operation automatically establishes the other.
+Each level inherits relevant material and conditions. Earlier stars forged and scattered heavier elements; our Sun and planets formed from enriched material, and the Sun supplies later energy. [Read the corrected chain](/documents/world-explanation/#72-each-level-needs-the-ones-before-it). Steps can branch, stop or break down while simpler levels continue.
 
-The current [background proposal](/framework/recursive-background/) asks how these roles can connect. It also asks where the first units come from: transient arrangements arise in an active background; some may persist through feedback. This is a source hypothesis, not an observed universal history or a fixed upward ladder.
+## Spreading and copying
 
-## Copying is one possible mechanism
+A living system can reproduce; compatible parts can also aggregate or self-assemble. These are possible routes to formation or [spreading](/glossary/#spreading). Copying is optional, and spreading needs suitable coupling, energy and surroundings. [Read the replication and recurrence definition](/claims/UT-D09/).
 
-::claim{id="UT-D09" view="plainLanguage"}
-
-Replication, aggregation and self-assembly can participate in formation or propagation. Duplication is optional in the locked core. The stronger questions of a predictive cross-domain criterion and spontaneous promotion remain open.
-
-[Explore effective interactions](/concepts/effective-interactions/) · [All concepts](/concepts/)
+The [background explanation](/framework/recursive-background/) asks how temporary arrangements become lasting units and change what forms next. Predicting this across domains, or demonstrating spontaneous formation of a new level, remains open. [Read the proposed cycle](/documents/world-explanation/#14-the-entire-rrg-cycle-in-one-picture).

@@ -176,7 +176,10 @@ export function renderSectionIndex(selection: Selection, route: string, base = '
   const book = bookContents(selection);
   let pages: BookPage[] = [];
   if (route === '/concepts/') pages = book.parts[0].chapters[1].pages;
-  if (route === '/examples/') pages = book.parts[1].chapters.flatMap(c => c.pages);
+  if (route === '/examples/') {
+    const groups = book.parts[1].chapters.filter(c => c.pages.some(p => p.route !== route));
+    return `<section class="section-reading-list"><h2>Read in order</h2>${groups.map(c => `<section><h3>${esc(c.name === 'Basics' ? 'Basics: how a shape and its activity hold each other' : c.name)}</h3>${rows(c.pages.filter(p => p.route !== route), base)}</section>`).join('')}</section>`;
+  }
   if (route === '/evidence/') pages = book.parts[2].chapters.flatMap(c => c.pages);
   if (route === '/research-status/') return `<section class="section-reading-list"><h2>Read in order</h2>${book.parts[3].chapters.map(c=>rows(c.pages.filter(p=>p.route!==route && !p.route.startsWith('/claims/')),base)+(c.claims?claimList(c.pages.filter(p=>p.route.startsWith('/claims/')),base,'h3'):'')).join('')}</section>`;
   if (route === '/documents/') pages = book.parts[3].chapters.find(c => c.name === 'Technical documents')!.pages;

@@ -933,3 +933,46 @@ and Search on the right. The footer gains Contents and Glossary.
 **Noted for Phase 3:** the Start page (and its Contents description) still
 opens with bacteria. Phase 3 reorders Start along the ladder. Example pages
 still use their older template.
+
+## 16. Phase 3 (Start, Examples, Concepts) — accepted (6 Oct 2026)
+
+**Process:** Codex → one recheck → Claude acceptance.
+
+**Start** (1,218 words) follows the v0.3 story:
+1. Resonant: motion, noise and chance;
+2. Geometry: shape plus activity = resonator (string, liposome study,
+   stability/energy);
+3. two ways (molecule; star; bacteria and acidity);
+4. spreading;
+5. what holds things together (forces, fit, inner/outer resonance);
+6. Recursive (repeat at new scales, corrected star chain, branching and
+   breakdown);
+7. life, evolution and humans;
+8. what RRG adds and the reachable test;
+9. the closing question.
+
+It no longer opens with bacteria. Terms link to the glossary.
+
+**Examples** (304–349 words each) share one template: what happens · how RRG
+reads it · what you can see here · where the interpretation stops · evidence and
+sources. The hub groups Basics (string, water) and Up the ladder (molecule →
+star → cell → life changes its environment).
+
+**Concepts:** a writing pass aligned to v0.3 terms; no conflicts left.
+
+**Claude acceptance repair:** the Examples hub text said "groups below" while
+the generated list sits above. Reworded.
+
+**Checks:**
+- Content tests 21/21.
+- Both builds and output audits pass (evidence in `docs/evidence/phase3/`).
+- Smoke e2e 7/7 at `/` and `/rrg_theory/`.
+- Screenshots reviewed: Start (mobile), Cell, Examples hub.
+
+**Next per plan:**
+- Phase 4: new pages (first stable structures, carbon variation, brain,
+  background and new possibilities), each draft shown to the owner first.
+- Phase 5: Evidence and Research writing pass.
+- Then the fidelity re-review session before any deployment.
+- Later ideas: the Experiments, Related scientific work and Questions critics ask
+  pages.
