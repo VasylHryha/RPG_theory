@@ -12,7 +12,7 @@ repository: "Existing public GitHub repository renamed to https://github.com/Vas
 replaces: "Revision 3 in full as forward website instructions; preserves implementation, historical evidence and all supplied scientific bytes"
 planning_standard: "Astelia Research and Implementation Plan Standard v3, 26 September 2026"
 source_baseline: "Owner explicitly promoted the audited GPT/Library RRG v0.2.1 companion dated 2026-10-02 to repository CURRENT on 2026-10-05; predecessor current bytes are archived, the minimal locked core/repository 01-03/change control are carried forward unchanged, and website migration has bounded separate High acceptance at section 0.41; private current-corpus fidelity and applicable M6 scope have bounded separate High acceptance at section 0.44; complete public qualification remains incomplete"
-publication: "First public test edition ACCEPTED at section 0.51 and deployed at section 0.56. Section 0.58 corrects homepage clarity and RRG naming and prepares the same manual pipeline for https://vasylhryha.github.io/RRG/. Broad regression/human/AT/provenance work remains incomplete. Heavy campaigns run monthly."
+publication: "First public test edition ACCEPTED at section 0.51 and deployed at section 0.56. Section 0.58 accepts and deploys the corrected RRG homepage/name/contact at https://vasylhryha.github.io/RRG/. Broad regression/human/AT/provenance work remains incomplete. Heavy campaigns run monthly."
 ---
 
 # Unity Theory — website implementation plan · Revision 4
@@ -35,7 +35,7 @@ This is the sole execution plan for the website, research-document publication, 
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | First test edition accepted/deployed at §§0.51/0.56. §0.58 delivers the missing homepage clarity and RRG name/address correction; affected source/display comparison and checks recorded separately |
+| Current milestone / state | First test edition accepted/deployed at §§0.51/0.56. §0.58 ACCEPTS and deploys homepage clarity and RRG name/address/contact; actual same-run build/browser/live checks PASS |
 | Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/RRG`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
 | Last engineering acceptance | §0.51 final bounded High acceptance of the repaired candidate; §0.54 routine CI recheck accepted. Earlier scoped acceptances remain preserved. Owner explicitly authorized first-test publication at §0.55 |
 | Latest execution receipt | §0.56: `docs/evidence/first-public-release/receipt.md`; actual publication run, source/artifact identity, served checks and monthly frequency rule. Earlier receipts remain preserved |
@@ -47,7 +47,7 @@ This is the sole execution plan for the website, research-document publication, 
 | Website/browser/a11y/live evidence | §0.56 clean release build/audit/seal and six actual-release Chromium journeys PASS; deployed 326 files match served bytes, real 404/no-JS math/five search journeys PASS. §0.54 hosted routine CI PASS in 4m15s. Reuse unchanged scoped evidence. Human/listening, screen-reader/MathML and fully passing broad regression campaign remain unavailable/incomplete |
 | Current validation / decisions | **75 accepted current / 21 preserved archived stale / 0 pending / 0 rejected** through the shared fidelity validator. Selected current qualification true; owner-authorized release deployEligible=true. Prior genuine decisions, source bytes and excluded archive entries preserved |
 | External publication state | Public `VasylHryha/RPG_theory`, GitHub Actions Pages, HTTPS enforced, github-pages environment restricted to main; policy and UNITY_DEPLOY_ENABLED enabled. Run 37427672654 succeeded. Live: `https://vasylhryha.github.io/RPG_theory/`; exact uploaded artifact captured privately |
-| Next action | Complete §0.58's affected homepage browser inspection and publish the corrected RRG site through the existing manual pipeline. No full monthly campaign or automatic second acceptance cycle. Maintain/polish the same 75-page test edition with focused affected checks; domain/DNS deferred |
+| Next action | §0.58 is ACCEPTED and live at /RRG/; no deployment blocker remains. No full monthly campaign or automatic second acceptance cycle. Maintain/polish the same 75-page test edition with focused affected checks; domain/DNS deferred |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -769,7 +769,19 @@ legacy default receipt write was retained privately and the earlier issued
 receipt restored exactly. Existing repository rename is confirmed, including
 unchanged repository ID/main/history and Pages workflow/HTTPS/variable/environment
 controls. Short receipt: `docs/evidence/homepage-clarity/receipt.md`. Actual manual
-publication outcome is recorded after it completes; no full regression PASS.
+run [37435395184](https://github.com/VasylHryha/RRG/actions/runs/37435395184)
+passed verify/build/shared audit/seal, seven Chromium release checks and Pages
+deployment from clean main `e4ce19d4e3898f43329b218949bec2305e6f4976` in
+3 minutes 16 seconds (08:19:57–08:23:13 UTC). **ACCEPTED and live at
+https://vasylhryha.github.io/RRG/; no deployment blocker remains.**
+The previous run stopped on an obsolete RSS title assertion; its bounded repair
+passed in this session. Seven live smoke responses (home/Start/About/CFF, clean
+commit/run identity and true 404) match the privately captured uploaded artifact.
+Artifact ID `11399086477`; identity
+`c921c1e518860da4aca6c179a6f98744c425ee50d3e182aafa8bd2e6aa9c64f4`.
+Recovery ZIP/seal retained privately. Human/listening/AT, complete original-package
+provenance and full broad regression remain incomplete; no invented PASS or new
+automatic acceptance cycle. Summary: `docs/evidence/homepage-clarity/verification.json`.
 
 ## 1. Review findings and chosen repairs
 
@@ -1577,7 +1589,7 @@ All listed deliverables remain selected. **Migration and R2 private acceptance a
 
 **Implement in order.**
 
-1. Use the existing owner-provided public repository `VasylHryha/RPG_theory`; inspect its actual branch/settings/history/Pages state before release. Do not recreate or replace the repository. Derive the Pages origin/base from the real repository or approved custom domain rather than assuming the historical `/unity-theory/` fixture path.
+1. Use the existing owner-provided public repository, now renamed `VasylHryha/RRG` under §0.58; inspect its actual branch/settings/history/Pages state before release. Do not recreate or replace the repository. Derive the Pages origin/base from the real repository or approved custom domain rather than assuming the historical `/unity-theory/` fixture path.
 2. Configure Pages publishing from GitHub Actions and real origin/base. Confirm the actual account permits the chosen Pages/environment setup. Do not invent a configured approval feature.
 3. Build and qualify the exact release commit through the single chain with the real target. Review generated metadata, document downloads and the content/privacy/rights manifest.
 4. Owner-controlled dispatch/protection releases that exact uploaded artifact; no deploy-time source rewrite or rebuild. Record artifact ID/source SHA/config digest and the environment decision.
@@ -1830,4 +1842,4 @@ The following external-source decisions are **retained from R2**, whose record s
 | W10 | WIPO copyright protection: `https://www.wipo.int/en/web/copyright/protection` | Copyright's expression/idea distinction; not jurisdiction-specific legal advice or a royalty contract |
 | W11 | Creative Commons BY-NC-SA 4.0: `https://creativecommons.org/licenses/by-nc-sa/4.0/` | Example of a non-commercial attribution/share-alike option and retained valid permissions; no license has been selected or granted here |
 
-**End of sole forward implementation plan.** §§0.27/0.56 govern proportionate development and monthly heavy checks. §0.51 ACCEPTS the repaired owner-approved 75-page first research edition; 21 archived stale decisions preserved. §§0.55–0.56 record explicit owner authorization, completed scoped privacy/release preparation, actual clean-commit CI/build/seal/browser checks, successful Pages deployment and privately captured/live-verified artifact. **The first test edition is live at https://vasylhryha.github.io/RPG_theory/; no deployment blocker remains.** Broad regressions, human/listening/AT and original-package provenance remain incomplete, not claimed passed. Initial CC BY-NC-SA 4.0 is active; the additional CC BY 4.0 grant starts 1 January 2033 UTC. Code/data remain all rights reserved. Domain/DNS deferred; historical calculations NOT_SELECTED / NOT_RUN. No further automatic acceptance session or full audit is required for unchanged delivered scope.
+**End of sole forward implementation plan.** §§0.27/0.56 govern proportionate development and monthly heavy checks. §0.51 ACCEPTS the repaired owner-approved 75-page first research edition; 21 archived stale decisions preserved. §§0.55–0.56 record explicit owner authorization, completed scoped privacy/release preparation, actual clean-commit CI/build/seal/browser checks, successful Pages deployment and privately captured/live-verified artifact. **§0.58 accepts and deploys the corrected RRG homepage/name/contact at https://vasylhryha.github.io/RRG/; no deployment blocker remains.** Broad regressions, human/listening/AT and original-package provenance remain incomplete, not claimed passed. Initial CC BY-NC-SA 4.0 is active; the additional CC BY 4.0 grant starts 1 January 2033 UTC. Code/data remain all rights reserved. Domain/DNS deferred; historical calculations NOT_SELECTED / NOT_RUN. No further automatic acceptance session or full audit is required for unchanged delivered scope.

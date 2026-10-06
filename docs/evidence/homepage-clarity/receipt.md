@@ -37,4 +37,25 @@ moved out of the auditor's legacy default evidence path and the earlier issued
 receipt restored exactly. Scientific sources, archives, ZIPs, historical reviews,
 Rider files and previous public release evidence remain unchanged.
 
-Publication outcome is recorded after the manual same-artifact release completes.
+**ACCEPTED and live:** https://vasylhryha.github.io/RRG/.
+Manual run [37435395184](https://github.com/VasylHryha/RRG/actions/runs/37435395184)
+passed verification, selected build/shared audit/seal, all seven Chromium smoke
+checks and same-artifact Pages deployment in 3 minutes 16 seconds
+(08:19:57–08:23:13 UTC). Served source commit:
+`e4ce19d4e3898f43329b218949bec2305e6f4976`.
+The preceding run stopped on a stale RSS title assertion expecting the old name;
+that assertion was corrected to RRG and the release checks passed. No production
+content or guard was weakened for this repair.
+
+Live smoke PASS: homepage/Start/About/CFF, RRG brand/canonical/contact, clean release
+commit/run identity and true 404. Those seven responses match the privately
+captured uploaded artifact exactly; this is not an exhaustive live-file campaign.
+Artifact ID `11399086477`, 326 audited files plus the deployment seal, archive
+SHA-256 `ba3245f14c9fc48a228696dd94489805bc921f1c8a41c48fa5a866436250a6dd`.
+Artifact identity: `c921c1e518860da4aca6c179a6f98744c425ee50d3e182aafa8bd2e6aa9c64f4`.
+The immutable uploaded ZIP and seal are retained privately for recovery.
+
+No deployment blocker remains. Human/listening/AT observations, complete original
+package provenance and a fully passing broad regression campaign remain incomplete;
+none is reported as passed. See `verification.json`. Existing research grants and
+reserved code/data rights continue. No further automatic acceptance is needed.

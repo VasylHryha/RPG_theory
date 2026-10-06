@@ -1,0 +1,79 @@
+{
+  "status": "ACCEPTED",
+  "deployment": "LIVE",
+  "url": "https://vasylhryha.github.io/RRG/",
+  "repository": "VasylHryha/RRG",
+  "contact": "vasylhryha.rrg@gmail.com",
+  "sourceCommit": "e4ce19d4e3898f43329b218949bec2305e6f4976",
+  "runId": "37435395184",
+  "runUrl": "https://github.com/VasylHryha/RRG/actions/runs/37435395184",
+  "runStartedAt": "2026-10-06T08:19:57Z",
+  "runCompletedAt": "2026-10-06T08:23:13Z",
+  "releaseBrowserChecks": 7,
+  "artifactId": 11399086477,
+  "artifactSha256": "c921c1e518860da4aca6c179a6f98744c425ee50d3e182aafa8bd2e6aa9c64f4",
+  "archiveSha256": "ba3245f14c9fc48a228696dd94489805bc921f1c8a41c48fa5a866436250a6dd",
+  "auditedFiles": 326,
+  "liveSmoke": {
+    "status": "PASS",
+    "checkedAt": "2026-10-06T08:44:39.527Z",
+    "checks": [
+      {
+        "path": "",
+        "status": 200,
+        "bytes": 10803,
+        "sha256": "6f44fd04a578737bf93281d0c18ef8fcb281a87273fcafecc8301aa0283b7323"
+      },
+      {
+        "path": "start/",
+        "status": 200,
+        "bytes": 12432,
+        "sha256": "47061acc8070f3a27a36e33b29821eb74b9b15ac49b4c8088a110dfb92888885"
+      },
+      {
+        "path": "not-a-real-route-rrg-release-check/",
+        "status": 404,
+        "bytes": 3319,
+        "sha256": "a8370570d1961320d5eac34154a0c06df222a1c42dd659a30a31d4a09ba011e5"
+      },
+      {
+        "path": "about/",
+        "status": 200,
+        "bytes": 4423,
+        "sha256": "ad5c49dc0165ffe4e2ff210d336e73204652b2a771c1374048852a1bf933bee7"
+      },
+      {
+        "path": "build-info.json",
+        "status": 200,
+        "bytes": 54639,
+        "sha256": "46c17db263f84de9599eb50a18eda332245c067b6bbfed7c871011d41918844b"
+      },
+      {
+        "path": "deployment-manifest.json",
+        "status": 200,
+        "bytes": 449,
+        "sha256": "6a7eea3f13f8faa93d5eb9ad088423c206021c13c83e87c4bf390e39a3d5bab7"
+      },
+      {
+        "path": "downloads/CITATION.cff",
+        "status": 200,
+        "bytes": 284,
+        "sha256": "b377481a3081dd4f0319f450a74ab205791aa972143723c64e58c05f0a0b7801"
+      }
+    ],
+    "matchesCapturedArtifact": true,
+    "scope": "Quick availability, homepage identity, contact, CFF and same-run release identity smoke; not exhaustive live-file verification"
+  },
+  "fidelity": {
+    "acceptedCurrent": 75,
+    "preservedArchivedStale": 21
+  },
+  "blockers": [],
+  "incomplete": [
+    "Human comprehension/listening observations",
+    "Screen-reader/MathML observations",
+    "Complete original-package provenance",
+    "Fully passing broad regression campaign"
+  ],
+  "preservation": "Scientific sources, original ZIPs, source/history and earlier issued evidence unchanged; private recovery artifact retained outside Git."
+}
