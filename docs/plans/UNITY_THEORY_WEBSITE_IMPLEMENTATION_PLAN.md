@@ -15,7 +15,7 @@ source_baseline: "Owner explicitly promoted the audited GPT/Library RRG v0.2.1 c
 publication: "First public test edition ACCEPTED at section 0.51 and deployed at section 0.56. Section 0.58 accepts and deploys the corrected RRG homepage/name/contact at https://vasylhryha.github.io/RRG/. Broad regression/human/AT/provenance work remains incomplete. Heavy campaigns run monthly."
 ---
 
-# Unity Theory — website implementation plan · Revision 4
+# Recursive Resonant Geometry (RRG) — website implementation plan · Revision 4
 
 > **Explain the actual idea clearly. Preserve its meaning. Show the evidence honestly. Publish the same reviewed content everywhere.**
 
@@ -37,16 +37,16 @@ This is the sole execution plan for the website, research-document publication, 
 |---|---|
 | Current milestone / state | First test edition accepted/deployed at §§0.51/0.56. §0.58 ACCEPTS and deploys homepage clarity and RRG name/address/contact; actual same-run build/browser/live checks PASS |
 | Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/RRG`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
-| Last engineering acceptance | §0.51 final bounded High acceptance of the repaired candidate; §0.54 routine CI recheck accepted. Earlier scoped acceptances remain preserved. Owner explicitly authorized first-test publication at §0.55 |
-| Latest execution receipt | §0.56: `docs/evidence/first-public-release/receipt.md`; actual publication run, source/artifact identity, served checks and monthly frequency rule. Earlier receipts remain preserved |
+| Last engineering acceptance | §0.58 bounded homepage/source-display acceptance and same-session RSS assertion repair; seven selected-release browser checks PASS. §§0.51/0.54 earlier acceptance and §0.55 owner publication authority preserved |
+| Latest execution receipt | §0.58: `docs/evidence/homepage-clarity/receipt.md` and `verification.json`; actual RRG publication run/commit/artifact, seven browser checks and live smoke. Earlier first-release receipt preserved |
 | Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
 | Selected repository package | **RRG v0.2.1 repository current**, explicitly promoted on 5 October: selected audited companions plus carried-forward minimal core/repository 01–03/change control. The 1 October set is historical under `research/history/repository-current-2026-10-01/`; bundled `foundations/` and `checks/` are supporting material |
 | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; it identifies the currently admitted edition. Any adopted scientific revision must create a new edition/hash with predecessor/change records rather than silently moving the pin |
 | Evidence namespace / history | §0.43 qualifies 79 local E/C/H/O/F labels by document AND edition, including the two different current C1 meanings. Stable BIB/page IDs remain; current 06 E07 and predecessor 08 E08 share BIB-0036. Supplementary recovery does not restore predecessor authority or change the scientific case inventory |
 | Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
-| Website/browser/a11y/live evidence | §0.56 clean release build/audit/seal and six actual-release Chromium journeys PASS; deployed 326 files match served bytes, real 404/no-JS math/five search journeys PASS. §0.54 hosted routine CI PASS in 4m15s. Reuse unchanged scoped evidence. Human/listening, screen-reader/MathML and fully passing broad regression campaign remain unavailable/incomplete |
+| Website/browser/a11y/live evidence | §0.58 actual /RRG/ clean build/shared audit/seal and seven Chromium release journeys PASS; same-artifact Pages deployment and seven-response live identity/availability/contact/CFF/404 smoke PASS. Predecessor §0.56 exhaustive comparison preserved, not rerun. Human/listening, screen-reader/MathML and fully passing broad regression remain incomplete |
 | Current validation / decisions | **75 accepted current / 21 preserved archived stale / 0 pending / 0 rejected** through the shared fidelity validator. Selected current qualification true; owner-authorized release deployEligible=true. Prior genuine decisions, source bytes and excluded archive entries preserved |
-| External publication state | Public `VasylHryha/RPG_theory`, GitHub Actions Pages, HTTPS enforced, github-pages environment restricted to main; policy and UNITY_DEPLOY_ENABLED enabled. Run 37427672654 succeeded. Live: `https://vasylhryha.github.io/RPG_theory/`; exact uploaded artifact captured privately |
+| External publication state | Existing public repository renamed `VasylHryha/RRG`, GitHub Actions Pages, HTTPS enforced, github-pages main policy and deployment variable enabled. Run 37435395184 succeeded from clean main e4ce19d. Live: `https://vasylhryha.github.io/RRG/`; exact uploaded artifact captured privately |
 | Next action | §0.58 is ACCEPTED and live at /RRG/; no deployment blocker remains. No full monthly campaign or automatic second acceptance cycle. Maintain/polish the same 75-page test edition with focused affected checks; domain/DNS deferred |
 
 | Milestone | Accepted outcome | Requires | State |
@@ -58,7 +58,7 @@ This is the sole execution plan for the website, research-document publication, 
 | M4 | Articles, document library, source-faithful exports and citation | M3 | ACCEPTED — separate bounded High §0.32; demonstrated private scope, qualification/publication gates remain |
 | M5 | Contribution, identity, rights and controlled publication workflow | M4 | ACCEPTED — §§0.34/0.51; supplied identity/rights/contact and scoped privacy decisions recorded; actual Pages platform configured |
 | M6 | Whole-site qualification against the actual current corpus and both URL modes | M5; reconciled source and reviewed launch selection | First-test selected fidelity and technical release scope ACCEPTED (§§0.51/0.55). Broad regression/human/AT/provenance work remains incomplete and honestly separate; monthly maintenance governs further heavy campaigns |
-| M7 | Owner-authorized deployment of qualified artifact; optional domain | Accepted selected release scope + actual access/authorization | First public test edition DEPLOYED and live verified (§0.56), captured same-run artifact. Optional domain/DNS deferred; no further first-test deployment blocker |
+| M7 | Owner-authorized deployment of qualified artifact; optional domain | Accepted selected release scope + actual access/authorization | First test edition DEPLOYED; corrected RRG homepage/name/contact deployed and live-smoke verified (§0.58), captured same-run artifact. Optional domain/DNS deferred; no deployment blocker |
 
 States: `NOT_STARTED → ACTIVE → REVIEW_READY → ACCEPTED`. Under §0.27, separate High acceptance and affected checks are proportionate to delivered scope; full-site verification remains M6. Same-session review repairs may be accepted by the separate reviewer after inspecting affected behavior; no automatic second review cycle. Interim acceptance is not final qualification. A missing prerequisite blocks its affected scope, not unrelated local code. Fixture-based checks cannot satisfy actual-current-content acceptance. **Agent review is not author approval, legal approval, external scientific peer review or a human user study.**
 
