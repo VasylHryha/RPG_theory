@@ -1,0 +1,471 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-START",
+  "fingerprint": "e8962b20454f44df08e1e3c19258312a3d896daf3d5bbd16f5e957e6ce5d19e2",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:35:05.037Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-START.json, SHA-256 b7f23865dc313e5379e624c0b1b8b7da021a8e8f5366092d51af44b922cf4066. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "e8962b20454f44df08e1e3c19258312a3d896daf3d5bbd16f5e957e6ce5d19e2",
+    "ownRead": {
+      "id": "DOC-START",
+      "route": "/start/",
+      "title": "How can one structure make another possible?",
+      "description": "Follow RRG from motion and lasting shapes to building blocks, changed surroundings, life and reachable tests.",
+      "revision": 20,
+      "kind": "intro",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD",
+        "R-CURRENT-GUIDE",
+        "R-CURRENT-CATALOGUE"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-CATALOGUE",
+        "DOC-CLAIM-COVERAGE",
+        "DOC-CONCEPT-RECURSION",
+        "DOC-CONCEPTS",
+        "DOC-EVIDENCE",
+        "DOC-EXAMPLE-CELL",
+        "DOC-EXAMPLE-MOLECULE",
+        "DOC-EXAMPLE-STAR",
+        "DOC-EXAMPLE-STRING",
+        "DOC-GLOSSARY",
+        "DOC-SOURCE-LINKS",
+        "DOC-STATUS",
+        "DOC-WORLD"
+      ],
+      "related": [
+        "DOC-EXAMPLE-FIRST-STRUCTURES",
+        "DOC-EXAMPLE-CARBON-ARRANGEMENT",
+        "DOC-EXAMPLE-BRAIN",
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [
+        "BIB-0026",
+        "BIB-0089"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Full general-reader v0.3.1 story: noise and chance, mutual shape–activity support, separate outward roles, conditional spreading, forces/fit, repeated scales, life and reachable tests. The common pattern and speculative extremes retain their source-reported status.",
+      "evidenceState": "not-applicable",
+      "body": "The home page shows the whole ladder. Here we follow the steps behind it: how an arrangement lasts, how it opens the next step, and why the three words **Resonant · Geometry · Recursive** belong together.\n\n## Resonant: everything moves, some rhythms last\n\nA passing ripple on water gives a simple picture of a shape that appears and fades. RRG asks how lasting shapes could emerge from a restless [background](/glossary/#background). Its starting picture is motion like noise: rhythms are mixed together, with none holding a clear pattern for long.\n\nShapes and rhythms appear by chance. Most vanish. Sometimes the activity supports an arrangement, and the arrangement supports that activity, so the pair lasts. Chance creates the opportunity; what holds is what remains.\n\nRRG calls motion that has fallen into rhythm [resonance](/glossary/#resonance). Rhythm and shape hold each other; neither comes first. This is RRG’s proposed starting picture. The origin of the [very first matter](/examples/first-structures/) remains beyond the observations described here. [Read the source explanation](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance).\n\n## Geometry: when shape and activity hold each other\n\nPluck a [string](/examples/string/). Its length, fixed ends, tension and mass constrain the patterns it can support. A supported wave has its own moving shape. The string is a simple picture of shape and activity belonging together.\n\nRRG uses [geometry](/glossary/#geometry-shape) for the parts, [their arrangement](/examples/carbon-arrangement/), connections and constraints. A [mode](/glossary/#mode) describes organized activity: its rhythm, timing, strength, spatial pattern and coupling—how the parts affect one another. One frequency number is not enough, and a visible beat is not required.\n\nTogether, resonance and shape can form a [resonator](/glossary/#resonator): a lasting whole whose organization and activity support each other.\n\nA laboratory study of tiny artificial membrane sacs makes the feedback concrete. Protein patterns changed the membrane’s shape, and that changed shape affected the protein patterns. Persistent motion depended on supplied lipids, proteins and chemical energy supplied as ATP. [Read the liposome study](/references/#BIB-0026). This shows shape and activity acting on each other; it begins with supplied components, rather than a complete living cell.\n\nFor a resonator, [stability](/glossary/#stability) means lasting for a time. In RRG’s broad energy-and-time wording, energy keeps things moving: vibrating, rotating, resonating. Some bound structures persist without continuous outside power; actively maintained systems need energy flow. Lasting does not mean lasting forever. [Read about energy and time](/documents/world-explanation/#31-energy-and-time).\n\n## Two ways a lasting thing opens the next step\n\nAtoms join into a [molecule](/examples/molecule/). They retain internal activity, while bonds constrain their distances and angles and the whole has collective motion. In further chemical combinations, that intact molecule can act as one [building block](/glossary/#building-block): a lasting whole becomes a part.\n\nA [star](/examples/star/) shows the second role: [changed surroundings](/glossary/#changed-surroundings). Gravity gathers gas; the star’s internal heat and pressure allow nuclear reactions that make new nuclei. Later dispersal makes heavier elements available for richer chemistry.\n\nThe same role appears much later in life. In controlled cultures, bacteria change acidity, which can help another population grow or make its conditions worse. [Read the acidity study](/references/#BIB-0089).\n\n**Being part of a larger whole and changing the conditions are separate roles.** A thing may do either or both. Changed conditions can make similar things more likely, open new possibilities or close them. [Read about the two roles](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings).\n\n## Spreading depends on the setting\n\nCoupled rhythms can synchronize. Driven chemical spots, suspension holes and granular bands can multiply without life. The [evidence catalogue](/evidence/catalogue/) reports these different mechanisms and their supplied conditions.\n\nRRG calls [spreading](/glossary/#spreading) a strong tendency: a resonator’s activity tends to help related organization appear when it can couple to suitable surroundings and has energy. It is not a required step. Seeing the same pattern twice also does not tell us whether one caused the other. Life’s copying is a later, more elaborate form. [Read about spreading](/documents/world-explanation/#9-spreading-a-strong-tendency-not-a-required-step).\n\n## What holds things together?\n\nGravity gathers a star; electromagnetic interactions support molecular bonds. Forces provide the gathering and holding. RRG proposes that resonance decides which arrangements fit and last. Here “decides” means physical compatibility.\n\n[Inner resonance](/glossary/#inner-resonance) names compatible activity within a thing. [Outer resonance](/glossary/#outer-resonance) names its compatible coupling to other things and shared surroundings. Neither adds a force or requires identical frequencies.\n\nThe strong interaction dominates nuclear binding; electromagnetism underlies atoms, chemistry and life; gravity gathers astronomical structures. These are dominant roles, rather than one force assigned to each level. The weak interaction also matters in transformations and decay.\n\nWhether some forces are themselves a deeper resonance remains open. Their possible appearance through earlier levels is speculative and may never be directly confirmed. [Read about forces and fit](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts) and [new interactions](/documents/world-explanation/#73-new-levels-bring-new-ways-to-interact).\n\n## Recursive: the same rules at a new scale\n\nAtoms form molecules; cells can become parts of bodies. The smaller parts remain active, while the larger whole develops a collective pattern of activity and constraints of its own. **Recursive** names both the lasting resonator’s role in opening further organization and the cycle repeating at another [scale](/glossary/#scale). This is [recursion](/glossary/#recursion--recursive); its physical mechanisms can differ at each level.\n\nEach new level needs relevant earlier material and conditions. For Earth, the simplified chain is hydrogen and helium → earlier stars forge and scatter heavier elements → our Sun and planets form from enriched material → water and sunlight → conditions for life. Earlier stars supplied the heavy-element material; the Sun supplies later energy. [Read the corrected stellar chain](/documents/world-explanation/#72-each-level-needs-the-ones-before-it).\n\nThe cycle can branch, stop or break down. Stellar dispersal belongs to it. Simpler levels continue underneath later ones; increasing complexity is a possibility, rather than a destination every system must reach.\n\n## Life, evolution and humans\n\nA [cell](/examples/cell/) maintains itself through exchanges and ongoing processes. Living populations can then change their surroundings, spread and join larger organizations.\n\nIn RRG’s reading of evolution, survival comes first, but success also involves shaping conditions that favour its own persistence and spreading as far as those conditions allow. Life’s frontier adapts to new settings and can grow more complex while simpler forms continue. What holds and spreads becomes more common; no intention is needed.\n\nJoining is another route: cells form bodies, and organisms participate in ecosystems. For a particular population, measure persistence, environmental change and spreading separately, under stated resources and conditions. [Read the evolutionary interpretation](/documents/world-explanation/#101-evolution-follows-the-same-rules-survive-shape-spread-and-join).\n\nThe [brain example](/examples/brain/) follows wiring and activity.\n\nHumans reshape the world with tools and cities and have spread across the planet. RRG reads this as a recent turn of the cycle. AI may begin another; that remains open speculation. [Read about humans](/documents/world-explanation/#121-humans-are-a-striking-recent-cycle) and [AI](/documents/world-explanation/#13-ai-may-be-using-an-indirect-route).\n\n## What RRG adds, and where it can be checked\n\nThe string, star and cell already have scientific explanations. RRG asks whether their different mechanisms share a pattern: shape and activity hold together, a lasting whole opens possibilities, and the cycle repeats.\n\nIt is a unifying framework, not yet proven. Reported findings support particular connections; the common pattern is RRG’s interpretation. [Read that distinction](/documents/world-explanation/#15-what-this-explanation-is-not-saying).\n\n[Compare RRG with related work](/related-work/) and [read the questions critics ask](/questions/).\n\nThe strongest proposed reachable test would show the full step twice in one system: a lasting organization changes conditions so a distinct next organization can form, then that operation repeats. A specified test needs measurable conditions, predictions and a result that would count as failure. The present catalogue has not demonstrated that complete repeated construction. [Read where RRG can be checked](/documents/world-explanation/#151-where-rrg-can-be-checked).\n\n## The question to take with you\n\nLook again at a molecule, a star or a cell: **what shape and activity keep it organized, and what does its existence make possible next?**\n\n[Explore the examples](/examples/) or [check the evidence](/evidence/).\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3.2 01 §0 and README name-rules; 01 §§1–1.1: noise, chance, resonance and mutual support; §2: string; §§3–3.1: interval stability and energy; §§6–6.1: molecular constraints, forces and inner/outer resonance; §§7–7.3: separate outward roles, corrected stellar ancestry and open force origins; §9: conditional spreading; §§10–10.1, 12.1, 13: life, evolution, humans and speculative AI; §§14–15.1: repeated cycle, boundaries and reachable repeated-construction test. Unchanged core §§1–9, 11–12 supplies geometry, full modes, stability, active units, recursion and optional reproduction. Current 04 §§2–4, 11, 13, 34–35 supplies background feedback and testing detail; 08 H24–H28/O9 preserves hypothesis status. BIB-0026: supplied lipid/protein/ATP shape–activity feedback, not a complete cell or experimental loop ablation. BIB-0089: controlled-culture acidity/growth, not origin-of-life evidence. Current 06 E10/E11/E20: supplied chemical spots, suspension holes and vibrated granular bands are bounded nonliving multiplication examples already referenced by 01 §9, not a shared microscopic resonance mechanism.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "6fa730491f95ba9644202b22ab4d25bff730c17d4a4c182ec4ca394d4c9e1150"
+      },
+      {
+        "entryId": "DOC-CATALOGUE",
+        "semanticDigest": "2bc09030427f0050f8704266d5d27da028340070a91d06d9a11f166d11cb9ead"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "a19381ff06410fc0730150773474bca2619f65d4fd5372adcf7f529cf2f567eb"
+      },
+      {
+        "entryId": "DOC-CONCEPT-GEOMETRY",
+        "semanticDigest": "aeb3a9745eb072f4c716504317998c3900ca2d32e722547e55795c413885a9b0"
+      },
+      {
+        "entryId": "DOC-CONCEPT-INTERACTIONS",
+        "semanticDigest": "0c48eb59fdd6085d83c59674ff1bcf7036d913a73dc580e75ac5b32c03bff309"
+      },
+      {
+        "entryId": "DOC-CONCEPT-RECURSION",
+        "semanticDigest": "7f062b1bbb971909060ff89cfd7875c925dda04a9cae7bf6d0488860cf1c8915"
+      },
+      {
+        "entryId": "DOC-CONCEPT-STABILITY",
+        "semanticDigest": "77cd7e1d8d6a0984dbd385a8af92654dc6400d341d845981bbdcb93918bd9aa1"
+      },
+      {
+        "entryId": "DOC-CONCEPTS",
+        "semanticDigest": "4777ba56e000faf0ed035ade79fa5b10abac6ee0de71720e73b457d0dc91c7df"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "ce5a4b8e0a4aabf674db4de1c7d6620f0a03e8858129873d4dc1a0abd00b463e"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "2a46517ccf47d2183005c3f644d1d7b5e46b417458c3bfc6a500d7a1acde23a7"
+      },
+      {
+        "entryId": "DOC-EVIDENCE",
+        "semanticDigest": "3059f1b26aeddbe0926b9a8c88e031c8ca212de8c21ec18aa3148ab227ad2e27"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-CELL",
+        "semanticDigest": "4214f2d4ba40c88894e4a21cb8e8b4d2d82fbf7023f8f42c50e33ea4e96bac62"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "f04895fcfa309e136c043e675f47c9e2633e9b06fd44092bec819a151564851f"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-MOLECULE",
+        "semanticDigest": "d1949a9b38f4d6fbc9d71dddc6857dc29aace14275621363c5fa11912c7647f1"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STAR",
+        "semanticDigest": "9084d504d45a15c01668fe910f2ad61b536acf5691a02b78befe65ef41475d77"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STRING",
+        "semanticDigest": "55fd2c58a8e4b87d54f72ec5580c07f3583bf6b6c0ac7bec9ba3a93511be22fe"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "db56784194808d55b1de4caa486175abae03a656004d15b55be9df40a8d6aaea"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "7d31c5f7fea700b3422a042ffb9581fefd944ec32ba03dd3ab1d9784ba80cee9"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "84d4b29eda0edd538639e557ef069cd73848bd401d8ee0dcf924d41c96da3a36"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "b5b353ca8fb6e22ab52c834c17b3c57b57bb0805dda5c9acf13a992dbbd3a34f"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "a996e25506cc595f5c950dca990be9db106dcccf60fd2638c35a82e29447cb5b"
+      },
+      {
+        "entryId": "DOC-STATUS",
+        "semanticDigest": "26dd994c0274e1111bae011bea8a7c196196df81a8bbfb65b9e1b2f66eb443a6"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "a4b60495638bc66627ebc23dda4f5b4e434523539add301d976a1c976d7699b5"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "2bb388ae40b7da321f729ec05ff84edc18c44e6256ccbe2af0790ccb56c04058"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "d93c2089e3060a981d4767124aad0ac8757cf6791d9e3517446f8ac77715a276"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "110ec530b52c44daf53573fc0605f6e6b95fd046e882fffe4403582c0e5b27b7"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "bf461e1cf44d99dbab9e0441f80c9eb5f0bf4efb456de9236d906fa9f818bcee"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "4370a52a3ebd943ee0465b3b48297f94fb5e281461252d61c706346a6193d1cf"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "785da369c4e4f8ccb98897664427fd8c5d94eebdfeb0ee73083178cb6a91337a"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "93227825a37216832ffaea75e9fbc5a1787ada4ba838aef152bc0e20fd62ef7e"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "a3ae014e4d3a89084c6e7d55591aab66cd3b00960109e0359ef3b7e2412643ca"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d8e65ae6587f8411df9ebc9b7cc48f06c23ad89782aed9c3d547bdd0ab364a65"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "0fb26312d6542772e6512bdf79dcd565e37a2cfd60692df65b0e48889e7b4cb1"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "75c914f860d081524ad1c3d3a2c06ab9fc0ec88016be51e4ff6c2d64bef5117a"
+      },
+      {
+        "entryId": "UT-E101",
+        "semanticDigest": "41c9d92cd681d3477a8b7ea338ce896aea25eba12424d749693f824317a422d3"
+      },
+      {
+        "entryId": "UT-E102",
+        "semanticDigest": "429cac8cd4e40491b40b1aca9185ac928b06de16e40bdd799e6d827d6797d360"
+      },
+      {
+        "entryId": "UT-E103",
+        "semanticDigest": "c2d27ebc6d4f548b3e13e9aaf2f41eab2ef198e653ecf2bcdd9c58ba4c7b7dd8"
+      },
+      {
+        "entryId": "UT-E104",
+        "semanticDigest": "afd703fd7e530c911ed4891eb7a13f172b251b8a2de588eb7468ca657f29c888"
+      },
+      {
+        "entryId": "UT-E105",
+        "semanticDigest": "fe2dc007517bcf9f4ee90845e0d83f531e26982ec32122eee77c5a7b39f383a1"
+      },
+      {
+        "entryId": "UT-E106",
+        "semanticDigest": "6e2f1b8f531462f3354be9c7059fcf174b8c80ece5989fba9827e2442f99e279"
+      },
+      {
+        "entryId": "UT-E107",
+        "semanticDigest": "6a457b8aed0c94e3a6a61b24ebbe95c94b8e874e8d8e508c17e91f630497a8c7"
+      },
+      {
+        "entryId": "UT-E108",
+        "semanticDigest": "0931fd05aa616c1d808ef06a3b04f393f838272f0e224beb37ab25a1679aab67"
+      },
+      {
+        "entryId": "UT-E109",
+        "semanticDigest": "3d45ba2d9e7af0f9f1f5a76c68e24f1fddf74b15b5ec37dd1c2e52ccfc66c0bd"
+      },
+      {
+        "entryId": "UT-E110",
+        "semanticDigest": "e5c683002564b933633f9ceedf2be045c1e042e69085bf314d537df615141e47"
+      },
+      {
+        "entryId": "UT-E111",
+        "semanticDigest": "c349fe24e088d6962dde1c891e80ad9a9a4bfc1fbefa364ffbeb0dbf00c91daf"
+      },
+      {
+        "entryId": "UT-E112",
+        "semanticDigest": "a5451722cfa79a9456eda0e4715fd4eff89d7957f80f9eefe76fb8eb57873e9e"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "38f4f2ce8e01bc924ec18ef059c71b45510a4f018ec0c04926ab2474491150f6"
+      },
+      {
+        "entryId": "UT-E114",
+        "semanticDigest": "656cc795f662ccd19bbee118c74cd12ed99fcd739812d802dda85da8e015957f"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "ec61144a1b17ac05f5beb0ee0a1a7f399bf5ab785442114bc6f877dab50df139"
+      },
+      {
+        "entryId": "UT-E116",
+        "semanticDigest": "695af9cd32355c8bff4226d818450fc028e0efe301fb3cceb407a9c46163275d"
+      },
+      {
+        "entryId": "UT-E117",
+        "semanticDigest": "2adb7d17e9dc2fb407e65785f022d6c3f714cd078d0e3ac71ed47a9bcc4110e3"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "8cc7905caf904e2c529095b24fe2d9f64f7390204d5a0368d86b0ced05525c8d"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "d8f42875896f9e7ed224e354b689d3170393ac0f21269a103016f901ce694a35"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "0b7818bc4a68b9809d87803db9b8882c7fc0a5d2f7e110e2eb72b1258a354c36"
+      },
+      {
+        "entryId": "UT-E121",
+        "semanticDigest": "ec204543da0d576f16b77ff07d46295c88e6ede97dbe2423ead6108099b919da"
+      },
+      {
+        "entryId": "UT-E122",
+        "semanticDigest": "3a1339107de82c5d565dac4299b3edaba5538a06925be16ca6251cfb958f0f27"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "94148f083c4b60bda986383b0f2cb86fc00087d78b42b10106105b47463793ee"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "8d5145f7fa41716260c3fd4015b545f01de78f223951415da228ea408395d7da"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "7020a88f3b01730b6cf0836b98234afb451c321f9fd071149f464db227152bfc"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "12980ee5c45dcacef538e92d557396f50e949bde29a824fc4299a7664811db2e"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "2142cdbc80c569e4b5fb6a054ddb1007312681c1bad05c24ab2293da5dcce134"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "dc8c64c29a9598b4ab6079a7d90cda688aa818bd7ae9cf5342d9847be0b208e7"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "dea217978151c6fe05549192e814ff5c1bead8ea90654ea9b3e9887e836b4a27"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "e2ca830137658c0152e3690f27e8d5f46ad27bb92c2b284df50ba868f6782660"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-AUDIT",
+        "path": "research/RRG_CURRENT/07_audit_report.md",
+        "sha256": "222487df50faa457b85d5748a846f728f2c4fd9845b4a33ffac181d6e45ebfa7"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON",
+        "path": "research/RRG_CURRENT/checks/package_validation.json",
+        "sha256": "08119204887af30f804c7b8a6a7031a90f5be43ce8ba03f68601b72f75136353"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD",
+        "path": "research/RRG_CURRENT/foundations/01_world_explanation.md",
+        "sha256": "a3c4f376d4a81bf8fc158d3c786c92e5c88b454aeead88173c4139420f4bbddb"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD",
+        "path": "research/RRG_CURRENT/foundations/02_scientific_framework.md",
+        "sha256": "269b6e4bd7c76e15f19f4c0ff752276ba2a1de76e0b84294516d2d3ef8c998c5"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD",
+        "path": "research/RRG_CURRENT/foundations/03_mathematical_core.md",
+        "sha256": "57d1aaa129d7edb780b83886b8b8ede40f7b30cf77a2d6b1f400c651ad1f92e4"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-GUIDE",
+        "path": "research/RRG_CURRENT/README.md",
+        "sha256": "91788394d02ac98673b0dcea49b35ed506cc53ecd5d9830b84bc8ee9fd9f71f1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "65929e4811c2ba1888683dc3225bf16077a54cfea9e8f9b69fb7ed060d7af400"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "beb7f3a2b17446d59baf36edc4a41aadda89302d33050702e2b1a94ac22b897c"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "6844e00f6216b227c42fbbe22dc79073932e9247cc5e55847e44c123ca101f30",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "85323ca77b4a1baf6fd9ab053bbc82027cdd5ee99222bb2e77a53df00e7d32fc",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-START.json, SHA-256 b7f23865dc313e5379e624c0b1b8b7da021a8e8f5366092d51af44b922cf4066. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-START.json, SHA-256 b7f23865dc313e5379e624c0b1b8b7da021a8e8f5366092d51af44b922cf4066. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-START.json, SHA-256 b7f23865dc313e5379e624c0b1b8b7da021a8e8f5366092d51af44b922cf4066. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-START.json, SHA-256 b7f23865dc313e5379e624c0b1b8b7da021a8e8f5366092d51af44b922cf4066. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-START.json, SHA-256 b7f23865dc313e5379e624c0b1b8b7da021a8e8f5366092d51af44b922cf4066. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-START.json, SHA-256 b7f23865dc313e5379e624c0b1b8b7da021a8e8f5366092d51af44b922cf4066. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-START.json, SHA-256 b7f23865dc313e5379e624c0b1b8b7da021a8e8f5366092d51af44b922cf4066. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-START.json, SHA-256 b7f23865dc313e5379e624c0b1b8b7da021a8e8f5366092d51af44b922cf4066. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

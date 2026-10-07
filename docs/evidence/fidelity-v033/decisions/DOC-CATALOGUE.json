@@ -1,0 +1,297 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CATALOGUE",
+  "fingerprint": "79415d3e8c58aa7203c1fb00f7383f89d62674a5cea6fc8a9f9fd054676467f7",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:17:28.087Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CATALOGUE.json, SHA-256 5605efc174f33f59cd9c9500fb38702fec22630b16923e0788ee02db1dc9b75f. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Inspected v0.3.3 fields: researchEdition, body; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "79415d3e8c58aa7203c1fb00f7383f89d62674a5cea6fc8a9f9fd054676467f7",
+    "ownRead": {
+      "id": "DOC-CATALOGUE",
+      "route": "/evidence/catalogue/",
+      "title": "Evidence catalogue",
+      "description": "Twenty-two source-reported cases, each with separate result type, RRG role, supplied conditions, limitations and verification coverage. Their combination is not a demonstrated universal causal chain.",
+      "revision": 7,
+      "kind": "research-status",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-CORE",
+        "R-CURRENT-ILLUSTRATIONS"
+      ],
+      "dependsOn": [
+        "UT-C02",
+        "UT-D01",
+        "UT-D03",
+        "UT-E101",
+        "UT-E102",
+        "UT-E103",
+        "UT-E104",
+        "UT-E105",
+        "UT-E106",
+        "UT-E107",
+        "UT-E108",
+        "UT-E109",
+        "UT-E110",
+        "UT-E111",
+        "UT-E112",
+        "UT-E113",
+        "UT-E114",
+        "UT-E115",
+        "UT-E116",
+        "UT-E117",
+        "UT-E118",
+        "UT-E119",
+        "UT-E120",
+        "UT-E121",
+        "UT-E122"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0002",
+        "BIB-0036",
+        "BIB-0066",
+        "BIB-0067",
+        "BIB-0068",
+        "BIB-0069",
+        "BIB-0070",
+        "BIB-0071",
+        "BIB-0072",
+        "BIB-0073",
+        "BIB-0074",
+        "BIB-0075",
+        "BIB-0076",
+        "BIB-0077",
+        "BIB-0078",
+        "BIB-0079",
+        "BIB-0080",
+        "BIB-0081",
+        "BIB-0082",
+        "BIB-0083",
+        "BIB-0084",
+        "BIB-0085",
+        "BIB-0086",
+        "BIB-0087",
+        "BIB-0088"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "sourceSha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc",
+        "startLine": 3,
+        "endLine": 421,
+        "excerptSha256": "ae0077b8ff823ed7e5bfd2e53a86a96e584bd0e0075e54c15839c1e586a77fbd"
+      },
+      "statement": "**RRG v0.2.1 · checked 2 October 2026 · living publication companion**\n\nRRG proposes that persistent geometry–mode organization can change the background in which further organization becomes possible. This catalogue explains the real observations and limited mathematical results that make parts of that idea worth considering. It does not require a universal proof before the hypothesis is shared.\n\n**The key reading rule:** an established component is evidence that a mechanism can occur under the reported conditions. Its interpretation as one stage of RRG is a separate claim. Different examples do not automatically combine into one demonstrated recursive chain.\n\n## Two labels, not one evidence ladder\n\n**What kind of result?** Experiment; simulation; theoretical/mathematical derivation. A study can contain more than one. A review is an orientation source rather than an extra experiment. Internal RRG calculations are separately labelled and not counted as independent support.\n\n**How does it relate?** A *component* demonstrates a local operation; a *partial bridge* connects operations in one system; an *analogy* shares organizational logic without demonstrating the same microscopic process; a *constraint/comparator* identifies limits or an alternative mechanism. None of these labels is a confidence score for all of RRG.\n\n## Claim map\n\n| Claim | Limited operation being discussed |\n|---|---|\n| C0 | Fluctuations or a uniform starting regime can participate in pattern formation or interaction. |\n| C1 | Geometry and mode structure constrain or affect one another. |\n| C2 | Coupled oscillators can develop collective phase/frequency relationships. |\n| C3 | A driven field or vibration can reorganize material. |\n| C4 | An organization, boundary or interaction changes what its surroundings can do. |\n| C5 | A nonliving pattern or chemical organization can propagate or multiply. |\n| C6 | Lower-level dynamics admit useful collective variables and an effective background description. |\n| C7 | Controlled conditions can implement selected effective dynamics. |\n\nThese are not eight already-proved stages in the history of the universe. C0, for example, distinguishes noise-induced ordering from deterministic instability. C6 distinguishes a physical new environment from our mathematical description of it.\n\n## Start with these connections\n\nFor the source-direction intuition, begin with **E19** (random-field-mediated interaction) and **E04** (noise-assisted pattern formation in a model). For reciprocal organization, use **E07/E08/E18**. For multiplication without life, use **E10/E11/E20**. For the next-level background, read **E14/E21** together with their limits. E17 and E22 prevent the catalogue from turning all organization into evidence for stronger resonance.\n\n## Case index\n\n| ID | Example | Result type | Relation |\n|---|---|---|---|\n| [E01](#e01) | Mechanical synchronization (2015) | experiment | component / constraint |\n| [E02](#e02) | Chladni particle manipulation (2016) | experiment | component |\n| [E03](#e03) | Acoustic microparticle trapping (2014) | experiment | component |\n| [E04](#e04) | Noise-assisted patterning model (2005) | simulation | component |\n| [E05](#e05) | Stationary Turing patterns (1991) | experiment | component / comparator |\n| [E06](#e06) | Forced chemical patterns (1997) | experiment | partial bridge |\n| [E07](#e07) | Atom–cavity self-organization (2010) | experiment | partial bridge |\n| [E08](#e08) | Colloidal swarmalators (2025) | experiment | partial bridge |\n| [E09](#e09) | Simulated resonance selection (2017) | simulation | partial bridge |\n| [E10](#e10) | Replicating chemical spots (1994) | experiment | partial bridge |\n| [E11](#e11) | Replicating suspension holes (2011) | experiment | partial bridge |\n| [E12](#e12) | Driven magnetic assembly (2000) | experiment | partial bridge |\n| [E13](#e13) | Cooperative RNA networks (2012) | experiment | structural analogue / partial bridge |\n| [E14](#e14) | Collective reduction and memory (1965) | theory / mathematical derivation | partial bridge |\n| [E15](#e15) | Engineered lattice dynamics (2013) | experiment | partial bridge |\n| [E16](#e16) | Confinement-dependent packing (2023) | experiment and simulation | component / comparator |\n| [E17](#e17) | Low-absorption selection (2023) | simulation; published report also includes experimental evidence | constraint |\n| [E18](#e18) | Optical binding (1989) | experiment | partial bridge |\n| [E19](#e19) | Random-light interactions (2015) | experiment and theory | partial bridge |\n| [E20](#e20) | Replicating granular bands (2024) | experiment | partial bridge |\n| [E21](#e21) | Controlled amplitude approximation (2026) | theory / mathematical derivation | partial bridge |\n| [E22](#e22) | Nonresonant granular transport (2026) | experiment | constraint / comparator |\n\n<a id=\"e01\"></a>\n## E01 — Experimental Study of the Triplet Synchronization of Coupled Nonidentical Mechanical Metronomes\n\n**experiment · component / constraint · claims C2.**\n\n**Reported result:** Coupled nonidentical metronomes exhibit a collective triplet synchronization relation even where individual pairs are asynchronous.\n\n**Already supplied:** Metronomes, their energy supply, and mechanical coupling already exist.\n\n**Limit of the RRG connection:** Collective coordination need not mean every oscillator has one identical frequency or phase. This does not demonstrate the creation of the oscillators.\n\n**Source:** Jia, Song, Liu, Kurths & Xiao (2015), *Scientific Reports 5, 17008*. [DOI: 10.1038/srep17008](https://doi.org/10.1038/srep17008).\n\n**Verification coverage:** Publisher HTML, including experimental description. Checked 2026-10-02.\n\n<a id=\"e02\"></a>\n## E02 — Controlling the motion of multiple objects on a Chladni plate\n\n**experiment · component · claims C1, C3.**\n\n**Reported result:** Plate vibrations can transport particles; the study uses controlled sequences of excitation to manipulate multiple objects.\n\n**Already supplied:** A manufactured plate, particles, actuator, camera and control algorithm are provided.\n\n**Limit of the RRG connection:** Distinguish ordinary nodal accumulation from the paper’s actively controlled manipulation. Neither establishes autonomous particle-to-field feedback or reproduction.\n\n**Source:** Zhou, Sariola, Latifi & Liimatainen (2016), *Nature Communications 7, 12764*. [DOI: 10.1038/ncomms12764](https://doi.org/10.1038/ncomms12764).\n\n**Verification coverage:** Publisher HTML and author-institution abstract. Supplementary videos linked on the paper page were not watched. Checked 2026-10-02.\n\n<a id=\"e03\"></a>\n## E03 — Independent trapping and manipulation of microparticles using dexterous acoustic tweezers\n\n**experiment · component · claims C3.**\n\n**Reported result:** A phased ultrasonic array independently traps and manipulates microparticles; reported examples include 45 and 90 micrometre spheres.\n\n**Already supplied:** An engineered transducer array, liquid medium and pre-existing particles are required.\n\n**Limit of the RRG connection:** This particular experiment supports microscale manipulation, not a claim of nanoscale performance or a universal size–frequency law.\n\n**Source:** Courtney et al. (2014), *Applied Physics Letters 104, 154103*. [DOI: 10.1063/1.4870489](https://doi.org/10.1063/1.4870489).\n\n**Verification coverage:** Author-institution records and original-paper abstract; not a full methods or data audit. Checked 2026-10-02.\n\n<a id=\"e04\"></a>\n## E04 — Noise-induced spatial periodicity in excitable chemical media\n\n**simulation · component · claims C0.**\n\n**Reported result:** Numerical excitable-chemical-media dynamics show an intermediate noise regime with enhanced spatial periodicity.\n\n**Already supplied:** An Oregonator-type reaction model, diffusion, parameter choices and noisy forcing are specified.\n\n**Limit of the RRG connection:** This is a numerical result, not a laboratory observation of the primordial background. Noise acts through existing nonlinear dynamics.\n\n**Source:** Matjaž Perc (2005), *Chemical Physics Letters 410, 49–53*. [DOI: 10.1016/j.cplett.2005.05.042](https://doi.org/10.1016/j.cplett.2005.05.042).\n\n**Verification coverage:** Primary publisher record and abstract; equations and simulation data not independently reproduced. Checked 2026-10-02.\n\n<a id=\"e05\"></a>\n## E05 — Transition from a uniform state to hexagonal and striped Turing patterns\n\n**experiment · component / comparator · claims C0.**\n\n**Reported result:** A chemically supplied reaction–diffusion experiment produces stationary patterned states from a uniform regime.\n\n**Already supplied:** Specific reactions, diffusion, gel geometry and reagent supply are provided.\n\n**Limit of the RRG connection:** A stationary spatial mode is not automatically a temporal oscillation or a self-maintaining resonator. Uniform-state instability is not identical to noise-induced ordering.\n\n**Source:** Ouyang & Swinney (1991), *Nature 352, 610–612*. [DOI: 10.1038/352610a0](https://doi.org/10.1038/352610a0).\n\n**Verification coverage:** Publisher abstract and bibliographic record. Checked 2026-10-02.\n\n<a id=\"e06\"></a>\n## E06 — Resonant pattern formation in a chemical system\n\n**experiment · partial bridge · claims C2, C3.**\n\n**Reported result:** Periodic illumination of a photosensitive chemical oscillator locks responses to the forcing and changes the spatial pattern.\n\n**Already supplied:** The reaction medium and periodic optical drive are supplied externally.\n\n**Limit of the RRG connection:** The experiment links temporal forcing and spatial organization, not the spontaneous origin of the drive or new fundamental laws.\n\n**Source:** Petrov, Ouyang & Swinney (1997), *Nature 388, 655–657*. [DOI: 10.1038/41732](https://doi.org/10.1038/41732).\n\n**Verification coverage:** Publisher abstract and record. Checked 2026-10-02.\n\n<a id=\"e07\"></a>\n## E07 — Dicke quantum phase transition with a superfluid gas in an optical cavity\n\n**experiment · partial bridge · claims C1, C3, C4.**\n\n**Reported result:** A pumped atom–cavity system undergoes a collective transition with mutually coupled matter organization and optical-field dynamics.\n\n**Already supplied:** Atoms, cavity boundaries and laser pumping are given.\n\n**Limit of the RRG connection:** This is a close geometry–field feedback example, but not unstructured matter producing its own complete apparatus or successive autonomous levels.\n\n**Source:** Baumann, Guerlin, Brennecke & Esslinger (2010), *Nature 464, 1301–1306*. [DOI: 10.1038/nature09009](https://doi.org/10.1038/nature09009).\n\n**Verification coverage:** Publisher abstract and article record. Checked 2026-10-02.\n\n<a id=\"e08\"></a>\n## E08 — Tunable colloidal swarmalators with hydrodynamic coupling\n\n**experiment · partial bridge · claims C1, C2, C3.**\n\n**Reported result:** Colloidal oscillator phases and spatial organization co-evolve in collective states.\n\n**Already supplied:** Feedback-controlled active particles and hydrodynamic interactions are part of the experimental mechanism.\n\n**Limit of the RRG connection:** The control architecture is essential context; it cannot be omitted when describing how spontaneous the organization is.\n\n**Source:** Heuthe, Iyer, Gompper & Bechinger (2025), *Nature Communications 16, 10984*. [DOI: 10.1038/s41467-025-66830-5](https://doi.org/10.1038/s41467-025-66830-5).\n\n**Verification coverage:** Publisher HTML, including setup/control description. Checked 2026-10-02. Published 8 December 2025. The experiment is not a demonstration of an unprogrammed universal source law.\n\n<a id=\"e09\"></a>\n## E09 — Self-Organized Resonance during Search of a Diverse Chemical Space\n\n**simulation · partial bridge · claims C1, C4.**\n\n**Reported result:** A driven reacting-particle model develops structures matched to periodic forcing; in the studied regime their energy absorption helps stabilization.\n\n**Already supplied:** Toy reaction rules, Brownian dynamics and a periodic drive are specified.\n\n**Limit of the RRG connection:** This is not laboratory evidence and does not show that maximum absorption is a universal selection rule. Compare E17.\n\n**Source:** Kachman, Owen & England (2017), *Physical Review Letters 119, 038001*. [DOI: 10.1103/PhysRevLett.119.038001](https://doi.org/10.1103/PhysRevLett.119.038001).\n\n**Verification coverage:** Original-paper abstract on APS and author-institution record. Checked 2026-10-02.\n\n<a id=\"e10\"></a>\n## E10 — Experimental observation of self-replicating spots in a reaction–diffusion system\n\n**experiment · partial bridge · claims C5.**\n\n**Reported result:** Chemical spots grow and split repeatedly in a laboratory reaction–diffusion system.\n\n**Already supplied:** Reactive chemicals and nonequilibrium experimental conditions are supplied.\n\n**Limit of the RRG connection:** Pattern duplication is not automatically reproduction with heredity, or a new organizational level. Do not infer a resonant microscopic mechanism merely from the shared shape of the process.\n\n**Source:** Lee, McCormick, Pearson & Swinney (1994), *Nature 369, 215–218*. [DOI: 10.1038/369215a0](https://doi.org/10.1038/369215a0).\n\n**Verification coverage:** Publisher abstract and bibliographic record. Checked 2026-10-02.\n\n<a id=\"e11\"></a>\n## E11 — Self-Replicating Holes in a Vertically Vibrated Dense Suspension\n\n**experiment · partial bridge · claims C3, C5.**\n\n**Reported result:** Holes in a vertically driven starch suspension deform and split under suitable forcing.\n\n**Already supplied:** The suspension, container and sustained vertical vibration already exist.\n\n**Limit of the RRG connection:** A hole is a spatial pattern in supplied material, not a newly manufactured independent resonator or organism. Shape instability is part of replication here.\n\n**Source:** Ebata & Sano (2011), *Physical Review Letters 107, 088301*. [DOI: 10.1103/PhysRevLett.107.088301](https://doi.org/10.1103/PhysRevLett.107.088301).\n\n**Verification coverage:** Original-paper abstract on APS. Checked 2026-10-02.\n\n<a id=\"e12\"></a>\n## E12 — Dynamic self-assembly of magnetized, millimetre-sized objects rotating at a liquid–air interface\n\n**experiment · partial bridge · claims C3, C4.**\n\n**Reported result:** Magnetically driven objects organize through their motion and fluid-mediated interactions.\n\n**Already supplied:** Fabricated magnetic objects, liquid interface and rotating external field are provided.\n\n**Limit of the RRG connection:** The result connects maintained activity and spatial arrangement. It does not imply all stable structures need continuous external driving.\n\n**Source:** Grzybowski, Stone & Whitesides (2000), *Nature 405, 1033–1036*. [DOI: 10.1038/35016528](https://doi.org/10.1038/35016528).\n\n**Verification coverage:** Publisher abstract and bibliographic record. Checked 2026-10-02.\n\n<a id=\"e13\"></a>\n## E13 — Spontaneous network formation among cooperative RNA replicators\n\n**experiment · structural analogue / partial bridge · claims C5, C4.**\n\n**Reported result:** RNA fragments assemble into catalytic networks; tested cooperative networks have growth advantages over competing autocatalytic cycles.\n\n**Already supplied:** Selected RNA sequences, fragments and controlled chemical conditions are supplied.\n\n**Limit of the RRG connection:** This supports chemical organizational feedback and cooperation, not an identical acoustic or fundamental-particle mechanism. A formal catalytic graph alone does not establish sustained kinetics.\n\n**Source:** Vaidya, Manapat, Chen, Xulvi-Brunet, Hayden & Lehman (2012), *Nature 491, 72–77*. [DOI: 10.1038/nature11549](https://doi.org/10.1038/nature11549).\n\n**Verification coverage:** Publisher abstract and change history; full subscription methods not inspected. Checked 2026-10-02. Publisher reports a minor Figure 1 typo corrected on 31 October 2012. No claim here depends on the corrected figure.\n\n<a id=\"e14\"></a>\n## E14 — Transport, Collective Motion, and Brownian Motion\n\n**theory / mathematical derivation · partial bridge · claims C6.**\n\n**Reported result:** Projection of many-body dynamics leads to a reduced description involving collective variables, memory and effective fluctuating forces.\n\n**Already supplied:** Microscopic dynamics and a projection/choice of resolved variables are supplied.\n\n**Limit of the RRG connection:** Unresolved dynamics need not be white noise. Describing a system at lower resolution does not physically create a new medium or hierarchy.\n\n**Source:** Hazime Mori (1965), *Progress of Theoretical Physics 33, 423–455*. [DOI: 10.1143/PTP.33.423](https://doi.org/10.1143/PTP.33.423).\n\n**Verification coverage:** Original publisher abstract and record; historical derivation not independently re-proved. Checked 2026-10-02.\n\n<a id=\"e15\"></a>\n## E15 — Realization of the Hofstadter Hamiltonian with Ultracold Atoms in Optical Lattices\n\n**experiment · partial bridge · claims C7.**\n\n**Reported result:** Laser-assisted tunnelling implements an effective lattice Hamiltonian with magnetic-field-like phases.\n\n**Already supplied:** Cold atoms, an optical lattice and precisely controlled driving are provided.\n\n**Limit of the RRG connection:** This demonstrates selected effective dynamics, not arbitrary alteration of fundamental laws or a frequency-only recipe.\n\n**Source:** Aidelsburger, Atala, Lohse, Barreiro, Paredes & Bloch (2013), *Physical Review Letters 111, 185301*. [DOI: 10.1103/PhysRevLett.111.185301](https://doi.org/10.1103/PhysRevLett.111.185301).\n\n**Verification coverage:** Original-paper abstract on APS. Checked 2026-10-02.\n\n<a id=\"e16\"></a>\n## E16 — A colloidal viewpoint on the sausage catastrophe and the finite sphere packing problem\n\n**experiment and simulation · component / comparator · claims C4.**\n\n**Reported result:** Confinement of colloidal spheres in vesicles influences which packing geometries occur, including competing arrangements.\n\n**Already supplied:** Pre-existing particles, confining membranes and their material properties are provided.\n\n**Limit of the RRG connection:** This is evidence that geometry affects accessible organization, not evidence that every such effect requires resonance.\n\n**Source:** Marín-Aguilar et al. (2023), *Nature Communications 14, 7896*. [DOI: 10.1038/s41467-023-43722-0](https://doi.org/10.1038/s41467-023-43722-0).\n\n**Verification coverage:** Publisher HTML; not an independent reproduction of simulations. Checked 2026-10-02.\n\n<a id=\"e17\"></a>\n## E17 — Drive-specific selection in multistable mechanical networks\n\n**simulation; published report also includes experimental evidence · constraint · claims C4.**\n\n**Reported result:** In studied driven mechanical networks, selected configurations absorb relatively little work from the drive.\n\n**Already supplied:** Multistable spring networks, their interaction landscape and an external drive are supplied.\n\n**Limit of the RRG connection:** This constrains “strongest resonance always dominates”; it does not refute a conditional geometry–mode hypothesis. The experimental portion was not separately method-audited here.\n\n**Source:** Kedia, Pan, Slotine & England (2023), *Journal of Chemical Physics 159, 214106*. [DOI: 10.1063/5.0171993](https://doi.org/10.1063/5.0171993).\n\n**Verification coverage:** Author preprint arXiv:1908.09332 plus journal metadata and original abstract indexed by PubMed. Checked 2026-10-02. The 2019 preprint title is Drive-specific adaptation in disordered mechanical networks of bistable springs. It is not an additional independent study.\n\n<a id=\"e18\"></a>\n## E18 — Optical binding\n\n**experiment · partial bridge · claims C3, C4.**\n\n**Reported result:** Illuminated microspheres display light-mediated interactions and bound configurations.\n\n**Already supplied:** An external optical field, microspheres and surrounding medium already exist.\n\n**Limit of the RRG connection:** Field scattering and particle arrangement interact, but a bound pair is not yet a recursively reproducing hierarchy.\n\n**Source:** Burns, Fournier & Golovchenko (1989), *Physical Review Letters 63, 1233–1236*. [DOI: 10.1103/PhysRevLett.63.1233](https://doi.org/10.1103/PhysRevLett.63.1233).\n\n**Verification coverage:** Original-paper abstract and record on APS. Checked 2026-10-02.\n\n<a id=\"e19\"></a>\n## E19 — Controlling dispersion forces between small particles with artificially created random light fields\n\n**experiment and theory · partial bridge · claims C0, C4.**\n\n**Reported result:** Artificially generated random light produces measured attractive interactions between dielectric microspheres.\n\n**Already supplied:** Pre-existing spheres and a laser-generated, quasi-monochromatic random optical field are provided.\n\n**Limit of the RRG connection:** Random does not mean broadband white noise. The experiment supports fluctuation-mediated interaction, not spontaneous creation of the spheres; broader interaction designs include theoretical proposals.\n\n**Source:** Brügger, Froufe-Pérez, Scheffold & Sáenz (2015), *Nature Communications 6, 7460*. [DOI: 10.1038/ncomms8460](https://doi.org/10.1038/ncomms8460).\n\n**Verification coverage:** Publisher HTML, including experimental versus theoretical scope. Checked 2026-10-02.\n\n<a id=\"e20\"></a>\n## E20 — Self-replicating segregation patterns in horizontally vibrated binary mixture of granules\n\n**experiment · partial bridge · claims C3, C4, C5.**\n\n**Reported result:** A shaken granular mixture develops bands that reproduce; segregation and flow/fluidity feedback participate in the dynamics.\n\n**Already supplied:** Two grain populations, a container and continued horizontal shaking are supplied.\n\n**Limit of the RRG connection:** This connects vibration, organization and pattern multiplication without biological copying machinery. It does not establish successive independent scales.\n\n**Source:** Ebata & Inagaki (2024), *Scientific Reports 14, 5329*. [DOI: 10.1038/s41598-024-55876-y](https://doi.org/10.1038/s41598-024-55876-y).\n\n**Verification coverage:** Publisher HTML. Supplementary materials were not independently reproduced. Checked 2026-10-02. Shares an author with E11; these are different systems, not independent replications of a single result.\n\n<a id=\"e21\"></a>\n## E21 — Pattern formation in a Swift-Hohenberg equation with spatially periodic coefficients\n\n**theory / mathematical derivation · partial bridge · claims C6.**\n\n**Reported result:** A slow-amplitude description is justified for a specified pattern-forming equation near onset, under stated spectral and coefficient assumptions.\n\n**Already supplied:** The equation, spatially periodic coefficients and near-instability regime are specified.\n\n**Limit of the RRG connection:** A controlled change of scale in description is not an unlimited sequence of new physical levels. The environmental heterogeneity is given, not derived from the emerging pattern.\n\n**Source:** Kamphuis & Chirilus-Bruckner (2026), *Physica D 493, 135239*. [DOI: 10.1016/j.physd.2026.135239](https://doi.org/10.1016/j.physd.2026.135239).\n\n**Verification coverage:** Publisher HTML, including assumptions and approximation result. Not an independent formal proof check. Checked 2026-10-02. 2026 paper available by this audit; September 2026 issue.\n\n<a id=\"e22\"></a>\n## E22 — Thermodynamics of bouncing grains\n\n**experiment · constraint / comparator · claims C3, C6.**\n\n**Reported result:** Grain transport is measured on a heterogeneous, nonresonating vibrating plate; effective statistical and transport descriptions are studied.\n\n**Already supplied:** A driven plate, heterogeneity and grains are provided.\n\n**Limit of the RRG connection:** Vibration-induced transport is not by itself proof of resonance. The earlier document incorrectly grouped this study as an unqualified resonant-mode example.\n\n**Source:** Devauchelle, Popović, Szymczak, Abramian & Lazarus (2026), *Physical Review E 114, 025420*. [DOI: 10.1103/zlsc-w7m4](https://doi.org/10.1103/zlsc-w7m4).\n\n**Verification coverage:** Original-paper abstract on APS; no raw-data reanalysis. Checked 2026-10-02. APS publication date: 24 August 2026; later index/crawl dates are not used as publication dates.\n\n## What the catalogue does not yet supply\n\nThere is no documented complete example in this release of unstructured activity producing a resonator, that resonator causally creating another distinct persistent level, and the process continuing indefinitely under one unchanged microscopic rule. This is a limit of the collected evidence, not a claim that no such system can exist or a reason to stop publishing the hypothesis.\n\nThe highest-value additions would connect adjacent operations in the **same system**. Useful observations would compare an environment before and after an emergent structure forms, identify how its response changes, and show what new organization becomes stable. Negative cases—termination, destruction, coexistence and shrinking scales—are informative too.\n\nNo source count is a probability of truth. Papers sharing a model, apparatus, authors or data are not automatically independent confirmations. Ordinary explanations of these experiments remain valid competitors; calling them RRG-compatible does not make them RRG-specific evidence.\n\n## Optional mathematics and internal simulations\n\n[05 — Optional mathematical illustrations](05_mathematical_source_model.md) contains conditional calculations, not a proof of the full mechanism or an empirical evidence entry. Earlier internal simulations are preserved under `archive/`; their numerical claims were not rerun or independently recertified in this audit.\n\n## Further reading, kept separate from primary case cards\n\n**F01 — Spatiotemporal order out of noise**, Francesc Sagués, José M. Sancho & Jordi García-Ojalvo (2007). Review / orientation only. [DOI: 10.1103/RevModPhys.79.829](https://doi.org/10.1103/RevModPhys.79.829). Corrects incomplete or incorrect authorship in prior notes. Review content is not counted as an additional independent experiment.\n\n**F02 — Engineering precise and robust effective Hamiltonians**, Chen & Cory (2026). Theory / further reading. [DOI: 10.1103/j65l-f8lf](https://doi.org/10.1103/j65l-f8lf). The previously cited article exists. Retained as optional reading, not dismissed as fabricated or treated as experimental evidence. Published 2 April 2026.\n\n**F03 — Validity of the stochastic Ginzburg-Landau approximation in higher space dimensions: A Wiener algebra approach**, Logioti & Schneider (2026). Theory / date-qualified further reading. [DOI: 10.1016/j.jde.2026.114601](https://doi.org/10.1016/j.jde.2026.114601). Online publisher record and abstract available at audit. Issue date is 25 October 2026, later than this audit; first-online date was not independently established. Result assumes specific anisotropic periodic domains and regularity of the noise, not arbitrary space-time white noise.\n\n## Videos, data and reuse\n\nA video can make a reported effect understandable but is not a substitute for identifying the apparatus, conditions and original paper. Supplementary material was not watched or reproduced in this audit. Link to original paper pages rather than presenting third-party compilations as evidence. Do not copy figures or movies into the public website without checking their licences; a citation is not a reuse licence.\n\n## Adding or changing a case\n\nRecord the claim ID, original source, result type, actual finding, supplied conditions, RRG interpretation, important alternative explanation, limit, publication date and what was inspected. Mark preprints as preprints; do not count a preprint and its journal version twice. Check the publisher’s correction/retraction notices when visible, and record any unresolved check. This release is not a complete retraction-database or raw-data audit.\n\nKeep a prior entry when revising it and state the reason in the changelog. Updates happen when the project is reviewed; no automatic monitoring is running. A failed search is an evidence gap, not proof of absence.\n\n**Publication position:** present the proposed common connection confidently as a hypothesis, give established examples their proper scope, and invite explanations, objections, additional cases and optional derivations.\n",
+      "plainLanguage": "Twenty-two source-reported cases, each with separate result type, RRG role, supplied conditions, limitations and verification coverage. Their combination is not a demonstrated universal causal chain.",
+      "scope": "Twenty-two source-reported cases, each with separate result type, RRG role, supplied conditions, limitations and verification coverage. Their combination is not a demonstrated universal causal chain.",
+      "evidenceState": "not-applicable",
+      "body": "## Historical archive availability\n\nReferences to `archive/` in this source describe historical companion material. Those files are excluded from this website and its publication ZIP. The supplied original v0.2.1 bundle has been captured privately: its audited companion documents, source registry and foundation snapshots match the preserved v0.2.1 predecessor, and its inner package checks pass. The current v0.3.3 edition retains author clarifications and the related-work comparison, and retains the forces rationale with the forces-by-scale explanation; it does not claim current byte identity with that bundle or a new evidence audit. The outer checksum manifest contains a self-hash discrepancy; off-machine backup is not verified. This is provenance comparison, not a new scientific approval. Repository predecessor readings remain explicitly historical in the [document library](/documents/).\n",
+      "sourceMapping": "06_evidence_catalog.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-evidence-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "6fa730491f95ba9644202b22ab4d25bff730c17d4a4c182ec4ca394d4c9e1150"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "d93c2089e3060a981d4767124aad0ac8757cf6791d9e3517446f8ac77715a276"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "110ec530b52c44daf53573fc0605f6e6b95fd046e882fffe4403582c0e5b27b7"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "bf461e1cf44d99dbab9e0441f80c9eb5f0bf4efb456de9236d906fa9f818bcee"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "4370a52a3ebd943ee0465b3b48297f94fb5e281461252d61c706346a6193d1cf"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "93227825a37216832ffaea75e9fbc5a1787ada4ba838aef152bc0e20fd62ef7e"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "a3ae014e4d3a89084c6e7d55591aab66cd3b00960109e0359ef3b7e2412643ca"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d8e65ae6587f8411df9ebc9b7cc48f06c23ad89782aed9c3d547bdd0ab364a65"
+      },
+      {
+        "entryId": "UT-E101",
+        "semanticDigest": "41c9d92cd681d3477a8b7ea338ce896aea25eba12424d749693f824317a422d3"
+      },
+      {
+        "entryId": "UT-E102",
+        "semanticDigest": "429cac8cd4e40491b40b1aca9185ac928b06de16e40bdd799e6d827d6797d360"
+      },
+      {
+        "entryId": "UT-E103",
+        "semanticDigest": "c2d27ebc6d4f548b3e13e9aaf2f41eab2ef198e653ecf2bcdd9c58ba4c7b7dd8"
+      },
+      {
+        "entryId": "UT-E104",
+        "semanticDigest": "afd703fd7e530c911ed4891eb7a13f172b251b8a2de588eb7468ca657f29c888"
+      },
+      {
+        "entryId": "UT-E105",
+        "semanticDigest": "fe2dc007517bcf9f4ee90845e0d83f531e26982ec32122eee77c5a7b39f383a1"
+      },
+      {
+        "entryId": "UT-E106",
+        "semanticDigest": "6e2f1b8f531462f3354be9c7059fcf174b8c80ece5989fba9827e2442f99e279"
+      },
+      {
+        "entryId": "UT-E107",
+        "semanticDigest": "6a457b8aed0c94e3a6a61b24ebbe95c94b8e874e8d8e508c17e91f630497a8c7"
+      },
+      {
+        "entryId": "UT-E108",
+        "semanticDigest": "0931fd05aa616c1d808ef06a3b04f393f838272f0e224beb37ab25a1679aab67"
+      },
+      {
+        "entryId": "UT-E109",
+        "semanticDigest": "3d45ba2d9e7af0f9f1f5a76c68e24f1fddf74b15b5ec37dd1c2e52ccfc66c0bd"
+      },
+      {
+        "entryId": "UT-E110",
+        "semanticDigest": "e5c683002564b933633f9ceedf2be045c1e042e69085bf314d537df615141e47"
+      },
+      {
+        "entryId": "UT-E111",
+        "semanticDigest": "c349fe24e088d6962dde1c891e80ad9a9a4bfc1fbefa364ffbeb0dbf00c91daf"
+      },
+      {
+        "entryId": "UT-E112",
+        "semanticDigest": "a5451722cfa79a9456eda0e4715fd4eff89d7957f80f9eefe76fb8eb57873e9e"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "38f4f2ce8e01bc924ec18ef059c71b45510a4f018ec0c04926ab2474491150f6"
+      },
+      {
+        "entryId": "UT-E114",
+        "semanticDigest": "656cc795f662ccd19bbee118c74cd12ed99fcd739812d802dda85da8e015957f"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "ec61144a1b17ac05f5beb0ee0a1a7f399bf5ab785442114bc6f877dab50df139"
+      },
+      {
+        "entryId": "UT-E116",
+        "semanticDigest": "695af9cd32355c8bff4226d818450fc028e0efe301fb3cceb407a9c46163275d"
+      },
+      {
+        "entryId": "UT-E117",
+        "semanticDigest": "2adb7d17e9dc2fb407e65785f022d6c3f714cd078d0e3ac71ed47a9bcc4110e3"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "8cc7905caf904e2c529095b24fe2d9f64f7390204d5a0368d86b0ced05525c8d"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "d8f42875896f9e7ed224e354b689d3170393ac0f21269a103016f901ce694a35"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "0b7818bc4a68b9809d87803db9b8882c7fc0a5d2f7e110e2eb72b1258a354c36"
+      },
+      {
+        "entryId": "UT-E121",
+        "semanticDigest": "ec204543da0d576f16b77ff07d46295c88e6ede97dbe2423ead6108099b919da"
+      },
+      {
+        "entryId": "UT-E122",
+        "semanticDigest": "3a1339107de82c5d565dac4299b3edaba5538a06925be16ca6251cfb958f0f27"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "b3728586e98ffe34a9cb9b04e90a34961aab40f1d1bf5a7e05d2df76637e1b3a",
+        "plainLanguageSha256": "0169eb8ed44c03f1d015453965b94b373a8cda8a8e2ad2d8fcce1850732b2937",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "b029bb746997ed3da7b0ec9ef7587426e7278dc665fefafa9c84105785316f39",
+        "plainLanguageSha256": "0169eb8ed44c03f1d015453965b94b373a8cda8a8e2ad2d8fcce1850732b2937",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CATALOGUE.json, SHA-256 5605efc174f33f59cd9c9500fb38702fec22630b16923e0788ee02db1dc9b75f. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CATALOGUE.json, SHA-256 5605efc174f33f59cd9c9500fb38702fec22630b16923e0788ee02db1dc9b75f. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CATALOGUE.json, SHA-256 5605efc174f33f59cd9c9500fb38702fec22630b16923e0788ee02db1dc9b75f. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CATALOGUE.json, SHA-256 5605efc174f33f59cd9c9500fb38702fec22630b16923e0788ee02db1dc9b75f. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CATALOGUE.json, SHA-256 5605efc174f33f59cd9c9500fb38702fec22630b16923e0788ee02db1dc9b75f. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CATALOGUE.json, SHA-256 5605efc174f33f59cd9c9500fb38702fec22630b16923e0788ee02db1dc9b75f. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CATALOGUE.json, SHA-256 5605efc174f33f59cd9c9500fb38702fec22630b16923e0788ee02db1dc9b75f. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CATALOGUE.json, SHA-256 5605efc174f33f59cd9c9500fb38702fec22630b16923e0788ee02db1dc9b75f. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

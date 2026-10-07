@@ -1,15 +1,15 @@
 {
   "schema": "unity-source-intake/1",
   "corpusScope": "current",
-  "sourceReference": "Author-approved forces rationale of 2026-10-07; exact v0.3.1 predecessor preserved; normative core, claim statuses and evidence cases unchanged",
+  "sourceReference": "Author-approved forces-by-scale explanation of 2026-10-07; exact v0.3.2 predecessor preserved; normative core, claim statuses and evidence cases unchanged",
   "sourceArchiveSha256": "96f274e0cc236279cca21f91dc3d2dc706a93e6a6a416af4612d2f97a672c2a2",
   "directory": "research/RRG_CURRENT",
-  "edition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+  "edition": "RRG v0.3.3 — forces by scale, 2026-10-07",
   "corePath": "00_LOCKED_CORE.md",
   "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
   "manifestPath": "CURRENT_MANIFEST.md",
   "manifestFormat": "markdown-active-files/1",
-  "manifestSha256": "ca1533efb58c1f66125e97da1830e8d1d16adbebf3879b363cf04ee9d27592a4",
+  "manifestSha256": "a0ba4da6770e3fb049df7768dffbfcf9bab0c3a357f9680998de11e52f4f7d70",
   "manifestMembers": [
     "00_LOCKED_CORE.md",
     "01_world_explanation.md",
@@ -35,8 +35,8 @@
     },
     {
       "path": "01_world_explanation.md",
-      "bytes": 40557,
-      "sha256": "207a591ef45880f3899bee641ba45302aaa9600358e0d1568516eef74d678a09",
+      "bytes": 41699,
+      "sha256": "beb7f3a2b17446d59baf36edc4a41aadda89302d33050702e2b1a94ac22b897c",
       "role": "current-research-document"
     },
     {
@@ -89,32 +89,32 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 17037,
-      "sha256": "030a4f5a0e56764e695d0ce6b6245d7e5e5858fc375305def519c5874e81c50a",
+      "bytes": 19555,
+      "sha256": "366d1536ae889fbf73e4217077792d9580023daa437a34bb898f0dd80371c8b2",
       "role": "edition-history"
     },
     {
       "path": "CURRENT_MANIFEST.md",
-      "bytes": 3309,
-      "sha256": "ca1533efb58c1f66125e97da1830e8d1d16adbebf3879b363cf04ee9d27592a4",
+      "bytes": 3346,
+      "sha256": "a0ba4da6770e3fb049df7768dffbfcf9bab0c3a357f9680998de11e52f4f7d70",
       "role": "edition-manifest"
     },
     {
       "path": "README.md",
-      "bytes": 10361,
-      "sha256": "66f403e9ef8220436b033398766cd773a70337ee3c33ec09310e1609b71d646f",
+      "bytes": 10447,
+      "sha256": "91788394d02ac98673b0dcea49b35ed506cc53ecd5d9830b84bc8ee9fd9f71f1",
       "role": "package-guide"
     },
     {
       "path": "SOURCE_AUTHORITY.md",
-      "bytes": 3944,
-      "sha256": "db7ca6078600f67bd5063aa26e6fb10304fa2e51be4ff2bee837196c60d5a2b0",
+      "bytes": 4135,
+      "sha256": "e06c825b6d45926b615ecd4c26dddc8620ad421e3846a389cfe0c9033d5cdc95",
       "role": "source-authority"
     },
     {
       "path": "sources.json",
-      "bytes": 29372,
-      "sha256": "1df9866f50b8e819718aa0a9cc5c41f1fae927659dde61b0925417a4ba4ae76c",
+      "bytes": 29476,
+      "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2",
       "role": "source-register"
     },
     {
@@ -172,16 +172,16 @@
       "role": "audit-check"
     }
   ],
-  "inventorySeal": "b476dd57d3357b3eeadd668f0977261f1b29ea671d3c0537b2855c3ab95eeb22",
+  "inventorySeal": "1cd26e7a8d7a7815fbf7bf2b18ebd1d9960b2400ab93cbd53b879031aa966a48",
   "priorCoreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
   "revision": {
     "category": "wording",
-    "predecessor": "RRG v0.3.1 — relation to existing work, 2026-10-07; inventory seal 2c2ab0fa3ce4c172276a9247e3a207061e7fef6f7a40d583a67d6f504e390408",
-    "problem": "The speculative forces hypothesis lacks its motivating RRG rationale.",
-    "before": "Section 7.3 states the speculative hypothesis without the motivating cycle comparison.",
-    "after": "The exact approved paragraph explains the cycle fit as motivation, explicitly not evidence.",
-    "rationale": "Clarify why RRG considers the hypothesis without changing definitions, claims, statuses or evidence.",
-    "permissionBasis": "Owner feedback section 22: Vasyl Hryha approved plans A and B with “ok, so yes”; implement the exact 7 October 2026 v0.3.2 brief under R4 sections 0.3/4.5; no commit, push or deploy.",
+    "predecessor": "RRG v0.3.2 — forces rationale, 2026-10-07; inventory seal b476dd57d3357b3eeadd668f0977261f1b29ea671d3c0537b2855c3ab95eeb22",
+    "problem": "Section 6.1 lacks the approved forces-by-scale explanation.",
+    "before": "The gravity paragraph proceeds directly to the existing evidence limits.",
+    "after": "The exact approved forces-by-scale paragraph distinguishes dominance bands and a proposed fit from evidence for RRG.",
+    "rationale": "Explain the approved scale comparison without changing definitions, claims, statuses or evidence.",
+    "permissionBasis": "Owner-approved v0.3.3 brief: yes overall good (feedback section 23) and do it, 7 October 2026; implement exact paragraph with fidelity decisions and release selection under R4 sections 0.3/4.5; no commit, push or deploy.",
     "dependentReviewHashes": []
   },
   "inspection": {
@@ -212,7 +212,7 @@
       "checks/verification_results.json",
       "checks/verify_small_results.py"
     ],
-    "evidenceRef": "docs/evidence/source-revision-v0.3.2/receipt.md"
+    "evidenceRef": "docs/evidence/source-revision-v0.3.3/receipt.md"
   },
   "bindings": [
     {
@@ -258,17 +258,17 @@
       "path": "08_claim_coverage.md"
     },
     {
-      "sourceSha256": "030a4f5a0e56764e695d0ce6b6245d7e5e5858fc375305def519c5874e81c50a",
+      "sourceSha256": "366d1536ae889fbf73e4217077792d9580023daa437a34bb898f0dd80371c8b2",
       "startLine": 3,
-      "endLine": 99,
-      "excerptSha256": "d34b201a6c26f7051b928e8c48ec934a4a79bfc6757a3b0209b0d1c9b343d0fd",
+      "endLine": 115,
+      "excerptSha256": "43ea067d4e4a171c1a09992e9a141013bf3b3dce1b2b6db3276a4408f996f21a",
       "path": "CHANGELOG.md"
     },
     {
-      "sourceSha256": "207a591ef45880f3899bee641ba45302aaa9600358e0d1568516eef74d678a09",
+      "sourceSha256": "beb7f3a2b17446d59baf36edc4a41aadda89302d33050702e2b1a94ac22b897c",
       "startLine": 3,
-      "endLine": 821,
-      "excerptSha256": "741f8cce2b5056fd0d085a0018c452796edd35b044183a2656a1b1d279c8c55f",
+      "endLine": 823,
+      "excerptSha256": "7ce0f5ae5f3ff5dc43a801f0587340f6c3ea62d854eaecd0554ee36df9e5bdcf",
       "path": "01_world_explanation.md"
     },
     {
@@ -300,17 +300,17 @@
       "path": "08_claim_coverage.md"
     },
     {
-      "sourceSha256": "66f403e9ef8220436b033398766cd773a70337ee3c33ec09310e1609b71d646f",
+      "sourceSha256": "91788394d02ac98673b0dcea49b35ed506cc53ecd5d9830b84bc8ee9fd9f71f1",
       "startLine": 3,
       "endLine": 84,
-      "excerptSha256": "3d263fbf7ad52b3b63e6848002bb27fb6d6253227376db4507f1a036c08371cc",
+      "excerptSha256": "1fce889f5a1ef9d97fa448bf4682dd660f096fea20ec46bcec74399c04efcf3c",
       "path": "README.md"
     },
     {
-      "sourceSha256": "db7ca6078600f67bd5063aa26e6fb10304fa2e51be4ff2bee837196c60d5a2b0",
+      "sourceSha256": "e06c825b6d45926b615ecd4c26dddc8620ad421e3846a389cfe0c9033d5cdc95",
       "startLine": 3,
       "endLine": 27,
-      "excerptSha256": "0d0c9cdc3e95176bc62cb0175769b2dd6d81a4b32a40db95a334ed41fbc07c2b",
+      "excerptSha256": "0b18f3042f3a2962f4a31c27e0ca791c949488db776cce7bc0dcb394aa80f71e",
       "path": "SOURCE_AUTHORITY.md"
     },
     {

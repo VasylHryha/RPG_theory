@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.3.3 — 2026-10-07: Forces by scale
+
+**changeId:** `RRG-2026-10-07-V033-FORCES-BY-SCALE`
+**category:** wording (one explanatory paragraph; no definition-core or evidence-status change).
+**Prior edition/hash:** RRG v0.3.2 — forces rationale, 2026-10-07; inventory seal `b476dd57d3357b3eeadd668f0977261f1b29ea671d3c0537b2855c3ab95eeb22`.
+**Preserved edition:** `research/history/repository-current-v0.3.2-2026-10-07/`; all 24 members retain exact v0.3.2 bytes. Loadable predecessor: `docs/evidence/source-revision-v0.3.3/predecessor-root/`.
+**Affected files:** 01_world_explanation.md, README.md, sources.json, CHANGELOG.md, CURRENT_MANIFEST.md and SOURCE_AUTHORITY.md. Only 01 §6.1 receives scientific wording; the other changes are edition/provenance metadata. Core, 02–08, claim IDs/statuses, evidence, foundations and checks remain unchanged.
+**Affected claims:** H24–H26/O4/O9 explanatory context only; existing claim statements/statuses and pointers are unchanged. Exact derivative IDs are in the machine transaction.
+**Problem:** §6.1 lacks the approved plain-language comparison of the four forces across scales.
+**Before/after meaning:** retain the gravity paragraph and following evidence limits; insert the exact approved paragraph between them. Dominance bands are not exclusive territories, the weak interaction is read as a transformer, the correspondence was noticed afterwards, and the fit with established physics is not evidence for RRG. A new falsifiable prediction remains open.
+**Rationale/support:** exact owner-approved wording in `RRG_V033_FORCES_BY_SCALE_BRIEF_2026-10-07.md`; no new evidence or scientific adjudication.
+**Permission basis/task scope:** Vasyl Hryha's “yes overall good” (feedback §23) and “do it” on 7 October 2026, under R4 §§0.3/4.5; one combined source/fidelity/selection pass, no commit, push, deployment or new licence grant.
+**Dependents:** existing tooling refreshes source registration, history, hashes/excerpts, derivative revisions and edition metadata; prior decisions remain preserved, with actual fidelity comparisons recorded in this combined pass.
+**Tests/review actually performed:** `docs/evidence/source-revision-v0.3.3/receipt.md` records actual checks and remaining browser review. Overall implementation stops at REVIEW_READY.
+**Resulting edition/hash:** RRG v0.3.3 — forces by scale, 2026-10-07; result seal and manifest hash are external in `config/research-source.json` and `research/publication/source-revision-v0.3.3.json`.
+
 ## v0.3.2 — 2026-10-07: Forces rationale
 
 **changeId:** `RRG-2026-10-07-V032-FORCES-RATIONALE`

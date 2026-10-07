@@ -4,11 +4,11 @@
   "route": "/examples/first-structures/",
   "title": "First lasting structures: from quantum activity to atoms",
   "description": "Cooling makes lasting particles, light nuclei and atoms available for the first steps of chemistry.",
-  "revision": 5,
+  "revision": 6,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+  "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
   "publicationState": "published",
   "sourceRefs": [
     "R-CURRENT-GUIDE",

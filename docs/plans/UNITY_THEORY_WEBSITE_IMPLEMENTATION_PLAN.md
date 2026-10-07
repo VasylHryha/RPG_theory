@@ -4,7 +4,7 @@ doc_type: implementation_plan
 program: unity_theory_publication_site
 revision: 4
 updated: 2026-10-07
-status: SOURCE_V031_AND_EXTRA_PAGE_DRAFTS_REVIEW_READY
+status: SOURCE_V033_FORCES_BY_SCALE_REVIEW_READY
 reconciliation_state: PRIOR_MIGRATION_R2_ACCEPTANCE_PRESERVED_PACKAGE_AUTHORITY_AND_PAGES_TARGET_BOUNDED_HIGH_ACCEPTED
 current_milestone: M7
 execution_model: "Normal development with proportionate checks and separate bounded High acceptance under section 0.27; source-authority reconciliation in section 0.39 is required before public qualification/release"
@@ -35,19 +35,19 @@ This is the sole execution plan for the website, research-document publication, 
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | §0.85 v0.3.2 source revision and 84-reading website fidelity accepted; release `site-2026.10.07-v032` selected; deployed under §0.86 |
+| Current milestone / state | §0.87 v0.3.3 exact forces-by-scale paragraph, combined website fidelity and selection REVIEW_READY; release `site-2026.10.07-v033` selected privately. Live remains v0.3.2 under §0.86 |
 | Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/rrg_theory`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
 | Last engineering acceptance | §0.80 rechecked bounded High acceptance of 84 current readings and the repaired Explore further integration; 21 archived stale decisions preserved. Earlier issued acceptance/evidence retained for its own inputs |
-| Latest execution receipt | `docs/evidence/fidelity-v032/acceptance.md` (with `fidelity-v032/receipt.md`, `source-revision-v0.3.2/acceptance.md`); earlier receipts preserved |
+| Latest execution receipt | `docs/evidence/fidelity-v033/receipt.md` with `source-revision-v0.3.3/receipt.md`; v0.3.2 acceptance and all earlier receipts preserved |
 | Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
-| Selected repository package | **RRG v0.3.2 — forces rationale, 2026-10-07**, independently accepted under §0.85. All 24 v0.3.1 predecessor members preserved at `research/history/repository-current-v0.3.1-2026-10-07/`; core, claim statuses and evidence unchanged |
+| Selected repository package | **RRG v0.3.3 — forces by scale, 2026-10-07**, REVIEW_READY under §0.87. All 24 v0.3.2 predecessor members preserved at `research/history/repository-current-v0.3.2-2026-10-07/`; core, claim statuses and evidence unchanged |
 | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; it identifies the currently admitted edition. Any adopted scientific revision must create a new edition/hash with predecessor/change records rather than silently moving the pin |
-| Evidence namespace / history | Current v0.3.2 source-label map retains the v0.3 inventory of 85 document/edition-scoped labels, including H24–H28/O9; evidence cases/statuses unchanged. Five new source further-reading records are bibliographic context, not new evidence cases |
+| Evidence namespace / history | Current v0.3.3 source-label map retains the v0.3 inventory of 85 document/edition-scoped labels, including H24–H28/O9; evidence cases/statuses unchanged. Five new source further-reading records are bibliographic context, not new evidence cases |
 | Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
-| Website/browser/a11y/live evidence | §0.85: Claude browser smoke 7/7 at both bases on the selected qualification outputs (one transient root goto timeout passed on rerun). Earlier evidence retains its tested inputs |
-| Current validation / decisions | §0.83–0.85: 84 current accepted / 21 archived stale / 0 pending / 0 rejected, currentSourceQualified=true. Fidelity, diagnostics, both builds/audits and 21/21 content tests PASS. No scientific certification |
+| Website/browser/a11y/live evidence | §0.87: fresh v0.3.3 browser smoke assigned to Claude, not performed here. §0.85 smoke remains passing evidence for its v0.3.2 inputs |
+| Current validation / decisions | §0.87: 84 current accepted / 21 archived stale / 0 pending / 0 rejected, currentSourceQualified=true; source revision, fidelity, zero Astro diagnostics, both qualification builds/audits and 21/21 reused-output content tests PASS. No scientific certification |
 | External publication state | Deployed §0.86: main `4f03ef1`, release `site-2026.10.07-v032`, routine CI 37596453730, publish 37597072770. Target `https://vasylhryha.github.io/rrg_theory/` |
-| Next action | Forces-by-scale wording (owner feedback §23) for owner approval |
+| Next action | Claude bounded review/browser smoke of `dist/fidelity-v033-root` and `dist/fidelity-v033-target`; implementation stops at REVIEW_READY. No commit/push/deploy in this run |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -2156,3 +2156,15 @@ The following external-source decisions are **retained from R2**, whose record s
 ### 0.86 RRG v0.3.2 deployed — 7 October 2026
 
 Main `4f03ef1`, release `site-2026.10.07-v032`; routine CI 37596453730 and publish 37597072770 passed. Live checks: home, nested routes and the original snapshot download return 200 (download bytes exact); new §7.3 paragraph, superseded-download labels and the Recursive background note are served; an unknown route returns a real 404.
+
+### 0.87 RRG v0.3.3 forces by scale — 7 October 2026
+
+**REVIEW_READY; one combined source/fidelity/selection pass.** Implemented the exact owner-approved paragraph in 01 §6.1 at the requested boundary; no other scientific wording changes. Edition/provenance registration and website bindings advance to v0.3.3 with all 24 v0.3.2 files preserved exactly. Read DOC-WORLD against the source and approved brief; reused unchanged v0.3.2 scientific comparisons after checking all edition/source/dependency deltas. Recorded 84 accepted current fidelity decisions, preserving 21 archived stale and all prior issued decisions. Selected `site-2026.10.07-v033` under the unchanged rights decision; qualification outputs remain private. No scientific certification or overall High acceptance claimed.
+
+**Focused checks PASS once:** source-revision and fidelity validators; zero Astro diagnostics; both qualification builds/output audits (361 files / 94 HTML each); 21/21 existing content tests reusing the target output; whitespace and exact approved paragraph/boundary comparison at both bases. Commands/logs: `docs/evidence/fidelity-v033/checks.json`; short combined receipt: `docs/evidence/fidelity-v033/receipt.md` and source receipt `docs/evidence/source-revision-v0.3.3/receipt.md`. Browser smoke is Claude's remaining step. No new tests, broad campaign, staging, commit, push or deployment. Unrelated owner-feedback/brief bytes preserved; v0.3.2 remains live under §0.86.
+
+**§0.87 acceptance-directed repairs:** corrected 01’s missed v0.3.3 / Forces-by-scale source header and extra blank line, without scientific wording changes. Existing tooling re-registered/rebound and refreshed 25 affected decisions; 59 current and 21 archived rows remain unchanged. Source revision/fidelity, both fresh qualification builds/audits and 21/21 reused-output content tests PASS; saved headers/raw downloads match. Existing Astro diagnostics reused. Release remains `site-2026.10.07-v033`, with unchanged rights/entries; selection time now follows the refreshed decisions, resolving the preserved initial `FUTURE_REVIEW` build failure. Receipt: `docs/evidence/fidelity-v033/acceptance-repairs/receipt.md`. REVIEW_READY; Claude review/browser smoke remains, no commit/push/deploy.
+
+### 0.88 Bounded High acceptance of v0.3.3 — 7 October 2026
+
+**ACCEPTED (Claude).** §6.1 forces-by-scale paragraph exact; header/blank-line defects repaired; v0.3.2 history exact; release `site-2026.10.07-v033`; smoke 7/7 both bases. Receipt: `docs/evidence/fidelity-v033/acceptance.md`. Next: publish, then the permanent `npm run edition` automation (owner feedback §27).

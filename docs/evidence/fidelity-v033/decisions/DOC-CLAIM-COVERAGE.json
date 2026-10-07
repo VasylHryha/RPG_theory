@@ -1,0 +1,231 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CLAIM-COVERAGE",
+  "fingerprint": "0b86a65c730e740f0fa0ca806306ffaa2ffebc446bc09949ef3c7a5742dcf518",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:17:28.087Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CLAIM-COVERAGE.json, SHA-256 e4cf79df863319218eb4a3e30ce24ebdc648c287a8df4c1369e57f32ea5c6c99. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Inspected v0.3.3 fields: researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "0b86a65c730e740f0fa0ca806306ffaa2ffebc446bc09949ef3c7a5742dcf518",
+    "ownRead": {
+      "id": "DOC-CLAIM-COVERAGE",
+      "route": "/research-status/claims/",
+      "title": "Claims and session coverage",
+      "description": "The full proposal and its boundaries: preserved ideas are not established results. Background recursion remains an extension to the minimal core.",
+      "revision": 3,
+      "kind": "research-status",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-O101",
+        "UT-O102",
+        "UT-O103",
+        "UT-O104",
+        "UT-O105",
+        "UT-O106",
+        "UT-O107",
+        "UT-O108"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861",
+        "startLine": 3,
+        "endLine": 80,
+        "excerptSha256": "15a6a553c72c20efe4504102bde71d89013804f9c36a8624bb0236a3144bfd6b"
+      },
+      "statement": "**RRG v0.3 — author-clarified edition · 2026-10-06**\n\nH01–H23 and O1–O8 retain their identities. H24–H28 and O9 sharpen the author’s explanations; none records a new verified case.\n\nThis map prevents two kinds of drift: losing the author’s bigger idea when tightening scientific language, and turning a proposed connection into a verified fact. “Preserved” means the idea remains in the publication, not that it has been established.\n\n## Session coverage\n\n| ID | Idea from the discussion | Where retained | Current status / important boundary |\n|---|---|---|---|\n| H01 | Start with fluctuating activity, not pre-built resonators | 04 §§2–4 | Source hypothesis. A fluctuating background still needs defined dynamics in an implementation. |\n| H02 | Transient arrangements appear; some become persistent | 04 §§2–5, 18 | Component precedents E04/E05. These do not establish the primordial origin of matter. |\n| H03 | Geometry and frequency/mode form a feedback loop | 04 §§1, 5, 19 | Core proposal; E07/E08 are partial physical bridges. Preserve the full mode definition. |\n| H04 | Oscillators influence one another through a shared medium | 04 §6; E01 | Experimental component. Collective synchronization need not mean identical phases/frequencies. |\n| H05 | Vibration can rearrange suitable material | 04 §7; E02/E03/E20 | Experimental component under stated coupling and forcing. Not every rearrangement is resonant. |\n| H06 | A formed structure reshapes the background around it | 04 §§4, 11, 24 | Key causal connection; partial bridges E07/E18/E19, with supplied apparatus explicit. |\n| H07 | Longer persistence gives more opportunity to influence | 04 §8 | Conditional interpretation, not inevitable growth or indefinitely accumulated energy. |\n| H08 | Repeated compatible arrangements can appear without a copying command | 04 §§9–10 | Proposed mechanism. Recurrence, synchronization, recruitment and independent reproduction differ. |\n| H09 | Domains compete, dominate or coexist | 04 §§9–10 | Conditional outcomes, not a single “strongest frequency always wins” law. E17 constrains it. |\n| H10 | Lower-level organization becomes noise-like substrate to the next level | 04 §11; E14 | Core conjectural use of effective background. Noise can be correlated and retain memory. |\n| H11 | The same abstract operation repeats in different effective worlds | 04 §§12, 21, 25, 41 | Central RRG hypothesis, not established by combining unrelated examples. |\n| H12 | Persistent combinations become new effective units | 04 §§12–13, 22 | Proposed hierarchy. A larger synchronized patch alone is not proof of a new unit. |\n| H13 | Stable units enable new organizational possibilities | 04 §§13–14 | Accessible possibilities can change. No universal monotonic measure has been established. |\n| H14 | A level creates available stable organizations before later combinations become feasible | 04 §14 | Preserve the intuition; not literal exhaustion of all states or a universal sequential timetable. |\n| H15 | New geometry/background defines new effective rules | 04 §§15–16, 29; E15 | Effective behavior is distinguishable from replacement of fundamental equations. |\n| H16 | One source may ultimately account for the fundamental interactions | 04 §§35–39; O4 below | Retained as ambitious conjecture; no four-force derivation is claimed. |\n| H17 | Life is a visible later instance of organization reconstructing itself | 04 §§17, 30; E13 | Structural analogy and chemical partial bridges; no identical microscopic-mechanism claim. |\n| H18 | New scales may relate to the expansion and evolution of the universe | 04 §§26–28; O5 below | Preserve the proposed connection; physical metric expansion needs separate support. |\n| H19 | Work forward from the source rather than merely reinterpreting finished structures | 04 §§2–4, 40–41 | Methodological preference. Existing observations and reverse constraints can still test the proposal. |\n| H20 | Control modes to control organization and effective behavior—“magic” | 04 §§31–32; O6 below | Retained speculative engineering vision. E15 supports selected effective dynamics, not unlimited control. |\n| H21 | Information might specify a useful mode/geometry/state | 04 §32 | Open engineering idea. A frequency alone is not a universal shape code. |\n| H22 | The idea may inform AI, learning and abstraction | 01 §13; O8 below; 02 §10 | Retained application hypothesis, including the speculative possibility of a new AI cycle. No RRG-specific benchmark or gain follows from persistence alone. Human organization has its explanatory home in 01 §12.1. |\n| H23 | Publish, collect cases, review and update; proofs welcome but optional | README; 04 §40; 06 update practice | Current project workflow. No autonomous monitoring or proof-before-publication gate. |\n| H24 | Forces gather and hold; resonance-fit decides which arrangements connect and last | 01 §6.1; 04 §§15, 29; O9 | Sharpened cross-scale hypothesis. E01/E07/E18/E19 are limited components/bridges, not a derivation of all forces or all binding. |\n| H25 | Inner resonance maintains a thing as itself; outer resonance links it to others | 01 §6.1; O9 | Explanatory distinction within geometry–mode/coupling language. No extra force, single frequency or new core definition is established. |\n| H26 | Fundamental forces may have appeared with scale and time, created by earlier levels | 01 §7.3; 04 §§15, 29; O4 | Speculative; possibly never directly testable. Not established cosmic chronology, one force per scale or the ordinary emergence of effective interactions. |\n| H27 | Success includes surviving, shaping favourable surroundings, spreading and joining | 01 §10.1; 04 §§10, 17, 30; O7 | Evolutionary interpretation/hypothesis. No intention, universal dominance metric or guaranteed adaptation/complexity growth; measure persistence, effect and spread separately. |\n| H28 | Spreading is a resonator's strong tendency when it can couple and has energy | 01 §9; 04 §§8–10 | Conditional propagation hypothesis, not a mandatory step. E10/E11/E20 report nonliving pattern multiplication; E01/E02 are coupling/pattern components. Recurrence alone is not causal reproduction. |\n\n## Open-claim registry\n\n**O1 — Recursive physical construction.** One formed organization causes conditions for another distinct persistent organization, and this repeats. A useful contribution could document even two causally connected stages in one system. No such full universal chain is established by this catalogue.\n\n**O2 — Same principle across levels.** The author proposes the repeated geometry–mode/background relation. Approximate invariance of an equation family is a stronger optional formalization; identical microscopic mechanisms across chemistry, matter and life are stronger still. These should not be silently conflated.\n\n**O3 — Scale, lifetime and possibility-space growth.** Later levels may often be larger, slower or capable of different organization. Whether any measure grows monotonically is unproved. Levels can coexist; an implementation may stop, branch, shrink or lose stability. New effective coordinates do not automatically add fundamental microscopic dimensions.\n\n**O4 — Fundamental unification.** H26 adds the speculative possibility that forces appeared with scale and time, created by earlier levels. No chronology or derivation is supplied, and the earliest origin may stay beyond direct confirmation. This is separate from changed effective laws. A deeper common generator might account for the known interactions. Existing synchronization, optical binding or effective-Hamiltonian results do not derive that claim. It remains part of the author’s ambition rather than being removed for lack of proof.\n\n**O5 — Cosmological connection.** The author’s conjecture is that continued formation of scales and organization could connect to the universe’s spatial expansion. Domain growth, increasing organizational depth, increasing accessible configurations and spacetime metric expansion are four different claims. The last is not proved by the first three. This release does not advance a new cosmological calculation or fresh observational cosmology review.\n\n**O6 — Engineered domains.** Speculative “magic” means advanced control of effective physical behavior through organization and mode structure, not a claim of demonstrated supernatural effects. Controllable effective dynamics are real in selected settings (E15); a self-propagating domain with an arbitrarily selected rule set is an open extrapolation.\n\n**O7 — Life and evolution.** H27 makes success explicit as survival plus favourable environmental change, spread and possible joining (01 §10.1). These are separate observables, not a universal ranking or a claim that life intends domination. Chemical cooperative organization and nonliving pattern duplication supply informative analogies. Biological heredity, evolutionary dynamics and planetary environmental change are not reduced to one measured resonant mechanism here. The universal relation is a hypothesis about organizational form, not an assertion that all systems are living or intentional.\n\n**O8 — AI.** Persistent dynamic modules and activity-dependent relations suggest a possible architecture. In this release no RRG AI model is benchmarked and no gain in intelligence, transfer or efficiency is established. A later contribution should distinguish stable activity from useful prediction or learning. This proposal remains available without becoming a proof requirement for the physics framework.\n\n**O9 — Resonance-fit within and between organizations.** H24–H25 propose a common compatibility principle while forces provide holding interactions. It needs a specified system, inner/outer observables and predictions that distinguish the proposal from the standard mechanism. Existing coupled-oscillator and optical-field cases supply partial connections only. Gravity remains the hardest open case (02 §12); the core does not equate forces with frequencies.\n\n## Candidate examples pending citation\n\nThese are topics for possible later source work, **not factual assertions, evidence cards or support admitted by v0.3**. A published primary citation, the actual finding, supplied conditions and its limits must be checked before use:\n\n- Magic-number nuclei / proposed standing-wave-shell reading.\n- Orbital resonances.\n- Great Oxidation Event.\n- Electroweak separation as a historical example.\n- Casimir / van der Waals force examples.\n- Proton mass from internal motion.\n- Spore survival in space.\n\nNo factual details from the clarification draft are imported for these topics. Existing narrower cited discussion in 02/03 remains its prior scoped discussion, not a newly checked case or evidence for H26. The general nuclear trend in 01 §3.1 adds no isotope or shell specifics.\n\n## How evidence changes a claim\n\nA component observation supports the possibility of that component under its conditions. A measured causal sequence strengthens a bridge. A discriminating prediction could strengthen a specified RRG implementation relative to alternatives. A failure of a particular model addresses that model; a counterexample to a precise universal claim addresses that claim. Neither success nor failure should automatically be generalized to every statement above.\n\nLack of a universal proof is not a reason to remove the proposed connection from a clearly labelled hypothesis publication. It is a reason to distinguish the connection from its supporting examples.\n",
+      "plainLanguage": "The full proposal and its boundaries: preserved ideas are not established results. Background recursion remains an extension to the minimal core.",
+      "scope": "The full proposal and its boundaries: preserved ideas are not established results. Background recursion remains an extension to the minimal core.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "08_claim_coverage.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "6fa730491f95ba9644202b22ab4d25bff730c17d4a4c182ec4ca394d4c9e1150"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "ce5a4b8e0a4aabf674db4de1c7d6620f0a03e8858129873d4dc1a0abd00b463e"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "2a46517ccf47d2183005c3f644d1d7b5e46b417458c3bfc6a500d7a1acde23a7"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "db56784194808d55b1de4caa486175abae03a656004d15b55be9df40a8d6aaea"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "84d4b29eda0edd538639e557ef069cd73848bd401d8ee0dcf924d41c96da3a36"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "b5b353ca8fb6e22ab52c834c17b3c57b57bb0805dda5c9acf13a992dbbd3a34f"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "38f4f2ce8e01bc924ec18ef059c71b45510a4f018ec0c04926ab2474491150f6"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "ec61144a1b17ac05f5beb0ee0a1a7f399bf5ab785442114bc6f877dab50df139"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "0b7818bc4a68b9809d87803db9b8882c7fc0a5d2f7e110e2eb72b1258a354c36"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "94148f083c4b60bda986383b0f2cb86fc00087d78b42b10106105b47463793ee"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "8d5145f7fa41716260c3fd4015b545f01de78f223951415da228ea408395d7da"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "7020a88f3b01730b6cf0836b98234afb451c321f9fd071149f464db227152bfc"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "12980ee5c45dcacef538e92d557396f50e949bde29a824fc4299a7664811db2e"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "2142cdbc80c569e4b5fb6a054ddb1007312681c1bad05c24ab2293da5dcce134"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "dc8c64c29a9598b4ab6079a7d90cda688aa818bd7ae9cf5342d9847be0b208e7"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "dea217978151c6fe05549192e814ff5c1bead8ea90654ea9b3e9887e836b4a27"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "e2ca830137658c0152e3690f27e8d5f46ad27bb92c2b284df50ba868f6782660"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD",
+        "path": "research/RRG_CURRENT/foundations/01_world_explanation.md",
+        "sha256": "a3c4f376d4a81bf8fc158d3c786c92e5c88b454aeead88173c4139420f4bbddb"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD",
+        "path": "research/RRG_CURRENT/foundations/02_scientific_framework.md",
+        "sha256": "269b6e4bd7c76e15f19f4c0ff752276ba2a1de76e0b84294516d2d3ef8c998c5"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD",
+        "path": "research/RRG_CURRENT/foundations/03_mathematical_core.md",
+        "sha256": "57d1aaa129d7edb780b83886b8b8ede40f7b30cf77a2d6b1f400c651ad1f92e4"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "65929e4811c2ba1888683dc3225bf16077a54cfea9e8f9b69fb7ed060d7af400"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "512cb0eea4b8c49a5b80522e4316aea3538e5b89b798033e3d26666dcf7f6cc0",
+        "plainLanguageSha256": "e1c8b5031bd3add6295fd866e7ddd809f4c7b4a6e5e356c6578fa8b48c5b0157",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "512cb0eea4b8c49a5b80522e4316aea3538e5b89b798033e3d26666dcf7f6cc0",
+        "plainLanguageSha256": "e1c8b5031bd3add6295fd866e7ddd809f4c7b4a6e5e356c6578fa8b48c5b0157",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CLAIM-COVERAGE.json, SHA-256 e4cf79df863319218eb4a3e30ce24ebdc648c287a8df4c1369e57f32ea5c6c99. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CLAIM-COVERAGE.json, SHA-256 e4cf79df863319218eb4a3e30ce24ebdc648c287a8df4c1369e57f32ea5c6c99. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CLAIM-COVERAGE.json, SHA-256 e4cf79df863319218eb4a3e30ce24ebdc648c287a8df4c1369e57f32ea5c6c99. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CLAIM-COVERAGE.json, SHA-256 e4cf79df863319218eb4a3e30ce24ebdc648c287a8df4c1369e57f32ea5c6c99. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CLAIM-COVERAGE.json, SHA-256 e4cf79df863319218eb4a3e30ce24ebdc648c287a8df4c1369e57f32ea5c6c99. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CLAIM-COVERAGE.json, SHA-256 e4cf79df863319218eb4a3e30ce24ebdc648c287a8df4c1369e57f32ea5c6c99. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CLAIM-COVERAGE.json, SHA-256 e4cf79df863319218eb4a3e30ce24ebdc648c287a8df4c1369e57f32ea5c6c99. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-CLAIM-COVERAGE.json, SHA-256 e4cf79df863319218eb4a3e30ce24ebdc648c287a8df4c1369e57f32ea5c6c99. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

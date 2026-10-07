@@ -1,0 +1,221 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-ARTICLE-STRUCTURES",
+  "fingerprint": "10d2da158cc53e475f630b6cee626c51425fe09790f82e4fda7d248e7cc181c5",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:35:05.037Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-ARTICLE-STRUCTURES.json, SHA-256 204f51aafd9dce39683bc497f9f158b64d2116381a648a281a8770ac60e77ec8. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "10d2da158cc53e475f630b6cee626c51425fe09790f82e4fda7d248e7cc181c5",
+    "ownRead": {
+      "id": "DOC-ARTICLE-STRUCTURES",
+      "route": "/articles/how-existing-structures-make-new-organization-possible/",
+      "title": "How existing structures make new organization possible",
+      "description": "Follow bacterial pH feedback and stellar conditions to separate physical environmental change from treating a whole as a unit.",
+      "revision": 11,
+      "kind": "article",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-EXAMPLE-LIFE",
+        "DOC-EXAMPLE-STAR",
+        "DOC-SOURCE-LINKS",
+        "UT-C02",
+        "UT-O101"
+      ],
+      "related": [
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [
+        "BIB-0089"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Explanatory article; universal claims and quantitative tests remain open.",
+      "evidenceState": "not-applicable",
+      "body": "## A population changes the next population's chances\n\nBegin with bacteria in a liquid culture. Their growth can change its acidity. That change can help another population grow, inhibit it or harm the population that caused the change. Ratzke and Gore report these different outcomes in a [controlled pH-feedback study](/references/#BIB-0089).\n\nThe useful question is causal: **what existed, what did it change, and what became possible afterward?** The culture and organisms were supplied. The result is environmental feedback between existing populations, not a new species or an origin-of-life experiment.\n\n## Conditions are part of the mechanism\n\nAn inventory of ingredients leaves out the conditions under which they interact. A structure can contribute a boundary, maintain a gradient or change its chemical surroundings. The later system then encounters a different setting.\n\nThe source's star example develops this in another physical setting. A gravitationally organized star establishes temperature, pressure and reaction conditions; stellar evolution and dispersal of many heavier elements change the material available for later chemistry. The [star reading](/examples/star/) keeps the mechanism and its limits visible.\n\nThese are different physical processes. Juxtaposing them does not demonstrate that they obey an identical microscopic equation. What they make intelligible is the question RRG wants to investigate: can the formation of a unit and its effect on later conditions be studied together?\n\n## Changing a background is different from naming a unit\n\nA molecule can be treated as an intact participant in a later description. That reduces the details we track. Bacterial pH changes alter the environment itself, whether or not we change our description. One operation is descriptive; the other is physical.\n\nThe current [recursive-background companion](/framework/recursive-background/) proposes a connection between them: a background supports organization; that organization changes the conditions inherited by what follows. It also asks where the first units arise, beginning with transient arrangements in an active background rather than a completed inventory of building blocks.\n\n## What would connect the stages?\n\nThe [recursive physical construction question](/claims/UT-O101/) calls for causally connected stages in one system. To discuss such a case, identify the initial conditions, the formed organization, its environmental effect and the subsequent organization. Say which stages were observed and which were supplied or inferred.\n\nA population growing after a pH change provides one bounded connection. It does not supply the whole source-to-repeated-level chain. Similarity between different examples can motivate a model; it cannot replace that missing causal connection.\n\n## A change can close possibilities too\n\nThe harmful and inhibitory culture outcomes matter. RRG's proposal is conditional: suitable coupling, resources and dynamics matter, and a process can stop, coexist, branch or destroy an organization. It is not a law that every change makes something larger or more complex.\n\nThe next useful question is therefore specific: **which organization changes which conditions, for which subsequent process?** [Follow life and environmental change](/examples/life-environment/) or [inspect the source connections](/evidence/source-links/) to trace a case with its actual support and limits.\n",
+      "sourceMapping": "Current 04 §§2–4, 11, 13–14, 37; current 08 H06/H09/H11/H13 and O1; core §§5–11; world §7 and background addendum. BIB-0089 provides the bounded supplied-culture pH/growth finding. Stellar context follows the separately mapped star reading. No new experiment, universal criterion or catalogue member.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "tags": [
+        "organization",
+        "research-explanation"
+      ],
+      "authorIdentity": "Vasyl Hryha",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "6fa730491f95ba9644202b22ab4d25bff730c17d4a4c182ec4ca394d4c9e1150"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "2a46517ccf47d2183005c3f644d1d7b5e46b417458c3bfc6a500d7a1acde23a7"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "f04895fcfa309e136c043e675f47c9e2633e9b06fd44092bec819a151564851f"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STAR",
+        "semanticDigest": "9084d504d45a15c01668fe910f2ad61b536acf5691a02b78befe65ef41475d77"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "7d31c5f7fea700b3422a042ffb9581fefd944ec32ba03dd3ab1d9784ba80cee9"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "a996e25506cc595f5c950dca990be9db106dcccf60fd2638c35a82e29447cb5b"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "a4b60495638bc66627ebc23dda4f5b4e434523539add301d976a1c976d7699b5"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "2bb388ae40b7da321f729ec05ff84edc18c44e6256ccbe2af0790ccb56c04058"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "d93c2089e3060a981d4767124aad0ac8757cf6791d9e3517446f8ac77715a276"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "110ec530b52c44daf53573fc0605f6e6b95fd046e882fffe4403582c0e5b27b7"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "bf461e1cf44d99dbab9e0441f80c9eb5f0bf4efb456de9236d906fa9f818bcee"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "4370a52a3ebd943ee0465b3b48297f94fb5e281461252d61c706346a6193d1cf"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "93227825a37216832ffaea75e9fbc5a1787ada4ba838aef152bc0e20fd62ef7e"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "a3ae014e4d3a89084c6e7d55591aab66cd3b00960109e0359ef3b7e2412643ca"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d8e65ae6587f8411df9ebc9b7cc48f06c23ad89782aed9c3d547bdd0ab364a65"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "94148f083c4b60bda986383b0f2cb86fc00087d78b42b10106105b47463793ee"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "beb7f3a2b17446d59baf36edc4a41aadda89302d33050702e2b1a94ac22b897c"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "4bca2e54c508278f9e7f46c8ebda815def917d8c565907a83dc4f4481cb11308",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "2efc98ea40da166c4cf237e7c13d05ca7898c51bfa7880cc5f140ae42301660a",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-ARTICLE-STRUCTURES.json, SHA-256 204f51aafd9dce39683bc497f9f158b64d2116381a648a281a8770ac60e77ec8. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-ARTICLE-STRUCTURES.json, SHA-256 204f51aafd9dce39683bc497f9f158b64d2116381a648a281a8770ac60e77ec8. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-ARTICLE-STRUCTURES.json, SHA-256 204f51aafd9dce39683bc497f9f158b64d2116381a648a281a8770ac60e77ec8. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-ARTICLE-STRUCTURES.json, SHA-256 204f51aafd9dce39683bc497f9f158b64d2116381a648a281a8770ac60e77ec8. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-ARTICLE-STRUCTURES.json, SHA-256 204f51aafd9dce39683bc497f9f158b64d2116381a648a281a8770ac60e77ec8. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-ARTICLE-STRUCTURES.json, SHA-256 204f51aafd9dce39683bc497f9f158b64d2116381a648a281a8770ac60e77ec8. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-ARTICLE-STRUCTURES.json, SHA-256 204f51aafd9dce39683bc497f9f158b64d2116381a648a281a8770ac60e77ec8. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-ARTICLE-STRUCTURES.json, SHA-256 204f51aafd9dce39683bc497f9f158b64d2116381a648a281a8770ac60e77ec8. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-FIRST-STRUCTURES",
+  "fingerprint": "bd33d6904afb5febd8a40b6df782b1d2c5ddb0b23870b20a09cc9e7a7e1963ef",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:35:05.037Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-FIRST-STRUCTURES.json, SHA-256 5456fd365ecfca190a0174212e1648e2f70c1e3da138111e504dddaf356eabb0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "bd33d6904afb5febd8a40b6df782b1d2c5ddb0b23870b20a09cc9e7a7e1963ef",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-FIRST-STRUCTURES",
+      "route": "/examples/first-structures/",
+      "title": "First lasting structures: from quantum activity to atoms",
+      "description": "Cooling makes lasting particles, light nuclei and atoms available for the first steps of chemistry.",
+      "revision": 6,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-GUIDE",
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD",
+        "R-CURRENT-BACKGROUND"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-CORE",
+        "DOC-EXAMPLE-MOLECULE",
+        "DOC-GLOSSARY",
+        "DOC-WORLD"
+      ],
+      "related": [
+        "DOC-CONCEPT-GEOMETRY",
+        "DOC-CONCEPT-STABILITY",
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [
+        "BIB-0011",
+        "BIB-0091"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Source-mapped illustration of early lasting building blocks, separating cosmological history from the proposed RRG formation pattern.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nLong before ordinary atoms existed, the early universe contained a hot mixture of quarks and gluons, called a quark–gluon plasma. As it cooled, quarks became bound into particles such as protons and neutrons.\n\nProtons and neutrons became ingredients for light nuclei. Early nuclear reactions produced mostly hydrogen and helium nuclei, with traces of other light nuclei. Further cooling allowed neutral hydrogen and helium atoms to form. The early chemical story also includes helium hydride, HeH⁺, the first known type of molecule, which could form before the first stars.\n\nThere are now lasting pieces that can take part in later organization. The next step can use what already holds together.\n\n## How RRG reads it\n\nRRG proposes a common pattern beneath these transitions. In fluctuating activity, temporary shapes and rhythms appear by chance. Most vanish. Sometimes an arrangement and its activity keep each other going. RRG calls that lasting pair a [resonator](/glossary/#resonator).\n\n**Resonant** names the organized activity; **Geometry** names the arrangement that supports it. Rhythm and shape hold each other; neither comes first. Here “rhythm” includes quantum activity. A [mode](/glossary/#mode) describes activity, relationships and response, without requiring a visible beat.\n\n## What you can see here\n\nThe main outward role is [building block](/glossary/#building-block). Protons and neutrons participate in nuclei; atoms become available for chemistry. The lower pieces keep their internal activity when a larger whole forms.\n\nThis opens the **Recursive** question: can a lasting whole become a part of another lasting whole? Becoming a part and changing the surrounding conditions are separate roles. Neither guarantees that another level will form.\n\n## Where the interpretation stops\n\nRRG’s reading of particle formation is a proposal, not derived physics. Its noise picture supplies no measured account of the primordial activity. The established history needs its physical interactions and conditions. The idea that fundamental forces themselves arose through earlier levels is speculative; no sequence of force origins has been demonstrated here.\n\n## Evidence and sources\n\n[NASA’s universe overview](/references/#BIB-0011) provides the cosmological background. The [helium hydride paper](/references/#BIB-0091) reports detection in planetary nebula NGC 7027, rather than direct observation of primordial formation.\n\nNext, [see how a molecule constrains its parts](/examples/molecule/).\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3.1 README §The name states the rules; 01 §1.1: chance, fluctuating activity and mutually supporting shape/rhythm; §§4, 7.1–7.2: internally active building blocks and inherited conditions; §7.3: speculative force origins; v0.1a Addendum — The Observable Ladder of Increasing Organization, §A corrected cosmic-to-life sequence: quark–gluon plasma, confinement into hadrons, light nuclei, neutral atoms and HeH+ before stars. 04 §§3–4: transient configurations, persistence and changed background. Unchanged core §§2–5, 10: full modes, interval stability, formation and force limits. BIB-0011 is standard cosmological background; BIB-0091 reports detection in NGC 7027, not primordial formation. No exact timing or relative ordering of neutral-atom and HeH+ formation is asserted.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "6fa730491f95ba9644202b22ab4d25bff730c17d4a4c182ec4ca394d4c9e1150"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "2a46517ccf47d2183005c3f644d1d7b5e46b417458c3bfc6a500d7a1acde23a7"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-MOLECULE",
+        "semanticDigest": "d1949a9b38f4d6fbc9d71dddc6857dc29aace14275621363c5fa11912c7647f1"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "7d31c5f7fea700b3422a042ffb9581fefd944ec32ba03dd3ab1d9784ba80cee9"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "a4b60495638bc66627ebc23dda4f5b4e434523539add301d976a1c976d7699b5"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "110ec530b52c44daf53573fc0605f6e6b95fd046e882fffe4403582c0e5b27b7"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "bf461e1cf44d99dbab9e0441f80c9eb5f0bf4efb456de9236d906fa9f818bcee"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "4370a52a3ebd943ee0465b3b48297f94fb5e281461252d61c706346a6193d1cf"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "93227825a37216832ffaea75e9fbc5a1787ada4ba838aef152bc0e20fd62ef7e"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "a3ae014e4d3a89084c6e7d55591aab66cd3b00960109e0359ef3b7e2412643ca"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "0fb26312d6542772e6512bdf79dcd565e37a2cfd60692df65b0e48889e7b4cb1"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-GUIDE",
+        "path": "research/RRG_CURRENT/README.md",
+        "sha256": "91788394d02ac98673b0dcea49b35ed506cc53ecd5d9830b84bc8ee9fd9f71f1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "beb7f3a2b17446d59baf36edc4a41aadda89302d33050702e2b1a94ac22b897c"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "a5100bcbf9467743f40e6c6460f352edf24abff476f329fe3200abe3d1adafc4",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "56587b8becd8a76c8fbd1db9fccb5994037dedf965ef34f3ce1b25c9596897c6",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-FIRST-STRUCTURES.json, SHA-256 5456fd365ecfca190a0174212e1648e2f70c1e3da138111e504dddaf356eabb0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-FIRST-STRUCTURES.json, SHA-256 5456fd365ecfca190a0174212e1648e2f70c1e3da138111e504dddaf356eabb0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-FIRST-STRUCTURES.json, SHA-256 5456fd365ecfca190a0174212e1648e2f70c1e3da138111e504dddaf356eabb0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-FIRST-STRUCTURES.json, SHA-256 5456fd365ecfca190a0174212e1648e2f70c1e3da138111e504dddaf356eabb0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-FIRST-STRUCTURES.json, SHA-256 5456fd365ecfca190a0174212e1648e2f70c1e3da138111e504dddaf356eabb0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-FIRST-STRUCTURES.json, SHA-256 5456fd365ecfca190a0174212e1648e2f70c1e3da138111e504dddaf356eabb0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-FIRST-STRUCTURES.json, SHA-256 5456fd365ecfca190a0174212e1648e2f70c1e3da138111e504dddaf356eabb0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-FIRST-STRUCTURES.json, SHA-256 5456fd365ecfca190a0174212e1648e2f70c1e3da138111e504dddaf356eabb0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

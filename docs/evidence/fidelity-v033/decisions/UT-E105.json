@@ -1,0 +1,95 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-E105",
+  "fingerprint": "bc42b0cb0379bb43af69411082a96ee5d3b51fe7fe10c827d5274d7a4f58be31",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:17:28.087Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/UT-E105.json, SHA-256 ab3295850d958a8e8b1980b687639a8a36db38245c76c0153a39d0261ac8fff9. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "bc42b0cb0379bb43af69411082a96ee5d3b51fe7fe10c827d5274d7a4f58be31",
+    "ownRead": {
+      "id": "UT-E105",
+      "route": "/claims/UT-E105/",
+      "title": "Stationary Turing patterns",
+      "description": "A chemically supplied reaction–diffusion experiment produces stationary patterned states from a uniform regime.",
+      "revision": 5,
+      "kind": "evidence",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [
+        "BIB-0070"
+      ],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "sourceSha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc",
+        "startLine": 122,
+        "endLine": 135,
+        "excerptSha256": "1ed4549b01c18caa7f7a2c4bac56c7ac1d49eb14b5502c551a0fdb61b6291f37"
+      },
+      "statement": "## E05 — Transition from a uniform state to hexagonal and striped Turing patterns\n\n**experiment · component / comparator · claims C0.**\n\n**Reported result:** A chemically supplied reaction–diffusion experiment produces stationary patterned states from a uniform regime.\n\n**Already supplied:** Specific reactions, diffusion, gel geometry and reagent supply are provided.\n\n**Limit of the RRG connection:** A stationary spatial mode is not automatically a temporal oscillation or a self-maintaining resonator. Uniform-state instability is not identical to noise-induced ordering.\n\n**Source:** Ouyang & Swinney (1991), *Nature 352, 610–612*. [DOI: 10.1038/352610a0](https://doi.org/10.1038/352610a0).\n\n**Verification coverage:** Publisher abstract and bibliographic record. Checked 2026-10-02.\n\n",
+      "plainLanguage": "",
+      "scope": "experiment; component / comparator; source-reported C0.",
+      "evidenceState": "project-reported",
+      "body": "",
+      "sourceMapping": "v0.2.1:E05 → UT-E105; source-local ID retains its edition; predecessor UT-E IDs are historical.",
+      "adapter": "rrg-evidence-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "A stationary spatial mode is not automatically a temporal oscillation or a self-maintaining resonator. Uniform-state instability is not identical to noise-induced ordering.",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "883ffca7833986de560e9cb3716f602ee72f59dcd802b5afb290127e4810f5f1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "883ffca7833986de560e9cb3716f602ee72f59dcd802b5afb290127e4810f5f1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/UT-E105.json, SHA-256 ab3295850d958a8e8b1980b687639a8a36db38245c76c0153a39d0261ac8fff9. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/UT-E105.json, SHA-256 ab3295850d958a8e8b1980b687639a8a36db38245c76c0153a39d0261ac8fff9. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/UT-E105.json, SHA-256 ab3295850d958a8e8b1980b687639a8a36db38245c76c0153a39d0261ac8fff9. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/UT-E105.json, SHA-256 ab3295850d958a8e8b1980b687639a8a36db38245c76c0153a39d0261ac8fff9. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/UT-E105.json, SHA-256 ab3295850d958a8e8b1980b687639a8a36db38245c76c0153a39d0261ac8fff9. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/UT-E105.json, SHA-256 ab3295850d958a8e8b1980b687639a8a36db38245c76c0153a39d0261ac8fff9. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/UT-E105.json, SHA-256 ab3295850d958a8e8b1980b687639a8a36db38245c76c0153a39d0261ac8fff9. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/UT-E105.json, SHA-256 ab3295850d958a8e8b1980b687639a8a36db38245c76c0153a39d0261ac8fff9. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

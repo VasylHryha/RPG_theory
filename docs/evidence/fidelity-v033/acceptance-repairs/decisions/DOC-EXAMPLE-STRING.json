@@ -1,0 +1,160 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-STRING",
+  "fingerprint": "15dd8a8d3ed6bf98e4359f27b55cb8fd12de6d3b0ed4ec911520fa01bbb39f91",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:35:05.037Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-STRING.json, SHA-256 c34d989f0338285fd3236c8f8b45e28387af77817945dfe696871128255b449f. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "15dd8a8d3ed6bf98e4359f27b55cb8fd12de6d3b0ed4ec911520fa01bbb39f91",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-STRING",
+      "route": "/examples/string/",
+      "title": "String: boundaries shape motion",
+      "description": "A string’s boundaries constrain its waves; each supported wave has a moving shape.",
+      "revision": 14,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0061"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nA stretched string fixed at both ends can support standing waves. In the simplest pattern, one arch lies between the ends. Another pattern has two arches and a stationary point between them. The ends stay at rest in the ideal model while other regions move.\n\nLength and fixed ends constrain which patterns fit. Tension and mass per unit length set the wave speed. Both the arrangement and the physical properties matter. The drawing shows possible shapes at one instant, rather than a measured amplitude.\n\n## How RRG reads it\n\nThe string is a simple picture for two words in the name. **Resonant** points to [resonance](/glossary/#resonance), organized motion with a rhythm. **Geometry** points to [shape and constraints](/glossary/#geometry-shape): the supported motion has a spatial pattern, and the string’s boundaries restrict that pattern.\n\nIts [mode](/glossary/#mode) includes how different regions move together, rather than just one frequency. RRG asks a wider question: when can shape and activity support each other well enough for a whole to persist as a [resonator](/glossary/#resonator)?\n\n## What you can see here\n\nYou can see resonance and shape together. Change the string’s length or tension and its supported motions change; excite a supported wave and its moving shape becomes visible. This makes the relation easy to picture.\n\nThis is a **Basics** example: it introduces the shape–activity relationship. The next questions concern the two outward roles. Could the lasting whole become a [building block](/glossary/#building-block), or could its activity create [changed surroundings](/glossary/#changed-surroundings) that support related organization? Those steps need a further system to examine.\n\n## Where the interpretation stops\n\nThe fixed supports are supplied. The wave does not demonstrate that its motion maintains those supports. A model of that stronger feedback would need to show which activity preserves which constraint, and for how long. The physical string model also needs tension and material properties; naming geometry does not supply them.\n\n## Evidence and sources\n\n[OpenStax’s standing-wave model](/references/#BIB-0061) explains the ideal fixed-end string and its parameters. The [geometry and modes page](/concepts/geometry-and-modes/) develops the RRG terms, while the [molecule example](/examples/molecule/) follows a whole that can become a useful part.\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3.2 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "6fa730491f95ba9644202b22ab4d25bff730c17d4a4c182ec4ca394d4c9e1150"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "2a46517ccf47d2183005c3f644d1d7b5e46b417458c3bfc6a500d7a1acde23a7"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "7d31c5f7fea700b3422a042ffb9581fefd944ec32ba03dd3ab1d9784ba80cee9"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "a4b60495638bc66627ebc23dda4f5b4e434523539add301d976a1c976d7699b5"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "110ec530b52c44daf53573fc0605f6e6b95fd046e882fffe4403582c0e5b27b7"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "bf461e1cf44d99dbab9e0441f80c9eb5f0bf4efb456de9236d906fa9f818bcee"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "4370a52a3ebd943ee0465b3b48297f94fb5e281461252d61c706346a6193d1cf"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "beb7f3a2b17446d59baf36edc4a41aadda89302d33050702e2b1a94ac22b897c"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "3581d7116523ed1f14d348f5ab62ba04c4541a1a3f80c4a79babd47623ce63a1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "458247c742f4a95c3c39e67c02ee5d4db4744b2f71103ae944c14601108ac149",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-STRING.json, SHA-256 c34d989f0338285fd3236c8f8b45e28387af77817945dfe696871128255b449f. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-STRING.json, SHA-256 c34d989f0338285fd3236c8f8b45e28387af77817945dfe696871128255b449f. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-STRING.json, SHA-256 c34d989f0338285fd3236c8f8b45e28387af77817945dfe696871128255b449f. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-STRING.json, SHA-256 c34d989f0338285fd3236c8f8b45e28387af77817945dfe696871128255b449f. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-STRING.json, SHA-256 c34d989f0338285fd3236c8f8b45e28387af77817945dfe696871128255b449f. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-STRING.json, SHA-256 c34d989f0338285fd3236c8f8b45e28387af77817945dfe696871128255b449f. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-STRING.json, SHA-256 c34d989f0338285fd3236c8f8b45e28387af77817945dfe696871128255b449f. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-STRING.json, SHA-256 c34d989f0338285fd3236c8f8b45e28387af77817945dfe696871128255b449f. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

@@ -4,11 +4,11 @@
   "route": "/examples/brain/",
   "title": "Brain: wiring and activity shape each other",
   "description": "A brain’s connections constrain activity, while activity and learning change those connections.",
-  "revision": 6,
+  "revision": 7,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+  "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
   "publicationState": "published",
   "sourceRefs": [
     "R-CURRENT-CORE",

@@ -1,0 +1,93 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-AUTHORITY",
+  "fingerprint": "2cf533d72a46d9301acf68bac1d238b8653a21dc36d81050bc2de37e3768d28d",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:17:28.087Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared authority with the exact predecessor registration: current edition, predecessor seal/history and paragraph scope updated; no definitions, statuses or licence promoted. Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-AUTHORITY.json, SHA-256 19327cc4ecdbd2dd184f67a1b73f936e5e537a98335c9eff09e0ac0f3919c201. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Inspected v0.3.3 fields: revision, researchEdition, sourceBinding, statement, plainLanguage, scope; changed source identities: R-CURRENT-AUTHORITY. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "2cf533d72a46d9301acf68bac1d238b8653a21dc36d81050bc2de37e3768d28d",
+    "ownRead": {
+      "id": "DOC-AUTHORITY",
+      "route": "/documents/source-authority/",
+      "title": "Source authority and edition",
+      "description": "How the current v0.3 author clarifications, unchanged core, dated evidence and preserved v0.2.1 predecessor relate.",
+      "revision": 10,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-AUTHORITY",
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-AUTHORITY",
+        "sourceSha256": "e06c825b6d45926b615ecd4c26dddc8620ad421e3846a389cfe0c9033d5cdc95",
+        "startLine": 3,
+        "endLine": 27,
+        "excerptSha256": "0b18f3042f3a2962f4a31c27e0ca791c949488db776cce7bc0dcb394aa80f71e"
+      },
+      "statement": "**Current repository edition:** RRG v0.3.3 — forces by scale, 2026-10-07\n**Author:** Vasyl Hryha\n**Predecessor:** RRG v0.3.2 — forces rationale, 2026-10-07; seal `b476dd57d3357b3eeadd668f0977261f1b29ea671d3c0537b2855c3ab95eeb22`.\n\nThis is an explicitly directed source revision. It adds the exact author-approved forces-by-scale paragraph in 01 §6.1, distinguishing dominance bands and the proposed RRG reading from evidence for RRG. The v0.3.2 forces rationale in §7.3 is retained. The v0.3.1 related-work comparison, common-question answer and reading path are retained unchanged. The authoritative §4.5 semantic record (affected files/claims, before/after, support, permission and dependents) is CHANGELOG change `RRG-2026-10-07-V033-FORCES-BY-SCALE` under the existing R4 §0.3/§4.5 revision procedure.\n\n## Authority order\n\n1. `00_LOCKED_CORE.md` remains the minimal normative core, byte-for-byte unchanged. Its v0.2 heading identifies the retained core, not the whole package's edition.\n2. `05_CHANGE_CONTROL.md` remains the unchanged core-change protocol. No failing definition or core revision is proposed.\n3. `01_world_explanation.md` is the v0.3.3 main plain-language explanation, retaining the v0.3 clarifications. Its clarifications explain the core or label downstream hypotheses. `02_scientific_framework.md` and `03_mathematical_core.md` retain their arguments and candidate models; 02 §17 now compares related work. The retained cross-references distinguish latent interaction channels from the speculative origin of forces.\n4. `04_recursive_background_generation.md` retains the audited argument with minimal v0.3 links and labelled extensions. README and 08 supply the entry point, current hypothesis status and common-question route. Optional mathematics (05), evidence cases (06) and the dated audit (07) remain carried-forward work; their old dates do not report a v0.3 audit.\n5. `sources.json` carries unchanged evidence cases and existing reading records, plus five related-work bibliographic records with v0.3.3 metadata. These records are supplementary and do not establish RRG. `foundations/` and `checks/` are unchanged supporting provenance/audit material, not new current definitions or new execution results.\n\n## Predecessor provenance\n\nThe complete v0.3.2 predecessor is preserved byte-for-byte under `research/history/repository-current-v0.3.2-2026-10-07/`. The complete v0.3.1 predecessor is preserved byte-for-byte under `research/history/repository-current-v0.3.1-2026-10-07/`. The complete v0.3 predecessor is preserved byte-for-byte under `research/history/repository-current-v0.3-2026-10-07/`. The complete v0.2.1 repository current promoted on 5 October 2026 is preserved byte-for-byte under `research/history/repository-current-v0.2.1-promoted-2026-10-05/`. The earlier repository set remains at `research/history/repository-current-2026-10-01/`; audited package history and supplied ZIPs remain untouched. These are historical editions, not competing current sources.\n\nThe inventory seal and manifest hash in `config/research-source.json` identify the resulting edition. Its revision record identifies the predecessor seal and exact affected membership. A new identity never upgrades an old approval.\n\n## Website consequences\n\nSource-bound website bindings are updated mechanically to the new exact source edition and excerpts. Authored website text is outside this source-revision batch. Previous source-dependent website decisions remain issued evidence and become stale; missing decisions remain pending. This revision grants no website fidelity acceptance, scientific certification, licence, commit, public publication or deployment authorization. The website must follow the revised sources in its separate work.\n\nActual checks and REVIEW_READY status are recorded in `docs/evidence/source-revision-v0.3.3/receipt.md`; resulting edition/hash and predecessor provenance are sealed externally in `config/research-source.json` and `research/publication/source-revision-v0.3.3.json`. This avoids circular self-hashes. Independent review is pending.\n",
+      "plainLanguage": "This is the current authority record for the v0.3.3 forces-by-scale revision. The minimal core and its change-control protocol remain byte-identical. The forces-by-scale explanation describes dominance bands and a proposed fit, explicitly not evidence for RRG. The prior forces rationale is retained. The framework’s seven comparisons, world explanation and retained claim coverage coexist with the carried-forward optional calculations, evidence catalogue and dated audit.\n\nThe exact v0.3.2, v0.3.1, v0.3 and v0.2.1 predecessors and older foundation snapshots are preserved as history. A new source identity does not renew an old website approval or establish new scientific evidence. The source record requires a separate website fidelity review; the reading decisions describe that review, while [Cite](/cite/) identifies this website selection and [Rights](/legal/) records permissions. Original downloads retain exact source bytes.",
+      "scope": "How the current v0.3.3 forces-by-scale explanation and retained author clarifications, unchanged core, dated evidence and preserved v0.2.1 predecessor relate.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "SOURCE_AUTHORITY.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-AUTHORITY",
+        "path": "research/RRG_CURRENT/SOURCE_AUTHORITY.md",
+        "sha256": "e06c825b6d45926b615ecd4c26dddc8620ad421e3846a389cfe0c9033d5cdc95"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e6907d09b88f2b2cf83f7182dc8dbc83a90ebb192931f380a995f75b42e2b4a5",
+        "plainLanguageSha256": "568734b12585945b5a7a2470e088f026efc207146596bbd7ec1259c4c25489b1",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e6907d09b88f2b2cf83f7182dc8dbc83a90ebb192931f380a995f75b42e2b4a5",
+        "plainLanguageSha256": "3e701b061c13e900ace0bd1a97d09f257b753a5e995c9064c6a161dad2646f0f",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-AUTHORITY.json, SHA-256 19327cc4ecdbd2dd184f67a1b73f936e5e537a98335c9eff09e0ac0f3919c201. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared authority with the exact predecessor registration: current edition, predecessor seal/history and paragraph scope updated; no definitions, statuses or licence promoted. Inspected v0.3.3 fields: revision, researchEdition, sourceBinding, statement, plainLanguage, scope; changed source identities: R-CURRENT-AUTHORITY. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-AUTHORITY.json, SHA-256 19327cc4ecdbd2dd184f67a1b73f936e5e537a98335c9eff09e0ac0f3919c201. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared authority with the exact predecessor registration: current edition, predecessor seal/history and paragraph scope updated; no definitions, statuses or licence promoted. Inspected v0.3.3 fields: revision, researchEdition, sourceBinding, statement, plainLanguage, scope; changed source identities: R-CURRENT-AUTHORITY. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-AUTHORITY.json, SHA-256 19327cc4ecdbd2dd184f67a1b73f936e5e537a98335c9eff09e0ac0f3919c201. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared authority with the exact predecessor registration: current edition, predecessor seal/history and paragraph scope updated; no definitions, statuses or licence promoted. Inspected v0.3.3 fields: revision, researchEdition, sourceBinding, statement, plainLanguage, scope; changed source identities: R-CURRENT-AUTHORITY. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-AUTHORITY.json, SHA-256 19327cc4ecdbd2dd184f67a1b73f936e5e537a98335c9eff09e0ac0f3919c201. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared authority with the exact predecessor registration: current edition, predecessor seal/history and paragraph scope updated; no definitions, statuses or licence promoted. Inspected v0.3.3 fields: revision, researchEdition, sourceBinding, statement, plainLanguage, scope; changed source identities: R-CURRENT-AUTHORITY. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-AUTHORITY.json, SHA-256 19327cc4ecdbd2dd184f67a1b73f936e5e537a98335c9eff09e0ac0f3919c201. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared authority with the exact predecessor registration: current edition, predecessor seal/history and paragraph scope updated; no definitions, statuses or licence promoted. Inspected v0.3.3 fields: revision, researchEdition, sourceBinding, statement, plainLanguage, scope; changed source identities: R-CURRENT-AUTHORITY. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-AUTHORITY.json, SHA-256 19327cc4ecdbd2dd184f67a1b73f936e5e537a98335c9eff09e0ac0f3919c201. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared authority with the exact predecessor registration: current edition, predecessor seal/history and paragraph scope updated; no definitions, statuses or licence promoted. Inspected v0.3.3 fields: revision, researchEdition, sourceBinding, statement, plainLanguage, scope; changed source identities: R-CURRENT-AUTHORITY. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-AUTHORITY.json, SHA-256 19327cc4ecdbd2dd184f67a1b73f936e5e537a98335c9eff09e0ac0f3919c201. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared authority with the exact predecessor registration: current edition, predecessor seal/history and paragraph scope updated; no definitions, statuses or licence promoted. Inspected v0.3.3 fields: revision, researchEdition, sourceBinding, statement, plainLanguage, scope; changed source identities: R-CURRENT-AUTHORITY. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-AUTHORITY.json, SHA-256 19327cc4ecdbd2dd184f67a1b73f936e5e537a98335c9eff09e0ac0f3919c201. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared authority with the exact predecessor registration: current edition, predecessor seal/history and paragraph scope updated; no definitions, statuses or licence promoted. Inspected v0.3.3 fields: revision, researchEdition, sourceBinding, statement, plainLanguage, scope; changed source identities: R-CURRENT-AUTHORITY. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

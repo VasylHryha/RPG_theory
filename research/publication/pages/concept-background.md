@@ -4,11 +4,11 @@
   "route": "/concepts/background/",
   "title": "Background and new possibilities",
   "description": "Lasting structures change the conditions in which other structures can form, opening some possibilities and closing others.",
-  "revision": 6,
+  "revision": 7,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+  "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
   "publicationState": "published",
   "sourceRefs": [
     "R-CURRENT-GUIDE",

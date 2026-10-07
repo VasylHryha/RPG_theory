@@ -4,11 +4,11 @@
   "route": "/examples/carbon-arrangement/",
   "title": "Same atoms, different arrangement",
   "description": "Carbon shows why knowing the ingredients is only part of knowing what a whole will do.",
-  "revision": 6,
+  "revision": 7,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+  "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
   "publicationState": "published",
   "sourceRefs": [
     "R-CURRENT-CORE",

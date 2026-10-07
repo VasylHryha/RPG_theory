@@ -1,0 +1,142 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-GLOSSARY",
+  "fingerprint": "ecd1b2422f671f017ced60d08c33770d4f5eea13f89f99e354a2d5fc71ca3019",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:35:05.037Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-GLOSSARY.json, SHA-256 b67968594be08549a8e5702165ce3a64cca9ff23ef390fcdb84a1d61f2158346. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "ecd1b2422f671f017ced60d08c33770d4f5eea13f89f99e354a2d5fc71ca3019",
+    "ownRead": {
+      "id": "DOC-GLOSSARY",
+      "route": "/glossary/",
+      "title": "Glossary",
+      "description": "Plain meanings of the key RRG terms, with links to their explanations and exact source sections.",
+      "revision": 9,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-CORE",
+        "DOC-WORLD"
+      ],
+      "related": [
+        "DOC-CONCEPT-GEOMETRY",
+        "DOC-CONCEPT-STABILITY",
+        "DOC-CONCEPT-RECURSION",
+        "DOC-CONCEPT-INTERACTIONS",
+        "DOC-CONCEPT-BACKGROUND",
+        "DOC-EXAMPLE-CARBON-ARRANGEMENT",
+        "DOC-EXAMPLE-FIRST-STRUCTURES",
+        "DOC-EXAMPLE-BRAIN"
+      ],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "A plain-language glossary of source meanings, not additional normative definitions or scientific certification.",
+      "evidenceState": "not-applicable",
+      "body": "These are RRG’s meanings: the locked core defines the central terms, while the v0.3.1 world explanation describes the broader proposals.\n\n[ B ](#b) · [ C ](#c) · [ G ](#g) · [ I ](#i) · [ M ](#m) · [ O ](#o) · [ R ](#r) · [ S ](#s)\n\n## B\n\n### Background\n\nIn RRG’s proposal, background is the surrounding activity and conditions in which an organization can form, including fluctuating motion without a persistent organizing rhythm — [background and new possibilities](/concepts/background/) and [world explanation §1.1](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance). See [first lasting structures](/examples/first-structures/) for the proposed early reading.\n\n### Building block\n\nA building block is a lasting organization that can act as a part of a larger whole while remaining internally active — [world explanation §7.1](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings). Examples: [first lasting structures](/examples/first-structures/) and [carbon arrangements](/examples/carbon-arrangement/).\n\n## C\n\n### Changed surroundings\n\nChanged surroundings are conditions altered by an organization, which may make similar or new organizations possible or impossible — [background and new possibilities](/concepts/background/) and [world explanation §7.1](/documents/world-explanation/#71-two-separate-roles-building-blocks-and-changed-surroundings).\n\n## G\n\n### Geometry (shape)\n\nGeometry is how a system’s parts are arranged, connected and constrained at a chosen scale, including more than its visible shape — [geometry and modes](/concepts/geometry-and-modes/) and [locked core §1](/documents/locked-core/#1-geometry-g). See [carbon’s different arrangements](/examples/carbon-arrangement/) and [brain wiring and activity](/examples/brain/) for related examples.\n\n## I\n\n### Inner resonance\n\nInner resonance names compatible activity within a thing that keeps it organized as itself, rather than an extra holding force — [world explanation §6.1](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts). See the [brain example](/examples/brain/) for a related reading.\n\n## M\n\n### Mode\n\nA mode describes a system’s organized activity and response, including rhythms, phases, amplitudes, coupling and characteristic times, rather than just one frequency — [geometry and modes](/concepts/geometry-and-modes/) and [locked core §2](/documents/locked-core/#2-frequency--mode-structure-m). Examples: [carbon arrangements](/examples/carbon-arrangement/) and [brain activity](/examples/brain/).\n\n## O\n\n### Outer resonance\n\nOuter resonance names compatible coupling between things and their shared surroundings, without requiring identical frequencies or phases — [world explanation §6.1](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts).\n\n## R\n\n### Recursion / recursive\n\nRecursion means lasting wholes can become parts of larger wholes and the geometry–mode cycle repeats at new scales, where the mechanisms may differ — [recursion and scale](/concepts/recursion/) and [world explanation §0](/documents/world-explanation/#0-the-name-states-the-rules). See [background and new possibilities](/concepts/background/) for the environmental role.\n\n### Resonance\n\nIn RRG’s broad explanatory language, resonance means motion that has fallen into rhythm, while each physical evidence case keeps its own meaning and tests — [world explanation §1.1](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance). See [first lasting structures](/examples/first-structures/) for RRG’s proposed reading.\n\n### Resonance-fit\n\nForces gather and hold; resonance-fit is RRG’s proposed rule for which arrangements fit together and last. It concerns compatible shape and activity within a thing and between things, rather than an extra force — [world explanation §6.1](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts). Compare [related work](/related-work/), [questions](/questions/) and [experiments](/experiments/).\n\n### Resonator\n\nA resonator is a lasting organization whose geometry and mode structure support each other, even when it has no visible beat — [world explanation §1.1](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance) and [locked core §3](/documents/locked-core/#3-resonant-geometry-r). See [first lasting structures](/examples/first-structures/) for a related example.\n\n## S\n\n### Scale\n\nA scale is a level at which an organized whole can act as an effective unit in further interactions, with its own characteristic sizes, times and mechanisms — [recursion and scale](/concepts/recursion/) and [locked core §7](/documents/locked-core/#7-scale).\n\n### Spreading\n\nSpreading is RRG’s proposed tendency for a resonator to influence or help form related organization when coupling, energy and surroundings allow it, and is neither guaranteed nor required at every level — [world explanation §9](/documents/world-explanation/#9-spreading-a-strong-tendency-not-a-required-step). See [background and new possibilities](/concepts/background/) for the role of surroundings.\n\n### Stability\n\nStability means geometry and mode structure support a self-consistent organization for an interval, without promising permanence or requiring continuous external power — [stability](/concepts/stability/) and [world explanation §3.1](/documents/world-explanation/#31-energy-and-time). Compare [first lasting structures](/examples/first-structures/) and the [brain example](/examples/brain/).\n",
+      "sourceMapping": "RRG v0.3.2 01 §§0, 1.1, 3.1, 6.1, 7.1, 9 and 16; unchanged locked core §§1–9. Background/resonance/resonator: 01 §1.1 and core §§2–4; building block/changed surroundings: 01 §7.1 and core §5; geometry/mode: core §§1–3; inner/outer resonance: 01 §6.1; recursion: 01 §0 and core §8; scale: core §7; spreading: 01 §9 and core §9; stability: core §4 and 01 §3.1. Explanatory meanings preserve the distinction between core definitions and labelled extensions.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "6fa730491f95ba9644202b22ab4d25bff730c17d4a4c182ec4ca394d4c9e1150"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "2a46517ccf47d2183005c3f644d1d7b5e46b417458c3bfc6a500d7a1acde23a7"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "a4b60495638bc66627ebc23dda4f5b4e434523539add301d976a1c976d7699b5"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "beb7f3a2b17446d59baf36edc4a41aadda89302d33050702e2b1a94ac22b897c"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "84cb11178019e5d2ab64a58c6fdb26cdd28acb9cb038e01c34124c85984ad572",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "ad865c53724dab500011f3c21459b314a82c4cae1a661afbfe24f05549a13a98",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-GLOSSARY.json, SHA-256 b67968594be08549a8e5702165ce3a64cca9ff23ef390fcdb84a1d61f2158346. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-GLOSSARY.json, SHA-256 b67968594be08549a8e5702165ce3a64cca9ff23ef390fcdb84a1d61f2158346. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-GLOSSARY.json, SHA-256 b67968594be08549a8e5702165ce3a64cca9ff23ef390fcdb84a1d61f2158346. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-GLOSSARY.json, SHA-256 b67968594be08549a8e5702165ce3a64cca9ff23ef390fcdb84a1d61f2158346. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-GLOSSARY.json, SHA-256 b67968594be08549a8e5702165ce3a64cca9ff23ef390fcdb84a1d61f2158346. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-GLOSSARY.json, SHA-256 b67968594be08549a8e5702165ce3a64cca9ff23ef390fcdb84a1d61f2158346. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-GLOSSARY.json, SHA-256 b67968594be08549a8e5702165ce3a64cca9ff23ef390fcdb84a1d61f2158346. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-GLOSSARY.json, SHA-256 b67968594be08549a8e5702165ce3a64cca9ff23ef390fcdb84a1d61f2158346. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "changeId": "RRG-2026-10-07-V033-FORCES-BY-SCALE",
+  "category": "wording",
+  "predecessorEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+  "predecessorSeal": "b476dd57d3357b3eeadd668f0977261f1b29ea671d3c0537b2855c3ab95eeb22",
+  "sourceChangeRef": "research/RRG_CURRENT/CHANGELOG.md",
+  "affectedFiles": [
+    "research/RRG_CURRENT/01_world_explanation.md",
+    "research/RRG_CURRENT/CHANGELOG.md",
+    "research/RRG_CURRENT/CURRENT_MANIFEST.md",
+    "research/RRG_CURRENT/README.md",
+    "research/RRG_CURRENT/SOURCE_AUTHORITY.md",
+    "research/RRG_CURRENT/sources.json"
+  ],
+  "affectedClaimIds": [
+    "DOC-ARTICLE-STRUCTURES",
+    "DOC-ARTICLE-UNIT",
+    "DOC-AUTHORITY",
+    "DOC-BACKGROUND",
+    "DOC-CONCEPT-BACKGROUND",
+    "DOC-CONCEPT-GEOMETRY",
+    "DOC-CONCEPT-INTERACTIONS",
+    "DOC-CONCEPT-RECURSION",
+    "DOC-CONCEPT-STABILITY",
+    "DOC-CONCEPTS",
+    "DOC-CRITICS",
+    "DOC-EVIDENCE",
+    "DOC-EXAMPLE-BRAIN",
+    "DOC-EXAMPLE-CARBON-ARRANGEMENT",
+    "DOC-EXAMPLE-CELL",
+    "DOC-EXAMPLE-FIRST-STRUCTURES",
+    "DOC-EXAMPLE-LIFE",
+    "DOC-EXAMPLE-MOLECULE",
+    "DOC-EXAMPLE-STAR",
+    "DOC-EXAMPLE-STRING",
+    "DOC-EXAMPLE-WATER",
+    "DOC-EXAMPLES",
+    "DOC-GLOSSARY",
+    "DOC-HOME",
+    "DOC-READING-GUIDE",
+    "DOC-RELATED-WORK",
+    "DOC-SOURCE-CHANGES",
+    "DOC-SOURCE-LINKS",
+    "DOC-START",
+    "DOC-STATUS",
+    "DOC-USES",
+    "DOC-WORLD",
+    "UT-E101",
+    "UT-E102",
+    "UT-E103",
+    "UT-E104",
+    "UT-E105",
+    "UT-E106",
+    "UT-E107",
+    "UT-E108",
+    "UT-E109",
+    "UT-E110",
+    "UT-E111",
+    "UT-E112",
+    "UT-E113",
+    "UT-E114",
+    "UT-E115",
+    "UT-E116",
+    "UT-E117",
+    "UT-E118",
+    "UT-E119",
+    "UT-E120",
+    "UT-E121",
+    "UT-E122"
+  ],
+  "problem": "Section 6.1 lacks the approved forces-by-scale explanation.",
+  "before": "The gravity paragraph proceeds directly to the existing evidence limits.",
+  "after": "The exact approved forces-by-scale paragraph distinguishes dominance bands and a proposed fit from evidence for RRG.",
+  "rationale": "Explain the approved scale comparison without changing definitions, claims, statuses or evidence.",
+  "permissionBasis": "Owner-approved v0.3.3 brief: yes overall good (feedback section 23) and do it, 7 October 2026; implement exact paragraph with fidelity decisions and release selection under R4 sections 0.3/4.5; no commit, push or deploy.",
+  "resultEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+  "resultSeal": "1cd26e7a8d7a7815fbf7bf2b18ebd1d9960b2400ab93cbd53b879031aa966a48",
+  "priorSnapshot": [
+    {
+      "path": "research/RRG_CURRENT/01_world_explanation.md",
+      "sha256": "207a591ef45880f3899bee641ba45302aaa9600358e0d1568516eef74d678a09"
+    },
+    {
+      "path": "research/RRG_CURRENT/CHANGELOG.md",
+      "sha256": "030a4f5a0e56764e695d0ce6b6245d7e5e5858fc375305def519c5874e81c50a"
+    },
+    {
+      "path": "research/RRG_CURRENT/CURRENT_MANIFEST.md",
+      "sha256": "ca1533efb58c1f66125e97da1830e8d1d16adbebf3879b363cf04ee9d27592a4"
+    },
+    {
+      "path": "research/RRG_CURRENT/README.md",
+      "sha256": "66f403e9ef8220436b033398766cd773a70337ee3c33ec09310e1609b71d646f"
+    },
+    {
+      "path": "research/RRG_CURRENT/SOURCE_AUTHORITY.md",
+      "sha256": "db7ca6078600f67bd5063aa26e6fb10304fa2e51be4ff2bee837196c60d5a2b0"
+    },
+    {
+      "path": "research/RRG_CURRENT/sources.json",
+      "sha256": "1df9866f50b8e819718aa0a9cc5c41f1fae927659dde61b0925417a4ba4ae76c"
+    }
+  ]
+}

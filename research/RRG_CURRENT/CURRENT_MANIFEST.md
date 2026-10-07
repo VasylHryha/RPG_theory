@@ -1,8 +1,8 @@
 # RRG CURRENT — Active File Manifest
 
-**Active version:** RRG v0.3.2 — forces rationale, 2026-10-07
-**Prior edition:** RRG v0.3.1 — relation to existing work, 2026-10-07
-**Evidence audit retained:** 2026-10-02; no new evidence audit in v0.3.2; five related-work bibliographic records verified 7 October 2026 (Claude)
+**Active version:** RRG v0.3.3 — forces by scale, 2026-10-07
+**Prior edition:** RRG v0.3.2 — forces rationale, 2026-10-07
+**Evidence audit retained:** 2026-10-02; no new evidence audit in v0.3.3; five related-work bibliographic records verified 7 October 2026 (Claude)
 **Locked-core status:** carried forward unchanged from the prior repository edition.
 
 Only files listed under **Active files** define the active repository source set. Supporting files under `foundations/` and `checks/` are bundled provenance/audit material and are not additional active definitions. The audited package's internal archive remains preserved in GPT Library.
@@ -10,7 +10,7 @@ Only files listed under **Active files** define the active repository source set
 ## Active files
 
 - `00_LOCKED_CORE.md` — minimal normative definitions, carried forward unchanged.
-- `01_world_explanation.md` — author-clarified main explanation, common questions and corrected stellar ancestry, with the v0.3.2 forces rationale in §7.3.
+- `01_world_explanation.md` — author-clarified main explanation, common questions and corrected stellar ancestry, with the retained forces rationale in §7.3 and v0.3.3 forces-by-scale paragraph in §6.1.
 - `02_scientific_framework.md` — scientific framework with §17 Relation to existing work and retained force-history cross-reference.
 - `03_mathematical_core.md` — carried-forward candidate mathematics with a necessary force-history cross-reference.
 - `04_recursive_background_generation.md` — audited argument with minimal v0.3 cross-references and labelled success/force-fit extensions.
@@ -19,14 +19,14 @@ Only files listed under **Active files** define the active repository source set
 - `06_evidence_catalog.md` — audited v0.2.1 evidence catalogue and open connections.
 - `07_audit_report.md` — audited v0.2.1 corrections, checks and remaining gaps.
 - `08_claim_coverage.md` — claim registry, sharpened H24–H28/O9 and uncited candidate-topic list.
-- `CHANGELOG.md` — edition changelog, including the v0.3.2 §4.5 semantic revision record and preserved earlier records.
-- `README.md` — v0.3.2 entry point with a related-work reading path and retained evidence/honesty guide.
+- `CHANGELOG.md` — edition changelog, including the v0.3.3 §4.5 semantic revision record and preserved earlier records.
+- `README.md` — v0.3.3 entry point with a related-work reading path and retained evidence/honesty guide.
 - `SOURCE_AUTHORITY.md` — current authority and unchanged-core/predecessor boundary.
-- `sources.json` — v0.3.2 edition metadata and related-work reading records; unchanged v0.2.1 evidence cases.
+- `sources.json` — v0.3.3 edition metadata and related-work reading records; unchanged v0.2.1 evidence cases.
 
 ## Edition continuity
 
-The exact v0.3.1 predecessor is `research/history/repository-current-v0.3.1-2026-10-07/`, registered in `research/source-manifest.json`. CHANGELOG change `RRG-2026-10-07-V032-FORCES-RATIONALE` owns the §4.5 record (problem, before/after meaning, support, permission, affected claims/dependents and actual-check pointer). Earlier v0.3/v0.2.1 provenance remains preserved. The resulting full inventory seal is recorded outside this manifest in `config/research-source.json` and its linked revision record, avoiding a self-referential hash.
+The exact v0.3.2 predecessor is `research/history/repository-current-v0.3.2-2026-10-07/`, registered in `research/source-manifest.json`. CHANGELOG change `RRG-2026-10-07-V033-FORCES-BY-SCALE` owns the §4.5 record (problem, before/after meaning, support, permission, affected claims/dependents and actual-check pointer). Earlier v0.3/v0.2.1 provenance remains preserved. The resulting full inventory seal is recorded outside this manifest in `config/research-source.json` and its linked revision record, avoiding a self-referential hash.
 
 
 ## Supporting bundled material

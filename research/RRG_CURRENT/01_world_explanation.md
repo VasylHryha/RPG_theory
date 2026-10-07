@@ -1,6 +1,6 @@
-# RRG v0.3.2 — World Explanation
+# RRG v0.3.3 — World Explanation
 
-**Forces-rationale edition · 2026-10-07 · Vasyl Hryha**
+**Forces-by-scale edition · 2026-10-07 · Vasyl Hryha**
 
 > **NON-NORMATIVE:** examples explain the locked core; they do not define it. See `00_LOCKED_CORE.md`.
 
@@ -271,6 +271,8 @@ At the broad scales discussed here, the strong interaction does most of the hold
 **Inner resonance** names the compatible activity within a thing that keeps it organized as itself. **Outer resonance** names compatible coupling with other things and their shared surroundings. The same system can have both. Inner resonance is not an extra holding force, and outer resonance need not mean identical frequencies or phases. These terms explain the core's full mode/coupling language; they add no new normative definitions.
 
 Gravity supplies astronomical gathering and holding. RRG has not derived gravity from rhythm. Whether any of the four fundamental interactions are themselves forms of a deeper resonance is open (core §10; 02 §§11–12). The force-fit proposal is not a claim that all attraction is ordinary resonant excitation.
+
+**The four forces, by scale.** Physics already knows that each fundamental force dominates a different range of sizes: the weak interaction transforms the smallest building blocks, for example turning a neutron into a proton; the strong interaction holds nuclei; electromagnetism holds atoms, chemistry and life; gravity gathers stars and galaxies. These are dominance bands, not exclusive territories: electromagnetism and gravity reach indefinitely, and the strong interaction also acts inside protons and neutrons. RRG reads this as the same pattern it describes everywhere: each level of organization supplies the building blocks for the next. In that reading the weak interaction is a transformer rather than a holder: larger-scale conditions, such as the interior of a star, make its changes happen more or less often. The author did not design RRG around the four forces; the correspondence was noticed afterwards. That makes it an encouraging fit, but not a test: this is established physics that RRG fits, not evidence for RRG. An open question is whether RRG can predict something new from this hierarchy that could turn out wrong.
 
 Existing E01, E07, E18 and E19 in [06](06_evidence_catalog.md) show particular coupling or field–matter links under supplied conditions. They do not establish this universal proposal. See [08 H24–H25, O9](08_claim_coverage.md).
 

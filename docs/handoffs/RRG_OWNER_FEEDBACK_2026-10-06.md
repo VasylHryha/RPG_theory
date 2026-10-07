@@ -1116,3 +1116,24 @@ the generated list sits above. Reworded.
   fast focused checks; then commit, push, CI, publish, live checks.
 
 ## 25. Deployed (7 Oct 2026): main `4f03ef1`, release `site-2026.10.07-v032`; routine CI 37596453730 and publish 37597072770 passed. Live: home, World explanation (new §7.3 paragraph), Foundation errata (three superseded downloads, bytes exact), Recursive background note, all 200; unknown route 404. Next: forces-by-scale wording (§23) for owner yes.
+
+## 26. Forces-by-scale box — doing it now (7 Oct 2026)
+
+- **Owner:** "i expect you to do it already? now you will change few lines and
+  run all tests again or what?" Claude misread "yes overall good" (§23) as plan
+  approval only; it approved the shown wording.
+- **Now:** one combined Codex pass (source v0.3.3 + fidelity + selection, no
+  separate recheck), one smoke run, publish, live checks.
+  Brief: `RRG_V033_FORCES_BY_SCALE_BRIEF_2026-10-07.md`.
+
+## 27. Automate edition bookkeeping (7 Oct 2026) — approved, after v0.3.3
+
+- **Owner:** "why don't we make it automatic - provide some script ... and keep
+  it and do not do it manually". One paragraph currently touches ~43 files and
+  stales all 84 fidelity decisions; helpers are re-copied per release into
+  ignored evidence folders.
+- **Plan:** one permanent `npm run edition` in `scripts/` built from the
+  existing helpers: preserve history, bump edition/stamps/hashes/changelog,
+  auto-record metadata-only fidelity deltas, list real content deltas for
+  reading, fast checks, release selection, print force-add list. Validators and
+  rules unchanged. Dry-run against v0.3.3 to confirm parity.

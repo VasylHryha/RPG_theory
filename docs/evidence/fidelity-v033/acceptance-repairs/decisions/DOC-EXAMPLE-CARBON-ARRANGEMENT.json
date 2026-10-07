@@ -1,0 +1,234 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-CARBON-ARRANGEMENT",
+  "fingerprint": "a988d534d2cb3d6c8aad7603268ab64a1253dfabaa246d09390905507decc587",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:35:05.037Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-CARBON-ARRANGEMENT.json, SHA-256 4deb79e5dc5db62cc27cab7a1bdfdcadbbe852050f1ff74cf5e9c7edf71f5ac0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "a988d534d2cb3d6c8aad7603268ab64a1253dfabaa246d09390905507decc587",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-CARBON-ARRANGEMENT",
+      "route": "/examples/carbon-arrangement/",
+      "title": "Same atoms, different arrangement",
+      "description": "Carbon shows why knowing the ingredients is only part of knowing what a whole will do.",
+      "revision": 7,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-CONCEPT-GEOMETRY",
+        "DOC-CORE",
+        "DOC-EXAMPLE-STAR",
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D07"
+      ],
+      "related": [
+        "DOC-EXAMPLE-MOLECULE",
+        "DOC-EXAMPLE-FIRST-STRUCTURES"
+      ],
+      "bibRefs": [
+        "BIB-0093"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Source-mapped illustration of variation through arrangement, with supplementary diamond–graphite background and no quantitative RRG prediction.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nDiamond and graphite are both pure carbon, but their atoms are arranged differently. In diamond, each atom bonds to four neighbours in a rigid three-dimensional network, so it is very hard. In graphite, the atoms form layers, so it is soft and slippery and conducts electricity. [OpenStax explains the contrast](/references/#BIB-0093).\n\nThe same distinction matters for molecules. Keep the kinds and numbers of atoms the same, but change which atoms connect or how they sit in three-dimensional space. The resulting molecules can behave differently.\n\nAn inventory tells us what is present. The connections and arrangement tell us how those ingredients form this particular whole.\n\n## How RRG reads it\n\nRRG calls these relationships [geometry](/glossary/#geometry-shape). The word includes how parts connect and constrain one another, beyond the visible outline. A different arrangement changes which patterns of activity the whole can support. RRG calls this organized activity and response its [mode structure](/glossary/#mode).\n\n**Geometry** concerns the arrangement; **Resonant** concerns the activity it supports. In RRG’s reading, the identity of a whole depends on its components, their relationships and their activity together. The parts remain active inside the whole.\n\n## What you can see here\n\nThe main lesson is **variation**: the same lower pieces can participate in different higher wholes. Reusing the ingredients does not require repeating the arrangement or the behaviour. The [core’s variation definition](/claims/UT-D07/) makes room for those differences without adding another rule.\n\nThis shows the [building-block](/glossary/#building-block) role. Atoms participate in a larger organization, and the relationships between them matter to what that organization becomes. The **Recursive** question then follows: which of those wholes can remain intact and participate in something larger?\n\nChanging the surroundings is a separate role. This example follows arrangement within a whole; it does not by itself show that the whole creates conditions for another one to form.\n\n## Where the interpretation stops\n\nThis is RRG’s organizational reading of a chemical distinction. Predicting a particular material’s properties still needs its actual arrangement, interactions and conditions. The diamond–graphite contrast illustrates the source’s general point; it is not a quantitative RRG prediction.\n\n## Evidence and sources\n\nThe [world explanation’s arrangement section](/documents/world-explanation/#5-the-same-lower-pieces-can-create-different-higher-objects) supplies this example. [Geometry and modes](/concepts/geometry-and-modes/) explains the terms.\n\nNext on the ladder, [a star changes the conditions for new reactions](/examples/star/).\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3.2 01 §5: carbon atoms forming different materials through arrangement, and molecular composition versus connectivity/3D arrangement and behaviour; §§1, 4: full activity, collective organization and internally active parts; §7.1: separate building-block and environmental roles. Unchanged core §§1–3, 5–6: relational geometry, modes, higher-level formation and variation. BIB-0093 supplies the supplementary diamond–graphite comparison: pure carbon, diamond’s four-neighbour three-dimensional network and hardness, and graphite’s layers, softness, slipperiness and electrical conduction. No named molecule, quantitative property or additional chemical mechanism is asserted; this background does not establish universal RRG.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "6fa730491f95ba9644202b22ab4d25bff730c17d4a4c182ec4ca394d4c9e1150"
+      },
+      {
+        "entryId": "DOC-CONCEPT-GEOMETRY",
+        "semanticDigest": "aeb3a9745eb072f4c716504317998c3900ca2d32e722547e55795c413885a9b0"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "2a46517ccf47d2183005c3f644d1d7b5e46b417458c3bfc6a500d7a1acde23a7"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-CELL",
+        "semanticDigest": "4214f2d4ba40c88894e4a21cb8e8b4d2d82fbf7023f8f42c50e33ea4e96bac62"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "f04895fcfa309e136c043e675f47c9e2633e9b06fd44092bec819a151564851f"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STAR",
+        "semanticDigest": "9084d504d45a15c01668fe910f2ad61b536acf5691a02b78befe65ef41475d77"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STRING",
+        "semanticDigest": "55fd2c58a8e4b87d54f72ec5580c07f3583bf6b6c0ac7bec9ba3a93511be22fe"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "7d31c5f7fea700b3422a042ffb9581fefd944ec32ba03dd3ab1d9784ba80cee9"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "a996e25506cc595f5c950dca990be9db106dcccf60fd2638c35a82e29447cb5b"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "a4b60495638bc66627ebc23dda4f5b4e434523539add301d976a1c976d7699b5"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "2bb388ae40b7da321f729ec05ff84edc18c44e6256ccbe2af0790ccb56c04058"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "d93c2089e3060a981d4767124aad0ac8757cf6791d9e3517446f8ac77715a276"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "110ec530b52c44daf53573fc0605f6e6b95fd046e882fffe4403582c0e5b27b7"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "bf461e1cf44d99dbab9e0441f80c9eb5f0bf4efb456de9236d906fa9f818bcee"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "4370a52a3ebd943ee0465b3b48297f94fb5e281461252d61c706346a6193d1cf"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "785da369c4e4f8ccb98897664427fd8c5d94eebdfeb0ee73083178cb6a91337a"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "93227825a37216832ffaea75e9fbc5a1787ada4ba838aef152bc0e20fd62ef7e"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "a3ae014e4d3a89084c6e7d55591aab66cd3b00960109e0359ef3b7e2412643ca"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d8e65ae6587f8411df9ebc9b7cc48f06c23ad89782aed9c3d547bdd0ab364a65"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "0fb26312d6542772e6512bdf79dcd565e37a2cfd60692df65b0e48889e7b4cb1"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "75c914f860d081524ad1c3d3a2c06ab9fc0ec88016be51e4ff6c2d64bef5117a"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "beb7f3a2b17446d59baf36edc4a41aadda89302d33050702e2b1a94ac22b897c"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "d589a1172581777c02968351b1d0d7c14c37dfd09f2fcd133357e4504ff97189",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "fc103ca5a8cdaa2bbea9ffe0b49201f28cac793d86af0e03c00a7f2b111d64c4",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-CARBON-ARRANGEMENT.json, SHA-256 4deb79e5dc5db62cc27cab7a1bdfdcadbbe852050f1ff74cf5e9c7edf71f5ac0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-CARBON-ARRANGEMENT.json, SHA-256 4deb79e5dc5db62cc27cab7a1bdfdcadbbe852050f1ff74cf5e9c7edf71f5ac0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-CARBON-ARRANGEMENT.json, SHA-256 4deb79e5dc5db62cc27cab7a1bdfdcadbbe852050f1ff74cf5e9c7edf71f5ac0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-CARBON-ARRANGEMENT.json, SHA-256 4deb79e5dc5db62cc27cab7a1bdfdcadbbe852050f1ff74cf5e9c7edf71f5ac0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-CARBON-ARRANGEMENT.json, SHA-256 4deb79e5dc5db62cc27cab7a1bdfdcadbbe852050f1ff74cf5e9c7edf71f5ac0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-CARBON-ARRANGEMENT.json, SHA-256 4deb79e5dc5db62cc27cab7a1bdfdcadbbe852050f1ff74cf5e9c7edf71f5ac0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-CARBON-ARRANGEMENT.json, SHA-256 4deb79e5dc5db62cc27cab7a1bdfdcadbbe852050f1ff74cf5e9c7edf71f5ac0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.3 comparison: docs/evidence/fidelity-v033/decisions/DOC-EXAMPLE-CARBON-ARRANGEMENT.json, SHA-256 4deb79e5dc5db62cc27cab7a1bdfdcadbbe852050f1ff74cf5e9c7edf71f5ac0. Reused only for unchanged scientific material; the two World header/spacing repairs and their exact binding/dependency deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.3 scientific comparison is reused: only the World source header, spacing and exact source/excerpt identity changed. Inspected v0.3.3 fields: none; changed source identities: R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

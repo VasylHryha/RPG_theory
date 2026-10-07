@@ -1,0 +1,368 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-STATUS",
+  "fingerprint": "49bf0b5db58ec9705e09f7a776c642ecd670f8942358515b705c97ec5818a713",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:17:28.087Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-STATUS.json, SHA-256 25176559ff8229edafa44079fad1e8bac18d0096c88a3191ba76cc9a1c379bad. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "49bf0b5db58ec9705e09f7a776c642ecd670f8942358515b705c97ec5818a713",
+    "ownRead": {
+      "id": "DOC-STATUS",
+      "route": "/research-status/",
+      "title": "Research status: what would change confidence?",
+      "description": "Current claims, local evidence, missing causal links and practical ways to investigate the proposal.",
+      "revision": 14,
+      "kind": "research-status",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-AUDIT",
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON",
+        "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "R-CURRENT-CORE",
+        "R-CURRENT-REGISTER"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND",
+        "DOC-CATALOGUE",
+        "DOC-CLAIM-COVERAGE",
+        "DOC-CORE",
+        "UT-C02",
+        "UT-D01",
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-AUDIT",
+        "sourceSha256": "222487df50faa457b85d5748a846f728f2c4fd9845b4a33ffac181d6e45ebfa7",
+        "startLine": 3,
+        "endLine": 108,
+        "excerptSha256": "dfc4854e9e208eb183672940dfd4e2cf55205a58a446124bb1597898aa138ac0"
+      },
+      "statement": "**RRG v0.2.1 · 2 October 2026**\n\n## Verdict\n\nThe previous package was not yet at the requested quality level. Its weaknesses were substantive: inconsistent project priorities, mixed evidence categories, several inflated mathematical interpretations, a conflation of physical background formation with coarse-graining, and incomplete source provenance. Adding more pages or references would not fix those issues.\n\nThe revised package preserves the author’s source-direction idea and broader hypotheses. It makes the immediate publication an explanation plus an evidence map, with optional mathematics and open invitations. No numerical quality score is offered as though it were independent assessment; the checks and remaining limitations are listed below.\n\n## Scope of the audit\n\nThe current 04, 05 and 06 were inspected and revised. The original README and foundation files 01–03 were retrieved and checked for definition continuity and major conflicts, not fully source-audited. Twenty-two primary case records were assembled or rechecked at the read depth specified in each card, with three separate further-reading records. Selected small calculations were checked with a deterministic script. The earlier research ZIPs were inspected for readable contents and archive integrity, but their simulations were not rerun.\n\nThe audit is not independent peer review, a systematic literature search, a full reproduction of paper methods or a retraction-database clearance. Some findings are verified at original-abstract level. That is adequate for the deliberately narrow abstract-level summaries, not for claims about experimental robustness that require the full methods and data.\n\n## 1. Project direction and fidelity\n\n| Finding | Consequence | Repair |\n|---|---|---|\n| 04 §40 and 05’s structure kept universal proof as the next mandatory task | Contradicted the user’s explicit publication-and-evidence-first plan | README, 04 §40 and 05 now make mathematics optional; existing examples need not be rediscovered. |\n| Earlier revisions had reduced a long discussion to only background recursion | Risked losing persistence, competition, life, engineering and cosmological conjectures | Retained the full 04 and added 08 with 23 session-coverage entries. |\n| Same abstract process and same mathematical equation family were treated as one claim | Quietly narrowed or replaced the author’s idea | Distinguished the core interpretation from stronger possible formalizations. |\n| Older snapshots contained priorities inconsistent with current companions | Readers could treat incompatible files as simultaneously authoritative | Current README defines reading order; unchanged 01–03 live under `foundations/`, with explicit errata. |\n| Prior claims about persistent/project saves exceeded what the current artifacts establish | Could create false confidence that the online source had changed | Deliver a versioned conversation package; no claim of external overwrite or publication. |\n\n## 2. Conceptual and evidential corrections\n\n| Finding | Why it matters | Repair |\n|---|---|---|\n| Physical background change and mathematical coarse-graining were merged | Changing a description alone is not the creation of a new physical level | 04 §11 and §24 explicitly separate physical evolution from reduction. |\n| “White noise” could be read as a literally featureless source without dynamics | Noise statistics alone do not specify forces, stability or energy exchange | Retain noise-like starting intuition, distinguish correlated effective backgrounds, and state what models assume. |\n| Stationary spatial modes and temporal resonators were blurred | A patterned equilibrium does not by itself establish oscillatory self-maintenance | Corrected 04 definitions, 05 and E05. |\n| A higher level was described as adding new degrees of freedom without qualification | Effective coordinates and accessible configurations differ from microscopic dimensionality | Qualified the possibility-space discussion; monotonic growth remains an open conjecture. |\n| “Previous level already created what it can” suggested complete exhaustion | A later organization need not wait for all possibilities at an earlier level | Retained the intuition as conditional accessibility, with coexistence and branching allowed. |\n| Lifetime, resonance strength, influence and spatial dominance were too easily combined | Long-lived weakly coupled states need not spread; strong drive can destabilize | Added loss/saturation/coherence qualifications and comparison cases E17/E22. |\n| Repetition, entrainment, domain growth, replication and hierarchy were merged in the conversation | Success at one operation does not establish the next | Current claim map separates them. |\n| “Every arrow has evidence” suggested a demonstrated composed chain | Different mechanisms in different systems may not causally concatenate | Catalogue states what each case demonstrates and what full sequence is still missing. |\n| “No separate growth law” could be read as “no assumptions or dynamics needed” | Positive feedback can be built into chosen couplings | Every case says what was supplied; 05 separates inserted laws from results. |\n| Cosmic expansion and engineered “new laws” were rhetorically close to demonstrated results | Domain growth is not metric expansion; effective control is not arbitrary law replacement | Preserve both as open conjectures with narrower established components. |\n\n## 3. Mathematics: specific corrections\n\nThe previous note contained valid pieces of algebra, but their interpretation was too strong. These are the main repairs, not a claim that all possible future models have been checked.\n\n**Finite-domain spectrum.** The maximum of \\(r-(q^2-k^2)^2\\) equals \\(r\\) only if the relevant domain permits \\(|k|=q\\), or wavenumbers are continuous. A finite domain may exclude that value. Current 05 states the discrete maximum and the resulting shifted threshold.\n\n**Spatial pattern versus oscillator.** The real first-order Swift–Hohenberg-type example does not establish a temporal resonator merely by having a stable spatial pattern or a nonzero scalar fixed point. The current note treats these as pattern/order-parameter examples.\n\n**Signed coordinate versus radius.** Old 05 introduced a nonnegative radius \\(a=|A|\\), then used signed additive-noise formulas. The revision uses an explicitly signed scalar and records why a complex-amplitude radius needs an Itô and measure correction. Its bistable-range branch algebra is retained with its proper scope.\n\n**Noise and permanence.** Noise can permit barrier crossing into and out of a basin. A stationary probability density is not a proof of permanently maintained organization. Finite-noise lifetimes require a specified stochastic problem.\n\n**Background response.** \\(\\Delta B=\\rho I_*\\) was conditional on constant intensity. With feedback \\(I_*(B)\\), the fixed point is implicit and can be unstable. The updated note gives the appropriate derivative for a one-variable adiabatic reduction and warns that a coupled model needs its own stability analysis.\n\n**Mode “creation.”** Negative linear growth means damping, not nonexistence. Crossing zero means instability, not proof that a stable new resonator appears. The next channel and its background sensitivity had been inserted into the example; the rewrite says so.\n\n**Scale growth.** Choosing decreasing \\(q(B)\\) builds increasing preferred wavelength into the example. The old repeated-level growth plot is an assumption-driven illustration, not evidence that eight levels arose automatically. Wavelength is not the cosmological scale factor.\n\n**Error bounds.** The old failure criteria treated an exponentially growing upper bound as making predictions meaningless. An upper bound does not establish actual error growth. Even zero error satisfies the assumed recurrence for \\(K>1\\). Conversely, a contracting bound is sufficient under its assumptions, not evidence that a real system satisfies them. The recurrence itself needs controlled reduction maps and comparable norms.\n\n**Action notation.** The foundations and 04 compressed stationary action, potential energy, force and spectra into a common notation. For a general dynamical action that is not automatically valid. Current 04 requires a specified variational or dynamical setting; the foundation snapshot is retained with explicit errata.\n\nThese fixes are in current 05, rather than hidden in a footnote that leaves the old “proof” claims in the public reading path.\n\n## 4. Source verification and classification\n\nThe A/B/C/D system mixed result type and interpretation. The replacement is two-dimensional: **experiment/simulation/theory** and **component/bridge/analogy/constraint**. Claims still open are not classified as evidence.\n\nConcrete source repairs include:\n\n| Earlier problem | Current disposition |\n|---|---|\n| Noise-order review had incomplete or incorrect author attribution | F01 records Sagués, Sancho and García-Ojalvo, DOI 10.1103/RevModPhys.79.829. It is orientation, not another independent experiment. |\n| Self-organized resonance could be read as a laboratory result | E09 explicitly identifies the reacting-particle study as a simulation. |\n| Engineered control in Chladni manipulation and colloidal swarmalators was understated | E02 and E08 specify the apparatus and feedback/control supplied. |\n| General micro/nano manipulation was supported by loosely matched broad reviews | E03 uses a primary microparticle experiment and does not promote it to a nanoscale result. |\n| A nonresonating-grain experiment was grouped as a resonant-mode demonstration | E22 is now a comparator/constraint. Its actual apparatus is part of the finding. |\n| Kedia’s preprint and journal title were not cleanly distinguished | E17 links the 2019 preprint lineage to the 2023 journal paper; it is one study, not two confirmations. The journal report also includes experimental evidence, not separately method-audited here. |\n| An RNA source had an update notice | E13 records the publisher’s 31 October 2012 minor Figure 1 correction; no summary depends on that figure. |\n| Recent mathematics was treated too broadly | E21 states its assumed heterogeneous equation and near-onset scope. F03 records its future issue date separately from current online availability and its noise-regularity assumptions. |\n| Chen & Cory 2026 lacked sufficient bibliographic detail | The article was verified, not labelled fabricated: DOI 10.1103/j65l-f8lf. It remains optional theory reading (F02). |\n\nNot every older bibliography entry is repeated as an active source. Review-led entries were often replaced by primary examples for the same theme; the original lists remain in the archive. Omission from the active shortlist does not mean an older source is false. Detailed unverified legacy claims are not silently carried forward as checked facts.\n\n## 5. Additional useful cases\n\nFive new primary cards extend the 17-topic catalogue: E18 optical binding, E19 controlled random-light interactions, E20 self-replicating granular bands, E21 a controlled slow-amplitude mathematical description, and E22 nonresonant vibrational transport as a constraint. They add coverage, not five confirmations of the universal theory.\n\nE19 is particularly relevant to the fluctuating-background intuition, but already contains particles and an externally generated optical field. E20 links vibration, organization and duplication in one material system, but not unlimited hierarchical levels. These qualifications strengthen the usefulness of the examples rather than erase the connection.\n\nThe report’s empirical statements are traceable to the DOI-linked case cards in [06](06_evidence_catalog.md) and the machine-readable [source register](sources.json).\n\n## 6. Checks actually run\n\nNine deterministic groups in [checks/verify_small_results.py](checks/verify_small_results.py) pass. They check the limited calculations recorded in [verification_results.json](checks/verification_results.json), not the correctness of a universal theory.\n\nThe original numerical ZIPs have readable contents and passed ZIP integrity checks. The 05 document inside the earlier mathematics ZIP matches the mounted original. No claim is made that the earlier 32-cell results, convergence checks or literature references were independently rerun.\n\nThe release includes a source-ID/DOI duplicate check, active local-link checks, selected Markdown/LaTeX delimiter checks, original-file hash comparisons and a manifest. Results are in [package validation](checks/package_validation.json). Syntax and hashes are quality controls, not scientific validation.\n\n## 7. Remaining gaps and publication boundary\n\nThe full source-to-repeated-level causal sequence is not established by this evidence map. No unique novelty claim, fundamental-force derivation, cosmological mechanism, AI benefit or arbitrary engineered rule set has been verified. Some primary papers were checked through their original abstracts rather than full methods. The foundations’ broader physics bibliography has not been comprehensively refreshed. Videos were not watched and datasets were not reanalysed.\n\nThose limits do not block publishing a clearly labelled hypothesis. They do block presenting it as a verified universal theory or the catalogue as an exhaustive review. Author attribution and publication licences also remain project decisions; no external website or repository was created or modified.\n\n**The improvement is a more faithful and inspectable publication package—not an invented numerical score and not a claim that uncertainty has disappeared.**\n",
+      "plainLanguage": "## What RRG currently claims\n\nThe minimal locked core describes organization and mode structure together, including persistence, effective units and recursion. The current companion centres how organization can reshape the background available for later organization. A universal law or one equation family across all scales is a stronger open extension, not a completed result.\n\n## What existing evidence supports\n\nThe [evidence guide](/evidence/) separates local component mechanisms, partial bridges, comparisons and methods. The audited catalogue contains 22 cases; supplementary literature enriches the reading map without changing that membership. The apparatus, drives and assumptions of each case matter.\n\n## What remains unverified\n\nA connected source-to-repeated-level causal construction; the same principle across multiple levels with specified dynamics; a distinctive quantitative prediction; fundamental unification; cosmology; arbitrary engineered laws; and an RRG-specific AI result. Physical background change and mathematical coarse-graining are different operations.\n\n## What would change confidence?\n\n**Strengthen a specified model:** connected causal stages, repeated levels, quantitative predictions and independent tests under stated conditions.\n\n**Weaken a specified model:** failed predictions, a counterexample to its precise universal statement, no meaningful exclusions, or alternatives explaining its claimed distinctive predictions equally well. These are routes for investigation, not a new website evidence score.\n\n## What can contributors work on now?\n\nAn evidence case, model, simulation, prediction, counterexample, mathematical derivation or source correction—with assumptions and limits stated. [Read questions critics ask](/questions/), [explore possible uses](/uses/), [explore the open questions](/open-problems/), or [contact the maintainer](/about/).\n\n## Read the original audit\n\nThe exact source-reported audit follows below. Its scientific checks are attributed to the supplied 2 October 2026 document; this website did not reproduce the studies or independently certify a universal theory. Its dated statement about pending attribution, licences and external publication describes that source-package stage. The first public website edition was author-authorized and released on 6 October 2026; current website identity and rights are recorded on [Cite](/cite/) and [Rights](/legal/).\n",
+      "scope": "Research status reported by the supplied documents, with explicit extension boundaries.",
+      "evidenceState": "not-applicable",
+      "body": "## Continue reading\n\n- [Claims and their boundaries](/research-status/claims/)\n- [Current evidence catalogue](/evidence/catalogue/)\n- [Optional mathematical illustrations](/math/illustrations/)\n",
+      "sourceMapping": "07_audit_report.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "6fa730491f95ba9644202b22ab4d25bff730c17d4a4c182ec4ca394d4c9e1150"
+      },
+      {
+        "entryId": "DOC-CATALOGUE",
+        "semanticDigest": "2bc09030427f0050f8704266d5d27da028340070a91d06d9a11f166d11cb9ead"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "a19381ff06410fc0730150773474bca2619f65d4fd5372adcf7f529cf2f567eb"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "ce5a4b8e0a4aabf674db4de1c7d6620f0a03e8858129873d4dc1a0abd00b463e"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "2a46517ccf47d2183005c3f644d1d7b5e46b417458c3bfc6a500d7a1acde23a7"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "db56784194808d55b1de4caa486175abae03a656004d15b55be9df40a8d6aaea"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "84d4b29eda0edd538639e557ef069cd73848bd401d8ee0dcf924d41c96da3a36"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "b5b353ca8fb6e22ab52c834c17b3c57b57bb0805dda5c9acf13a992dbbd3a34f"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "d93c2089e3060a981d4767124aad0ac8757cf6791d9e3517446f8ac77715a276"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "110ec530b52c44daf53573fc0605f6e6b95fd046e882fffe4403582c0e5b27b7"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "bf461e1cf44d99dbab9e0441f80c9eb5f0bf4efb456de9236d906fa9f818bcee"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "4370a52a3ebd943ee0465b3b48297f94fb5e281461252d61c706346a6193d1cf"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "93227825a37216832ffaea75e9fbc5a1787ada4ba838aef152bc0e20fd62ef7e"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "a3ae014e4d3a89084c6e7d55591aab66cd3b00960109e0359ef3b7e2412643ca"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "d8e65ae6587f8411df9ebc9b7cc48f06c23ad89782aed9c3d547bdd0ab364a65"
+      },
+      {
+        "entryId": "UT-E101",
+        "semanticDigest": "41c9d92cd681d3477a8b7ea338ce896aea25eba12424d749693f824317a422d3"
+      },
+      {
+        "entryId": "UT-E102",
+        "semanticDigest": "429cac8cd4e40491b40b1aca9185ac928b06de16e40bdd799e6d827d6797d360"
+      },
+      {
+        "entryId": "UT-E103",
+        "semanticDigest": "c2d27ebc6d4f548b3e13e9aaf2f41eab2ef198e653ecf2bcdd9c58ba4c7b7dd8"
+      },
+      {
+        "entryId": "UT-E104",
+        "semanticDigest": "afd703fd7e530c911ed4891eb7a13f172b251b8a2de588eb7468ca657f29c888"
+      },
+      {
+        "entryId": "UT-E105",
+        "semanticDigest": "fe2dc007517bcf9f4ee90845e0d83f531e26982ec32122eee77c5a7b39f383a1"
+      },
+      {
+        "entryId": "UT-E106",
+        "semanticDigest": "6e2f1b8f531462f3354be9c7059fcf174b8c80ece5989fba9827e2442f99e279"
+      },
+      {
+        "entryId": "UT-E107",
+        "semanticDigest": "6a457b8aed0c94e3a6a61b24ebbe95c94b8e874e8d8e508c17e91f630497a8c7"
+      },
+      {
+        "entryId": "UT-E108",
+        "semanticDigest": "0931fd05aa616c1d808ef06a3b04f393f838272f0e224beb37ab25a1679aab67"
+      },
+      {
+        "entryId": "UT-E109",
+        "semanticDigest": "3d45ba2d9e7af0f9f1f5a76c68e24f1fddf74b15b5ec37dd1c2e52ccfc66c0bd"
+      },
+      {
+        "entryId": "UT-E110",
+        "semanticDigest": "e5c683002564b933633f9ceedf2be045c1e042e69085bf314d537df615141e47"
+      },
+      {
+        "entryId": "UT-E111",
+        "semanticDigest": "c349fe24e088d6962dde1c891e80ad9a9a4bfc1fbefa364ffbeb0dbf00c91daf"
+      },
+      {
+        "entryId": "UT-E112",
+        "semanticDigest": "a5451722cfa79a9456eda0e4715fd4eff89d7957f80f9eefe76fb8eb57873e9e"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "38f4f2ce8e01bc924ec18ef059c71b45510a4f018ec0c04926ab2474491150f6"
+      },
+      {
+        "entryId": "UT-E114",
+        "semanticDigest": "656cc795f662ccd19bbee118c74cd12ed99fcd739812d802dda85da8e015957f"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "ec61144a1b17ac05f5beb0ee0a1a7f399bf5ab785442114bc6f877dab50df139"
+      },
+      {
+        "entryId": "UT-E116",
+        "semanticDigest": "695af9cd32355c8bff4226d818450fc028e0efe301fb3cceb407a9c46163275d"
+      },
+      {
+        "entryId": "UT-E117",
+        "semanticDigest": "2adb7d17e9dc2fb407e65785f022d6c3f714cd078d0e3ac71ed47a9bcc4110e3"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "8cc7905caf904e2c529095b24fe2d9f64f7390204d5a0368d86b0ced05525c8d"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "d8f42875896f9e7ed224e354b689d3170393ac0f21269a103016f901ce694a35"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "0b7818bc4a68b9809d87803db9b8882c7fc0a5d2f7e110e2eb72b1258a354c36"
+      },
+      {
+        "entryId": "UT-E121",
+        "semanticDigest": "ec204543da0d576f16b77ff07d46295c88e6ede97dbe2423ead6108099b919da"
+      },
+      {
+        "entryId": "UT-E122",
+        "semanticDigest": "3a1339107de82c5d565dac4299b3edaba5538a06925be16ca6251cfb958f0f27"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "94148f083c4b60bda986383b0f2cb86fc00087d78b42b10106105b47463793ee"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "8d5145f7fa41716260c3fd4015b545f01de78f223951415da228ea408395d7da"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "7020a88f3b01730b6cf0836b98234afb451c321f9fd071149f464db227152bfc"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "12980ee5c45dcacef538e92d557396f50e949bde29a824fc4299a7664811db2e"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "2142cdbc80c569e4b5fb6a054ddb1007312681c1bad05c24ab2293da5dcce134"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "dc8c64c29a9598b4ab6079a7d90cda688aa818bd7ae9cf5342d9847be0b208e7"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "dea217978151c6fe05549192e814ff5c1bead8ea90654ea9b3e9887e836b4a27"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "e2ca830137658c0152e3690f27e8d5f46ad27bb92c2b284df50ba868f6782660"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-AUDIT",
+        "path": "research/RRG_CURRENT/07_audit_report.md",
+        "sha256": "222487df50faa457b85d5748a846f728f2c4fd9845b4a33ffac181d6e45ebfa7"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-PACKAGE-VALIDATION-JSON",
+        "path": "research/RRG_CURRENT/checks/package_validation.json",
+        "sha256": "08119204887af30f804c7b8a6a7031a90f5be43ce8ba03f68601b72f75136353"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD",
+        "path": "research/RRG_CURRENT/foundations/01_world_explanation.md",
+        "sha256": "a3c4f376d4a81bf8fc158d3c786c92e5c88b454aeead88173c4139420f4bbddb"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD",
+        "path": "research/RRG_CURRENT/foundations/02_scientific_framework.md",
+        "sha256": "269b6e4bd7c76e15f19f4c0ff752276ba2a1de76e0b84294516d2d3ef8c998c5"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD",
+        "path": "research/RRG_CURRENT/foundations/03_mathematical_core.md",
+        "sha256": "57d1aaa129d7edb780b83886b8b8ede40f7b30cf77a2d6b1f400c651ad1f92e4"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "65929e4811c2ba1888683dc3225bf16077a54cfea9e8f9b69fb7ed060d7af400"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "e1a9f3aeee7a4c8a4b31a386d56fbf3e64df2e878273dc0ad24fed5f35d10cd2"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "0dd3b875162f514ca206961214c3b33c1db326911bf8de7309915682b0021caf",
+        "plainLanguageSha256": "8fc4235f1164ec29097033769f66e4a52b33003614e3c50dfa3b8191edbe2aee",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "89accb4de5e0b21c1e0cfefb245ed15be20044fb49eeefa935c36a60efa8ac23",
+        "plainLanguageSha256": "e3c5841ec81e2fe20000053ec61c9d069d00342b21dd2d96b32ccacedf023f00",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-STATUS.json, SHA-256 25176559ff8229edafa44079fad1e8bac18d0096c88a3191ba76cc9a1c379bad. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-STATUS.json, SHA-256 25176559ff8229edafa44079fad1e8bac18d0096c88a3191ba76cc9a1c379bad. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-STATUS.json, SHA-256 25176559ff8229edafa44079fad1e8bac18d0096c88a3191ba76cc9a1c379bad. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-STATUS.json, SHA-256 25176559ff8229edafa44079fad1e8bac18d0096c88a3191ba76cc9a1c379bad. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-STATUS.json, SHA-256 25176559ff8229edafa44079fad1e8bac18d0096c88a3191ba76cc9a1c379bad. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-STATUS.json, SHA-256 25176559ff8229edafa44079fad1e8bac18d0096c88a3191ba76cc9a1c379bad. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-STATUS.json, SHA-256 25176559ff8229edafa44079fad1e8bac18d0096c88a3191ba76cc9a1c379bad. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-STATUS.json, SHA-256 25176559ff8229edafa44079fad1e8bac18d0096c88a3191ba76cc9a1c379bad. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: revision, researchEdition; changed source identities: R-CURRENT-REGISTER. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-FOUNDATION-ERRATA",
+  "fingerprint": "bacd5420b240a9b69aa6886b94efe6725d0a5c4980218a9ae27687d45dc4ab36",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T09:17:28.087Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-FOUNDATION-ERRATA.json, SHA-256 c48f3d349b467676473f1633b458c364700ab92f9a4f03037dcce8f56dc8f465. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Inspected v0.3.3 fields: researchEdition, body; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "bacd5420b240a9b69aa6886b94efe6725d0a5c4980218a9ae27687d45dc4ab36",
+    "ownRead": {
+      "id": "DOC-FOUNDATION-ERRATA",
+      "route": "/documents/foundation-errata/",
+      "title": "Errata for older foundation snapshots",
+      "description": "Compatibility notes for the older bundled foundation snapshots. They are source-reported notes, not changes to the carried-forward repository core or an independent mathematical review.",
+      "revision": 7,
+      "kind": "library",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3.3 — forces by scale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD",
+        "R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD",
+        "R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD"
+      ],
+      "dependsOn": [],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "sourceSha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f",
+        "startLine": 3,
+        "endLine": 18,
+        "excerptSha256": "884c6d44cc9e5cec49ebc39bf263d680e61a59633fd5f5b3edd4aa999a588cce"
+      },
+      "statement": "**2 October 2026 · accompanies RRG v0.2.1**\n\nFiles 01–03 in this folder are preserved byte-for-byte from the retrieved foundation snapshots. They are historical sources of terminology, not a newly recertified evidence publication. This note records known compatibility issues without silently rewriting them.\n\n| Location | Issue | Current treatment |\n|---|---|---|\n| 01–03: geometry and mode definitions | Core definitions need continuity | Retain \\(R=(G,M)\\) and full mode structure, not scalar frequency alone. |\n| 02 §23 and §24; 03 §40 | A proof-first model program and qualitative confidence labels are presented as project direction | Current direction is publication/evidence-first; model building remains optional. Qualitative self-assessment is not validation. |\n| 02 §23; 03 recursive-closure sections | Same-family mathematical closure is stronger than the author’s abstract recursive proposal | Retain as an optional stronger conjecture, not a publication prerequisite or proven identity. |\n| 03 §§7 and related adaptive-network examples | Compatibility is inserted into an edge-update law | It is an explicit model assumption, not a derivation that compatible structures necessarily reinforce one another. |\n| 03 §§27–28, 35–39 | Action, potential energy, stationary candidates, forces and frequency spectra are compressed into one notation | Specify the dynamical/variational setting. A general action cannot simply be treated as a static potential. Stability needs a separate dynamical test. See audited 04 §24. |\n| 03 §39 | A display equation is missing its closing `\\]` after the displayed force expression | Formatting defect retained in the immutable snapshot; insert the delimiter before “defines the restoring/driving interaction” in any newly typeset derivative edition. |\n| 02 cosmological chronology and citations; 03 recent fundamental-physics references | Not all source claims were freshly verified in this audit | Do not present these as part of the 22 audited case cards. A separate review is needed before reusing their detailed claims in a current public evidence section. |\n| Original README | Reading order stops at 03 | The new root README is the current index; the original is retained under `archive/`. |\n\nThe numerical source-model branch is corrected in current 05. No claim is made that these foundation snapshots, or their sources, were changed in the user’s Library or Project.\n",
+      "plainLanguage": "Compatibility notes for the older bundled foundation snapshots. They are source-reported notes, not changes to the carried-forward repository core or an independent mathematical review.",
+      "scope": "Compatibility notes for the older bundled foundation snapshots. They are source-reported notes, not changes to the carried-forward repository core or an independent mathematical review.",
+      "evidenceState": "not-applicable",
+      "body": "## Earlier editions\n\nThese original foundation snapshots are superseded. Use the current pages for the present edition.\n\n- [`01_world_explanation.md` — original download](/downloads/original/R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD.md) · v0.1 — superseded, kept unchanged for the record · [Current World explanation](/documents/world-explanation/)\n- [`02_scientific_framework.md` — original download](/downloads/original/R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD.md) · v0.1 — superseded, kept unchanged for the record · [Current Scientific framework](/framework/)\n- [`03_mathematical_core.md` — original download](/downloads/original/R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD.md) · v0.1 — superseded, kept unchanged for the record · [Current Mathematical core](/math/)\n\n## Historical archive availability\n\nReferences to `archive/` in this source describe historical companion material. Those files are excluded from this website and its publication ZIP. The supplied original v0.2.1 bundle has been captured privately: its audited companion documents, source registry and foundation snapshots match the preserved v0.2.1 predecessor, and its inner package checks pass. The current v0.3.3 edition retains author clarifications and the related-work comparison, and retains the forces rationale with the forces-by-scale explanation; it does not claim current byte identity with that bundle or a new evidence audit. The outer checksum manifest contains a self-hash discrepancy; off-machine backup is not verified. This is provenance comparison, not a new scientific approval. Repository predecessor readings remain explicitly historical in the [document library](/documents/).\n",
+      "sourceMapping": "ERRATA.md; exact raw excerpt, with disclosed presentation adapters.",
+      "adapter": "rrg-document/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD",
+        "path": "research/RRG_CURRENT/foundations/01_world_explanation.md",
+        "sha256": "a3c4f376d4a81bf8fc158d3c786c92e5c88b454aeead88173c4139420f4bbddb"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD",
+        "path": "research/RRG_CURRENT/foundations/02_scientific_framework.md",
+        "sha256": "269b6e4bd7c76e15f19f4c0ff752276ba2a1de76e0b84294516d2d3ef8c998c5"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD",
+        "path": "research/RRG_CURRENT/foundations/03_mathematical_core.md",
+        "sha256": "57d1aaa129d7edb780b83886b8b8ede40f7b30cf77a2d6b1f400c651ad1f92e4"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "f4b6cf5121b60d6d94ebc5621c1dafe3c0bb67479595aa282f379c8ffcf4a326",
+        "plainLanguageSha256": "3469b4dcee67f467e70dfedef02be4afb4d032cd7bbda80172065732b2cd7906",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "38f525aa47351866dfa9e54c7f4323e6b1ba7c0371db1bce2c88efea23ff771d",
+        "plainLanguageSha256": "3469b4dcee67f467e70dfedef02be4afb4d032cd7bbda80172065732b2cd7906",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-FOUNDATION-ERRATA.json, SHA-256 c48f3d349b467676473f1633b458c364700ab92f9a4f03037dcce8f56dc8f465. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-FOUNDATION-ERRATA.json, SHA-256 c48f3d349b467676473f1633b458c364700ab92f9a4f03037dcce8f56dc8f465. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-FOUNDATION-ERRATA.json, SHA-256 c48f3d349b467676473f1633b458c364700ab92f9a4f03037dcce8f56dc8f465. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-FOUNDATION-ERRATA.json, SHA-256 c48f3d349b467676473f1633b458c364700ab92f9a4f03037dcce8f56dc8f465. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-FOUNDATION-ERRATA.json, SHA-256 c48f3d349b467676473f1633b458c364700ab92f9a4f03037dcce8f56dc8f465. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-FOUNDATION-ERRATA.json, SHA-256 c48f3d349b467676473f1633b458c364700ab92f9a4f03037dcce8f56dc8f465. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-FOUNDATION-ERRATA.json, SHA-256 c48f3d349b467676473f1633b458c364700ab92f9a4f03037dcce8f56dc8f465. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.2 comparison: docs/evidence/fidelity-v032/decisions/DOC-FOUNDATION-ERRATA.json, SHA-256 c48f3d349b467676473f1633b458c364700ab92f9a4f03037dcce8f56dc8f465. Reused only for unchanged scientific material; current edition/provenance and the one scientific paragraph delta were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.2 scientific comparison is reused for unchanged material. Inspected v0.3.3 fields: researchEdition, body; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}
