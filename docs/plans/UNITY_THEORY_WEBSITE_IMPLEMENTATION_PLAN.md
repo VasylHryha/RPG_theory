@@ -2168,3 +2168,7 @@ Main `4f03ef1`, release `site-2026.10.07-v032`; routine CI 37596453730 and publi
 ### 0.88 Bounded High acceptance of v0.3.3 — 7 October 2026
 
 **ACCEPTED (Claude).** §6.1 forces-by-scale paragraph exact; header/blank-line defects repaired; v0.3.2 history exact; release `site-2026.10.07-v033`; smoke 7/7 both bases. Receipt: `docs/evidence/fidelity-v033/acceptance.md`. Next: publish, then the permanent `npm run edition` automation (owner feedback §27).
+
+### 0.89 RRG v0.3.3 deployed — 7 October 2026
+
+Main `184ed5d`, release `site-2026.10.07-v033`; routine CI 37603495441 and publish 37603981451 passed. Live: home, World explanation, Framework 200; §6.1 paragraph served; unknown route 404.

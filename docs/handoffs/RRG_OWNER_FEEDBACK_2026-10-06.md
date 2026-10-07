@@ -1137,3 +1137,5 @@ the generated list sits above. Reworded.
   auto-record metadata-only fidelity deltas, list real content deltas for
   reading, fast checks, release selection, print force-add list. Validators and
   rules unchanged. Dry-run against v0.3.3 to confirm parity.
+
+## 28. Deployed (7 Oct 2026): main `184ed5d`, release `site-2026.10.07-v033`; CI 37603495441, publish 37603981451 passed; live 200s, 404 real, §6.1 paragraph served. Next: `npm run edition` automation (§27).
