@@ -1,7 +1,7 @@
 {
-  "version": "0.3",
+  "version": "0.3.1",
   "audit_date": "2026-10-02",
-  "scope": "Evidence register carried forward from the targeted 2026-10-02 audit; v0.3 author clarifications add no evidence verification, cases or citations",
+  "scope": "Evidence cases carried forward unchanged from the targeted 2026-10-02 audit; v0.3 explanations retained; v0.3.1 adds related-work comparison and five bibliographic records verified 7 October 2026 (Claude), not evidence distinguishing RRG",
   "cases": [
     {
       "id": "E01",
@@ -508,7 +508,76 @@
       "doi": "10.1016/j.jde.2026.114601",
       "role": "Theory / date-qualified further reading",
       "note": "Online publisher record and abstract available at audit. Issue date is 25 October 2026, later than this audit; first-online date was not independently established. Result assumes specific anisotropic periodic domains and regularity of the noise, not arbitrary space-time white noise."
+    },
+    {
+      "id": "F04",
+      "title": "Time, Structure, and Fluctuations",
+      "authors": "I. Prigogine",
+      "year": 1978,
+      "publication": "Science 201(4358):777–785",
+      "url": "https://doi.org/10.1126/science.201.4358.777",
+      "role": "Related work / orientation only",
+      "note": "Related work; does not establish RRG.",
+      "checked_on": "2026-10-07",
+      "read_coverage": "Bibliographic record verified 7 October 2026 (Claude).",
+      "website_bib_id": "BIB-0094",
+      "doi": "10.1126/science.201.4358.777"
+    },
+    {
+      "id": "F05",
+      "title": "The Architecture of Complexity",
+      "authors": "H. A. Simon",
+      "year": 1962,
+      "publication": "Proceedings of the American Philosophical Society 106(6):467–482",
+      "url": "https://www.jstor.org/stable/985254",
+      "role": "Related work / orientation only",
+      "note": "Related work; does not establish RRG.",
+      "checked_on": "2026-10-07",
+      "read_coverage": "Bibliographic record verified 7 October 2026 (Claude).",
+      "website_bib_id": "BIB-0095"
+    },
+    {
+      "id": "F06",
+      "title": "The major evolutionary transitions",
+      "authors": "E. Szathmáry, J. Maynard Smith",
+      "year": 1995,
+      "publication": "Nature 374:227–232",
+      "url": "https://doi.org/10.1038/374227a0",
+      "role": "Related work / orientation only",
+      "note": "Related work; does not establish RRG.",
+      "checked_on": "2026-10-07",
+      "read_coverage": "Bibliographic record verified 7 October 2026 (Claude).",
+      "website_bib_id": "BIB-0096",
+      "doi": "10.1038/374227a0"
+    },
+    {
+      "id": "F07",
+      "title": "An introduction to niche construction theory",
+      "authors": "K. Laland, B. Matthews, M. W. Feldman",
+      "year": 2016,
+      "publication": "Evolutionary Ecology 30:191–202",
+      "url": "https://doi.org/10.1007/s10682-016-9821-z",
+      "role": "Related work / orientation only",
+      "note": "Related work; does not establish RRG.",
+      "checked_on": "2026-10-07",
+      "read_coverage": "Bibliographic record verified 7 October 2026 (Claude).",
+      "website_bib_id": "BIB-0097",
+      "doi": "10.1007/s10682-016-9821-z"
+    },
+    {
+      "id": "F08",
+      "title": "Assembly theory explains and quantifies selection and evolution",
+      "authors": "A. Sharma et al.",
+      "year": 2023,
+      "publication": "Nature 622:321–328",
+      "url": "https://doi.org/10.1038/s41586-023-06600-9",
+      "role": "Related work / orientation only",
+      "note": "Related work; does not establish RRG. Assembly theory is actively debated.",
+      "checked_on": "2026-10-07",
+      "read_coverage": "Bibliographic record verified 7 October 2026 (Claude).",
+      "website_bib_id": "BIB-0098",
+      "doi": "10.1038/s41586-023-06600-9"
     }
   ],
-  "edition_date": "2026-10-06"
+  "edition_date": "2026-10-07"
 }

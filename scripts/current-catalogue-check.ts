@@ -6,7 +6,8 @@ import { renderEntrySync } from '../src/lib/content.js';
 import { ContractError } from '../src/lib/errors.js';
 
 type Case = { id: string; doi: string; url: string; arrows: string[]; [key: string]: unknown };
-type Register = { cases: Case[]; further_reading: Case[] };
+type FurtherReading = { id: string; title: string; doi?: string; url?: string; website_bib_id?: string };
+type Register = { cases: Case[]; further_reading: FurtherReading[] };
 export type Label = { sourceKey: string; edition: string; label: string; meaning: string; route: string; fragment: string; bibliographyId?: string };
 export type LinkMap = { labels: Label[]; caseEdges: (Omit<Label,'route'|'fragment'> & { entryId: string; bibliographyId: string; support: string; locator: string; readDepth: string })[] };
 const required = ['id','title','authors','year','doi','url','publication','evidence_type','rrg_relation','arrows','finding','externally_supplied','scope_limit','read_coverage','checked_on'];
@@ -17,7 +18,7 @@ const fail = (message: string): never => { throw new ContractError('CURRENT_CATA
 // archives and historical calculations cannot silently become fresh passes.
 export function validateCurrentCatalogue(corpus: Corpus, register: Register, catalogue: string, map: LinkMap) {
   const all = [...register.cases, ...register.further_reading];
-  for (const values of [all.map(c => c.id), all.map(c => doi(c.doi))]) if (new Set(values).size !== values.length) fail('Duplicate registered local label or DOI');
+  for (const values of [all.map(c => c.id), all.flatMap(c => c.doi ? [doi(c.doi)] : [])]) if (new Set(values).size !== values.length) fail('Duplicate registered local label or DOI');
   const cases = [...catalogue.matchAll(/^## (E\d+) — /gm)].map(m => m[1]);
   if (new Set(cases).size !== cases.length || JSON.stringify([...cases].sort()) !== JSON.stringify(register.cases.map(c => c.id).sort())) fail('Catalogue headings differ from selected case inventory');
   const claims = new Set([...catalogue.matchAll(/^\| (C\d+) \|/gm)].map(m => m[1]));
@@ -62,8 +63,19 @@ export function validateCurrentCatalogue(corpus: Corpus, register: Register, cat
   }
   if (map.caseEdges.filter(e => e.sourceKey === 'R-CURRENT-CATALOGUE').length !== register.cases.length) fail('Extra unselected case edge');
   for (const c of register.further_reading) {
-    const alias = corpus.aliases.get(`R-CURRENT-CATALOGUE:https://doi.org/${c.doi}`);
-    if (!alias || doi(corpus.references.get(alias)!.url) !== doi(c.doi)) fail(`Unresolved further-reading publication: ${c.id}`);
+    // v0.3.1 adds framework reading records; the unchanged 06 catalogue still
+    // owns only its original further-reading labels. Simon has a JSTOR URL.
+    if (c.website_bib_id) {
+      const url = c.url ?? (c.doi ? `https://doi.org/${c.doi}` : '');
+      const ref = corpus.references.get(c.website_bib_id);
+      if (!url || !ref || ref.url !== url || ref.title !== c.title || corpus.aliases.get(`R-CURRENT-SCIENCE:${url}`) !== ref.id) fail(`Unresolved framework further-reading publication: ${c.id}`);
+      const framework = corpus.sources.get('R-CURRENT-SCIENCE');
+      if (!framework || !readFileSync(resolve(corpus.root, framework.path), 'utf8').includes(url)) fail(`Missing framework publication destination: ${c.id}`);
+      continue;
+    }
+    const registeredDOI = c.doi ?? fail(`Missing catalogue further-reading DOI: ${c.id}`);
+    const alias = corpus.aliases.get(`R-CURRENT-CATALOGUE:https://doi.org/${registeredDOI}`);
+    if (!alias || doi(corpus.references.get(alias)!.url) !== doi(registeredDOI)) fail(`Unresolved further-reading publication: ${c.id}`);
     if (!map.labels.some(l=>l.sourceKey==='R-CURRENT-CATALOGUE' && l.label===c.id && l.meaning===c.title)) fail(`Missing further-reading label: ${c.id}`);
   }
   const history=readFileSync(resolve(corpus.root,corpus.sources.get('R-HISTORY-REPO-ADDITIONAL')!.path),'utf8');

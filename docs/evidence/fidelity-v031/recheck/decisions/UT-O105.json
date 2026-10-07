@@ -1,0 +1,119 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-O105",
+  "fingerprint": "9d1ed7f92280464220b76edc02718b3f9b7bffec50e092d6f6fa9ccc5433c849",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T06:30:33.367Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Re-reviewed Cosmological connection against v0.2.1 open claim O5; predecessor UT-O IDs remain historical.. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Verified identical own-read and scientific-source snapshots; prior individual comparison remains applicable. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+  "inputs": {
+    "fingerprint": "9d1ed7f92280464220b76edc02718b3f9b7bffec50e092d6f6fa9ccc5433c849",
+    "ownRead": {
+      "id": "UT-O105",
+      "route": "/claims/UT-O105/",
+      "title": "Cosmological connection",
+      "description": "An open claim retained by the selected v0.2.1 companion.",
+      "revision": 4,
+      "kind": "open-problem",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
+      "sourceRefs": [
+        "R-CURRENT-CLAIMS"
+      ],
+      "dependsOn": [
+        "DOC-BACKGROUND"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "sourceSha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861",
+        "startLine": 52,
+        "endLine": 52,
+        "excerptSha256": "873a06a333d72fab2e199154da309daac813833b01937dda9b873e5be0f1b5d3"
+      },
+      "statement": "**O5 — Cosmological connection.** The author’s conjecture is that continued formation of scales and organization could connect to the universe’s spatial expansion. Domain growth, increasing organizational depth, increasing accessible configurations and spacetime metric expansion are four different claims. The last is not proved by the first three. This release does not advance a new cosmological calculation or fresh observational cosmology review.\n",
+      "plainLanguage": "",
+      "scope": "Source-reported open claim, not a demonstrated result or a required proof before publication.",
+      "evidenceState": "proposed",
+      "body": "## Investigate one part\n\nThe companion distinguishes growth of available states, effective degrees of freedom, changed local background and cosmological metric expansion. Identify which meaning your argument addresses before comparing it with observations or a model. Relating the first three to metric expansion is an open step, not something established by using the same word.\n\nBring a source passage, model, result or objection to [the contribution route](/about/#contribute). You can address this question without accepting the entire proposal. Read [all open questions](/open-problems/) for the surrounding programme.\n",
+      "sourceMapping": "v0.2.1 open claim O5; predecessor UT-O IDs remain historical.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "aaeb376aca75eb01c6a567be407f70bea82e947cdd1dbb63288b649a66d71d32"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "064a3150c792f3d8ae85fce036969406e1d9423f1977df64bca3c4ede07303ce"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "5da08c4075bb92cf080221a51353e0bce2224847814af8ce8ad8546f02304955",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "0d924fb65f7fe855a7a83753a1a8635ec629478a7f1a20ad953042a17212724e",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Re-reviewed Cosmological connection against v0.2.1 open claim O5; predecessor UT-O IDs remain historical.. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Terminology compared with v0.2.1 open claim O5; predecessor UT-O IDs remain historical. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "meaning": "Re-reviewed Cosmological connection against v0.2.1 open claim O5; predecessor UT-O IDs remain historical.. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Read own authored body, summary and exact statement with its mapped v0.3.1 sections. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "assumptions": "Re-reviewed Cosmological connection against v0.2.1 open claim O5; predecessor UT-O IDs remain historical.. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Supplied conditions and model scope retained: Source-reported open claim, not a demonstrated result or a required proof before publication.   Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "hypotheses": "Re-reviewed Cosmological connection against v0.2.1 open claim O5; predecessor UT-O IDs remain historical.. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "evidenceDescriptions": "Re-reviewed Cosmological connection against v0.2.1 open claim O5; predecessor UT-O IDs remain historical.. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "openQuestions": "Re-reviewed Cosmological connection against v0.2.1 open claim O5; predecessor UT-O IDs remain historical.. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "attribution": "Re-reviewed Cosmological connection against v0.2.1 open claim O5; predecessor UT-O IDs remain historical.. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "sourceMappings": "Re-reviewed Cosmological connection against v0.2.1 open claim O5; predecessor UT-O IDs remain historical.. Domain growth, hierarchy, accessible configurations and metric expansion remain different questions; the contribution prose keeps the missing connection open rather than deriving cosmology from shared wording. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Verified v0.2.1 open claim O5; predecessor UT-O IDs remain historical.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance."
+  }
+}

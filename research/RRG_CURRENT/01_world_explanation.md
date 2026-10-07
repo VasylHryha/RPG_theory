@@ -1,6 +1,6 @@
-# RRG v0.3 — World Explanation
+# RRG v0.3.1 — World Explanation
 
-**Author-clarified edition · 2026-10-06 · Vasyl Hryha**
+**Relation-to-existing-work edition · 2026-10-07 · Vasyl Hryha**
 
 > **NON-NORMATIVE:** examples explain the locked core; they do not define it. See `00_LOCKED_CORE.md`.
 
@@ -653,6 +653,7 @@ The very beginning and the origin of forces may stay beyond direct evidence. Tha
 15. **Is RRG proven, or a theory of everything?** It is a unifying framework, not yet proven. Established mechanisms, RRG's common-pattern reading and speculation remain distinct. [§15](#15-what-this-explanation-is-not-saying), 08.
 16. **Must complexity always grow?** No. The frontier may grow while simple levels continue, but individual steps can stop, branch, simplify or break down. [§7.2](#72-each-level-needs-the-ones-before-it), [§10.1](#101-evolution-follows-the-same-rules-survive-shape-spread-and-join), [§14](#14-the-entire-rrg-cycle-in-one-picture); 04 §§9–14, 28.
 17. **Does this change the locked core?** No. Core §§1–13 and the change-control protocol are carried forward byte-for-byte. These are non-normative explanations and labelled extensions; the core's full mode definition and optional replication still govern. [§15](#15-what-this-explanation-is-not-saying), [00](00_LOCKED_CORE.md), [SOURCE_AUTHORITY](SOURCE_AUTHORITY.md).
+18. **Isn't this just self-organization or emergence?** RRG shares much with those ideas. Its proposed addition joins formation, spreading and change of the background into one repeated cycle, with resonance-fit as the proposed rule for what connects and lasts. That addition has no distinguishing evidence yet. Existing theories still explain the known component effects. See [02 §17 — Relation to existing work](02_scientific_framework.md#17-relation-to-existing-work).
 
 ---
 
@@ -816,4 +817,3 @@ This helps explain why cosmic history can move through different regimes without
 The same idea appears locally. A star changes pressure, temperature, density, radiation, and composition around and inside itself. Those conditions make new nuclear configurations possible. Later, planets create new chemical environments. Living systems create still more specialized internal environments.
 
 So complexity can advance because **existing geometry changes the landscape of possible next geometries**.
-

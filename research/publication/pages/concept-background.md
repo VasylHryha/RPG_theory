@@ -4,11 +4,11 @@
   "route": "/concepts/background/",
   "title": "Background and new possibilities",
   "description": "Lasting structures change the conditions in which other structures can form, opening some possibilities and closing others.",
-  "revision": 2,
+  "revision": 5,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+  "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
   "publicationState": "published",
   "sourceRefs": [
     "R-CURRENT-GUIDE",
@@ -29,9 +29,9 @@
     "BIB-0044"
   ],
   "contentOrigin": "authored",
-  "sourceMapping": "RRG v0.3 README §The name states the rules: inherited material, constraints and unresolved activity; 01 §§7–7.1: stellar conditions and environmental enabling separate from building blocks; v0.1b Addendum — The Universe Changes Which Possibilities Are Reachable: valleys, changed accessibility and local stellar conditions. 04 §2: B_n → R_n → B_{n+1}; §§3–4: fluctuating activity and persistent structures changing background; §11: physical change versus change of description; §§12–13: repetition and accessible possibilities gaining or losing organizations. Unchanged core §11: core-compatible extension, not minimal definition. BIB-0014 provides stellar background; BIB-0044 is related reaction-network theory only, with no new finding or independent verification claimed.",
+  "sourceMapping": "RRG v0.3.1 README §The name states the rules: inherited material, constraints and unresolved activity; 01 §§7–7.1: stellar conditions and environmental enabling separate from building blocks; v0.1b Addendum — The Universe Changes Which Possibilities Are Reachable: valleys, changed accessibility and local stellar conditions. 04 §2: B_n → R_n → B_{n+1}; §§3–4: fluctuating activity and persistent structures changing background; §11: physical change versus change of description; §§12–13: repetition and accessible possibilities gaining or losing organizations. Unchanged core §11: core-compatible extension, not minimal definition. BIB-0014 provides stellar background; BIB-0044 is related reaction-network theory only, with no new finding or independent verification claimed.",
   "publishedAt": "2026-10-06",
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "sourceBinding": null,
   "statement": null,
   "plainLanguage": "",
@@ -77,3 +77,5 @@ We can also describe a complicated system using fewer details, treating a lastin
 The locked core calls background and possibility-space change an **extension compatible with the core**. It is outside the minimal definition. The effect depends on interactions, energy and available material; another level is possible, not inevitable.
 
 [Read the full background argument](/framework/recursive-background/). [NASA’s first-stars overview](/references/#BIB-0014) provides stellar context; the [stellar reaction-network study](/references/#BIB-0044) is related theory, not a demonstration of the whole RRG cycle.
+
+[Explore possible uses](/uses/) of changing shape, activity and surroundings.

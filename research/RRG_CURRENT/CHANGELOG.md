@@ -1,5 +1,25 @@
 # Changelog
 
+## v0.3.1 — 2026-10-07: Relation to existing work
+
+**changeId:** `RRG-2026-10-07-V031-RELATED-WORK`
+**category:** wording (related-work explanation and literature registration; no definition-core or evidence-status change).
+**Prior edition/hash:** RRG v0.3 — author-clarified edition, 2026-10-06; inventory seal `dd38bd32095925941cf0c18199052767747e59c14d40ef298f900a52cab352b1`. Exact per-file hashes and manifest hash are in the preserved predecessor registration.
+**Preserved edition:** `research/history/repository-current-v0.3-2026-10-07/`; all 24 members preserve exact v0.3 bytes. The loadable predecessor registration, presentation and decision evidence are preserved in `docs/evidence/source-revision-v0.3.1/predecessor-root/`.
+**Affected files:** 01_world_explanation.md, 02_scientific_framework.md, README.md, sources.json, CHANGELOG.md, CURRENT_MANIFEST.md and SOURCE_AUTHORITY.md. No source is renamed or removed. `00_LOCKED_CORE.md`, 03–08, change-control, existing evidence cases, foundations and checks remain unchanged.
+**Affected claims:** explanatory context for H03, H06, H08, H11–H13, H17, H24–H25, H28 and O1–O2/O7/O9. Existing claim IDs, statements and evidence statuses are unchanged. Exact affected website entry IDs are listed in the linked machine transaction.
+**Problem:** existing related-work passages explain individual connections but do not offer a single readable comparison of RRG with the seven selected bodies of work. Readers can confuse shared ideas with a demonstrated new mechanism.
+**Before/after meaning:** existing synergetics, autocatalytic-set and thermodynamic discussions are retained and cross-referenced. New 02 §17 gives each work's core idea, shared ground and proposed difference; 01 §16 and README point to it. RRG proposes one cycle joining formation, spreading and change of the background, with resonance-fit as the proposed rule for what connects and lasts. This addition is not yet supported by evidence distinguishing it from these theories. No claim of scientific priority or proven novelty is introduced.
+**Rationale/support:** compare only widely known core ideas, the existing Haken/Kauffman discussion and five supplied bibliographic records verified 7 October 2026 (Claude). Assembly theory is briefly marked as actively debated. Bibliographic identity is not verification of findings or evidence for universal RRG.
+**Permission basis/task scope:** Vasyl Hryha's approved 7 October 2026 task: theory v0.3.1 first, then four website drafts for review, under R4 §§0.3/4.5. This author-directed revision grants no new acceptance, commit, push, deployment or licence.
+**Dependents:** source register, historical registration, exact source hashes/excerpts, edition metadata and source-label-map edition update coherently through the existing registration approach. Website BIB-0094–0098 register the new literature; BIB-0004/0009/0010 remain unchanged. Live website prose is unchanged. Affected website decisions become stale through fingerprints; the decision registry and issued evidence are preserved. Four proposed pages and their integration plan remain only in `docs/handoffs/extra-pages-drafts/`.
+**Tests/review actually performed:** command results, draft-link check, exact preservation comparison and word counts are recorded in `docs/evidence/source-revision-v0.3.1/receipt.md`. Existing dated audit evidence remains dated predecessor evidence. Implementation stops at REVIEW_READY; independent source/website review and draft approval remain pending. No new tests or decisions are written.
+**Resulting edition/hash:** RRG v0.3.1 — relation to existing work, 2026-10-07. Exact result seal/manifest hash and predecessor membership are in `config/research-source.json` and `research/publication/source-revision-v0.3.1.json`, outside the source files they hash.
+
+### v0.3.1 acceptance link correction — 2026-10-07
+
+Claude's acceptance fix replaces the Simon 1962 course-site PDF link with the stable JSTOR record, labelled “JSTOR record”, in 02 §17 and the matching literature registration/draft. This changes only the access destination, not the citation details, scientific meaning or evidence status. The prior unaccepted v0.3.1 candidate seal `7cdd54335fd91a7ab7df756d9dd28315de0d59da3a9b477d548cf21e083771d6` and exact inputs are preserved under `docs/evidence/source-revision-v0.3.1/simon-record-fix/before/`. The v0.3 predecessor, v0.3.1 edition name and change ID remain unchanged. Existing tooling refreshes hashes, excerpt bindings and the external result seal/transaction; actual requested checks are recorded in `docs/evidence/source-revision-v0.3.1/simon-record-fix/receipt.md`. No unrelated prose, normative core, evidence case, review decision or publication action changes.
+
 ## v0.3 — 2026-10-06: author-clarified edition
 
 **changeId:** `RRG-2026-10-06-V03-AUTHOR-CLARIFIED`

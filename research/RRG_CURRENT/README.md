@@ -7,7 +7,7 @@
 
 Everything moves. Most motion is chaos. Sometimes a piece of motion falls into a rhythm that keeps its own shape, and that shape keeps the rhythm going. It lasts: that is a resonator. Its rhythm reaches out. It makes nearby things move with it, stick to it, or take a similar shape. So more resonators appear, they join into bigger shapes with a new rhythm of their own, and the same thing happens again at the next level.
 
-**RRG v0.3 — author-clarified edition, 2026-10-06**
+**RRG v0.3.1 — relation to existing work, 2026-10-07**
 **Author:** Vasyl Hryha. **Status:** a unifying framework, not yet proven.
 
 The paragraph gives RRG's proposed common pattern. Spreading and joining need suitable conditions; neither happens at every level. “Recursive” means both the lasting resonator's role and the whole cycle repeating at a new scale. Rhythm and shape hold each other; neither comes first. The full plain-language explanation is [01 §§0–15](01_world_explanation.md#0-the-name-states-the-rules).
@@ -27,13 +27,15 @@ In plain words, resonance is motion that has fallen into rhythm, rather than und
 
 > Everything moves, and energy is what keeps things moving: vibrating, rotating, resonating. Every resonator lasts for a time. Some hold on their own for billions of years; others last only while energy keeps flowing through them.
 
-See [01 §3.1](01_world_explanation.md#31-energy-and-time) for motion, energy, supply and lifetime. This edition clarifies the explanations and sharpens open hypotheses. It leaves the normative core definitions unchanged and adds no evidence cases or literature verification.
+See [01 §3.1](01_world_explanation.md#31-energy-and-time) for motion, energy, supply and lifetime. The v0.3 explanations and open hypotheses are retained. This v0.3.1 edition adds a related-work comparison and bibliographic records verified 7 October 2026 (Claude). The normative core and evidence cases are unchanged; bibliographic verification is not verification of RRG.
 
 The project explains and shares this proposed connection, collects well-described cases and invites independent development. A universal proof is not required before sharing a labelled hypothesis. Small derivations, observations and objections can improve particular claims.
 
 ## Reading paths
 
 **First read the idea:** [01 — World explanation](01_world_explanation.md), including its [Common questions](01_world_explanation.md#16-common-questions). **Then follow the argument:** [04 — Full conceptual companion](04_recursive_background_generation.md). It preserves the whole session: source background, feedback, scale, persistence, propagation, coexistence, life, new effective rules, expansion and possible engineering implications.
+
+**Compare with existing explanations:** [02 §17 — Relation to existing work](02_scientific_framework.md#17-relation-to-existing-work) sets out shared ideas and proposed differences. Formation, spreading and background change form RRG's proposed cycle; resonance-fit is its proposed compatibility rule. No evidence yet distinguishes this addition from those theories.
 
 **Then inspect the examples:** [06 — Evidence catalogue](06_evidence_catalog.md). There are 22 primary case cards, with separate labels for result type and relevance. Every card identifies the reported result, what was supplied, what it does not demonstrate, its DOI and verification coverage.
 
@@ -63,7 +65,7 @@ One further distinction is essential: **structures physically changing their env
 
 The files in `foundations/` are byte-preserved snapshots of 01–03. They preserve the terminology and prior development; they have **not** received a complete fresh source audit. Some contain older proof-first priorities, stronger mathematical assertions and a known formatting issue. [Foundation errata](foundations/ERRATA.md) records the compatibility corrections. They are not the current public evidence catalogue.
 
-The former 04–06 text companions, old README and earlier numerical bundles remain preserved in the owner’s audited GPT Library release; the predecessor GitHub current set is separately preserved under `research/history/repository-current-2026-10-01/`. They are not duplicated inside the active `RRG_CURRENT` tree and do not define current publication guidance. The current README, revised 01, and 04–08 state this edition’s explanatory scope. The exact v0.2.1 repository current promoted on 5 October 2026 is preserved under `research/history/repository-current-v0.2.1-promoted-2026-10-05/`. Where an earlier mathematical implementation is more restrictive than the conceptual proposal, treat it as an optional stronger branch rather than silently redefining the theory.
+The former 04–06 text companions, old README and earlier numerical bundles remain preserved in the owner’s audited GPT Library release; the predecessor GitHub current set is separately preserved under `research/history/repository-current-2026-10-01/`. They are not duplicated inside the active `RRG_CURRENT` tree and do not define current publication guidance. The current README, revised 01, and 04–08 state this edition’s explanatory scope. The exact v0.3 predecessor is preserved under `research/history/repository-current-v0.3-2026-10-07/`. The exact v0.2.1 repository current promoted on 5 October 2026 is preserved under `research/history/repository-current-v0.2.1-promoted-2026-10-05/`. Where an earlier mathematical implementation is more restrictive than the conceptual proposal, treat it as an optional stronger branch rather than silently redefining the theory.
 
 The predecessor audited package originated as a conversation/Library artifact and was **explicitly promoted by the owner to replace the prior active repository companion on 5 October 2026**. The predecessor repository source set is preserved under `research/history/repository-current-2026-10-01/`. This source promotion does not by itself qualify the website, grant a licence, or authorize a Pages deployment.
 

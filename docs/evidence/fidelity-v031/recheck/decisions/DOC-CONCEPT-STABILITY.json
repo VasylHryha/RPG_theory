@@ -1,0 +1,163 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-STABILITY",
+  "fingerprint": "af4da2eee05a36caf1142af3f2d42f2506273728cd06127ae33464c20b348aae",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T06:30:33.367Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Re-reviewed Stability: what persists? against RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Verified identical own-read and scientific-source snapshots; prior individual comparison remains applicable. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+  "inputs": {
+    "fingerprint": "af4da2eee05a36caf1142af3f2d42f2506273728cd06127ae33464c20b348aae",
+    "ownRead": {
+      "id": "DOC-CONCEPT-STABILITY",
+      "route": "/concepts/stability/",
+      "title": "Stability: what persists?",
+      "description": "Stability means lasting for a time; persistence, recovery and attraction ask different questions.",
+      "revision": 9,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D03",
+        "UT-D04"
+      ],
+      "related": [
+        "DOC-EXAMPLE-FIRST-STRUCTURES"
+      ],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## Lasting while things change\n\nA cell exchanges material and keeps working. A molecule retains an organization while its parts remain active. Both make [stability](/glossary/#stability) easier to picture: what lasts is an organization, rather than a motionless set of ingredients.\n\nRRG asks whether shape and activity support a lasting whole—a [resonator](/glossary/#resonator)—over the interval being considered. That interval may be short or long.\n\n## Energy and time\n\nA living cell needs ongoing resources and energy flow. A passively persistent bound structure can hold without continuous outside power. Each system needs an energetic state compatible with its organization; having energy available alone does not ensure that it lasts.\n\n[Read the energy-and-time explanation](/documents/world-explanation/#31-energy-and-time). RRG’s broad wording connects energy with activity, while a physical model still distinguishes motion, stored energy and energy transfer.\n\n## Three different measurements\n\nImagine disturbing a specified organized state. Does it remain within limits? Does it leave those limits and return? Do nearby states approach it?\n\n- **Persistence** measures whether the chosen organization remains within stated bounds over an interval.\n- **Recovery** measures whether it returns after a disturbance.\n- **Attraction** measures whether nearby states tend toward it.\n\nThese tests answer different questions. A state can persist over the observed interval without having been shown to recover. Choose the test, conditions and limits that match the physical system.\n\n## The precise definition\n\nThe locked core defines stability as self-consistent closure between [geometry](/glossary/#geometry-shape), the organization and constraints, and [mode structure](/glossary/#mode), its full activity and response:\n\n$$\nG\\leftrightarrow M.\n$$\n\nHere $G$ and $M$ name those two aspects of the same whole. Stability promises no permanence. A model supplies its own conditions and numerical limits; the definition alone gives no universal stability theorem.\n\nThe [stability definition](/claims/UT-D04/) also lists specialist measurements such as Lyapunov stability, decay width and metastability. Like lifetime and perturbation recovery, these test particular systems; they do not replace the core meaning.\n\nCompare the [cell example](/examples/cell/) with [recursion and scale](/concepts/recursion/), where a lasting whole becomes a useful part.\n",
+      "sourceMapping": "RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "aaeb376aca75eb01c6a567be407f70bea82e947cdd1dbb63288b649a66d71d32"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "013b33f248ab9128d2e0384cb832691b7f6bdea4f3d6e062092bb705c025d030"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "b04e46db8115b0b4e7dae1b924c664282da8e4a29184c78c4a03f0a898fbbf3a"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "88ead778e2919255913d18e3a6656910d4dbc43600acc06dc386c6ac2034b9be"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "806b201acd319257334ff5fcd214863c580f3fa883295b42a37e2cade7d42cb1"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "6a19b4cebcc960c71a796ed0f0af798597351c91760e0099d84e892107c89d1d"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "373c615d3840bf153ab3c2a09b9a12176383d8d2794a8415ed32a0d232ad0225"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "060c390f5e44f582f9b68264ce74471933eff8cb9e0619ed15d618b65f36d78b"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "064a3150c792f3d8ae85fce036969406e1d9423f1977df64bca3c4ede07303ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "94452831189ef2c85097aee87c6fd682baaf68a6814e829029dd01f4b1edd43b"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "fb13d98a62ed44ccf4871c047d77c66bdf47346071572a317910b7267f40b7f1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "7fcecd5fc8722de3046c2900718a8cc56e4aeaf9cebcb8c87c5ed369fe67d697",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Re-reviewed Stability: what persists? against RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Terminology compared with RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "meaning": "Re-reviewed Stability: what persists? against RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Read own authored body, summary and exact statement with its mapped v0.3.1 sections. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "assumptions": "Re-reviewed Stability: what persists? against RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Supplied conditions and model scope retained: An illustrative beginner explanation mapped to the original supplied RRG documents.   Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "hypotheses": "Re-reviewed Stability: what persists? against RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "evidenceDescriptions": "Re-reviewed Stability: what persists? against RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "openQuestions": "Re-reviewed Stability: what persists? against RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "attribution": "Re-reviewed Stability: what persists? against RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "sourceMappings": "Re-reviewed Stability: what persists? against RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.. Persistence, recovery and attraction are correctly different measurements, with none replacing self-consistent closure over an interval. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Verified RRG v0.3.1 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance."
+  }
+}

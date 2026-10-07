@@ -1,0 +1,222 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-GEOMETRY",
+  "fingerprint": "ca31acef210ae07b31b4ced81b5a28bd371a82091d54d2a183662fe2ecd9bca6",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T06:30:33.367Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Re-reviewed Geometry and mode structure against RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.. The fixed-end second string mode retains its central node, tension and mass conditions, while the cell illustrates reciprocal maintenance rather than making either side universally first. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Verified identical own-read and scientific-source snapshots; prior individual comparison remains applicable. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+  "inputs": {
+    "fingerprint": "ca31acef210ae07b31b4ced81b5a28bd371a82091d54d2a183662fe2ecd9bca6",
+    "ownRead": {
+      "id": "DOC-CONCEPT-GEOMETRY",
+      "route": "/concepts/geometry-and-modes/",
+      "title": "Geometry and mode structure",
+      "description": "Shape constrains activity, activity supports shape, and the lasting pair is a resonator.",
+      "revision": 13,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-EXAMPLE-CELL",
+        "DOC-EXAMPLE-STRING",
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "related": [
+        "DOC-EXAMPLE-FIRST-STRUCTURES",
+        "DOC-EXAMPLE-CARBON-ARRANGEMENT",
+        "DOC-EXAMPLE-BRAIN"
+      ],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Beginner explanation of geometry, full modes and the resonator, mapped to v0.3.1 01 §§0–3.1, 6.1, 10 and unchanged core §§1–3, 12.",
+      "evidenceState": "not-applicable",
+      "body": "## Shape and activity, seen on a string\n\nA string fixed at both ends supports particular wave patterns. One has an arch between the ends; another has an additional stationary point in the middle. Length and boundaries constrain what fits, while tension and mass per unit length also matter. [See the string example](/examples/string/).\n\nRRG looks at the arrangement and its activity together. The wave has a moving shape, and the string’s constraints determine which patterns it can support.\n\n## Resonant: what is the activity?\n\nThe string makes a rhythm visible. In RRG’s broad language, [resonance](/glossary/#resonance) is motion that has fallen into rhythm. Chaotic motion has no lasting organizing rhythm standing out. Each physical example keeps its own meaning and tests of resonance.\n\nA [mode](/glossary/#mode) describes the activity in detail: frequency, relative timing or phase, strength or amplitude, spatial pattern, coupling, response and characteristic times. A single number in hertz describes only part of it. A visible beat is not required. [Read the mode definition](/claims/UT-D02/).\n\n## Geometry: what supports that activity?\n\nA [cell](/examples/cell/) shows the relation working in both directions. Its membrane regulates exchange; ongoing activity helps maintain the boundary and chemical conditions. Shape constrains activity, and activity supports or changes shape. Neither comes first.\n\n[Geometry](/glossary/#geometry-shape) means the components, arrangement, relationships, connections, orientation, boundaries and constraints at a chosen scale. Visible outline is only part of it. [Read the geometry definition](/claims/UT-D01/).\n\nWhere their mutual support lasts, RRG calls the whole a [resonator](/glossary/#resonator). The shorthand is $R=(G,M)$: organization $G$ and full activity $M$, with $G\\leftrightarrow M$. A physical model still supplies forces, material properties and energy conditions. [Read the resonant-geometry definition](/claims/UT-D03/) and [the world explanation](/documents/world-explanation/#1-start-from-one-simple-idea).\n\n## Within a thing, and between things\n\nA molecule’s compatible internal activity is [inner resonance](/glossary/#inner-resonance) in RRG’s language. Its compatible coupling to other things is [outer resonance](/glossary/#outer-resonance). Neither adds a force or requires identical frequencies. [Read the distinction](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts).\n\n[Stability](/concepts/stability/) asks how long the pair holds. [Recursion](/concepts/recursion/) asks how the whole can open further organization and the cycle repeat at another scale.\n\nCompare [carbon arrangements](/examples/carbon-arrangement/) and [brain wiring and activity](/examples/brain/).\n",
+      "sourceMapping": "RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "aaeb376aca75eb01c6a567be407f70bea82e947cdd1dbb63288b649a66d71d32"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "013b33f248ab9128d2e0384cb832691b7f6bdea4f3d6e062092bb705c025d030"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-CELL",
+        "semanticDigest": "2e4b7f717f51211796dc654e257de801dcd479e02a38a43683d5240e7255f663"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "003dcfb77013a8ad015d7ebff4483aaad8c07d5673dabb61780acbb11cc994f9"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-STRING",
+        "semanticDigest": "c06031f6fc878bf8afb2768fb15101b0c70f65d4b20cfc132be250ec22d2462c"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "b04e46db8115b0b4e7dae1b924c664282da8e4a29184c78c4a03f0a898fbbf3a"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "5b063b4062d91d5a56f5e02ff159ca26e151afe1c2a3e476cff7a25d20a13421"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "88ead778e2919255913d18e3a6656910d4dbc43600acc06dc386c6ac2034b9be"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "afef8fa2525ccf903256b299271a10b62f4c996e7348ae6d49fe31fac6adc369"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "806b201acd319257334ff5fcd214863c580f3fa883295b42a37e2cade7d42cb1"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "6a19b4cebcc960c71a796ed0f0af798597351c91760e0099d84e892107c89d1d"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "373c615d3840bf153ab3c2a09b9a12176383d8d2794a8415ed32a0d232ad0225"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "060c390f5e44f582f9b68264ce74471933eff8cb9e0619ed15d618b65f36d78b"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "8eda6730e6b82a83bfdbf725dff5acd380c3d90e838cf66e245b23176756531c"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "f95450f53dbb64074c41fafabcfb3637d4fc90825cf2faff769552a150bc4129"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "89c56511c7430241ea4b179d1f9896905f0b92c1948b2ed0486a189c278c1241"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "ac12bab0189d3fb2ba009fa509a3b1f8796eca307b2a9e71e96745739490d465"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "9f556de2f98a3878a133d6b5be677aa058528b96b4220be4fd5d3683e1db7a99"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "064a3150c792f3d8ae85fce036969406e1d9423f1977df64bca3c4ede07303ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "94452831189ef2c85097aee87c6fd682baaf68a6814e829029dd01f4b1edd43b"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "bdd6645f53f634211ca0491a1746ad4d6fa371eafc119929b72f88df070513f6",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "3fd64803ee38068a40467c1215a77f02207f68572af9e2b3405b596d49da16c2",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Re-reviewed Geometry and mode structure against RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.. The fixed-end second string mode retains its central node, tension and mass conditions, while the cell illustrates reciprocal maintenance rather than making either side universally first. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Terminology compared with RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "meaning": "Re-reviewed Geometry and mode structure against RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.. The fixed-end second string mode retains its central node, tension and mass conditions, while the cell illustrates reciprocal maintenance rather than making either side universally first. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Read own authored body, summary and exact statement with its mapped v0.3.1 sections. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "assumptions": "Re-reviewed Geometry and mode structure against RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.. The fixed-end second string mode retains its central node, tension and mass conditions, while the cell illustrates reciprocal maintenance rather than making either side universally first. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Supplied conditions and model scope retained: Beginner explanation of geometry, full modes and the resonator, mapped to v0.3.1 01 §§0–3.1, 6.1, 10 and unchanged core §§1–3, 12.   Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "hypotheses": "Re-reviewed Geometry and mode structure against RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.. The fixed-end second string mode retains its central node, tension and mass conditions, while the cell illustrates reciprocal maintenance rather than making either side universally first. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "evidenceDescriptions": "Re-reviewed Geometry and mode structure against RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.. The fixed-end second string mode retains its central node, tension and mass conditions, while the cell illustrates reciprocal maintenance rather than making either side universally first. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "openQuestions": "Re-reviewed Geometry and mode structure against RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.. The fixed-end second string mode retains its central node, tension and mass conditions, while the cell illustrates reciprocal maintenance rather than making either side universally first. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "attribution": "Re-reviewed Geometry and mode structure against RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.. The fixed-end second string mode retains its central node, tension and mass conditions, while the cell illustrates reciprocal maintenance rather than making either side universally first. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: source/dependency reading links. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "sourceMappings": "Re-reviewed Geometry and mode structure against RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.. The fixed-end second string mode retains its central node, tension and mass conditions, while the cell illustrates reciprocal maintenance rather than making either side universally first. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Verified RRG v0.3.1 01 §§0–2: name-rules, resonance versus chaotic motion, full modes, string and mutual support; §§3–3.1: persistence; §6.1: inner/outer resonance without extra forces or identical frequencies; §10: maintained cell illustration. Unchanged core §§1–3, 12: geometry, full mode structure and reciprocal pair; material, force and energy conditions remain necessary.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance."
+  }
+}

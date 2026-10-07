@@ -1,4 +1,4 @@
-# RRG v0.2 — Scientific Framework
+# RRG v0.3.1 — Scientific Framework
 
 > **NON-NORMATIVE:** This document tests and extends the locked core in `00_LOCKED_CORE.md`. If wording here conflicts with the locked core, the locked core wins.
 
@@ -657,7 +657,69 @@ Only after the generic mechanism works, test whether known interaction laws can 
 
 ---
 
-## 17. References / closest existing frameworks
+## 17. Relation to existing work
+
+RRG shares important ideas with existing accounts of organization. Its proposed addition is **one cycle joining formation, spreading and change of the background**, \(B_n\rightarrow R_n\rightarrow B_{n+1}\), with **resonance-fit as the proposed rule for what connects and lasts**. Spreading requires suitable conditions; it is not guaranteed. **This addition is not yet supported by evidence that distinguishes it from these theories.** Similarity to established work does not establish RRG's broader claim.
+
+The comparisons below give the core idea, the shared ground and the proposed difference. They connect to the existing component discussions rather than treating those discussions as separate confirmations.
+
+### Prigogine — dissipative structures
+
+**Core idea:** an open system far from equilibrium can develop organized patterns while energy and matter flow through it. Maintaining such organization has a thermodynamic cost.
+
+**Shared ground:** RRG also considers structures sustained by activity and supply; see [§13](#13-thermodynamics-constraint). **Proposed difference:** RRG includes both actively maintained and passive bound structures, and asks whether their formation, conditional spreading and changes to their surroundings belong to the same repeated cycle. It does not replace the thermodynamics of dissipative structures.
+
+Prigogine, I. "Time, Structure, and Fluctuations." *Science* 201(4358):777–785 (1978). [doi:10.1126/science.201.4358.777](https://doi.org/10.1126/science.201.4358.777).
+
+### Haken — synergetics
+
+**Core idea:** many interacting parts can produce a collective pattern that then constrains their behaviour. This is the parts–whole feedback already discussed in [Proposition 4](#proposition-4--whole-and-parts-form-circular-causality) and [§4.4](#44-whole-constraining-parts--established-as-a-complex-systems-pattern).
+
+**Shared ground:** mutual constraint between local activity and collective organization. **Proposed difference:** RRG puts that feedback inside a cycle where a persistent organization may spread and change the background for the next level. It has not demonstrated a distinct selection rule beyond the mechanisms synergetics already supplies.
+
+Existing reference: "Synergetics’ two foundations and the city", *European Physical Journal Special Topics* (2025), [doi:10.1140/epjs/s11734-025-01794-7](https://doi.org/10.1140/epjs/s11734-025-01794-7). This is Juval Portugali's discussion of synergetics, not a primary experiment or a paper authored by Haken.
+
+### Simon — hierarchy of stable intermediate forms
+
+**Core idea:** complex organization can develop through intermediate forms that remain stable long enough to become parts of larger forms.
+
+**Shared ground:** RRG's persistent structures becoming new effective units; see [Proposition 5](#proposition-5--persistent-higher-structures-become-new-effective-units). **Proposed difference:** RRG asks how shape and activity support these units, how they spread under suitable conditions, and how they change what can form next. Stable hierarchy by itself does not demonstrate resonance-fit or recursive background generation.
+
+Simon, H. A. "The Architecture of Complexity." *Proceedings of the American Philosophical Society* 106(6):467–482 (1962). [JSTOR record](https://www.jstor.org/stable/985254).
+
+### Kauffman / autocatalytic sets
+
+**Core idea:** products in a reaction network can collectively help catalyze the reactions that sustain it. The chemical closure and RAF framework are described in [§4.6](#46-autocatalytic-closure-and-self-reproduction--established-research-framework).
+
+**Shared ground:** organization that helps maintain itself and can enable further organization. **Proposed difference:** RRG proposes a similar abstract cycle outside chemistry too, with resonance-fit rather than catalytic closure as its general compatibility rule. It does not claim that every resonator is an autocatalytic set or that chemical reproduction proves a universal physical mechanism.
+
+Existing references: Hordijk, Hein & Steel, "Autocatalytic Sets and the Origin of Life", *Entropy* 12, 1733–1742 (2010), [doi:10.3390/e12071733](https://doi.org/10.3390/e12071733); Hordijk, Steel & Kauffman-related review, "Autocatalytic Networks at the Basis of Life’s Origin and Organization", *Life* 8, 62 (2018), [doi:10.3390/life8040062](https://doi.org/10.3390/life8040062). These are the existing related-work references, not new experiments.
+
+### Major transitions in evolution
+
+**Core idea:** evolution includes transitions in which previously separate entities become parts of a new unit, with changes in how information is transmitted and reproduction is organized.
+
+**Shared ground:** smaller persistent units joining into larger organization; see [§8](#8-life-under-rrg). **Proposed difference:** RRG asks whether an abstract formation–spreading–background cycle also connects nonliving levels. Biological heredity and selection remain specific mechanisms; they are not assumed to operate in all physical systems.
+
+Szathmáry, E. & Maynard Smith, J. "The major evolutionary transitions." *Nature* 374:227–232 (1995). [doi:10.1038/374227a0](https://doi.org/10.1038/374227a0).
+
+### Niche construction
+
+**Core idea:** organisms modify their environment, which can change the conditions of selection for themselves and other organisms.
+
+**Shared ground:** a persistent organization changes the background of future organization; see the [cycle in §14](#14-the-strongest-current-rrg-cycle). **Proposed difference:** RRG proposes that a comparable abstract feedback can apply to nonliving structures. It must specify physical mechanisms and measurements in each setting; describing environmental change is not yet a distinct explanation of it.
+
+Laland, K., Matthews, B. & Feldman, M. W. "An introduction to niche construction theory." *Evolutionary Ecology* 30:191–202 (2016). [doi:10.1007/s10682-016-9821-z](https://doi.org/10.1007/s10682-016-9821-z).
+
+### Assembly theory
+
+**Core idea:** assembly theory describes objects through the steps needed to build them and considers their abundance when examining selection and evolution. It is actively debated.
+
+**Shared ground:** earlier construction constrains which later objects and combinations are available. **Proposed difference:** RRG focuses on mutually supporting shape and activity, conditional spreading and background change, rather than a measure of assembly history. It does not yet supply a distinguishing quantitative prediction or a replacement for assembly measures.
+
+Sharma, A. et al. "Assembly theory explains and quantifies selection and evolution." *Nature* 622:321–328 (2023). [doi:10.1038/s41586-023-06600-9](https://doi.org/10.1038/s41586-023-06600-9).
+
+### Existing component references
 
 1. Perich, Narain & Gallego, **“A neural manifold view of the brain”**, *Nature Neuroscience* 28, 1582–1597 (2025).  
    https://doi.org/10.1038/s41593-025-02031-z

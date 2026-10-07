@@ -4,14 +4,14 @@
   "route": "/",
   "title": "What holds together opens the next step.",
   "description": "The name is the rules: follow RRG from quantum activity to life and us, with a top-down picture and one carbon atom’s journey.",
-  "revision": 17,
+  "revision": 20,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+  "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-WORLD",
@@ -49,9 +49,9 @@
   "sourceBinding": null,
   "statement": null,
   "plainLanguage": "",
-  "scope": "Short general-reader home bound to accepted RRG v0.3: README approved paragraph and rules; 01 §§0–16 and Observable Ladder addendum; 08 H24–H28/O9 interpretive boundaries. Top-down cosmic-to-life ladder, carbon journey and late-life/evolution/humans; explanations and honesty notes are in closed accordions.",
+  "scope": "Short general-reader home bound to accepted RRG v0.3.1: README approved paragraph and rules; 01 §§0–16 and Observable Ladder addendum; 08 H24–H28/O9 interpretive boundaries. Top-down cosmic-to-life ladder, carbon journey and late-life/evolution/humans; explanations and honesty notes are in closed accordions.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Accepted RRG v0.3, research/RRG_CURRENT/. README §The name states the rules (cards and approved paragraph), and 01 §0: verbatim approved opening and rule cards. 01 §1.1: chance/noise and resonance; §3.1: energy/time; §§5–7 and v0.1a Addendum — The Observable Ladder of Increasing Organization, sections A corrected cosmic-to-life sequence and The RRG interpretation of the ladder: carbon arrangements, cosmic-to-life sequence and possible carbon journey; §6.1: forces/fit and inner/outer resonance; §7.1: building blocks versus surroundings; §7.2: relevant earlier conditions and corrected Sun ancestry; §7.3: new interactions versus speculative force origins; §9: conditional spreading; §§10–10.1: cells/evolution/joining; §§11–13: nervous systems, humans and possible AI cycle; §14: repeated pattern; §§15–15.1: established history, hypotheses, limits and reachable tests; §16: common questions. 08 H24–H28/O9: force/fit, inner/outer, speculative force history, evolutionary and conditional propagation boundaries. Locked core §§1–11: geometry, full activity, mutual support, stability over an interval, active differing parts, building blocks, recursion and optional reproduction. 04 §§3–4, 8, 10–13, 16–18, 21, 29–31, 34: background proposal, persistence, life question and accessible tests. BIB-0089: bacterial acidity/growth in supplied cultures, not origin-of-life evidence. Drawings are schematic, not literal structures or measured scales.",
+  "sourceMapping": "Accepted RRG v0.3.1, research/RRG_CURRENT/. README §The name states the rules (cards and approved paragraph), and 01 §0: verbatim approved opening and rule cards. 01 §1.1: chance/noise and resonance; §3.1: energy/time; §§5–7 and v0.1a Addendum — The Observable Ladder of Increasing Organization, sections A corrected cosmic-to-life sequence and The RRG interpretation of the ladder: carbon arrangements, cosmic-to-life sequence and possible carbon journey; §6.1: forces/fit and inner/outer resonance; §7.1: building blocks versus surroundings; §7.2: relevant earlier conditions and corrected Sun ancestry; §7.3: new interactions versus speculative force origins; §9: conditional spreading; §§10–10.1: cells/evolution/joining; §§11–13: nervous systems, humans and possible AI cycle; §14: repeated pattern; §§15–15.1: established history, hypotheses, limits and reachable tests; §16: common questions. 08 H24–H28/O9: force/fit, inner/outer, speculative force history, evolutionary and conditional propagation boundaries. Locked core §§1–11: geometry, full activity, mutual support, stability over an interval, active differing parts, building blocks, recursion and optional reproduction. 04 §§3–4, 8, 10–13, 16–18, 21, 29–31, 34: background proposal, persistence, life question and accessible tests. BIB-0089: bacterial acidity/growth in supplied cultures, not origin-of-life evidence. Drawings are schematic, not literal structures or measured scales.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -238,6 +238,7 @@ RRG does not claim to explain fundamental forces, cosmology or the origin of lif
 
 - [Understand it](/start/) — follow the idea step by step.
 - [See examples](/examples/) — look at particular systems.
-- [Check the evidence](/evidence/) — inspect results and their limits.
+- [Check the evidence](/evidence/) — inspect results and limits.
+- [Explore further](/related-work/) — comparisons, questions, experiments and uses.
 
 Questions or ideas? [Contact the author](/contact/).

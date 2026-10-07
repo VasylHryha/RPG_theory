@@ -3,6 +3,11 @@ import { ContractError } from './errors.js';
 
 export function sourceDisplay(raw: string, adapter: Entry['adapter'] = 'markdown/1') {
   let text = raw;
+  // Historical role wording in the current README/changelog; their reading
+  // contexts disclose this presentation change. Original downloads stay exact.
+  text = text.replace('owner’s audited GPT Library release', 'author’s audited GPT Library release')
+    .replace('explicitly promoted by the owner to replace', 'explicitly promoted by the author to replace')
+    .replace('**Owner decision:**', '**Author decision:**');
   // Exact malformed arrow escapes in the promoted conceptual companion.
   // Display-only repair; raw source/download bytes remain unchanged.
   if (adapter === 'rrg-document/1') text = text.replace(/\\nightarrow/g, '\\rightarrow');

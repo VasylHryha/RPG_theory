@@ -4,14 +4,14 @@
   "route": "/start/",
   "title": "How can one structure make another possible?",
   "description": "Follow RRG from motion and lasting shapes to building blocks, changed surroundings, life and reachable tests.",
-  "revision": 14,
+  "revision": 17,
   "kind": "intro",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+  "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "sourceRefs": [
     "R-CURRENT-BACKGROUND",
     "R-CURRENT-CLAIMS",
@@ -50,9 +50,9 @@
   "sourceBinding": null,
   "statement": null,
   "plainLanguage": "",
-  "scope": "Full general-reader v0.3 story: noise and chance, mutual shape–activity support, separate outward roles, conditional spreading, forces/fit, repeated scales, life and reachable tests. The common pattern and speculative extremes retain their source-reported status.",
+  "scope": "Full general-reader v0.3.1 story: noise and chance, mutual shape–activity support, separate outward roles, conditional spreading, forces/fit, repeated scales, life and reachable tests. The common pattern and speculative extremes retain their source-reported status.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "RRG v0.3 01 §0 and README name-rules; 01 §§1–1.1: noise, chance, resonance and mutual support; §2: string; §§3–3.1: interval stability and energy; §§6–6.1: molecular constraints, forces and inner/outer resonance; §§7–7.3: separate outward roles, corrected stellar ancestry and open force origins; §9: conditional spreading; §§10–10.1, 12.1, 13: life, evolution, humans and speculative AI; §§14–15.1: repeated cycle, boundaries and reachable repeated-construction test. Unchanged core §§1–9, 11–12 supplies geometry, full modes, stability, active units, recursion and optional reproduction. Current 04 §§2–4, 11, 13, 34–35 supplies background feedback and testing detail; 08 H24–H28/O9 preserves hypothesis status. BIB-0026: supplied lipid/protein/ATP shape–activity feedback, not a complete cell or experimental loop ablation. BIB-0089: controlled-culture acidity/growth, not origin-of-life evidence. Current 06 E10/E11/E20: supplied chemical spots, suspension holes and vibrated granular bands are bounded nonliving multiplication examples already referenced by 01 §9, not a shared microscopic resonance mechanism.",
+  "sourceMapping": "RRG v0.3.1 01 §0 and README name-rules; 01 §§1–1.1: noise, chance, resonance and mutual support; §2: string; §§3–3.1: interval stability and energy; §§6–6.1: molecular constraints, forces and inner/outer resonance; §§7–7.3: separate outward roles, corrected stellar ancestry and open force origins; §9: conditional spreading; §§10–10.1, 12.1, 13: life, evolution, humans and speculative AI; §§14–15.1: repeated cycle, boundaries and reachable repeated-construction test. Unchanged core §§1–9, 11–12 supplies geometry, full modes, stability, active units, recursion and optional reproduction. Current 04 §§2–4, 11, 13, 34–35 supplies background feedback and testing detail; 08 H24–H28/O9 preserves hypothesis status. BIB-0026: supplied lipid/protein/ATP shape–activity feedback, not a complete cell or experimental loop ablation. BIB-0089: controlled-culture acidity/growth, not origin-of-life evidence. Current 06 E10/E11/E20: supplied chemical spots, suspension holes and vibrated granular bands are bounded nonliving multiplication examples already referenced by 01 §9, not a shared microscopic resonance mechanism.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -131,6 +131,8 @@ Humans reshape the world with tools and cities and have spread across the planet
 The string, star and cell already have scientific explanations. RRG asks whether their different mechanisms share a pattern: shape and activity hold together, a lasting whole opens possibilities, and the cycle repeats.
 
 It is a unifying framework, not yet proven. Reported findings support particular connections; the common pattern is RRG’s interpretation. [Read that distinction](/documents/world-explanation/#15-what-this-explanation-is-not-saying).
+
+[Compare RRG with related work](/related-work/) and [read the questions critics ask](/questions/).
 
 The strongest proposed reachable test would show the full step twice in one system: a lasting organization changes conditions so a distinct next organization can form, then that operation repeats. A specified test needs measurable conditions, predictions and a result that would count as failure. The present catalogue has not demonstrated that complete repeated construction. [Read where RRG can be checked](/documents/world-explanation/#151-where-rrg-can-be-checked).
 

@@ -4,14 +4,14 @@
   "route": "/documents/",
   "title": "Technical documents and exact sources",
   "description": "Inspect the current scientific edition, its authority and provenance, and clearly labelled original and explanatory downloads.",
-  "revision": 8,
+  "revision": 10,
   "kind": "library",
   "lang": "en",
   "audience": "technical",
-  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+  "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-CONTROL",
@@ -35,7 +35,7 @@
   "plainLanguage": "",
   "scope": "Read the current research edition and its definition and change-control authorities.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "Accepted RRG v0.3 companion and claim coverage, retaining the predecessor evidence catalogue and its dated source-reported findings and limits.",
+  "sourceMapping": "Accepted RRG v0.3.1 companion and claim coverage, retaining the predecessor evidence catalogue and its dated source-reported findings and limits.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
@@ -45,7 +45,7 @@
 
 This library is for reading the original technical documents and checking their authority, conditions and provenance. For the conceptual journey, [start with the idea](/start/), [explore concepts](/concepts/) or [examine evidence](/evidence/).
 
-RRG v0.3 adds the accepted author clarifications to the world explanation and claim coverage. It retains the unchanged minimal core, preserved foundations and evidence catalogue; the earlier evidence audit remains dated 2 October 2026. [Source authority](/documents/source-authority/) explains that boundary; the [reading guide](/documents/reading-guide/) describes the roles.
+RRG v0.3.1 retains the accepted author clarifications and adds a comparison with existing work. It retains the unchanged minimal core, preserved foundations and evidence catalogue; the earlier evidence audit remains dated 2 October 2026. [Source authority](/documents/source-authority/) explains that boundary; the [reading guide](/documents/reading-guide/) describes the roles.
 
 **Original source** downloads preserve exact bytes. **Explanatory Markdown** is a generated reading export with disclosed adapters. The **publication ZIP** is the selected website bundle, not an assertion that it is the complete original RRG_CURRENT archive.
 

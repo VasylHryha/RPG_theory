@@ -1032,3 +1032,25 @@ the generated list sits above. Reworded.
   - polishing the four new pages;
   - possible pages: Experiments, Related scientific work, Questions critics ask,
     What could RRG be useful for.
+
+## 20. v0.3.1 and "Explore further" pages — accepted (7 Oct 2026)
+
+- **Owner:** "after ask codex for acceptance and then create pages and i will
+  read them - overall it ok, just need to make sure it do not conflict".
+- **Theory RRG v0.3.1:**
+  - adds `02` §17 "Relation to existing work" (Prigogine, Haken, Simon,
+    Kauffman, major transitions, niche construction, assembly theory) and `01`
+    §16 Q18;
+  - citations verified by Claude; the Simon link uses JSTOR;
+  - independently accepted.
+- **Claude recheck findings:** jargon, the Experiments page needing a home/lab
+  split, defensive filler, repeated caveats. Codex fixed all of them.
+- **New pages, Contents Part V "Explore further":** `/related-work/`,
+  `/questions/`, `/experiments/`, `/uses/`. Glossary adds "resonance-fit".
+- **Site-wide conflict check** (`docs/evidence/fidelity-v031/conflicts.md`):
+  stale edition text, leftover "owner" wording and a validator adapter for
+  non-DOI references were fixed. The validator is not weakened.
+- **Fidelity:** 84 readings accepted (21 repaired); release
+  `site-2026.10.07-explore`.
+- **Checks:** smoke e2e 7/7 at both bases (Claude); qualification builds and
+  audits pass.

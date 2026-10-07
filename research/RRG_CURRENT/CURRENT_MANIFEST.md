@@ -1,8 +1,8 @@
 # RRG CURRENT — Active File Manifest
 
-**Active version:** RRG v0.3 — author-clarified edition, 2026-10-06
-**Prior edition:** RRG v0.2.1 repository current, promoted 2026-10-05
-**Evidence audit retained:** 2026-10-02; no new evidence audit in v0.3
+**Active version:** RRG v0.3.1 — relation to existing work, 2026-10-07
+**Prior edition:** RRG v0.3 — author-clarified edition, 2026-10-06
+**Evidence audit retained:** 2026-10-02; no new evidence audit in v0.3.1; five related-work bibliographic records verified 7 October 2026 (Claude)
 **Locked-core status:** carried forward unchanged from the prior repository edition.
 
 Only files listed under **Active files** define the active repository source set. Supporting files under `foundations/` and `checks/` are bundled provenance/audit material and are not additional active definitions. The audited package's internal archive remains preserved in GPT Library.
@@ -11,7 +11,7 @@ Only files listed under **Active files** define the active repository source set
 
 - `00_LOCKED_CORE.md` — minimal normative definitions, carried forward unchanged.
 - `01_world_explanation.md` — author-clarified main explanation, common questions and corrected stellar ancestry.
-- `02_scientific_framework.md` — carried-forward scientific framework with a necessary force-history cross-reference.
+- `02_scientific_framework.md` — scientific framework with §17 Relation to existing work and retained force-history cross-reference.
 - `03_mathematical_core.md` — carried-forward candidate mathematics with a necessary force-history cross-reference.
 - `04_recursive_background_generation.md` — audited argument with minimal v0.3 cross-references and labelled success/force-fit extensions.
 - `05_CHANGE_CONTROL.md` — core change-control protocol, carried forward unchanged.
@@ -19,14 +19,14 @@ Only files listed under **Active files** define the active repository source set
 - `06_evidence_catalog.md` — audited v0.2.1 evidence catalogue and open connections.
 - `07_audit_report.md` — audited v0.2.1 corrections, checks and remaining gaps.
 - `08_claim_coverage.md` — claim registry, sharpened H24–H28/O9 and uncited candidate-topic list.
-- `CHANGELOG.md` — edition changelog, including the v0.3 semantic revision record.
-- `README.md` — v0.3 three-rule entry point and evidence/honesty guide.
+- `CHANGELOG.md` — edition changelog, including the v0.3.1 §4.5 semantic revision record and preserved earlier records.
+- `README.md` — v0.3.1 entry point with a related-work reading path and retained evidence/honesty guide.
 - `SOURCE_AUTHORITY.md` — current authority and unchanged-core/predecessor boundary.
-- `sources.json` — v0.3 edition metadata with the v0.2.1 evidence register carried forward.
+- `sources.json` — v0.3.1 edition metadata and related-work reading records; unchanged v0.2.1 evidence cases.
 
 ## Edition continuity
 
-The exact predecessor is `research/history/repository-current-v0.2.1-promoted-2026-10-05/`, registered in `research/source-manifest.json`. CHANGELOG change `RRG-2026-10-06-V03-AUTHOR-CLARIFIED` owns the semantic record. The resulting full inventory seal is recorded outside this manifest in `config/research-source.json` and its linked revision record, avoiding a self-referential hash.
+The exact v0.3 predecessor is `research/history/repository-current-v0.3-2026-10-07/`, registered in `research/source-manifest.json`. CHANGELOG change `RRG-2026-10-07-V031-RELATED-WORK` owns the §4.5 record (problem, before/after meaning, support, permission, affected claims/dependents and actual-check pointer). Earlier v0.3/v0.2.1 provenance remains preserved. The resulting full inventory seal is recorded outside this manifest in `config/research-source.json` and its linked revision record, avoiding a self-referential hash.
 
 
 ## Supporting bundled material

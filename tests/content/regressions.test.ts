@@ -57,7 +57,22 @@ test('Contents includes new pages, refuses missing metadata and navigates actual
   assert.deepEqual(exampleChapters[1].pages.map(p=>p.route),ladder);
   const contents=bookContents(actual);
   assert.deepEqual(contents.parts[0].chapters[1].pages.map(p=>p.route),['/concepts/','/concepts/geometry-and-modes/','/concepts/stability/','/concepts/recursion/','/concepts/background/','/concepts/effective-interactions/']);
-  assert.equal(contents.home.length+contents.parts.flatMap(p=>p.chapters.flatMap(c=>c.pages)).length,108);
+  assert.equal(contents.home.length+contents.parts.flatMap(p=>p.chapters.flatMap(c=>c.pages)).length,112);
+  assert.deepEqual(contents.parts.map(p=>p.name).slice(3,6),['Research and sources','Explore further','Appendices']);
+  const explore=['/related-work/','/questions/','/experiments/','/uses/'];
+  assert.deepEqual(contents.parts[4].chapters.flatMap(c=>c.pages.map(p=>p.route)),explore);
+  const hrefs=(html:string)=>load(html)('a').toArray().map(a=>a.attribs.href);
+  for (const route of explore) {
+    const entry=entries.find(e=>e.route===route)!;
+    const links=hrefs(renderRelated(actual,route));
+    for (const id of entry.related) assert.ok(links.includes(corpus.entries.get(id)!.route));
+    assert.ok(links.length<=6);
+  }
+  for(let i=0;i<explore.length;i++) {
+    const turn=load(renderPageTurn(actual,explore[i],'/rrg_theory/'));
+    if(i>0)assert.equal(turn('a[rel="prev"]').attr('href'),'/rrg_theory'+explore[i-1]);
+    if(i+1<explore.length)assert.equal(turn('a[rel="next"]').attr('href'),'/rrg_theory'+explore[i+1]);
+  }
   for(let i=0;i<ladder.length;i++) {
     const turn=load(renderPageTurn(actual,ladder[i],'/rrg_theory/'));
     if(i>0)assert.equal(turn('a[rel="prev"]').attr('href'),'/rrg_theory'+ladder[i-1]);
@@ -65,7 +80,6 @@ test('Contents includes new pages, refuses missing metadata and navigates actual
   }
   assert.equal(hub('li').length,9);
   assert.ok(hub('a').toArray().every(a=>a.attribs.href.startsWith('/rrg_theory/examples/')));
-  const hrefs=(html:string)=>load(html)('a').toArray().map(a=>a.attribs.href);
   for(const route of ['/examples/water/','/examples/star/']) assert.deepEqual(hrefs(renderBreadcrumb(actual,route)),['/examples/']);
   assert.deepEqual(hrefs(renderBreadcrumb(actual,'/about/')),[]);
   assert.deepEqual(hrefs(renderBreadcrumb(actual,'/concepts/stability/')),['/start/','/concepts/']);

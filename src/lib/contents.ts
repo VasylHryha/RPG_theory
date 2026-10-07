@@ -49,6 +49,12 @@ const rules: { name: string; heading: string; route?: string; chapters: ChapterR
     { name: 'Technical documents', routes: ['/documents/', '/documents/locked-core/', '/documents/world-explanation/', '/documents/reading-guide/', '/documents/source-authority/', '/documents/foundation-errata/'], matches: p => p.route.startsWith('/documents/') },
     { name: 'Change history', routes: ['/changes/', '/changes/source-history/'], matches: p => p.route.startsWith('/changes/') }
   ] },
+  { name: 'Explore further', heading: 'Part V — Explore further', chapters: [
+    { name: 'Related scientific work', routes: ['/related-work/'] },
+    { name: 'Questions critics ask', routes: ['/questions/'] },
+    { name: 'Experiments', routes: ['/experiments/'] },
+    { name: 'Possible uses', routes: ['/uses/'] }
+  ] },
   { name: 'Appendices', heading: 'Appendices', chapters: [
     { name: 'Glossary, contact and site information', routes: ['/glossary/', '/contact/', '/about/', '/cite/', '/legal/', '/search/'], front: false }
   ] }
@@ -120,7 +126,7 @@ export function renderContents(selection: Selection, base = '/') {
   const routeList = (routes: string[]) => `<ol>${routes.flatMap(route => { const p = all.find(p => p.route === route); return p ? [`<li>${link(p, base)}</li>`] : []; }).join('')}</ol>`;
   const full = book.parts.slice(0, 2).flatMap(p => p.chapters.flatMap(c => c.pages.map(p => p.route)));
   const paths = `<section class="reading-paths"><h2>Reading paths</h2><div><h3>10-minute overview</h3>${routeList(['/', '/start/', '/examples/molecule/', '/examples/star/', '/examples/cell/'])}</div><div><h3>Full explanation</h3>${routeList(full)}</div><div><h3>Technical route</h3>${routeList(['/framework/', '/math/', '/evidence/catalogue/', '/research-status/', '/documents/'])}</div></section>`;
-  return paths + rows(book.home, base) + book.parts.map(part => `<section class="contents-part"><h2>${esc(part.heading)}</h2>${part.chapters.filter(c => c.pages.length).map(chapter => {
+  return paths + rows(book.home, base) + book.parts.map(part => `<section class="contents-part"${part.name === 'Explore further' ? ' id="part-v"' : ''}><h2>${esc(part.heading)}</h2>${part.chapters.filter(c => c.pages.length).map(chapter => {
     const childrenOnly=!chapter.frontRoute;
     let entries = rows(chapter.pages, base, chapter.number, childrenOnly);
     if (chapter.claims) {
@@ -162,7 +168,7 @@ export function renderRelated(selection: Selection, route: string, base = '/') {
   const linkedRoutes = new Set($('a[href]').toArray().map(a => $(a).attr('href')!.split('#')[0]));
   const ids = new Set([...entry.related, ...entry.dependsOn]);
   const candidates = pages.filter(p => p.route !== route
-    && (['concept', 'example', 'evidence'].includes(p.kind) || p.route.startsWith('/claims/') || p.route.startsWith('/evidence/'))
+    && (['concept', 'example', 'evidence'].includes(p.kind) || p.route.startsWith('/claims/') || p.route.startsWith('/evidence/') || p.entry && entry.related.includes(p.entry.id))
     && (p.entry && ids.has(p.entry.id) || linkedRoutes.has(p.route)));
   // Prefer one of each relevant family before filling remaining places, so a
   // long dependency list cannot crowd out a recorded cross-family relation.
@@ -181,7 +187,7 @@ export function renderSectionIndex(selection: Selection, route: string, base = '
     return `<section class="section-reading-list"><h2>Read in order</h2>${groups.map(c => `<section><h3>${esc(c.name === 'Basics' ? 'Basics: how a shape and its activity hold each other' : c.name)}</h3>${rows(c.pages.filter(p => p.route !== route), base)}</section>`).join('')}</section>`;
   }
   if (route === '/evidence/') pages = book.parts[2].chapters.flatMap(c => c.pages);
-  if (route === '/research-status/') return `<section class="section-reading-list"><h2>Read in order</h2>${book.parts[3].chapters.map(c=>rows(c.pages.filter(p=>p.route!==route && !p.route.startsWith('/claims/')),base)+(c.claims?claimList(c.pages.filter(p=>p.route.startsWith('/claims/')),base,'h3'):'')).join('')}</section>`;
+  if (route === '/research-status/') return `<section class="section-reading-list"><h2>Read in order</h2>${book.parts[3].chapters.map(c=>rows(c.pages.filter(p=>p.route!==route && !p.route.startsWith('/claims/')),base)+(c.claims?claimList(c.pages.filter(p=>p.route.startsWith('/claims/')),base,'h3'):'')).join('')}<h2>Explore further</h2>${rows(book.parts[4].chapters.flatMap(c=>c.pages),base)}</section>`;
   if (route === '/documents/') pages = book.parts[3].chapters.find(c => c.name === 'Technical documents')!.pages;
   return pages.length ? `<section class="section-reading-list"><h2>Read in order</h2>${rows(pages.filter(p => p.route !== route), base)}</section>` : '';
 }

@@ -1,0 +1,160 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-STRING",
+  "fingerprint": "d7f2ff924df6fbf95cdd8642405218ec8cc3708390c6f7597cba24598f812d7c",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T06:30:33.367Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Re-reviewed String: boundaries shape motion against RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Verified identical own-read and scientific-source snapshots; prior individual comparison remains applicable. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+  "inputs": {
+    "fingerprint": "d7f2ff924df6fbf95cdd8642405218ec8cc3708390c6f7597cba24598f812d7c",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-STRING",
+      "route": "/examples/string/",
+      "title": "String: boundaries shape motion",
+      "description": "A string’s boundaries constrain its waves; each supported wave has a moving shape.",
+      "revision": 11,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D01",
+        "UT-D02",
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [
+        "BIB-0061"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nA stretched string fixed at both ends can support standing waves. In the simplest pattern, one arch lies between the ends. Another pattern has two arches and a stationary point between them. The ends stay at rest in the ideal model while other regions move.\n\nLength and fixed ends constrain which patterns fit. Tension and mass per unit length set the wave speed. Both the arrangement and the physical properties matter. The drawing shows possible shapes at one instant, rather than a measured amplitude.\n\n## How RRG reads it\n\nThe string is a simple picture for two words in the name. **Resonant** points to [resonance](/glossary/#resonance), organized motion with a rhythm. **Geometry** points to [shape and constraints](/glossary/#geometry-shape): the supported motion has a spatial pattern, and the string’s boundaries restrict that pattern.\n\nIts [mode](/glossary/#mode) includes how different regions move together, rather than just one frequency. RRG asks a wider question: when can shape and activity support each other well enough for a whole to persist as a [resonator](/glossary/#resonator)?\n\n## What you can see here\n\nYou can see resonance and shape together. Change the string’s length or tension and its supported motions change; excite a supported wave and its moving shape becomes visible. This makes the relation easy to picture.\n\nThis is a **Basics** example: it introduces the shape–activity relationship. The next questions concern the two outward roles. Could the lasting whole become a [building block](/glossary/#building-block), or could its activity create [changed surroundings](/glossary/#changed-surroundings) that support related organization? Those steps need a further system to examine.\n\n## Where the interpretation stops\n\nThe fixed supports are supplied. The wave does not demonstrate that its motion maintains those supports. A model of that stronger feedback would need to show which activity preserves which constraint, and for how long. The physical string model also needs tension and material properties; naming geometry does not supply them.\n\n## Evidence and sources\n\n[OpenStax’s standing-wave model](/references/#BIB-0061) explains the ideal fixed-end string and its parameters. The [geometry and modes page](/concepts/geometry-and-modes/) develops the RRG terms, while the [molecule example](/examples/molecule/) follows a whole that can become a useful part.\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "aaeb376aca75eb01c6a567be407f70bea82e947cdd1dbb63288b649a66d71d32"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "013b33f248ab9128d2e0384cb832691b7f6bdea4f3d6e062092bb705c025d030"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "b04e46db8115b0b4e7dae1b924c664282da8e4a29184c78c4a03f0a898fbbf3a"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "88ead778e2919255913d18e3a6656910d4dbc43600acc06dc386c6ac2034b9be"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "806b201acd319257334ff5fcd214863c580f3fa883295b42a37e2cade7d42cb1"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "6a19b4cebcc960c71a796ed0f0af798597351c91760e0099d84e892107c89d1d"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "373c615d3840bf153ab3c2a09b9a12176383d8d2794a8415ed32a0d232ad0225"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "064a3150c792f3d8ae85fce036969406e1d9423f1977df64bca3c4ede07303ce"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "94452831189ef2c85097aee87c6fd682baaf68a6814e829029dd01f4b1edd43b"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "3581d7116523ed1f14d348f5ab62ba04c4541a1a3f80c4a79babd47623ce63a1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "458247c742f4a95c3c39e67c02ee5d4db4744b2f71103ae944c14601108ac149",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Re-reviewed String: boundaries shape motion against RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Terminology compared with RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "meaning": "Re-reviewed String: boundaries shape motion against RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Read own authored body, summary and exact statement with its mapped v0.3.1 sections. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "assumptions": "Re-reviewed String: boundaries shape motion against RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Supplied conditions and model scope retained: An illustrative beginner explanation mapped to the original supplied RRG documents.   Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "hypotheses": "Re-reviewed String: boundaries shape motion against RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Core definitions, RRG interpretations, candidate models and speculation retain their source-reported roles; no scientific certification. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "evidenceDescriptions": "Re-reviewed String: boundaries shape motion against RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Inherited inspection depths remain dated; no new paper-methods audit, experimental replication or numerical reproduction. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "openQuestions": "Re-reviewed String: boundaries shape motion against RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Compared the current 08 H01–H28/O1–O9 boundaries and mapped local limits without inventing proof or removing ambition. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "attribution": "Re-reviewed String: boundaries shape motion against RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. RRG meanings belong to Vasyl Hryha's selected source edition; named external findings retain registered authors/DOIs and read depth. Bibliography: BIB-0061. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance.",
+    "sourceMappings": "Re-reviewed String: boundaries shape motion against RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.. One arch and two arches with a central stationary point are correctly described, with tension and mass per unit length retained alongside length and endpoints. The individual scientific statement, introduction and body are unchanged from the issued v0.3 read; verified them against their actual current source excerpt and retained conditions. The v0.3.1 edition/source identity and shared navigation alter the fingerprint without strengthening this claim. All mapped current files match the reviewed v0.3.1 inventory; the new 01 Q18/02 §17/README comparison is consistent with this reading. Source-reported status and attribution are retained; no fresh experimental, numerical or paper-methods certification is claimed. Verified RRG v0.3.1 01 §§1–2: full modes, string and reciprocal shape–activity picture; §§3–3.1: persistence over an interval; §7.1: separate outward roles. Unchanged core §§1–4 supplies geometry, modes, resonator and stability. BIB-0061 retains the ideal fixed-end string model, length, tension and mass per unit length. This illustration does not demonstrate active maintenance of supports or a recursive next level.; exact mapped line span/hash and complete source/dependency closure are recorded in inputs. Public utility routes are generated rather than separate review entries. Inspected the actual built site and corrected three historical role phrases in the source display only: the maintainer is called the author in README and CHANGELOG, with disclosed adapter notes on their reading pages. Raw sources and downloads remain byte-identical. The generated Documents bundle disclosure now names v0.3.1 and its related-work addition; audit dates and predecessor identity remain unchanged. Other reading text is unchanged; shared renderer fingerprints are renewed for this actual narrow repair. Exact own-read and source snapshots verified unchanged. The related-reading renderer now honours explicitly registered related articles. Compared this page's before/after links at root and /rrg_theory/: no link delta. Existing links remain; new links have selected current entries and explicit metadata relations. Core reading/source bytes are identical to the prior individually read acceptance."
+  }
+}

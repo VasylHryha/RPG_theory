@@ -4,14 +4,14 @@
   "route": "/glossary/",
   "title": "Glossary",
   "description": "Plain meanings of the key RRG terms, with links to their explanations and exact source sections.",
-  "revision": 3,
+  "revision": 6,
   "kind": "concept",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.3 — author-clarified edition, 2026-10-06",
+  "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
   "publicationState": "published",
   "publishedAt": "2026-10-06",
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "sourceRefs": [
     "R-CURRENT-CORE",
     "R-CURRENT-WORLD"
@@ -37,13 +37,13 @@
   "plainLanguage": "",
   "scope": "A plain-language glossary of source meanings, not additional normative definitions or scientific certification.",
   "evidenceState": "not-applicable",
-  "sourceMapping": "RRG v0.3 01 §§0, 1.1, 3.1, 6.1, 7.1, 9 and 16; unchanged locked core §§1–9. Background/resonance/resonator: 01 §1.1 and core §§2–4; building block/changed surroundings: 01 §7.1 and core §5; geometry/mode: core §§1–3; inner/outer resonance: 01 §6.1; recursion: 01 §0 and core §8; scale: core §7; spreading: 01 §9 and core §9; stability: core §4 and 01 §3.1. Explanatory meanings preserve the distinction between core definitions and labelled extensions.",
+  "sourceMapping": "RRG v0.3.1 01 §§0, 1.1, 3.1, 6.1, 7.1, 9 and 16; unchanged locked core §§1–9. Background/resonance/resonator: 01 §1.1 and core §§2–4; building block/changed surroundings: 01 §7.1 and core §5; geometry/mode: core §§1–3; inner/outer resonance: 01 §6.1; recursion: 01 §0 and core §8; scale: core §7; spreading: 01 §9 and core §9; stability: core §4 and 01 §3.1. Explanatory meanings preserve the distinction between core definitions and labelled extensions.",
   "adapter": "markdown/1",
   "limits": "",
   "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
 }
 ---
-These are RRG’s meanings: the locked core defines the central terms, while the v0.3 world explanation describes the broader proposals.
+These are RRG’s meanings: the locked core defines the central terms, while the v0.3.1 world explanation describes the broader proposals.
 
 [ B ](#b) · [ C ](#c) · [ G ](#g) · [ I ](#i) · [ M ](#m) · [ O ](#o) · [ R ](#r) · [ S ](#s)
 
@@ -96,6 +96,10 @@ Recursion means lasting wholes can become parts of larger wholes and the geometr
 ### Resonance
 
 In RRG’s broad explanatory language, resonance means motion that has fallen into rhythm, while each physical evidence case keeps its own meaning and tests — [world explanation §1.1](/documents/world-explanation/#11-motion-starts-as-noise-order-appears-by-chance). See [first lasting structures](/examples/first-structures/) for RRG’s proposed reading.
+
+### Resonance-fit
+
+Forces gather and hold; resonance-fit is RRG’s proposed rule for which arrangements fit together and last. It concerns compatible shape and activity within a thing and between things, rather than an extra force — [world explanation §6.1](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts). Compare [related work](/related-work/), [questions](/questions/) and [experiments](/experiments/).
 
 ### Resonator
 
