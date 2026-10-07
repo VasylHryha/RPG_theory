@@ -1139,3 +1139,5 @@ the generated list sits above. Reworded.
   rules unchanged. Dry-run against v0.3.3 to confirm parity.
 
 ## 28. Deployed (7 Oct 2026): main `184ed5d`, release `site-2026.10.07-v033`; CI 37603495441, publish 37603981451 passed; live 200s, 404 real, §6.1 paragraph served. Next: `npm run edition` automation (§27).
+
+## 29. `npm run edition` delivered (7 Oct 2026) — usage `docs/handoffs/RRG_EDITION_COMMAND.md`. Claude dry-run: 4 s, zero writes; trial bumps headers/edition lines automatically. Accepted without a separate Codex recheck to save time.

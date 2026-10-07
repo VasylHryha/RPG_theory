@@ -35,19 +35,19 @@ This is the sole execution plan for the website, research-document publication, 
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | §0.87 v0.3.3 exact forces-by-scale paragraph, combined website fidelity and selection REVIEW_READY; release `site-2026.10.07-v033` selected privately. Live remains v0.3.2 under §0.86 |
+| Current milestone / state | §0.90 permanent edition automation REVIEW_READY; current source edition remains v0.3.3, accepted under §0.88 and deployment recorded under §0.89 |
 | Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/rrg_theory`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
 | Last engineering acceptance | §0.80 rechecked bounded High acceptance of 84 current readings and the repaired Explore further integration; 21 archived stale decisions preserved. Earlier issued acceptance/evidence retained for its own inputs |
-| Latest execution receipt | `docs/evidence/fidelity-v033/receipt.md` with `source-revision-v0.3.3/receipt.md`; v0.3.2 acceptance and all earlier receipts preserved |
+| Latest execution receipt | `docs/evidence/edition-automation-2026-10-07/receipt.md`; v0.3.3 source/fidelity/deployment receipts and all earlier evidence preserved |
 | Project-wide minimal normative core | `research/RRG_CURRENT/00_LOCKED_CORE.md` plus its change-control/version rules remain the minimal locked authority unless deliberately revised through the recorded source-change process |
-| Selected repository package | **RRG v0.3.3 — forces by scale, 2026-10-07**, REVIEW_READY under §0.87. All 24 v0.3.2 predecessor members preserved at `research/history/repository-current-v0.3.2-2026-10-07/`; core, claim statuses and evidence unchanged |
+| Selected repository package | **RRG v0.3.3 — forces by scale, 2026-10-07**, accepted under §0.88. All 24 v0.3.2 predecessor members preserved at `research/history/repository-current-v0.3.2-2026-10-07/`; automation trial creates no new production source edition |
 | Locked-core SHA-256 | Computed raw value recorded in `config/research-source.json`; it identifies the currently admitted edition. Any adopted scientific revision must create a new edition/hash with predecessor/change records rather than silently moving the pin |
 | Evidence namespace / history | Current v0.3.3 source-label map retains the v0.3 inventory of 85 document/edition-scoped labels, including H24–H28/O9; evidence cases/statuses unchanged. Five new source further-reading records are bibliographic context, not new evidence cases |
 | Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
-| Website/browser/a11y/live evidence | §0.87: fresh v0.3.3 browser smoke assigned to Claude, not performed here. §0.85 smoke remains passing evidence for its v0.3.2 inputs |
+| Website/browser/a11y/live evidence | Prior v0.3.3 smoke and deployment recorded at §§0.88–0.89; not rerun for automation. §0.90 uses one isolated structural trial and target build/audit |
 | Current validation / decisions | §0.87: 84 current accepted / 21 archived stale / 0 pending / 0 rejected, currentSourceQualified=true; source revision, fidelity, zero Astro diagnostics, both qualification builds/audits and 21/21 reused-output content tests PASS. No scientific certification |
-| External publication state | Deployed §0.86: main `4f03ef1`, release `site-2026.10.07-v032`, routine CI 37596453730, publish 37597072770. Target `https://vasylhryha.github.io/rrg_theory/` |
-| Next action | Claude bounded review/browser smoke of `dist/fidelity-v033-root` and `dist/fidelity-v033-target`; implementation stops at REVIEW_READY. No commit/push/deploy in this run |
+| External publication state | Recorded deployment §0.89: main `184ed5d`, release `site-2026.10.07-v033`, routine CI 37603495441, publish 37603981451. Target `https://vasylhryha.github.io/rrg_theory/`; no public action in automation work |
+| Next action | One bounded separate High acceptance of §0.90 edition automation. No commit/push/deploy authorized by this implementation task |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -2172,3 +2172,9 @@ Main `4f03ef1`, release `site-2026.10.07-v032`; routine CI 37596453730 and publi
 ### 0.89 RRG v0.3.3 deployed — 7 October 2026
 
 Main `184ed5d`, release `site-2026.10.07-v033`; routine CI 37603495441 and publish 37603981451 passed. Live: home, World explanation, Framework 200; §6.1 paragraph served; unknown route 404.
+
+### 0.90 Permanent edition automation — 7 October 2026
+
+**REVIEW_READY.** Added `npm run edition`: committed-HEAD byte preservation, dated predecessor root, automatic edition/provenance/changelog/registration/binding updates, immutable fidelity evidence with metadata-only comparison reuse, an explicit reviewed-ID continuation, optional release selection preserving existing rights and prior selection, one target build/audit and exact force-add evidence paths. Dry-run writes nothing. Usage: `docs/handoffs/RRG_EDITION_COMMAND.md`. Existing validators remain unchanged; real content deltas stop for reading, and core/membership/ambiguous partial-excerpt changes retain the existing explicit procedure.
+
+**Focused evidence:** current-workspace dry-run and zero Astro diagnostics; one isolated structural test demonstrates a tiny source edit, 24 byte-exact predecessor members, 59 metadata-only decisions / 25 pending content-dependent readings, explicit reviewed-mode continuation, stale-sidecar rejection, unchanged commit identity, and source/fidelity validators plus one target qualification build/output audit. Synthetic trial decisions do not approve production content. Earlier failed diagnostics and Markdown-comment trial remain separate from passing evidence. Short receipt: `docs/evidence/edition-automation-2026-10-07/receipt.md`. Actual current sources, publication registries and release selection remain unchanged. Next: separate bounded High acceptance of the command; no commit, push or deployment.

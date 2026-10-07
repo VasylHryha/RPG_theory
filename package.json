@@ -8,6 +8,7 @@
     "npm": "11.16.0"
   },
   "scripts": {
+    "edition": "node --import tsx scripts/edition.ts",
     "dev": "astro dev --host 127.0.0.1",
     "check": "astro check",
     "check:sources": "node --import tsx scripts/check-sources.ts",
