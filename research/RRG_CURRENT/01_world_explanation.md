@@ -1,6 +1,6 @@
-# RRG v0.3.1 — World Explanation
+# RRG v0.3.2 — World Explanation
 
-**Relation-to-existing-work edition · 2026-10-07 · Vasyl Hryha**
+**Forces-rationale edition · 2026-10-07 · Vasyl Hryha**
 
 > **NON-NORMATIVE:** examples explain the locked core; they do not define it. See `00_LOCKED_CORE.md`.
 
@@ -338,6 +338,8 @@ In the author's reading, life as we know it is likely impossible without this ea
 Nuclei provide a setting for nuclear organization; atoms provide a setting for chemical bonds. New combinations bring collective interactions and constraints that were unavailable in the earlier organization. Effective interaction regimes can change without a fundamental force being newly created.
 
 **Speculative RRG hypothesis:** the fundamental forces themselves may have appeared as scale and time changed, created by earlier levels. They need not, in this conjecture, all have existed in their present form from the start. This is an open proposal, not established cosmic history or a consequence of the locked core. It may never be directly confirmed. It assigns neither one force per scale nor a demonstrated chronological sequence to the four forces.
+
+**Why RRG considers this:** the main interactions each dominate a different level of organization, and each level arose from conditions earlier levels created. If forces too were enabled by an environment that earlier levels transformed, they would follow the same RRG cycle — lasting shapes change their surroundings, and a new scale of geometry and interaction becomes possible. This fit motivates the hypothesis; it is not evidence for it.
 
 The effective-law discussion in [04 §§15, 29](04_recursive_background_generation.md) and the latent-channel model in 02 §19/03 §29 address narrower possibilities; neither derives the origin of the fundamental interactions. See [08 H26, O4](08_claim_coverage.md). Examples of force separation await citations before new evidential use here.
 

@@ -4,11 +4,11 @@
   "route": "/evidence/",
   "title": "Evidence and its scope",
   "description": "Begin with local mechanisms, partial bridges and comparison cases, then inspect all 22 audited source cases.",
-  "revision": 10,
+  "revision": 12,
   "kind": "research-status",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
+  "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-07",
@@ -129,28 +129,28 @@ The complete table retains all **22 source cases** and their two separate classi
 
 | Source case | Web reading | Result type | RRG relation |
 |---|---|---|---|
-| RRG v0.3.1:E01 | [Mechanical synchronization](/claims/UT-E101/) | experiment | component / constraint |
-| RRG v0.3.1:E02 | [Chladni particle manipulation](/claims/UT-E102/) | experiment | component |
-| RRG v0.3.1:E03 | [Acoustic microparticle trapping](/claims/UT-E103/) | experiment | component |
-| RRG v0.3.1:E04 | [Noise-assisted patterning model](/claims/UT-E104/) | simulation | component |
-| RRG v0.3.1:E05 | [Stationary Turing patterns](/claims/UT-E105/) | experiment | component / comparator |
-| RRG v0.3.1:E06 | [Forced chemical patterns](/claims/UT-E106/) | experiment | partial bridge |
-| RRG v0.3.1:E07 | [Atom–cavity self-organization](/claims/UT-E107/) | experiment | partial bridge |
-| RRG v0.3.1:E08 | [Colloidal swarmalators](/claims/UT-E108/) | experiment | partial bridge |
-| RRG v0.3.1:E09 | [Simulated resonance selection](/claims/UT-E109/) | simulation | partial bridge |
-| RRG v0.3.1:E10 | [Replicating chemical spots](/claims/UT-E110/) | experiment | partial bridge |
-| RRG v0.3.1:E11 | [Replicating suspension holes](/claims/UT-E111/) | experiment | partial bridge |
-| RRG v0.3.1:E12 | [Driven magnetic assembly](/claims/UT-E112/) | experiment | partial bridge |
-| RRG v0.3.1:E13 | [Cooperative RNA networks](/claims/UT-E113/) | experiment | structural analogue / partial bridge |
-| RRG v0.3.1:E14 | [Collective reduction and memory](/claims/UT-E114/) | theory / mathematical derivation | partial bridge |
-| RRG v0.3.1:E15 | [Engineered lattice dynamics](/claims/UT-E115/) | experiment | partial bridge |
-| RRG v0.3.1:E16 | [Confinement-dependent packing](/claims/UT-E116/) | experiment and simulation | component / comparator |
-| RRG v0.3.1:E17 | [Low-absorption selection](/claims/UT-E117/) | simulation; published report also includes experimental evidence | constraint |
-| RRG v0.3.1:E18 | [Optical binding](/claims/UT-E118/) | experiment | partial bridge |
-| RRG v0.3.1:E19 | [Random-light interactions](/claims/UT-E119/) | experiment and theory | partial bridge |
-| RRG v0.3.1:E20 | [Replicating granular bands](/claims/UT-E120/) | experiment | partial bridge |
-| RRG v0.3.1:E21 | [Controlled amplitude approximation](/claims/UT-E121/) | theory / mathematical derivation | partial bridge |
-| RRG v0.3.1:E22 | [Nonresonant granular transport](/claims/UT-E122/) | experiment | constraint / comparator |
+| RRG v0.3.2:E01 | [Mechanical synchronization](/claims/UT-E101/) | experiment | component / constraint |
+| RRG v0.3.2:E02 | [Chladni particle manipulation](/claims/UT-E102/) | experiment | component |
+| RRG v0.3.2:E03 | [Acoustic microparticle trapping](/claims/UT-E103/) | experiment | component |
+| RRG v0.3.2:E04 | [Noise-assisted patterning model](/claims/UT-E104/) | simulation | component |
+| RRG v0.3.2:E05 | [Stationary Turing patterns](/claims/UT-E105/) | experiment | component / comparator |
+| RRG v0.3.2:E06 | [Forced chemical patterns](/claims/UT-E106/) | experiment | partial bridge |
+| RRG v0.3.2:E07 | [Atom–cavity self-organization](/claims/UT-E107/) | experiment | partial bridge |
+| RRG v0.3.2:E08 | [Colloidal swarmalators](/claims/UT-E108/) | experiment | partial bridge |
+| RRG v0.3.2:E09 | [Simulated resonance selection](/claims/UT-E109/) | simulation | partial bridge |
+| RRG v0.3.2:E10 | [Replicating chemical spots](/claims/UT-E110/) | experiment | partial bridge |
+| RRG v0.3.2:E11 | [Replicating suspension holes](/claims/UT-E111/) | experiment | partial bridge |
+| RRG v0.3.2:E12 | [Driven magnetic assembly](/claims/UT-E112/) | experiment | partial bridge |
+| RRG v0.3.2:E13 | [Cooperative RNA networks](/claims/UT-E113/) | experiment | structural analogue / partial bridge |
+| RRG v0.3.2:E14 | [Collective reduction and memory](/claims/UT-E114/) | theory / mathematical derivation | partial bridge |
+| RRG v0.3.2:E15 | [Engineered lattice dynamics](/claims/UT-E115/) | experiment | partial bridge |
+| RRG v0.3.2:E16 | [Confinement-dependent packing](/claims/UT-E116/) | experiment and simulation | component / comparator |
+| RRG v0.3.2:E17 | [Low-absorption selection](/claims/UT-E117/) | simulation; published report also includes experimental evidence | constraint |
+| RRG v0.3.2:E18 | [Optical binding](/claims/UT-E118/) | experiment | partial bridge |
+| RRG v0.3.2:E19 | [Random-light interactions](/claims/UT-E119/) | experiment and theory | partial bridge |
+| RRG v0.3.2:E20 | [Replicating granular bands](/claims/UT-E120/) | experiment | partial bridge |
+| RRG v0.3.2:E21 | [Controlled amplitude approximation](/claims/UT-E121/) | theory / mathematical derivation | partial bridge |
+| RRG v0.3.2:E22 | [Nonresonant granular transport](/claims/UT-E122/) | experiment | constraint / comparator |
 
 ## Continue from the evidence
 

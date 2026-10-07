@@ -1,0 +1,163 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-STABILITY",
+  "fingerprint": "a2a8bcddd3a14446089bb1bc36570e2a404b2758c415db0929a4e6c7fabab850",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T08:22:13.307Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-STABILITY.json, SHA-256 993f3173c3edfd387fefedce6c55c039adb8ec4635216616ef286e8d68da1670. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "a2a8bcddd3a14446089bb1bc36570e2a404b2758c415db0929a4e6c7fabab850",
+    "ownRead": {
+      "id": "DOC-CONCEPT-STABILITY",
+      "route": "/concepts/stability/",
+      "title": "Stability: what persists?",
+      "description": "Stability means lasting for a time; persistence, recovery and attraction ask different questions.",
+      "revision": 11,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D03",
+        "UT-D04"
+      ],
+      "related": [
+        "DOC-EXAMPLE-FIRST-STRUCTURES"
+      ],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## Lasting while things change\n\nA cell exchanges material and keeps working. A molecule retains an organization while its parts remain active. Both make [stability](/glossary/#stability) easier to picture: what lasts is an organization, rather than a motionless set of ingredients.\n\nRRG asks whether shape and activity support a lasting whole—a [resonator](/glossary/#resonator)—over the interval being considered. That interval may be short or long.\n\n## Energy and time\n\nA living cell needs ongoing resources and energy flow. A passively persistent bound structure can hold without continuous outside power. Each system needs an energetic state compatible with its organization; having energy available alone does not ensure that it lasts.\n\n[Read the energy-and-time explanation](/documents/world-explanation/#31-energy-and-time). RRG’s broad wording connects energy with activity, while a physical model still distinguishes motion, stored energy and energy transfer.\n\n## Three different measurements\n\nImagine disturbing a specified organized state. Does it remain within limits? Does it leave those limits and return? Do nearby states approach it?\n\n- **Persistence** measures whether the chosen organization remains within stated bounds over an interval.\n- **Recovery** measures whether it returns after a disturbance.\n- **Attraction** measures whether nearby states tend toward it.\n\nThese tests answer different questions. A state can persist over the observed interval without having been shown to recover. Choose the test, conditions and limits that match the physical system.\n\n## The precise definition\n\nThe locked core defines stability as self-consistent closure between [geometry](/glossary/#geometry-shape), the organization and constraints, and [mode structure](/glossary/#mode), its full activity and response:\n\n$$\nG\\leftrightarrow M.\n$$\n\nHere $G$ and $M$ name those two aspects of the same whole. Stability promises no permanence. A model supplies its own conditions and numerical limits; the definition alone gives no universal stability theorem.\n\nThe [stability definition](/claims/UT-D04/) also lists specialist measurements such as Lyapunov stability, decay width and metastability. Like lifetime and perturbation recovery, these test particular systems; they do not replace the core meaning.\n\nCompare the [cell example](/examples/cell/) with [recursion and scale](/concepts/recursion/), where a lasting whole becomes a useful part.\n",
+      "sourceMapping": "RRG v0.3.2 01 §§3–3.1: dynamic stability, energetic state, passive persistence versus maintained flow and no promised permanence; §10: maintained cells. Unchanged core §4 and retained framework §§2.4, 3 proposition 2, 13: self-consistent closure for an interval and system-specific tests. Persistence, recovery and attraction remain distinct measurements, not a new universal theorem or redefinition.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "ec61105c9e31ec016980ab74aae1bf7be66636ba1f8dbb62bd728a589e049c1a"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "06b1ab03e55ae39e627332bcd06aa9330e2fcd90751a6a10620b00f83999d09a"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "3b30f4c92a78e5a4c0a0c25198cf07fe678d1fad5a4a2808cd5be0081676f88c"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "976c08617975b420ab65c5adcba6fc333645d5af3744aacf89baa045170caefe"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "11a23409bd88dc1c51daa6842ca655fbbf7bff95299695d35d98c7c026904b87"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "738d23c92c176e3f789f597ea62b799c11dba42875b7f4df39151f5e703444b4"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "19d2dc520db05d419de648d4f0339aa2e30eee29b482bba1a425b8a64490eff9"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "833f24a26afd982c4553976986a95cb3f19eb436952344fe88118d92464c375d"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "1df9866f50b8e819718aa0a9cc5c41f1fae927659dde61b0925417a4ba4ae76c"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "207a591ef45880f3899bee641ba45302aaa9600358e0d1568516eef74d678a09"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "fb13d98a62ed44ccf4871c047d77c66bdf47346071572a317910b7267f40b7f1",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "7fcecd5fc8722de3046c2900718a8cc56e4aeaf9cebcb8c87c5ed369fe67d697",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-STABILITY.json, SHA-256 993f3173c3edfd387fefedce6c55c039adb8ec4635216616ef286e8d68da1670. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-STABILITY.json, SHA-256 993f3173c3edfd387fefedce6c55c039adb8ec4635216616ef286e8d68da1670. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-STABILITY.json, SHA-256 993f3173c3edfd387fefedce6c55c039adb8ec4635216616ef286e8d68da1670. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-STABILITY.json, SHA-256 993f3173c3edfd387fefedce6c55c039adb8ec4635216616ef286e8d68da1670. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-STABILITY.json, SHA-256 993f3173c3edfd387fefedce6c55c039adb8ec4635216616ef286e8d68da1670. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-STABILITY.json, SHA-256 993f3173c3edfd387fefedce6c55c039adb8ec4635216616ef286e8d68da1670. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-STABILITY.json, SHA-256 993f3173c3edfd387fefedce6c55c039adb8ec4635216616ef286e8d68da1670. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-STABILITY.json, SHA-256 993f3173c3edfd387fefedce6c55c039adb8ec4635216616ef286e8d68da1670. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

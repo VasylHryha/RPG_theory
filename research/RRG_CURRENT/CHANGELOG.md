@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.3.2 — 2026-10-07: Forces rationale
+
+**changeId:** `RRG-2026-10-07-V032-FORCES-RATIONALE`
+**category:** wording (one motivating paragraph; no definition-core or evidence-status change).
+**Prior edition/hash:** RRG v0.3.1 — relation to existing work, 2026-10-07; inventory seal `2c2ab0fa3ce4c172276a9247e3a207061e7fef6f7a40d583a67d6f504e390408`. Exact per-file identities are in the preserved predecessor registration.
+**Preserved edition:** `research/history/repository-current-v0.3.1-2026-10-07/`; all 24 members retain exact v0.3.1 bytes. The loadable predecessor is `docs/evidence/source-revision-v0.3.2/predecessor-root/`.
+**Affected files:** 01_world_explanation.md, README.md, sources.json, CHANGELOG.md, CURRENT_MANIFEST.md and SOURCE_AUTHORITY.md. Only 01 §7.3 receives scientific wording; all other edits are edition/provenance metadata. Core, 02–08, claim IDs/statuses, evidence, foundations and checks remain unchanged.
+**Affected claims:** H26/O4 motivating context only. Their existing §7.3 pointers and speculative status remain accurate without editing 08. Exact derivative IDs are in the machine transaction.
+**Problem:** §7.3 states the speculative forces hypothesis without explaining why RRG considers it.
+**Before/after meaning:** the existing hypothesis is retained; one paragraph after it explains the proposed fit with the cycle in which lasting shapes change surroundings and enable another scale of geometry and interaction. The fit motivates the hypothesis; it is not evidence for it.
+**Rationale/support:** use the exact wording approved in the 7 October 2026 brief. No new factual evidence, definition, chronology or one-force-per-scale assignment is introduced.
+**Permission basis/task scope:** Vasyl Hryha's “ok, so yes” in owner feedback §22, implemented exactly under `RRG_V032_FORCES_AND_FOUNDATIONS_BRIEF_2026-10-07.md` and R4 §§0.3/4.5. No commit, push, deployment or licence grant.
+**Dependents:** source registration, history, hashes/excerpts, derivative revisions and edition metadata rebind coherently through existing tools. Website-only foundation downloads and notes do not rewrite snapshots or source headers. Existing decisions remain preserved; affected fingerprints require separate bounded High acceptance.
+**Tests/review actually performed:** actual checks and blockers are recorded in `docs/evidence/source-revision-v0.3.2/receipt.md`. Implementation stops at REVIEW_READY, without self-acceptance.
+**Resulting edition/hash:** RRG v0.3.2 — forces rationale, 2026-10-07; result seal and manifest hash are external in `config/research-source.json` and `research/publication/source-revision-v0.3.2.json`, avoiding circular hashes.
+
 ## v0.3.1 — 2026-10-07: Relation to existing work
 
 **changeId:** `RRG-2026-10-07-V031-RELATED-WORK`

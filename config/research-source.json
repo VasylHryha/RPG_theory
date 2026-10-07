@@ -1,15 +1,15 @@
 {
   "schema": "unity-source-intake/1",
   "corpusScope": "current",
-  "sourceReference": "Author-directed related-work revision of 2026-10-07; exact v0.3 predecessor preserved; normative core and evidence cases unchanged; five related-work bibliographic records supplied as verified by Claude",
+  "sourceReference": "Author-approved forces rationale of 2026-10-07; exact v0.3.1 predecessor preserved; normative core, claim statuses and evidence cases unchanged",
   "sourceArchiveSha256": "96f274e0cc236279cca21f91dc3d2dc706a93e6a6a416af4612d2f97a672c2a2",
   "directory": "research/RRG_CURRENT",
-  "edition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
+  "edition": "RRG v0.3.2 — forces rationale, 2026-10-07",
   "corePath": "00_LOCKED_CORE.md",
   "coreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
   "manifestPath": "CURRENT_MANIFEST.md",
   "manifestFormat": "markdown-active-files/1",
-  "manifestSha256": "64e96c9cb520d44983f70f2bb565e10d64316c70c41cc144bb8cfa82ccbe903d",
+  "manifestSha256": "ca1533efb58c1f66125e97da1830e8d1d16adbebf3879b363cf04ee9d27592a4",
   "manifestMembers": [
     "00_LOCKED_CORE.md",
     "01_world_explanation.md",
@@ -35,8 +35,8 @@
     },
     {
       "path": "01_world_explanation.md",
-      "bytes": 40120,
-      "sha256": "94452831189ef2c85097aee87c6fd682baaf68a6814e829029dd01f4b1edd43b",
+      "bytes": 40557,
+      "sha256": "207a591ef45880f3899bee641ba45302aaa9600358e0d1568516eef74d678a09",
       "role": "current-research-document"
     },
     {
@@ -89,32 +89,32 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 14336,
-      "sha256": "5cc059f953f415a3598b37a8c96946f43e9bc70020a9ab5044986e3699497d1d",
+      "bytes": 17037,
+      "sha256": "030a4f5a0e56764e695d0ce6b6245d7e5e5858fc375305def519c5874e81c50a",
       "role": "edition-history"
     },
     {
       "path": "CURRENT_MANIFEST.md",
-      "bytes": 3264,
-      "sha256": "64e96c9cb520d44983f70f2bb565e10d64316c70c41cc144bb8cfa82ccbe903d",
+      "bytes": 3309,
+      "sha256": "ca1533efb58c1f66125e97da1830e8d1d16adbebf3879b363cf04ee9d27592a4",
       "role": "edition-manifest"
     },
     {
       "path": "README.md",
-      "bytes": 10206,
-      "sha256": "ccfc035d84ceebf9c3b9b12cbec457b08749039c87c6172903906d5586fc3d1e",
+      "bytes": 10361,
+      "sha256": "66f403e9ef8220436b033398766cd773a70337ee3c33ec09310e1609b71d646f",
       "role": "package-guide"
     },
     {
       "path": "SOURCE_AUTHORITY.md",
-      "bytes": 3801,
-      "sha256": "80c34a483b252a7058391bb12214bf886beab567f50c717a673f91136c1860e6",
+      "bytes": 3944,
+      "sha256": "db7ca6078600f67bd5063aa26e6fb10304fa2e51be4ff2bee837196c60d5a2b0",
       "role": "source-authority"
     },
     {
       "path": "sources.json",
-      "bytes": 29292,
-      "sha256": "064a3150c792f3d8ae85fce036969406e1d9423f1977df64bca3c4ede07303ce",
+      "bytes": 29372,
+      "sha256": "1df9866f50b8e819718aa0a9cc5c41f1fae927659dde61b0925417a4ba4ae76c",
       "role": "source-register"
     },
     {
@@ -172,16 +172,16 @@
       "role": "audit-check"
     }
   ],
-  "inventorySeal": "2c2ab0fa3ce4c172276a9247e3a207061e7fef6f7a40d583a67d6f504e390408",
+  "inventorySeal": "b476dd57d3357b3eeadd668f0977261f1b29ea671d3c0537b2855c3ab95eeb22",
   "priorCoreSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
   "revision": {
     "category": "wording",
-    "predecessor": "RRG v0.3 — author-clarified edition, 2026-10-06; inventory seal dd38bd32095925941cf0c18199052767747e59c14d40ef298f900a52cab352b1",
-    "problem": "Related-work passages lack one readable comparison of seven bodies of work and RRG’s undemonstrated proposed addition.",
-    "before": "Component related-work discussions without a unified comparison.",
-    "after": "Seven-work comparison, common question and reading path; proposed cycle and resonance-fit clearly lack distinguishing evidence; core and evidence unchanged.",
-    "rationale": "Explain shared ideas and proposed differences within one source edition; register supplied bibliographic identities without enlarging evidence claims.",
-    "permissionBasis": "Vasyl Hryha’s approved 7 October 2026 task: source v0.3.1 then four drafts for review under R4 §§0.3/4.5; no acceptance or public action authorized.",
+    "predecessor": "RRG v0.3.1 — relation to existing work, 2026-10-07; inventory seal 2c2ab0fa3ce4c172276a9247e3a207061e7fef6f7a40d583a67d6f504e390408",
+    "problem": "The speculative forces hypothesis lacks its motivating RRG rationale.",
+    "before": "Section 7.3 states the speculative hypothesis without the motivating cycle comparison.",
+    "after": "The exact approved paragraph explains the cycle fit as motivation, explicitly not evidence.",
+    "rationale": "Clarify why RRG considers the hypothesis without changing definitions, claims, statuses or evidence.",
+    "permissionBasis": "Owner feedback section 22: Vasyl Hryha approved plans A and B with “ok, so yes”; implement the exact 7 October 2026 v0.3.2 brief under R4 sections 0.3/4.5; no commit, push or deploy.",
     "dependentReviewHashes": []
   },
   "inspection": {
@@ -212,7 +212,7 @@
       "checks/verification_results.json",
       "checks/verify_small_results.py"
     ],
-    "evidenceRef": "docs/evidence/source-revision-v0.3.1/receipt.md"
+    "evidenceRef": "docs/evidence/source-revision-v0.3.2/receipt.md"
   },
   "bindings": [
     {
@@ -258,17 +258,17 @@
       "path": "08_claim_coverage.md"
     },
     {
-      "sourceSha256": "5cc059f953f415a3598b37a8c96946f43e9bc70020a9ab5044986e3699497d1d",
+      "sourceSha256": "030a4f5a0e56764e695d0ce6b6245d7e5e5858fc375305def519c5874e81c50a",
       "startLine": 3,
-      "endLine": 83,
-      "excerptSha256": "9326234d8f46c3567a6b3c05b69e338f4b884d59acd689a4e7a2bc536db150eb",
+      "endLine": 99,
+      "excerptSha256": "d34b201a6c26f7051b928e8c48ec934a4a79bfc6757a3b0209b0d1c9b343d0fd",
       "path": "CHANGELOG.md"
     },
     {
-      "sourceSha256": "94452831189ef2c85097aee87c6fd682baaf68a6814e829029dd01f4b1edd43b",
+      "sourceSha256": "207a591ef45880f3899bee641ba45302aaa9600358e0d1568516eef74d678a09",
       "startLine": 3,
-      "endLine": 819,
-      "excerptSha256": "cb7dd1b78a66ae348f268dc25b1cb6dbb9d8192406a47404d8677a8a05093eb7",
+      "endLine": 821,
+      "excerptSha256": "741f8cce2b5056fd0d085a0018c452796edd35b044183a2656a1b1d279c8c55f",
       "path": "01_world_explanation.md"
     },
     {
@@ -300,17 +300,17 @@
       "path": "08_claim_coverage.md"
     },
     {
-      "sourceSha256": "ccfc035d84ceebf9c3b9b12cbec457b08749039c87c6172903906d5586fc3d1e",
+      "sourceSha256": "66f403e9ef8220436b033398766cd773a70337ee3c33ec09310e1609b71d646f",
       "startLine": 3,
       "endLine": 84,
-      "excerptSha256": "5eb8ba74f916274ba1294838c00794f2e500cf780e3766f2e3d2b51faaf3a2fb",
+      "excerptSha256": "3d263fbf7ad52b3b63e6848002bb27fb6d6253227376db4507f1a036c08371cc",
       "path": "README.md"
     },
     {
-      "sourceSha256": "80c34a483b252a7058391bb12214bf886beab567f50c717a673f91136c1860e6",
+      "sourceSha256": "db7ca6078600f67bd5063aa26e6fb10304fa2e51be4ff2bee837196c60d5a2b0",
       "startLine": 3,
       "endLine": 27,
-      "excerptSha256": "31cf208a489ce9295be09105cdfc5f5b8e74271421b0c91aa10c5d54a41fdae7",
+      "excerptSha256": "0d0c9cdc3e95176bc62cb0175769b2dd6d81a4b32a40db95a334ed41fbc07c2b",
       "path": "SOURCE_AUTHORITY.md"
     },
     {

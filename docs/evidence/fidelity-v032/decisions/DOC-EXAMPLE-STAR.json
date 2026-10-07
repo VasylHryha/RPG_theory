@@ -1,0 +1,182 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-STAR",
+  "fingerprint": "9412f3976cd8d8b964cc126b8b893f3f8bca1eec3e559efb464068c15bdf095b",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T08:22:13.307Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-STAR.json, SHA-256 72809a4e645130a81a9a565f000d4c5ee9caad9dda4b6c5b894c9ffb394cab94. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "9412f3976cd8d8b964cc126b8b893f3f8bca1eec3e559efb464068c15bdf095b",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-STAR",
+      "route": "/examples/star/",
+      "title": "Star: new reaction conditions",
+      "description": "A star’s heat and pressure allow new nuclei; dispersed elements make richer chemistry possible.",
+      "revision": 14,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-C01",
+        "UT-C02",
+        "UT-D05"
+      ],
+      "related": [
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [
+        "BIB-0014"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nGas gathers under gravity and forms a star. Its internal temperature and pressure make nuclear reactions possible. Stellar evolution and the dispersal of many heavier elements then expand the material available for later chemistry.\n\nHere an existing structure changes the setting for later transformations. The new nuclei and dispersed elements are the results to follow.\n\n## How RRG reads it\n\nA star’s [geometry](/glossary/#geometry-shape) includes its organization and internal constraints; its activity evolves within that setting. RRG reads the lasting pair as a [resonator](/glossary/#resonator). **Geometry** concerns the arrangement, and **Resonant** concerns its activity. [Stability](/glossary/#stability) means persistence over an interval, during which the star can keep changing.\n\nGravity provides the gathering and holding. The broader proposal that [resonance](/glossary/#resonance) explains which arrangements fit and persist is RRG’s interpretation of such systems.\n\n## What you can see here\n\nThe main outward role is [changed surroundings](/glossary/#changed-surroundings): **lasting organization → changed conditions → new possibilities**. Conditions inside the star permit nuclear transformations; later dispersal opens material possibilities for chemistry. Breaking down and scattering belong to the story alongside formation.\n\nThis illustrates the **Recursive** rule through inherited material and conditions. Later organization uses what earlier organization made available. The star’s environmental role is distinct from the [building-block](/glossary/#building-block) role: treating it as one object in a description does not put the intact star inside a later molecule.\n\n## Where the interpretation stops\n\nStellar history has established physical explanations. Reading it as a turn of one common RRG cycle is the proposal. This example neither derives gravity from resonance nor makes every next structure inevitable. The origin of forces and the broader [question of which structures become possible](/claims/UT-C02/) remain open.\n\n## Evidence and sources\n\n[NASA’s first-stars explanation](/references/#BIB-0014) provides supplementary background. The [world explanation’s stellar chain](/documents/world-explanation/#72-each-level-needs-the-ones-before-it) connects this step to the inherited material and conditions used later in the ladder.\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3.2 01 §§7–7.3: stellar reaction conditions, changed surroundings, corrected ancestry and open force origins; §§3–3.1: evolving maintained organization; §6.1: gravity and force-fit; cosmic/background addenda: enriched material and later chemistry. Retained framework §7; unchanged core §§4–5, 10–11. BIB-0014 remains supplementary first-star background, not evidence that RRG derives gravity. Established stellar history is separate from the proposed common cycle.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "ec61105c9e31ec016980ab74aae1bf7be66636ba1f8dbb62bd728a589e049c1a"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "06b1ab03e55ae39e627332bcd06aa9330e2fcd90751a6a10620b00f83999d09a"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "3b30f4c92a78e5a4c0a0c25198cf07fe678d1fad5a4a2808cd5be0081676f88c"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "976c08617975b420ab65c5adcba6fc333645d5af3744aacf89baa045170caefe"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "7300477e46f43383827a39ede056ef54cafaaa71324a9d22d365598767e751c1"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "b6494f3099f589eb7f445097aed7bec33c29913187dda588077068a635354270"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "11a23409bd88dc1c51daa6842ca655fbbf7bff95299695d35d98c7c026904b87"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "738d23c92c176e3f789f597ea62b799c11dba42875b7f4df39151f5e703444b4"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "19d2dc520db05d419de648d4f0339aa2e30eee29b482bba1a425b8a64490eff9"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "331a03211364f982a8b1c8faf545e62726a467c8e133c6db7cd04547b0adf819"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "57ed078557e7c34d0cf71f91a36e293e9b7946fb70d8243aeed7ea232add1662"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "7293b7ea8a42ed742a044ea9bf009c8ba4f6bc72f4a952cdc25bbd666949822e"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "1df9866f50b8e819718aa0a9cc5c41f1fae927659dde61b0925417a4ba4ae76c"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "207a591ef45880f3899bee641ba45302aaa9600358e0d1568516eef74d678a09"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "416f1cace9317ce9cae7c9b687fcaf6c420d7b76bd5850aad73fa22843842767",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "eda032afd9aeabe9425e1bb36bea48527830aa1d8ab4daa40acd0e1a81ac62b7",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-STAR.json, SHA-256 72809a4e645130a81a9a565f000d4c5ee9caad9dda4b6c5b894c9ffb394cab94. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-STAR.json, SHA-256 72809a4e645130a81a9a565f000d4c5ee9caad9dda4b6c5b894c9ffb394cab94. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-STAR.json, SHA-256 72809a4e645130a81a9a565f000d4c5ee9caad9dda4b6c5b894c9ffb394cab94. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-STAR.json, SHA-256 72809a4e645130a81a9a565f000d4c5ee9caad9dda4b6c5b894c9ffb394cab94. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-STAR.json, SHA-256 72809a4e645130a81a9a565f000d4c5ee9caad9dda4b6c5b894c9ffb394cab94. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-STAR.json, SHA-256 72809a4e645130a81a9a565f000d4c5ee9caad9dda4b6c5b894c9ffb394cab94. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-STAR.json, SHA-256 72809a4e645130a81a9a565f000d4c5ee9caad9dda4b6c5b894c9ffb394cab94. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-STAR.json, SHA-256 72809a4e645130a81a9a565f000d4c5ee9caad9dda4b6c5b894c9ffb394cab94. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

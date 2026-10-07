@@ -1,0 +1,277 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-CONCEPT-INTERACTIONS",
+  "fingerprint": "4e73fd2925f7dfec89eb46af153b706518495bce7b8ef5a66bdf46d5c772ef3f",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T08:22:13.307Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-INTERACTIONS.json, SHA-256 eb69348cc2727d927c17b1120198fb9cdfbd43a5871f52ded01d31acd4593c6a. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD, R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD, R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD, R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "4e73fd2925f7dfec89eb46af153b706518495bce7b8ef5a66bdf46d5c772ef3f",
+    "ownRead": {
+      "id": "DOC-CONCEPT-INTERACTIONS",
+      "route": "/concepts/effective-interactions/",
+      "title": "When organization changes interactions",
+      "description": "Supplied light can mediate particle interactions; RRG asks how organization changes what can fit and last.",
+      "revision": 14,
+      "kind": "concept",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-BACKGROUND",
+        "R-CURRENT-CATALOGUE",
+        "R-CURRENT-CLAIMS",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-CLAIM-COVERAGE",
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-C01",
+        "UT-E118",
+        "UT-E119"
+      ],
+      "related": [
+        "DOC-CONCEPT-BACKGROUND"
+      ],
+      "bibRefs": [],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "Deeper explanation of source-reported interaction evidence and the conditional higher-organization extension.",
+      "evidenceState": "not-applicable",
+      "body": "## Light changes how particles interact\n\nTiny spheres, called microspheres, in a supplied optical field can interact through the light and form bound arrangements. The particles, light and medium all matter. Their arrangement can affect the field-mediated interaction, so the explanation needs more than an inventory of particles.\n\nAn **effective interaction** is the interaction relevant to this collective setting. It describes how the parts affect one another under those conditions. Changing that setting can change their collective behaviour without replacing the fundamental laws.\n\n## What the reported cases show\n\nTwo existing cases make the distinction concrete:\n\n- [Optical binding](/claims/UT-E118/): illuminated microspheres show light-mediated interactions and bound arrangements, with light, particles and medium supplied.\n- [Random-light interactions](/claims/UT-E119/): an artificially generated random optical field produces measured attraction between small spheres. Random here does not mean ideal broadband white noise; the experiment does not create the spheres.\n\nThe [catalogue](/evidence/catalogue/) retains each result’s supplied conditions, type and inspection limits. These are local component connections, rather than a complete autonomous sequence of new levels.\n\n## Forces, fit and resonance\n\nA molecule’s bonds and a star’s gravity illustrate different holding mechanisms. RRG’s broader proposal is: **forces gather and hold; [resonance](/glossary/#resonance) decides what fits and lasts**. “Decides” means physical compatibility.\n\n[Inner resonance](/glossary/#inner-resonance) names compatible activity within a thing. [Outer resonance](/glossary/#outer-resonance) names compatible coupling to other things and shared surroundings. These terms add no holding force and require neither identical frequencies nor phases. [Read forces and fit](/documents/world-explanation/#61-forces-gather-and-hold-resonance-decides-what-fits-and-lasts).\n\n## From changed conditions to further organization\n\nAn existing organization may create [changed surroundings](/glossary/#changed-surroundings), allowing interactions that help a next organization last. In technical shorthand:\n\n$$\nR_n=(G_n,M_n)\\;\\rightarrow\\;\\mathcal I^{\\rm eff}_{n+1}\\;\\rightarrow\\;R_{n+1}.\n$$\n\n$R$ is a [resonator](/glossary/#resonator), $G$ its [geometry](/glossary/#geometry-shape), $M$ its [mode structure](/glossary/#mode), and $\\mathcal I^{\\rm eff}$ the relevant effective interaction. The arrows express a conditional proposal. Physically changing the surroundings differs from our choosing a simpler description. [Read the background explanation](/framework/recursive-background/).\n\n## Where the interpretation stops\n\nNew ways to interact do not demonstrate new fundamental forces. RRG’s suggestion that forces themselves may have appeared through earlier levels is speculative and may never be directly confirmed. [Read that hypothesis](/documents/world-explanation/#73-new-levels-bring-new-ways-to-interact).\n\nThe [claims discussion](/research-status/claims/) retains force unification, recursive construction, cosmology, life and AI as open claims or analogies. Controlled effective behaviour establishes its tested setting. The website reports the existing sources; it has not performed these experiments or a new paper audit.\n",
+      "sourceMapping": "RRG v0.3.2 01 §§6.1–7.3: established forces versus proposed resonance-fit, inner/outer resonance, changed surroundings and effective interactions versus speculative force origin; §§15–15.1: limits and reachable tests. Current catalogue E18/E19 retains supplied optical-field conditions, reported arrangements/attraction and component scope; 04 §§4, 11, 15, 29 and 08 H24–H26/O9 retains conditional background/interaction relation. Unchanged core §§10–11 extensions, not force derivation or replacement of physical laws.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "ec61105c9e31ec016980ab74aae1bf7be66636ba1f8dbb62bd728a589e049c1a"
+      },
+      {
+        "entryId": "DOC-CLAIM-COVERAGE",
+        "semanticDigest": "f70c608942550c3c5cd64bd15281e90fb732ac5d3dc75c9d88d6ca05f5a8045e"
+      },
+      {
+        "entryId": "DOC-CONTROL",
+        "semanticDigest": "45afa74fa60e21f58a42fb129e3eac2f7ca6adc2abc7edb32e379354b9a22b3b"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "06b1ab03e55ae39e627332bcd06aa9330e2fcd90751a6a10620b00f83999d09a"
+      },
+      {
+        "entryId": "DOC-FOUNDATION-ERRATA",
+        "semanticDigest": "58d6b9c54e56df52f0754a32363435692d391c03fa24d45a8f8c2bdfddc38742"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "3b30f4c92a78e5a4c0a0c25198cf07fe678d1fad5a4a2808cd5be0081676f88c"
+      },
+      {
+        "entryId": "DOC-ILLUSTRATIONS",
+        "semanticDigest": "cb7128481333d194f7a2f4dd6b4a4ab72299bd13262a5a7f4f24c5fbf6dbbc30"
+      },
+      {
+        "entryId": "DOC-MATH",
+        "semanticDigest": "3fa9ca7b3d8227e74e44bd8ac7d224a83bbd8fe12fa7bbeaef2097e4613e0570"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "976c08617975b420ab65c5adcba6fc333645d5af3744aacf89baa045170caefe"
+      },
+      {
+        "entryId": "UT-C01",
+        "semanticDigest": "7300477e46f43383827a39ede056ef54cafaaa71324a9d22d365598767e751c1"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "11a23409bd88dc1c51daa6842ca655fbbf7bff95299695d35d98c7c026904b87"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "738d23c92c176e3f789f597ea62b799c11dba42875b7f4df39151f5e703444b4"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "19d2dc520db05d419de648d4f0339aa2e30eee29b482bba1a425b8a64490eff9"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "331a03211364f982a8b1c8faf545e62726a467c8e133c6db7cd04547b0adf819"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "57ed078557e7c34d0cf71f91a36e293e9b7946fb70d8243aeed7ea232add1662"
+      },
+      {
+        "entryId": "UT-E113",
+        "semanticDigest": "3db11e7b4d64e4797e8670b54ba36299bd860c8dd3f7cc6a1ee19204efb67bc5"
+      },
+      {
+        "entryId": "UT-E115",
+        "semanticDigest": "3c939cf5bf2cf6ab809462137405b8e62071c447a55e05b93fa61c81a6a4ab39"
+      },
+      {
+        "entryId": "UT-E118",
+        "semanticDigest": "cc71dc70d044bd9cf04a1b214c06a64914da67ec4438e9716185dc1e12c84a22"
+      },
+      {
+        "entryId": "UT-E119",
+        "semanticDigest": "59e85f5dd53692c90f092c4b9c8b87d29bcf8138b349ff4b864c80efc3f1d544"
+      },
+      {
+        "entryId": "UT-E120",
+        "semanticDigest": "4859471e9cf625faad87800aaf6444cb7802f69e2ac1c3add45972a06ecaca47"
+      },
+      {
+        "entryId": "UT-O101",
+        "semanticDigest": "853a4f8816bbd38caf17ae3329020dc37b42c1698ac184b7057763e7a3c3d3a7"
+      },
+      {
+        "entryId": "UT-O102",
+        "semanticDigest": "1a0744963709ae2c09f48c39f3e8a3c9b97d35ca032bd069f282b35202d6a24c"
+      },
+      {
+        "entryId": "UT-O103",
+        "semanticDigest": "25e3c5e3c07f52fb5007d241e3bbd9fe678f93f3b07380a368da151711524a7f"
+      },
+      {
+        "entryId": "UT-O104",
+        "semanticDigest": "1ac47f5fe11c2be3ee29796f4462c949500f45a1d521437715fe92978ad2732a"
+      },
+      {
+        "entryId": "UT-O105",
+        "semanticDigest": "4566303797f429e5d50f875b863b897893bb6ada4bb603819be7cbe2b4125c05"
+      },
+      {
+        "entryId": "UT-O106",
+        "semanticDigest": "94a493d190098beb0e455824d328c854358bf0ebecd6212e4cb331d81772b78e"
+      },
+      {
+        "entryId": "UT-O107",
+        "semanticDigest": "040ce7952822f8a37327ec19ee1e0a2a9b5cf5a99f2ba974014e891e03732144"
+      },
+      {
+        "entryId": "UT-O108",
+        "semanticDigest": "783dd032df6b674bb83de7bb1dcc406724194e9c6b599160e650ca100e0d52af"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFICATION-RESULTS-JSON",
+        "path": "research/RRG_CURRENT/checks/verification_results.json",
+        "sha256": "5586ec3ebf23e4df60afff048f1714c086ae36329f167af2ada69a4634d68133"
+      },
+      {
+        "sourceKey": "R-CURRENT-CHECKS-VERIFY-SMALL-RESULTS-PY",
+        "path": "research/RRG_CURRENT/checks/verify_small_results.py",
+        "sha256": "45b0ff7be762f2dc0ce66dd3acde6341d62e12df21f1325ed5b8b6014f8e6248"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD",
+        "path": "research/RRG_CURRENT/foundations/01_world_explanation.md",
+        "sha256": "a3c4f376d4a81bf8fc158d3c786c92e5c88b454aeead88173c4139420f4bbddb"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD",
+        "path": "research/RRG_CURRENT/foundations/02_scientific_framework.md",
+        "sha256": "269b6e4bd7c76e15f19f4c0ff752276ba2a1de76e0b84294516d2d3ef8c998c5"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD",
+        "path": "research/RRG_CURRENT/foundations/03_mathematical_core.md",
+        "sha256": "57d1aaa129d7edb780b83886b8b8ede40f7b30cf77a2d6b1f400c651ad1f92e4"
+      },
+      {
+        "sourceKey": "R-CURRENT-FOUNDATIONS-ERRATA-MD",
+        "path": "research/RRG_CURRENT/foundations/ERRATA.md",
+        "sha256": "d01091bbc9fec01e1cb7ad16763b344849747b27b32b6e378d5f04d02e65b58f"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-MATH",
+        "path": "research/RRG_CURRENT/03_mathematical_core.md",
+        "sha256": "65929e4811c2ba1888683dc3225bf16077a54cfea9e8f9b69fb7ed060d7af400"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "1df9866f50b8e819718aa0a9cc5c41f1fae927659dde61b0925417a4ba4ae76c"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "207a591ef45880f3899bee641ba45302aaa9600358e0d1568516eef74d678a09"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "7d59e0c54a71de202c958daa1ffc511bd4878f0d6d83d5400dde8066d508da04",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "329649e4f476a5db500f7fcf42b279fe3308964e3615abcbe40be5f913c36313",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-INTERACTIONS.json, SHA-256 eb69348cc2727d927c17b1120198fb9cdfbd43a5871f52ded01d31acd4593c6a. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD, R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD, R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD, R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-INTERACTIONS.json, SHA-256 eb69348cc2727d927c17b1120198fb9cdfbd43a5871f52ded01d31acd4593c6a. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD, R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD, R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD, R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-INTERACTIONS.json, SHA-256 eb69348cc2727d927c17b1120198fb9cdfbd43a5871f52ded01d31acd4593c6a. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD, R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD, R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD, R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-INTERACTIONS.json, SHA-256 eb69348cc2727d927c17b1120198fb9cdfbd43a5871f52ded01d31acd4593c6a. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD, R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD, R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD, R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-INTERACTIONS.json, SHA-256 eb69348cc2727d927c17b1120198fb9cdfbd43a5871f52ded01d31acd4593c6a. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD, R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD, R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD, R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-INTERACTIONS.json, SHA-256 eb69348cc2727d927c17b1120198fb9cdfbd43a5871f52ded01d31acd4593c6a. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD, R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD, R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD, R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-INTERACTIONS.json, SHA-256 eb69348cc2727d927c17b1120198fb9cdfbd43a5871f52ded01d31acd4593c6a. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD, R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD, R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD, R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-CONCEPT-INTERACTIONS.json, SHA-256 eb69348cc2727d927c17b1120198fb9cdfbd43a5871f52ded01d31acd4593c6a. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-FOUNDATIONS-01-WORLD-EXPLANATION-MD, R-CURRENT-FOUNDATIONS-02-SCIENTIFIC-FRAMEWORK-MD, R-CURRENT-FOUNDATIONS-03-MATHEMATICAL-CORE-MD, R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

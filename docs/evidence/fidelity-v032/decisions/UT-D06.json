@@ -1,0 +1,102 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "UT-D06",
+  "fingerprint": "b4c0a374fc0b267fd7648e0d2d5dc84beef8744ba899e57228a6e933183b8124",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T08:22:13.307Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/UT-D06.json, SHA-256 a69f7fab14e6c6eb3531e7e059daf154341e8e7074bdc27d837a7d3cd6e0c4d6. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Inspected v0.3.2 fields: researchEdition; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "b4c0a374fc0b267fd7648e0d2d5dc84beef8744ba899e57228a6e933183b8124",
+    "ownRead": {
+      "id": "UT-D06",
+      "route": "/claims/UT-D06/",
+      "title": "Higher-level formation",
+      "description": "A locked RRG meaning; a definition is not an experimental finding.",
+      "revision": 3,
+      "kind": "definition",
+      "lang": "en",
+      "audience": "technical",
+      "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "sourceRefs": [
+        "R-CURRENT-CORE"
+      ],
+      "dependsOn": [
+        "UT-D03"
+      ],
+      "related": [],
+      "bibRefs": [],
+      "contentOrigin": "source-bound",
+      "sourceBinding": {
+        "sourceKey": "R-CURRENT-CORE",
+        "sourceSha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1",
+        "startLine": 57,
+        "endLine": 72,
+        "excerptSha256": "70d9e6d53a6d43c1a7410abfa801d650bd026f9da24e986c907b3151ea075286"
+      },
+      "statement": "## 5. Higher-level formation\n\nA higher-level resonant geometry may be formed from any compatible collection of lower-level resonant geometries:\n\n\\[\n\\boxed{\\{R_n^1,R_n^2,\\ldots,R_n^m\\}\\rightarrow R_{n+1}}.\n\\]\n\nThe lower-level members:\n\n- do not need to be identical;\n- do not need to duplicate first;\n- can have different roles and internal modes;\n- remain internally active after the higher-level structure forms.\n\nThe higher level introduces new collective constraints and a new collective mode structure while containing the lower levels.\n",
+      "plainLanguage": "Compatible lower-level systems may form a higher-level organization while retaining internal activity. Their components may differ.",
+      "scope": "A locked RRG meaning; a definition is not an experimental finding.",
+      "evidenceState": "not-applicable",
+      "body": "",
+      "sourceMapping": "00_LOCKED_CORE.md §5; new navigation ID, source has no UT ID.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-05",
+    "dependencies": [
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "11a23409bd88dc1c51daa6842ca655fbbf7bff95299695d35d98c7c026904b87"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "738d23c92c176e3f789f597ea62b799c11dba42875b7f4df39151f5e703444b4"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "19d2dc520db05d419de648d4f0339aa2e30eee29b482bba1a425b8a64490eff9"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+        "plainLanguageSha256": "1d53ce6a0cf1c5ebc6e0fe7c1564a5002bd190ddc0f6de11846968b875fcff80",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "e404bee48d921fe06e7e59149a5c4a4f2784d331247b539e4e8e357b60dbda78",
+        "plainLanguageSha256": "1d53ce6a0cf1c5ebc6e0fe7c1564a5002bd190ddc0f6de11846968b875fcff80",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/UT-D06.json, SHA-256 a69f7fab14e6c6eb3531e7e059daf154341e8e7074bdc27d837a7d3cd6e0c4d6. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: researchEdition; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/UT-D06.json, SHA-256 a69f7fab14e6c6eb3531e7e059daf154341e8e7074bdc27d837a7d3cd6e0c4d6. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: researchEdition; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/UT-D06.json, SHA-256 a69f7fab14e6c6eb3531e7e059daf154341e8e7074bdc27d837a7d3cd6e0c4d6. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: researchEdition; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/UT-D06.json, SHA-256 a69f7fab14e6c6eb3531e7e059daf154341e8e7074bdc27d837a7d3cd6e0c4d6. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: researchEdition; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/UT-D06.json, SHA-256 a69f7fab14e6c6eb3531e7e059daf154341e8e7074bdc27d837a7d3cd6e0c4d6. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: researchEdition; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/UT-D06.json, SHA-256 a69f7fab14e6c6eb3531e7e059daf154341e8e7074bdc27d837a7d3cd6e0c4d6. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: researchEdition; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/UT-D06.json, SHA-256 a69f7fab14e6c6eb3531e7e059daf154341e8e7074bdc27d837a7d3cd6e0c4d6. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: researchEdition; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/UT-D06.json, SHA-256 a69f7fab14e6c6eb3531e7e059daf154341e8e7074bdc27d837a7d3cd6e0c4d6. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: researchEdition; changed source identities: none. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

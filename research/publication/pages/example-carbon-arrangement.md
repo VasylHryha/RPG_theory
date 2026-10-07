@@ -4,11 +4,11 @@
   "route": "/examples/carbon-arrangement/",
   "title": "Same atoms, different arrangement",
   "description": "Carbon shows why knowing the ingredients is only part of knowing what a whole will do.",
-  "revision": 4,
+  "revision": 6,
   "kind": "example",
   "lang": "en",
   "audience": "general",
-  "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
+  "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
   "publicationState": "published",
   "sourceRefs": [
     "R-CURRENT-CORE",
@@ -26,7 +26,7 @@
     "BIB-0093"
   ],
   "contentOrigin": "authored",
-  "sourceMapping": "RRG v0.3.1 01 §5: carbon atoms forming different materials through arrangement, and molecular composition versus connectivity/3D arrangement and behaviour; §§1, 4: full activity, collective organization and internally active parts; §7.1: separate building-block and environmental roles. Unchanged core §§1–3, 5–6: relational geometry, modes, higher-level formation and variation. BIB-0093 supplies the supplementary diamond–graphite comparison: pure carbon, diamond’s four-neighbour three-dimensional network and hardness, and graphite’s layers, softness, slipperiness and electrical conduction. No named molecule, quantitative property or additional chemical mechanism is asserted; this background does not establish universal RRG.",
+  "sourceMapping": "RRG v0.3.2 01 §5: carbon atoms forming different materials through arrangement, and molecular composition versus connectivity/3D arrangement and behaviour; §§1, 4: full activity, collective organization and internally active parts; §7.1: separate building-block and environmental roles. Unchanged core §§1–3, 5–6: relational geometry, modes, higher-level formation and variation. BIB-0093 supplies the supplementary diamond–graphite comparison: pure carbon, diamond’s four-neighbour three-dimensional network and hardness, and graphite’s layers, softness, slipperiness and electrical conduction. No named molecule, quantitative property or additional chemical mechanism is asserted; this background does not establish universal RRG.",
   "publishedAt": "2026-10-06",
   "updatedAt": "2026-10-07",
   "sourceBinding": null,

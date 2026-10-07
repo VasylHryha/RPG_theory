@@ -1,0 +1,219 @@
+{
+  "schema": "unity-website-fidelity-decision/1",
+  "purpose": "website-source-fidelity/1",
+  "entryId": "DOC-EXAMPLE-CELL",
+  "fingerprint": "0b38c8bcc940834cd052b859497618475f12ee127eb857b8525237d6626eb0c8",
+  "reviewerKind": "agent",
+  "reviewedAt": "2026-10-07T08:22:13.307Z",
+  "outcome": "accepted",
+  "scientificCertification": false,
+  "rationale": "Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-CELL.json, SHA-256 a71c53867ed384f0cf883b34b8c905f3ad0a8481d1516bad17c452280ca90e0d. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction.",
+  "inputs": {
+    "fingerprint": "0b38c8bcc940834cd052b859497618475f12ee127eb857b8525237d6626eb0c8",
+    "ownRead": {
+      "id": "DOC-EXAMPLE-CELL",
+      "route": "/examples/cell/",
+      "title": "Cell: organization through exchange",
+      "description": "A cell’s boundary regulates exchange, while ongoing processes help maintain its organization.",
+      "revision": 16,
+      "kind": "example",
+      "lang": "en",
+      "audience": "general",
+      "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+      "publicationState": "published",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-07",
+      "sourceRefs": [
+        "R-CURRENT-CORE",
+        "R-CURRENT-SCIENCE",
+        "R-CURRENT-WORLD"
+      ],
+      "dependsOn": [
+        "DOC-EXAMPLE-LIFE",
+        "DOC-GLOSSARY",
+        "DOC-WORLD",
+        "UT-D01",
+        "UT-D02",
+        "UT-D04",
+        "UT-D05",
+        "UT-D06",
+        "UT-D08",
+        "UT-D09"
+      ],
+      "related": [
+        "DOC-EXAMPLE-BRAIN"
+      ],
+      "bibRefs": [
+        "BIB-0063",
+        "BIB-0092"
+      ],
+      "contentOrigin": "authored",
+      "sourceBinding": null,
+      "statement": null,
+      "plainLanguage": "",
+      "scope": "An illustrative beginner explanation mapped to the original supplied RRG documents.",
+      "evidenceState": "not-applicable",
+      "body": "## What happens\n\nA substance reaches a cell membrane. Whether and how it crosses depends on the substance and the transport mechanism. Some passage follows a concentration difference; transport against such a difference requires an appropriate mechanism and energy.\n\nThe membrane separates conditions inside from those outside and regulates exchange. Internal reactions and transport take place within that setting. Their activity helps maintain the conditions the cell needs as material enters, leaves and is replaced. A list of ingredients misses the boundary and this continuing work.\n\n## How RRG reads it\n\nThe boundary and internal relationships are part of the cell’s [geometry](/glossary/#geometry-shape). Its [mode structure](/glossary/#mode) includes coordinated processes and their timescales, rather than one vibration frequency. The arrangement constrains activity, and activity helps maintain the arrangement.\n\nHere **Resonant** concerns coordinated activity and **Geometry** concerns the arrangement that supports it. RRG reads their maintained whole as a [resonator](/glossary/#resonator). Its [inner resonance](/glossary/#inner-resonance) names compatible activity within the cell; [outer resonance](/glossary/#outer-resonance) concerns its coupling to other things and shared surroundings.\n\n## What you can see here\n\nA cell shows persistence through exchange. Its organization can remain recognizable while its components remain active and material changes. Maintaining that organization requires resources and energy flow.\n\nIt also opens two outward questions. A cell can become a [building block](/glossary/#building-block) in a larger organization. Separately, exchanges can create [changed surroundings](/glossary/#changed-surroundings). The [life and environment example](/examples/life-environment/) follows the second role. Maintaining a cell, copying a molecular pattern and reproducing a cell are distinct processes. Reproduction is one route to [spreading](/glossary/#spreading), while [recursion](/glossary/#recursion--recursive) concerns the broader cycle.\n\n## Where the interpretation stops\n\nThis example begins with an existing cell. It does not explain the first life or demonstrate a complete artificial cell. The RRG reading brings maintenance and organization together; the actual biochemical mechanisms and energy accounting still explain how the processes work.\n\n## Evidence and sources\n\n[OpenStax’s passive transport](/references/#BIB-0063) and [active transport](/references/#BIB-0092) explain the concentration and energy distinctions. [Read stability](/concepts/stability/) for the persistence question and [recursion](/concepts/recursion/) for the whole becoming a part.\n\nQuestions or ideas? [Contact the author](/contact/).\n",
+      "sourceMapping": "RRG v0.3.2 01 §§10–10.1: maintained life, environmental change and joining; §§3–3.1: interval stability and energy flow; §§6.1–7.1: inner/outer resonance and separate roles; §9: copying as a late form, not a requirement. Retained framework §§8, 13; unchanged core §§1–9. BIB-0063/0092 retains passive/active transport, concentration differences, mechanisms and energy; this begins with an existing cell and makes no origin-of-life claim.",
+      "adapter": "markdown/1",
+      "assumptions": [],
+      "testRefs": [],
+      "evidenceRefs": [],
+      "limits": "",
+      "rightsRef": "RIGHTS-RESEARCH-FIRST-EDITION-2033"
+    },
+    "materialUpdatedAt": "2026-10-07",
+    "dependencies": [
+      {
+        "entryId": "DOC-BACKGROUND",
+        "semanticDigest": "ec61105c9e31ec016980ab74aae1bf7be66636ba1f8dbb62bd728a589e049c1a"
+      },
+      {
+        "entryId": "DOC-CORE",
+        "semanticDigest": "06b1ab03e55ae39e627332bcd06aa9330e2fcd90751a6a10620b00f83999d09a"
+      },
+      {
+        "entryId": "DOC-EXAMPLE-LIFE",
+        "semanticDigest": "d0eee38821085aa9c62ce3694aa0387e5a36003be4120cb73011489ebfd2c3e0"
+      },
+      {
+        "entryId": "DOC-GLOSSARY",
+        "semanticDigest": "3b30f4c92a78e5a4c0a0c25198cf07fe678d1fad5a4a2808cd5be0081676f88c"
+      },
+      {
+        "entryId": "DOC-SOURCE-LINKS",
+        "semanticDigest": "24166fb7684b233fc4c2ef4988cb6e2baceaabf52e401e1b9e7bf510650c15e8"
+      },
+      {
+        "entryId": "DOC-WORLD",
+        "semanticDigest": "976c08617975b420ab65c5adcba6fc333645d5af3744aacf89baa045170caefe"
+      },
+      {
+        "entryId": "UT-C02",
+        "semanticDigest": "b6494f3099f589eb7f445097aed7bec33c29913187dda588077068a635354270"
+      },
+      {
+        "entryId": "UT-D01",
+        "semanticDigest": "11a23409bd88dc1c51daa6842ca655fbbf7bff95299695d35d98c7c026904b87"
+      },
+      {
+        "entryId": "UT-D02",
+        "semanticDigest": "738d23c92c176e3f789f597ea62b799c11dba42875b7f4df39151f5e703444b4"
+      },
+      {
+        "entryId": "UT-D03",
+        "semanticDigest": "19d2dc520db05d419de648d4f0339aa2e30eee29b482bba1a425b8a64490eff9"
+      },
+      {
+        "entryId": "UT-D04",
+        "semanticDigest": "833f24a26afd982c4553976986a95cb3f19eb436952344fe88118d92464c375d"
+      },
+      {
+        "entryId": "UT-D05",
+        "semanticDigest": "331a03211364f982a8b1c8faf545e62726a467c8e133c6db7cd04547b0adf819"
+      },
+      {
+        "entryId": "UT-D06",
+        "semanticDigest": "57ed078557e7c34d0cf71f91a36e293e9b7946fb70d8243aeed7ea232add1662"
+      },
+      {
+        "entryId": "UT-D07",
+        "semanticDigest": "7293b7ea8a42ed742a044ea9bf009c8ba4f6bc72f4a952cdc25bbd666949822e"
+      },
+      {
+        "entryId": "UT-D08",
+        "semanticDigest": "8be6b5ad648131f5656ac30ced16b91a37113123f8648228d09d7c31ecc76e4a"
+      },
+      {
+        "entryId": "UT-D09",
+        "semanticDigest": "1db7291b08bb7a86af53b07bad6ce97d163bace9b56517c1177fb18a0475f329"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceKey": "R-AUDIT-SOURCES",
+        "path": "research/history/v0.2-audit/SOURCES.md",
+        "sha256": "f9b6fc00e62f2e76d92a77f51849d126ddc37fa8f0e3c4781dd36e03e2e7c7dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-BACKGROUND",
+        "path": "research/RRG_CURRENT/04_recursive_background_generation.md",
+        "sha256": "e90f63412e04947deaa5f474586a2c33afa30f5382022bc8da1ef5bf599189c2"
+      },
+      {
+        "sourceKey": "R-CURRENT-CATALOGUE",
+        "path": "research/RRG_CURRENT/06_evidence_catalog.md",
+        "sha256": "1306d8e0f86c3c25a09037dadbde0f140f9df30199b89e684f9bc71a6c96a5dc"
+      },
+      {
+        "sourceKey": "R-CURRENT-CLAIMS",
+        "path": "research/RRG_CURRENT/08_claim_coverage.md",
+        "sha256": "2572f91aedc372b15881d34835ddd46de485baf496aa5539532f6e9daec44861"
+      },
+      {
+        "sourceKey": "R-CURRENT-CONTROL",
+        "path": "research/RRG_CURRENT/05_CHANGE_CONTROL.md",
+        "sha256": "b6a23af03483a25052b01308ea07c04d7be474575c52aeda942c2847d00cbb7a"
+      },
+      {
+        "sourceKey": "R-CURRENT-CORE",
+        "path": "research/RRG_CURRENT/00_LOCKED_CORE.md",
+        "sha256": "b6d3e7c75285889afe94cabf083ba5fb80f401c656613ba6a80d2f0149b655e1"
+      },
+      {
+        "sourceKey": "R-CURRENT-ILLUSTRATIONS",
+        "path": "research/RRG_CURRENT/05_mathematical_source_model.md",
+        "sha256": "659e8640c91cb21815f32c45fb6cef9ddda302205cf20027607303721ee9bfab"
+      },
+      {
+        "sourceKey": "R-CURRENT-REGISTER",
+        "path": "research/RRG_CURRENT/sources.json",
+        "sha256": "1df9866f50b8e819718aa0a9cc5c41f1fae927659dde61b0925417a4ba4ae76c"
+      },
+      {
+        "sourceKey": "R-CURRENT-SCIENCE",
+        "path": "research/RRG_CURRENT/02_scientific_framework.md",
+        "sha256": "2f77e213369a21301493251dcabc88b8dca2e10e4fa04982b56b6ac621d39483"
+      },
+      {
+        "sourceKey": "R-CURRENT-WORLD",
+        "path": "research/RRG_CURRENT/01_world_explanation.md",
+        "sha256": "207a591ef45880f3899bee641ba45302aaa9600358e0d1568516eef74d678a09"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-ADDITIONAL",
+        "path": "research/history/repository-current-2026-10-01/08_ADDITIONAL_PRIMARY_EVIDENCE.md",
+        "sha256": "fb321094813ee82880537b5671ae242a7bd97b2638af5d2cb406d3ca9db67fa6"
+      },
+      {
+        "sourceKey": "R-HISTORY-REPO-INTERACTIONS",
+        "path": "research/history/repository-current-2026-10-01/07_EMERGENT_INTERACTION_EVIDENCE.md",
+        "sha256": "92c24d25ac234cd15e36902b81c389502af8080ac240d21171108eb93b4a7670"
+      }
+    ],
+    "renderedBodies": [
+      {
+        "base": "/",
+        "sha256": "bc65c9b355783fca07dc598c574652146ce18ad256d3d1cba18ec40731ef6973",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      },
+      {
+        "base": "/unity-theory/",
+        "sha256": "675da019c57c713006616fa7916d9640d54a12cd447d1496c487aaca5dd61b97",
+        "plainLanguageSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sourceProjectionSha256": null
+      }
+    ]
+  },
+  "checks": {
+    "terminology": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-CELL.json, SHA-256 a71c53867ed384f0cf883b34b8c905f3ad0a8481d1516bad17c452280ca90e0d. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: terminology; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "meaning": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-CELL.json, SHA-256 a71c53867ed384f0cf883b34b8c905f3ad0a8481d1516bad17c452280ca90e0d. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: meaning; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "assumptions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-CELL.json, SHA-256 a71c53867ed384f0cf883b34b8c905f3ad0a8481d1516bad17c452280ca90e0d. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: assumptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "hypotheses": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-CELL.json, SHA-256 a71c53867ed384f0cf883b34b8c905f3ad0a8481d1516bad17c452280ca90e0d. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: hypotheses; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "evidenceDescriptions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-CELL.json, SHA-256 a71c53867ed384f0cf883b34b8c905f3ad0a8481d1516bad17c452280ca90e0d. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: evidenceDescriptions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "openQuestions": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-CELL.json, SHA-256 a71c53867ed384f0cf883b34b8c905f3ad0a8481d1516bad17c452280ca90e0d. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: openQuestions; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "attribution": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-CELL.json, SHA-256 a71c53867ed384f0cf883b34b8c905f3ad0a8481d1516bad17c452280ca90e0d. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: attribution; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources.",
+    "sourceMappings": "Prior individual v0.3.1 comparison: docs/evidence/fidelity-v031/recheck/decisions/DOC-EXAMPLE-CELL.json, SHA-256 a71c53867ed384f0cf883b34b8c905f3ad0a8481d1516bad17c452280ca90e0d. Reused only for unchanged scientific material; current edition/provenance and the three new content deltas were inspected here. Compared all changed own fields: only edition labels, revision counters, source-binding identity or corrected edition/provenance wording differ. The prior v0.3.1 scientific comparison is reused for unchanged material. Inspected v0.3.2 fields: revision, researchEdition, sourceMapping; changed source identities: R-CURRENT-REGISTER, R-CURRENT-WORLD. Dependency membership is unchanged; changed dependency digests are accounted for by this same 84-reading edition transaction. Comparison axis: sourceMappings; terminology and meaning retain the core/extension distinction, assumptions and hypotheses retain conditional status, evidence descriptions and open questions are not upgraded, and attribution/source mappings bind the exact current sources."
+  }
+}

@@ -7,7 +7,7 @@
 
 Everything moves. Most motion is chaos. Sometimes a piece of motion falls into a rhythm that keeps its own shape, and that shape keeps the rhythm going. It lasts: that is a resonator. Its rhythm reaches out. It makes nearby things move with it, stick to it, or take a similar shape. So more resonators appear, they join into bigger shapes with a new rhythm of their own, and the same thing happens again at the next level.
 
-**RRG v0.3.1 — relation to existing work, 2026-10-07**
+**RRG v0.3.2 — forces rationale, 2026-10-07**
 **Author:** Vasyl Hryha. **Status:** a unifying framework, not yet proven.
 
 The paragraph gives RRG's proposed common pattern. Spreading and joining need suitable conditions; neither happens at every level. “Recursive” means both the lasting resonator's role and the whole cycle repeating at a new scale. Rhythm and shape hold each other; neither comes first. The full plain-language explanation is [01 §§0–15](01_world_explanation.md#0-the-name-states-the-rules).
@@ -27,7 +27,7 @@ In plain words, resonance is motion that has fallen into rhythm, rather than und
 
 > Everything moves, and energy is what keeps things moving: vibrating, rotating, resonating. Every resonator lasts for a time. Some hold on their own for billions of years; others last only while energy keeps flowing through them.
 
-See [01 §3.1](01_world_explanation.md#31-energy-and-time) for motion, energy, supply and lifetime. The v0.3 explanations and open hypotheses are retained. This v0.3.1 edition adds a related-work comparison and bibliographic records verified 7 October 2026 (Claude). The normative core and evidence cases are unchanged; bibliographic verification is not verification of RRG.
+See [01 §3.1](01_world_explanation.md#31-energy-and-time) for motion, energy, supply and lifetime. The v0.3 explanations and open hypotheses are retained. The v0.3.1 related-work comparison and bibliographic records verified 7 October 2026 (Claude) are retained. This v0.3.2 edition adds the author-approved rationale for the speculative forces hypothesis in 01 §7.3; the fit motivates the hypothesis and is not evidence for it. The normative core and evidence cases are unchanged; bibliographic verification is not verification of RRG.
 
 The project explains and shares this proposed connection, collects well-described cases and invites independent development. A universal proof is not required before sharing a labelled hypothesis. Small derivations, observations and objections can improve particular claims.
 

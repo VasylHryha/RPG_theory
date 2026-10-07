@@ -208,7 +208,15 @@ export function loadCanonicalCorpus(root = process.cwd()): Corpus {
 export async function renderEntry(corpus: Corpus,entry: Entry,base='/') { return renderEntrySync(corpus,entry,base); }
 
 export function renderEntrySync(corpus: Corpus,entry: Entry,base='/') {
-  const html=renderMarkdownSync(documentMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + entry.body,corpus,entry),base,corpus);
+  const siteNote=entry.id==='DOC-BACKGROUND' && entry.body.startsWith('**Site note:**') && !['archived','superseded','withdrawn'].includes(entry.publicationState) ? entry.body.split('\n\n')[0] : '';
+  const body=siteNote ? entry.body.slice(siteNote.length).trimStart() : entry.body;
+  let html=renderMarkdownSync(documentMarkdown(sourceDisplay(entry.statement ?? '',entry.adapter) + '\n\n' + body,corpus,entry),base,corpus);
+  if(siteNote) {
+    const note=renderMarkdownSync(siteNote,base,corpus);
+    // The first source paragraph contains the supplied header. Keep it intact
+    // and place the website-only note immediately after it.
+    html=html.replace('</p>','</p>\n'+note);
+  }
   return entry.id==='DOC-HOME' && !['archived','superseded','withdrawn'].includes(entry.publicationState) ? renderHomeBody(html,base) : html;
 }
 

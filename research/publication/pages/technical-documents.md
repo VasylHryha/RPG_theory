@@ -8,7 +8,7 @@
   "kind": "library",
   "lang": "en",
   "audience": "technical",
-  "researchEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
+  "researchEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
   "publicationState": "published",
   "publishedAt": "2026-10-05",
   "updatedAt": "2026-10-07",

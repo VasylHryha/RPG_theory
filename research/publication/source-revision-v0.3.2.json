@@ -1,0 +1,104 @@
+{
+  "changeId": "RRG-2026-10-07-V032-FORCES-RATIONALE",
+  "category": "wording",
+  "predecessorEdition": "RRG v0.3.1 — relation to existing work, 2026-10-07",
+  "predecessorSeal": "2c2ab0fa3ce4c172276a9247e3a207061e7fef6f7a40d583a67d6f504e390408",
+  "sourceChangeRef": "research/RRG_CURRENT/CHANGELOG.md",
+  "affectedFiles": [
+    "research/RRG_CURRENT/01_world_explanation.md",
+    "research/RRG_CURRENT/CHANGELOG.md",
+    "research/RRG_CURRENT/CURRENT_MANIFEST.md",
+    "research/RRG_CURRENT/README.md",
+    "research/RRG_CURRENT/SOURCE_AUTHORITY.md",
+    "research/RRG_CURRENT/sources.json"
+  ],
+  "affectedClaimIds": [
+    "DOC-ARTICLE-STRUCTURES",
+    "DOC-ARTICLE-UNIT",
+    "DOC-AUTHORITY",
+    "DOC-BACKGROUND",
+    "DOC-CONCEPT-BACKGROUND",
+    "DOC-CONCEPT-GEOMETRY",
+    "DOC-CONCEPT-INTERACTIONS",
+    "DOC-CONCEPT-RECURSION",
+    "DOC-CONCEPT-STABILITY",
+    "DOC-CONCEPTS",
+    "DOC-CRITICS",
+    "DOC-EVIDENCE",
+    "DOC-EXAMPLE-BRAIN",
+    "DOC-EXAMPLE-CARBON-ARRANGEMENT",
+    "DOC-EXAMPLE-CELL",
+    "DOC-EXAMPLE-FIRST-STRUCTURES",
+    "DOC-EXAMPLE-LIFE",
+    "DOC-EXAMPLE-MOLECULE",
+    "DOC-EXAMPLE-STAR",
+    "DOC-EXAMPLE-STRING",
+    "DOC-EXAMPLE-WATER",
+    "DOC-EXAMPLES",
+    "DOC-GLOSSARY",
+    "DOC-HOME",
+    "DOC-READING-GUIDE",
+    "DOC-RELATED-WORK",
+    "DOC-SOURCE-CHANGES",
+    "DOC-SOURCE-LINKS",
+    "DOC-START",
+    "DOC-STATUS",
+    "DOC-USES",
+    "DOC-WORLD",
+    "UT-E101",
+    "UT-E102",
+    "UT-E103",
+    "UT-E104",
+    "UT-E105",
+    "UT-E106",
+    "UT-E107",
+    "UT-E108",
+    "UT-E109",
+    "UT-E110",
+    "UT-E111",
+    "UT-E112",
+    "UT-E113",
+    "UT-E114",
+    "UT-E115",
+    "UT-E116",
+    "UT-E117",
+    "UT-E118",
+    "UT-E119",
+    "UT-E120",
+    "UT-E121",
+    "UT-E122"
+  ],
+  "problem": "The speculative forces hypothesis lacks its motivating RRG rationale.",
+  "before": "Section 7.3 states the speculative hypothesis without the motivating cycle comparison.",
+  "after": "The exact approved paragraph explains the cycle fit as motivation, explicitly not evidence.",
+  "rationale": "Clarify why RRG considers the hypothesis without changing definitions, claims, statuses or evidence.",
+  "permissionBasis": "Owner feedback section 22: Vasyl Hryha approved plans A and B with “ok, so yes”; implement the exact 7 October 2026 v0.3.2 brief under R4 sections 0.3/4.5; no commit, push or deploy.",
+  "resultEdition": "RRG v0.3.2 — forces rationale, 2026-10-07",
+  "resultSeal": "b476dd57d3357b3eeadd668f0977261f1b29ea671d3c0537b2855c3ab95eeb22",
+  "priorSnapshot": [
+    {
+      "path": "research/RRG_CURRENT/01_world_explanation.md",
+      "sha256": "94452831189ef2c85097aee87c6fd682baaf68a6814e829029dd01f4b1edd43b"
+    },
+    {
+      "path": "research/RRG_CURRENT/CHANGELOG.md",
+      "sha256": "5cc059f953f415a3598b37a8c96946f43e9bc70020a9ab5044986e3699497d1d"
+    },
+    {
+      "path": "research/RRG_CURRENT/CURRENT_MANIFEST.md",
+      "sha256": "64e96c9cb520d44983f70f2bb565e10d64316c70c41cc144bb8cfa82ccbe903d"
+    },
+    {
+      "path": "research/RRG_CURRENT/README.md",
+      "sha256": "ccfc035d84ceebf9c3b9b12cbec457b08749039c87c6172903906d5586fc3d1e"
+    },
+    {
+      "path": "research/RRG_CURRENT/SOURCE_AUTHORITY.md",
+      "sha256": "80c34a483b252a7058391bb12214bf886beab567f50c717a673f91136c1860e6"
+    },
+    {
+      "path": "research/RRG_CURRENT/sources.json",
+      "sha256": "064a3150c792f3d8ae85fce036969406e1d9423f1977df64bca3c4ede07303ce"
+    }
+  ]
+}

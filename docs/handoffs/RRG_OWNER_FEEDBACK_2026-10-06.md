@@ -1056,3 +1056,61 @@ the generated list sits above. Reworded.
   audits pass.
 
 ## 21. Deployed (7 Oct 2026): main `4cc75b7`, release `site-2026.10.07-explore`; publish run 37583870037 succeeded; the new pages are live. Owner reading pending.
+
+## 22. Foundations reference and forces rationale — planned (7 Oct 2026)
+
+- **Owner:** "we refer it but you can not see/read it - what the point in
+  referring foundations/01_world_explanation.md then?" Asked Claude to pick the
+  best handling, checked against common practice.
+- **Finding:** doc 04's header names the three `foundations/` v0.1 snapshots,
+  but the site neither shows nor offers them; only Foundation errata exists.
+- **Practice:** W3C/RFC-style: superseded editions stay frozen, reachable and
+  clearly marked, with a pointer to the current edition.
+- **Plan A (website only):** offer the three snapshots as original downloads,
+  labelled "v0.1 — superseded, kept unchanged for the record", listed on the
+  Foundation errata page next to links to the current editions; add a short
+  site note under doc 04's header that links there. Source bytes unchanged.
+- **Owner approved wording:** add to `01_world_explanation.md` §7.3, after the
+  speculative-forces paragraph: "Why RRG considers this: each of the four
+  interactions mainly shapes a different level of organization, and each level
+  arose from conditions earlier levels created. If forces too were enabled by
+  an environment that earlier levels transformed, they would follow the same
+  RRG cycle — lasting shapes change their surroundings, and a new scale of
+  geometry and interaction becomes possible. This fit motivates the hypothesis;
+  it is not evidence for it."
+- **Plan B (source revision v0.3.2):** preserve v0.3.1 under history, apply the
+  sentence, update 08 H26 notes, CHANGELOG/manifest/hashes, then website
+  fidelity recheck of the affected reading and focused checks.
+- **Claude catch:** "each of the four interactions mainly shapes a different
+  level" conflicts with §6.1 (weak = transformations/decay) and §7.3 "assigns
+  neither one force per scale". Opening changed to "the main interactions each
+  dominate a different level of organization".
+- **Owner (7 Oct):** "ok, so yes" — A and B approved with that fix. Codex
+  implements per `RRG_V032_FORCES_AND_FOUNDATIONS_BRIEF_2026-10-07.md`.
+
+## 23. Forces-by-scale idea — recorded for the next revision (7 Oct 2026)
+
+- **Owner:** weak force read as a transformer of the smaller scale; "we can have
+  hierarchy by scale influence"; most readers won't know it, so show it. Agreed
+  it is not proof: "it totally fine to do it that way". Owner adds: when
+  creating the theory they did not think about the four forces at all; the
+  correspondence fit in afterwards.
+- **Planned (after v0.3.2, needs owner yes on wording):** in `01` near §6.1, a
+  short labelled box "The four forces, by scale" — weak transforms the smallest
+  building blocks; strong holds nuclei; electromagnetism atoms/chemistry/life;
+  gravity stars/galaxies — dominance bands, not exclusive. Label: established
+  physics RRG fits; not evidence. Add the author's account that the framework
+  was not designed around the forces (attributed, not a test). Add open
+  question: can RRG predict something new from this hierarchy?
+- **Limits to keep:** EM and gravity have infinite range; strong also acts
+  inside nucleons; weak transformation rates depend on conditions, not steered
+  from above; §7.3 "assigns neither one force per scale" stays true.
+- **Website later:** small table/diagram from the source text.
+
+## 24. v0.3.2 accepted; publish authorized (7 Oct 2026)
+
+- Claude accepted the v0.3.2 source revision and foundation downloads
+  (`docs/evidence/source-revision-v0.3.2/acceptance.md`; smoke 7/7 both bases).
+- **Owner:** "so run them ... then do publish latest version". Codex runs the
+  fidelity acceptance (`RRG_V032_FIDELITY_ACCEPTANCE_BRIEF_2026-10-07.md`) with
+  fast focused checks; then commit, push, CI, publish, live checks.
