@@ -35,7 +35,7 @@ This is the sole execution plan for the website, research-document publication, 
 
 | Field | Current record |
 |---|---|
-| Current milestone / state | §0.85 v0.3.2 source revision and 84-reading website fidelity accepted; release `site-2026.10.07-v032` selected; owner-authorized publication in progress |
+| Current milestone / state | §0.85 v0.3.2 source revision and 84-reading website fidelity accepted; release `site-2026.10.07-v032` selected; deployed under §0.86 |
 | Website repository / implementation | One-root Astro implementation; existing public repository renamed to `VasylHryha/rrg_theory`, main branch. Local workspace remains RPG_theory. Historical target/receipt identities remain unchanged |
 | Last engineering acceptance | §0.80 rechecked bounded High acceptance of 84 current readings and the repaired Explore further integration; 21 archived stale decisions preserved. Earlier issued acceptance/evidence retained for its own inputs |
 | Latest execution receipt | `docs/evidence/fidelity-v032/acceptance.md` (with `fidelity-v032/receipt.md`, `source-revision-v0.3.2/acceptance.md`); earlier receipts preserved |
@@ -46,8 +46,8 @@ This is the sole execution plan for the website, research-document publication, 
 | Numerical reproduction | Historical cavity/response supplement **NOT_SELECTED / NOT_RUN** under the M3 selection condition; retained original receipts are historical evidence |
 | Website/browser/a11y/live evidence | §0.85: Claude browser smoke 7/7 at both bases on the selected qualification outputs (one transient root goto timeout passed on rerun). Earlier evidence retains its tested inputs |
 | Current validation / decisions | §0.83–0.85: 84 current accepted / 21 archived stale / 0 pending / 0 rejected, currentSourceQualified=true. Fidelity, diagnostics, both builds/audits and 21/21 content tests PASS. No scientific certification |
-| External publication state | The v0.3.1 deployment is recorded at §0.77. Target remains `https://vasylhryha.github.io/rrg_theory/`; no external action in this v0.3.2 task |
-| Next action | Commit, push, routine CI, publish workflow and live checks (owner-authorized, `docs/evidence/fidelity-v032/owner-authorization.md`); then the forces-by-scale wording (owner feedback §23) |
+| External publication state | Deployed §0.86: main `4f03ef1`, release `site-2026.10.07-v032`, routine CI 37596453730, publish 37597072770. Target `https://vasylhryha.github.io/rrg_theory/` |
+| Next action | Forces-by-scale wording (owner feedback §23) for owner approval |
 
 | Milestone | Accepted outcome | Requires | State |
 |---|---|---|---|
@@ -2152,3 +2152,7 @@ The following external-source decisions are **retained from R2**, whose record s
 ### 0.85 Bounded High acceptance of v0.3.2 — 7 October 2026
 
 **ACCEPTED (Claude).** Source revision: exact owner-approved §7.3 paragraph, edition metadata only otherwise, 24/24 v0.3.1 history bytes match; foundation snapshots reachable as superseded downloads. Website fidelity: 84 readings accepted, release `site-2026.10.07-v032`. Browser smoke 7/7 at both bases. Receipts: `docs/evidence/source-revision-v0.3.2/acceptance.md`, `docs/evidence/fidelity-v032/acceptance.md`. Owner authorized publication (`docs/evidence/fidelity-v032/owner-authorization.md`).
+
+### 0.86 RRG v0.3.2 deployed — 7 October 2026
+
+Main `4f03ef1`, release `site-2026.10.07-v032`; routine CI 37596453730 and publish 37597072770 passed. Live checks: home, nested routes and the original snapshot download return 200 (download bytes exact); new §7.3 paragraph, superseded-download labels and the Recursive background note are served; an unknown route returns a real 404.

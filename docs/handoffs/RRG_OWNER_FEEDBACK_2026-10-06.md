@@ -1114,3 +1114,5 @@ the generated list sits above. Reworded.
 - **Owner:** "so run them ... then do publish latest version". Codex runs the
   fidelity acceptance (`RRG_V032_FIDELITY_ACCEPTANCE_BRIEF_2026-10-07.md`) with
   fast focused checks; then commit, push, CI, publish, live checks.
+
+## 25. Deployed (7 Oct 2026): main `4f03ef1`, release `site-2026.10.07-v032`; routine CI 37596453730 and publish 37597072770 passed. Live: home, World explanation (new §7.3 paragraph), Foundation errata (three superseded downloads, bytes exact), Recursive background note, all 200; unknown route 404. Next: forces-by-scale wording (§23) for owner yes.
