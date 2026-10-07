@@ -1054,3 +1054,5 @@ the generated list sits above. Reworded.
   `site-2026.10.07-explore`.
 - **Checks:** smoke e2e 7/7 at both bases (Claude); qualification builds and
   audits pass.
+
+## 21. Deployed (7 Oct 2026): main `4cc75b7`, release `site-2026.10.07-explore`; publish run 37583870037 succeeded; the new pages are live. Owner reading pending.
